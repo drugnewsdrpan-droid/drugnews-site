@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="zh-Hant" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>藥時事 Drugnews｜生技與製藥專業入口</title>
+  <meta name="description" content="藥時事 Drugnews：聚焦投資人與藥廠 BD/CI 的臨門一腳——募資、授權、里程碑、會議與人才。" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Tailwind config for dark mode class
+    tailwind.config = { darkMode: 'class' }
+  </script>
+  <style>
+    .container { max-width: 1120px; }
+    .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .badge { @apply inline-flex items-center rounded-full border px-2 py-0.5 text-xs; }
+  </style>
+</head>
+<body class="bg-white text-slate-900 dark:bg-zinc-950 dark:text-zinc-100">
+  <!-- Top Bar -->
+  <header class="sticky top-0 z-50 border-b border-zinc-200/80 dark:border-zinc-800/80 bg-white/70 dark:bg-zinc-950/70 backdrop-blur">
+    <div class="container mx-auto px-4 h-14 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v15H6.5A2.5 2.5 0 0 0 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        <span class="font-bold tracking-wide">藥時事 Drugnews</span>
+        <span class="ml-2 inline-flex items-center rounded-full bg-zinc-100 dark:bg-zinc-800 px-2 py-0.5 text-xs">Beta</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <button id="themeBtn" class="px-2 py-1 rounded hover:bg-zinc-100 dark:hover:bg-zinc-800 text-sm">深色</button>
+        <button id="loginBtn" class="px-3 py-1.5 rounded bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900 text-sm">使用藥時事帳號</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 pb-16">
+    <!-- Category Nav -->
+    <nav id="catNav" class="flex flex-wrap gap-2 mt-4"></nav>
+
+    <!-- Hero + Sidebar -->
+    <section class="grid grid-cols-12 gap-6 mt-6">
+      <div class="col-span-12 lg:col-span-8">
+        <div class="relative overflow-hidden rounded-2xl border border-zinc-200 dark:border-zinc-800" id="hero">
+          <!-- Slides injected by JS -->
+          <div class="absolute bottom-3 right-3 flex gap-2" id="heroDots"></div>
+        </div>
+      </div>
+      <aside class="col-span-12 lg:col-span-4 space-y-4">
+        <!-- Sponsor slot -->
+        <div class="border rounded-2xl border-zinc-200 dark:border-zinc-800 p-4">
+          <div class="font-semibold mb-2 flex items-center gap-2"><span>📣</span> 贊助位（示意）</div>
+          <div class="aspect-[16/9] rounded-xl bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-900 dark:to-zinc-800 flex items-center justify-center">
+            <span class="text-sm opacity-70">Your Ad Here</span>
+          </div>
+          <a href="#sponsor" class="mt-3 w-full inline-flex justify-center py-2 rounded bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900">我要投放</a>
+        </div>
+        <!-- Newsletter -->
+        <div class="border rounded-2xl border-zinc-200 dark:border-zinc-800 p-4">
+          <div class="font-semibold mb-2 flex items-center gap-2"><span>📰</span> 訂閱電子報</div>
+          <p class="text-sm opacity-80">每週精選：募資/授權、臨床里程碑、會議與職缺，一封搞定。</p>
+          <div class="mt-3 flex gap-2">
+            <input id="subEmail" class="flex-1 rounded border border-zinc-300 dark:border-zinc-700 bg-transparent px-3 py-2 text-sm" placeholder="你的 email"/>
+            <button id="subBtn" class="px-3 rounded bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900 text-sm">訂閱</button>
+          </div>
+          <p class="mt-2 text-xs opacity-60">訂閱即同意隱私政策與贊助標註規則。</p>
+        </div>
+        <!-- Trending -->
+        <div class="border rounded-2xl border-zinc-200 dark:border-zinc-800 p-4">
+          <div class="font-semibold mb-2 flex items-center gap-2"><span>📈</span> 熱門</div>
+          <div id="trending" class="space-y-3"></div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Search + CTA buttons -->
+    <section class="mt-8 border rounded-2xl border-zinc-200 dark:border-zinc-800 p-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+      <div class="flex items-center gap-3 w-full sm:w-[60%]">
+        <span>🔎</span>
+        <input id="searchInput" class="flex-1 rounded border border-zinc-300 dark:border-zinc-700 bg-transparent px-3 py-2 text-sm" placeholder="搜尋新聞、募資、授權、KOL…（支援標籤）"/>
+      </div>
+      <div class="flex gap-2">
+        <a href="#sponsor" class="px-3 py-2 rounded bg-zinc-100 dark:bg-zinc-800 text-sm">📣 贊助快投</a>
+        <a href="#funding" class="px-3 py-2 rounded border border-zinc-300 dark:border-zinc-700 text-sm">📈 募資/授權快訊</a>
+      </div>
+    </section>
+
+    <!-- Tabs -->
+    <section class="mt-8">
+      <div class="grid grid-cols-4 text-center text-sm border rounded-full overflow-hidden border-zinc-200 dark:border-zinc-800">
+        <button data-tab="latest" class="tabBtn px-3 py-2 bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900">最新</button>
+        <button data-tab="popular" class="tabBtn px-3 py-2">熱門</button>
+        <button data-tab="funding" class="tabBtn px-3 py-2">募資快訊</button>
+        <button data-tab="jobs" class="tabBtn px-3 py-2">職缺</button>
+      </div>
+      <div id="tab-latest" class="mt-6"></div>
+      <div id="tab-popular" class="mt-6 hidden"></div>
+      <div id="tab-funding" class="mt-6 hidden"></div>
+      <div id="tab-jobs" class="mt-6 hidden"></div>
+    </section>
+
+    <!-- Monetization callouts -->
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12" id="sponsor">
+      <div class="border rounded-2xl border-zinc-200 dark:border-zinc-800 p-5">
+        <div class="font-semibold text-base flex items-center gap-2">📣 Sponsor Blast｜48 小時上刊</div>
+        <ul class="list-disc ml-6 mt-3 text-sm space-y-1 opacity-90">
+          <li>FB 置頂 48h + LinkedIn + Newsletter 置頂 1 次</li>
+          <li>素材由客戶提供（一張圖＋一句 CTA）</li>
+          <li>先付款、後上刊；上刊後 3 日提供截圖</li>
+        </ul>
+        <a id="sponsorForm" href="https://forms.gle/your-sponsor-form" target="_blank" class="inline-flex items-center mt-4 px-4 py-2 rounded bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900">提交素材（Google 表單） →</a>
+      </div>
+      <div class="border rounded-2xl border-zinc-200 dark:border-zinc-800 p-5" id="funding">
+        <div class="font-semibold text-base flex items-center gap-2">📈 Funding / Deal Announcement｜24–48 小時置頂</div>
+        <ul class="list-disc ml-6 mt-3 text-sm space-y-1 opacity-90">
+          <li>站內置頂 72h + 社群同步</li>
+          <li>新聞稿/海報直接上刊（標註 Sponsored）</li>
+          <li>名單導回企業頁面</li>
+        </ul>
+        <a id="fundingForm" href="https://forms.gle/your-funding-form" target="_blank" class="inline-flex items-center mt-4 px-4 py-2 rounded bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900">上架申請（Google 表單） →</a>
+      </div>
+    </section>
+
+    <!-- Events -->
+    <section class="mt-12">
+      <div class="flex items-center justify-between mb-3">
+        <div class="flex items-center gap-2"><span>📅</span><h3 class="font-semibold text-lg">會議 / 活動</h3></div>
+      </div>
+      <div id="events" class="grid md:grid-cols-3 gap-4"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-16 border-t border-zinc-200 dark:border-zinc-800 pt-8 pb-16 text-sm">
+      <div class="grid md:grid-cols-3 gap-6">
+        <div>
+          <h4 class="font-semibold mb-2">關於藥時事</h4>
+          <p class="opacity-80 leading-relaxed">中文雙語的生技/製藥專業入口，聚焦投資人與藥廠 BD/CI 的臨門一腳：募資、授權、里程碑、會議與人才。</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-2">合作與贊助</h4>
+          <ul class="space-y-2 opacity-90">
+            <li><a class="underline" href="#sponsor">Sponsor Blast（廣告快投）</a></li>
+            <li><a class="underline" href="#funding">Funding/Deal Announcement（快訊）</a></li>
+            <li><a class="underline" href="#">Media Kit（下載）</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-2">聯絡我們</h4>
+          <p class="opacity-90">合作信箱：hello@drugnews.tw<br/>投遞新聞：submit@drugnews.tw</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Data & Scripts -->
+  <script>
+    // -------- Mock data (replace with CMS/API later) --------
+    const categories = ["全部","新聞","交易/募資","授權/M&A","臨床里程碑","會議/活動","市場准入","專欄"];
+    const articles = [
+      { id:"a1", title:"ADC 里程碑：CX-123 公布二期 ORR 42%", summary:"HER2 低表達亞群顯示安全窗改善，擬於 2026 啟動三期。", category:"臨床里程碑", tags:["ADC","HER2","Phase 2"], image:"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1600&auto=format&fit=crop", date:"2025-09-01", author:"Drugnews 編輯", views: 1280 },
+      { id:"a2", title:"某某生技完成 B 輪 3,500 萬美元", summary:"新資金將用於 IND-enabling 與製程放大，領投為 LAV。", category:"交易/募資", tags:["Series B","LAV","IND"], image:"https://images.unsplash.com/photo-1581093588401-16ec7c16423c?q=80&w=1600&auto=format&fit=crop", date:"2025-09-10", author:"Drugnews 編輯", views: 980 },
+      { id:"a3", title:"Astellas 與台灣新創簽區域授權協議", summary:"Upfront 未披露，里程碑最高 2 億美元；亞太商業化由 Astellas 負責。", category:"授權/M&A", tags:["Licensing","Astellas","APAC"], image:"https://images.unsplash.com/photo-1526253038957-bce54e05968f?q=80&w=1600&auto=format&fit=crop", date:"2025-09-12", author:"Pan", views: 1430 },
+      { id:"a4", title:"HTA 聚焦：免疫治療於健保給付趨勢", summary:"比較 NHIA、NICE 與 PBAC 對於二線治療的門檻差異。", category:"市場准入", tags:["HTA","給付","NICE"], image:"https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1600&auto=format&fit=crop", date:"2025-09-05", author:"Drugnews 編輯", views: 620, sponsored: true },
+      { id:"a5", title:"BIO-Europe 秋季重點會議清單", summary:"Partnering 時段、熱門主題與 APAC 廠商名單總攬。", category:"會議/活動", tags:["BIO-Europe","Partnering"], image:"https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=1600&auto=format&fit=crop", date:"2025-09-15", author:"Drugnews 編輯", views: 720 },
+      { id:"a6", title:"KOL 專欄：胃癌一線治療更新", summary:"CheckMate 與 KEYNOTE 研究的差異解析與本地化意涵。", category:"專欄", tags:["Gastric","I-O"], image:"https://images.unsplash.com/photo-1581093458791-9d091a0d9c48?q=80&w=1600&auto=format&fit=crop", date:"2025-09-03", author:"Guest", views: 540 }
+    ];
+    const heroItems = [
+      { id:"h1", title:"新創募資潮回暖？三個數據看 2025 Q3", summary:"成交量回升但估值分化，授權 Upfront 比例上升。", badge:"深度", image:"https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?q=80&w=1600&auto=format&fit=crop", date:"2025-09-15", author:"Pan" },
+      { id:"h2", title:"ADC 熱度未減，平台型公司策略解讀", summary:"從 payload 多樣化到 site-specific 連接的新趨勢。", badge:"焦點", image:"https://images.unsplash.com/photo-1581093588263-108498bbc663?q=80&w=1600&auto=format&fit=crop", date:"2025-09-14", author:"編輯部" },
+      { id:"h3", title:"JPM 周生技指南：如何排滿 1:1 會議", summary:"partneringONE、Inova 與 side events 的實戰節奏。", badge:"攻略", image:"https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=1600&auto=format&fit=crop", date:"2025-09-10", author:"編輯部" }
+    ];
+    const funding = [
+      { id:"f1", company:"AcmeBio", round:"Series A", amount:"US$28M", lead:"Sofinnova", use:"IND-enabling / CMC", date:"2025-09-12", source:"#" },
+      { id:"f2", company:"OncoNext", round:"Series B", amount:"US$35M", lead:"LAV", use:"Phase 1/2", date:"2025-09-08", source:"#" },
+      { id:"f3", company:"RareTx", round:"Seed", amount:"US$8M", lead:"5AM", use:"PoC", date:"2025-09-05", source:"#" }
+    ];
+    const jobs = [
+      { id:"j1", title:"BD Manager", company:"Formosa Biotech", location:"Taipei", tags:["Licensing","Partnering","Oncology"], deadline:"2025-10-15", link:"#" },
+      { id:"j2", title:"CI Lead", company:"AcmeBio", location:"Hsinchu / Remote", tags:["Competitive Intelligence","RWE"], deadline:"2025-10-01", link:"#" },
+      { id:"j3", title:"Regulatory Affairs Specialist", company:"NextPharma TW", location:"Taipei", tags:["TFDA","eCTD"], deadline:"2025-10-30", link:"#" }
+    ];
+    const events = [
+      { id:"ev1", title:"BIO-Europe Fall", date:"2025-10-06–09", city:"Stockholm", desc:"歐洲最大生技 BD 會議，partneringONE 配對。", link:"https://bio-europe.com" },
+      { id:"ev2", title:"DIA Asia-Pacific", date:"2025-11-12–14", city:"Singapore", desc:"臨床與法規實務年會。", link:"https://www.diaglobal.org" },
+      { id:"ev3", title:"J.P. Morgan Healthcare Week", date:"2026-01-12–15", city:"San Francisco", desc:"全球資本與 BD 熱點週。", link:"https://www.jpmorgan.com" }
+    ];
+
+    // -------- Helpers --------
+    const $ = (sel) => document.querySelector(sel);
+    const $$ = (sel) => Array.from(document.querySelectorAll(sel));
+
+    // Dark mode
+    const themeBtn = $('#themeBtn');
+    const darkPref = localStorage.getItem('drugnews-dark') === '1';
+    if (darkPref) document.documentElement.classList.add('dark');
+    themeBtn.textContent = document.documentElement.classList.contains('dark') ? '淺色' : '深色';
+    themeBtn.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      const isDark = document.documentElement.classList.contains('dark');
+      themeBtn.textContent = isDark ? '淺色' : '深色';
+      localStorage.setItem('drugnews-dark', isDark ? '1' : '0');
+    });
+
+    // Login placeholder
+    $('#loginBtn').addEventListener('click', () => {
+      $('#loginBtn').textContent = '已登入：藥時事（示範）';
+      $('#loginBtn').classList.remove('bg-zinc-900','text-white','dark:bg-zinc-100','dark:text-zinc-900');
+      $('#loginBtn').classList.add('bg-zinc-100','dark:bg-zinc-800');
+    });
+
+    // Categories
+    const catNav = $('#catNav');
+    let activeCat = '全部';
+    function renderCats() {
+      catNav.innerHTML = '';
+      categories.forEach(c => {
+        const btn = document.createElement('button');
+        btn.textContent = c;
+        btn.className = `px-3 py-1.5 rounded-full border text-sm ${activeCat===c? 'bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900' : 'border-zinc-300 dark:border-zinc-700'}`;
+        btn.addEventListener('click', () => { activeCat = c; renderArticles(); });
+        catNav.appendChild(btn);
+      });
+    }
+
+    // Hero
+    const hero = $('#hero');
+    const heroDots = $('#heroDots');
+    let heroIndex = 0;
+    function renderHero() {
+      hero.querySelectorAll('.slide').forEach(n=>n.remove());
+      const item = heroItems[heroIndex];
+      const slide = document.createElement('div');
+      slide.className = 'slide relative h-[300px] sm:h-[360px]';
+      slide.innerHTML = `
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('${item.image}')"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+        <div class="absolute bottom-0 p-4 sm:p-6 text-white">
+          <span class="inline-flex items-center rounded-full bg白/20 backdrop-blur border border-white/30 px-2 py-0.5 text-xs">${item.badge}</span>
+          <h2 class="text-xl sm:text-2xl font-semibold drop-shadow mt-2 leading-snug">${item.title}</h2>
+          <p class="mt-1 text-sm max-w-2xl opacity-90 line-clamp-2">${item.summary}</p>
+          <div class="mt-2 flex items-center gap-2 text-sm opacity-90">${item.date} · ${item.author}</div>
+        </div>`;
+      hero.appendChild(slide);
+
+      heroDots.innerHTML = heroItems.map((_, i) => `<button aria-label="slide-${i}" data-i="${i}" class="h-2 w-2 rounded-full ${i===heroIndex?'bg-white':'bg-white/50'}"></button>`).join('');
+      heroDots.querySelectorAll('button').forEach(b => b.addEventListener('click', (e)=>{ heroIndex = +e.target.dataset.i; renderHero(); }));
+    }
+    setInterval(()=>{ heroIndex = (heroIndex + 1) % heroItems.length; renderHero(); }, 6000);
+
+    // Search + Articles
+    const searchInput = $('#searchInput');
+    function filteredArticles() {
+      const q = (searchInput.value || '').trim().toLowerCase();
+      return articles
+        .filter(a => activeCat==='全部' ? true : a.category===activeCat)
+        .filter(a => q ? (a.title + a.summary + a.tags.join(' ')).toLowerCase().includes(q) : true);
+    }
+
+    function articleCard(a){
+      return `<article class="border rounded-2xl border-zinc-200 dark:border-zinc-800 hover:shadow-sm transition overflow-hidden">
+        <div class="aspect-[16/9] bg-zinc-100 dark:bg-zinc-900" style="background-image:url('${a.image}'); background-size:cover; background-position:center"></div>
+        <div class="p-4 space-y-3">
+          <div class="flex items-center gap-2 text-xs">
+            <span class="badge border-zinc-300 dark:border-zinc-700">${a.category}</span>
+            ${a.sponsored ? '<span class="badge border-amber-400 text-amber-700 dark:text-amber-200">Sponsored</span>' : ''}
+          </div>
+          <a href="#" class="font-semibold leading-snug line-clamp-2 hover:underline">${a.title}</a>
+          <p class="text-sm opacity-80 line-clamp-2">${a.summary}</p>
+          <div class="flex flex-wrap gap-2 text-xs">${a.tags.map(t=>`<span class="badge border-zinc-300 dark:border-zinc-700">#${t}</span>`).join('')}</div>
+          <div class="text-xs opacity-60">${a.date} · ${a.author}</div>
+        </div>
+      </article>`
+    }
+
+    function renderArticles(){
+      // latest
+      $('#tab-latest').innerHTML = `<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">${filteredArticles().slice(0,12).map(articleCard).join('')}</div>`;
+      // popular
+      const pop = [...articles].sort((a,b)=>b.views-a.views).slice(0,12);
+      $('#tab-popular').innerHTML = `<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">${pop.map(articleCard).join('')}</div>`;
+      // trending side list
+      $('#trending').innerHTML = pop.slice(0,6).map((a,i)=>`
+        <a href="#" class="flex items-start gap-3 group">
+          <span class="text-sm w-5 h-5 rounded-full bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center">${i+1}</span>
+          <div class="min-w-0">
+            <div class="text-sm font-medium line-clamp-2 group-hover:underline">${a.title}</div>
+            <div class="text-xs opacity-60 mt-1">${a.date}</div>
+          </div>
+        </a>`).join('');
+    }
+
+    // Funding
+    function renderFunding(){
+      $('#tab-funding').innerHTML = `<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        ${funding.map(f=>`
+          <div class="border rounded-2xl border-zinc-200 dark:border-zinc-800">
+            <div class="p-4 font-semibold text-base flex items中心 gap-2">📈 ${f.company} · ${f.round}</div>
+            <div class="px-4 pb-4 text-sm space-y-2">
+              <div class="opacity-90">金額：${f.amount}</div>
+              <div class="opacity-80">領投：${f.lead}</div>
+              <div class="opacity-80">用途：${f.use}</div>
+              <div class="text-xs opacity-60">${f.date}</div>
+              <a href="${f.source}" target="_blank" class="w-full inline-flex justify-center mt-2 px-3 py-2 rounded bg-zinc-100 dark:bg-zinc-800">新聞來源 ↗</a>
+            </div>
+          </div>`).join('')}
+      </div>`;
+    }
+
+    // Jobs
+    function renderJobs(){
+      $('#tab-jobs').innerHTML = `<div class="grid md:grid-cols-2 gap-4">
+        ${jobs.map(j=>`
+          <div class="border rounded-2xl border-zinc-200 dark:border-zinc-800 p-4 flex items-start gap-4">
+            <div class="h-12 w-12 rounded-xl bg-zinc-100 dark:bg-zinc-900 flex items-center justify-center font-semibold">${j.company[0]}</div>
+            <div class="min-w-0">
+              <div class="font-medium leading-tight">${j.title}</div>
+              <div class="text-sm opacity-80">${j.company} · ${j.location}</div>
+              <div class="mt-2 flex flex-wrap gap-2 text-xs">${j.tags.map(t=>`<span class="badge border-zinc-300 dark:border-zinc-700">${t}</span>`).join('')}</div>
+              <div class="mt-2 text-xs opacity-60">截止：${j.deadline}</div>
+              <div class="mt-3 flex gap-2">
+                <a href="${j.link}" target="_blank" class="px-3 py-1.5 rounded bg-zinc-900 text白 dark:bg-zinc-100 dark:text-zinc-900 text-sm">應徵</a>
+                <a href="#sponsor" class="px-3 py-1.5 rounded bg-zinc-100 dark:bg-zinc-800 text-sm">企業置頂</a>
+              </div>
+            </div>
+          </div>`).join('')}
+      </div>`;
+    }
+
+    // Events
+    function renderEvents(){
+      $('#events').innerHTML = events.map(ev=>`
+        <div class="border rounded-2xl border-zinc-200 dark:border-zinc-800">
+          <div class="p-4">
+            <div class="flex items-center justify-between gap-2">
+              <div class="font-semibold text-base line-clamp-2">${ev.title}</div>
+              <span class="inline-flex items-center rounded-full bg-zinc-100 dark:bg-zinc-800 px-2 py-0.5 text-xs">${ev.city}</span>
+            </div>
+            <div class="mt-2 flex items-center gap-2 text-sm opacity-80">${ev.date}</div>
+            <p class="mt-2 text-sm opacity-80 line-clamp-2">${ev.desc}</p>
+            <a href="${ev.link}" target="_blank" class="w-full inline-flex justify-center mt-3 px-3 py-2 rounded bg-zinc-100 dark:bg-zinc-800">前往報名 ↗</a>
+          </div>
+        </div>`).join('');
+    }
+
+    // Tabs
+    $$('.tabBtn').forEach(btn=>btn.addEventListener('click', (e)=>{
+      const v = e.target.dataset.tab;
+      $$('.tabBtn').forEach(b=>b.classList.remove('bg-zinc-900','text-white','dark:bg-zinc-100','dark:text-zinc-900'));
+      e.target.classList.add('bg-zinc-900','text-white','dark:bg-zinc-100','dark:text-zinc-900');
+      ['latest','popular','funding','jobs'].forEach(id=>{ $('#tab-'+id).classList.toggle('hidden', id!==v); });
+    }));
+
+    // Search
+    searchInput.addEventListener('input', renderArticles);
+
+    // Boot
+    renderCats();
+    renderHero();
+    renderArticles();
+    renderFunding();
+    renderJobs();
+    renderEvents();
+  </script>
+</body>
+</html>
