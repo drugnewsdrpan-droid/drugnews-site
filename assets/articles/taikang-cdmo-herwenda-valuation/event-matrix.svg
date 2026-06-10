@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#ffffff"/>
+  <text x="80" y="82" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#15323e">台康 SOTP 事件矩陣</text>
+  <g font-family="Arial, sans-serif" font-size="26">
+    <rect x="90" y="140" width="320" height="120" rx="8" fill="#eef5f7" stroke="#d9e1e5"/>
+    <text x="120" y="190" font-weight="700" fill="#15323e">CDMO 地板</text>
+    <text x="120" y="228" fill="#61717a">毛利率、產能、訂單品質</text>
+    <rect x="440" y="140" width="320" height="120" rx="8" fill="#eef5f7" stroke="#d9e1e5"/>
+    <text x="470" y="190" font-weight="700" fill="#15323e">Herwenda 放量</text>
+    <text x="470" y="228" fill="#61717a">規格、供貨、商業化訊號</text>
+    <rect x="790" y="140" width="320" height="120" rx="8" fill="#eef5f7" stroke="#d9e1e5"/>
+    <text x="820" y="190" font-weight="700" fill="#15323e">後續管線</text>
+    <text x="820" y="228" fill="#61717a">EG1206A、下一個產品</text>
+    <path d="M250 290v80M600 290v80M950 290v80" stroke="#d98332" stroke-width="5"/>
+    <rect x="90" y="400" width="1020" height="130" rx="8" fill="#15323e"/>
+    <text x="130" y="460" font-weight="700" fill="#ffffff">估值參數被事件逐步解鎖</text>
+    <text x="130" y="505" fill="#d9e9ee">不是情緒，而是每個可追蹤節點是否兌現。</text>
+  </g>
+</svg>

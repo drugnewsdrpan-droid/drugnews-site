@@ -1,0 +1,10 @@
+{
+  "name": "drugnews-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "publish": "node scripts/publish_articles.mjs",
+    "publish:force": "node scripts/publish_articles.mjs --force"
+  }
+}

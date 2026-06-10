@@ -1,22 +1,46 @@
-[README.txt](https://github.com/user-attachments/files/22483804/README.txt)
-# Drugnews 靜態單頁（GitHub Pages 版）
+# Drugnews GitHub Pages Site
 
-## 一鍵上線（完全免費，免安裝）
-1. 到 GitHub 建一個 repo，例如 `drugnews-site`。
-2. 點 **Add file → Upload files**，把 `index.html` 拖進去（或整個 `drugnews-site` 資料夾拖上去）。
-3. 上傳完成後，進入 **Settings → Pages**：
-   - **Source** 選 **Deploy from a branch**
-   - **Branch** 選 **main**，**Folder** 選 **/** 或 **/docs**
-   - 若你選 `/docs`，請把 `index.html` 放在 `docs/` 目錄底下再上傳一次
-4. 儲存後等待 1–2 分鐘，GitHub Pages 會給你公開網址：
-   `https://<你的帳號>.github.io/<repo>/`
+This is a static GitHub Pages site for Drugnews. It is designed as a long-form article hub, while Facebook and Dcard remain distribution channels.
 
-> 如果你把 repo 命名成 `你的帳號.github.io`，把 `index.html` 放在根目錄，網址會是：
-> `https://你的帳號.github.io/`。
+## Daily Publishing Workflow
 
-## 替換代表作連結
-打開 `index.html` 搜尋「代表作」，把三個 Vocus、三個 Facebook 的連結換成你的文章/貼文 URL。
+1. Create one folder under `content/inbox/`.
+2. Add:
+   - `article.md`
+   - `meta.json`
+   - optional `images/`
+3. Run:
 
-## 聯絡與 CTA
-- Email：drugnews.dr.pan@gmail.com
-- 「預約 30 分鐘」按鈕是 mailto（已預填主旨與問題），可直接改為你的 Calendly 連結。
+```bash
+npm run publish
+```
+
+Articles with `publish_at` in the past are generated into `articles/`, moved to `content/published/`, and added to `search-index.json` and `sitemap.xml`.
+
+Use `npm run publish:force` to publish inbox drafts regardless of `publish_at`.
+
+## Article Markdown
+
+Use normal Markdown headings, paragraphs, links, lists, blockquotes, and inline images:
+
+```markdown
+![Image caption](images/example.jpg)
+```
+
+Each article must include the disclaimer sentence that the content does not constitute investment, medical, fundraising, or stock advice.
+
+## Meta File
+
+```json
+{
+  "title": "Article title",
+  "date": "2026-06-10",
+  "publish_at": "2026-06-10T10:30:00+08:00",
+  "category": "生技估值",
+  "tags": ["估值", "生技"],
+  "summary": "Short article summary.",
+  "slug": "optional-english-slug",
+  "facebook_url": "",
+  "dcard_url": ""
+}
+```
