@@ -397,6 +397,24 @@ function articleRecord(article) {
 }
 
 function articleIndexPage(records) {
+  const lead = records[0];
+  const latest = records.slice(1, 5);
+  const categoryLinks = [...CATEGORIES.keys()].map((category) => {
+    const count = records.filter((item) => item.category === category).length;
+    if (!count) return "";
+    return `<a href="category/${categorySlug(category)}.html"><span>${escapeHtml(category)}</span><strong>${count}</strong></a>`;
+  }).filter(Boolean).join("");
+  const leadHtml = lead ? `<a class="featured-article" href="${lead.fileName}">
+    <div class="meta"><span>${lead.date}</span><span>${escapeHtml(lead.category)}</span></div>
+    <h2>${escapeHtml(lead.title)}</h2>
+    <p>${escapeHtml(lead.summary)}</p>
+    <div class="tag-row">${lead.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
+    <span class="text-link">閱讀主打分析</span>
+  </a>` : "";
+  const latestHtml = latest.map((item) => `<a class="latest-link" href="${item.fileName}">
+    <span>${item.date}</span>
+    <strong>${escapeHtml(item.title)}</strong>
+  </a>`).join("");
   const cards = records.map((item) => `<a class="article-card" href="${item.fileName}">
     <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span></div>
     <h3>${escapeHtml(item.title)}</h3>
@@ -417,7 +435,22 @@ function articleIndexPage(records) {
 <body>
 ${headerHtml("articles")}
 <main>
-  <section class="page-title"><div class="container"><h1>文章中心</h1><p>把 FB / Dcard 的觸及，沉澱成可搜尋、可分類、可長期閱讀的 Drugnews 內容主站。</p></div></section>
+  <section class="page-title insights-title"><div class="container"><p class="eyebrow">Drugnews articles</p><h1>文章中心</h1><p>把 FB / Dcard 的觸及，沉澱成可搜尋、可分類、可長期閱讀的 Drugnews 內容主站。</p></div></section>
+  <section class="section white">
+    <div class="container insights-grid">
+      ${leadHtml}
+      <aside class="latest-panel">
+        <p class="eyebrow">Latest</p>
+        <h2>最新更新</h2>
+        <div>${latestHtml}</div>
+      </aside>
+    </div>
+  </section>
+  <section class="section compact white">
+    <div class="container category-rail">
+      ${categoryLinks}
+    </div>
+  </section>
   <section class="section white">
     <div class="container newsletter compact">
       <div>
@@ -430,6 +463,12 @@ ${headerHtml("articles")}
   </section>
   <section class="section">
     <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>全部文章</h2>
+          <p>用公司、藥物、技術、疾病、BD 或估值關鍵字搜尋。</p>
+        </div>
+      </div>
       <input class="search-box" data-search-input type="search" placeholder="搜尋公司、主題、估值、BD、IR...">
       <div class="article-list" data-search-results style="margin-top:20px">${cards}</div>
     </div>
