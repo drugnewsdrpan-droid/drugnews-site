@@ -59,7 +59,8 @@ a { color: inherit; }
   gap: 12px;
   text-decoration: none;
   font-weight: 820;
-  letter-spacing: 0.02em;
+  letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .brand img { width: 34px; height: 34px; }
