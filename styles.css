@@ -1260,9 +1260,89 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   font-size: 1rem;
 }
 
+.article-library {
+  padding-top: 44px;
+}
+
+.article-library-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 28px;
+  align-items: end;
+  margin-bottom: 22px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
+}
+
+.article-library-head h2 {
+  margin-bottom: 8px;
+}
+
+.article-library-head p:not(.eyebrow) {
+  max-width: 760px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.library-stats {
+  min-width: 160px;
+  padding: 16px 18px;
+  border-left: 2px solid var(--brand);
+  background: #fff;
+}
+
+.library-stats strong {
+  display: block;
+  color: var(--brand);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.library-stats span {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.library-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.library-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--brand);
+  font-size: 0.9rem;
+  font-weight: 760;
+  text-decoration: none;
+}
+
+.library-links a:hover {
+  border-color: var(--brand);
+  background: var(--porcelain);
+}
+
+.library-links.muted {
+  margin-bottom: 20px;
+}
+
+.library-links.muted a {
+  color: var(--muted);
+  font-weight: 680;
+}
+
 @media (max-width: 860px) {
   h1 { font-size: 2.25rem; }
-  .hero-grid, .home-hero-grid, .masthead, .grid, .grid.two, .article-layout, .newsletter, .lead-story, .featured-article, .editorial-note, .editorial-list, .service-strip-inner, .client-proof-grid, .team-hero, .team-grid, .team-belief, .differentiation-strip, .guide-index-grid, .video-panel {
+  .hero-grid, .home-hero-grid, .masthead, .grid, .grid.two, .article-layout, .newsletter, .lead-story, .featured-article, .editorial-note, .editorial-list, .service-strip-inner, .client-proof-grid, .team-hero, .team-grid, .team-belief, .differentiation-strip, .guide-index-grid, .video-panel, .article-library-head {
     grid-template-columns: 1fr;
   }
   .article-card.with-image, .editorial-list .article-card.with-image {

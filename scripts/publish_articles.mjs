@@ -559,24 +559,14 @@ function articleCardHtml(item, href, imageSrc = item.image) {
 
 function articleIndexPage(records) {
   const lead = records[0];
-  const latest = records.slice(1, 5);
-  const leadImage = lead?.image ? `<img src="${escapeHtml(lead.image)}" alt="${escapeHtml(lead.imageAlt)}" loading="lazy">` : "";
-  const leadHref = lead?.external ? lead.url : lead?.fileName;
-  const leadTarget = lead?.external ? ' target="_blank" rel="noopener"' : "";
-  const leadHtml = lead ? `<a class="featured-article" href="${escapeHtml(leadHref)}"${leadTarget}>
-    ${leadImage ? `<div class="featured-image">${leadImage}</div>` : ""}
-    <div class="featured-copy">
-      <div class="meta"><span>${lead.date}</span><span>${escapeHtml(lead.category)}</span>${lead.external ? `<span>${escapeHtml(lead.source)}・${escapeHtml(lead.access)}</span>` : ""}</div>
-      <h2>${escapeHtml(lead.title)}</h2>
-      <p>${escapeHtml(lead.summary)}</p>
-      <div class="tag-row">${lead.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
-      <span class="text-link">${lead.external ? "前往方格子" : "閱讀全文"}</span>
-    </div>
-  </a>` : "";
-  const latestHtml = latest.map((item) => `<a class="latest-link" href="${escapeHtml(item.external ? item.url : item.fileName)}"${item.external ? ' target="_blank" rel="noopener"' : ""}>
-    <span>${item.date}</span>
-    <strong>${escapeHtml(item.title)}</strong>
-  </a>`).join("");
+  const categoryLinks = [...CATEGORIES.keys()]
+    .filter((category) => records.some((item) => item.category === category))
+    .map((category) => `<a href="category/${categorySlug(category)}.html">${escapeHtml(category)}</a>`)
+    .join("");
+  const monthLinks = [...new Set(records.map((item) => monthKey(item.date)))]
+    .slice(0, 4)
+    .map((key) => `<a href="archive/${key}.html">${formatMonth(key)}</a>`)
+    .join("");
   const cards = records.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("");
   return `<!doctype html>
 <html lang="zh-Hant">
@@ -601,44 +591,21 @@ function articleIndexPage(records) {
 ${headerHtml("articles")}
 <main>
   <section class="page-title insights-title"><div class="container"><p class="eyebrow">分析文章</p><h1>研究文章庫</h1><p>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察，重點不是蒐集資料，而是形成可驗證的商業判斷。</p></div></section>
-  <section class="section white">
-    <div class="container insights-grid">
-      ${leadHtml}
-      <aside class="latest-panel">
-        <p class="eyebrow">最近更新</p>
-        <h2>最新文章</h2>
-        <div>${latestHtml}</div>
-      </aside>
-    </div>
-  </section>
-  <section class="section white">
-    <div class="container newsletter compact">
-      <div>
-        <p class="eyebrow">研究指南</p>
-        <h2>先建立閱讀框架</h2>
-        <p>如果你剛開始追生技醫藥公司，可以先從研究指南理解商業競爭格局與估值框架，再回到文章中心看 Drugnews 如何做實際判讀。</p>
-      </div>
-      <div class="actions"><a class="button secondary" href="../guides/">閱讀研究指南</a></div>
-    </div>
-  </section>
-  <section class="section white">
-    <div class="container newsletter compact">
-      <div>
-        <p class="eyebrow">付費專欄</p>
-        <h2>訂閱方格子付費專欄</h2>
-        <p>網站提供公開事件的商業判讀；方格子提供更完整的深度研究、公司追蹤與產業筆記。</p>
-      </div>
-      <div class="actions"><a class="button primary" href="../subscribe.html">了解付費專欄</a></div>
-    </div>
-  </section>
-  <section class="section">
+  <section class="section article-library">
     <div class="container">
-      <div class="section-head">
+      <div class="article-library-head">
         <div>
-          <h2>全部文章</h2>
-          <p>用公司、藥物、技術、疾病、BD 或估值關鍵字，回到具體案例看判斷如何形成。</p>
+          <p class="eyebrow">完整索引</p>
+          <h2>搜尋與分類</h2>
+          <p>用公司、藥物、技術、疾病、BD 或估值關鍵字，直接回到具體案例。</p>
+        </div>
+        <div class="library-stats">
+          <strong>${records.length}</strong>
+          <span>篇文章與外部專欄連結</span>
         </div>
       </div>
+      <div class="library-links" aria-label="文章分類">${categoryLinks}</div>
+      <div class="library-links muted" aria-label="月份歸檔">${monthLinks}</div>
       <input class="search-box" data-search-input type="search" placeholder="搜尋公司、主題、估值、BD、IR...">
       <div class="article-list" data-search-results style="margin-top:20px">${cards}</div>
     </div>
