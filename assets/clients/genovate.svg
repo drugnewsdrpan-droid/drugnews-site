@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="88" viewBox="0 0 240 88" role="img" aria-labelledby="title desc">
+  <title id="title">智新生物</title>
+  <desc id="desc">智新生物合作公司標誌</desc>
+  <rect width="240" height="88" rx="18" fill="#ffffff"/>
+  <circle cx="55" cy="44" r="25" fill="#eef5f7" stroke="#265f73" stroke-width="4"/>
+  <path d="M43 52c15-22 31-22 45 0M43 36c15 22 31 22 45 0" fill="none" stroke="#265f73" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="55" cy="44" r="5" fill="#d3752c"/>
+  <text x="153" y="46" text-anchor="middle" font-family="'Noto Serif TC','Songti TC',serif" font-size="23" font-weight="800" fill="#12313c">智新生物</text>
+  <text x="153" y="67" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#6c7a82">GENOVATE</text>
+</svg>

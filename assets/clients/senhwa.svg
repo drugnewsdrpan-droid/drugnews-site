@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="88" viewBox="0 0 240 88" role="img" aria-labelledby="title desc">
+  <title id="title">生華科</title>
+  <desc id="desc">生華科合作公司標誌</desc>
+  <rect width="240" height="88" rx="18" fill="#ffffff"/>
+  <path d="M44 58c5-22 18-36 38-42 18 5 31 17 37 37-19 12-44 13-75 5Z" fill="#e9f4f4" stroke="#287f8d" stroke-width="4"/>
+  <path d="M82 18c0 14-6 25-18 33M82 18c8 12 12 24 10 37" fill="none" stroke="#287f8d" stroke-width="3" stroke-linecap="round"/>
+  <text x="145" y="46" text-anchor="middle" font-family="'Noto Serif TC','Songti TC',serif" font-size="25" font-weight="800" fill="#12313c">生華科</text>
+  <text x="145" y="67" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#6c7a82">SENHWA</text>
+</svg>
