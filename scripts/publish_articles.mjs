@@ -366,6 +366,7 @@ function articleRecord(article) {
     categorySlug: categorySlug(meta.category),
     tags: meta.tags,
     summary: meta.summary,
+    publishAt: meta.publish_at,
     slug: meta.slug,
     fileName,
     url: `articles/${fileName}`,
@@ -519,7 +520,11 @@ async function main() {
     const imageMap = await copyImages(article);
     withImages.push({ ...article, imageMap });
   }
-  withImages.sort((a, b) => b.meta.date.localeCompare(a.meta.date));
+  withImages.sort((a, b) => {
+    const bTime = new Date(b.meta.publish_at || `${b.meta.date}T00:00:00+08:00`).getTime();
+    const aTime = new Date(a.meta.publish_at || `${a.meta.date}T00:00:00+08:00`).getTime();
+    return bTime - aTime || b.meta.title.localeCompare(a.meta.title, "zh-Hant");
+  });
   const records = withImages.map(articleRecord);
 
   for (const article of withImages) {

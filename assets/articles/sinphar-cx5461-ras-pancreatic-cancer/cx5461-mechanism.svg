@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">CX-5461 多機制抗藥性管理拼圖</title>
+  <desc id="desc">CX-5461 透過核糖體壓力、DNA 損傷壓力和免疫活化壓力，作為 RAS 標靶後聯合治療候選策略。</desc>
+  <rect width="1200" height="760" fill="#fbfaf6"/>
+  <text x="85" y="105" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="44" font-weight="700" fill="#132a31">CX-5461：補上抗藥性管理拼圖</text>
+  <text x="85" y="150" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="22" fill="#52696f">不是取代 RAS 抑制劑，而是作為 RAS 標靶後時代的聯合治療夥伴。</text>
+  <g transform="translate(90 235)">
+    <rect width="300" height="260" rx="26" fill="#ffffff" stroke="#d9e7e3" stroke-width="3"/>
+    <circle cx="150" cy="92" r="48" fill="#eaf5f4"/>
+    <text x="76" y="178" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="27" font-weight="700" fill="#16323a">核糖體壓力</text>
+    <text x="58" y="220" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="21" fill="#52696f">干擾癌細胞蛋白質工廠</text>
+  </g>
+  <g transform="translate(450 235)">
+    <rect width="300" height="260" rx="26" fill="#ffffff" stroke="#d9e7e3" stroke-width="3"/>
+    <circle cx="150" cy="92" r="48" fill="#fff4e8"/>
+    <text x="67" y="178" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="27" font-weight="700" fill="#6d3e0f">DNA 損傷壓力</text>
+    <text x="54" y="220" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="21" fill="#52696f">提高複製壓力與修復負擔</text>
+  </g>
+  <g transform="translate(810 235)">
+    <rect width="300" height="260" rx="26" fill="#ffffff" stroke="#d9e7e3" stroke-width="3"/>
+    <circle cx="150" cy="92" r="48" fill="#eaf5f4"/>
+    <text x="76" y="178" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="27" font-weight="700" fill="#16323a">免疫活化壓力</text>
+    <text x="58" y="220" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="21" fill="#52696f">讓冷腫瘤更可能被看見</text>
+  </g>
+  <path d="M235 535c155 85 575 85 730 0" fill="none" stroke="#d8832f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M930 508l45 25-45 28z" fill="#d8832f"/>
+  <rect x="250" y="595" width="700" height="70" rx="20" fill="#10242c"/>
+  <text x="313" y="640" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="25" font-weight="700" fill="#ffffff">目標：提高抗藥門檻，創造 PD-1 併用與免疫增敏機會</text>
+</svg>
