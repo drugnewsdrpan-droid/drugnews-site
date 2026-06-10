@@ -296,6 +296,52 @@ h3 { margin: 0 0 10px; font-size: 1.18rem; }
   min-height: 158px;
 }
 
+.topic-guide {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+  gap: 36px;
+  align-items: start;
+}
+
+.topic-guide-main {
+  border-top: 1px solid var(--line);
+}
+
+.topic-row {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  gap: 22px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+  text-decoration: none;
+}
+
+.topic-row span {
+  color: var(--gold);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.topic-row h3 {
+  margin-bottom: 6px;
+}
+
+.topic-row p {
+  max-width: 720px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.topic-guide-aside {
+  border-top: 3px solid var(--brand);
+  padding-top: 20px;
+}
+
+.topic-guide-aside p {
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
 .card p { margin: 8px 0 0; color: var(--muted); }
 
 .tag-row {
@@ -678,6 +724,7 @@ h3 { margin: 0 0 10px; font-size: 1.18rem; }
   }
   .card-thumb { aspect-ratio: 16 / 9; }
   .insights-grid { grid-template-columns: 1fr; }
+  .topic-guide { grid-template-columns: 1fr; }
   .featured-article img { aspect-ratio: 16 / 9; }
   .category-rail { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .topic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
