@@ -570,7 +570,7 @@ ${headerHtml("articles")}
       <div>
         <p class="eyebrow">Research guides</p>
         <h2>先建立閱讀框架</h2>
-        <p>如果你剛開始追生技醫藥公司，可以先從研究指南理解估值、BD 授權與生醫 IR，再回到文章中心看實際案例。</p>
+        <p>如果你剛開始追生技醫藥公司，可以先從研究指南理解商業競爭格局與估值框架，再回到文章中心看實際案例。</p>
       </div>
       <div class="actions"><a class="button secondary" href="../guides/">閱讀研究指南</a></div>
     </div>
@@ -654,17 +654,15 @@ ${footerHtml()}
 
 function sitemap(records) {
   const staticUrls = [
-    ["", "1.0"],
+    ["", "1.0", "2026-06-10"],
     ["articles/", "0.9"],
     ["guides/", "0.8"],
     ["guides/biotech-valuation.html", "0.7"],
-    ["guides/biotech-bd-licensing.html", "0.7"],
-    ["guides/biotech-ir.html", "0.7"],
     ["subscribe.html", "0.8"],
     ["services.html", "0.8"],
     ["team.html", "0.7"]
   ];
-  const urls = staticUrls.map(([loc, priority]) => `  <url><loc>${BASE_URL}/${loc}</loc><priority>${priority}</priority></url>`);
+  const urls = staticUrls.map(([loc, priority, lastmod]) => `  <url><loc>${BASE_URL}/${loc}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}<priority>${priority}</priority></url>`);
   for (const category of CATEGORIES.keys()) {
     if (!records.some((item) => item.category === category)) continue;
     urls.push(`  <url><loc>${BASE_URL}/articles/category/${categorySlug(category)}.html</loc><priority>0.6</priority></url>`);

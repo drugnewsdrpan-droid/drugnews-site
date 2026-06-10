@@ -472,6 +472,10 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   border-left: 1px solid var(--line);
 }
 
+.guide-index-grid.single-guide {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .guide-card {
   min-height: 280px;
   padding: 32px;
@@ -502,6 +506,44 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 .guide-card p {
   margin: 0;
   color: var(--muted);
+}
+
+.featured-guide-card {
+  min-height: 230px;
+}
+
+.video-panel {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.46fr) minmax(0, 1fr);
+  gap: 34px;
+  align-items: center;
+  padding-top: 8px;
+  border-top: 2px solid var(--brand);
+}
+
+.video-panel p {
+  color: var(--muted);
+}
+
+.video-embed {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #0d2028;
+}
+
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.article-video {
+  margin: 28px 0;
 }
 
 .card p { margin: 8px 0 0; color: var(--muted); }
@@ -1223,7 +1265,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 
 @media (max-width: 860px) {
   h1 { font-size: 2.25rem; }
-  .hero-grid, .home-hero-grid, .masthead, .grid, .grid.two, .article-layout, .newsletter, .lead-story, .featured-article, .editorial-note, .editorial-list, .service-strip-inner, .client-proof-grid, .team-hero, .team-grid, .team-belief, .differentiation-strip, .guide-index-grid {
+  .hero-grid, .home-hero-grid, .masthead, .grid, .grid.two, .article-layout, .newsletter, .lead-story, .featured-article, .editorial-note, .editorial-list, .service-strip-inner, .client-proof-grid, .team-hero, .team-grid, .team-belief, .differentiation-strip, .guide-index-grid, .video-panel {
     grid-template-columns: 1fr;
   }
   .article-card.with-image, .editorial-list .article-card.with-image {
