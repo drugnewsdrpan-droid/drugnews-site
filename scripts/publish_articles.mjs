@@ -381,6 +381,8 @@ ${footerHtml()}
 function articleRecord(article) {
   const { meta } = article;
   const fileName = `${meta.date}-${meta.slug}.html`;
+  const firstImage = findMarkdownImages(article.markdown)[0];
+  const image = firstImage ? article.imageMap.get(firstImage.src) || firstImage.src : "";
   return {
     title: meta.title,
     date: meta.date,
@@ -388,6 +390,8 @@ function articleRecord(article) {
     categorySlug: categorySlug(meta.category),
     tags: meta.tags,
     summary: meta.summary,
+    image,
+    imageAlt: firstImage?.alt || meta.title,
     publishAt: meta.publish_at,
     slug: meta.slug,
     fileName,
@@ -404,12 +408,16 @@ function articleIndexPage(records) {
     if (!count) return "";
     return `<a href="category/${categorySlug(category)}.html"><span>${escapeHtml(category)}</span><strong>${count}</strong></a>`;
   }).filter(Boolean).join("");
+  const leadImage = lead?.image ? `<img src="${escapeHtml(lead.image)}" alt="${escapeHtml(lead.imageAlt)}" loading="lazy">` : "";
   const leadHtml = lead ? `<a class="featured-article" href="${lead.fileName}">
-    <div class="meta"><span>${lead.date}</span><span>${escapeHtml(lead.category)}</span></div>
-    <h2>${escapeHtml(lead.title)}</h2>
-    <p>${escapeHtml(lead.summary)}</p>
-    <div class="tag-row">${lead.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
-    <span class="text-link">閱讀主打分析</span>
+    ${leadImage}
+    <div class="featured-copy">
+      <div class="meta"><span>${lead.date}</span><span>${escapeHtml(lead.category)}</span></div>
+      <h2>${escapeHtml(lead.title)}</h2>
+      <p>${escapeHtml(lead.summary)}</p>
+      <div class="tag-row">${lead.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
+      <span class="text-link">閱讀主打分析</span>
+    </div>
   </a>` : "";
   const latestHtml = latest.map((item) => `<a class="latest-link" href="${item.fileName}">
     <span>${item.date}</span>

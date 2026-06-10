@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">台灣生技估值框架</title>
+  <desc id="desc">用五種資產類型拆解台灣生技公司的估值方法。</desc>
+  <rect width="1200" height="675" fill="#102733"/>
+  <rect x="62" y="62" width="1076" height="551" rx="28" fill="#ffffff"/>
+  <text x="100" y="130" fill="#102733" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="42" font-weight="700">台灣生技估值，不只看本益比</text>
+  <text x="100" y="178" fill="#67737c" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="24">先分辨公司資產類型，再選模型與追蹤事件。</text>
+  <g font-family="Arial, 'Noto Sans TC', sans-serif">
+    <rect x="100" y="245" width="185" height="250" rx="18" fill="#eef5f7"/>
+    <text x="126" y="305" fill="#102733" font-size="28" font-weight="700">商業化新藥</text>
+    <text x="126" y="360" fill="#245265" font-size="22">患者池</text>
+    <text x="126" y="398" fill="#245265" font-size="22">藥價</text>
+    <text x="126" y="436" fill="#245265" font-size="22">滲透率</text>
+    <rect x="304" y="245" width="185" height="250" rx="18" fill="#f7f4ed"/>
+    <text x="330" y="305" fill="#102733" font-size="28" font-weight="700">臨床新藥</text>
+    <text x="330" y="360" fill="#946323" font-size="22">成功率</text>
+    <text x="330" y="398" fill="#946323" font-size="22">競品</text>
+    <text x="330" y="436" fill="#946323" font-size="22">BD 條款</text>
+    <rect x="508" y="245" width="185" height="250" rx="18" fill="#eff5f1"/>
+    <text x="534" y="305" fill="#102733" font-size="28" font-weight="700">CDMO</text>
+    <text x="534" y="360" fill="#366756" font-size="22">訂單能見度</text>
+    <text x="534" y="398" fill="#366756" font-size="22">毛利率</text>
+    <text x="534" y="436" fill="#366756" font-size="22">產能利用率</text>
+    <rect x="712" y="245" width="185" height="250" rx="18" fill="#f4f1f7"/>
+    <text x="738" y="305" fill="#102733" font-size="28" font-weight="700">Biosimilar</text>
+    <text x="738" y="360" fill="#5d4f7c" font-size="22">合作方</text>
+    <text x="738" y="398" fill="#5d4f7c" font-size="22">里程碑</text>
+    <text x="738" y="436" fill="#5d4f7c" font-size="22">權利金</text>
+    <rect x="916" y="245" width="185" height="250" rx="18" fill="#fff2ed"/>
+    <text x="942" y="305" fill="#102733" font-size="28" font-weight="700">現金流整合</text>
+    <text x="942" y="360" fill="#9b3d31" font-size="22">EBITDA</text>
+    <text x="942" y="398" fill="#9b3d31" font-size="22">自由現金流</text>
+    <text x="942" y="436" fill="#9b3d31" font-size="22">產品組合</text>
+  </g>
+  <text x="100" y="560" fill="#67737c" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="22">Drugnews valuation framework</text>
+</svg>

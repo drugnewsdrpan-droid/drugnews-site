@@ -41,7 +41,7 @@
             <a class="button secondary" href="#topics">依主題瀏覽</a>
           </div>
         </div>
-        <a class="lead-story" href="articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html">
+        <a class="lead-story" id="lead-story" href="articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html">
           <img src="assets/articles/sinphar-cx5461-ras-pancreatic-cancer/dcard-01.png" alt="RAS 標靶打開胰臟癌新局">
           <div class="lead-story-body">
             <div class="meta"><span>最新分析</span><span>公司研究</span></div>
@@ -120,7 +120,14 @@
   <script>
     fetch("search-index.json", { cache: "no-store" }).then(r => r.json()).then(items => {
       const list = document.getElementById("latest-articles");
+      const lead = document.getElementById("lead-story");
       if (!items.length) return;
+      const first = items[0];
+      if (lead && first) {
+        const image = first.image ? first.image.replace(/^\.\.\//, "") : "";
+        lead.href = first.url;
+        lead.innerHTML = `${image ? `<img src="${image}" alt="${first.imageAlt || first.title}">` : ""}<div class="lead-story-body"><div class="meta"><span>最新分析</span><span>${first.category}</span></div><h2>${first.title}</h2><p>${first.summary}</p><span class="text-link">閱讀全文</span></div>`;
+      }
       list.innerHTML = items.slice(0, 4).map(item => `<a class="article-card" href="${item.url}"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${item.title}</h3><p>${item.summary}</p><div class="tag-row">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}</div></a>`).join("");
     }).catch(() => {});
   </script>
