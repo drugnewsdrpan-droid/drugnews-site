@@ -364,13 +364,18 @@ function articlePage(article, bodyHtml, related) {
 </head>
 <body>
 ${headerHtml("articles")}
-<main class="section">
-  <div class="container article-layout">
-    <article class="article-body">
+<main>
+  <section class="article-hero">
+    <div class="container article-hero-inner">
       <div class="meta"><span>${formatDate(meta.date)}</span><span>${escapeHtml(meta.category)}</span></div>
       <h1>${escapeHtml(meta.title)}</h1>
-      <p>${escapeHtml(meta.summary)}</p>
+      <p class="article-deck">${escapeHtml(meta.summary)}</p>
       <div class="tag-row">${meta.tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
+    </div>
+  </section>
+  <section class="section article-section">
+    <div class="container article-layout">
+      <article class="article-body">
       ${bodyHtml}
       <div class="notice">${DISCLAIMER}</div>
       ${sourceLinks ? `<h2>社群原文</h2><div class="tag-row">${sourceLinks}</div>` : ""}
@@ -379,8 +384,8 @@ ${headerHtml("articles")}
         <p>想持續追蹤更多公司研究、產業脈絡與資本市場觀察，可在方格子訂閱 Drugnews 付費專欄。</p>
         <div class="actions"><a class="button primary" href="../subscribe.html">了解付費專欄</a></div>
       </div>
-    </article>
-    <aside class="sidebar">
+      </article>
+      <aside class="sidebar">
       <div class="card paid-card">
         <p class="eyebrow">Paid column</p>
         <h3>方格子付費專欄</h3>
@@ -393,8 +398,9 @@ ${headerHtml("articles")}
         <div class="actions"><a class="button secondary" href="${NEWSLETTER_URL}" target="_blank" rel="noopener">免費訂閱</a></div>
       </div>
       ${relatedHtml}
-    </aside>
-  </div>
+      </aside>
+    </div>
+  </section>
 </main>
 ${footerHtml()}
 </body>

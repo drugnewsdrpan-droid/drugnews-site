@@ -567,35 +567,66 @@ h3 { margin: 0 0 10px; font-size: 1.18rem; }
 .category-rail span { color: var(--muted); }
 .category-rail strong { font-size: 1.8rem; color: var(--brand); }
 
+.article-hero {
+  padding: 46px 0 34px;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+
+.article-hero-inner {
+  max-width: 920px;
+}
+
+.article-hero h1 {
+  max-width: 900px;
+  margin: 14px 0 0;
+  color: var(--ink);
+  font-size: clamp(1.9rem, 3.4vw, 2.65rem);
+  line-height: 1.14;
+}
+
+.article-deck {
+  max-width: 760px;
+  margin: 18px 0 0;
+  color: #43515a;
+  font-size: clamp(1.06rem, 1.6vw, 1.22rem);
+  line-height: 1.75;
+}
+
+.article-section {
+  padding-top: 34px;
+}
+
 .article-layout {
   display: grid;
-  grid-template-columns: minmax(0, 740px) 280px;
-  gap: 42px;
+  grid-template-columns: minmax(0, 760px) 280px;
+  gap: 56px;
   align-items: start;
 }
 
 .article-body {
   background: #fff;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: clamp(22px, 4vw, 42px);
+  border: 0;
+  border-radius: 0;
+  padding: 0;
 }
 
 .article-body h1 { font-size: clamp(2rem, 4vw, 3.2rem); color: var(--brand); }
-.article-body h2 { margin-top: 42px; font-size: 1.65rem; }
-.article-body h3 { margin-top: 28px; }
-.article-body p { margin: 18px 0; }
+.article-body h2 { margin-top: 48px; font-size: 1.56rem; }
+.article-body h3 { margin-top: 34px; font-size: 1.18rem; }
+.article-body p { margin: 20px 0; color: #26323a; font-size: 1.03rem; line-height: 1.9; }
 .article-body ul, .article-body ol { padding-left: 1.4rem; }
+.article-body li { margin: 8px 0; line-height: 1.82; }
 .article-body blockquote {
-  margin: 26px 0;
-  padding: 16px 18px;
+  margin: 32px 0;
+  padding: 18px 22px;
   border-left: 4px solid var(--gold);
-  background: #fff8ef;
+  background: #fff9f1;
   color: #60401d;
 }
 
 .article-body figure {
-  margin: 30px 0;
+  margin: 34px 0;
 }
 
 .article-body img {
