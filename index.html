@@ -36,7 +36,13 @@
           <p class="eyebrow">Drugnews editorial desk</p>
           <h1>生技醫藥商業分析媒體</h1>
         </div>
-        <p>Drugnews｜藥時事為讀者整理臨床數據、公司策略、授權交易與資本市場訊號，提供可搜尋、可分類、可回頭引用的中文長文。</p>
+        <div>
+          <p>Drugnews｜藥時事為讀者整理臨床數據、公司策略、授權交易與資本市場訊號，提供可搜尋、可分類、可回頭引用的中文長文。</p>
+          <div class="audience-proof">
+            <strong>37,000+</strong>
+            <span>Facebook 粉絲，台灣生技商業分析社群中最受關注的媒體之一。</span>
+          </div>
+        </div>
       </div>
       <div class="container issue-bar" aria-label="閱讀入口">
         <a href="articles/">最新文章</a>
@@ -47,7 +53,7 @@
       </div>
       <div class="container home-hero-grid">
         <a class="lead-story" id="lead-story" href="articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html">
-          <img src="assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-editorial.png" alt="RAS 標靶治療與胰臟癌抗藥性管理的高端生醫媒體封面圖">
+          <div class="featured-image"><img src="assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-biorender.svg" alt="生華科 生技醫藥商業分析封面圖"><span class="logo-badge">生華科</span></div>
           <div class="lead-story-body">
             <div class="meta"><span>Lead story</span><span>公司研究</span></div>
             <h2>RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場抗藥性管理戰</h2>
@@ -72,6 +78,21 @@
             <a href="articles/category/bd-licensing.html">BD / 授權</a>
             <a href="articles/category/biotech-valuation.html">生技估值</a>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section compact white">
+      <div class="container differentiation-strip">
+        <div>
+          <p class="eyebrow">Why Drugnews</p>
+          <h2>我們的差異化</h2>
+        </div>
+        <div class="differentiation-grid">
+          <div><span>01</span><strong>雙博士團隊</strong><p>臨床、研發、產業與資本市場交叉判讀。</p></div>
+          <div><span>02</span><strong>從科學到估值</strong><p>不只寫新聞，而是追蹤能改變市場理解的節點。</p></div>
+          <div><span>03</span><strong>社群驗證</strong><p>37,000+ 粉絲基礎，累積生醫投資與產業讀者的長期關注。</p></div>
+          <div><span>04</span><strong>長期沉澱</strong><p>文章可搜尋、可分類、可回頭引用，形成內容資產。</p></div>
         </div>
       </div>
     </section>
@@ -156,13 +177,13 @@
       if (lead && first) {
         const image = first.image ? first.image.replace(/^\.\.\//, "") : "";
         lead.href = first.url;
-        const visual = first.imageCount > 1 ? `<span class="visual-chip">${first.imageCount} 張圖解</span>` : "";
-        lead.innerHTML = `${image ? `<img src="${image}" alt="${first.imageAlt || first.title}">` : ""}<div class="lead-story-body"><div class="meta"><span>Lead story</span><span>${first.category}</span>${visual}</div><h2>${first.title}</h2><p>${first.summary}</p><span class="text-link">閱讀全文</span></div>`;
+        const badge = first.logoLabel ? `<span class="logo-badge">${first.logoLabel}</span>` : "";
+        lead.innerHTML = `${image ? `<div class="featured-image"><img src="${image}" alt="${first.imageAlt || first.title}">${badge}</div>` : ""}<div class="lead-story-body"><div class="meta"><span>Lead story</span><span>${first.category}</span></div><h2>${first.title}</h2><p>${first.summary}</p><span class="text-link">閱讀全文</span></div>`;
       }
       list.innerHTML = items.slice(0, 4).map(item => {
         const cardImage = item.image ? item.image.replace(/^\.\.\//, "") : "";
-        const visual = item.imageCount > 1 ? `<span class="visual-chip">${item.imageCount} 圖</span>` : "";
-        return `<a class="article-card${cardImage ? " with-image" : ""}" href="${item.url}">${cardImage ? `<img class="card-thumb" src="${cardImage}" alt="${item.imageAlt || item.title}" loading="lazy">` : ""}<div class="article-card-body"><div class="meta"><span>${item.date}</span><span>${item.category}</span>${visual}</div><h3>${item.title}</h3><p>${item.summary}</p><div class="tag-row">${item.tags.slice(0, 4).map(tag => `<span class="tag">${tag}</span>`).join("")}</div></div></a>`;
+        const badge = item.logoLabel ? `<span class="logo-badge">${item.logoLabel}</span>` : "";
+        return `<a class="article-card${cardImage ? " with-image" : ""}" href="${item.url}">${cardImage ? `<div class="thumb-wrap"><img class="card-thumb" src="${cardImage}" alt="${item.imageAlt || item.title}" loading="lazy">${badge}</div>` : ""}<div class="article-card-body"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${item.title}</h3><p>${item.summary}</p><div class="tag-row">${item.tags.slice(0, 4).map(tag => `<span class="tag">${tag}</span>`).join("")}</div></div></a>`;
       }).join("");
       if (briefing) {
         briefing.innerHTML = items.slice(1, 5).map(item => `<a class="briefing-link" href="${item.url}"><span>${item.date}</span><strong>${item.title}</strong></a>`).join("");

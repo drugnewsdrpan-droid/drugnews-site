@@ -458,7 +458,7 @@ function articleRecord(article) {
     summary: meta.summary,
     image: articleCover.src,
     imageAlt: articleCover.alt,
-    imageCount: markdownImages.length,
+    logoLabel: meta.logo_label || meta.tags[0] || meta.category,
     publishAt: meta.publish_at,
     slug: meta.slug,
     fileName,
@@ -469,13 +469,12 @@ function articleRecord(article) {
 
 function articleCardHtml(item, href, imageSrc = item.image) {
   const image = imageSrc
-    ? `<img class="card-thumb" src="${escapeHtml(imageSrc)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy">`
+    ? `<div class="thumb-wrap"><img class="card-thumb" src="${escapeHtml(imageSrc)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy">${item.logoLabel ? `<span class="logo-badge">${escapeHtml(item.logoLabel)}</span>` : ""}</div>`
     : "";
-  const visual = item.imageCount > 1 ? `<span class="visual-chip">${item.imageCount} 圖</span>` : "";
   return `<a class="article-card${image ? " with-image" : ""}" href="${escapeHtml(href)}">
     ${image}
     <div class="article-card-body">
-      <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span>${visual}</div>
+      <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span></div>
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.summary)}</p>
       <div class="tag-row">${item.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
@@ -498,9 +497,9 @@ function articleIndexPage(records) {
   }).join("");
   const leadImage = lead?.image ? `<img src="${escapeHtml(lead.image)}" alt="${escapeHtml(lead.imageAlt)}" loading="lazy">` : "";
   const leadHtml = lead ? `<a class="featured-article" href="${lead.fileName}">
-    ${leadImage}
+    ${leadImage ? `<div class="featured-image">${leadImage}${lead.logoLabel ? `<span class="logo-badge">${escapeHtml(lead.logoLabel)}</span>` : ""}</div>` : ""}
     <div class="featured-copy">
-      <div class="meta"><span>${lead.date}</span><span>${escapeHtml(lead.category)}</span>${lead.imageCount > 1 ? `<span class="visual-chip">${lead.imageCount} 張圖解</span>` : ""}</div>
+      <div class="meta"><span>${lead.date}</span><span>${escapeHtml(lead.category)}</span></div>
       <h2>${escapeHtml(lead.title)}</h2>
       <p>${escapeHtml(lead.summary)}</p>
       <div class="tag-row">${lead.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>

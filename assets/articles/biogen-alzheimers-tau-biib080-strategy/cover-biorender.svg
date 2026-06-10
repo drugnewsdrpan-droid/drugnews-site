@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Biogen Tau scientific editorial cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#eef7f9"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#12313c" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <path d="M80 580c190-120 315-110 495-28s314 70 545-92" fill="none" stroke="#dbe8ec" stroke-width="2"/>
+  <path d="M115 166h970M115 300h970M115 434h970M250 90v570M496 90v570M742 90v570M988 90v570" stroke="#eef3f5" stroke-width="2"/>
+  <g opacity=".5"><circle cx="155" cy="170" r="72" fill="#eaf5f8"/><circle cx="1020" cy="580" r="110" fill="#f8eee4"/></g>
+  <g filter="url(#shadow)"><circle cx="555" cy="296" r="44" fill="#e8f5f7" stroke="#2b8a99" stroke-width="5"/><path d="M555 252v-96M555 340v102M516 282l-106-70M594 282l116-78M517 314l-126 75M594 315l118 83" fill="none" stroke="#12313c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="760" cy="226" r="18" fill="#d3752c"/><circle cx="390" cy="388" r="14" fill="#2b8a99"/></g>
+  <g transform="translate(76 82)">
+    <rect width="238" height="72" rx="18" fill="#ffffff" stroke="#d9dee2"/>
+    <text x="28" y="45" font-family="Noto Sans TC, Arial, sans-serif" font-size="28" font-weight="800" fill="#12313c">Biogen</text>
+  </g>
+  <g transform="translate(76 620)">
+    <text x="0" y="0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="4" fill="#d3752c">Tau</text>
+    <text x="0" y="42" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#68747d">Alzheimer’s</text>
+  </g>
+</svg>

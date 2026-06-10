@@ -3,9 +3,17 @@
   "date": "2026-05-27",
   "publish_at": "2026-05-27T10:30:00+08:00",
   "category": "生技估值",
-  "tags": ["生技估值", "本益比", "rNPV", "SOTP"],
+  "tags": [
+    "生技估值",
+    "本益比",
+    "rNPV",
+    "SOTP"
+  ],
   "summary": "台灣生技股最常見的錯誤，不是模型算錯一點，而是公司類型一開始就分錯。",
   "slug": "taiwan-biotech-valuation-framework",
   "facebook_url": "",
-  "dcard_url": ""
+  "dcard_url": "",
+  "logo_label": "Valuation",
+  "cover_image": "images/cover-biorender.svg",
+  "cover_image_alt": "Valuation 生技醫藥商業分析封面圖"
 }
