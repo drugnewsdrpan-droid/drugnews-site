@@ -267,6 +267,14 @@ function markdownToHtml(markdown, imageMap) {
   return out.join("\n");
 }
 
+function stripLeadingTitle(markdown, title) {
+  const lines = markdown.replace(/\r\n/g, "\n").split("\n");
+  if (lines[0]?.trim() === `# ${title}`) {
+    return lines.slice(1).join("\n").trim();
+  }
+  return markdown.trim();
+}
+
 function headerHtml(current) {
   const link = (href, label, key) => `<a href="${href}"${current === key ? ' aria-current="page"' : ""}>${label}</a>`;
   return `<header class="site-header">
@@ -532,7 +540,7 @@ async function main() {
     const related = records
       .filter((item) => item.slug !== record.slug && (item.category === record.category || item.tags.some((tag) => record.tags.includes(tag))))
       .slice(0, 3);
-    const bodyMarkdown = article.markdown.replace(DISCLAIMER, "").trim();
+    const bodyMarkdown = stripLeadingTitle(article.markdown.replace(DISCLAIMER, "").trim(), article.meta.title);
     const body = markdownToHtml(bodyMarkdown, article.imageMap);
     await writeAtomic(path.join(ARTICLES, record.fileName), articlePage(article, body, related));
   }

@@ -28,24 +28,26 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">Biotech business analysis, company research, and long-form publishing</p>
-          <h1>生技醫藥<br>商業分析媒體</h1>
-          <p>Drugnews｜藥時事是一個寫給產業讀者、投資人與醫藥專業人士的文章平台。我們把公司研究、估值框架、臨床開發、BD 授權與資本市場脈絡整理成可長期閱讀、搜尋與引用的長文。</p>
+    <section class="home-hero">
+      <div class="container home-hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Drugnews Intelligence</p>
+          <h1>看懂生技醫藥公司，從科學到資本市場。</h1>
+          <p>Drugnews｜藥時事是生技醫藥商業分析媒體，整理公司研究、估值框架、臨床開發、BD 授權與資本市場脈絡，讓重要文章不只停留在社群貼文，而能被搜尋、閱讀與反覆引用。</p>
           <div class="actions">
             <a class="button primary" href="articles/">閱讀最新文章</a>
-            <a class="button secondary" href="services.html">公司合作</a>
+            <a class="button secondary" href="#topics">依主題瀏覽</a>
           </div>
         </div>
-        <div class="hero-panel">
-          <strong>長文主站</strong>
-          <span>完整保存 FB / Dcard 發文之外更適合閱讀、搜尋與回顧的文章版本。</span>
-          <hr style="border:0;border-top:1px solid rgba(255,255,255,.2);margin:22px 0">
-          <strong>產業視角</strong>
-          <span>從科學、臨床、商業化與資本市場之間，理解一家生醫公司的真實價值。</span>
-        </div>
+        <a class="lead-story" href="articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html">
+          <img src="assets/articles/sinphar-cx5461-ras-pancreatic-cancer/dcard-01.png" alt="RAS 標靶打開胰臟癌新局">
+          <div class="lead-story-body">
+            <div class="meta"><span>最新分析</span><span>公司研究</span></div>
+            <h2>RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場抗藥性管理戰</h2>
+            <p>從 Daraxonrasib 三期數據，看 CX-5461 在 RAS 抑制後抗藥性與免疫增敏場景中的定位。</p>
+            <span class="text-link">閱讀全文</span>
+          </div>
+        </a>
       </div>
     </section>
 
@@ -57,26 +59,29 @@
         </div>
         <a class="button ghost" href="articles/">全部文章</a>
       </div>
-      <div class="container article-list" id="latest-articles">
+      <div class="container article-list editorial-list" id="latest-articles">
         <a class="article-card" href="articles/">
           <div class="meta"><span>更新中</span><span>文章中心</span></div>
           <h3>文章發布後會自動顯示在這裡</h3>
-          <p>使用 `npm run publish` 產生文章頁、搜尋索引與 sitemap。</p>
+          <p>網站會自動整理文章頁、搜尋索引與 sitemap。</p>
         </a>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="topics">
       <div class="container section-head">
         <div>
           <h2>熱門主題</h2>
           <p>用分類把研究變成可導航的內容庫，讓讀者能從一篇文章延伸到完整主題。</p>
         </div>
       </div>
-      <div class="container grid">
+      <div class="container topic-grid">
         <a class="card" href="articles/category/biotech-valuation.html"><h3>生技估值</h3><p>從本益比之外，拆解 rNPV、SOTP、CDMO 與 biosimilar 選擇權。</p></a>
         <a class="card" href="articles/category/company-research.html"><h3>公司研究</h3><p>以公開資訊與研究員標準，整理公司基本面與後續觀察點。</p></a>
+        <a class="card" href="articles/category/bd-licensing.html"><h3>BD / 授權</h3><p>觀察授權交易、合作架構、對價設計與國際藥廠策略。</p></a>
+        <a class="card" href="articles/category/clinical-cmc.html"><h3>臨床與 CMC</h3><p>連結臨床試驗、製造、法規與可商業化能力。</p></a>
         <a class="card" href="articles/category/ir-capital-markets.html"><h3>IR 與資本市場</h3><p>從公開資訊、里程碑與市場故事，看懂生醫公司如何被資本市場理解。</p></a>
+        <a class="card" href="articles/category/events.html"><h3>活動紀錄</h3><p>把訪談、研討會與專場活動沉澱成可回看的產業內容。</p></a>
       </div>
     </section>
 
@@ -89,6 +94,17 @@
         <a class="button primary" href="https://forms.gle/rvDm93vkUx3E7Rci7" target="_blank" rel="noopener">訂閱 / 聯絡</a>
       </div>
     </section>
+
+    <section class="section service-strip">
+      <div class="container service-strip-inner">
+        <div>
+          <p class="eyebrow">For companies</p>
+          <h2>公司需要被讀懂時，我們也提供合作服務。</h2>
+        </div>
+        <p>上市櫃、生醫新創、藥廠、CDMO 與醫療科技公司，可以透過 Drugnews 將研發、臨床、授權與商業化故事整理成專業讀者能理解的內容。</p>
+        <a class="button secondary" href="services.html">查看公司合作</a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -99,7 +115,7 @@
     fetch("search-index.json", { cache: "no-store" }).then(r => r.json()).then(items => {
       const list = document.getElementById("latest-articles");
       if (!items.length) return;
-      list.innerHTML = items.slice(0, 3).map(item => `<a class="article-card" href="${item.url}"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${item.title}</h3><p>${item.summary}</p><div class="tag-row">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}</div></a>`).join("");
+      list.innerHTML = items.slice(0, 4).map(item => `<a class="article-card" href="${item.url}"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${item.title}</h3><p>${item.summary}</p><div class="tag-row">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}</div></a>`).join("");
     }).catch(() => {});
   </script>
 </body>
