@@ -416,7 +416,7 @@ function articleIndexPage(records) {
       <h2>${escapeHtml(lead.title)}</h2>
       <p>${escapeHtml(lead.summary)}</p>
       <div class="tag-row">${lead.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
-      <span class="text-link">閱讀主打分析</span>
+      <span class="text-link">閱讀主打文章</span>
     </div>
   </a>` : "";
   const latestHtml = latest.map((item) => `<a class="latest-link" href="${item.fileName}">
@@ -443,7 +443,7 @@ function articleIndexPage(records) {
 <body>
 ${headerHtml("articles")}
 <main>
-  <section class="page-title insights-title"><div class="container"><p class="eyebrow">Drugnews articles</p><h1>文章中心</h1><p>把 FB / Dcard 的觸及，沉澱成可搜尋、可分類、可長期閱讀的 Drugnews 內容主站。</p></div></section>
+  <section class="page-title insights-title"><div class="container"><p class="eyebrow">Drugnews articles</p><h1>文章中心</h1><p>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察，整理成可搜尋、可分類、可長期閱讀的文章庫。</p></div></section>
   <section class="section white">
     <div class="container insights-grid">
       ${leadHtml}

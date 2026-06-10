@@ -33,12 +33,11 @@
       <div class="container home-hero-grid">
         <div class="hero-copy">
           <p class="eyebrow">Drugnews Intelligence</p>
-          <h1>看懂生技醫藥公司，從科學到資本市場。</h1>
-          <p>Drugnews｜藥時事是生技醫藥商業分析媒體，整理公司研究、估值框架、臨床開發、BD 授權與資本市場脈絡，讓重要文章不只停留在社群貼文，而能被搜尋、閱讀與反覆引用。</p>
+          <h1>生技醫藥商業分析，連接科學與資本市場。</h1>
+          <p>Drugnews｜藥時事是一個以長文為核心的生技醫藥文章媒體，關注公司研究、臨床開發、BD 授權、估值框架與資本市場敘事。</p>
           <div class="actions">
             <a class="button primary" href="articles/">閱讀最新文章</a>
             <a class="button secondary" href="subscribe.html">訂閱付費專欄</a>
-            <a class="button secondary" href="#topics">依主題瀏覽</a>
           </div>
         </div>
         <a class="lead-story" id="lead-story" href="articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html">
@@ -50,14 +49,22 @@
             <span class="text-link">閱讀全文</span>
           </div>
         </a>
+        <aside class="homepage-briefing" aria-label="最新文章快訊">
+          <p class="eyebrow">Latest brief</p>
+          <h2>今日讀什麼</h2>
+          <div id="briefing-articles">
+            <a href="articles/">最新文章正在載入</a>
+          </div>
+          <a class="text-link" href="articles/">進入文章中心</a>
+        </aside>
       </div>
     </section>
 
     <section class="section white">
       <div class="container section-head">
         <div>
-          <h2>最新文章</h2>
-          <p>最新長文會優先整理在網站，FB / Dcard 則保留社群討論與導流。</p>
+          <h2>最新分析</h2>
+          <p>從社群貼文延伸成可搜尋、可分類、可長期閱讀的完整文章庫。</p>
         </div>
         <a class="button ghost" href="articles/">全部文章</a>
       </div>
@@ -73,8 +80,8 @@
     <section class="section" id="topics">
       <div class="container section-head">
         <div>
-          <h2>熱門主題</h2>
-          <p>用分類把研究變成可導航的內容庫，讓讀者能從一篇文章延伸到完整主題。</p>
+          <h2>研究主題</h2>
+          <p>用議題而不是日期來閱讀，從一篇文章延伸到完整產業脈絡。</p>
         </div>
       </div>
       <div class="container topic-grid">
@@ -121,6 +128,7 @@
     fetch("search-index.json", { cache: "no-store" }).then(r => r.json()).then(items => {
       const list = document.getElementById("latest-articles");
       const lead = document.getElementById("lead-story");
+      const briefing = document.getElementById("briefing-articles");
       if (!items.length) return;
       const first = items[0];
       if (lead && first) {
@@ -129,6 +137,9 @@
         lead.innerHTML = `${image ? `<img src="${image}" alt="${first.imageAlt || first.title}">` : ""}<div class="lead-story-body"><div class="meta"><span>最新分析</span><span>${first.category}</span></div><h2>${first.title}</h2><p>${first.summary}</p><span class="text-link">閱讀全文</span></div>`;
       }
       list.innerHTML = items.slice(0, 4).map(item => `<a class="article-card" href="${item.url}"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${item.title}</h3><p>${item.summary}</p><div class="tag-row">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}</div></a>`).join("");
+      if (briefing) {
+        briefing.innerHTML = items.slice(1, 5).map(item => `<a class="briefing-link" href="${item.url}"><span>${item.date}</span><strong>${item.title}</strong></a>`).join("");
+      }
     }).catch(() => {});
   </script>
 </body>
