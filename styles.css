@@ -399,6 +399,7 @@ h3 { margin: 0 0 10px; font-size: 1.18rem; }
 }
 
 .page-title p { max-width: 760px; margin: 14px 0 0; color: var(--muted); }
+.paid-hero .actions { margin-top: 24px; }
 
 .article-layout {
   display: grid;
