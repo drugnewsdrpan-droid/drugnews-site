@@ -327,24 +327,13 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   font-weight: 720;
 }
 
-.signal-strip {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  border-top: 1px solid var(--line);
-  border-left: 1px solid var(--line);
+.coverage-copy {
+  max-width: 720px;
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.9;
 }
-
-.signal-strip a {
-  min-height: 58px;
-  padding: 15px 16px;
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  background: rgba(255,255,255,0.9);
-  color: var(--brand);
-  text-decoration: none;
-  font-weight: 760;
-}
-.signal-strip a:hover { background: var(--porcelain); }
 
 .actions {
   display: flex;
@@ -1282,7 +1271,6 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .card-thumb { aspect-ratio: 16 / 9; }
   .insights-grid { grid-template-columns: 1fr; }
   .topic-guide { grid-template-columns: 1fr; }
-  .signal-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .issue-bar {
     overflow-x: auto;
     scrollbar-width: none;
@@ -1318,7 +1306,6 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .lead-story-body,
   .featured-copy,
   .editorial-list .article-card { padding: 20px; }
-  .signal-strip { grid-template-columns: 1fr; }
   .topic-grid { grid-template-columns: 1fr; }
   .principle-grid,
   .differentiation-grid,
