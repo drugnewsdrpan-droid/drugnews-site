@@ -53,7 +53,7 @@
       </div>
       <div class="container home-hero-grid">
         <a class="lead-story" id="lead-story" href="articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html">
-          <div class="featured-image"><img src="assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-editorial.png" alt="RAS 標靶治療與胰臟癌抗藥性管理文章封面圖"><span class="logo-badge">生華科</span></div>
+          <div class="featured-image"><img src="assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-editorial.png" alt="RAS 標靶治療與胰臟癌抗藥性管理文章封面圖"></div>
           <div class="lead-story-body">
             <div class="meta"><span>Lead story</span><span>公司研究</span></div>
             <h2>RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場抗藥性管理戰</h2>
@@ -178,13 +178,11 @@
       if (lead && first) {
         const image = first.image ? first.image.replace(/^\.\.\//, "") : "";
         lead.href = first.url;
-        const badge = first.logoLabel ? `<span class="logo-badge">${first.logoLabel}</span>` : "";
-        lead.innerHTML = `${image ? `<div class="featured-image"><img src="${image}" alt="${first.imageAlt || first.title}">${badge}</div>` : ""}<div class="lead-story-body"><div class="meta"><span>Lead story</span><span>${first.category}</span></div><h2>${first.title}</h2><p>${first.summary}</p><span class="text-link">閱讀全文</span></div>`;
+        lead.innerHTML = `${image ? `<div class="featured-image"><img src="${image}" alt="${first.imageAlt || first.title}"></div>` : ""}<div class="lead-story-body"><div class="meta"><span>Lead story</span><span>${first.category}</span></div><h2>${first.title}</h2><p>${first.summary}</p><span class="text-link">閱讀全文</span></div>`;
       }
       list.innerHTML = items.slice(0, 4).map(item => {
         const cardImage = item.image ? item.image.replace(/^\.\.\//, "") : "";
-        const badge = item.logoLabel ? `<span class="logo-badge">${item.logoLabel}</span>` : "";
-        return `<a class="article-card${cardImage ? " with-image" : ""}" href="${item.url}">${cardImage ? `<div class="thumb-wrap"><img class="card-thumb" src="${cardImage}" alt="${item.imageAlt || item.title}" loading="lazy">${badge}</div>` : ""}<div class="article-card-body"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${item.title}</h3><p>${item.summary}</p><div class="tag-row">${item.tags.slice(0, 4).map(tag => `<span class="tag">${tag}</span>`).join("")}</div></div></a>`;
+        return `<a class="article-card${cardImage ? " with-image" : ""}" href="${item.url}">${cardImage ? `<div class="thumb-wrap"><img class="card-thumb" src="${cardImage}" alt="${item.imageAlt || item.title}" loading="lazy"></div>` : ""}<div class="article-card-body"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${item.title}</h3><p>${item.summary}</p><div class="tag-row">${item.tags.slice(0, 4).map(tag => `<span class="tag">${tag}</span>`).join("")}</div></div></a>`;
       }).join("");
       if (briefing) {
         briefing.innerHTML = items.slice(1, 5).map(item => `<a class="briefing-link" href="${item.url}"><span>${item.date}</span><strong>${item.title}</strong></a>`).join("");

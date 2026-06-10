@@ -21,9 +21,9 @@
     };
     list.innerHTML = items.map((item) => `
       <a class="article-card${imageFor(item.image) ? " with-image" : ""}" href="${hrefFor(item.url)}">
-        ${imageFor(item.image) ? `<img class="card-thumb" src="${imageFor(item.image)}" alt="${item.imageAlt || item.title}" loading="lazy">` : ""}
+        ${imageFor(item.image) ? `<div class="thumb-wrap"><img class="card-thumb" src="${imageFor(item.image)}" alt="${item.imageAlt || item.title}" loading="lazy"></div>` : ""}
         <div class="article-card-body">
-          <div class="meta"><span>${item.date}</span><span>${item.category}</span>${item.imageCount > 1 ? `<span class="visual-chip">${item.imageCount} 圖</span>` : ""}</div>
+          <div class="meta"><span>${item.date}</span><span>${item.category}</span></div>
           <h3>${item.title}</h3>
           <p>${item.summary}</p>
           <div class="tag-row">${item.tags.slice(0, 5).map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>

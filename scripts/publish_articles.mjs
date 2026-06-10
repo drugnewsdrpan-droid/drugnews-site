@@ -463,7 +463,6 @@ function articleRecord(article) {
     summary: meta.summary,
     image: articleCover.src,
     imageAlt: articleCover.alt,
-    logoLabel: meta.logo_label || meta.tags[0] || meta.category,
     publishAt: meta.publish_at,
     slug: meta.slug,
     fileName,
@@ -474,7 +473,7 @@ function articleRecord(article) {
 
 function articleCardHtml(item, href, imageSrc = item.image) {
   const image = imageSrc
-    ? `<div class="thumb-wrap"><img class="card-thumb" src="${escapeHtml(imageSrc)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy">${item.logoLabel ? `<span class="logo-badge">${escapeHtml(item.logoLabel)}</span>` : ""}</div>`
+    ? `<div class="thumb-wrap"><img class="card-thumb" src="${escapeHtml(imageSrc)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy"></div>`
     : "";
   return `<a class="article-card${image ? " with-image" : ""}" href="${escapeHtml(href)}">
     ${image}
@@ -502,7 +501,7 @@ function articleIndexPage(records) {
   }).join("");
   const leadImage = lead?.image ? `<img src="${escapeHtml(lead.image)}" alt="${escapeHtml(lead.imageAlt)}" loading="lazy">` : "";
   const leadHtml = lead ? `<a class="featured-article" href="${lead.fileName}">
-    ${leadImage ? `<div class="featured-image">${leadImage}${lead.logoLabel ? `<span class="logo-badge">${escapeHtml(lead.logoLabel)}</span>` : ""}</div>` : ""}
+    ${leadImage ? `<div class="featured-image">${leadImage}</div>` : ""}
     <div class="featured-copy">
       <div class="meta"><span>${lead.date}</span><span>${escapeHtml(lead.category)}</span></div>
       <h2>${escapeHtml(lead.title)}</h2>
@@ -582,7 +581,7 @@ ${headerHtml("articles")}
   </section>
 </main>
 ${footerHtml()}
-<script src="../search.js?v=20260610-editorial-cards"></script>
+<script src="../search.js?v=20260610-clean-cards"></script>
 </body>
 </html>`;
 }
