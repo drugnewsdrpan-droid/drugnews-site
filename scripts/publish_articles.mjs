@@ -160,6 +160,10 @@ async function validateArticle(article, knownSlugs) {
     const imagePath = path.join(article.folderPath, image.src);
     if (!(await exists(imagePath))) errors.push(`image not found: ${image.src}`);
   }
+  if (article.meta.cover_image && !/^https?:\/\//i.test(article.meta.cover_image)) {
+    const coverPath = path.join(article.folderPath, article.meta.cover_image);
+    if (!(await exists(coverPath))) errors.push(`cover_image not found: ${article.meta.cover_image}`);
+  }
   return errors;
 }
 
@@ -167,6 +171,15 @@ async function copyImages(article) {
   const imageMap = new Map();
   const targetDir = path.join(ASSETS, article.meta.slug);
   await fs.mkdir(targetDir, { recursive: true });
+  if (article.meta.cover_image && !/^https?:\/\//i.test(article.meta.cover_image)) {
+    const fileName = path.basename(article.meta.cover_image);
+    const source = path.join(article.folderPath, article.meta.cover_image);
+    const target = path.join(targetDir, fileName);
+    await fs.copyFile(source, target);
+    imageMap.set(article.meta.cover_image, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
+  } else if (article.meta.cover_image) {
+    imageMap.set(article.meta.cover_image, article.meta.cover_image);
+  }
   for (const image of findMarkdownImages(article.markdown)) {
     if (/^https?:\/\//i.test(image.src)) {
       imageMap.set(image.src, image.src);
@@ -179,6 +192,20 @@ async function copyImages(article) {
     imageMap.set(image.src, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
   }
   return imageMap;
+}
+
+function coverImage(article, markdownImages = findMarkdownImages(article.markdown)) {
+  const { meta } = article;
+  if (meta.cover_image) {
+    return {
+      src: article.imageMap.get(meta.cover_image) || meta.cover_image,
+      alt: meta.cover_image_alt || meta.title
+    };
+  }
+  const firstImage = markdownImages[0];
+  return firstImage
+    ? { src: article.imageMap.get(firstImage.src) || firstImage.src, alt: firstImage.alt || meta.title }
+    : { src: "", alt: meta.title };
 }
 
 function inlineMarkdown(text) {
@@ -324,8 +351,8 @@ function articlePage(article, bodyHtml, related) {
   const { meta } = article;
   const fileName = `${meta.date}-${meta.slug}.html`;
   const url = `${BASE_URL}/articles/${fileName}`;
-  const firstImage = findMarkdownImages(article.markdown)[0];
-  const articleImage = firstImage ? article.imageMap.get(firstImage.src) || firstImage.src : "";
+  const articleCover = coverImage(article);
+  const articleImage = articleCover.src;
   const articleImageUrl = articleImage ? absoluteUrl(articleImage) : "";
   const relatedHtml = related.length
     ? `<div class="card"><h3>延伸閱讀</h3><div class="article-list">${related.map((item) => `<a class="article-card" href="${item.fileName}"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.summary)}</p></a>`).join("")}</div></div>`
@@ -421,8 +448,7 @@ function articleRecord(article) {
   const { meta } = article;
   const fileName = `${meta.date}-${meta.slug}.html`;
   const markdownImages = findMarkdownImages(article.markdown);
-  const firstImage = markdownImages[0];
-  const image = firstImage ? article.imageMap.get(firstImage.src) || firstImage.src : "";
+  const articleCover = coverImage(article, markdownImages);
   return {
     title: meta.title,
     date: meta.date,
@@ -430,8 +456,8 @@ function articleRecord(article) {
     categorySlug: categorySlug(meta.category),
     tags: meta.tags,
     summary: meta.summary,
-    image,
-    imageAlt: firstImage?.alt || meta.title,
+    image: articleCover.src,
+    imageAlt: articleCover.alt,
     imageCount: markdownImages.length,
     publishAt: meta.publish_at,
     slug: meta.slug,
