@@ -596,6 +596,10 @@ ${items}
 `;
 }
 
+function publicSearchRecords(records) {
+  return records.map(({ publishAt, ...item }) => item);
+}
+
 async function writeAtomic(filePath, content) {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   const temp = `${filePath}.tmp`;
@@ -684,7 +688,7 @@ async function main() {
   for (const category of CATEGORIES.keys()) {
     await writeAtomic(path.join(ARTICLES, "category", `${categorySlug(category)}.html`), categoryPage(category, records.filter((item) => item.category === category)));
   }
-  await writeAtomic(path.join(ROOT, "search-index.json"), JSON.stringify(records, null, 2));
+  await writeAtomic(path.join(ROOT, "search-index.json"), JSON.stringify(publicSearchRecords(records), null, 2));
   await writeAtomic(path.join(ROOT, "sitemap.xml"), sitemap(records));
   await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(records));
   await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: new Date().toISOString(), errors: [] }, null, 2));
