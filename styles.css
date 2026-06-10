@@ -628,7 +628,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 
 .paid-library {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
 }
