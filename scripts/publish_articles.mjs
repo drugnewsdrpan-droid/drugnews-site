@@ -11,8 +11,9 @@ const ERRORS_FILE = path.join(ROOT, "content", "publish-errors.json");
 const FORCE = process.argv.includes("--force");
 const nowArg = process.argv.find((arg) => arg.startsWith("--now="));
 const NOW = nowArg ? new Date(nowArg.slice("--now=".length)) : new Date();
-const NEWSLETTER_URL = "https://forms.gle/rvDm93vkUx3E7Rci7";
 const PAID_COLUMN_URL = "https://vocus.cc/user/@Drugnews";
+const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61568446257142";
+const CMONEY_URL = "https://www.cmoney.tw/app/expert/drugnews?ca=1";
 
 const CATEGORIES = new Map([
   ["生技估值", "biotech-valuation"],
@@ -430,9 +431,13 @@ ${headerHtml("articles")}
         <div class="actions"><a class="button primary" href="../subscribe.html">了解訂閱</a></div>
       </div>
       <div class="card">
-        <h3>訂閱長文更新</h3>
-        <p>每週收到生技醫藥基本面、估值框架與資本市場觀察。</p>
-        <div class="actions"><a class="button secondary" href="${NEWSLETTER_URL}" target="_blank" rel="noopener">免費訂閱</a></div>
+        <h3>持續追蹤 Drugnews</h3>
+        <p>最新貼文、付費長文與投資社群討論，會持續更新在各平台。</p>
+        <div class="actions">
+          <a class="button secondary" href="${FACEBOOK_URL}" target="_blank" rel="noopener">Facebook</a>
+          <a class="button secondary" href="${PAID_COLUMN_URL}" target="_blank" rel="noopener">方格子</a>
+          <a class="button secondary" href="${CMONEY_URL}" target="_blank" rel="noopener">股市爆料同學會</a>
+        </div>
       </div>
       ${relatedHtml}
       </aside>

@@ -601,6 +601,10 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 
 .newsletter p { margin: 8px 0 0; color: var(--muted); }
 .newsletter.compact { margin-top: -16px; }
+.newsletter > .actions {
+  margin-top: 0;
+  justify-content: flex-end;
+}
 
 .paid-card {
   background: #102f3a;
