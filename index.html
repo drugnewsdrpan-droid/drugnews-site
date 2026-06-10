@@ -32,9 +32,18 @@
   <main>
     <section class="home-hero">
       <div class="container masthead">
-        <p class="eyebrow">Biopharma intelligence in Chinese</p>
-        <h1>讀懂生技醫藥產業的商業訊號</h1>
-        <p>Drugnews｜藥時事是一個生技醫藥商業分析媒體，將臨床數據、公司策略、授權交易與資本市場敘事整理成可長期閱讀的中文長文。</p>
+        <div>
+          <p class="eyebrow">Drugnews editorial desk</p>
+          <h1>生技醫藥商業分析媒體</h1>
+        </div>
+        <p>Drugnews｜藥時事為讀者整理臨床數據、公司策略、授權交易與資本市場訊號，提供可搜尋、可分類、可回頭引用的中文長文。</p>
+      </div>
+      <div class="container issue-bar" aria-label="閱讀入口">
+        <a href="articles/">最新文章</a>
+        <a href="articles/category/company-research.html">公司研究</a>
+        <a href="articles/category/clinical-cmc.html">臨床與 CMC</a>
+        <a href="articles/category/bd-licensing.html">BD / 授權</a>
+        <a href="subscribe.html">方格子專欄</a>
       </div>
       <div class="container home-hero-grid">
         <a class="lead-story" id="lead-story" href="articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html">
@@ -56,7 +65,7 @@
         </aside>
         <div class="editorial-note">
           <p class="eyebrow">Coverage</p>
-          <h2>從科學到市場，追蹤公司真正會被重估的節點。</h2>
+          <h2>從科學到市場，追蹤一家公司真正會被重新理解的節點。</h2>
           <div class="signal-strip">
             <a href="articles/category/company-research.html">公司研究</a>
             <a href="articles/category/clinical-cmc.html">臨床與 CMC</a>
@@ -147,11 +156,13 @@
       if (lead && first) {
         const image = first.image ? first.image.replace(/^\.\.\//, "") : "";
         lead.href = first.url;
-        lead.innerHTML = `${image ? `<img src="${image}" alt="${first.imageAlt || first.title}">` : ""}<div class="lead-story-body"><div class="meta"><span>Lead story</span><span>${first.category}</span></div><h2>${first.title}</h2><p>${first.summary}</p><span class="text-link">閱讀全文</span></div>`;
+        const visual = first.imageCount > 1 ? `<span class="visual-chip">${first.imageCount} 張圖解</span>` : "";
+        lead.innerHTML = `${image ? `<img src="${image}" alt="${first.imageAlt || first.title}">` : ""}<div class="lead-story-body"><div class="meta"><span>Lead story</span><span>${first.category}</span>${visual}</div><h2>${first.title}</h2><p>${first.summary}</p><span class="text-link">閱讀全文</span></div>`;
       }
       list.innerHTML = items.slice(0, 4).map(item => {
         const cardImage = item.image ? item.image.replace(/^\.\.\//, "") : "";
-        return `<a class="article-card${cardImage ? " with-image" : ""}" href="${item.url}">${cardImage ? `<img class="card-thumb" src="${cardImage}" alt="${item.imageAlt || item.title}" loading="lazy">` : ""}<div class="article-card-body"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${item.title}</h3><p>${item.summary}</p><div class="tag-row">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}</div></div></a>`;
+        const visual = item.imageCount > 1 ? `<span class="visual-chip">${item.imageCount} 圖</span>` : "";
+        return `<a class="article-card${cardImage ? " with-image" : ""}" href="${item.url}">${cardImage ? `<img class="card-thumb" src="${cardImage}" alt="${item.imageAlt || item.title}" loading="lazy">` : ""}<div class="article-card-body"><div class="meta"><span>${item.date}</span><span>${item.category}</span>${visual}</div><h3>${item.title}</h3><p>${item.summary}</p><div class="tag-row">${item.tags.slice(0, 4).map(tag => `<span class="tag">${tag}</span>`).join("")}</div></div></a>`;
       }).join("");
       if (briefing) {
         briefing.innerHTML = items.slice(1, 5).map(item => `<a class="briefing-link" href="${item.url}"><span>${item.date}</span><strong>${item.title}</strong></a>`).join("");
