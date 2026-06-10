@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/</loc><priority>1.0</priority></url>
-  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/index.html</loc><priority>0.9</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/</loc><priority>0.9</priority></url>
-  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/feed.xml</loc><priority>0.7</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/subscribe.html</loc><priority>0.8</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/services.html</loc><priority>0.8</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/team.html</loc><priority>0.7</priority></url>
@@ -12,7 +10,6 @@
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/bd-licensing.html</loc><priority>0.6</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/clinical-cmc.html</loc><priority>0.6</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/ir-capital-markets.html</loc><priority>0.6</priority></url>
-  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/events.html</loc><priority>0.6</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/archive/2026-06.html</loc><priority>0.7</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/archive/2026-05.html</loc><priority>0.7</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html</loc><lastmod>2026-06-10</lastmod><priority>0.8</priority></url>

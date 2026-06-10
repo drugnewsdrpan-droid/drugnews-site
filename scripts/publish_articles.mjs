@@ -352,6 +352,7 @@ function articlePage(article, bodyHtml, related) {
   const { meta } = article;
   const fileName = `${meta.date}-${meta.slug}.html`;
   const url = `${BASE_URL}/articles/${fileName}`;
+  const categoryUrl = `${BASE_URL}/articles/category/${categorySlug(meta.category)}.html`;
   const articleCover = coverImage(article);
   const articleImage = articleCover.src;
   const articleImageUrl = articleImage ? absoluteUrl(articleImage) : "";
@@ -362,7 +363,7 @@ function articlePage(article, bodyHtml, related) {
     meta.facebook_url ? `<a class="tag" href="${escapeHtml(meta.facebook_url)}" target="_blank" rel="noopener">原 FB 貼文</a>` : "",
     meta.dcard_url ? `<a class="tag" href="${escapeHtml(meta.dcard_url)}" target="_blank" rel="noopener">原 Dcard 貼文</a>` : ""
   ].filter(Boolean).join("");
-  const schema = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: meta.title,
@@ -370,14 +371,35 @@ function articlePage(article, bodyHtml, related) {
     dateModified: meta.updated_at || meta.date,
     description: meta.summary,
     mainEntityOfPage: url,
-    author: { "@type": "Organization", name: "Drugnews" },
+    author: {
+      "@type": "Organization",
+      name: "Drugnews 編輯部",
+      url: `${BASE_URL}/team.html`
+    },
     publisher: {
       "@type": "Organization",
       name: "Drugnews",
       logo: { "@type": "ImageObject", url: `${BASE_URL}/favicon.svg` }
-    }
+    },
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Drugnews｜藥時事",
+      url: `${BASE_URL}/`
+    },
+    articleSection: meta.category,
+    keywords: meta.tags.join(", ")
   };
-  if (articleImageUrl) schema.image = [articleImageUrl];
+  if (articleImageUrl) articleSchema.image = [articleImageUrl];
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "首頁", item: `${BASE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "文章", item: `${BASE_URL}/articles/` },
+      { "@type": "ListItem", position: 3, name: meta.category, item: categoryUrl },
+      { "@type": "ListItem", position: 4, name: meta.title, item: url }
+    ]
+  };
   return `<!doctype html>
 <html lang="zh-Hant">
 <head>
@@ -393,21 +415,25 @@ function articlePage(article, bodyHtml, related) {
   <meta property="og:description" content="${escapeHtml(meta.summary)}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="${url}">
+  <meta property="og:site_name" content="Drugnews｜藥時事">
   ${articleImageUrl ? `<meta property="og:image" content="${articleImageUrl}">` : ""}
   <meta name="twitter:card" content="${articleImageUrl ? "summary_large_image" : "summary"}">
   <meta name="twitter:title" content="${escapeHtml(meta.title)}｜Drugnews">
   <meta name="twitter:description" content="${escapeHtml(meta.summary)}">
   ${articleImageUrl ? `<meta name="twitter:image" content="${articleImageUrl}">` : ""}
-  <script type="application/ld+json">${JSON.stringify(schema)}</script>
+  <script type="application/ld+json">${JSON.stringify(articleSchema)}</script>
+  <script type="application/ld+json">${JSON.stringify(breadcrumbSchema)}</script>
 </head>
 <body>
 ${headerHtml("articles")}
 <main>
   <section class="article-hero">
     <div class="container article-hero-inner">
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">文章</a><span>/</span><a href="category/${categorySlug(meta.category)}.html">${escapeHtml(meta.category)}</a></nav>
       <div class="meta"><span>${formatDate(meta.date)}</span><span>${escapeHtml(meta.category)}</span></div>
       <h1>${escapeHtml(meta.title)}</h1>
       <p class="article-deck">${escapeHtml(meta.summary)}</p>
+      <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
       <div class="tag-row">${meta.tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
     </div>
   </section>
@@ -516,6 +542,13 @@ function articleIndexPage(records) {
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <meta property="og:title" content="Drugnews｜文章中心">
+  <meta property="og:description" content="生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${BASE_URL}/articles/">
+  <meta property="og:site_name" content="Drugnews｜藥時事">
+  ${lead?.image ? `<meta property="og:image" content="${absoluteUrl(lead.image)}">` : ""}
+  <meta name="twitter:card" content="${lead?.image ? "summary_large_image" : "summary"}">
 </head>
 <body>
 ${headerHtml("articles")}
@@ -611,15 +644,14 @@ ${footerHtml()}
 function sitemap(records) {
   const staticUrls = [
     ["", "1.0"],
-    ["index.html", "0.9"],
     ["articles/", "0.9"],
-    ["feed.xml", "0.7"],
     ["subscribe.html", "0.8"],
     ["services.html", "0.8"],
     ["team.html", "0.7"]
   ];
   const urls = staticUrls.map(([loc, priority]) => `  <url><loc>${BASE_URL}/${loc}</loc><priority>${priority}</priority></url>`);
   for (const category of CATEGORIES.keys()) {
+    if (!records.some((item) => item.category === category)) continue;
     urls.push(`  <url><loc>${BASE_URL}/articles/category/${categorySlug(category)}.html</loc><priority>0.6</priority></url>`);
   }
   for (const key of new Set(records.map((item) => monthKey(item.date)))) {
