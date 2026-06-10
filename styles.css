@@ -639,6 +639,8 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 .paid-category h3 {
   margin-bottom: 16px;
   color: var(--brand);
+  font-size: clamp(1.18rem, 1.7vw, 1.45rem);
+  white-space: nowrap;
 }
 
 .paid-category a {
