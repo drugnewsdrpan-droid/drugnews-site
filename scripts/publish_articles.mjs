@@ -13,6 +13,7 @@ const nowArg = process.argv.find((arg) => arg.startsWith("--now="));
 const NOW = nowArg ? new Date(nowArg.slice("--now=".length)) : new Date();
 const PAID_COLUMN_URL = "https://vocus.cc/user/@Drugnews";
 const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61568446257142";
+const DCARD_URL = "https://www.dcard.tw/@drugnews";
 const CMONEY_URL = "https://www.cmoney.tw/app/expert/drugnews?ca=1";
 
 const CATEGORIES = new Map([
@@ -462,6 +463,7 @@ ${headerHtml("articles")}
         <p>最新貼文、付費長文與投資社群討論，會持續更新在各平台。</p>
         <div class="actions">
           <a class="button secondary" href="${FACEBOOK_URL}" target="_blank" rel="noopener">Facebook</a>
+          <a class="button secondary" href="${DCARD_URL}" target="_blank" rel="noopener">Dcard</a>
           <a class="button secondary" href="${PAID_COLUMN_URL}" target="_blank" rel="noopener">方格子</a>
           <a class="button secondary" href="${CMONEY_URL}" target="_blank" rel="noopener">股市爆料同學會</a>
         </div>
