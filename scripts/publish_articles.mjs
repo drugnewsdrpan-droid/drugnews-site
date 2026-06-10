@@ -452,7 +452,7 @@ ${headerHtml("articles")}
       </article>
       <aside class="sidebar">
       <div class="card paid-card">
-        <p class="eyebrow">Paid column</p>
+        <p class="eyebrow">付費專欄</p>
         <h3>方格子付費專欄</h3>
         <p>深度研究、公司追蹤與生技醫藥資本市場筆記，適合想長期追蹤的讀者。</p>
         <div class="actions"><a class="button primary" href="../subscribe.html">了解訂閱</a></div>
@@ -538,13 +538,13 @@ function articleIndexPage(records) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Drugnews｜文章中心</title>
-  <meta name="description" content="Drugnews 生技醫藥長文、公司研究、估值框架、BD 授權與 IR 資本市場文章。">
+  <meta name="description" content="Drugnews 文章中心提供生技醫藥公司研究、估值框架、BD 授權與資本市場判讀，協助讀者形成可驗證的商業判斷。">
   <link rel="canonical" href="${BASE_URL}/articles/">
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
   <meta property="og:title" content="Drugnews｜文章中心">
-  <meta property="og:description" content="生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。">
+  <meta property="og:description" content="生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場判讀。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="${BASE_URL}/articles/">
   <meta property="og:site_name" content="Drugnews｜藥時事">
@@ -554,12 +554,12 @@ function articleIndexPage(records) {
 <body>
 ${headerHtml("articles")}
 <main>
-  <section class="page-title insights-title"><div class="container"><p class="eyebrow">Drugnews analysis</p><h1>研究文章庫</h1><p>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察，重點不是蒐集資料，而是形成可驗證的商業判斷。</p></div></section>
+  <section class="page-title insights-title"><div class="container"><p class="eyebrow">分析文章</p><h1>研究文章庫</h1><p>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察，重點不是蒐集資料，而是形成可驗證的商業判斷。</p></div></section>
   <section class="section white">
     <div class="container insights-grid">
       ${leadHtml}
       <aside class="latest-panel">
-        <p class="eyebrow">Latest brief</p>
+        <p class="eyebrow">最近更新</p>
         <h2>最新文章</h2>
         <div>${latestHtml}</div>
       </aside>
@@ -568,7 +568,7 @@ ${headerHtml("articles")}
   <section class="section white">
     <div class="container newsletter compact">
       <div>
-        <p class="eyebrow">Research guides</p>
+        <p class="eyebrow">研究指南</p>
         <h2>先建立閱讀框架</h2>
         <p>如果你剛開始追生技醫藥公司，可以先從研究指南理解商業競爭格局與估值框架，再回到文章中心看 Drugnews 如何做實際判讀。</p>
       </div>
@@ -578,7 +578,7 @@ ${headerHtml("articles")}
   <section class="section white">
     <div class="container newsletter compact">
       <div>
-        <p class="eyebrow">Paid column</p>
+        <p class="eyebrow">付費專欄</p>
         <h2>訂閱方格子付費專欄</h2>
         <p>網站提供公開事件的商業判讀；方格子提供更完整的深度研究、公司追蹤與產業筆記。</p>
       </div>
@@ -621,7 +621,7 @@ function archivePage(key, records) {
 <body>
 <header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
 <main>
-  <section class="page-title"><div class="container"><p class="eyebrow">Archive</p><h1>${formatMonth(key)}文章</h1><p>本月共 ${records.length} 篇 Drugnews 分析，依時間倒序呈現。</p></div></section>
+  <section class="page-title"><div class="container"><p class="eyebrow">文章歸檔</p><h1>${formatMonth(key)}文章</h1><p>本月共 ${records.length} 篇 Drugnews 分析，依時間倒序呈現。</p></div></section>
   <section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section>
 </main>
 ${footerHtml()}
