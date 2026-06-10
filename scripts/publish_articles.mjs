@@ -275,7 +275,7 @@ function headerHtml(current) {
     <nav class="nav-links" aria-label="Main navigation">
       ${link("../index.html", "首頁", "home")}
       ${link("index.html", "文章", "articles")}
-      ${link("../services.html", "IR 服務", "services")}
+      ${link("../services.html", "公司合作", "services")}
       ${link("../team.html", "團隊", "team")}
     </nav>
   </div>
@@ -428,7 +428,7 @@ function categoryPage(category, records) {
   <link rel="stylesheet" href="../../styles.css">
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt="">Drugnews</a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../services.html">IR 服務</a><a href="../../team.html">團隊</a></nav></div></header>
+<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt="">Drugnews</a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
 <main><section class="page-title"><div class="container"><h1>${escapeHtml(category)}</h1><p>此分類收錄 Drugnews 的相關長文與研究框架。</p></div></section><section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section></main>
 ${footerHtml()}
 </body>
