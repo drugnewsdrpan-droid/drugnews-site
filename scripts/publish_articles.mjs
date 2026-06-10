@@ -5,6 +5,7 @@ const ROOT = process.cwd();
 const BASE_URL = "https://drugnewsdrpan-droid.github.io/drugnews-site";
 const INBOX = path.join(ROOT, "content", "inbox");
 const PUBLISHED = path.join(ROOT, "content", "published");
+const EXTERNAL_ARTICLES = path.join(ROOT, "content", "external-articles.json");
 const ARTICLES = path.join(ROOT, "articles");
 const ASSETS = path.join(ROOT, "assets", "articles");
 const ERRORS_FILE = path.join(ROOT, "content", "publish-errors.json");
@@ -64,6 +65,7 @@ function escapeXml(value) {
 }
 
 function absoluteUrl(relativeUrl) {
+  if (/^https?:\/\//i.test(String(relativeUrl))) return String(relativeUrl);
   return `${BASE_URL}/${String(relativeUrl).replace(/^\.\.\//, "").replace(/^\//, "")}`;
 }
 
@@ -359,7 +361,7 @@ function articlePage(article, bodyHtml, related) {
   const articleImage = articleCover.src;
   const articleImageUrl = articleImage ? absoluteUrl(articleImage) : "";
   const relatedHtml = related.length
-    ? `<div class="card"><h3>延伸閱讀</h3><div class="article-list">${related.map((item) => `<a class="article-card" href="${item.fileName}"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.summary)}</p></a>`).join("")}</div></div>`
+    ? `<div class="card"><h3>延伸閱讀</h3><div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("")}</div></div>`
     : "";
   const sourceLinks = [
     meta.facebook_url ? `<a class="tag" href="${escapeHtml(meta.facebook_url)}" target="_blank" rel="noopener">原 FB 貼文</a>` : "",
@@ -500,14 +502,54 @@ function articleRecord(article) {
   };
 }
 
+async function loadExternalArticleRecords() {
+  if (!(await exists(EXTERNAL_ARTICLES))) return [];
+  const raw = JSON.parse(await fs.readFile(EXTERNAL_ARTICLES, "utf8"));
+  if (!Array.isArray(raw)) throw new Error("content/external-articles.json must be an array");
+  return raw.map((item, index) => {
+    const category = item.category || "公司研究";
+    if (!CATEGORIES.has(category)) {
+      throw new Error(`External article ${index + 1} has unsupported category "${category}"`);
+    }
+    const title = item.title || "";
+    const date = item.date || "";
+    const url = item.url || "";
+    if (!title || !date || !url) throw new Error(`External article ${index + 1} requires title, date and url`);
+    const tags = Array.isArray(item.tags) ? item.tags : [];
+    const summary = item.summary || "";
+    const image = item.image && !item.image.includes("/static/og_img/vocus_og_2025.jpg") ? item.image : "";
+    return {
+      external: true,
+      source: item.source || "方格子",
+      access: item.access || "外部文章",
+      title,
+      date,
+      category,
+      categorySlug: categorySlug(category),
+      tags,
+      summary,
+      image,
+      imageAlt: item.imageAlt || title,
+      publishAt: item.publish_at || `${date}T10:30:00+08:00`,
+      slug: slugify(item.slug || title, `external-${index + 1}`),
+      fileName: "",
+      url,
+      text: [title, summary, category, tags.join(" "), item.source || "方格子", item.access || ""].join(" ")
+    };
+  });
+}
+
 function articleCardHtml(item, href, imageSrc = item.image) {
   const image = imageSrc
     ? `<div class="thumb-wrap"><img class="card-thumb" src="${escapeHtml(imageSrc)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy"></div>`
     : "";
-  return `<a class="article-card${image ? " with-image" : ""}" href="${escapeHtml(href)}">
-    ${image}
+  const finalHref = item.external ? item.url : href;
+  const target = item.external ? ' target="_blank" rel="noopener"' : "";
+  const sourceLabel = item.external ? `<span>${escapeHtml(item.source)}・${escapeHtml(item.access)}</span>` : "";
+  return `<a class="article-card${image ? " with-image" : ""}${item.external ? " external-card" : ""}" href="${escapeHtml(finalHref)}"${target}>${image ? `
+    ${image}` : ""}
     <div class="article-card-body">
-      <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span></div>
+      <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span>${sourceLabel}</div>
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.summary)}</p>
       <div class="tag-row">${item.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
@@ -519,21 +561,23 @@ function articleIndexPage(records) {
   const lead = records[0];
   const latest = records.slice(1, 5);
   const leadImage = lead?.image ? `<img src="${escapeHtml(lead.image)}" alt="${escapeHtml(lead.imageAlt)}" loading="lazy">` : "";
-  const leadHtml = lead ? `<a class="featured-article" href="${lead.fileName}">
+  const leadHref = lead?.external ? lead.url : lead?.fileName;
+  const leadTarget = lead?.external ? ' target="_blank" rel="noopener"' : "";
+  const leadHtml = lead ? `<a class="featured-article" href="${escapeHtml(leadHref)}"${leadTarget}>
     ${leadImage ? `<div class="featured-image">${leadImage}</div>` : ""}
     <div class="featured-copy">
-      <div class="meta"><span>${lead.date}</span><span>${escapeHtml(lead.category)}</span></div>
+      <div class="meta"><span>${lead.date}</span><span>${escapeHtml(lead.category)}</span>${lead.external ? `<span>${escapeHtml(lead.source)}・${escapeHtml(lead.access)}</span>` : ""}</div>
       <h2>${escapeHtml(lead.title)}</h2>
       <p>${escapeHtml(lead.summary)}</p>
       <div class="tag-row">${lead.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
-      <span class="text-link">閱讀全文</span>
+      <span class="text-link">${lead.external ? "前往方格子" : "閱讀全文"}</span>
     </div>
   </a>` : "";
-  const latestHtml = latest.map((item) => `<a class="latest-link" href="${item.fileName}">
+  const latestHtml = latest.map((item) => `<a class="latest-link" href="${escapeHtml(item.external ? item.url : item.fileName)}"${item.external ? ' target="_blank" rel="noopener"' : ""}>
     <span>${item.date}</span>
     <strong>${escapeHtml(item.title)}</strong>
   </a>`).join("");
-  const cards = records.map((item) => articleCardHtml(item, item.fileName)).join("");
+  const cards = records.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("");
   return `<!doctype html>
 <html lang="zh-Hant">
 <head>
@@ -607,7 +651,11 @@ ${footerHtml()}
 }
 
 function archivePage(key, records) {
-  const cards = records.map((item) => articleCardHtml(item, `../${item.fileName}`, item.image.replace(/^\.\.\//, "../../"))).join("");
+  const cards = records.map((item) => articleCardHtml(
+    item,
+    item.external ? item.url : `../${item.fileName}`,
+    item.image.replace(/^\.\.\//, "../../")
+  )).join("");
   return `<!doctype html>
 <html lang="zh-Hant">
 <head>
@@ -633,7 +681,11 @@ ${footerHtml()}
 
 function categoryPage(category, records) {
   const slug = categorySlug(category);
-  const cards = records.map((item) => articleCardHtml(item, `../${item.fileName}`, item.image.replace(/^\.\.\//, "../../"))).join("");
+  const cards = records.map((item) => articleCardHtml(
+    item,
+    item.external ? item.url : `../${item.fileName}`,
+    item.image.replace(/^\.\.\//, "../../")
+  )).join("");
   return `<!doctype html>
 <html lang="zh-Hant">
 <head>
@@ -672,7 +724,7 @@ function sitemap(records) {
   for (const key of new Set(records.map((item) => monthKey(item.date)))) {
     urls.push(`  <url><loc>${BASE_URL}/articles/archive/${key}.html</loc><priority>0.7</priority></url>`);
   }
-  for (const item of records) {
+  for (const item of records.filter((record) => !record.external)) {
     urls.push(`  <url><loc>${BASE_URL}/${item.url}</loc><lastmod>${item.date}</lastmod><priority>0.8</priority></url>`);
   }
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>\n`;
@@ -680,7 +732,7 @@ function sitemap(records) {
 
 function rssFeed(records) {
   const items = records.slice(0, 25).map((item) => {
-    const link = `${BASE_URL}/${item.url}`;
+    const link = item.external ? item.url : `${BASE_URL}/${item.url}`;
     const imageUrl = item.image ? absoluteUrl(item.image) : "";
     const description = imageUrl
       ? `<p><img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}"></p><p>${escapeHtml(item.summary)}</p>`
@@ -786,10 +838,16 @@ async function main() {
     return bTime - aTime || b.meta.title.localeCompare(a.meta.title, "zh-Hant");
   });
   const records = withImages.map(articleRecord);
+  const externalRecords = await loadExternalArticleRecords();
+  const allRecords = [...records, ...externalRecords].sort((a, b) => {
+    const bTime = new Date(b.publishAt || `${b.date}T00:00:00+08:00`).getTime();
+    const aTime = new Date(a.publishAt || `${a.date}T00:00:00+08:00`).getTime();
+    return bTime - aTime || b.title.localeCompare(a.title, "zh-Hant");
+  });
 
   for (const article of withImages) {
     const record = articleRecord(article);
-    const related = records
+    const related = allRecords
       .filter((item) => item.slug !== record.slug && (item.category === record.category || item.tags.some((tag) => record.tags.includes(tag))))
       .slice(0, 3);
     const bodyMarkdown = stripLeadingTitle(article.markdown.replace(DISCLAIMER, "").trim(), article.meta.title);
@@ -797,9 +855,9 @@ async function main() {
     await writeAtomic(path.join(ARTICLES, record.fileName), articlePage(article, body, related));
   }
 
-  await writeAtomic(path.join(ARTICLES, "index.html"), articleIndexPage(records));
+  await writeAtomic(path.join(ARTICLES, "index.html"), articleIndexPage(allRecords));
   for (const category of CATEGORIES.keys()) {
-    const categoryRecords = records.filter((item) => item.category === category);
+    const categoryRecords = allRecords.filter((item) => item.category === category);
     const categoryFile = path.join(ARTICLES, "category", `${categorySlug(category)}.html`);
     if (!categoryRecords.length) {
       if (await exists(categoryFile)) await fs.unlink(categoryFile);
@@ -807,15 +865,15 @@ async function main() {
     }
     await writeAtomic(categoryFile, categoryPage(category, categoryRecords));
   }
-  for (const key of new Set(records.map((item) => monthKey(item.date)))) {
-    await writeAtomic(path.join(ARTICLES, "archive", `${key}.html`), archivePage(key, records.filter((item) => monthKey(item.date) === key)));
+  for (const key of new Set(allRecords.map((item) => monthKey(item.date)))) {
+    await writeAtomic(path.join(ARTICLES, "archive", `${key}.html`), archivePage(key, allRecords.filter((item) => monthKey(item.date) === key)));
   }
-  await writeAtomic(path.join(ROOT, "search-index.json"), JSON.stringify(publicSearchRecords(records), null, 2));
-  await writeAtomic(path.join(ROOT, "sitemap.xml"), sitemap(records));
-  await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(records));
+  await writeAtomic(path.join(ROOT, "search-index.json"), JSON.stringify(publicSearchRecords(allRecords), null, 2));
+  await writeAtomic(path.join(ROOT, "sitemap.xml"), sitemap(allRecords));
+  await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(allRecords));
   await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: new Date().toISOString(), errors: [] }, null, 2));
 
-  console.log(`Published ${due.length} inbox article(s). Total articles: ${records.length}.`);
+  console.log(`Published ${due.length} inbox article(s). Total articles: ${allRecords.length}.`);
 }
 
 main().catch((error) => {
