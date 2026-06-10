@@ -336,6 +336,7 @@ function headerHtml(current) {
     <nav class="nav-links" aria-label="Main navigation">
       ${link("../index.html", "首頁", "home")}
       ${link("index.html", "文章", "articles")}
+      ${link("../guides/", "指南", "guides")}
       ${link("../subscribe.html", "付費專欄", "subscribe")}
       ${link("../services.html", "公司合作", "services")}
       ${link("../team.html", "團隊", "team")}
@@ -567,6 +568,16 @@ ${headerHtml("articles")}
   <section class="section white">
     <div class="container newsletter compact">
       <div>
+        <p class="eyebrow">Research guides</p>
+        <h2>先建立閱讀框架</h2>
+        <p>如果你剛開始追生技醫藥公司，可以先從研究指南理解估值、BD 授權與生醫 IR，再回到文章中心看實際案例。</p>
+      </div>
+      <div class="actions"><a class="button secondary" href="../guides/">閱讀研究指南</a></div>
+    </div>
+  </section>
+  <section class="section white">
+    <div class="container newsletter compact">
+      <div>
         <p class="eyebrow">Paid column</p>
         <h2>訂閱方格子付費專欄</h2>
         <p>網站收錄可搜尋的長文；方格子提供更完整的深度研究、公司追蹤與產業筆記。</p>
@@ -608,7 +619,7 @@ function archivePage(key, records) {
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
+<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
 <main>
   <section class="page-title"><div class="container"><p class="eyebrow">Archive</p><h1>${formatMonth(key)}文章</h1><p>本月已整理 ${records.length} 篇 Drugnews 長文，依時間倒序收錄。</p></div></section>
   <section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section>
@@ -634,7 +645,7 @@ function categoryPage(category, records) {
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
+<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
 <main><section class="page-title"><div class="container"><h1>${escapeHtml(category)}</h1><p>此分類收錄 Drugnews 的相關長文與研究框架。</p></div></section><section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section></main>
 ${footerHtml()}
 </body>
@@ -645,6 +656,10 @@ function sitemap(records) {
   const staticUrls = [
     ["", "1.0"],
     ["articles/", "0.9"],
+    ["guides/", "0.8"],
+    ["guides/biotech-valuation.html", "0.7"],
+    ["guides/biotech-bd-licensing.html", "0.7"],
+    ["guides/biotech-ir.html", "0.7"],
     ["subscribe.html", "0.8"],
     ["services.html", "0.8"],
     ["team.html", "0.7"]
@@ -784,7 +799,13 @@ async function main() {
 
   await writeAtomic(path.join(ARTICLES, "index.html"), articleIndexPage(records));
   for (const category of CATEGORIES.keys()) {
-    await writeAtomic(path.join(ARTICLES, "category", `${categorySlug(category)}.html`), categoryPage(category, records.filter((item) => item.category === category)));
+    const categoryRecords = records.filter((item) => item.category === category);
+    const categoryFile = path.join(ARTICLES, "category", `${categorySlug(category)}.html`);
+    if (!categoryRecords.length) {
+      if (await exists(categoryFile)) await fs.unlink(categoryFile);
+      continue;
+    }
+    await writeAtomic(categoryFile, categoryPage(category, categoryRecords));
   }
   for (const key of new Set(records.map((item) => monthKey(item.date)))) {
     await writeAtomic(path.join(ARTICLES, "archive", `${key}.html`), archivePage(key, records.filter((item) => monthKey(item.date) === key)));

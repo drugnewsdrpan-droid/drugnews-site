@@ -465,6 +465,45 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   color: var(--muted);
 }
 
+.guide-index-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.guide-card {
+  min-height: 280px;
+  padding: 32px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+  text-decoration: none;
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+
+.guide-card:hover {
+  background: var(--porcelain);
+  transform: translateY(-2px);
+}
+
+.guide-card span {
+  color: var(--gold);
+  font-weight: 850;
+  letter-spacing: 0.08em;
+}
+
+.guide-card h2 {
+  margin-top: 58px;
+  margin-bottom: 14px;
+  font-size: 1.5rem;
+}
+
+.guide-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .card p { margin: 8px 0 0; color: var(--muted); }
 
 .tag-row {
@@ -1152,7 +1191,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 
 @media (max-width: 860px) {
   h1 { font-size: 2.25rem; }
-  .hero-grid, .home-hero-grid, .masthead, .grid, .grid.two, .article-layout, .newsletter, .lead-story, .featured-article, .editorial-note, .editorial-list, .service-strip-inner, .client-proof-grid, .team-hero, .team-grid, .team-belief, .differentiation-strip {
+  .hero-grid, .home-hero-grid, .masthead, .grid, .grid.two, .article-layout, .newsletter, .lead-story, .featured-article, .editorial-note, .editorial-list, .service-strip-inner, .client-proof-grid, .team-hero, .team-grid, .team-belief, .differentiation-strip, .guide-index-grid {
     grid-template-columns: 1fr;
   }
   .article-card.with-image, .editorial-list .article-card.with-image {
