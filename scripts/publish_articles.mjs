@@ -51,6 +51,19 @@ function escapeHtml(value) {
     .replaceAll("'", "&#39;");
 }
 
+function escapeXml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&apos;");
+}
+
+function absoluteUrl(relativeUrl) {
+  return `${BASE_URL}/${String(relativeUrl).replace(/^\.\.\//, "").replace(/^\//, "")}`;
+}
+
 function stripMarkdown(markdown) {
   return markdown
     .replace(/!\[[^\]]*]\([^)]+\)/g, "")
@@ -301,6 +314,9 @@ function articlePage(article, bodyHtml, related) {
   const { meta } = article;
   const fileName = `${meta.date}-${meta.slug}.html`;
   const url = `${BASE_URL}/articles/${fileName}`;
+  const firstImage = findMarkdownImages(article.markdown)[0];
+  const articleImage = firstImage ? article.imageMap.get(firstImage.src) || firstImage.src : "";
+  const articleImageUrl = articleImage ? absoluteUrl(articleImage) : "";
   const relatedHtml = related.length
     ? `<div class="card"><h3>延伸閱讀</h3><div class="article-list">${related.map((item) => `<a class="article-card" href="${item.fileName}"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.summary)}</p></a>`).join("")}</div></div>`
     : "";
@@ -323,6 +339,7 @@ function articlePage(article, bodyHtml, related) {
       logo: { "@type": "ImageObject", url: `${BASE_URL}/favicon.svg` }
     }
   };
+  if (articleImageUrl) schema.image = [articleImageUrl];
   return `<!doctype html>
 <html lang="zh-Hant">
 <head>
@@ -333,10 +350,16 @@ function articlePage(article, bodyHtml, related) {
   <link rel="canonical" href="${url}">
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
   <meta property="og:title" content="${escapeHtml(meta.title)}｜Drugnews">
   <meta property="og:description" content="${escapeHtml(meta.summary)}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="${url}">
+  ${articleImageUrl ? `<meta property="og:image" content="${articleImageUrl}">` : ""}
+  <meta name="twitter:card" content="${articleImageUrl ? "summary_large_image" : "summary"}">
+  <meta name="twitter:title" content="${escapeHtml(meta.title)}｜Drugnews">
+  <meta name="twitter:description" content="${escapeHtml(meta.summary)}">
+  ${articleImageUrl ? `<meta name="twitter:image" content="${articleImageUrl}">` : ""}
   <script type="application/ld+json">${JSON.stringify(schema)}</script>
 </head>
 <body>
@@ -449,6 +472,7 @@ function articleIndexPage(records) {
   <link rel="canonical" href="${BASE_URL}/articles/">
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
 </head>
 <body>
 ${headerHtml("articles")}
@@ -511,6 +535,7 @@ function categoryPage(category, records) {
   <link rel="canonical" href="${BASE_URL}/articles/category/${slug}.html">
   <link rel="icon" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
 </head>
 <body>
 <header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt="">Drugnews</a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
@@ -525,6 +550,7 @@ function sitemap(records) {
     ["", "1.0"],
     ["index.html", "0.9"],
     ["articles/", "0.9"],
+    ["feed.xml", "0.7"],
     ["subscribe.html", "0.8"],
     ["services.html", "0.8"],
     ["team.html", "0.7"]
@@ -537,6 +563,37 @@ function sitemap(records) {
     urls.push(`  <url><loc>${BASE_URL}/${item.url}</loc><lastmod>${item.date}</lastmod><priority>0.8</priority></url>`);
   }
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>\n`;
+}
+
+function rssFeed(records) {
+  const items = records.slice(0, 25).map((item) => {
+    const link = `${BASE_URL}/${item.url}`;
+    const imageUrl = item.image ? absoluteUrl(item.image) : "";
+    const description = imageUrl
+      ? `<p><img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(item.imageAlt || item.title)}"></p><p>${escapeHtml(item.summary)}</p>`
+      : `<p>${escapeHtml(item.summary)}</p>`;
+    return `    <item>
+      <title>${escapeXml(item.title)}</title>
+      <link>${escapeXml(link)}</link>
+      <guid isPermaLink="true">${escapeXml(link)}</guid>
+      <pubDate>${new Date(item.publishAt || `${item.date}T00:00:00+08:00`).toUTCString()}</pubDate>
+      <category>${escapeXml(item.category)}</category>
+      <description><![CDATA[${description}]]></description>
+    </item>`;
+  }).join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drugnews｜藥時事</title>
+    <link>${BASE_URL}/</link>
+    <atom:link href="${BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
+    <language>zh-TW</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+${items}
+  </channel>
+</rss>
+`;
 }
 
 async function writeAtomic(filePath, content) {
@@ -629,6 +686,7 @@ async function main() {
   }
   await writeAtomic(path.join(ROOT, "search-index.json"), JSON.stringify(records, null, 2));
   await writeAtomic(path.join(ROOT, "sitemap.xml"), sitemap(records));
+  await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(records));
   await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: new Date().toISOString(), errors: [] }, null, 2));
 
   console.log(`Published ${due.length} inbox article(s). Total articles: ${records.length}.`);
