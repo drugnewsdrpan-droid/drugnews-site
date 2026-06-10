@@ -39,6 +39,7 @@ async function ensureDirs() {
   await fs.mkdir(PUBLISHED, { recursive: true });
   await fs.mkdir(ARTICLES, { recursive: true });
   await fs.mkdir(path.join(ARTICLES, "category"), { recursive: true });
+  await fs.mkdir(path.join(ARTICLES, "archive"), { recursive: true });
   await fs.mkdir(ASSETS, { recursive: true });
 }
 
@@ -94,6 +95,15 @@ function formatDate(date) {
     day: "2-digit",
     timeZone: "Asia/Taipei"
   }).format(new Date(`${date}T00:00:00+08:00`));
+}
+
+function monthKey(date) {
+  return String(date).slice(0, 7);
+}
+
+function formatMonth(key) {
+  const [year, month] = key.split("-");
+  return `${year} 年 ${Number(month)} 月`;
 }
 
 function parseMeta(raw, folderName) {
@@ -447,11 +457,16 @@ function articleCardHtml(item, href, imageSrc = item.image) {
 function articleIndexPage(records) {
   const lead = records[0];
   const latest = records.slice(1, 5);
+  const monthKeys = [...new Set(records.map((item) => monthKey(item.date)))];
   const categoryLinks = [...CATEGORIES.keys()].map((category) => {
     const count = records.filter((item) => item.category === category).length;
     if (!count) return "";
     return `<a href="category/${categorySlug(category)}.html"><span>${escapeHtml(category)}</span><strong>${count}</strong></a>`;
   }).filter(Boolean).join("");
+  const archiveLinks = monthKeys.map((key) => {
+    const count = records.filter((item) => monthKey(item.date) === key).length;
+    return `<a href="archive/${key}.html"><span>${formatMonth(key)}</span><strong>${count}</strong></a>`;
+  }).join("");
   const leadImage = lead?.image ? `<img src="${escapeHtml(lead.image)}" alt="${escapeHtml(lead.imageAlt)}" loading="lazy">` : "";
   const leadHtml = lead ? `<a class="featured-article" href="${lead.fileName}">
     ${leadImage}
@@ -499,6 +514,17 @@ ${headerHtml("articles")}
       ${categoryLinks}
     </div>
   </section>
+  <section class="section compact">
+    <div class="container section-head">
+      <div>
+        <h2>月份歸檔</h2>
+        <p>從 6 月開始往前整理，讓舊文逐步成為可回看的研究資料庫。</p>
+      </div>
+    </div>
+    <div class="container archive-rail">
+      ${archiveLinks}
+    </div>
+  </section>
   <section class="section white">
     <div class="container newsletter compact">
       <div>
@@ -524,6 +550,31 @@ ${headerHtml("articles")}
 </main>
 ${footerHtml()}
 <script src="../search.js?v=20260610-editorial-cards"></script>
+</body>
+</html>`;
+}
+
+function archivePage(key, records) {
+  const cards = records.map((item) => articleCardHtml(item, `../${item.fileName}`, item.image.replace(/^\.\.\//, "../../"))).join("");
+  return `<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${formatMonth(key)}文章｜Drugnews</title>
+  <meta name="description" content="Drugnews ${formatMonth(key)}生技醫藥商業分析文章歸檔。">
+  <link rel="canonical" href="${BASE_URL}/articles/archive/${key}.html">
+  <link rel="icon" href="../../favicon.svg">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+</head>
+<body>
+<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt="">Drugnews</a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
+<main>
+  <section class="page-title"><div class="container"><p class="eyebrow">Archive</p><h1>${formatMonth(key)}文章</h1><p>本月已整理 ${records.length} 篇 Drugnews 長文，依時間倒序收錄。</p></div></section>
+  <section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section>
+</main>
+${footerHtml()}
 </body>
 </html>`;
 }
@@ -564,6 +615,9 @@ function sitemap(records) {
   const urls = staticUrls.map(([loc, priority]) => `  <url><loc>${BASE_URL}/${loc}</loc><priority>${priority}</priority></url>`);
   for (const category of CATEGORIES.keys()) {
     urls.push(`  <url><loc>${BASE_URL}/articles/category/${categorySlug(category)}.html</loc><priority>0.6</priority></url>`);
+  }
+  for (const key of new Set(records.map((item) => monthKey(item.date)))) {
+    urls.push(`  <url><loc>${BASE_URL}/articles/archive/${key}.html</loc><priority>0.7</priority></url>`);
   }
   for (const item of records) {
     urls.push(`  <url><loc>${BASE_URL}/${item.url}</loc><lastmod>${item.date}</lastmod><priority>0.8</priority></url>`);
@@ -693,6 +747,9 @@ async function main() {
   await writeAtomic(path.join(ARTICLES, "index.html"), articleIndexPage(records));
   for (const category of CATEGORIES.keys()) {
     await writeAtomic(path.join(ARTICLES, "category", `${categorySlug(category)}.html`), categoryPage(category, records.filter((item) => item.category === category)));
+  }
+  for (const key of new Set(records.map((item) => monthKey(item.date)))) {
+    await writeAtomic(path.join(ARTICLES, "archive", `${key}.html`), archivePage(key, records.filter((item) => monthKey(item.date) === key)));
   }
   await writeAtomic(path.join(ROOT, "search-index.json"), JSON.stringify(publicSearchRecords(records), null, 2));
   await writeAtomic(path.join(ROOT, "sitemap.xml"), sitemap(records));
