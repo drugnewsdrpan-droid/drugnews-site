@@ -460,7 +460,7 @@ function articleIndexPage(records) {
       <h2>${escapeHtml(lead.title)}</h2>
       <p>${escapeHtml(lead.summary)}</p>
       <div class="tag-row">${lead.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
-      <span class="text-link">閱讀主打文章</span>
+      <span class="text-link">Read the analysis</span>
     </div>
   </a>` : "";
   const latestHtml = latest.map((item) => `<a class="latest-link" href="${item.fileName}">
@@ -483,13 +483,13 @@ function articleIndexPage(records) {
 <body>
 ${headerHtml("articles")}
 <main>
-  <section class="page-title insights-title"><div class="container"><p class="eyebrow">Drugnews articles</p><h1>文章中心</h1><p>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察，整理成可搜尋、可分類、可長期閱讀的文章庫。</p></div></section>
+  <section class="page-title insights-title"><div class="container"><p class="eyebrow">Drugnews library</p><h1>研究文章庫</h1><p>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察，整理成可搜尋、可分類、可長期引用的中文長文。</p></div></section>
   <section class="section white">
     <div class="container insights-grid">
       ${leadHtml}
       <aside class="latest-panel">
-        <p class="eyebrow">Latest</p>
-        <h2>最新更新</h2>
+        <p class="eyebrow">Latest brief</p>
+        <h2>最新文章</h2>
         <div>${latestHtml}</div>
       </aside>
     </div>
