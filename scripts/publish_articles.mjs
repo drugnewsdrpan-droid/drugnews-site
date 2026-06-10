@@ -11,6 +11,8 @@ const ERRORS_FILE = path.join(ROOT, "content", "publish-errors.json");
 const FORCE = process.argv.includes("--force");
 const nowArg = process.argv.find((arg) => arg.startsWith("--now="));
 const NOW = nowArg ? new Date(nowArg.slice("--now=".length)) : new Date();
+const NEWSLETTER_URL = "https://forms.gle/rvDm93vkUx3E7Rci7";
+const PAID_COLUMN_URL = "https://vocus.cc/user/@Drugnews";
 
 const CATEGORIES = new Map([
   ["生技估值", "biotech-valuation"],
@@ -283,6 +285,7 @@ function headerHtml(current) {
     <nav class="nav-links" aria-label="Main navigation">
       ${link("../index.html", "首頁", "home")}
       ${link("index.html", "文章", "articles")}
+      <a href="${PAID_COLUMN_URL}" target="_blank" rel="noopener">付費專欄</a>
       ${link("../services.html", "公司合作", "services")}
       ${link("../team.html", "團隊", "team")}
     </nav>
@@ -348,12 +351,23 @@ ${headerHtml("articles")}
       ${bodyHtml}
       <div class="notice">${DISCLAIMER}</div>
       ${sourceLinks ? `<h2>社群原文</h2><div class="tag-row">${sourceLinks}</div>` : ""}
+      <div class="paid-note">
+        <h2>延伸深度研究</h2>
+        <p>想持續追蹤更多公司研究、產業脈絡與資本市場觀察，可在方格子訂閱 Drugnews 付費專欄。</p>
+        <div class="actions"><a class="button primary" href="${PAID_COLUMN_URL}" target="_blank" rel="noopener">訂閱方格子付費專欄</a></div>
+      </div>
     </article>
     <aside class="sidebar">
+      <div class="card paid-card">
+        <p class="eyebrow">Paid column</p>
+        <h3>方格子付費專欄</h3>
+        <p>深度研究、公司追蹤與生技醫藥資本市場筆記，適合想長期追蹤的讀者。</p>
+        <div class="actions"><a class="button primary" href="${PAID_COLUMN_URL}" target="_blank" rel="noopener">前往訂閱</a></div>
+      </div>
       <div class="card">
         <h3>訂閱長文更新</h3>
         <p>每週收到生技醫藥基本面、估值框架與資本市場觀察。</p>
-        <div class="actions"><a class="button primary" href="https://forms.gle/rvDm93vkUx3E7Rci7" target="_blank" rel="noopener">免費訂閱</a></div>
+        <div class="actions"><a class="button secondary" href="${NEWSLETTER_URL}" target="_blank" rel="noopener">免費訂閱</a></div>
       </div>
       ${relatedHtml}
     </aside>
@@ -404,6 +418,16 @@ function articleIndexPage(records) {
 ${headerHtml("articles")}
 <main>
   <section class="page-title"><div class="container"><h1>文章中心</h1><p>把 FB / Dcard 的觸及，沉澱成可搜尋、可分類、可長期閱讀的 Drugnews 內容主站。</p></div></section>
+  <section class="section white">
+    <div class="container newsletter compact">
+      <div>
+        <p class="eyebrow">Paid column</p>
+        <h2>訂閱方格子付費專欄</h2>
+        <p>網站收錄可搜尋的長文；方格子提供更完整的深度研究、公司追蹤與產業筆記。</p>
+      </div>
+      <div class="actions"><a class="button primary" href="${PAID_COLUMN_URL}" target="_blank" rel="noopener">前往方格子</a></div>
+    </div>
+  </section>
   <section class="section">
     <div class="container">
       <input class="search-box" data-search-input type="search" placeholder="搜尋公司、主題、估值、BD、IR...">
@@ -436,7 +460,7 @@ function categoryPage(category, records) {
   <link rel="stylesheet" href="../../styles.css">
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt="">Drugnews</a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
+<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt="">Drugnews</a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="${PAID_COLUMN_URL}" target="_blank" rel="noopener">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
 <main><section class="page-title"><div class="container"><h1>${escapeHtml(category)}</h1><p>此分類收錄 Drugnews 的相關長文與研究框架。</p></div></section><section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section></main>
 ${footerHtml()}
 </body>

@@ -338,6 +338,26 @@ h3 { margin: 0 0 10px; font-size: 1.18rem; }
 }
 
 .newsletter p { margin: 8px 0 0; color: var(--muted); }
+.newsletter.compact { margin-top: -16px; }
+
+.paid-card {
+  background: #102f3a;
+  color: #fff;
+  border-color: #102f3a;
+}
+
+.paid-card p,
+.paid-card .eyebrow { color: rgba(255, 255, 255, 0.78); }
+
+.paid-note {
+  margin-top: 36px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #f7f9f7;
+}
+
+.paid-note h2 { margin-top: 0; }
 
 .service-strip {
   padding: 0 0 56px;
