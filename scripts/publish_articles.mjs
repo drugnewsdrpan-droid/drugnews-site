@@ -489,16 +489,6 @@ function articleCardHtml(item, href, imageSrc = item.image) {
 function articleIndexPage(records) {
   const lead = records[0];
   const latest = records.slice(1, 5);
-  const monthKeys = [...new Set(records.map((item) => monthKey(item.date)))];
-  const categoryLinks = [...CATEGORIES.keys()].map((category) => {
-    const count = records.filter((item) => item.category === category).length;
-    if (!count) return "";
-    return `<a href="category/${categorySlug(category)}.html"><span>${escapeHtml(category)}</span><strong>${count}</strong></a>`;
-  }).filter(Boolean).join("");
-  const archiveLinks = monthKeys.map((key) => {
-    const count = records.filter((item) => monthKey(item.date) === key).length;
-    return `<a href="archive/${key}.html"><span>${formatMonth(key)}</span><strong>${count}</strong></a>`;
-  }).join("");
   const leadImage = lead?.image ? `<img src="${escapeHtml(lead.image)}" alt="${escapeHtml(lead.imageAlt)}" loading="lazy">` : "";
   const leadHtml = lead ? `<a class="featured-article" href="${lead.fileName}">
     ${leadImage ? `<div class="featured-image">${leadImage}</div>` : ""}
@@ -539,22 +529,6 @@ ${headerHtml("articles")}
         <h2>最新文章</h2>
         <div>${latestHtml}</div>
       </aside>
-    </div>
-  </section>
-  <section class="section compact white">
-    <div class="container category-rail">
-      ${categoryLinks}
-    </div>
-  </section>
-  <section class="section compact">
-    <div class="container section-head">
-      <div>
-        <h2>月份歸檔</h2>
-        <p>從 6 月開始往前整理，讓舊文逐步成為可回看的研究資料庫。</p>
-      </div>
-    </div>
-    <div class="container archive-rail">
-      ${archiveLinks}
     </div>
   </section>
   <section class="section white">
