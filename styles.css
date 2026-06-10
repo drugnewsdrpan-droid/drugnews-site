@@ -742,43 +742,68 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   color: var(--muted);
 }
 
-.client-logo-wall {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.client-logo-marquee {
+  position: relative;
+  overflow: hidden;
+  padding: 26px 0;
   border-top: 1px solid var(--line);
-  border-left: 1px solid var(--line);
-  background: #fff;
+  border-bottom: 1px solid var(--line);
+  background:
+    linear-gradient(90deg, rgba(18, 49, 60, 0.035), rgba(255, 255, 255, 0) 28%, rgba(255, 255, 255, 0) 72%, rgba(18, 49, 60, 0.035)),
+    #fff;
+  mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
+}
+
+.client-logo-track {
+  display: flex;
+  width: max-content;
+  gap: 18px;
+  animation: client-logo-scroll 26s linear infinite;
+}
+
+.client-logo-marquee:hover .client-logo-track {
+  animation-play-state: paused;
 }
 
 .client-logo {
-  min-height: 92px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 18px;
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  color: var(--brand);
-  background:
-    linear-gradient(135deg, rgba(18, 49, 60, 0.04), rgba(255, 255, 255, 0)),
-    radial-gradient(circle at 50% 0%, rgba(211, 117, 44, 0.08), transparent 52%),
-    #fff;
-}
-
-.client-logo span {
+  min-width: 168px;
+  min-height: 70px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 128px;
-  min-height: 44px;
-  padding: 0 16px;
+  padding: 0 24px;
   border: 1px solid rgba(18, 49, 60, 0.14);
-  background: rgba(255, 255, 255, 0.78);
+  border-radius: 999px;
+  color: var(--brand);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(246, 249, 250, 0.94)),
+    radial-gradient(circle at 20% 0%, rgba(211, 117, 44, 0.1), transparent 42%),
+    #fff;
+  box-shadow: 0 12px 28px rgba(18, 49, 60, 0.06);
   font-family: var(--display);
   font-size: clamp(0.98rem, 1.3vw, 1.15rem);
   font-weight: 760;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
   white-space: nowrap;
+}
+
+@keyframes client-logo-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-50% - 9px)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .client-logo-track {
+    animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+  }
+
+  .client-logo[aria-hidden="true"] {
+    display: none;
+  }
 }
 
 .differentiation-strip {
@@ -1211,7 +1236,6 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   }
   .featured-article img { aspect-ratio: 16 / 9; }
   .topic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .client-logo-wall,
   .principle-grid,
   .differentiation-grid,
   .paid-library { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1239,7 +1263,6 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .editorial-list .article-card { padding: 20px; }
   .signal-strip { grid-template-columns: 1fr; }
   .topic-grid { grid-template-columns: 1fr; }
-  .client-logo-wall,
   .principle-grid,
   .differentiation-grid,
   .paid-library { grid-template-columns: 1fr; }
