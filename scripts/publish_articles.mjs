@@ -400,6 +400,21 @@ function articleRecord(article) {
   };
 }
 
+function articleCardHtml(item, href, imageSrc = item.image) {
+  const image = imageSrc
+    ? `<img class="card-thumb" src="${escapeHtml(imageSrc)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy">`
+    : "";
+  return `<a class="article-card${image ? " with-image" : ""}" href="${escapeHtml(href)}">
+    ${image}
+    <div class="article-card-body">
+      <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span></div>
+      <h3>${escapeHtml(item.title)}</h3>
+      <p>${escapeHtml(item.summary)}</p>
+      <div class="tag-row">${item.tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
+    </div>
+  </a>`;
+}
+
 function articleIndexPage(records) {
   const lead = records[0];
   const latest = records.slice(1, 5);
@@ -423,12 +438,7 @@ function articleIndexPage(records) {
     <span>${item.date}</span>
     <strong>${escapeHtml(item.title)}</strong>
   </a>`).join("");
-  const cards = records.map((item) => `<a class="article-card" href="${item.fileName}">
-    <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span></div>
-    <h3>${escapeHtml(item.title)}</h3>
-    <p>${escapeHtml(item.summary)}</p>
-    <div class="tag-row">${item.tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
-  </a>`).join("");
+  const cards = records.map((item) => articleCardHtml(item, item.fileName)).join("");
   return `<!doctype html>
 <html lang="zh-Hant">
 <head>
@@ -483,18 +493,14 @@ ${headerHtml("articles")}
   </section>
 </main>
 ${footerHtml()}
-<script src="../search.js"></script>
+<script src="../search.js?v=20260610-editorial-cards"></script>
 </body>
 </html>`;
 }
 
 function categoryPage(category, records) {
   const slug = categorySlug(category);
-  const cards = records.map((item) => `<a class="article-card" href="../${item.fileName}">
-    <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span></div>
-    <h3>${escapeHtml(item.title)}</h3>
-    <p>${escapeHtml(item.summary)}</p>
-  </a>`).join("");
+  const cards = records.map((item) => articleCardHtml(item, `../${item.fileName}`, item.image.replace(/^\.\.\//, "../../"))).join("");
   return `<!doctype html>
 <html lang="zh-Hant">
 <head>

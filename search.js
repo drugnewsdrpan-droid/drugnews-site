@@ -15,12 +15,19 @@
   function render(items) {
     const inArticles = location.pathname.endsWith("/articles/") || location.pathname.endsWith("/articles/index.html");
     const hrefFor = (url) => inArticles ? url.replace(/^articles\//, "") : url;
+    const imageFor = (image) => {
+      if (!image) return "";
+      return inArticles ? image : image.replace(/^\.\.\//, "");
+    };
     list.innerHTML = items.map((item) => `
-      <a class="article-card" href="${hrefFor(item.url)}">
-        <div class="meta"><span>${item.date}</span><span>${item.category}</span></div>
-        <h3>${item.title}</h3>
-        <p>${item.summary}</p>
-        <div class="tag-row">${item.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
+      <a class="article-card${imageFor(item.image) ? " with-image" : ""}" href="${hrefFor(item.url)}">
+        ${imageFor(item.image) ? `<img class="card-thumb" src="${imageFor(item.image)}" alt="${item.imageAlt || item.title}" loading="lazy">` : ""}
+        <div class="article-card-body">
+          <div class="meta"><span>${item.date}</span><span>${item.category}</span></div>
+          <h3>${item.title}</h3>
+          <p>${item.summary}</p>
+          <div class="tag-row">${item.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
+        </div>
       </a>
     `).join("");
   }

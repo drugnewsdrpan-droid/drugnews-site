@@ -349,11 +349,35 @@ h3 { margin: 0 0 10px; font-size: 1.18rem; }
   text-decoration: none;
 }
 
+.article-card.with-image {
+  grid-template-columns: 148px minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.card-thumb {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  object-position: center top;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #f5f7f8;
+}
+
+.article-card-body {
+  min-width: 0;
+}
+
 .editorial-list .article-card {
   border-top: 0;
   border-left: 0;
   border-radius: 0;
   padding: 22px;
+}
+
+.editorial-list .article-card.with-image {
+  grid-template-columns: 132px minmax(0, 1fr);
 }
 
 .article-card:hover { border-color: #9eb6c2; }
@@ -628,6 +652,10 @@ h3 { margin: 0 0 10px; font-size: 1.18rem; }
   .hero-grid, .home-hero-grid, .grid, .grid.two, .article-layout, .newsletter, .lead-story, .editorial-list, .service-strip-inner {
     grid-template-columns: 1fr;
   }
+  .article-card.with-image, .editorial-list .article-card.with-image {
+    grid-template-columns: 1fr;
+  }
+  .card-thumb { aspect-ratio: 16 / 9; }
   .insights-grid { grid-template-columns: 1fr; }
   .featured-article img { aspect-ratio: 16 / 9; }
   .category-rail { grid-template-columns: repeat(2, minmax(0, 1fr)); }

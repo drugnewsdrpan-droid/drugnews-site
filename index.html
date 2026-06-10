@@ -136,7 +136,10 @@
         lead.href = first.url;
         lead.innerHTML = `${image ? `<img src="${image}" alt="${first.imageAlt || first.title}">` : ""}<div class="lead-story-body"><div class="meta"><span>最新分析</span><span>${first.category}</span></div><h2>${first.title}</h2><p>${first.summary}</p><span class="text-link">閱讀全文</span></div>`;
       }
-      list.innerHTML = items.slice(0, 4).map(item => `<a class="article-card" href="${item.url}"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${item.title}</h3><p>${item.summary}</p><div class="tag-row">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}</div></a>`).join("");
+      list.innerHTML = items.slice(0, 4).map(item => {
+        const cardImage = item.image ? item.image.replace(/^\.\.\//, "") : "";
+        return `<a class="article-card${cardImage ? " with-image" : ""}" href="${item.url}">${cardImage ? `<img class="card-thumb" src="${cardImage}" alt="${item.imageAlt || item.title}" loading="lazy">` : ""}<div class="article-card-body"><div class="meta"><span>${item.date}</span><span>${item.category}</span></div><h3>${item.title}</h3><p>${item.summary}</p><div class="tag-row">${item.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}</div></div></a>`;
+      }).join("");
       if (briefing) {
         briefing.innerHTML = items.slice(1, 5).map(item => `<a class="briefing-link" href="${item.url}"><span>${item.date}</span><strong>${item.title}</strong></a>`).join("");
       }
