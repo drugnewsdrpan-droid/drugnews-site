@@ -47,6 +47,69 @@
   },
   {
     "source": "方格子",
+    "access": "付費文章",
+    "title": "Pipeline 估值雷達 001｜FDA CRL 不是價值歸零，而是估值參數重排",
+    "date": "2026-06-10",
+    "publish_at": "2026-06-10T12:00:00+08:00",
+    "category": "生技估值",
+    "tags": [
+      "FDA",
+      "CRL",
+      "CMC",
+      "label",
+      "現金",
+      "稀釋風險"
+    ],
+    "summary": "FDA CRL 不該只看成藥證失敗，而是要拆成產品、臨床、CMC、label 與補件完整性，重算成功率、上市時間、峰值銷售與稀釋風險。",
+    "image": "../assets/articles/external-vocus/vocus-pipeline-crl-radar-20260610-cover.svg",
+    "imageAlt": "Pipeline 估值雷達 001 封面",
+    "url": "https://vocus.cc/user/@Drugnews",
+    "slug": "vocus-pipeline-crl-radar-20260610"
+  },
+  {
+    "source": "方格子",
+    "access": "付費文章",
+    "title": "〖基本面系列〗全福生技合理估值是多少？BRM421 是乾眼症金礦，還是市場把眼科平台夢買得太早？",
+    "date": "2026-06-10",
+    "publish_at": "2026-06-10T11:00:00+08:00",
+    "category": "生技估值",
+    "tags": [
+      "全福生技",
+      "BRM421",
+      "BRM424",
+      "乾眼症",
+      "PDSP",
+      "授權"
+    ],
+    "summary": "全福不是單純乾眼症大市場概念股，也不是失敗新藥股；本文拆解 BRM421、BRM424、PDSP 平台、現金與稀釋風險，重算合理估值區間。",
+    "image": "../assets/articles/external-vocus/vocus-brm421-valuation-20260610-cover.svg",
+    "imageAlt": "全福生技 BRM421 合理估值封面",
+    "url": "https://vocus.cc/user/@Drugnews",
+    "slug": "vocus-brm421-valuation-20260610"
+  },
+  {
+    "source": "方格子",
+    "access": "付費文章",
+    "title": "BD 解剖室 001｜BMS x 恆瑞：15.2B 美元交易不是「中國創新藥很強」這麼簡單，而是大藥廠正在買一套早期開發",
+    "date": "2026-06-10",
+    "publish_at": "2026-06-10T10:00:00+08:00",
+    "category": "BD / 授權",
+    "tags": [
+      "BMS",
+      "恆瑞",
+      "交易",
+      "upfront",
+      "milestone",
+      "royalty"
+    ],
+    "summary": "BMS x 恆瑞最高 15.2B 美元合作不能只看 headline value；真正要拆的是 upfront、周年付款、milestone、royalty 與資料包能否讓國際買方承擔下一段風險。",
+    "image": "../assets/articles/external-vocus/vocus-bms-hengrui-bd-20260610-cover.svg",
+    "imageAlt": "BMS x 恆瑞交易解剖封面",
+    "url": "https://vocus.cc/user/@Drugnews",
+    "slug": "vocus-bms-hengrui-bd-20260610"
+  },
+  {
+    "source": "方格子",
     "access": "免費文章",
     "title": "為什麼生技新聞不能只看成功或失敗？真正該問的是 5 個估值參數",
     "date": "2026-05-31",

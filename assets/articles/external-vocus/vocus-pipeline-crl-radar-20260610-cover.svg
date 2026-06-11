@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f1e3"/>
+      <stop offset="100%" stop-color="#fffdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="72" y="72" width="1056" height="531" rx="34" fill="#fffaf0" stroke="#9f3f2a" stroke-width="3"/>
+  <circle cx="1010" cy="128" r="84" fill="#9f3f2a" opacity="0.10"/>
+  <circle cx="1130" cy="508" r="126" fill="#9f3f2a" opacity="0.08"/>
+  <text x="112" y="150" font-size="28" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#9f3f2a" letter-spacing="2">付費深度商業分析文章系列</text>
+  <text x="112" y="236" font-size="56" font-weight="700" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#10243e">
+    <tspan x="112" dy="0">Pipeline 估值雷達 001｜</tspan>
+    <tspan x="112" dy="72">FDA CRL 不是價值歸零</tspan>
+    <tspan x="112" dy="72"></tspan>
+  </text>
+  <text x="112" y="556" font-size="26" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#49617a">Drugnews｜方格子付費專欄</text>
+</svg>
