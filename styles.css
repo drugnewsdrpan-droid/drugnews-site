@@ -1428,6 +1428,39 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   top: 96px;
 }
 
+.sidebar .article-list {
+  gap: 12px;
+}
+
+.sidebar .article-card {
+  padding: 14px;
+}
+
+.sidebar .article-card.with-image {
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.sidebar .card-thumb {
+  aspect-ratio: 16 / 9;
+}
+
+.sidebar .article-card h3 {
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
+
+.sidebar .article-card p {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.sidebar .tag-row {
+  display: none;
+}
+
 .notice {
   border: 1px solid #ead3ca;
   background: #fff8f5;
