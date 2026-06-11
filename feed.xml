@@ -6,7 +6,7 @@
     <atom:link href="https://drugnewsdrpan-droid.github.io/drugnews-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 11 Jun 2026 06:58:16 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 07:41:04 GMT</lastBuildDate>
     <item>
       <title>管線估值：為還沒上市的未來定價，BD 最難也最值錢的一課</title>
       <link>https://vocus.cc/article/6a2a30f7fd89780001162667</link>
@@ -120,6 +120,14 @@
       <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/pluvicto-radioligand-therapy-growth/dcard-01.webp" alt="Pluvicto 核藥商業化文章原圖"></p><p>Pluvicto 單季銷售達 6.42 億美元，顯示攝護腺癌治療正從荷爾蒙訊號攻防，走向 PSMA 核醫診療一體化與放射配體療法的新階段。</p>]]></description>
     </item>
     <item>
+      <title>為什麼生技新聞不能只看成功或失敗？真正該問的是 5 個估值參數</title>
+      <link>https://vocus.cc/article/6a15a6f6fd897800015ad19e</link>
+      <guid isPermaLink="true">https://vocus.cc/article/6a15a6f6fd897800015ad19e</guid>
+      <pubDate>Sun, 31 May 2026 03:13:10 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/external-vocus/6a15a6f6fd897800015ad19e-cover.svg" alt="為什麼生技新聞不能只看成功或失敗？真正該問的是 5 個估值參數"></p><p>生技新聞不能只分利多利空。真正要問的是：成功率、上市時間、患者池、峰值銷售、風險折現，哪個估值參數真的被改變了。</p>]]></description>
+    </item>
+    <item>
       <title>【會員研究包】藥華藥 ET 現在該怎麼估值？從 PDUFA 到第二成長曲線重算</title>
       <link>https://vocus.cc/article/6a14397dfd89780001935730</link>
       <guid isPermaLink="true">https://vocus.cc/article/6a14397dfd89780001935730</guid>
@@ -134,6 +142,14 @@
       <pubDate>Sun, 31 May 2026 02:24:56 GMT</pubDate>
       <category>基本面系列</category>
       <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/external-vocus/6a170cf3fd89780001dc3d78-cover.svg" alt="【會員研究包】近期臨床進展該怎麼重算估值？藥華藥 ET 與中裕 TMB-365/380 兩個對照案例"></p><p>很多公司簡報聽完，市場第一個反應往往不是「哪個估值參數變了」，而是「管理層今天講得很有信心」。 這其實很危險。 因為簡報的任務，本來就不是替投資人做估值，而是替公司整理出一套最有利的敘事順序。 所以對我來說，簡報後真正要做的事，不是把投影片重抄一遍，而是立刻回答一個問題：</p>]]></description>
+    </item>
+    <item>
+      <title>公司簡報不能只抄重點：真正要聽的是公司沒說清楚什麼</title>
+      <link>https://vocus.cc/article/6a15a61ffd897800015a854d</link>
+      <guid isPermaLink="true">https://vocus.cc/article/6a15a61ffd897800015a854d</guid>
+      <pubDate>Sun, 31 May 2026 02:19:47 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/external-vocus/6a15a61ffd897800015a854d-cover.svg" alt="公司簡報不能只抄重點：真正要聽的是公司沒說清楚什麼"></p><p>聽生技公司簡報時，重點不是把公司想說的故事抄下來，而是判斷哪些假設、風險與估值參數還沒有被說清楚。</p>]]></description>
     </item>
     <item>
       <title>OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間</title>
@@ -190,22 +206,6 @@
       <pubDate>Tue, 26 May 2026 00:00:20 GMT</pubDate>
       <category>付費深度商業分析文章系列</category>
       <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/external-vocus/6a099ed7fd89780001a780f5-source.png" alt="創新藥的品味：真正的 BD，不只是把藥賣出去，而是看懂病人、疾病與全球市場"></p><p>AI 時代留給人類的東西，可能只剩下三件事：品味、勇氣，還有價值觀。 更精準地說，價值觀其實也包含在品味裡。 因為品味不是美感而已。品味是一個人如何選擇問題、如何判斷價值、如何決定把有限資源下注在哪裡。勇氣則是當你看見一個尚未被共識承認的方向時，仍然願意承擔失敗風險，往前走。 在投資如此，在創</p>]]></description>
-    </item>
-    <item>
-      <title>BD 找標的，不是看故事，而是先算帳：如何量化一條管線到底值不值得買？</title>
-      <link>https://vocus.cc/article/6a13c8b2fd897800017126b7</link>
-      <guid isPermaLink="true">https://vocus.cc/article/6a13c8b2fd897800017126b7</guid>
-      <pubDate>Tue, 26 May 2026 00:00:08 GMT</pubDate>
-      <category>付費深度商業分析文章系列</category>
-      <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/external-vocus/6a13c8b2fd897800017126b7-source.png" alt="BD 找標的，不是看故事，而是先算帳：如何量化一條管線到底值不值得買？"></p><p>每一次 BD 決策，本質上都不是「多買一條管線」這麼簡單。 它其實是在決定公司未來幾年的資金流向、研發資源分配、利潤結構，甚至是整條估值曲線。 很多公司做 BD 時，嘴上說的是「補強產品線」、「布局新技術」、「增加策略協同」，但真正進到內部審查時，常常發現問題很大：資產看起來很漂亮，但買不起；科</p>]]></description>
-    </item>
-    <item>
-      <title>氣喘新藥正在換檔：從吸入三合一到上游免疫靶點</title>
-      <link>https://vocus.cc/article/6a091d1bfd897800017185f3</link>
-      <guid isPermaLink="true">https://vocus.cc/article/6a091d1bfd897800017185f3</guid>
-      <pubDate>Mon, 25 May 2026 00:01:06 GMT</pubDate>
-      <category>商業分析系列</category>
-      <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/external-vocus/6a091d1bfd897800017185f3-source.png" alt="氣喘新藥正在換檔：從吸入三合一到上游免疫靶點"></p><p>氣喘是全球最常見的慢性呼吸道疾病之一，也是醫學上仍難以「根治」的疾病。WHO 估計，2019 年全球約有 2.62 億名氣喘患者，並造成約 45.5 萬人死亡；若採用較早期的全球估算，患者人數甚至可達 3.39 億。這不只是過敏體質或空氣品質的生活議題，也是一條正在被國際大藥廠重新定義的創新藥賽道。</p>]]></description>
     </item>
   </channel>
 </rss>
