@@ -587,8 +587,27 @@ function articleCardHtml(item, href, imageSrc = item.image) {
   </a>`;
 }
 
+function readerFirstRank(item) {
+  if (accessLabel(item) !== "免費文章") return 4;
+  if (!item.external && /Dcard/i.test(item.source || "")) return 0;
+  if (!item.external && /Facebook/i.test(item.source || "")) return 1;
+  if (!item.external) return 2;
+  return 3;
+}
+
+function readerFirstSort(items) {
+  return [...items].sort((a, b) => {
+    const rank = readerFirstRank(a) - readerFirstRank(b);
+    if (rank) return rank;
+    const bTime = new Date(b.publishAt || `${b.date}T00:00:00+08:00`).getTime();
+    const aTime = new Date(a.publishAt || `${a.date}T00:00:00+08:00`).getTime();
+    return bTime - aTime || b.title.localeCompare(a.title, "zh-Hant");
+  });
+}
+
 function articleIndexPage(records) {
-  const lead = records[0];
+  const displayRecords = readerFirstSort(records);
+  const lead = displayRecords[0];
   const typeLinks = [...ACCESS_TYPES.keys()]
     .filter((access) => records.some((item) => accessLabel(item) === access))
     .map((access) => `<a href="type/${accessSlug(access)}.html">${escapeHtml(access)}</a>`)
@@ -597,7 +616,7 @@ function articleIndexPage(records) {
     .slice(0, 4)
     .map((key) => `<a href="archive/${key}.html">${formatMonth(key)}</a>`)
     .join("");
-  const cards = records.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("");
+  const cards = displayRecords.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("");
   return `<!doctype html>
 <html lang="zh-Hant">
 <head>

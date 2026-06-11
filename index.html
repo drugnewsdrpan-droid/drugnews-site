@@ -15,7 +15,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://drugnewsdrpan-droid.github.io/drugnews-site/">
   <meta property="og:site_name" content="Drugnews｜藥時事">
-  <meta property="og:image" content="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-cancer-cell.png">
+  <meta property="og:image" content="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/glp1-biotech-capital-reshuffle/cover-glp1-capital.png">
   <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"藥時事 Drugnews","alternateName":["Drugnews","藥時事","藥時事官方網站"],"url":"https://drugnewsdrpan-droid.github.io/drugnews-site/","logo":"https://drugnewsdrpan-droid.github.io/drugnews-site/favicon.svg","description":"藥時事 Drugnews 官方網站，專注生技醫藥商業分析、公司研究、授權交易、估值框架與資本市場判讀。","sameAs":["https://vocus.cc/user/@Drugnews","https://www.facebook.com/profile.php?id=61568446257142","https://www.cmoney.tw/app/expert/drugnews?ca=1","https://www.dcard.tw/@drugnews","https://www.instagram.com/drugnews.com.tw/"],"email":"drugnews.dr.pan@gmail.com","founder":{"@type":"Person","name":"Dr. Jo-Fan Pan","jobTitle":"Founder"}},{"@type":"WebSite","name":"藥時事 Drugnews 官方網站","alternateName":["Drugnews｜藥時事","Drugnews","藥時事"],"url":"https://drugnewsdrpan-droid.github.io/drugnews-site/","inLanguage":"zh-Hant-TW","description":"藥時事 Drugnews 的生技醫藥商業分析主站。","publisher":{"@type":"Organization","name":"藥時事 Drugnews"},"potentialAction":{"@type":"SearchAction","target":"https://drugnewsdrpan-droid.github.io/drugnews-site/articles/?q={search_term_string}","query-input":"required name=search_term_string"}}]}</script>
 </head>
@@ -58,12 +58,12 @@
         <a href="subscribe.html">方格子專欄</a>
       </div>
       <div class="container home-hero-grid">
-        <a class="lead-story" id="lead-story" href="articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html">
-          <div class="featured-image"><img src="assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-cancer-cell.png" alt="胰臟癌細胞與精準治療示意封面圖"></div>
+        <a class="lead-story" id="lead-story" href="articles/2026-06-11-glp1-biotech-capital-reshuffle.html">
+          <div class="featured-image"><img src="assets/articles/glp1-biotech-capital-reshuffle/cover-glp1-capital.png" alt="GLP-1 重新分配全球生技資本與研發資源的視覺封面"></div>
           <div class="lead-story-body">
-            <div class="meta"><span>本日主題</span><span>公司研究</span></div>
-            <h2>RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場抗藥性管理戰</h2>
-            <p>從 Daraxonrasib 三期數據，看 CX-5461 在 RAS 抑制後抗藥性與免疫增敏場景中的定位。</p>
+            <div class="meta"><span>本日主題</span><span>生技估值</span></div>
+            <h2>減肥成王：GLP-1 正在把全球生技資本重新洗牌</h2>
+            <p>GLP-1 不只是減重藥題材，而是重新配置全球藥廠研發預算、產能投資、BD 談判與生技估值規則的核心變數。</p>
             <span class="text-link">閱讀全文</span>
           </div>
         </a>
@@ -150,7 +150,14 @@
       const lead = document.getElementById("lead-story");
       const briefing = document.getElementById("briefing-articles");
       if (!items.length) return;
-      const first = items[0];
+      const isDcardFree = (item) => !item.external && item.access === "免費文章" && /Dcard/i.test(item.source || "");
+      const isReadableFree = (item) => item.access === "免費文章";
+      const primaryItems = items.filter(isDcardFree);
+      const freeItems = [
+        ...primaryItems,
+        ...items.filter((item) => isReadableFree(item) && !primaryItems.some((picked) => picked.slug === item.slug))
+      ];
+      const first = freeItems[0];
       if (lead && first) {
         const image = first.image ? first.image.replace(/^\.\.\//, "") : "";
         lead.href = first.url;
@@ -164,7 +171,7 @@
         lead.innerHTML = `${image ? `<div class="featured-image"><img src="${image}" alt="${first.imageAlt || first.title}"></div>` : ""}<div class="lead-story-body"><div class="meta"><span>本日主題</span><span>${first.category}</span></div><h2>${first.title}</h2><p>${first.summary}</p><span class="text-link">閱讀全文</span></div>`;
       }
       if (briefing) {
-        briefing.innerHTML = items.slice(1, 5).map(item => `<a class="briefing-link" href="${item.url}"${item.external ? ' target="_blank" rel="noopener"' : ""}><span>${item.date}</span><strong>${item.title}</strong></a>`).join("");
+        briefing.innerHTML = freeItems.filter((item) => !first || item.slug !== first.slug).slice(0, 4).map(item => `<a class="briefing-link" href="${item.url}"${item.external ? ' target="_blank" rel="noopener"' : ""}><span>${item.date}</span><strong>${item.title}</strong></a>`).join("");
       }
     }).catch(() => {});
   </script>

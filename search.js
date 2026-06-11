@@ -12,6 +12,22 @@
     return;
   }
 
+  function readerFirstRank(item) {
+    if (item.access !== "免費文章") return 4;
+    if (!item.external && /Dcard/i.test(item.source || "")) return 0;
+    if (!item.external && /Facebook/i.test(item.source || "")) return 1;
+    if (!item.external) return 2;
+    return 3;
+  }
+
+  function readerFirstSort(items) {
+    return [...items].sort((a, b) => {
+      const rank = readerFirstRank(a) - readerFirstRank(b);
+      if (rank) return rank;
+      return new Date(b.publishAt || b.date) - new Date(a.publishAt || a.date) || b.title.localeCompare(a.title, "zh-Hant");
+    });
+  }
+
   function render(items) {
     const inArticles = location.pathname.endsWith("/articles/") || location.pathname.endsWith("/articles/index.html");
     const hrefFor = (item) => item.external ? item.url : (inArticles ? item.url.replace(/^articles\//, "") : item.url);
@@ -35,7 +51,7 @@
 
   function applySearch() {
     const q = input.value.trim().toLowerCase();
-    if (!q) return render(records);
+    if (!q) return render(readerFirstSort(records));
     render(records.filter((item) => [
       item.title,
       item.summary,
