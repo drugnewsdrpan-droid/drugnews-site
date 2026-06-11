@@ -26,6 +26,11 @@ const CATEGORIES = new Map([
   ["活動紀錄", "events"]
 ]);
 
+const ACCESS_TYPES = new Map([
+  ["免費文章", "free"],
+  ["付費文章", "paid"]
+]);
+
 const DISCLAIMER = "本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。";
 
 async function exists(filePath) {
@@ -42,6 +47,7 @@ async function ensureDirs() {
   await fs.mkdir(PUBLISHED, { recursive: true });
   await fs.mkdir(ARTICLES, { recursive: true });
   await fs.mkdir(path.join(ARTICLES, "category"), { recursive: true });
+  await fs.mkdir(path.join(ARTICLES, "type"), { recursive: true });
   await fs.mkdir(path.join(ARTICLES, "archive"), { recursive: true });
   await fs.mkdir(ASSETS, { recursive: true });
 }
@@ -90,6 +96,22 @@ function slugify(input, fallback) {
 
 function categorySlug(category) {
   return CATEGORIES.get(category) || slugify(category, "uncategorized");
+}
+
+function accessSlug(access) {
+  return ACCESS_TYPES.get(access) || "free";
+}
+
+function accessLabel(item) {
+  return item.access || "免費文章";
+}
+
+function platformLabel(meta) {
+  if (meta.source_platform) return meta.source_platform;
+  const platforms = [];
+  if (meta.dcard_url) platforms.push("Dcard");
+  if (meta.facebook_url) platforms.push("Facebook");
+  return platforms.length ? platforms.join(" / ") : "網站";
 }
 
 function formatDate(date) {
@@ -400,7 +422,7 @@ function articlePage(article, bodyHtml, related) {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "首頁", item: `${BASE_URL}/` },
       { "@type": "ListItem", position: 2, name: "文章", item: `${BASE_URL}/articles/` },
-      { "@type": "ListItem", position: 3, name: meta.category, item: categoryUrl },
+      { "@type": "ListItem", position: 3, name: "免費文章", item: `${BASE_URL}/articles/type/free.html` },
       { "@type": "ListItem", position: 4, name: meta.title, item: url }
     ]
   };
@@ -433,8 +455,8 @@ ${headerHtml("articles")}
 <main>
   <section class="article-hero">
     <div class="container article-hero-inner">
-      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">文章</a><span>/</span><a href="category/${categorySlug(meta.category)}.html">${escapeHtml(meta.category)}</a></nav>
-      <div class="meta"><span>${formatDate(meta.date)}</span><span>${escapeHtml(meta.category)}</span></div>
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">文章</a><span>/</span><a href="type/free.html">免費文章</a></nav>
+      <div class="meta"><span>${formatDate(meta.date)}</span><span>免費文章</span><span>${escapeHtml(meta.category)}</span></div>
       <h1>${escapeHtml(meta.title)}</h1>
       <p class="article-deck">${escapeHtml(meta.summary)}</p>
       <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
@@ -490,6 +512,9 @@ function articleRecord(article) {
     date: meta.date,
     category: meta.category,
     categorySlug: categorySlug(meta.category),
+    access: "免費文章",
+    accessSlug: accessSlug("免費文章"),
+    source: platformLabel(meta),
     tags: meta.tags,
     summary: meta.summary,
     image: articleCover.src,
@@ -526,6 +551,7 @@ async function loadExternalArticleRecords() {
       date,
       category,
       categorySlug: categorySlug(category),
+      accessSlug: accessSlug(item.access || "免費文章"),
       tags,
       summary,
       image,
@@ -545,11 +571,11 @@ function articleCardHtml(item, href, imageSrc = item.image) {
     : "";
   const finalHref = item.external ? item.url : href;
   const target = item.external ? ' target="_blank" rel="noopener"' : "";
-  const sourceLabel = item.external ? `<span>${escapeHtml(item.source)}・${escapeHtml(item.access)}</span>` : "";
+  const sourceLabel = item.source ? `<span>${escapeHtml(item.source)}</span>` : "";
   return `<a class="article-card${image ? " with-image" : ""}${item.external ? " external-card" : ""}" href="${escapeHtml(finalHref)}"${target}>${image ? `
     ${image}` : ""}
     <div class="article-card-body">
-      <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span>${sourceLabel}</div>
+      <div class="meta"><span>${item.date}</span><span>${escapeHtml(accessLabel(item))}</span>${sourceLabel}</div>
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.summary)}</p>
       <div class="tag-row">${item.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
@@ -559,9 +585,9 @@ function articleCardHtml(item, href, imageSrc = item.image) {
 
 function articleIndexPage(records) {
   const lead = records[0];
-  const categoryLinks = [...CATEGORIES.keys()]
-    .filter((category) => records.some((item) => item.category === category))
-    .map((category) => `<a href="category/${categorySlug(category)}.html">${escapeHtml(category)}</a>`)
+  const typeLinks = [...ACCESS_TYPES.keys()]
+    .filter((access) => records.some((item) => accessLabel(item) === access))
+    .map((access) => `<a href="type/${accessSlug(access)}.html">${escapeHtml(access)}</a>`)
     .join("");
   const monthLinks = [...new Set(records.map((item) => monthKey(item.date)))]
     .slice(0, 4)
@@ -604,7 +630,7 @@ ${headerHtml("articles")}
           <span>篇文章與外部專欄連結</span>
         </div>
       </div>
-      <div class="library-links" aria-label="文章分類">${categoryLinks}</div>
+      <div class="library-links library-links-large" aria-label="文章類型">${typeLinks}</div>
       <div class="library-links muted" aria-label="月份歸檔">${monthLinks}</div>
       <input class="search-box" data-search-input type="search" placeholder="搜尋公司、主題、估值、BD、IR...">
       <div class="article-list" data-search-results style="margin-top:20px">${cards}</div>
@@ -673,6 +699,36 @@ ${footerHtml()}
 </html>`;
 }
 
+function typePage(access, records) {
+  const slug = accessSlug(access);
+  const cards = records.map((item) => articleCardHtml(
+    item,
+    item.external ? item.url : `../${item.fileName}`,
+    item.image.replace(/^\.\.\//, "../../")
+  )).join("");
+  const description = access === "付費文章"
+    ? "方格子付費專欄文章整理，適合想深入追蹤公司研究、產業判斷與資本市場筆記的讀者。"
+    : "Dcard、Facebook 與網站可免費閱讀的 Drugnews 長文。";
+  return `<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${escapeHtml(access)}｜Drugnews</title>
+  <meta name="description" content="${escapeHtml(description)}">
+  <link rel="canonical" href="${BASE_URL}/articles/type/${slug}.html">
+  <link rel="icon" href="../../favicon.svg">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+</head>
+<body>
+<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
+<main><section class="page-title"><div class="container"><p class="eyebrow">文章類型</p><h1>${escapeHtml(access)}</h1><p>${escapeHtml(description)}</p></div></section><section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section></main>
+${footerHtml()}
+</body>
+</html>`;
+}
+
 function sitemap(records) {
   const staticUrls = [
     ["", "1.0", "2026-06-10"],
@@ -684,6 +740,10 @@ function sitemap(records) {
     ["team.html", "0.7"]
   ];
   const urls = staticUrls.map(([loc, priority, lastmod]) => `  <url><loc>${BASE_URL}/${loc}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}<priority>${priority}</priority></url>`);
+  for (const access of ACCESS_TYPES.keys()) {
+    if (!records.some((item) => accessLabel(item) === access)) continue;
+    urls.push(`  <url><loc>${BASE_URL}/articles/type/${accessSlug(access)}.html</loc><priority>0.7</priority></url>`);
+  }
   for (const category of CATEGORIES.keys()) {
     if (!records.some((item) => item.category === category)) continue;
     urls.push(`  <url><loc>${BASE_URL}/articles/category/${categorySlug(category)}.html</loc><priority>0.6</priority></url>`);
@@ -831,6 +891,15 @@ async function main() {
       continue;
     }
     await writeAtomic(categoryFile, categoryPage(category, categoryRecords));
+  }
+  for (const access of ACCESS_TYPES.keys()) {
+    const typeRecords = allRecords.filter((item) => accessLabel(item) === access);
+    const typeFile = path.join(ARTICLES, "type", `${accessSlug(access)}.html`);
+    if (!typeRecords.length) {
+      if (await exists(typeFile)) await fs.unlink(typeFile);
+      continue;
+    }
+    await writeAtomic(typeFile, typePage(access, typeRecords));
   }
   for (const key of new Set(allRecords.map((item) => monthKey(item.date)))) {
     await writeAtomic(path.join(ARTICLES, "archive", `${key}.html`), archivePage(key, allRecords.filter((item) => monthKey(item.date) === key)));

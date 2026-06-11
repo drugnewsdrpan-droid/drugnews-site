@@ -7,6 +7,8 @@
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/subscribe.html</loc><priority>0.8</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/services.html</loc><priority>0.8</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/team.html</loc><priority>0.7</priority></url>
+  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/type/free.html</loc><priority>0.7</priority></url>
+  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/type/paid.html</loc><priority>0.7</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/biotech-valuation.html</loc><priority>0.6</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/company-research.html</loc><priority>0.6</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/bd-licensing.html</loc><priority>0.6</priority></url>
@@ -14,6 +16,7 @@
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/ir-capital-markets.html</loc><priority>0.6</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/archive/2026-06.html</loc><priority>0.7</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/archive/2026-05.html</loc><priority>0.7</priority></url>
+  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-11-tirzepatide-autoimmune-immune-metabolism.html</loc><lastmod>2026-06-11</lastmod><priority>0.8</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html</loc><lastmod>2026-06-10</lastmod><priority>0.8</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-10-biotech-ir-capital-market-story.html</loc><lastmod>2026-06-10</lastmod><priority>0.8</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-09-curium-lantheus-radiopharma-acquisition.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
