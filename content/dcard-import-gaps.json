@@ -1,105 +1,677 @@
 {
-  "updated_at": "2026-06-11T07:56:12.540Z",
-  "reason": "Dcard API 與公開頁面目前被 Cloudflare 擋住；已先收錄 Chrome 歷史可確認的 5 月 Dcard 原文連結。正文與圖片需等 Dcard dump 或可存取來源後補齊。",
-  "imported_as_external_links": [
-    {
-      "title": "破紀錄 AI 製藥融資來了！Google 系公司一次募 21 億美元",
-      "date": "2026-05-20",
-      "url": "https://www.dcard.tw/@drugnews/post/261515495"
-    },
-    {
-      "title": "氣喘新藥正在換檔：從吸入三合一到上游免疫靶點",
-      "date": "2026-05-25",
-      "url": "https://www.dcard.tw/@drugnews/post/261543849"
-    },
-    {
-      "title": "減肥藥新副作用，意外帶出新賽道？",
-      "date": "2026-05-27",
-      "url": "https://www.dcard.tw/@drugnews/post/261549898"
-    },
-    {
-      "title": "太陽製藥、梯瓦製藥 與 全球學名藥廠的轉型焦慮",
-      "date": "2026-05-27",
-      "url": "https://www.dcard.tw/@drugnews/post/261555997"
-    },
-    {
-      "title": "減重藥物不只看體重了：下一代療法正在瞄準這些方向",
-      "date": "2026-05-29",
-      "url": "https://www.dcard.tw/@drugnews/post/261568567"
-    },
-    {
-      "title": "藥王的最佳搭檔？療效翻倍！",
-      "date": "2026-05-29",
-      "url": "https://www.dcard.tw/@drugnews/post/261574381"
-    },
-    {
-      "title": "Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
-      "date": "2026-05-29",
-      "url": "https://www.dcard.tw/@drugnews/post/261579396"
-    },
-    {
-      "title": "臨床試驗作假，FDA 撤市風暴！",
-      "date": "2026-05-09",
-      "url": "https://www.dcard.tw/@drugnews/post/261447912"
-    },
-    {
-      "title": "最強生髮藥暴漲 47%，為什麼可能改寫掉髮治療三十年僵局？",
-      "date": "2026-05-05",
-      "url": "https://www.dcard.tw/@drugnews/post/261416822"
-    }
+  "month": "2026-05",
+  "updated_at": "2026-06-11T08:05:32.833Z",
+  "note": "Dcard API and public profile are blocked by Cloudflare in this environment. This audit only marks Dcard posts as confirmed when a real /@drugnews/post/ URL is available from local history, source files, or metadata. Other same-day Vocus/site records are candidates, not substitutes.",
+  "summary": {
+    "expected_days": 31,
+    "confirmed_days": 6,
+    "missing_days": 25,
+    "confirmed_dcard_posts": 9
+  },
+  "missing_dates": [
+    "2026-05-01",
+    "2026-05-02",
+    "2026-05-03",
+    "2026-05-04",
+    "2026-05-06",
+    "2026-05-07",
+    "2026-05-08",
+    "2026-05-10",
+    "2026-05-11",
+    "2026-05-12",
+    "2026-05-13",
+    "2026-05-14",
+    "2026-05-15",
+    "2026-05-16",
+    "2026-05-17",
+    "2026-05-18",
+    "2026-05-19",
+    "2026-05-21",
+    "2026-05-22",
+    "2026-05-23",
+    "2026-05-24",
+    "2026-05-26",
+    "2026-05-28",
+    "2026-05-30",
+    "2026-05-31"
   ],
-  "local_full_dcard_drafts": [
+  "daily": [
     {
-      "title": "台康生技不是純 CDMO：Herwenda、Sandoz 和 420 mg vial 到底該怎麼估？",
+      "date": "2026-05-01",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-01",
+          "title": "阿茲海默症20年來的假說開始崩盤？",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/69e8650afd89780001f3f1da",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-02",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-02",
+          "title": "創新藥 License-out：名為授權許可，實為 IP 賣身？",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/69f2b20efd897800016e34c6",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": []
+    },
+    {
+      "date": "2026-05-04",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-04",
+          "title": "大藥廠怎麼衡量早期專案？真正的關鍵，不是人脈，而是確信度",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/69f2b40cfd897800016ee6d2",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-05",
+          "title": "最強生髮藥暴漲 47%，為什麼可能改寫掉髮治療三十年僵局？",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261416822",
+          "status": "confirmed_dcard_link"
+        }
+      ],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-05",
+          "title": "生醫藥人，如何在 SOP 與 AI 夾擊下，重新找回創造力？",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/69f2b637fd897800016fa618",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-06",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-06",
+          "title": "深度解析：AI 製藥公司的估值體系",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/69f32410fd897800019466f9",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-07",
+          "title": "【限時免費－台北場】藥時事｜捕捉生技飆股：用NPV框架算出翻倍重估點",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/69f89078fd897800018fdaa7",
+          "status": "candidate_non_dcard_source"
+        },
+        {
+          "date": "2026-05-07",
+          "title": "下一代世紀大藥的陰影？",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/69f31b24fd8978000191b420",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-08",
+          "title": "慢病新貴 HDAC6：一個從腫瘤配角走向長期治療平台的表觀遺傳標靶",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/69f9ebb4fd8978000126c723",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-09",
+          "title": "臨床試驗作假，FDA 撤市風暴！",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261447912",
+          "status": "confirmed_dcard_link"
+        }
+      ],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-09",
+          "title": "做藥，正在從拆盲盒變成搭樂高",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/69f9e952fd8978000125e854",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": []
+    },
+    {
+      "date": "2026-05-11",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-11",
+          "title": "Lilly 今年最貴併購案：為什麼一個「清醒開關」值 78 億美元？",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/69e8ebbffd897800011cc782",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-12",
+          "title": "那個喊了 40 年的「創新藥回報率已死」鬼故事，唬住了多少人？",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/69cfe161fd897800019121ac",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-13",
+          "title": "BD 必看：License-out 資訊揭露節奏，不是越透明越好，而是要讓買方一步一步「付出代價」",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/69feced8fd89780001e8fb67",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-14",
+          "title": "大藥廠 輝瑞在兩個判斷上栽跟頭？",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/69fca07afd897800014ec164",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-15",
+          "title": "三抗不是炒冷飯：成熟標靶背後，其實藏著三層商業邏輯",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/69fe9e3efd89780001db0c56",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-16",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-16",
+          "title": "Johnson & Johnson（嬌生）砍掉兩條 自體淋巴瘤 CAR-T",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/69fcaa65fd897800015160ba",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-17",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-17",
+          "title": "第一三共最貴的一課：ADC 爆款之後，產能豪賭如何反噬？",
+          "source": "website",
+          "access": "免費文章",
+          "url": "articles/2026-05-17-daiichi-sankyo-adc-capacity-lesson.html",
+          "slug": "daiichi-sankyo-adc-capacity-lesson",
+          "status": "site_article_no_confirmed_dcard_post"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-18",
+          "title": "AI 製藥大單背後：百億美元交易案，不代表 AI 公司真的拿到百億美元",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/6a07dea6fd897800011862f7",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-19",
+          "title": "BD 怎麼跟 Big Pharma 1v1 開會？不是混臉熟，而是讓買方願意往下一步走",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/6a07e2e5fd8978000119a6c6",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-20",
+          "title": "破紀錄 AI 製藥融資來了！Google 系公司一次募 21 億美元",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261515495",
+          "status": "confirmed_dcard_link"
+        }
+      ],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-20",
+          "title": "第一三共最貴的一課：ADC 熱潮裡，產能也可能變成風險資產",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/6a099349fd89780001a468c4",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-21",
+          "title": "【基本面系列】藥華藥合理估值是多少？",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/6a0d4c86fd89780001809174",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-22",
+          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/6a067b5efd89780001967900",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-23",
+          "title": "全球生技大浪來襲：看懂五兆減肥藥的主升段與科學定價",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/6a1004a2fd8978000174d22e",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-24",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": []
+    },
+    {
+      "date": "2026-05-25",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-25",
+          "title": "氣喘新藥正在換檔：從吸入三合一到上游免疫靶點",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261543849",
+          "status": "confirmed_dcard_link"
+        }
+      ],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-25",
+          "title": "氣喘新藥正在換檔：從吸入三合一到上游免疫靶點",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/6a091d1bfd897800017185f3",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-26",
+          "title": "創新藥的品味：真正的 BD，不只是把藥賣出去，而是看懂病人、疾病與全球市場",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/6a099ed7fd89780001a780f5",
+          "status": "candidate_non_dcard_source"
+        },
+        {
+          "date": "2026-05-26",
+          "title": "BD 找標的，不是看故事，而是先算帳：如何量化一條管線到底值不值得買？",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/6a13c8b2fd897800017126b7",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 2,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-27",
+          "title": "減肥藥新副作用，意外帶出新賽道？",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261549898",
+          "status": "confirmed_dcard_link"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "太陽製藥、梯瓦製藥 與 全球學名藥廠的轉型焦慮",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261555997",
+          "status": "confirmed_dcard_link"
+        }
+      ],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-27",
+          "title": "藥時事會員版：不是更多新聞，是一套生技醫藥判斷系統",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/6a15289ffd89780001d2fdec",
+          "status": "candidate_non_dcard_source"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "台灣生技估值第一步：不要把所有公司都塞進同一個本益比",
+          "source": "website",
+          "access": "免費文章",
+          "url": "articles/2026-05-27-taiwan-biotech-valuation-framework.html",
+          "slug": "taiwan-biotech-valuation-framework",
+          "status": "site_article_no_confirmed_dcard_post"
+        }
+      ]
+    },
+    {
       "date": "2026-05-28",
-      "slug": "taikang-cdmo-herwenda-valuation"
-    }
-  ],
-  "still_needs_full_body_and_images": [
-    {
-      "title": "破紀錄 AI 製藥融資來了！Google 系公司一次募 21 億美元",
-      "date": "2026-05-20",
-      "url": "https://www.dcard.tw/@drugnews/post/261515495"
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-28",
+          "title": "無針注射不是噱頭：從怕打針，到下一代藥物遞送平台",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/6a151ec7fd89780001cf534e",
+          "status": "candidate_non_dcard_source"
+        },
+        {
+          "date": "2026-05-28",
+          "title": "台康生技不是純 CDMO：Herwenda、Sandoz 和 420 mg vial 到底該怎麼估？",
+          "source": "Dcard / Facebook",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews",
+          "slug": "taikang-cdmo-herwenda-valuation",
+          "status": "site_article_no_confirmed_dcard_post"
+        }
+      ]
     },
     {
-      "title": "氣喘新藥正在換檔：從吸入三合一到上游免疫靶點",
-      "date": "2026-05-25",
-      "url": "https://www.dcard.tw/@drugnews/post/261543849"
-    },
-    {
-      "title": "減肥藥新副作用，意外帶出新賽道？",
-      "date": "2026-05-27",
-      "url": "https://www.dcard.tw/@drugnews/post/261549898"
-    },
-    {
-      "title": "太陽製藥、梯瓦製藥 與 全球學名藥廠的轉型焦慮",
-      "date": "2026-05-27",
-      "url": "https://www.dcard.tw/@drugnews/post/261555997"
-    },
-    {
-      "title": "減重藥物不只看體重了：下一代療法正在瞄準這些方向",
       "date": "2026-05-29",
-      "url": "https://www.dcard.tw/@drugnews/post/261568567"
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 3,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-29",
+          "title": "減重藥物不只看體重了：下一代療法正在瞄準這些方向",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261568567",
+          "status": "confirmed_dcard_link"
+        },
+        {
+          "date": "2026-05-29",
+          "title": "藥王的最佳搭檔？療效翻倍！",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261574381",
+          "status": "confirmed_dcard_link"
+        },
+        {
+          "date": "2026-05-29",
+          "title": "Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261579396",
+          "status": "confirmed_dcard_link"
+        }
+      ],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-29",
+          "title": "減重藥物不只看體重了：下一代療法正在瞄準這些方向",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/6a0ea91efd897800015f1c9d",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
     },
     {
-      "title": "藥王的最佳搭檔？療效翻倍！",
-      "date": "2026-05-29",
-      "url": "https://www.dcard.tw/@drugnews/post/261574381"
+      "date": "2026-05-30",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-30",
+          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/6a0540e0fd89780001e8806d",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
     },
     {
-      "title": "Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
-      "date": "2026-05-29",
-      "url": "https://www.dcard.tw/@drugnews/post/261579396"
-    },
-    {
-      "title": "臨床試驗作假，FDA 撤市風暴！",
-      "date": "2026-05-09",
-      "url": "https://www.dcard.tw/@drugnews/post/261447912"
-    },
-    {
-      "title": "最強生髮藥暴漲 47%，為什麼可能改寫掉髮治療三十年僵局？",
-      "date": "2026-05-05",
-      "url": "https://www.dcard.tw/@drugnews/post/261416822"
+      "date": "2026-05-31",
+      "expected_dcard_posts": 1,
+      "confirmed_dcard_posts": 0,
+      "status": "missing_confirmed_dcard_url",
+      "confirmed": [],
+      "candidates_from_other_sources": [
+        {
+          "date": "2026-05-31",
+          "title": "為什麼生技新聞不能只看成功或失敗？真正該問的是 5 個估值參數",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/6a15a6f6fd897800015ad19e",
+          "status": "candidate_non_dcard_source"
+        },
+        {
+          "date": "2026-05-31",
+          "title": "【會員研究包】藥華藥 ET 現在該怎麼估值？從 PDUFA 到第二成長曲線重算",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/6a14397dfd89780001935730",
+          "status": "candidate_non_dcard_source"
+        },
+        {
+          "date": "2026-05-31",
+          "title": "【會員研究包】近期臨床進展該怎麼重算估值？藥華藥 ET 與中裕 TMB-365/380 兩個對照案例",
+          "source": "方格子",
+          "access": "付費文章",
+          "url": "https://vocus.cc/article/6a170cf3fd89780001dc3d78",
+          "status": "candidate_non_dcard_source"
+        },
+        {
+          "date": "2026-05-31",
+          "title": "公司簡報不能只抄重點：真正要聽的是公司沒說清楚什麼",
+          "source": "方格子",
+          "access": "免費文章",
+          "url": "https://vocus.cc/article/6a15a61ffd897800015a854d",
+          "status": "candidate_non_dcard_source"
+        }
+      ]
     }
   ]
 }
