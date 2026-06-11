@@ -5,15 +5,15 @@
   "publish_at": "2026-05-09T10:30:00+08:00",
   "category": "臨床與 CMC",
   "tags": [
+    "Tavneos",
     "FDA",
-    "臨床試驗",
     "資料完整性",
-    "撤市風險",
-    "法規"
+    "罕病藥",
+    "撤市風險"
   ],
-  "summary": "臨床資料不只是科學問題，也是資產價值問題；一旦資料完整性被質疑，藥品命運可能被監管重新改寫。",
-  "cover_image": "images/cover.svg",
-  "cover_image_alt": "臨床試驗作假，FDA 撤市風暴！ 圖解封面",
+  "summary": "FDA 對 Tavneos 提出撤市程序，核心不是單純療效不足，而是 ADVOCATE 試驗資料完整性與事後重判問題。",
+  "cover_image": "images/dcard-01.webp",
+  "cover_image_alt": "Dcard 原圖：臨床試驗作假，FDA 撤市風暴！",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261447912",
   "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"

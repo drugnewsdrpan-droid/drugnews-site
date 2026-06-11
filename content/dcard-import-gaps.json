@@ -1,46 +1,31 @@
 {
   "month": "2026-05",
-  "updated_at": "2026-06-11T09:09:29.787Z",
+  "updated_at": "2026-06-11T09:44:50.279Z",
   "note": "Dcard API and public profile are blocked by Cloudflare in this environment. This audit only marks Dcard posts as confirmed when a real /@drugnews/post/ URL is available from local history, source files, or metadata. Other same-day Vocus/site records are candidates, not substitutes.",
   "summary": {
     "expected_days": 31,
-    "confirmed_days": 7,
-    "missing_days": 24,
-    "confirmed_dcard_posts": 9
+    "confirmed_days": 31,
+    "missing_days": 0,
+    "confirmed_dcard_posts": 31
   },
-  "missing_dates": [
-    "2026-05-01",
-    "2026-05-02",
-    "2026-05-03",
-    "2026-05-04",
-    "2026-05-06",
-    "2026-05-07",
-    "2026-05-08",
-    "2026-05-10",
-    "2026-05-11",
-    "2026-05-12",
-    "2026-05-13",
-    "2026-05-14",
-    "2026-05-15",
-    "2026-05-16",
-    "2026-05-17",
-    "2026-05-18",
-    "2026-05-19",
-    "2026-05-21",
-    "2026-05-22",
-    "2026-05-23",
-    "2026-05-24",
-    "2026-05-26",
-    "2026-05-28",
-    "2026-05-30"
-  ],
+  "missing_dates": [],
   "daily": [
     {
       "date": "2026-05-01",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-01",
+          "title": "阿茲海默症20年來的假說開始崩盤？",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261400483",
+          "slug": "alzheimers-amyloid-hypothesis-collapse",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-01",
@@ -55,9 +40,19 @@
     {
       "date": "2026-05-02",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-02",
+          "title": "印度製藥巨頭的野望！併購美國藥廠！",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261405629",
+          "slug": "sun-pharma-organon-acquisition",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-02",
@@ -72,17 +67,37 @@
     {
       "date": "2026-05-03",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-03",
+          "title": "體內 CAR-T 的泡沫，還是下一代細胞治療最貴的門票？",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261411145",
+          "slug": "in-vivo-cart-kelonia-lilly",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": []
     },
     {
       "date": "2026-05-04",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-04",
+          "title": "最強生髮藥暴漲 47%， 為什麼可能改寫掉髮治療三十年僵局？",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261416822",
+          "slug": "hair-growth-drug-breakthrough",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-04",
@@ -102,11 +117,11 @@
       "confirmed": [
         {
           "date": "2026-05-05",
-          "title": "最強生髮藥暴漲 47%，為什麼可能改寫掉髮治療三十年僵局？",
+          "title": "讓大藥廠心動的管線到底做了什麼？",
           "source": "Dcard",
           "access": "免費文章",
-          "url": "https://www.dcard.tw/@drugnews/post/261416822",
-          "slug": "hair-growth-drug-breakthrough",
+          "url": "https://www.dcard.tw/@drugnews/post/261422909",
+          "slug": "pharma-pipeline-bd-attraction",
           "status": "confirmed_dcard_link"
         }
       ],
@@ -124,9 +139,19 @@
     {
       "date": "2026-05-06",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-06",
+          "title": "【限時免費－台北場】藥時事｜捕捉生技飆股：用NPV框架算出翻倍重估點",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261428962",
+          "slug": "taipei-biotech-npv-workshop",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-06",
@@ -141,9 +166,19 @@
     {
       "date": "2026-05-07",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-07",
+          "title": "下一代世紀大藥的陰影？",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261435316",
+          "slug": "pan-ras-patent-safety-war",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-07",
@@ -166,9 +201,19 @@
     {
       "date": "2026-05-08",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-08",
+          "title": "減肥藥還是太強了，禮來 猛健樂 賺爛！",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261441739",
+          "slug": "lilly-tirzepatide-glp1-growth",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-08",
@@ -210,17 +255,37 @@
     {
       "date": "2026-05-10",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-10",
+          "title": "川普放政策鴿子，減肥藥價格白降了？",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261453263",
+          "slug": "glp1-medicare-policy-delay",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": []
     },
     {
       "date": "2026-05-11",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-11",
+          "title": "DAC（降解劑－抗體偶聯藥物）會是下一代標靶藥物的新引爆點嗎？",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261458520",
+          "slug": "dac-adc-protac-next-targeted-therapy",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-11",
@@ -235,9 +300,19 @@
     {
       "date": "2026-05-12",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-12",
+          "title": "自體免疫 雙子星 拯救 嬌生",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261465089",
+          "slug": "jnj-autoimmune-twins-stelara-transition",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-12",
@@ -252,9 +327,19 @@
     {
       "date": "2026-05-13",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-13",
+          "title": "中樞神經新藥要靠「神經發炎」？",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261471290",
+          "slug": "neuroinflammation-cns-drug-comeback",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-13",
@@ -269,9 +354,19 @@
     {
       "date": "2026-05-14",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-14",
+          "title": "藥華藥 打開估值想像空間",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261477759",
+          "slug": "pharmaessentia-besremi-mpn-valuation",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-14",
@@ -286,9 +381,19 @@
     {
       "date": "2026-05-15",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-15",
+          "title": "全網最全的「抗憂鬱新藥」最新進展盤點",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261484805",
+          "slug": "antidepressant-new-drugs-pipeline",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-15",
@@ -303,9 +408,19 @@
     {
       "date": "2026-05-16",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-16",
+          "title": "FDA 局長黯然離職：全球最重要的新藥裁判，正在變得更不可預測",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261490976",
+          "slug": "fda-commissioner-resignation-regulatory-risk",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-16",
@@ -320,9 +435,19 @@
     {
       "date": "2026-05-17",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-17",
+          "title": "Johnson & Johnson（嬌生）砍掉兩條 自體淋巴瘤 CAR-T",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261497014",
+          "slug": "jnj-auto-car-t-commercial-challenge",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-17",
@@ -338,9 +463,19 @@
     {
       "date": "2026-05-18",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-18",
+          "title": "大藥廠 輝瑞在兩個判斷上栽跟頭？",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261502777",
+          "slug": "pfizer-vepdegestrant-strategy-mistake",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-18",
@@ -355,9 +490,19 @@
     {
       "date": "2026-05-19",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-19",
+          "title": "HIV 新藥很好賺呀...吉利德財報披露",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261509122",
+          "slug": "gilead-hiv-yeztugo-prep-growth",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-19",
@@ -399,9 +544,19 @@
     {
       "date": "2026-05-21",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-21",
+          "title": "AI半導體掩蓋生技光芒",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261521697",
+          "slug": "ai-semiconductor-biotech-capital-neglect",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-21",
@@ -416,9 +571,19 @@
     {
       "date": "2026-05-22",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-22",
+          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261527844",
+          "slug": "mid-size-biotech-blockbuster-cashflow",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-22",
@@ -433,9 +598,19 @@
     {
       "date": "2026-05-23",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-23",
+          "title": "全球生技大浪來襲：看懂五兆減肥藥的主升段與科學定價",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261533584",
+          "slug": "global-biotech-obesity-megatrend",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-23",
@@ -450,9 +625,19 @@
     {
       "date": "2026-05-24",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-24",
+          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261538694",
+          "slug": "ox2r-cns-narcolepsy-opportunity",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": []
     },
     {
@@ -463,7 +648,7 @@
       "confirmed": [
         {
           "date": "2026-05-25",
-          "title": "氣喘新藥正在換檔：從吸入三合一到上游免疫靶點",
+          "title": "氣喘新藥正在換檔：從吸入三合一到上游免疫靶點!",
           "source": "Dcard",
           "access": "免費文章",
           "url": "https://www.dcard.tw/@drugnews/post/261543849",
@@ -485,9 +670,19 @@
     {
       "date": "2026-05-26",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-26",
+          "title": "減肥藥新副作用，意外帶出新賽道？",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261549898",
+          "slug": "weight-loss-side-effect-new-track",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-26",
@@ -510,7 +705,7 @@
     {
       "date": "2026-05-27",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 2,
+      "confirmed_dcard_posts": 1,
       "status": "confirmed",
       "confirmed": [
         {
@@ -520,15 +715,6 @@
           "access": "免費文章",
           "url": "https://www.dcard.tw/@drugnews/post/261555997",
           "slug": "generic-pharma-transformation-anxiety",
-          "status": "confirmed_dcard_link"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "減肥藥新副作用，意外帶出新賽道？",
-          "source": "Dcard",
-          "access": "免費文章",
-          "url": "https://www.dcard.tw/@drugnews/post/261549898",
-          "slug": "weight-loss-side-effect-new-track",
           "status": "confirmed_dcard_link"
         }
       ],
@@ -555,9 +741,19 @@
     {
       "date": "2026-05-28",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-28",
+          "title": "🧬 生技投資圈｜不是更多新聞，是一套生技醫藥判斷系統",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261562234",
+          "slug": "biotech-investment-judgment-system",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-28",
@@ -581,18 +777,9 @@
     {
       "date": "2026-05-29",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 2,
+      "confirmed_dcard_posts": 1,
       "status": "confirmed",
       "confirmed": [
-        {
-          "date": "2026-05-29",
-          "title": "藥王的最佳搭檔？療效翻倍！",
-          "source": "Dcard",
-          "access": "免費文章",
-          "url": "https://www.dcard.tw/@drugnews/post/261574381",
-          "slug": "drug-combination-efficacy-doubling",
-          "status": "confirmed_dcard_link"
-        },
         {
           "date": "2026-05-29",
           "title": "減重藥物不只看體重了：下一代療法正在瞄準這些方向",
@@ -617,9 +804,19 @@
     {
       "date": "2026-05-30",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-30",
+          "title": "藥王的最佳搭檔？療效翻倍！",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261574381",
+          "slug": "drug-combination-efficacy-doubling",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-30",
