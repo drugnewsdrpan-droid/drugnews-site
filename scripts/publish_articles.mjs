@@ -734,7 +734,11 @@ function sitemap(records) {
     ["", "1.0", "2026-06-10"],
     ["articles/", "0.9"],
     ["guides/", "0.8"],
+    ["guides/clinical-endpoints.html", "0.7"],
+    ["guides/regulatory-milestones.html", "0.7"],
     ["guides/biotech-valuation.html", "0.7"],
+    ["guides/bd-licensing-terms.html", "0.7"],
+    ["guides/safety-cmc-risk.html", "0.7"],
     ["subscribe.html", "0.8"],
     ["services.html", "0.8"],
     ["team.html", "0.7"]

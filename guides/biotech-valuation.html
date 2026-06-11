@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>商業競爭格局分析：生技公司估值第一步｜Drugnews</title>
-  <meta name="description" content="商業競爭格局分析是理解生技公司估值的第一步。Drugnews 從市場、競品、臨床數據、商業化路徑與事件型重估建立商業判斷框架。">
+  <title>生技估值與競爭格局：rNPV、SOTP 怎麼用｜Drugnews</title>
+  <meta name="description" content="生技公司估值不能只看本益比。投資人應先理解市場、競品、臨床定位與商業化路徑，再使用 rNPV、SOTP 與事件型重估。">
   <link rel="canonical" href="https://drugnewsdrpan-droid.github.io/drugnews-site/guides/biotech-valuation.html">
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
-  <meta property="og:title" content="商業競爭格局分析：生技公司估值第一步｜Drugnews">
-  <meta property="og:description" content="不要把所有生技公司都塞進同一個本益比。先看市場、競品、臨床數據與商業化路徑。">
+  <meta property="og:title" content="生技估值與競爭格局：rNPV、SOTP 怎麼用｜Drugnews">
+  <meta property="og:description" content="先看市場、競品、臨床定位與商業化路徑，再使用 rNPV、SOTP 與事件型重估。">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://drugnewsdrpan-droid.github.io/drugnews-site/guides/biotech-valuation.html">
   <meta property="og:site_name" content="Drugnews｜藥時事">
-  <meta property="og:image" content="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-cancer-cell.png">
+  <meta property="og:image" content="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/glp1-biotech-capital-reshuffle/cover-glp1-capital.png">
   <meta name="twitter:card" content="summary_large_image">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"商業競爭格局分析：生技公司估值第一步","description":"商業競爭格局分析是理解生技公司估值的第一步。Drugnews 從市場、競品、臨床數據、商業化路徑與事件型重估建立商業判斷框架。","author":{"@type":"Organization","name":"Drugnews 編輯部","url":"https://drugnewsdrpan-droid.github.io/drugnews-site/team.html"},"publisher":{"@type":"Organization","name":"Drugnews｜藥時事","url":"https://drugnewsdrpan-droid.github.io/drugnews-site/"},"mainEntityOfPage":"https://drugnewsdrpan-droid.github.io/drugnews-site/guides/biotech-valuation.html","articleSection":"商業競爭格局分析","keywords":"商業競爭格局分析, 生技估值, rNPV, SOTP, 本益比, CDMO, biosimilar"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"生技估值與競爭格局：rNPV、SOTP 怎麼用","description":"生技公司估值不能只看本益比。投資人應先理解市場、競品、臨床定位與商業化路徑，再使用 rNPV、SOTP 與事件型重估。","author":{"@type":"Organization","name":"Drugnews 編輯部","url":"https://drugnewsdrpan-droid.github.io/drugnews-site/team.html"},"publisher":{"@type":"Organization","name":"Drugnews｜藥時事","url":"https://drugnewsdrpan-droid.github.io/drugnews-site/"},"mainEntityOfPage":"https://drugnewsdrpan-droid.github.io/drugnews-site/guides/biotech-valuation.html","articleSection":"生技投資入門","keywords":"生技估值, rNPV, SOTP, 商業競爭格局, 本益比, 事件型重估"}</script>
 </head>
 <body>
   <header class="site-header">
@@ -34,35 +34,41 @@
   <main>
     <section class="article-hero">
       <div class="container article-hero-inner">
-        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">指南</a><span>/</span><span>商業競爭格局分析</span></nav>
-        <div class="meta"><span>研究指南</span><span>商業競爭格局分析</span></div>
-        <h1>商業競爭格局分析</h1>
-        <p class="article-deck">理解生技公司估值，第一步不是套模型，而是判斷市場、競品、臨床數據與商業化位置如何改變公司價值。</p>
-        <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">指南</a><span>/</span><span>估值與競爭格局</span></nav>
+        <div class="meta"><span>投資入門 03</span><span>rNPV / SOTP</span></div>
+        <h1>生技估值與競爭格局</h1>
+        <p class="article-deck">生技公司不是每一家都適合本益比。投資人要先問：資產在哪個市場競爭？臨床證據夠不夠改變治療排序？下一個重估事件在哪裡？</p>
+        <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部</a></p>
       </div>
     </section>
     <section class="section article-section">
       <div class="container article-layout">
         <article class="article-body">
-          <p>生技醫藥公司的估值，不能只問「本益比多少合理」。真正要先問的是：這家公司面對什麼疾病市場？競品在哪裡？臨床數據能否改變治療排序？商業化路徑是不是可行？這些答案，才會形成真正有用的商業判斷。</p>
-          <div class="video-embed article-video">
-            <iframe src="https://www.youtube.com/embed/tNZ4KRumoAo" title="藥時事生技公司估值入門影片" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <p>估值模型不是答案，而是把假設攤開來檢查的工具。對生技投資人來說，最重要的不是算出一個漂亮數字，而是知道哪些假設最容易被臨床數據、競品、法規或商業化進度改寫。</p>
+          <div class="guide-diagram" aria-label="生技估值判斷流程">
+            <div class="guide-step"><span>市場</span><strong>病人數與支付能力</strong></div>
+            <div class="guide-arrow">→</div>
+            <div class="guide-step"><span>競品</span><strong>治療排序與差異化</strong></div>
+            <div class="guide-arrow">→</div>
+            <div class="guide-step"><span>數據</span><strong>成功機率與重估事件</strong></div>
           </div>
-          <h2>第一步：先看商業競爭格局</h2>
-          <p>Drugnews 通常會先拆五件事：疾病市場大小、競品與治療排序、臨床數據差異、商業化路徑，以及下一個可能改變市場認知的催化事件。這些問題釐清後，才知道 rNPV、SOTP 或倍數法該怎麼用，也才知道哪些敘事值得相信。</p>
-          <h2>rNPV：適合臨床開發型資產</h2>
-          <p>rNPV 不是單純把未來銷售額折現，而是要把成功機率、開發時間、臨床風險、上市後滲透率、價格假設與競品變化一起放進去。對新藥公司來說，真正影響估值的通常是下一個臨床或法規節點。</p>
-          <h2>SOTP：適合多業務公司</h2>
-          <p>如果一家公司同時有 CDMO、已上市產品、臨床管線與授權選擇權，就不應該只用單一倍數評價。SOTP 的重點是把每一塊業務拆開：穩定現金流用一套邏輯，高風險管線用另一套邏輯。</p>
-          <h2>事件型重估：市場最常漏看的部分</h2>
-          <p>生技股的價格常常不是線性變化，而是被事件推動：臨床數據、PDUFA、授權交易、藥證、商業化放量、產能擴張或安全性訊號。估值工作不只是算出一個目標價，也要判斷下一個會改變市場認知的事件在哪裡，以及它是否真的足以改變公司價值。</p>
-          <h2>延伸閱讀</h2>
-          <p><a href="../articles/category/biotech-valuation.html">閱讀更多生技估值文章</a>，或從 <a href="../articles/2026-05-27-taiwan-biotech-valuation-framework.html">台灣生技估值第一步</a> 開始。</p>
+          <h2>rNPV：用在高風險臨床資產</h2>
+          <p>rNPV 是 risk-adjusted net present value，重點是把未來現金流折現後，再乘上開發成功機率。它適合用來看臨床階段新藥，但很吃假設：成功機率、上市時間、定價、滲透率、競品進度，只要一個假設改變，估值就可能大幅變動。</p>
+          <h2>SOTP：用在多業務公司</h2>
+          <p>SOTP 是 sum-of-the-parts。當公司同時有已上市產品、CDMO、臨床管線或授權權利時，把所有東西塞進同一個倍數會失真。比較好的做法是把穩定現金流、成長業務與高風險管線拆開評價。</p>
+          <div class="term-grid">
+            <div class="term-card"><strong>rNPV</strong><p>未來價值 × 成功機率，適合臨床資產。</p></div>
+            <div class="term-card"><strong>SOTP</strong><p>把不同業務分開估，再加總。</p></div>
+            <div class="term-card"><strong>TAM</strong><p>理論市場很大，不代表公司拿得到。</p></div>
+            <div class="term-card"><strong>事件型重估</strong><p>數據、藥證、授權、銷售放量都可能改變市場定價。</p></div>
+          </div>
+          <h2>投資人最該問的問題</h2>
+          <p>這家公司被重新定價的理由是什麼？如果下一個臨床數據只是「不差」，市場會買單嗎？如果競品更早上市，原本的滲透率假設還成立嗎？估值工作真正有價值的地方，是把這些問題問清楚。</p>
           <div class="notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div>
         </article>
         <aside class="sidebar">
-          <div class="card"><h3>常見搜尋問題</h3><p>生技公司怎麼估值？商業競爭格局怎麼分析？rNPV 是什麼？本益比適合看新藥公司嗎？</p></div>
-          <div class="card paid-card"><h3>深度研究</h3><p>更完整的公司估值案例會放在方格子付費專欄。</p><div class="actions"><a class="button primary" href="../subscribe.html">了解付費專欄</a></div></div>
+          <div class="card"><h3>常見搜尋詞</h3><p>rNPV、SOTP、TAM、滲透率、成功機率、事件型重估。</p></div>
+          <div class="card"><h3>下一篇</h3><p><a href="bd-licensing-terms.html">BD 授權條款怎麼讀</a></p></div>
         </aside>
       </div>
     </section>

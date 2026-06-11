@@ -456,7 +456,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 
 .guide-index-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
 }
@@ -499,6 +499,69 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 
 .featured-guide-card {
   min-height: 230px;
+}
+
+.guide-diagram {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 12px;
+  align-items: stretch;
+  margin: 28px 0;
+}
+
+.guide-step {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  background: linear-gradient(180deg, #fff, var(--porcelain));
+}
+
+.guide-step span {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.guide-step strong {
+  color: var(--brand);
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.guide-arrow {
+  align-self: center;
+  color: var(--gold);
+  font-weight: 900;
+}
+
+.term-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 26px 0;
+}
+
+.term-card {
+  border-left: 3px solid var(--gold);
+  padding: 16px 18px;
+  background: var(--porcelain);
+}
+
+.term-card strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--brand);
+  font-size: 1.05rem;
+}
+
+.term-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .video-panel {
@@ -1364,6 +1427,9 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .principle-grid,
   .differentiation-grid,
   .paid-library { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .guide-diagram,
+  .term-grid { grid-template-columns: 1fr; }
+  .guide-arrow { display: none; }
   .nav {
     align-items: flex-start;
     flex-direction: column;
