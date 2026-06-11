@@ -386,8 +386,9 @@ function articlePage(article, bodyHtml, related) {
     ? `<div class="card"><h3>延伸閱讀</h3><div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("")}</div></div>`
     : "";
   const sourceLinks = [
-    meta.facebook_url ? `<a class="tag" href="${escapeHtml(meta.facebook_url)}" target="_blank" rel="noopener">原 FB 貼文</a>` : "",
-    meta.dcard_url ? `<a class="tag" href="${escapeHtml(meta.dcard_url)}" target="_blank" rel="noopener">原 Dcard 貼文</a>` : ""
+    meta.dcard_url ? `<a class="tag" href="${escapeHtml(meta.dcard_url)}" target="_blank" rel="noopener">原 Dcard 貼文</a>` : "",
+    `<a class="tag" href="${escapeHtml(meta.facebook_url || FACEBOOK_URL)}" target="_blank" rel="noopener">${meta.facebook_url ? "原 FB 貼文" : "Facebook 粉專"}</a>`,
+    `<a class="tag" href="${escapeHtml(CMONEY_URL)}" target="_blank" rel="noopener">股市爆料同學會</a>`
   ].filter(Boolean).join("");
   const articleSchema = {
     "@context": "https://schema.org",
