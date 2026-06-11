@@ -40,7 +40,7 @@
       <a class="article-card${imageFor(item.image) ? " with-image" : ""}${item.external ? " external-card" : ""}" href="${hrefFor(item)}"${item.external ? ' target="_blank" rel="noopener"' : ""}>
         ${imageFor(item.image) ? `<div class="thumb-wrap"><img class="card-thumb" src="${imageFor(item.image)}" alt="${item.imageAlt || item.title}" loading="lazy"></div>` : ""}
         <div class="article-card-body">
-          <div class="meta"><span>${item.date}</span><span>${item.access || "免費文章"}</span>${item.source ? `<span>${item.source}</span>` : ""}</div>
+          <div class="meta"><span>${item.date}</span><span>${item.category}</span><span>${item.access || "免費文章"}</span>${item.source ? `<span>${item.source}</span>` : ""}</div>
           <h3>${item.title}</h3>
           <p>${item.summary}</p>
           <div class="tag-row">${item.tags.slice(0, 5).map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
@@ -56,6 +56,7 @@
       item.title,
       item.summary,
       item.category,
+      item.topic || "",
       item.tags.join(" "),
       item.text
     ].join(" ").toLowerCase().includes(q)));

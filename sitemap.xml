@@ -16,11 +16,11 @@
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/team.html</loc><priority>0.7</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/type/free.html</loc><priority>0.7</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/type/paid.html</loc><priority>0.7</priority></url>
-  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/biotech-valuation.html</loc><priority>0.6</priority></url>
-  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/company-research.html</loc><priority>0.6</priority></url>
-  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/bd-licensing.html</loc><priority>0.6</priority></url>
-  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/clinical-cmc.html</loc><priority>0.6</priority></url>
-  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/ir-capital-markets.html</loc><priority>0.6</priority></url>
+  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/business-analysis.html</loc><priority>0.6</priority></url>
+  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/fundamental-analysis.html</loc><priority>0.6</priority></url>
+  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/medical-conference.html</loc><priority>0.6</priority></url>
+  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/paid-deep-analysis.html</loc><priority>0.6</priority></url>
+  <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/category/big-pharma.html</loc><priority>0.6</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/archive/2026-06.html</loc><priority>0.7</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/archive/2026-05.html</loc><priority>0.7</priority></url>
   <url><loc>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-11-glp1-biotech-capital-reshuffle.html</loc><lastmod>2026-06-11</lastmod><priority>0.8</priority></url>

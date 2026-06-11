@@ -17,13 +17,21 @@ const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61568446257142";
 const DCARD_URL = "https://www.dcard.tw/@drugnews";
 const CMONEY_URL = "https://www.cmoney.tw/app/expert/drugnews?ca=1";
 
-const CATEGORIES = new Map([
+const LEGACY_TOPICS = new Map([
   ["生技估值", "biotech-valuation"],
   ["公司研究", "company-research"],
   ["BD / 授權", "bd-licensing"],
   ["臨床與 CMC", "clinical-cmc"],
   ["IR 與資本市場", "ir-capital-markets"],
   ["活動紀錄", "events"]
+]);
+
+const SERIES = new Map([
+  ["商業分析系列", "business-analysis"],
+  ["基本面系列", "fundamental-analysis"],
+  ["醫學大會", "medical-conference"],
+  ["付費深度商業分析文章系列", "paid-deep-analysis"],
+  ["製藥巨頭系列", "big-pharma"]
 ]);
 
 const ACCESS_TYPES = new Map([
@@ -95,7 +103,7 @@ function slugify(input, fallback) {
 }
 
 function categorySlug(category) {
-  return CATEGORIES.get(category) || slugify(category, "uncategorized");
+  return SERIES.get(category) || LEGACY_TOPICS.get(category) || slugify(category, "uncategorized");
 }
 
 function accessSlug(access) {
@@ -104,6 +112,37 @@ function accessSlug(access) {
 
 function accessLabel(item) {
   return item.access || "免費文章";
+}
+
+function inferSeries(input = {}) {
+  if (SERIES.has(input.series)) return input.series;
+  if (SERIES.has(input.category)) return input.category;
+
+  const access = accessLabel(input);
+  const source = input.source || input.source_platform || platformLabel(input);
+  const title = input.title || "";
+  const tags = Array.isArray(input.tags) ? input.tags.join(" ") : "";
+  const haystack = `${title} ${tags}`;
+
+  if (/ASCO|ESMO|AACR|EHA|AHA|ADA|ASH|醫學大會|年會|大會整理/i.test(haystack)) {
+    return "醫學大會";
+  }
+
+  if (access === "免費文章" && /Dcard|Facebook|網站|方格子/i.test(source)) {
+    return "商業分析系列";
+  }
+
+  if (/方格子/.test(source) && access === "付費文章") {
+    if (/基本面|會員研究包|合理估值|財報|營收|EPS|PDUFA/.test(haystack)) {
+      return "基本面系列";
+    }
+    if (/製藥巨頭|大藥廠|Big Pharma|Lilly|Eli Lilly|輝瑞|Pfizer|嬌生|Johnson|J&J|第一三共|Daiichi|Novartis|Roche|Merck|AstraZeneca|Sanofi|GSK|BMS|Bristol/i.test(haystack)) {
+      return "製藥巨頭系列";
+    }
+    return "付費深度商業分析文章系列";
+  }
+
+  return "商業分析系列";
 }
 
 function platformLabel(meta) {
@@ -138,8 +177,8 @@ function parseMeta(raw, folderName) {
   const missing = required.filter((field) => meta[field] === undefined || meta[field] === "");
   if (missing.length) throw new Error(`meta.json missing required fields: ${missing.join(", ")}`);
   if (!Array.isArray(meta.tags)) throw new Error("meta.json field `tags` must be an array");
-  if (!CATEGORIES.has(meta.category)) {
-    throw new Error(`Unsupported category "${meta.category}". Use one of: ${[...CATEGORIES.keys()].join(", ")}`);
+  if (!LEGACY_TOPICS.has(meta.category) && !SERIES.has(meta.category)) {
+    throw new Error(`Unsupported category "${meta.category}". Use one of: ${[...LEGACY_TOPICS.keys(), ...SERIES.keys()].join(", ")}`);
   }
   const publishAt = new Date(meta.publish_at);
   if (Number.isNaN(publishAt.getTime())) throw new Error("meta.json field `publish_at` is not a valid date");
@@ -378,7 +417,7 @@ function articlePage(article, bodyHtml, related) {
   const { meta } = article;
   const fileName = `${meta.date}-${meta.slug}.html`;
   const url = `${BASE_URL}/articles/${fileName}`;
-  const categoryUrl = `${BASE_URL}/articles/category/${categorySlug(meta.category)}.html`;
+  const series = inferSeries(meta);
   const articleCover = coverImage(article);
   const articleImage = articleCover.src;
   const articleImageUrl = articleImage ? absoluteUrl(articleImage) : "";
@@ -416,7 +455,7 @@ function articlePage(article, bodyHtml, related) {
       name: "Drugnews｜藥時事",
       url: `${BASE_URL}/`
     },
-    articleSection: meta.category,
+    articleSection: series,
     keywords: meta.tags.join(", ")
   };
   if (articleImageUrl) articleSchema.image = [articleImageUrl];
@@ -460,7 +499,7 @@ ${headerHtml("articles")}
   <section class="article-hero">
     <div class="container article-hero-inner">
       <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">文章</a><span>/</span><a href="type/free.html">免費文章</a></nav>
-      <div class="meta"><span>${formatDate(meta.date)}</span><span>免費文章</span><span>${escapeHtml(meta.category)}</span></div>
+      <div class="meta"><span>${formatDate(meta.date)}</span><span>免費文章</span><span>${escapeHtml(series)}</span></div>
       <h1>${escapeHtml(meta.title)}</h1>
       <p class="article-deck">${escapeHtml(meta.summary)}</p>
       <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
@@ -514,8 +553,9 @@ function articleRecord(article) {
   return {
     title: meta.title,
     date: meta.date,
-    category: meta.category,
-    categorySlug: categorySlug(meta.category),
+    category: inferSeries(meta),
+    categorySlug: categorySlug(inferSeries(meta)),
+    topic: meta.category,
     access: "免費文章",
     accessSlug: accessSlug("免費文章"),
     source: platformLabel(meta),
@@ -527,7 +567,7 @@ function articleRecord(article) {
     slug: meta.slug,
     fileName,
     url: `articles/${fileName}`,
-    text: stripMarkdown(article.markdown)
+    text: [stripMarkdown(article.markdown), meta.category, inferSeries(meta)].join(" ")
   };
 }
 
@@ -536,9 +576,9 @@ async function loadExternalArticleRecords() {
   const raw = JSON.parse(await fs.readFile(EXTERNAL_ARTICLES, "utf8"));
   if (!Array.isArray(raw)) throw new Error("content/external-articles.json must be an array");
   return raw.map((item, index) => {
-    const category = item.category || "公司研究";
-    if (!CATEGORIES.has(category)) {
-      throw new Error(`External article ${index + 1} has unsupported category "${category}"`);
+    const topic = item.category || "公司研究";
+    if (!LEGACY_TOPICS.has(topic) && !SERIES.has(topic)) {
+      throw new Error(`External article ${index + 1} has unsupported category "${topic}"`);
     }
     const title = item.title || "";
     const date = item.date || "";
@@ -553,8 +593,9 @@ async function loadExternalArticleRecords() {
       access: item.access || "外部文章",
       title,
       date,
-      category,
-      categorySlug: categorySlug(category),
+      category: inferSeries({ ...item, source: item.source || "方格子" }),
+      categorySlug: categorySlug(inferSeries({ ...item, source: item.source || "方格子" })),
+      topic,
       accessSlug: accessSlug(item.access || "免費文章"),
       tags,
       summary,
@@ -564,7 +605,7 @@ async function loadExternalArticleRecords() {
       slug: slugify(item.slug || title, `external-${index + 1}`),
       fileName: "",
       url,
-      text: [title, summary, category, tags.join(" "), item.source || "方格子", item.access || ""].join(" ")
+      text: [title, summary, topic, inferSeries({ ...item, source: item.source || "方格子" }), tags.join(" "), item.source || "方格子", item.access || ""].join(" ")
     };
   });
 }
@@ -579,7 +620,7 @@ function articleCardHtml(item, href, imageSrc = item.image) {
   return `<a class="article-card${image ? " with-image" : ""}${item.external ? " external-card" : ""}" href="${escapeHtml(finalHref)}"${target}>${image ? `
     ${image}` : ""}
     <div class="article-card-body">
-      <div class="meta"><span>${item.date}</span><span>${escapeHtml(accessLabel(item))}</span>${sourceLabel}</div>
+      <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span><span>${escapeHtml(accessLabel(item))}</span>${sourceLabel}</div>
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.summary)}</p>
       <div class="tag-row">${item.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
@@ -608,6 +649,9 @@ function readerFirstSort(items) {
 function articleIndexPage(records) {
   const displayRecords = readerFirstSort(records);
   const lead = displayRecords[0];
+  const categoryLinks = [...SERIES.keys()]
+    .map((category) => `<a href="category/${categorySlug(category)}.html">${escapeHtml(category)}</a>`)
+    .join("");
   const typeLinks = [...ACCESS_TYPES.keys()]
     .filter((access) => records.some((item) => accessLabel(item) === access))
     .map((access) => `<a href="type/${accessSlug(access)}.html">${escapeHtml(access)}</a>`)
@@ -653,8 +697,8 @@ ${headerHtml("articles")}
           <span>篇文章與外部專欄連結</span>
         </div>
       </div>
-      <div class="library-links library-links-large" aria-label="文章類型">${typeLinks}</div>
-      <div class="library-links muted" aria-label="月份歸檔">${monthLinks}</div>
+      <div class="library-links library-links-large" aria-label="內容系列">${categoryLinks}</div>
+      <div class="library-links muted" aria-label="文章類型與月份歸檔">${typeLinks}${monthLinks}</div>
       <input class="search-box" data-search-input type="search" placeholder="搜尋公司、主題、估值、BD、IR...">
       <div class="article-list" data-search-results style="margin-top:20px">${cards}</div>
     </div>
@@ -695,9 +739,20 @@ ${footerHtml()}
 </html>`;
 }
 
+function categoryDescription(category) {
+  const descriptions = {
+    "商業分析系列": "FB、Dcard 與網站免費文章整理，從公開事件拆解公司策略、臨床數據、交易訊號與資本市場判斷。",
+    "基本面系列": "方格子付費專欄中的公司基本面追蹤，重點放在估值、營收、臨床里程碑與可驗證的商業假設。",
+    "醫學大會": "ASCO、ESMO、AACR 等醫學大會與重要學會資料整理，協助讀者快速理解臨床數據與產業意義。",
+    "付費深度商業分析文章系列": "方格子付費深度文，聚焦 BD、授權、產業策略、平台價值與資本市場重新定價。",
+    "製藥巨頭系列": "方格子中關於大型藥廠策略、併購、管線取捨與全球競爭格局的系列分析。"
+  };
+  return descriptions[category] || "Drugnews 內容系列文章。";
+}
+
 function categoryPage(category, records) {
   const slug = categorySlug(category);
-  const cards = records.map((item) => articleCardHtml(
+  const cards = readerFirstSort(records).map((item) => articleCardHtml(
     item,
     item.external ? item.url : `../${item.fileName}`,
     item.image.replace(/^\.\.\//, "../../")
@@ -708,7 +763,7 @@ function categoryPage(category, records) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(category)}｜Drugnews</title>
-  <meta name="description" content="Drugnews ${escapeHtml(category)}分類文章。">
+  <meta name="description" content="${escapeHtml(categoryDescription(category))}">
   <link rel="canonical" href="${BASE_URL}/articles/category/${slug}.html">
   <link rel="icon" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.css">
@@ -716,7 +771,7 @@ function categoryPage(category, records) {
 </head>
 <body>
 <header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
-<main><section class="page-title"><div class="container"><h1>${escapeHtml(category)}</h1><p>此分類呈現 Drugnews 對相關公司、技術、交易與資本市場訊號的分析判斷。</p></div></section><section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section></main>
+<main><section class="page-title"><div class="container"><p class="eyebrow">內容系列</p><h1>${escapeHtml(category)}</h1><p>${escapeHtml(categoryDescription(category))}</p></div></section><section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section></main>
 ${footerHtml()}
 </body>
 </html>`;
@@ -774,8 +829,7 @@ function sitemap(records) {
     if (!records.some((item) => accessLabel(item) === access)) continue;
     urls.push(`  <url><loc>${BASE_URL}/articles/type/${accessSlug(access)}.html</loc><priority>0.7</priority></url>`);
   }
-  for (const category of CATEGORIES.keys()) {
-    if (!records.some((item) => item.category === category)) continue;
+  for (const category of SERIES.keys()) {
     urls.push(`  <url><loc>${BASE_URL}/articles/category/${categorySlug(category)}.html</loc><priority>0.6</priority></url>`);
   }
   for (const key of new Set(records.map((item) => monthKey(item.date)))) {
@@ -913,13 +967,9 @@ async function main() {
   }
 
   await writeAtomic(path.join(ARTICLES, "index.html"), articleIndexPage(allRecords));
-  for (const category of CATEGORIES.keys()) {
+  for (const category of SERIES.keys()) {
     const categoryRecords = allRecords.filter((item) => item.category === category);
     const categoryFile = path.join(ARTICLES, "category", `${categorySlug(category)}.html`);
-    if (!categoryRecords.length) {
-      if (await exists(categoryFile)) await fs.unlink(categoryFile);
-      continue;
-    }
     await writeAtomic(categoryFile, categoryPage(category, categoryRecords));
   }
   for (const access of ACCESS_TYPES.keys()) {
