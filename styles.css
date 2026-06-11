@@ -865,13 +865,13 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 
 .paid-library {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
 }
 
 .paid-category {
-  min-height: 260px;
+  min-height: 230px;
   padding: 20px;
   border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
@@ -881,8 +881,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 .paid-category h3 {
   margin-bottom: 16px;
   color: var(--brand);
-  font-size: clamp(1.18rem, 1.7vw, 1.45rem);
-  white-space: nowrap;
+  font-size: clamp(1.08rem, 1.35vw, 1.34rem);
 }
 
 .paid-category a {
