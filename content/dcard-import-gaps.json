@@ -1,6 +1,6 @@
 {
   "month": "2026-05",
-  "updated_at": "2026-06-11T08:05:32.833Z",
+  "updated_at": "2026-06-11T08:52:25.874Z",
   "note": "Dcard API and public profile are blocked by Cloudflare in this environment. This audit only marks Dcard posts as confirmed when a real /@drugnews/post/ URL is available from local history, source files, or metadata. Other same-day Vocus/site records are candidates, not substitutes.",
   "summary": {
     "expected_days": 31,
@@ -107,6 +107,7 @@
           "source": "Dcard",
           "access": "免費文章",
           "url": "https://www.dcard.tw/@drugnews/post/261416822",
+          "slug": "hair-growth-drug-breakthrough",
           "status": "confirmed_dcard_link"
         }
       ],
@@ -192,6 +193,7 @@
           "source": "Dcard",
           "access": "免費文章",
           "url": "https://www.dcard.tw/@drugnews/post/261447912",
+          "slug": "clinical-trial-fraud-fda-withdrawal",
           "status": "confirmed_dcard_link"
         }
       ],
@@ -380,6 +382,7 @@
           "source": "Dcard",
           "access": "免費文章",
           "url": "https://www.dcard.tw/@drugnews/post/261515495",
+          "slug": "ai-drug-discovery-google-funding",
           "status": "confirmed_dcard_link"
         }
       ],
@@ -465,6 +468,7 @@
           "source": "Dcard",
           "access": "免費文章",
           "url": "https://www.dcard.tw/@drugnews/post/261543849",
+          "slug": "asthma-new-drug-immune-targets",
           "status": "confirmed_dcard_link"
         }
       ],
@@ -512,18 +516,20 @@
       "confirmed": [
         {
           "date": "2026-05-27",
-          "title": "減肥藥新副作用，意外帶出新賽道？",
-          "source": "Dcard",
-          "access": "免費文章",
-          "url": "https://www.dcard.tw/@drugnews/post/261549898",
-          "status": "confirmed_dcard_link"
-        },
-        {
-          "date": "2026-05-27",
           "title": "太陽製藥、梯瓦製藥 與 全球學名藥廠的轉型焦慮",
           "source": "Dcard",
           "access": "免費文章",
           "url": "https://www.dcard.tw/@drugnews/post/261555997",
+          "slug": "generic-pharma-transformation-anxiety",
+          "status": "confirmed_dcard_link"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "減肥藥新副作用，意外帶出新賽道？",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261549898",
+          "slug": "weight-loss-side-effect-new-track",
           "status": "confirmed_dcard_link"
         }
       ],
@@ -581,18 +587,20 @@
       "confirmed": [
         {
           "date": "2026-05-29",
-          "title": "減重藥物不只看體重了：下一代療法正在瞄準這些方向",
-          "source": "Dcard",
-          "access": "免費文章",
-          "url": "https://www.dcard.tw/@drugnews/post/261568567",
-          "status": "confirmed_dcard_link"
-        },
-        {
-          "date": "2026-05-29",
           "title": "藥王的最佳搭檔？療效翻倍！",
           "source": "Dcard",
           "access": "免費文章",
           "url": "https://www.dcard.tw/@drugnews/post/261574381",
+          "slug": "drug-combination-efficacy-doubling",
+          "status": "confirmed_dcard_link"
+        },
+        {
+          "date": "2026-05-29",
+          "title": "減重藥物不只看體重了：下一代療法正在瞄準這些方向",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261568567",
+          "slug": "next-generation-obesity-therapy-directions",
           "status": "confirmed_dcard_link"
         },
         {
@@ -601,6 +609,7 @@
           "source": "Dcard",
           "access": "免費文章",
           "url": "https://www.dcard.tw/@drugnews/post/261579396",
+          "slug": "tavneos-safety-data-integrity-crisis",
           "status": "confirmed_dcard_link"
         }
       ],
