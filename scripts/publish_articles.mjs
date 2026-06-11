@@ -739,6 +739,9 @@ function sitemap(records) {
     ["guides/biotech-valuation.html", "0.7"],
     ["guides/bd-licensing-terms.html", "0.7"],
     ["guides/safety-cmc-risk.html", "0.7"],
+    ["guides/market-sizing.html", "0.7"],
+    ["guides/patent-competition.html", "0.7"],
+    ["guides/cash-runway.html", "0.7"],
     ["subscribe.html", "0.8"],
     ["services.html", "0.8"],
     ["team.html", "0.7"]
