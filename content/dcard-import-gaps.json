@@ -1,0 +1,105 @@
+{
+  "updated_at": "2026-06-11T07:56:12.540Z",
+  "reason": "Dcard API 與公開頁面目前被 Cloudflare 擋住；已先收錄 Chrome 歷史可確認的 5 月 Dcard 原文連結。正文與圖片需等 Dcard dump 或可存取來源後補齊。",
+  "imported_as_external_links": [
+    {
+      "title": "破紀錄 AI 製藥融資來了！Google 系公司一次募 21 億美元",
+      "date": "2026-05-20",
+      "url": "https://www.dcard.tw/@drugnews/post/261515495"
+    },
+    {
+      "title": "氣喘新藥正在換檔：從吸入三合一到上游免疫靶點",
+      "date": "2026-05-25",
+      "url": "https://www.dcard.tw/@drugnews/post/261543849"
+    },
+    {
+      "title": "減肥藥新副作用，意外帶出新賽道？",
+      "date": "2026-05-27",
+      "url": "https://www.dcard.tw/@drugnews/post/261549898"
+    },
+    {
+      "title": "太陽製藥、梯瓦製藥 與 全球學名藥廠的轉型焦慮",
+      "date": "2026-05-27",
+      "url": "https://www.dcard.tw/@drugnews/post/261555997"
+    },
+    {
+      "title": "減重藥物不只看體重了：下一代療法正在瞄準這些方向",
+      "date": "2026-05-29",
+      "url": "https://www.dcard.tw/@drugnews/post/261568567"
+    },
+    {
+      "title": "藥王的最佳搭檔？療效翻倍！",
+      "date": "2026-05-29",
+      "url": "https://www.dcard.tw/@drugnews/post/261574381"
+    },
+    {
+      "title": "Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
+      "date": "2026-05-29",
+      "url": "https://www.dcard.tw/@drugnews/post/261579396"
+    },
+    {
+      "title": "臨床試驗作假，FDA 撤市風暴！",
+      "date": "2026-05-09",
+      "url": "https://www.dcard.tw/@drugnews/post/261447912"
+    },
+    {
+      "title": "最強生髮藥暴漲 47%，為什麼可能改寫掉髮治療三十年僵局？",
+      "date": "2026-05-05",
+      "url": "https://www.dcard.tw/@drugnews/post/261416822"
+    }
+  ],
+  "local_full_dcard_drafts": [
+    {
+      "title": "台康生技不是純 CDMO：Herwenda、Sandoz 和 420 mg vial 到底該怎麼估？",
+      "date": "2026-05-28",
+      "slug": "taikang-cdmo-herwenda-valuation"
+    }
+  ],
+  "still_needs_full_body_and_images": [
+    {
+      "title": "破紀錄 AI 製藥融資來了！Google 系公司一次募 21 億美元",
+      "date": "2026-05-20",
+      "url": "https://www.dcard.tw/@drugnews/post/261515495"
+    },
+    {
+      "title": "氣喘新藥正在換檔：從吸入三合一到上游免疫靶點",
+      "date": "2026-05-25",
+      "url": "https://www.dcard.tw/@drugnews/post/261543849"
+    },
+    {
+      "title": "減肥藥新副作用，意外帶出新賽道？",
+      "date": "2026-05-27",
+      "url": "https://www.dcard.tw/@drugnews/post/261549898"
+    },
+    {
+      "title": "太陽製藥、梯瓦製藥 與 全球學名藥廠的轉型焦慮",
+      "date": "2026-05-27",
+      "url": "https://www.dcard.tw/@drugnews/post/261555997"
+    },
+    {
+      "title": "減重藥物不只看體重了：下一代療法正在瞄準這些方向",
+      "date": "2026-05-29",
+      "url": "https://www.dcard.tw/@drugnews/post/261568567"
+    },
+    {
+      "title": "藥王的最佳搭檔？療效翻倍！",
+      "date": "2026-05-29",
+      "url": "https://www.dcard.tw/@drugnews/post/261574381"
+    },
+    {
+      "title": "Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
+      "date": "2026-05-29",
+      "url": "https://www.dcard.tw/@drugnews/post/261579396"
+    },
+    {
+      "title": "臨床試驗作假，FDA 撤市風暴！",
+      "date": "2026-05-09",
+      "url": "https://www.dcard.tw/@drugnews/post/261447912"
+    },
+    {
+      "title": "最強生髮藥暴漲 47%，為什麼可能改寫掉髮治療三十年僵局？",
+      "date": "2026-05-05",
+      "url": "https://www.dcard.tw/@drugnews/post/261416822"
+    }
+  ]
+}
