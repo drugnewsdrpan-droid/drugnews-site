@@ -1564,6 +1564,57 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .hero-grid, .home-hero-grid, .masthead, .grid, .grid.two, .article-layout, .newsletter, .lead-story, .featured-article, .editorial-note, .editorial-list, .service-strip-inner, .client-proof-grid, .team-hero, .team-grid, .team-belief, .differentiation-strip, .guide-index-grid, .video-panel, .article-library-head {
     grid-template-columns: 1fr;
   }
+  .article-hero {
+    padding: 30px 0 24px;
+  }
+  .article-hero h1 {
+    margin-top: 12px;
+    font-size: clamp(1.75rem, 7vw, 2.25rem);
+    line-height: 1.22;
+  }
+  .article-deck {
+    margin-top: 14px;
+    font-size: 1.02rem;
+    line-height: 1.78;
+  }
+  .article-byline {
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+  .article-section {
+    padding-top: 24px;
+  }
+  .article-layout {
+    gap: 30px;
+  }
+  .article-body h2 {
+    margin-top: 42px;
+    font-size: 1.38rem;
+    line-height: 1.38;
+  }
+  .article-body h3 {
+    margin-top: 28px;
+    line-height: 1.48;
+  }
+  .article-body p {
+    margin: 18px 0;
+    font-size: 1.04rem;
+    line-height: 1.95;
+  }
+  .article-body li {
+    line-height: 1.9;
+  }
+  .article-body figure {
+    margin: 28px 0;
+  }
+  .article-body figcaption {
+    font-size: 0.86rem;
+    line-height: 1.65;
+  }
+  .paid-note,
+  .notice {
+    padding: 18px;
+  }
   .article-card.with-image, .editorial-list .article-card.with-image {
     grid-template-columns: 1fr;
   }
@@ -1603,9 +1654,35 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 }
 
 @media (max-width: 520px) {
+  .container {
+    width: min(100% - 24px, 1120px);
+  }
   h1 { font-size: 2rem; }
   .masthead h1 { font-size: 2rem; }
   .masthead { gap: 18px; }
+  .breadcrumbs {
+    font-size: 0.8rem;
+  }
+  .article-hero h1 {
+    font-size: clamp(1.62rem, 8vw, 2rem);
+  }
+  .article-body p {
+    font-size: 1.02rem;
+    line-height: 1.92;
+  }
+  .article-body blockquote {
+    margin: 26px 0;
+    padding: 16px 18px;
+  }
+  .actions {
+    gap: 10px;
+  }
+  .button {
+    width: 100%;
+  }
+  .tag {
+    min-height: 34px;
+  }
   .lead-story-body,
   .featured-copy,
   .editorial-list .article-card { padding: 20px; }

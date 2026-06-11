@@ -33,7 +33,7 @@
     `).join("");
   }
 
-  input.addEventListener("input", () => {
+  function applySearch() {
     const q = input.value.trim().toLowerCase();
     if (!q) return render(records);
     render(records.filter((item) => [
@@ -43,7 +43,12 @@
       item.tags.join(" "),
       item.text
     ].join(" ").toLowerCase().includes(q)));
-  });
+  }
 
-  render(records);
+  const initialQuery = new URLSearchParams(location.search).get("q");
+  if (initialQuery) input.value = initialQuery;
+
+  input.addEventListener("input", applySearch);
+
+  applySearch();
 })();

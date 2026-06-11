@@ -2,6 +2,52 @@
   {
     "source": "方格子",
     "access": "付費文章",
+    "title": "管線估值：為還沒上市的未來定價，BD 最難也最值錢的一課",
+    "date": "2026-06-11",
+    "publish_at": "2026-06-11T04:20:26.672Z",
+    "category": "生技估值",
+    "tags": [
+      "管線估值",
+      "BD",
+      "授權",
+      "rNPV",
+      "投資人",
+      "臨床開發",
+      "商業判斷",
+      "生技估值"
+    ],
+    "summary": "新藥在真正賣錢以前，市場就必須先替它定價。這篇拆解未上市管線如何影響授權、併購與投資判斷，是 BD 最難、也最有價值的一課。",
+    "image": "../assets/articles/external-vocus/6a2a30f7fd89780001162667-source.png",
+    "imageAlt": "管線估值：為還沒上市的未來定價，BD 最難也最值錢的一課",
+    "url": "https://vocus.cc/article/6a2a30f7fd89780001162667",
+    "slug": "6a2a30f7fd89780001162667"
+  },
+  {
+    "source": "方格子",
+    "access": "免費文章",
+    "title": "生技公司估值模型如何計算",
+    "date": "2026-06-11",
+    "publish_at": "2026-06-11T03:29:37.075Z",
+    "category": "生技估值",
+    "tags": [
+      "生技估值",
+      "rNPV",
+      "SOTP",
+      "YouTube",
+      "投資入門",
+      "資本市場",
+      "公司研究",
+      "商業判斷"
+    ],
+    "summary": "方格子同步收錄藥時事 YouTube 影片入口，介紹生技公司估值模型如何計算，適合想建立 rNPV、SOTP 與管線估值基礎的讀者。",
+    "image": "../assets/articles/external-vocus/6a2a2b68fd89780001147e9e-cover.svg",
+    "imageAlt": "生技公司估值模型如何計算",
+    "url": "https://vocus.cc/article/6a2a2b68fd89780001147e9e",
+    "slug": "6a2a2b68fd89780001147e9e"
+  },
+  {
+    "source": "方格子",
+    "access": "付費文章",
     "title": "【會員研究包】近期臨床進展該怎麼重算估值？藥華藥 ET 與中裕 TMB-365/380 兩個對照案例",
     "date": "2026-05-31",
     "publish_at": "2026-05-31T02:24:56.442Z",

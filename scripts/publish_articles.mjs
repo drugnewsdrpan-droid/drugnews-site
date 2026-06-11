@@ -406,8 +406,11 @@ function articlePage(article, bodyHtml, related) {
     publisher: {
       "@type": "Organization",
       name: "Drugnews",
-      logo: { "@type": "ImageObject", url: `${BASE_URL}/favicon.svg` }
+      logo: { "@type": "ImageObject", url: `${BASE_URL}/favicon.svg` },
+      sameAs: [FACEBOOK_URL, DCARD_URL, PAID_COLUMN_URL, CMONEY_URL, "https://www.instagram.com/drugnews.com.tw/"]
     },
+    isAccessibleForFree: true,
+    about: meta.tags.map((tag) => ({ "@type": "Thing", name: tag })),
     isPartOf: {
       "@type": "WebSite",
       name: "Drugnews｜藥時事",

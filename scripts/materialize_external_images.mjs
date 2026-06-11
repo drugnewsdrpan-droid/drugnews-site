@@ -121,6 +121,7 @@ async function main() {
 
   for (const item of items) {
     const id = slugPart(item.slug || item.title, `external-${generated + downloaded + 1}`);
+    if (item.image && item.image.startsWith(PUBLIC_PREFIX)) continue;
     const remote = item.image && /^https?:\/\//i.test(item.image) && !item.image.includes(DEFAULT_VOCUS_OG)
       ? item.image
       : "";
