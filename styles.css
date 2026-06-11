@@ -197,13 +197,19 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   display: flex;
   gap: 0;
   margin-bottom: 28px;
+  overflow-x: auto;
+  scrollbar-width: none;
   border-top: 1px solid var(--line-strong);
   border-bottom: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.78);
 }
 
+.issue-bar::-webkit-scrollbar {
+  display: none;
+}
+
 .issue-bar a {
-  flex: 1 1 0;
+  flex: 0 0 auto;
   min-height: 42px;
   display: inline-flex;
   align-items: center;
@@ -212,6 +218,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   color: var(--brand);
   font-size: 0.87rem;
   font-weight: 760;
+  white-space: nowrap;
   text-decoration: none;
 }
 
@@ -436,6 +443,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 .topic-row h3 {
   margin-bottom: 6px;
   font-size: 1.15rem;
+  white-space: nowrap;
 }
 
 .topic-row p {
@@ -1549,6 +1557,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   color: var(--brand);
   font-size: 0.9rem;
   font-weight: 760;
+  white-space: nowrap;
   text-decoration: none;
 }
 
@@ -1564,6 +1573,21 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 .library-links.muted a {
   color: var(--muted);
   font-weight: 680;
+}
+
+.library-links-large {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+}
+
+.library-links-large::-webkit-scrollbar {
+  display: none;
+}
+
+.library-links-large a {
+  flex: 0 0 auto;
 }
 
 @media (max-width: 860px) {
