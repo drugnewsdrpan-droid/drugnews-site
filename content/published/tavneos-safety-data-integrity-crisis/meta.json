@@ -1,19 +1,21 @@
 {
-  "title": "Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
+  "title": "⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
   "slug": "tavneos-safety-data-integrity-crisis",
-  "date": "2026-05-29",
-  "publish_at": "2026-05-29T10:30:00+08:00",
+  "date": "2026-05-31",
+  "publish_at": "2026-05-31T10:30:00+08:00",
   "category": "臨床與 CMC",
   "tags": [
     "Tavneos",
     "Amgen",
     "罕病藥",
-    "安全性",
-    "法規風險"
+    "FDA",
+    "資料完整性",
+    "肝毒性",
+    "撤市風險"
   ],
-  "summary": "罕病藥物的價值高度依賴可信資料與安全性信任，一旦死亡通報與資料完整性疑雲浮現，估值邏輯就會被迫重估。",
-  "cover_image": "images/cover.svg",
-  "cover_image_alt": "Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣 圖解封面",
+  "summary": "Tavneos 從罕病明星藥站上撤市邊緣，真正危機不只是日本死亡通報與肝毒性，而是 FDA 對 ADVOCATE 試驗資料完整性的嚴重指控。",
+  "cover_image": "images/dcard-01.webp",
+  "cover_image_alt": "Dcard 原圖：Tavneos 危機與撤市風險總覽",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261579396",
   "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"

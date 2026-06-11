@@ -1,11 +1,11 @@
 {
   "month": "2026-05",
-  "updated_at": "2026-06-11T08:52:25.874Z",
+  "updated_at": "2026-06-11T09:09:29.787Z",
   "note": "Dcard API and public profile are blocked by Cloudflare in this environment. This audit only marks Dcard posts as confirmed when a real /@drugnews/post/ URL is available from local history, source files, or metadata. Other same-day Vocus/site records are candidates, not substitutes.",
   "summary": {
     "expected_days": 31,
-    "confirmed_days": 6,
-    "missing_days": 25,
+    "confirmed_days": 7,
+    "missing_days": 24,
     "confirmed_dcard_posts": 9
   },
   "missing_dates": [
@@ -32,8 +32,7 @@
     "2026-05-24",
     "2026-05-26",
     "2026-05-28",
-    "2026-05-30",
-    "2026-05-31"
+    "2026-05-30"
   ],
   "daily": [
     {
@@ -582,7 +581,7 @@
     {
       "date": "2026-05-29",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 3,
+      "confirmed_dcard_posts": 2,
       "status": "confirmed",
       "confirmed": [
         {
@@ -601,15 +600,6 @@
           "access": "免費文章",
           "url": "https://www.dcard.tw/@drugnews/post/261568567",
           "slug": "next-generation-obesity-therapy-directions",
-          "status": "confirmed_dcard_link"
-        },
-        {
-          "date": "2026-05-29",
-          "title": "Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
-          "source": "Dcard",
-          "access": "免費文章",
-          "url": "https://www.dcard.tw/@drugnews/post/261579396",
-          "slug": "tavneos-safety-data-integrity-crisis",
           "status": "confirmed_dcard_link"
         }
       ],
@@ -644,9 +634,19 @@
     {
       "date": "2026-05-31",
       "expected_dcard_posts": 1,
-      "confirmed_dcard_posts": 0,
-      "status": "missing_confirmed_dcard_url",
-      "confirmed": [],
+      "confirmed_dcard_posts": 1,
+      "status": "confirmed",
+      "confirmed": [
+        {
+          "date": "2026-05-31",
+          "title": "⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
+          "source": "Dcard",
+          "access": "免費文章",
+          "url": "https://www.dcard.tw/@drugnews/post/261579396",
+          "slug": "tavneos-safety-data-integrity-crisis",
+          "status": "confirmed_dcard_link"
+        }
+      ],
       "candidates_from_other_sources": [
         {
           "date": "2026-05-31",
