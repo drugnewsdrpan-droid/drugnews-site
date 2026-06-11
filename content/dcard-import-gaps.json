@@ -1,6 +1,6 @@
 {
   "month": "2026-05",
-  "updated_at": "2026-06-11T09:44:50.279Z",
+  "updated_at": "2026-06-11T12:57:20.936Z",
   "note": "Dcard API and public profile are blocked by Cloudflare in this environment. This audit only marks Dcard posts as confirmed when a real /@drugnews/post/ URL is available from local history, source files, or metadata. Other same-day Vocus/site records are candidates, not substitutes.",
   "summary": {
     "expected_days": 31,
@@ -762,15 +762,6 @@
           "access": "付費文章",
           "url": "https://vocus.cc/article/6a151ec7fd89780001cf534e",
           "status": "candidate_non_dcard_source"
-        },
-        {
-          "date": "2026-05-28",
-          "title": "台康生技不是純 CDMO：Herwenda、Sandoz 和 420 mg vial 到底該怎麼估？",
-          "source": "Dcard / Facebook",
-          "access": "免費文章",
-          "url": "https://www.dcard.tw/@drugnews",
-          "slug": "taikang-cdmo-herwenda-valuation",
-          "status": "site_article_no_confirmed_dcard_post"
         }
       ]
     },
