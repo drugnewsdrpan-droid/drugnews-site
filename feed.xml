@@ -6,15 +6,7 @@
     <atom:link href="https://drugnewsdrpan-droid.github.io/drugnews-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 11 Jun 2026 02:38:21 GMT</lastBuildDate>
-    <item>
-      <title>神藥猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？</title>
-      <link>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-11-tirzepatide-autoimmune-immune-metabolism.html</link>
-      <guid isPermaLink="true">https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-11-tirzepatide-autoimmune-immune-metabolism.html</guid>
-      <pubDate>Thu, 11 Jun 2026 02:32:00 GMT</pubDate>
-      <category>臨床與 CMC</category>
-      <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/tirzepatide-autoimmune-immune-metabolism/cover-immune-metabolism.svg" alt="Tirzepatide 連結代謝與自體免疫發炎的概念封面"></p><p>Tirzepatide 的下一個戰場可能不只是減重，而是免疫代謝。Lilly 把 Zepbound 與 Taltz、Omvoh 接起來，正在測試肥胖、代謝異常與免疫發炎能否被放進同一個治療框架。</p>]]></description>
-    </item>
+    <lastBuildDate>Thu, 11 Jun 2026 02:46:11 GMT</lastBuildDate>
     <item>
       <title>RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場「抗藥性管理」戰</title>
       <link>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html</link>
@@ -206,6 +198,14 @@
       <pubDate>Fri, 22 May 2026 00:00:38 GMT</pubDate>
       <category>公司研究</category>
       <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/external-vocus/6a067b5efd89780001967900-source.png" alt="這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流"></p><p>在很長一段時間裡，製藥業的 blockbuster drug，似乎是大型藥廠的專屬勳章。 年銷售額突破 10 億美元，代表的不只是產品好賣，而是公司必須同時具備臨床開發能力、法規溝通能力、保險給付能力、醫師教育能力、銷售組織能力，以及後續適應症擴張能力。 這些資源過去多半掌握在大型跨國藥廠手中。</p>]]></description>
+    </item>
+    <item>
+      <title>【基本面系列】藥華藥合理估值是多少？</title>
+      <link>https://vocus.cc/article/6a0d4c86fd89780001809174</link>
+      <guid isPermaLink="true">https://vocus.cc/article/6a0d4c86fd89780001809174</guid>
+      <pubDate>Thu, 21 May 2026 00:00:20 GMT</pubDate>
+      <category>生技估值</category>
+      <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/external-vocus/6a0d4c86fd89780001809174-source.png" alt="【基本面系列】藥華藥合理估值是多少？"></p><p>藥華藥 台灣生技股王市，值站到 3,000 億台幣，到底還有多少是基本面，多少是預付未來？ 藥華藥是少數已經走到全球銷售、營收放大、獲利兌現的公司。 2025 年藥華藥合併營收約 NT$156 億，稅後淨利約 NT$50 億，EPS 13.64 元。2026 年第一季營收約 NT$51 億，EP</p>]]></description>
     </item>
   </channel>
 </rss>
