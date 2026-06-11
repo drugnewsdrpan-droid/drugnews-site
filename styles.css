@@ -123,11 +123,16 @@ a { color: inherit; }
 }
 
 .masthead h1 {
-  max-width: 720px;
+  max-width: 860px;
   font-family: var(--display);
   font-size: clamp(2rem, 3.1vw, 2.82rem);
   line-height: 1.12;
   font-weight: 760;
+}
+
+.hero-title-unit {
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .masthead p:not(.eyebrow) {
@@ -174,7 +179,11 @@ a { color: inherit; }
   text-transform: uppercase;
 }
 
-h1, h2, h3 { line-height: 1.18; letter-spacing: 0; }
+h1, h2, h3 {
+  line-height: 1.18;
+  letter-spacing: 0;
+  text-wrap: balance;
+}
 h1 { margin: 0; font-size: clamp(1.9rem, 3.2vw, 2.55rem); }
 h2 { margin: 0 0 16px; font-size: clamp(1.35rem, 2.1vw, 1.92rem); }
 h3 { margin: 0 0 10px; font-size: 1.08rem; }
@@ -1691,6 +1700,10 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   h1 { font-size: 2rem; }
   .masthead h1 { font-size: 2rem; }
   .masthead { gap: 18px; }
+  .hero-title-unit,
+  .topic-row h3 {
+    white-space: normal;
+  }
   .breadcrumbs {
     font-size: 0.8rem;
   }
