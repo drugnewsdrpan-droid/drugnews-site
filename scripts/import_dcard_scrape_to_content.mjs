@@ -151,6 +151,31 @@ function distributeImages(lines, imageFiles, title) {
   return result;
 }
 
+function isParagraphLine(line) {
+  const trimmed = String(line || "").trim();
+  if (!trimmed) return false;
+  if (/^#{1,6}\s+/.test(trimmed)) return false;
+  if (/^!\[[^\]]*]\([^)]+\)$/.test(trimmed)) return false;
+  if (/^[-*]\s+/.test(trimmed)) return false;
+  if (/^>\s?/.test(trimmed)) return false;
+  if (/^---+$/.test(trimmed)) return false;
+  if (/^```/.test(trimmed)) return false;
+  return true;
+}
+
+function preserveDcardParagraphBreaks(lines) {
+  const out = [];
+  for (let i = 0; i < lines.length; i += 1) {
+    const line = lines[i];
+    const next = lines[i + 1] || "";
+    out.push(line);
+    if (isParagraphLine(line) && isParagraphLine(next)) {
+      out.push("");
+    }
+  }
+  return out;
+}
+
 async function downloadImages(urls, imageDir) {
   await fs.mkdir(imageDir, { recursive: true });
   const files = [];
@@ -182,7 +207,7 @@ for (const post of posts) {
   const lines = normalizeLines(post.articleText, title);
   const summary = summaryFrom(lines);
   const imageFiles = await downloadImages(post.images || [], imageDir);
-  const bodyLines = distributeImages(lines, imageFiles, title);
+  const bodyLines = preserveDcardParagraphBreaks(distributeImages(lines, imageFiles, title));
   const markdown = [
     `# ${title}`,
     "",

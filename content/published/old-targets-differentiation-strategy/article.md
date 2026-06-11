@@ -23,17 +23,21 @@
 腫瘤領域，幾乎是靶點內捲最嚴重的地方。
 
 2000 年左右，一個 腫瘤靶點 平均只有約 1.8 個項目在推進。到了 2022 年，這個數字已經飆到約 9 個。也就是說，二十多年來，一個腫瘤靶點背後的研發競爭者，增加了 5 倍以上。
+
 更關鍵的是，腫瘤管線數量每年以約 7.6% 的速度成長，但真正的新機制、新靶點，每年只增加約 3.4%。
 
 車子越來越多，路卻沒有變多，結果自然就是塞車。
 
 🚦 PD-1／PD-L1 是最典型的例子。
+
 Keytruda（pembrolizumab）、Opdivo（nivolumab）、Tecentriq（atezolizumab）、Imfinzi（durvalumab）、Libtayo（cemiplimab） 已經把主要市場吃下來，後面還有大量同類產品試圖靠價格、適應症、聯合療法或區域市場找生存空間。
 
 🚦 BCMA 也是一樣。
+
 Multiple myeloma 領域已經有 Abecma（idecabtagene vicleucel）、Carvykti（ciltacabtagene autoleucel）、Tecvayli（teclistamab）、Elrexfio（elranatamab） 等不同技術路線產品，後面還有更多 CAR-T、bispecific antibody、ADC、下一代細胞療法持續往裡擠。
 
 🚦 CD19 更不用說。
+
 Kymriah（tisagenlecleucel）、Yescarta（axicabtagene ciloleucel）、Breyanzi（lisocabtagene maraleucel）、Blincyto（blinatumomab） 已經讓 CD19 成為血液腫瘤最成熟、也最擁擠的靶點之一。
 
 這些靶點不是不好，正因為它們太好，所以大家都來了。
@@ -68,6 +72,7 @@ Kymriah（tisagenlecleucel）、Yescarta（axicabtagene ciloleucel）、Breyanzi
 既然靶點這麼擠，為什麼公司還是要往裡面跳？
 
 🧩 第一，老靶點已經被驗證。
+
 對藥物開發來說，最怕的不是競爭，而是靶點不成立。如果 target biology 不成立，後面所有努力都可能歸零。所以很多公司寧可選一個已經被驗證的靶點，再用新技術、新 modality、新適應症、新給藥方式去做差異化。
 
 這就是為什麼 BCMA 會這麼擠。靶點很清楚，多發性骨髓瘤病人需求明確，臨床終點相對可評估，市場也已經被教育。於是大家開始用不同武器競爭：
@@ -85,9 +90,11 @@ Kymriah（tisagenlecleucel）、Yescarta（axicabtagene ciloleucel）、Breyanzi
 🧬 T-cell engager。
 
 🧬 Combination therapy。
+
 靶點還是 BCMA，但武器一直換代。
 
 🧩 第二，新技術需要老靶點當驗證場。
+
 對 cell therapy、gene therapy、RNA delivery、protein degradation、bispecific platform 這些新技術來說，如果一開始就選一個全新靶點，失敗後很難判斷問題在哪裡。
 
 🧬是平台不行？
@@ -99,25 +106,32 @@ Kymriah（tisagenlecleucel）、Yescarta（axicabtagene ciloleucel）、Breyanzi
 🧬是劑量不對？
 
 🧬是 delivery 不足？
+
 為了降低不確定性，很多平台公司會先選已驗證靶點做 proof-of-concept。這不一定是缺乏創新，而是開發策略。
 
 🧩 第三，聯合療法需要自己的 backbone 骨幹療法。
+
 在 immuno-oncology 裡，大藥廠常常不想依賴別人的 PD-1 或 PD-L1。如果自己的管線要做組合療法，最好自己手上也有 checkpoint inhibitor。即使它不是最強，也能作為內部聯合策略的基礎。這就是為什麼熱門靶點會被反覆開發。有時候不是因為市場缺一個新產品，而是公司需要一個戰略支點。
 
 ## 05｜真正的問題不是靶點太老，而是你有沒有差異化
 老靶點不是原罪，沒有差異化才是原罪，同一個靶點可以有很多種命運。
 
 🔍 第一種，是 pure me-too。
+
 同樣機制、同樣劑型、同樣適應症、同樣病人族群、同樣療效，進度還排在很後面。
+
 這種產品最危險。因為它沒有理由讓醫師換藥，也沒有理由讓支付方給好價格，更沒有理由讓 Big Pharma 高價買單。
 
 🔍 第二種，是 best-in-class。
+
 靶點雖然老，但產品在療效、安全性、便利性、給藥頻率、耐受性、特定族群、聯合療法或製造成本上有明顯優勢。這類產品仍然有機會。例如同樣是抗體，可以從 IV 改成 SC。同樣是細胞療法，可以縮短製造時間、降低 CRS／ICANS 風險、提高持久性，或做成 同種異體 （allogeneic）。同樣是 GLP-1，可以從注射走向口服，從單靶點走向 GLP-1／GIP、GLP-1／glucagon、amylin combination，或在肌肉保留、胃腸道耐受性上做差異化。
 
 🔍第三種，是 indication expansion。
+
 同樣靶點，不一定要去打最擁擠的一線大適應症。可以切入更精準、更未滿足、更容易建立臨床價值的小族群。有些公司不是靠搶最大市場起家，而是先拿下冷門、高價值、可快速驗證的適應症，再往外擴。這不是逃避競爭，這是錯位競爭。
 
 🔍第四種，是 platform leverage。
+
 公司做老靶點，不是為了這個靶點本身，而是為了證明平台能力，如果平台能在老靶點上做出更好的藥物屬性，再往新靶點延伸，市場會重新給它估值。所以真正要問的不是：「這個靶點是不是太老？」而是：你為什麼能在這個老靶點上贏？
 
 ## 06｜ 靶點很捲，但賺錢機會仍然存在
@@ -126,6 +140,7 @@ Kymriah（tisagenlecleucel）、Yescarta（axicabtagene ciloleucel）、Breyanzi
 過去，只要靶點新、機制漂亮、數據能看，就有機會拿到高估值。現在，在老靶點裡想賺錢，必須更精細。
 
 💰第一種方式，是微創新。
+
 微創新不是貶義詞。在醫藥產業裡，很多真正賺錢的產品，不是顛覆一切，而是把患者體驗、醫師使用、給藥便利性、安全性或製造效率改善到足以改變市場選擇。
 
 🎯例如從靜脈注射變成皮下注射。
@@ -139,9 +154,11 @@ Kymriah（tisagenlecleucel）、Yescarta（axicabtagene ciloleucel）、Breyanzi
 🎯從嚴重副作用變成可管理副作用。
 
 🎯從廣泛族群變成 biomarker-defined population。
+
 這些不一定是最浪漫的創新，但非常商業化。
 
 💰第二種方式，是技術換代。
+
 同樣靶點，可以用不同 modality 重新做。
 
 🎯抗體可以變 ADC。
@@ -155,9 +172,11 @@ Kymriah（tisagenlecleucel）、Yescarta（axicabtagene ciloleucel）、Breyanzi
 🎯小分子 inhibitor 可以變 degrader。
 
 🎯siRNA 可以挑戰傳統抗體或口服藥做不到的組織與疾病。
+
 靶點不變，但武器變了。
 
 💰第三種方式，是錯位競爭。
+
 不去一開始就攻打大藥廠重兵防守的主戰場，而是先切入更小、更清楚、更有未滿足需求的適應症。
 
 🎯拿 orphan drug designation。
@@ -167,9 +186,11 @@ Kymriah（tisagenlecleucel）、Yescarta（axicabtagene ciloleucel）、Breyanzi
 🎯做快速 proof-of-concept。
 
 🎯先建立現金流與臨床信心，再逐步往大市場擴。
+
 這是很多成功 biotech 走過的路。
 
 💰第四種方式，是和大藥廠的 portfolio gap 對接。
+
 有時候你的產品本身不是全球第一，但剛好補上某家 Big Pharma 的管線缺口。
 
 🎯例如某家公司有 PD-1 backbone，但缺 ADC。
@@ -179,6 +200,7 @@ Kymriah（tisagenlecleucel）、Yescarta（axicabtagene ciloleucel）、Breyanzi
 🎯有肥胖藥，但缺肌肉保留方案。
 
 🎯有自體免疫管線，但缺口服小分子。
+
 BD 的價值不只來自科學，也來自買方需要。
 
 ## 07｜最反直覺的賺錢方式：果斷停損
@@ -197,12 +219,14 @@ BD 的價值不只來自科學，也來自買方需要。
 🎯臨床路徑是否更快？
 
 🎯Big Pharma 是否真的需要這個資產？
+
 如果答案都不清楚，最好的策略可能不是繼續，而是停止，把現金流留給更有機會的地方，這不是放棄創新，這是尊重資本成本。
 
 ## 08｜🇹🇼 對台灣 biotech 來說，選靶點更要避免「看起來安全，其實最危險」
 這件事對台灣生技公司很重要。
 
 台灣公司資源有限，臨床資金有限，國際 BD 能見度有限，更不能隨便跳進最擁擠的靶點戰場。
+
 如果一家公司選擇 PD-1、TROP2、HER2、BCMA、CD19、GLP-1、STAT6、TL1A 這類熱門方向，就必須說清楚：
 
 ✂️ 為什麼現在還值得做？
@@ -225,15 +249,19 @@ BD 的價值不只來自科學，也來自買方需要。
 對投資人來說，熱門靶點很容易讓人興奮，因為市場大，競品成功案例多，大藥廠也願意買，但投資時，不能只看靶點熱不熱，更要看四件事。
 
 📊 第一，身位。
+
 這家公司是前三名，還是第十名？臨床進度差一年和差三年，在熱門靶點裡完全不是同一件事。
 
 📊 第二，差異化。它是不是只是 me-too？
+
 還是有劑型、療效、安全性、族群、適應症、成本或聯合療法優勢？
 
 📊 第三，商業路徑。
+
 這個產品如果成功，是自己賣、授權給 Big Pharma，還是被併購？買方為什麼需要它？
 
 📊 第四，資金能力。
+
 公司有沒有錢做完下一個關鍵節點？在擁擠靶點裡，最怕做到一半沒錢，最後連證明自己的機會都沒有。
 
 所以，熱門靶點不是不能投，但要用更嚴格的標準投，因為紅海裡不是沒有魚，只是大多數魚都會被吃掉。

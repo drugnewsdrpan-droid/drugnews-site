@@ -350,6 +350,13 @@ function markdownToHtml(markdown, imageMap) {
       out.push(`<figure><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy"><figcaption>${inlineMarkdown(alt)}</figcaption></figure>`);
       continue;
     }
+    if (/^-{3,}$/.test(trimmed)) {
+      flushParagraph(paragraph, out);
+      flushList();
+      flushQuote();
+      out.push("<hr>");
+      continue;
+    }
     const heading = trimmed.match(/^(#{1,3})\s+(.+)$/);
     if (heading) {
       flushParagraph(paragraph, out);

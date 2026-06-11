@@ -13,6 +13,7 @@
 ![Dcard 原圖：灰色產業上牌桌（圖 2）](images/dcard-02.webp)
 
 🔍 問題是，灰市早就長大了，而且大到監管已經很難假裝它不存在。英國《金融時報》今年 1 月調查指出，約有上千家中國供應商透過即時通訊軟體、線上平台與社群渠道，把未受監管的胜肽（peptides）直接賣給西方消費者；美國與英國的媒體也陸續描繪出同一幅圖像：所謂「研究用化學品」其實大量流向真實人體使用，應用場景從減重、增肌、修復到抗老、助眠、認知強化，幾乎無所不包。胜肽熱潮之所以危險，不只是因為它紅，而是因為它同時結合了三種最難處理的力量：高需求、低門檻敘事，以及跨境匿名供應鏈。
+
 💉 更麻煩的是，灰市賣的已不只是 BPC-157、TB-500 這類「功能型胜肽（functional peptides）」。FDA 今年 2 月已公開警告，市面上有網站把 semaglutide、tirzepatide 甚至仍在研發中的 retatrutide，標示成「for research purposes」或「not for human consumption」直接賣給消費者；澳洲 TGA 也在 4 月示警，未核准的 injectable peptides 包括 BPC-157、GHK-Cu、TB-500、retatrutide 與 CJC-1295，這些產品的無菌性、成分、劑量、純度與實際風險往往根本無法確認。表面上看起來，這是一群人在追逐新一代健康紅利；實際上，它更像是一場沒有標準答案、也沒有品質底線的人體自我實驗。
 ## 🧭 Kennedy 路線的爭議：堵也不是，放也不是
 
@@ -33,26 +34,47 @@
 🌟 說到底，Kennedy 丟出的訊號不是「胜肽都沒問題了」，而是「監管再也不能假裝需求不存在」。一旦這句話成立，整個產業問題就會從「可不可以賣」變成「誰能合規地賣、穩定地做、長期地活下來」。對美國來說，這是一場監管現實主義；對全球供應鏈來說，這是一場胜肽秩序重建；對亞洲製造與創新公司來說，這更像一次重新排位的窗口期。今天的 BPC-157、MOTS-c、Semax 與 TB-500，可能仍處在證據不足與灰區爭議之中；但它們背後所代表的需求——恢復、代謝優化、認知、抗老、口服化、便利性——都是真實存在，而且規模只會愈來愈大。當灰市開始被導向合規體系，真正的問題就不是「這個世界要不要胜肽」，而是「下一輪胜肽秩序，會由誰來定義」。
 ----------
 參考資料：
+
 [0]: 各公司官網＆公開資料
+
 [1]:
+
 reuters.com
+
 https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-convene-expert-panel-decide-broader-access-some-peptides-2026-04-15/
+
 www.reuters.com
+
 [2]:
+
 July 23-24, 2026: Meeting of the Pharmacy Compounding Advisory Committee - 07/23/2026 | FDA
+
 On July 23-24, 2026, the Committee will discuss bulk drug substances being considered for inclusion on the 503A Bulks List.
+
 www.fda.gov
+
 [3]:
+
 ‘I wouldn’t dare take these drugs’: how China supplies untested peptides to the west
+
 The success of weight-loss drugs has driven demand for injectable compounds that claim to improve everything from sleep to skin
+
 www.ft.com
+
 [4]:
+
 FDA’s Concerns with Unapproved GLP-1 Drugs Used for Weight Loss | FDA
+
 FDA’s Concerns with Unapproved GLP-1 Drugs Used for Weight Loss
+
 www.fda.gov
+
 [5]:
+
 FDA to weigh easing limits on unproven peptides favored by RFK Jr. | AP News
+
 Federal health officials will meet this summer to consider easing restrictions on a controversial group of drugs popular with followers of Robert F. Kennedy Jr.'
+
 apnews.com
 
 ---
