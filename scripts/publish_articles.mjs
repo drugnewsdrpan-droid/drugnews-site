@@ -347,7 +347,7 @@ function markdownToHtml(markdown, imageMap) {
       flushQuote();
       const alt = image[1];
       const src = imageMap.get(image[2]) || image[2];
-      out.push(`<figure><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy"><figcaption>${inlineMarkdown(alt)}</figcaption></figure>`);
+      out.push(`<figure><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy"></figure>`);
       continue;
     }
     if (/^-{3,}$/.test(trimmed)) {
