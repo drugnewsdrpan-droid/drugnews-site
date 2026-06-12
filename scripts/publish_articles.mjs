@@ -41,6 +41,11 @@ const ACCESS_TYPES = new Map([
 ]);
 
 const DISCLAIMER = "本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。";
+const HIDDEN_DISPLAY_TAGS = /^(Dcard|Facebook|FB|方格子|免費文章|付費文章)$/i;
+
+function visibleDisplayTags(tags = []) {
+  return tags.filter((tag) => !HIDDEN_DISPLAY_TAGS.test(tag));
+}
 
 async function exists(filePath) {
   try {
@@ -511,7 +516,7 @@ ${headerHtml("articles")}
       <h1>${escapeHtml(meta.title)}</h1>
       <p class="article-deck">${escapeHtml(meta.summary)}</p>
       <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
-      <div class="tag-row">${meta.tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
+      <div class="tag-row">${visibleDisplayTags(meta.tags).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
     </div>
   </section>
   <section class="section article-section">
@@ -624,14 +629,14 @@ function articleCardHtml(item, href, imageSrc = item.image) {
     : "";
   const finalHref = item.external ? item.url : href;
   const target = item.external ? ' target="_blank" rel="noopener"' : "";
-  const sourceLabel = item.source ? `<span>${escapeHtml(item.source)}</span>` : "";
+  const visibleTags = visibleDisplayTags(item.tags);
   return `<a class="article-card${image ? " with-image" : ""}${item.external ? " external-card" : ""}" href="${escapeHtml(finalHref)}"${target}>${image ? `
     ${image}` : ""}
     <div class="article-card-body">
-      <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span><span>${escapeHtml(accessLabel(item))}</span>${sourceLabel}</div>
+      <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span><span>${escapeHtml(accessLabel(item))}</span></div>
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.summary)}</p>
-      <div class="tag-row">${item.tags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
+      <div class="tag-row">${visibleTags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
     </div>
   </a>`;
 }

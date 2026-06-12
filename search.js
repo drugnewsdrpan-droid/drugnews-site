@@ -31,6 +31,7 @@
   function render(items) {
     const inArticles = location.pathname.endsWith("/articles/") || location.pathname.endsWith("/articles/index.html");
     const hrefFor = (item) => item.external ? item.url : (inArticles ? item.url.replace(/^articles\//, "") : item.url);
+    const visibleTags = (tags = []) => tags.filter((tag) => !/^(Dcard|Facebook|FB|方格子|免費文章|付費文章)$/i.test(tag));
     const imageFor = (image) => {
       if (!image) return "";
       if (/^https?:\/\//i.test(image)) return image;
@@ -40,10 +41,10 @@
       <a class="article-card${imageFor(item.image) ? " with-image" : ""}${item.external ? " external-card" : ""}" href="${hrefFor(item)}"${item.external ? ' target="_blank" rel="noopener"' : ""}>
         ${imageFor(item.image) ? `<div class="thumb-wrap"><img class="card-thumb" src="${imageFor(item.image)}" alt="${item.imageAlt || item.title}" loading="lazy"></div>` : ""}
         <div class="article-card-body">
-          <div class="meta"><span>${item.date}</span><span>${item.category}</span><span>${item.access || "免費文章"}</span>${item.source ? `<span>${item.source}</span>` : ""}</div>
+          <div class="meta"><span>${item.date}</span><span>${item.category}</span><span>${item.access || "免費文章"}</span></div>
           <h3>${item.title}</h3>
           <p>${item.summary}</p>
-          <div class="tag-row">${item.tags.slice(0, 5).map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
+          <div class="tag-row">${visibleTags(item.tags).slice(0, 5).map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
         </div>
       </a>
     `).join("");
