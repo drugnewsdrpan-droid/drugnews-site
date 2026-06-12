@@ -663,12 +663,7 @@ function articleIndexPage(records) {
   const displayRecords = readerFirstSort(records);
   const lead = displayRecords[0];
   const categoryLinks = [...SERIES.keys()]
-    .map((category) => {
-      if (category === "製藥巨頭系列") {
-        return `<a href="${PHARMA_GIANTS_URL}" target="_blank" rel="noopener">${escapeHtml(category)}</a>`;
-      }
-      return `<a href="category/${categorySlug(category)}.html">${escapeHtml(category)}</a>`;
-    })
+    .map((category) => `<a href="category/${categorySlug(category)}.html">${escapeHtml(category)}</a>`)
     .join("");
   const typeLinks = [...ACCESS_TYPES.keys()]
     .filter((access) => records.some((item) => accessLabel(item) === access))
@@ -770,27 +765,6 @@ function categoryDescription(category) {
 
 function categoryPage(category, records) {
   const slug = categorySlug(category);
-  if (category === "製藥巨頭系列") {
-    return `<!doctype html>
-<html lang="zh-Hant">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>製藥巨頭系列｜Drugnews</title>
-  <meta name="description" content="${escapeHtml(categoryDescription(category))}">
-  <link rel="canonical" href="${PHARMA_GIANTS_URL}">
-  <meta http-equiv="refresh" content="0; url=${PHARMA_GIANTS_URL}">
-  <link rel="icon" href="../../favicon.svg">
-  <link rel="stylesheet" href="../../styles.css">
-</head>
-<body>
-<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
-<main><section class="page-title"><div class="container"><p class="eyebrow">內容系列</p><h1>製藥巨頭系列</h1><p>此系列整理在方格子製藥巨頭房間，正在為你開啟正確頁面。</p><div class="actions"><a class="button primary" href="${PHARMA_GIANTS_URL}" target="_blank" rel="noopener">前往製藥巨頭系列</a></div></div></section></main>
-${footerHtml()}
-<script>window.location.replace("${PHARMA_GIANTS_URL}");</script>
-</body>
-</html>`;
-  }
   const cards = readerFirstSort(records).map((item) => articleCardHtml(
     item,
     item.external ? item.url : `../${item.fileName}`,
