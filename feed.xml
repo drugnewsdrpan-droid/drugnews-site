@@ -6,7 +6,23 @@
     <atom:link href="https://drugnewsdrpan-droid.github.io/drugnews-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 11 Jun 2026 16:10:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 03:18:40 GMT</lastBuildDate>
+    <item>
+      <title>盤點整理，AI藥物開發走得如何了？</title>
+      <link>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-12-ai-drug-discovery-pipeline-20260612.html</link>
+      <guid isPermaLink="true">https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-12-ai-drug-discovery-pipeline-20260612.html</guid>
+      <pubDate>Fri, 12 Jun 2026 02:30:00 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/ai-drug-discovery-pipeline-20260612/dcard-01.webp" alt="Dcard 原圖：盤點整理，AI藥物開發走得如何了？"></p><p>AI 製藥已從概念走向臨床驗證。這篇盤點 Zasocitinib、GB-0895、Zovegalisib、REC-4881 等代表管線，拆解不同 AI 路線如何轉化成真正的藥物資產。</p>]]></description>
+    </item>
+    <item>
+      <title>【基本面系列】逸達合理估值是多少？CAMCEVI 是現金流還是選擇權？</title>
+      <link>https://vocus.cc/article/6a28c7e7fd89780001e3daca</link>
+      <guid isPermaLink="true">https://vocus.cc/article/6a28c7e7fd89780001e3daca</guid>
+      <pubDate>Fri, 12 Jun 2026 01:00:12 GMT</pubDate>
+      <category>基本面系列</category>
+      <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/external-vocus/6a28c7e7fd89780001e3daca-source.png" alt="【基本面系列】逸達合理估值是多少？CAMCEVI 是現金流還是選擇權？"></p><p>逸達不是純夢想股，也還不是完全兌現的獲利股。本文拆 CAMCEVI 已上市現金流、3 個月劑型與海外 CPP 增量、FP-045 與 FP-025 選擇權及 SOTP 估值。</p>]]></description>
+    </item>
     <item>
       <title>管線估值：為還沒上市的未來定價，BD 最難也最值錢的一課</title>
       <link>https://vocus.cc/article/6a2a30f7fd89780001162667</link>
@@ -190,22 +206,6 @@
       <pubDate>Sat, 30 May 2026 02:30:00 GMT</pubDate>
       <category>商業分析系列</category>
       <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/drug-combination-efficacy-doubling/dcard-01.webp" alt="Dcard 原圖：藥王的最佳搭檔？療效翻倍！"></p><p>Keytruda 專利懸崖前，下一代聯合治療能否提高療效天花板與延長生命週期，是藥王商業價值的關鍵問題。</p>]]></description>
-    </item>
-    <item>
-      <title>OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間</title>
-      <link>https://vocus.cc/article/6a0540e0fd89780001e8806d</link>
-      <guid isPermaLink="true">https://vocus.cc/article/6a0540e0fd89780001e8806d</guid>
-      <pubDate>Sat, 30 May 2026 00:00:54 GMT</pubDate>
-      <category>商業分析系列</category>
-      <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/external-vocus/6a0540e0fd89780001e8806d-source.png" alt="OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間"></p><p>OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間 中樞神經系統藥物開發，很久沒有出現一個這麼清楚、這麼有生物學邏輯、又這麼接近臨床突破的靶點。 這個靶點就是 Orexin Receptor 2（OX2R）。 如果只用一句話解釋 OX2R 的重要性，它不是單純讓人「比較不想睡</p>]]></description>
-    </item>
-    <item>
-      <title>減重藥物不只看體重了：下一代療法正在瞄準這些方向</title>
-      <link>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-29-next-generation-obesity-therapy-directions.html</link>
-      <guid isPermaLink="true">https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-29-next-generation-obesity-therapy-directions.html</guid>
-      <pubDate>Fri, 29 May 2026 02:30:00 GMT</pubDate>
-      <category>商業分析系列</category>
-      <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/next-generation-obesity-therapy-directions/dcard-01.webp" alt="Dcard 原圖：減重藥物不只看體重了：下一代療法正在瞄準這些方向"></p><p>下一代減重療法不只比體重下降，也要看肌肉保留、脂肪肝、心血管與代謝共病等更完整臨床價值。</p>]]></description>
     </item>
   </channel>
 </rss>

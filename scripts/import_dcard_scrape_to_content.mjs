@@ -52,6 +52,7 @@ function isChromeLine(line, title) {
   if (line === "藥時事 Drugnews") return true;
   if (line === "追蹤") return true;
   if (/^\d+\s*月\s*\d+\s*日\s*\d{2}:\d{2}$/.test(line)) return true;
+  if (/^(今天|昨天)\s*\d{1,2}:\d{2}$/.test(line)) return true;
   if (/^所有看板$|^即時熱門看板$|^創作者排行榜$|^下載 App$|^註冊 \/ 登入$/.test(line)) return true;
   return false;
 }
