@@ -142,7 +142,7 @@ function inferSeries(input = {}) {
     if (/基本面|會員研究包|合理估值|財報|營收|EPS|PDUFA/.test(haystack)) {
       return "基本面系列";
     }
-    if (/製藥巨頭|大藥廠|Big Pharma|Lilly|Eli Lilly|輝瑞|Pfizer|嬌生|Johnson|J&J|第一三共|Daiichi|Novartis|Roche|Merck|AstraZeneca|Sanofi|GSK|BMS|Bristol/i.test(haystack)) {
+    if (/製藥巨頭發展史|製藥巨頭系列/i.test(haystack)) {
       return "製藥巨頭系列";
     }
     return "付費深度商業分析文章系列";
@@ -758,7 +758,7 @@ function categoryDescription(category) {
     "基本面系列": "方格子付費專欄中的公司基本面追蹤，重點放在估值、營收、臨床里程碑與可驗證的商業假設。",
     "醫學大會": "ASCO、ESMO、AACR 等醫學大會與重要學會資料整理，協助讀者快速理解臨床數據與產業意義。",
     "付費深度商業分析文章系列": "方格子付費深度文，聚焦 BD、授權、產業策略、平台價值與資本市場重新定價。",
-    "製藥巨頭系列": "方格子中關於大型藥廠策略、併購、管線取捨與全球競爭格局的系列分析。"
+    "製藥巨頭系列": "大型藥廠發展史、併購路徑、管線取捨與全球競爭格局的系列分析。"
   };
   return descriptions[category] || "Drugnews 內容系列文章。";
 }

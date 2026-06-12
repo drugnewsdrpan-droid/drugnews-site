@@ -54,7 +54,7 @@ function coverSvg(item) {
   };
   const [ink, accent] = colors[item.category] || colors["公司研究"];
   const lines = titleLines.map((line, index) => `<text x="70" y="${214 + index * 58}" class="title">${xml(line)}</text>`).join("\n    ");
-  const badge = `${item.source || "方格子"}・${item.access || "外部文章"}`;
+  const badge = `${item.category || "Drugnews"}・${item.access || "外部文章"}`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="${xml(item.title)}">
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">

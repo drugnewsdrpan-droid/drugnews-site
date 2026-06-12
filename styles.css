@@ -750,6 +750,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 .tag {
   display: inline-flex;
   align-items: center;
+  max-width: 100%;
   min-height: 28px;
   padding: 0 10px;
   border-radius: 999px;
@@ -757,6 +758,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   color: #245265;
   font-size: 0.84rem;
   text-decoration: none;
+  overflow-wrap: anywhere;
 }
 
 .article-list {
@@ -790,10 +792,13 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 
 .thumb-wrap {
   position: relative;
+  min-width: 0;
 }
 
 .card-thumb {
+  display: block;
   width: 100%;
+  max-width: 100%;
   aspect-ratio: 16 / 10;
   object-fit: cover;
   object-position: center;
@@ -1657,6 +1662,13 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   }
   .article-card.with-image, .editorial-list .article-card.with-image {
     grid-template-columns: 1fr;
+  }
+  .article-card {
+    min-width: 0;
+  }
+  .thumb-wrap,
+  .card-thumb {
+    width: 100%;
   }
   .card-thumb { aspect-ratio: 16 / 9; }
   .insights-grid { grid-template-columns: 1fr; }
