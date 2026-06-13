@@ -718,7 +718,7 @@ ${headerHtml("articles")}
   </section>
 </main>
 ${footerHtml()}
-<script src="../search.js?v=20260610-clean-cards"></script>
+<script src="../search.js?v=20260613-cover-tags"></script>
 </body>
 </html>`;
 }

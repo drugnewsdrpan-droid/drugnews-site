@@ -31,7 +31,7 @@
   function render(items) {
     const inArticles = location.pathname.endsWith("/articles/") || location.pathname.endsWith("/articles/index.html");
     const hrefFor = (item) => item.external ? item.url : (inArticles ? item.url.replace(/^articles\//, "") : item.url);
-    const visibleTags = (tags = []) => tags.filter((tag) => !/^(Dcard|Facebook|FB|方格子|免費文章|付費文章)$/i.test(tag));
+    const visibleTags = (tags = []) => tags.filter((tag) => !/^(Dcard|Facebook|FB|方格子|免費文章|付費文章|商業分析系列|基本面系列|醫學大會|付費深度商業分析文章系列|製藥巨頭系列)$/i.test(tag));
     const imageFor = (image) => {
       if (!image) return "";
       if (/^https?:\/\//i.test(image)) return image;
