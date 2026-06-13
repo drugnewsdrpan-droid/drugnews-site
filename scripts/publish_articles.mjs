@@ -41,6 +41,7 @@ const ACCESS_TYPES = new Map([
 ]);
 
 const DISCLAIMER = "本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。";
+const ENGLISH_DISCLAIMER = "This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.";
 const HIDDEN_DISPLAY_TAGS = /^(Dcard|Facebook|FB|方格子|免費文章|付費文章|商業分析系列|基本面系列|醫學大會|付費深度商業分析文章系列|製藥巨頭系列)$/i;
 
 function visibleDisplayTags(tags = []) {
@@ -120,6 +121,91 @@ function accessLabel(item) {
   return item.access || "免費文章";
 }
 
+function isEnglish(item = {}) {
+  return /^en\b/i.test(item.lang || item.locale || "");
+}
+
+function languageTag(item = {}) {
+  return isEnglish(item) ? "en" : "zh-Hant";
+}
+
+function ogLocale(item = {}) {
+  return isEnglish(item) ? "en_US" : "zh_TW";
+}
+
+function disclaimerFor(item = {}) {
+  return isEnglish(item) ? ENGLISH_DISCLAIMER : DISCLAIMER;
+}
+
+function articleUi(meta = {}) {
+  if (!isEnglish(meta)) {
+    return {
+      home: "首頁",
+      articles: "文章",
+      freeArticle: "免費文章",
+      byline: "作者：",
+      author: "Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊",
+      originalHeading: "社群原文",
+      originalDcard: "原 Dcard 貼文",
+      originalFb: "原 FB 貼文",
+      facebook: "Facebook 粉專",
+      cmoney: "股市爆料同學會",
+      paidHeading: "延伸深度研究",
+      paidCopy: "想持續追蹤更多公司研究、產業脈絡與資本市場觀察，可在方格子訂閱 Drugnews 付費專欄。",
+      paidCta: "了解付費專欄",
+      sidebarEyebrow: "付費專欄",
+      sidebarTitle: "方格子付費專欄",
+      sidebarCopy: "深度研究、公司追蹤與生技醫藥資本市場筆記，適合想長期追蹤的讀者。",
+      sidebarCta: "了解訂閱",
+      followTitle: "持續追蹤 Drugnews",
+      followCopy: "最新貼文、付費長文與投資社群討論，會持續更新在各平台。",
+      related: "延伸閱讀"
+    };
+  }
+  return {
+    home: "Home",
+    articles: "Articles",
+    freeArticle: "Free Article",
+    byline: "By ",
+    author: "Drugnews Editorial Team",
+    originalHeading: "Original Article",
+    originalDcard: "Original Dcard Post",
+    originalFb: "Original Facebook Post",
+    facebook: "Facebook Page",
+    cmoney: "CMoney Community",
+    paidHeading: "Further Research",
+    paidCopy: "For deeper company research, industry context, and biotech capital-market notes, follow Drugnews paid research on Vocus.",
+    paidCta: "Explore Paid Research",
+    sidebarEyebrow: "Paid Research",
+    sidebarTitle: "Drugnews Paid Research",
+    sidebarCopy: "In-depth company research, industry tracking, and biotech capital-market notes for long-term readers.",
+    sidebarCta: "Explore Subscription",
+    followTitle: "Follow Drugnews",
+    followCopy: "Latest posts, long-form research, and biotech market discussions are updated across our channels.",
+    related: "Related Reading"
+  };
+}
+
+function displaySeriesLabel(series, item = {}) {
+  if (!isEnglish(item)) return series;
+  return {
+    "商業分析系列": "Business Analysis",
+    "基本面系列": "Fundamental Analysis",
+    "醫學大會": "Medical Conference",
+    "付費深度商業分析文章系列": "Paid Deep-Dive Analysis",
+    "製藥巨頭系列": "Big Pharma"
+  }[series] || series;
+}
+
+function displayAccessLabel(item = {}) {
+  const access = accessLabel(item);
+  if (!isEnglish(item)) return access;
+  return {
+    "免費文章": "Free Article",
+    "付費文章": "Paid Article"
+  }[access] || access;
+}
+
 function inferSeries(input = {}) {
   if (SERIES.has(input.series)) return input.series;
   if (SERIES.has(input.category)) return input.category;
@@ -166,6 +252,27 @@ function formatDate(date) {
     day: "2-digit",
     timeZone: "Asia/Taipei"
   }).format(new Date(`${date}T00:00:00+08:00`));
+}
+
+function displayDate(date, meta = {}) {
+  if (!isEnglish(meta)) return formatDate(date);
+  return new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+    timeZone: "Asia/Taipei"
+  }).format(new Date(`${date}T00:00:00+08:00`));
+}
+
+function alternateLinks(meta, url) {
+  const alternates = new Map([[languageTag(meta), url]]);
+  for (const [lang, href] of Object.entries(meta.translations || {})) {
+    alternates.set(lang, /^https?:\/\//i.test(href) ? href : `${BASE_URL}/articles/${href}`);
+  }
+  if (alternates.has("zh-Hant")) alternates.set("x-default", alternates.get("zh-Hant"));
+  return [...alternates.entries()]
+    .map(([lang, href]) => `<link rel="alternate" hreflang="${escapeHtml(lang)}" href="${escapeHtml(href)}">`)
+    .join("\n  ");
 }
 
 function monthKey(date) {
@@ -282,6 +389,7 @@ function coverImage(article, markdownImages = findMarkdownImages(article.markdow
 function inlineMarkdown(text) {
   let html = escapeHtml(text);
   html = html.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  html = html.replace(/(^|[\s(])\*([^*\n]+)\*(?=[\s).,，。！？;:：；]|$)/g, "$1<em>$2</em>");
   html = html.replace(/`([^`]+)`/g, "<code>$1</code>");
   html = html.replace(/\[([^\]]+)]\((https?:\/\/[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
   html = html.replace(/\[([^\]]+)]\(([^)]+)\)/g, '<a href="$2">$1</a>');
@@ -405,42 +513,63 @@ function stripLeadingTitle(markdown, title) {
   return markdown.trim();
 }
 
-function headerHtml(current) {
+function headerHtml(current, meta = {}) {
+  const labels = isEnglish(meta)
+    ? {
+        home: "Home",
+        articles: "Articles",
+        guides: "Guides",
+        subscribe: "Paid Research",
+        services: "Company Services",
+        team: "Team"
+      }
+    : {
+        home: "首頁",
+        articles: "文章",
+        guides: "指南",
+        subscribe: "付費專欄",
+        services: "公司合作",
+        team: "團隊"
+      };
   const link = (href, label, key) => `<a href="${href}"${current === key ? ' aria-current="page"' : ""}>${label}</a>`;
   return `<header class="site-header">
   <div class="container nav">
     <a class="brand" href="../index.html"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
     <nav class="nav-links" aria-label="Main navigation">
-      ${link("../index.html", "首頁", "home")}
-      ${link("index.html", "文章", "articles")}
-      ${link("../guides/", "指南", "guides")}
-      ${link("../subscribe.html", "付費專欄", "subscribe")}
-      ${link("../services.html", "公司合作", "services")}
-      ${link("../team.html", "團隊", "team")}
+      ${link("../index.html", labels.home, "home")}
+      ${link("index.html", labels.articles, "articles")}
+      ${link("../guides/", labels.guides, "guides")}
+      ${link("../subscribe.html", labels.subscribe, "subscribe")}
+      ${link("../services.html", labels.services, "services")}
+      ${link("../team.html", labels.team, "team")}
     </nav>
   </div>
 </header>`;
 }
 
-function footerHtml() {
-  return `<footer class="site-footer"><div class="container">© 2026 Drugnews. ${DISCLAIMER}</div></footer>`;
+function footerHtml(meta = {}) {
+  return `<footer class="site-footer"><div class="container">© 2026 Drugnews. ${disclaimerFor(meta)}</div></footer>`;
 }
 
 function articlePage(article, bodyHtml, related) {
   const { meta } = article;
+  const ui = articleUi(meta);
   const fileName = `${meta.date}-${meta.slug}.html`;
   const url = `${BASE_URL}/articles/${fileName}`;
   const series = inferSeries(meta);
   const articleCover = coverImage(article);
   const articleImage = articleCover.src;
   const articleImageUrl = articleImage ? absoluteUrl(articleImage) : "";
+  const seriesLabel = displaySeriesLabel(series, meta);
+  const accessDisplay = displayAccessLabel(meta);
   const relatedHtml = related.length
-    ? `<div class="card"><h3>延伸閱讀</h3><div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("")}</div></div>`
+    ? `<div class="card"><h3>${ui.related}</h3><div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("")}</div></div>`
     : "";
   const sourceLinks = [
-    meta.dcard_url ? `<a class="tag" href="${escapeHtml(meta.dcard_url)}" target="_blank" rel="noopener">原 Dcard 貼文</a>` : "",
-    `<a class="tag" href="${escapeHtml(meta.facebook_url || FACEBOOK_URL)}" target="_blank" rel="noopener">${meta.facebook_url ? "原 FB 貼文" : "Facebook 粉專"}</a>`,
-    `<a class="tag" href="${escapeHtml(CMONEY_URL)}" target="_blank" rel="noopener">股市爆料同學會</a>`
+    meta.dcard_url ? `<a class="tag" href="${escapeHtml(meta.dcard_url)}" target="_blank" rel="noopener">${ui.originalDcard}</a>` : "",
+    meta.facebook_url ? `<a class="tag" href="${escapeHtml(meta.facebook_url)}" target="_blank" rel="noopener">${ui.originalFb}</a>` : "",
+    !isEnglish(meta) ? `<a class="tag" href="${escapeHtml(FACEBOOK_URL)}" target="_blank" rel="noopener">${ui.facebook}</a>` : "",
+    !isEnglish(meta) ? `<a class="tag" href="${escapeHtml(CMONEY_URL)}" target="_blank" rel="noopener">${ui.cmoney}</a>` : ""
   ].filter(Boolean).join("");
   const articleSchema = {
     "@context": "https://schema.org",
@@ -452,7 +581,7 @@ function articlePage(article, bodyHtml, related) {
     mainEntityOfPage: url,
     author: {
       "@type": "Organization",
-      name: "Drugnews 編輯部",
+      name: isEnglish(meta) ? "Drugnews Editorial Team" : "Drugnews 編輯部",
       url: `${BASE_URL}/team.html`
     },
     publisher: {
@@ -468,28 +597,30 @@ function articlePage(article, bodyHtml, related) {
       name: "Drugnews｜藥時事",
       url: `${BASE_URL}/`
     },
-    articleSection: series,
-    keywords: meta.tags.join(", ")
+    articleSection: seriesLabel,
+    keywords: meta.tags.join(", "),
+    inLanguage: languageTag(meta)
   };
   if (articleImageUrl) articleSchema.image = [articleImageUrl];
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "首頁", item: `${BASE_URL}/` },
-      { "@type": "ListItem", position: 2, name: "文章", item: `${BASE_URL}/articles/` },
-      { "@type": "ListItem", position: 3, name: "免費文章", item: `${BASE_URL}/articles/type/free.html` },
+      { "@type": "ListItem", position: 1, name: ui.home, item: `${BASE_URL}/` },
+      { "@type": "ListItem", position: 2, name: ui.articles, item: `${BASE_URL}/articles/` },
+      { "@type": "ListItem", position: 3, name: ui.freeArticle, item: `${BASE_URL}/articles/type/free.html` },
       { "@type": "ListItem", position: 4, name: meta.title, item: url }
     ]
   };
   return `<!doctype html>
-<html lang="zh-Hant">
+<html lang="${languageTag(meta)}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(meta.title)}｜Drugnews</title>
   <meta name="description" content="${escapeHtml(meta.summary)}">
   <link rel="canonical" href="${url}">
+  ${alternateLinks(meta, url)}
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
@@ -498,6 +629,7 @@ function articlePage(article, bodyHtml, related) {
   <meta property="og:type" content="article">
   <meta property="og:url" content="${url}">
   <meta property="og:site_name" content="Drugnews｜藥時事">
+  <meta property="og:locale" content="${ogLocale(meta)}">
   ${articleImageUrl ? `<meta property="og:image" content="${articleImageUrl}">` : ""}
   <meta name="twitter:card" content="${articleImageUrl ? "summary_large_image" : "summary"}">
   <meta name="twitter:title" content="${escapeHtml(meta.title)}｜Drugnews">
@@ -507,15 +639,15 @@ function articlePage(article, bodyHtml, related) {
   <script type="application/ld+json">${JSON.stringify(breadcrumbSchema)}</script>
 </head>
 <body>
-${headerHtml("articles")}
+${headerHtml("articles", meta)}
 <main>
   <section class="article-hero">
     <div class="container article-hero-inner">
-      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">文章</a><span>/</span><a href="type/free.html">免費文章</a></nav>
-      <div class="meta"><span>${formatDate(meta.date)}</span><span>免費文章</span><span>${escapeHtml(series)}</span></div>
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">${ui.home}</a><span>/</span><a href="index.html">${ui.articles}</a><span>/</span><a href="type/free.html">${ui.freeArticle}</a></nav>
+      <div class="meta"><span>${displayDate(meta.date, meta)}</span><span>${escapeHtml(accessDisplay)}</span><span>${escapeHtml(seriesLabel)}</span></div>
       <h1>${escapeHtml(meta.title)}</h1>
       <p class="article-deck">${escapeHtml(meta.summary)}</p>
-      <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
+      <p class="article-byline">${ui.byline}<a href="../team.html">${ui.author}</a></p>
       <div class="tag-row">${visibleDisplayTags(meta.tags).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
     </div>
   </section>
@@ -523,29 +655,29 @@ ${headerHtml("articles")}
     <div class="container article-layout">
       <article class="article-body">
       ${bodyHtml}
-      <div class="notice">${DISCLAIMER}</div>
-      ${sourceLinks ? `<h2>社群原文</h2><div class="tag-row">${sourceLinks}</div>` : ""}
+      <div class="notice">${disclaimerFor(meta)}</div>
+      ${sourceLinks ? `<h2>${ui.originalHeading}</h2><div class="tag-row">${sourceLinks}</div>` : ""}
       <div class="paid-note">
-        <h2>延伸深度研究</h2>
-        <p>想持續追蹤更多公司研究、產業脈絡與資本市場觀察，可在方格子訂閱 Drugnews 付費專欄。</p>
-        <div class="actions"><a class="button primary" href="../subscribe.html">了解付費專欄</a></div>
+        <h2>${ui.paidHeading}</h2>
+        <p>${ui.paidCopy}</p>
+        <div class="actions"><a class="button primary" href="../subscribe.html">${ui.paidCta}</a></div>
       </div>
       </article>
       <aside class="sidebar">
       <div class="card paid-card">
-        <p class="eyebrow">付費專欄</p>
-        <h3>方格子付費專欄</h3>
-        <p>深度研究、公司追蹤與生技醫藥資本市場筆記，適合想長期追蹤的讀者。</p>
-        <div class="actions"><a class="button primary" href="../subscribe.html">了解訂閱</a></div>
+        <p class="eyebrow">${ui.sidebarEyebrow}</p>
+        <h3>${ui.sidebarTitle}</h3>
+        <p>${ui.sidebarCopy}</p>
+        <div class="actions"><a class="button primary" href="../subscribe.html">${ui.sidebarCta}</a></div>
       </div>
       <div class="card">
-        <h3>持續追蹤 Drugnews</h3>
-        <p>最新貼文、付費長文與投資社群討論，會持續更新在各平台。</p>
+        <h3>${ui.followTitle}</h3>
+        <p>${ui.followCopy}</p>
         <div class="actions">
           <a class="button secondary" href="${FACEBOOK_URL}" target="_blank" rel="noopener">Facebook</a>
           <a class="button secondary" href="${DCARD_URL}" target="_blank" rel="noopener">Dcard</a>
-          <a class="button secondary" href="${PAID_COLUMN_URL}" target="_blank" rel="noopener">方格子</a>
-          <a class="button secondary" href="${CMONEY_URL}" target="_blank" rel="noopener">股市爆料同學會</a>
+          <a class="button secondary" href="${PAID_COLUMN_URL}" target="_blank" rel="noopener">${isEnglish(meta) ? "Vocus" : "方格子"}</a>
+          <a class="button secondary" href="${CMONEY_URL}" target="_blank" rel="noopener">${ui.cmoney}</a>
         </div>
       </div>
       ${relatedHtml}
@@ -553,7 +685,7 @@ ${headerHtml("articles")}
     </div>
   </section>
 </main>
-${footerHtml()}
+${footerHtml(meta)}
 </body>
 </html>`;
 }
@@ -569,9 +701,11 @@ function articleRecord(article) {
     category: inferSeries(meta),
     categorySlug: categorySlug(inferSeries(meta)),
     topic: meta.category,
-    access: "免費文章",
-    accessSlug: accessSlug("免費文章"),
+    access: accessLabel(meta),
+    accessSlug: accessSlug(accessLabel(meta)),
     source: platformLabel(meta),
+    lang: languageTag(meta),
+    translations: meta.translations || {},
     tags: meta.tags,
     summary: meta.summary,
     image: articleCover.src,
@@ -580,7 +714,7 @@ function articleRecord(article) {
     slug: meta.slug,
     fileName,
     url: `articles/${fileName}`,
-    text: [stripMarkdown(article.markdown), meta.category, inferSeries(meta)].join(" ")
+    text: [stripMarkdown(article.markdown), meta.category, inferSeries(meta), languageTag(meta)].join(" ")
   };
 }
 
@@ -610,6 +744,8 @@ async function loadExternalArticleRecords() {
       categorySlug: categorySlug(inferSeries({ ...item, source: item.source || "方格子" })),
       topic,
       accessSlug: accessSlug(item.access || "免費文章"),
+      lang: item.lang || "zh-Hant",
+      translations: item.translations || {},
       tags,
       summary,
       image,
@@ -630,10 +766,12 @@ function articleCardHtml(item, href, imageSrc = item.image) {
   const finalHref = item.external ? item.url : href;
   const target = item.external ? ' target="_blank" rel="noopener"' : "";
   const visibleTags = visibleDisplayTags(item.tags);
+  const categoryDisplay = displaySeriesLabel(item.category, item);
+  const accessDisplay = displayAccessLabel(item);
   return `<a class="article-card${image ? " with-image" : ""}${item.external ? " external-card" : ""}" href="${escapeHtml(finalHref)}"${target}>${image ? `
     ${image}` : ""}
     <div class="article-card-body">
-      <div class="meta"><span>${item.date}</span><span>${escapeHtml(item.category)}</span><span>${escapeHtml(accessLabel(item))}</span></div>
+      <div class="meta"><span>${displayDate(item.date, item)}</span><span>${escapeHtml(categoryDisplay)}</span><span>${escapeHtml(accessDisplay)}</span></div>
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.summary)}</p>
       <div class="tag-row">${visibleTags.slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
@@ -820,6 +958,17 @@ ${footerHtml()}
 </html>`;
 }
 
+function sitemapAlternates(item) {
+  const alternates = new Map([[item.lang || "zh-Hant", `${BASE_URL}/${item.url}`]]);
+  for (const [lang, href] of Object.entries(item.translations || {})) {
+    alternates.set(lang, /^https?:\/\//i.test(href) ? href : `${BASE_URL}/articles/${href}`);
+  }
+  if (alternates.has("zh-Hant")) alternates.set("x-default", alternates.get("zh-Hant"));
+  return [...alternates.entries()]
+    .map(([lang, href]) => `<xhtml:link rel="alternate" hreflang="${escapeXml(lang)}" href="${escapeXml(href)}"/>`)
+    .join("");
+}
+
 function sitemap(records) {
   const staticUrls = [
     ["", "1.0", "2026-06-10"],
@@ -849,9 +998,10 @@ function sitemap(records) {
     urls.push(`  <url><loc>${BASE_URL}/articles/archive/${key}.html</loc><priority>0.7</priority></url>`);
   }
   for (const item of records.filter((record) => !record.external)) {
-    urls.push(`  <url><loc>${BASE_URL}/${item.url}</loc><lastmod>${item.date}</lastmod><priority>0.8</priority></url>`);
+    const alternates = sitemapAlternates(item);
+    urls.push(`  <url><loc>${BASE_URL}/${item.url}</loc><lastmod>${item.date}</lastmod><priority>0.8</priority>${alternates}</url>`);
   }
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join("\n")}\n</urlset>\n`;
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join("\n")}\n</urlset>\n`;
 }
 
 function rssFeed(records) {
