@@ -23,8 +23,6 @@ AI 醫藥上半場比生成分子，下半場比成藥存活率。安宏真正�
 
 它不是單純的曝光，而是一個生態位訊號：安宏不是算力層，不是通用模型層，也不是單純 AI 篩選工具，而是站在更接近價值出口的 AI-native clinical asset engine——把 AI 變成臨床資產的成藥引擎層。
 
-![Dcard 原圖：AI製藥下半場：讓藥活下來（圖 1）](images/dcard-01.webp)
-
 AIMCADD®、AI + PROTAC、AH-001 美國一期臨床，以及後續管線複製，指向的是同一件事：安宏正在嘗試證明，台灣也能長出一套用 AI 產生臨床資產的成藥飛輪。
 
 這才是 NVIDIA 連續看見安宏背後，真正值得市場理解的地方。
@@ -32,7 +30,7 @@ AIMCADD®、AI + PROTAC、AH-001 美國一期臨床，以及後續管線複製�
 不是生成更多分子，而是讓 AI 設計的分子，真的活成藥。
 ## 01｜AI 醫藥正在換題目：不是生成更多分子，而是讓藥活下來
 
-![Dcard 原圖：AI製藥下半場：讓藥活下來（圖 2）](images/dcard-02.png)
+![Dcard 原圖：AI製藥下半場：讓藥活下來（圖 1）](images/dcard-01.webp)
 
 過去幾年，AI 醫藥最會講的故事，是模型。誰能生成分子、誰能預測蛋白結構、誰能在電腦裡跑出更漂亮的 docking，誰就能吸引資本市場的想像。
 
@@ -41,7 +39,7 @@ AIMCADD®、AI + PROTAC、AH-001 美國一期臨床，以及後續管線複製�
 這也是安宏生醫連續被 NVIDIA 生態看見時，真正應該被問的問題：它不是只在展示 AI，而是在嘗試證明 AI + PROTAC 能不能形成一套可複製、可推進人體、可生成多資產的成藥飛輪。
 ## 02｜連續三年進入 NVIDIA 生態圈：曝光背後，是生態位階的改變
 
-![Dcard 原圖：AI製藥下半場：讓藥活下來（圖 3）](images/dcard-03.png)
+![Dcard 原圖：AI製藥下半場：讓藥活下來（圖 2）](images/dcard-02.png)
 
 如果一家公司只被 NVIDIA 看見一次，那可能是展示；但若從 NVIDIA Developer Forum、GTC、AI Summit，到 GTC Taipei 的 AI 新藥應用場景，連續三年被放進生態系裡，背後代表的就不只是能見度。
 
@@ -50,7 +48,7 @@ AIMCADD®、AI + PROTAC、AH-001 美國一期臨床，以及後續管線複製�
 在 NVIDIA AI 醫藥生態位階中，最底層是算力與晶片，中間有 Foundation Model 與 AI Factory，而最接近 biotech 估值重估的，是 AI-Native Asset Engine：能把 AI 變成可進臨床、可授權、可交易的新藥資產。
 ## 03｜全球 AI 醫藥交易潮：大藥廠買的不是工具，而是成藥能力
 
-![Dcard 原圖：AI製藥下半場：讓藥活下來（圖 4）](images/dcard-04.png)
+![Dcard 原圖：AI製藥下半場：讓藥活下來（圖 3）](images/dcard-03.png)
 
 近期 AI 醫藥交易潮說明一件事：大藥廠不是在買 AI 工具，而是在買新的藥物開發底層能力。
 
@@ -67,7 +65,7 @@ NVIDIA × Lilly 代表 AI Factory；Isomorphic Labs 代表 foundation model 級 
 這些問題，才是 AI 醫藥下半場真正的估值語言。
 ## 04｜資本效率與臨床速度：安宏為何不只是 AI 新藥公司？
 
-![Dcard 原圖：AI製藥下半場：讓藥活下來（圖 5）](images/dcard-05.png)
+![Dcard 原圖：AI製藥下半場：讓藥活下來（圖 4）](images/dcard-04.png)
 
 AI 醫藥公司最後不能只比模型，也不能只比融資規模。真正對投資人與大藥廠有意義的問題是：同樣要把一個分子推進人體，誰花的錢更少、誰用的時間更短、誰更早產生可被藥廠評估的臨床資產。
 
@@ -77,10 +75,11 @@ AI 醫藥公司最後不能只比模型，也不能只比融資規模。真正�
 
 這個數字不能被過度解讀成療效已被證明，但它代表一個重要訊號：安宏以小型 biotech 的資本量，把 AI + PROTAC 從平台、候選物，一路推進到人體一期。
 
-![Dcard 原圖：AI製藥下半場：讓藥活下來（圖 6）](images/dcard-06.png)
-
 這就是安宏與一般 AI 工具公司的第一個差異。
 ## 05｜安宏 AI + PROTAC 成藥飛輪引擎：AH-001 不是終點，而是 proof of engine
+
+![Dcard 原圖：AI製藥下半場：讓藥活下來（圖 5）](images/dcard-05.png)
+
 如果只把 AH-001 看成雄性禿藥物，安宏的故事會被看小。
 
 AH-001 更重要的意義，是讓安宏的 AI + PROTAC 成藥飛輪第一次進入人體安全性驗證。
@@ -93,6 +92,9 @@ AIMCADD® 的價值不只是找分子，而是把疾病生物學、PROTAC 設計
 
 當第一個臨床資產的資料回流後，平台才有機會複製出 AH-008、AH-005、AH-003 等更多資產。
 ## 06｜全球 AI 原生代表性藥物：真正拉開差距的是誰能更快推進臨床
+
+![Dcard 原圖：AI製藥下半場：讓藥活下來（圖 6）](images/dcard-06.png)
+
 全球 AI 原生藥物已經從概念驗證走向人體與中期臨床。
 
 Insilico 的 Rentosertib 已有 Phase IIa 正向結果，Exscientia × Sumitomo 的 DSP-1181 代表早期 AI 小分子快速進入 Phase I 的案例，BenevolentAI 與 Generate:Biomedicines 則展示 AI 小分子與 AI 工程化抗體走向人體臨床與後期開發。

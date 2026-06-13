@@ -228,6 +228,27 @@ async function coverFileFor(imageDir, title) {
 
 function distributeImages(lines, imageFiles, title) {
   if (!imageFiles.length) return lines;
+  const numberedHeadingCount = lines.filter((line) => /^##\s*\d{1,2}[｜|]/.test(line)).length;
+  if (numberedHeadingCount >= 2) {
+    const result = [];
+    let imageIndex = 0;
+    for (const line of lines) {
+      result.push(line);
+      if (/^##\s*\d{1,2}[｜|]/.test(line) && imageIndex < imageFiles.length) {
+        result.push("");
+        result.push(`![Dcard 原圖：${title}（圖 ${imageIndex + 1}）](images/${imageFiles[imageIndex]})`);
+        result.push("");
+        imageIndex += 1;
+      }
+    }
+    while (imageIndex < imageFiles.length) {
+      result.push("");
+      result.push(`![Dcard 原圖：${title}（圖 ${imageIndex + 1}）](images/${imageFiles[imageIndex]})`);
+      imageIndex += 1;
+    }
+    return result;
+  }
+
   const result = [];
   let imageIndex = 0;
   const interval = Math.max(5, Math.ceil(lines.length / (imageFiles.length + 1)));
