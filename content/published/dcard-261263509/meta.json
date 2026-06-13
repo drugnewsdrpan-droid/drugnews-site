@@ -18,5 +18,9 @@
   "cover_image_alt": "Dcard 原圖：這一批罕見病患者終於等來新藥！",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261263509",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-04-09-dcard-261263509-en.html"
+  }
 }

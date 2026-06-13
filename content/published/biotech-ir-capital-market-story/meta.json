@@ -14,5 +14,9 @@
   "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
   "dcard_url": "https://www.dcard.tw/@drugnews",
   "cover_image": "images/ir-flow.svg",
-  "cover_image_alt": "生醫 IR 溝通流程圖"
+  "cover_image_alt": "生醫 IR 溝通流程圖",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-10-biotech-ir-capital-market-story-en.html"
+  }
 }

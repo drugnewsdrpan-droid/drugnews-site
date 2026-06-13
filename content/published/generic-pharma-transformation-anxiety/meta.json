@@ -16,5 +16,9 @@
   "cover_image_alt": "Dcard 原圖：太陽製藥、梯瓦製藥 與 全球學名藥廠的轉型焦慮",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261555997",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-05-27-generic-pharma-transformation-anxiety-en.html"
+  }
 }

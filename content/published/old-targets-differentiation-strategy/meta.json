@@ -17,5 +17,9 @@
   "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261614701",
   "cover_image": "images/dcard-01.webp",
-  "cover_image_alt": "老靶點差異化策略文章原圖"
+  "cover_image_alt": "老靶點差異化策略文章原圖",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-06-old-targets-differentiation-strategy-en.html"
+  }
 }

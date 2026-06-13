@@ -124,6 +124,12 @@ function articleFileName(meta) {
   return `${meta.date}-${meta.slug}.html`;
 }
 
+function publishedImage(meta) {
+  if (!meta.cover_image) return "";
+  if (/^https?:\/\//i.test(meta.cover_image)) return meta.cover_image;
+  return `../assets/articles/${meta.slug}/${path.basename(meta.cover_image)}`;
+}
+
 function publishedRecord(meta) {
   return {
     title: meta.title,
@@ -135,7 +141,7 @@ function publishedRecord(meta) {
     lang: meta.lang || "zh-Hant",
     tags: meta.tags || [],
     summary: meta.summary || "",
-    image: meta.cover_image ? `../assets/articles/${meta.slug}/${path.basename(meta.cover_image)}` : "",
+    image: publishedImage(meta),
     imageAlt: meta.cover_image_alt || meta.title,
     url: `articles/${articleFileName(meta)}`
   };

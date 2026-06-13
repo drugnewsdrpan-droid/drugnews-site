@@ -19,5 +19,9 @@
   "cover_image_alt": "Dcard 原圖：台灣這家Biotech將吃下AI基礎建設的所有紅利？",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261321301",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-04-18-biotech-ai-en.html"
+  }
 }

@@ -20,5 +20,9 @@
   "cover_image_alt": "Dcard 原圖：AI三巨頭在醫藥裡廝殺",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261345837",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-04-22-ai-en.html"
+  }
 }

@@ -20,5 +20,9 @@
   "cover_image_alt": "Dcard 原圖：讓大藥廠心動的管線到底做了什麼？",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261422909",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-05-05-pharma-pipeline-bd-attraction-en.html"
+  }
 }

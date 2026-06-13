@@ -19,5 +19,9 @@
   "cover_image_alt": "Dcard 原圖：全網最全的「抗憂鬱新藥」最新進展盤點",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261484805",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-05-15-antidepressant-new-drugs-pipeline-en.html"
+  }
 }

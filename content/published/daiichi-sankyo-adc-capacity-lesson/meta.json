@@ -20,5 +20,9 @@
   "facebook_url": "",
   "dcard_url": "",
   "cover_image": "images/dcard-01.png",
-  "cover_image_alt": "第一三共 ADC 產能文章原圖"
+  "cover_image_alt": "第一三共 ADC 產能文章原圖",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-05-17-daiichi-sankyo-adc-capacity-lesson-en.html"
+  }
 }

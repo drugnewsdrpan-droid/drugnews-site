@@ -16,5 +16,9 @@
   "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261619712",
   "cover_image": "images/dcard-01.png",
-  "cover_image_alt": "AI 藥廠能力文章原圖"
+  "cover_image_alt": "AI 藥廠能力文章原圖",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-07-pharma-ai-capability-future-en.html"
+  }
 }

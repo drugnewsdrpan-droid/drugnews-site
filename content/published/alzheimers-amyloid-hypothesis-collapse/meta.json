@@ -17,5 +17,9 @@
   "cover_image_alt": "Dcard 原圖：阿茲海默症20年來的假說開始崩盤？",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261400483",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-05-01-alzheimers-amyloid-hypothesis-collapse-en.html"
+  }
 }

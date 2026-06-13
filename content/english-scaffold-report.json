@@ -1,0 +1,383 @@
+{
+  "generated_at": "2026-06-13T14:53:45.704Z",
+  "mode": "no_api_english_scaffold",
+  "cover_image": "https://drugnewsdrpan-droid.github.io/drugnews-site/assets/english/drugnews-english-analysis-cover.png",
+  "total_created": 75,
+  "created": [
+    {
+      "source": "glp1-biotech-capital-reshuffle",
+      "target": "glp1-biotech-capital-reshuffle-en",
+      "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital"
+    },
+    {
+      "source": "sinphar-cx5461-ras-pancreatic-cancer",
+      "target": "sinphar-cx5461-ras-pancreatic-cancer-en",
+      "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War"
+    },
+    {
+      "source": "biotech-ir-capital-market-story",
+      "target": "biotech-ir-capital-market-story-en",
+      "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories"
+    },
+    {
+      "source": "curium-lantheus-radiopharma-acquisition",
+      "target": "curium-lantheus-radiopharma-acquisition-en",
+      "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era"
+    },
+    {
+      "source": "cart-autoimmune-new-era",
+      "target": "cart-autoimmune-new-era-en",
+      "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease"
+    },
+    {
+      "source": "pharma-ai-capability-future",
+      "target": "pharma-ai-capability-future-en",
+      "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers"
+    },
+    {
+      "source": "old-targets-differentiation-strategy",
+      "target": "old-targets-differentiation-strategy-en",
+      "title": "Old Targets Are Crowded, but They Can Still Make Money"
+    },
+    {
+      "source": "topical-jak-inhibitor-skin-delivery",
+      "target": "topical-jak-inhibitor-skin-delivery-en",
+      "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug"
+    },
+    {
+      "source": "retatrutide-obesity-surgery-level-weight-loss",
+      "target": "retatrutide-obesity-surgery-level-weight-loss-en",
+      "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena"
+    },
+    {
+      "source": "aatd-new-therapy-rna-gene-editing",
+      "target": "aatd-new-therapy-rna-gene-editing-en",
+      "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era"
+    },
+    {
+      "source": "biogen-alzheimers-tau-biib080-strategy",
+      "target": "biogen-alzheimers-tau-biib080-strategy-en",
+      "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?"
+    },
+    {
+      "source": "pluvicto-radioligand-therapy-growth",
+      "target": "pluvicto-radioligand-therapy-growth-en",
+      "title": "Pluvicto Is Selling Fast: What Radioligand Therapy Growth Really Means"
+    },
+    {
+      "source": "tavneos-safety-data-integrity-crisis",
+      "target": "tavneos-safety-data-integrity-crisis-en",
+      "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal"
+    },
+    {
+      "source": "drug-combination-efficacy-doubling",
+      "target": "drug-combination-efficacy-doubling-en",
+      "title": "The Best Partner for a Drug King? When Combination Therapy Doubles Efficacy"
+    },
+    {
+      "source": "next-generation-obesity-therapy-directions",
+      "target": "next-generation-obesity-therapy-directions-en",
+      "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming"
+    },
+    {
+      "source": "biotech-investment-judgment-system",
+      "target": "biotech-investment-judgment-system-en",
+      "title": "Biotech Investing Needs a Judgment System, Not More News"
+    },
+    {
+      "source": "generic-pharma-transformation-anxiety",
+      "target": "generic-pharma-transformation-anxiety-en",
+      "title": "Sun Pharma, Teva, and the Transformation Anxiety of Global Generic Drugmakers"
+    },
+    {
+      "source": "taiwan-biotech-valuation-framework",
+      "target": "taiwan-biotech-valuation-framework-en",
+      "title": "The First Step in Valuing Taiwanese Biotech: Stop Forcing Every Company Into the Same P/E Ratio"
+    },
+    {
+      "source": "weight-loss-side-effect-new-track",
+      "target": "weight-loss-side-effect-new-track-en",
+      "title": "A New Weight-Loss Drug Side Effect Accidentally Opens a New Therapeutic Track"
+    },
+    {
+      "source": "asthma-new-drug-immune-targets",
+      "target": "asthma-new-drug-immune-targets-en",
+      "title": "Asthma Drugs Are Shifting Gears: From Triple Inhalers to Upstream Immune Targets"
+    },
+    {
+      "source": "ox2r-cns-narcolepsy-opportunity",
+      "target": "ox2r-cns-narcolepsy-opportunity-en",
+      "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity"
+    },
+    {
+      "source": "global-biotech-obesity-megatrend",
+      "target": "global-biotech-obesity-megatrend-en",
+      "title": "The Global Biotech Wave: Understanding the Main Phase and Scientific Pricing of the Five-Trillion Weight-Loss Market"
+    },
+    {
+      "source": "mid-size-biotech-blockbuster-cashflow",
+      "target": "mid-size-biotech-blockbuster-cashflow-en",
+      "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow"
+    },
+    {
+      "source": "ai-semiconductor-biotech-capital-neglect",
+      "target": "ai-semiconductor-biotech-capital-neglect-en",
+      "title": "How AI Semiconductors Have Hidden the Biotech Opportunity in Plain Sight"
+    },
+    {
+      "source": "ai-drug-discovery-google-funding",
+      "target": "ai-drug-discovery-google-funding-en",
+      "title": "A Record AI Drug-Discovery Financing: Why a Google-Backed Company Raised US$2.1 Billion"
+    },
+    {
+      "source": "gilead-hiv-yeztugo-prep-growth",
+      "target": "gilead-hiv-yeztugo-prep-growth-en",
+      "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal"
+    },
+    {
+      "source": "pfizer-vepdegestrant-strategy-mistake",
+      "target": "pfizer-vepdegestrant-strategy-mistake-en",
+      "title": "Where Pfizer Misjudged the Vepdegestrant Strategy"
+    },
+    {
+      "source": "daiichi-sankyo-adc-capacity-lesson",
+      "target": "daiichi-sankyo-adc-capacity-lesson-en",
+      "title": "Daiichi Sankyo's Most Expensive Lesson: How an ADC Capacity Bet Can Backfire After a Blockbuster"
+    },
+    {
+      "source": "jnj-auto-car-t-commercial-challenge",
+      "target": "jnj-auto-car-t-commercial-challenge-en",
+      "title": "Johnson & Johnson Cuts Two Autologous Lymphoma CAR-T Programs"
+    },
+    {
+      "source": "fda-commissioner-resignation-regulatory-risk",
+      "target": "fda-commissioner-resignation-regulatory-risk-en",
+      "title": "The FDA Commissioner's Exit: Why the World's Most Important Drug Referee Is Becoming Less Predictable"
+    },
+    {
+      "source": "antidepressant-new-drugs-pipeline",
+      "target": "antidepressant-new-drugs-pipeline-en",
+      "title": "A Complete Map of the New Antidepressant Drug Pipeline"
+    },
+    {
+      "source": "pharmaessentia-besremi-mpn-valuation",
+      "target": "pharmaessentia-besremi-mpn-valuation-en",
+      "title": "How PharmaEssentia's Besremi Opens a Larger Valuation Imagination"
+    },
+    {
+      "source": "neuroinflammation-cns-drug-comeback",
+      "target": "neuroinflammation-cns-drug-comeback-en",
+      "title": "Could Neuroinflammation Bring CNS Drug Development Back?"
+    },
+    {
+      "source": "jnj-autoimmune-twins-stelara-transition",
+      "target": "jnj-autoimmune-twins-stelara-transition-en",
+      "title": "The Autoimmune Twins That Could Save Johnson & Johnson"
+    },
+    {
+      "source": "dac-adc-protac-next-targeted-therapy",
+      "target": "dac-adc-protac-next-targeted-therapy-en",
+      "title": "Could DAC Become the Next Breakout Format in Targeted Therapy?"
+    },
+    {
+      "source": "glp1-medicare-policy-delay",
+      "target": "glp1-medicare-policy-delay-en",
+      "title": "Trump Delays the Policy Signal: Did Weight-Loss Drugs Cut Prices for Nothing?"
+    },
+    {
+      "source": "clinical-trial-fraud-fda-withdrawal",
+      "target": "clinical-trial-fraud-fda-withdrawal-en",
+      "title": "Clinical-Trial Fraud and an FDA Withdrawal Storm"
+    },
+    {
+      "source": "lilly-tirzepatide-glp1-growth",
+      "target": "lilly-tirzepatide-glp1-growth-en",
+      "title": "Weight-Loss Drugs Are Still Too Strong: Lilly's Mounjaro Keeps Printing Money"
+    },
+    {
+      "source": "pan-ras-patent-safety-war",
+      "target": "pan-ras-patent-safety-war-en",
+      "title": "The Shadow Behind the Next Century-Defining Drug"
+    },
+    {
+      "source": "taipei-biotech-npv-workshop",
+      "target": "taipei-biotech-npv-workshop-en",
+      "title": "Free Taipei Workshop: Using an NPV Framework to Identify Biotech Re-Rating Points"
+    },
+    {
+      "source": "pharma-pipeline-bd-attraction",
+      "target": "pharma-pipeline-bd-attraction-en",
+      "title": "What Makes a Pipeline Attractive to Big Pharma?"
+    },
+    {
+      "source": "hair-growth-drug-breakthrough",
+      "target": "hair-growth-drug-breakthrough-en",
+      "title": "The Hair-Growth Drug That Jumped 47%: Why It Could Rewrite Three Decades of Hair-Loss Treatment"
+    },
+    {
+      "source": "in-vivo-cart-kelonia-lilly",
+      "target": "in-vivo-cart-kelonia-lilly-en",
+      "title": "In Vivo CAR-T: Bubble or the Most Expensive Ticket to Next-Generation Cell Therapy?"
+    },
+    {
+      "source": "sun-pharma-organon-acquisition",
+      "target": "sun-pharma-organon-acquisition-en",
+      "title": "The Ambition of an Indian Pharma Giant: Acquiring a US Drugmaker"
+    },
+    {
+      "source": "alzheimers-amyloid-hypothesis-collapse",
+      "target": "alzheimers-amyloid-hypothesis-collapse-en",
+      "title": "Is the 20-Year Amyloid Hypothesis in Alzheimer's Disease Starting to Collapse?"
+    },
+    {
+      "source": "amazon-ai-nvidia",
+      "target": "amazon-ai-nvidia-en",
+      "title": "Amazon Enters AI Drug Discovery and Challenges Nvidia's Pharma Ambition"
+    },
+    {
+      "source": "dcard-261388300",
+      "target": "dcard-261388300-en",
+      "title": "A Clear Read on Lilly's Current M&A Logic"
+    },
+    {
+      "source": "dcard-261381952",
+      "target": "dcard-261381952-en",
+      "title": "When a Gray-Market Industry Gets a Seat at the Table"
+    },
+    {
+      "source": "car-t",
+      "target": "car-t-en",
+      "title": "Goodbye Autologous CAR-T: Why Taiwan's Cell-Therapy Bubble Also Needs to Break"
+    },
+    {
+      "source": "dcard-261370593",
+      "target": "dcard-261370593-en",
+      "title": "The Healthcare-Giant Spin-Off Wave"
+    },
+    {
+      "source": "biotech-5",
+      "target": "biotech-5-en",
+      "title": "Why Platform Biotechs Can Generate Five Times More Licensing Revenue"
+    },
+    {
+      "source": "dcard-261359193",
+      "target": "dcard-261359193-en",
+      "title": "Investors Should Pay Attention: Drug Delivery Is a Blue Ocean"
+    },
+    {
+      "source": "dcard-261352566",
+      "target": "dcard-261352566-en",
+      "title": "Do COPD Patients Finally Have Another New Drug Option?"
+    },
+    {
+      "source": "ai",
+      "target": "ai-en",
+      "title": "The Three AI Giants Battling Inside Medicine"
+    },
+    {
+      "source": "dcard-261339270",
+      "target": "dcard-261339270-en",
+      "title": "Did Lilly's Oral Drug Ignite the Market?"
+    },
+    {
+      "source": "dcard-261332702",
+      "target": "dcard-261332702-en",
+      "title": "A Historic Moment: The Next Century-Defining Drug Has Arrived"
+    },
+    {
+      "source": "neuralink-10",
+      "target": "neuralink-10-en",
+      "title": "Neuralink and the Next Trillion-Dollar Race: Ten Brain-Computer Interface Companies to Know"
+    },
+    {
+      "source": "biotech-ai",
+      "target": "biotech-ai-en",
+      "title": "Could This Taiwanese Biotech Capture the Entire AI Infrastructure Dividend?"
+    },
+    {
+      "source": "dcard-261315054",
+      "target": "dcard-261315054-en",
+      "title": "The Valley of Death in Innovative Drug Development"
+    },
+    {
+      "source": "2026-q2",
+      "target": "2026-q2-en",
+      "title": "The 2026 Q2 Drug Catalysts Biotech Readers Need to Know"
+    },
+    {
+      "source": "biotech",
+      "target": "biotech-en",
+      "title": "The Fall of Two Star Biotechs"
+    },
+    {
+      "source": "dcard-261295358",
+      "target": "dcard-261295358-en",
+      "title": "Investors Should Pay Attention to the Autoimmune Mega-Drug Race"
+    },
+    {
+      "source": "78",
+      "target": "78-en",
+      "title": "The King of Weight-Loss Drugs: Did US$7.8 Billion Buy the Next Era of Metabolic Medicine?"
+    },
+    {
+      "source": "dcard-261282303",
+      "target": "dcard-261282303-en",
+      "title": "Idiopathic Pulmonary Fibrosis Is Entering an Acceleration Phase"
+    },
+    {
+      "source": "dcard-261276232",
+      "target": "dcard-261276232-en",
+      "title": "Why Did the Market Like This Company More After a Clinical Failure?"
+    },
+    {
+      "source": "dcard-261269760",
+      "target": "dcard-261269760-en",
+      "title": "When Should a Company Decisively Abandon a Clinical Trial?"
+    },
+    {
+      "source": "dcard-261263509",
+      "target": "dcard-261263509-en",
+      "title": "A New Drug Finally Arrives for This Group of Rare-Disease Patients"
+    },
+    {
+      "source": "abivax-14",
+      "target": "abivax-14-en",
+      "title": "The Abivax Story: How a European Biotech Became a 14-Fold Market Myth"
+    },
+    {
+      "source": "cdc",
+      "target": "cdc-en",
+      "title": "While the US CDC Was Still Looking for a Director"
+    },
+    {
+      "source": "420",
+      "target": "420-en",
+      "title": "The Cut-Rate Weight-Loss Injection Has Arrived: What a NT$420 Monthly Price Really Means"
+    },
+    {
+      "source": "dcard-261238352",
+      "target": "dcard-261238352-en",
+      "title": "How Far Are We From a Real Anti-Aging Drug?"
+    },
+    {
+      "source": "dcard-261232633",
+      "target": "dcard-261232633-en",
+      "title": "Did Weight-Loss Injections Backfire and Trigger Pancreatitis Risk?"
+    },
+    {
+      "source": "dcard-261227197",
+      "target": "dcard-261227197-en",
+      "title": "After GLP-1 and Mounjaro, What Is Happening in Weight-Loss Drug R&D?"
+    },
+    {
+      "source": "dcard-261221419",
+      "target": "dcard-261221419-en",
+      "title": "Can Merck Build Another Oncology Empire?"
+    },
+    {
+      "source": "dcard-261215001",
+      "target": "dcard-261215001-en",
+      "title": "Innovent's Globalization Train: Did Taiwan's Forward Therapeutics Get On Board?"
+    }
+  ]
+}

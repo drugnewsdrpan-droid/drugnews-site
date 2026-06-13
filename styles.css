@@ -776,6 +776,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 .article-card {
   display: grid;
   gap: 8px;
+  min-width: 0;
   padding: 20px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -841,11 +842,13 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   margin: 0;
   font-size: 1.06rem;
   line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 .article-card p {
   margin: 0;
   color: var(--muted);
   font-size: 0.94rem;
+  overflow-wrap: anywhere;
 }
 
 .newsletter {
@@ -1673,6 +1676,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   }
   .article-card {
     min-width: 0;
+    width: 100%;
   }
   .thumb-wrap,
   .card-thumb {
@@ -1768,6 +1772,16 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   }
   .tag {
     min-height: 34px;
+  }
+  .article-list,
+  .article-card,
+  .article-card-body,
+  .thumb-wrap,
+  .card-thumb {
+    max-width: 100%;
+  }
+  .article-card {
+    padding: 16px;
   }
   .lead-story-body,
   .featured-copy,

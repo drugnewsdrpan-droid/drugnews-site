@@ -20,5 +20,9 @@
   "cover_image_alt": "Dcard 原圖：一篇文章講通現在的“禮來”併購邏輯",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261388300",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-04-29-dcard-261388300-en.html"
+  }
 }

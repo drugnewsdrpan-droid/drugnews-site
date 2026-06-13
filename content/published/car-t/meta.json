@@ -18,5 +18,9 @@
   "cover_image_alt": "Dcard 原圖：再見自體CAR-T，台灣的泡沫也該破了",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261375979",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-04-27-car-t-en.html"
+  }
 }

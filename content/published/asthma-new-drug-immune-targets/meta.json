@@ -16,5 +16,9 @@
   "cover_image_alt": "Dcard 原圖：氣喘新藥正在換檔：從吸入三合一到上游免疫靶點!",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261543849",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-05-25-asthma-new-drug-immune-targets-en.html"
+  }
 }

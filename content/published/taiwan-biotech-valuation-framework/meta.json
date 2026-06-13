@@ -14,5 +14,9 @@
   "facebook_url": "",
   "dcard_url": "",
   "cover_image": "images/valuation-map.svg",
-  "cover_image_alt": "台灣生技估值分類圖"
+  "cover_image_alt": "台灣生技估值分類圖",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-05-27-taiwan-biotech-valuation-framework-en.html"
+  }
 }

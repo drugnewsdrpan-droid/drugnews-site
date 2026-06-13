@@ -16,5 +16,9 @@
   "cover_image_alt": "Dcard 原圖：【限時免費－台北場】藥時事｜捕捉生技飆股：用NPV框架算出翻倍重估點",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261428962",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-05-06-taipei-biotech-npv-workshop-en.html"
+  }
 }

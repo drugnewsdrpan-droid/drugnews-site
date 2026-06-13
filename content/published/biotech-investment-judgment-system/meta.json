@@ -16,5 +16,9 @@
   "cover_image_alt": "Dcard 原圖：生技投資圈｜不是更多新聞，是一套生技醫藥判斷系統",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261562234",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-05-28-biotech-investment-judgment-system-en.html"
+  }
 }

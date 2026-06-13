@@ -19,5 +19,9 @@
   "cover_image_alt": "Dcard 原圖：藥華藥 打開估值想像空間",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261477759",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-05-14-pharmaessentia-besremi-mpn-valuation-en.html"
+  }
 }

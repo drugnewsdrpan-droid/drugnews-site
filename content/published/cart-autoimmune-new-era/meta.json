@@ -16,5 +16,9 @@
   "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261624956",
   "cover_image": "images/dcard-01.png",
-  "cover_image_alt": "CAR-T 自體免疫文章原圖"
+  "cover_image_alt": "CAR-T 自體免疫文章原圖",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-08-cart-autoimmune-new-era-en.html"
+  }
 }

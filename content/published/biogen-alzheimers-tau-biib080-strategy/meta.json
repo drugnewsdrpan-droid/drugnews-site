@@ -17,5 +17,9 @@
   "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261590604",
   "cover_image": "images/dcard-01.webp",
-  "cover_image_alt": "Biogen tau 靶點策略文章原圖"
+  "cover_image_alt": "Biogen tau 靶點策略文章原圖",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html"
+  }
 }

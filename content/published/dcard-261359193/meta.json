@@ -19,5 +19,9 @@
   "cover_image_alt": "Dcard 原圖：投資人請注意，給藥方式是藍海！",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261359193",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-04-24-dcard-261359193-en.html"
+  }
 }

@@ -20,5 +20,9 @@
   "cover_image_alt": "Dcard 原圖：HIV 新藥很好賺呀...吉利德財報披露",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261509122",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html"
+  }
 }

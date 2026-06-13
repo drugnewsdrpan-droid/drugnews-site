@@ -18,5 +18,9 @@
   "cover_image_alt": "Dcard 原圖：特發性肺纖維化 迎來爆發",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261282303",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-04-12-dcard-261282303-en.html"
+  }
 }

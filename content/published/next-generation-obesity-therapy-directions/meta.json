@@ -16,5 +16,9 @@
   "cover_image_alt": "Dcard 原圖：減重藥物不只看體重了：下一代療法正在瞄準這些方向",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261568567",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-05-29-next-generation-obesity-therapy-directions-en.html"
+  }
 }

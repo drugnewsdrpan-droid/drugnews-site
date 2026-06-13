@@ -17,5 +17,9 @@
   "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261596569",
   "cover_image": "images/dcard-01.webp",
-  "cover_image_alt": "AATD 遺傳疾病治療文章原圖"
+  "cover_image_alt": "AATD 遺傳疾病治療文章原圖",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-03-aatd-new-therapy-rna-gene-editing-en.html"
+  }
 }
