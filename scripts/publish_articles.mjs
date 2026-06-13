@@ -41,7 +41,7 @@ const ACCESS_TYPES = new Map([
 ]);
 
 const DISCLAIMER = "本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。";
-const HIDDEN_DISPLAY_TAGS = /^(Dcard|Facebook|FB|方格子|免費文章|付費文章)$/i;
+const HIDDEN_DISPLAY_TAGS = /^(Dcard|Facebook|FB|方格子|免費文章|付費文章|商業分析系列|基本面系列|醫學大會|付費深度商業分析文章系列|製藥巨頭系列)$/i;
 
 function visibleDisplayTags(tags = []) {
   return tags.filter((tag) => !HIDDEN_DISPLAY_TAGS.test(tag));

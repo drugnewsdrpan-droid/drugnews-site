@@ -24,7 +24,8 @@ function slugify(title, fallback) {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
     .slice(0, 70);
-  return ascii || fallback;
+  if (!ascii || ascii.length < 8 || ["ai", "bd", "fda"].includes(ascii)) return fallback;
+  return ascii;
 }
 
 function localDate(iso) {
@@ -51,6 +52,7 @@ function isChromeLine(line, title) {
   if (line === title) return true;
   if (line === "藥時事 Drugnews") return true;
   if (line === "追蹤") return true;
+  if (/^\(?已編輯\)?$/.test(line)) return true;
   if (/^\d+\s*月\s*\d+\s*日\s*\d{2}:\d{2}$/.test(line)) return true;
   if (/^(今天|昨天)\s*\d{1,2}:\d{2}$/.test(line)) return true;
   if (/^所有看板$|^即時熱門看板$|^創作者排行榜$|^下載 App$|^註冊 \/ 登入$/.test(line)) return true;
@@ -202,8 +204,16 @@ for (const post of posts) {
   const id = postId(post.url);
   const date = localDate(post.published);
   const fallback = `dcard-${id || date}`;
-  const slug = slugify(title, fallback);
-  const folder = path.join(PUBLISHED, slug);
+  let slug = slugify(title, fallback);
+  let folder = path.join(PUBLISHED, slug);
+  const existingMetaPath = path.join(folder, "meta.json");
+  try {
+    const existingMeta = JSON.parse(await fs.readFile(existingMetaPath, "utf8"));
+    if (existingMeta.dcard_url && existingMeta.dcard_url !== post.url) {
+      slug = fallback;
+      folder = path.join(PUBLISHED, slug);
+    }
+  } catch {}
   const imageDir = path.join(folder, "images");
   const lines = normalizeLines(post.articleText, title);
   const summary = summaryFrom(lines);
@@ -223,7 +233,7 @@ for (const post of posts) {
     title,
     slug,
     date,
-    publish_at: `${date}T10:30:00+08:00`,
+    publish_at: post.published || `${date}T10:30:00+08:00`,
     category: "商業分析系列",
     series: "商業分析系列",
     access: "免費文章",
