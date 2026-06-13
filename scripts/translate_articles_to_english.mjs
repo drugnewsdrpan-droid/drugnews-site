@@ -9,9 +9,11 @@ const args = new Map(process.argv.slice(2).map((arg) => {
   const [key, value = "true"] = arg.replace(/^--/, "").split("=");
   return [key, value];
 }));
-const LIMIT = Number(args.get("limit") || 3);
+const LIMIT_ARG = args.get("all") ? "all" : args.get("limit");
+const LIMIT = LIMIT_ARG === "all" ? Infinity : Number(LIMIT_ARG || 3);
 const SLUG = args.get("slug") || "";
 const DRY_RUN = args.has("dry-run");
+const REPORT = path.join(ROOT, "content", "english-translation-report.json");
 
 function slugify(input, fallback) {
   const slug = String(input || "")
@@ -95,6 +97,22 @@ async function translate(meta, markdown) {
   return JSON.parse(text);
 }
 
+function imageLines(markdown) {
+  return String(markdown)
+    .split(/\r?\n/u)
+    .filter((line) => /^!\[[^\]]*\]\([^)]+\)\s*$/u.test(line.trim()));
+}
+
+function assertImageLinesPreserved(sourceMarkdown, translatedMarkdown, slug) {
+  const source = imageLines(sourceMarkdown);
+  const translated = imageLines(translatedMarkdown);
+  const sameLength = source.length === translated.length;
+  const sameOrder = sameLength && source.every((line, index) => line === translated[index]);
+  if (!sameOrder) {
+    throw new Error(`Image Markdown lines changed for ${slug}. Source=${JSON.stringify(source)} Translated=${JSON.stringify(translated)}`);
+  }
+}
+
 async function loadCandidates() {
   const entries = await fs.readdir(PUBLISHED, { withFileTypes: true });
   const candidates = [];
@@ -159,15 +177,45 @@ async function main() {
     return;
   }
   if (DRY_RUN) {
-    console.log(JSON.stringify(selected.map((item) => ({ slug: item.entryName, title: item.meta.title, target: item.englishSlug })), null, 2));
+    console.log(JSON.stringify({
+      total_untranslated: candidates.length,
+      selected: selected.length,
+      items: selected.map((item) => ({ slug: item.entryName, title: item.meta.title, target: item.englishSlug }))
+    }, null, 2));
     return;
   }
+  const report = {
+    started_at: new Date().toISOString(),
+    total_untranslated_at_start: candidates.length,
+    selected: selected.length,
+    translated: [],
+    failed: []
+  };
   for (const candidate of selected) {
     const markdown = await fs.readFile(candidate.articlePath, "utf8");
     console.log(`Translating ${candidate.entryName} -> ${candidate.englishSlug}`);
-    const translated = await translate(candidate.meta, markdown);
-    await writeEnglishArticle(candidate, translated);
+    try {
+      const translated = await translate(candidate.meta, markdown);
+      assertImageLinesPreserved(markdown, translated.article_markdown, candidate.entryName);
+      await writeEnglishArticle(candidate, translated);
+      report.translated.push({
+        slug: candidate.entryName,
+        target: candidate.englishSlug,
+        title: translated.title
+      });
+      await fs.writeFile(REPORT, `${JSON.stringify({ ...report, updated_at: new Date().toISOString() }, null, 2)}\n`);
+    } catch (error) {
+      report.failed.push({
+        slug: candidate.entryName,
+        target: candidate.englishSlug,
+        error: error.message
+      });
+      await fs.writeFile(REPORT, `${JSON.stringify({ ...report, updated_at: new Date().toISOString() }, null, 2)}\n`);
+      throw error;
+    }
   }
+  report.completed_at = new Date().toISOString();
+  await fs.writeFile(REPORT, `${JSON.stringify(report, null, 2)}\n`);
   console.log(`Translated ${selected.length} article(s). Run npm run publish to rebuild the site.`);
 }
 
