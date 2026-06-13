@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const BASE_URL = "https://drugnews.com.tw";
+const BASE_URL = "https://drugnewsdrpan-droid.github.io/drugnews-site";
 const EN = path.join(ROOT, "en");
 const PUBLISHED = path.join(ROOT, "content", "published");
 const SITEMAP = path.join(ROOT, "sitemap.xml");
