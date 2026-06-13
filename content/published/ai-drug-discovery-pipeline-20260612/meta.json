@@ -19,6 +19,10 @@
   "cover_image": "images/cover-ai-drug-discovery.jpg",
   "cover_image_alt": "AI 製藥管線與臨床開發示意封面",
   "source_platform": "Dcard",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-12-ai-drug-discovery-pipeline-20260612-en.html"
+  },
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261648813",
   "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
 }

@@ -39,7 +39,9 @@
     "accessSlug": "free",
     "source": "Dcard",
     "lang": "zh-Hant",
-    "translations": {},
+    "translations": {
+      "en": "2026-06-12-ai-drug-discovery-pipeline-20260612-en.html"
+    },
     "tags": [
       "商業分析系列",
       "免費文章",
