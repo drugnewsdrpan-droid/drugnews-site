@@ -14,11 +14,11 @@ Against this backdrop, AnHorn’s repeated presence in NVIDIA’s ecosystem is m
 
 AIMCADD®, AI+PROTAC, AH-001’s U.S. Phase I completion, and follow-on pipeline replication all point to the same thesis: AnHorn is building a capital-efficient engine designed to turn AI-designed molecules into viable, clinically actionable drug assets.
 
+## 1. AI Drug Development Is Asking a Harder Question: Can Molecules Survive?
+
 ![Figure 1 | The next phase of AI drug development: from molecular generation to drug survival, human translation, and clinical asset creation](images/figure-01.png)
 
 *Figure 1 | The next phase of AI drug development: from molecular generation to drug survival, human translation, and clinical asset creation*
-
-## 1. AI Drug Development Is Asking a Harder Question: Can Molecules Survive?
 
 For years, the most compelling story in AI drug discovery was the model: who could generate molecules, predict protein structures, or produce the most convincing docking results. That narrative created excitement, but it was only the starting point.
 
@@ -26,11 +26,11 @@ In drug development, a molecule on a screen is not yet a medicine. To become a r
 
 That is the real shift. AI drug development is moving from a generation race to a survival race: who can use less capital and less time to move the right molecules into human studies, and who can raise the odds that those molecules become clinical assets.
 
+## 2. Three Years in the NVIDIA Ecosystem: Less About Exposure, More About Positioning
+
 ![Figure 2 | Three consecutive years in the NVIDIA ecosystem: from platform visibility to AI-native clinical asset positioning](images/figure-02.png)
 
 *Figure 2 | Three consecutive years in the NVIDIA ecosystem: from platform visibility to AI-native clinical asset positioning*
-
-## 2. Three Years in the NVIDIA Ecosystem: Less About Exposure, More About Positioning
 
 AnHorn’s repeated presence in the NVIDIA ecosystem should not be treated as simple exposure. One appearance may be a showcase. Repeated appearances across NVIDIA Developer Forum, GTC, AI Summit, and GTC Taipei point to a more meaningful positioning signal.
 
@@ -38,11 +38,11 @@ The key is not simply that AnHorn uses NVIDIA technologies. The more important p
 
 Within the AI drug-development stack, AnHorn is not competing at the compute layer or the general-purpose foundation-model layer. Its more relevant position is the AI-native clinical asset engine layer - the layer closest to biotech value creation, where AI must become clinical-stage, licensable, and ultimately transaction-ready drug assets.
 
+## 3. The AI Deal Wave: Big Pharma Is Buying Drug-Making Capability, Not AI Tools
+
 ![Figure 3 | The AI drug-development deal wave: Big Pharma is buying platforms, data, and clinical asset generation capability](images/figure-03.png)
 
 *Figure 3 | The AI drug-development deal wave: Big Pharma is buying platforms, data, and clinical asset generation capability*
-
-## 3. The AI Deal Wave: Big Pharma Is Buying Drug-Making Capability, Not AI Tools
 
 Recent AI drug-development transactions point in the same strategic direction. NVIDIA x Lilly represents the AI Factory layer. Isomorphic Labs represents a foundation-model drug design engine. Takeda x Iambic reflects small-molecule design integrated with automated experimentation. Valo and Relation highlight disease biology and patient-derived data. VantAI reflects AI’s move into molecular glue and protein degradation design.
 
@@ -50,11 +50,11 @@ These deals are not simply another AI funding cycle. They are redefining the val
 
 That is why AnHorn should not be evaluated as a generic AI tool company. The relevant questions are whether it can generate differentiated molecules, move them into human studies, and turn a first asset into a broader clinical pipeline.
 
+## 4. Capital Efficiency and Clinical Speed: Why AnHorn Is More Than an AI Drug Discovery Company
+
 ![Figure 4 | AnHorn’s capital efficiency and three-layer closed-loop engine: US$11M, two clinical assets, and US$5.5M per clinical asset](images/figure-04.png)
 
 *Figure 4 | AnHorn’s capital efficiency and three-layer closed-loop engine: US$11M, two clinical assets, and US$5.5M per clinical asset*
-
-## 4. Capital Efficiency and Clinical Speed: Why AnHorn Is More Than an AI Drug Discovery Company
 
 AI drug companies should not be judged only by model scale or financing size. For investors and pharmaceutical partners, the more practical question is capital-to-clinic efficiency: how much capital it takes to create clinical assets, how quickly those assets enter human studies, and whether the platform can repeatedly generate the next asset.
 
@@ -62,11 +62,11 @@ According to company materials, AnHorn has advanced two clinical assets with app
 
 These numbers are not proof of efficacy. They do, however, highlight an important signal: AnHorn has moved AI+PROTAC from platform design and candidate selection into human Phase I with the capital profile of a small biotech. That is a major distinction from a conventional AI screening tool.
 
+## 5. AnHorn’s AI+PROTAC Druggability Flywheel: AH-001 Is Not the Endpoint; It Is the First Proof of Engine
+
 ![Figure 5 | AnHorn’s AI+PROTAC druggability flywheel: from disease biology to human translation and multi-asset replication](images/figure-05.png)
 
 *Figure 5 | AnHorn’s AI+PROTAC druggability flywheel: from disease biology to human translation and multi-asset replication*
-
-## 5. AnHorn’s AI+PROTAC Druggability Flywheel: AH-001 Is Not the Endpoint; It Is the First Proof of Engine
 
 If AH-001 is viewed only as an androgenetic alopecia asset, the AnHorn story becomes too narrow. Its broader significance is that AH-001 is the first human safety validation point for AnHorn’s AI+PROTAC druggability flywheel.
 
@@ -74,11 +74,11 @@ That flywheel links six steps: disease and target insight, modality fit, AI mole
 
 AIMCADD® is not simply a molecule-finding tool. Its strategic value lies in connecting disease biology, PROTAC design, ternary-complex logic, linkers, E3 ligase selection, degradation assays, cell activity, ADMET, and human translation. Once the first clinical asset begins to generate feedback, the platform may be able to replicate the process across assets such as AH-008, AH-005, and AH-003.
 
+## 6. Global AI-Native Drug Progress: The Real Gap Opens When Assets Reach the Clinic Faster
+
 ![Figure 6 | Representative AI-native drug development progress: company, asset, modality, speed, clinical stage, and indication](images/figure-06.png)
 
 *Figure 6 | Representative AI-native drug development progress: company, asset, modality, speed, clinical stage, and indication*
-
-## 6. Global AI-Native Drug Progress: The Real Gap Opens When Assets Reach the Clinic Faster
 
 AI-native drug development is moving from proof-of-concept claims into human clinical development. Insilico’s rentosertib has reported positive Phase IIa results. Exscientia x Sumitomo’s DSP-1181 remains an early example of an AI-designed small molecule that moved rapidly into Phase I. BenevolentAI and Generate:Biomedicines show that AI is expanding beyond small molecules into antibodies and more complex modalities.
 
