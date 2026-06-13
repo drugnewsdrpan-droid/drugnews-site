@@ -24,7 +24,7 @@ Together, these cases help clarify one important point: AI drug discovery is not
 
 ## 01 | Zasocitinib: Using Computational Chemistry to Bring TYK2 Into Phase 3
 
-![Dcard 原圖：盤點整理，AI藥物開發走得如何了？（圖 1）](images/dcard-01.webp)
+![AI drug discovery pipeline map with Zasocitinib, GB-0895, Zovegalisib, and REC-4881](images/figure-01-ai-pipeline-en.png)
 
 The first case that is closest to the market is Zasocitinib, also known as TAK-279.
 
@@ -44,13 +44,13 @@ It does not claim that AI invented a new target out of thin air. Instead, it com
 
 ## 02 | GB-0895: Generative AI Antibodies Begin to Challenge Long-Acting Biologics
 
-![Dcard 原圖：盤點整理，AI藥物開發走得如何了？（圖 2）](images/dcard-02.png)
+![Four core capabilities behind AI drug discovery](images/figure-02-ai-capabilities-en.png)
 
 The second representative case is GB-0895 from Generate:Biomedicines.
 
 GB-0895 is a long-acting antibody targeting TSLP for severe asthma.
 
-![Dcard 原圖：盤點整理，AI藥物開發走得如何了？（圖 3）](images/dcard-03.png)
+![AI drug discovery from model hype to clinical asset value](images/figure-03-ai-asset-value-en.png)
 
 TSLP is an important inflammatory signal released by epithelial cells and sits upstream in the asthma inflammatory cascade. Blocking TSLP may reduce downstream immune responses across different asthma inflammatory phenotypes.
 
