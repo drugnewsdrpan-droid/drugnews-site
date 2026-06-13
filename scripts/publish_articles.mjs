@@ -514,14 +514,16 @@ function stripLeadingTitle(markdown, title) {
 }
 
 function headerHtml(current, meta = {}) {
-  const labels = isEnglish(meta)
+  const english = isEnglish(meta);
+  const labels = english
     ? {
         home: "Home",
         articles: "Articles",
         guides: "Guides",
         subscribe: "Paid Research",
         services: "Company Services",
-        team: "Team"
+        team: "Team",
+        language: "中文"
       }
     : {
         home: "首頁",
@@ -529,19 +531,40 @@ function headerHtml(current, meta = {}) {
         guides: "指南",
         subscribe: "付費專欄",
         services: "公司合作",
-        team: "團隊"
+        team: "團隊",
+        language: "English"
+      };
+  const hrefs = english
+    ? {
+        home: "../en/index.html",
+        articles: "../en/articles/",
+        guides: "../en/guides/",
+        subscribe: "../en/subscribe.html",
+        services: "../en/services.html",
+        team: "../en/team.html",
+        language: "../index.html"
+      }
+    : {
+        home: "../index.html",
+        articles: "index.html",
+        guides: "../guides/",
+        subscribe: "../subscribe.html",
+        services: "../services.html",
+        team: "../team.html",
+        language: "../en/index.html"
       };
   const link = (href, label, key) => `<a href="${href}"${current === key ? ' aria-current="page"' : ""}>${label}</a>`;
   return `<header class="site-header">
   <div class="container nav">
-    <a class="brand" href="../index.html"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
+    <a class="brand" href="${hrefs.home}"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
     <nav class="nav-links" aria-label="Main navigation">
-      ${link("../index.html", labels.home, "home")}
-      ${link("index.html", labels.articles, "articles")}
-      ${link("../guides/", labels.guides, "guides")}
-      ${link("../subscribe.html", labels.subscribe, "subscribe")}
-      ${link("../services.html", labels.services, "services")}
-      ${link("../team.html", labels.team, "team")}
+      ${link(hrefs.home, labels.home, "home")}
+      ${link(hrefs.articles, labels.articles, "articles")}
+      ${link(hrefs.guides, labels.guides, "guides")}
+      ${link(hrefs.subscribe, labels.subscribe, "subscribe")}
+      ${link(hrefs.services, labels.services, "services")}
+      ${link(hrefs.team, labels.team, "team")}
+      ${link(hrefs.language, labels.language, "language")}
     </nav>
   </div>
 </header>`;
@@ -562,6 +585,9 @@ function articlePage(article, bodyHtml, related) {
   const articleImageUrl = articleImage ? absoluteUrl(articleImage) : "";
   const seriesLabel = displaySeriesLabel(series, meta);
   const accessDisplay = displayAccessLabel(meta);
+  const localLinks = isEnglish(meta)
+    ? { articles: "../en/articles/", subscribe: "../en/subscribe.html", freeType: "../en/articles/" }
+    : { articles: "index.html", subscribe: "../subscribe.html", freeType: "type/free.html" };
   const relatedHtml = related.length
     ? `<div class="card"><h3>${ui.related}</h3><div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("")}</div></div>`
     : "";
@@ -643,7 +669,7 @@ ${headerHtml("articles", meta)}
 <main>
   <section class="article-hero">
     <div class="container article-hero-inner">
-      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">${ui.home}</a><span>/</span><a href="index.html">${ui.articles}</a><span>/</span><a href="type/free.html">${ui.freeArticle}</a></nav>
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="${isEnglish(meta) ? "../en/index.html" : "../index.html"}">${ui.home}</a><span>/</span><a href="${localLinks.articles}">${ui.articles}</a><span>/</span><a href="${localLinks.freeType}">${ui.freeArticle}</a></nav>
       <div class="meta"><span>${displayDate(meta.date, meta)}</span><span>${escapeHtml(accessDisplay)}</span><span>${escapeHtml(seriesLabel)}</span></div>
       <h1>${escapeHtml(meta.title)}</h1>
       <p class="article-deck">${escapeHtml(meta.summary)}</p>
@@ -660,7 +686,7 @@ ${headerHtml("articles", meta)}
       <div class="paid-note">
         <h2>${ui.paidHeading}</h2>
         <p>${ui.paidCopy}</p>
-        <div class="actions"><a class="button primary" href="../subscribe.html">${ui.paidCta}</a></div>
+        <div class="actions"><a class="button primary" href="${localLinks.subscribe}">${ui.paidCta}</a></div>
       </div>
       </article>
       <aside class="sidebar">
@@ -668,7 +694,7 @@ ${headerHtml("articles", meta)}
         <p class="eyebrow">${ui.sidebarEyebrow}</p>
         <h3>${ui.sidebarTitle}</h3>
         <p>${ui.sidebarCopy}</p>
-        <div class="actions"><a class="button primary" href="../subscribe.html">${ui.sidebarCta}</a></div>
+        <div class="actions"><a class="button primary" href="${localLinks.subscribe}">${ui.sidebarCta}</a></div>
       </div>
       <div class="card">
         <h3>${ui.followTitle}</h3>
@@ -880,7 +906,7 @@ function archivePage(key, records) {
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
+<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a><a href="../../en/index.html">English</a></nav></div></header>
 <main>
   <section class="page-title"><div class="container"><p class="eyebrow">文章歸檔</p><h1>${formatMonth(key)}文章</h1><p>本月共 ${records.length} 篇 Drugnews 分析，依時間倒序呈現。</p></div></section>
   <section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section>
@@ -921,7 +947,7 @@ function categoryPage(category, records) {
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
+<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a><a href="../../en/index.html">English</a></nav></div></header>
 <main><section class="page-title"><div class="container"><p class="eyebrow">內容系列</p><h1>${escapeHtml(category)}</h1><p>${escapeHtml(categoryDescription(category))}</p></div></section><section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section></main>
 ${footerHtml()}
 </body>
@@ -951,7 +977,7 @@ function typePage(access, records) {
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a></nav></div></header>
+<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a><a href="../../en/index.html">English</a></nav></div></header>
 <main><section class="page-title"><div class="container"><p class="eyebrow">文章類型</p><h1>${escapeHtml(access)}</h1><p>${escapeHtml(description)}</p></div></section><section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section></main>
 ${footerHtml()}
 </body>
@@ -1118,25 +1144,30 @@ async function main() {
     const aTime = new Date(a.publishAt || `${a.date}T00:00:00+08:00`).getTime();
     return bTime - aTime || b.title.localeCompare(a.title, "zh-Hant");
   });
+  const zhRecords = allRecords.filter((item) => !isEnglish(item));
 
   for (const article of withImages) {
     const record = articleRecord(article);
-    const related = allRecords
-      .filter((item) => item.slug !== record.slug && (item.category === record.category || item.tags.some((tag) => record.tags.includes(tag))))
-      .slice(0, 3);
+    const sameLanguageRelated = allRecords
+      .filter((item) => item.slug !== record.slug && (item.lang || "zh-Hant") === (record.lang || "zh-Hant"))
+      .filter((item) => item.category === record.category || item.tags.some((tag) => record.tags.includes(tag)));
+    const fallbackRelated = allRecords
+      .filter((item) => item.slug !== record.slug)
+      .filter((item) => item.category === record.category || item.tags.some((tag) => record.tags.includes(tag)));
+    const related = (sameLanguageRelated.length ? sameLanguageRelated : fallbackRelated).slice(0, 3);
     const bodyMarkdown = stripLeadingTitle(article.markdown.replace(DISCLAIMER, "").trim(), article.meta.title);
     const body = markdownToHtml(bodyMarkdown, article.imageMap);
     await writeAtomic(path.join(ARTICLES, record.fileName), articlePage(article, body, related));
   }
 
-  await writeAtomic(path.join(ARTICLES, "index.html"), articleIndexPage(allRecords));
+  await writeAtomic(path.join(ARTICLES, "index.html"), articleIndexPage(zhRecords));
   for (const category of SERIES.keys()) {
-    const categoryRecords = allRecords.filter((item) => item.category === category);
+    const categoryRecords = zhRecords.filter((item) => item.category === category);
     const categoryFile = path.join(ARTICLES, "category", `${categorySlug(category)}.html`);
     await writeAtomic(categoryFile, categoryPage(category, categoryRecords));
   }
   for (const access of ACCESS_TYPES.keys()) {
-    const typeRecords = allRecords.filter((item) => accessLabel(item) === access);
+    const typeRecords = zhRecords.filter((item) => accessLabel(item) === access);
     const typeFile = path.join(ARTICLES, "type", `${accessSlug(access)}.html`);
     if (!typeRecords.length) {
       if (await exists(typeFile)) await fs.unlink(typeFile);
@@ -1144,12 +1175,12 @@ async function main() {
     }
     await writeAtomic(typeFile, typePage(access, typeRecords));
   }
-  for (const key of new Set(allRecords.map((item) => monthKey(item.date)))) {
-    await writeAtomic(path.join(ARTICLES, "archive", `${key}.html`), archivePage(key, allRecords.filter((item) => monthKey(item.date) === key)));
+  for (const key of new Set(zhRecords.map((item) => monthKey(item.date)))) {
+    await writeAtomic(path.join(ARTICLES, "archive", `${key}.html`), archivePage(key, zhRecords.filter((item) => monthKey(item.date) === key)));
   }
-  await writeAtomic(path.join(ROOT, "search-index.json"), JSON.stringify(publicSearchRecords(allRecords), null, 2));
+  await writeAtomic(path.join(ROOT, "search-index.json"), JSON.stringify(publicSearchRecords(zhRecords), null, 2));
   await writeAtomic(path.join(ROOT, "sitemap.xml"), sitemap(allRecords));
-  await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(allRecords));
+  await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(zhRecords));
   await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: new Date().toISOString(), errors: [] }, null, 2));
 
   console.log(`Published ${due.length} inbox article(s). Total articles: ${allRecords.length}.`);

@@ -6,15 +6,7 @@
     <atom:link href="https://drugnewsdrpan-droid.github.io/drugnews-site/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 13 Jun 2026 07:15:55 GMT</lastBuildDate>
-    <item>
-      <title>The Next Phase of AI Drug Development: Making Molecules Survive as Drugs</title>
-      <link>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-13-anhorn-ai-drug-development-en.html</link>
-      <guid isPermaLink="true">https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-13-anhorn-ai-drug-development-en.html</guid>
-      <pubDate>Sat, 13 Jun 2026 07:20:00 GMT</pubDate>
-      <category>商業分析系列</category>
-      <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/anhorn-ai-drug-development-en/cover-ai-drug-survival.png" alt="AI drug development clinical asset engine cover"></p><p>AI drug development is moving from molecular generation to clinical survival. AnHorn Medicines shows how AI+PROTAC, experimental feedback, and human translation may form a Taiwan-born clinical-asset engine.</p>]]></description>
-    </item>
+    <lastBuildDate>Sat, 13 Jun 2026 07:50:39 GMT</lastBuildDate>
     <item>
       <title>AI製藥下半場：讓藥活下來</title>
       <link>https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-13-dcard-261654701.html</link>
@@ -206,6 +198,14 @@
       <pubDate>Sun, 31 May 2026 02:24:56 GMT</pubDate>
       <category>基本面系列</category>
       <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/external-vocus/6a170cf3fd89780001dc3d78-cover.svg" alt="【會員研究包】近期臨床進展該怎麼重算估值？藥華藥 ET 與中裕 TMB-365/380 兩個對照案例"></p><p>很多公司簡報聽完，市場第一個反應往往不是「哪個估值參數變了」，而是「管理層今天講得很有信心」。 這其實很危險。 因為簡報的任務，本來就不是替投資人做估值，而是替公司整理出一套最有利的敘事順序。 所以對我來說，簡報後真正要做的事，不是把投影片重抄一遍，而是立刻回答一個問題：</p>]]></description>
+    </item>
+    <item>
+      <title>公司簡報不能只抄重點：真正要聽的是公司沒說清楚什麼</title>
+      <link>https://vocus.cc/article/6a15a61ffd897800015a854d</link>
+      <guid isPermaLink="true">https://vocus.cc/article/6a15a61ffd897800015a854d</guid>
+      <pubDate>Sun, 31 May 2026 02:19:47 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnewsdrpan-droid.github.io/drugnews-site/assets/articles/external-vocus/6a15a61ffd897800015a854d-cover.svg" alt="公司簡報不能只抄重點：真正要聽的是公司沒說清楚什麼"></p><p>聽生技公司簡報時，重點不是把公司想說的故事抄下來，而是判斷哪些假設、風險與估值參數還沒有被說清楚。</p>]]></description>
     </item>
   </channel>
 </rss>

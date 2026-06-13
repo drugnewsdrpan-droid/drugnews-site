@@ -1609,6 +1609,14 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .hero-grid, .home-hero-grid, .masthead, .grid, .grid.two, .article-layout, .newsletter, .lead-story, .featured-article, .editorial-note, .editorial-list, .service-strip-inner, .client-proof-grid, .team-hero, .team-grid, .team-belief, .differentiation-strip, .guide-index-grid, .video-panel, .article-library-head {
     grid-template-columns: 1fr;
   }
+  .masthead > *,
+  .home-hero-grid > * {
+    min-width: 0;
+  }
+  .masthead p:not(.eyebrow) {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
   .article-hero {
     padding: 30px 0 24px;
   }
@@ -1674,12 +1682,14 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .insights-grid { grid-template-columns: 1fr; }
   .topic-guide { grid-template-columns: 1fr; }
   .issue-bar {
-    overflow-x: auto;
-    scrollbar-width: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow-x: visible;
+    scrollbar-width: auto;
   }
   .issue-bar a {
-    flex: 0 0 auto;
-    min-width: 136px;
+    min-width: 0;
+    white-space: normal;
   }
   .featured-article img { aspect-ratio: 16 / 9; }
   .topic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1695,7 +1705,16 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     flex-direction: column;
     padding: 14px 0;
   }
-  .nav-links { flex-wrap: wrap; gap: 12px; }
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    gap: 6px 14px;
+  }
+  .nav-links a {
+    min-width: 0;
+    padding: 6px 0;
+  }
   .sidebar { position: static; }
   .home-hero { padding: 38px 0; background: #fff; }
   .lead-story,
@@ -1712,6 +1731,17 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   h1 { font-size: 2rem; }
   .masthead h1 { font-size: 2rem; }
   .masthead { gap: 18px; }
+  .masthead,
+  .masthead > *,
+  .masthead p:not(.eyebrow),
+  .audience-proof,
+  .audience-proof span {
+    max-width: calc(100vw - 24px);
+  }
+  .masthead p:not(.eyebrow),
+  .audience-proof span {
+    width: 100%;
+  }
   .hero-title-unit,
   .topic-row h3 {
     white-space: normal;
@@ -1747,4 +1777,23 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .differentiation-grid,
   .paid-library { grid-template-columns: 1fr; }
   .audience-proof { grid-template-columns: 1fr; }
+  .issue-bar { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 860px) {
+  .issue-bar {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow-x: visible;
+  }
+  .issue-bar a {
+    min-width: 0;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 520px) {
+  .issue-bar {
+    grid-template-columns: 1fr;
+  }
 }
