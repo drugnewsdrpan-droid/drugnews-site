@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html)
+Read the original Chinese article: [這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流](https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html)
 

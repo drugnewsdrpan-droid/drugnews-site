@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [CAR-T 迎接新時代：從血癌走向自體免疫](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-08-cart-autoimmune-new-era.html)
+Read the original Chinese article: [CAR-T 迎接新時代：從血癌走向自體免疫](https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html)
 

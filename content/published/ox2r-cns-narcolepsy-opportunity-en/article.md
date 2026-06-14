@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html)
+Read the original Chinese article: [OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間](https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html)
 

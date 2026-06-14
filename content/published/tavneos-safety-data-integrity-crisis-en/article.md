@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-31-tavneos-safety-data-integrity-crisis.html)
+Read the original Chinese article: [⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣](https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis.html)
 

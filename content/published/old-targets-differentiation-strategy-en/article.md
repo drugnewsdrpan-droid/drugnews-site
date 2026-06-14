@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [老靶點都很捲，但不是不能賺錢](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-06-old-targets-differentiation-strategy.html)
+Read the original Chinese article: [老靶點都很捲，但不是不能賺錢](https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy.html)
 

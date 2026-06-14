@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [兩家明星 Biotech 的隕落](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-04-15-biotech.html)
+Read the original Chinese article: [兩家明星 Biotech 的隕落](https://drugnews.com.tw/articles/2026-04-15-biotech.html)
 

@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html)
+Read the original Chinese article: [Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？](https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html)
 

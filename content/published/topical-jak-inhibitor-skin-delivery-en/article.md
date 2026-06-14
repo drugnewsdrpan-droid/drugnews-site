@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [從 Ruxolitinib cream 說起：外用 JAK 抑制劑，為什麼不是每個分子都能做？](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-05-topical-jak-inhibitor-skin-delivery.html)
+Read the original Chinese article: [從 Ruxolitinib cream 說起：外用 JAK 抑制劑，為什麼不是每個分子都能做？](https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery.html)
 

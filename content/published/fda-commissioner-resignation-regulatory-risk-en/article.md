@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [FDA 局長黯然離職：全球最重要的新藥裁判，正在變得更不可預測](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-16-fda-commissioner-resignation-regulatory-risk.html)
+Read the original Chinese article: [FDA 局長黯然離職：全球最重要的新藥裁判，正在變得更不可預測](https://drugnews.com.tw/articles/2026-05-16-fda-commissioner-resignation-regulatory-risk.html)
 

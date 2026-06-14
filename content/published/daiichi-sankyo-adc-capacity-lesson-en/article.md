@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [第一三共最貴的一課：ADC 爆款之後，產能豪賭如何反噬？](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-17-daiichi-sankyo-adc-capacity-lesson.html)
+Read the original Chinese article: [第一三共最貴的一課：ADC 爆款之後，產能豪賭如何反噬？](https://drugnews.com.tw/articles/2026-05-17-daiichi-sankyo-adc-capacity-lesson.html)
 

@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [🧬 生技投資圈｜不是更多新聞，是一套生技醫藥判斷系統](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-28-biotech-investment-judgment-system.html)
+Read the original Chinese article: [🧬 生技投資圈｜不是更多新聞，是一套生技醫藥判斷系統](https://drugnews.com.tw/articles/2026-05-28-biotech-investment-judgment-system.html)
 

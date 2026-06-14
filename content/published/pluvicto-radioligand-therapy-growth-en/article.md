@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [核藥賣爆了](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-01-pluvicto-radioligand-therapy-growth.html)
+Read the original Chinese article: [核藥賣爆了](https://drugnews.com.tw/articles/2026-06-01-pluvicto-radioligand-therapy-growth.html)
 

@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [阿茲海默症20年來的假說開始崩盤？](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-01-alzheimers-amyloid-hypothesis-collapse.html)
+Read the original Chinese article: [阿茲海默症20年來的假說開始崩盤？](https://drugnews.com.tw/articles/2026-05-01-alzheimers-amyloid-hypothesis-collapse.html)
 

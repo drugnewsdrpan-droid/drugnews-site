@@ -3,7 +3,7 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const PUBLISHED = path.join(ROOT, "content", "published");
-const BASE_URL = "https://drugnewsdrpan-droid.github.io/drugnews-site";
+const BASE_URL = "https://drugnews.com.tw";
 const SHARED_COVER = `${BASE_URL}/assets/english/drugnews-english-analysis-cover.png`;
 
 const titleOverrides = {

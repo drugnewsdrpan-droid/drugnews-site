@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [骨折價 瘦瘦針來了，每月420塊台幣](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-04-06-420.html)
+Read the original Chinese article: [骨折價 瘦瘦針來了，每月420塊台幣](https://drugnews.com.tw/articles/2026-04-06-420.html)
 

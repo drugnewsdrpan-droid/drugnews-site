@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [Johnson & Johnson（嬌生）砍掉兩條 自體淋巴瘤 CAR-T](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-17-jnj-auto-car-t-commercial-challenge.html)
+Read the original Chinese article: [Johnson & Johnson（嬌生）砍掉兩條 自體淋巴瘤 CAR-T](https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge.html)
 

@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [何時果斷放棄新藥臨床試驗開發？](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-04-10-dcard-261269760.html)
+Read the original Chinese article: [何時果斷放棄新藥臨床試驗開發？](https://drugnews.com.tw/articles/2026-04-10-dcard-261269760.html)
 

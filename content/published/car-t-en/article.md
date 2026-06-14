@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [再見自體CAR-T，台灣的泡沫也該破了](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-04-27-car-t.html)
+Read the original Chinese article: [再見自體CAR-T，台灣的泡沫也該破了](https://drugnews.com.tw/articles/2026-04-27-car-t.html)
 

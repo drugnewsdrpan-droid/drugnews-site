@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [Retatrutide 殺進減重手術級別：禮來三重受體藥物，把肥胖治療推向新戰場](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html)
+Read the original Chinese article: [Retatrutide 殺進減重手術級別：禮來三重受體藥物，把肥胖治療推向新戰場](https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html)
 

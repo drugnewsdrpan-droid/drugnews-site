@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [破紀錄 AI 製藥融資來了！Google 系公司一次募 21 億美元](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-20-ai-drug-discovery-google-funding.html)
+Read the original Chinese article: [破紀錄 AI 製藥融資來了！Google 系公司一次募 21 億美元](https://drugnews.com.tw/articles/2026-05-20-ai-drug-discovery-google-funding.html)
 

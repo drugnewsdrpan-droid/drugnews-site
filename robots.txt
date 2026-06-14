@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://drugnewsdrpan-droid.github.io/drugnews-site/sitemap.xml
+Sitemap: https://drugnews.com.tw/sitemap.xml

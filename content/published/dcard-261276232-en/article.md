@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [這家公司臨床試驗失敗，反而被更加看好？](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-04-11-dcard-261276232.html)
+Read the original Chinese article: [這家公司臨床試驗失敗，反而被更加看好？](https://drugnews.com.tw/articles/2026-04-11-dcard-261276232.html)
 

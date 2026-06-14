@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [亞馬遜（Amazon） 參戰 AI 製藥，挑戰輝達（Nvidia）](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-04-30-amazon-ai-nvidia.html)
+Read the original Chinese article: [亞馬遜（Amazon） 參戰 AI 製藥，挑戰輝達（Nvidia）](https://drugnews.com.tw/articles/2026-04-30-amazon-ai-nvidia.html)
 

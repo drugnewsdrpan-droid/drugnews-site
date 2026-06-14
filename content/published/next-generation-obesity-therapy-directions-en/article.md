@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [減重藥物不只看體重了：下一代療法正在瞄準這些方向](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-29-next-generation-obesity-therapy-directions.html)
+Read the original Chinese article: [減重藥物不只看體重了：下一代療法正在瞄準這些方向](https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions.html)
 

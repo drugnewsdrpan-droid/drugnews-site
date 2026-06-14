@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [70億美元核藥併購傳聞：Curium想買Lantheus，真正買的是一張核藥時代的入場券](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-09-curium-lantheus-radiopharma-acquisition.html)
+Read the original Chinese article: [70億美元核藥併購傳聞：Curium想買Lantheus，真正買的是一張核藥時代的入場券](https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition.html)
 

@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [印度製藥巨頭的野望！併購美國藥廠！](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-02-sun-pharma-organon-acquisition.html)
+Read the original Chinese article: [印度製藥巨頭的野望！併購美國藥廠！](https://drugnews.com.tw/articles/2026-05-02-sun-pharma-organon-acquisition.html)
 

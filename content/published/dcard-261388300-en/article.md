@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [一篇文章講通現在的“禮來”併購邏輯](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-04-29-dcard-261388300.html)
+Read the original Chinese article: [一篇文章講通現在的“禮來”併購邏輯](https://drugnews.com.tw/articles/2026-04-29-dcard-261388300.html)
 

@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [灰色產業上牌桌](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-04-28-dcard-261381952.html)
+Read the original Chinese article: [灰色產業上牌桌](https://drugnews.com.tw/articles/2026-04-28-dcard-261381952.html)
 

@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [最強生髮藥暴漲 47%， 為什麼可能改寫掉髮治療三十年僵局？](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-04-hair-growth-drug-breakthrough.html)
+Read the original Chinese article: [最強生髮藥暴漲 47%， 為什麼可能改寫掉髮治療三十年僵局？](https://drugnews.com.tw/articles/2026-05-04-hair-growth-drug-breakthrough.html)
 

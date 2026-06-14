@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [歐洲生技公司Abivax 一年暴漲14倍的神話](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-04-08-abivax-14.html)
+Read the original Chinese article: [歐洲生技公司Abivax 一年暴漲14倍的神話](https://drugnews.com.tw/articles/2026-04-08-abivax-14.html)
 

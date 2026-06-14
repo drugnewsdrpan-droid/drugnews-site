@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [【限時免費－台北場】藥時事｜捕捉生技飆股：用NPV框架算出翻倍重估點](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-06-taipei-biotech-npv-workshop.html)
+Read the original Chinese article: [【限時免費－台北場】藥時事｜捕捉生技飆股：用NPV框架算出翻倍重估點](https://drugnews.com.tw/articles/2026-05-06-taipei-biotech-npv-workshop.html)
 

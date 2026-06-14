@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [台灣生技估值第一步：不要把所有公司都塞進同一個本益比](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-05-27-taiwan-biotech-valuation-framework.html)
+Read the original Chinese article: [台灣生技估值第一步：不要把所有公司都塞進同一個本益比](https://drugnews.com.tw/articles/2026-05-27-taiwan-biotech-valuation-framework.html)
 

@@ -32,5 +32,5 @@ The next layer of judgment depends on follow-up evidence. Readers should watch f
 
 This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.
 
-Read the original Chinese article: [減肥成王：GLP-1 正在把全球生技資本重新洗牌](https://drugnewsdrpan-droid.github.io/drugnews-site/articles/2026-06-11-glp1-biotech-capital-reshuffle.html)
+Read the original Chinese article: [減肥成王：GLP-1 正在把全球生技資本重新洗牌](https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle.html)
 
