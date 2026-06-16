@@ -64,7 +64,7 @@ function head({ title, description, canonicalPath, image, depth = 1 }) {
   <link rel="alternate" hreflang="zh-Hant" href="${BASE_URL}/${zhPath}">
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}/${zhPath}">
   <link rel="icon" href="${root}favicon.svg">
-  <link rel="stylesheet" href="${root}styles.css?v=en-20260613-2">
+  <link rel="stylesheet" href="${root}styles.css?v=en-20260616-1">
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:type" content="website">
