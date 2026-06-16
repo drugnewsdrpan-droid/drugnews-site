@@ -815,11 +815,13 @@ function readerFirstRank(item) {
 
 function readerFirstSort(items) {
   return [...items].sort((a, b) => {
-    const rank = readerFirstRank(a) - readerFirstRank(b);
-    if (rank) return rank;
     const bTime = new Date(b.publishAt || `${b.date}T00:00:00+08:00`).getTime();
     const aTime = new Date(a.publishAt || `${a.date}T00:00:00+08:00`).getTime();
-    return bTime - aTime || b.title.localeCompare(a.title, "zh-Hant");
+    const time = bTime - aTime;
+    if (time) return time;
+    const rank = readerFirstRank(a) - readerFirstRank(b);
+    if (rank) return rank;
+    return b.title.localeCompare(a.title, "zh-Hant");
   });
 }
 

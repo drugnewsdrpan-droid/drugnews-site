@@ -153,9 +153,9 @@
       const lead = document.getElementById("lead-story");
       const briefing = document.getElementById("briefing-articles");
       if (!items.length) return;
-      const isDcardFree = (item) => !item.external && item.access === "免費文章" && /Dcard/i.test(item.source || "");
+      const isSocialFree = (item) => !item.external && item.access === "免費文章" && /(Dcard|Facebook|FB)/i.test(item.source || "");
       const isReadableFree = (item) => item.access === "免費文章";
-      const primaryItems = items.filter(isDcardFree);
+      const primaryItems = items.filter(isSocialFree);
       const freeItems = [
         ...primaryItems,
         ...items.filter((item) => isReadableFree(item) && !primaryItems.some((picked) => picked.slug === item.slug))
