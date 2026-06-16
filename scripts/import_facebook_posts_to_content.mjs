@@ -219,7 +219,6 @@ for (const post of posts) {
   const imageFiles = await downloadImages(post.images || [], imageDir);
   const bodyLines = preserveParagraphBreaks(distributeImages(lines, imageFiles, title));
   const summary = summaryFrom(lines);
-  const coverFile = imageFiles[0] || "";
   const markdown = [
     `# ${title}`,
     "",
@@ -240,8 +239,8 @@ for (const post of posts) {
     access: "免費文章",
     tags: tagsFor(title, lines),
     summary,
-    cover_image: coverFile ? `images/${coverFile}` : "",
-    cover_image_alt: `${title} 專題封面`,
+    cover_image: post.cover_image || "",
+    cover_image_alt: post.cover_image_alt || `${title} 專題封面`,
     source_platform: "Facebook",
     facebook_url: post.url
   };

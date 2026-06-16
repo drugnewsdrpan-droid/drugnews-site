@@ -320,6 +320,18 @@ function findMarkdownImages(markdown) {
   return images;
 }
 
+function validateSocialCoverPolicy(article) {
+  const errors = [];
+  if (/^facebook$/i.test(article.meta.source_platform || "")) {
+    if (!article.meta.cover_image) {
+      errors.push("Facebook article cover_image must be set to a generated website cover");
+    } else if (/(^|\/)facebook-\d{2}\./i.test(article.meta.cover_image)) {
+      errors.push("Facebook article cover_image must be a generated website cover, not an original facebook-XX body image");
+    }
+  }
+  return errors;
+}
+
 async function validateArticle(article, knownSlugs) {
   const errors = [];
   if (!FORCE && article.meta.publishAt > NOW) {
@@ -342,6 +354,7 @@ async function validateArticle(article, knownSlugs) {
     const coverPath = path.join(article.folderPath, article.meta.cover_image);
     if (!(await exists(coverPath))) errors.push(`cover_image not found: ${article.meta.cover_image}`);
   }
+  errors.push(...validateSocialCoverPolicy(article));
   return errors;
 }
 
@@ -1129,6 +1142,17 @@ async function main() {
   for (const article of due) await moveToPublished(article);
 
   const published = await loadPublishedArticles();
+  const publishedErrors = published.flatMap((article) => {
+    const articleErrors = validateSocialCoverPolicy(article);
+    return articleErrors.length ? [{ folder: article.folderName, errors: articleErrors }] : [];
+  });
+  if (publishedErrors.length) {
+    await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: new Date().toISOString(), errors: publishedErrors }, null, 2));
+    console.error(`Publishing stopped. See ${path.relative(ROOT, ERRORS_FILE)}`);
+    process.exitCode = 1;
+    return;
+  }
+
   const withImages = [];
   for (const article of published) {
     const imageMap = await copyImages(article);

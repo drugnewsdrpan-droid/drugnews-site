@@ -19,6 +19,10 @@ Articles with `publish_at` in the past are generated into `articles/`, moved to 
 
 Use `npm run publish:force` to publish inbox drafts regardless of `publish_at`.
 
+## Cover Image Policy
+
+Facebook and Dcard original images should stay in the article body with their original placement. Do not use long social post infographics as website covers. For Facebook imports, generate a clean landscape editorial cover for `cover_image`; the publisher blocks `images/facebook-XX.*` as a Facebook article cover so card thumbnails, OG images, RSS, and homepage previews do not crop body infographics badly.
+
 ## Article Markdown
 
 Use normal Markdown headings, paragraphs, links, lists, blockquotes, and inline images:
