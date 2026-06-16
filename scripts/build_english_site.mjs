@@ -103,11 +103,40 @@ function articleCard(record, depth = 1) {
   return `<a class="article-card${image ? " with-image" : ""}${record.external ? " external-card" : ""}" href="${escapeHtml(href)}"${target}>
     ${image ? `<div class="thumb-wrap"><img class="card-thumb" src="${escapeHtml(image)}" alt="${escapeHtml(record.imageAlt || record.title)}" loading="lazy"></div>` : ""}
     <div class="article-card-body">
-      <div class="meta"><span>${escapeHtml(record.date)}</span><span>${escapeHtml(record.category === "商業分析系列" ? "Business Analysis" : record.category)}</span><span>${escapeHtml(record.access === "免費文章" ? "Free Article" : record.access)}</span></div>
+      <div class="meta"><span>${escapeHtml(record.date)}</span><span>${escapeHtml(englishCategory(record.category))}</span><span>${escapeHtml(englishAccess(record.access))}</span></div>
       <h3>${escapeHtml(record.title)}</h3>
       <p>${escapeHtml(record.summary)}</p>
       <div class="tag-row">${tags}</div>
     </div>
+  </a>`;
+}
+
+function englishCategory(category = "") {
+  const map = new Map([
+    ["商業分析系列", "Business Analysis"],
+    ["基本面系列", "Fundamentals"],
+    ["醫學大會", "Medical Conferences"],
+    ["付費深度商業分析文章系列", "In-depth Business Analysis"],
+    ["製藥巨頭系列", "Big Pharma"],
+    ["公司研究", "Company Research"],
+    ["生技估值", "Biotech Valuation"],
+    ["IR 與資本市場", "IR and Capital Markets"]
+  ]);
+  return map.get(category) || category || "Business Analysis";
+}
+
+function englishAccess(access = "") {
+  if (access === "免費文章") return "Free Article";
+  if (access === "付費文章") return "Paid Research";
+  return access || "Free Article";
+}
+
+function compactArticleLink(record, depth = 1) {
+  const href = record.external ? record.url : `${"../".repeat(depth)}${record.url}`;
+  const target = record.external ? ' target="_blank" rel="noopener"' : "";
+  return `<a class="briefing-link english-latest-link" href="${escapeHtml(href)}"${target}>
+    <span>${escapeHtml(record.date)} · ${escapeHtml(englishCategory(record.category))}</span>
+    <strong>${escapeHtml(record.title)}</strong>
   </a>`;
 }
 
@@ -163,14 +192,14 @@ async function loadEnglishRecords() {
 
 function homePage(records) {
   const englishRecords = records.filter((item) => item.lang === "en");
-  const lead = englishRecords[0];
-  const cards = englishRecords.filter((item) => item !== lead).slice(0, 4).map((item) => articleCard(item, 1)).join("");
+  const lead = englishRecords.find((item) => !/anhorn|安宏/i.test(`${item.slug || ""} ${item.title || ""} ${(item.tags || []).join(" ")}`)) || englishRecords[0];
+  const latestLinks = englishRecords.filter((item) => item !== lead).slice(0, 4).map((item) => compactArticleLink(item, 1)).join("");
   const leadImage = lead ? imagePath(lead, 1) : "";
   return page({
-    title: "Drugnews Official Site｜Biotech and Pharmaceutical Business Analysis",
-    description: "Drugnews is a biotech and pharmaceutical business-analysis media platform covering clinical data, company strategy, licensing, valuation, and capital-market signals.",
+    title: "Drugnews English｜Biotech and Pharmaceutical Business Analysis",
+    description: "Drugnews English is a biotech and pharmaceutical business-analysis media platform covering clinical data, company strategy, licensing, valuation, and capital-market signals.",
     canonicalPath: "en/",
-    image: `${BASE_URL}/assets/articles/ai-drug-discovery-pipeline-20260612/cover-ai-drug-discovery.jpg`,
+    image: `${BASE_URL}/assets/english/drugnews-english-analysis-cover.png`,
     current: "home",
     depth: 1,
     main: `<main>
@@ -187,32 +216,64 @@ function homePage(records) {
     </div>
     <div class="container issue-bar" aria-label="Reading entry points">
       <a href="articles/">Latest English Articles</a>
-      <a href="services.html">Company Services</a>
-      <a href="subscribe.html">Paid Research</a>
+      <a href="articles/">Business Analysis</a>
+      <a href="articles/">AI Drug Development</a>
       <a href="guides/">Research Guides</a>
+      <a href="subscribe.html">Paid Research</a>
       <a href="../articles/">Chinese Archive</a>
     </div>
-    <div class="container home-hero-grid">
-      ${lead ? `<a class="lead-story" href="../${escapeHtml(lead.url)}">
-        ${leadImage ? `<div class="featured-image"><img src="${escapeHtml(leadImage)}" alt="${escapeHtml(lead.imageAlt || lead.title)}"></div>` : ""}
-        <div class="lead-story-body">
-          <div class="meta"><span>Featured</span><span>Business Analysis</span></div>
+    <div class="container english-home-grid">
+      ${lead ? `<a class="english-lead-story" href="../${escapeHtml(lead.url)}">
+        <div class="english-lead-copy">
+          <div class="meta"><span>Featured English Analysis</span><span>${escapeHtml(englishCategory(lead.category))}</span><span>${escapeHtml(englishAccess(lead.access))}</span></div>
           <h2>${escapeHtml(lead.title)}</h2>
           <p>${escapeHtml(lead.summary)}</p>
-          <span class="text-link">Read the article</span>
+          <div class="english-proof-points" aria-label="Why this article matters">
+            <span>Clinical data</span>
+            <span>Company strategy</span>
+            <span>Capital-market judgment</span>
+          </div>
+          <span class="text-link">Read full analysis</span>
         </div>
+        ${leadImage ? `<div class="english-lead-media"><img src="${escapeHtml(leadImage)}" alt="${escapeHtml(lead.imageAlt || lead.title)}"></div>` : ""}
       </a>` : ""}
-      <aside class="homepage-briefing" aria-label="Latest English articles">
+      <aside class="english-briefing-panel" aria-label="Latest English articles">
         <p class="eyebrow">English Edition</p>
         <h2>Latest Analysis</h2>
-        <div>${cards || '<p class="notice">Additional English analysis is coming soon.</p>'}</div>
-        <a class="text-link" href="articles/">Go to English articles</a>
+        <p>Professional English versions of Drugnews analysis for global biotech, pharma, investor-relations, and capital-market readers.</p>
+        <div class="english-panel-actions"><a class="button primary" href="articles/">Go to English Articles</a><a class="button secondary" href="services.html">Company Services</a></div>
+        <div class="english-latest-list">
+          <p class="eyebrow">Recent Articles</p>
+          ${latestLinks || '<p class="notice">Additional English analysis is coming soon.</p>'}
+        </div>
       </aside>
-      <div class="editorial-note">
-        <p class="eyebrow">Editorial Focus</p>
-        <h2>From science to market judgment.</h2>
+      <div class="editorial-note english-trust-strip">
+        <div><p class="eyebrow">Editorial Standard</p><h2>From science to market judgment.</h2></div>
         <p class="coverage-copy">We cover company research, clinical and CMC risks, licensing and BD, valuation, and capital-market signals. The goal is not to summarize news, but to explain which evidence can change business value.</p>
       </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container section-head">
+      <div>
+        <p class="eyebrow">Reading Paths</p>
+        <h2>Follow Drugnews by research need</h2>
+        <p>Start from timely English analysis, then move into research frameworks, paid deeper work, or company-service collaborations when needed.</p>
+      </div>
+    </div>
+    <div class="container topic-guide">
+      <div class="topic-guide-main">
+        <a class="topic-row" href="articles/"><span>01</span><div><h3>Latest English Articles</h3><p>Reader-first biotech and pharmaceutical business analysis translated and edited for professional English readers.</p></div></a>
+        <a class="topic-row" href="guides/"><span>02</span><div><h3>Research Guides</h3><p>Short frameworks for reading clinical endpoints, valuation, BD terms, safety, CMC, market sizing, patents, and cash runway.</p></div></a>
+        <a class="topic-row" href="subscribe.html"><span>03</span><div><h3>Paid Research</h3><p>Deeper company tracking and industry context for readers who need repeatable biotech business judgment.</p></div></a>
+        <a class="topic-row" href="services.html"><span>04</span><div><h3>Company Services</h3><p>Investor-facing biotech content, market storytelling, and English communication support for company teams.</p></div></a>
+      </div>
+      <aside class="topic-guide-aside">
+        <p class="eyebrow">Chinese Archive</p>
+        <h3>Full Chinese site remains the main editorial archive.</h3>
+        <p>English pages help global readers discover selected Drugnews analysis, while the Chinese site keeps the complete daily media flow.</p>
+        <a class="text-link" href="../articles/">Browse Chinese articles</a>
+      </aside>
     </div>
   </section>
   <section class="section white">
@@ -340,7 +401,8 @@ async function updateSitemap() {
   const additions = enUrls
     .filter(([loc]) => !existing.has(`${BASE_URL}/${loc}`))
     .map(([loc, priority]) => `  <url><loc>${BASE_URL}/${escapeXml(loc)}</loc><priority>${priority}</priority></url>`);
-  await writeAtomic(SITEMAP, `${xml}\n${additions.join("\n")}\n</urlset>\n`);
+  const body = xml.trimEnd();
+  await writeAtomic(SITEMAP, `${body}${additions.length ? `\n${additions.join("\n")}` : ""}\n</urlset>\n`);
 }
 
 async function main() {
