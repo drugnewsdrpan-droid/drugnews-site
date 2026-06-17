@@ -1749,7 +1749,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   }
   .masthead p:not(.eyebrow) {
     max-width: 100%;
-    overflow-wrap: normal;
+    overflow-wrap: anywhere;
     word-break: normal;
   }
   .article-hero {
@@ -1888,14 +1888,20 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .masthead { gap: 18px; }
   .masthead,
   .masthead > *,
+  .masthead *,
   .masthead p:not(.eyebrow),
   .audience-proof,
   .audience-proof span {
-    max-width: calc(100vw - 24px);
+    max-width: 100%;
+    min-width: 0;
   }
   .masthead p:not(.eyebrow),
   .audience-proof span {
     width: 100%;
+    overflow-wrap: anywhere;
+    word-break: break-all;
+    line-break: anywhere;
+    white-space: normal;
   }
   .hero-title-unit,
   .topic-row h3 {
@@ -1967,6 +1973,26 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 }
 
 @media (max-width: 520px) {
+  .home-hero .container,
+  .home-hero .masthead,
+  .home-hero .masthead > *,
+  .home-hero .home-hero-grid,
+  .home-hero .home-hero-grid > *,
+  .home-hero .lead-story,
+  .home-hero .homepage-briefing,
+  .home-hero .editorial-note {
+    width: calc(100vw - 56px);
+    max-width: calc(100vw - 56px);
+  }
+  .home-hero p,
+  .home-hero h1,
+  .home-hero h2,
+  .home-hero h3,
+  .home-hero strong,
+  .home-hero span {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
   .issue-bar {
     grid-template-columns: 1fr;
   }

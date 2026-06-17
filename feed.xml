@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 16 Jun 2026 04:28:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 05:25:20 GMT</lastBuildDate>
+    <item>
+      <title>GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？</title>
+      <link>https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html</guid>
+      <pubDate>Wed, 17 Jun 2026 01:30:00 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/glp1-head-to-head-ecnoglutide-wegovy/cover-generated.svg" alt="GLP-1 頭對頭競爭與代謝健康管理專題封面"></p><p>ADA 2026 剛落幕，GLP-1 賽道又被一組頭對頭資料點燃。Ecnoglutide 在 20 週減重數字上勝出，但真正的競爭不只看短期體重下降，而是長期健康結局、耐受性、產品矩陣與全球商業化。</p>]]></description>
+    </item>
     <item>
       <title>禮來 38 億美元買三家疫苗公司：減肥藥巨頭，為什麼突然回頭買「預防醫學」？</title>
       <link>https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Sun, 31 May 2026 03:13:10 GMT</pubDate>
       <category>商業分析系列</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a15a6f6fd897800015ad19e-cover.svg" alt="為什麼生技新聞不能只看成功或失敗？真正該問的是 5 個估值參數"></p><p>生技新聞不能只分利多利空。真正要問的是：成功率、上市時間、患者池、峰值銷售、風險折現，哪個估值參數真的被改變了。</p>]]></description>
-    </item>
-    <item>
-      <title>【會員研究包】藥華藥 ET 現在該怎麼估值？從 PDUFA 到第二成長曲線重算</title>
-      <link>https://vocus.cc/article/6a14397dfd89780001935730</link>
-      <guid isPermaLink="true">https://vocus.cc/article/6a14397dfd89780001935730</guid>
-      <pubDate>Sun, 31 May 2026 03:01:54 GMT</pubDate>
-      <category>基本面系列</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a14397dfd89780001935730-cover.svg" alt="【會員研究包】藥華藥 ET 現在該怎麼估值？從 PDUFA 到第二成長曲線重算"></p><p>藥華藥 ET 進入 PDUFA 倒數後，估值該重算哪幾個參數？這篇拆解成功率、上市時間、峰值銷售與折現率哪些能上修，哪些還不能先算滿。</p>]]></description>
     </item>
   </channel>
 </rss>
