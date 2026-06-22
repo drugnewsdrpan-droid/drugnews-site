@@ -726,7 +726,8 @@ ${headerHtml("articles", meta)}
 </main>
 ${footerHtml(meta)}
 </body>
-</html>`;
+</html>
+`;
 }
 
 function articleRecord(article) {
@@ -898,6 +899,244 @@ ${headerHtml("articles")}
 </main>
 ${footerHtml()}
 <script src="../search.js?v=20260613-cover-tags"></script>
+</body>
+</html>`;
+}
+
+function rootRelativeUrl(url = "") {
+  return String(url).replace(/^\.\.\//, "");
+}
+
+function homePage(records) {
+  const primaryItems = readerFirstSort(records.filter((item) => !item.external && accessLabel(item) === "免費文章" && /(Dcard|Facebook|FB)/i.test(item.source || "")));
+  const fallbackItems = readerFirstSort(records.filter((item) => accessLabel(item) === "免費文章" && !primaryItems.some((picked) => picked.slug === item.slug)));
+  const freeItems = [...primaryItems, ...fallbackItems];
+  const lead = freeItems[0] || readerFirstSort(records)[0];
+  const briefing = freeItems.filter((item) => !lead || item.slug !== lead.slug).slice(0, 4);
+  const leadHref = lead?.external ? lead.url : lead?.url || "articles/";
+  const leadImage = lead?.image ? rootRelativeUrl(lead.image) : "";
+  const leadImageUrl = leadImage ? absoluteUrl(leadImage) : "";
+  const leadCategory = lead?.category || "商業分析系列";
+  const leadSummary = lead?.summary || "閱讀藥時事 Drugnews 的生技醫藥公司研究、估值框架、BD 授權、臨床開發與資本市場判讀。";
+  const briefingHtml = briefing.map((item) => {
+    const href = item.external ? item.url : item.url;
+    const target = item.external ? ' target="_blank" rel="noopener"' : "";
+    return `<a class="briefing-link" href="${escapeHtml(href)}"${target}><span>${escapeHtml(item.date)}</span><strong>${escapeHtml(item.title)}</strong></a>`;
+  }).join("");
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        name: "藥時事 Drugnews",
+        alternateName: ["Drugnews", "藥時事", "藥時事官方網站"],
+        url: `${BASE_URL}/`,
+        logo: `${BASE_URL}/favicon.svg`,
+        description: "藥時事 Drugnews 官方網站，專注生技醫藥商業分析、公司研究、授權交易、估值框架與資本市場判讀。",
+        sameAs: [PAID_COLUMN_URL, FACEBOOK_URL, CMONEY_URL, DCARD_URL, "https://www.instagram.com/drugnews.com.tw/"],
+        email: "drugnews.dr.pan@gmail.com",
+        founder: { "@type": "Person", name: "Dr. Jo-Fan Pan", jobTitle: "Founder" }
+      },
+      {
+        "@type": "WebSite",
+        name: "藥時事 Drugnews 官方網站",
+        alternateName: ["Drugnews｜藥時事", "Drugnews", "藥時事"],
+        url: `${BASE_URL}/`,
+        inLanguage: "zh-Hant-TW",
+        description: "藥時事 Drugnews 的生技醫藥商業分析主站。",
+        publisher: { "@type": "Organization", name: "藥時事 Drugnews" },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: `${BASE_URL}/articles/?q={search_term_string}`,
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "ItemList",
+        name: "Drugnews 最新免費文章",
+        itemListElement: freeItems.slice(0, 5).map((item, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          url: item.external ? item.url : `${BASE_URL}/${item.url}`,
+          name: item.title
+        }))
+      }
+    ]
+  };
+
+  return `<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>藥時事 Drugnews 官方網站｜生技醫藥商業分析文章媒體</title>
+  <meta name="description" content="藥時事 Drugnews 官方網站，專注生技醫藥商業分析、公司研究、估值框架、授權交易與資本市場判讀，協助讀者形成可驗證的商業判斷。">
+  <meta name="keywords" content="藥時事, Drugnews, 生技醫藥, 生技投資, 生技估值, 公司研究, BD 授權, 臨床數據, CMC, IR, 資本市場">
+  <link rel="canonical" href="${BASE_URL}/">
+  <link rel="alternate" hreflang="zh-Hant" href="${BASE_URL}/">
+  <link rel="alternate" hreflang="en" href="${BASE_URL}/en/">
+  <link rel="alternate" hreflang="x-default" href="${BASE_URL}/">
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <meta property="og:title" content="藥時事 Drugnews 官方網站｜生技醫藥商業分析文章媒體">
+  <meta property="og:description" content="${escapeHtml(leadSummary)}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${BASE_URL}/">
+  <meta property="og:site_name" content="Drugnews｜藥時事">
+  ${leadImageUrl ? `<meta property="og:image" content="${leadImageUrl}">` : ""}
+  <meta name="twitter:card" content="${leadImageUrl ? "summary_large_image" : "summary"}">
+  <script type="application/ld+json">${JSON.stringify(organizationSchema)}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><img src="favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">首頁</a>
+        <a href="articles/">文章</a>
+        <a href="guides/">指南</a>
+        <a href="subscribe.html">付費專欄</a>
+        <a href="services.html">公司合作</a>
+        <a href="team.html">團隊</a>
+        <a href="en/">English</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="home-hero">
+      <div class="container masthead">
+        <div>
+          <p class="eyebrow">官方網站</p>
+          <h1><span class="hero-title-unit">藥時事 Drugnews｜</span><span class="hero-title-unit">生技醫藥商業分析媒體</span></h1>
+        </div>
+        <div>
+          <p>Drugnews｜藥時事從臨床數據、公司策略、授權交易與資本市場訊號中，拆解生技公司的商業判斷：哪些證據會改變價值，哪些里程碑值得追蹤，哪些敘事只是市場雜音。</p>
+          <div class="audience-proof">
+            <strong>37,000+</strong>
+            <span>Facebook 粉絲，台灣生技商業分析社群中最受關注的媒體之一。</span>
+          </div>
+        </div>
+      </div>
+      <div class="container issue-bar" aria-label="閱讀入口">
+        <a href="articles/">最新文章</a>
+        <a href="articles/category/business-analysis.html">商業分析系列</a>
+        <a href="articles/category/fundamental-analysis.html">基本面系列</a>
+        <a href="articles/category/medical-conference.html">醫學大會</a>
+        <a href="articles/category/paid-deep-analysis.html">付費深度商業分析文章系列</a>
+        <a href="articles/category/big-pharma.html">製藥巨頭系列</a>
+      </div>
+      <div class="container home-hero-grid">
+        <a class="lead-story" id="lead-story" href="${escapeHtml(leadHref)}"${lead?.external ? ' target="_blank" rel="noopener"' : ""}>
+          ${leadImage ? `<div class="featured-image"><img src="${escapeHtml(leadImage)}" alt="${escapeHtml(lead.imageAlt || lead.title)}" loading="eager"></div>` : ""}
+          <div class="lead-story-body">
+            <div class="meta"><span>本日主題</span><span>${escapeHtml(leadCategory)}</span></div>
+            <h2>${escapeHtml(lead?.title || "最新文章")}</h2>
+            <p>${escapeHtml(leadSummary)}</p>
+            <span class="text-link">閱讀全文</span>
+          </div>
+        </a>
+        <aside class="homepage-briefing" aria-label="最新文章快訊">
+          <p class="eyebrow">今日更新</p>
+          <h2>最新長文</h2>
+          <div id="briefing-articles">${briefingHtml}</div>
+          <a class="text-link" href="articles/">進入文章中心</a>
+        </aside>
+        <div class="editorial-note">
+          <p class="eyebrow">分析範圍</p>
+          <h2>從科學到市場，建立可驗證的商業判斷。</h2>
+          <p class="coverage-copy">我們關注公司研究、臨床與 CMC、BD 授權、估值與資本市場訊號；重點不是把資料放在一起，而是判斷臨床證據能否轉化為商業價值、交易條款反映什麼產業競爭、資本市場為何重新定價一家公司。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="topics">
+      <div class="container section-head">
+        <div><h2>內容系列</h2></div>
+      </div>
+      <div class="container topic-guide">
+        <div class="topic-guide-main">
+          <a class="topic-row" href="articles/category/business-analysis.html"><span>01</span><div><h3>商業分析系列</h3><p>FB、Dcard 與網站免費文章，從公開事件拆解公司策略、臨床數據、交易訊號與資本市場判斷。</p></div></a>
+          <a class="topic-row" href="articles/category/fundamental-analysis.html"><span>02</span><div><h3>基本面系列</h3><p>方格子付費專欄中的公司基本面追蹤，重點放在估值、營收、臨床里程碑與可驗證假設。</p></div></a>
+          <a class="topic-row" href="articles/category/medical-conference.html"><span>03</span><div><h3>醫學大會</h3><p>ASCO、ESMO、AACR 等重要學會資料整理，協助讀者快速理解臨床數據與產業意義。</p></div></a>
+          <a class="topic-row" href="articles/category/paid-deep-analysis.html"><span>04</span><div><h3>付費深度商業分析文章系列</h3><p>聚焦 BD、授權、產業策略、平台價值與資本市場重新定價，適合想深入追蹤的讀者。</p></div></a>
+          <a class="topic-row" href="articles/category/big-pharma.html"><span>05</span><div><h3>製藥巨頭系列</h3><p>整理大型藥廠的管線取捨、併購邏輯、專利懸崖與全球競爭格局。</p></div></a>
+        </div>
+        <aside class="topic-guide-aside">
+          <p class="eyebrow">閱讀路徑</p>
+          <h3>先選系列，再回到問題。</h3>
+          <p>免費文章適合跟上公開事件；付費系列則更適合系統追蹤公司基本面、產業策略與大型藥廠決策。每一篇文章都會標注所屬系列，方便回頭查找。</p>
+          <div class="actions">
+            <a class="button secondary" href="guides/">閱讀研究指南</a>
+            <a class="button ghost" href="articles/">看全部文章</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section white">
+      <div class="container newsletter">
+        <div>
+          <p class="eyebrow">付費專欄</p>
+          <h2>在方格子訂閱 Drugnews 付費專欄</h2>
+          <p>免費文章是理解公開事件的入口；真正完整的公司追蹤、估值框架與產業判斷，會整理在方格子付費專欄。訂閱後，你可以用更系統化的方式跟上生技醫藥資本市場的變化。</p>
+        </div>
+        <div class="actions">
+          <a class="button primary" href="subscribe.html">了解付費專欄</a>
+          <a class="button secondary" href="${FACEBOOK_URL}" target="_blank" rel="noopener">追蹤 Facebook</a>
+          <a class="button secondary" href="${DCARD_URL}" target="_blank" rel="noopener">追蹤 Dcard</a>
+          <a class="button secondary" href="${CMONEY_URL}" target="_blank" rel="noopener">股市爆料同學會</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section service-strip">
+      <div class="container service-strip-inner">
+        <div>
+          <p class="eyebrow">公司合作</p>
+          <h2>公司合作與 IR 內容服務</h2>
+        </div>
+        <p>若上市櫃、生醫新創、藥廠、CDMO 或醫療科技公司需要把研發、臨床、授權與商業化故事轉成清楚的資本市場判斷，可到合作分頁了解服務與案例。</p>
+        <a class="button secondary" href="services.html">查看公司合作</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 Drugnews. 內容僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div>
+  </footer>
+
+  <script>
+    fetch("search-index.json", { cache: "no-store" }).then(r => r.json()).then(items => {
+      const lead = document.getElementById("lead-story");
+      const briefing = document.getElementById("briefing-articles");
+      if (!items.length) return;
+      const isSocialFree = (item) => !item.external && item.access === "免費文章" && /(Dcard|Facebook|FB)/i.test(item.source || "");
+      const isReadableFree = (item) => item.access === "免費文章";
+      const primaryItems = items.filter(isSocialFree);
+      const freeItems = [
+        ...primaryItems,
+        ...items.filter((item) => isReadableFree(item) && !primaryItems.some((picked) => picked.slug === item.slug))
+      ];
+      const first = freeItems[0];
+      if (lead && first) {
+        const image = first.image ? first.image.replace(/^\\.\\.\\//, "") : "";
+        lead.href = first.url;
+        if (first.external) {
+          lead.setAttribute("target", "_blank");
+          lead.setAttribute("rel", "noopener");
+        } else {
+          lead.removeAttribute("target");
+          lead.removeAttribute("rel");
+        }
+        lead.innerHTML = \`\${image ? \`<div class="featured-image"><img src="\${image}" alt="\${first.imageAlt || first.title}"></div>\` : ""}<div class="lead-story-body"><div class="meta"><span>本日主題</span><span>\${first.category}</span></div><h2>\${first.title}</h2><p>\${first.summary}</p><span class="text-link">閱讀全文</span></div>\`;
+      }
+      if (briefing) {
+        briefing.innerHTML = freeItems.filter((item) => !first || item.slug !== first.slug).slice(0, 4).map(item => \`<a class="briefing-link" href="\${item.url}"\${item.external ? ' target="_blank" rel="noopener"' : ""}><span>\${item.date}</span><strong>\${item.title}</strong></a>\`).join("");
+      }
+    }).catch(() => {});
+  </script>
 </body>
 </html>`;
 }
@@ -1187,6 +1426,7 @@ async function main() {
   }
 
   await writeAtomic(path.join(ARTICLES, "index.html"), articleIndexPage(zhRecords));
+  await writeAtomic(path.join(ROOT, "index.html"), homePage(zhRecords));
   for (const category of SERIES.keys()) {
     const categoryRecords = zhRecords.filter((item) => item.category === category);
     const categoryFile = path.join(ARTICLES, "category", `${categorySlug(category)}.html`);

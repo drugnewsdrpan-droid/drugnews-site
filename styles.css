@@ -1899,8 +1899,8 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .audience-proof span {
     width: 100%;
     overflow-wrap: anywhere;
-    word-break: break-all;
-    line-break: anywhere;
+    word-break: normal;
+    line-break: loose;
     white-space: normal;
   }
   .hero-title-unit,
