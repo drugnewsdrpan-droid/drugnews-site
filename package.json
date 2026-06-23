@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "publish": "node scripts/publish_articles.mjs && node scripts/build_english_site.mjs",
-    "publish:force": "node scripts/publish_articles.mjs --force && node scripts/build_english_site.mjs",
+    "publish": "node scripts/publish_articles.mjs && node scripts/build_english_site.mjs && node scripts/build_topic_hubs.mjs",
+    "publish:force": "node scripts/publish_articles.mjs --force && node scripts/build_english_site.mjs && node scripts/build_topic_hubs.mjs",
+    "build:topics": "node scripts/build_topic_hubs.mjs",
     "build:en": "node scripts/build_english_site.mjs",
     "translate:en": "node scripts/translate_articles_to_english.mjs",
     "translate:en:all": "node scripts/translate_articles_to_english.mjs --all"

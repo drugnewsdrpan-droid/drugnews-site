@@ -1026,6 +1026,7 @@ function homePage(records) {
         <a href="articles/category/medical-conference.html">醫學大會</a>
         <a href="articles/category/paid-deep-analysis.html">付費深度商業分析文章系列</a>
         <a href="articles/category/big-pharma.html">製藥巨頭系列</a>
+        <a href="topics/">熱門搜尋主題</a>
       </div>
       <div class="container home-hero-grid">
         <a class="lead-story" id="lead-story" href="${escapeHtml(leadHref)}"${lead?.external ? ' target="_blank" rel="noopener"' : ""}>
@@ -1072,6 +1073,22 @@ function homePage(records) {
             <a class="button ghost" href="articles/">看全部文章</a>
           </div>
         </aside>
+      </div>
+    </section>
+
+    <section class="section white">
+      <div class="container section-head">
+        <div>
+          <p class="eyebrow">Topic Hubs</p>
+          <h2>熱門搜尋主題</h2>
+        </div>
+        <p>把讀者最常搜尋的生技投資問題整理成入口頁，方便從一個關鍵字一路讀到相關案例。</p>
+      </div>
+      <div class="container topic-hub-grid compact">
+        <a class="topic-hub-card" href="topics/biotech-investing.html"><span>投資框架</span><h2>生技投資</h2><p>從臨床證據、現金水位、授權交易到資本市場定價。</p></a>
+        <a class="topic-hub-card" href="topics/biotech-valuation.html"><span>估值框架</span><h2>生技估值</h2><p>用 rNPV、SOTP、峰值銷售與成功率重建價值假設。</p></a>
+        <a class="topic-hub-card" href="topics/bd-licensing.html"><span>交易判讀</span><h2>BD 授權</h2><p>拆解 upfront、milestone、royalty 與商業權利分配。</p></a>
+        <a class="topic-hub-card" href="topics/clinical-data.html"><span>臨床判讀</span><h2>臨床數據</h2><p>理解 endpoint、對照組、安全性與資料是否足以改變價值。</p></a>
       </div>
     </section>
 
