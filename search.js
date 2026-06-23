@@ -22,9 +22,13 @@
 
   function readerFirstSort(items) {
     return [...items].sort((a, b) => {
+      const bTime = new Date(b.publishAt || b.date).getTime();
+      const aTime = new Date(a.publishAt || a.date).getTime();
+      const time = bTime - aTime;
+      if (time) return time;
       const rank = readerFirstRank(a) - readerFirstRank(b);
       if (rank) return rank;
-      return new Date(b.publishAt || b.date) - new Date(a.publishAt || a.date) || b.title.localeCompare(a.title, "zh-Hant");
+      return b.title.localeCompare(a.title, "zh-Hant");
     });
   }
 

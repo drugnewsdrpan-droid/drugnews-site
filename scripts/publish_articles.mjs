@@ -898,7 +898,7 @@ ${headerHtml("articles")}
   </section>
 </main>
 ${footerHtml()}
-<script src="../search.js?v=20260613-cover-tags"></script>
+<script src="../search.js?v=20260624-date-first"></script>
 </body>
 </html>`;
 }
