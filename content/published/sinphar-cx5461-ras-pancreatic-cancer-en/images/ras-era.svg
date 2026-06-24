@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">RAS 標靶打開胰臟癌新局</title>
+  <desc id="desc">Daraxonrasib 數據與 RAS 驅動胰臟癌治療轉折示意圖。</desc>
+  <rect width="1200" height="680" fill="#f5fbfb"/>
+  <rect x="70" y="70" width="1060" height="540" rx="28" fill="#ffffff" stroke="#cfe3e0" stroke-width="3"/>
+  <text x="100" y="135" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="46" font-weight="700" fill="#10242c">RAS 標靶打開胰臟癌新局</text>
+  <text x="100" y="178" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="23" fill="#4f6870">Daraxonrasib 讓 RAS 驅動腫瘤正式進入臨床重估階段</text>
+  <g transform="translate(100 245)">
+    <rect width="300" height="210" rx="22" fill="#eaf5f4"/>
+    <text x="32" y="58" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#16323a">過去困境</text>
+    <text x="32" y="105" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="22" fill="#38545c">診斷晚、進展快</text>
+    <text x="32" y="145" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="22" fill="#38545c">化療選擇有限</text>
+    <text x="32" y="185" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="22" fill="#38545c">冷腫瘤與免疫抑制</text>
+  </g>
+  <path d="M430 350h120" stroke="#d8832f" stroke-width="9" stroke-linecap="round"/>
+  <path d="M535 320l40 30-40 30z" fill="#d8832f"/>
+  <g transform="translate(590 245)">
+    <rect width="250" height="210" rx="22" fill="#fff4e8"/>
+    <text x="32" y="58" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#6d3e0f">RAS(ON)</text>
+    <text x="32" y="105" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="22" fill="#6d3e0f">中位總存活期</text>
+    <text x="32" y="157" font-family="Arial, sans-serif" font-size="50" font-weight="700" fill="#d8832f">13.2</text>
+    <text x="164" y="157" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="22" fill="#6d3e0f">個月</text>
+  </g>
+  <g transform="translate(870 245)">
+    <rect width="220" height="210" rx="22" fill="#eaf5f4"/>
+    <text x="28" y="58" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#16323a">新時代問題</text>
+    <text x="28" y="112" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="24" fill="#38545c">RAS 被壓下後</text>
+    <text x="28" y="152" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="24" fill="#38545c">抗藥性往哪裡走？</text>
+  </g>
+  <text x="100" y="545" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#10242c">核心判斷：RAS 抑制劑不是終點，下一場戰爭是抗藥性管理。</text>
+</svg>

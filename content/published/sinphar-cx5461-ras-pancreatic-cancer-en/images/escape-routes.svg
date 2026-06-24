@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">RAS 抑制後的逃逸路徑</title>
+  <desc id="desc">MYC、KEAP1/NRF2、YAP/TAZ/TEAD、腫瘤微環境與免疫逃脫等抗藥性路徑示意。</desc>
+  <rect width="1200" height="760" fill="#f6faf7"/>
+  <text x="90" y="105" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="44" font-weight="700" fill="#132a31">RAS 被壓下去後，癌細胞會往哪裡逃？</text>
+  <text x="90" y="150" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="22" fill="#52696f">抗藥性不只走單一路徑，而是多個難成藥節點同時浮現。</text>
+  <circle cx="600" cy="385" r="92" fill="#d8832f"/>
+  <text x="552" y="375" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#fff">RAS</text>
+  <text x="530" y="414" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="22" fill="#fff">被抑制</text>
+  <g fill="none" stroke="#9bbfba" stroke-width="5" stroke-linecap="round">
+    <path d="M600 292V205"/>
+    <path d="M680 335l160-82"/>
+    <path d="M690 430l185 70"/>
+    <path d="M520 430l-185 70"/>
+    <path d="M520 335l-160-82"/>
+  </g>
+  <g font-family="Arial, 'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#16323a">
+    <rect x="480" y="140" width="240" height="85" rx="18" fill="#ffffff" stroke="#cfe3e0" stroke-width="3"/>
+    <text x="535" y="193">MYC 活化</text>
+    <rect x="780" y="205" width="300" height="95" rx="18" fill="#ffffff" stroke="#cfe3e0" stroke-width="3"/>
+    <text x="820" y="258">KEAP1 / NRF2</text>
+    <rect x="785" y="475" width="320" height="95" rx="18" fill="#ffffff" stroke="#cfe3e0" stroke-width="3"/>
+    <text x="825" y="528">YAP / TAZ / TEAD</text>
+    <rect x="95" y="475" width="320" height="95" rx="18" fill="#ffffff" stroke="#cfe3e0" stroke-width="3"/>
+    <text x="145" y="528">腫瘤微環境重塑</text>
+    <rect x="115" y="205" width="280" height="95" rx="18" fill="#ffffff" stroke="#cfe3e0" stroke-width="3"/>
+    <text x="190" y="258">免疫逃脫</text>
+  </g>
+  <rect x="165" y="635" width="870" height="58" rx="18" fill="#10242c"/>
+  <text x="205" y="673" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="23" font-weight="700" fill="#ffffff">問題不是 RAS 藥有沒有效，而是癌細胞逃走後，有沒有下一道防線。</text>
+</svg>

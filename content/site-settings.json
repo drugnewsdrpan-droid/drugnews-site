@@ -1,0 +1,8 @@
+{
+  "google_analytics_id": "",
+  "google_search_console_verification": "",
+  "notes": {
+    "google_analytics_id": "Fill with a GA4 Measurement ID such as G-XXXXXXXXXX to enable page-view and outbound-click tracking.",
+    "google_search_console_verification": "Optional HTML-tag verification token from Google Search Console."
+  }
+}

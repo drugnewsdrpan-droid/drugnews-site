@@ -16,9 +16,11 @@
     "Biotech business analysis",
     "Drug development"
   ],
-  "summary": "A Drugnews English brief on Pluvicto Is Selling Fast: What Radioligand Therapy Growth Really Means, focusing on radiopharma, clinical evidence, company strategy, business development, and biotech capital-market implications.",
+  "summary": "Pluvicto's rapid growth shows radioligand therapy moving from specialist science into a real commercial infrastructure story, where isotope supply, hospital workflow, and patient selection become strategic assets.",
   "cover_image": "https://drugnews.com.tw/assets/english/drugnews-english-analysis-cover.png",
   "cover_image_alt": "Drugnews English biotech and pharmaceutical business analysis cover",
   "source_platform": "Website",
-  "editorial_note": "No-API English scaffold. Upgrade manually or with the API translator for full paragraph-by-paragraph translation."
+  "editorial_note": "Refined English editorial page with reader-facing analysis summary and SEO description.",
+  "translation_status": "english_editorial_refined",
+  "translation_updated_at": "2026-06-24T01:29:43.392Z"
 }

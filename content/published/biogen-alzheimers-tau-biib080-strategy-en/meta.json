@@ -18,9 +18,11 @@
     "Biotech business analysis",
     "Drug development"
   ],
-  "summary": "A Drugnews English brief on Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?, focusing on cns, clinical evidence, company strategy, business development, and biotech capital-market implications.",
+  "summary": "Biogen's BIIB080 tau program reflects a broader Alzheimer's reset: the field is no longer only asking whether amyloid matters, but whether tau biology can produce measurable disease-modifying benefit.",
   "cover_image": "https://drugnews.com.tw/assets/english/drugnews-english-analysis-cover.png",
   "cover_image_alt": "Drugnews English biotech and pharmaceutical business analysis cover",
   "source_platform": "Website",
-  "editorial_note": "No-API English scaffold. Upgrade manually or with the API translator for full paragraph-by-paragraph translation."
+  "editorial_note": "Refined English editorial page with reader-facing analysis summary and SEO description.",
+  "translation_status": "english_editorial_refined",
+  "translation_updated_at": "2026-06-24T01:29:43.399Z"
 }

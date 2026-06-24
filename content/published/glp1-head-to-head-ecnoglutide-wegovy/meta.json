@@ -22,5 +22,9 @@
   "cover_image": "images/cover-generated.svg",
   "cover_image_alt": "GLP-1 頭對頭競爭與代謝健康管理專題封面",
   "source_platform": "Facebook",
-  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122177826674614875&id=61568446257142"
+  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122177826674614875&id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html"
+  }
 }

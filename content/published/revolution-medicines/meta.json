@@ -17,5 +17,9 @@
   "cover_image_alt": "Revolution Medicines 神話：會研發還不夠，會融資才撐得過新藥長跑 專題封面",
   "source_platform": "Dcard",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261659960",
-  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
+  "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-14-revolution-medicines-en.html"
+  }
 }

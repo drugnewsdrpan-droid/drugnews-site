@@ -22,5 +22,9 @@
   "cover_image": "images/cover-generated.png",
   "cover_image_alt": "2026 ASCO 腫瘤治療多平台突破專題封面",
   "source_platform": "Facebook",
-  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122177675516614875&id=61568446257142"
+  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122177675516614875&id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-15-2026-asco-car-t-en.html"
+  }
 }

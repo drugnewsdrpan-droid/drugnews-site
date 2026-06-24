@@ -19,5 +19,9 @@
   "cover_image": "images/cover-generated.svg",
   "cover_image_alt": "【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】 專題封面",
   "source_platform": "Facebook",
-  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122178051920614875&id=61568446257142"
+  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122178051920614875&id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-20-enlivex-rain-token-biotech-treasury-en.html"
+  }
 }

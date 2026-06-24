@@ -15,9 +15,13 @@
     "Biotech business analysis",
     "Drug development"
   ],
-  "summary": "A Drugnews English brief on RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War, focusing on company strategy, clinical evidence, company strategy, business development, and biotech capital-market implications.",
-  "cover_image": "https://drugnews.com.tw/assets/english/drugnews-english-analysis-cover.png",
-  "cover_image_alt": "Drugnews English biotech and pharmaceutical business analysis cover",
+  "summary": "Daraxonrasib opens a new pancreatic-cancer window, but the next value question is resistance management. Senhwa's CX-5461 matters if it can become a rational combination partner.",
+  "cover_image": "images/cover-en.svg",
+  "cover_image_alt": "RAS Resistance Management: Where CX-5461 Could Matter",
   "source_platform": "Website",
-  "editorial_note": "No-API English scaffold. Upgrade manually or with the API translator for full paragraph-by-paragraph translation."
+  "editorial_note": "Full English translation generated from the Chinese edition with Google Translate batch workflow; structure, links, and image positions preserved by Drugnews editorial tooling.",
+  "translation_status": "full_google_translate_pass",
+  "translation_updated_at": "2026-06-14T03:02:17.246Z",
+  "visual_status": "english_reader_cards",
+  "visual_updated_at": "2026-06-24T01:24:35.108Z"
 }

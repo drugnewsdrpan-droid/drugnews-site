@@ -4,29 +4,25 @@ This English edition is adapted from Drugnews' Chinese analysis for global biote
 
 ## Core Thesis
 
-A Drugnews English brief on Pluvicto Is Selling Fast: What Radioligand Therapy Growth Really Means, focusing on radiopharma, clinical evidence, company strategy, business development, and biotech capital-market implications.
-
-The central question is not whether the headline looks exciting. The real question is what the event changes about asset value, clinical risk, commercialization strategy, business-development optionality, and the way capital markets may reprice the company or therapeutic area.
+Pluvicto is not only a fast-selling oncology product. It is a signal that radioligand therapy is becoming an industrial system: isotope sourcing, manufacturing, logistics, imaging, physician workflow, and reimbursement must all work together before the market can scale.
 
 ## Why It Matters
 
-For professional readers, radiopharma should be read through a business-analysis lens. A single news event can reflect several layers at the same time: scientific plausibility, clinical execution, regulatory uncertainty, manufacturing and CMC risk, competitive positioning, financing pressure, and the possibility of future partnership or acquisition interest.
-
-Drugnews reads these events by asking three practical questions. First, what evidence has actually improved? Second, which uncertainty remains unresolved? Third, does the new information make the asset, company, or sector more investable, more tradable, or simply more visible?
+For investors, radiopharma should be analyzed less like a normal oncology pill and more like a complex healthcare infrastructure business. The winners are likely to be companies that control supply chains, clinical evidence, hospital access, and commercial execution at the same time.
 
 ## Reading Framework
 
-This article should be read as part of the Drugnews framework for biotech judgment:
+Drugnews reads this topic through five practical questions:
 
-- Scientific logic: whether the mechanism, modality, and disease setting make sense.
-- Clinical translation: whether the evidence can move from data into patient benefit.
-- Commercial value: whether differentiation, market size, pricing, and reimbursement can support a real product.
-- BD relevance: whether the asset could become attractive to pharma partners or strategic buyers.
-- Capital-market signal: whether the event changes expectations, timing, or valuation.
+- What new evidence or business signal has actually changed?
+- Which risks remain unresolved in clinical development, CMC, regulation, or commercialization?
+- Does the event improve strategic optionality for partnership, licensing, financing, or M&A?
+- Can the company convert scientific progress into durable market position?
+- Does the information change valuation, or only create short-term attention?
 
 ## What To Watch Next
 
-The next layer of judgment depends on follow-up evidence. Readers should watch for clinical milestones, durability of data, safety signals, regulatory feedback, financing activity, peer readouts, competitive entrants, manufacturing readiness, and any licensing or M&A activity that confirms strategic value.
+Readers should watch for follow-up data, trial design changes, safety signals, regulatory feedback, manufacturing readiness, payer response, competitive readouts, partnership activity, and whether management can turn the story into measurable execution.
 
 ## Original Chinese Edition
 
@@ -34,3 +30,4 @@ This English page is designed to make Drugnews analysis searchable and readable 
 
 Read the original Chinese article: [核藥賣爆了](https://drugnews.com.tw/articles/2026-06-01-pluvicto-radioligand-therapy-growth.html)
 
+This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.

@@ -18,5 +18,9 @@
   "cover_image": "images/cover-generated.svg",
   "cover_image_alt": "GSK 用 106 億美元買下 Nuvalent：真正買的不是三條肺癌管線，而是「耐藥與腦轉移」的下一代解法 專題封面",
   "source_platform": "Facebook",
-  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122177977892614875&id=61568446257142"
+  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122177977892614875&id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html"
+  }
 }

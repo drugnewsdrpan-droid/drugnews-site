@@ -21,5 +21,9 @@
   "cover_image": "images/cover-generated.png",
   "cover_image_alt": "禮來用 GLP-1 現金流布局疫苗與預防醫學的專題封面",
   "source_platform": "Facebook",
-  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122177751746614875&id=61568446257142"
+  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122177751746614875&id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html"
+  }
 }

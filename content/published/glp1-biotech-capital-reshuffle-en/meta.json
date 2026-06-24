@@ -18,9 +18,13 @@
     "Biotech business analysis",
     "Drug development"
   ],
-  "summary": "A Drugnews English brief on Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
-  "cover_image": "https://drugnews.com.tw/assets/english/drugnews-english-analysis-cover.png",
-  "cover_image_alt": "Drugnews English biotech and pharmaceutical business analysis cover",
+  "summary": "GLP-1 is no longer only a weight-loss topic. It is redirecting biotech capital, BD urgency, manufacturing attention, and valuation imagination across global pharma.",
+  "cover_image": "images/cover-en.svg",
+  "cover_image_alt": "GLP-1 Is Reshaping Biotech Capital",
   "source_platform": "Website",
-  "editorial_note": "No-API English scaffold. Upgrade manually or with the API translator for full paragraph-by-paragraph translation."
+  "editorial_note": "Full English translation generated from the Chinese edition with Google Translate batch workflow; structure, links, and image positions preserved by Drugnews editorial tooling.",
+  "translation_status": "full_google_translate_pass",
+  "translation_updated_at": "2026-06-14T03:01:12.206Z",
+  "visual_status": "english_reader_cards",
+  "visual_updated_at": "2026-06-24T01:24:35.110Z"
 }

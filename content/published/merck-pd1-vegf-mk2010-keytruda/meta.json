@@ -18,5 +18,9 @@
   "cover_image": "images/cover-generated.svg",
   "cover_image_alt": "默沙東 對 PD-1／VEGF 雙抗改口：Keytruda 王座還在，但下一代免疫底盤已經逼近 專題封面",
   "source_platform": "Facebook",
-  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122178127802614875&id=61568446257142"
+  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122178127802614875&id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html"
+  }
 }

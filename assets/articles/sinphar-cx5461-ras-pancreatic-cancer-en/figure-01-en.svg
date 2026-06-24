@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="RAS Opens the Door">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbfb"/>
+      <stop offset="60%" stop-color="#eef7f7"/>
+      <stop offset="100%" stop-color="#fff7ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#12313c" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    .label{font:800 22px Inter,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;fill:#a45f2b}
+    .title{font:800 42px Inter,Arial,sans-serif;fill:#14191d}
+    .subtitle{font:500 21px Inter,Arial,sans-serif;fill:#52616b}
+    .point{font:750 25px Inter,Arial,sans-serif;fill:#173843}
+    .small{font:700 18px Inter,Arial,sans-serif;fill:#6d7a83}
+  </style>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M770 80 C930 50 1040 120 1110 250 C1170 360 1110 530 970 585 C820 646 678 555 640 416 C602 276 634 122 770 80Z" fill="#12313c" opacity="0.08"/>
+  <path d="M760 482 C854 372 942 340 1064 362" fill="none" stroke="#d3752c" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+  <path d="M780 225 C870 178 972 188 1064 252" fill="none" stroke="#265f73" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+  <g filter="url(#shadow)">
+    <rect x="46" y="48" width="640" height="578" rx="26" fill="#fff" opacity=".95"/>
+  </g>
+  <text x="70" y="104" class="label">Drugnews English</text>
+  <text x="70" y="142" class="title">RAS Opens the Door</text>
+  <text x="70" y="308" class="subtitle">Daraxonrasib changed the pancreatic-cancer discussion,</text>
+<text x="70" y="336" class="subtitle">but resistance remains the next strategic problem.</text>
+  <g>
+      <circle cx="82" cy="410" r="8" fill="#d3752c"/>
+      <text x="104" y="418" class="point">RAS(ON) inhibition</text>
+    </g>
+<g>
+      <circle cx="82" cy="462" r="8" fill="#d3752c"/>
+      <text x="104" y="470" class="point">PDAC survival signal</text>
+    </g>
+<g>
+      <circle cx="82" cy="514" r="8" fill="#d3752c"/>
+      <text x="104" y="522" class="point">Combination need</text>
+    </g>
+  <text x="70" y="602" class="small">Drugnews | Biotech business analysis</text>
+</svg>
