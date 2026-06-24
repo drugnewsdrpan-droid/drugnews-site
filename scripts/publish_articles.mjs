@@ -980,7 +980,7 @@ function homePage(records) {
   <link rel="stylesheet" href="styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
   <meta property="og:title" content="藥時事 Drugnews 官方網站｜生技醫藥商業分析文章媒體">
-  <meta property="og:description" content="${escapeHtml(leadSummary)}">
+  <meta property="og:description" content="藥時事 Drugnews 專注生技醫藥商業分析、公司研究、估值框架、授權交易與資本市場判讀，協助讀者形成可驗證的商業判斷。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="${BASE_URL}/">
   <meta property="og:site_name" content="Drugnews｜藥時事">

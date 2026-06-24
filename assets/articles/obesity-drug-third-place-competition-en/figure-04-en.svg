@@ -1,71 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Figure 4 | The Next Battleground: From Weight Loss to Health Quality">
-  <defs>
-    <linearGradient id="sheet" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="54%" stop-color="#f8fbfb"/>
-      <stop offset="100%" stop-color="#fff8f1"/>
-    </linearGradient>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#12313c" flood-opacity=".12"/>
-    </filter>
-    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#12313c" flood-opacity=".10"/>
-    </filter>
-    <radialGradient id="softBlue" cx="50%" cy="45%" r="70%">
-      <stop offset="0%" stop-color="#dff3f7"/>
-      <stop offset="100%" stop-color="#f8fcfd"/>
-    </radialGradient>
-    <radialGradient id="softCoral" cx="50%" cy="45%" r="70%">
-      <stop offset="0%" stop-color="#ffe4df"/>
-      <stop offset="100%" stop-color="#fff8f5"/>
-    </radialGradient>
-  </defs>
-  <style>
-    .title{font:800 34px Inter,Arial,sans-serif;fill:#122f3a}
-    .eyebrow{font:800 18px Inter,Arial,sans-serif;letter-spacing:.12em;fill:#9e5b28;text-transform:uppercase}
-    .label{font:800 25px Inter,Arial,sans-serif;fill:#12313c}
-    .body{font:700 22px Inter,Arial,sans-serif;fill:#243943}
-    .note{font:700 17px Inter,Arial,sans-serif;fill:#58707b}
-    .small{font:700 16px Inter,Arial,sans-serif;fill:#607680}
-    .axis{font:800 20px Inter,Arial,sans-serif;fill:#265f73}
-    .brand{font:900 31px Inter,Arial,sans-serif;fill:#12313c}
-    .caption{font:800 14px Inter,Arial,sans-serif;letter-spacing:.08em;fill:#8aa0aa;text-transform:uppercase}
-  </style>
-  <rect width="1200" height="760" fill="#eef5f4"/>
-  <path d="M58 646 C245 565 338 610 505 654 C693 704 833 607 1140 652" fill="none" stroke="#cde5e8" stroke-width="5" opacity=".7"/>
-  <path d="M66 130 C224 62 353 87 477 126" fill="none" stroke="#e7f1f2" stroke-width="4" opacity=".9"/>
-  <circle cx="1010" cy="110" r="80" fill="#eef7f3" opacity=".8"/>
-  <rect x="34" y="34" width="1132" height="692" rx="24" fill="url(#sheet)" stroke="#cddbe0" stroke-width="2" filter="url(#softShadow)"/>
-  <text x="64" y="86" class="title">Figure 4 | The Next Battleground: From Weight Loss to Health Quality</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="543" height="337" viewBox="0 0 543 337" role="img">
+  <image href="facebook-04.png" x="0" y="0" width="543" height="337"/>
 
-  <g transform="translate(74 146)">
-    <circle cx="110" cy="164" r="80" fill="#b8c5cb" opacity=".65"/>
-    <rect x="74" y="235" width="72" height="148" rx="36" fill="#b8c5cb" opacity=".65"/>
-    <rect x="250" y="18" width="280" height="430" rx="20" fill="#fff" stroke="#d2dde2"/>
-    <text x="390" y="68" class="brand" text-anchor="middle">Past</text>
-    <text x="390" y="112" class="note" text-anchor="middle">The question was mostly</text>
-<text x="390" y="140" class="note" text-anchor="middle">how much weight was lost.</text>
-    <text x="292" y="190" class="body" text-anchor="start">Which patient loses more?</text>
-<text x="292" y="232" class="body" text-anchor="start">Body-weight percentage</text>
-<text x="292" y="274" class="body" text-anchor="start">Speed of weight loss</text>
-<text x="292" y="316" class="body" text-anchor="start">Market-share race</text>
-  </g>
-  <path d="M608 378 h50" stroke="#2d85b7" stroke-width="20" stroke-linecap="round"/>
-  <path d="M650 344 l58 34 -58 34z" fill="#2d85b7"/>
-  <g transform="translate(690 146)">
-    <circle cx="386" cy="164" r="80" fill="#7abf67" opacity=".72"/>
-    <rect x="350" y="235" width="72" height="148" rx="36" fill="#7abf67" opacity=".72"/>
-    <rect x="0" y="18" width="318" height="430" rx="20" fill="#f5fbf2" stroke="#c8dfbd"/>
-    <text x="159" y="68" class="brand" text-anchor="middle">Future</text>
-    <text x="159" y="112" class="note" text-anchor="middle">Health quality and long-term</text>
-<text x="159" y="140" class="note" text-anchor="middle">metabolic management.</text>
-    <text x="40" y="180" class="body" text-anchor="start">Less vomiting?</text>
-<text x="40" y="220" class="body" text-anchor="start">Better tolerability?</text>
-<text x="40" y="260" class="body" text-anchor="start">Preserve muscle?</text>
-<text x="40" y="300" class="body" text-anchor="start">Improve fatty liver?</text>
-<text x="40" y="340" class="body" text-anchor="start">Lower CV-metabolic risk?</text>
-<text x="40" y="380" class="body" text-anchor="start">Can patients stay on therapy?</text>
-  </g>
-  <rect x="116" y="616" width="968" height="54" rx="16" fill="#eaf3f6" stroke="#cadde4"/>
-  <text x="600" y="650" class="body" text-anchor="middle">The third-place opportunity is not to copy the leaders. It is to solve the problems they have not solved.</text>
+  <rect x="0" y="0" width="543" height="36" rx="2" fill="#fff" stroke="none" opacity="1"/>
+  <text x="12" y="23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#102a43" text-anchor="start">Fig. 4 | Next obesity battleground: from weight loss to health quality</text>
+  <rect x="88" y="58" width="140" height="210" rx="5" fill="#fff" stroke="#cfdbe0" opacity="1"/>
+  <text x="158" y="84" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#102a43" text-anchor="middle">Past: weight-loss</text>
+<text x="158" y="96" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#102a43" text-anchor="middle">magnitude</text>
+  <text x="105" y="122" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#263f49" text-anchor="start">Which patient loses more?</text>
+<text x="105" y="140" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#263f49" text-anchor="start">Body-weight percentage</text>
+<text x="105" y="158" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#263f49" text-anchor="start">Speed of weight loss</text>
+<text x="105" y="176" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#263f49" text-anchor="start">Market-share race</text>
+  <rect x="263" y="58" width="204" height="210" rx="5" fill="#f6fbf3" stroke="#c8dfbd" opacity="1"/>
+  <text x="365" y="84" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="800" fill="#25472c" text-anchor="middle">Future: health quality</text>
+  <text x="287" y="116" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#25472c" text-anchor="start">Less vomiting?</text>
+<text x="287" y="134" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#25472c" text-anchor="start">Better tolerability?</text>
+<text x="287" y="152" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#25472c" text-anchor="start">Preserve muscle?</text>
+<text x="287" y="170" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#25472c" text-anchor="start">Improve fatty liver?</text>
+<text x="287" y="188" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#25472c" text-anchor="start">Lower CV-metabolic risk?</text>
+<text x="287" y="206" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#25472c" text-anchor="start">Long-term adherence?</text>
+  <rect x="33" y="300" width="479" height="27" rx="4" fill="#eaf4f7" stroke="#bfd8df" opacity="0.97"/>
+  <text x="272" y="318" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#244a5a" text-anchor="middle">Third place is not about copying the leaders. It is about solving unsolved problems.</text>
+
 </svg>

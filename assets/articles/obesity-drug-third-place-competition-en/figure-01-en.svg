@@ -1,164 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Figure 1 | The Duopoly Battle Moves Beyond Single Products">
-  <defs>
-    <linearGradient id="sheet" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="54%" stop-color="#f8fbfb"/>
-      <stop offset="100%" stop-color="#fff8f1"/>
-    </linearGradient>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#12313c" flood-opacity=".12"/>
-    </filter>
-    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#12313c" flood-opacity=".10"/>
-    </filter>
-    <radialGradient id="softBlue" cx="50%" cy="45%" r="70%">
-      <stop offset="0%" stop-color="#dff3f7"/>
-      <stop offset="100%" stop-color="#f8fcfd"/>
-    </radialGradient>
-    <radialGradient id="softCoral" cx="50%" cy="45%" r="70%">
-      <stop offset="0%" stop-color="#ffe4df"/>
-      <stop offset="100%" stop-color="#fff8f5"/>
-    </radialGradient>
-  </defs>
-  <style>
-    .title{font:800 34px Inter,Arial,sans-serif;fill:#122f3a}
-    .eyebrow{font:800 18px Inter,Arial,sans-serif;letter-spacing:.12em;fill:#9e5b28;text-transform:uppercase}
-    .label{font:800 25px Inter,Arial,sans-serif;fill:#12313c}
-    .body{font:700 22px Inter,Arial,sans-serif;fill:#243943}
-    .note{font:700 17px Inter,Arial,sans-serif;fill:#58707b}
-    .small{font:700 16px Inter,Arial,sans-serif;fill:#607680}
-    .axis{font:800 20px Inter,Arial,sans-serif;fill:#265f73}
-    .brand{font:900 31px Inter,Arial,sans-serif;fill:#12313c}
-    .caption{font:800 14px Inter,Arial,sans-serif;letter-spacing:.08em;fill:#8aa0aa;text-transform:uppercase}
-  </style>
-  <rect width="1200" height="760" fill="#eef5f4"/>
-  <path d="M58 646 C245 565 338 610 505 654 C693 704 833 607 1140 652" fill="none" stroke="#cde5e8" stroke-width="5" opacity=".7"/>
-  <path d="M66 130 C224 62 353 87 477 126" fill="none" stroke="#e7f1f2" stroke-width="4" opacity=".9"/>
-  <circle cx="1010" cy="110" r="80" fill="#eef7f3" opacity=".8"/>
-  <rect x="34" y="34" width="1132" height="692" rx="24" fill="url(#sheet)" stroke="#cddbe0" stroke-width="2" filter="url(#softShadow)"/>
-  <text x="64" y="86" class="title">Figure 1 | The Duopoly Battle Moves Beyond Single Products</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="494" height="347" viewBox="0 0 494 347" role="img">
+  <image href="facebook-01.png" x="0" y="0" width="494" height="347"/>
 
-  <g transform="translate(70 128)">
-    <rect x="0" y="0" width="455" height="496" rx="24" fill="url(#softBlue)" stroke="#b9d4df" filter="url(#cardShadow)"/>
-    <g transform="translate(284 250) scale(0.8)" opacity=".55">
-    <line x1="18" y1="22" x2="58" y2="48" stroke="#2d85b7" stroke-width="4"/>
-    <line x1="58" y1="48" x2="98" y2="26" stroke="#2d85b7" stroke-width="4"/>
-    <line x1="58" y1="48" x2="76" y2="92" stroke="#2d85b7" stroke-width="4"/>
-    <circle cx="18" cy="22" r="12" fill="#fff" stroke="#2d85b7" stroke-width="4"/>
-    <circle cx="58" cy="48" r="15" fill="#2d85b7" opacity=".28" stroke="#2d85b7" stroke-width="4"/>
-    <circle cx="98" cy="26" r="11" fill="#fff" stroke="#2d85b7" stroke-width="4"/>
-    <circle cx="76" cy="92" r="12" fill="#fff" stroke="#2d85b7" stroke-width="4"/>
-  </g>
-    <text x="228" y="54" class="brand" text-anchor="middle">Novo Nordisk</text>
-    <rect x="55" y="78" width="345" height="50" rx="14" fill="#2d85b7"/>
-    <text x="228" y="111" class="label" text-anchor="middle" fill="#fff">semaglutide family</text>
-    <g>
-      <g transform="translate(74 139) rotate(-32 24 12)">
-    <rect x="2" y="5" width="54" height="18" rx="9" fill="#fff" stroke="#2d85b7" stroke-width="3"/>
-    <rect x="35" y="5" width="19" height="18" rx="9" fill="#2d85b7" opacity=".28"/>
-    <line x1="55" y1="14" x2="69" y2="14" stroke="#2d85b7" stroke-width="3" stroke-linecap="round"/>
-  </g>
-      <text x="146" y="170" class="body" text-anchor="start">Ozempic (injection)</text>
-    </g>
-<g>
-      <g transform="translate(74 207) rotate(-32 24 12)">
-    <rect x="2" y="5" width="54" height="18" rx="9" fill="#fff" stroke="#2d85b7" stroke-width="3"/>
-    <rect x="35" y="5" width="19" height="18" rx="9" fill="#2d85b7" opacity=".28"/>
-    <line x1="55" y1="14" x2="69" y2="14" stroke="#2d85b7" stroke-width="3" stroke-linecap="round"/>
-  </g>
-      <text x="146" y="238" class="body" text-anchor="start">Wegovy (injection)</text>
-    </g>
-<g>
-      <g transform="translate(74 274) rotate(-24 24 14)">
-    <rect x="4" y="4" width="58" height="26" rx="13" fill="#fff" stroke="#2d85b7" stroke-width="3"/>
-    <path d="M33 5 v24" stroke="#2d85b7" stroke-width="2" opacity=".55"/>
-    <path d="M34 5 h15 a13 13 0 0 1 0 26 h-15z" fill="#2d85b7" opacity=".22"/>
-  </g>
-      <text x="146" y="306" class="body" text-anchor="start">Rybelsus (oral)</text>
-    </g>
-<g>
-      <g transform="translate(74 342) rotate(-24 24 14)">
-    <rect x="4" y="4" width="58" height="26" rx="13" fill="#fff" stroke="#2d85b7" stroke-width="3"/>
-    <path d="M33 5 v24" stroke="#2d85b7" stroke-width="2" opacity=".55"/>
-    <path d="M34 5 h15 a13 13 0 0 1 0 26 h-15z" fill="#2d85b7" opacity=".22"/>
-  </g>
-      <text x="146" y="374" class="body" text-anchor="start">Wegovy pill (oral)</text>
-    </g>
-    <rect x="42" y="400" width="370" height="84" rx="16" fill="#e4f2fa" stroke="#b7d4df"/>
-    <text x="227" y="426" class="small" text-anchor="middle">Brand + physician familiarity</text>
-<text x="227" y="451" class="small" text-anchor="middle">Global supply chain</text>
-<text x="227" y="476" class="small" text-anchor="middle">Injection franchise extends into oral therapy</text>
-  </g>
+  <rect x="0" y="0" width="494" height="32" rx="2" fill="#fff" stroke="none" opacity="1"/>
+  <text x="10" y="14" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#102a43" text-anchor="start">Fig. 1 | Duopoly battle:</text>
+<text x="10" y="28" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#102a43" text-anchor="start">injections, oral drugs, multi-targets</text>
 
-  <g transform="translate(675 128)">
-    <rect x="0" y="0" width="455" height="496" rx="24" fill="url(#softCoral)" stroke="#e4c4bd" filter="url(#cardShadow)"/>
-    <g transform="translate(290 250) scale(0.78)" opacity=".55">
-    <line x1="18" y1="22" x2="58" y2="48" stroke="#d95a55" stroke-width="4"/>
-    <line x1="58" y1="48" x2="98" y2="26" stroke="#d95a55" stroke-width="4"/>
-    <line x1="58" y1="48" x2="76" y2="92" stroke="#d95a55" stroke-width="4"/>
-    <circle cx="18" cy="22" r="12" fill="#fff" stroke="#d95a55" stroke-width="4"/>
-    <circle cx="58" cy="48" r="15" fill="#d95a55" opacity=".28" stroke="#d95a55" stroke-width="4"/>
-    <circle cx="98" cy="26" r="11" fill="#fff" stroke="#d95a55" stroke-width="4"/>
-    <circle cx="76" cy="92" r="12" fill="#fff" stroke="#d95a55" stroke-width="4"/>
-  </g>
-    <text x="228" y="54" class="brand" text-anchor="middle" fill="#c83f3a">Lilly</text>
-    <rect x="55" y="78" width="345" height="50" rx="14" fill="#d95a55"/>
-    <text x="228" y="111" class="label" text-anchor="middle" fill="#fff">tirzepatide family</text>
-    <g>
-      <g transform="translate(74 139) rotate(-32 24 12)">
-    <rect x="2" y="5" width="54" height="18" rx="9" fill="#fff" stroke="#d95a55" stroke-width="3"/>
-    <rect x="35" y="5" width="19" height="18" rx="9" fill="#d95a55" opacity=".28"/>
-    <line x1="55" y1="14" x2="69" y2="14" stroke="#d95a55" stroke-width="3" stroke-linecap="round"/>
-  </g>
-      <text x="146" y="170" class="body" text-anchor="start">Mounjaro (injection)</text>
-    </g>
-<g>
-      <g transform="translate(74 207) rotate(-32 24 12)">
-    <rect x="2" y="5" width="54" height="18" rx="9" fill="#fff" stroke="#d95a55" stroke-width="3"/>
-    <rect x="35" y="5" width="19" height="18" rx="9" fill="#d95a55" opacity=".28"/>
-    <line x1="55" y1="14" x2="69" y2="14" stroke="#d95a55" stroke-width="3" stroke-linecap="round"/>
-  </g>
-      <text x="146" y="238" class="body" text-anchor="start">Zepbound (injection)</text>
-    </g>
-<g>
-      <g transform="translate(74 275) rotate(-32 24 12)">
-    <rect x="2" y="5" width="54" height="18" rx="9" fill="#fff" stroke="#d95a55" stroke-width="3"/>
-    <rect x="35" y="5" width="19" height="18" rx="9" fill="#d95a55" opacity=".28"/>
-    <line x1="55" y1="14" x2="69" y2="14" stroke="#d95a55" stroke-width="3" stroke-linecap="round"/>
-  </g>
-      <text x="146" y="293" class="body" text-anchor="start">retatrutide</text>
-<text x="146" y="319" class="body" text-anchor="start">(GIP / GLP-1 / glucagon)</text>
-    </g>
-<g>
-      <g transform="translate(74 342) rotate(-24 24 14)">
-    <rect x="4" y="4" width="58" height="26" rx="13" fill="#fff" stroke="#d95a55" stroke-width="3"/>
-    <path d="M33 5 v24" stroke="#d95a55" stroke-width="2" opacity=".55"/>
-    <path d="M34 5 h15 a13 13 0 0 1 0 26 h-15z" fill="#d95a55" opacity=".22"/>
-  </g>
-      <text x="146" y="361" class="body" text-anchor="start">orforglipron</text>
-<text x="146" y="387" class="body" text-anchor="start">(oral small molecule)</text>
-    </g>
-    <rect x="42" y="400" width="370" height="84" rx="16" fill="#fde7e0" stroke="#e4c4bd"/>
-    <text x="227" y="426" class="small" text-anchor="middle">Stronger efficacy</text>
-<text x="227" y="451" class="small" text-anchor="middle">Deeper next-generation pipeline</text>
-<text x="227" y="476" class="small" text-anchor="middle">Multi-target biology and oralization</text>
-  </g>
+  <rect x="146" y="49" width="186" height="93" rx="4" fill="#fff" stroke="none" opacity="1"/>
+  <text x="239" y="71" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#102a43" text-anchor="middle">Portfolio showdown</text>
+  <text x="239" y="88" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#102a43" text-anchor="middle">From single-product rivalry</text>
+<text x="239" y="98" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#102a43" text-anchor="middle">to a metabolic</text>
+<text x="239" y="108" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#102a43" text-anchor="middle">ecosystem race</text>
 
-  <g transform="translate(506 236)">
-    <rect x="0" y="0" width="188" height="218" rx="30" fill="#fff" stroke="#cddbe0" filter="url(#cardShadow)"/>
-    <g transform="translate(22 32) scale(0.58)">
-    <rect x="18" y="0" width="42" height="14" rx="5" fill="#b7c9d1" stroke="#7d96a3"/>
-    <path d="M25 14 v16 c-10 9-15 27-15 54 v72 c0 10 8 18 18 18h58c10 0 18-8 18-18v-72c0-27-5-45-15-54V14z" fill="#f8fcfd" stroke="#2d85b7" stroke-width="4"/>
-    <path d="M16 112 c25 18 55 20 82 2v42c0 6-5 11-11 11h-60c-6 0-11-5-11-11z" fill="#2d85b7" opacity=".18"/>
-    <path d="M31 48 c8-10 37-14 56 1" fill="none" stroke="#d7e5ea" stroke-width="5" stroke-linecap="round"/>
-  </g>
-    <g transform="translate(96 32) scale(0.58)">
-    <rect x="18" y="0" width="42" height="14" rx="5" fill="#b7c9d1" stroke="#7d96a3"/>
-    <path d="M25 14 v16 c-10 9-15 27-15 54 v72 c0 10 8 18 18 18h58c10 0 18-8 18-18v-72c0-27-5-45-15-54V14z" fill="#f8fcfd" stroke="#d95a55" stroke-width="4"/>
-    <path d="M16 112 c25 18 55 20 82 2v42c0 6-5 11-11 11h-60c-6 0-11-5-11-11z" fill="#d95a55" opacity=".18"/>
-    <path d="M31 48 c8-10 37-14 56 1" fill="none" stroke="#d7e5ea" stroke-width="5" stroke-linecap="round"/>
-  </g>
-    <text x="94" y="172" class="brand" text-anchor="middle">VS.</text>
-    <text x="94" y="198" class="caption" text-anchor="middle">Portfolio race</text>
-  </g>
+  <rect x="9" y="87" width="142" height="18" rx="3" fill="#2b83b8" stroke="none" opacity="1"/>
+  <text x="80" y="101" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#fff" text-anchor="middle">semaglutide family</text>
+  <rect x="332" y="87" width="145" height="18" rx="3" fill="#c84f4a" stroke="none" opacity="1"/>
+  <text x="404" y="101" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#fff" text-anchor="middle">tirzepatide family</text>
+
+  <rect x="39" y="105" width="108" height="164" rx="4" fill="#f8fbfb" stroke="none" opacity="1"/>
+  <text x="70" y="136" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">Ozempic (injection)</text>
+<text x="70" y="155" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">Wegovy (injection)</text>
+<text x="70" y="174" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">Rybelsus (oral)</text>
+<text x="70" y="193" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">Wegovy pill (oral)</text>
+
+  <rect x="334" y="105" width="146" height="173" rx="4" fill="#fff8f6" stroke="none" opacity="1"/>
+  <text x="346" y="134" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">Mounjaro (injection)</text>
+<text x="346" y="150" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">Zepbound (injection)</text>
+<text x="346" y="166" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">retatrutide</text>
+<text x="346" y="182" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">(GIP / GLP-1 / glucagon)</text>
+<text x="346" y="198" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">orforglipron</text>
+<text x="346" y="214" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">(oral small molecule)</text>
+
+  <rect x="9" y="281" width="201" height="49" rx="4" fill="#eaf6fb" stroke="#b9d4df" opacity="0.98"/>
+  <text x="109" y="296" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#1f4c5f" text-anchor="middle">Brand recognition + physician familiarity</text>
+<text x="109" y="309" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#1f4c5f" text-anchor="middle">Global supply chain</text>
+<text x="109" y="322" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#1f4c5f" text-anchor="middle">Injection franchise extends into oral therapy</text>
+
+  <rect x="292" y="281" width="192" height="49" rx="4" fill="#fdeae5" stroke="#e4bdb5" opacity="0.98"/>
+  <text x="388" y="296" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#5f2a24" text-anchor="middle">Stronger efficacy + next-gen depth</text>
+<text x="388" y="309" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#5f2a24" text-anchor="middle">Multi-target biology</text>
+<text x="388" y="322" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#5f2a24" text-anchor="middle">Oralization advances together</text>
+
 </svg>

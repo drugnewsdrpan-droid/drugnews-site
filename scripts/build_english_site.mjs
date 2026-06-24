@@ -54,6 +54,10 @@ function head({ title, description, canonicalPath, image, depth = 1 }) {
   const root = "../".repeat(depth);
   const canonical = `${BASE_URL}/${canonicalPath}`;
   const zhPath = canonicalPath.startsWith("en/") ? canonicalPath.replace(/^en\//, "") : canonicalPath;
+  const homeSchema = canonicalPath === "en/" ? `
+  <meta name="keywords" content="Drugnews, biotech business analysis, pharmaceutical business analysis, biotech investing, clinical data, licensing, BD, valuation, capital markets, Taiwan biotech media">
+  <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"Drugnews｜藥時事","alternateName":["Drugnews","藥時事","Drugnews English"],"url":"${BASE_URL}/","logo":"${BASE_URL}/favicon.svg","description":"Drugnews is a biotech and pharmaceutical business-analysis media platform covering clinical data, company strategy, licensing, valuation, and capital-market signals.","sameAs":["https://www.facebook.com/profile.php?id=61568446257142","https://www.dcard.tw/@drugnews","https://vocus.cc/user/@Drugnews","https://www.cmoney.tw/app/expert/drugnews?ca=1","https://www.instagram.com/drugnews.com.tw/"],"email":"drugnews.dr.pan@gmail.com"},{"@type":"WebSite","name":"Drugnews English","alternateName":["Drugnews Biotech Business Analysis","Drugnews｜藥時事 English"],"url":"${BASE_URL}/en/","inLanguage":"en","description":"English edition of Drugnews biotech and pharmaceutical business analysis.","publisher":{"@type":"Organization","name":"Drugnews｜藥時事"},"potentialAction":{"@type":"SearchAction","target":"${BASE_URL}/en/articles/?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ItemList","name":"Latest Drugnews English Analysis","itemListElement":[{"@type":"ListItem","position":1,"url":"${BASE_URL}/articles/2026-06-22-obesity-drug-third-place-competition-en.html","name":"The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?"},{"@type":"ListItem","position":2,"url":"${BASE_URL}/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html","name":"Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer"},{"@type":"ListItem","position":3,"url":"${BASE_URL}/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html","name":"Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy"}]}]}</script>` : "";
   return `<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -73,6 +77,7 @@ function head({ title, description, canonicalPath, image, depth = 1 }) {
   <meta property="og:locale" content="en_US">
   ${image ? `<meta property="og:image" content="${escapeHtml(image)}">` : ""}
   <meta name="twitter:card" content="${image ? "summary_large_image" : "summary"}">
+  ${homeSchema}
 </head>`;
 }
 
