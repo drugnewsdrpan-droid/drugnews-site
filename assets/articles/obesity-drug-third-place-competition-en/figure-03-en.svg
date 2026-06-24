@@ -1,43 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Pfizer&apos;s opening">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Figure 3 | From GLP-1 Alone to Multi-Target Metabolic Control">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f8fbfb"/>
-      <stop offset="60%" stop-color="#eef7f7"/>
-      <stop offset="100%" stop-color="#fff7ef"/>
+    <linearGradient id="sheet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="54%" stop-color="#f8fbfb"/>
+      <stop offset="100%" stop-color="#fff8f1"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#12313c" flood-opacity="0.12"/>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#12313c" flood-opacity=".12"/>
     </filter>
   </defs>
   <style>
-    .label{font:800 22px Inter,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;fill:#a45f2b}
-    .title{font:800 42px Inter,Arial,sans-serif;fill:#14191d}
-    .subtitle{font:500 21px Inter,Arial,sans-serif;fill:#52616b}
-    .point{font:750 25px Inter,Arial,sans-serif;fill:#173843}
-    .small{font:700 18px Inter,Arial,sans-serif;fill:#6d7a83}
+    .title{font:800 34px Inter,Arial,sans-serif;fill:#122f3a}
+    .eyebrow{font:800 18px Inter,Arial,sans-serif;letter-spacing:.12em;fill:#9e5b28;text-transform:uppercase}
+    .label{font:800 25px Inter,Arial,sans-serif;fill:#12313c}
+    .body{font:700 22px Inter,Arial,sans-serif;fill:#243943}
+    .note{font:700 17px Inter,Arial,sans-serif;fill:#58707b}
+    .small{font:700 16px Inter,Arial,sans-serif;fill:#607680}
+    .axis{font:800 20px Inter,Arial,sans-serif;fill:#265f73}
+    .brand{font:900 31px Inter,Arial,sans-serif;fill:#12313c}
   </style>
-  <rect width="1200" height="675" fill="url(#bg)"/>
-  <path d="M770 80 C930 50 1040 120 1110 250 C1170 360 1110 530 970 585 C820 646 678 555 640 416 C602 276 634 122 770 80Z" fill="#12313c" opacity="0.08"/>
-  <path d="M760 482 C854 372 942 340 1064 362" fill="none" stroke="#d3752c" stroke-width="12" stroke-linecap="round" opacity=".9"/>
-  <path d="M780 225 C870 178 972 188 1064 252" fill="none" stroke="#265f73" stroke-width="10" stroke-linecap="round" opacity=".75"/>
-  <g filter="url(#shadow)">
-    <rect x="46" y="48" width="640" height="578" rx="26" fill="#fff" opacity=".95"/>
+  <rect width="1200" height="760" fill="#eef5f4"/>
+  <rect x="34" y="34" width="1132" height="692" rx="24" fill="url(#sheet)" stroke="#cddbe0" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="64" y="86" class="title">Figure 3 | From GLP-1 Alone to Multi-Target Metabolic Control</text>
+
+  <g transform="translate(70 150)">
+    <rect x="0" y="0" width="190" height="390" rx="18" fill="#fff" stroke="#d2dde2"/>
+    <text x="95" y="44" class="brand" text-anchor="middle" fill="#2f91b7">GLP-1</text>
+    <circle cx="95" cy="120" r="43" fill="#2f91b7" opacity=".14"/>
+    <text x="95" y="128" class="axis" text-anchor="middle" fill="#2f91b7">GLP-1R</text>
+    <text x="95" y="197" class="body" text-anchor="middle">Gut / pancreas</text>
+    <line x1="36" y1="230" x2="154" y2="230" stroke="#d9e3e7"/>
+    <text x="95" y="270" class="note" text-anchor="middle">Lower appetite</text>
+<text x="95" y="301" class="note" text-anchor="middle">Increase satiety</text>
+<text x="95" y="332" class="note" text-anchor="middle">Improve insulin response</text>
   </g>
-  <text x="70" y="104" class="label">Drugnews English</text>
-  <text x="70" y="142" class="title">Pfizer&apos;s opening</text>
-  <text x="70" y="308" class="subtitle">Berobenatide is a bet on lower treatment burden and</text>
-<text x="70" y="336" class="subtitle">monthly dosing.</text>
-  <g>
-      <circle cx="82" cy="410" r="8" fill="#d3752c"/>
-      <text x="104" y="418" class="point">Long-acting injection</text>
-    </g>
-<g>
-      <circle cx="82" cy="462" r="8" fill="#d3752c"/>
-      <text x="104" y="470" class="point">Adherence advantage</text>
-    </g>
-<g>
-      <circle cx="82" cy="514" r="8" fill="#d3752c"/>
-      <text x="104" y="522" class="point">Phase 3 proof still needed</text>
-    </g>
-  <text x="70" y="602" class="small">Drugnews | Biotech business analysis</text>
+  <g transform="translate(306 150)">
+    <rect x="0" y="0" width="190" height="390" rx="18" fill="#fff" stroke="#d2dde2"/>
+    <text x="95" y="44" class="brand" text-anchor="middle" fill="#7d65b5">GIP</text>
+    <circle cx="95" cy="120" r="43" fill="#7d65b5" opacity=".14"/>
+    <text x="95" y="128" class="axis" text-anchor="middle" fill="#7d65b5">GIPR</text>
+    <text x="95" y="197" class="body" text-anchor="middle">Pancreas</text>
+    <line x1="36" y1="230" x2="154" y2="230" stroke="#d9e3e7"/>
+    <text x="95" y="270" class="note" text-anchor="middle">Amplify incretin synergy</text>
+<text x="95" y="301" class="note" text-anchor="middle">Support glucose control</text>
+<text x="95" y="332" class="note" text-anchor="middle">Improve metabolism</text>
+  </g>
+  <g transform="translate(542 150)">
+    <rect x="0" y="0" width="190" height="390" rx="18" fill="#fff" stroke="#d2dde2"/>
+    <text x="95" y="44" class="brand" text-anchor="middle" fill="#b0653c">Glucagon</text>
+    <circle cx="95" cy="120" r="43" fill="#b0653c" opacity=".14"/>
+    <text x="95" y="128" class="axis" text-anchor="middle" fill="#b0653c">GCGR</text>
+    <text x="95" y="197" class="body" text-anchor="middle">Liver / fat</text>
+    <line x1="36" y1="230" x2="154" y2="230" stroke="#d9e3e7"/>
+    <text x="95" y="270" class="note" text-anchor="middle">Raise energy use</text>
+<text x="95" y="301" class="note" text-anchor="middle">Promote lipolysis</text>
+<text x="95" y="332" class="note" text-anchor="middle">Improve liver metabolism</text>
+  </g>
+  <g transform="translate(778 150)">
+    <rect x="0" y="0" width="190" height="390" rx="18" fill="#fff" stroke="#d2dde2"/>
+    <text x="95" y="44" class="brand" text-anchor="middle" fill="#d98933">Amylin</text>
+    <circle cx="95" cy="120" r="43" fill="#d98933" opacity=".14"/>
+    <text x="95" y="128" class="axis" text-anchor="middle" fill="#d98933">AMYR</text>
+    <text x="95" y="197" class="body" text-anchor="middle">Brain</text>
+    <line x1="36" y1="230" x2="154" y2="230" stroke="#d9e3e7"/>
+    <text x="95" y="270" class="note" text-anchor="middle">Slow gastric emptying</text>
+<text x="95" y="301" class="note" text-anchor="middle">Suppress appetite</text>
+<text x="95" y="332" class="note" text-anchor="middle">Increase satiety</text>
+  </g>
+  <g transform="translate(988 150)">
+    <rect x="0" y="0" width="120" height="390" rx="18" fill="#eef8f4" stroke="#bbd8cf"/>
+    <text x="60" y="52" class="axis" text-anchor="middle">Combo</text>
+    <rect x="32" y="104" width="56" height="56" rx="12" fill="#2f91b7" opacity=".72"/>
+    <rect x="56" y="128" width="56" height="56" rx="12" fill="#7d65b5" opacity=".72"/>
+    <rect x="20" y="164" width="56" height="56" rx="12" fill="#d98933" opacity=".72"/>
+    <rect x="56" y="202" width="56" height="56" rx="12" fill="#5ba36c" opacity=".72"/>
+    <text x="60" y="308" class="small" text-anchor="middle">GLP-1/GIP</text>
+<text x="60" y="332" class="small" text-anchor="middle">GLP-1/glucagon</text>
+<text x="60" y="356" class="small" text-anchor="middle">GLP-1/GIP/glucagon</text>
+<text x="60" y="380" class="small" text-anchor="middle">GLP-1 + amylin</text>
+  </g>
+  <rect x="112" y="596" width="976" height="62" rx="14" fill="#eaf3f6" stroke="#cadde4"/>
+  <text x="600" y="623" class="body" text-anchor="middle">A single mechanism becomes a coordinated metabolic network:</text>
+<text x="600" y="649" class="body" text-anchor="middle">efficacy, tolerability, and broader patient fit.</text>
 </svg>

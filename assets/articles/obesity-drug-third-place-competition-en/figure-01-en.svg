@@ -1,43 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Product-portfolio battle">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Figure 1 | The Duopoly Battle Moves Beyond Single Products">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f8fbfb"/>
-      <stop offset="60%" stop-color="#eef7f7"/>
-      <stop offset="100%" stop-color="#fff7ef"/>
+    <linearGradient id="sheet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="54%" stop-color="#f8fbfb"/>
+      <stop offset="100%" stop-color="#fff8f1"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#12313c" flood-opacity="0.12"/>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#12313c" flood-opacity=".12"/>
     </filter>
   </defs>
   <style>
-    .label{font:800 22px Inter,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;fill:#a45f2b}
-    .title{font:800 42px Inter,Arial,sans-serif;fill:#14191d}
-    .subtitle{font:500 21px Inter,Arial,sans-serif;fill:#52616b}
-    .point{font:750 25px Inter,Arial,sans-serif;fill:#173843}
-    .small{font:700 18px Inter,Arial,sans-serif;fill:#6d7a83}
+    .title{font:800 34px Inter,Arial,sans-serif;fill:#122f3a}
+    .eyebrow{font:800 18px Inter,Arial,sans-serif;letter-spacing:.12em;fill:#9e5b28;text-transform:uppercase}
+    .label{font:800 25px Inter,Arial,sans-serif;fill:#12313c}
+    .body{font:700 22px Inter,Arial,sans-serif;fill:#243943}
+    .note{font:700 17px Inter,Arial,sans-serif;fill:#58707b}
+    .small{font:700 16px Inter,Arial,sans-serif;fill:#607680}
+    .axis{font:800 20px Inter,Arial,sans-serif;fill:#265f73}
+    .brand{font:900 31px Inter,Arial,sans-serif;fill:#12313c}
   </style>
-  <rect width="1200" height="675" fill="url(#bg)"/>
-  <path d="M770 80 C930 50 1040 120 1110 250 C1170 360 1110 530 970 585 C820 646 678 555 640 416 C602 276 634 122 770 80Z" fill="#12313c" opacity="0.08"/>
-  <path d="M760 482 C854 372 942 340 1064 362" fill="none" stroke="#d3752c" stroke-width="12" stroke-linecap="round" opacity=".9"/>
-  <path d="M780 225 C870 178 972 188 1064 252" fill="none" stroke="#265f73" stroke-width="10" stroke-linecap="round" opacity=".75"/>
-  <g filter="url(#shadow)">
-    <rect x="46" y="48" width="640" height="578" rx="26" fill="#fff" opacity=".95"/>
+  <rect width="1200" height="760" fill="#eef5f4"/>
+  <rect x="34" y="34" width="1132" height="692" rx="24" fill="url(#sheet)" stroke="#cddbe0" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="64" y="86" class="title">Figure 1 | The Duopoly Battle Moves Beyond Single Products</text>
+
+  <g transform="translate(70 128)">
+    <rect x="0" y="0" width="455" height="496" rx="18" fill="#f2f8fb" stroke="#b9d4df"/>
+    <text x="228" y="54" class="brand" text-anchor="middle">Novo Nordisk</text>
+    <rect x="55" y="78" width="345" height="50" rx="14" fill="#2d85b7"/>
+    <text x="228" y="111" class="label" text-anchor="middle" fill="#fff">semaglutide family</text>
+    <g>
+      <rect x="82" y="142" width="44" height="18" rx="9" fill="#f7faf9" stroke="#2d85b7" stroke-width="3" transform="rotate(-35 104 151)"/>
+      <text x="146" y="170" class="body" text-anchor="start">Ozempic (injection)</text>
+    </g>
+<g>
+      <rect x="82" y="210" width="44" height="18" rx="9" fill="#f7faf9" stroke="#2d85b7" stroke-width="3" transform="rotate(-35 104 219)"/>
+      <text x="146" y="238" class="body" text-anchor="start">Wegovy (injection)</text>
+    </g>
+<g>
+      <rect x="82" y="278" width="44" height="18" rx="9" fill="#f7faf9" stroke="#2d85b7" stroke-width="3" transform="rotate(-35 104 287)"/>
+      <text x="146" y="306" class="body" text-anchor="start">Rybelsus (oral)</text>
+    </g>
+<g>
+      <rect x="82" y="346" width="44" height="18" rx="9" fill="#f7faf9" stroke="#2d85b7" stroke-width="3" transform="rotate(-35 104 355)"/>
+      <text x="146" y="374" class="body" text-anchor="start">Wegovy pill (oral)</text>
+    </g>
+    <rect x="42" y="400" width="370" height="84" rx="16" fill="#e4f2fa" stroke="#b7d4df"/>
+    <text x="227" y="426" class="small" text-anchor="middle">Brand + physician familiarity</text>
+<text x="227" y="451" class="small" text-anchor="middle">Global supply chain</text>
+<text x="227" y="476" class="small" text-anchor="middle">Injection franchise extends into oral therapy</text>
   </g>
-  <text x="70" y="104" class="label">Drugnews English</text>
-  <text x="70" y="142" class="title">Product-portfolio battle</text>
-  <text x="70" y="308" class="subtitle">The obesity race has moved from single drugs to full</text>
-<text x="70" y="336" class="subtitle">metabolic ecosystems.</text>
-  <g>
-      <circle cx="82" cy="410" r="8" fill="#d3752c"/>
-      <text x="104" y="418" class="point">Novo: semaglutide family</text>
+
+  <g transform="translate(675 128)">
+    <rect x="0" y="0" width="455" height="496" rx="18" fill="#fff4f1" stroke="#e4c4bd"/>
+    <text x="228" y="54" class="brand" text-anchor="middle" fill="#c83f3a">Lilly</text>
+    <rect x="55" y="78" width="345" height="50" rx="14" fill="#d95a55"/>
+    <text x="228" y="111" class="label" text-anchor="middle" fill="#fff">tirzepatide family</text>
+    <g>
+      <rect x="82" y="142" width="44" height="18" rx="9" fill="#f7faf9" stroke="#d95a55" stroke-width="3" transform="rotate(-35 104 151)"/>
+      <text x="146" y="170" class="body" text-anchor="start">Mounjaro (injection)</text>
     </g>
 <g>
-      <circle cx="82" cy="462" r="8" fill="#d3752c"/>
-      <text x="104" y="470" class="point">Lilly: tirzepatide family</text>
+      <rect x="82" y="210" width="44" height="18" rx="9" fill="#f7faf9" stroke="#d95a55" stroke-width="3" transform="rotate(-35 104 219)"/>
+      <text x="146" y="238" class="body" text-anchor="start">Zepbound (injection)</text>
     </g>
 <g>
-      <circle cx="82" cy="514" r="8" fill="#d3752c"/>
-      <text x="104" y="522" class="point">Oral drugs and multi-target biology</text>
+      <rect x="82" y="278" width="44" height="18" rx="9" fill="#f7faf9" stroke="#d95a55" stroke-width="3" transform="rotate(-35 104 287)"/>
+      <text x="146" y="293" class="body" text-anchor="start">retatrutide</text>
+<text x="146" y="319" class="body" text-anchor="start">(GIP / GLP-1 / glucagon)</text>
     </g>
-  <text x="70" y="602" class="small">Drugnews | Biotech business analysis</text>
+<g>
+      <rect x="82" y="346" width="44" height="18" rx="9" fill="#f7faf9" stroke="#d95a55" stroke-width="3" transform="rotate(-35 104 355)"/>
+      <text x="146" y="361" class="body" text-anchor="start">orforglipron</text>
+<text x="146" y="387" class="body" text-anchor="start">(oral small molecule)</text>
+    </g>
+    <rect x="42" y="400" width="370" height="84" rx="16" fill="#fde7e0" stroke="#e4c4bd"/>
+    <text x="227" y="426" class="small" text-anchor="middle">Stronger efficacy</text>
+<text x="227" y="451" class="small" text-anchor="middle">Deeper next-generation pipeline</text>
+<text x="227" y="476" class="small" text-anchor="middle">Multi-target biology and oralization</text>
+  </g>
+
+  <g transform="translate(525 254)">
+    <rect x="0" y="0" width="150" height="176" rx="22" fill="#fff" stroke="#cddbe0"/>
+    <path d="M44 44 h62 v70 h-62z" fill="#eef3f5" stroke="#9cb1ba"/>
+    <path d="M56 44 v-16 h38 v16" fill="none" stroke="#9cb1ba" stroke-width="7" stroke-linecap="round"/>
+    <text x="75" y="142" class="brand" text-anchor="middle">VS.</text>
+  </g>
 </svg>
