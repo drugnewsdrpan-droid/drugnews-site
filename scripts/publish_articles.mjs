@@ -1039,8 +1039,8 @@ function homePage(records) {
           </div>
         </a>
         <aside class="homepage-briefing" aria-label="最新文章快訊">
-          <p class="eyebrow">今日更新</p>
-          <h2>最新長文</h2>
+          <p class="eyebrow">近期閱讀</p>
+          <h2>近期文章</h2>
           <div id="briefing-articles">${briefingHtml}</div>
           <a class="text-link" href="articles/">進入文章中心</a>
         </aside>

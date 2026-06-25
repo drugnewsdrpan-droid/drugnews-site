@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">寶泰生醫與寵物重症醫療平台分析封面</title>
+  <desc id="desc">Drugnews article cover about Protect Biotech, pet specialty medicine, diagnostics, veterinary clinics, and platform strategy.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbfb"/>
+      <stop offset="0.52" stop-color="#e7f3f1"/>
+      <stop offset="1" stop-color="#f8f1e9"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d8290"/>
+      <stop offset="1" stop-color="#16445a"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5aa42"/>
+      <stop offset="1" stop-color="#d86e34"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#18333c" flood-opacity="0.16"/>
+    </filter>
+    <pattern id="grid" width="92" height="92" patternUnits="userSpaceOnUse">
+      <path d="M92 0H0v92" fill="none" stroke="#b9d6d2" stroke-width="1.4" opacity=".38"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity=".65"/>
+  <path d="M-80 690C200 570 380 580 605 660c212 75 385 92 615-55 146-94 286-126 454-74" fill="none" stroke="#d96f3a" stroke-width="10" opacity=".32"/>
+  <path d="M-50 740C260 610 470 660 680 718c242 68 430 58 630-70 126-80 231-100 352-70" fill="none" stroke="#1b8a9a" stroke-width="8" opacity=".22"/>
+  <g transform="translate(120 100)" filter="url(#shadow)">
+    <rect width="1360" height="700" rx="32" fill="#ffffff" opacity=".94"/>
+    <rect x="36" y="36" width="1288" height="628" rx="24" fill="none" stroke="#cfe0de" stroke-width="2"/>
+  </g>
+  <g transform="translate(185 575)">
+    <rect width="230" height="116" rx="30" fill="url(#teal)"/>
+    <circle cx="78" cy="58" r="38" fill="#ffffff" opacity=".22"/>
+    <path d="M59 58l18 18 42-50" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(420 565)">
+    <rect width="720" height="126" rx="32" fill="#f8fbfb" stroke="#cadbda" stroke-width="2"/>
+    <circle cx="82" cy="63" r="22" fill="#1e8c99"/>
+    <circle cx="230" cy="63" r="22" fill="#f6a54a"/>
+    <circle cx="378" cy="63" r="22" fill="#1e8c99"/>
+    <circle cx="526" cy="63" r="22" fill="#f6a54a"/>
+    <path d="M106 63h100M254 63h100M402 63h100" fill="none" stroke="#b9d6d2" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(415 180)">
+    <circle cx="390" cy="210" r="182" fill="#e7f4f1" stroke="#0d8290" stroke-width="9"/>
+    <circle cx="330" cy="165" r="40" fill="#1e8c99"/>
+    <circle cx="450" cy="165" r="40" fill="#1e8c99"/>
+    <circle cx="390" cy="265" r="58" fill="#f6a54a"/>
+    <path d="M347 198l42 105 65-105M350 198h104" fill="none" stroke="#18323a" stroke-width="12" stroke-linecap="round"/>
+    <path d="M235 367c96 72 215 82 318 15" fill="none" stroke="#d86e34" stroke-width="13" stroke-linecap="round"/>
+    <g transform="translate(0 20)">
+      <rect x="76" y="78" width="154" height="86" rx="24" fill="#ffffff" stroke="#cfe0de" stroke-width="2"/>
+      <circle cx="153" cy="121" r="24" fill="#d9eeeb"/>
+      <path d="M140 121h26M153 108v26" stroke="#1e8c99" stroke-width="8" stroke-linecap="round"/>
+      <rect x="552" y="82" width="154" height="86" rx="24" fill="#ffffff" stroke="#cfe0de" stroke-width="2"/>
+      <path d="M606 126c18-26 48-26 66 0" fill="none" stroke="#1e8c99" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="629" cy="112" r="18" fill="#d9eeeb"/>
+      <rect x="84" y="282" width="154" height="86" rx="24" fill="#ffffff" stroke="#cfe0de" stroke-width="2"/>
+      <path d="M130 326h62M161 295v62" stroke="#d86e34" stroke-width="11" stroke-linecap="round"/>
+      <rect x="544" y="282" width="154" height="86" rx="24" fill="#ffffff" stroke="#cfe0de" stroke-width="2"/>
+      <path d="M585 335c34-50 74-50 108 0" fill="none" stroke="#d86e34" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="621" cy="318" r="16" fill="#e7f4f1" stroke="#1e8c99" stroke-width="6"/>
+    </g>
+  </g>
+</svg>

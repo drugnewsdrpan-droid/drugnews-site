@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 24 Jun 2026 01:30:15 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 02:16:26 GMT</lastBuildDate>
+    <item>
+      <title>邁向「寵物醫療界羅氏」的寶泰生醫</title>
+      <link>https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html</guid>
+      <pubDate>Thu, 25 Jun 2026 00:30:00 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/protect-pet-medical-roche-platform/cover.svg" alt="寶泰生醫與寵物重症醫療平台分析封面"></p><p>當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。</p>]]></description>
+    </item>
     <item>
       <title>減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？</title>
       <link>https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Fri, 05 Jun 2026 02:30:00 GMT</pubDate>
       <category>商業分析系列</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/topical-jak-inhibitor-skin-delivery/dcard-01.webp" alt="外用 JAK 抑制劑文章原圖"></p><p>外用 JAK 抑制劑的核心不是單純抑制 JAK，而是分子能否穿過皮膚、留在局部、降低全身暴露，並在適應症與製劑設計上建立差異化。</p>]]></description>
-    </item>
-    <item>
-      <title>Retatrutide 殺進減重手術級別：禮來三重受體藥物，把肥胖治療推向新戰場</title>
-      <link>https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html</guid>
-      <pubDate>Thu, 04 Jun 2026 02:30:00 GMT</pubDate>
-      <category>商業分析系列</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/retatrutide-obesity-surgery-level-weight-loss/dcard-01.webp" alt="Retatrutide 肥胖治療文章原圖"></p><p>Eli Lilly 的 retatrutide 在三期試驗中把減重幅度推向接近手術級別，代表肥胖治療正從單一路徑抑制食慾，走向多受體代謝調控的新戰場。</p>]]></description>
     </item>
   </channel>
 </rss>
