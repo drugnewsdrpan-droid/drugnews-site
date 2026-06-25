@@ -2174,7 +2174,16 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .article-body figcaption,
   .sidebar {
     overflow-wrap: anywhere;
-    word-break: normal;
+    word-break: break-word;
+  }
+  .article-deck,
+  .article-body,
+  .article-body p {
+    width: 100%;
+  }
+  .article-section .container,
+  .article-hero .container {
+    overflow-x: clip;
   }
   .article-body p {
     font-size: 1.02rem;
