@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="Goodbye Autologous CAR-T: Why Taiwan&#39;s Cell-Therapy Bubble Also Needs to Break｜Drugnews">
   <meta property="og:description" content="A Drugnews English brief on Goodbye Autologous CAR-T: Why Taiwan&#39;s Cell-Therapy Bubble Also Needs to Break, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">A Drugnews English brief on Goodbye Autologous CAR-T: Why Taiwan&#39;s Cell-Therapy Bubble Also Needs to Break, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.</p>
       <p class="article-byline">By <a href="../team.html">Drugnews Editorial Team</a></p>
       <div class="tag-row"><span class="tag">Business Analysis</span><span class="tag">AI drug discovery</span><span class="tag">CAR-T</span><span class="tag">Immunology</span><span class="tag">Clinical development</span><span class="tag">Biotech business analysis</span><span class="tag">Drug development</span></div>
+      <div class="article-share" aria-label="Share this analysis">
+    <div>
+      <h2>Share this analysis</h2>
+      <p>Send this article to readers who follow biotech, company strategy, and capital-market signals.</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-04-27-car-t-en.html" target="_blank" rel="noopener">Share on Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-04-27-car-t-en.html" target="_blank" rel="noopener">Share on LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-04-27-car-t-en.html&title=Goodbye%20Autologous%20CAR-T%3A%20Why%20Taiwan's%20Cell-Therapy%20Bubble%20Also%20Needs%20to%20Break" target="_blank" rel="noopener">Share on LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-04-27-car-t-en.html" data-label="Copy link" data-copied="Copied">Copy link</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -70,6 +83,11 @@
 <h3>Original Chinese Edition</h3>
 <p>This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.</p>
 <p>Read the original Chinese article: <a href="https://drugnews.com.tw/articles/2026-04-27-car-t.html" target="_blank" rel="noopener">再見自體CAR-T，台灣的泡沫也該破了</a></p>
+      <div class="citation-box">
+    <h2>Cite this article</h2>
+    <p>For decks, research notes, or media references, cite Drugnews with the canonical article URL.</p>
+    <blockquote>Drugnews Editorial Team. &quot;Goodbye Autologous CAR-T: Why Taiwan&#39;s Cell-Therapy Bubble Also Needs to Break.&quot; Drugnews, Apr 27, 2026. https://drugnews.com.tw/articles/2026-04-27-car-t-en.html</blockquote>
+  </div>
       <div class="notice">This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div>
       
       <div class="paid-note">
@@ -125,5 +143,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "Copied";
+        setTimeout(() => { button.textContent = button.dataset.label || "Copy link"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital｜Drugnews">
   <meta property="og:description" content="GLP-1 is no longer only a weight-loss topic. It is redirecting biotech capital, BD urgency, manufacturing attention, and valuation imagination across global pharma.">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">GLP-1 is no longer only a weight-loss topic. It is redirecting biotech capital, BD urgency, manufacturing attention, and valuation imagination across global pharma.</p>
       <p class="article-byline">By <a href="../team.html">Drugnews Editorial Team</a></p>
       <div class="tag-row"><span class="tag">Biotech Valuation</span><span class="tag">Obesity medicine</span><span class="tag">Business development</span><span class="tag">Capital markets</span><span class="tag">Biotech business analysis</span><span class="tag">Drug development</span></div>
+      <div class="article-share" aria-label="Share this analysis">
+    <div>
+      <h2>Share this analysis</h2>
+      <p>Send this article to readers who follow biotech, company strategy, and capital-market signals.</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-11-glp1-biotech-capital-reshuffle-en.html" target="_blank" rel="noopener">Share on Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-11-glp1-biotech-capital-reshuffle-en.html" target="_blank" rel="noopener">Share on LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-11-glp1-biotech-capital-reshuffle-en.html&title=Obesity%20Becomes%20King%3A%20How%20GLP-1%20Is%20Reshuffling%20Global%20Biotech%20Capital" target="_blank" rel="noopener">Share on LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html" data-label="Copy link" data-copied="Copied">Copy link</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -128,6 +141,11 @@
 <hr>
 <p>[Reference materials] Public information from Deloitte, Citeline, FDA, Caliway, Bora Pharmaceuticals, and TTY Biopharm.</p>
 <p>[Disclaimer] This article is only for industrial research and does not constitute investment advice. Please make your own judgment and be responsible for your own profits and losses. This article is for industrial research and knowledge sharing only and does not constitute investment, medical, fund-raising or individual stock advice.</p>
+      <div class="citation-box">
+    <h2>Cite this article</h2>
+    <p>For decks, research notes, or media references, cite Drugnews with the canonical article URL.</p>
+    <blockquote>Drugnews Editorial Team. &quot;Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital.&quot; Drugnews, Jun 11, 2026. https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html</blockquote>
+  </div>
       <div class="notice">This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div>
       
       <div class="paid-note">
@@ -183,5 +201,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "Copied";
+        setTimeout(() => { button.textContent = button.dataset.label || "Copy link"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

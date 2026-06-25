@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet｜Drugnews">
   <meta property="og:description" content="As companion animals age and owners become more willing to pay for serious-disease care, the next major question in pet medicine is whether a platform company can connect drugs, diagnostics, veterinary clinics, regulation, manufacturing, channels, and data into one defensible system.">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">As companion animals age and owners become more willing to pay for serious-disease care, the next major question in pet medicine is whether a platform company can connect drugs, diagnostics, veterinary clinics, regulation, manufacturing, channels, and data into one defensible system.</p>
       <p class="article-byline">By <a href="../team.html">Drugnews Editorial Team</a></p>
       <div class="tag-row"><span class="tag">Business Analysis</span><span class="tag">Protect Biotech</span><span class="tag">Companion Animal Medicine</span><span class="tag">Pet Precision Medicine</span><span class="tag">Platform Company</span><span class="tag">Biotech Investing</span><span class="tag">Roche</span><span class="tag">Animal Health</span></div>
+      <div class="article-share" aria-label="Share this analysis">
+    <div>
+      <h2>Share this analysis</h2>
+      <p>Send this article to readers who follow biotech, company strategy, and capital-market signals.</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-25-protect-pet-medical-roche-platform-en.html" target="_blank" rel="noopener">Share on Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-25-protect-pet-medical-roche-platform-en.html" target="_blank" rel="noopener">Share on LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-25-protect-pet-medical-roche-platform-en.html&title=Toward%20the%20%E2%80%9CRoche%20of%20Pet%20Medicine%E2%80%9D%3A%20Protect%20Biotech%E2%80%99s%20Platform%20Bet" target="_blank" rel="noopener">Share on LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html" data-label="Copy link" data-copied="Copied">Copy link</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -163,6 +176,11 @@
 <p>https://www.tpex.org.tw/zh-tw/esb/trading/info/stock-pricing.html?code=7850</p>
 <hr>
 <p>This article is for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or stock-specific advice.</p>
+      <div class="citation-box">
+    <h2>Cite this article</h2>
+    <p>For decks, research notes, or media references, cite Drugnews with the canonical article URL.</p>
+    <blockquote>Drugnews Editorial Team. &quot;Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet.&quot; Drugnews, Jun 25, 2026. https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html</blockquote>
+  </div>
       <div class="notice">This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div>
       <h2>Original Article</h2><div class="tag-row"><a class="tag" href="https://www.facebook.com/permalink.php?story_fbid=pfbid02TxodB7ujrSQn7Ki6QYLpakQN6AKpGRQRvvpse5z597vVNX6idwAX5k2xVcNAA9Kbl&amp;id=61568446257142" target="_blank" rel="noopener">Original Facebook Post</a></div>
       <div class="paid-note">
@@ -218,5 +236,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "Copied";
+        setTimeout(() => { button.textContent = button.dataset.label || "Copy link"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

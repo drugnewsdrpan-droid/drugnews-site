@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="氣喘新藥正在換檔：從吸入三合一到上游免疫靶點!｜Drugnews">
   <meta property="og:description" content="氣喘治療正在從吸入三合一與症狀控制，走向上游免疫靶點、生物製劑與更精準的病人分型。">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">氣喘治療正在從吸入三合一與症狀控制，走向上游免疫靶點、生物製劑與更精準的病人分型。</p>
       <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
       <div class="tag-row"><span class="tag">氣喘</span><span class="tag">吸入三合一</span><span class="tag">免疫靶點</span><span class="tag">生物製劑</span><span class="tag">呼吸道疾病</span></div>
+      <div class="article-share" aria-label="分享這篇分析">
+    <div>
+      <h2>分享這篇分析</h2>
+      <p>把這篇文章轉給關注生技醫藥、公司研究或資本市場的朋友。</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-05-25-asthma-new-drug-immune-targets.html" target="_blank" rel="noopener">分享 Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-05-25-asthma-new-drug-immune-targets.html" target="_blank" rel="noopener">分享 LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-05-25-asthma-new-drug-immune-targets.html&title=%E6%B0%A3%E5%96%98%E6%96%B0%E8%97%A5%E6%AD%A3%E5%9C%A8%E6%8F%9B%E6%AA%94%EF%BC%9A%E5%BE%9E%E5%90%B8%E5%85%A5%E4%B8%89%E5%90%88%E4%B8%80%E5%88%B0%E4%B8%8A%E6%B8%B8%E5%85%8D%E7%96%AB%E9%9D%B6%E9%BB%9E!" target="_blank" rel="noopener">分享 LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-05-25-asthma-new-drug-immune-targets.html" data-label="複製連結" data-copied="已複製">複製連結</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -120,6 +133,11 @@
 <ol><li>GSK, 2025 Annual Report and depemokimab severe asthma approval announcement.</li></ol>
 <ol><li>GINA, Global Strategy for Asthma Management and Prevention.</li></ol>
 <ol><li>Sanofi / Regeneron, Dupixent asthma prescribing and clinical information.</li></ol>
+      <div class="citation-box">
+    <h2>引用本文</h2>
+    <p>若在簡報、報告或社群討論引用，建議附上 Drugnews 原文連結。</p>
+    <blockquote>Drugnews 編輯部，〈氣喘新藥正在換檔：從吸入三合一到上游免疫靶點!〉，Drugnews｜藥時事，2026/05/25，https://drugnews.com.tw/articles/2026-05-25-asthma-new-drug-immune-targets.html</blockquote>
+  </div>
       <div class="notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div>
       <h2>社群原文</h2><div class="tag-row"><a class="tag" href="https://www.dcard.tw/@drugnews/post/261543849" target="_blank" rel="noopener">原 Dcard 貼文</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">原 FB 貼文</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">Facebook 粉專</a><a class="tag" href="https://www.cmoney.tw/app/expert/drugnews?ca=1" target="_blank" rel="noopener">股市爆料同學會</a></div>
       <div class="paid-note">
@@ -175,5 +193,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. 本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "已複製";
+        setTimeout(() => { button.textContent = button.dataset.label || "複製連結"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

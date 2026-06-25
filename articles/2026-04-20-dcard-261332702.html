@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="歷史性一刻，世紀大藥來了｜Drugnews">
   <meta property="og:description" content="4 月 13 日，Revolution Medicines 公布 daraxonrasib（RMC-6236） 在三期臨床 RASolute 302 的頂線結果。對於既往接受過治療的轉移性胰臟導管腺癌（metastatic PDAC）患者，這顆口服藥把整體意向治療族群的中位總生存">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">4 月 13 日，Revolution Medicines 公布 daraxonrasib（RMC-6236） 在三期臨床 RASolute 302 的頂線結果。對於既往接受過治療的轉移性胰臟導管腺癌（metastatic PDAC）患者，這顆口服藥把整體意向治療族群的中位總生存</p>
       <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
       <div class="tag-row"><span class="tag">GLP-1</span><span class="tag">臨床數據</span><span class="tag">生技投資</span></div>
+      <div class="article-share" aria-label="分享這篇分析">
+    <div>
+      <h2>分享這篇分析</h2>
+      <p>把這篇文章轉給關注生技醫藥、公司研究或資本市場的朋友。</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-04-20-dcard-261332702.html" target="_blank" rel="noopener">分享 Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-04-20-dcard-261332702.html" target="_blank" rel="noopener">分享 LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-04-20-dcard-261332702.html&title=%E6%AD%B7%E5%8F%B2%E6%80%A7%E4%B8%80%E5%88%BB%EF%BC%8C%E4%B8%96%E7%B4%80%E5%A4%A7%E8%97%A5%E4%BE%86%E4%BA%86" target="_blank" rel="noopener">分享 LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-04-20-dcard-261332702.html" data-label="複製連結" data-copied="已複製">複製連結</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -105,6 +118,11 @@
 <p>&quot;Revolution Medicines&#39; experimental cancer pill boosts survival in late-stage study | Reuters&quot;</p>
 <p>[6]:</p>
 <hr>
+      <div class="citation-box">
+    <h2>引用本文</h2>
+    <p>若在簡報、報告或社群討論引用，建議附上 Drugnews 原文連結。</p>
+    <blockquote>Drugnews 編輯部，〈歷史性一刻，世紀大藥來了〉，Drugnews｜藥時事，2026/04/20，https://drugnews.com.tw/articles/2026-04-20-dcard-261332702.html</blockquote>
+  </div>
       <div class="notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div>
       <h2>社群原文</h2><div class="tag-row"><a class="tag" href="https://www.dcard.tw/@drugnews/post/261332702" target="_blank" rel="noopener">原 Dcard 貼文</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">原 FB 貼文</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">Facebook 粉專</a><a class="tag" href="https://www.cmoney.tw/app/expert/drugnews?ca=1" target="_blank" rel="noopener">股市爆料同學會</a></div>
       <div class="paid-note">
@@ -160,5 +178,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. 本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "已複製";
+        setTimeout(() => { button.textContent = button.dataset.label || "複製連結"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

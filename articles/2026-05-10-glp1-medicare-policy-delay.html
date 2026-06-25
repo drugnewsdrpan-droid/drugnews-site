@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="川普放政策鴿子，減肥藥價格白降了？｜Drugnews">
   <meta property="og:description" content="【川普政府放了 Eli Lilly（禮來）、Novo Nordisk （諾和諾德）的「鴿子」？GLP-1 進 Medicare，為什麼臨門一腳又卡住了】📌 2026 年 4 月下旬，美國減重藥市場出現">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">【川普政府放了 Eli Lilly（禮來）、Novo Nordisk （諾和諾德）的「鴿子」？GLP-1 進 Medicare，為什麼臨門一腳又卡住了】📌 2026 年 4 月下旬，美國減重藥市場出現</p>
       <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
       <div class="tag-row"><span class="tag">Alzheimer</span><span class="tag">GLP-1</span><span class="tag">Tirzepatide</span><span class="tag">FDA</span><span class="tag">減重藥</span></div>
+      <div class="article-share" aria-label="分享這篇分析">
+    <div>
+      <h2>分享這篇分析</h2>
+      <p>把這篇文章轉給關注生技醫藥、公司研究或資本市場的朋友。</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-05-10-glp1-medicare-policy-delay.html" target="_blank" rel="noopener">分享 Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-05-10-glp1-medicare-policy-delay.html" target="_blank" rel="noopener">分享 LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-05-10-glp1-medicare-policy-delay.html&title=%E5%B7%9D%E6%99%AE%E6%94%BE%E6%94%BF%E7%AD%96%E9%B4%BF%E5%AD%90%EF%BC%8C%E6%B8%9B%E8%82%A5%E8%97%A5%E5%83%B9%E6%A0%BC%E7%99%BD%E9%99%8D%E4%BA%86%EF%BC%9F" target="_blank" rel="noopener">分享 LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-05-10-glp1-medicare-policy-delay.html" data-label="複製連結" data-copied="已複製">複製連結</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -165,6 +178,11 @@
 <p>Extending the short-term GLP-1 Bridge program is good news for eligible Medicare beneficiaries because it provides the certainty of obesity drug coverage at a $50 copay for a longer duration, but federal spending will also rise by some unknown amount sinc</p>
 <p>www.kff.org</p>
 <p>&quot;CMS Extends Medicare’s Short-Term Bridge Program for GLP-1 Obesity Drug Coverage | KFF Quick Takes&quot;</p>
+      <div class="citation-box">
+    <h2>引用本文</h2>
+    <p>若在簡報、報告或社群討論引用，建議附上 Drugnews 原文連結。</p>
+    <blockquote>Drugnews 編輯部，〈川普放政策鴿子，減肥藥價格白降了？〉，Drugnews｜藥時事，2026/05/10，https://drugnews.com.tw/articles/2026-05-10-glp1-medicare-policy-delay.html</blockquote>
+  </div>
       <div class="notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div>
       <h2>社群原文</h2><div class="tag-row"><a class="tag" href="https://www.dcard.tw/@drugnews/post/261453263" target="_blank" rel="noopener">原 Dcard 貼文</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">原 FB 貼文</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">Facebook 粉專</a><a class="tag" href="https://www.cmoney.tw/app/expert/drugnews?ca=1" target="_blank" rel="noopener">股市爆料同學會</a></div>
       <div class="paid-note">
@@ -220,5 +238,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. 本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "已複製";
+        setTimeout(() => { button.textContent = button.dataset.label || "複製連結"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

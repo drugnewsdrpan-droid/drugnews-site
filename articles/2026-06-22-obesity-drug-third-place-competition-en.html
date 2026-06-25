@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?｜Drugnews">
   <meta property="og:description" content="Lilly and Novo Nordisk dominate the first phase of the obesity-drug market. The next investment question is who can become the third major player by solving the problems GLP-1 leaders have not fully solved.">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">Lilly and Novo Nordisk dominate the first phase of the obesity-drug market. The next investment question is who can become the third major player by solving the problems GLP-1 leaders have not fully solved.</p>
       <p class="article-byline">By <a href="../team.html">Drugnews Editorial Team</a></p>
       <div class="tag-row"><span class="tag">Obesity medicine</span><span class="tag">GLP-1</span><span class="tag">Eli Lilly</span><span class="tag">Novo Nordisk</span><span class="tag">Pfizer</span><span class="tag">Roche</span><span class="tag">AstraZeneca</span><span class="tag">Regeneron</span><span class="tag">Biotech investing</span><span class="tag">Capital markets</span></div>
+      <div class="article-share" aria-label="Share this analysis">
+    <div>
+      <h2>Share this analysis</h2>
+      <p>Send this article to readers who follow biotech, company strategy, and capital-market signals.</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-22-obesity-drug-third-place-competition-en.html" target="_blank" rel="noopener">Share on Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-22-obesity-drug-third-place-competition-en.html" target="_blank" rel="noopener">Share on LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-22-obesity-drug-third-place-competition-en.html&title=The%20Race%20for%20the%20Third%20Obesity-Drug%20Giant%3A%20Who%20Comes%20After%20Lilly%20and%20Novo%20Nordisk%3F" target="_blank" rel="noopener">Share on LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html" data-label="Copy link" data-copied="Copied">Copy link</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -168,6 +181,11 @@
 <p>The real competition is just beginning.</p>
 <hr>
 <p>This article is for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</p>
+      <div class="citation-box">
+    <h2>Cite this article</h2>
+    <p>For decks, research notes, or media references, cite Drugnews with the canonical article URL.</p>
+    <blockquote>Drugnews Editorial Team. &quot;The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?.&quot; Drugnews, Jun 22, 2026. https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html</blockquote>
+  </div>
       <div class="notice">This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div>
       
       <div class="paid-note">
@@ -223,5 +241,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "Copied";
+        setTimeout(() => { button.textContent = button.dataset.label || "Copy link"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

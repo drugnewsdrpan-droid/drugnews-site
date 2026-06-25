@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle｜Drugnews">
   <meta property="og:description" content="ASCO 2026 showed that oncology is moving from single-mechanism breakthroughs toward platform combinations across RAS targeting, ADCs, PD-1/VEGF bispecifics, and in vivo CAR-T.">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">ASCO 2026 showed that oncology is moving from single-mechanism breakthroughs toward platform combinations across RAS targeting, ADCs, PD-1/VEGF bispecifics, and in vivo CAR-T.</p>
       <p class="article-byline">By <a href="../team.html">Drugnews Editorial Team</a></p>
       <div class="tag-row"><span class="tag">ASCO</span><span class="tag">Oncology</span><span class="tag">RAS</span><span class="tag">ADC</span><span class="tag">PD-1 VEGF</span><span class="tag">In vivo CAR-T</span></div>
+      <div class="article-share" aria-label="Share this analysis">
+    <div>
+      <h2>Share this analysis</h2>
+      <p>Send this article to readers who follow biotech, company strategy, and capital-market signals.</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-15-2026-asco-car-t-en.html" target="_blank" rel="noopener">Share on Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-15-2026-asco-car-t-en.html" target="_blank" rel="noopener">Share on LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-15-2026-asco-car-t-en.html&title=ASCO%202026%3A%20RAS%2C%20ADCs%2C%20Bispecifics%2C%20and%20In%20Vivo%20CAR-T%20Point%20to%20a%20New%20Oncology%20Cycle" target="_blank" rel="noopener">Share on LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html" data-label="Copy link" data-copied="Copied">Copy link</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -68,6 +81,11 @@
 <p>For Taiwan and Asia biotech readers, the key lesson is not simply &quot;ASCO is important.&quot; The lesson is that data quality matters. A conference presentation is not enough. The market cares about endpoint hardness, control arm, sample size, follow-up duration, safety, global regulatory relevance, and whether the data can change clinical practice.</p>
 <p>The 2026 oncology cycle is not about one technology winning. It is about companies that can combine target biology, drug engineering, clinical design, manufacturing, capital allocation, and commercialization. Those are the companies that can turn scientific possibility into durable business value.</p>
 <p>This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</p>
+      <div class="citation-box">
+    <h2>Cite this article</h2>
+    <p>For decks, research notes, or media references, cite Drugnews with the canonical article URL.</p>
+    <blockquote>Drugnews Editorial Team. &quot;ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle.&quot; Drugnews, Jun 15, 2026. https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html</blockquote>
+  </div>
       <div class="notice">This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div>
       <h2>Original Article</h2><div class="tag-row"><a class="tag" href="https://www.facebook.com/permalink.php?story_fbid=122177675516614875&amp;id=61568446257142" target="_blank" rel="noopener">Original Facebook Post</a></div>
       <div class="paid-note">
@@ -115,5 +133,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "Copied";
+        setTimeout(() => { button.textContent = button.dataset.label || "Copy link"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

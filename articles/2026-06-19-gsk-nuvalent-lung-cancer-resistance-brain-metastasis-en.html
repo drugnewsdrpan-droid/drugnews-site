@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="GSK&#39;s US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases｜Drugnews">
   <meta property="og:description" content="GSK is not merely buying three lung-cancer pipelines. It is buying a next-generation precision-oncology strategy around resistance, CNS activity, and cleaner kinase inhibition.">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">GSK is not merely buying three lung-cancer pipelines. It is buying a next-generation precision-oncology strategy around resistance, CNS activity, and cleaner kinase inhibition.</p>
       <p class="article-byline">By <a href="../team.html">Drugnews Editorial Team</a></p>
       <div class="tag-row"><span class="tag">GSK</span><span class="tag">Nuvalent</span><span class="tag">Lung cancer</span><span class="tag">Precision oncology</span><span class="tag">Resistance</span><span class="tag">Brain metastases</span></div>
+      <div class="article-share" aria-label="Share this analysis">
+    <div>
+      <h2>Share this analysis</h2>
+      <p>Send this article to readers who follow biotech, company strategy, and capital-market signals.</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html" target="_blank" rel="noopener">Share on Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html" target="_blank" rel="noopener">Share on LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html&title=GSK's%20US%2410.6%20Billion%20Nuvalent%20Deal%20Is%20Really%20a%20Bet%20on%20Resistance%20and%20Brain%20Metastases" target="_blank" rel="noopener">Share on LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html" data-label="Copy link" data-copied="Copied">Copy link</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -67,6 +80,11 @@
 <p>For biotech investors, the Nuvalent deal is a reminder that BD value is often created by solving the second problem, not the first. The first problem was making targeted therapy work. The second is making it work after resistance, in the brain, and with tolerability good enough for chronic use.</p>
 <p>That is what GSK is paying for. Not just pipelines, but a more advanced precision-oncology thesis.</p>
 <p>This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</p>
+      <div class="citation-box">
+    <h2>Cite this article</h2>
+    <p>For decks, research notes, or media references, cite Drugnews with the canonical article URL.</p>
+    <blockquote>Drugnews Editorial Team. &quot;GSK&#39;s US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases.&quot; Drugnews, Jun 19, 2026. https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html</blockquote>
+  </div>
       <div class="notice">This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div>
       <h2>Original Article</h2><div class="tag-row"><a class="tag" href="https://www.facebook.com/permalink.php?story_fbid=122177977892614875&amp;id=61568446257142" target="_blank" rel="noopener">Original Facebook Post</a></div>
       <div class="paid-note">
@@ -122,5 +140,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "Copied";
+        setTimeout(() => { button.textContent = button.dataset.label || "Copy link"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

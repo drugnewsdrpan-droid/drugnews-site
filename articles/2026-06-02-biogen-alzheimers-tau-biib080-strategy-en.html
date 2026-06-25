@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="Biogen&#39;s High-Risk Bet: Can Tau Find a Way Out of the Alzheimer&#39;s R&amp;D Graveyard?｜Drugnews">
   <meta property="og:description" content="Biogen&#39;s BIIB080 tau program reflects a broader Alzheimer&#39;s reset: the field is no longer only asking whether amyloid matters, but whether tau biology can produce measurable disease-modifying benefit.">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">Biogen&#39;s BIIB080 tau program reflects a broader Alzheimer&#39;s reset: the field is no longer only asking whether amyloid matters, but whether tau biology can produce measurable disease-modifying benefit.</p>
       <p class="article-byline">By <a href="../team.html">Drugnews Editorial Team</a></p>
       <div class="tag-row"><span class="tag">Clinical and CMC</span><span class="tag">CNS</span><span class="tag">Big Pharma</span><span class="tag">Capital markets</span><span class="tag">Biotech business analysis</span><span class="tag">Drug development</span></div>
+      <div class="article-share" aria-label="Share this analysis">
+    <div>
+      <h2>Share this analysis</h2>
+      <p>Send this article to readers who follow biotech, company strategy, and capital-market signals.</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html" target="_blank" rel="noopener">Share on Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html" target="_blank" rel="noopener">Share on LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html&title=Biogen's%20High-Risk%20Bet%3A%20Can%20Tau%20Find%20a%20Way%20Out%20of%20the%20Alzheimer's%20R%26D%20Graveyard%3F" target="_blank" rel="noopener">Share on LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html" data-label="Copy link" data-copied="Copied">Copy link</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -69,6 +82,11 @@
 <p>This English page is designed to make Drugnews analysis searchable and readable for English-language audiences while preserving the Chinese original as the primary source edition.</p>
 <p>Read the original Chinese article: <a href="https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html" target="_blank" rel="noopener">Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？</a></p>
 <p>This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</p>
+      <div class="citation-box">
+    <h2>Cite this article</h2>
+    <p>For decks, research notes, or media references, cite Drugnews with the canonical article URL.</p>
+    <blockquote>Drugnews Editorial Team. &quot;Biogen&#39;s High-Risk Bet: Can Tau Find a Way Out of the Alzheimer&#39;s R&amp;D Graveyard?.&quot; Drugnews, Jun 02, 2026. https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html</blockquote>
+  </div>
       <div class="notice">This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div>
       
       <div class="paid-note">
@@ -124,5 +142,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "Copied";
+        setTimeout(() => { button.textContent = button.dataset.label || "Copy link"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

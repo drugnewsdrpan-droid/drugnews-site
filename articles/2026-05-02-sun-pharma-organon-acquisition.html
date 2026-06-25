@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="印度製藥巨頭的野望！併購美國藥廠！｜Drugnews">
   <meta property="og:description" content="【Sun Pharma 117.5 億美元收購 Organon：印度學名藥巨頭「抄底」百年女性健康平台，全球藥廠版圖正在重新排位】📌 4 月 26 日，印度最大製藥公司 Sun Pharmaceuti">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">【Sun Pharma 117.5 億美元收購 Organon：印度學名藥巨頭「抄底」百年女性健康平台，全球藥廠版圖正在重新排位】📌 4 月 26 日，印度最大製藥公司 Sun Pharmaceuti</p>
       <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
       <div class="tag-row"><span class="tag">Sun Pharma</span><span class="tag">Organon</span><span class="tag">BD</span><span class="tag">Stelara</span></div>
+      <div class="article-share" aria-label="分享這篇分析">
+    <div>
+      <h2>分享這篇分析</h2>
+      <p>把這篇文章轉給關注生技醫藥、公司研究或資本市場的朋友。</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-05-02-sun-pharma-organon-acquisition.html" target="_blank" rel="noopener">分享 Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-05-02-sun-pharma-organon-acquisition.html" target="_blank" rel="noopener">分享 LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-05-02-sun-pharma-organon-acquisition.html&title=%E5%8D%B0%E5%BA%A6%E8%A3%BD%E8%97%A5%E5%B7%A8%E9%A0%AD%E7%9A%84%E9%87%8E%E6%9C%9B%EF%BC%81%E4%BD%B5%E8%B3%BC%E7%BE%8E%E5%9C%8B%E8%97%A5%E5%BB%A0%EF%BC%81" target="_blank" rel="noopener">分享 LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-05-02-sun-pharma-organon-acquisition.html" data-label="複製連結" data-copied="已複製">複製連結</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -159,6 +172,11 @@
 <p>Close banner</p>
 <p>Wendy Young, an advisor at Google Ventures and former head of small-molecule drug discovery at Genentech, discusses the dearth of women’s health drug discovery programmes. Wendy Young, an advisor at Google Ventures and former head of small-molecule drug d</p>
 <p>www.nature.com</p>
+      <div class="citation-box">
+    <h2>引用本文</h2>
+    <p>若在簡報、報告或社群討論引用，建議附上 Drugnews 原文連結。</p>
+    <blockquote>Drugnews 編輯部，〈印度製藥巨頭的野望！併購美國藥廠！〉，Drugnews｜藥時事，2026/05/02，https://drugnews.com.tw/articles/2026-05-02-sun-pharma-organon-acquisition.html</blockquote>
+  </div>
       <div class="notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div>
       <h2>社群原文</h2><div class="tag-row"><a class="tag" href="https://www.dcard.tw/@drugnews/post/261405629" target="_blank" rel="noopener">原 Dcard 貼文</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">原 FB 貼文</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">Facebook 粉專</a><a class="tag" href="https://www.cmoney.tw/app/expert/drugnews?ca=1" target="_blank" rel="noopener">股市爆料同學會</a></div>
       <div class="paid-note">
@@ -214,5 +232,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. 本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "已複製";
+        setTimeout(() => { button.textContent = button.dataset.label || "複製連結"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="一篇文章講通現在的“禮來”併購邏輯｜Drugnews">
   <meta property="og:description" content="💡 四個月，五筆交易，若把交易上限全部加總，Eli Lilly 在 2026 年前四個月已經丟出超過 187 億美元的併購火力：1 月的 Ventyx Biosciences、2 月的 Orna Therapeutics、3 月的 Centessa Pharmaceutical">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">💡 四個月，五筆交易，若把交易上限全部加總，Eli Lilly 在 2026 年前四個月已經丟出超過 187 億美元的併購火力：1 月的 Ventyx Biosciences、2 月的 Orna Therapeutics、3 月的 Centessa Pharmaceutical</p>
       <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
       <div class="tag-row"><span class="tag">AI</span><span class="tag">GLP-1</span><span class="tag">自體免疫</span><span class="tag">BD</span><span class="tag">臨床數據</span></div>
+      <div class="article-share" aria-label="分享這篇分析">
+    <div>
+      <h2>分享這篇分析</h2>
+      <p>把這篇文章轉給關注生技醫藥、公司研究或資本市場的朋友。</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-04-29-dcard-261388300.html" target="_blank" rel="noopener">分享 Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-04-29-dcard-261388300.html" target="_blank" rel="noopener">分享 LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-04-29-dcard-261388300.html&title=%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E8%AC%9B%E9%80%9A%E7%8F%BE%E5%9C%A8%E7%9A%84%E2%80%9C%E7%A6%AE%E4%BE%86%E2%80%9D%E4%BD%B5%E8%B3%BC%E9%82%8F%E8%BC%AF" target="_blank" rel="noopener">分享 LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-04-29-dcard-261388300.html" data-label="複製連結" data-copied="已複製">複製連結</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -113,6 +126,11 @@
 <p>https://www.reuters.com/legal/litigation/eli-lilly-advanced-talks-acquire-kelonia-therapeutics-over-2-billion-wsj-says-2026-04-19/</p>
 <p>www.reuters.com</p>
 <hr>
+      <div class="citation-box">
+    <h2>引用本文</h2>
+    <p>若在簡報、報告或社群討論引用，建議附上 Drugnews 原文連結。</p>
+    <blockquote>Drugnews 編輯部，〈一篇文章講通現在的“禮來”併購邏輯〉，Drugnews｜藥時事，2026/04/29，https://drugnews.com.tw/articles/2026-04-29-dcard-261388300.html</blockquote>
+  </div>
       <div class="notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div>
       <h2>社群原文</h2><div class="tag-row"><a class="tag" href="https://www.dcard.tw/@drugnews/post/261388300" target="_blank" rel="noopener">原 Dcard 貼文</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">原 FB 貼文</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">Facebook 粉專</a><a class="tag" href="https://www.cmoney.tw/app/expert/drugnews?ca=1" target="_blank" rel="noopener">股市爆料同學會</a></div>
       <div class="paid-note">
@@ -168,5 +186,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. 本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "已複製";
+        setTimeout(() => { button.textContent = button.dataset.label || "複製連結"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

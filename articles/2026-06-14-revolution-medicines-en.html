@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science｜Drugnews">
   <meta property="og:description" content="Revolution Medicines shows why next-generation biotech companies need to convert clinical momentum into capital momentum if they want to finish expensive global drug-development races.">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">Revolution Medicines shows why next-generation biotech companies need to convert clinical momentum into capital momentum if they want to finish expensive global drug-development races.</p>
       <p class="article-byline">By <a href="../team.html">Drugnews Editorial Team</a></p>
       <div class="tag-row"><span class="tag">RAS</span><span class="tag">Revolution Medicines</span><span class="tag">Daraxonrasib</span><span class="tag">Biotech financing</span><span class="tag">Pancreatic cancer</span><span class="tag">Capital markets</span></div>
+      <div class="article-share" aria-label="Share this analysis">
+    <div>
+      <h2>Share this analysis</h2>
+      <p>Send this article to readers who follow biotech, company strategy, and capital-market signals.</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-14-revolution-medicines-en.html" target="_blank" rel="noopener">Share on Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-14-revolution-medicines-en.html" target="_blank" rel="noopener">Share on LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-06-14-revolution-medicines-en.html&title=Revolution%20Medicines%3A%20Why%20Biotech%20Winners%20Need%20Capital%20Strategy%2C%20Not%20Just%20Good%20Science" target="_blank" rel="noopener">Share on LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html" data-label="Copy link" data-copied="Copied">Copy link</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -71,6 +84,11 @@
 <p>The company is not valuable merely because it can raise money, and it is not valuable merely because it has a RAS story. Its real strength is that every clinical catalyst can become capital-market momentum, and every financing can buy more time for clinical execution.</p>
 <p>For Taiwan biotech companies, this is a useful reminder. The market window does not stay open forever. Mature biotech strategy means planning financing around value inflection points, not waiting until the runway is almost gone.</p>
 <p>This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</p>
+      <div class="citation-box">
+    <h2>Cite this article</h2>
+    <p>For decks, research notes, or media references, cite Drugnews with the canonical article URL.</p>
+    <blockquote>Drugnews Editorial Team. &quot;Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science.&quot; Drugnews, Jun 14, 2026. https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html</blockquote>
+  </div>
       <div class="notice">This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div>
       <h2>Original Article</h2><div class="tag-row"><a class="tag" href="https://www.dcard.tw/@drugnews/post/261659960" target="_blank" rel="noopener">Original Dcard Post</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">Original Facebook Post</a></div>
       <div class="paid-note">
@@ -126,5 +144,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "Copied";
+        setTimeout(() => { button.textContent = button.dataset.label || "Copy link"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>

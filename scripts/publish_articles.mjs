@@ -162,6 +162,15 @@ function articleUi(meta = {}) {
       sidebarCta: "了解訂閱",
       followTitle: "持續追蹤 Drugnews",
       followCopy: "最新貼文、付費長文與投資社群討論，會持續更新在各平台。",
+      shareTitle: "分享這篇分析",
+      shareCopy: "把這篇文章轉給關注生技醫藥、公司研究或資本市場的朋友。",
+      shareFacebook: "分享 Facebook",
+      shareLine: "分享 LINE",
+      shareLinkedIn: "分享 LinkedIn",
+      copyLink: "複製連結",
+      copied: "已複製",
+      citationTitle: "引用本文",
+      citationCopy: "若在簡報、報告或社群討論引用，建議附上 Drugnews 原文連結。",
       related: "延伸閱讀"
     };
   }
@@ -185,6 +194,15 @@ function articleUi(meta = {}) {
     sidebarCta: "Explore Subscription",
     followTitle: "Follow Drugnews",
     followCopy: "Latest posts, long-form research, and biotech market discussions are updated across our channels.",
+    shareTitle: "Share this analysis",
+    shareCopy: "Send this article to readers who follow biotech, company strategy, and capital-market signals.",
+    shareFacebook: "Share on Facebook",
+    shareLine: "Share on LINE",
+    shareLinkedIn: "Share on LinkedIn",
+    copyLink: "Copy link",
+    copied: "Copied",
+    citationTitle: "Cite this article",
+    citationCopy: "For decks, research notes, or media references, cite Drugnews with the canonical article URL.",
     related: "Related Reading"
   };
 }
@@ -661,6 +679,60 @@ function footerHtml(meta = {}) {
   return `<footer class="site-footer"><div class="container">© 2026 Drugnews. ${disclaimerFor(meta)}</div></footer>`;
 }
 
+function citationText(meta, url) {
+  const dateText = displayDate(meta.date, meta);
+  if (isEnglish(meta)) {
+    return `Drugnews Editorial Team. "${meta.title}." Drugnews, ${dateText}. ${url}`;
+  }
+  return `Drugnews 編輯部，〈${meta.title}〉，Drugnews｜藥時事，${dateText}，${url}`;
+}
+
+function sharePanelHtml(meta, url) {
+  const ui = articleUi(meta);
+  const encodedUrl = encodeURIComponent(url);
+  const encodedTitle = encodeURIComponent(meta.title);
+  return `<div class="article-share" aria-label="${escapeHtml(ui.shareTitle)}">
+    <div>
+      <h2>${escapeHtml(ui.shareTitle)}</h2>
+      <p>${escapeHtml(ui.shareCopy)}</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}" target="_blank" rel="noopener">${escapeHtml(ui.shareFacebook)}</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=${encodedUrl}" target="_blank" rel="noopener">${escapeHtml(ui.shareLine)}</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}&title=${encodedTitle}" target="_blank" rel="noopener">${escapeHtml(ui.shareLinkedIn)}</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="${escapeHtml(url)}" data-label="${escapeHtml(ui.copyLink)}" data-copied="${escapeHtml(ui.copied)}">${escapeHtml(ui.copyLink)}</button>
+    </div>
+  </div>`;
+}
+
+function citationBoxHtml(meta, url) {
+  const ui = articleUi(meta);
+  const citation = citationText(meta, url);
+  return `<div class="citation-box">
+    <h2>${escapeHtml(ui.citationTitle)}</h2>
+    <p>${escapeHtml(ui.citationCopy)}</p>
+    <blockquote>${escapeHtml(citation)}</blockquote>
+  </div>`;
+}
+
+function copyLinkScript(meta = {}) {
+  const ui = articleUi(meta);
+  return `<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || ${JSON.stringify(ui.copied)};
+        setTimeout(() => { button.textContent = button.dataset.label || ${JSON.stringify(ui.copyLink)}; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>`;
+}
+
 function articlePage(article, bodyHtml, related) {
   const { meta } = article;
   const ui = articleUi(meta);
@@ -737,6 +809,7 @@ function articlePage(article, bodyHtml, related) {
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
   <meta property="og:title" content="${escapeHtml(meta.title)}｜Drugnews">
   <meta property="og:description" content="${escapeHtml(meta.summary)}">
   <meta property="og:type" content="article">
@@ -762,12 +835,14 @@ ${headerHtml("articles", meta)}
       <p class="article-deck">${escapeHtml(meta.summary)}</p>
       <p class="article-byline">${ui.byline}<a href="../team.html">${ui.author}</a></p>
       <div class="tag-row">${visibleDisplayTags(meta.tags).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
+      ${sharePanelHtml(meta, url)}
     </div>
   </section>
   <section class="section article-section">
     <div class="container article-layout">
       <article class="article-body">
       ${bodyHtml}
+      ${citationBoxHtml(meta, url)}
       <div class="notice">${disclaimerFor(meta)}</div>
       ${sourceLinks ? `<h2>${ui.originalHeading}</h2><div class="tag-row">${sourceLinks}</div>` : ""}
       <div class="paid-note">
@@ -799,6 +874,7 @@ ${headerHtml("articles", meta)}
   </section>
 </main>
 ${footerHtml(meta)}
+${copyLinkScript(meta)}
 </body>
 </html>
 `;
@@ -939,6 +1015,7 @@ function articleIndexPage(records) {
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
   <meta property="og:title" content="Drugnews｜文章中心">
   <meta property="og:description" content="生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場判讀。">
   <meta property="og:type" content="website">
@@ -1009,6 +1086,17 @@ function homePage(records) {
         description: "藥時事 Drugnews 官方網站，專注生技醫藥商業分析、公司研究、授權交易、估值框架與資本市場判讀。",
         sameAs: [PAID_COLUMN_URL, FACEBOOK_URL, CMONEY_URL, DCARD_URL, "https://www.instagram.com/drugnews.com.tw/"],
         email: "drugnews.dr.pan@gmail.com",
+        knowsAbout: [
+          "生技醫藥商業分析",
+          "biotech business analysis",
+          "pharmaceutical business analysis",
+          "clinical data interpretation",
+          "biotech valuation",
+          "BD licensing",
+          "capital markets",
+          "CMC risk",
+          "drug development"
+        ],
         founder: { "@type": "Person", name: "Dr. Jo-Fan Pan", jobTitle: "Founder" }
       },
       {
@@ -1053,6 +1141,7 @@ function homePage(records) {
   <link rel="icon" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
   <meta property="og:title" content="藥時事 Drugnews 官方網站｜生技醫藥商業分析文章媒體">
   <meta property="og:description" content="藥時事 Drugnews 專注生技醫藥商業分析、公司研究、估值框架、授權交易與資本市場判讀，協助讀者形成可驗證的商業判斷。">
   <meta property="og:type" content="website">
@@ -1249,6 +1338,7 @@ function archivePage(key, records) {
   <link rel="icon" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
 </head>
 <body>
 <header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a><a href="../../en/index.html">English</a></nav></div></header>
@@ -1290,6 +1380,7 @@ function categoryPage(category, records) {
   <link rel="icon" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
 </head>
 <body>
 <header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a><a href="../../en/index.html">English</a></nav></div></header>
@@ -1320,6 +1411,7 @@ function typePage(access, records) {
   <link rel="icon" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
 </head>
 <body>
 <header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a><a href="../../en/index.html">English</a></nav></div></header>
@@ -1355,7 +1447,9 @@ function sitemap(records) {
     ["guides/cash-runway.html", "0.7"],
     ["subscribe.html", "0.8"],
     ["services.html", "0.8"],
-    ["team.html", "0.7"]
+    ["team.html", "0.7"],
+    ["llms.txt", "0.5"],
+    ["opensearch.xml", "0.4"]
   ];
   const urls = staticUrls.map(([loc, priority, lastmod]) => `  <url><loc>${BASE_URL}/${loc}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}<priority>${priority}</priority></url>`);
   for (const access of ACCESS_TYPES.keys()) {

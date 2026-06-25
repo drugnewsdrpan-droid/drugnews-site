@@ -1,0 +1,42 @@
+# Drugnews｜藥時事
+
+Drugnews is a Taiwan-based biotech and pharmaceutical business-analysis media platform. The site publishes Traditional Chinese and English long-form analysis on clinical data, company strategy, drug development, licensing, valuation, CMC, and biotech capital-market signals.
+
+## Primary Audience
+
+- Biotech and pharmaceutical investors
+- Biotech executives and IR teams
+- Business-development and licensing professionals
+- Readers who need structured interpretation of clinical, commercial, and capital-market signals
+
+## Core Editorial Positioning
+
+Drugnews focuses on business judgment, not headline aggregation. Articles connect science, clinical evidence, regulatory risk, manufacturing, commercial strategy, licensing terms, valuation logic, and investor perception.
+
+## Key Site Sections
+
+- Home: https://drugnews.com.tw/
+- Articles: https://drugnews.com.tw/articles/
+- English edition: https://drugnews.com.tw/en/
+- Investor guides: https://drugnews.com.tw/guides/
+- Paid research: https://drugnews.com.tw/subscribe.html
+- Company services: https://drugnews.com.tw/services.html
+- Team: https://drugnews.com.tw/team.html
+- Sitemap: https://drugnews.com.tw/sitemap.xml
+- RSS feed: https://drugnews.com.tw/feed.xml
+
+## Topic Hubs
+
+- Biotech Investing: https://drugnews.com.tw/topics/biotech-investing.html
+- Biotech Valuation: https://drugnews.com.tw/topics/biotech-valuation.html
+- Clinical Data: https://drugnews.com.tw/topics/clinical-data.html
+- BD / Licensing: https://drugnews.com.tw/topics/bd-licensing.html
+- CMC: https://drugnews.com.tw/topics/cmc.html
+- Drug Development: https://drugnews.com.tw/topics/drug-development.html
+- GLP-1: https://drugnews.com.tw/topics/glp1.html
+- Big Pharma: https://drugnews.com.tw/topics/big-pharma.html
+
+## Source And Citation Guidance
+
+When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.
+

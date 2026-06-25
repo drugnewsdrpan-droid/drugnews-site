@@ -12,6 +12,7 @@
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="https://drugnews.com.tw/opensearch.xml">
   <meta property="og:title" content="台灣這家Biotech將吃下AI基礎建設的所有紅利？｜Drugnews">
   <meta property="og:description" content="AI 吃電，核電回來了：為什麼麗寶新藥，可能站在下一個被重估的位置？">
   <meta property="og:type" content="article">
@@ -50,6 +51,18 @@
       <p class="article-deck">AI 吃電，核電回來了：為什麼麗寶新藥，可能站在下一個被重估的位置？</p>
       <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
       <div class="tag-row"><span class="tag">AI</span><span class="tag">自體免疫</span><span class="tag">臨床數據</span><span class="tag">生技投資</span></div>
+      <div class="article-share" aria-label="分享這篇分析">
+    <div>
+      <h2>分享這篇分析</h2>
+      <p>把這篇文章轉給關注生技醫藥、公司研究或資本市場的朋友。</p>
+    </div>
+    <div class="share-actions">
+      <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-04-18-biotech-ai.html" target="_blank" rel="noopener">分享 Facebook</a>
+      <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-04-18-biotech-ai.html" target="_blank" rel="noopener">分享 LINE</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrugnews.com.tw%2Farticles%2F2026-04-18-biotech-ai.html&title=%E5%8F%B0%E7%81%A3%E9%80%99%E5%AE%B6Biotech%E5%B0%87%E5%90%83%E4%B8%8BAI%E5%9F%BA%E7%A4%8E%E5%BB%BA%E8%A8%AD%E7%9A%84%E6%89%80%E6%9C%89%E7%B4%85%E5%88%A9%EF%BC%9F" target="_blank" rel="noopener">分享 LinkedIn</a>
+      <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-04-18-biotech-ai.html" data-label="複製連結" data-copied="已複製">複製連結</button>
+    </div>
+  </div>
     </div>
   </section>
   <section class="section article-section">
@@ -149,6 +162,11 @@
 <figure><img src="../assets/articles/biotech-ai/dcard-03.png" alt="Dcard 原圖：台灣這家Biotech將吃下AI基礎建設的所有紅利？（圖 3）" loading="lazy"></figure>
 <figure><img src="../assets/articles/biotech-ai/dcard-04.png" alt="Dcard 原圖：台灣這家Biotech將吃下AI基礎建設的所有紅利？（圖 4）" loading="lazy"></figure>
 <hr>
+      <div class="citation-box">
+    <h2>引用本文</h2>
+    <p>若在簡報、報告或社群討論引用，建議附上 Drugnews 原文連結。</p>
+    <blockquote>Drugnews 編輯部，〈台灣這家Biotech將吃下AI基礎建設的所有紅利？〉，Drugnews｜藥時事，2026/04/18，https://drugnews.com.tw/articles/2026-04-18-biotech-ai.html</blockquote>
+  </div>
       <div class="notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div>
       <h2>社群原文</h2><div class="tag-row"><a class="tag" href="https://www.dcard.tw/@drugnews/post/261321301" target="_blank" rel="noopener">原 Dcard 貼文</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">原 FB 貼文</a><a class="tag" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">Facebook 粉專</a><a class="tag" href="https://www.cmoney.tw/app/expert/drugnews?ca=1" target="_blank" rel="noopener">股市爆料同學會</a></div>
       <div class="paid-note">
@@ -204,5 +222,19 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container">© 2026 Drugnews. 本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div></footer>
+<script>
+  document.querySelectorAll(".copy-link").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const url = button.dataset.copyUrl || location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset.copied || "已複製";
+        setTimeout(() => { button.textContent = button.dataset.label || "複製連結"; }, 1800);
+      } catch (error) {
+        location.href = url;
+      }
+    });
+  });
+</script>
 </body>
 </html>
