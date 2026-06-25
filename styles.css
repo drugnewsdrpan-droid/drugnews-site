@@ -1710,6 +1710,41 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 .article-body p { margin: 20px 0; color: #26323a; font-size: 1.03rem; line-height: 1.9; }
 .article-body ul, .article-body ol { padding-left: 1.4rem; }
 .article-body li { margin: 8px 0; line-height: 1.82; }
+.article-body .table-scroll {
+  width: 100%;
+  overflow-x: auto;
+  margin: 30px 0 36px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.article-body table {
+  width: 100%;
+  min-width: 680px;
+  border-collapse: collapse;
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
+
+.article-body th,
+.article-body td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  vertical-align: top;
+  text-align: left;
+}
+
+.article-body th {
+  color: var(--brand);
+  background: #f4f8f8;
+  font-weight: 800;
+}
+
+.article-body tr:last-child td { border-bottom: 0; }
+.article-body th:last-child,
+.article-body td:last-child { border-right: 0; }
 .article-body blockquote {
   margin: 32px 0;
   padding: 18px 22px;

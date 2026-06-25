@@ -94,6 +94,9 @@ function stripMarkdown(markdown) {
   return markdown
     .replace(/!\[[^\]]*]\([^)]+\)/g, "")
     .replace(/\[([^\]]+)]\([^)]+\)/g, "$1")
+    .replace(/^\|\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|$/gm, "")
+    .replace(/\|/g, " ")
+    .replace(/<br\s*\/?>/gi, " ")
     .replace(/[`*_>#-]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
@@ -420,7 +423,9 @@ function markdownToHtml(markdown, imageMap) {
   const out = [];
   const paragraph = [];
   let list = [];
+  let orderedList = [];
   let quote = [];
+  let table = [];
   let inCode = false;
   let code = [];
 
@@ -428,6 +433,12 @@ function markdownToHtml(markdown, imageMap) {
     if (!list.length) return;
     out.push(`<ul>${list.map((item) => `<li>${inlineMarkdown(item)}</li>`).join("")}</ul>`);
     list = [];
+  }
+
+  function flushOrderedList() {
+    if (!orderedList.length) return;
+    out.push(`<ol>${orderedList.map((item) => `<li>${inlineMarkdown(item)}</li>`).join("")}</ol>`);
+    orderedList = [];
   }
 
   function flushQuote() {
@@ -442,6 +453,40 @@ function markdownToHtml(markdown, imageMap) {
     code = [];
   }
 
+  function isTableRow(value) {
+    return /^\|.+\|$/.test(value);
+  }
+
+  function isTableSeparator(value) {
+    return /^\|\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|$/.test(value);
+  }
+
+  function splitTableRow(value) {
+    return value
+      .replace(/^\|/, "")
+      .replace(/\|$/, "")
+      .split("|")
+      .map((cell) => cell.trim());
+  }
+
+  function flushTable() {
+    if (!table.length) return;
+    if (table.length >= 2 && isTableSeparator(table[1])) {
+      const headers = splitTableRow(table[0]);
+      const rows = table.slice(2).map(splitTableRow);
+      out.push(
+        `<div class="table-scroll"><table><thead><tr>${headers
+          .map((cell) => `<th>${inlineMarkdown(cell)}</th>`)
+          .join("")}</tr></thead><tbody>${rows
+          .map((row) => `<tr>${headers.map((_, index) => `<td>${inlineMarkdown(row[index] || "")}</td>`).join("")}</tr>`)
+          .join("")}</tbody></table></div>`
+      );
+    } else {
+      out.push(...table.map((row) => `<p>${inlineMarkdown(row)}</p>`));
+    }
+    table = [];
+  }
+
   for (const line of lines) {
     if (line.trim().startsWith("```")) {
       if (inCode) {
@@ -450,7 +495,9 @@ function markdownToHtml(markdown, imageMap) {
       } else {
         flushParagraph(paragraph, out);
         flushList();
+        flushOrderedList();
         flushQuote();
+        flushTable();
         inCode = true;
       }
       continue;
@@ -465,12 +512,24 @@ function markdownToHtml(markdown, imageMap) {
     if (!trimmed) {
       flushParagraph(paragraph, out);
       flushList();
+      flushOrderedList();
       flushQuote();
+      flushTable();
       continue;
     }
+    if (isTableRow(trimmed)) {
+      flushParagraph(paragraph, out);
+      flushList();
+      flushOrderedList();
+      flushQuote();
+      table.push(trimmed);
+      continue;
+    }
+    flushTable();
     if (image) {
       flushParagraph(paragraph, out);
       flushList();
+      flushOrderedList();
       flushQuote();
       const alt = image[1];
       const src = imageMap.get(image[2]) || image[2];
@@ -480,6 +539,7 @@ function markdownToHtml(markdown, imageMap) {
     if (/^-{3,}$/.test(trimmed)) {
       flushParagraph(paragraph, out);
       flushList();
+      flushOrderedList();
       flushQuote();
       out.push("<hr>");
       continue;
@@ -488,6 +548,7 @@ function markdownToHtml(markdown, imageMap) {
     if (heading) {
       flushParagraph(paragraph, out);
       flushList();
+      flushOrderedList();
       flushQuote();
       const level = heading[1].length + 1;
       out.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);
@@ -496,24 +557,37 @@ function markdownToHtml(markdown, imageMap) {
     const item = trimmed.match(/^[-*]\s+(.+)$/);
     if (item) {
       flushParagraph(paragraph, out);
+      flushOrderedList();
       flushQuote();
       list.push(item[1]);
+      continue;
+    }
+    const orderedItem = trimmed.match(/^\d+\.\s+(.+)$/);
+    if (orderedItem) {
+      flushParagraph(paragraph, out);
+      flushList();
+      flushQuote();
+      orderedList.push(orderedItem[1]);
       continue;
     }
     const q = trimmed.match(/^>\s?(.+)$/);
     if (q) {
       flushParagraph(paragraph, out);
       flushList();
+      flushOrderedList();
       quote.push(q[1]);
       continue;
     }
     flushList();
+    flushOrderedList();
     flushQuote();
     paragraph.push(trimmed);
   }
   flushParagraph(paragraph, out);
   flushList();
+  flushOrderedList();
   flushQuote();
+  flushTable();
   flushCode();
   return out.join("\n");
 }
