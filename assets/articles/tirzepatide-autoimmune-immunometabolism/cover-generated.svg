@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Tirzepatide 進軍自體免疫與免疫代謝治療分析封面</title>
+  <desc id="desc">以免疫代謝、GLP-1/GIP、乾癬與發炎疾病為主題的 Drugnews 商業分析封面。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7faf8"/>
+      <stop offset="0.52" stop-color="#e8f2ef"/>
+      <stop offset="1" stop-color="#eef1f8"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f7d68"/>
+      <stop offset="1" stop-color="#38a77f"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#234f7d"/>
+      <stop offset="1" stop-color="#4b80b7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#17344a" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="58" y="54" width="1084" height="567" rx="26" fill="#ffffff" opacity="0.78"/>
+  <g opacity="0.3">
+    <path d="M95 510 C275 448 380 560 552 487 C724 413 761 281 942 312 C1040 328 1109 391 1150 428" fill="none" stroke="#7ca394" stroke-width="3"/>
+    <path d="M90 548 C290 487 391 602 571 529 C754 455 804 325 978 354 C1055 367 1114 410 1150 447" fill="none" stroke="#9aa8c0" stroke-width="2"/>
+  </g>
+  <g transform="translate(718 126)" filter="url(#shadow)">
+    <circle cx="170" cy="180" r="150" fill="#fafdff"/>
+    <circle cx="170" cy="180" r="116" fill="none" stroke="#d9e9e5" stroke-width="18"/>
+    <path d="M74 196 C116 164 144 161 174 181 C205 202 228 199 266 167" fill="none" stroke="url(#green)" stroke-width="15" stroke-linecap="round"/>
+    <path d="M103 125 C136 151 169 150 203 121 C231 97 263 94 296 114" fill="none" stroke="url(#blue)" stroke-width="12" stroke-linecap="round"/>
+    <g fill="#0f7d68">
+      <circle cx="76" cy="196" r="13"/>
+      <circle cx="174" cy="181" r="13"/>
+      <circle cx="266" cy="167" r="13"/>
+    </g>
+    <g fill="#234f7d">
+      <circle cx="103" cy="125" r="10"/>
+      <circle cx="203" cy="121" r="10"/>
+      <circle cx="296" cy="114" r="10"/>
+    </g>
+    <rect x="38" y="338" width="265" height="58" rx="29" fill="#102a43"/>
+    <text x="171" y="375" text-anchor="middle" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="24" font-weight="700" fill="#ffffff">IMMUNO-METABOLISM</text>
+  </g>
+  <g transform="translate(92 108)">
+    <text font-family="Arial, 'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#0f7d68" letter-spacing="3">DRUGNEWS BUSINESS ANALYSIS</text>
+    <text x="0" y="78" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="54" font-weight="800" fill="#102a43">Tirzepatide</text>
+    <text x="0" y="145" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="48" font-weight="800" fill="#102a43">進軍自體免疫</text>
+    <text x="0" y="205" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="34" font-weight="700" fill="#255f56">GLP-1 的下一個戰場</text>
+    <text x="0" y="263" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="24" fill="#4b5f6f">Zepbound + Taltz / 乾癬 / 乾癬性關節炎 / IBD</text>
+    <g transform="translate(0 334)">
+      <rect width="154" height="44" rx="22" fill="#e0f1ec"/>
+      <text x="77" y="29" text-anchor="middle" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#0f7d68">GLP-1/GIP</text>
+      <rect x="170" width="150" height="44" rx="22" fill="#e6ecf6"/>
+      <text x="245" y="29" text-anchor="middle" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#234f7d">免疫代謝</text>
+      <rect x="336" width="140" height="44" rx="22" fill="#f0ece4"/>
+      <text x="406" y="29" text-anchor="middle" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="20" font-weight="700" fill="#765d2e">Phase 3b</text>
+    </g>
+  </g>
+</svg>
