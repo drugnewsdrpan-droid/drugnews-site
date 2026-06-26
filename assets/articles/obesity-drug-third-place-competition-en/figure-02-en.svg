@@ -1,64 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="542" height="349" viewBox="0 0 542 349" role="img">
-  <image href="facebook-02.png" x="0" y="0" width="542" height="349"/>
-
-  <rect x="0" y="0" width="542" height="36" rx="2" fill="#fff" stroke="none" opacity="1"/>
-  <text x="12" y="23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#102a43" text-anchor="start">Fig. 2 | MNC obesity strategies: differentiated routes to third place</text>
-
-  <rect x="4" y="79" width="105" height="197" rx="4" fill="#f8fbfb" stroke="#bdd3dc" opacity="0.99"/>
-  <text x="65" y="108" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#183848" text-anchor="middle">Berobenatide</text>
-  <text x="65" y="126" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#183848" text-anchor="middle">Long-acting</text>
-<text x="65" y="136" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#183848" text-anchor="middle">GLP-1 analog</text>
-  <text x="65" y="203" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#183848" text-anchor="middle">Monthly</text>
-<text x="65" y="215" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#183848" text-anchor="middle">injection</text>
-<text x="65" y="227" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#183848" text-anchor="middle">window</text>
-
-  <rect x="112" y="79" width="104" height="197" rx="4" fill="#fbf8ff" stroke="#d8cce9" opacity="0.99"/>
-  <text x="165" y="106" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#2d2a55" text-anchor="middle">Petrelintide</text>
-  <text x="165" y="122" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#2d2a55" text-anchor="middle">Long-acting</text>
-<text x="165" y="132" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#2d2a55" text-anchor="middle">amylin analog</text>
-  <text x="165" y="168" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#2d2a55" text-anchor="middle">Enicepatide</text>
-  <text x="165" y="184" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#2d2a55" text-anchor="middle">GLP-1/GIP</text>
-<text x="165" y="194" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#2d2a55" text-anchor="middle">dual agonist</text>
-  <text x="165" y="232" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#2d2a55" text-anchor="middle">Tolerability</text>
-<text x="165" y="244" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#2d2a55" text-anchor="middle">+ efficacy</text>
-
-  <rect x="220" y="79" width="104" height="197" rx="4" fill="#fff9ec" stroke="#ead7a4" opacity="0.99"/>
-  <text x="264" y="107" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#5d4521" text-anchor="middle">Ecnoglutide</text>
-  <text x="264" y="127" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#5d4521" text-anchor="middle">Oral small-</text>
-<text x="264" y="137" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#5d4521" text-anchor="middle">molecule GLP-1</text>
-  <text x="264" y="232" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#5d4521" text-anchor="middle">CRM</text>
-<text x="264" y="244" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#5d4521" text-anchor="middle">integration</text>
-
-  <rect x="328" y="79" width="95" height="197" rx="4" fill="#f2fbf3" stroke="#b9dabd" opacity="0.99"/>
-  <text x="363" y="107" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#25472c" text-anchor="middle">Trevogrumab</text>
-  <text x="363" y="126" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#25472c" text-anchor="middle">Anti-myostatin</text>
-<text x="363" y="136" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#25472c" text-anchor="middle">antibody</text>
-  <text x="363" y="232" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#25472c" text-anchor="middle">Preserve</text>
-<text x="363" y="244" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#25472c" text-anchor="middle">muscle quality</text>
-
-  <rect x="426" y="79" width="105" height="197" rx="4" fill="#f0faf9" stroke="#bddad8" opacity="0.99"/>
-  <rect x="424" y="32" width="112" height="47" rx="0" fill="#fff" stroke="none" opacity="1"/>
-  <text x="480" y="53" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#1f4e52" text-anchor="middle">Asia / China</text>
-<text x="480" y="65" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#1f4e52" text-anchor="middle">innovation</text>
-  <text x="472" y="105" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#1f4e52" text-anchor="middle">Mazdutide</text>
-<text x="472" y="118" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#1f4e52" text-anchor="middle">Rybubatide</text>
-<text x="472" y="131" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#1f4e52" text-anchor="middle">Ecnoglutide</text>
-  <text x="472" y="164" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#1f4e52" text-anchor="middle">Multi-target</text>
-<text x="472" y="174" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#1f4e52" text-anchor="middle">and oral routes</text>
-  <text x="472" y="232" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#1f4e52" text-anchor="middle">Local speed</text>
-<text x="472" y="244" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#1f4e52" text-anchor="middle">+ global ambition</text>
-
-  <rect x="4" y="276" width="106" height="62" rx="4" fill="#edf6fb" stroke="#bfd4df" opacity="1"/>
-  <text x="57" y="302" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#244a5a" text-anchor="middle">Lower treatment burden</text>
-  <rect x="116" y="276" width="94" height="62" rx="4" fill="#f3effb" stroke="#d8cce9" opacity="1"/>
-  <text x="163" y="302" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#3d3560" text-anchor="middle">Combination optionality</text>
-  <rect x="218" y="276" width="88" height="62" rx="4" fill="#fff7e8" stroke="#ead7a4" opacity="1"/>
-  <text x="262" y="302" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#5d4521" text-anchor="middle">Ecosystem fit</text>
-  <rect x="318" y="276" width="92" height="62" rx="4" fill="#edf8ef" stroke="#b9dabd" opacity="1"/>
-  <text x="364" y="302" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#25472c" text-anchor="middle">Healthier weight loss</text>
-  <rect x="418" y="276" width="118" height="62" rx="4" fill="#edf8f8" stroke="#bddad8" opacity="1"/>
-  <text x="477" y="298" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#1f4e52" text-anchor="middle">Clinical speed</text>
-<text x="477" y="308" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#1f4e52" text-anchor="middle">and global ambition</text>
-  <rect x="4" y="336" width="532" height="9" rx="0" fill="#fff" stroke="none" opacity="1"/>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="A third player needs asymmetry">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbfb"/>
+      <stop offset="60%" stop-color="#eef7f7"/>
+      <stop offset="100%" stop-color="#fff7ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#12313c" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    .label{font:800 22px Inter,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;fill:#a45f2b}
+    .title{font:800 42px Inter,Arial,sans-serif;fill:#14191d}
+    .subtitle{font:500 21px Inter,Arial,sans-serif;fill:#52616b}
+    .point{font:750 25px Inter,Arial,sans-serif;fill:#173843}
+    .small{font:700 18px Inter,Arial,sans-serif;fill:#6d7a83}
+  </style>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M770 80 C930 50 1040 120 1110 250 C1170 360 1110 530 970 585 C820 646 678 555 640 416 C602 276 634 122 770 80Z" fill="#12313c" opacity="0.08"/>
+  <path d="M760 482 C854 372 942 340 1064 362" fill="none" stroke="#265f73" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+  <path d="M780 225 C870 178 972 188 1064 252" fill="none" stroke="#265f73" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+  <g filter="url(#shadow)">
+    <rect x="46" y="48" width="640" height="578" rx="26" fill="#fff" opacity=".95"/>
+  </g>
+  <text x="70" y="104" class="label">Drugnews English</text>
+  <text x="70" y="142" class="title">A third player needs</text>
+<text x="70" y="190" class="title">asymmetry</text>
+  <text x="70" y="308" class="subtitle">A challenger cannot simply become a weaker Lilly or</text>
+<text x="70" y="336" class="subtitle">Novo.</text>
+  <g>
+      <circle cx="82" cy="410" r="8" fill="#265f73"/>
+      <text x="104" y="418" class="point">Convenience</text>
+    </g>
+<g>
+      <circle cx="82" cy="462" r="8" fill="#265f73"/>
+      <text x="104" y="470" class="point">Tolerability</text>
+    </g>
+<g>
+      <circle cx="82" cy="514" r="8" fill="#265f73"/>
+      <text x="104" y="522" class="point">Muscle preservation</text>
+    </g>
+<g>
+      <circle cx="82" cy="566" r="8" fill="#265f73"/>
+      <text x="104" y="574" class="point">Cardio-renal-metabolic integration</text>
+    </g>
+  <text x="70" y="602" class="small">Drugnews | Biotech business analysis</text>
 </svg>

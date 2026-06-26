@@ -1,41 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="496" height="337" viewBox="0 0 496 337" role="img">
-  <image href="facebook-03.png" x="0" y="0" width="496" height="337"/>
-
-  <rect x="0" y="0" width="496" height="36" rx="2" fill="#fff" stroke="none" opacity="1"/>
-  <text x="12" y="23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#102a43" text-anchor="start">Fig. 3 | Multi-target mechanisms: from GLP-1 to metabolic control</text>
-  <rect x="0" y="36" width="496" height="19" rx="0" fill="#fff" stroke="none" opacity="1"/>
-  <rect x="13" y="54" width="104" height="244" rx="4" fill="#f8fbfb" stroke="none" opacity="1"/>
-  <rect x="13" y="39" width="104" height="24" rx="0" fill="#fff" stroke="none" opacity="1"/>
-  <text x="65" y="56" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#2e8fac" text-anchor="middle">GLP-1</text>
-  <text x="65" y="258" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#254b58" text-anchor="middle">Appetite control</text>
-<text x="65" y="269" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#254b58" text-anchor="middle">Glucose response</text>
-<text x="65" y="280" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#254b58" text-anchor="middle">Insulin support</text>
-  <rect x="119" y="54" width="104" height="244" rx="4" fill="#fbf8ff" stroke="none" opacity="1"/>
-  <rect x="119" y="39" width="104" height="24" rx="0" fill="#fff" stroke="none" opacity="1"/>
-  <text x="171" y="56" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#725fb0" text-anchor="middle">GIP</text>
-  <text x="171" y="258" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#3f3567" text-anchor="middle">Incretin synergy</text>
-<text x="171" y="269" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#3f3567" text-anchor="middle">Glucose control</text>
-<text x="171" y="280" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#3f3567" text-anchor="middle">Metabolic support</text>
-  <rect x="225" y="54" width="104" height="244" rx="4" fill="#fff8f1" stroke="none" opacity="1"/>
-  <rect x="225" y="39" width="104" height="24" rx="0" fill="#fff" stroke="none" opacity="1"/>
-  <text x="277" y="56" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#aa6237" text-anchor="middle">Glucagon</text>
-  <text x="277" y="258" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#654028" text-anchor="middle">Energy use</text>
-<text x="277" y="269" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#654028" text-anchor="middle">Lipolysis</text>
-<text x="277" y="280" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#654028" text-anchor="middle">Liver metabolism</text>
-  <rect x="331" y="54" width="84" height="244" rx="4" fill="#fff7ef" stroke="none" opacity="1"/>
-  <rect x="331" y="39" width="84" height="24" rx="0" fill="#fff" stroke="none" opacity="1"/>
-  <text x="373" y="56" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#d07b2f" text-anchor="middle">Amylin</text>
-  <text x="373" y="258" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#6a4322" text-anchor="middle">Gastric emptying</text>
-<text x="373" y="269" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#6a4322" text-anchor="middle">Appetite control</text>
-<text x="373" y="280" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#6a4322" text-anchor="middle">Satiety</text>
-  <rect x="418" y="39" width="72" height="258" rx="4" fill="#f4fbf9" stroke="#bddad3" opacity="1"/>
-  <text x="454" y="98" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#23535a" text-anchor="middle">Combo</text>
-<text x="454" y="110" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#23535a" text-anchor="middle">therapy</text>
-  <text x="454" y="203" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="700" fill="#23535a" text-anchor="middle">GLP-1/GIP</text>
-<text x="454" y="213" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="700" fill="#23535a" text-anchor="middle">GLP-1/glucagon</text>
-<text x="454" y="223" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="700" fill="#23535a" text-anchor="middle">Triple agonist</text>
-<text x="454" y="233" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="700" fill="#23535a" text-anchor="middle">GLP-1 + amylin</text>
-  <rect x="18" y="296" width="456" height="32" rx="4" fill="#eaf4f7" stroke="#bfd8df" opacity="1"/>
-  <text x="246" y="321" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="800" fill="#244a5a" text-anchor="middle">From one mechanism to multi-target coordination: efficacy, tolerability, broader patient fit</text>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Pfizer&apos;s opening">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbfb"/>
+      <stop offset="60%" stop-color="#eef7f7"/>
+      <stop offset="100%" stop-color="#fff7ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#12313c" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    .label{font:800 22px Inter,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;fill:#a45f2b}
+    .title{font:800 42px Inter,Arial,sans-serif;fill:#14191d}
+    .subtitle{font:500 21px Inter,Arial,sans-serif;fill:#52616b}
+    .point{font:750 25px Inter,Arial,sans-serif;fill:#173843}
+    .small{font:700 18px Inter,Arial,sans-serif;fill:#6d7a83}
+  </style>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M770 80 C930 50 1040 120 1110 250 C1170 360 1110 530 970 585 C820 646 678 555 640 416 C602 276 634 122 770 80Z" fill="#12313c" opacity="0.08"/>
+  <path d="M760 482 C854 372 942 340 1064 362" fill="none" stroke="#d3752c" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+  <path d="M780 225 C870 178 972 188 1064 252" fill="none" stroke="#265f73" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+  <g filter="url(#shadow)">
+    <rect x="46" y="48" width="640" height="578" rx="26" fill="#fff" opacity=".95"/>
+  </g>
+  <text x="70" y="104" class="label">Drugnews English</text>
+  <text x="70" y="142" class="title">Pfizer&apos;s opening</text>
+  <text x="70" y="308" class="subtitle">Berobenatide is a bet on lower treatment burden and</text>
+<text x="70" y="336" class="subtitle">monthly dosing.</text>
+  <g>
+      <circle cx="82" cy="410" r="8" fill="#d3752c"/>
+      <text x="104" y="418" class="point">Long-acting injection</text>
+    </g>
+<g>
+      <circle cx="82" cy="462" r="8" fill="#d3752c"/>
+      <text x="104" y="470" class="point">Adherence advantage</text>
+    </g>
+<g>
+      <circle cx="82" cy="514" r="8" fill="#d3752c"/>
+      <text x="104" y="522" class="point">Phase 3 proof still needed</text>
+    </g>
+  <text x="70" y="602" class="small">Drugnews | Biotech business analysis</text>
 </svg>

@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 25 Jun 2026 09:29:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 03:08:12 GMT</lastBuildDate>
+    <item>
+      <title>【付費深度商業分析文章系列】BD 最高金額不是成交價：真正要拆的是誰承擔了風險</title>
+      <link>https://vocus.cc/article/6a3b5c8afd897800011d8d0d</link>
+      <guid isPermaLink="true">https://vocus.cc/article/6a3b5c8afd897800011d8d0d</guid>
+      <pubDate>Fri, 26 Jun 2026 01:00:30 GMT</pubDate>
+      <category>付費深度商業分析文章系列</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a3b5c8afd897800011d8d0d-source.png" alt="【付費深度商業分析文章系列】BD 最高金額不是成交價：真正要拆的是誰承擔了風險"></p><p>BD 交易不能只看最高總金額。真正要拆的是 upfront、近端付款、遠期 milestone、royalty / profit share，以及買方到底接走了哪一段風險。</p>]]></description>
+    </item>
     <item>
       <title>邁向「寵物醫療界羅氏」的寶泰生醫</title>
       <link>https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Sat, 06 Jun 2026 02:30:00 GMT</pubDate>
       <category>商業分析系列</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/old-targets-differentiation-strategy/dcard-01.webp" alt="老靶點差異化策略文章原圖"></p><p>熱門靶點擁擠不代表沒有價值；真正關鍵是公司能否在身位、差異化、適應症切入、技術換代與 BD 對接中找到自己的獲利位置。</p>]]></description>
-    </item>
-    <item>
-      <title>從 Ruxolitinib cream 說起：外用 JAK 抑制劑，為什麼不是每個分子都能做？</title>
-      <link>https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery.html</guid>
-      <pubDate>Fri, 05 Jun 2026 02:30:00 GMT</pubDate>
-      <category>商業分析系列</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/topical-jak-inhibitor-skin-delivery/dcard-01.webp" alt="外用 JAK 抑制劑文章原圖"></p><p>外用 JAK 抑制劑的核心不是單純抑制 JAK，而是分子能否穿過皮膚、留在局部、降低全身暴露，並在適應症與製劑設計上建立差異化。</p>]]></description>
     </item>
   </channel>
 </rss>

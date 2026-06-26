@@ -1,5 +1,34 @@
 [
   {
+    "external": true,
+    "source": "方格子",
+    "access": "付費文章",
+    "title": "【付費深度商業分析文章系列】BD 最高金額不是成交價：真正要拆的是誰承擔了風險",
+    "date": "2026-06-26",
+    "category": "付費深度商業分析文章系列",
+    "categorySlug": "paid-deep-analysis",
+    "topic": "付費深度商業分析文章系列",
+    "accessSlug": "paid",
+    "lang": "zh-Hant",
+    "translations": {},
+    "tags": [
+      "BD",
+      "授權",
+      "milestone",
+      "royalty",
+      "profit share",
+      "風險分攤",
+      "付費深度商業分析文章系列"
+    ],
+    "summary": "BD 交易不能只看最高總金額。真正要拆的是 upfront、近端付款、遠期 milestone、royalty / profit share，以及買方到底接走了哪一段風險。",
+    "image": "../assets/articles/external-vocus/6a3b5c8afd897800011d8d0d-source.png",
+    "imageAlt": "【付費深度商業分析文章系列】BD 最高金額不是成交價：真正要拆的是誰承擔了風險",
+    "slug": "6a3b5c8afd897800011d8d0d",
+    "fileName": "",
+    "url": "https://vocus.cc/article/6a3b5c8afd897800011d8d0d",
+    "text": "【付費深度商業分析文章系列】BD 最高金額不是成交價：真正要拆的是誰承擔了風險 BD 交易不能只看最高總金額。真正要拆的是 upfront、近端付款、遠期 milestone、royalty / profit share，以及買方到底接走了哪一段風險。 付費深度商業分析文章系列 付費深度商業分析文章系列 BD 授權 milestone royalty profit share 風險分攤 付費深度商業分析文章系列 方格子 付費文章"
+  },
+  {
     "title": "邁向「寵物醫療界羅氏」的寶泰生醫",
     "date": "2026-06-25",
     "category": "商業分析系列",

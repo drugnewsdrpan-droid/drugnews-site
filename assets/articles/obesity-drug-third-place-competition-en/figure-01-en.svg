@@ -1,43 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="494" height="347" viewBox="0 0 494 347" role="img">
-  <image href="facebook-01.png" x="0" y="0" width="494" height="347"/>
-
-  <rect x="0" y="0" width="494" height="32" rx="2" fill="#fff" stroke="none" opacity="1"/>
-  <text x="10" y="14" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#102a43" text-anchor="start">Fig. 1 | Duopoly battle:</text>
-<text x="10" y="28" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#102a43" text-anchor="start">injections, oral drugs, multi-targets</text>
-
-  <rect x="146" y="49" width="186" height="93" rx="4" fill="#fff" stroke="none" opacity="1"/>
-  <text x="239" y="71" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#102a43" text-anchor="middle">Portfolio showdown</text>
-  <text x="239" y="88" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#102a43" text-anchor="middle">From single-product rivalry</text>
-<text x="239" y="98" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#102a43" text-anchor="middle">to a metabolic</text>
-<text x="239" y="108" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#102a43" text-anchor="middle">ecosystem race</text>
-
-  <rect x="9" y="87" width="142" height="18" rx="3" fill="#2b83b8" stroke="none" opacity="1"/>
-  <text x="80" y="101" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#fff" text-anchor="middle">semaglutide family</text>
-  <rect x="332" y="87" width="145" height="18" rx="3" fill="#c84f4a" stroke="none" opacity="1"/>
-  <text x="404" y="101" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" fill="#fff" text-anchor="middle">tirzepatide family</text>
-
-  <rect x="39" y="105" width="108" height="164" rx="4" fill="#f8fbfb" stroke="none" opacity="1"/>
-  <text x="70" y="136" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">Ozempic (injection)</text>
-<text x="70" y="155" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">Wegovy (injection)</text>
-<text x="70" y="174" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">Rybelsus (oral)</text>
-<text x="70" y="193" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">Wegovy pill (oral)</text>
-
-  <rect x="334" y="105" width="146" height="173" rx="4" fill="#fff8f6" stroke="none" opacity="1"/>
-  <text x="346" y="134" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">Mounjaro (injection)</text>
-<text x="346" y="150" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">Zepbound (injection)</text>
-<text x="346" y="166" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">retatrutide</text>
-<text x="346" y="182" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">(GIP / GLP-1 / glucagon)</text>
-<text x="346" y="198" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">orforglipron</text>
-<text x="346" y="214" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#172b35" text-anchor="start">(oral small molecule)</text>
-
-  <rect x="9" y="281" width="201" height="49" rx="4" fill="#eaf6fb" stroke="#b9d4df" opacity="0.98"/>
-  <text x="109" y="296" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#1f4c5f" text-anchor="middle">Brand recognition + physician familiarity</text>
-<text x="109" y="309" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#1f4c5f" text-anchor="middle">Global supply chain</text>
-<text x="109" y="322" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#1f4c5f" text-anchor="middle">Injection franchise extends into oral therapy</text>
-
-  <rect x="292" y="281" width="192" height="49" rx="4" fill="#fdeae5" stroke="#e4bdb5" opacity="0.98"/>
-  <text x="388" y="296" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#5f2a24" text-anchor="middle">Stronger efficacy + next-gen depth</text>
-<text x="388" y="309" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#5f2a24" text-anchor="middle">Multi-target biology</text>
-<text x="388" y="322" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#5f2a24" text-anchor="middle">Oralization advances together</text>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Product-portfolio battle">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbfb"/>
+      <stop offset="60%" stop-color="#eef7f7"/>
+      <stop offset="100%" stop-color="#fff7ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#12313c" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    .label{font:800 22px Inter,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;fill:#a45f2b}
+    .title{font:800 42px Inter,Arial,sans-serif;fill:#14191d}
+    .subtitle{font:500 21px Inter,Arial,sans-serif;fill:#52616b}
+    .point{font:750 25px Inter,Arial,sans-serif;fill:#173843}
+    .small{font:700 18px Inter,Arial,sans-serif;fill:#6d7a83}
+  </style>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M770 80 C930 50 1040 120 1110 250 C1170 360 1110 530 970 585 C820 646 678 555 640 416 C602 276 634 122 770 80Z" fill="#12313c" opacity="0.08"/>
+  <path d="M760 482 C854 372 942 340 1064 362" fill="none" stroke="#d3752c" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+  <path d="M780 225 C870 178 972 188 1064 252" fill="none" stroke="#265f73" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+  <g filter="url(#shadow)">
+    <rect x="46" y="48" width="640" height="578" rx="26" fill="#fff" opacity=".95"/>
+  </g>
+  <text x="70" y="104" class="label">Drugnews English</text>
+  <text x="70" y="142" class="title">Product-portfolio battle</text>
+  <text x="70" y="308" class="subtitle">The obesity race has moved from single drugs to full</text>
+<text x="70" y="336" class="subtitle">metabolic ecosystems.</text>
+  <g>
+      <circle cx="82" cy="410" r="8" fill="#d3752c"/>
+      <text x="104" y="418" class="point">Novo: semaglutide family</text>
+    </g>
+<g>
+      <circle cx="82" cy="462" r="8" fill="#d3752c"/>
+      <text x="104" y="470" class="point">Lilly: tirzepatide family</text>
+    </g>
+<g>
+      <circle cx="82" cy="514" r="8" fill="#d3752c"/>
+      <text x="104" y="522" class="point">Oral drugs and multi-target biology</text>
+    </g>
+  <text x="70" y="602" class="small">Drugnews | Biotech business analysis</text>
 </svg>

@@ -1,24 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="543" height="337" viewBox="0 0 543 337" role="img">
-  <image href="facebook-04.png" x="0" y="0" width="543" height="337"/>
-
-  <rect x="0" y="0" width="543" height="36" rx="2" fill="#fff" stroke="none" opacity="1"/>
-  <text x="12" y="23" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#102a43" text-anchor="start">Fig. 4 | Next obesity battleground: from weight loss to health quality</text>
-  <rect x="88" y="58" width="140" height="210" rx="5" fill="#fff" stroke="#cfdbe0" opacity="1"/>
-  <text x="158" y="84" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#102a43" text-anchor="middle">Past: weight-loss</text>
-<text x="158" y="96" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#102a43" text-anchor="middle">magnitude</text>
-  <text x="105" y="122" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#263f49" text-anchor="start">Which patient loses more?</text>
-<text x="105" y="140" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#263f49" text-anchor="start">Body-weight percentage</text>
-<text x="105" y="158" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#263f49" text-anchor="start">Speed of weight loss</text>
-<text x="105" y="176" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#263f49" text-anchor="start">Market-share race</text>
-  <rect x="263" y="58" width="204" height="210" rx="5" fill="#f6fbf3" stroke="#c8dfbd" opacity="1"/>
-  <text x="365" y="84" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="800" fill="#25472c" text-anchor="middle">Future: health quality</text>
-  <text x="287" y="116" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#25472c" text-anchor="start">Less vomiting?</text>
-<text x="287" y="134" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#25472c" text-anchor="start">Better tolerability?</text>
-<text x="287" y="152" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#25472c" text-anchor="start">Preserve muscle?</text>
-<text x="287" y="170" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#25472c" text-anchor="start">Improve fatty liver?</text>
-<text x="287" y="188" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#25472c" text-anchor="start">Lower CV-metabolic risk?</text>
-<text x="287" y="206" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#25472c" text-anchor="start">Long-term adherence?</text>
-  <rect x="33" y="300" width="479" height="27" rx="4" fill="#eaf4f7" stroke="#bfd8df" opacity="0.97"/>
-  <text x="272" y="318" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" fill="#244a5a" text-anchor="middle">Third place is not about copying the leaders. It is about solving unsolved problems.</text>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Roche&apos;s two-axis strategy">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbfb"/>
+      <stop offset="60%" stop-color="#eef7f7"/>
+      <stop offset="100%" stop-color="#fff7ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#12313c" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    .label{font:800 22px Inter,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;fill:#a45f2b}
+    .title{font:800 42px Inter,Arial,sans-serif;fill:#14191d}
+    .subtitle{font:500 21px Inter,Arial,sans-serif;fill:#52616b}
+    .point{font:750 25px Inter,Arial,sans-serif;fill:#173843}
+    .small{font:700 18px Inter,Arial,sans-serif;fill:#6d7a83}
+  </style>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M770 80 C930 50 1040 120 1110 250 C1170 360 1110 530 970 585 C820 646 678 555 640 416 C602 276 634 122 770 80Z" fill="#12313c" opacity="0.08"/>
+  <path d="M760 482 C854 372 942 340 1064 362" fill="none" stroke="#265f73" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+  <path d="M780 225 C870 178 972 188 1064 252" fill="none" stroke="#265f73" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+  <g filter="url(#shadow)">
+    <rect x="46" y="48" width="640" height="578" rx="26" fill="#fff" opacity=".95"/>
+  </g>
+  <text x="70" y="104" class="label">Drugnews English</text>
+  <text x="70" y="142" class="title">Roche&apos;s two-axis strategy</text>
+  <text x="70" y="308" class="subtitle">Roche is pairing tolerability with stronger efficacy</text>
+<text x="70" y="336" class="subtitle">in obesity medicine.</text>
+  <g>
+      <circle cx="82" cy="410" r="8" fill="#265f73"/>
+      <text x="104" y="418" class="point">Petrelintide: tolerability</text>
+    </g>
+<g>
+      <circle cx="82" cy="462" r="8" fill="#265f73"/>
+      <text x="104" y="470" class="point">Enicepatide: efficacy</text>
+    </g>
+<g>
+      <circle cx="82" cy="514" r="8" fill="#265f73"/>
+      <text x="104" y="522" class="point">Combination optionality</text>
+    </g>
+  <text x="70" y="602" class="small">Drugnews | Biotech business analysis</text>
 </svg>
