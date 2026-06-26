@@ -2174,7 +2174,32 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 
 @media (max-width: 520px) {
   .container {
-    width: min(100% - 56px, 1120px);
+    width: calc(100vw - 32px);
+    max-width: calc(100vw - 32px);
+  }
+  .nav {
+    min-height: auto;
+    padding: 14px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .brand,
+  .nav-links {
+    max-width: 100%;
+    min-width: 0;
+  }
+  .nav-links {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 18px;
+    font-size: 0.88rem;
+  }
+  .nav-links a {
+    min-width: 0;
+    padding: 2px 0;
+    overflow-wrap: anywhere;
   }
   html,
   body {
@@ -2234,6 +2259,14 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     max-width: 100%;
     min-width: 0;
   }
+  .article-hero-inner,
+  .article-layout,
+  .article-body,
+  .article-share,
+  .tag-row {
+    width: calc(100vw - 32px);
+    max-width: calc(100vw - 32px);
+  }
   .article-hero h1,
   .article-deck,
   .article-body h1,
@@ -2251,9 +2284,15 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .article-body p {
     width: 100%;
   }
+  .article-hero-inner,
+  .article-share {
+    width: 100%;
+  }
   .article-section .container,
   .article-hero .container {
-    overflow-x: clip;
+    width: calc(100vw - 32px);
+    max-width: calc(100vw - 32px);
+    overflow-x: visible;
   }
   .article-body p {
     font-size: 1.02rem;
@@ -2274,6 +2313,11 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   }
   .tag {
     min-height: 34px;
+    height: auto;
+    line-height: 1.35;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    white-space: normal;
   }
   .article-list,
   .article-card,
