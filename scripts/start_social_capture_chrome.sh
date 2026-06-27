@@ -6,6 +6,7 @@ PROFILE_DIR="${DRUGNEWS_CHROME_PROFILE:-/Users/jojo/Documents/藥時事/.drugnew
 CHROME_APP="${DRUGNEWS_CHROME_APP:-/Applications/Google Chrome.app}"
 FB_URL="https://www.facebook.com/profile.php?id=61568446257142"
 DCARD_URL="https://www.dcard.tw/@drugnews"
+DEBUG_URL="http://127.0.0.1:${DEBUG_PORT}/json/version"
 
 usage() {
   cat <<EOF
@@ -33,11 +34,9 @@ if [[ ! -d "$CHROME_APP" ]]; then
   exit 1
 fi
 
-if curl -fsS "http://127.0.0.1:${DEBUG_PORT}/json/version" >/dev/null 2>&1; then
+if curl -fsS "$DEBUG_URL" >/dev/null 2>&1; then
   echo "Chrome remote debugging is already available at http://127.0.0.1:${DEBUG_PORT}"
-  if [[ "${1:-}" == "--check" ]]; then
-    exit 0
-  fi
+  exit 0
 else
   if [[ "${1:-}" == "--check" ]]; then
     echo "Chrome remote debugging is not available at http://127.0.0.1:${DEBUG_PORT}" >&2
@@ -55,8 +54,20 @@ open -na "$CHROME_APP" --args \
   "$FB_URL" \
   "$DCARD_URL"
 
+for _ in {1..30}; do
+  if curl -fsS "$DEBUG_URL" >/dev/null 2>&1; then
+    echo "Opened Drugnews capture Chrome."
+    echo "Profile: $PROFILE_DIR"
+    echo "Debug endpoint: http://127.0.0.1:${DEBUG_PORT}"
+    echo "If this is the first run, log in to Facebook and Dcard in that Chrome window, then run:"
+    echo "  npm run daily:social:capture"
+    exit 0
+  fi
+  sleep 0.5
+done
+
 echo "Opened Drugnews capture Chrome."
 echo "Profile: $PROFILE_DIR"
-echo "Debug endpoint: http://127.0.0.1:${DEBUG_PORT}"
-echo "If this is the first run, log in to Facebook and Dcard in that Chrome window, then run:"
-echo "  npm run daily:social:capture"
+echo "But Chrome remote debugging did not become available at http://127.0.0.1:${DEBUG_PORT} within 15 seconds." >&2
+echo "Close any stale Drugnews capture Chrome windows and run this command again." >&2
+exit 1

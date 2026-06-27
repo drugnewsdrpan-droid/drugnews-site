@@ -117,6 +117,10 @@ function postScore(candidate) {
     score += 1;
     reasons.push("images");
   }
+  if (text.length < 600 || /查看更多/.test(text)) {
+    score -= 4;
+    reasons.push("truncated_or_short");
+  }
   if (/報名|早鳥|課程|獲利班|立即報名|cmy\.tw|官網終於上線|DRUGNEWS\.COM\.TW/i.test(text)) {
     score -= 6;
     reasons.push("promo_or_announcement");
@@ -152,8 +156,9 @@ async function scrapeProfile(client, url) {
   await navigate(client, url, 8000);
   const rounds = Number(process.env.FACEBOOK_SCROLL_ROUNDS || 8);
   const all = new Map();
+  let pageSnapshot = {};
   for (let i = 0; i < rounds; i += 1) {
-    const candidates = await evalJson(client, `(() => {
+    const snapshot = await evalJson(client, `(() => {
       const uniq = (arr) => [...new Set(arr.filter(Boolean))];
       const anchors = [...document.querySelectorAll('a[href*="permalink.php?story_fbid="]')]
         .filter(a => !/notif_id=|comment_id=|reply_comment_id=/.test(a.href));
@@ -166,7 +171,6 @@ async function scrapeProfile(client, url) {
           if (text.length > (best.innerText || "").length && text.length < 20000) best = node;
         }
         const text = best.innerText || "";
-        if (text.length < 300) continue;
         const images = uniq([...best.querySelectorAll('img')].map(img => img.currentSrc || img.src || '').filter(src =>
           /scontent|fbcdn|xx\\.fbcdn/.test(src) &&
           !/emoji|static|safe_image|profile|p40x40|s40x40/.test(src)
@@ -179,9 +183,19 @@ async function scrapeProfile(client, url) {
           images
         });
       }
-      return out;
+      return {
+        title: document.title,
+        url: location.href,
+        bodyPreview: (document.body.innerText || '').slice(0, 900),
+        anchorCount: document.querySelectorAll('a').length,
+        articleCount: document.querySelectorAll('article').length,
+        roleArticleCount: document.querySelectorAll('[role="article"]').length,
+        permalinkCount: anchors.length,
+        candidates: out
+      };
     })()`);
-    for (const candidate of candidates.map(normalizeCandidate)) {
+    pageSnapshot = snapshot;
+    for (const candidate of (snapshot.candidates || []).map(normalizeCandidate)) {
       const key = candidate.url.match(/story_fbid=([^&]+)/)?.[1] || candidate.url;
       const current = all.get(key);
       if (!current || candidate.score > current.score || candidate.articleText.length > current.articleText.length) {
@@ -195,6 +209,15 @@ async function scrapeProfile(client, url) {
   return {
     generated_at: new Date().toISOString(),
     source: url,
+    page: {
+      title: pageSnapshot.title || "",
+      url: pageSnapshot.url || "",
+      body_preview: pageSnapshot.bodyPreview || "",
+      anchor_count: pageSnapshot.anchorCount || 0,
+      article_count: pageSnapshot.articleCount || 0,
+      role_article_count: pageSnapshot.roleArticleCount || 0,
+      permalink_count: pageSnapshot.permalinkCount || 0
+    },
     selected: candidates.filter((item) => item.score >= 5).slice(0, 1),
     candidates: candidates.slice(0, 8).map((item) => ({
       title: item.title,

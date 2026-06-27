@@ -68,10 +68,22 @@ function check(name, ok, detail = "", severity = ok ? "ok" : "warning") {
   return { name, status: ok ? "ok" : severity, detail };
 }
 
+function captureCheck(name, filePath, payload) {
+  if (!fs.existsSync(filePath)) {
+    return check(name, false, `No latest ${name.startsWith("facebook") ? "Facebook" : "Dcard"} capture JSON found`, "warning");
+  }
+  if (!Array.isArray(payload)) {
+    return check(name, false, `${filePath} is not a JSON array`, "warning");
+  }
+  return check(name, payload.length > 0, payload.length > 0 ? `${filePath} has ${payload.length} candidate(s)` : `${filePath} exists but has 0 candidates`, "warning");
+}
+
 async function main() {
   const records = await readJson(SEARCH_INDEX, []);
   const aiIndex = await readJson(AI_INDEX, {});
   const settings = await readJson(SITE_SETTINGS, {});
+  const facebookCapture = await readJson(SOCIAL_FB_INPUT, null);
+  const dcardCapture = await readJson(SOCIAL_DCARD_INPUT, null);
   const latest = latestArticle(records);
   const robots = await readText("robots.txt");
   const sitemap = await readText("sitemap.xml");
@@ -95,8 +107,8 @@ async function main() {
     check("news_sitemap_exists", fileExists("news-sitemap.xml") && newsSitemap.includes("<url>"), "news-sitemap.xml has entries", "warning"),
     check("references_latest_30", references?.truncated_url_articles === 0, `${references?.truncated_url_articles ?? "unknown"} articles with truncated URLs`, "error"),
     check("reader_related_latest_30", reader?.failed_articles === 0, `${reader?.passed_articles ?? 0}/${reader?.checked_articles ?? 0} passed related-reading audit`, "warning"),
-    check("facebook_capture_ready", fs.existsSync(SOCIAL_FB_INPUT), fs.existsSync(SOCIAL_FB_INPUT) ? SOCIAL_FB_INPUT : "No latest Facebook capture JSON found", "warning"),
-    check("dcard_capture_ready", fs.existsSync(SOCIAL_DCARD_INPUT), fs.existsSync(SOCIAL_DCARD_INPUT) ? SOCIAL_DCARD_INPUT : "No latest Dcard capture JSON found", "warning"),
+    captureCheck("facebook_capture_ready", SOCIAL_FB_INPUT, facebookCapture),
+    captureCheck("dcard_capture_ready", SOCIAL_DCARD_INPUT, dcardCapture),
     check("ga4_configured", Boolean(settings.google_analytics_id), settings.google_analytics_id ? "GA4 enabled" : "GA4 measurement ID missing", "warning"),
     check("search_console_configured", Boolean(settings.google_search_console_verification), settings.google_search_console_verification ? "Search Console verification configured" : "Search Console verification missing", "warning")
   ];
@@ -119,7 +131,7 @@ async function main() {
     } : null,
     checks,
     next_actions: [
-      ...(social?.status === "needs_capture" ? ["Open logged-in Chrome to Facebook/Dcard and rerun daily social capture, or provide capture JSON."] : []),
+      ...(social?.status === "needs_capture" ? ["Run npm run chrome:social (or /bin/zsh scripts/start_social_capture_chrome.sh if npm is unavailable), confirm Facebook/Dcard login, then rerun daily social capture; otherwise provide capture JSON."] : []),
       ...(!settings.google_analytics_id ? ["Add GA4 measurement ID to content/site-settings.json to measure traffic and outbound clicks."] : []),
       ...(!settings.google_search_console_verification ? ["Add Google Search Console verification token to content/site-settings.json."] : [])
     ]

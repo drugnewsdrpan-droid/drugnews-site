@@ -86,7 +86,7 @@ function normalizeTitle(title = "") {
 }
 
 function postId(url = "") {
-  return String(url).match(/\/post\/(\d+)/)?.[1] || "";
+  return String(url).match(/\/(?:post|p)\/(\d+)/)?.[1] || "";
 }
 
 function parsePublished(text = "") {
@@ -119,17 +119,26 @@ function uniq(values) {
 
 async function scrapeProfile(client, url) {
   await navigate(client, url);
-  return evalJson(client, `(() => {
-    const links = [...document.querySelectorAll('a[href*="/post/"]')]
+  const data = await evalJson(client, `(() => {
+    const links = [...document.querySelectorAll('a[href*="/post/"], a[href*="/p/"]')]
       .map((a) => ({ href: a.href.split('?')[0], text: a.innerText || "" }))
-      .filter((item) => /\\/post\\/\\d+/.test(item.href));
+      .filter((item) => /\\/(post|p)\\/\\d+/.test(item.href));
     const seen = new Set();
-    return links.filter((item) => {
+    const uniqueLinks = links.filter((item) => {
       if (seen.has(item.href)) return false;
       seen.add(item.href);
       return true;
     }).slice(0, 8);
+    return {
+      title: document.title,
+      url: location.href,
+      bodyPreview: (document.body.innerText || '').slice(0, 800),
+      anchorCount: document.querySelectorAll('a').length,
+      articleCount: document.querySelectorAll('article').length,
+      links: uniqueLinks
+    };
   })()`);
+  return data;
 }
 
 async function scrapePost(client, url) {
@@ -173,10 +182,11 @@ try {
   let posts = [];
   let diagnostics;
   if (mode === "profile") {
-    const links = await scrapeProfile(client, arg);
+    const profile = await scrapeProfile(client, arg);
+    const links = profile.links || [];
     const first = links.find((item) => postId(item.href));
     if (first) posts = [await scrapePost(client, first.href)];
-    diagnostics = { generated_at: new Date().toISOString(), source: arg, links, selected_url: first?.href || "" };
+    diagnostics = { generated_at: new Date().toISOString(), source: arg, profile, links, selected_url: first?.href || "" };
   } else if (mode === "post") {
     posts = [await scrapePost(client, arg)];
     diagnostics = { generated_at: new Date().toISOString(), source: arg, selected_url: arg };
