@@ -1,0 +1,38 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Why the vopimetostat plus daraxonrasib signal matters</title>
+  <desc id="desc">English BioRender-style diagram explaining the combination of RAS inhibition and MTAP-selective PRMT5 inhibition.</desc>
+  <rect width="1600" height="1000" rx="36" fill="#F7FBFC"/>
+  <g stroke="#D7E7EA" opacity="0.65">
+    <path d="M80 160H1520M80 320H1520M80 480H1520M80 640H1520M80 800H1520"/>
+    <path d="M240 70V930M560 70V930M880 70V930M1200 70V930"/>
+  </g>
+  <text x="80" y="92" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#102C36">01 | Why the Combination Is Different</text>
+  <text x="80" y="142" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#61707A">RAS inhibition blocks the growth driver; MTAP-selective PRMT5 inhibition attacks the metabolic weak point.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="120" y="240" width="370" height="235" rx="28" fill="white" stroke="#BFD7DB" stroke-width="4"/>
+    <text x="305" y="300" text-anchor="middle" font-size="32" font-weight="700" fill="#0F3642">Daraxonrasib</text>
+    <text x="305" y="340" text-anchor="middle" font-size="22" fill="#5E6D76">RAS pathway pressure</text>
+    <circle cx="305" cy="410" r="44" fill="#EAF7F6" stroke="#178E9A" stroke-width="8"/>
+    <path d="M278 410H332M305 383V437" stroke="#178E9A" stroke-width="10" stroke-linecap="round"/>
+    <rect x="615" y="240" width="370" height="235" rx="28" fill="white" stroke="#BFD7DB" stroke-width="4"/>
+    <text x="800" y="300" text-anchor="middle" font-size="32" font-weight="700" fill="#0F3642">MTAP Deletion</text>
+    <text x="800" y="340" text-anchor="middle" font-size="22" fill="#5E6D76">MTA builds up in tumor cells</text>
+    <circle cx="800" cy="410" r="48" fill="#FDF2E8" stroke="#D9732C" stroke-width="8"/>
+    <path d="M770 424C790 388 818 388 840 420" stroke="#D9732C" stroke-width="10" stroke-linecap="round"/>
+    <rect x="1110" y="240" width="370" height="235" rx="28" fill="white" stroke="#BFD7DB" stroke-width="4"/>
+    <text x="1295" y="300" text-anchor="middle" font-size="32" font-weight="700" fill="#0F3642">Vopimetostat</text>
+    <text x="1295" y="340" text-anchor="middle" font-size="22" fill="#5E6D76">PRMT5 vulnerability</text>
+    <circle cx="1295" cy="410" r="44" fill="#F2ECFA" stroke="#73559E" stroke-width="8"/>
+    <path d="M1270 410L1288 428L1322 392" stroke="#73559E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M490 356H615" stroke="#0F8090" stroke-width="12" stroke-linecap="round"/>
+    <path d="M985 356H1110" stroke="#0F8090" stroke-width="12" stroke-linecap="round"/>
+    <rect x="205" y="610" width="1190" height="245" rx="34" fill="#0F3642"/>
+    <text x="800" y="685" text-anchor="middle" font-size="38" font-weight="700" fill="white">Early Phase 1/2 Signal</text>
+    <text x="390" y="760" text-anchor="middle" font-size="34" font-weight="700" fill="#F5B05A">92%</text>
+    <text x="390" y="805" text-anchor="middle" font-size="22" fill="#D9E7EA">Objective response rate</text>
+    <text x="800" y="760" text-anchor="middle" font-size="34" font-weight="700" fill="#F5B05A">100%</text>
+    <text x="800" y="805" text-anchor="middle" font-size="22" fill="#D9E7EA">Disease control rate</text>
+    <text x="1210" y="760" text-anchor="middle" font-size="34" font-weight="700" fill="#F5B05A">90%</text>
+    <text x="1210" y="805" text-anchor="middle" font-size="22" fill="#D9E7EA">6-month PFS rate</text>
+  </g>
+</svg>

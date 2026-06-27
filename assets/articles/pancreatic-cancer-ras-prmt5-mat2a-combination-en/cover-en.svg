@@ -1,0 +1,64 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Pancreatic cancer combination therapy: RAS, PRMT5, and MAT2A</title>
+  <desc id="desc">A clean scientific editorial cover for an English Drugnews article about pancreatic cancer precision combination therapy.</desc>
+  <defs>
+    <linearGradient id="bg" x1="110" y1="56" x2="1420" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5FBFC"/>
+      <stop offset="0.55" stop-color="#EAF5F7"/>
+      <stop offset="1" stop-color="#FBF6EE"/>
+    </linearGradient>
+    <radialGradient id="tumor" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(805 448) scale(245 215)">
+      <stop stop-color="#8A5078"/>
+      <stop offset="0.55" stop-color="#5A3A67"/>
+      <stop offset="1" stop-color="#29213F"/>
+    </radialGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#0B4451" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" rx="40" fill="url(#bg)"/>
+  <g opacity="0.38" stroke="#D5E8EA">
+    <path d="M100 160H1500M100 330H1500M100 500H1500M100 670H1500"/>
+    <path d="M250 60V840M520 60V840M790 60V840M1060 60V840M1330 60V840"/>
+  </g>
+  <path d="M-40 690C225 574 420 590 640 664C820 724 1015 742 1230 622C1380 538 1510 530 1640 584" stroke="#CBE1E4" stroke-width="8" stroke-linecap="round"/>
+  <path d="M188 276C372 178 520 214 686 326C850 437 1036 434 1245 312C1375 236 1490 244 1608 316" stroke="#D56E2E" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+  <g filter="url(#shadow)">
+    <ellipse cx="800" cy="455" rx="250" ry="218" fill="url(#tumor)"/>
+    <circle cx="662" cy="342" r="69" fill="#8159A1"/>
+    <circle cx="916" cy="338" r="76" fill="#76519B"/>
+    <circle cx="595" cy="486" r="61" fill="#725397"/>
+    <circle cx="810" cy="462" r="98" fill="#694A7F"/>
+    <circle cx="960" cy="506" r="63" fill="#704D92"/>
+    <circle cx="710" cy="570" r="82" fill="#78579D"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="105" y="90" width="390" height="150" rx="28" fill="white" stroke="#BFD8DC" stroke-width="4"/>
+    <rect x="1105" y="92" width="390" height="150" rx="28" fill="white" stroke="#BFD8DC" stroke-width="4"/>
+    <rect x="105" y="650" width="390" height="150" rx="28" fill="white" stroke="#BFD8DC" stroke-width="4"/>
+    <rect x="1105" y="650" width="390" height="150" rx="28" fill="white" stroke="#BFD8DC" stroke-width="4"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#12323D">
+    <text x="300" y="150" font-size="34" font-weight="700" text-anchor="middle">RAS Backbone</text>
+    <text x="300" y="194" font-size="23" text-anchor="middle" fill="#5C6B73">driver signal suppression</text>
+    <text x="1300" y="150" font-size="34" font-weight="700" text-anchor="middle">MTAP Deletion</text>
+    <text x="1300" y="194" font-size="23" text-anchor="middle" fill="#5C6B73">metabolic vulnerability</text>
+    <text x="300" y="710" font-size="34" font-weight="700" text-anchor="middle">PRMT5 / MAT2A</text>
+    <text x="300" y="754" font-size="23" text-anchor="middle" fill="#5C6B73">synthetic lethality strategy</text>
+    <text x="1300" y="710" font-size="34" font-weight="700" text-anchor="middle">Combination Era</text>
+    <text x="1300" y="754" font-size="23" text-anchor="middle" fill="#5C6B73">precision therapy design</text>
+  </g>
+  <g stroke="#0D3A46" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M495 168C570 238 626 294 690 340"/>
+    <path d="M1105 168C1030 246 970 300 910 342"/>
+    <path d="M494 724C590 650 646 606 718 566"/>
+    <path d="M1105 724C1010 640 950 600 880 568"/>
+  </g>
+  <g fill="#178E9A">
+    <circle cx="800" cy="448" r="28"/>
+    <circle cx="742" cy="418" r="17"/>
+    <circle cx="862" cy="418" r="17"/>
+    <circle cx="756" cy="510" r="18"/>
+    <circle cx="876" cy="512" r="18"/>
+  </g>
+</svg>

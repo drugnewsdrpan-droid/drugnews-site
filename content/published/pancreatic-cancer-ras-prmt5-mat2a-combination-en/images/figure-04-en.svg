@@ -1,0 +1,30 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">RAS plus PRMT5 plus MAT2A triplet rationale</title>
+  <desc id="desc">English BioRender-style workflow showing how RAS inhibition, PRMT5 inhibition, and MAT2A inhibition may combine in MTAP-deleted pancreatic cancer.</desc>
+  <rect width="1600" height="1000" rx="36" fill="#FBFCFA"/>
+  <text x="80" y="92" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#102C36">04 | The Triplet Logic</text>
+  <text x="80" y="142" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#61707A">RAS suppression plus PRMT5 targeting plus MAT2A modulation creates a coherent precision-combination thesis.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="90" y="250" width="405" height="260" rx="34" fill="white" stroke="#BFD7DB" stroke-width="4"/>
+    <text x="292" y="315" text-anchor="middle" font-size="34" font-weight="700" fill="#0F3642">Daraxonrasib</text>
+    <text x="292" y="360" text-anchor="middle" font-size="23" fill="#5E6D76">blocks the RAS driver</text>
+    <circle cx="292" cy="430" r="46" fill="#EAF7F6" stroke="#178E9A" stroke-width="8"/>
+    <path d="M262 430H322" stroke="#178E9A" stroke-width="10" stroke-linecap="round"/>
+    <rect x="598" y="250" width="405" height="260" rx="34" fill="white" stroke="#BFD7DB" stroke-width="4"/>
+    <text x="800" y="315" text-anchor="middle" font-size="34" font-weight="700" fill="#0F3642">IDE892</text>
+    <text x="800" y="360" text-anchor="middle" font-size="23" fill="#5E6D76">attacks PRMT5 vulnerability</text>
+    <circle cx="800" cy="430" r="46" fill="#F2ECFA" stroke="#73559E" stroke-width="8"/>
+    <path d="M772 430L792 450L832 408" stroke="#73559E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1105" y="250" width="405" height="260" rx="34" fill="white" stroke="#BFD7DB" stroke-width="4"/>
+    <text x="1308" y="315" text-anchor="middle" font-size="34" font-weight="700" fill="#0F3642">IDE397</text>
+    <text x="1308" y="360" text-anchor="middle" font-size="23" fill="#5E6D76">lowers SAM via MAT2A</text>
+    <circle cx="1308" cy="430" r="46" fill="#FFF1E4" stroke="#D9732C" stroke-width="8"/>
+    <path d="M1284 446C1300 414 1322 414 1338 446" stroke="#D9732C" stroke-width="10" stroke-linecap="round"/>
+    <path d="M495 380H598M1003 380H1105" stroke="#0F3642" stroke-width="10" stroke-linecap="round"/>
+    <path d="M570 350L605 380L570 410M1078 350L1112 380L1078 410" stroke="#0F3642" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="220" y="655" width="1160" height="210" rx="38" fill="#0F3642"/>
+    <text x="800" y="725" text-anchor="middle" font-size="38" font-weight="700" fill="white">Precision Combination Thesis</text>
+    <text x="800" y="786" text-anchor="middle" font-size="26" fill="#DCEBED">Driver signal + synthetic-lethality weakness + metabolic state control</text>
+    <text x="800" y="835" text-anchor="middle" font-size="26" fill="#F5B05A">The commercial question: can this become a pancreatic cancer backbone?</text>
+  </g>
+</svg>

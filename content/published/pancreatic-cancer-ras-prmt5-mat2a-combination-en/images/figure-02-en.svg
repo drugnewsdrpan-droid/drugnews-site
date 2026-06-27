@@ -1,0 +1,33 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Safety and dose questions for RAS and PRMT5 combination therapy</title>
+  <desc id="desc">English clinical development card showing efficacy signals balanced against dose and safety questions.</desc>
+  <rect width="1600" height="1000" rx="36" fill="#FBFCFA"/>
+  <text x="80" y="92" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#102C36">02 | The Next Gate Is Safety</text>
+  <text x="80" y="142" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#61707A">A strong efficacy signal still has to survive dose optimization, toxicity, and larger trials.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="100" y="220" width="640" height="610" rx="34" fill="#F2FAFA" stroke="#C7DFE3" stroke-width="4"/>
+    <text x="420" y="290" text-anchor="middle" font-size="34" font-weight="700" fill="#0F3642">Encouraging Early Profile</text>
+    <g fill="white" stroke="#BFD7DB" stroke-width="4">
+      <rect x="160" y="350" width="520" height="92" rx="24"/>
+      <rect x="160" y="480" width="520" height="92" rx="24"/>
+      <rect x="160" y="610" width="520" height="92" rx="24"/>
+    </g>
+    <text x="200" y="407" font-size="27" font-weight="700" fill="#178E9A">Mostly grade 1-2 events</text>
+    <text x="200" y="537" font-size="27" font-weight="700" fill="#178E9A">Rash, mucositis, diarrhea</text>
+    <text x="200" y="667" font-size="27" font-weight="700" fill="#178E9A">Supports further development</text>
+    <rect x="860" y="220" width="640" height="610" rx="34" fill="#FFF8EF" stroke="#E4D2BB" stroke-width="4"/>
+    <text x="1180" y="290" text-anchor="middle" font-size="34" font-weight="700" fill="#0F3642">Questions To Watch</text>
+    <g fill="white" stroke="#E1CDB4" stroke-width="4">
+      <rect x="920" y="350" width="520" height="92" rx="24"/>
+      <rect x="920" y="480" width="520" height="92" rx="24"/>
+      <rect x="920" y="610" width="520" height="92" rx="24"/>
+    </g>
+    <text x="960" y="407" font-size="26" font-weight="700" fill="#D36E2B">Is low-dose RAS inhibition enough?</text>
+    <text x="960" y="537" font-size="26" font-weight="700" fill="#D36E2B">Does toxicity rise with sample size?</text>
+    <text x="960" y="667" font-size="26" font-weight="700" fill="#D36E2B">Can Phase 3 confirm durability?</text>
+    <path d="M760 522H840" stroke="#0F3642" stroke-width="10" stroke-linecap="round"/>
+    <path d="M820 492L850 522L820 552" stroke="#0F3642" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="405" y="850" width="790" height="76" rx="20" fill="#0F3642"/>
+    <text x="800" y="900" text-anchor="middle" font-size="28" font-weight="700" fill="white">Beautiful early data still need controlled clinical proof.</text>
+  </g>
+</svg>
