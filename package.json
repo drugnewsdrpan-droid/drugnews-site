@@ -4,10 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "publish": "node scripts/publish_articles.mjs && node scripts/build_english_site.mjs && node scripts/build_topic_hubs.mjs && node scripts/inject_analytics.mjs",
-    "publish:force": "node scripts/publish_articles.mjs --force && node scripts/build_english_site.mjs && node scripts/build_topic_hubs.mjs && node scripts/inject_analytics.mjs",
+    "publish": "node scripts/publish_articles.mjs && node scripts/build_english_site.mjs && node scripts/build_topic_hubs.mjs && node scripts/build_company_index.mjs && node scripts/inject_analytics.mjs",
+    "publish:force": "node scripts/publish_articles.mjs --force && node scripts/build_english_site.mjs && node scripts/build_topic_hubs.mjs && node scripts/build_company_index.mjs && node scripts/inject_analytics.mjs",
     "build:topics": "node scripts/build_topic_hubs.mjs",
     "build:en": "node scripts/build_english_site.mjs",
+    "build:companies": "node scripts/build_company_index.mjs",
     "analytics": "node scripts/inject_analytics.mjs",
     "daily:social": "node scripts/daily_social_update_check.mjs",
     "daily:social:dry": "node scripts/daily_social_update_check.mjs --dry-run",

@@ -626,6 +626,7 @@ function headerHtml(current, meta = {}) {
     ? {
         home: "Home",
         articles: "Articles",
+        companies: "Company Index",
         guides: "Guides",
         subscribe: "Paid Research",
         services: "Company Services",
@@ -635,6 +636,7 @@ function headerHtml(current, meta = {}) {
     : {
         home: "首頁",
         articles: "文章",
+        companies: "公司索引",
         guides: "指南",
         subscribe: "付費專欄",
         services: "公司合作",
@@ -645,6 +647,7 @@ function headerHtml(current, meta = {}) {
     ? {
         home: "../en/index.html",
         articles: "../en/articles/",
+        companies: "../companies.html",
         guides: "../en/guides/",
         subscribe: "../en/subscribe.html",
         services: "../en/services.html",
@@ -654,6 +657,7 @@ function headerHtml(current, meta = {}) {
     : {
         home: "../index.html",
         articles: "index.html",
+        companies: "../companies.html",
         guides: "../guides/",
         subscribe: "../subscribe.html",
         services: "../services.html",
@@ -669,6 +673,7 @@ function headerHtml(current, meta = {}) {
     <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
       ${link(hrefs.home, labels.home, "home")}
       ${link(hrefs.articles, labels.articles, "articles")}
+      ${link(hrefs.companies, labels.companies, "companies")}
       ${link(hrefs.guides, labels.guides, "guides")}
       ${link(hrefs.subscribe, labels.subscribe, "subscribe")}
       ${link(hrefs.services, labels.services, "services")}
@@ -1054,6 +1059,7 @@ function articleIndexPage(records) {
     .filter((access) => records.some((item) => accessLabel(item) === access))
     .map((access) => `<a href="type/${accessSlug(access)}.html">${escapeHtml(access)}</a>`)
     .join("");
+  const entityLink = `<a href="../companies.html">公司與管線索引</a>`;
   const monthLinks = [...new Set(records.map((item) => monthKey(item.date)))]
     .slice(0, 4)
     .map((key) => `<a href="archive/${key}.html">${formatMonth(key)}</a>`)
@@ -1097,7 +1103,7 @@ ${headerHtml("articles")}
         </div>
       </div>
       <div class="library-links library-links-large" aria-label="內容系列">${categoryLinks}</div>
-      <div class="library-links muted" aria-label="文章類型與月份歸檔">${typeLinks}${monthLinks}</div>
+      <div class="library-links muted" aria-label="文章類型、公司索引與月份歸檔">${entityLink}${typeLinks}${monthLinks}</div>
       <div class="search-panel">
         <input class="search-box" data-search-input type="search" placeholder="搜尋公司、主題、估值、BD、IR...">
         <button class="button ghost search-clear" data-search-clear type="button" hidden>清除搜尋</button>
@@ -1217,6 +1223,7 @@ function homePage(records) {
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html" aria-current="page">首頁</a>
         <a href="articles/">文章</a>
+        <a href="companies.html">公司索引</a>
         <a href="guides/">指南</a>
         <a href="subscribe.html">付費專欄</a>
         <a href="services.html">公司合作</a>
@@ -1495,6 +1502,7 @@ function sitemap(records) {
   const staticUrls = [
     ["", "1.0", "2026-06-10"],
     ["articles/", "0.9"],
+    ["companies.html", "0.75"],
     ["guides/", "0.8"],
     ["guides/clinical-endpoints.html", "0.7"],
     ["guides/regulatory-milestones.html", "0.7"],
