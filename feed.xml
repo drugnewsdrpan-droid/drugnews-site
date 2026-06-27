@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 26 Jun 2026 05:42:21 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 08:15:31 GMT</lastBuildDate>
+    <item>
+      <title>胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開</title>
+      <link>https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html</guid>
+      <pubDate>Sat, 27 Jun 2026 02:30:00 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/pancreatic-cancer-ras-prmt5-mat2a-combination/cover-generated.svg" alt="胰臟癌 RAS PRMT5 MAT2A 聯合療法專題封面"></p><p>胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。</p>]]></description>
+    </item>
     <item>
       <title>神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？</title>
       <link>https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Wed, 10 Jun 2026 02:45:00 GMT</pubDate>
       <category>商業分析系列</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-cancer-cell.png" alt="胰臟癌細胞與精準治療示意封面圖"></p><p>Daraxonrasib 打開胰臟癌 RAS 標靶時代後，真正的下一場戰爭是抗藥性管理；生華科 CX-5461 的價值在於能否成為 RAS 標靶後時代的免疫增敏與聯合治療候選策略。</p>]]></description>
-    </item>
-    <item>
-      <title>生醫公司 IR 不是把簡報變漂亮，而是把管線變成可追蹤的資本市場故事</title>
-      <link>https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story.html</guid>
-      <pubDate>Wed, 10 Jun 2026 02:30:00 GMT</pubDate>
-      <category>商業分析系列</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/biotech-ir-capital-market-story/ir-flow.svg" alt="生醫 IR 溝通流程圖"></p><p>好的 IR 內容不是宣傳話術，而是把臨床、CMC、監管、商業化與對標公司轉成投資人可以追蹤的節點。</p>]]></description>
     </item>
   </channel>
 </rss>

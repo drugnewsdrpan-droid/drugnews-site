@@ -1,0 +1,101 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">胰臟癌 RAS PRMT5 MAT2A 聯合療法專題封面</title>
+  <desc id="desc">無文字的生技醫藥插畫封面，呈現胰臟癌腫瘤微環境、RAS 訊號抑制與 PRMT5/MAT2A 合成致死聯合療法概念。</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1420" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3FBFC"/>
+      <stop offset="0.55" stop-color="#E8F4F6"/>
+      <stop offset="1" stop-color="#FBF7EF"/>
+    </linearGradient>
+    <radialGradient id="tumor" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(780 468) rotate(86) scale(214 254)">
+      <stop stop-color="#8F4D77"/>
+      <stop offset="0.52" stop-color="#5F3967"/>
+      <stop offset="1" stop-color="#2E2448"/>
+    </radialGradient>
+    <radialGradient id="hot" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(805 440) scale(150)">
+      <stop stop-color="#F7B05A"/>
+      <stop offset="0.42" stop-color="#DE7243"/>
+      <stop offset="1" stop-color="#7C3B52" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tealLine" x1="258" y1="226" x2="1290" y2="722" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1BA6B0"/>
+      <stop offset="1" stop-color="#0B4B67"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#1D5260" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" rx="42" fill="url(#bg)"/>
+  <path d="M-40 712C218 588 396 574 602 648C806 721 986 744 1194 630C1370 534 1508 524 1640 584" stroke="#CFE4E7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M-24 248C214 172 422 228 612 312C823 405 1038 433 1258 336C1424 262 1536 262 1644 326" stroke="#D6EBED" stroke-width="5" stroke-linecap="round"/>
+  <g opacity="0.38">
+    <path d="M92 96H1506" stroke="#D7E7E9"/>
+    <path d="M92 236H1506" stroke="#D7E7E9"/>
+    <path d="M92 376H1506" stroke="#D7E7E9"/>
+    <path d="M92 516H1506" stroke="#D7E7E9"/>
+    <path d="M92 656H1506" stroke="#D7E7E9"/>
+    <path d="M92 796H1506" stroke="#D7E7E9"/>
+    <path d="M212 42V858" stroke="#D7E7E9"/>
+    <path d="M452 42V858" stroke="#D7E7E9"/>
+    <path d="M692 42V858" stroke="#D7E7E9"/>
+    <path d="M932 42V858" stroke="#D7E7E9"/>
+    <path d="M1172 42V858" stroke="#D7E7E9"/>
+    <path d="M1412 42V858" stroke="#D7E7E9"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="206" y="166" width="314" height="156" rx="34" fill="white" fill-opacity="0.92" stroke="#BED7DB" stroke-width="4"/>
+    <rect x="1080" y="144" width="340" height="176" rx="36" fill="white" fill-opacity="0.9" stroke="#BBD4D9" stroke-width="4"/>
+    <rect x="1056" y="608" width="344" height="154" rx="34" fill="white" fill-opacity="0.92" stroke="#BBD4D9" stroke-width="4"/>
+    <rect x="210" y="602" width="360" height="154" rx="34" fill="white" fill-opacity="0.92" stroke="#BBD4D9" stroke-width="4"/>
+  </g>
+  <g opacity="0.9">
+    <path d="M518 244C612 224 682 263 746 320C812 379 876 394 966 350C1040 314 1112 316 1184 362" stroke="url(#tealLine)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M454 670C546 614 628 626 716 664C832 714 940 718 1042 650" stroke="#D36F2B" stroke-width="12" stroke-linecap="round"/>
+    <path d="M944 256C1018 294 1066 344 1094 414" stroke="#D36F2B" stroke-width="8" stroke-linecap="round" stroke-dasharray="24 22"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <ellipse cx="788" cy="462" rx="250" ry="220" fill="url(#tumor)"/>
+    <ellipse cx="788" cy="462" rx="190" ry="156" fill="url(#hot)" opacity="0.8"/>
+    <circle cx="666" cy="344" r="70" fill="#815AA0" opacity="0.86"/>
+    <circle cx="890" cy="330" r="78" fill="#7951A0" opacity="0.86"/>
+    <circle cx="954" cy="498" r="62" fill="#6F4C94" opacity="0.9"/>
+    <circle cx="704" cy="566" r="82" fill="#76539B" opacity="0.88"/>
+    <circle cx="816" cy="462" r="98" fill="#6A477E" opacity="0.86"/>
+    <circle cx="588" cy="480" r="58" fill="#725298" opacity="0.9"/>
+    <circle cx="860" cy="596" r="58" fill="#7A5AA2" opacity="0.86"/>
+  </g>
+  <g stroke="#0C3846" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M386 236C426 276 464 306 514 322"/>
+    <path d="M1184 234C1148 282 1112 322 1060 352"/>
+    <path d="M390 682C446 646 502 612 574 586"/>
+    <path d="M1196 688C1142 642 1088 606 1010 578"/>
+  </g>
+  <g>
+    <circle cx="363" cy="244" r="48" fill="#EAF7F6" stroke="#168B96" stroke-width="8"/>
+    <path d="M338 244H388M363 219V269" stroke="#168B96" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="1228" cy="230" r="50" fill="#FDF2E8" stroke="#D8712B" stroke-width="8"/>
+    <path d="M1200 242C1224 210 1246 208 1272 232" stroke="#D8712B" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="386" cy="680" r="48" fill="#FDF2E8" stroke="#D8712B" stroke-width="8"/>
+    <path d="M358 680H414M386 652V708" stroke="#D8712B" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="1230" cy="684" r="46" fill="#EAF7F6" stroke="#168B96" stroke-width="8"/>
+    <path d="M1208 684L1224 700L1256 664" stroke="#168B96" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g opacity="0.9">
+    <circle cx="300" cy="442" r="22" fill="#1B98A6"/>
+    <circle cx="376" cy="442" r="22" fill="#F2A94A"/>
+    <circle cx="452" cy="442" r="22" fill="#1B98A6"/>
+    <path d="M300 442H452" stroke="#9DC8C8" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="1160" cy="442" r="22" fill="#1B98A6"/>
+    <circle cx="1236" cy="442" r="22" fill="#F2A94A"/>
+    <circle cx="1312" cy="442" r="22" fill="#1B98A6"/>
+    <path d="M1160 442H1312" stroke="#9DC8C8" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.72">
+    <circle cx="284" cy="116" r="8" fill="#1B98A6"/>
+    <circle cx="320" cy="146" r="6" fill="#D8712B"/>
+    <circle cx="1310" cy="108" r="8" fill="#1B98A6"/>
+    <circle cx="1350" cy="140" r="6" fill="#D8712B"/>
+    <path d="M284 116L320 146L356 112" stroke="#9FCED2" stroke-width="4"/>
+    <path d="M1310 108L1350 140L1390 116" stroke="#9FCED2" stroke-width="4"/>
+  </g>
+</svg>
