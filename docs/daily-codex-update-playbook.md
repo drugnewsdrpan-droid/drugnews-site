@@ -36,6 +36,13 @@
 - 參考資料不要有截斷網址，至少要是可點、可辨識的一手來源或明確媒體來源。
 - 手機 390px 第一屏要看得到正文第一段開頭。
 - `news-sitemap.xml` 應包含最近 48 小時的公開文章，`robots.txt` 應宣告一般 sitemap 與 news sitemap。
+- 每天至少跑一次引用檢查，不能讓省略網址繼續累積：
+
+```bash
+/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/audit_references.mjs --limit=30
+```
+
+若輸出 `truncated_url_articles` 大於 0，優先修最新文章的參考資料：補來源名、來源類型、日期與完整 URL；找不到可靠來源時要明確列為待補，不可自行猜網址。
 
 ## 4. 英文圖表修正
 
