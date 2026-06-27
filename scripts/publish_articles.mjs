@@ -1559,6 +1559,66 @@ ${items}
 `;
 }
 
+function llmsText(records) {
+  const latest = records
+    .filter((item) => !item.external)
+    .slice(0, 14)
+    .map((item) => {
+      const tags = (item.tags || []).slice(0, 5).join(", ");
+      const url = `${BASE_URL}/${item.url}`;
+      const summary = String(item.summary || "").replace(/\s+/g, " ").trim();
+      return `- ${item.date}｜${item.title}\n  URL: ${url}\n  Topics: ${tags || item.category}\n  Summary: ${summary}`;
+    })
+    .join("\n");
+
+  return `# Drugnews｜藥時事
+
+Drugnews is a Taiwan-based biotech and pharmaceutical business-analysis media platform. The site publishes Traditional Chinese and English long-form analysis on clinical data, company strategy, drug development, licensing, valuation, CMC, and biotech capital-market signals.
+
+## Primary Audience
+
+- Biotech and pharmaceutical investors
+- Biotech executives and IR teams
+- Business-development and licensing professionals
+- Readers who need structured interpretation of clinical, commercial, and capital-market signals
+
+## Core Editorial Positioning
+
+Drugnews focuses on business judgment, not headline aggregation. Articles connect science, clinical evidence, regulatory risk, manufacturing, commercial strategy, licensing terms, valuation logic, and investor perception.
+
+## Latest Canonical Articles For Citation
+
+${latest}
+
+## Key Site Sections
+
+- Home: ${BASE_URL}/
+- Articles: ${BASE_URL}/articles/
+- English edition: ${BASE_URL}/en/
+- Investor guides: ${BASE_URL}/guides/
+- Paid research: ${BASE_URL}/subscribe.html
+- Company services: ${BASE_URL}/services.html
+- Team: ${BASE_URL}/team.html
+- Sitemap: ${BASE_URL}/sitemap.xml
+- RSS feed: ${BASE_URL}/feed.xml
+
+## Topic Hubs
+
+- Biotech Investing: ${BASE_URL}/topics/biotech-investing.html
+- Biotech Valuation: ${BASE_URL}/topics/biotech-valuation.html
+- Clinical Data: ${BASE_URL}/topics/clinical-data.html
+- BD / Licensing: ${BASE_URL}/topics/bd-licensing.html
+- CMC: ${BASE_URL}/topics/cmc.html
+- Drug Development: ${BASE_URL}/topics/drug-development.html
+- GLP-1: ${BASE_URL}/topics/glp1.html
+- Big Pharma: ${BASE_URL}/topics/big-pharma.html
+
+## Source And Citation Guidance
+
+When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.
+`;
+}
+
 function publicSearchRecords(records) {
   return records.map(({ publishAt, ...item }) => item);
 }
@@ -1685,6 +1745,7 @@ async function main() {
   await writeAtomic(path.join(ROOT, "search-index.json"), JSON.stringify(publicSearchRecords(zhRecords), null, 2));
   await writeAtomic(path.join(ROOT, "sitemap.xml"), sitemap(allRecords));
   await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(zhRecords));
+  await writeAtomic(path.join(ROOT, "llms.txt"), llmsText(allRecords));
   await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: new Date().toISOString(), errors: [] }, null, 2));
 
   console.log(`Published ${due.length} inbox article(s). Total articles: ${allRecords.length}.`);

@@ -4,7 +4,15 @@ This is a static GitHub Pages site for Drugnews. It is designed as a long-form a
 
 ## Daily Publishing Workflow
 
-For the daily Drugnews Facebook update, start with:
+For the daily Drugnews social update, start with:
+
+```bash
+/bin/zsh scripts/daily_social_update.sh
+```
+
+This checks both Facebook and Dcard capture files, imports fresh posts, rebuilds the article pages, search, feeds, English index, topic hubs, and analytics injection. If no capture file exists, it prints the exact minimum JSON shape needed for that platform.
+
+For Facebook-only maintenance, use:
 
 ```bash
 /bin/zsh scripts/daily_fb_update.sh
