@@ -206,17 +206,15 @@ Omvoh 則可能成為腸道免疫疾病裡的另一個組合底盤。
 
 參考資料：
 
-[0]:各公司官網＆公開資料
+[1] Eli Lilly and Company｜Zepbound (tirzepatide) U.S. prescribing information: https://uspl.lilly.com/zepbound/zepbound.html#pi
 
-[1]: https://www.reuters.com/....../lillys-zepbound-plus....../
+[2] Eli Lilly and Company｜Taltz (ixekizumab) U.S. prescribing information: https://uspl.lilly.com/taltz/taltz.html#pi
 
-[2]: https://www.prnewswire.com/....../lillys-taltz......
+[3] Eli Lilly and Company｜COMMIT-CD clinical trial: mirikizumab and tirzepatide in Crohn's disease with obesity or overweight: https://trials.lilly.com/en-US/trial/600156
 
-[3]: https://trials.lilly.com/en-US/trial/600156
+[4] Eli Lilly and Company｜Omvoh (mirikizumab) U.S. prescribing information: https://uspl.lilly.com/omvoh/omvoh.html#pi
 
-[4]: https://www.reuters.com/....../abbvies-rinvoq-shows....../
-
-[5]: https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full......
+[5] AbbVie｜Rinvoq (upadacitinib) U.S. prescribing information: https://www.rxabbvie.com/pdf/rinvoq_pi.pdf
 
 ---
 

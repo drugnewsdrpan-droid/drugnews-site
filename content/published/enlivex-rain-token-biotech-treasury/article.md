@@ -167,9 +167,9 @@ Biotech 可以用各種方法找錢。股權融資、授權、債務、royalty f
 
 參考資料：
 
-[0]: 各公司官網＆公開資料
+[1] Enlivex Therapeutics｜Investor relations and company filings: https://enlivex.com/investors/
 
-[1]: https://www.globenewswire.com/....../enlivex-reports...... "Enlivex Reports Full-Year 2025 Results: Profit (Net Income)"
+[2] GlobeNewswire｜Enlivex company news releases: https://www.globenewswire.com/search/organization/Enlivex%2520Therapeutics
 
 ---
 

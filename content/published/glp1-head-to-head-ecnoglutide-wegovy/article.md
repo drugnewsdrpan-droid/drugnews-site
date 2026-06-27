@@ -183,17 +183,15 @@ Wegovy 的護城河，不是一個 20 週減重數字，而是多年累積的臨
 
 參考資料：
 
-[1]:各公司官網＆公開資料
+[1] Novo Nordisk｜Wegovy U.S. prescribing information: https://www.novo-pi.com/wegovy.pdf
 
-[2]: https://www.hcplive.com/....../ecnoglutide-delivers-35......
+[2] Pfizer｜Obesity and metabolic disease pipeline: https://www.pfizer.com/science/drug-product-pipeline
 
-[3]: https://www.morningstar.com/....../head-to-head-study......
+[3] Sciwind Biosciences｜Ecnoglutide / GLP-1 pipeline and company information: https://www.sciwind.com/
 
-[4]: https://www.prnewswire.com/....../wegovy-approved-by......
+[4] U.S. FDA｜Drug approvals and databases: https://www.fda.gov/drugs
 
-[5]: https://www.fda.gov/....../fda-approves-treatment......
-
-[6]: https://www.who.int/....../05-09-2025-who-updates-list......
+[5] World Health Organization｜Essential medicines and health-product updates: https://www.who.int/teams/health-product-policy-and-standards/essential-medicines
 
 ---
 

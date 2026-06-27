@@ -212,19 +212,15 @@ Ecnoglutide 也值得注意。
 
 參考資料：
 
-[0]: 各公司官網＆公開資料
+[1] Eli Lilly and Company｜Zepbound (tirzepatide) U.S. prescribing information: https://uspl.lilly.com/zepbound/zepbound.html#pi
 
-[1]: https://www.prnewswire.com/....../lilly-reports-first......
+[2] Novo Nordisk｜Wegovy U.S. prescribing information: https://www.novo-pi.com/wegovy.pdf
 
-[2]: https://www.prnewswire.com/....../novo-nordisks-wegovy......
+[3] Eli Lilly and Company｜Orforglipron phase 3 / oral GLP-1 investor information: https://investor.lilly.com/
 
-[3]: https://investor.lilly.com/....../lillys-oral-glp-1......
+[4] Pfizer｜Danuglipron and obesity pipeline investor information: https://www.pfizer.com/science/drug-product-pipeline
 
-[4]: https://www.reuters.com/....../lilly-stays-ahead-pack....../
-
-[5]: https://www.fiercebiotech.com/....../ada-pfizer-pads......
-
-[6]: https://www.roche.com/media/releases/med-cor-2026-03-05
+[5] Roche｜CT-388 / Carmot Therapeutics obesity pipeline investor information: https://www.roche.com/media/releases/med-cor-2026-03-05
 
 ---
 

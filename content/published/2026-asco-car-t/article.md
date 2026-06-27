@@ -191,17 +191,15 @@ ADC 仍是大藥廠最積極佈局的平台。
 
 參考資料：
 
-[0]:各公司官網＆公開資料
+[1] ASCO｜Abstracts and presentations: https://www.asco.org/abstracts-presentations/267303
 
-[1]: https://www.reuters.com/....../revolution-medicines....../
+[2] Revolution Medicines｜Investor relations and clinical updates: https://ir.revmed.com/
 
-[2]: https://www.reuters.com/....../kelun-mercks-lung....../
+[3] BioNTech｜Oncology pipeline and company news: https://investors.biontech.de/
 
-[3]: https://www.asco.org/abstracts-presentations/267303
+[4] Kelonia Therapeutics｜Company news and presentations: https://keloniatx.com/news/
 
-[4]: https://www.biontech.com/....../Global-Data-for......
-
-[5]: https://keloniatx.com/kelonia-therapeutics-presents....../
+[5] Reuters｜Healthcare and pharmaceutical industry coverage: https://www.reuters.com/business/healthcare-pharmaceuticals/
 
 ---
 

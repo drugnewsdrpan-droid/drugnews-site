@@ -161,17 +161,13 @@ Zidesamtinib 要解決 ROS1 耐藥與腦轉移。Neladalkib 要解決 ALK 複合
 
 參考資料：
 
-[0]:各公司官網＆公開資料
+[1] GSK｜Investor relations and company announcements: https://www.gsk.com/en-gb/investors/
 
-[1]: https://www.reuters.com/....../uks-gsk-buy-us-based....../
+[2] Nuvalent｜Investor relations and company news: https://investors.nuvalent.com/
 
-[2]: https://investors.nuvalent.com/2026-02-26-Nuvalent......
+[3] Nuvalent｜Pipeline overview: https://www.nuvalent.com/pipeline/
 
-[3]: https://www.prnewswire.com/....../nuvalent-highlights......
-
-[4]: https://investors.nuvalent.com/2026-05-21-Nuvalent......
-
-[5]: https://www.prnewswire.com/....../nuvalent-announces......
+[4] Reuters｜Health and pharmaceutical M&A coverage: https://www.reuters.com/business/healthcare-pharmaceuticals/
 
 ---
 
