@@ -1989,6 +1989,28 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   font-size: 0.92rem;
 }
 
+.article-next-reading {
+  margin: 42px 0 10px;
+  padding-top: 26px;
+  border-top: 2px solid var(--brand);
+}
+
+.article-next-reading h2 {
+  margin-top: 0;
+}
+
+.article-next-reading .article-list {
+  margin-top: 18px;
+}
+
+.article-next-reading .article-card.with-image {
+  grid-template-columns: 128px minmax(0, 1fr);
+}
+
+.article-next-reading .card-thumb {
+  aspect-ratio: 16 / 9;
+}
+
 .notice {
   border: 1px solid #ead3ca;
   background: #fff8f5;
@@ -2410,32 +2432,36 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     display: none;
   }
   .article-hero {
-    padding: 16px 0 14px;
+    padding: 12px 0 10px;
   }
   .article-hero .meta {
     gap: 8px;
-    font-size: 0.78rem;
+    font-size: 0.74rem;
   }
   .article-hero h1 {
-    margin-top: 8px;
-    font-size: clamp(1.42rem, 7vw, 1.76rem);
-    line-height: 1.18;
+    margin-top: 6px;
+    font-size: clamp(1.34rem, 6.3vw, 1.64rem);
+    line-height: 1.16;
   }
   .article-deck {
-    margin-top: 10px;
-    font-size: 0.96rem;
-    line-height: 1.68;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 8px;
+    font-size: 0.9rem;
+    line-height: 1.58;
   }
   .article-byline {
     display: none;
   }
   .article-hero .tag-row {
-    margin-top: 10px;
+    margin-top: 8px;
   }
   .article-share {
     grid-template-columns: 1fr;
     gap: 10px;
-    margin: 18px 0 22px;
+    margin: 12px 0 18px;
     padding: 10px;
     border-radius: 999px;
   }
@@ -2450,9 +2476,9 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   }
   .share-actions .button {
     width: auto;
-    min-height: 34px;
-    padding: 0 8px;
-    font-size: 0.74rem;
+    min-height: 32px;
+    padding: 0 7px;
+    font-size: 0.72rem;
     white-space: nowrap;
   }
   .article-hero,
@@ -2506,6 +2532,11 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     font-size: 1.02rem;
     line-height: 1.92;
   }
+  .article-body h2 {
+    margin-top: 28px;
+    font-size: 1.22rem;
+    line-height: 1.34;
+  }
   .article-body > p:first-child {
     margin-top: 0;
   }
@@ -2524,6 +2555,13 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   }
   .article-share .button {
     width: auto;
+  }
+  .article-next-reading {
+    margin-top: 34px;
+    padding-top: 20px;
+  }
+  .article-next-reading .article-card.with-image {
+    grid-template-columns: 1fr;
   }
   .tag {
     min-height: 30px;

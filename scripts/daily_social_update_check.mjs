@@ -13,6 +13,7 @@ const DCARD_PAGE_URL = "https://www.dcard.tw/@drugnews";
 const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
 const captureFacebook = args.includes("--capture-facebook") || process.env.DRUGNEWS_CAPTURE_FACEBOOK === "1";
+const captureDcard = args.includes("--capture-dcard") || process.env.DRUGNEWS_CAPTURE_DCARD === "1";
 const fbInput = args.find((arg) => arg.startsWith("--facebook="))?.slice("--facebook=".length) || FB_INPUT;
 const dcardInput = args.find((arg) => arg.startsWith("--dcard="))?.slice("--dcard=".length) || DCARD_INPUT;
 
@@ -177,6 +178,18 @@ async function main() {
     });
     if (result.status !== 0) {
       console.warn("Facebook Chrome capture was not available; continuing with capture request output.");
+    } else if (result.stdout) {
+      process.stdout.write(result.stdout);
+    }
+  }
+
+  if (captureDcard && !fs.existsSync(dcardInput)) {
+    const result = spawnSync(process.execPath, ["scripts/scrape_dcard_cdp.mjs", "profile", DCARD_PAGE_URL, dcardInput], {
+      cwd: ROOT,
+      encoding: "utf8"
+    });
+    if (result.status !== 0) {
+      console.warn("Dcard Chrome capture was not available; continuing with capture request output.");
     } else if (result.stdout) {
       process.stdout.write(result.stdout);
     }

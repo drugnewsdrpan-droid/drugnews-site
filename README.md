@@ -28,13 +28,21 @@ npm run capture:fb
 
 The capture script writes `/private/tmp/drugnews-facebook-latest.json` plus `/private/tmp/drugnews-facebook-latest.json.diagnostics.json`. It only selects candidates that look like long-form analysis posts and downranks notifications, comments, course promotions, and website announcements.
 
+Capture the newest Dcard post with:
+
+```bash
+npm run capture:dcard
+```
+
+The Dcard capture script writes `/private/tmp/drugnews-dcard-latest.json` plus diagnostics, keeps the original paragraph breaks, downloads Dcard article images, and inserts them back into the article body by section order.
+
 To combine capture and import in one command, use:
 
 ```bash
 npm run daily:social:capture
 ```
 
-This attempts Facebook capture first, then runs the normal social import status check. If Chrome remote debugging is not available or Facebook returns no safe long-form candidate, it continues with a clear capture request instead of guessing.
+This attempts Facebook and Dcard capture first, then runs the normal social import status check. If Chrome remote debugging is not available or a platform returns no safe long-form candidate, it continues with a clear capture request instead of guessing.
 
 1. Create one folder under `content/inbox/`.
 2. Add:

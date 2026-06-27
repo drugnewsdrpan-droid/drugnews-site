@@ -103,7 +103,7 @@ function tagsFor(title, lines) {
   const text = `${title}\n${lines.slice(0, 16).join("\n")}`;
   const rules = [
     ["AI", /AI|人工智慧|Nvidia|Amazon|AWS|Google/i],
-    ["GLP-1", /GLP-1|瘦瘦針|減肥|肥胖|猛健樂|口服藥/],
+    ["GLP-1", /GLP-1|瘦瘦針|減肥|肥胖|猛健樂|semaglutide|tirzepatide/i],
     ["自體免疫", /自體免疫|免疫|發炎|CDC|CAR-T/],
     ["BD", /BD|授權|併購|交易|平台型|藥廠/],
     ["臨床數據", /臨床|試驗|PDUFA|終點|FDA|CRL/],

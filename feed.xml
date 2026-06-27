@@ -6,7 +6,7 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 27 Jun 2026 09:56:47 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 12:50:44 GMT</lastBuildDate>
     <item>
       <title>胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開</title>
       <link>https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html</link>
@@ -38,6 +38,14 @@
       <pubDate>Thu, 25 Jun 2026 00:30:00 GMT</pubDate>
       <category>商業分析系列</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/protect-pet-medical-roche-platform/cover.png" alt="寶泰生醫寵物重症醫療平台與診斷治療閉環封面"></p><p>當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。</p>]]></description>
+    </item>
+    <item>
+      <title>AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu</title>
+      <link>https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html</guid>
+      <pubDate>Wed, 24 Jun 2026 00:13:00 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/ai-zasocitinib-sotyktu/cover.svg" alt="AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu 專題封面"></p><p>過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Tal</p>]]></description>
     </item>
     <item>
       <title>減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？</title>
@@ -198,14 +206,6 @@
       <pubDate>Wed, 10 Jun 2026 03:00:00 GMT</pubDate>
       <category>基本面系列</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/vocus-brm421-valuation-20260610-cover.svg" alt="全福生技 BRM421 合理估值封面"></p><p>全福不是單純乾眼症大市場概念股，也不是失敗新藥股；本文拆解 BRM421、BRM424、PDSP 平台、現金與稀釋風險，重算合理估值區間。</p>]]></description>
-    </item>
-    <item>
-      <title>RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場「抗藥性管理」戰</title>
-      <link>https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html</guid>
-      <pubDate>Wed, 10 Jun 2026 02:45:00 GMT</pubDate>
-      <category>商業分析系列</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-cancer-cell.png" alt="胰臟癌細胞與精準治療示意封面圖"></p><p>Daraxonrasib 打開胰臟癌 RAS 標靶時代後，真正的下一場戰爭是抗藥性管理；生華科 CX-5461 的價值在於能否成為 RAS 標靶後時代的免疫增敏與聯合治療候選策略。</p>]]></description>
     </item>
   </channel>
 </rss>

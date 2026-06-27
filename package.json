@@ -12,10 +12,11 @@
     "analytics": "node scripts/inject_analytics.mjs",
     "daily:social": "node scripts/daily_social_update_check.mjs",
     "daily:social:dry": "node scripts/daily_social_update_check.mjs --dry-run",
-    "daily:social:capture": "node scripts/daily_social_update_check.mjs --capture-facebook",
+    "daily:social:capture": "node scripts/daily_social_update_check.mjs --capture-facebook --capture-dcard",
     "daily:fb": "node scripts/daily_facebook_update_check.mjs",
     "daily:fb:dry": "node scripts/daily_facebook_update_check.mjs --dry-run",
     "capture:fb": "node scripts/scrape_facebook_cdp.mjs profile https://www.facebook.com/profile.php?id=61568446257142 /private/tmp/drugnews-facebook-latest.json",
+    "capture:dcard": "node scripts/scrape_dcard_cdp.mjs profile https://www.dcard.tw/@drugnews /private/tmp/drugnews-dcard-latest.json",
     "translate:en": "node scripts/translate_articles_to_english.mjs",
     "translate:en:all": "node scripts/translate_articles_to_english.mjs --all"
   }

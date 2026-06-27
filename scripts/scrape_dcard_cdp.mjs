@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 const endpoint = process.env.CDP_ENDPOINT || "http://127.0.0.1:9222";
 const mode = process.argv[2] || "profile";
 const arg = process.argv[3] || "https://www.dcard.tw/@drugnews";
-const out = process.argv[4] || "/private/tmp/dcard-scrape.json";
+const out = process.argv[4] || "/private/tmp/drugnews-dcard-latest.json";
 
 async function cdpJson(path) {
   const res = await fetch(`${endpoint}${path}`);
@@ -18,14 +18,14 @@ class Cdp {
     this.pending = new Map();
     this.ws.addEventListener("message", (event) => {
       const msg = JSON.parse(event.data);
-      if (msg.id && this.pending.has(msg.id)) {
-        const { resolve, reject } = this.pending.get(msg.id);
-        this.pending.delete(msg.id);
-        if (msg.error) reject(new Error(msg.error.message));
-        else resolve(msg.result);
-      }
+      if (!msg.id || !this.pending.has(msg.id)) return;
+      const { resolve, reject } = this.pending.get(msg.id);
+      this.pending.delete(msg.id);
+      if (msg.error) reject(new Error(msg.error.message));
+      else resolve(msg.result);
     });
   }
+
   async ready() {
     if (this.ws.readyState === WebSocket.OPEN) return;
     await new Promise((resolve, reject) => {
@@ -33,11 +33,13 @@ class Cdp {
       this.ws.addEventListener("error", reject, { once: true });
     });
   }
+
   send(method, params = {}) {
     const id = ++this.id;
     this.ws.send(JSON.stringify({ id, method, params }));
     return new Promise((resolve, reject) => this.pending.set(id, { resolve, reject }));
   }
+
   close() {
     this.ws.close();
   }
@@ -49,8 +51,9 @@ async function wait(ms) {
 
 async function getClient() {
   const tabs = await cdpJson("/json/list");
-  const page = tabs.find((tab) => tab.type === "page");
-  if (!page) throw new Error("No Chrome page target found");
+  const page = tabs.find((tab) => tab.type === "page" && /dcard\.tw/.test(tab.url || "")) ||
+    tabs.find((tab) => tab.type === "page");
+  if (!page) throw new Error("No Chrome page target found. Start Chrome with --remote-debugging-port=9222 first.");
   const client = new Cdp(page.webSocketDebuggerUrl);
   await client.ready();
   await client.send("Page.enable");
@@ -58,7 +61,7 @@ async function getClient() {
   return client;
 }
 
-async function navigate(client, url, delay = 4500) {
+async function navigate(client, url, delay = 6000) {
   await client.send("Page.navigate", { url });
   await wait(delay);
 }
@@ -75,78 +78,126 @@ async function evalJson(client, expression) {
   return result.result.value;
 }
 
-async function scrapeProfile(client, url) {
-  await navigate(client, url, 6500);
-  const rounds = Number(process.env.DCARD_SCROLL_ROUNDS || 60);
-  const all = new Map();
-  for (let i = 0; i < rounds; i += 1) {
-    const links = await evalJson(client, `(() => {
-      return [...document.querySelectorAll('a[href*="/@drugnews/post/"]')]
-        .map(a => ({ href: new URL(a.getAttribute('href'), location.href).href, text: a.innerText.trim() }))
-        .filter(x => x.href.includes('/@drugnews/post/'));
-    })()`);
-    for (const link of links) all.set(link.href.split("?")[0], link);
-    await evalJson(client, `window.scrollBy(0, Math.max(900, window.innerHeight * 1.2)); true`);
-    await wait(1200);
+function normalizeTitle(title = "") {
+  return String(title)
+    .replace(/\s*-\s*藥時事 Drugnews \(@drugnews\).*$/u, "")
+    .replace(/\s*\|\s*Dcard.*$/u, "")
+    .trim();
+}
+
+function postId(url = "") {
+  return String(url).match(/\/post\/(\d+)/)?.[1] || "";
+}
+
+function parsePublished(text = "") {
+  const value = String(text);
+  const now = new Date();
+  const year = now.getFullYear();
+  const exact = value.match(/(\d{1,2})\s*月\s*(\d{1,2})\s*日\s*(\d{1,2}):(\d{2})/);
+  if (exact) {
+    const [, month, day, hour, minute] = exact;
+    return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}T${hour.padStart(2, "0")}:${minute}:00+08:00`;
   }
-  return [...all.values()];
+  const daysAgo = value.match(/(\d+)\s*天/);
+  if (daysAgo) {
+    const date = new Date(now.getTime() - Number(daysAgo[1]) * 24 * 60 * 60 * 1000);
+    const yyyy = date.getFullYear();
+    const mm = String(date.getMonth() + 1).padStart(2, "0");
+    const dd = String(date.getDate()).padStart(2, "0");
+    return `${yyyy}-${mm}-${dd}T10:30:00+08:00`;
+  }
+  return new Date().toISOString();
+}
+
+function upgradeImage(url = "") {
+  return String(url).replace(/\/160\.(webp|jpe?g|png)(\?.*)?$/i, "/1280.$1");
+}
+
+function uniq(values) {
+  return [...new Set(values.filter(Boolean))];
+}
+
+async function scrapeProfile(client, url) {
+  await navigate(client, url);
+  return evalJson(client, `(() => {
+    const links = [...document.querySelectorAll('a[href*="/post/"]')]
+      .map((a) => ({ href: a.href.split('?')[0], text: a.innerText || "" }))
+      .filter((item) => /\\/post\\/\\d+/.test(item.href));
+    const seen = new Set();
+    return links.filter((item) => {
+      if (seen.has(item.href)) return false;
+      seen.add(item.href);
+      return true;
+    }).slice(0, 8);
+  })()`);
 }
 
 async function scrapePost(client, url) {
-  await navigate(client, url, 5200);
-  return evalJson(client, `(() => {
-    const pick = (sel, attr) => {
-      const el = document.querySelector(sel);
-      return el ? (attr ? el.getAttribute(attr) : el.textContent) || "" : "";
-    };
-    const article = document.querySelector('article') || document.querySelector('main') || document.body;
-    const rawText = article.innerText || "";
-    const firstLineTitle = rawText.split(/\\n+/).map(line => line.trim()).find(Boolean) || "";
-    const title = (document.querySelector('h1')?.innerText || firstLineTitle || pick('meta[property="og:title"]', 'content') || document.title || '')
-      .replace(/\\s*-\\s*藥時事 Drugnews \\(@drugnews\\).*$/u, '')
-      .replace(/\\s*\\|\\s*$/u, '')
-      .replace(/\\s*Dcard\\s*$/u, '')
-      .trim();
-    const published = pick('meta[property="article:published_time"]', 'content')
-      || document.querySelector('time[datetime]')?.getAttribute('datetime')
-      || "";
-    const articleText = rawText;
-    const bodyText = document.body.innerText || "";
+  await navigate(client, url);
+  const raw = await evalJson(client, `(() => {
+    const articles = [...document.querySelectorAll('article')]
+      .sort((a, b) => (b.innerText || '').length - (a.innerText || '').length);
+    const article = articles[0] || document.querySelector('main') || document.body;
+    const text = article.innerText || '';
+    const title = (article.querySelector('h1')?.innerText || document.title || '').trim();
     const images = [...article.querySelectorAll('img')]
-      .map(img => img.currentSrc || img.src || img.getAttribute('src') || '')
-      .filter(src => /megapx-assets\\.dcard\\.tw\\/images\\//.test(src))
-      .filter(src => !/\\/160\\.(webp|jpe?g|png)($|\\?)/i.test(src))
-      .map(src => src.replace(/\\?.*$/, ''));
-    const uniqueImages = [...new Map(images.map(src => {
-      const id = src.match(/images\\/([^/]+)\\//)?.[1] || src;
-      return [id, src];
-    })).values()];
-    return {
-      url: location.href.split("?")[0],
-      title,
-      published,
-      articleText,
-      bodyText,
-      images: uniqueImages,
-      htmlTitle: document.title
-    };
+      .map((img) => {
+        const rect = img.getBoundingClientRect();
+        return {
+          src: img.currentSrc || img.src || '',
+          alt: img.alt || '',
+          width: img.naturalWidth || rect.width || 0,
+          height: img.naturalHeight || rect.height || 0,
+          boxWidth: rect.width || 0,
+          boxHeight: rect.height || 0
+        };
+      })
+      .filter((img) => /megapx-assets\\.dcard\\.tw/.test(img.src))
+      .filter((img) => img.boxWidth > 160 || img.width > 240)
+      .map((img) => img.src);
+    return { title, url: location.href.split('?')[0], text, images };
   })()`);
+
+  const title = normalizeTitle(raw.title);
+  return {
+    title,
+    published: parsePublished(raw.text),
+    url: raw.url || url,
+    articleText: raw.text,
+    images: uniq((raw.images || []).map(upgradeImage))
+  };
 }
 
 const client = await getClient();
 try {
-  let data;
-  if (mode === "profile") data = await scrapeProfile(client, arg);
-  else if (mode === "post") data = await scrapePost(client, arg);
-  else if (mode === "posts") {
-    const urls = JSON.parse(await fs.readFile(arg, "utf8"));
-    data = [];
-    for (const url of urls) data.push(await scrapePost(client, url));
+  let posts = [];
+  let diagnostics;
+  if (mode === "profile") {
+    const links = await scrapeProfile(client, arg);
+    const first = links.find((item) => postId(item.href));
+    if (first) posts = [await scrapePost(client, first.href)];
+    diagnostics = { generated_at: new Date().toISOString(), source: arg, links, selected_url: first?.href || "" };
+  } else if (mode === "post") {
+    posts = [await scrapePost(client, arg)];
+    diagnostics = { generated_at: new Date().toISOString(), source: arg, selected_url: arg };
   } else {
     throw new Error(`Unknown mode: ${mode}`);
   }
-  await fs.writeFile(out, `${JSON.stringify(data, null, 2)}\n`, "utf8");
-  console.log(JSON.stringify(Array.isArray(data) ? { count: data.length, out } : { out, title: data.title, published: data.published, images: data.images.length }, null, 2));
+
+  await fs.writeFile(out, `${JSON.stringify(posts, null, 2)}\n`, "utf8");
+  await fs.writeFile(`${out}.diagnostics.json`, `${JSON.stringify(diagnostics, null, 2)}\n`, "utf8");
+  console.log(JSON.stringify({
+    out,
+    diagnostics: `${out}.diagnostics.json`,
+    importable_posts: posts.length,
+    selected: posts.map((post) => ({
+      title: post.title,
+      url: post.url,
+      published: post.published,
+      images: post.images.length,
+      text_length: post.articleText.length
+    }))
+  }, null, 2));
 } finally {
   client.close();
 }

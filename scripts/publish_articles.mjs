@@ -43,9 +43,31 @@ const ACCESS_TYPES = new Map([
 const DISCLAIMER = "本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。";
 const ENGLISH_DISCLAIMER = "This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.";
 const HIDDEN_DISPLAY_TAGS = /^(Dcard|Facebook|FB|方格子|免費文章|付費文章|商業分析系列|基本面系列|醫學大會|付費深度商業分析文章系列|製藥巨頭系列)$/i;
+const RELATED_TOPIC_FAMILIES = [
+  ["ras", "kras", "胰臟癌", "pancreatic", "prmt5", "mat2a", "腫瘤", "oncology", "cancer", "精準治療"],
+  ["glp-1", "glp1", "tirzepatide", "semaglutide", "retatrutide", "肥胖", "減重", "代謝"],
+  ["bd", "授權", "upfront", "milestone", "royalty", "併購", "licensing", "deal"],
+  ["估值", "rnpv", "sotp", "峰值銷售", "市值", "valuation", "capital"],
+  ["cmc", "製造", "產能", "cdmo", "製程", "供應鏈"],
+  ["ai", "ai 製藥", "人工智慧", "zasocitinib", "protac", "臨床資產生成引擎"],
+  ["car-t", "細胞治療", "自體免疫", "autoimmune"],
+  ["製藥巨頭", "big pharma", "lilly", "novo", "merck", "gsk", "bms", "pfizer", "roche", "takeda"]
+];
 
 function visibleDisplayTags(tags = []) {
   return tags.filter((tag) => !HIDDEN_DISPLAY_TAGS.test(tag));
+}
+
+function relatedTopicFamilyScore(sourceText, candidateText) {
+  let score = 0;
+  for (const family of RELATED_TOPIC_FAMILIES) {
+    const sourceHits = family.filter((term) => sourceText.includes(term.toLowerCase()));
+    if (!sourceHits.length) continue;
+    const candidateHits = family.filter((term) => candidateText.includes(term.toLowerCase()));
+    if (!candidateHits.length) continue;
+    score += Math.min(18, sourceHits.length * candidateHits.length * 3);
+  }
+  return score;
 }
 
 async function exists(filePath) {
@@ -774,7 +796,7 @@ function articlePage(article, bodyHtml, related) {
   const shareHtml = sharePanelHtml(meta, url);
   const bodyWithShare = injectAfterFirstParagraph(bodyHtml, shareHtml);
   const relatedHtml = related.length
-    ? `<div class="card next-reading"><h3>${ui.nextReading}</h3><p>${isEnglish(meta) ? "Continue with the most relevant Drugnews analysis on the same theme." : "延伸閱讀會優先依主題、標籤與產業脈絡推薦，而不是只放最新文章。"}</p><div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("")}</div></div>`
+    ? `<div class="article-next-reading next-reading"><h2>${ui.nextReading}</h2><p>${isEnglish(meta) ? "Continue with the most relevant Drugnews analysis on the same theme." : "這三篇會優先依主題、標籤與產業脈絡推薦，幫你把同一個問題讀得更完整。"}</p><div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("")}</div></div>`
     : "";
   const sourceLinks = [
     meta.dcard_url ? `<a class="tag" href="${escapeHtml(meta.dcard_url)}" target="_blank" rel="noopener">${ui.originalDcard}</a>` : "",
@@ -875,6 +897,7 @@ ${headerHtml("articles", meta)}
         <p>${ui.paidCopy}</p>
         <div class="actions"><a class="button primary" href="${localLinks.subscribe}">${ui.paidCta}</a></div>
       </div>
+      ${relatedHtml}
       </article>
       <aside class="sidebar">
       <div class="card paid-card">
@@ -893,7 +916,6 @@ ${headerHtml("articles", meta)}
           <a class="button secondary" href="${CMONEY_URL}" target="_blank" rel="noopener">${ui.cmoney}</a>
         </div>
       </div>
-      ${relatedHtml}
       </aside>
     </div>
   </section>
@@ -1026,6 +1048,7 @@ function relatedScore(source, candidate) {
   if ((candidate.topic || "") && candidate.topic === source.topic) score += 4;
   const sourceText = [source.title, source.summary, source.text, ...(source.tags || [])].join(" ").toLowerCase();
   const candidateText = [candidate.title, candidate.summary, candidate.text, ...(candidate.tags || [])].join(" ").toLowerCase();
+  score += relatedTopicFamilyScore(sourceText, candidateText);
   for (const token of sourceText.match(/[A-Za-z0-9-]{3,}|[\u4e00-\u9fff]{2,}/g) || []) {
     if (candidateText.includes(token)) score += /ras|prmt5|mat2a|胰臟癌|臨床|oncology|cancer|glp-1|bd|估值/i.test(token) ? 3 : 0.35;
   }
@@ -1220,6 +1243,8 @@ function homePage(records) {
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="index.html"><img src="favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
+      <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
+      <label class="nav-menu-button" for="site-nav-toggle">選單</label>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html" aria-current="page">首頁</a>
         <a href="articles/">文章</a>

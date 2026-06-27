@@ -35,6 +35,10 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   URL: https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html
   Topics: 商業分析系列, 免費文章, 寶泰生醫, 寵物醫療, 羅氏
   Summary: 當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。
+- 2026-06-24｜AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu
+  URL: https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html
+  Topics: 商業分析系列, 免費文章, AI, 臨床數據, 生技投資
+  Summary: 過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Tal
 - 2026-06-22｜The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?
   URL: https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html
   Topics: Obesity medicine, GLP-1, Eli Lilly, Novo Nordisk, Pfizer
@@ -67,10 +71,6 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   URL: https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html
   Topics: 商業分析系列, 免費文章, AI, BD, 臨床數據
   Summary: 2026 年 6 月 9 日，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元，較 Nuvalent 前一交易日收盤價溢價約 40%。這是 GSK 近年最大型的腫瘤併購之一，也讓它瞬間補上肺癌精準治療版圖中最缺的一塊。
-- 2026-06-17｜GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？
-  URL: https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html
-  Topics: 商業分析系列, 免費文章, GLP-1, 肥胖藥, Ecnoglutide
-  Summary: ADA 2026 剛落幕，GLP-1 賽道又被一組頭對頭資料點燃。Ecnoglutide 在 20 週減重數字上勝出，但真正的競爭不只看短期體重下降，而是長期健康結局、耐受性、產品矩陣與全球商業化。
 
 ## Key Site Sections
 
