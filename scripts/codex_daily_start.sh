@@ -4,6 +4,7 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 BUNDLED_NODE="/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
 STATUS_FILE="${DRUGNEWS_DAILY_STATUS_FILE:-/private/tmp/drugnews-codex-daily-status.json}"
+RUN_LOG="${DRUGNEWS_DAILY_RUN_LOG:-/private/tmp/drugnews-codex-daily-run.log}"
 PM_FILE="${DRUGNEWS_DAILY_PM_FILE:-/private/tmp/drugnews-codex-pm-health.json}"
 
 START_CHROME=1
@@ -51,10 +52,12 @@ fi
 
 echo "== 3. Social capture and import =="
 if [[ "$CAPTURE" == "1" ]]; then
-  "$NODE_BIN" scripts/daily_social_update_check.mjs --capture-facebook --capture-dcard | tee "$STATUS_FILE"
+  "$NODE_BIN" scripts/daily_social_update_check.mjs --capture-facebook --capture-dcard | tee "$RUN_LOG"
 else
-  "$NODE_BIN" scripts/daily_social_update_check.mjs | tee "$STATUS_FILE"
+  "$NODE_BIN" scripts/daily_social_update_check.mjs | tee "$RUN_LOG"
 fi
+"$NODE_BIN" scripts/daily_social_update_check.mjs > "$STATUS_FILE"
+cat "$STATUS_FILE"
 echo
 
 echo "== 4. Reader and reference QA =="
@@ -77,4 +80,5 @@ if [[ "$STRICT" == "1" ]]; then
 fi
 
 echo "Daily status: $STATUS_FILE"
+echo "Daily run log: $RUN_LOG"
 echo "PM health: $PM_FILE"
