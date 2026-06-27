@@ -20,6 +20,22 @@ For Facebook-only maintenance, use:
 
 If `/private/tmp/drugnews-facebook-latest.json` exists, this imports new Facebook posts, rebuilds article pages, search, sitemap, feeds, English index, and topic hubs. If the JSON does not exist, the command prints the exact minimum capture format needed from the logged-in Facebook page. If npm is available, `npm run daily:fb` is equivalent.
 
+If Chrome is running with remote debugging enabled, capture the newest Facebook long-form post with:
+
+```bash
+npm run capture:fb
+```
+
+The capture script writes `/private/tmp/drugnews-facebook-latest.json` plus `/private/tmp/drugnews-facebook-latest.json.diagnostics.json`. It only selects candidates that look like long-form analysis posts and downranks notifications, comments, course promotions, and website announcements.
+
+To combine capture and import in one command, use:
+
+```bash
+npm run daily:social:capture
+```
+
+This attempts Facebook capture first, then runs the normal social import status check. If Chrome remote debugging is not available or Facebook returns no safe long-form candidate, it continues with a clear capture request instead of guessing.
+
 1. Create one folder under `content/inbox/`.
 2. Add:
    - `article.md`

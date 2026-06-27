@@ -79,6 +79,12 @@ Start with the single daily entrypoint:
 npm run daily:social
 ```
 
+When Chrome remote debugging is available and you want the fastest assisted capture path, use:
+
+```bash
+npm run daily:social:capture
+```
+
 Behavior:
 
 - If `/private/tmp/drugnews-facebook-latest.json` or `/private/tmp/drugnews-dcard-latest.json` is missing, it prints the latest known site article and the exact capture JSON shape for that platform.
@@ -92,6 +98,14 @@ Use the bundled Node path if `node` is unavailable or npm is not available:
 ```
 
 Fallback manual pipeline:
+
+If Chrome is already running with remote debugging enabled, capture the newest Facebook candidate first:
+
+```bash
+npm run capture:fb
+```
+
+Inspect `/private/tmp/drugnews-facebook-latest.json.diagnostics.json` before importing. The selected candidate must be a real long-form Drugnews article, not a notification, comment thread, website announcement, or course/promo post.
 
 ```bash
 /Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/import_facebook_posts_to_content.mjs /private/tmp/drugnews-facebook-latest.json

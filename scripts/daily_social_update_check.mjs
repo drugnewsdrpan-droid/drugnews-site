@@ -12,6 +12,7 @@ const DCARD_PAGE_URL = "https://www.dcard.tw/@drugnews";
 
 const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
+const captureFacebook = args.includes("--capture-facebook") || process.env.DRUGNEWS_CAPTURE_FACEBOOK === "1";
 const fbInput = args.find((arg) => arg.startsWith("--facebook="))?.slice("--facebook=".length) || FB_INPUT;
 const dcardInput = args.find((arg) => arg.startsWith("--dcard="))?.slice("--dcard=".length) || DCARD_INPUT;
 
@@ -78,7 +79,7 @@ function sameDcardPost(post, item) {
 }
 
 function validatePosts(posts, platform) {
-  if (!Array.isArray(posts) || posts.length === 0) {
+  if (!Array.isArray(posts)) {
     throw new Error(`${platform} input must be a non-empty array of posts.`);
   }
   for (const [index, post] of posts.entries()) {
@@ -161,12 +162,26 @@ function captureRequests(published, missing) {
 
 async function loadFresh(inputPath, platform, published, samePost) {
   if (!fs.existsSync(inputPath)) return { missing: true, posts: [], freshPosts: [] };
-  const posts = validatePosts(await readJson(inputPath), platform);
+  const rawPosts = await readJson(inputPath);
+  if (!Array.isArray(rawPosts) || rawPosts.length === 0) return { missing: true, posts: [], freshPosts: [] };
+  const posts = validatePosts(rawPosts, platform);
   const freshPosts = posts.filter((post) => !published.some((item) => samePost(post, item)));
   return { missing: false, posts, freshPosts };
 }
 
 async function main() {
+  if (captureFacebook && !fs.existsSync(fbInput)) {
+    const result = spawnSync(process.execPath, ["scripts/scrape_facebook_cdp.mjs", "profile", FB_PAGE_URL, fbInput], {
+      cwd: ROOT,
+      encoding: "utf8"
+    });
+    if (result.status !== 0) {
+      console.warn("Facebook Chrome capture was not available; continuing with capture request output.");
+    } else if (result.stdout) {
+      process.stdout.write(result.stdout);
+    }
+  }
+
   const published = await listPublished();
   const facebook = await loadFresh(fbInput, "Facebook", published, sameFacebookPost);
   const dcard = await loadFresh(dcardInput, "Dcard", published, sameDcardPost);
