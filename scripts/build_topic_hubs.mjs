@@ -260,6 +260,8 @@ const footer = `  <footer class="site-footer">
 const topicPage = (topic, articles) => {
   const canonical = `${BASE_URL}/topics/${topic.slug}.html`;
   const paths = topicPaths(articles);
+  const countText = `${articles.length} 篇相關文章`;
+  const latestText = articles.length ? `最近更新 ${latestDate(articles)}` : "內容整理中";
   const itemList = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -289,6 +291,10 @@ ${header}
           <p class="eyebrow">${escapeHtml(topic.eyebrow)}</p>
           <h1>${escapeHtml(topic.title)}</h1>
           <p>${escapeHtml(topic.description)}</p>
+          <div class="topic-hub-stats" aria-label="主題收錄狀態">
+            <span>${escapeHtml(countText)}</span>
+            <span>${escapeHtml(latestText)}</span>
+          </div>
         </div>
         <div class="topic-hub-terms" aria-label="常見關鍵字">
           ${topic.terms.map((term) => `<span>${escapeHtml(term)}</span>`).join("")}
@@ -300,7 +306,7 @@ ${header}
         <div class="curated-topic-intro">
           <p class="eyebrow">先讀這 3 篇</p>
           <h2>${escapeHtml(topic.title)}起手式</h2>
-          <p>先讀最能建立判斷框架的文章，再往案例與最新事件延伸。</p>
+          <p>從 ${escapeHtml(countText)}中挑出最適合起步的三篇，先建立判斷框架，再往案例與最新事件延伸。</p>
         </div>
         <div class="curated-link-grid">
           ${paths.starter.map((article, index) => compactArticleLink(article, `0${index + 1}`)).join("") || '<p class="notice">這個主題正在整理中。</p>'}

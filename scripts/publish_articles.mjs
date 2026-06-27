@@ -713,6 +713,30 @@ function headerHtml(current, meta = {}) {
 </header>`;
 }
 
+function nestedHeaderHtml(current = "articles", prefix = "../../") {
+  const links = [
+    [prefix + "index.html", "首頁", "home"],
+    [prefix + "articles/index.html", "文章", "articles"],
+    [prefix + "companies.html", "公司索引", "companies"],
+    [prefix + "guides/", "指南", "guides"],
+    [prefix + "subscribe.html", "付費專欄", "subscribe"],
+    [prefix + "services.html", "公司合作", "services"],
+    [prefix + "team.html", "團隊", "team"],
+    [prefix + "en/index.html", "English", "language"]
+  ];
+  const nav = links
+    .map(([href, label, key]) => `<a href="${href}"${current === key ? ' aria-current="page"' : ""}>${label}</a>`)
+    .join("");
+  return `<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="${prefix}index.html"><img src="${prefix}favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
+    <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
+    <label class="nav-menu-button" for="site-nav-toggle">選單</label>
+    <nav class="nav-links" aria-label="Main navigation">${nav}</nav>
+  </div>
+</header>`;
+}
+
 function footerHtml(meta = {}) {
   return `<footer class="site-footer"><div class="container">© 2026 Drugnews. ${disclaimerFor(meta)}</div></footer>`;
 }
@@ -802,9 +826,7 @@ function articlePage(article, bodyHtml, related) {
     : { articles: "index.html", subscribe: "../subscribe.html", freeType: "type/free.html" };
   const shareHtml = sharePanelHtml(meta, url);
   const bodyWithShare = injectAfterFirstParagraph(bodyHtml, shareHtml);
-  const relatedHtml = related.length
-    ? `<div class="article-next-reading next-reading"><h2>${ui.nextReading}</h2><p>${isEnglish(meta) ? "Continue with the most relevant Drugnews analysis on the same theme." : "這三篇會優先依主題、標籤與產業脈絡推薦，幫你把同一個問題讀得更完整。"}</p><div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("")}</div></div>`
-    : "";
+  const relatedHtml = relatedModuleHtml(meta, related, sourceRecordFromMeta(article));
   const sourceLinks = [
     meta.dcard_url ? `<a class="tag" href="${escapeHtml(meta.dcard_url)}" target="_blank" rel="noopener">${ui.originalDcard}</a>` : "",
     meta.facebook_url ? `<a class="tag" href="${escapeHtml(meta.facebook_url)}" target="_blank" rel="noopener">${ui.originalFb}</a>` : "",
@@ -1063,6 +1085,26 @@ function relatedScore(source, candidate) {
   return score + recency;
 }
 
+function sharedVisibleTags(source, candidate) {
+  const sourceTags = new Set(visibleDisplayTags(source.tags || []).map((tag) => String(tag).toLowerCase()));
+  return visibleDisplayTags(candidate.tags || []).filter((tag) => sourceTags.has(String(tag).toLowerCase()));
+}
+
+function hasTopicFamilyOverlap(source, candidate) {
+  const sourceText = [source.title, source.summary, source.text, ...(source.tags || [])].join(" ").toLowerCase();
+  const candidateText = [candidate.title, candidate.summary, candidate.text, ...(candidate.tags || [])].join(" ").toLowerCase();
+  return relatedTopicFamilyScore(sourceText, candidateText) > 0;
+}
+
+function hasRelatedSignal(source, candidate) {
+  return Boolean(
+    sharedVisibleTags(source, candidate).length ||
+      (candidate.category && candidate.category === source.category) ||
+      (candidate.topic && candidate.topic === source.topic) ||
+      hasTopicFamilyOverlap(source, candidate)
+  );
+}
+
 function pickRelatedArticles(record, allRecords) {
   const sameLanguage = allRecords.filter((item) => item.slug !== record.slug && (item.lang || "zh-Hant") === (record.lang || "zh-Hant"));
   const fallbackPool = sameLanguage.length ? sameLanguage : allRecords.filter((item) => item.slug !== record.slug);
@@ -1070,13 +1112,75 @@ function pickRelatedArticles(record, allRecords) {
     .map((item) => ({ ...item, _relatedScore: relatedScore(record, item) }))
     .filter((item) => item._relatedScore > 0)
     .sort((a, b) => b._relatedScore - a._relatedScore || new Date(b.publishAt || b.date) - new Date(a.publishAt || a.date));
-  const related = scored.slice(0, 3);
+  const stronglyRelated = scored.filter((item) => hasRelatedSignal(record, item));
+  const related = stronglyRelated.slice(0, 3);
   if (related.length >= 3) return related;
   const used = new Set(related.map((item) => item.slug));
   return [
     ...related,
+    ...scored.filter((item) => !used.has(item.slug)).slice(0, 3 - related.length),
     ...readerFirstSort(fallbackPool.filter((item) => !used.has(item.slug))).slice(0, 3 - related.length)
-  ];
+  ].slice(0, 3);
+}
+
+function relatedDiagnostics(record, related) {
+  return related.map((item) => ({
+    title: item.title,
+    sharedTags: sharedVisibleTags(record, item),
+    sameCategory: item.category === record.category,
+    sameTopic: Boolean(item.topic && item.topic === record.topic),
+    familyOverlap: hasTopicFamilyOverlap(record, item)
+  }));
+}
+
+function relatedSignalBadges(record, related) {
+  const signals = related
+    .flatMap((item) => {
+      const diag = relatedDiagnostics(record, [item])[0];
+      if (diag.sharedTags.length) return diag.sharedTags.slice(0, 2);
+      if (diag.familyOverlap) return ["同主題"];
+      if (diag.sameCategory) return [item.category];
+      return [];
+    })
+    .filter(Boolean);
+  return [...new Set(signals)].slice(0, 4);
+}
+
+function relatedSignalHtml(record, related) {
+  const badges = relatedSignalBadges(record, related);
+  if (!badges.length) return "";
+  return `<div class="related-signal-row" aria-label="推薦依據">${badges.map((badge) => `<span>${escapeHtml(badge)}</span>`).join("")}</div>`;
+}
+
+function relatedDiagnosticScript(record, related) {
+  const data = relatedDiagnostics(record, related);
+  return `<script type="application/json" class="related-diagnostics">${JSON.stringify(data)}</script>`;
+}
+
+function relatedModuleHtml(meta, related, record) {
+  const ui = articleUi(meta);
+  if (!related.length) return "";
+  const description = isEnglish(meta)
+    ? "Continue with the most relevant Drugnews analysis on the same theme."
+    : "這三篇會優先依主題、標籤與產業脈絡推薦，幫你把同一個問題讀得更完整。";
+  return `<div class="article-next-reading next-reading">
+    <h2>${ui.nextReading}</h2>
+    <p>${description}</p>
+    ${relatedSignalHtml(record, related)}
+    <div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("")}</div>
+    ${relatedDiagnosticScript(record, related)}
+  </div>`;
+}
+
+function sourceRecordFromMeta(article) {
+  const { meta } = article;
+  return {
+    ...meta,
+    category: inferSeries(meta),
+    topic: meta.topic || meta.category || inferSeries(meta),
+    lang: meta.lang || "zh-Hant",
+    text: [meta.title, meta.summary, article.markdown, ...(meta.tags || [])].join(" ")
+  };
 }
 
 function articleIndexPage(records) {
@@ -1439,7 +1543,7 @@ function archivePage(key, records) {
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a><a href="../../en/index.html">English</a></nav></div></header>
+${nestedHeaderHtml("articles")}
 <main>
   <section class="page-title"><div class="container"><p class="eyebrow">文章歸檔</p><h1>${formatMonth(key)}文章</h1><p>本月共 ${records.length} 篇 Drugnews 分析，依時間倒序呈現。</p></div></section>
   <section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section>
@@ -1481,7 +1585,7 @@ function categoryPage(category, records) {
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a><a href="../../en/index.html">English</a></nav></div></header>
+${nestedHeaderHtml("articles")}
 <main><section class="page-title"><div class="container"><p class="eyebrow">內容系列</p><h1>${escapeHtml(category)}</h1><p>${escapeHtml(categoryDescription(category))}</p></div></section><section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section></main>
 ${footerHtml()}
 </body>
@@ -1512,7 +1616,7 @@ function typePage(access, records) {
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a class="brand" href="../../index.html"><img src="../../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../../index.html">首頁</a><a href="../index.html" aria-current="page">文章</a><a href="../../guides/">指南</a><a href="../../subscribe.html">付費專欄</a><a href="../../services.html">公司合作</a><a href="../../team.html">團隊</a><a href="../../en/index.html">English</a></nav></div></header>
+${nestedHeaderHtml("articles")}
 <main><section class="page-title"><div class="container"><p class="eyebrow">文章類型</p><h1>${escapeHtml(access)}</h1><p>${escapeHtml(description)}</p></div></section><section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section></main>
 ${footerHtml()}
 </body>

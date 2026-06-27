@@ -645,6 +645,26 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   font-size: 1.12rem;
 }
 
+.topic-hub-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.topic-hub-stats span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--brand);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
 .topic-hub-terms {
   display: flex;
   flex-wrap: wrap;
@@ -1869,6 +1889,25 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   line-height: 1.65;
 }
 
+.related-signal-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 16px;
+}
+
+.related-signal-row span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 11px;
+  border-radius: 999px;
+  background: #fff6eb;
+  color: var(--gold);
+  font-size: 0.82rem;
+  font-weight: 850;
+}
+
 .share-actions {
   display: flex;
   flex-wrap: wrap;
@@ -2509,9 +2548,9 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     margin-top: 6px;
     font-size: clamp(1.28rem, 6vw, 1.58rem);
     line-height: 1.16;
-    overflow-wrap: anywhere;
+    overflow-wrap: break-word;
     word-break: normal;
-    line-break: anywhere;
+    line-break: strict;
   }
   .article-deck {
     display: -webkit-box;
@@ -2599,6 +2638,9 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     max-width: calc(100vw - 32px);
     overflow-x: visible;
   }
+  .article-section {
+    padding-top: 12px;
+  }
   .article-body p {
     font-size: 1.02rem;
     line-height: 1.86;
@@ -2632,6 +2674,13 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .article-next-reading {
     margin-top: 34px;
     padding-top: 20px;
+  }
+  .related-signal-row {
+    margin: 10px 0 12px;
+  }
+  .related-signal-row span {
+    min-height: 28px;
+    font-size: 0.78rem;
   }
   .article-next-reading .article-card.with-image {
     grid-template-columns: 1fr;
@@ -2700,6 +2749,13 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .issue-bar { grid-template-columns: 1fr; }
   .topic-hub-card {
     padding: 24px;
+  }
+  .topic-hub-stats {
+    gap: 8px;
+  }
+  .topic-hub-stats span {
+    min-height: 30px;
+    font-size: 0.8rem;
   }
   .topic-hub-card h2 {
     margin-top: 22px;
