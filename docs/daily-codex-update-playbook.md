@@ -4,6 +4,14 @@
 
 ## 1. 先跑一鍵檢查
 
+先用 PM 健康檢查看網站是否落後、SEO / AI 可讀檔是否完整、引用與延伸閱讀是否通過：
+
+```bash
+/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/audit_daily_pm_health.mjs
+```
+
+若輸出 `social_status.status` 是 `needs_capture`，再進入社群抓取流程。
+
 ```bash
 /bin/zsh scripts/daily_social_update.sh --capture-facebook --capture-dcard
 ```
@@ -43,6 +51,12 @@
 ```
 
 若輸出 `truncated_url_articles` 大於 0，優先修最新文章的參考資料：補來源名、來源類型、日期與完整 URL；找不到可靠來源時要明確列為待補，不可自行猜網址。
+
+每天也跑一次閱讀路徑檢查，確保最新文章底部不是單純推「最新」，而是至少 2 / 3 與原文有同標籤或同主題訊號：
+
+```bash
+/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/audit_reader_experience.mjs --limit=30
+```
 
 ## 4. 英文圖表修正
 

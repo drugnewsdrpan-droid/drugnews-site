@@ -7,6 +7,14 @@ This is a static GitHub Pages site for Drugnews. It is designed as a long-form a
 For the daily Drugnews social update, start with:
 
 ```bash
+npm run audit:pm
+```
+
+This gives the fastest product-manager status check: latest article date, social capture state, AI/SEO files, reference quality, related-reading quality, and analytics/Search Console configuration.
+
+Then run the social capture and import workflow:
+
+```bash
 /bin/zsh scripts/daily_social_update.sh
 ```
 

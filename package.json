@@ -19,6 +19,8 @@
     "audit:references:strict": "node scripts/audit_references.mjs --strict",
     "audit:reader": "node scripts/audit_reader_experience.mjs",
     "audit:reader:strict": "node scripts/audit_reader_experience.mjs --strict",
+    "audit:pm": "node scripts/audit_daily_pm_health.mjs",
+    "audit:pm:strict": "node scripts/audit_daily_pm_health.mjs --strict",
     "capture:fb": "node scripts/scrape_facebook_cdp.mjs profile https://www.facebook.com/profile.php?id=61568446257142 /private/tmp/drugnews-facebook-latest.json",
     "capture:dcard": "node scripts/scrape_dcard_cdp.mjs profile https://www.dcard.tw/@drugnews /private/tmp/drugnews-dcard-latest.json",
     "translate:en": "node scripts/translate_articles_to_english.mjs",
