@@ -4,6 +4,14 @@ This is a static GitHub Pages site for Drugnews. It is designed as a long-form a
 
 ## Daily Publishing Workflow
 
+For the daily Drugnews Facebook update, start with:
+
+```bash
+/bin/zsh scripts/daily_fb_update.sh
+```
+
+If `/private/tmp/drugnews-facebook-latest.json` exists, this imports new Facebook posts, rebuilds article pages, search, sitemap, feeds, English index, and topic hubs. If the JSON does not exist, the command prints the exact minimum capture format needed from the logged-in Facebook page. If npm is available, `npm run daily:fb` is equivalent.
+
 1. Create one folder under `content/inbox/`.
 2. Add:
    - `article.md`

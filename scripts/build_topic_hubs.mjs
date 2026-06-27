@@ -138,12 +138,11 @@ const relevanceScore = (article, topic) => {
 };
 
 const pickArticles = (records, topic) =>
-  sortByDate(
-    records
-      .filter((article) => article.lang !== "en")
-      .map((article) => ({ ...article, score: relevanceScore(article, topic) }))
-      .filter((article) => article.score > 0)
-  ).slice(0, 18);
+  records
+    .filter((article) => article.lang !== "en")
+    .map((article) => ({ ...article, score: relevanceScore(article, topic) }))
+    .filter((article) => article.score > 0)
+    .sort((a, b) => b.score - a.score || new Date(b.date || 0) - new Date(a.date || 0));
 
 const tagsHtml = (article) =>
   (article.tags || [])
@@ -164,6 +163,36 @@ const articleCard = (article) => {
       <div class="tags">${tagsHtml(article)}</div>
     </div>
   </a>`;
+};
+
+const compactArticleLink = (article, label = "") => {
+  if (!article) return "";
+  const external = /^https?:\/\//.test(articleUrl(article));
+  return `<a class="curated-link" href="${escapeHtml(articleUrl(article))}"${external ? ' target="_blank" rel="noopener"' : ""}>
+    ${label ? `<span>${escapeHtml(label)}</span>` : ""}
+    <strong>${escapeHtml(article.title)}</strong>
+    <small>${escapeHtml(article.date || "")} · ${escapeHtml(article.category || "")}</small>
+  </a>`;
+};
+
+const topicPaths = (articles) => {
+  const byScore = [...articles].sort((a, b) => b.score - a.score || new Date(b.date || 0) - new Date(a.date || 0));
+  const latest = sortByDate(articles);
+  const textOf = (article) => [article.title, article.summary, article.text, ...(article.tags || [])].join(" ");
+  const beginner = byScore.filter((article) => /指南|估值|怎麼看|入門|框架|基本|什麼|101|001|重點/i.test(textOf(article)));
+  const advanced = byScore.filter((article) => /BD|授權|rNPV|SOTP|Phase|臨床|CMC|併購|交易|機制|策略|風險|pipeline/i.test(textOf(article)));
+  const used = new Set();
+  const pick = (pool, fallback) => {
+    const item = [...pool, ...fallback].find((candidate) => candidate && !used.has(candidate.slug));
+    if (item) used.add(item.slug);
+    return item;
+  };
+  return {
+    starter: byScore.slice(0, 3),
+    beginner: pick(beginner, byScore),
+    advanced: pick(advanced, byScore),
+    latest: pick(latest, byScore)
+  };
 };
 
 const head = ({ title, description, canonical }) => `<!doctype html>
@@ -188,6 +217,8 @@ const header = `<body>
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="../index.html"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
+      <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
+      <label class="nav-menu-button" for="site-nav-toggle">選單</label>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="../index.html">首頁</a>
         <a href="../articles/">文章</a>
@@ -211,6 +242,7 @@ const footer = `  <footer class="site-footer">
 
 const topicPage = (topic, articles) => {
   const canonical = `${BASE_URL}/topics/${topic.slug}.html`;
+  const paths = topicPaths(articles);
   const itemList = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -246,11 +278,28 @@ ${header}
         </div>
       </div>
     </section>
+    <section class="section compact">
+      <div class="container curated-topic-block">
+        <div class="curated-topic-intro">
+          <p class="eyebrow">先讀這 3 篇</p>
+          <h2>${escapeHtml(topic.title)}起手式</h2>
+          <p>先讀最能建立判斷框架的文章，再往案例與最新事件延伸。</p>
+        </div>
+        <div class="curated-link-grid">
+          ${paths.starter.map((article, index) => compactArticleLink(article, `0${index + 1}`)).join("") || '<p class="notice">這個主題正在整理中。</p>'}
+        </div>
+      </div>
+      <div class="container reading-paths">
+        ${compactArticleLink(paths.beginner, "初階")}
+        ${compactArticleLink(paths.advanced, "進階")}
+        ${compactArticleLink(paths.latest, "最新")}
+      </div>
+    </section>
     <section class="section">
       <div class="container section-head">
         <div>
           <p class="eyebrow">精選文章</p>
-          <h2>${escapeHtml(topic.title)}文章庫</h2>
+          <h2>${escapeHtml(topic.title)}文章庫（${articles.length} 篇）</h2>
         </div>
         <p>這些文章會隨著網站內容更新而重新整理，讓讀者能從同一個問題一路讀到相關案例。</p>
       </div>

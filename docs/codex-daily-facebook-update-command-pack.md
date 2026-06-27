@@ -51,7 +51,25 @@ Use the Facebook post body exactly, preserving line breaks and section order. Re
 
 ## Fast Commands
 
-Use the bundled Node path if `node` is unavailable:
+Start with the single daily entrypoint:
+
+```bash
+npm run daily:fb
+```
+
+Behavior:
+
+- If `/private/tmp/drugnews-facebook-latest.json` is missing, it prints the latest known site article and the exact Facebook capture JSON shape.
+- If the JSON exists and the post is already published, it stops with `already_current`.
+- If the JSON contains a new post, it imports Facebook text/images and rebuilds the site.
+
+Use the bundled Node path if `node` is unavailable or npm is not available:
+
+```bash
+/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/daily_facebook_update_check.mjs
+```
+
+Fallback manual pipeline:
 
 ```bash
 /Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/import_facebook_posts_to_content.mjs /private/tmp/drugnews-facebook-latest.json

@@ -31,7 +31,9 @@
 <header class="site-header">
   <div class="container nav">
     <a class="brand" href="../index.html"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
-    <nav class="nav-links" aria-label="Main navigation">
+    <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
+    <label class="nav-menu-button" for="site-nav-toggle">選單</label>
+    <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
       <a href="../index.html">首頁</a>
       <a href="index.html" aria-current="page">文章</a>
       <a href="../guides/">指南</a>
@@ -50,8 +52,14 @@
       <h1>Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？</h1>
       <p class="article-deck">Biogen 在 BIIB080 / diranersen 的 Phase 2 CELIA 研究未達主要終點後仍推進 Phase 3，反映 AD 研發裡 tau 靶點的高風險、高需求與策略性押注。</p>
       <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
-      <div class="tag-row"><span class="tag">Biogen</span><span class="tag">Alzheimer’s Disease</span><span class="tag">tau</span><span class="tag">BIIB080</span><span class="tag">diranersen</span><span class="tag">ASO</span><span class="tag">神經退化疾病</span></div>
-      <div class="article-share" aria-label="分享這篇分析">
+      <div class="tag-row tag-row-collapsed"><span class="tag">Biogen</span><span class="tag">Alzheimer’s Disease</span><span class="tag">tau</span><span class="tag">BIIB080</span><details class="tag-more"><summary>+3</summary><div><span class="tag">diranersen</span><span class="tag">ASO</span><span class="tag">神經退化疾病</span></div></details></div>
+    </div>
+  </section>
+  <section class="section article-section">
+    <div class="container article-layout">
+      <article class="article-body">
+      <p>Alzheimer’s Disease（阿茲海默症，以下簡稱 AD）一直是全球新藥研發最昂貴、最殘酷、也最令人著迷的戰場之一。</p>
+<div class="article-share" aria-label="分享這篇分析">
     <div>
       <h2>分享這篇分析</h2>
       <p>把這篇文章轉給關注生技醫藥、公司研究或資本市場的朋友。</p>
@@ -63,12 +71,7 @@
       <button class="button ghost copy-link" type="button" data-copy-url="https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html" data-label="複製連結" data-copied="已複製">複製連結</button>
     </div>
   </div>
-    </div>
-  </section>
-  <section class="section article-section">
-    <div class="container article-layout">
-      <article class="article-body">
-      <p>Alzheimer’s Disease（阿茲海默症，以下簡稱 AD）一直是全球新藥研發最昂貴、最殘酷、也最令人著迷的戰場之一。</p>
+
 <p>這個領域燒掉了太多資金，也埋葬了太多希望。從 β-amyloid（乙型澱粉樣蛋白）到 tau protein（tau 蛋白），從 BACE inhibitor 到單株抗體，從基因療法到神經發炎調節，每一條路徑都曾經被寄予厚望，也幾乎都經歷過重挫。</p>
 <p>但大型藥廠仍然不願離場。</p>
 <p>原因很簡單：AD 的未滿足需求太大，患者人數太多，照護負擔太重。只要有一款藥能真正延緩疾病進展，它就不只是一個重磅藥，而可能是改寫全球神經退化治療史的資產。</p>
@@ -186,29 +189,29 @@
           <a class="button secondary" href="https://www.cmoney.tw/app/expert/drugnews?ca=1" target="_blank" rel="noopener">股市爆料同學會</a>
         </div>
       </div>
-      <div class="card"><h3>延伸閱讀</h3><div class="article-list"><a class="article-card with-image" href="2026-06-26-tirzepatide-autoimmune-immunometabolism.html">
-    <div class="thumb-wrap"><img class="card-thumb" src="../assets/articles/tirzepatide-autoimmune-immunometabolism/cover-generated.svg" alt="Tirzepatide 進軍自體免疫與免疫代謝治療分析封面" loading="lazy"></div>
+      <div class="card next-reading"><h3>讀完這篇，下一步看</h3><p>延伸閱讀會優先依主題、標籤與產業脈絡推薦，而不是只放最新文章。</p><div class="article-list"><a class="article-card with-image" href="2026-05-01-alzheimers-amyloid-hypothesis-collapse.html">
+    <div class="thumb-wrap"><img class="card-thumb" src="../assets/articles/alzheimers-amyloid-hypothesis-collapse/dcard-01.webp" alt="Dcard 原圖：阿茲海默症20年來的假說開始崩盤？" loading="lazy"></div>
     <div class="article-card-body">
-      <div class="meta"><span>2026/06/26</span><span>商業分析系列</span><span>免費文章</span></div>
-      <h3>神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？</h3>
-      <p>它不像急性感染，用藥幾天或幾週就結束。類風濕性關節炎、乾癬、乾癬性關節炎、發炎性腸道疾病、氣喘、異位性皮膚炎，這些疾病往往跟著患者一輩子。</p>
-      <div class="tag-row"><span class="tag">GLP-1</span><span class="tag">臨床數據</span><span class="tag">生技投資</span><span class="tag">製藥巨頭</span></div>
+      <div class="meta"><span>2026/05/01</span><span>商業分析系列</span><span>免費文章</span></div>
+      <h3>阿茲海默症20年來的假說開始崩盤？</h3>
+      <p>【阿茲海默症的 Aβ 信仰，真的開始崩了嗎？】📌 4 月 16 日，一篇來自 Cochrane 的系統性綜述，再次把阿茲海默症領域最核心、也最具爭議的主軸，推回風暴中心。這份綜述的訊息極其刺耳：對輕度</p>
+      <div class="tag-row"><span class="tag">Alzheimer</span><span class="tag">amyloid</span><span class="tag">FDA</span></div>
     </div>
-  </a><a class="article-card with-image" href="2026-06-25-protect-pet-medical-roche-platform.html">
-    <div class="thumb-wrap"><img class="card-thumb" src="../assets/articles/protect-pet-medical-roche-platform/cover.png" alt="寶泰生醫寵物重症醫療平台與診斷治療閉環封面" loading="lazy"></div>
+  </a><a class="article-card with-image" href="2026-05-13-neuroinflammation-cns-drug-comeback.html">
+    <div class="thumb-wrap"><img class="card-thumb" src="../assets/articles/neuroinflammation-cns-drug-comeback/dcard-01.webp" alt="Dcard 原圖：中樞神經新藥要靠「神經發炎」？" loading="lazy"></div>
     <div class="article-card-body">
-      <div class="meta"><span>2026/06/25</span><span>商業分析系列</span><span>免費文章</span></div>
-      <h3>邁向「寵物醫療界羅氏」的寶泰生醫</h3>
-      <p>當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。</p>
-      <div class="tag-row"><span class="tag">寶泰生醫</span><span class="tag">寵物醫療</span><span class="tag">羅氏</span><span class="tag">平台型公司</span><span class="tag">生技投資</span></div>
+      <div class="meta"><span>2026/05/13</span><span>商業分析系列</span><span>免費文章</span></div>
+      <h3>中樞神經新藥要靠「神經發炎」？</h3>
+      <p>【屢敗屢戰的中樞神經新藥，能否靠「神經發炎」打贏翻身仗？】中樞神經系統新藥研發，一直是創新藥裡最難啃的一塊骨頭。🧠 不是市場不大。恰恰相反，阿茲海默症、帕金森氏症、肌萎縮性脊髓側索硬化症、多發性硬化症</p>
+      <div class="tag-row"><span class="tag">Alzheimer</span><span class="tag">CNS</span><span class="tag">Pfizer</span></div>
     </div>
-  </a><a class="article-card with-image" href="2026-06-22-obesity-drug-third-place-competition.html">
-    <div class="thumb-wrap"><img class="card-thumb" src="../assets/articles/obesity-drug-third-place-competition/cover-generated.png" alt="減重藥第三名競爭與代謝藥物市場專題封面" loading="lazy"></div>
+  </a><a class="article-card with-image" href="2026-04-16-2026-q2.html">
+    <div class="thumb-wrap"><img class="card-thumb" src="../assets/articles/2026-q2/dcard-01.webp" alt="Dcard 原圖：生技人必須知道的 2026 Q2 重磅藥物" loading="lazy"></div>
     <div class="article-card-body">
-      <div class="meta"><span>2026/06/22</span><span>商業分析系列</span><span>免費文章</span></div>
-      <h3>減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？</h3>
-      <p>今年 ADA，也就是美國糖尿病學會年會，減重藥戰場又一次被點燃。</p>
-      <div class="tag-row"><span class="tag">GLP-1</span><span class="tag">臨床數據</span><span class="tag">生技投資</span><span class="tag">製藥巨頭</span></div>
+      <div class="meta"><span>2026/04/16</span><span>商業分析系列</span><span>免費文章</span></div>
+      <h3>生技人必須知道的 2026 Q2 重磅藥物</h3>
+      <p>2026 年第二季，全球生技醫藥產業正走進一個少見的高密度催化期。若把臨床讀數、監管決策與關鍵會議節點一起看，從 4 月到 6 月前後，至少有 17 個值得緊盯的重磅資產將陸續揭曉方向；更早一步，Eli Lilly 的口服減重藥 orforglipron（Foundayo） 已在</p>
+      <div class="tag-row"><span class="tag">自體免疫</span><span class="tag">臨床數據</span><span class="tag">生技投資</span><span class="tag">製藥巨頭</span></div>
     </div>
   </a></div></div>
       </aside>

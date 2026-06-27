@@ -171,6 +171,7 @@ function articleUi(meta = {}) {
       copied: "已複製",
       citationTitle: "引用本文",
       citationCopy: "若在簡報、報告或社群討論引用，建議附上 Drugnews 原文連結。",
+      nextReading: "讀完這篇，下一步看",
       related: "延伸閱讀"
     };
   }
@@ -203,6 +204,7 @@ function articleUi(meta = {}) {
     copied: "Copied",
     citationTitle: "Cite this article",
     citationCopy: "For decks, research notes, or media references, cite Drugnews with the canonical article URL.",
+    nextReading: "Read This Next",
     related: "Related Reading"
   };
 }
@@ -662,7 +664,9 @@ function headerHtml(current, meta = {}) {
   return `<header class="site-header">
   <div class="container nav">
     <a class="brand" href="${hrefs.home}"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
-    <nav class="nav-links" aria-label="Main navigation">
+    <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
+    <label class="nav-menu-button" for="site-nav-toggle">${english ? "Menu" : "選單"}</label>
+    <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
       ${link(hrefs.home, labels.home, "home")}
       ${link(hrefs.articles, labels.articles, "articles")}
       ${link(hrefs.guides, labels.guides, "guides")}
@@ -703,6 +707,21 @@ function sharePanelHtml(meta, url) {
       <button class="button ghost copy-link" type="button" data-copy-url="${escapeHtml(url)}" data-label="${escapeHtml(ui.copyLink)}" data-copied="${escapeHtml(ui.copied)}">${escapeHtml(ui.copyLink)}</button>
     </div>
   </div>`;
+}
+
+function tagRowHtml(tags = []) {
+  const visible = visibleDisplayTags(tags);
+  const first = visible.slice(0, 4);
+  const rest = visible.slice(4);
+  const firstHtml = first.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
+  if (!rest.length) return `<div class="tag-row">${firstHtml}</div>`;
+  return `<div class="tag-row tag-row-collapsed">${firstHtml}<details class="tag-more"><summary>+${rest.length}</summary><div>${rest.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div></details></div>`;
+}
+
+function injectAfterFirstParagraph(bodyHtml, insertHtml) {
+  const index = bodyHtml.indexOf("</p>");
+  if (index === -1) return `${insertHtml}\n${bodyHtml}`;
+  return `${bodyHtml.slice(0, index + 4)}\n${insertHtml}\n${bodyHtml.slice(index + 4)}`;
 }
 
 function citationBoxHtml(meta, url) {
@@ -747,8 +766,10 @@ function articlePage(article, bodyHtml, related) {
   const localLinks = isEnglish(meta)
     ? { articles: "../en/articles/", subscribe: "../en/subscribe.html", freeType: "../en/articles/" }
     : { articles: "index.html", subscribe: "../subscribe.html", freeType: "type/free.html" };
+  const shareHtml = sharePanelHtml(meta, url);
+  const bodyWithShare = injectAfterFirstParagraph(bodyHtml, shareHtml);
   const relatedHtml = related.length
-    ? `<div class="card"><h3>${ui.related}</h3><div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("")}</div></div>`
+    ? `<div class="card next-reading"><h3>${ui.nextReading}</h3><p>${isEnglish(meta) ? "Continue with the most relevant Drugnews analysis on the same theme." : "延伸閱讀會優先依主題、標籤與產業脈絡推薦，而不是只放最新文章。"}</p><div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("")}</div></div>`
     : "";
   const sourceLinks = [
     meta.dcard_url ? `<a class="tag" href="${escapeHtml(meta.dcard_url)}" target="_blank" rel="noopener">${ui.originalDcard}</a>` : "",
@@ -834,14 +855,13 @@ ${headerHtml("articles", meta)}
       <h1>${escapeHtml(meta.title)}</h1>
       <p class="article-deck">${escapeHtml(meta.summary)}</p>
       <p class="article-byline">${ui.byline}<a href="../team.html">${ui.author}</a></p>
-      <div class="tag-row">${visibleDisplayTags(meta.tags).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
-      ${sharePanelHtml(meta, url)}
+      ${tagRowHtml(meta.tags)}
     </div>
   </section>
   <section class="section article-section">
     <div class="container article-layout">
       <article class="article-body">
-      ${bodyHtml}
+      ${bodyWithShare}
       ${citationBoxHtml(meta, url)}
       <div class="notice">${disclaimerFor(meta)}</div>
       ${sourceLinks ? `<h2>${ui.originalHeading}</h2><div class="tag-row">${sourceLinks}</div>` : ""}
@@ -989,6 +1009,41 @@ function readerFirstSort(items) {
   });
 }
 
+function relatedScore(source, candidate) {
+  if (!source || !candidate || source.slug === candidate.slug) return 0;
+  const sourceTags = new Set((source.tags || []).map((tag) => String(tag).toLowerCase()));
+  const candidateTags = (candidate.tags || []).map((tag) => String(tag).toLowerCase());
+  let score = 0;
+  for (const tag of candidateTags) {
+    if (sourceTags.has(tag)) score += 10;
+  }
+  if (candidate.category === source.category) score += 5;
+  if ((candidate.topic || "") && candidate.topic === source.topic) score += 4;
+  const sourceText = [source.title, source.summary, source.text, ...(source.tags || [])].join(" ").toLowerCase();
+  const candidateText = [candidate.title, candidate.summary, candidate.text, ...(candidate.tags || [])].join(" ").toLowerCase();
+  for (const token of sourceText.match(/[A-Za-z0-9-]{3,}|[\u4e00-\u9fff]{2,}/g) || []) {
+    if (candidateText.includes(token)) score += /ras|prmt5|mat2a|胰臟癌|臨床|oncology|cancer|glp-1|bd|估值/i.test(token) ? 3 : 0.35;
+  }
+  const recency = Math.max(0, 45 - Math.abs((new Date(source.date) - new Date(candidate.date)) / 86400000)) / 45;
+  return score + recency;
+}
+
+function pickRelatedArticles(record, allRecords) {
+  const sameLanguage = allRecords.filter((item) => item.slug !== record.slug && (item.lang || "zh-Hant") === (record.lang || "zh-Hant"));
+  const fallbackPool = sameLanguage.length ? sameLanguage : allRecords.filter((item) => item.slug !== record.slug);
+  const scored = fallbackPool
+    .map((item) => ({ ...item, _relatedScore: relatedScore(record, item) }))
+    .filter((item) => item._relatedScore > 0)
+    .sort((a, b) => b._relatedScore - a._relatedScore || new Date(b.publishAt || b.date) - new Date(a.publishAt || a.date));
+  const related = scored.slice(0, 3);
+  if (related.length >= 3) return related;
+  const used = new Set(related.map((item) => item.slug));
+  return [
+    ...related,
+    ...readerFirstSort(fallbackPool.filter((item) => !used.has(item.slug))).slice(0, 3 - related.length)
+  ];
+}
+
 function articleIndexPage(records) {
   const displayRecords = readerFirstSort(records);
   const lead = displayRecords[0];
@@ -1043,7 +1098,11 @@ ${headerHtml("articles")}
       </div>
       <div class="library-links library-links-large" aria-label="內容系列">${categoryLinks}</div>
       <div class="library-links muted" aria-label="文章類型與月份歸檔">${typeLinks}${monthLinks}</div>
-      <input class="search-box" data-search-input type="search" placeholder="搜尋公司、主題、估值、BD、IR...">
+      <div class="search-panel">
+        <input class="search-box" data-search-input type="search" placeholder="搜尋公司、主題、估值、BD、IR...">
+        <button class="button ghost search-clear" data-search-clear type="button" hidden>清除搜尋</button>
+      </div>
+      <div class="search-status" data-search-status aria-live="polite"></div>
       <div class="article-list" data-search-results style="margin-top:20px">${cards}</div>
     </div>
   </section>
@@ -1598,13 +1657,7 @@ async function main() {
 
   for (const article of withImages) {
     const record = articleRecord(article);
-    const sameLanguageRelated = allRecords
-      .filter((item) => item.slug !== record.slug && (item.lang || "zh-Hant") === (record.lang || "zh-Hant"))
-      .filter((item) => item.category === record.category || item.tags.some((tag) => record.tags.includes(tag)));
-    const fallbackRelated = allRecords
-      .filter((item) => item.slug !== record.slug)
-      .filter((item) => item.category === record.category || item.tags.some((tag) => record.tags.includes(tag)));
-    const related = (sameLanguageRelated.length ? sameLanguageRelated : fallbackRelated).slice(0, 3);
+    const related = pickRelatedArticles(record, allRecords);
     const bodyMarkdown = stripLeadingTitle(article.markdown.replace(DISCLAIMER, "").trim(), article.meta.title);
     const body = markdownToHtml(bodyMarkdown, article.imageMap);
     await writeAtomic(path.join(ARTICLES, record.fileName), articlePage(article, body, related));
