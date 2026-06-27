@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-27T22:20:47.652Z",
+  "generated_at": "2026-06-27T23:25:25.669Z",
   "site": {
     "name": "Drugnews｜藥時事",
     "url": "https://drugnews.com.tw/",
@@ -40,7 +40,8 @@
     "rss": "https://drugnews.com.tw/feed.xml",
     "llms_txt": "https://drugnews.com.tw/llms.txt",
     "ai_index": "https://drugnews.com.tw/ai-index.json",
-    "market_radar": "https://drugnews.com.tw/market-radar.json"
+    "market_radar": "https://drugnews.com.tw/market-radar.json",
+    "brand_profile": "https://drugnews.com.tw/brand-profile.json"
   },
   "latest_articles": [
     {

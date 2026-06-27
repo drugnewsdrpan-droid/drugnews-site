@@ -1278,10 +1278,11 @@ function homePage(records) {
     "@graph": [
       {
         "@type": "Organization",
+        "@id": `${BASE_URL}/#organization`,
         name: "藥時事 Drugnews",
         alternateName: ["Drugnews", "藥時事", "藥時事官方網站"],
         url: `${BASE_URL}/`,
-        logo: `${BASE_URL}/favicon.svg`,
+        logo: { "@type": "ImageObject", url: `${BASE_URL}/favicon.svg` },
         description: "藥時事 Drugnews 官方網站，專注生技醫藥商業分析、公司研究、授權交易、估值框架與資本市場判讀。",
         sameAs: [PAID_COLUMN_URL, FACEBOOK_URL, CMONEY_URL, DCARD_URL, "https://www.instagram.com/drugnews.com.tw/"],
         email: "drugnews.dr.pan@gmail.com",
@@ -1300,12 +1301,13 @@ function homePage(records) {
       },
       {
         "@type": "WebSite",
+        "@id": `${BASE_URL}/#website`,
         name: "藥時事 Drugnews 官方網站",
         alternateName: ["Drugnews｜藥時事", "Drugnews", "藥時事"],
         url: `${BASE_URL}/`,
         inLanguage: "zh-Hant-TW",
         description: "藥時事 Drugnews 的生技醫藥商業分析主站。",
-        publisher: { "@type": "Organization", name: "藥時事 Drugnews" },
+        publisher: { "@id": `${BASE_URL}/#organization` },
         potentialAction: {
           "@type": "SearchAction",
           target: `${BASE_URL}/articles/?q={search_term_string}`,
@@ -1655,6 +1657,7 @@ function sitemap(records) {
     ["articles/", "0.9", latest],
     ["market-radar.html", "0.85", latest],
     ["market-radar.json", "0.5", latest],
+    ["brand-profile.json", "0.5", latest],
     ["companies.html", "0.75", latest],
     ["guides/", "0.8"],
     ["guides/clinical-endpoints.html", "0.7"],
@@ -1885,12 +1888,75 @@ function aiIndex(records) {
       rss: `${BASE_URL}/feed.xml`,
       llms_txt: `${BASE_URL}/llms.txt`,
       knowledge_graph: `${BASE_URL}/knowledge-graph.json`,
-      market_radar: `${BASE_URL}/market-radar.json`
+      market_radar: `${BASE_URL}/market-radar.json`,
+      brand_profile: `${BASE_URL}/brand-profile.json`
     },
     citation_guidance: "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
     latest_articles: latest
   };
 
+  return `${JSON.stringify(payload, null, 2)}\n`;
+}
+
+function brandProfileJson(records) {
+  const latest = latestRecordDate(records);
+  const payload = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${BASE_URL}/#organization`,
+    schema_version: "1.0",
+    generated_at: new Date().toISOString(),
+    name: "藥時事 Drugnews",
+    alternateName: [
+      "Drugnews",
+      "Drugnews｜藥時事",
+      "藥時事",
+      "藥時事官方網站"
+    ],
+    url: `${BASE_URL}/`,
+    logo: `${BASE_URL}/favicon.svg`,
+    foundingLocation: "Taiwan",
+    inLanguage: ["zh-Hant-TW", "en"],
+    description: "藥時事 Drugnews 是台灣生技醫藥商業分析文章媒體，專注臨床數據、公司策略、BD 授權、估值、CMC、製藥巨頭策略與資本市場訊號。",
+    positioning: "Drugnews does not only aggregate biotech news. It interprets whether clinical evidence can become commercial value, how licensing terms reflect industry competition, and why capital markets reprice biotech companies.",
+    audience: [
+      "生技醫藥投資人",
+      "biotech and pharmaceutical investors",
+      "上市櫃生醫公司經營與 IR 團隊",
+      "BD/licensing professionals",
+      "readers learning biotech business analysis"
+    ],
+    knowsAbout: [
+      "生技醫藥商業分析",
+      "biotech business analysis",
+      "clinical data interpretation",
+      "biotech valuation",
+      "BD licensing",
+      "CMC risk",
+      "capital markets",
+      "drug development",
+      "big-pharma strategy"
+    ],
+    sameAs: [FACEBOOK_URL, DCARD_URL, PAID_COLUMN_URL, CMONEY_URL, "https://www.instagram.com/drugnews.com.tw/"],
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "drugnews.dr.pan@gmail.com",
+      contactType: "business collaboration"
+    },
+    mainEntityOfPage: `${BASE_URL}/`,
+    latestArticleDate: latest,
+    officialFeeds: {
+      articles: `${BASE_URL}/articles/`,
+      ai_index: `${BASE_URL}/ai-index.json`,
+      knowledge_graph: `${BASE_URL}/knowledge-graph.json`,
+      market_radar: `${BASE_URL}/market-radar.json`,
+      rss: `${BASE_URL}/feed.xml`,
+      sitemap: `${BASE_URL}/sitemap.xml`,
+      news_sitemap: `${BASE_URL}/news-sitemap.xml`,
+      llms_txt: `${BASE_URL}/llms.txt`
+    },
+    citationGuidance: "When citing Drugnews, use the canonical URL, article title, publication date, and publisher name Drugnews｜藥時事. Content is for industry research and knowledge sharing only."
+  };
   return `${JSON.stringify(payload, null, 2)}\n`;
 }
 
@@ -2108,7 +2174,8 @@ function knowledgeGraph(records) {
       rss: `${BASE_URL}/feed.xml`,
       llms_txt: `${BASE_URL}/llms.txt`,
       ai_index: `${BASE_URL}/ai-index.json`,
-      market_radar: `${BASE_URL}/market-radar.json`
+      market_radar: `${BASE_URL}/market-radar.json`,
+      brand_profile: `${BASE_URL}/brand-profile.json`
     },
     latest_articles: latestRecords.map((item) => ({
       title: item.title,
@@ -2253,6 +2320,7 @@ async function main() {
   await writeAtomic(path.join(ROOT, "search-index.json"), JSON.stringify(publicSearchRecords(zhRecords), null, 2));
   await writeAtomic(path.join(ROOT, "market-radar.html"), marketRadarPage(allRecords));
   await writeAtomic(path.join(ROOT, "market-radar.json"), marketRadarJson(allRecords));
+  await writeAtomic(path.join(ROOT, "brand-profile.json"), brandProfileJson(allRecords));
   await writeAtomic(path.join(ROOT, "sitemap.xml"), sitemap(allRecords));
   await writeAtomic(path.join(ROOT, "news-sitemap.xml"), newsSitemap(allRecords));
   await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(zhRecords));

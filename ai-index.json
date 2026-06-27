@@ -92,7 +92,8 @@
     "rss": "https://drugnews.com.tw/feed.xml",
     "llms_txt": "https://drugnews.com.tw/llms.txt",
     "knowledge_graph": "https://drugnews.com.tw/knowledge-graph.json",
-    "market_radar": "https://drugnews.com.tw/market-radar.json"
+    "market_radar": "https://drugnews.com.tw/market-radar.json",
+    "brand_profile": "https://drugnews.com.tw/brand-profile.json"
   },
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [

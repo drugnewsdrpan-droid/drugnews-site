@@ -9,3 +9,4 @@ Allow: /llms.txt
 Allow: /ai-index.json
 Allow: /knowledge-graph.json
 Allow: /market-radar.json
+Allow: /brand-profile.json
