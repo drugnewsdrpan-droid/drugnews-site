@@ -4,7 +4,27 @@
 
 ## 1. 先跑一鍵檢查
 
-先用 PM 健康檢查看網站是否落後、SEO / AI 可讀檔是否完整、引用與延伸閱讀是否通過：
+每天打開 Codex 後，優先跑這個單一入口：
+
+```bash
+/bin/zsh scripts/codex_daily_start.sh
+```
+
+它會依序完成：
+
+- PM 健康檢查
+- 確認專用 Chrome 抓文環境
+- 嘗試 FB / Dcard 抓取、去重、匯入與發布
+- 引用與延伸閱讀 QA
+- 再跑一次 PM 健康檢查
+- 輸出目前 `git status`
+
+狀態檔會留在：
+
+- `/private/tmp/drugnews-codex-daily-status.json`
+- `/private/tmp/drugnews-codex-pm-health.json`
+
+若只想快速看網站是否落後、SEO / AI 可讀檔是否完整、引用與延伸閱讀是否通過，再單獨跑：
 
 ```bash
 /Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/audit_daily_pm_health.mjs

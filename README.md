@@ -7,6 +7,14 @@ This is a static GitHub Pages site for Drugnews. It is designed as a long-form a
 For the daily Drugnews social update, start with:
 
 ```bash
+/bin/zsh scripts/codex_daily_start.sh
+```
+
+This is the fastest Codex entrypoint. It runs the PM health check, confirms the dedicated social-capture Chrome, tries Facebook and Dcard capture/import, rebuilds the site if fresh posts are found, runs reference and reader-path QA, and leaves status files in `/private/tmp`.
+
+If you only want to inspect site health without social capture:
+
+```bash
 npm run audit:pm
 ```
 

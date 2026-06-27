@@ -75,6 +75,14 @@ Preserve Dcard paragraph breaks exactly. Dcard original images should stay in th
 Start with the single daily entrypoint:
 
 ```bash
+/bin/zsh scripts/codex_daily_start.sh
+```
+
+This is the preferred Codex-open workflow. It uses the bundled Node runtime when normal `node` is unavailable, attempts logged-in Chrome capture, runs import/publish when fresh posts exist, then runs reference, reader-path, and PM health audits.
+
+For a lighter status-only check:
+
+```bash
 npm run daily:social
 ```
 

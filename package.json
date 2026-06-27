@@ -13,6 +13,7 @@
     "daily:social": "node scripts/daily_social_update_check.mjs",
     "daily:social:dry": "node scripts/daily_social_update_check.mjs --dry-run",
     "daily:social:capture": "node scripts/daily_social_update_check.mjs --capture-facebook --capture-dcard",
+    "codex:daily": "scripts/codex_daily_start.sh",
     "daily:fb": "node scripts/daily_facebook_update_check.mjs",
     "daily:fb:dry": "node scripts/daily_facebook_update_check.mjs --dry-run",
     "audit:references": "node scripts/audit_references.mjs",
