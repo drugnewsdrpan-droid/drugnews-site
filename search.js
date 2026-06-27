@@ -15,7 +15,7 @@
   }
 
   const popularTopics = [
-    ["BD", "category/paid-deep-analysis.html"],
+    ["BD", "../topics/bd-licensing.html"],
     ["GLP-1", "../topics/glp1.html"],
     ["臨床數據", "../topics/clinical-data.html"],
     ["估值", "../topics/biotech-valuation.html"]
@@ -80,6 +80,16 @@
     </div>`;
   }
 
+  function syncQueryParam(query) {
+    const url = new URL(location.href);
+    if (query) {
+      url.searchParams.set("q", query);
+    } else {
+      url.searchParams.delete("q");
+    }
+    history.replaceState(null, "", url);
+  }
+
   function render(items, query = "") {
     if (query && !items.length) {
       list.innerHTML = noResultHtml(query);
@@ -127,6 +137,7 @@
     updateStatus(q, filtered.length);
     if (clear) clear.hidden = !q;
     render(query ? filtered : readerFirstSort(records), q);
+    syncQueryParam(q);
   }
 
   const initialQuery = new URLSearchParams(location.search).get("q");

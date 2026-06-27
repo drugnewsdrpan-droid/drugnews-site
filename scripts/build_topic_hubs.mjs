@@ -181,6 +181,17 @@ const compactArticleLink = (article, label = "") => {
   </a>`;
 };
 
+const readingPathCard = (article, label, description) => {
+  if (!article) return "";
+  const external = /^https?:\/\//.test(articleUrl(article));
+  return `<a class="reading-path-card" href="${escapeHtml(articleUrl(article))}"${external ? ' target="_blank" rel="noopener"' : ""}>
+    <span>${escapeHtml(label)}</span>
+    <p>${escapeHtml(description)}</p>
+    <strong>${escapeHtml(article.title)}</strong>
+    <small>${escapeHtml(article.date || "")} · ${escapeHtml(article.category || "")}</small>
+  </a>`;
+};
+
 const topicPaths = (articles) => {
   const byScore = [...articles].sort((a, b) => b.score - a.score || new Date(b.date || 0) - new Date(a.date || 0));
   const latest = sortByDate(articles);
@@ -296,9 +307,9 @@ ${header}
         </div>
       </div>
       <div class="container reading-paths">
-        ${compactArticleLink(paths.beginner, "初階")}
-        ${compactArticleLink(paths.advanced, "進階")}
-        ${compactArticleLink(paths.latest, "最新")}
+        ${readingPathCard(paths.beginner, "初階", "先建立詞彙與判斷框架。")}
+        ${readingPathCard(paths.advanced, "進階", "再看交易、臨床、估值與風險拆解。")}
+        ${readingPathCard(paths.latest, "最新", "最後接上最近的市場事件。")}
       </div>
     </section>
     <section class="section">
