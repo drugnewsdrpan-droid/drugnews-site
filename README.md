@@ -30,7 +30,15 @@ For Facebook-only maintenance, use:
 
 If `/private/tmp/drugnews-facebook-latest.json` exists, this imports new Facebook posts, rebuilds article pages, search, sitemap, feeds, English index, and topic hubs. If the JSON does not exist, the command prints the exact minimum capture format needed from the logged-in Facebook page. If npm is available, `npm run daily:fb` is equivalent.
 
-If Chrome is running with remote debugging enabled, capture the newest Facebook long-form post with:
+If the daily check asks for a logged-in browser capture, open the dedicated Drugnews capture Chrome with:
+
+```bash
+npm run chrome:social
+```
+
+The first run opens a dedicated Chrome profile for Drugnews social capture. Log in to Facebook and Dcard in that window once; the same profile is reused by future capture runs.
+
+Then capture the newest Facebook long-form post with:
 
 ```bash
 npm run capture:fb

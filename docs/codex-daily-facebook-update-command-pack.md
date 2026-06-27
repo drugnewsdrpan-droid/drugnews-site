@@ -20,10 +20,9 @@ Do not scan the whole repository unless one of those files points to a specific 
 
 1. Run the unified social check:
    `/bin/zsh scripts/daily_social_update.sh --dry-run`
-2. Open the logged-in Chrome session only when the command reports a missing capture file. Visit:
-   `https://www.facebook.com/profile.php?id=61568446257142`
-   and, when Dcard is needed:
-   `https://www.dcard.tw/@drugnews`
+2. Open the dedicated capture Chrome only when the command reports a missing capture file:
+   `npm run chrome:social`
+   The first run opens Facebook and Dcard in a reusable profile. Log in there once.
 3. Find the newest published Drugnews post on each platform.
 4. Compare its title/date/permalink with the newest article in:
    - `index.html`
@@ -85,6 +84,18 @@ When Chrome remote debugging is available and you want the fastest assisted capt
 npm run daily:social:capture
 ```
 
+If Chrome remote debugging is not available, start the dedicated social-capture browser first:
+
+```bash
+npm run chrome:social
+```
+
+If `npm` is unavailable in the current Codex shell, use:
+
+```bash
+/bin/zsh scripts/start_social_capture_chrome.sh
+```
+
 Behavior:
 
 - If `/private/tmp/drugnews-facebook-latest.json` or `/private/tmp/drugnews-dcard-latest.json` is missing, it prints the latest known site article and the exact capture JSON shape for that platform.
@@ -99,7 +110,7 @@ Use the bundled Node path if `node` is unavailable or npm is not available:
 
 Fallback manual pipeline:
 
-If Chrome is already running with remote debugging enabled, capture the newest Facebook candidate first:
+If the dedicated Chrome is already running with remote debugging enabled, capture the newest Facebook candidate first:
 
 ```bash
 npm run capture:fb

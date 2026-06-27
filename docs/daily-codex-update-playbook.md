@@ -12,6 +12,20 @@
 
 若輸出 `social_status.status` 是 `needs_capture`，再進入社群抓取流程。
 
+第一次使用，或看到 Chrome remote debugging 不可用時，先開專用抓文 Chrome：
+
+```bash
+npm run chrome:social
+```
+
+若目前環境沒有 `npm`，直接跑：
+
+```bash
+/bin/zsh scripts/start_social_capture_chrome.sh
+```
+
+這會打開專門給 Drugnews 更新文章用的 Chrome profile。請在這個視窗登入 Facebook 與 Dcard；登入狀態會保留，之後每天通常不用重登。
+
 ```bash
 /bin/zsh scripts/daily_social_update.sh --capture-facebook --capture-dcard
 ```
@@ -27,7 +41,7 @@
 ## 2. 判讀輸出
 
 - `imported_posts` 有文章：檢查新文章頁、圖片、手機版首屏、英文版與搜尋索引，確認後提交部署。
-- `needs_capture` 且 diagnostics 沒候選：代表平台沒有吐出可讀內容，先開已登入 Chrome 到 FB / Dcard 最新貼文，再重跑一次。
+- `needs_capture` 且 diagnostics 沒候選：先跑 `npm run chrome:social`，確認專用 Chrome 已登入 FB / Dcard，再重跑一次抓取。
 - FB 若只抓到「官網上線公告」或課程/活動文，不可匯入成文章；繼續找長文候選，最多兩輪。
 - Dcard 以 `https://www.dcard.tw/@drugnews` 最新公開貼文為準；若最新貼文已在網站上，回報「已同步」即可，不新增重複文章。
 - 仍無法抓到：請使用者提供最新貼文網址或完整貼文文字與圖片，不要猜內容。
