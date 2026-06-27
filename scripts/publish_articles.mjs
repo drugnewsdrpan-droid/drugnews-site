@@ -1359,6 +1359,7 @@ function homePage(records) {
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html" aria-current="page">首頁</a>
         <a href="articles/">文章</a>
+        <a href="market-radar.html">資本市場雷達</a>
         <a href="companies.html">公司索引</a>
         <a href="guides/">指南</a>
         <a href="subscribe.html">付費專欄</a>
@@ -1391,6 +1392,7 @@ function homePage(records) {
         <a href="articles/category/medical-conference.html">醫學大會</a>
         <a href="articles/category/paid-deep-analysis.html">付費深度商業分析文章系列</a>
         <a href="articles/category/big-pharma.html">製藥巨頭系列</a>
+        <a href="market-radar.html">資本市場雷達</a>
         <a href="topics/">熱門搜尋主題</a>
       </div>
       <div class="container home-hero-grid">
@@ -1651,6 +1653,8 @@ function sitemap(records) {
   const staticUrls = [
     ["", "1.0", latest],
     ["articles/", "0.9", latest],
+    ["market-radar.html", "0.85", latest],
+    ["market-radar.json", "0.5", latest],
     ["companies.html", "0.75", latest],
     ["guides/", "0.8"],
     ["guides/clinical-endpoints.html", "0.7"],
@@ -1866,6 +1870,7 @@ function aiIndex(records) {
     key_sections: [
       { name: "Home", url: `${BASE_URL}/` },
       { name: "Articles", url: `${BASE_URL}/articles/` },
+      { name: "Capital-market radar", url: `${BASE_URL}/market-radar.html` },
       { name: "English edition", url: `${BASE_URL}/en/` },
       { name: "Investor guides", url: `${BASE_URL}/guides/` },
       { name: "Paid research", url: `${BASE_URL}/subscribe.html` },
@@ -1879,7 +1884,8 @@ function aiIndex(records) {
       news_sitemap: `${BASE_URL}/news-sitemap.xml`,
       rss: `${BASE_URL}/feed.xml`,
       llms_txt: `${BASE_URL}/llms.txt`,
-      knowledge_graph: `${BASE_URL}/knowledge-graph.json`
+      knowledge_graph: `${BASE_URL}/knowledge-graph.json`,
+      market_radar: `${BASE_URL}/market-radar.json`
     },
     citation_guidance: "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
     latest_articles: latest
@@ -1946,6 +1952,126 @@ function marketSignals(records) {
     }));
 }
 
+function signalBucket(item) {
+  const haystack = `${item.title} ${item.summary} ${(item.tags || []).join(" ")}`;
+  if (/GLP-?1|肥胖|減重|tirzepatide|semaglutide|retatrutide/i.test(haystack)) return "GLP-1 與代謝賽道";
+  if (/RAS|KRAS|PRMT5|MAT2A|腫瘤|oncology|cancer/i.test(haystack)) return "腫瘤精準治療";
+  if (/AI|人工智慧|PROTAC|Zasocitinib/i.test(haystack)) return "AI 製藥與新技術";
+  if (/CMC|製造|產能|CDMO|供應鏈|commercial/i.test(haystack)) return "CMC / 商業化風險";
+  if (/BD|授權|licensing|upfront|milestone|royalty|併購|M&A/i.test(haystack)) return "BD / 授權與併購";
+  if (/估值|valuation|rNPV|SOTP|峰值銷售|capital|市值|資本市場/i.test(haystack)) return "估值與資本市場";
+  if (/臨床|clinical|Phase|ORR|PFS|OS|FDA|PDUFA|CRL|安全性|safety/i.test(haystack)) return "臨床與法規催化";
+  if (/製藥巨頭|Big Pharma|Merck|GSK|Lilly|Novo|Pfizer|Roche|BMS|Takeda/i.test(haystack)) return "製藥巨頭策略";
+  return "其他市場訊號";
+}
+
+function groupedMarketSignals(records) {
+  const buckets = new Map();
+  for (const item of marketSignals(records)) {
+    const bucket = signalBucket(item);
+    if (!buckets.has(bucket)) buckets.set(bucket, []);
+    buckets.get(bucket).push(item);
+  }
+  return buckets;
+}
+
+function marketRadarJson(records) {
+  const buckets = groupedMarketSignals(records);
+  return `${JSON.stringify({
+    schema_version: "1.0",
+    generated_at: new Date().toISOString(),
+    name: "Drugnews Biotech Capital-Market Radar",
+    url: `${BASE_URL}/market-radar.html`,
+    description: "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
+    buckets: [...buckets.entries()].map(([name, items]) => ({ name, count: items.length, articles: items }))
+  }, null, 2)}\n`;
+}
+
+function localHrefFromAbsolute(url = "") {
+  return String(url).startsWith(`${BASE_URL}/`) ? String(url).slice(BASE_URL.length + 1) : url;
+}
+
+function rootHeaderHtml(current = "") {
+  const links = [
+    ["index.html", "首頁", "home"],
+    ["articles/", "文章", "articles"],
+    ["market-radar.html", "資本市場雷達", "market-radar"],
+    ["companies.html", "公司索引", "companies"],
+    ["guides/", "指南", "guides"],
+    ["subscribe.html", "付費專欄", "subscribe"],
+    ["services.html", "公司合作", "services"],
+    ["team.html", "團隊", "team"],
+    ["en/", "English", "language"]
+  ];
+  const nav = links
+    .map(([href, label, key]) => `<a href="${href}"${current === key ? ' aria-current="page"' : ""}>${label}</a>`)
+    .join("");
+  return `<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
+    <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
+    <label class="nav-menu-button" for="site-nav-toggle">選單</label>
+    <nav class="nav-links" aria-label="Main navigation">${nav}</nav>
+  </div>
+</header>`;
+}
+
+function marketRadarPage(records) {
+  const buckets = groupedMarketSignals(records);
+  const signals = marketSignals(records);
+  const bucketHtml = [...buckets.entries()].map(([name, items]) => {
+    const links = items.slice(0, 6).map((item) => `<a class="radar-item" href="${escapeHtml(localHrefFromAbsolute(item.url))}">
+      <span>${escapeHtml(item.date)} · ${escapeHtml(item.category)}</span>
+      <strong>${escapeHtml(item.title)}</strong>
+      <p>${escapeHtml(item.summary)}</p>
+      <div class="tag-row">${(item.tags || []).slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
+    </a>`).join("");
+    return `<section class="radar-bucket">
+      <div class="radar-bucket-head"><h2>${escapeHtml(name)}</h2><span>${items.length} 篇</span></div>
+      <div class="radar-list">${links}</div>
+    </section>`;
+  }).join("");
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Drugnews 資本市場雷達",
+    url: `${BASE_URL}/market-radar.html`,
+    description: "藥時事把最新生技醫藥文章整理成 BD、估值、臨床、CMC、GLP-1、腫瘤精準治療、AI 製藥與製藥巨頭策略等資本市場訊號。",
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: signals.slice(0, 20).map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: item.url,
+        name: item.title
+      }))
+    }
+  };
+  return `<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>資本市場雷達｜Drugnews 藥時事</title>
+  <meta name="description" content="藥時事資本市場雷達把最新生技醫藥文章整理成 BD、估值、臨床、CMC、GLP-1、腫瘤精準治療、AI 製藥與製藥巨頭策略等市場訊號。">
+  <link rel="canonical" href="${BASE_URL}/market-radar.html">
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
+  <script type="application/ld+json">${JSON.stringify(schema)}</script>
+</head>
+<body>
+${rootHeaderHtml("market-radar")}
+<main>
+  <section class="page-title insights-title"><div class="container"><p class="eyebrow">Market Radar</p><h1>資本市場雷達</h1><p>把最新文章重新整理成投資人最常追蹤的市場訊號：BD、估值、臨床催化、CMC、GLP-1、腫瘤精準治療、AI 製藥與製藥巨頭策略。</p></div></section>
+  <section class="section article-library"><div class="container radar-grid">${bucketHtml}</div></section>
+</main>
+${footerHtml()}
+</body>
+</html>`;
+}
+
 function knowledgeGraph(records) {
   const latestRecords = records.filter((item) => !item.external).slice(0, 30);
   const payload = {
@@ -1981,7 +2107,8 @@ function knowledgeGraph(records) {
       news_sitemap: `${BASE_URL}/news-sitemap.xml`,
       rss: `${BASE_URL}/feed.xml`,
       llms_txt: `${BASE_URL}/llms.txt`,
-      ai_index: `${BASE_URL}/ai-index.json`
+      ai_index: `${BASE_URL}/ai-index.json`,
+      market_radar: `${BASE_URL}/market-radar.json`
     },
     latest_articles: latestRecords.map((item) => ({
       title: item.title,
@@ -2124,6 +2251,8 @@ async function main() {
     await writeAtomic(path.join(ARTICLES, "archive", `${key}.html`), archivePage(key, zhRecords.filter((item) => monthKey(item.date) === key)));
   }
   await writeAtomic(path.join(ROOT, "search-index.json"), JSON.stringify(publicSearchRecords(zhRecords), null, 2));
+  await writeAtomic(path.join(ROOT, "market-radar.html"), marketRadarPage(allRecords));
+  await writeAtomic(path.join(ROOT, "market-radar.json"), marketRadarJson(allRecords));
   await writeAtomic(path.join(ROOT, "sitemap.xml"), sitemap(allRecords));
   await writeAtomic(path.join(ROOT, "news-sitemap.xml"), newsSitemap(allRecords));
   await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(zhRecords));
