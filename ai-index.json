@@ -86,7 +86,8 @@
     "sitemap": "https://drugnews.com.tw/sitemap.xml",
     "news_sitemap": "https://drugnews.com.tw/news-sitemap.xml",
     "rss": "https://drugnews.com.tw/feed.xml",
-    "llms_txt": "https://drugnews.com.tw/llms.txt"
+    "llms_txt": "https://drugnews.com.tw/llms.txt",
+    "knowledge_graph": "https://drugnews.com.tw/knowledge-graph.json"
   },
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [

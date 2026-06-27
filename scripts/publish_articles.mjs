@@ -1666,6 +1666,7 @@ function sitemap(records) {
     ["team.html", "0.7"],
     ["llms.txt", "0.5", latest],
     ["ai-index.json", "0.5", latest],
+    ["knowledge-graph.json", "0.5", latest],
     ["opensearch.xml", "0.4"]
   ];
   const urls = staticUrls.map(([loc, priority, lastmod]) => sitemapEntry(loc, priority, lastmod));
@@ -1798,6 +1799,7 @@ ${latest}
 - Sitemap: ${BASE_URL}/sitemap.xml
 - RSS feed: ${BASE_URL}/feed.xml
 - AI index: ${BASE_URL}/ai-index.json
+- Knowledge graph: ${BASE_URL}/knowledge-graph.json
 
 ## Topic Hubs
 
@@ -1876,12 +1878,125 @@ function aiIndex(records) {
       sitemap: `${BASE_URL}/sitemap.xml`,
       news_sitemap: `${BASE_URL}/news-sitemap.xml`,
       rss: `${BASE_URL}/feed.xml`,
-      llms_txt: `${BASE_URL}/llms.txt`
+      llms_txt: `${BASE_URL}/llms.txt`,
+      knowledge_graph: `${BASE_URL}/knowledge-graph.json`
     },
     citation_guidance: "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
     latest_articles: latest
   };
 
+  return `${JSON.stringify(payload, null, 2)}\n`;
+}
+
+function classifyEntity(name = "") {
+  const value = String(name).toLowerCase();
+  if (/ras|kras|prmt5|mat2a|glp-?1|pd-?1|vegf|jak|car-?t|adc|protac|bcr|abl|ox2r|a[a]?td|lp\(a\)|cmc|rnpv|sotp/.test(value)) return "biotech_concept_or_target";
+  if (/lilly|novo|merck|gsk|bms|pfizer|roche|takeda|amgen|biogen|novartis|sanofi|revolution|senhwa|寶泰|安宏|麗寶|生華|智新|環球|protect|anhorn/.test(value)) return "company";
+  if (/臨床|clinical|phase|fda|pdufa|crl|bd|授權|估值|valuation|capital|生技投資|商業|製藥巨頭|big pharma/.test(value)) return "market_topic";
+  return "topic";
+}
+
+function entityIndex(records) {
+  const entities = new Map();
+  for (const item of records.filter((record) => !record.external).slice(0, 120)) {
+    const names = visibleDisplayTags(item.tags || []);
+    for (const name of names) {
+      const key = String(name).trim();
+      if (!key || key.length > 48) continue;
+      const current = entities.get(key) || {
+        name: key,
+        type: classifyEntity(key),
+        mentions: 0,
+        latest_date: item.date,
+        latest_articles: []
+      };
+      current.mentions += 1;
+      if (String(item.date) > String(current.latest_date)) current.latest_date = item.date;
+      if (current.latest_articles.length < 5) {
+        current.latest_articles.push({
+          title: item.title,
+          date: item.date,
+          url: `${BASE_URL}/${item.url}`,
+          language: item.lang || "zh-Hant"
+        });
+      }
+      entities.set(key, current);
+    }
+  }
+  return [...entities.values()]
+    .sort((a, b) => b.mentions - a.mentions || String(b.latest_date).localeCompare(String(a.latest_date)) || a.name.localeCompare(b.name, "zh-Hant"))
+    .slice(0, 80);
+}
+
+function marketSignals(records) {
+  const signalPattern = /BD|授權|併購|估值|rNPV|SOTP|臨床數據|Phase|FDA|PDUFA|CRL|CMC|GLP-1|RAS|PRMT5|MAT2A|AI|製藥巨頭|Big Pharma|capital|valuation|licensing/i;
+  return records
+    .filter((item) => !item.external)
+    .filter((item) => signalPattern.test(`${item.title} ${item.summary} ${(item.tags || []).join(" ")}`))
+    .slice(0, 30)
+    .map((item) => ({
+      title: item.title,
+      date: item.date,
+      url: `${BASE_URL}/${item.url}`,
+      language: item.lang || "zh-Hant",
+      category: item.category,
+      access: accessLabel(item),
+      tags: visibleDisplayTags(item.tags || []).slice(0, 8),
+      summary: item.summary || ""
+    }));
+}
+
+function knowledgeGraph(records) {
+  const latestRecords = records.filter((item) => !item.external).slice(0, 30);
+  const payload = {
+    schema_version: "1.0",
+    generated_at: new Date().toISOString(),
+    site: {
+      name: "Drugnews｜藥時事",
+      url: `${BASE_URL}/`,
+      languages: ["zh-Hant", "en"],
+      description: "Taiwan biotech and pharmaceutical business-analysis media focused on clinical data, company strategy, BD/licensing, valuation, CMC, and capital-market judgment.",
+      same_as: [FACEBOOK_URL, DCARD_URL, PAID_COLUMN_URL, CMONEY_URL],
+      contact: "drugnews.dr.pan@gmail.com"
+    },
+    editorial_focus: [
+      "biotech business analysis",
+      "clinical data interpretation",
+      "biotech valuation and capital-market signals",
+      "BD and licensing strategy",
+      "CMC and manufacturing risk",
+      "big-pharma strategy and M&A",
+      "Taiwan biotech company research"
+    ],
+    audience: [
+      "biotech investors",
+      "pharmaceutical business-development teams",
+      "listed-company IR and management teams",
+      "readers learning biotech investing fundamentals",
+      "AI search and answer engines that need citable biotech business context"
+    ],
+    citation_guidance: "Use the canonical article URL, title, publication date, and Drugnews｜藥時事 as source. Content is for industry research and knowledge sharing only and is not investment, medical, fundraising, or individual stock advice.",
+    feeds: {
+      sitemap: `${BASE_URL}/sitemap.xml`,
+      news_sitemap: `${BASE_URL}/news-sitemap.xml`,
+      rss: `${BASE_URL}/feed.xml`,
+      llms_txt: `${BASE_URL}/llms.txt`,
+      ai_index: `${BASE_URL}/ai-index.json`
+    },
+    latest_articles: latestRecords.map((item) => ({
+      title: item.title,
+      date: item.date,
+      language: item.lang || "zh-Hant",
+      url: `${BASE_URL}/${item.url}`,
+      category: item.category,
+      access: accessLabel(item),
+      tags: visibleDisplayTags(item.tags || []).slice(0, 10),
+      summary: item.summary || "",
+      alternate_language_versions: item.translations || {}
+    })),
+    entities: entityIndex(records),
+    market_attention_signals: marketSignals(records)
+  };
   return `${JSON.stringify(payload, null, 2)}\n`;
 }
 
@@ -2014,6 +2129,7 @@ async function main() {
   await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(zhRecords));
   await writeAtomic(path.join(ROOT, "llms.txt"), llmsText(allRecords));
   await writeAtomic(path.join(ROOT, "ai-index.json"), aiIndex(allRecords));
+  await writeAtomic(path.join(ROOT, "knowledge-graph.json"), knowledgeGraph(allRecords));
   await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: new Date().toISOString(), errors: [] }, null, 2));
 
   console.log(`Published ${due.length} inbox article(s). Total articles: ${allRecords.length}.`);
