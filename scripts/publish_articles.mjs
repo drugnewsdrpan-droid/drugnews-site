@@ -1790,6 +1790,16 @@ Drugnews is a Taiwan-based biotech and pharmaceutical business-analysis media pl
 
 Drugnews focuses on business judgment, not headline aggregation. Articles connect science, clinical evidence, regulatory risk, manufacturing, commercial strategy, licensing terms, valuation logic, and investor perception.
 
+## Official Identity And AI-Readable Feeds
+
+- Official website: ${BASE_URL}/
+- Brand profile: ${BASE_URL}/brand-profile.json
+- AI index: ${BASE_URL}/ai-index.json
+- Knowledge graph: ${BASE_URL}/knowledge-graph.json
+- Capital-market radar: ${BASE_URL}/market-radar.json
+- RSS feed: ${BASE_URL}/feed.xml
+- Sitemap: ${BASE_URL}/sitemap.xml
+
 ## Latest Canonical Articles For Citation
 
 ${latest}
@@ -1807,6 +1817,8 @@ ${latest}
 - RSS feed: ${BASE_URL}/feed.xml
 - AI index: ${BASE_URL}/ai-index.json
 - Knowledge graph: ${BASE_URL}/knowledge-graph.json
+- Brand profile: ${BASE_URL}/brand-profile.json
+- Capital-market radar: ${BASE_URL}/market-radar.html
 
 ## Topic Hubs
 

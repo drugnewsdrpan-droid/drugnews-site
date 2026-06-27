@@ -13,6 +13,16 @@ Drugnews is a Taiwan-based biotech and pharmaceutical business-analysis media pl
 
 Drugnews focuses on business judgment, not headline aggregation. Articles connect science, clinical evidence, regulatory risk, manufacturing, commercial strategy, licensing terms, valuation logic, and investor perception.
 
+## Official Identity And AI-Readable Feeds
+
+- Official website: https://drugnews.com.tw/
+- Brand profile: https://drugnews.com.tw/brand-profile.json
+- AI index: https://drugnews.com.tw/ai-index.json
+- Knowledge graph: https://drugnews.com.tw/knowledge-graph.json
+- Capital-market radar: https://drugnews.com.tw/market-radar.json
+- RSS feed: https://drugnews.com.tw/feed.xml
+- Sitemap: https://drugnews.com.tw/sitemap.xml
+
 ## Latest Canonical Articles For Citation
 
 - 2026-06-27｜Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside
@@ -85,6 +95,8 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 - RSS feed: https://drugnews.com.tw/feed.xml
 - AI index: https://drugnews.com.tw/ai-index.json
 - Knowledge graph: https://drugnews.com.tw/knowledge-graph.json
+- Brand profile: https://drugnews.com.tw/brand-profile.json
+- Capital-market radar: https://drugnews.com.tw/market-radar.html
 
 ## Topic Hubs
 

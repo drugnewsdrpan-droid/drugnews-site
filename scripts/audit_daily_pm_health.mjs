@@ -101,7 +101,12 @@ async function main() {
     check("search_index_size", records.length >= 100, `${records.length} searchable records`, "warning"),
     check("ai_index_exists", fileExists("ai-index.json"), `${BASE_URL}/ai-index.json`, "error"),
     check("ai_index_has_latest_articles", Array.isArray(aiIndex.latest_articles) && aiIndex.latest_articles.length >= 30, `${aiIndex.latest_articles?.length || 0} AI index articles`, "warning"),
-    check("llms_exists", fileExists("llms.txt") && llms.includes("ai-index.json"), "llms.txt includes AI index", "warning"),
+    check(
+      "llms_exists",
+      fileExists("llms.txt") && llms.includes("ai-index.json") && llms.includes("brand-profile.json") && llms.includes("market-radar.json"),
+      "llms.txt includes AI index, brand profile, and capital-market radar",
+      "warning"
+    ),
     check("robots_ai_index", robots.includes("Allow: /ai-index.json") && robots.includes("Sitemap:"), "robots.txt exposes AI index and sitemap", "warning"),
     check("knowledge_graph_exists", fileExists("knowledge-graph.json") && robots.includes("Allow: /knowledge-graph.json"), `${BASE_URL}/knowledge-graph.json`, "warning"),
     check("market_radar_exists", fileExists("market-radar.html") && fileExists("market-radar.json") && robots.includes("Allow: /market-radar.json"), `${BASE_URL}/market-radar.html`, "warning"),
