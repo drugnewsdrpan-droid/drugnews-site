@@ -83,6 +83,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 - Team: https://drugnews.com.tw/team.html
 - Sitemap: https://drugnews.com.tw/sitemap.xml
 - RSS feed: https://drugnews.com.tw/feed.xml
+- AI index: https://drugnews.com.tw/ai-index.json
 
 ## Topic Hubs
 

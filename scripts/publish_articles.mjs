@@ -1561,6 +1561,7 @@ function sitemap(records) {
     ["services.html", "0.8"],
     ["team.html", "0.7"],
     ["llms.txt", "0.5", latest],
+    ["ai-index.json", "0.5", latest],
     ["opensearch.xml", "0.4"]
   ];
   const urls = staticUrls.map(([loc, priority, lastmod]) => sitemapEntry(loc, priority, lastmod));
@@ -1692,6 +1693,7 @@ ${latest}
 - Team: ${BASE_URL}/team.html
 - Sitemap: ${BASE_URL}/sitemap.xml
 - RSS feed: ${BASE_URL}/feed.xml
+- AI index: ${BASE_URL}/ai-index.json
 
 ## Topic Hubs
 
@@ -1708,6 +1710,75 @@ ${latest}
 
 When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.
 `;
+}
+
+function aiIndex(records) {
+  const latest = records.slice(0, 50).map((item) => ({
+    title: item.title,
+    date: item.date,
+    language: item.lang || "zh-Hant",
+    url: item.external ? item.url : `${BASE_URL}/${item.url}`,
+    canonical_url: item.external ? item.url : `${BASE_URL}/${item.url}`,
+    source: item.source || "Website",
+    access: accessLabel(item),
+    category: item.category,
+    tags: visibleDisplayTags(item.tags || []).slice(0, 10),
+    summary: item.summary || "",
+    image: item.image ? absoluteUrl(item.image) : "",
+    is_accessible_for_free: accessLabel(item) === "免費文章",
+    is_external: Boolean(item.external),
+    alternate_language_versions: item.translations || {}
+  }));
+
+  const topicHubs = [
+    ["Biotech Investing", "biotech-investing"],
+    ["Biotech Valuation", "biotech-valuation"],
+    ["Clinical Data", "clinical-data"],
+    ["BD / Licensing", "bd-licensing"],
+    ["CMC", "cmc"],
+    ["Drug Development", "drug-development"],
+    ["GLP-1", "glp1"],
+    ["Big Pharma", "big-pharma"]
+  ].map(([name, slug]) => ({
+    name,
+    url: `${BASE_URL}/topics/${slug}.html`
+  }));
+
+  const payload = {
+    schema_version: "1.0",
+    name: "Drugnews｜藥時事",
+    url: `${BASE_URL}/`,
+    language: ["zh-Hant", "en"],
+    description: "Taiwan-based biotech and pharmaceutical business-analysis media covering clinical data, company strategy, drug development, BD/licensing, valuation, CMC, and biotech capital-market signals.",
+    editorial_positioning: "Drugnews focuses on business judgment rather than headline aggregation, connecting science, clinical evidence, regulatory risk, manufacturing, commercial strategy, licensing terms, valuation logic, and investor perception.",
+    audience: [
+      "biotech and pharmaceutical investors",
+      "biotech executives and IR teams",
+      "business-development and licensing professionals",
+      "readers learning how to interpret biotech commercial and capital-market signals"
+    ],
+    key_sections: [
+      { name: "Home", url: `${BASE_URL}/` },
+      { name: "Articles", url: `${BASE_URL}/articles/` },
+      { name: "English edition", url: `${BASE_URL}/en/` },
+      { name: "Investor guides", url: `${BASE_URL}/guides/` },
+      { name: "Paid research", url: `${BASE_URL}/subscribe.html` },
+      { name: "Company services", url: `${BASE_URL}/services.html` },
+      { name: "Team", url: `${BASE_URL}/team.html` },
+      { name: "Company index", url: `${BASE_URL}/companies.html` }
+    ],
+    topic_hubs: topicHubs,
+    feeds: {
+      sitemap: `${BASE_URL}/sitemap.xml`,
+      news_sitemap: `${BASE_URL}/news-sitemap.xml`,
+      rss: `${BASE_URL}/feed.xml`,
+      llms_txt: `${BASE_URL}/llms.txt`
+    },
+    citation_guidance: "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
+    latest_articles: latest
+  };
+
+  return `${JSON.stringify(payload, null, 2)}\n`;
 }
 
 function publicSearchRecords(records) {
@@ -1838,6 +1909,7 @@ async function main() {
   await writeAtomic(path.join(ROOT, "news-sitemap.xml"), newsSitemap(allRecords));
   await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(zhRecords));
   await writeAtomic(path.join(ROOT, "llms.txt"), llmsText(allRecords));
+  await writeAtomic(path.join(ROOT, "ai-index.json"), aiIndex(allRecords));
   await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: new Date().toISOString(), errors: [] }, null, 2));
 
   console.log(`Published ${due.length} inbox article(s). Total articles: ${allRecords.length}.`);
