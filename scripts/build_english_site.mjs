@@ -33,6 +33,8 @@ function header(current, depth = 1) {
   return `<header class="site-header">
   <div class="container nav">
     <a class="brand" href="${depth === 0 ? "index.html" : "../".repeat(depth - 1) + "index.html"}"><img src="${root}favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
+    <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
+    <label class="nav-menu-button" for="site-nav-toggle">Menu</label>
     <nav class="nav-links" aria-label="Main navigation">
       <a href="${depth === 0 ? "index.html" : "../".repeat(depth - 1) + "index.html"}"${currentAttr("home")}>Home</a>
       <a href="${depth === 0 ? "articles/" : "../".repeat(depth - 1) + "articles/"}"${currentAttr("articles")}>Articles</a>
@@ -76,9 +78,9 @@ function head({ title, description, canonicalPath, image, depth = 1 }) {
   <meta property="og:url" content="${canonical}">
   <meta property="og:site_name" content="Drugnews｜藥時事">
   <meta property="og:locale" content="en_US">
-  ${image ? `<meta property="og:image" content="${escapeHtml(image)}">` : ""}
+${image ? `  <meta property="og:image" content="${escapeHtml(image)}">` : ""}
   <meta name="twitter:card" content="${image ? "summary_large_image" : "summary"}">
-  ${homeSchema}
+${homeSchema}
 </head>`;
 }
 
@@ -391,9 +393,18 @@ function guidePage(file, label, title, text) {
   });
 }
 
-async function updateSitemap() {
+function latestRecordDate(records) {
+  return records
+    .map((item) => item.date)
+    .filter(Boolean)
+    .sort()
+    .at(-1) || "";
+}
+
+async function updateSitemap(records) {
   let xml = await fs.readFile(SITEMAP, "utf8");
   xml = xml.replace(/\n?<\/urlset>\s*$/u, "");
+  const latest = latestRecordDate(records.filter((item) => item.lang === "en"));
   const enUrls = [
     ["en/", "0.9"],
     ["en/articles/", "0.8"],
@@ -403,10 +414,13 @@ async function updateSitemap() {
     ["en/team.html", "0.7"],
     ...guides.map(([file]) => [`en/guides/${file}`, "0.7"])
   ];
-  const existing = new Set((xml.match(/<loc>(.*?)<\/loc>/g) || []).map((item) => item.replace(/^<loc>|<\/loc>$/g, "")));
+  const enLocs = new Set(enUrls.map(([loc]) => `${BASE_URL}/${loc}`));
+  xml = xml
+    .split("\n")
+    .filter((line) => ![...enLocs].some((loc) => line.includes(`<loc>${loc}</loc>`)))
+    .join("\n");
   const additions = enUrls
-    .filter(([loc]) => !existing.has(`${BASE_URL}/${loc}`))
-    .map(([loc, priority]) => `  <url><loc>${BASE_URL}/${escapeXml(loc)}</loc><priority>${priority}</priority></url>`);
+    .map(([loc, priority]) => `  <url><loc>${BASE_URL}/${escapeXml(loc)}</loc>${latest ? `<lastmod>${latest}</lastmod>` : ""}<priority>${priority}</priority></url>`);
   const body = xml.trimEnd();
   await writeAtomic(SITEMAP, `${body}${additions.length ? `\n${additions.join("\n")}` : ""}\n</urlset>\n`);
 }
@@ -423,7 +437,7 @@ async function main() {
     await writeAtomic(path.join(EN, "guides", guide[0]), guidePage(...guide));
   }
   await writeAtomic(path.join(EN, "search-index.json"), JSON.stringify(records.filter((item) => item.lang === "en"), null, 2));
-  await updateSitemap();
+  await updateSitemap(records);
   console.log("Built English site under /en.");
 }
 

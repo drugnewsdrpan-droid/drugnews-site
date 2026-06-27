@@ -193,9 +193,9 @@ function articleUi(meta = {}) {
       followCopy: "最新貼文、付費長文與投資社群討論，會持續更新在各平台。",
       shareTitle: "分享這篇分析",
       shareCopy: "把這篇文章轉給關注生技醫藥、公司研究或資本市場的朋友。",
-      shareFacebook: "分享 Facebook",
-      shareLine: "分享 LINE",
-      shareLinkedIn: "分享 LinkedIn",
+      shareFacebook: "Facebook",
+      shareLine: "LINE",
+      shareLinkedIn: "LinkedIn",
       copyLink: "複製連結",
       copied: "已複製",
       citationTitle: "引用本文",
@@ -226,9 +226,9 @@ function articleUi(meta = {}) {
     followCopy: "Latest posts, long-form research, and biotech market discussions are updated across our channels.",
     shareTitle: "Share this analysis",
     shareCopy: "Send this article to readers who follow biotech, company strategy, and capital-market signals.",
-    shareFacebook: "Share on Facebook",
-    shareLine: "Share on LINE",
-    shareLinkedIn: "Share on LinkedIn",
+    shareFacebook: "Facebook",
+    shareLine: "LINE",
+    shareLinkedIn: "LinkedIn",
     copyLink: "Copy link",
     copied: "Copied",
     citationTitle: "Cite this article",
@@ -1530,11 +1530,24 @@ function sitemapAlternates(item) {
     .join("");
 }
 
+function latestRecordDate(records) {
+  return records
+    .map((item) => item.date)
+    .filter(Boolean)
+    .sort()
+    .at(-1) || TODAY;
+}
+
+function sitemapEntry(loc, priority, lastmod = "") {
+  return `  <url><loc>${BASE_URL}/${loc}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}<priority>${priority}</priority></url>`;
+}
+
 function sitemap(records) {
+  const latest = latestRecordDate(records);
   const staticUrls = [
-    ["", "1.0", "2026-06-10"],
-    ["articles/", "0.9"],
-    ["companies.html", "0.75"],
+    ["", "1.0", latest],
+    ["articles/", "0.9", latest],
+    ["companies.html", "0.75", latest],
     ["guides/", "0.8"],
     ["guides/clinical-endpoints.html", "0.7"],
     ["guides/regulatory-milestones.html", "0.7"],
@@ -1547,19 +1560,22 @@ function sitemap(records) {
     ["subscribe.html", "0.8"],
     ["services.html", "0.8"],
     ["team.html", "0.7"],
-    ["llms.txt", "0.5"],
+    ["llms.txt", "0.5", latest],
     ["opensearch.xml", "0.4"]
   ];
-  const urls = staticUrls.map(([loc, priority, lastmod]) => `  <url><loc>${BASE_URL}/${loc}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}<priority>${priority}</priority></url>`);
+  const urls = staticUrls.map(([loc, priority, lastmod]) => sitemapEntry(loc, priority, lastmod));
   for (const access of ACCESS_TYPES.keys()) {
     if (!records.some((item) => accessLabel(item) === access)) continue;
-    urls.push(`  <url><loc>${BASE_URL}/articles/type/${accessSlug(access)}.html</loc><priority>0.7</priority></url>`);
+    const accessDate = latestRecordDate(records.filter((item) => accessLabel(item) === access));
+    urls.push(sitemapEntry(`articles/type/${accessSlug(access)}.html`, "0.7", accessDate));
   }
   for (const category of SERIES.keys()) {
-    urls.push(`  <url><loc>${BASE_URL}/articles/category/${categorySlug(category)}.html</loc><priority>0.6</priority></url>`);
+    const categoryDate = latestRecordDate(records.filter((item) => item.category === category));
+    urls.push(sitemapEntry(`articles/category/${categorySlug(category)}.html`, "0.6", categoryDate));
   }
   for (const key of new Set(records.map((item) => monthKey(item.date)))) {
-    urls.push(`  <url><loc>${BASE_URL}/articles/archive/${key}.html</loc><priority>0.7</priority></url>`);
+    const archiveDate = latestRecordDate(records.filter((item) => monthKey(item.date) === key));
+    urls.push(sitemapEntry(`articles/archive/${key}.html`, "0.7", archiveDate));
   }
   for (const item of records.filter((record) => !record.external)) {
     const alternates = sitemapAlternates(item);

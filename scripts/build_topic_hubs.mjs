@@ -3,7 +3,6 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const BASE_URL = "https://drugnews.com.tw";
-const TODAY = "2026-06-24";
 const SEARCH_INDEX_PATH = path.join(ROOT, "search-index.json");
 const TOPICS_DIR = path.join(ROOT, "topics");
 const SITEMAP_PATH = path.join(ROOT, "sitemap.xml");
@@ -114,6 +113,13 @@ const readable = (value = "") => stripHtml(value).slice(0, 168);
 
 const sortByDate = (items) =>
   [...items].sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0) || String(a.title).localeCompare(String(b.title), "zh-Hant"));
+
+const latestDate = (items) =>
+  items
+    .map((item) => item.date)
+    .filter(Boolean)
+    .sort()
+    .at(-1) || new Date().toISOString().slice(0, 10);
 
 const relevanceScore = (article, topic) => {
   const haystack = [
@@ -365,13 +371,15 @@ ${header}
 ${footer}`;
 };
 
-const updateSitemap = async () => {
+const updateSitemap = async (recordsByTopic) => {
   let sitemap = await readFile(SITEMAP_PATH, "utf8");
+  const topicIndexDate = latestDate([...recordsByTopic.values()].flat());
   const topicUrls = [
-    `  <url><loc>${BASE_URL}/topics/</loc><lastmod>${TODAY}</lastmod><priority>0.85</priority></url>`,
-    ...topics.map(
-      (topic) => `  <url><loc>${BASE_URL}/topics/${topic.slug}.html</loc><lastmod>${TODAY}</lastmod><priority>0.85</priority></url>`
-    )
+    `  <url><loc>${BASE_URL}/topics/</loc><lastmod>${topicIndexDate}</lastmod><priority>0.85</priority></url>`,
+    ...topics.map((topic) => {
+      const articles = recordsByTopic.get(topic.slug) || [];
+      return `  <url><loc>${BASE_URL}/topics/${topic.slug}.html</loc><lastmod>${latestDate(articles)}</lastmod><priority>0.85</priority></url>`;
+    })
   ];
   const lines = sitemap.split("\n").filter((line) => !line.includes(`${BASE_URL}/topics/`));
   const endIndex = lines.findIndex((line) => line.includes("</urlset>"));
@@ -393,7 +401,7 @@ const main = async () => {
   }
 
   await writeFile(path.join(TOPICS_DIR, "index.html"), topicIndexPage(recordsByTopic));
-  await updateSitemap();
+  await updateSitemap(recordsByTopic);
 
   console.log(`Built ${topics.length + 1} topic hub pages.`);
 };
