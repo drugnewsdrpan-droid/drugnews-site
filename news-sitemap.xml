@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-27T02:30:00.000Z</news:publication_date>
+      <news:title>Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-27T02:30:00.000Z</news:publication_date>
+      <news:title>胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-26T02:30:00.000Z</news:publication_date>
+      <news:title>神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？</news:title>
+    </news:news>
+  </url>
+</urlset>

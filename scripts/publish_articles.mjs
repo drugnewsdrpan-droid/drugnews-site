@@ -1584,6 +1584,41 @@ function sitemap(records) {
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join("\n")}\n</urlset>\n`;
 }
 
+function newsLanguage(item) {
+  return isEnglish(item) ? "en" : "zh-tw";
+}
+
+function newsPublicationDate(item) {
+  const value = item.publishAt || `${item.date}T08:00:00+08:00`;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? "" : date.toISOString();
+}
+
+function newsSitemap(records) {
+  const now = new Date();
+  const cutoff = now.getTime() - (48 * 60 * 60 * 1000);
+  const items = records
+    .filter((item) => !item.external)
+    .map((item) => ({ item, published: new Date(item.publishAt || `${item.date}T08:00:00+08:00`) }))
+    .filter(({ published }) => !Number.isNaN(published.getTime()))
+    .filter(({ published }) => published.getTime() >= cutoff && published.getTime() <= now.getTime() + (60 * 60 * 1000))
+    .sort((a, b) => b.published.getTime() - a.published.getTime())
+    .slice(0, 100)
+    .map(({ item }) => `  <url>
+    <loc>${escapeXml(`${BASE_URL}/${item.url}`)}</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>${newsLanguage(item)}</news:language>
+      </news:publication>
+      <news:publication_date>${newsPublicationDate(item)}</news:publication_date>
+      <news:title>${escapeXml(item.title)}</news:title>
+    </news:news>
+  </url>`);
+
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n${items.join("\n")}\n</urlset>\n`;
+}
+
 function rssFeed(records) {
   const items = records.slice(0, 25).map((item) => {
     const link = item.external ? item.url : `${BASE_URL}/${item.url}`;
@@ -1800,6 +1835,7 @@ async function main() {
   }
   await writeAtomic(path.join(ROOT, "search-index.json"), JSON.stringify(publicSearchRecords(zhRecords), null, 2));
   await writeAtomic(path.join(ROOT, "sitemap.xml"), sitemap(allRecords));
+  await writeAtomic(path.join(ROOT, "news-sitemap.xml"), newsSitemap(allRecords));
   await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(zhRecords));
   await writeAtomic(path.join(ROOT, "llms.txt"), llmsText(allRecords));
   await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: new Date().toISOString(), errors: [] }, null, 2));
