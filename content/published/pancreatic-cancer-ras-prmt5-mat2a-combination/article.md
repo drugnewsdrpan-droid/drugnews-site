@@ -150,17 +150,17 @@ Daraxonrasib 已經把門撞開。Vopimetostat 讓市場看到門後還有更大
 
 參考資料：
 
-[0]:各公司官網＆公開資料
+[0] 各公司官網與公開資料：Revolution Medicines、Tango Therapeutics、IDEAYA Biosciences。
 
-[1]: https://pubmed.ncbi.nlm.nih.gov/42223072/
+[1] PubMed｜Daraxonrasib / RASolute-302 相關研究：https://pubmed.ncbi.nlm.nih.gov/42223072/
 
-[2]: https://www.globenewswire.com/....../tango......
+[2] Tango Therapeutics｜PRMT5 program overview：https://www.tangotx.com/programs/prmt5/
 
-[3]: https://www.biospace.com/....../tango-therapeutics......
+[3] Investor's Business Daily｜Tango Therapeutics / Revolution Medicines combination data coverage：https://www.investors.com/news/technology/tango-therapeutics-tngx-stock-revolution-medicines-rvmd-stock-pancreatic-cancer/
 
-[4]: https://ir.ideayabio.com/2026-06-15-IDEAYA-Biosciences......
+[4] IDEAYA Biosciences｜IDE892 initiates Phase 1/2 clinical combination study in MTAP-deleted pancreatic and lung cancers：https://ir.ideayabio.com/2026-06-15-IDEAYA-Biosciences-Announces-IDE892,-a-Potential-Best-in-Class-MTA-Cooperative-PRMT5-Inhibitor,-Initiates-a-Phase-1-2-Clinical-Combination-Study-in-MTAP-Deleted-Pancreatic-and-Lung-Cancers
 
-[5]: https://ir.ideayabio.com/2026-03-09-IDEAYA-Biosciences......
+[5] IDEAYA Biosciences｜First patient in for Phase 1 trial of IDE892 and MTAP/CDKN2A pipeline update：https://ir.ideayabio.com/2026-03-09-IDEAYA-Biosciences-Announces-First-Patient-In-for-Phase-1-Trial-of-IDE892,-a-Potential-Best-In-Class-PRMT5-Inhibitor-for-MTAP-Deleted-Solid-Tumors,-and-Provides-MTAP-and-CDKN2A-Pipeline-Update
 
 ---
 

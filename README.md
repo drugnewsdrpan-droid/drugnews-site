@@ -12,6 +12,8 @@ For the daily Drugnews social update, start with:
 
 This checks both Facebook and Dcard capture files, imports fresh posts, rebuilds the article pages, search, feeds, English index, topic hubs, and analytics injection. If no capture file exists, it prints the exact minimum JSON shape needed for that platform.
 
+For the shortest Codex handoff checklist, use `docs/daily-codex-update-playbook.md`.
+
 For Facebook-only maintenance, use:
 
 ```bash

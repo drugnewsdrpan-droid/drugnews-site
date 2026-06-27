@@ -171,7 +171,7 @@ async function loadFresh(inputPath, platform, published, samePost) {
 }
 
 async function main() {
-  if (captureFacebook && !fs.existsSync(fbInput)) {
+  if (captureFacebook) {
     const result = spawnSync(process.execPath, ["scripts/scrape_facebook_cdp.mjs", "profile", FB_PAGE_URL, fbInput], {
       cwd: ROOT,
       encoding: "utf8"
@@ -183,7 +183,7 @@ async function main() {
     }
   }
 
-  if (captureDcard && !fs.existsSync(dcardInput)) {
+  if (captureDcard) {
     const result = spawnSync(process.execPath, ["scripts/scrape_dcard_cdp.mjs", "profile", DCARD_PAGE_URL, dcardInput], {
       cwd: ROOT,
       encoding: "utf8"

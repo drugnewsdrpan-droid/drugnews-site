@@ -124,6 +124,13 @@ function stripMarkdown(markdown) {
     .trim();
 }
 
+function stripReferenceSection(markdown) {
+  return String(markdown || "").replace(
+    /(^|\n)\s*(參考資料[:：]?|References:?)\s*\n[\s\S]*?(?=\n---|\n#{1,3}\s|$)/i,
+    "$1"
+  );
+}
+
 function slugify(input, fallback) {
   const slug = String(input || "")
     .normalize("NFKD")
@@ -951,7 +958,7 @@ function articleRecord(article) {
     slug: meta.slug,
     fileName,
     url: `articles/${fileName}`,
-    text: [stripMarkdown(article.markdown), meta.category, inferSeries(meta), languageTag(meta)].join(" ")
+    text: [stripMarkdown(stripReferenceSection(article.markdown)), meta.category, inferSeries(meta), languageTag(meta)].join(" ")
   };
 }
 
