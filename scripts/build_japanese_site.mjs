@@ -52,13 +52,58 @@ function jpCategory(category = "") {
   return map.get(category) || "バイオビジネス分析";
 }
 
+const japaneseCopy = new Map(Object.entries({
+  "fda-regulatory-shift-biotech-rebound": {
+    title: "FDAの風向きが変わる：Biotech反攻のシグナルは規制当局側から点灯している",
+    summary: "XBIの反発は単なるリスクオンではありません。FDAの審査姿勢、CRL後の再評価、規制リスクの見直しが、中小型Biotechの資本市場ストーリーを変え始めています。",
+    tags: ["FDA", "Biotech", "規制", "資本市場"]
+  },
+  "pancreatic-cancer-ras-prmt5-mat2a-combination": {
+    title: "膵臓がんの次の焦点：RAS阻害後、PRMT5/MAT2A併用療法が想像力を広げる",
+    summary: "膵臓がん市場では、RAS阻害剤を治療骨格として使い、PRMT5/MAT2Aの合成致死アプローチをどう組み合わせるかが新しい評価軸になりつつあります。",
+    tags: ["膵臓がん", "RAS", "PRMT5", "臨床"]
+  },
+  "tirzepatide-autoimmune-immunometabolism": {
+    title: "Tirzepatideは自己免疫疾患へ進むのか：Lillyが狙う免疫代謝の拡張戦略",
+    summary: "Zepboundを単なる肥満薬ではなく、乾癬、関節炎、IBDなど慢性炎症疾患の治療文脈に接続できるか。Lillyの次の価値仮説は免疫代謝にあります。",
+    tags: ["GLP-1", "Tirzepatide", "免疫代謝", "Lilly"]
+  },
+  "protect-pet-medical-roche-platform": {
+    title: "「ペット医療界のRoche」へ：台湾Protect Biotechのプラットフォーム仮説",
+    summary: "ペットの高齢化により、がん、心疾患、自己免疫疾患など重症治療への需要が拡大しています。Protect Biotechの価値は単一製品ではなく、診断・治療・データをつなぐプラットフォームにあります。",
+    tags: ["ペット医療", "Protect", "台湾バイオ", "プラットフォーム"]
+  },
+  "ai-zasocitinib-sotyktu": {
+    title: "AI創薬の第一号は来るのか：Takeda ZasocitinibがSotyktuに直接対決で勝利",
+    summary: "Zasocitinibの意義は「AIで作った」という物語だけではありません。乾癬市場でSotyktuを上回り、経口TYK2薬が生物製剤の壁にどう挑むかが焦点です。",
+    tags: ["AI創薬", "Takeda", "TYK2", "乾癬"]
+  },
+  "obesity-drug-third-place-competition": {
+    title: "肥満薬の第3勢力争い：LillyとNovo Nordiskの次に来る代謝メガプレイヤーは誰か",
+    summary: "GLP-1市場は二強だけで終わりません。次世代経口薬、併用療法、差別化された代謝プロファイルを持つ企業が、第三の巨頭候補として浮上しています。",
+    tags: ["GLP-1", "肥満薬", "代謝", "競争"]
+  }
+}));
+
+function localizeArticle(item) {
+  const copy = japaneseCopy.get(item.slug);
+  if (!copy) return item;
+  return {
+    ...item,
+    title: copy.title,
+    summary: copy.summary,
+    tags: copy.tags
+  };
+}
+
 function articleCard(item) {
-  const tags = (item.tags || []).slice(0, 4).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
+  const localized = localizeArticle(item);
+  const tags = (localized.tags || []).slice(0, 4).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
   return `<a class="article-card" href="../${escapeHtml(item.url)}">
     <div class="article-card-body">
       <div class="meta"><span>${escapeHtml(item.date)}</span><span>${escapeHtml(jpCategory(item.category))}</span></div>
-      <h3>${escapeHtml(item.title)}</h3>
-      <p>${escapeHtml(item.summary || "")}</p>
+      <h3>${escapeHtml(localized.title)}</h3>
+      <p>${escapeHtml(localized.summary || "")}</p>
       <div class="tag-row">${tags}</div>
     </div>
   </a>`;
@@ -66,12 +111,15 @@ function articleCard(item) {
 
 function page(records) {
   const latest = records.slice(0, 6);
-  const itemList = latest.map((item, index) => ({
-    "@type": "ListItem",
-    position: index + 1,
-    url: `${BASE_URL}/${item.url}`,
-    name: item.title
-  }));
+  const itemList = latest.map((item, index) => {
+    const localized = localizeArticle(item);
+    return {
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${BASE_URL}/${item.url}`,
+      name: localized.title
+    };
+  });
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -190,7 +238,7 @@ function page(records) {
           <p class="eyebrow">Latest Analysis</p>
           <h2>最新の台湾バイオ分析</h2>
         </div>
-        <p>現時点では中国語原文と英語版を中心に公開しています。日本語版は重要テーマから順次整備します。</p>
+        <p>最新分析はまず中国語原文と英語版で公開し、日本語入口では投資判断に必要なテーマから順次整理します。</p>
       </div>
       <div class="container article-list">${latest.map(articleCard).join("")}</div>
     </section>

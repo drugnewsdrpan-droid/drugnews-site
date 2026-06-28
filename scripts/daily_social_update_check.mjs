@@ -17,6 +17,8 @@ const captureFacebook = args.includes("--capture-facebook") || process.env.DRUGN
 const captureDcard = args.includes("--capture-dcard") || process.env.DRUGNEWS_CAPTURE_DCARD === "1";
 const fbInput = args.find((arg) => arg.startsWith("--facebook="))?.slice("--facebook=".length) || FB_INPUT;
 const dcardInput = args.find((arg) => arg.startsWith("--dcard="))?.slice("--dcard=".length) || DCARD_INPUT;
+const facebookPostUrl = args.find((arg) => arg.startsWith("--facebook-post="))?.slice("--facebook-post=".length) || process.env.DRUGNEWS_FACEBOOK_POST_URL || "";
+const dcardPostUrl = args.find((arg) => arg.startsWith("--dcard-post="))?.slice("--dcard-post=".length) || process.env.DRUGNEWS_DCARD_POST_URL || "";
 
 function facebookId(url = "") {
   const value = String(url || "");
@@ -175,7 +177,7 @@ function captureRequests(published, missing) {
         url: latestDcard.dcard_url,
         slug: latestDcard.slug
       } : null,
-      note: "Dcard often blocks server/API access. Use the logged-in browser scraper when available, or save the full post text and image URLs to input_path.",
+      note: "Dcard often blocks server-side reading. Use the logged-in Chrome scraper first, or save the full post text and image URLs to input_path.",
       required_shape: [{
         title: "Post title",
         published: "YYYY-MM-DDT10:30:00+08:00",
@@ -199,7 +201,12 @@ async function loadFresh(inputPath, platform, published, samePost) {
 
 async function main() {
   if (captureFacebook) {
-    const result = spawnSync(process.execPath, ["scripts/scrape_facebook_cdp.mjs", "profile", FB_PAGE_URL, fbInput], {
+    const result = spawnSync(process.execPath, [
+      "scripts/scrape_facebook_cdp.mjs",
+      facebookPostUrl ? "post" : "profile",
+      facebookPostUrl || FB_PAGE_URL,
+      fbInput
+    ], {
       cwd: ROOT,
       encoding: "utf8"
     });
@@ -211,7 +218,12 @@ async function main() {
   }
 
   if (captureDcard) {
-    const result = spawnSync(process.execPath, ["scripts/scrape_dcard_cdp.mjs", "profile", DCARD_PAGE_URL, dcardInput], {
+    const result = spawnSync(process.execPath, [
+      "scripts/scrape_dcard_cdp.mjs",
+      dcardPostUrl ? "post" : "profile",
+      dcardPostUrl || DCARD_PAGE_URL,
+      dcardInput
+    ], {
       cwd: ROOT,
       encoding: "utf8"
     });
@@ -249,6 +261,7 @@ async function main() {
   if (imported.length && !dryRun) {
     runNode("scripts/publish_articles.mjs", ["--force"]);
     runNode("scripts/build_english_site.mjs");
+    runNode("scripts/build_japanese_site.mjs");
     runNode("scripts/build_topic_hubs.mjs");
     runNode("scripts/build_company_index.mjs");
     runNode("scripts/inject_analytics.mjs");
@@ -269,6 +282,10 @@ async function main() {
       facebook: fbInput,
       dcard: dcardInput
     },
+    capture_mode: {
+      facebook: captureFacebook ? (facebookPostUrl ? "logged_in_chrome_post" : "logged_in_chrome_profile") : "existing_json",
+      dcard: captureDcard ? (dcardPostUrl ? "logged_in_chrome_post" : "logged_in_chrome_profile") : "existing_json"
+    },
     requests: captureRequests(published, {
       facebook: facebook.missing && !facebookLimitedButCurrent,
       dcard: dcard.missing
@@ -282,7 +299,7 @@ async function main() {
       ? "QA the generated pages, then commit and push intended files only."
       : facebookLimitedButCurrent && dcard.missing
         ? "Facebook visible preview matches an already published site article. Dcard still needs logged-in capture if it has a newer post."
-        : "If the social platforms have newer posts, provide the missing capture JSON or run the logged-in browser scraper and rerun this command."
+        : "If the social platforms have newer posts, run the logged-in Chrome scraper or provide the missing capture JSON and rerun this command."
   }, null, 2));
 }
 

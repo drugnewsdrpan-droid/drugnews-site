@@ -80,6 +80,15 @@ npm run daily:social:capture
 
 This attempts Facebook and Dcard capture first, then runs the normal social import status check. If Chrome remote debugging is not available or a platform returns no safe long-form candidate, it continues with a clear capture request instead of guessing.
 
+If the newest post URL is already known, use the logged-in Chrome single-post route. This is the fastest no-API route and is the preferred fallback when profile pages are noisy:
+
+```bash
+DRUGNEWS_FACEBOOK_POST_URL="https://www.facebook.com/..." npm run daily:social:capture
+DRUGNEWS_DCARD_POST_URL="https://www.dcard.tw/f/persona_drugnews/p/POST_ID" npm run daily:social:capture
+```
+
+This reads the post body and images from the browser page, keeps paragraph breaks, downloads images into the article folder, rebuilds the site, and avoids guessing from previews.
+
 ## International Article Standard
 
 English pages should read as native English articles, not machine-looking mirrors of the Chinese page. When no API is available, use the deterministic localization workflow:
