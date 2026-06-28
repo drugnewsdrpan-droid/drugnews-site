@@ -15,6 +15,8 @@ const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
 const captureFacebook = args.includes("--capture-facebook") || process.env.DRUGNEWS_CAPTURE_FACEBOOK === "1";
 const captureDcard = args.includes("--capture-dcard") || process.env.DRUGNEWS_CAPTURE_DCARD === "1";
+const facebookCurrent = args.includes("--facebook-current") || process.env.DRUGNEWS_FACEBOOK_CURRENT === "1";
+const dcardCurrent = args.includes("--dcard-current") || process.env.DRUGNEWS_DCARD_CURRENT === "1";
 const fbInput = args.find((arg) => arg.startsWith("--facebook="))?.slice("--facebook=".length) || FB_INPUT;
 const dcardInput = args.find((arg) => arg.startsWith("--dcard="))?.slice("--dcard=".length) || DCARD_INPUT;
 const facebookPostUrl = args.find((arg) => arg.startsWith("--facebook-post="))?.slice("--facebook-post=".length) || process.env.DRUGNEWS_FACEBOOK_POST_URL || "";
@@ -203,7 +205,7 @@ async function main() {
   if (captureFacebook) {
     const result = spawnSync(process.execPath, [
       "scripts/scrape_facebook_cdp.mjs",
-      facebookPostUrl ? "post" : "profile",
+      facebookPostUrl ? "post" : facebookCurrent ? "current" : "profile",
       facebookPostUrl || FB_PAGE_URL,
       fbInput
     ], {
@@ -220,7 +222,7 @@ async function main() {
   if (captureDcard) {
     const result = spawnSync(process.execPath, [
       "scripts/scrape_dcard_cdp.mjs",
-      dcardPostUrl ? "post" : "profile",
+      dcardPostUrl ? "post" : dcardCurrent ? "current" : "profile",
       dcardPostUrl || DCARD_PAGE_URL,
       dcardInput
     ], {
@@ -283,8 +285,8 @@ async function main() {
       dcard: dcardInput
     },
     capture_mode: {
-      facebook: captureFacebook ? (facebookPostUrl ? "logged_in_chrome_post" : "logged_in_chrome_profile") : "existing_json",
-      dcard: captureDcard ? (dcardPostUrl ? "logged_in_chrome_post" : "logged_in_chrome_profile") : "existing_json"
+      facebook: captureFacebook ? (facebookPostUrl ? "logged_in_chrome_post" : facebookCurrent ? "logged_in_chrome_current_tab" : "logged_in_chrome_profile") : "existing_json",
+      dcard: captureDcard ? (dcardPostUrl ? "logged_in_chrome_post" : dcardCurrent ? "logged_in_chrome_current_tab" : "logged_in_chrome_profile") : "existing_json"
     },
     requests: captureRequests(published, {
       facebook: facebook.missing && !facebookLimitedButCurrent,

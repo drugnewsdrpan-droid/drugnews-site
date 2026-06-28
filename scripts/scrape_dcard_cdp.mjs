@@ -89,6 +89,10 @@ function postId(url = "") {
   return String(url).match(/\/(?:post|p)\/(\d+)/)?.[1] || "";
 }
 
+function isImportablePost(post) {
+  return Boolean(postId(post?.url || "") && String(post?.articleText || "").length >= 300);
+}
+
 function parsePublished(text = "") {
   const value = String(text);
   const now = new Date();
@@ -149,7 +153,7 @@ async function scrapeProfile(client, url) {
 }
 
 async function scrapePost(client, url) {
-  await navigate(client, url);
+  if (url) await navigate(client, url);
   const raw = await evalJson(client, `(() => {
     const articles = [...document.querySelectorAll('article')]
       .sort((a, b) => (b.innerText || '').length - (a.innerText || '').length);
@@ -195,8 +199,18 @@ try {
     if (first) posts = [await scrapePost(client, first.href)];
     diagnostics = { generated_at: new Date().toISOString(), source: arg, profile, links, selected_url: first?.href || "" };
   } else if (mode === "post") {
-    posts = [await scrapePost(client, arg)];
+    const post = await scrapePost(client, arg);
+    posts = isImportablePost(post) ? [post] : [];
     diagnostics = { generated_at: new Date().toISOString(), source: arg, selected_url: arg };
+  } else if (mode === "current") {
+    const post = await scrapePost(client, "");
+    posts = isImportablePost(post) ? [post] : [];
+    diagnostics = {
+      generated_at: new Date().toISOString(),
+      source: "current Chrome Dcard tab",
+      selected_url: post?.url || "",
+      rejected_reason: posts.length ? "" : "Current Dcard tab is not a readable single post or the post body is too short."
+    };
   } else {
     throw new Error(`Unknown mode: ${mode}`);
   }

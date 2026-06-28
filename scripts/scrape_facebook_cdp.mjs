@@ -152,6 +152,12 @@ function normalizeCandidate(raw) {
   };
 }
 
+function isImportableCurrentPost(post) {
+  const url = String(post?.url || "");
+  const text = String(post?.articleText || "");
+  return Boolean(text.length >= 600 && /facebook\.com/.test(url) && /permalink\.php|story_fbid=|\/posts\//.test(url));
+}
+
 async function scrapeProfile(client, url) {
   await navigate(client, url, 8000);
   const rounds = Number(process.env.FACEBOOK_SCROLL_ROUNDS || 8);
@@ -232,7 +238,7 @@ async function scrapeProfile(client, url) {
 }
 
 async function scrapePost(client, url) {
-  await navigate(client, url, 7000);
+  if (url) await navigate(client, url, 7000);
   const raw = await evalJson(client, `(() => {
     const main = document.querySelector('[role="main"]') || document.body;
     const article = [...main.querySelectorAll('[role="article"], div')].sort((a,b) => (b.innerText || '').length - (a.innerText || '').length)[0] || main;
@@ -247,6 +253,10 @@ try {
   let data;
   if (mode === "profile") data = await scrapeProfile(client, arg);
   else if (mode === "post") data = [await scrapePost(client, arg)];
+  else if (mode === "current") {
+    const post = await scrapePost(client, "");
+    data = isImportableCurrentPost(post) ? [post] : [];
+  }
   else throw new Error(`Unknown mode: ${mode}`);
 
   const importable = Array.isArray(data) ? data : data.selected;

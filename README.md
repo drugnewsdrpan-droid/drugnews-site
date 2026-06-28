@@ -98,6 +98,15 @@ DRUGNEWS_DCARD_POST_URL="https://www.dcard.tw/f/persona_drugnews/p/POST_ID" npm 
 
 This reads the post body and images from the browser page, keeps paragraph breaks, downloads images into the article folder, rebuilds the site, and avoids guessing from previews.
 
+If the newest post is already open in the social-capture Chrome window, read that current platform tab directly:
+
+```bash
+/bin/zsh scripts/codex_daily_start.sh --facebook-current
+/bin/zsh scripts/codex_daily_start.sh --dcard-current
+```
+
+This is the preferred no-API fallback when Facebook or Dcard profile pages show only a login wall or app shell. Open the actual post page in Chrome first; Codex will read the visible article text and images from that tab.
+
 ## International Article Standard
 
 English pages should read as native English articles, not machine-looking mirrors of the Chinese page. When no API is available, use the deterministic localization workflow:

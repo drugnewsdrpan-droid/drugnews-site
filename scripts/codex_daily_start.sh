@@ -19,9 +19,11 @@ for arg in "$@"; do
     --strict) STRICT=1 ;;
     --facebook-post=*) SOCIAL_ARGS+=("$arg") ;;
     --dcard-post=*) SOCIAL_ARGS+=("$arg") ;;
+    --facebook-current) SOCIAL_ARGS+=("$arg") ;;
+    --dcard-current) SOCIAL_ARGS+=("$arg") ;;
     *)
       echo "Unknown option: $arg" >&2
-      echo "Usage: scripts/codex_daily_start.sh [--no-chrome] [--no-capture] [--strict] [--facebook-post=URL] [--dcard-post=URL]" >&2
+      echo "Usage: scripts/codex_daily_start.sh [--no-chrome] [--no-capture] [--strict] [--facebook-post=URL] [--dcard-post=URL] [--facebook-current] [--dcard-current]" >&2
       exit 2
       ;;
   esac
