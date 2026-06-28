@@ -42,6 +42,10 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   URL: https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html
   Topics: 商業分析系列, 免費文章, 胰臟癌, RAS, PRMT5
   Summary: 胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。
+- 2026-06-26｜Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?
+  URL: https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html
+  Topics: GLP-1, tirzepatide, Zepbound, Taltz, Omvoh
+  Summary: Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases.
 - 2026-06-26｜神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？
   URL: https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html
   Topics: 商業分析系列, 免費文章, GLP-1, 臨床數據, 生技投資
@@ -54,6 +58,10 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   URL: https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html
   Topics: 商業分析系列, 免費文章, 寶泰生醫, 寵物醫療, 羅氏
   Summary: 當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。
+- 2026-06-24｜Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head
+  URL: https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html
+  Topics: AI drug discovery, zasocitinib, Takeda, Sotyktu, TYK2
+  Summary: Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test.
 - 2026-06-24｜AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu
   URL: https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html
   Topics: 商業分析系列, 免費文章, AI, 臨床數據, 生技投資
@@ -74,14 +82,6 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   URL: https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda.html
   Topics: 商業分析系列, 免費文章, BD, 臨床數據, 生技投資
   Summary: 在全球腫瘤藥市場裡，很少有一家公司比 Merck（默沙東）更懂 PD-1。
-- 2026-06-20｜Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy
-  URL: https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html
-  Topics: Enlivex, RAIN token, Biotech treasury, Crypto, Capital markets
-  Summary: Enlivex's paper gain from RAIN tokens shows how fragile biotech business models can create unusual treasury stories when operating revenue is absent and capital markets are difficult.
-- 2026-06-20｜【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】
-  URL: https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html
-  Topics: 商業分析系列, 免費文章, AI, BD, 臨床數據
-  Summary: 一家臨床階段 Biotech，沒有藥品銷售收入，卻在一年內做出 12 億美元級別的淨利。
 
 ## Key Site Sections
 

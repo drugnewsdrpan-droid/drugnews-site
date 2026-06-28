@@ -203,6 +203,35 @@
       }
     },
     {
+      "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+      "date": "2026-06-26",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+      "source": "Website",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "GLP-1",
+        "tirzepatide",
+        "Zepbound",
+        "Taltz",
+        "Omvoh",
+        "immunometabolism",
+        "autoimmune disease",
+        "psoriasis",
+        "IBD",
+        "Eli Lilly"
+      ],
+      "summary": "Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases.",
+      "image": "https://drugnews.com.tw/assets/articles/tirzepatide-autoimmune-immunometabolism-en/cover-en.svg",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-06-26-tirzepatide-autoimmune-immunometabolism.html"
+      }
+    },
+    {
       "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
       "date": "2026-06-26",
       "language": "zh-Hant",
@@ -221,7 +250,9 @@
       "image": "https://drugnews.com.tw/assets/articles/tirzepatide-autoimmune-immunometabolism/cover-generated.svg",
       "is_accessible_for_free": true,
       "is_external": false,
-      "alternate_language_versions": {}
+      "alternate_language_versions": {
+        "en": "2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html"
+      }
     },
     {
       "title": "【付費深度商業分析文章系列】BD 最高金額不是成交價：真正要拆的是誰承擔了風險",
@@ -292,6 +323,35 @@
       }
     },
     {
+      "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+      "date": "2026-06-24",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+      "source": "Website",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "AI drug discovery",
+        "zasocitinib",
+        "Takeda",
+        "Sotyktu",
+        "TYK2",
+        "psoriasis",
+        "PASI 100",
+        "Schrodinger",
+        "biotech investing",
+        "Big Pharma"
+      ],
+      "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test.",
+      "image": "https://drugnews.com.tw/assets/articles/ai-zasocitinib-sotyktu-en/cover-en.svg",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-06-24-ai-zasocitinib-sotyktu.html"
+      }
+    },
+    {
       "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
       "date": "2026-06-24",
       "language": "zh-Hant",
@@ -310,7 +370,9 @@
       "image": "https://drugnews.com.tw/assets/articles/ai-zasocitinib-sotyktu/cover.svg",
       "is_accessible_for_free": true,
       "is_external": false,
-      "alternate_language_versions": {}
+      "alternate_language_versions": {
+        "en": "2026-06-24-ai-zasocitinib-sotyktu-en.html"
+      }
     },
     {
       "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
@@ -1280,54 +1342,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-06-08-cart-autoimmune-new-era.html"
-      }
-    },
-    {
-      "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-      "date": "2026-06-08",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-      "source": "Dcard / Facebook",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "CAR-T",
-        "自體免疫",
-        "Kyverna",
-        "mivocabtagene autoleucel",
-        "細胞治療",
-        "FDA"
-      ],
-      "summary": "Kyverna 啟動 mivocabtagene autoleucel 的 BLA 滾動式提交，象徵 CAR-T 從血癌治療走向自體免疫疾病的新階段，也重新打開細胞治療的商業想像。",
-      "image": "https://drugnews.com.tw/assets/articles/cart-autoimmune-new-era/dcard-01.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-08-cart-autoimmune-new-era-en.html"
-      }
-    },
-    {
-      "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
-      "date": "2026-06-07",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
-      "source": "Website",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "IR and Capital Markets",
-        "AI drug discovery",
-        "Biotech business analysis",
-        "Drug development"
-      ],
-      "summary": "AI is becoming a core operating capability for pharma, but its value comes from improving discovery, translation, trial design, and portfolio decisions rather than from marketing language alone.",
-      "image": "https://drugnews.com.tw/assets/english/drugnews-english-analysis-cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-07-pharma-ai-capability-future.html"
       }
     }
   ]

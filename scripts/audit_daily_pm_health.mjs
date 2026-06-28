@@ -70,6 +70,35 @@ function check(name, ok, detail = "", severity = ok ? "ok" : "warning") {
   return { name, status: ok ? "ok" : severity, detail };
 }
 
+function jsonLdBlocks(html = "") {
+  return [...String(html).matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
+    .map((match) => {
+      try {
+        return JSON.parse(match[1]);
+      } catch {
+        return null;
+      }
+    })
+    .filter(Boolean);
+}
+
+function offerCatalogStatus(html = "") {
+  const catalog = jsonLdBlocks(html).find((block) => block?.["@type"] === "OfferCatalog");
+  if (!catalog) return { ok: false, detail: "missing OfferCatalog" };
+  const offers = Array.isArray(catalog.itemListElement) ? catalog.itemListElement : [];
+  const urls = offers.map((offer) => String(offer.url || "")).join(" ");
+  const names = offers.map((offer) => offer?.itemOffered?.name).filter(Boolean);
+  const hasResearchPackTracking = urls.includes("utm_campaign=paid_research_pack");
+  const hasCompanyServiceTracking = urls.includes("utm_campaign=company_services");
+  const ok = offers.length >= 3 && hasResearchPackTracking && hasCompanyServiceTracking;
+  return {
+    ok,
+    detail: ok
+      ? `${offers.length} offer(s): ${names.join(" / ")}`
+      : `${offers.length} offer(s); research-pack tracking: ${hasResearchPackTracking}; company-service tracking: ${hasCompanyServiceTracking}`
+  };
+}
+
 function summarizeFacebookDiagnostics(diagnostics) {
   if (!diagnostics) return "";
   const page = diagnostics.page || {};
@@ -135,6 +164,10 @@ async function main() {
   const sitemap = await readText("sitemap.xml");
   const newsSitemap = await readText("news-sitemap.xml");
   const llms = await readText("llms.txt");
+  const subscribeHtml = await readText("subscribe.html");
+  const enSubscribeHtml = await readText("en/subscribe.html");
+  const zhOfferCatalog = offerCatalogStatus(subscribeHtml);
+  const enOfferCatalog = offerCatalogStatus(enSubscribeHtml);
 
   const references = runJson("scripts/audit_references.mjs", ["--limit=30"]).parsed;
   const reader = runJson("scripts/audit_reader_experience.mjs", ["--limit=30"]).parsed;
@@ -159,6 +192,8 @@ async function main() {
     check("json_feed_exists", fileExists("feed.json") && robots.includes("Allow: /feed.json") && sitemap.includes(`${BASE_URL}/feed.json`), `${BASE_URL}/feed.json`, "warning"),
     check("market_radar_exists", fileExists("market-radar.html") && fileExists("market-radar.json") && robots.includes("Allow: /market-radar.json"), `${BASE_URL}/market-radar.html`, "warning"),
     check("brand_profile_exists", fileExists("brand-profile.json") && robots.includes("Allow: /brand-profile.json") && sitemap.includes(`${BASE_URL}/brand-profile.json`), `${BASE_URL}/brand-profile.json`, "warning"),
+    check("paid_offer_catalog_zh", zhOfferCatalog.ok, zhOfferCatalog.detail, "warning"),
+    check("paid_offer_catalog_en", enOfferCatalog.ok, enOfferCatalog.detail, "warning"),
     check("sitemap_ai_index", sitemap.includes(`${BASE_URL}/ai-index.json`) && sitemap.includes(`${BASE_URL}/feed.json`) && sitemap.includes(`${BASE_URL}/llms.txt`) && sitemap.includes(`${BASE_URL}/knowledge-graph.json`) && sitemap.includes(`${BASE_URL}/market-radar.html`) && sitemap.includes(`${BASE_URL}/market-radar.json`) && sitemap.includes(`${BASE_URL}/brand-profile.json`), "sitemap includes AI-readable files", "warning"),
     check("news_sitemap_exists", fileExists("news-sitemap.xml") && newsSitemap.includes("<url>"), "news-sitemap.xml has entries", "warning"),
     check("references_latest_30", references?.truncated_url_articles === 0, `${references?.truncated_url_articles ?? "unknown"} articles with truncated URLs`, "error"),

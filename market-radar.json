@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-28T05:16:19.181Z",
+  "generated_at": "2026-06-28T06:59:38.817Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -48,7 +48,7 @@
     },
     {
       "name": "腫瘤精準治療",
-      "count": 11,
+      "count": 10,
       "articles": [
         {
           "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
@@ -213,31 +213,32 @@
             "Drug development"
           ],
           "summary": "Daraxonrasib opens a new pancreatic-cancer window, but the next value question is resistance management. Senhwa's CX-5461 matters if it can become a rational combination partner."
-        },
-        {
-          "title": "RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場「抗藥性管理」戰",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "生華科",
-            "CX-5461",
-            "Pidnarulex",
-            "RAS",
-            "胰臟癌",
-            "抗藥性",
-            "Tislelizumab"
-          ],
-          "summary": "Daraxonrasib 打開胰臟癌 RAS 標靶時代後，真正的下一場戰爭是抗藥性管理；生華科 CX-5461 的價值在於能否成為 RAS 標靶後時代的免疫增敏與聯合治療候選策略。"
         }
       ]
     },
     {
       "name": "GLP-1 與代謝賽道",
-      "count": 8,
+      "count": 9,
       "articles": [
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "GLP-1",
+            "tirzepatide",
+            "Zepbound",
+            "Taltz",
+            "Omvoh",
+            "immunometabolism",
+            "autoimmune disease",
+            "psoriasis"
+          ],
+          "summary": "Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases."
+        },
         {
           "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
           "date": "2026-06-26",
@@ -402,8 +403,27 @@
     },
     {
       "name": "AI 製藥與新技術",
-      "count": 7,
+      "count": 8,
       "articles": [
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "AI drug discovery",
+            "zasocitinib",
+            "Takeda",
+            "Sotyktu",
+            "TYK2",
+            "psoriasis",
+            "PASI 100",
+            "Schrodinger"
+          ],
+          "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test."
+        },
         {
           "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
           "date": "2026-06-24",
@@ -517,27 +537,6 @@
             "藥物開發"
           ],
           "summary": "AI 製藥已從概念走向臨床驗證。這篇盤點 Zasocitinib、GB-0895、Zovegalisib、REC-4881 等代表管線，拆解不同 AI 路線如何轉化成真正的藥物資產。"
-        }
-      ]
-    },
-    {
-      "name": "CMC / 商業化風險",
-      "count": 1,
-      "articles": [
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "IR and Capital Markets",
-            "Capital markets",
-            "Biotech business analysis",
-            "Drug development"
-          ],
-          "summary": "Biotech IR is not cosmetic storytelling. Good IR turns clinical, CMC, regulatory, commercial, and financing milestones into a capital-market narrative that investors can actually track."
         }
       ]
     }

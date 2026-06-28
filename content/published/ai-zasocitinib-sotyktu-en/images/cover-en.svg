@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="AI-Designed Drug Enters a Real Clinical Exam">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f3f8fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0e2d3a" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" rx="34" fill="url(#bg)"/>
+  <path d="M30 545 C220 470, 350 625, 560 540 S890 430, 1168 500" fill="none" stroke="#246b93" stroke-width="6" opacity="0.18"/>
+  <path d="M740 70 C860 110, 910 80, 1020 122 S1140 135, 1190 86" fill="none" stroke="#d66f35" stroke-width="7" opacity="0.18"/>
+  <circle cx="925" cy="350" r="178" fill="#ffffff" stroke="#246b93" stroke-width="3" opacity="0.88"/>
+  <circle cx="925" cy="350" r="116" fill="none" stroke="#246b93" stroke-width="22" stroke-dasharray="150 58" opacity="0.32"/>
+  <circle cx="925" cy="350" r="64" fill="#f3f8fb" stroke="#246b93" stroke-width="5"/>
+  <g opacity="0.95">
+    <circle cx="832" cy="262" r="22" fill="#246b93"/>
+    <circle cx="999" cy="262" r="22" fill="#d66f35"/>
+    <circle cx="1031" cy="424" r="22" fill="#246b93"/>
+    <circle cx="820" cy="430" r="22" fill="#d66f35"/>
+    <path d="M852 272 L905 328 L980 274 M981 276 L1020 402 M1010 424 L846 428 M833 408 L895 356" fill="none" stroke="#101f32" stroke-width="8" stroke-linecap="round" opacity="0.88"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="62" y="60" width="630" height="548" rx="30" fill="#ffffff" opacity="0.96"/>
+  </g>
+  <text x="92" y="112" font-size="18" font-weight="800" letter-spacing="3" fill="#d66f35">DRUGNEWS BIOTECH BUSINESS ANALYSIS</text>
+  <text x="92" y="162" font-size="42" font-weight="800" fill="#101f32">AI-Designed Drug Enters a Real</text>
+<text x="92" y="214" font-size="42" font-weight="800" fill="#101f32">Clinical Exam</text>
+  <text x="92" y="276" font-size="24" font-weight="600" fill="#60707b">Takeda zasocitinib beat Sotyktu head-to-head in</text>
+<text x="92" y="308" font-size="24" font-weight="600" fill="#60707b">psoriasis.</text>
+  
+      <g>
+        <circle cx="118" cy="333" r="20" fill="#246b93" opacity="0.95"/>
+        <path d="M108 331 L116 340 L130 323" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="156" y="343" font-size="25" font-weight="700" fill="#101f32">Oral TYK2 race</text>
+      </g>
+
+      <g>
+        <circle cx="118" cy="409" r="20" fill="#d66f35" opacity="0.95"/>
+        <path d="M108 407 L116 416 L130 399" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="156" y="419" font-size="25" font-weight="700" fill="#101f32">PASI 100 as a higher bar</text>
+      </g>
+
+      <g>
+        <circle cx="118" cy="485" r="20" fill="#246b93" opacity="0.95"/>
+        <path d="M108 483 L116 492 L130 475" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="156" y="495" font-size="25" font-weight="700" fill="#101f32">AI design meets commercial reality</text>
+      </g>
+  <rect x="92" y="548" width="560" height="62" rx="24" fill="#f3f8fb" stroke="#246b93" stroke-width="2"/>
+  <text x="118" y="568" font-size="17" font-weight="800" fill="#101f32">Investor lens: efficacy is only the first</text>
+<text x="118" y="592" font-size="17" font-weight="800" fill="#101f32">hurdle</text>
+  <text x="982" y="602" font-size="22" font-weight="800" fill="#101f32" opacity="0.72">Drugnews</text>
+</svg>

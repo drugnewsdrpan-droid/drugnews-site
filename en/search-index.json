@@ -46,6 +46,32 @@
     "url": "articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html"
   },
   {
+    "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+    "slug": "tirzepatide-autoimmune-immunometabolism-en",
+    "date": "2026-06-26",
+    "publishAt": "2026-06-26T10:30:00+08:00",
+    "category": "商業分析系列",
+    "access": "免費文章",
+    "lang": "en",
+    "tags": [
+      "GLP-1",
+      "tirzepatide",
+      "Zepbound",
+      "Taltz",
+      "Omvoh",
+      "immunometabolism",
+      "autoimmune disease",
+      "psoriasis",
+      "IBD",
+      "Eli Lilly",
+      "biotech investing"
+    ],
+    "summary": "Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases.",
+    "image": "../assets/articles/tirzepatide-autoimmune-immunometabolism-en/cover-en.svg",
+    "imageAlt": "English BioRender-style card explaining tirzepatide and immunometabolism",
+    "url": "articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html"
+  },
+  {
     "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
     "slug": "protect-pet-medical-roche-platform-en",
     "date": "2026-06-25",
@@ -67,6 +93,31 @@
     "image": "../assets/articles/protect-pet-medical-roche-platform-en/cover.png",
     "imageAlt": "Companion-animal precision medicine platform cover for Protect Biotech",
     "url": "articles/2026-06-25-protect-pet-medical-roche-platform-en.html"
+  },
+  {
+    "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+    "slug": "ai-zasocitinib-sotyktu-en",
+    "date": "2026-06-24",
+    "publishAt": "2026-06-24T08:13:00+08:00",
+    "category": "商業分析系列",
+    "access": "免費文章",
+    "lang": "en",
+    "tags": [
+      "AI drug discovery",
+      "zasocitinib",
+      "Takeda",
+      "Sotyktu",
+      "TYK2",
+      "psoriasis",
+      "PASI 100",
+      "Schrodinger",
+      "biotech investing",
+      "Big Pharma"
+    ],
+    "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test.",
+    "image": "../assets/articles/ai-zasocitinib-sotyktu-en/cover-en.svg",
+    "imageAlt": "English BioRender-style card explaining AI-designed zasocitinib and psoriasis competition",
+    "url": "articles/2026-06-24-ai-zasocitinib-sotyktu-en.html"
   },
   {
     "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",

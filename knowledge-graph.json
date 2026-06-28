@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-28T05:16:19.193Z",
+  "generated_at": "2026-06-28T06:59:38.824Z",
   "site": {
     "name": "Drugnews｜藥時事",
     "url": "https://drugnews.com.tw/",
@@ -130,6 +130,30 @@
       }
     },
     {
+      "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+      "date": "2026-06-26",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "GLP-1",
+        "tirzepatide",
+        "Zepbound",
+        "Taltz",
+        "Omvoh",
+        "immunometabolism",
+        "autoimmune disease",
+        "psoriasis",
+        "IBD",
+        "Eli Lilly"
+      ],
+      "summary": "Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-06-26-tirzepatide-autoimmune-immunometabolism.html"
+      }
+    },
+    {
       "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
       "date": "2026-06-26",
       "language": "zh-Hant",
@@ -143,7 +167,9 @@
         "製藥巨頭"
       ],
       "summary": "它不像急性感染，用藥幾天或幾週就結束。類風濕性關節炎、乾癬、乾癬性關節炎、發炎性腸道疾病、氣喘、異位性皮膚炎，這些疾病往往跟著患者一輩子。",
-      "alternate_language_versions": {}
+      "alternate_language_versions": {
+        "en": "2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html"
+      }
     },
     {
       "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
@@ -188,6 +214,30 @@
       }
     },
     {
+      "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+      "date": "2026-06-24",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "AI drug discovery",
+        "zasocitinib",
+        "Takeda",
+        "Sotyktu",
+        "TYK2",
+        "psoriasis",
+        "PASI 100",
+        "Schrodinger",
+        "biotech investing",
+        "Big Pharma"
+      ],
+      "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-06-24-ai-zasocitinib-sotyktu.html"
+      }
+    },
+    {
       "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
       "date": "2026-06-24",
       "language": "zh-Hant",
@@ -201,7 +251,9 @@
         "製藥巨頭"
       ],
       "summary": "過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Tal",
-      "alternate_language_versions": {}
+      "alternate_language_versions": {
+        "en": "2026-06-24-ai-zasocitinib-sotyktu-en.html"
+      }
     },
     {
       "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
@@ -597,53 +649,13 @@
       "alternate_language_versions": {
         "en": "2026-06-12-ai-drug-discovery-pipeline-20260612-en.html"
       }
-    },
-    {
-      "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-      "date": "2026-06-11",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "Biotech Valuation",
-        "Obesity medicine",
-        "Business development",
-        "Capital markets",
-        "Biotech business analysis",
-        "Drug development"
-      ],
-      "summary": "GLP-1 is no longer only a weight-loss topic. It is redirecting biotech capital, BD urgency, manufacturing attention, and valuation imagination across global pharma.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-11-glp1-biotech-capital-reshuffle.html"
-      }
-    },
-    {
-      "title": "減肥成王：GLP-1 正在把全球生技資本重新洗牌",
-      "date": "2026-06-11",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "GLP-1",
-        "減肥藥",
-        "生技資本",
-        "腫瘤管線",
-        "BD",
-        "代謝疾病"
-      ],
-      "summary": "GLP-1 不只是減重藥題材，而是重新配置全球藥廠研發預算、產能投資、BD 談判與生技估值規則的核心變數。",
-      "alternate_language_versions": {
-        "en": "2026-06-11-glp1-biotech-capital-reshuffle-en.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 46,
+      "mentions": 45,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -681,7 +693,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 46,
+      "mentions": 45,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -719,7 +731,7 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 26,
+      "mentions": 25,
       "latest_date": "2026-06-28",
       "latest_articles": [
         {
@@ -757,7 +769,7 @@
     {
       "name": "Business Analysis",
       "type": "topic",
-      "mentions": 24,
+      "mentions": 23,
       "latest_date": "2026-06-25",
       "latest_articles": [
         {
@@ -795,7 +807,7 @@
     {
       "name": "BD",
       "type": "market_topic",
-      "mentions": 21,
+      "mentions": 20,
       "latest_date": "2026-06-28",
       "latest_articles": [
         {
@@ -945,6 +957,44 @@
       ]
     },
     {
+      "name": "GLP-1",
+      "type": "biotech_concept_or_target",
+      "mentions": 17,
+      "latest_date": "2026-06-26",
+      "latest_articles": [
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
+        },
+        {
+          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "CNS",
       "type": "topic",
       "mentions": 17,
@@ -979,44 +1029,6 @@
           "date": "2026-05-22",
           "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "GLP-1",
-      "type": "biotech_concept_or_target",
-      "mentions": 16,
-      "latest_date": "2026-06-26",
-      "latest_articles": [
-        {
-          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en"
         }
       ]
     },
@@ -1059,6 +1071,44 @@
       ]
     },
     {
+      "name": "Big Pharma",
+      "type": "market_topic",
+      "mentions": 14,
+      "latest_date": "2026-06-24",
+      "latest_articles": [
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
+          "date": "2026-06-04",
+          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Sun Pharma, Teva, and the Transformation Anxiety of Global Generic Drugmakers",
+          "date": "2026-05-27",
+          "url": "https://drugnews.com.tw/articles/2026-05-27-generic-pharma-transformation-anxiety-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Obesity medicine",
       "type": "topic",
       "mentions": 14,
@@ -1092,44 +1142,6 @@
           "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
           "date": "2026-06-04",
           "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Business development",
-      "type": "topic",
-      "mentions": 14,
-      "latest_date": "2026-06-12",
-      "latest_articles": [
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Old Targets Are Crowded, but They Can Still Make Money",
-          "date": "2026-06-06",
-          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech Investing Needs a Judgment System, Not More News",
-          "date": "2026-05-28",
-          "url": "https://drugnews.com.tw/articles/2026-05-28-biotech-investment-judgment-system-en.html",
           "language": "en"
         }
       ]
@@ -1173,8 +1185,8 @@
       ]
     },
     {
-      "name": "Big Pharma",
-      "type": "market_topic",
+      "name": "Business development",
+      "type": "topic",
       "mentions": 13,
       "latest_date": "2026-06-12",
       "latest_articles": [
@@ -1185,27 +1197,27 @@
           "language": "en"
         },
         {
-          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
           "language": "en"
         },
         {
-          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
           "language": "en"
         },
         {
-          "title": "Sun Pharma, Teva, and the Transformation Anxiety of Global Generic Drugmakers",
-          "date": "2026-05-27",
-          "url": "https://drugnews.com.tw/articles/2026-05-27-generic-pharma-transformation-anxiety-en.html",
+          "title": "Old Targets Are Crowded, but They Can Still Make Money",
+          "date": "2026-06-06",
+          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy-en.html",
           "language": "en"
         },
         {
-          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
+          "title": "Biotech Investing Needs a Judgment System, Not More News",
+          "date": "2026-05-28",
+          "url": "https://drugnews.com.tw/articles/2026-05-28-biotech-investment-judgment-system-en.html",
           "language": "en"
         }
       ]
@@ -1249,6 +1261,44 @@
       ]
     },
     {
+      "name": "AI drug discovery",
+      "type": "topic",
+      "mentions": 11,
+      "latest_date": "2026-06-24",
+      "latest_articles": [
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
+          "date": "2026-06-07",
+          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
+          "date": "2026-05-29",
+          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The First Step in Valuing Taiwanese Biotech: Stop Forcing Every Company Into the Same P/E Ratio",
+          "date": "2026-05-27",
+          "url": "https://drugnews.com.tw/articles/2026-05-27-taiwan-biotech-valuation-framework-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "ADC",
       "type": "biotech_concept_or_target",
       "mentions": 11,
@@ -1287,47 +1337,9 @@
       ]
     },
     {
-      "name": "AI drug discovery",
-      "type": "topic",
-      "mentions": 11,
-      "latest_date": "2026-06-12",
-      "latest_articles": [
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
-          "date": "2026-05-29",
-          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The First Step in Valuing Taiwanese Biotech: Stop Forcing Every Company Into the Same P/E Ratio",
-          "date": "2026-05-27",
-          "url": "https://drugnews.com.tw/articles/2026-05-27-taiwan-biotech-valuation-framework-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Global Biotech Wave: Understanding the Main Phase and Scientific Pricing of the Five-Trillion Weight-Loss Market",
-          "date": "2026-05-23",
-          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "製藥巨頭",
       "type": "market_topic",
-      "mentions": 10,
+      "mentions": 9,
       "latest_date": "2026-06-26",
       "latest_articles": [
         {
@@ -1439,44 +1451,6 @@
       ]
     },
     {
-      "name": "AI",
-      "type": "topic",
-      "mentions": 6,
-      "latest_date": "2026-06-24",
-      "latest_articles": [
-        {
-          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GSK 用 106 億美元買下 Nuvalent：真正買的不是三條肺癌管線，而是「耐藥與腦轉移」的下一代解法",
-          "date": "2026-06-19",
-          "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "AI製藥下半場：讓藥活下來",
-          "date": "2026-06-13",
-          "url": "https://drugnews.com.tw/articles/2026-06-13-dcard-261654701.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "沒有 AI 能力的藥廠，將不再被稱作藥廠",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "藥華藥",
       "type": "topic",
       "mentions": 6,
@@ -1510,6 +1484,44 @@
           "title": "【限時免費－台北場】藥時事｜捕捉生技飆股：用NPV框架算出翻倍重估點",
           "date": "2026-05-06",
           "url": "https://drugnews.com.tw/articles/2026-05-06-taipei-biotech-npv-workshop.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "AI",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-06-24",
+      "latest_articles": [
+        {
+          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GSK 用 106 億美元買下 Nuvalent：真正買的不是三條肺癌管線，而是「耐藥與腦轉移」的下一代解法",
+          "date": "2026-06-19",
+          "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "AI製藥下半場：讓藥活下來",
+          "date": "2026-06-13",
+          "url": "https://drugnews.com.tw/articles/2026-06-13-dcard-261654701.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "沒有 AI 能力的藥廠，將不再被稱作藥廠",
+          "date": "2026-06-07",
+          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
           "language": "zh-Hant"
         }
       ]
@@ -1629,6 +1641,38 @@
       ]
     },
     {
+      "name": "Eli Lilly",
+      "type": "company",
+      "mentions": 4,
+      "latest_date": "2026-06-26",
+      "latest_articles": [
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Retatrutide 殺進減重手術級別：禮來三重受體藥物，把肥胖治療推向新戰場",
+          "date": "2026-06-04",
+          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Alzheimer",
       "type": "topic",
       "mentions": 4,
@@ -1688,32 +1732,6 @@
           "title": "體內 CAR-T 的泡沫，還是下一代細胞治療最貴的門票？",
           "date": "2026-05-03",
           "url": "https://drugnews.com.tw/articles/2026-05-03-in-vivo-cart-kelonia-lilly.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Eli Lilly",
-      "type": "company",
-      "mentions": 3,
-      "latest_date": "2026-06-22",
-      "latest_articles": [
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Retatrutide 殺進減重手術級別：禮來三重受體藥物，把肥胖治療推向新戰場",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html",
           "language": "zh-Hant"
         }
       ]
@@ -1959,6 +1977,46 @@
           "date": "2026-06-27",
           "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "biotech investing",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-06-26",
+      "latest_articles": [
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "psoriasis",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-06-26",
+      "latest_articles": [
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2621,71 +2679,43 @@
       ]
     },
     {
-      "name": "平台型公司",
+      "name": "autoimmune disease",
       "type": "topic",
       "mentions": 1,
-      "latest_date": "2026-06-25",
+      "latest_date": "2026-06-26",
       "latest_articles": [
         {
-          "title": "邁向「寵物醫療界羅氏」的寶泰生醫",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html",
-          "language": "zh-Hant"
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
         }
       ]
     },
     {
-      "name": "寵物醫療",
-      "type": "topic",
+      "name": "IBD",
+      "type": "market_topic",
       "mentions": 1,
-      "latest_date": "2026-06-25",
+      "latest_date": "2026-06-26",
       "latest_articles": [
         {
-          "title": "邁向「寵物醫療界羅氏」的寶泰生醫",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html",
-          "language": "zh-Hant"
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
         }
       ]
     },
     {
-      "name": "羅氏",
+      "name": "immunometabolism",
       "type": "topic",
       "mentions": 1,
-      "latest_date": "2026-06-25",
+      "latest_date": "2026-06-26",
       "latest_articles": [
         {
-          "title": "邁向「寵物醫療界羅氏」的寶泰生醫",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "寶泰生醫",
-      "type": "company",
-      "mentions": 1,
-      "latest_date": "2026-06-25",
-      "latest_articles": [
-        {
-          "title": "邁向「寵物醫療界羅氏」的寶泰生醫",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Animal Health",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-25",
-      "latest_articles": [
-        {
-          "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
           "language": "en"
         }
       ]
@@ -2765,6 +2795,25 @@
       "summary": "胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。"
     },
     {
+      "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+      "date": "2026-06-26",
+      "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+      "language": "en",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "GLP-1",
+        "tirzepatide",
+        "Zepbound",
+        "Taltz",
+        "Omvoh",
+        "immunometabolism",
+        "autoimmune disease",
+        "psoriasis"
+      ],
+      "summary": "Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases."
+    },
+    {
       "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
       "date": "2026-06-26",
       "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
@@ -2795,6 +2844,25 @@
         "製藥巨頭"
       ],
       "summary": "當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。"
+    },
+    {
+      "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+      "date": "2026-06-24",
+      "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+      "language": "en",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "AI drug discovery",
+        "zasocitinib",
+        "Takeda",
+        "Sotyktu",
+        "TYK2",
+        "psoriasis",
+        "PASI 100",
+        "Schrodinger"
+      ],
+      "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test."
     },
     {
       "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
@@ -3158,39 +3226,6 @@
         "Drug development"
       ],
       "summary": "Daraxonrasib opens a new pancreatic-cancer window, but the next value question is resistance management. Senhwa's CX-5461 matters if it can become a rational combination partner."
-    },
-    {
-      "title": "RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場「抗藥性管理」戰",
-      "date": "2026-06-10",
-      "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html",
-      "language": "zh-Hant",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "生華科",
-        "CX-5461",
-        "Pidnarulex",
-        "RAS",
-        "胰臟癌",
-        "抗藥性",
-        "Tislelizumab"
-      ],
-      "summary": "Daraxonrasib 打開胰臟癌 RAS 標靶時代後，真正的下一場戰爭是抗藥性管理；生華科 CX-5461 的價值在於能否成為 RAS 標靶後時代的免疫增敏與聯合治療候選策略。"
-    },
-    {
-      "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-      "date": "2026-06-10",
-      "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-      "language": "en",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "IR and Capital Markets",
-        "Capital markets",
-        "Biotech business analysis",
-        "Drug development"
-      ],
-      "summary": "Biotech IR is not cosmetic storytelling. Good IR turns clinical, CMC, regulatory, commercial, and financing milestones into a capital-market narrative that investors can actually track."
     }
   ]
 }

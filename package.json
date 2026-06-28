@@ -23,6 +23,7 @@
     "audit:reader:strict": "node scripts/audit_reader_experience.mjs --strict",
     "audit:reading-product": "node scripts/audit_reading_product_tasks.mjs",
     "audit:reading-product:strict": "node scripts/audit_reading_product_tasks.mjs --strict",
+    "audit:english-localization": "node scripts/audit_english_localization.mjs",
     "audit:pm": "node scripts/audit_daily_pm_health.mjs",
     "audit:pm:strict": "node scripts/audit_daily_pm_health.mjs --strict",
     "checkpoint:cxo": "node scripts/summarize_daily_status.mjs",
@@ -31,6 +32,7 @@
     "capture:dcard": "node scripts/scrape_dcard_cdp.mjs profile https://www.dcard.tw/f/persona_drugnews /private/tmp/drugnews-dcard-latest.json",
     "translate:en": "node scripts/translate_articles_to_english.mjs",
     "translate:en:all": "node scripts/translate_articles_to_english.mjs --all",
-    "figure:protect:en:valuation": "node scripts/render_protect_en_figure_02.mjs"
+    "figure:protect:en:valuation": "node scripts/render_protect_en_figure_02.mjs",
+    "figure:en:localized": "node scripts/generate_english_localized_assets.mjs"
   }
 }
