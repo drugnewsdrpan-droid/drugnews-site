@@ -255,7 +255,22 @@ try {
   else if (mode === "post") data = [await scrapePost(client, arg)];
   else if (mode === "current") {
     const post = await scrapePost(client, "");
-    data = isImportableCurrentPost(post) ? [post] : [];
+    data = {
+      generated_at: new Date().toISOString(),
+      source: "current Chrome Facebook tab",
+      selected_url: post?.url || "",
+      selected: isImportableCurrentPost(post) ? [post] : [],
+      candidates: [{
+        title: post.title,
+        url: post.url,
+        score: post.score,
+        reasons: post.reasons,
+        text_length: String(post.articleText || "").length,
+        images: post.images?.length || 0,
+        preview: String(post.articleText || "").slice(0, 220)
+      }],
+      rejected_reason: isImportableCurrentPost(post) ? "" : "Current Facebook tab is not a readable single post or the post body is too short."
+    };
   }
   else throw new Error(`Unknown mode: ${mode}`);
 

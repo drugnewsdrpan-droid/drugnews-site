@@ -101,6 +101,9 @@ function offerCatalogStatus(html = "") {
 
 function summarizeFacebookDiagnostics(diagnostics) {
   if (!diagnostics) return "";
+  if (diagnostics.rejected_reason) {
+    return [diagnostics.selected_url ? `current tab ${diagnostics.selected_url}` : "", diagnostics.rejected_reason].filter(Boolean).join("; ");
+  }
   const page = diagnostics.page || {};
   const candidate = Array.isArray(diagnostics.candidates) ? diagnostics.candidates[0] : null;
   const flags = [];
@@ -125,6 +128,9 @@ function facebookPreviewAlreadyPublished(diagnostics, latest) {
 
 function summarizeDcardDiagnostics(diagnostics) {
   if (!diagnostics) return "";
+  if (diagnostics.rejected_reason) {
+    return [diagnostics.selected_url ? `current tab ${diagnostics.selected_url}` : "", diagnostics.rejected_reason].filter(Boolean).join("; ");
+  }
   const profile = diagnostics.profile || {};
   const flags = [];
   if (profile.url) flags.push(`profile resolved to ${profile.url}`);
