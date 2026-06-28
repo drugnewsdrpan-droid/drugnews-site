@@ -140,6 +140,54 @@ function stripReferenceSection(markdown) {
   );
 }
 
+function referenceSection(markdown) {
+  const match = String(markdown || "").match(/(^|\n)\s*(參考資料[:：]?|References:?)\s*\n([\s\S]*?)(?=\n---|\n#{1,3}\s|$)/i);
+  return match ? match[3].trim() : "";
+}
+
+function extractCitations(markdown) {
+  const section = referenceSection(markdown);
+  if (!section) return [];
+  const citations = [];
+  const seen = new Set();
+  for (const line of section.split("\n").map((item) => item.trim()).filter(Boolean)) {
+    const markdownLinks = [...line.matchAll(/\[([^\]]+)]\((https?:\/\/[^)]+)\)/g)];
+    for (const link of markdownLinks) {
+      const label = link[1].replace(/\s+/g, " ").trim();
+      const url = link[2].trim();
+      if (seen.has(url)) continue;
+      seen.add(url);
+      citations.push({ "@type": "CreativeWork", name: label || url, url });
+    }
+    const bareUrls = [...line.matchAll(/https?:\/\/[^\s)]+/g)].map((match) => match[0]);
+    for (const url of bareUrls) {
+      if (seen.has(url)) continue;
+      seen.add(url);
+      const label = line
+        .replace(url, "")
+        .replace(/^\[\d+]\s*/, "")
+        .replace(/[｜|:：\-–—]+$/u, "")
+        .replace(/\s+/g, " ")
+        .trim();
+      citations.push({ "@type": "CreativeWork", name: label || url, url });
+    }
+  }
+  return citations.slice(0, 12);
+}
+
+function articleWordCount(markdown) {
+  const text = stripMarkdown(stripReferenceSection(markdown));
+  const cjk = text.match(/[\u4e00-\u9fff]/g)?.length || 0;
+  const latin = text.match(/[A-Za-z0-9]+(?:[-'][A-Za-z0-9]+)*/g)?.length || 0;
+  return cjk + latin;
+}
+
+function readingTimeIso(markdown) {
+  const words = articleWordCount(markdown);
+  const minutes = Math.max(1, Math.ceil(words / 450));
+  return `PT${minutes}M`;
+}
+
 function slugify(input, fallback) {
   const slug = String(input || "")
     .normalize("NFKD")
@@ -820,6 +868,8 @@ function articlePage(article, bodyHtml, related) {
   const articleCover = coverImage(article);
   const articleImage = articleCover.src;
   const articleImageUrl = articleImage ? absoluteUrl(articleImage) : "";
+  const citations = extractCitations(article.markdown);
+  const wordCount = articleWordCount(article.markdown);
   const seriesLabel = displaySeriesLabel(series, meta);
   const accessDisplay = displayAccessLabel(meta);
   const localLinks = isEnglish(meta)
@@ -862,9 +912,12 @@ function articlePage(article, bodyHtml, related) {
     },
     articleSection: seriesLabel,
     keywords: meta.tags.join(", "),
-    inLanguage: languageTag(meta)
+    inLanguage: languageTag(meta),
+    wordCount,
+    timeRequired: readingTimeIso(article.markdown)
   };
   if (articleImageUrl) articleSchema.image = [articleImageUrl];
+  if (citations.length) articleSchema.citation = citations;
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
