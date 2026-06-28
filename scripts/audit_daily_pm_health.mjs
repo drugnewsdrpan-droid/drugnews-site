@@ -82,6 +82,18 @@ function summarizeFacebookDiagnostics(diagnostics) {
   return flags.join("; ");
 }
 
+function normalizeTitle(value = "") {
+  return String(value)
+    .replace(/\s+/g, " ")
+    .replace(/[｜|]\s*(Drugnews|藥時事).*$/iu, "")
+    .trim();
+}
+
+function facebookPreviewAlreadyPublished(diagnostics, latest) {
+  const candidate = Array.isArray(diagnostics?.candidates) ? diagnostics.candidates[0] : null;
+  return Boolean(candidate?.title && latest?.title && normalizeTitle(candidate.title) === normalizeTitle(latest.title));
+}
+
 function summarizeDcardDiagnostics(diagnostics) {
   if (!diagnostics) return "";
   const profile = diagnostics.profile || {};
@@ -94,7 +106,7 @@ function summarizeDcardDiagnostics(diagnostics) {
   return flags.join("; ");
 }
 
-function captureCheck(name, filePath, payload, diagnostics = null) {
+function captureCheck(name, filePath, payload, diagnostics = null, options = {}) {
   if (!fs.existsSync(filePath)) {
     return check(name, false, `No latest ${name.startsWith("facebook") ? "Facebook" : "Dcard"} capture JSON found`, "warning");
   }
@@ -104,6 +116,9 @@ function captureCheck(name, filePath, payload, diagnostics = null) {
   const detail = payload.length > 0
     ? `${filePath} has ${payload.length} candidate(s)`
     : `${filePath} exists but has 0 candidates${diagnostics ? `; ${diagnostics}` : ""}`;
+  if (options.limitedButCurrent && payload.length === 0) {
+    return check(name, true, `${detail}; visible preview matches latest site article`, "warning");
+  }
   return check(name, payload.length > 0, detail, "warning");
 }
 
@@ -149,7 +164,9 @@ async function main() {
     check("references_latest_30", references?.truncated_url_articles === 0, `${references?.truncated_url_articles ?? "unknown"} articles with truncated URLs`, "error"),
     check("reader_related_latest_30", reader?.failed_articles === 0, `${reader?.passed_articles ?? 0}/${reader?.checked_articles ?? 0} passed related-reading audit`, "warning"),
     check("reading_product_tasks", readingProduct?.status === "ok", readingProduct?.status === "ok" ? "mobile, search, topic hubs, tags, and share placement passed" : `${readingProduct?.failed?.length ?? "unknown"} reading-product task(s) need review`, "warning"),
-    captureCheck("facebook_capture_ready", SOCIAL_FB_INPUT, facebookCapture, summarizeFacebookDiagnostics(facebookDiagnostics)),
+    captureCheck("facebook_capture_ready", SOCIAL_FB_INPUT, facebookCapture, summarizeFacebookDiagnostics(facebookDiagnostics), {
+      limitedButCurrent: facebookPreviewAlreadyPublished(facebookDiagnostics, latest)
+    }),
     captureCheck("dcard_capture_ready", SOCIAL_DCARD_INPUT, dcardCapture, summarizeDcardDiagnostics(dcardDiagnostics)),
     check("ga4_configured", Boolean(settings.google_analytics_id), settings.google_analytics_id ? "GA4 enabled" : "GA4 measurement ID missing", "warning"),
     check("search_console_configured", Boolean(settings.google_search_console_verification), settings.google_search_console_verification ? "Search Console verification configured" : "Search Console verification missing", "warning")
@@ -168,6 +185,7 @@ async function main() {
     } : null,
     social_status: social ? {
       status: social.status,
+      platform_state: social.platform_state,
       latest_site_article: social.latest_site_article,
       requests: social.requests,
       diagnostics: {
@@ -177,7 +195,11 @@ async function main() {
     } : null,
     checks,
     next_actions: [
-      ...(social?.status === "needs_capture" ? ["Run npm run chrome:social (or /bin/zsh scripts/start_social_capture_chrome.sh if npm is unavailable), confirm Facebook/Dcard login, then rerun daily social capture; otherwise provide capture JSON."] : []),
+      ...(social?.status === "needs_capture"
+        ? [social?.platform_state?.facebook === "already_current_limited_capture" && social?.platform_state?.dcard === "needs_capture"
+          ? "Facebook visible preview already matches the latest site article. Confirm Dcard login in the capture Chrome, then rerun daily social capture only if Dcard has a newer post."
+          : "Run npm run chrome:social (or /bin/zsh scripts/start_social_capture_chrome.sh if npm is unavailable), confirm Facebook/Dcard login, then rerun daily social capture; otherwise provide capture JSON."]
+        : []),
       ...(readingProduct?.status !== "ok" ? ["Run node scripts/audit_reading_product_tasks.mjs to inspect mobile/search/topic reading-experience regressions."] : []),
       ...(!settings.google_analytics_id ? ["Add GA4 with: npm run tracking:configure -- --ga4=G-XXXXXXXXXX"] : []),
       ...(!settings.google_search_console_verification ? ["Add Search Console with: npm run tracking:configure -- --gsc=GOOGLE_SEARCH_CONSOLE_TOKEN"] : [])

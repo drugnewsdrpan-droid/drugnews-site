@@ -7,6 +7,7 @@ const ROOT = process.cwd();
 const PUBLISHED = path.join(ROOT, "content", "published");
 const FB_INPUT = "/private/tmp/drugnews-facebook-latest.json";
 const DCARD_INPUT = "/private/tmp/drugnews-dcard-latest.json";
+const FB_DIAGNOSTICS = `${FB_INPUT}.diagnostics.json`;
 const FB_PAGE_URL = "https://www.facebook.com/profile.php?id=61568446257142";
 const DCARD_PAGE_URL = process.env.DRUGNEWS_DCARD_PAGE_URL || "https://www.dcard.tw/f/persona_drugnews";
 
@@ -31,6 +32,14 @@ function dcardId(url = "") {
 
 async function readJson(filePath) {
   return JSON.parse(await fsp.readFile(filePath, "utf8"));
+}
+
+async function readJsonSafe(filePath, fallback = null) {
+  try {
+    return await readJson(filePath);
+  } catch {
+    return fallback;
+  }
 }
 
 async function listPublished() {
@@ -77,6 +86,24 @@ function sameDcardPost(post, item) {
   if (incomingUrl && incomingUrl === item.dcard_url) return true;
   const incomingTitle = String(post.title || "").trim();
   return Boolean(incomingTitle && incomingTitle === item.title);
+}
+
+function normalizeTitle(value = "") {
+  return String(value)
+    .replace(/\s+/g, " ")
+    .replace(/[｜|]\s*(Drugnews|藥時事).*$/iu, "")
+    .trim();
+}
+
+function firstFacebookCandidate(diagnostics) {
+  return Array.isArray(diagnostics?.candidates) ? diagnostics.candidates[0] : null;
+}
+
+function facebookPreviewAlreadyPublished(diagnostics, published) {
+  const candidate = firstFacebookCandidate(diagnostics);
+  if (!candidate?.title) return false;
+  const title = normalizeTitle(candidate.title);
+  return published.some((item) => normalizeTitle(item.title) === title);
 }
 
 function validatePosts(posts, platform) {
@@ -198,6 +225,8 @@ async function main() {
   const published = await listPublished();
   const facebook = await loadFresh(fbInput, "Facebook", published, sameFacebookPost);
   const dcard = await loadFresh(dcardInput, "Dcard", published, sameDcardPost);
+  const facebookDiagnostics = await readJsonSafe(FB_DIAGNOSTICS, null);
+  const facebookLimitedButCurrent = facebook.missing && facebookPreviewAlreadyPublished(facebookDiagnostics, published);
 
   const imported = [];
 
@@ -227,17 +256,21 @@ async function main() {
 
   const status = imported.length
     ? (dryRun ? "dry_run_ready" : "published")
-    : (facebook.missing || dcard.missing ? "needs_capture" : "already_current");
+    : ((facebook.missing && !facebookLimitedButCurrent) || dcard.missing ? "needs_capture" : facebookLimitedButCurrent ? "already_current_limited_capture" : "already_current");
 
   console.log(JSON.stringify({
     status,
     imported_posts: imported,
+    platform_state: {
+      facebook: facebookLimitedButCurrent ? "already_current_limited_capture" : facebook.missing ? "needs_capture" : "capture_ready",
+      dcard: dcard.missing ? "needs_capture" : "capture_ready"
+    },
     checked_inputs: {
       facebook: fbInput,
       dcard: dcardInput
     },
     requests: captureRequests(published, {
-      facebook: facebook.missing,
+      facebook: facebook.missing && !facebookLimitedButCurrent,
       dcard: dcard.missing
     }),
     latest_site_article: published[0] ? {
@@ -247,7 +280,9 @@ async function main() {
     } : null,
     next_step: imported.length
       ? "QA the generated pages, then commit and push intended files only."
-      : "If the social platforms have newer posts, provide the missing capture JSON or run the logged-in browser scraper and rerun this command."
+      : facebookLimitedButCurrent && dcard.missing
+        ? "Facebook visible preview matches an already published site article. Dcard still needs logged-in capture if it has a newer post."
+        : "If the social platforms have newer posts, provide the missing capture JSON or run the logged-in browser scraper and rerun this command."
   }, null, 2));
 }
 

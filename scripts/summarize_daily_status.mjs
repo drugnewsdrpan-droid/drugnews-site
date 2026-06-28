@@ -57,6 +57,9 @@ function nextAction(status, pm, fbCandidate, dcard) {
   if (Array.isArray(status?.imported_posts) && status.imported_posts.length) {
     return "檢查新文章頁、圖片、手機版、搜尋索引與 sitemap，確認後提交部署。";
   }
+  if (status?.platform_state?.facebook === "already_current_limited_capture" && dcard?.shell) {
+    return "FB 可見預覽已對上官網最新文章；Dcard 仍只回傳登入 / App 外殼。若 Dcard 今天有新文，需要已登入瀏覽器可讀到文章，或提供 Dcard 貼文網址 / 全文＋圖片。";
+  }
   if (fbCandidate?.title) {
     return `FB 今天可見新文標題是「${fbCandidate.title}」，但目前只取得 ${fbCandidate.textLength} 字預覽。需要登入後完整貼文正文與圖片 URL，或請提供貼文全文＋圖片。`;
   }
@@ -103,6 +106,7 @@ async function main() {
 - 狀態：${status.status || pm.status || "unknown"}
 - 新匯入文章：${imported.length ? imported.map((item) => item.title).join("、") : "0 篇"}
 - 官網最新文章：${latest ? `${latest.date || ""}｜${latest.title || ""}` : "尚未取得"}
+- 平台狀態：FB ${status.platform_state?.facebook || "unknown"}；Dcard ${status.platform_state?.dcard || "unknown"}
 
 ## 平台抓取診斷
 
