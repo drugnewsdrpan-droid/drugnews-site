@@ -20,6 +20,14 @@ npm run audit:pm
 
 This gives the fastest product-manager status check: latest article date, social capture state, AI/SEO files, reference quality, related-reading quality, and analytics/Search Console configuration.
 
+When Google Analytics or Search Console tokens are ready, enable them with:
+
+```bash
+npm run tracking:configure -- --ga4=G-XXXXXXXXXX --gsc=GOOGLE_SEARCH_CONSOLE_TOKEN
+```
+
+Then run `npm run audit:pm`, commit, and deploy. The command accepts the Search Console HTML-tag content value; it also strips the surrounding `<meta ...>` tag if pasted whole.
+
 Then run the social capture and import workflow:
 
 ```bash

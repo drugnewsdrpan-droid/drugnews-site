@@ -175,8 +175,8 @@ async function main() {
     checks,
     next_actions: [
       ...(social?.status === "needs_capture" ? ["Run npm run chrome:social (or /bin/zsh scripts/start_social_capture_chrome.sh if npm is unavailable), confirm Facebook/Dcard login, then rerun daily social capture; otherwise provide capture JSON."] : []),
-      ...(!settings.google_analytics_id ? ["Add GA4 measurement ID to content/site-settings.json to measure traffic and outbound clicks."] : []),
-      ...(!settings.google_search_console_verification ? ["Add Google Search Console verification token to content/site-settings.json."] : [])
+      ...(!settings.google_analytics_id ? ["Add GA4 with: npm run tracking:configure -- --ga4=G-XXXXXXXXXX"] : []),
+      ...(!settings.google_search_console_verification ? ["Add Search Console with: npm run tracking:configure -- --gsc=GOOGLE_SEARCH_CONSOLE_TOKEN"] : [])
     ]
   };
 

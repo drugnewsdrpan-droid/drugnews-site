@@ -10,6 +10,7 @@
     "build:en": "node scripts/build_english_site.mjs",
     "build:companies": "node scripts/build_company_index.mjs",
     "analytics": "node scripts/inject_analytics.mjs",
+    "tracking:configure": "node scripts/configure_site_tracking.mjs",
     "daily:social": "node scripts/daily_social_update_check.mjs",
     "daily:social:dry": "node scripts/daily_social_update_check.mjs --dry-run",
     "daily:social:capture": "node scripts/daily_social_update_check.mjs --capture-facebook --capture-dcard",

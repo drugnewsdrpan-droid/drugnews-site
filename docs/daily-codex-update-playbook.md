@@ -30,6 +30,14 @@
 /Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/audit_daily_pm_health.mjs
 ```
 
+若 GA4 或 Google Search Console 仍顯示未設定，拿到追蹤碼後直接跑：
+
+```bash
+npm run tracking:configure -- --ga4=G-XXXXXXXXXX --gsc=GOOGLE_SEARCH_CONSOLE_TOKEN
+```
+
+這會更新 `content/site-settings.json` 並把追蹤碼注入所有 HTML 頁面。Search Console 若貼上整段 HTML meta tag，指令會自動抽出 content token。
+
 若輸出 `social_status.status` 是 `needs_capture`，再進入社群抓取流程。
 
 ## 1A. Codex 每日最省 token 路線
