@@ -70,7 +70,7 @@ function isAdminOrChromeLine(line, title) {
   if (/^[-–—]{5,}$/.test(line)) return true;
   if (/^·$/.test(line)) return true;
   if (/^(今天|昨天)?\s*\d+\s*(分鐘|小時)$/.test(line)) return true;
-  if (/^\d+\s*月\s*\d+\s*日/.test(line)) return true;
+  if (/^\d+\s*月\s*\d+\s*日(?:\s*[·・]\s*)?$/.test(line)) return true;
   return false;
 }
 

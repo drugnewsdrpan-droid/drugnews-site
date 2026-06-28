@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-27T23:25:25.669Z",
+  "generated_at": "2026-06-28T02:03:23.454Z",
   "site": {
     "name": "Drugnews｜藥時事",
     "url": "https://drugnews.com.tw/",
@@ -44,6 +44,23 @@
     "brand_profile": "https://drugnews.com.tw/brand-profile.json"
   },
   "latest_articles": [
+    {
+      "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+      "date": "2026-06-28",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "疫苗",
+        "感染症",
+        "BD",
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。但市場卻開始重新買回這個板塊，背後不是單純「跌深反彈」，而",
+      "alternate_language_versions": {}
+    },
     {
       "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
       "date": "2026-06-27",
@@ -612,27 +629,6 @@
       "alternate_language_versions": {
         "zh-Hant": "2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html"
       }
-    },
-    {
-      "title": "RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場「抗藥性管理」戰",
-      "date": "2026-06-10",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "生華科",
-        "CX-5461",
-        "Pidnarulex",
-        "RAS",
-        "胰臟癌",
-        "抗藥性",
-        "Tislelizumab"
-      ],
-      "summary": "Daraxonrasib 打開胰臟癌 RAS 標靶時代後，真正的下一場戰爭是抗藥性管理；生華科 CX-5461 的價值在於能否成為 RAS 標靶後時代的免疫增敏與聯合治療候選策略。",
-      "alternate_language_versions": {
-        "en": "2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html"
-      }
     }
   ],
   "entities": [
@@ -715,9 +711,15 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 25,
-      "latest_date": "2026-06-27",
+      "mentions": 26,
+      "latest_date": "2026-06-28",
       "latest_articles": [
+        {
+          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
           "date": "2026-06-27",
@@ -740,12 +742,6 @@
           "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
           "date": "2026-06-24",
           "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
           "language": "zh-Hant"
         }
       ]
@@ -792,8 +788,14 @@
       "name": "BD",
       "type": "market_topic",
       "mentions": 21,
-      "latest_date": "2026-06-27",
+      "latest_date": "2026-06-28",
       "latest_articles": [
+        {
+          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
           "date": "2026-06-27",
@@ -817,50 +819,6 @@
           "date": "2026-06-20",
           "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "GSK 用 106 億美元買下 Nuvalent：真正買的不是三條肺癌管線，而是「耐藥與腦轉移」的下一代解法",
-          "date": "2026-06-19",
-          "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "GLP-1",
-      "type": "biotech_concept_or_target",
-      "mentions": 17,
-      "latest_date": "2026-06-26",
-      "latest_articles": [
-        {
-          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en"
         }
       ]
     },
@@ -899,6 +857,44 @@
           "date": "2026-05-22",
           "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "GLP-1",
+      "type": "biotech_concept_or_target",
+      "mentions": 16,
+      "latest_date": "2026-06-26",
+      "latest_articles": [
+        {
+          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1172,8 +1168,14 @@
       "name": "臨床數據",
       "type": "market_topic",
       "mentions": 13,
-      "latest_date": "2026-06-27",
+      "latest_date": "2026-06-28",
       "latest_articles": [
+        {
+          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
           "date": "2026-06-27",
@@ -1196,12 +1198,6 @@
           "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
           "date": "2026-06-22",
           "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "默沙東 對 PD-1／VEGF 雙抗改口：Keytruda 王座還在，但下一代免疫底盤已經逼近",
-          "date": "2026-06-21",
-          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda.html",
           "language": "zh-Hant"
         }
       ]
@@ -1437,7 +1433,7 @@
     {
       "name": "AI",
       "type": "topic",
-      "mentions": 7,
+      "mentions": 6,
       "latest_date": "2026-06-24",
       "latest_articles": [
         {
@@ -1840,6 +1836,46 @@
           "title": "體內 CAR-T 的泡沫，還是下一代細胞治療最貴的門票？",
           "date": "2026-05-03",
           "url": "https://drugnews.com.tw/articles/2026-05-03-in-vivo-cart-kelonia-lilly.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "疫苗",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "禮來 38 億美元買三家疫苗公司：減肥藥巨頭，為什麼突然回頭買「預防醫學」？",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "感染症",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "禮來 38 億美元買三家疫苗公司：減肥藥巨頭，為什麼突然回頭買「預防醫學」？",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html",
           "language": "zh-Hant"
         }
       ]
@@ -2285,26 +2321,6 @@
       ]
     },
     {
-      "name": "自體免疫",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-06-08",
-      "latest_articles": [
-        {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "一篇文章講通現在的“禮來”併購邏輯",
-          "date": "2026-04-29",
-          "url": "https://drugnews.com.tw/articles/2026-04-29-dcard-261388300.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "肥胖治療",
       "type": "topic",
       "mentions": 2,
@@ -2665,23 +2681,25 @@
           "language": "en"
         }
       ]
-    },
-    {
-      "name": "Regeneron",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-22",
-      "latest_articles": [
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+      "date": "2026-06-28",
+      "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+      "language": "zh-Hant",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "疫苗",
+        "感染症",
+        "BD",
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。但市場卻開始重新買回這個板塊，背後不是單純「跌深反彈」，而"
+    },
     {
       "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
       "date": "2026-06-27",
@@ -3161,22 +3179,6 @@
         "投資人溝通"
       ],
       "summary": "好的 IR 內容不是宣傳話術，而是把臨床、CMC、監管、商業化與對標公司轉成投資人可以追蹤的節點。"
-    },
-    {
-      "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-      "date": "2026-06-09",
-      "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-      "language": "en",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "BD and Licensing",
-        "Radiopharma",
-        "Business development",
-        "Biotech business analysis",
-        "Drug development"
-      ],
-      "summary": "Curium's rumored interest in Lantheus is best read as a bid for nuclear-medicine infrastructure: isotope access, hospital channels, imaging workflow, and radiopharma commercialization depth."
     }
   ]
 }

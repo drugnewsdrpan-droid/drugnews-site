@@ -98,6 +98,28 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+      "date": "2026-06-28",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "疫苗",
+        "感染症",
+        "BD",
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。但市場卻開始重新買回這個板塊，背後不是單純「跌深反彈」，而",
+      "image": "https://drugnews.com.tw/assets/articles/fda-regulatory-shift-biotech-rebound/cover.svg",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {}
+    },
+    {
       "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
       "date": "2026-06-27",
       "language": "en",
@@ -1301,29 +1323,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-06-07-pharma-ai-capability-future-en.html"
-      }
-    },
-    {
-      "title": "Old Targets Are Crowded, but They Can Still Make Money",
-      "date": "2026-06-06",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy-en.html",
-      "source": "Website",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "BD and Licensing",
-        "Business development",
-        "Biotech business analysis",
-        "Drug development"
-      ],
-      "summary": "Crowded drug targets can still create value when companies differentiate through patient selection, formulation, route of administration, clinical design, pricing, or commercial channel strategy.",
-      "image": "https://drugnews.com.tw/assets/english/drugnews-english-analysis-cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-06-old-targets-differentiation-strategy.html"
       }
     }
   ]

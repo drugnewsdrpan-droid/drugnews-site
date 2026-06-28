@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 27 Jun 2026 19:46:13 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 02:03:23 GMT</lastBuildDate>
+    <item>
+      <title>FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起</title>
+      <link>https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html</guid>
+      <pubDate>Sun, 28 Jun 2026 00:50:00 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/fda-regulatory-shift-biotech-rebound/cover.svg" alt="FDA 審查風向與 Biotech 反攻訊號專題封面"></p><p>代表中小型 Biotech 的 XBI（SPDR S&amp;P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。但市場卻開始重新買回這個板塊，背後不是單純「跌深反彈」，而</p>]]></description>
+    </item>
     <item>
       <title>胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開</title>
       <link>https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Wed, 10 Jun 2026 04:00:00 GMT</pubDate>
       <category>付費深度商業分析文章系列</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/vocus-pipeline-crl-radar-20260610-cover.svg" alt="Pipeline 估值雷達 001 封面"></p><p>FDA CRL 不該只看成藥證失敗，而是要拆成產品、臨床、CMC、label 與補件完整性，重算成功率、上市時間、峰值銷售與稀釋風險。</p>]]></description>
-    </item>
-    <item>
-      <title>〖基本面系列〗全福生技合理估值是多少？BRM421 是乾眼症金礦，還是市場把眼科平台夢買得太早？</title>
-      <link>https://vocus.cc/user/@Drugnews</link>
-      <guid isPermaLink="true">https://vocus.cc/user/@Drugnews</guid>
-      <pubDate>Wed, 10 Jun 2026 03:00:00 GMT</pubDate>
-      <category>基本面系列</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/vocus-brm421-valuation-20260610-cover.svg" alt="全福生技 BRM421 合理估值封面"></p><p>全福不是單純乾眼症大市場概念股，也不是失敗新藥股；本文拆解 BRM421、BRM424、PDSP 平台、現金與稀釋風險，重算合理估值區間。</p>]]></description>
     </item>
   </channel>
 </rss>

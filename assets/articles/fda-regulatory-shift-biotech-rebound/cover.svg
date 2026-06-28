@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">FDA regulatory shift and biotech rebound editorial cover</title>
+  <desc id="desc">A clean Drugnews editorial cover showing FDA review, biotech data, and capital market recovery signals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbfb"/>
+      <stop offset="0.52" stop-color="#eef7f8"/>
+      <stop offset="1" stop-color="#fff7ef"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d8392"/>
+      <stop offset="1" stop-color="#12313c"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5aa4c"/>
+      <stop offset="1" stop-color="#d3752c"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#12313c" flood-opacity=".13"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 702 C250 610 350 760 565 668 C785 574 905 438 1160 498 C1368 546 1450 430 1600 382" fill="none" stroke="#cae1e6" stroke-width="10"/>
+  <path d="M48 184 H1538" stroke="#d6e3e6" stroke-width="2"/>
+  <path d="M48 720 H1538" stroke="#d6e3e6" stroke-width="2"/>
+  <g opacity=".48" stroke="#dbeaec" stroke-width="2">
+    <path d="M182 70v760M396 70v760M610 70v760M824 70v760M1038 70v760M1252 70v760M1466 70v760"/>
+    <path d="M48 316h1490M48 584h1490"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="120" y="154" width="1360" height="592" rx="18" fill="#ffffff" stroke="#d5e0e3" stroke-width="3"/>
+    <rect x="120" y="154" width="1360" height="92" rx="18" fill="#f7fbfb"/>
+    <path d="M120 246 H1480" stroke="#d5e0e3" stroke-width="3"/>
+  </g>
+  <g transform="translate(182 196)">
+    <rect x="0" y="0" width="268" height="96" rx="16" fill="#12313c"/>
+    <text x="32" y="38" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">FDA REVIEW</text>
+    <text x="32" y="70" fill="#cce8ee" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">policy signal</text>
+  </g>
+  <g transform="translate(514 172)">
+    <circle cx="256" cy="256" r="176" fill="#e7f5f4" stroke="#0d8392" stroke-width="10"/>
+    <circle cx="256" cy="256" r="112" fill="#ffffff" stroke="#cae1e6" stroke-width="6"/>
+    <path d="M182 286 l52 52 108 -142" fill="none" stroke="#d3752c" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#12313c">
+      <circle cx="148" cy="144" r="22"/>
+      <circle cx="364" cy="146" r="22"/>
+      <circle cx="148" cy="368" r="22"/>
+      <circle cx="364" cy="368" r="22"/>
+    </g>
+    <g stroke="#0d8392" stroke-width="7" fill="none" stroke-linecap="round">
+      <path d="M174 144 h160"/>
+      <path d="M174 368 h160"/>
+      <path d="M148 170 v172"/>
+      <path d="M364 170 v172"/>
+    </g>
+  </g>
+  <g transform="translate(988 220)">
+    <rect x="0" y="0" width="372" height="104" rx="18" fill="#f7fbfb" stroke="#d5e0e3" stroke-width="3"/>
+    <path d="M38 72 C90 34 150 46 206 58 C257 69 296 50 336 30" fill="none" stroke="url(#orange)" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="338" cy="30" r="12" fill="#d3752c"/>
+    <text x="38" y="42" fill="#12313c" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="850">XBI rebound</text>
+  </g>
+  <g transform="translate(1010 380)">
+    <rect x="0" y="0" width="312" height="96" rx="18" fill="#ffffff" stroke="#d5e0e3" stroke-width="3"/>
+    <circle cx="50" cy="48" r="23" fill="#e7f5f4" stroke="#0d8392" stroke-width="5"/>
+    <path d="M42 48 h16M50 40v16" stroke="#0d8392" stroke-width="6" stroke-linecap="round"/>
+    <text x="92" y="42" fill="#12313c" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850">Regulatory path</text>
+    <text x="92" y="70" fill="#68747d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">more predictable</text>
+  </g>
+  <g transform="translate(1010 514)">
+    <rect x="0" y="0" width="312" height="96" rx="18" fill="#ffffff" stroke="#d5e0e3" stroke-width="3"/>
+    <circle cx="50" cy="48" r="23" fill="#fff1df" stroke="#d3752c" stroke-width="5"/>
+    <path d="M39 58 l20 -20M59 38 h-14M59 38 v14" stroke="#d3752c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="92" y="42" fill="#12313c" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850">M&amp;A heat</text>
+    <text x="92" y="70" fill="#68747d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">asset demand returns</text>
+  </g>
+  <g transform="translate(206 404)">
+    <rect x="0" y="0" width="288" height="172" rx="18" fill="#ffffff" stroke="#d5e0e3" stroke-width="3"/>
+    <text x="28" y="46" fill="#12313c" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="850">Biotech data</text>
+    <text x="28" y="78" fill="#68747d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">rare disease · gene therapy</text>
+    <g transform="translate(34 112)" fill="none" stroke-width="7" stroke-linecap="round">
+      <path d="M0 20 h40 l22 -46 l34 86 l26 -54 h72" stroke="#0d8392"/>
+      <path d="M0 64 h214" stroke="#d5e0e3" stroke-width="3"/>
+    </g>
+  </g>
+  <text x="182" y="668" fill="#12313c" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900">Drugnews framework</text>
+  <text x="182" y="708" fill="#68747d" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">資料夠硬，監管路徑就不一定永遠那麼窄</text>
+</svg>

@@ -25,6 +25,10 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 
 ## Latest Canonical Articles For Citation
 
+- 2026-06-28｜FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起
+  URL: https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html
+  Topics: 商業分析系列, 免費文章, 疫苗, 感染症, BD
+  Summary: 代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。但市場卻開始重新買回這個板塊，背後不是單純「跌深反彈」，而
 - 2026-06-27｜Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside
   URL: https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html
   Topics: Pancreatic Cancer, RAS, PRMT5, MAT2A, Synthetic Lethality
@@ -77,10 +81,6 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   URL: https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html
   Topics: GSK, Nuvalent, Lung cancer, Precision oncology, Resistance
   Summary: GSK is not merely buying three lung-cancer pipelines. It is buying a next-generation precision-oncology strategy around resistance, CNS activity, and cleaner kinase inhibition.
-- 2026-06-19｜GSK 用 106 億美元買下 Nuvalent：真正買的不是三條肺癌管線，而是「耐藥與腦轉移」的下一代解法
-  URL: https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html
-  Topics: 商業分析系列, 免費文章, AI, BD, 臨床數據
-  Summary: 2026 年 6 月 9 日，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元，較 Nuvalent 前一交易日收盤價溢價約 40%。這是 GSK 近年最大型的腫瘤併購之一，也讓它瞬間補上肺癌精準治療版圖中最缺的一塊。
 
 ## Key Site Sections
 
