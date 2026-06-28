@@ -90,6 +90,7 @@
     "sitemap": "https://drugnews.com.tw/sitemap.xml",
     "news_sitemap": "https://drugnews.com.tw/news-sitemap.xml",
     "rss": "https://drugnews.com.tw/feed.xml",
+    "json_feed": "https://drugnews.com.tw/feed.json",
     "llms_txt": "https://drugnews.com.tw/llms.txt",
     "knowledge_graph": "https://drugnews.com.tw/knowledge-graph.json",
     "market_radar": "https://drugnews.com.tw/market-radar.json",

@@ -7,6 +7,7 @@ Sitemap: https://drugnews.com.tw/news-sitemap.xml
 # Machine-readable site overview for AI search and answer engines.
 Allow: /llms.txt
 Allow: /ai-index.json
+Allow: /feed.json
 Allow: /knowledge-graph.json
 Allow: /market-radar.json
 Allow: /brand-profile.json

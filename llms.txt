@@ -21,6 +21,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 - Knowledge graph: https://drugnews.com.tw/knowledge-graph.json
 - Capital-market radar: https://drugnews.com.tw/market-radar.json
 - RSS feed: https://drugnews.com.tw/feed.xml
+- JSON feed: https://drugnews.com.tw/feed.json
 - Sitemap: https://drugnews.com.tw/sitemap.xml
 
 ## Latest Canonical Articles For Citation
@@ -93,6 +94,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 - Team: https://drugnews.com.tw/team.html
 - Sitemap: https://drugnews.com.tw/sitemap.xml
 - RSS feed: https://drugnews.com.tw/feed.xml
+- JSON feed: https://drugnews.com.tw/feed.json
 - AI index: https://drugnews.com.tw/ai-index.json
 - Knowledge graph: https://drugnews.com.tw/knowledge-graph.json
 - Brand profile: https://drugnews.com.tw/brand-profile.json

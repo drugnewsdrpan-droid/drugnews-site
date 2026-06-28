@@ -92,6 +92,7 @@ npm run publish
 ```
 
 Articles with `publish_at` in the past are generated into `articles/`, moved to `content/published/`, and added to `search-index.json` and `sitemap.xml`.
+Publishing also refreshes RSS (`feed.xml`), JSON Feed (`feed.json`), `llms.txt`, `ai-index.json`, `knowledge-graph.json`, and the capital-market radar files used by search and AI answer engines.
 
 Use `npm run publish:force` to publish inbox drafts regardless of `publish_at`.
 

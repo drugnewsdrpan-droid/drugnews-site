@@ -886,6 +886,7 @@ function articlePage(article, bodyHtml, related) {
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="Drugnews JSON Feed" href="${BASE_URL}/feed.json">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
   <meta property="og:title" content="${escapeHtml(meta.title)}｜Drugnews">
   <meta property="og:description" content="${escapeHtml(meta.summary)}">
@@ -1210,6 +1211,7 @@ function articleIndexPage(records) {
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="Drugnews JSON Feed" href="${BASE_URL}/feed.json">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
   <meta property="og:title" content="Drugnews｜文章中心">
   <meta property="og:description" content="生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場判讀。">
@@ -1342,6 +1344,7 @@ function homePage(records) {
   <link rel="icon" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="Drugnews JSON Feed" href="${BASE_URL}/feed.json">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
   <meta property="og:title" content="藥時事 Drugnews 官方網站｜生技醫藥商業分析文章媒體">
   <meta property="og:description" content="藥時事 Drugnews 專注生技醫藥商業分析、公司研究、估值框架、授權交易與資本市場判讀，協助讀者形成可驗證的商業判斷。">
@@ -1544,6 +1547,7 @@ function archivePage(key, records) {
   <link rel="icon" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="Drugnews JSON Feed" href="${BASE_URL}/feed.json">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
 </head>
 <body>
@@ -1586,6 +1590,7 @@ function categoryPage(category, records) {
   <link rel="icon" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="Drugnews JSON Feed" href="${BASE_URL}/feed.json">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
 </head>
 <body>
@@ -1617,6 +1622,7 @@ function typePage(access, records) {
   <link rel="icon" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="Drugnews JSON Feed" href="${BASE_URL}/feed.json">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
 </head>
 <body>
@@ -1673,6 +1679,7 @@ function sitemap(records) {
     ["team.html", "0.7"],
     ["llms.txt", "0.5", latest],
     ["ai-index.json", "0.5", latest],
+    ["feed.json", "0.5", latest],
     ["knowledge-graph.json", "0.5", latest],
     ["opensearch.xml", "0.4"]
   ];
@@ -1763,6 +1770,42 @@ ${items}
 `;
 }
 
+function jsonFeed(records) {
+  const items = records.slice(0, 50).map((item) => {
+    const url = item.external ? item.url : `${BASE_URL}/${item.url}`;
+    const imageUrl = item.image ? absoluteUrl(item.image) : "";
+    return {
+      id: url,
+      url,
+      external_url: item.external ? item.url : undefined,
+      title: item.title,
+      summary: item.summary || "",
+      content_text: stripMarkdown(item.text || item.summary || "").slice(0, 4000),
+      image: imageUrl || undefined,
+      banner_image: imageUrl || undefined,
+      date_published: new Date(item.publishAt || `${item.date}T00:00:00+08:00`).toISOString(),
+      tags: visibleDisplayTags(item.tags || []).slice(0, 10),
+      language: item.lang || "zh-Hant",
+      authors: [{
+        name: isEnglish(item) ? "Drugnews Editorial Team" : "Drugnews 編輯部",
+        url: `${BASE_URL}/team.html`
+      }]
+    };
+  });
+  return `${JSON.stringify({
+    version: "https://jsonfeed.org/version/1.1",
+    title: "Drugnews｜藥時事",
+    home_page_url: `${BASE_URL}/`,
+    feed_url: `${BASE_URL}/feed.json`,
+    description: "生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。",
+    language: "zh-Hant-TW",
+    icon: `${BASE_URL}/favicon.svg`,
+    favicon: `${BASE_URL}/favicon.svg`,
+    authors: [{ name: "Drugnews｜藥時事", url: `${BASE_URL}/team.html` }],
+    items
+  }, null, 2)}\n`;
+}
+
 function llmsText(records) {
   const latest = records
     .filter((item) => !item.external)
@@ -1798,6 +1841,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 - Knowledge graph: ${BASE_URL}/knowledge-graph.json
 - Capital-market radar: ${BASE_URL}/market-radar.json
 - RSS feed: ${BASE_URL}/feed.xml
+- JSON feed: ${BASE_URL}/feed.json
 - Sitemap: ${BASE_URL}/sitemap.xml
 
 ## Latest Canonical Articles For Citation
@@ -1815,6 +1859,7 @@ ${latest}
 - Team: ${BASE_URL}/team.html
 - Sitemap: ${BASE_URL}/sitemap.xml
 - RSS feed: ${BASE_URL}/feed.xml
+- JSON feed: ${BASE_URL}/feed.json
 - AI index: ${BASE_URL}/ai-index.json
 - Knowledge graph: ${BASE_URL}/knowledge-graph.json
 - Brand profile: ${BASE_URL}/brand-profile.json
@@ -1898,6 +1943,7 @@ function aiIndex(records) {
       sitemap: `${BASE_URL}/sitemap.xml`,
       news_sitemap: `${BASE_URL}/news-sitemap.xml`,
       rss: `${BASE_URL}/feed.xml`,
+      json_feed: `${BASE_URL}/feed.json`,
       llms_txt: `${BASE_URL}/llms.txt`,
       knowledge_graph: `${BASE_URL}/knowledge-graph.json`,
       market_radar: `${BASE_URL}/market-radar.json`,
@@ -2136,6 +2182,7 @@ function marketRadarPage(records) {
   <link rel="icon" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="Drugnews JSON Feed" href="${BASE_URL}/feed.json">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
   <script type="application/ld+json">${JSON.stringify(schema)}</script>
 </head>
@@ -2184,6 +2231,7 @@ function knowledgeGraph(records) {
       sitemap: `${BASE_URL}/sitemap.xml`,
       news_sitemap: `${BASE_URL}/news-sitemap.xml`,
       rss: `${BASE_URL}/feed.xml`,
+      json_feed: `${BASE_URL}/feed.json`,
       llms_txt: `${BASE_URL}/llms.txt`,
       ai_index: `${BASE_URL}/ai-index.json`,
       market_radar: `${BASE_URL}/market-radar.json`,
@@ -2336,6 +2384,7 @@ async function main() {
   await writeAtomic(path.join(ROOT, "sitemap.xml"), sitemap(allRecords));
   await writeAtomic(path.join(ROOT, "news-sitemap.xml"), newsSitemap(allRecords));
   await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(zhRecords));
+  await writeAtomic(path.join(ROOT, "feed.json"), jsonFeed(zhRecords));
   await writeAtomic(path.join(ROOT, "llms.txt"), llmsText(allRecords));
   await writeAtomic(path.join(ROOT, "ai-index.json"), aiIndex(allRecords));
   await writeAtomic(path.join(ROOT, "knowledge-graph.json"), knowledgeGraph(allRecords));
