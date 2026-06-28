@@ -13,7 +13,7 @@ if (!inputPath) {
 }
 
 function postId(url) {
-  return String(url || "").match(/\/post\/(\d+)/)?.[1] || "";
+  return String(url || "").match(/\/(?:post|p)\/(\d+)/)?.[1] || "";
 }
 
 function slugify(title, fallback) {

@@ -60,7 +60,7 @@ Capture the newest Dcard post with:
 npm run capture:dcard
 ```
 
-The Dcard capture script writes `/private/tmp/drugnews-dcard-latest.json` plus diagnostics, keeps the original paragraph breaks, downloads Dcard article images, and inserts them back into the article body by section order.
+The Dcard capture script reads the Drugnews persona route (`https://www.dcard.tw/f/persona_drugnews`) and writes `/private/tmp/drugnews-dcard-latest.json` plus diagnostics. It supports both old `@drugnews/post/POST_ID` links and newer `f/persona_drugnews/p/POST_ID` links, keeps the original paragraph breaks, downloads Dcard article images, and inserts them back into the article body by section order. If Dcard changes the route again, set `DRUGNEWS_DCARD_PAGE_URL` before running the daily command.
 
 To combine capture and import in one command, use:
 

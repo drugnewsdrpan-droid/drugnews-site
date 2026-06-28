@@ -8,7 +8,7 @@ const PUBLISHED = path.join(ROOT, "content", "published");
 const FB_INPUT = "/private/tmp/drugnews-facebook-latest.json";
 const DCARD_INPUT = "/private/tmp/drugnews-dcard-latest.json";
 const FB_PAGE_URL = "https://www.facebook.com/profile.php?id=61568446257142";
-const DCARD_PAGE_URL = "https://www.dcard.tw/@drugnews";
+const DCARD_PAGE_URL = process.env.DRUGNEWS_DCARD_PAGE_URL || "https://www.dcard.tw/f/persona_drugnews";
 
 const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
@@ -26,7 +26,7 @@ function facebookId(url = "") {
 }
 
 function dcardId(url = "") {
-  return String(url || "").match(/\/post\/(\d+)/)?.[1] || "";
+  return String(url || "").match(/\/(?:post|p)\/(\d+)/)?.[1] || "";
 }
 
 async function readJson(filePath) {
@@ -152,7 +152,7 @@ function captureRequests(published, missing) {
       required_shape: [{
         title: "Post title",
         published: "YYYY-MM-DDT10:30:00+08:00",
-        url: "https://www.dcard.tw/@drugnews/post/POST_ID",
+        url: "https://www.dcard.tw/@drugnews/post/POST_ID or https://www.dcard.tw/f/persona_drugnews/p/POST_ID",
         articleText: "Full Dcard post text with original paragraph breaks",
         images: ["https://megapx-assets.dcard.tw/images/.../1280.webp"]
       }]

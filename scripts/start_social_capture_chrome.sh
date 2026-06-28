@@ -5,7 +5,7 @@ DEBUG_PORT="${DRUGNEWS_CHROME_DEBUG_PORT:-9222}"
 PROFILE_DIR="${DRUGNEWS_CHROME_PROFILE:-/Users/jojo/Documents/藥時事/.drugnews-social-capture-chrome}"
 CHROME_APP="${DRUGNEWS_CHROME_APP:-/Applications/Google Chrome.app}"
 FB_URL="https://www.facebook.com/profile.php?id=61568446257142"
-DCARD_URL="https://www.dcard.tw/@drugnews"
+DCARD_URL="${DRUGNEWS_DCARD_PAGE_URL:-https://www.dcard.tw/f/persona_drugnews}"
 DEBUG_URL="http://127.0.0.1:${DEBUG_PORT}/json/version"
 
 usage() {
@@ -18,6 +18,7 @@ Environment overrides:
   DRUGNEWS_CHROME_DEBUG_PORT   default: 9222
   DRUGNEWS_CHROME_PROFILE      default: /Users/jojo/Documents/藥時事/.drugnews-social-capture-chrome
   DRUGNEWS_CHROME_APP          default: /Applications/Google Chrome.app
+  DRUGNEWS_DCARD_PAGE_URL      default: https://www.dcard.tw/f/persona_drugnews
 
 After the window opens, log in to Facebook and Dcard if needed, then run:
   npm run daily:social:capture
