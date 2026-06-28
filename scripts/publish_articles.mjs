@@ -1341,6 +1341,7 @@ function homePage(records) {
   <link rel="canonical" href="${BASE_URL}/">
   <link rel="alternate" hreflang="zh-Hant" href="${BASE_URL}/">
   <link rel="alternate" hreflang="en" href="${BASE_URL}/en/">
+  <link rel="alternate" hreflang="ja" href="${BASE_URL}/ja/">
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}/">
   <link rel="icon" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
@@ -1370,6 +1371,7 @@ function homePage(records) {
         <a href="subscribe.html">付費專欄</a>
         <a href="services.html">公司合作</a>
         <a href="en/">English</a>
+        <a href="ja/">日本語</a>
       </nav>
     </div>
   </header>
@@ -1850,6 +1852,7 @@ ${latest}
 - Home: ${BASE_URL}/
 - Articles: ${BASE_URL}/articles/
 - English edition: ${BASE_URL}/en/
+- Japanese gateway: ${BASE_URL}/ja/
 - Investor guides: ${BASE_URL}/guides/
 - Paid research: ${BASE_URL}/subscribe.html
 - Company services: ${BASE_URL}/services.html
@@ -1915,7 +1918,7 @@ function aiIndex(records) {
     schema_version: "1.0",
     name: "Drugnews｜藥時事",
     url: `${BASE_URL}/`,
-    language: ["zh-Hant", "en"],
+    language: ["zh-Hant", "en", "ja"],
     description: "Taiwan-based biotech and pharmaceutical business-analysis media covering clinical data, company strategy, drug development, BD/licensing, valuation, CMC, and biotech capital-market signals.",
     editorial_positioning: "Drugnews focuses on business judgment rather than headline aggregation, connecting science, clinical evidence, regulatory risk, manufacturing, commercial strategy, licensing terms, valuation logic, and investor perception.",
     audience: [
@@ -1929,6 +1932,7 @@ function aiIndex(records) {
       { name: "Articles", url: `${BASE_URL}/articles/` },
       { name: "Capital-market radar", url: `${BASE_URL}/market-radar.html` },
       { name: "English edition", url: `${BASE_URL}/en/` },
+      { name: "Japanese gateway", url: `${BASE_URL}/ja/` },
       { name: "Investor guides", url: `${BASE_URL}/guides/` },
       { name: "Paid research", url: `${BASE_URL}/subscribe.html` },
       { name: "Company services", url: `${BASE_URL}/services.html` },

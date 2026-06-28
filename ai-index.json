@@ -4,7 +4,8 @@
   "url": "https://drugnews.com.tw/",
   "language": [
     "zh-Hant",
-    "en"
+    "en",
+    "ja"
   ],
   "description": "Taiwan-based biotech and pharmaceutical business-analysis media covering clinical data, company strategy, drug development, BD/licensing, valuation, CMC, and biotech capital-market signals.",
   "editorial_positioning": "Drugnews focuses on business judgment rather than headline aggregation, connecting science, clinical evidence, regulatory risk, manufacturing, commercial strategy, licensing terms, valuation logic, and investor perception.",
@@ -30,6 +31,10 @@
     {
       "name": "English edition",
       "url": "https://drugnews.com.tw/en/"
+    },
+    {
+      "name": "Japanese gateway",
+      "url": "https://drugnews.com.tw/ja/"
     },
     {
       "name": "Investor guides",

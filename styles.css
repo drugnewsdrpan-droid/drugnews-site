@@ -161,6 +161,22 @@ a { color: inherit; }
   white-space: nowrap;
 }
 
+.ja-page .hero-title-unit,
+.ja-page .masthead p:not(.eyebrow),
+.ja-page .section-head p,
+.ja-page .card p,
+.ja-page .article-card p {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  line-break: loose;
+}
+
+.ja-page .home-hero *,
+.ja-page .section * {
+  min-width: 0;
+}
+
 .masthead p:not(.eyebrow) {
   max-width: 460px;
   margin: 0;
