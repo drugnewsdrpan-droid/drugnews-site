@@ -60,7 +60,7 @@ function footer(depth = 1) {
   return `<footer class="site-footer"><div class="container">© 2026 Drugnews. This site is for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div></footer>`;
 }
 
-function head({ title, description, canonicalPath, image, depth = 1 }) {
+function head({ title, description, canonicalPath, image, depth = 1, extraHead = "" }) {
   const root = "../".repeat(depth);
   const canonical = `${BASE_URL}/${canonicalPath}`;
   const zhPath = canonicalPath.startsWith("en/") ? canonicalPath.replace(/^en\//, "") : canonicalPath;
@@ -88,14 +88,14 @@ function head({ title, description, canonicalPath, image, depth = 1 }) {
   <meta property="og:locale" content="en_US">
 ${image ? `  <meta property="og:image" content="${escapeHtml(image)}">` : ""}
   <meta name="twitter:card" content="${image ? "summary_large_image" : "summary"}">
-${homeSchema}
+${homeSchema}${extraHead ? `\n${extraHead}` : ""}
 </head>`;
 }
 
-function page({ title, description, canonicalPath, image, current, depth = 1, main }) {
+function page({ title, description, canonicalPath, image, current, depth = 1, main, extraHead = "" }) {
   return `<!doctype html>
 <html lang="en">
-${head({ title, description, canonicalPath, image, depth })}
+${head({ title, description, canonicalPath, image, depth, extraHead })}
 <body>
 ${header(current, depth)}
 ${main}
@@ -103,6 +103,54 @@ ${footer(depth)}
 </body>
 </html>
 `;
+}
+
+function researchPackOfferCatalog() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "OfferCatalog",
+    "name": "Drugnews Paid Research Packs",
+    "url": `${BASE_URL}/en/subscribe.html`,
+    "description": "Buyable biotech and pharmaceutical business-analysis research packs and IR content services from Drugnews.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Drugnews｜藥時事",
+      "url": BASE_URL
+    },
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "availability": "https://schema.org/PreOrder",
+        "url": campaignUrl("https://vocus.cc/user/@Drugnews", "english_glp1_research_pack", "paid_research_pack"),
+        "itemOffered": {
+          "@type": "CreativeWork",
+          "name": "GLP-1 and Obesity Drug Competition Map",
+          "description": "A focused research pack on Novo Nordisk, Lilly, oral GLP-1s, combination therapies, and next-generation obesity-drug competition."
+        }
+      },
+      {
+        "@type": "Offer",
+        "availability": "https://schema.org/PreOrder",
+        "url": campaignUrl("https://vocus.cc/user/@Drugnews", "english_bd_valuation_pack", "paid_research_pack"),
+        "itemOffered": {
+          "@type": "CreativeWork",
+          "name": "Pipeline Valuation and Licensing-Terms Pack",
+          "description": "A practical research pack for rNPV, upfront payments, milestones, royalties, territorial rights, and biotech asset valuation."
+        }
+      },
+      {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "url": "https://forms.gle/rvDm93vkUx3E7Rci7?utm_source=drugnews_site&utm_medium=referral&utm_campaign=company_services&utm_content=english_ir_content_audit",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Biotech IR Content Audit",
+          "description": "A focused review of biotech company websites, investor decks, press releases, and investor communication materials."
+        }
+      }
+    ]
+  };
+  return `  <script type="application/ld+json">${JSON.stringify(schema)}</script>`;
 }
 
 function imagePath(record, depth = 1) {
@@ -343,6 +391,7 @@ function subscribePage() {
     image: `${BASE_URL}/assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-cancer-cell.png`,
     current: "subscribe",
     depth: 1,
+    extraHead: researchPackOfferCatalog(),
     main: `<main>
   <section class="page-title paid-hero"><div class="container"><p class="eyebrow">Paid Research</p><h1>Read biotech company change as a repeatable business-judgment framework.</h1><p>Free articles help readers understand public events. Drugnews paid research goes deeper into company tracking, industry context, valuation thinking, and capital-market interpretation.</p><div class="actions"><a class="button primary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_subscribe_hero"))}" target="_blank" rel="noopener">Subscribe on Vocus</a><a class="button secondary" href="../articles/type/paid.html">View paid article series</a></div></div></section>
   <section class="section white"><div class="container section-head"><div><h2>Who it is for</h2><p>Paid research is designed for readers who want to connect individual news events into company fundamentals, clinical milestones, BD logic, and valuation change.</p></div></div><div class="container grid"><div class="card"><h3>Long-term biotech company followers</h3><p>Readers who want each event to connect back to pipeline value, clinical catalysts, and commercialization paths.</p></div><div class="card"><h3>Investors who need industry context</h3><p>Readers who follow BD, licensing, competitive dynamics, clinical risk, and capital-market repricing.</p></div><div class="card"><h3>Biotech and pharma professionals</h3><p>Industry readers who want a more commercial lens on pipelines, platforms, clinical data, and company positioning.</p></div></div></section>

@@ -58,6 +58,7 @@ The first direct monetization feature should be productized research packs, not 
 - Paid Research page now includes buyable research-pack cards for GLP-1 competition, pipeline valuation / BD terms, and biotech IR content audit.
 - Until a real checkout URL is provided, these cards route to Vocus paid research or the company inquiry form with UTM tags.
 - Once NewebPay, ECPay, Stripe, Gumroad, or another payment link is available, replace the card CTA URLs directly; the page structure is already ready for payment.
+- The Chinese and English paid pages include `OfferCatalog` structured data so Google and AI search systems can understand the research packs and IR audit as commercial offerings.
 - Do not build login, member dashboards, or complex paywalls until the research-pack links show meaningful conversion interest.
 
 ## Current Product Decision
