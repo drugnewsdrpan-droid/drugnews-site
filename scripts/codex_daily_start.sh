@@ -81,6 +81,10 @@ echo "== 7. Human-readable daily report =="
 "$NODE_BIN" scripts/summarize_daily_status.mjs
 echo
 
+echo "== 8. Search and influence growth brief =="
+"$NODE_BIN" scripts/generate_daily_growth_brief.mjs
+echo
+
 if [[ "$STRICT" == "1" ]]; then
   "$NODE_BIN" scripts/audit_references.mjs --strict
   "$NODE_BIN" scripts/audit_reader_experience.mjs --strict
@@ -90,3 +94,4 @@ fi
 echo "Daily status: $STATUS_FILE"
 echo "Daily run log: $RUN_LOG"
 echo "PM health: $PM_FILE"
+echo "Growth brief: ${DRUGNEWS_GROWTH_BRIEF_MD:-/private/tmp/drugnews-growth-brief.md}"
