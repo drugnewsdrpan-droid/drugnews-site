@@ -12,6 +12,15 @@ For the daily Drugnews social update, start with:
 
 This is the fastest Codex entrypoint. It runs the PM health check, confirms the dedicated social-capture Chrome, tries Facebook and Dcard capture/import, rebuilds the site if fresh posts are found, runs reference and reader-path QA, and leaves status files in `/private/tmp`.
 
+If the newest social post URL is known, pass it directly to the same daily entrypoint:
+
+```bash
+/bin/zsh scripts/codex_daily_start.sh --facebook-post="https://www.facebook.com/..."
+/bin/zsh scripts/codex_daily_start.sh --dcard-post="https://www.dcard.tw/f/persona_drugnews/p/POST_ID"
+```
+
+This keeps the daily workflow no-API by reading the full post and images from the logged-in Chrome page.
+
 If you only want to inspect site health without social capture:
 
 ```bash

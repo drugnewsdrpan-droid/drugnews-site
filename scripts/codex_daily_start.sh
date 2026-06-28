@@ -10,15 +10,18 @@ PM_FILE="${DRUGNEWS_DAILY_PM_FILE:-/private/tmp/drugnews-codex-pm-health.json}"
 START_CHROME=1
 CAPTURE=1
 STRICT=0
+SOCIAL_ARGS=()
 
 for arg in "$@"; do
   case "$arg" in
     --no-chrome) START_CHROME=0 ;;
     --no-capture) CAPTURE=0 ;;
     --strict) STRICT=1 ;;
+    --facebook-post=*) SOCIAL_ARGS+=("$arg") ;;
+    --dcard-post=*) SOCIAL_ARGS+=("$arg") ;;
     *)
       echo "Unknown option: $arg" >&2
-      echo "Usage: scripts/codex_daily_start.sh [--no-chrome] [--no-capture] [--strict]" >&2
+      echo "Usage: scripts/codex_daily_start.sh [--no-chrome] [--no-capture] [--strict] [--facebook-post=URL] [--dcard-post=URL]" >&2
       exit 2
       ;;
   esac
@@ -52,11 +55,11 @@ fi
 
 echo "== 3. Social capture and import =="
 if [[ "$CAPTURE" == "1" ]]; then
-  "$NODE_BIN" scripts/daily_social_update_check.mjs --capture-facebook --capture-dcard | tee "$RUN_LOG"
+  "$NODE_BIN" scripts/daily_social_update_check.mjs --capture-facebook --capture-dcard "${SOCIAL_ARGS[@]}" | tee "$RUN_LOG"
 else
-  "$NODE_BIN" scripts/daily_social_update_check.mjs | tee "$RUN_LOG"
+  "$NODE_BIN" scripts/daily_social_update_check.mjs "${SOCIAL_ARGS[@]}" | tee "$RUN_LOG"
 fi
-"$NODE_BIN" scripts/daily_social_update_check.mjs > "$STATUS_FILE"
+"$NODE_BIN" scripts/daily_social_update_check.mjs "${SOCIAL_ARGS[@]}" > "$STATUS_FILE"
 cat "$STATUS_FILE"
 echo
 

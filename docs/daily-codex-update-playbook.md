@@ -69,7 +69,7 @@ npm run checkpoint:cxo
 
 1. 讀 `README.md`、`package.json`、`scripts/daily_social_update_check.mjs`、`scripts/import_facebook_posts_to_content.mjs`、`scripts/import_dcard_scrape_to_content.mjs`、`scripts/publish_articles.mjs`、`git status --short`。
 2. 跑 `/bin/zsh scripts/codex_daily_start.sh`。
-3. 若使用者已提供最新 FB / Dcard 網址，改用單篇 Chrome 擷取模式：`DRUGNEWS_FACEBOOK_POST_URL=... npm run daily:social:capture` 或 `DRUGNEWS_DCARD_POST_URL=... npm run daily:social:capture`。
+3. 若使用者已提供最新 FB / Dcard 網址，直接帶入每日入口：`/bin/zsh scripts/codex_daily_start.sh --facebook-post=URL` 或 `/bin/zsh scripts/codex_daily_start.sh --dcard-post=URL`。
 4. 若專用 social-capture Chrome 抓不到 FB / Dcard，最多再試一次「使用者日常登入的 Chrome 視窗」讀最新 permalink。
 5. 若兩條路線都被登入牆或平台防爬擋住，停止，不猜內容；只要求使用者提供最新貼文網址，或全文加圖片。
 6. 有資料才匯入、重建、QA、提交與部署。
@@ -81,7 +81,7 @@ npm run checkpoint:cxo
 若 Dcard profile 只載出個人頁頭部、沒有文章連結，直接改用單篇網址模式：
 
 ```bash
-DRUGNEWS_DCARD_POST_URL="https://www.dcard.tw/f/persona_drugnews/p/POST_ID" npm run daily:social:capture
+/bin/zsh scripts/codex_daily_start.sh --dcard-post="https://www.dcard.tw/f/persona_drugnews/p/POST_ID"
 ```
 
 這比反覆重刷 profile 更省時間，也能保留正文分段與圖片。
