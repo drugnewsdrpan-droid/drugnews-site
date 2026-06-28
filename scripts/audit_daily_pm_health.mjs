@@ -172,6 +172,7 @@ async function main() {
   const references = runJson("scripts/audit_references.mjs", ["--limit=30"]).parsed;
   const reader = runJson("scripts/audit_reader_experience.mjs", ["--limit=30"]).parsed;
   const readingProduct = runJson("scripts/audit_reading_product_tasks.mjs").parsed;
+  const englishLocalization = runJson("scripts/audit_english_localization.mjs").parsed;
   const social = runJson("scripts/daily_social_update_check.mjs", ["--dry-run"]).parsed;
 
   const latestAge = daysSince(latest?.publishAt || latest?.date);
@@ -199,6 +200,7 @@ async function main() {
     check("references_latest_30", references?.truncated_url_articles === 0, `${references?.truncated_url_articles ?? "unknown"} articles with truncated URLs`, "error"),
     check("reader_related_latest_30", reader?.failed_articles === 0, `${reader?.passed_articles ?? 0}/${reader?.checked_articles ?? 0} passed related-reading audit`, "warning"),
     check("reading_product_tasks", readingProduct?.status === "ok", readingProduct?.status === "ok" ? "mobile, search, topic hubs, tags, and share placement passed" : `${readingProduct?.failed?.length ?? "unknown"} reading-product task(s) need review`, "warning"),
+    check("english_localization_images", englishLocalization?.status === "ok", englishLocalization?.status === "ok" ? `${englishLocalization.checked_articles} English articles checked; no Chinese social images reused` : `${englishLocalization?.flagged_images?.length ?? "unknown"} localized image issue(s)`, "warning"),
     captureCheck("facebook_capture_ready", SOCIAL_FB_INPUT, facebookCapture, summarizeFacebookDiagnostics(facebookDiagnostics), {
       limitedButCurrent: facebookPreviewAlreadyPublished(facebookDiagnostics, latest)
     }),

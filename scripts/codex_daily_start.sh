@@ -63,6 +63,7 @@ echo
 echo "== 4. Reader and reference QA =="
 "$NODE_BIN" scripts/audit_references.mjs
 "$NODE_BIN" scripts/audit_reader_experience.mjs
+"$NODE_BIN" scripts/audit_english_localization.mjs
 echo
 
 echo "== 5. PM health after daily run =="

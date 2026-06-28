@@ -16,6 +16,7 @@
 - 確認專用 Chrome 抓文環境
 - 嘗試 FB / Dcard 抓取、去重、匯入與發布
 - 引用與延伸閱讀 QA
+- 英文版圖片本地化 QA
 - 再跑一次 PM 健康檢查
 - 輸出目前 `git status`
 
@@ -117,6 +118,7 @@ npm run chrome:social
 - 首頁頭版是否使用免費文章，不用付費文章。
 - 英文版是否同步，英文圖不要直接用中文圖。
 - 英文圖若含關鍵文字，優先用「乾淨底圖或程式精準排字」，不要讓 AI 直接亂生小字。
+- 英文版每篇文章要像英文讀者會讀的文章，不只是中文直譯；圖片文字也要英文化。
 - 參考資料不要有截斷網址，至少要是可點、可辨識的一手來源或明確媒體來源。
 - 手機 390px 第一屏要看得到正文第一段開頭。
 - `news-sitemap.xml` 應包含最近 48 小時的公開文章，`robots.txt` 應宣告一般 sitemap 與 news sitemap。
@@ -132,6 +134,12 @@ npm run chrome:social
 
 ```bash
 /Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/audit_reader_experience.mjs --limit=30
+```
+
+每天也跑一次英文圖片本地化檢查，避免英文頁直接混入中文社群圖片：
+
+```bash
+/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/audit_english_localization.mjs
 ```
 
 ## 4. 英文圖表修正

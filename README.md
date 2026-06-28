@@ -80,6 +80,21 @@ npm run daily:social:capture
 
 This attempts Facebook and Dcard capture first, then runs the normal social import status check. If Chrome remote debugging is not available or a platform returns no safe long-form candidate, it continues with a clear capture request instead of guessing.
 
+## International Article Standard
+
+English pages should read as native English articles, not machine-looking mirrors of the Chinese page. When no API is available, use the deterministic localization workflow:
+
+1. Translate and rewrite from the published Chinese article into natural English.
+2. Link the Chinese and English `meta.json` files through `translations`.
+3. Rebuild article images as English SVG or programmatically typeset cards; do not reuse Chinese Facebook or Dcard infographics as English figures.
+4. Run the localization audit before deployment:
+
+```bash
+npm run audit:english-localization
+```
+
+The same pattern can be reused for a future Japanese site: source article first, native-language rewrite second, localized figures generated with controlled text layout.
+
 1. Create one folder under `content/inbox/`.
 2. Add:
    - `article.md`
