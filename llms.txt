@@ -33,7 +33,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 - 2026-06-28｜FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起
   URL: https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html
   Topics: 商業分析系列, 免費文章, 疫苗, 感染症, BD
-  Summary: 代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。但市場卻開始重新買回這個板塊，背後不是單純「跌深反彈」，而
+  Summary: 代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。
 - 2026-06-27｜Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside
   URL: https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html
   Topics: Pancreatic Cancer, RAS, PRMT5, MAT2A, Synthetic Lethality
@@ -65,7 +65,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 - 2026-06-24｜AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu
   URL: https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html
   Topics: 商業分析系列, 免費文章, AI, 臨床數據, 生技投資
-  Summary: 過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Tal
+  Summary: 過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…
 - 2026-06-22｜The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?
   URL: https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html
   Topics: Obesity medicine, GLP-1, Eli Lilly, Novo Nordisk, Pfizer

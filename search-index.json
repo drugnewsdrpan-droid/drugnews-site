@@ -21,7 +21,7 @@
       "臨床數據",
       "生技投資"
     ],
-    "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。但市場卻開始重新買回這個板塊，背後不是單純「跌深反彈」，而",
+    "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。",
     "image": "../assets/articles/fda-regulatory-shift-biotech-rebound/cover.svg",
     "imageAlt": "FDA 審查風向與 Biotech 反攻訊號專題封面",
     "slug": "fda-regulatory-shift-biotech-rebound",
@@ -165,7 +165,7 @@
       "生技投資",
       "製藥巨頭"
     ],
-    "summary": "過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Tal",
+    "summary": "過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…",
     "image": "../assets/articles/ai-zasocitinib-sotyktu/cover.svg",
     "imageAlt": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu 專題封面",
     "slug": "ai-zasocitinib-sotyktu",
@@ -542,7 +542,7 @@
       "臨床數據",
       "生技投資"
     ],
-    "summary": "2026 年，全球最受矚目的 Biotech 之一，毫無疑問是 Revolution Medicines。這家公司站在一個極難、也極誘人的位置：RAS-addicted cancers。RAS 曾經長期被視為「難成藥」甚至「不可成藥」靶點，但 Revolution Medicin",
+    "summary": "2026 年，全球最受矚目的 Biotech 之一，毫無疑問是 Revolution Medicines。這家公司站在一個極難、也極誘人的位置：RAS-addicted cancers。",
     "image": "../assets/articles/revolution-medicines/cover.svg",
     "imageAlt": "Revolution Medicines 神話：會研發還不夠，會融資才撐得過新藥長跑 專題封面",
     "slug": "revolution-medicines",
@@ -1834,7 +1834,7 @@
       "藥華藥",
       "BESREMi"
     ],
-    "summary": "在很長一段時間裡，製藥業的 blockbuster drug，似乎是大型藥廠的專屬勳章。年銷售額突破 10 億美元，代表的不只是產品好賣，而是公司必須同時具備臨床開發能力、法規溝通能力、保險給付能力、",
+    "summary": "在很長一段時間裡，製藥業的 blockbuster drug，似乎是大型藥廠的專屬勳章。",
     "image": "../assets/articles/mid-size-biotech-blockbuster-cashflow/dcard-01.webp",
     "imageAlt": "Dcard 原圖：這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
     "slug": "mid-size-biotech-blockbuster-cashflow",
@@ -1896,7 +1896,7 @@
       "BESREMi",
       "生技投資"
     ],
-    "summary": "【🏔️ 台灣資金被 AI 半導體虹吸，但生技醫療不能被放棄】台灣資本市場最近出現一個非 常清楚的現象：AI 半導體正在虹吸一切。台股的主旋律幾乎完全被 AI 伺服器、先進製程、CoWoS、CPO、散熱、",
+    "summary": "台灣資本市場最近出現一個非 常清楚的現象：AI 半導體正在虹吸一切。",
     "image": "../assets/articles/ai-semiconductor-biotech-capital-neglect/dcard-01.webp",
     "imageAlt": "Dcard 原圖：AI半導體掩蓋生技光芒",
     "slug": "ai-semiconductor-biotech-capital-neglect",
@@ -2205,7 +2205,7 @@
       "FDA",
       "生技投資"
     ],
-    "summary": "【FDA局長下台：當全球新藥最重要的裁判，也開始變得不穩定】⚠️ 美國 FDA 又變天了。2026 年 5 月 12 日，美國 FDA 局長 Marty Makary 正式辭職，結束他僅約 13 個月的",
+    "summary": "2026 年 5 月 12 日，美國 FDA 局長 Marty Makary 正式辭職，結束他僅約 13 個月的任期。",
     "image": "../assets/articles/fda-commissioner-resignation-regulatory-risk/dcard-01.webp",
     "imageAlt": "Dcard 原圖：FDA 局長黯然離職：全球最重要的新藥裁判，正在變得更不可預測",
     "slug": "fda-commissioner-resignation-regulatory-risk",
@@ -2329,7 +2329,7 @@
       "BESREMi",
       "生技投資"
     ],
-    "summary": "【藥華藥不是只靠一個 PV 適應症：BESREMi 正在把「台灣新藥」推進 MPN 全球市場】💡 今天藥華藥（6446）漲停！，因為 BESREMi（ropeginterferon alfa-2b）在",
+    "summary": "因為 BESREMi（ropeginterferon alfa-2b）在台灣正式獲衛福部核准用於原發性血小板過多症（Essential Thrombocythemia, ET）成人病人，適用於接受 Hydroxyurea 治療後產生抗藥性或無法耐受的患者。",
     "image": "../assets/articles/pharmaessentia-besremi-mpn-valuation/dcard-01.webp",
     "imageAlt": "Dcard 原圖：藥華藥 打開估值想像空間",
     "slug": "pharmaessentia-besremi-mpn-valuation",
@@ -2664,7 +2664,7 @@
       "ADC",
       "CNS"
     ],
-    "summary": "【禮來加冕 GLP-1 GOAT：一邊用 tirzepatide 印鈔，一邊用 210 億美元買下下一個十年】📌 古神睜眼了。2026 年第一季，Eli Lilly 交出了一份讓整個製藥業都很難忽視的",
+    "summary": "2026 年第一季，Eli Lilly 交出了一份讓整個製藥業都很難忽視的成績單：單季總營收 197.99 億美元，年增 56%；調整後 EPS 達 8.55 美元，大幅優於市場預期。真正撐起這份財報的，仍然是那個已經把全球代謝藥市場打穿的名字：tirzepatide。",
     "image": "../assets/articles/lilly-tirzepatide-glp1-growth/dcard-01.webp",
     "imageAlt": "Dcard 原圖：減肥藥還是太強了，禮來 猛健樂 賺爛！",
     "slug": "lilly-tirzepatide-glp1-growth",
@@ -3151,7 +3151,7 @@
       "生技投資",
       "製藥巨頭"
     ],
-    "summary": "過去幾年，科技巨頭切入生命科學，大多還停留在兩個角色：一種是賣算力，另一種是賣通用 AI。真正難的，是再往前跨一步，直接碰觸藥物發現這個最核心、也最挑剔的環節。因為這不只是把模型丟給研究員用而已，而是要同時解決模型選擇、資料標準、實驗流程、濕實驗驗證、結果回流與團隊協作這一整串問",
+    "summary": "過去幾年，科技巨頭切入生命科學，大多還停留在兩個角色：一種是賣算力，另一種是賣通用 AI。真正難的，是再往前跨一步，直接碰觸藥物發現這個最核心、也最挑剔的環節。因為這不只是把模型丟給研究員用而已，而是要同時解決模型選擇、資料標準、實驗流程、濕實驗驗證、結果回流與團隊協作這一整串問題。",
     "image": "../assets/articles/amazon-ai-nvidia/dcard-01.webp",
     "imageAlt": "Dcard 原圖：亞馬遜（Amazon） 參戰 AI 製藥，挑戰輝達（Nvidia）",
     "slug": "amazon-ai-nvidia",
@@ -3181,7 +3181,7 @@
       "BD",
       "臨床數據"
     ],
-    "summary": "💡 四個月，五筆交易，若把交易上限全部加總，Eli Lilly 在 2026 年前四個月已經丟出超過 187 億美元的併購火力：1 月的 Ventyx Biosciences、2 月的 Orna Therapeutics、3 月的 Centessa Pharmaceutical",
+    "summary": "💡 四個月，五筆交易，若把交易上限全部加總，Eli Lilly 在 2026 年前四個月已經丟出超過 187 億美元的併購火力：1 月的 Ventyx Biosciences、2 月的 Orna Therapeutics、3 月的 Centessa Pharmaceuticals、4 月的 Cro…",
     "image": "../assets/articles/dcard-261388300/dcard-01.webp",
     "imageAlt": "Dcard 原圖：一篇文章講通現在的“禮來”併購邏輯",
     "slug": "dcard-261388300",
@@ -3211,7 +3211,7 @@
       "生技投資",
       "製藥巨頭"
     ],
-    "summary": "🌪️ 在一處私人莊園裡，矽谷創業者、生技極客與華爾街資金坐在同一張桌上，話題從 AI、加密貨幣一路滑向更隱密的領域：BPC-157、MOTS-c、TB-500、Semax、Epitalon。這些名字不像藥，更像暗號。它們長期遊走在「研究用」與「人體使用」之間，被健身圈、抗老圈、",
+    "summary": "🌪️ 在一處私人莊園裡，矽谷創業者、生技極客與華爾街資金坐在同一張桌上，話題從 AI、加密貨幣一路滑向更隱密的領域：BPC-157、MOTS-c、TB-500、Semax、Epitalon。這些名字不像藥，更像暗號。",
     "image": "../assets/articles/dcard-261381952/dcard-01.webp",
     "imageAlt": "Dcard 原圖：灰色產業上牌桌",
     "slug": "dcard-261381952",
@@ -3239,7 +3239,7 @@
       "臨床數據",
       "生技投資"
     ],
-    "summary": "當市場還在用過去十年對自體 CAR-T 的理解框架看細胞治療時，異體 CAR-T 其實已經悄悄走到一個更關鍵的節點。2026 年 4 月 13 日，Allogene Therapeutics 公布了 pivotal Phase 2 ALPHA3 試驗的中期無效性分析：在第一線鞏固",
+    "summary": "當市場還在用過去十年對自體 CAR-T 的理解框架看細胞治療時，異體 CAR-T 其實已經悄悄走到一個更關鍵的節點。",
     "image": "../assets/articles/car-t/dcard-01.webp",
     "imageAlt": "Dcard 原圖：再見自體CAR-T，台灣的泡沫也該破了",
     "slug": "car-t",
@@ -3295,7 +3295,7 @@
       "生技投資",
       "製藥巨頭"
     ],
-    "summary": "如果把 Biotech 的商業模式拆開來看，最容易被低估、但其實最值錢的一種公司，往往不是手上只有一顆明星分子的資產型公司，而是那些擁有底層技術引擎的平台型公司。這不是一句抽象口號，而是已有回顧分析支持的現象：一項針對 220 家公司、追蹤 10 至 15 年發展軌跡的回顧指出，",
+    "summary": "如果把 Biotech 的商業模式拆開來看，最容易被低估、但其實最值錢的一種公司，往往不是手上只有一顆明星分子的資產型公司，而是那些擁有底層技術引擎的平台型公司。",
     "image": "../assets/articles/biotech-5/dcard-01.webp",
     "imageAlt": "Dcard 原圖：平台型 Biotech 的授權收入是同業的 5 倍？",
     "slug": "biotech-5",
@@ -3384,7 +3384,7 @@
       "生技投資",
       "製藥巨頭"
     ],
-    "summary": "ChatGPT、Claude、Gemini 這三大通用大模型，現在打的已經不只是消費端流量，也不是一般企業辦公市場，而是開始往生醫製藥產業鏈的深水區插旗。真正值得注意的，不是哪一家又多發了一個模型版本，而是它們切入醫藥行業的方式其實完全不同：有的先吃下長文本與監管文書，有的直接往",
+    "summary": "ChatGPT、Claude、Gemini 這三大通用大模型，現在打的已經不只是消費端流量，也不是一般企業辦公市場，而是開始往生醫製藥產業鏈的深水區插旗。",
     "image": "../assets/articles/ai/dcard-01.webp",
     "imageAlt": "Dcard 原圖：AI三巨頭在醫藥裡廝殺",
     "slug": "ai",
@@ -3414,7 +3414,7 @@
       "生技投資",
       "製藥巨頭"
     ],
-    "summary": "2026 年 4 月，Eli Lilly 的 Foundayo（orforglipron） 獲 FDA 核准，用於成人肥胖，或合併體重相關共病的過重族群。這不只是另一顆減重藥上市，而是一個足以改寫產業節奏的事件：它是美國最新一輪快速審查機制下核准的新分子實體，也是目前唯一獲准用於",
+    "summary": "2026 年 4 月，Eli Lilly 的 Foundayo（orforglipron） 獲 FDA 核准，用於成人肥胖，或合併體重相關共病的過重族群。",
     "image": "../assets/articles/dcard-261339270/dcard-01.webp",
     "imageAlt": "Dcard 原圖：禮來口服藥引爆市場？",
     "slug": "dcard-261339270",
@@ -3442,7 +3442,7 @@
       "臨床數據",
       "生技投資"
     ],
-    "summary": "4 月 13 日，Revolution Medicines 公布 daraxonrasib（RMC-6236） 在三期臨床 RASolute 302 的頂線結果。對於既往接受過治療的轉移性胰臟導管腺癌（metastatic PDAC）患者，這顆口服藥把整體意向治療族群的中位總生存",
+    "summary": "4 月 13 日，Revolution Medicines 公布 daraxonrasib（RMC-6236） 在三期臨床 RASolute 302 的頂線結果。",
     "image": "../assets/articles/dcard-261332702/dcard-01.webp",
     "imageAlt": "Dcard 原圖：歷史性一刻，世紀大藥來了",
     "slug": "dcard-261332702",
@@ -3470,7 +3470,7 @@
       "臨床數據",
       "生技投資"
     ],
-    "summary": "到了 2026 年，腦機介面（brain-computer interface, BCI）已經不再只是科幻敘事或實驗室展示，而是逐漸分化成幾條很清楚的產業路線：一條走侵入式植入，目標是讓癱瘓患者重新溝通、操作設備甚至恢復部分功能；一條走非侵入式穿戴，強調腦訊號量測、認知監測與日常",
+    "summary": "到了 2026 年，腦機介面（brain-computer interface, BCI）已經不再只是科幻敘事或實驗室展示，而是逐漸分化成幾條很清楚的產業路線：一條走侵入式植入，目標是讓癱瘓患者重新溝通、操作設備甚至恢復部分功能；一條走非侵入式穿戴，強調腦訊號量測、認知監測與日常應用；還有一條則更像…",
     "image": "../assets/articles/neuralink-10/dcard-01.webp",
     "imageAlt": "Dcard 原圖：馬斯克的下一個兆元美金賽道 Neuralink，你必須知道的腦機介面 10 家！",
     "slug": "neuralink-10",
@@ -3556,7 +3556,7 @@
       "生技投資",
       "製藥巨頭"
     ],
-    "summary": "2026 年第二季，全球生技醫藥產業正走進一個少見的高密度催化期。若把臨床讀數、監管決策與關鍵會議節點一起看，從 4 月到 6 月前後，至少有 17 個值得緊盯的重磅資產將陸續揭曉方向；更早一步，Eli Lilly 的口服減重藥 orforglipron（Foundayo） 已在",
+    "summary": "2026 年第二季，全球生技醫藥產業正走進一個少見的高密度催化期。若把臨床讀數、監管決策與關鍵會議節點一起看，從 4 月到 6 月前後，至少有 17 個值得緊盯的重磅資產將陸續揭曉方向；更早一步，Eli Lilly 的口服減重藥 orforglipron（Foundayo） 已在 4 月 1 日獲 …",
     "image": "../assets/articles/2026-q2/dcard-01.webp",
     "imageAlt": "Dcard 原圖：生技人必須知道的 2026 Q2 重磅藥物",
     "slug": "2026-q2",
@@ -3586,7 +3586,7 @@
       "生技投資",
       "製藥巨頭"
     ],
-    "summary": "2025 年的生技產業，表面上看起來不像 2022 年那麼驚慌，但真正懂產業的人都知道，市場其實正在經歷一場更深層的重估。依 Fierce Biotech 年底的 graveyard 清單，2025 年美國共有 16 家 Biotech 正式關門，另有 3 家已一腳踏進墳場；雖然",
+    "summary": "2025 年的生技產業，表面上看起來不像 2022 年那麼驚慌，但真正懂產業的人都知道，市場其實正在經歷一場更深層的重估。",
     "image": "../assets/articles/biotech/dcard-01.webp",
     "imageAlt": "Dcard 原圖：兩家明星 Biotech 的隕落",
     "slug": "biotech",
@@ -3616,7 +3616,7 @@
       "生技投資",
       "製藥巨頭"
     ],
-    "summary": "自體免疫藥物市場，從來都不是「穩定但無聊」的成熟市場。恰恰相反，它一直是全球最容易長出重磅藥物的沃土之一，而乾癬（psoriasis），正是這條價值鏈裡最具代表性的試驗場。光看 2025 年幾個關鍵產品的銷售表現，就足以感受到這條賽道的厚度：risankizumab（Skyriz",
+    "summary": "自體免疫藥物市場，從來都不是「穩定但無聊」的成熟市場。恰恰相反，它一直是全球最容易長出重磅藥物的沃土之一，而乾癬（psoriasis），正是這條價值鏈裡最具代表性的試驗場。",
     "image": "../assets/articles/dcard-261295358/dcard-01.webp",
     "imageAlt": "Dcard 原圖：投資人請注意，自體免疫超大藥賽道",
     "slug": "dcard-261295358",
@@ -3646,7 +3646,7 @@
       "臨床數據",
       "生技投資"
     ],
-    "summary": "當 Eli Lilly（禮來） 以最高 78 億美元 收購 Centessa Pharmaceuticals，這筆交易表面上看，是大藥廠再一次用高溢價把一條中期臨床資產收入囊中；但若把時間線再拉長一點，它其實更像是一場很有方向感的提前卡位。因為 Lilly 買下的不只是 clem",
+    "summary": "當 Eli Lilly（禮來） 以最高 78 億美元 收購 Centessa Pharmaceuticals，這筆交易表面上看，是大藥廠再一次用高溢價把一條中期臨床資產收入囊中；但若把時間線再拉長一點，它其實更像是一場很有方向感的提前卡位。",
     "image": "../assets/articles/78/dcard-01.webp",
     "imageAlt": "Dcard 原圖：減肥藥之王 78億美元，買下一個「清醒時代」？",
     "slug": "78",
@@ -3674,7 +3674,7 @@
       "臨床數據",
       "生技投資"
     ],
-    "summary": "特發性肺纖維化，idiopathic pulmonary fibrosis（IPF），從來都不是一個容易講出樂觀故事的領域。這是一種慢性、進行性、不可逆的纖維化肺病，預後差、死亡風險高，過去長年幾乎等同於「只能拖慢，不能扭轉」。現行治療雖然已有 nintedanib（Ofev） ",
+    "summary": "特發性肺纖維化，idiopathic pulmonary fibrosis（IPF），從來都不是一個容易講出樂觀故事的領域。這是一種慢性、進行性、不可逆的纖維化肺病，預後差、死亡風險高，過去長年幾乎等同於「只能拖慢，不能扭轉」。",
     "image": "../assets/articles/dcard-261282303/dcard-01.webp",
     "imageAlt": "Dcard 原圖：特發性肺纖維化 迎來爆發",
     "slug": "dcard-261282303",
@@ -3701,7 +3701,7 @@
       "臨床數據",
       "生技投資"
     ],
-    "summary": "甲狀腺相關眼疾（thyroid eye disease, TED）這條賽道，最近又迎來一次很典型、也很殘酷的產業教育。2026 年 4 月 2 日，Immunovant 宣布其第一代 FcRn 抑制劑 batoclimab（IMVT-1401） 在兩項 TED 的 III 期試驗",
+    "summary": "甲狀腺相關眼疾（thyroid eye disease, TED）這條賽道，最近又迎來一次很典型、也很殘酷的產業教育。",
     "image": "../assets/articles/dcard-261276232/dcard-01.webp",
     "imageAlt": "Dcard 原圖：這家公司臨床試驗失敗，反而被更加看好？",
     "slug": "dcard-261276232",
@@ -3730,7 +3730,7 @@
       "生技投資",
       "製藥巨頭"
     ],
-    "summary": "新藥開發最難的，往往不是立項那一天，而是明明已經看見風險，卻仍不願按下停止鍵的那一天。每一個研發專案開始時，幾乎都帶著同樣的想像：要做到 first-in-class、要走到 pivotal study、要送件、要上市、要成為下一個成長引擎。然而現實比願景殘酷得多。新藥研發通常要",
+    "summary": "新藥開發最難的，往往不是立項那一天，而是明明已經看見風險，卻仍不願按下停止鍵的那一天。每一個研發專案開始時，幾乎都帶著同樣的想像：要做到 first-in-class、要走到 pivotal study、要送件、要上市、要成為下一個成長引擎。然而現實比願景殘酷得多。",
     "image": "../assets/articles/dcard-261269760/dcard-01.webp",
     "imageAlt": "Dcard 原圖：何時果斷放棄新藥臨床試驗開發？",
     "slug": "dcard-261269760",
@@ -3758,7 +3758,7 @@
       "臨床數據",
       "生技投資"
     ],
-    "summary": "美國 FDA 近日加速核准 Denali Therapeutics 的 AVLAYAH（tividenofusp alfa-eknm），用於治療 Hunter syndrome （韓特氏症），也就是 mucopolysaccharidosis type II（MPS II） 的神",
+    "summary": "美國 FDA 近日加速核准 Denali Therapeutics 的 AVLAYAH（tividenofusp alfa-eknm），用於治療 Hunter syndrome （韓特氏症），也就是 mucopolysaccharidosis type II（MPS II） 的神經學表現。",
     "image": "../assets/articles/dcard-261263509/dcard-01.webp",
     "imageAlt": "Dcard 原圖：這一批罕見病患者終於等來新藥！",
     "slug": "dcard-261263509",
@@ -3815,7 +3815,7 @@
       "自體免疫",
       "臨床數據"
     ],
-    "summary": "真正值得擔心的，從來不只是美國疾病管制與預防中心（CDC）這個位子到底由誰來坐，而是當一個國家的公共衛生指揮中樞長期處於權責模糊、科學威信受損、政策方向反覆擺盪的狀態時，它原本在全球健康治理與醫藥監管上的領導角色，也會跟著一起鬆動。2026 年 3 月 25 日，白宮錯過了為 C",
+    "summary": "真正值得擔心的，從來不只是美國疾病管制與預防中心（CDC）這個位子到底由誰來坐，而是當一個國家的公共衛生指揮中樞長期處於權責模糊、科學威信受損、政策方向反覆擺盪的狀態時，它原本在全球健康治理與醫藥監管上的領導角色，也會跟著一起鬆動。",
     "image": "../assets/articles/cdc/dcard-01.webp",
     "imageAlt": "Dcard 原圖：當美國 CDC 還在找主任...",
     "slug": "cdc",
@@ -3844,7 +3844,7 @@
       "臨床數據",
       "生技投資"
     ],
-    "summary": "2026 年 3 月，semaglutide （瘦瘦針）在印度迎來一個足以寫進產業教科書的時刻。隨著 Novo Nordisk 在印度的核心專利到期，這個過去幾年幾乎重新定義全球減重與代謝治療想像的分子，第一次在一個具備龐大人口基數、成熟學名藥工業與高度自費特性的超大型市場，正式",
+    "summary": "2026 年 3 月，semaglutide （瘦瘦針）在印度迎來一個足以寫進產業教科書的時刻。",
     "image": "../assets/articles/420/dcard-01.webp",
     "imageAlt": "Dcard 原圖：骨折價 瘦瘦針來了，每月420塊台幣",
     "slug": "420",
@@ -3899,7 +3899,7 @@
       "臨床數據",
       "生技投資"
     ],
-    "summary": "GLP-1 類藥物近兩年幾乎成了全球醫療市場最耀眼的明星。從 liraglutide（利拉魯肽）、semaglutide（司美格魯肽），到雙重受體機制的 tirzepatide（替爾泊肽），這一波藥物不只改變了第二型糖尿病治療，也快速跨入體重管理、心血管風險降低等更大的市場。也正",
+    "summary": "GLP-1 類藥物近兩年幾乎成了全球醫療市場最耀眼的明星。從 liraglutide（利拉魯肽）、semaglutide（司美格魯肽），到雙重受體機制的 tirzepatide（替爾泊肽），這一波藥物不只改變了第二型糖尿病治療，也快速跨入體重管理、心血管風險降低等更大的市場。",
     "image": "../assets/articles/dcard-261232633/dcard-01.webp",
     "imageAlt": "Dcard 原圖：瘦瘦針翻車？導致胰臟炎？",
     "slug": "dcard-261232633",
@@ -3984,7 +3984,7 @@
       "臨床數據",
       "生技投資"
     ],
-    "summary": "3 月 24 日，信達生物公布 efdamrofusp alfa（IBI302） 在中國新生血管型老年黃斑部病變（nAMD）關鍵三期 STAR 試驗達成 52 週主要終點。乍看之下，這像是一則典型的臨床里程碑新聞；但若把它放回全球眼科產業的競爭結構裡看，這件事的重要性遠不只是一款",
+    "summary": "3 月 24 日，信達生物公布 efdamrofusp alfa（IBI302） 在中國新生血管型老年黃斑部病變（nAMD）關鍵三期 STAR 試驗達成 52 週主要終點。乍看之下，這像是一則典型的臨床里程碑新聞；但若把它放回全球眼科產業的競爭結構裡看，這件事的重要性遠不只是一款新藥在單一市場報捷。",
     "image": "../assets/articles/dcard-261215001/dcard-01.webp",
     "imageAlt": "Dcard 原圖：信達的全球化列車，台灣的圓祥搭上了？",
     "slug": "dcard-261215001",

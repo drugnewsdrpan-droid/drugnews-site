@@ -96,7 +96,23 @@ function summaryFrom(lines) {
     !/^[-–—]+$/.test(line) &&
     line.length > 30
   );
-  return String(first || "").replace(/^📌\s*/, "").slice(0, 140);
+  return boundedSummary(first || "");
+}
+
+function boundedSummary(value, max = 150) {
+  const text = String(value || "")
+    .replace(/^📌\s*/, "")
+    .replace(/\s+/g, " ")
+    .replace(/(\p{Script=Han})\s+(\p{Script=Han})/gu, "$1$2")
+    .trim();
+  if (text.length <= max) return text;
+  const slice = text.slice(0, max + 1);
+  const punct = [...slice.matchAll(/[。！？.!?]/g)]
+    .map((match) => match.index)
+    .filter((index) => index >= 45)
+    .at(-1);
+  if (punct !== undefined) return slice.slice(0, punct + 1);
+  return `${slice.slice(0, max).replace(/[，,、：:；;而與和及的了在把被為是]+$/u, "")}…`;
 }
 
 function tagsFor(title, lines) {
