@@ -78,6 +78,14 @@ npm run checkpoint:cxo
 
 固定原則：不要把 FB / Dcard API 當成必要條件。主路線永遠是「已登入 Chrome 頁面 → 正文與圖片 → 站內文章」，API 或公開 JSON 只作為加速檢查，不作為唯一來源。
 
+若 Dcard profile 只載出個人頁頭部、沒有文章連結，直接改用單篇網址模式：
+
+```bash
+DRUGNEWS_DCARD_POST_URL="https://www.dcard.tw/f/persona_drugnews/p/POST_ID" npm run daily:social:capture
+```
+
+這比反覆重刷 profile 更省時間，也能保留正文分段與圖片。
+
 第一次使用，或看到 Chrome remote debugging 不可用時，先開專用抓文 Chrome：
 
 ```bash

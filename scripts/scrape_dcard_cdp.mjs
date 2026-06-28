@@ -119,25 +119,32 @@ function uniq(values) {
 
 async function scrapeProfile(client, url) {
   await navigate(client, url);
-  const data = await evalJson(client, `(() => {
-    const links = [...document.querySelectorAll('a[href*="/post/"], a[href*="/p/"]')]
-      .map((a) => ({ href: a.href.split('?')[0], text: a.innerText || "" }))
-      .filter((item) => /\\/(post|p)\\/\\d+/.test(item.href));
-    const seen = new Set();
-    const uniqueLinks = links.filter((item) => {
-      if (seen.has(item.href)) return false;
-      seen.add(item.href);
-      return true;
-    }).slice(0, 8);
-    return {
-      title: document.title,
-      url: location.href,
-      bodyPreview: (document.body.innerText || '').slice(0, 800),
-      anchorCount: document.querySelectorAll('a').length,
-      articleCount: document.querySelectorAll('article').length,
-      links: uniqueLinks
-    };
-  })()`);
+  const rounds = Number(process.env.DCARD_SCROLL_ROUNDS || 8);
+  let data = {};
+  for (let i = 0; i < rounds; i += 1) {
+    data = await evalJson(client, `(() => {
+      const links = [...document.querySelectorAll('a[href*="/post/"], a[href*="/p/"]')]
+        .map((a) => ({ href: a.href.split('?')[0], text: a.innerText || "" }))
+        .filter((item) => /\\/(post|p)\\/\\d+/.test(item.href));
+      const seen = new Set();
+      const uniqueLinks = links.filter((item) => {
+        if (seen.has(item.href)) return false;
+        seen.add(item.href);
+        return true;
+      }).slice(0, 8);
+      return {
+        title: document.title,
+        url: location.href,
+        bodyPreview: (document.body.innerText || '').slice(0, 1200),
+        anchorCount: document.querySelectorAll('a').length,
+        articleCount: document.querySelectorAll('article').length,
+        links: uniqueLinks
+      };
+    })()`);
+    if ((data.links || []).length) break;
+    await evalJson(client, `window.scrollBy(0, Math.max(900, window.innerHeight * 1.25)); true`);
+    await wait(1200);
+  }
   return data;
 }
 
