@@ -123,6 +123,7 @@ async function main() {
 
   const references = runJson("scripts/audit_references.mjs", ["--limit=30"]).parsed;
   const reader = runJson("scripts/audit_reader_experience.mjs", ["--limit=30"]).parsed;
+  const readingProduct = runJson("scripts/audit_reading_product_tasks.mjs").parsed;
   const social = runJson("scripts/daily_social_update_check.mjs", ["--dry-run"]).parsed;
 
   const latestAge = daysSince(latest?.publishAt || latest?.date);
@@ -146,6 +147,7 @@ async function main() {
     check("news_sitemap_exists", fileExists("news-sitemap.xml") && newsSitemap.includes("<url>"), "news-sitemap.xml has entries", "warning"),
     check("references_latest_30", references?.truncated_url_articles === 0, `${references?.truncated_url_articles ?? "unknown"} articles with truncated URLs`, "error"),
     check("reader_related_latest_30", reader?.failed_articles === 0, `${reader?.passed_articles ?? 0}/${reader?.checked_articles ?? 0} passed related-reading audit`, "warning"),
+    check("reading_product_tasks", readingProduct?.status === "ok", readingProduct?.status === "ok" ? "mobile, search, topic hubs, tags, and share placement passed" : `${readingProduct?.failed?.length ?? "unknown"} reading-product task(s) need review`, "warning"),
     captureCheck("facebook_capture_ready", SOCIAL_FB_INPUT, facebookCapture, summarizeFacebookDiagnostics(facebookDiagnostics)),
     captureCheck("dcard_capture_ready", SOCIAL_DCARD_INPUT, dcardCapture, summarizeDcardDiagnostics(dcardDiagnostics)),
     check("ga4_configured", Boolean(settings.google_analytics_id), settings.google_analytics_id ? "GA4 enabled" : "GA4 measurement ID missing", "warning"),
@@ -175,6 +177,7 @@ async function main() {
     checks,
     next_actions: [
       ...(social?.status === "needs_capture" ? ["Run npm run chrome:social (or /bin/zsh scripts/start_social_capture_chrome.sh if npm is unavailable), confirm Facebook/Dcard login, then rerun daily social capture; otherwise provide capture JSON."] : []),
+      ...(readingProduct?.status !== "ok" ? ["Run node scripts/audit_reading_product_tasks.mjs to inspect mobile/search/topic reading-experience regressions."] : []),
       ...(!settings.google_analytics_id ? ["Add GA4 with: npm run tracking:configure -- --ga4=G-XXXXXXXXXX"] : []),
       ...(!settings.google_search_console_verification ? ["Add Search Console with: npm run tracking:configure -- --gsc=GOOGLE_SEARCH_CONSOLE_TOKEN"] : [])
     ]

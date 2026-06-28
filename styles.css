@@ -2689,8 +2689,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .article-hero-inner,
   .article-layout,
   .article-body,
-  .article-share,
-  .tag-row {
+  .article-share {
     width: calc(100vw - 32px);
     max-width: calc(100vw - 32px);
   }
