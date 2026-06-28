@@ -73,6 +73,10 @@ echo "== 6. Worktree status =="
 git status --short
 echo
 
+echo "== 7. Human-readable daily report =="
+"$NODE_BIN" scripts/summarize_daily_status.mjs
+echo
+
 if [[ "$STRICT" == "1" ]]; then
   "$NODE_BIN" scripts/audit_references.mjs --strict
   "$NODE_BIN" scripts/audit_reader_experience.mjs --strict
