@@ -2554,6 +2554,15 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     right: 0;
     flex: 0 0 auto;
     transform: translateY(-50%);
+    z-index: 2;
+    min-width: 44px;
+    padding: 0;
+    font-size: 0;
+  }
+  .nav-menu-button::before {
+    content: "☰";
+    font-size: 1.08rem;
+    line-height: 1;
   }
   .nav-links {
     width: 100%;
@@ -2613,7 +2622,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     font-size: clamp(1.28rem, 6vw, 1.58rem);
     line-height: 1.16;
     overflow-wrap: anywhere;
-    word-break: normal;
+    word-break: break-word;
     line-break: strict;
   }
   .article-deck {
