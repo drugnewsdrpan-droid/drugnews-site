@@ -98,6 +98,33 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+      "date": "2026-06-28",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+      "source": "Website",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "FDA",
+        "Biotech rebound",
+        "Regulatory risk",
+        "Rare disease",
+        "Gene therapy",
+        "mRNA vaccines",
+        "M&A",
+        "Capital markets"
+      ],
+      "summary": "Biotech’s recent rebound is not only a risk-on trade. FDA review signals, rare-disease flexibility, mRNA vaccine momentum, and renewed pharma M&A are changing how investors price clinical-stage assets.",
+      "image": "https://drugnews.com.tw/assets/articles/fda-regulatory-shift-biotech-rebound-en/cover-en.svg",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-06-28-fda-regulatory-shift-biotech-rebound.html"
+      }
+    },
+    {
       "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
       "date": "2026-06-28",
       "language": "zh-Hant",
@@ -117,7 +144,9 @@
       "image": "https://drugnews.com.tw/assets/articles/fda-regulatory-shift-biotech-rebound/cover.svg",
       "is_accessible_for_free": true,
       "is_external": false,
-      "alternate_language_versions": {}
+      "alternate_language_versions": {
+        "en": "2026-06-28-fda-regulatory-shift-biotech-rebound-en.html"
+      }
     },
     {
       "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
@@ -1298,31 +1327,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-06-07-pharma-ai-capability-future.html"
-      }
-    },
-    {
-      "title": "沒有 AI 能力的藥廠，將不再被稱作藥廠",
-      "date": "2026-06-07",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
-      "source": "Dcard / Facebook",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "AI",
-        "藥廠",
-        "新藥研發",
-        "製藥產業",
-        "數位轉型",
-        "商業模式"
-      ],
-      "summary": "AI 正在從工具變成製藥公司的底層能力。未來藥廠不只比管線，也會比資料、模型、實驗自動化與決策速度，沒有 AI 能力的公司將愈來愈難被視為現代藥廠。",
-      "image": "https://drugnews.com.tw/assets/articles/pharma-ai-capability-future/dcard-01.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-07-pharma-ai-capability-future-en.html"
       }
     }
   ]

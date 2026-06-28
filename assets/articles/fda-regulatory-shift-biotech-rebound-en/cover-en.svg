@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">FDA regulatory shift and biotech rebound</title>
+  <desc id="desc">Editorial cover showing FDA review, biotech capital, rare disease, and M&amp;A signals converging into a biotech rebound.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eff8f8"/>
+      <stop offset="0.52" stop-color="#f7fbf9"/>
+      <stop offset="1" stop-color="#fff7ed"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f8f9a"/>
+      <stop offset="1" stop-color="#12364a"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#12364a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" rx="34" fill="url(#bg)"/>
+  <path d="M72 558 C260 466 334 658 520 560 S770 400 1204 476" fill="none" stroke="#d86834" stroke-width="10" opacity="0.75"/>
+  <path d="M70 168 C250 90 394 116 560 198 S888 352 1204 214" fill="none" stroke="#0f8f9a" stroke-width="5" opacity="0.22"/>
+  <g transform="translate(88 92)" filter="url(#shadow)">
+    <rect width="468" height="536" rx="28" fill="#ffffff" stroke="#c9dce2" stroke-width="2"/>
+    <text x="44" y="66" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#c44b36" letter-spacing="4">FDA SIGNALS</text>
+    <circle cx="242" cy="256" r="128" fill="#e6f4f2" stroke="#0f8f9a" stroke-width="10"/>
+    <path d="M188 250 h108 M242 196 v108" stroke="#12364a" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="364" cy="156" r="54" fill="#fff3e7" stroke="#d86834" stroke-width="8"/>
+    <path d="M338 160 l20 20 38-48" fill="none" stroke="#d86834" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="42" y="440" width="384" height="58" rx="18" fill="#12364a"/>
+    <text x="70" y="477" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#ffffff">Stronger data gets a clearer path</text>
+  </g>
+  <g transform="translate(610 112)">
+    <text x="0" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="700" fill="#111820">Biotech's Rebound</text>
+    <text x="0" y="96" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" fill="#111820">Starts at the FDA</text>
+    <text x="0" y="152" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#5d6b75">Regulatory predictability, rare-disease flexibility,</text>
+    <text x="0" y="190" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#5d6b75">mRNA vaccine momentum, and M&amp;A are repricing risk.</text>
+    <g transform="translate(0 254)">
+      <rect width="202" height="90" rx="22" fill="#ffffff" stroke="#c9dce2" stroke-width="2"/>
+      <text x="28" y="38" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#0e3540">Operation</text>
+      <text x="28" y="66" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" fill="#0f8f9a">TrialBlazer</text>
+      <rect x="230" width="202" height="90" rx="22" fill="#ffffff" stroke="#c9dce2" stroke-width="2"/>
+      <text x="258" y="38" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#0e3540">Rare Disease</text>
+      <text x="258" y="66" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" fill="#0f8f9a">Flexibility</text>
+      <rect x="460" width="202" height="90" rx="22" fill="#ffffff" stroke="#c9dce2" stroke-width="2"/>
+      <text x="488" y="38" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#0e3540">Pharma M&amp;A</text>
+      <text x="488" y="66" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" fill="#d86834">Reopens</text>
+    </g>
+  </g>
+</svg>

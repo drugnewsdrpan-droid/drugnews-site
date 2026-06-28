@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-28T02:03:23.454Z",
+  "generated_at": "2026-06-28T02:21:58.977Z",
   "site": {
     "name": "Drugnews｜藥時事",
     "url": "https://drugnews.com.tw/",
@@ -45,6 +45,28 @@
   },
   "latest_articles": [
     {
+      "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+      "date": "2026-06-28",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "FDA",
+        "Biotech rebound",
+        "Regulatory risk",
+        "Rare disease",
+        "Gene therapy",
+        "mRNA vaccines",
+        "M&A",
+        "Capital markets"
+      ],
+      "summary": "Biotech’s recent rebound is not only a risk-on trade. FDA review signals, rare-disease flexibility, mRNA vaccine momentum, and renewed pharma M&A are changing how investors price clinical-stage assets.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-06-28-fda-regulatory-shift-biotech-rebound.html"
+      }
+    },
+    {
       "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
       "date": "2026-06-28",
       "language": "zh-Hant",
@@ -59,7 +81,9 @@
         "生技投資"
       ],
       "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。但市場卻開始重新買回這個板塊，背後不是單純「跌深反彈」，而",
-      "alternate_language_versions": {}
+      "alternate_language_versions": {
+        "en": "2026-06-28-fda-regulatory-shift-biotech-rebound-en.html"
+      }
     },
     {
       "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
@@ -612,64 +636,9 @@
       "alternate_language_versions": {
         "en": "2026-06-11-glp1-biotech-capital-reshuffle-en.html"
       }
-    },
-    {
-      "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-      "date": "2026-06-10",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "Company Research",
-        "Biotech business analysis",
-        "Drug development"
-      ],
-      "summary": "Daraxonrasib opens a new pancreatic-cancer window, but the next value question is resistance management. Senhwa's CX-5461 matters if it can become a rational combination partner.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html"
-      }
     }
   ],
   "entities": [
-    {
-      "name": "Biotech business analysis",
-      "type": "topic",
-      "mentions": 47,
-      "latest_date": "2026-06-11",
-      "latest_articles": [
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        }
-      ]
-    },
     {
       "name": "Drug development",
       "type": "topic",
@@ -704,6 +673,44 @@
           "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
           "date": "2026-06-09",
           "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Biotech business analysis",
+      "type": "topic",
+      "mentions": 46,
+      "latest_date": "2026-06-11",
+      "latest_articles": [
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
           "language": "en"
         }
       ]
@@ -749,7 +756,7 @@
     {
       "name": "Business Analysis",
       "type": "topic",
-      "mentions": 25,
+      "mentions": 24,
       "latest_date": "2026-06-25",
       "latest_articles": [
         {
@@ -819,6 +826,120 @@
           "date": "2026-06-20",
           "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Capital markets",
+      "type": "market_topic",
+      "mentions": 17,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
+          "date": "2026-06-14",
+          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "FDA",
+      "type": "market_topic",
+      "mentions": 17,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
+          "date": "2026-05-24",
+          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Regulatory risk",
+      "type": "topic",
+      "mentions": 17,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
+          "date": "2026-05-24",
+          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
+          "language": "en"
+        },
+        {
+          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
+          "language": "en"
         }
       ]
     },
@@ -899,158 +1020,6 @@
       ]
     },
     {
-      "name": "Capital markets",
-      "type": "market_topic",
-      "mentions": 16,
-      "latest_date": "2026-06-22",
-      "latest_articles": [
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "FDA",
-      "type": "market_topic",
-      "mentions": 16,
-      "latest_date": "2026-06-08",
-      "latest_articles": [
-        {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "AI半導體掩蓋生技光芒",
-          "date": "2026-05-21",
-          "url": "https://drugnews.com.tw/articles/2026-05-21-ai-semiconductor-biotech-capital-neglect.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Regulatory risk",
-      "type": "topic",
-      "mentions": 16,
-      "latest_date": "2026-06-08",
-      "latest_articles": [
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
-          "language": "en"
-        },
-        {
-          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
-          "language": "en"
-        },
-        {
-          "title": "How AI Semiconductors Have Hidden the Biotech Opportunity in Plain Sight",
-          "date": "2026-05-21",
-          "url": "https://drugnews.com.tw/articles/2026-05-21-ai-semiconductor-biotech-capital-neglect-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Obesity medicine",
-      "type": "topic",
-      "mentions": 15,
-      "latest_date": "2026-06-22",
-      "latest_articles": [
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "CAR-T",
       "type": "biotech_concept_or_target",
       "mentions": 15,
@@ -1089,9 +1058,47 @@
       ]
     },
     {
+      "name": "Obesity medicine",
+      "type": "topic",
+      "mentions": 14,
+      "latest_date": "2026-06-22",
+      "latest_articles": [
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
+          "date": "2026-06-04",
+          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Business development",
       "type": "topic",
-      "mentions": 15,
+      "mentions": 14,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -1122,44 +1129,6 @@
           "title": "Biotech Investing Needs a Judgment System, Not More News",
           "date": "2026-05-28",
           "url": "https://drugnews.com.tw/articles/2026-05-28-biotech-investment-judgment-system-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Big Pharma",
-      "type": "market_topic",
-      "mentions": 14,
-      "latest_date": "2026-06-12",
-      "latest_articles": [
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sun Pharma, Teva, and the Transformation Anxiety of Global Generic Drugmakers",
-          "date": "2026-05-27",
-          "url": "https://drugnews.com.tw/articles/2026-05-27-generic-pharma-transformation-anxiety-en.html",
-          "language": "en"
-        },
-        {
-          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
           "language": "en"
         }
       ]
@@ -1203,9 +1172,9 @@
       ]
     },
     {
-      "name": "AI drug discovery",
-      "type": "topic",
-      "mentions": 12,
+      "name": "Big Pharma",
+      "type": "market_topic",
+      "mentions": 13,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -1215,27 +1184,27 @@
           "language": "en"
         },
         {
-          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
+          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
+          "date": "2026-06-04",
+          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
           "language": "en"
         },
         {
-          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
-          "date": "2026-05-29",
-          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
+          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
           "language": "en"
         },
         {
-          "title": "The First Step in Valuing Taiwanese Biotech: Stop Forcing Every Company Into the Same P/E Ratio",
+          "title": "Sun Pharma, Teva, and the Transformation Anxiety of Global Generic Drugmakers",
           "date": "2026-05-27",
-          "url": "https://drugnews.com.tw/articles/2026-05-27-taiwan-biotech-valuation-framework-en.html",
+          "url": "https://drugnews.com.tw/articles/2026-05-27-generic-pharma-transformation-anxiety-en.html",
           "language": "en"
         },
         {
-          "title": "The Global Biotech Wave: Understanding the Main Phase and Scientific Pricing of the Five-Trillion Weight-Loss Market",
-          "date": "2026-05-23",
-          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend-en.html",
+          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
+          "date": "2026-05-19",
+          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
           "language": "en"
         }
       ]
@@ -1313,6 +1282,44 @@
           "date": "2026-05-17",
           "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "AI drug discovery",
+      "type": "topic",
+      "mentions": 11,
+      "latest_date": "2026-06-12",
+      "latest_articles": [
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
+          "date": "2026-06-07",
+          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
+          "date": "2026-05-29",
+          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The First Step in Valuing Taiwanese Biotech: Stop Forcing Every Company Into the Same P/E Ratio",
+          "date": "2026-05-27",
+          "url": "https://drugnews.com.tw/articles/2026-05-27-taiwan-biotech-valuation-framework-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Global Biotech Wave: Understanding the Main Phase and Scientific Pricing of the Five-Trillion Weight-Loss Market",
+          "date": "2026-05-23",
+          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1469,44 +1476,6 @@
       ]
     },
     {
-      "name": "Immunology",
-      "type": "topic",
-      "mentions": 6,
-      "latest_date": "2026-06-08",
-      "latest_articles": [
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        },
-        {
-          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
-          "date": "2026-06-03",
-          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Asthma Drugs Are Shifting Gears: From Triple Inhalers to Upstream Immune Targets",
-          "date": "2026-05-25",
-          "url": "https://drugnews.com.tw/articles/2026-05-25-asthma-new-drug-immune-targets-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Autoimmune Twins That Could Save Johnson & Johnson",
-          "date": "2026-05-12",
-          "url": "https://drugnews.com.tw/articles/2026-05-12-jnj-autoimmune-twins-stelara-transition-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "藥華藥",
       "type": "topic",
       "mentions": 6,
@@ -1616,6 +1585,44 @@
           "title": "A Record AI Drug-Discovery Financing: Why a Google-Backed Company Raised US$2.1 Billion",
           "date": "2026-05-20",
           "url": "https://drugnews.com.tw/articles/2026-05-20-ai-drug-discovery-google-funding-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Immunology",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-06-08",
+      "latest_articles": [
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        },
+        {
+          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
+          "date": "2026-06-03",
+          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Asthma Drugs Are Shifting Gears: From Triple Inhalers to Upstream Immune Targets",
+          "date": "2026-05-25",
+          "url": "https://drugnews.com.tw/articles/2026-05-25-asthma-new-drug-immune-targets-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Autoimmune Twins That Could Save Johnson & Johnson",
+          "date": "2026-05-12",
+          "url": "https://drugnews.com.tw/articles/2026-05-12-jnj-autoimmune-twins-stelara-transition-en.html",
           "language": "en"
         }
       ]
@@ -1737,32 +1744,6 @@
       ]
     },
     {
-      "name": "Clinical development",
-      "type": "market_topic",
-      "mentions": 3,
-      "latest_date": "2026-05-23",
-      "latest_articles": [
-        {
-          "title": "The Global Biotech Wave: Understanding the Main Phase and Scientific Pricing of the Five-Trillion Weight-Loss Market",
-          "date": "2026-05-23",
-          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Clinical-Trial Fraud and an FDA Withdrawal Storm",
-          "date": "2026-05-09",
-          "url": "https://drugnews.com.tw/articles/2026-05-09-clinical-trial-fraud-fda-withdrawal-en.html",
-          "language": "en"
-        },
-        {
-          "title": "A Clear Read on Lilly's Current M&A Logic",
-          "date": "2026-04-29",
-          "url": "https://drugnews.com.tw/articles/2026-04-29-dcard-261388300-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "BESREMi",
       "type": "topic",
       "mentions": 3,
@@ -1877,6 +1858,26 @@
           "date": "2026-06-16",
           "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "M&A",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2441,6 +2442,26 @@
       ]
     },
     {
+      "name": "Clinical development",
+      "type": "market_topic",
+      "mentions": 2,
+      "latest_date": "2026-05-23",
+      "latest_articles": [
+        {
+          "title": "The Global Biotech Wave: Understanding the Main Phase and Scientific Pricing of the Five-Trillion Weight-Loss Market",
+          "date": "2026-05-23",
+          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Clinical-Trial Fraud and an FDA Withdrawal Storm",
+          "date": "2026-05-09",
+          "url": "https://drugnews.com.tw/articles/2026-05-09-clinical-trial-fraud-fda-withdrawal-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "PROTAC",
       "type": "biotech_concept_or_target",
       "mentions": 2,
@@ -2497,6 +2518,62 @@
           "date": "2026-05-08",
           "url": "https://drugnews.com.tw/articles/2026-05-08-lilly-tirzepatide-glp1-growth.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Biotech rebound",
+      "type": "topic",
+      "mentions": 1,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Gene therapy",
+      "type": "topic",
+      "mentions": 1,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "mRNA vaccines",
+      "type": "topic",
+      "mentions": 1,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Rare disease",
+      "type": "topic",
+      "mentions": 1,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2611,79 +2688,28 @@
           "language": "en"
         }
       ]
-    },
-    {
-      "name": "Companion Animal Medicine",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-25",
-      "latest_articles": [
-        {
-          "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Pet Precision Medicine",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-25",
-      "latest_articles": [
-        {
-          "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Platform Company",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-25",
-      "latest_articles": [
-        {
-          "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Protect Biotech",
-      "type": "company",
-      "mentions": 1,
-      "latest_date": "2026-06-25",
-      "latest_articles": [
-        {
-          "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "AstraZeneca",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-22",
-      "latest_articles": [
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+      "date": "2026-06-28",
+      "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+      "language": "en",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "FDA",
+        "Biotech rebound",
+        "Regulatory risk",
+        "Rare disease",
+        "Gene therapy",
+        "mRNA vaccines",
+        "M&A",
+        "Capital markets"
+      ],
+      "summary": "Biotech’s recent rebound is not only a risk-on trade. FDA review signals, rare-disease flexibility, mRNA vaccine momentum, and renewed pharma M&A are changing how investors price clinical-stage assets."
+    },
     {
       "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
       "date": "2026-06-28",
@@ -3164,21 +3190,6 @@
         "Drug development"
       ],
       "summary": "Biotech IR is not cosmetic storytelling. Good IR turns clinical, CMC, regulatory, commercial, and financing milestones into a capital-market narrative that investors can actually track."
-    },
-    {
-      "title": "生醫公司 IR 不是把簡報變漂亮，而是把管線變成可追蹤的資本市場故事",
-      "date": "2026-06-10",
-      "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story.html",
-      "language": "zh-Hant",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "IR",
-        "資本市場故事",
-        "公開資訊",
-        "投資人溝通"
-      ],
-      "summary": "好的 IR 內容不是宣傳話術，而是把臨床、CMC、監管、商業化與對標公司轉成投資人可以追蹤的節點。"
     }
   ]
 }

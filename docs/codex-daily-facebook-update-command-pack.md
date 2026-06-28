@@ -19,19 +19,27 @@ Do not scan the whole repository unless one of those files points to a specific 
 ## Daily Decision Rule
 
 1. Run the unified social check:
-   `/bin/zsh scripts/daily_social_update.sh --dry-run`
+   `/bin/zsh scripts/codex_daily_start.sh`
 2. Open the dedicated capture Chrome only when the command reports a missing capture file:
    `npm run chrome:social`
    The first run opens Facebook and Dcard in a reusable profile. Log in there once.
-3. Find the newest published Drugnews post on each platform.
-4. Compare its title/date/permalink with the newest article in:
+3. If the dedicated Chrome profile is blocked by a Facebook or Dcard login shell, try the normal logged-in Chrome window once, opening the newest permalink directly.
+4. Find the newest published Drugnews post on each platform.
+5. Compare its title/date/permalink with the newest article in:
    - `index.html`
    - `articles/index.html`
    - `search-index.json`
    - `content/published/*/meta.json`
-5. If the newest social post is already on the site, report that and stop.
-6. If the newest social post is not on the site, import it.
-7. If Facebook or Dcard blocks or hides the post body after two attempts, stop and ask only for the latest post URL or the pasted post body plus images.
+6. If the newest social post is already on the site, report that and stop.
+7. If the newest social post is not on the site, import it.
+8. If Facebook or Dcard blocks or hides the post body after the dedicated Chrome route and the normal logged-in Chrome route, stop and ask only for the latest post URL or the pasted post body plus images.
+
+Successful fallback pattern from 2026-06-28:
+
+- Dedicated social-capture Chrome saw a login wall and produced only a short candidate.
+- Normal logged-in Chrome opened the Facebook permalink and exposed the full post text plus four images.
+- The import JSON was then written to `/private/tmp/drugnews-facebook-latest-full.json` and imported with `scripts/import_facebook_posts_to_content.mjs`.
+- The importer must preserve date-start paragraphs such as `6 月 22 日...`; do not filter them out as admin text.
 
 ## Import Contract
 

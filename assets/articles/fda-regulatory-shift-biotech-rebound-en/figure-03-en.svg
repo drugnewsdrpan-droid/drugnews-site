@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">uniQure AMT-130 accelerated approval path</title>
+  <desc id="desc">English infographic on rare-disease gene therapy and accelerated approval logic.</desc>
+  <rect width="1280" height="720" rx="30" fill="#f7fbf9"/>
+  <text x="76" y="76" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#a85d29" letter-spacing="3">FIGURE 03</text>
+  <text x="76" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" fill="#111820">uniQure: When Standard Trials Are Not Practical</text>
+  <text x="76" y="176" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#5d6b75">Rare disease review must weigh feasibility, ethics, and long-term evidence.</text>
+  <g transform="translate(92 250)">
+    <rect width="330" height="300" rx="28" fill="#ffffff" stroke="#c9dce2" stroke-width="2"/>
+    <text x="36" y="58" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#12364a">The old problem</text>
+    <text x="36" y="110" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Small population</text>
+    <text x="36" y="152" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Slow progression</text>
+    <text x="36" y="194" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Invasive procedure</text>
+    <text x="36" y="236" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Sham-control dilemma</text>
+    <rect x="476" y="26" width="330" height="248" rx="28" fill="#e8f5f4" stroke="#9ecbd1" stroke-width="2"/>
+    <text x="512" y="78" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#12364a">FDA signal</text>
+    <text x="512" y="130" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#40515d">3-year Phase 1/2 data</text>
+    <text x="512" y="172" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#40515d">may support BLA path</text>
+    <text x="512" y="214" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#40515d">for AMT-130</text>
+    <rect x="860" width="270" height="300" rx="28" fill="#ffffff" stroke="#c9dce2" stroke-width="2"/>
+    <text x="896" y="58" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#12364a">Valuation effect</text>
+    <text x="896" y="110" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Less path risk</text>
+    <text x="896" y="152" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Earlier filing logic</text>
+    <text x="896" y="194" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">More strategic value</text>
+  </g>
+  <path d="M438 398 h112 M805 398 h82" stroke="#0f8f9a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M540 368 l38 30-38 30 M877 368 l38 30-38 30" fill="none" stroke="#0f8f9a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

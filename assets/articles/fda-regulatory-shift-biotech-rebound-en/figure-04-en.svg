@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">REGENXBIO and pharma M&amp;A signals</title>
+  <desc id="desc">English infographic combining REGENXBIO rare disease review and biotech M&amp;A repricing logic.</desc>
+  <rect width="1280" height="720" rx="30" fill="#fffaf3"/>
+  <text x="76" y="76" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#a85d29" letter-spacing="3">FIGURE 04</text>
+  <text x="76" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" fill="#111820">From Review Reversal to Sector Repricing</text>
+  <text x="76" y="176" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#5d6b75">REGENXBIO is not only a single-stock event; it is part of a broader biotech setup.</text>
+  <g transform="translate(86 256)">
+    <rect width="330" height="260" rx="28" fill="#ffffff" stroke="#c9dce2" stroke-width="2"/>
+    <text x="34" y="56" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#12364a">Rare-disease path</text>
+    <text x="34" y="108" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Navsunli / RGX-121</text>
+    <text x="34" y="150" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">BLA resubmission</text>
+    <text x="34" y="192" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">No new trial required</text>
+    <rect x="394" y="34" width="330" height="192" rx="28" fill="#e8f5f4" stroke="#9ecbd1" stroke-width="2"/>
+    <text x="430" y="90" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#12364a">Market translation</text>
+    <text x="430" y="142" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#40515d">Less regulatory uncertainty</text>
+    <text x="430" y="184" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#40515d">More M&amp;A optionality</text>
+    <rect x="788" width="330" height="260" rx="28" fill="#ffffff" stroke="#c9dce2" stroke-width="2"/>
+    <text x="824" y="56" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#12364a">Big Pharma needs</text>
+    <text x="824" y="108" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Patent cliff pressure</text>
+    <text x="824" y="150" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">External pipelines</text>
+    <text x="824" y="192" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Clinical-stage assets</text>
+  </g>
+  <path d="M428 386 h62 M810 386 h62" stroke="#d86834" stroke-width="10" stroke-linecap="round"/>
+  <path d="M478 356 l38 30-38 30 M860 356 l38 30-38 30" fill="none" stroke="#d86834" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="118" y="616" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#0f8f9a">Bottom line:</text>
+  <text x="276" y="616" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#40515d">If strong data gets a credible path, investors can reprice both the asset and the sector.</text>
+</svg>

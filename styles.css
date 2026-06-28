@@ -2618,12 +2618,18 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     display: none;
   }
   .article-hero h1 {
+    display: block;
+    width: 100%;
+    max-width: 100%;
     margin-top: 6px;
-    font-size: clamp(1.28rem, 6vw, 1.58rem);
-    line-height: 1.16;
+    font-size: clamp(1.08rem, 5vw, 1.34rem);
+    line-height: 1.18;
+    white-space: normal;
+    text-wrap: wrap;
     overflow-wrap: anywhere;
     word-break: break-word;
     line-break: strict;
+    hyphens: auto;
   }
   .article-deck {
     display: -webkit-box;
@@ -2646,6 +2652,8 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     margin: 10px 0 16px;
     padding: 8px;
     border-radius: 999px;
+    max-width: 100%;
+    overflow: hidden;
   }
   .article-share > div:first-child {
     display: none;
@@ -2663,6 +2671,8 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     padding: 0 6px;
     font-size: 0.7rem;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .article-hero,
   .article-section,

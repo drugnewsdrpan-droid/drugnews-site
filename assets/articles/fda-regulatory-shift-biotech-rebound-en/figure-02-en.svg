@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Moderna mRNA flu vaccine benefit risk vote</title>
+  <desc id="desc">English infographic showing Moderna's mRNA flu vaccine advisory committee signal.</desc>
+  <rect width="1280" height="720" rx="30" fill="#fbfbf7"/>
+  <text x="76" y="76" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#a85d29" letter-spacing="3">FIGURE 02</text>
+  <text x="76" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" fill="#111820">Moderna: Same Platform, New Reception</text>
+  <text x="76" y="176" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#5d6b75">The mRNA flu vaccine case is a test of evidence acceptance beyond COVID.</text>
+  <g transform="translate(94 260)">
+    <rect width="310" height="250" rx="28" fill="#ffffff" stroke="#c9dce2" stroke-width="2"/>
+    <text x="34" y="58" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#12364a">Before</text>
+    <text x="34" y="102" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Trial design questions</text>
+    <text x="34" y="140" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Data-package pressure</text>
+    <text x="34" y="178" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Platform confidence test</text>
+    <circle cx="250" cy="70" r="36" fill="#fff3e7" stroke="#d86834" stroke-width="8"/>
+    <path d="M232 70 h36" stroke="#d86834" stroke-width="8" stroke-linecap="round"/>
+    <rect x="410" y="76" width="160" height="92" rx="46" fill="#12364a"/>
+    <text x="456" y="134" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="800" fill="#ffffff">9-0</text>
+    <text x="422" y="212" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#40515d">VRBPAC benefit-risk votes</text>
+    <rect x="610" width="430" height="250" rx="28" fill="#ffffff" stroke="#c9dce2" stroke-width="2"/>
+    <text x="646" y="58" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#12364a">After</text>
+    <text x="646" y="102" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">mRNA flu vaccine advances</text>
+    <text x="646" y="140" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">50-64 and 65+ groups supported</text>
+    <text x="646" y="178" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5d6b75">Evidence package looks acceptable</text>
+    <path d="M958 72 l28 28 52-70" fill="none" stroke="#0f8f9a" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="120" y="604" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#0f8f9a">Signal:</text>
+  <text x="220" y="604" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#40515d">Innovation is still scrutinized, but strong data no longer has to remain stuck.</text>
+</svg>

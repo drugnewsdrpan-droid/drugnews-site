@@ -32,6 +32,18 @@
 
 若輸出 `social_status.status` 是 `needs_capture`，再進入社群抓取流程。
 
+## 1A. Codex 每日最省 token 路線
+
+每天開 Codex 後，固定只做這個順序，不重新掃整個專案：
+
+1. 讀 `README.md`、`package.json`、`scripts/import_facebook_posts_to_content.mjs`、`scripts/import_dcard_scrape_to_content.mjs`、`scripts/publish_articles.mjs`、`git status --short`。
+2. 跑 `/bin/zsh scripts/codex_daily_start.sh`。
+3. 若專用 social-capture Chrome 抓不到 FB / Dcard，最多再試一次「使用者日常登入的 Chrome 視窗」讀最新 permalink。
+4. 若兩條路線都被登入牆或平台防爬擋住，停止，不猜內容；只要求使用者提供最新貼文網址，或全文加圖片。
+5. 有資料才匯入、重建、QA、提交與部署。
+
+2026-06-28 實測可行的 FB 備援路線：專用 Chrome profile 仍可能只抓到登入外殼，但日常 Chrome 若已登入 Facebook，可用 permalink 頁讀到完整長文與圖片。這條路只用於抓公開貼文正文與圖，不處理留言、互動數或私人資料。
+
 第一次使用，或看到 Chrome remote debugging 不可用時，先開專用抓文 Chrome：
 
 ```bash

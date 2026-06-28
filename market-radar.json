@@ -1,14 +1,33 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-28T02:03:23.446Z",
+  "generated_at": "2026-06-28T02:21:58.968Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
   "buckets": [
     {
       "name": "BD / 授權與併購",
-      "count": 1,
+      "count": 2,
       "articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "FDA",
+            "Biotech rebound",
+            "Regulatory risk",
+            "Rare disease",
+            "Gene therapy",
+            "mRNA vaccines",
+            "M&A",
+            "Capital markets"
+          ],
+          "summary": "Biotech’s recent rebound is not only a risk-on trade. FDA review signals, rare-disease flexibility, mRNA vaccine momentum, and renewed pharma M&A are changing how investors price clinical-stage assets."
+        },
         {
           "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
           "date": "2026-06-28",
@@ -503,7 +522,7 @@
     },
     {
       "name": "CMC / 商業化風險",
-      "count": 2,
+      "count": 1,
       "articles": [
         {
           "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
@@ -519,21 +538,6 @@
             "Drug development"
           ],
           "summary": "Biotech IR is not cosmetic storytelling. Good IR turns clinical, CMC, regulatory, commercial, and financing milestones into a capital-market narrative that investors can actually track."
-        },
-        {
-          "title": "生醫公司 IR 不是把簡報變漂亮，而是把管線變成可追蹤的資本市場故事",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "IR",
-            "資本市場故事",
-            "公開資訊",
-            "投資人溝通"
-          ],
-          "summary": "好的 IR 內容不是宣傳話術，而是把臨床、CMC、監管、商業化與對標公司轉成投資人可以追蹤的節點。"
         }
       ]
     }
