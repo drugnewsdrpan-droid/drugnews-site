@@ -47,6 +47,10 @@ Drugnews should support two revenue paths:
 - Reader revenue: free daily analysis builds habit and trust; topic pages and guides capture search demand; article pages and topic pages route readers toward Vocus paid research.
 - Company revenue: trust pages, team credibility, collaboration cases, and article quality route qualified biotech / pharma / IR teams toward company-service inquiries.
 
+## Conversion Measurement
+
+Revenue-related links should be measurable. External paid-column links should carry UTM tags that identify the source page or placement, such as article sidebar, subscribe hero, or follow bar. This keeps the visible website simple while making it possible to judge which paths actually create paid-column interest.
+
 ## Current Product Decision
 
 As of this audit, the main navigation is simplified to:

@@ -98,6 +98,15 @@ function escapeHtml(value) {
     .replaceAll("'", "&#39;");
 }
 
+function campaignUrl(url, content) {
+  const next = new URL(url);
+  next.searchParams.set("utm_source", "drugnews_site");
+  next.searchParams.set("utm_medium", "referral");
+  next.searchParams.set("utm_campaign", "paid_research");
+  if (content) next.searchParams.set("utm_content", content);
+  return next.toString();
+}
+
 function escapeXml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -934,7 +943,7 @@ ${headerHtml("articles", meta)}
         <div class="actions">
           <a class="button secondary" href="${FACEBOOK_URL}" target="_blank" rel="noopener">Facebook</a>
           <a class="button secondary" href="${DCARD_URL}" target="_blank" rel="noopener">Dcard</a>
-          <a class="button secondary" href="${PAID_COLUMN_URL}" target="_blank" rel="noopener">${isEnglish(meta) ? "Vocus" : "方格子"}</a>
+          <a class="button secondary" href="${escapeHtml(campaignUrl(PAID_COLUMN_URL, isEnglish(meta) ? "english_article_sidebar" : "article_sidebar"))}" target="_blank" rel="noopener">${isEnglish(meta) ? "Vocus" : "方格子"}</a>
           <a class="button secondary" href="${CMONEY_URL}" target="_blank" rel="noopener">${ui.cmoney}</a>
         </div>
       </div>
