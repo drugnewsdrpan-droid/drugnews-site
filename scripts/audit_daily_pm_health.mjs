@@ -10,6 +10,8 @@ const AI_INDEX = path.join(ROOT, "ai-index.json");
 const SITE_SETTINGS = path.join(ROOT, "content", "site-settings.json");
 const SOCIAL_FB_INPUT = "/private/tmp/drugnews-facebook-latest.json";
 const SOCIAL_DCARD_INPUT = "/private/tmp/drugnews-dcard-latest.json";
+const SOCIAL_FB_DIAGNOSTICS = `${SOCIAL_FB_INPUT}.diagnostics.json`;
+const SOCIAL_DCARD_DIAGNOSTICS = `${SOCIAL_DCARD_INPUT}.diagnostics.json`;
 
 function fileExists(relativePath) {
   return fs.existsSync(path.join(ROOT, relativePath));
@@ -68,14 +70,41 @@ function check(name, ok, detail = "", severity = ok ? "ok" : "warning") {
   return { name, status: ok ? "ok" : severity, detail };
 }
 
-function captureCheck(name, filePath, payload) {
+function summarizeFacebookDiagnostics(diagnostics) {
+  if (!diagnostics) return "";
+  const page = diagnostics.page || {};
+  const candidate = Array.isArray(diagnostics.candidates) ? diagnostics.candidates[0] : null;
+  const flags = [];
+  if (/登入|電子郵件地址|密碼|建立新帳號/.test(page.body_preview || "")) flags.push("page shows login wall");
+  if (candidate?.reasons?.includes("truncated_or_short")) flags.push(`latest candidate is truncated (${candidate.text_length || 0} chars)`);
+  if (candidate?.images) flags.push(`${candidate.images} image(s) visible`);
+  if (page.permalink_count !== undefined) flags.push(`${page.permalink_count} permalink(s) visible`);
+  return flags.join("; ");
+}
+
+function summarizeDcardDiagnostics(diagnostics) {
+  if (!diagnostics) return "";
+  const profile = diagnostics.profile || {};
+  const flags = [];
+  if (profile.url) flags.push(`profile resolved to ${profile.url}`);
+  if (profile.anchorCount !== undefined) flags.push(`${profile.anchorCount} anchor(s) visible`);
+  if (profile.articleCount !== undefined) flags.push(`${profile.articleCount} article element(s) visible`);
+  if (Array.isArray(diagnostics.links)) flags.push(`${diagnostics.links.length} post link(s) found`);
+  if (/註冊 \/ 登入|下載 App/.test(profile.bodyPreview || "")) flags.push("page shows logged-out/app-gated shell");
+  return flags.join("; ");
+}
+
+function captureCheck(name, filePath, payload, diagnostics = null) {
   if (!fs.existsSync(filePath)) {
     return check(name, false, `No latest ${name.startsWith("facebook") ? "Facebook" : "Dcard"} capture JSON found`, "warning");
   }
   if (!Array.isArray(payload)) {
     return check(name, false, `${filePath} is not a JSON array`, "warning");
   }
-  return check(name, payload.length > 0, payload.length > 0 ? `${filePath} has ${payload.length} candidate(s)` : `${filePath} exists but has 0 candidates`, "warning");
+  const detail = payload.length > 0
+    ? `${filePath} has ${payload.length} candidate(s)`
+    : `${filePath} exists but has 0 candidates${diagnostics ? `; ${diagnostics}` : ""}`;
+  return check(name, payload.length > 0, detail, "warning");
 }
 
 async function main() {
@@ -84,6 +113,8 @@ async function main() {
   const settings = await readJson(SITE_SETTINGS, {});
   const facebookCapture = await readJson(SOCIAL_FB_INPUT, null);
   const dcardCapture = await readJson(SOCIAL_DCARD_INPUT, null);
+  const facebookDiagnostics = await readJson(SOCIAL_FB_DIAGNOSTICS, null);
+  const dcardDiagnostics = await readJson(SOCIAL_DCARD_DIAGNOSTICS, null);
   const latest = latestArticle(records);
   const robots = await readText("robots.txt");
   const sitemap = await readText("sitemap.xml");
@@ -115,8 +146,8 @@ async function main() {
     check("news_sitemap_exists", fileExists("news-sitemap.xml") && newsSitemap.includes("<url>"), "news-sitemap.xml has entries", "warning"),
     check("references_latest_30", references?.truncated_url_articles === 0, `${references?.truncated_url_articles ?? "unknown"} articles with truncated URLs`, "error"),
     check("reader_related_latest_30", reader?.failed_articles === 0, `${reader?.passed_articles ?? 0}/${reader?.checked_articles ?? 0} passed related-reading audit`, "warning"),
-    captureCheck("facebook_capture_ready", SOCIAL_FB_INPUT, facebookCapture),
-    captureCheck("dcard_capture_ready", SOCIAL_DCARD_INPUT, dcardCapture),
+    captureCheck("facebook_capture_ready", SOCIAL_FB_INPUT, facebookCapture, summarizeFacebookDiagnostics(facebookDiagnostics)),
+    captureCheck("dcard_capture_ready", SOCIAL_DCARD_INPUT, dcardCapture, summarizeDcardDiagnostics(dcardDiagnostics)),
     check("ga4_configured", Boolean(settings.google_analytics_id), settings.google_analytics_id ? "GA4 enabled" : "GA4 measurement ID missing", "warning"),
     check("search_console_configured", Boolean(settings.google_search_console_verification), settings.google_search_console_verification ? "Search Console verification configured" : "Search Console verification missing", "warning")
   ];
@@ -135,7 +166,11 @@ async function main() {
     social_status: social ? {
       status: social.status,
       latest_site_article: social.latest_site_article,
-      requests: social.requests
+      requests: social.requests,
+      diagnostics: {
+        facebook: summarizeFacebookDiagnostics(facebookDiagnostics),
+        dcard: summarizeDcardDiagnostics(dcardDiagnostics)
+      }
     } : null,
     checks,
     next_actions: [
