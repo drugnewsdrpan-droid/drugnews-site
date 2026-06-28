@@ -51,6 +51,15 @@ Drugnews should support two revenue paths:
 
 Revenue-related links should be measurable. External paid-column links should carry UTM tags that identify the source page or placement, such as article sidebar, subscribe hero, or follow bar. This keeps the visible website simple while making it possible to judge which paths actually create paid-column interest.
 
+## Direct Payment Experiment
+
+The first direct monetization feature should be productized research packs, not a full membership backend. Research packs are easier to explain, easier to price, and can start as tracked purchase-intent links before a checkout provider is connected.
+
+- Paid Research page now includes buyable research-pack cards for GLP-1 competition, pipeline valuation / BD terms, and biotech IR content audit.
+- Until a real checkout URL is provided, these cards route to Vocus paid research or the company inquiry form with UTM tags.
+- Once NewebPay, ECPay, Stripe, Gumroad, or another payment link is available, replace the card CTA URLs directly; the page structure is already ready for payment.
+- Do not build login, member dashboards, or complex paywalls until the research-pack links show meaningful conversion interest.
+
 ## Current Product Decision
 
 As of this audit, the main navigation is simplified to:
