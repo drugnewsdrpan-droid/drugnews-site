@@ -41,7 +41,6 @@ function header(current, depth = 1) {
       <a href="${depth === 0 ? "guides/" : "../".repeat(depth - 1) + "guides/"}"${currentAttr("guides")}>Guides</a>
       <a href="${depth === 0 ? "subscribe.html" : "../".repeat(depth - 1) + "subscribe.html"}"${currentAttr("subscribe")}>Paid Research</a>
       <a href="${depth === 0 ? "services.html" : "../".repeat(depth - 1) + "services.html"}"${currentAttr("services")}>Company Services</a>
-      <a href="${depth === 0 ? "team.html" : "../".repeat(depth - 1) + "team.html"}"${currentAttr("team")}>Team</a>
       <a href="${root}index.html">中文</a>
     </nav>
   </div>

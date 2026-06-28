@@ -40,6 +40,28 @@ npm run tracking:configure -- --ga4=G-XXXXXXXXXX --gsc=GOOGLE_SEARCH_CONSOLE_TOK
 
 若輸出 `social_status.status` 是 `needs_capture`，再進入社群抓取流程。
 
+## 1B. 12 小時首席體驗官檢查點
+
+每完成約 12 小時工作量，或完成一輪文章更新 / 網站體驗 / 搜尋曝光改善後，產出可交付檢查報告：
+
+```bash
+npm run checkpoint:cxo
+```
+
+若本機沒有 `npm`，使用：
+
+```bash
+/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/summarize_daily_status.mjs
+```
+
+報告會寫到 `/private/tmp/drugnews-codex-daily-report.md`，並列出：
+
+- 今天是否有新文章匯入
+- 官網最新文章
+- FB / Dcard 抓取阻塞原因
+- 網站 QA 與 PM health 警示
+- 首席體驗官本輪應檢查的重點
+
 ## 1A. Codex 每日最省 token 路線
 
 每天開 Codex 後，固定只做這個順序，不重新掃整個專案：

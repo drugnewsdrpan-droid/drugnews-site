@@ -655,42 +655,36 @@ function headerHtml(current, meta = {}) {
     ? {
         home: "Home",
         articles: "Articles",
-        companies: "Company Index",
         guides: "Guides",
         subscribe: "Paid Research",
         services: "Company Services",
-        team: "Team",
         language: "中文"
       }
     : {
         home: "首頁",
         articles: "文章",
-        companies: "公司索引",
+        topics: "主題",
         guides: "指南",
         subscribe: "付費專欄",
         services: "公司合作",
-        team: "團隊",
         language: "English"
       };
   const hrefs = english
     ? {
         home: "../en/index.html",
         articles: "../en/articles/",
-        companies: "../companies.html",
         guides: "../en/guides/",
         subscribe: "../en/subscribe.html",
         services: "../en/services.html",
-        team: "../en/team.html",
         language: "../index.html"
       }
     : {
         home: "../index.html",
         articles: "index.html",
-        companies: "../companies.html",
+        topics: "../topics/",
         guides: "../guides/",
         subscribe: "../subscribe.html",
         services: "../services.html",
-        team: "../team.html",
         language: "../en/index.html"
       };
   const link = (href, label, key) => `<a href="${href}"${current === key ? ' aria-current="page"' : ""}>${label}</a>`;
@@ -702,11 +696,10 @@ function headerHtml(current, meta = {}) {
     <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
       ${link(hrefs.home, labels.home, "home")}
       ${link(hrefs.articles, labels.articles, "articles")}
-      ${link(hrefs.companies, labels.companies, "companies")}
+      ${!english ? link(hrefs.topics, labels.topics, "topics") : ""}
       ${link(hrefs.guides, labels.guides, "guides")}
       ${link(hrefs.subscribe, labels.subscribe, "subscribe")}
       ${link(hrefs.services, labels.services, "services")}
-      ${link(hrefs.team, labels.team, "team")}
       ${link(hrefs.language, labels.language, "language")}
     </nav>
   </div>
@@ -717,11 +710,10 @@ function nestedHeaderHtml(current = "articles", prefix = "../../") {
   const links = [
     [prefix + "index.html", "首頁", "home"],
     [prefix + "articles/index.html", "文章", "articles"],
-    [prefix + "companies.html", "公司索引", "companies"],
+    [prefix + "topics/", "主題", "topics"],
     [prefix + "guides/", "指南", "guides"],
     [prefix + "subscribe.html", "付費專欄", "subscribe"],
     [prefix + "services.html", "公司合作", "services"],
-    [prefix + "team.html", "團隊", "team"],
     [prefix + "en/index.html", "English", "language"]
   ];
   const nav = links
@@ -1364,12 +1356,10 @@ function homePage(records) {
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html" aria-current="page">首頁</a>
         <a href="articles/">文章</a>
-        <a href="market-radar.html">資本市場雷達</a>
-        <a href="companies.html">公司索引</a>
+        <a href="topics/">主題</a>
         <a href="guides/">指南</a>
         <a href="subscribe.html">付費專欄</a>
         <a href="services.html">公司合作</a>
-        <a href="team.html">團隊</a>
         <a href="en/">English</a>
       </nav>
     </div>
@@ -1393,12 +1383,10 @@ function homePage(records) {
       <div class="container issue-bar" aria-label="閱讀入口">
         <a href="articles/">最新文章</a>
         <a href="articles/category/business-analysis.html">商業分析系列</a>
-        <a href="articles/category/fundamental-analysis.html">基本面系列</a>
-        <a href="articles/category/medical-conference.html">醫學大會</a>
-        <a href="articles/category/paid-deep-analysis.html">付費深度商業分析文章系列</a>
-        <a href="articles/category/big-pharma.html">製藥巨頭系列</a>
-        <a href="market-radar.html">資本市場雷達</a>
         <a href="topics/">熱門搜尋主題</a>
+        <a href="guides/">研究指南</a>
+        <a href="subscribe.html">付費專欄</a>
+        <a href="services.html">公司合作</a>
       </div>
       <div class="container home-hero-grid">
         <a class="lead-story" id="lead-story" href="${escapeHtml(leadHref)}"${lead?.external ? ' target="_blank" rel="noopener"' : ""}>
@@ -2119,12 +2107,10 @@ function rootHeaderHtml(current = "") {
   const links = [
     ["index.html", "首頁", "home"],
     ["articles/", "文章", "articles"],
-    ["market-radar.html", "資本市場雷達", "market-radar"],
-    ["companies.html", "公司索引", "companies"],
+    ["topics/", "主題", "topics"],
     ["guides/", "指南", "guides"],
     ["subscribe.html", "付費專欄", "subscribe"],
     ["services.html", "公司合作", "services"],
-    ["team.html", "團隊", "team"],
     ["en/", "English", "language"]
   ];
   const nav = links

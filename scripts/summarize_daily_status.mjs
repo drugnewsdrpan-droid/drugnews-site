@@ -5,7 +5,9 @@ const STATUS_FILE = process.env.DRUGNEWS_DAILY_STATUS_FILE || "/private/tmp/drug
 const PM_FILE = process.env.DRUGNEWS_DAILY_PM_FILE || "/private/tmp/drugnews-codex-pm-health.json";
 const FB_DIAGNOSTICS = "/private/tmp/drugnews-facebook-latest.json.diagnostics.json";
 const DCARD_DIAGNOSTICS = "/private/tmp/drugnews-dcard-latest.json.diagnostics.json";
+const SEARCH_INDEX = "search-index.json";
 const REPORT_FILE = process.env.DRUGNEWS_DAILY_REPORT_FILE || "/private/tmp/drugnews-codex-daily-report.md";
+const CHECKPOINT_HOURS = process.env.DRUGNEWS_CHECKPOINT_HOURS || "12";
 
 async function readJson(filePath, fallback = null) {
   try {
@@ -39,6 +41,12 @@ function dcardSummary(diagnostics) {
   };
 }
 
+function latestFromSearchIndex(records = []) {
+  return [...records]
+    .filter((item) => item && !item.external && item.fileName && /^zh/i.test(item.lang || "zh"))
+    .sort((a, b) => new Date(b.publishAt || b.date) - new Date(a.publishAt || a.date))[0] || null;
+}
+
 function warningLines(pm) {
   return (pm?.checks || [])
     .filter((check) => check.status !== "ok")
@@ -58,20 +66,37 @@ function nextAction(status, pm, fbCandidate, dcard) {
   return pm?.next_actions?.[0] || status?.next_step || "若今天有新文，請提供最新貼文網址或全文＋圖片。";
 }
 
+function checkpointVerdict(status, pm) {
+  const imported = Array.isArray(status?.imported_posts) ? status.imported_posts : [];
+  const blockingWarnings = (pm?.checks || []).filter((check) =>
+    check.status !== "ok" &&
+    /capture|ga4|search_console/i.test(check.name || "")
+  );
+  if (imported.length) {
+    return "本輪有新文章匯入，請首席體驗官優先檢查：正文分段、圖片位置、首頁頭版、英文版與手機首屏。";
+  }
+  if (blockingWarnings.length) {
+    return "本輪網站核心閱讀體驗通過，但社群抓文或成長追蹤仍有阻塞；請確認是否提供登入頁面、貼文全文 / 圖片，或 GA4 / Search Console token。";
+  }
+  return "本輪沒有新文章需要匯入，網站健康狀態可交付檢查；下一步聚焦內容成長、搜尋曝光與下一篇文章同步。";
+}
+
 async function main() {
   const status = await readJson(STATUS_FILE, {});
   const pm = await readJson(PM_FILE, {});
   const fbDiagnostics = await readJson(FB_DIAGNOSTICS, {});
   const dcardDiagnostics = await readJson(DCARD_DIAGNOSTICS, {});
+  const searchIndex = await readJson(SEARCH_INDEX, []);
   const fbCandidate = firstFacebookCandidate(fbDiagnostics);
   const dcard = dcardSummary(dcardDiagnostics);
   const imported = Array.isArray(status.imported_posts) ? status.imported_posts : [];
-  const latest = pm.latest_article || status.latest_site_article || null;
+  const latest = latestFromSearchIndex(searchIndex) || pm.latest_article || status.latest_site_article || null;
   const warnings = warningLines(pm);
 
-  const report = `# Drugnews 每日官網更新報告
+  const report = `# Drugnews 每日官網更新暨首席體驗官檢查點
 
 時間：${new Date().toLocaleString("zh-TW", { timeZone: "Asia/Taipei", hour12: false })}
+檢查節點：每完成 ${CHECKPOINT_HOURS} 小時工作量，暫停回傳給首席體驗官檢查
 
 ## 今日同步狀態
 
@@ -87,6 +112,10 @@ async function main() {
 ## 網站 QA
 
 ${warnings.length ? warnings.join("\n") : "- 全部 PM health checks 通過"}
+
+## 首席體驗官檢查重點
+
+${checkpointVerdict(status, pm)}
 
 ## 下一步
 
