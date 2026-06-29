@@ -10,13 +10,13 @@ GLP-1 has been simplified by many people as a "weight-loss drug" or a "slimming 
 
 📌 GLP-1 is causing a "draining effect" in the biotech capital market.
 
-![Capital Is Moving](images/figure-01-en.svg)
+![Capital Is Moving](images/figure-01.png)
 
 [Drugnews and CMoney CMoney jointly create an investment course on weight-loss drugs]
 
 The Drugnews team conducts an in-depth analysis of the current status of the global weight-loss drug market, drug development process, and clinical use. It also fully explains the investment logic of weight-loss drugs and the targets that the market is focusing on. The in-depth courses of the Drugnews team will enable you to become a professional expert and investor in biotechnology and weight-loss drugs: [Online Course - Financial Management | Provide a full range of investment online courses](https://www.cmoney.tw/course-media/17141/intro)
 
-![From Drug to Ecosystem](images/figure-02-en.svg)
+![From Drug to Ecosystem](images/figure-02.png)
 
 [01｜Deloitte’s beautiful figure of 7.0% is actually very uneven]
 
@@ -36,7 +36,7 @@ This is the most embarrassing part of Oncology Biotech.
 
 In the past, as long as you had a tumor target that looked good and had promising preclinical or early-stage data, there might be a large pharmaceutical company willing to buy a ticket to the future. But now, what the CFO of a pharmaceutical company looks at is not "whether this oncology drug has a story", but "whether the money is used to build GLP-1 production capacity, expand metabolic indications, or buy a larger platform, and the remuneration will be more certain."
 
-![BD Repricing](images/figure-03-en.svg)
+![BD Repricing](images/figure-03.png)
 
 [02｜Tumors are not abdicating, but mediocre tumor pipelines are being phased out first]
 
@@ -130,7 +130,7 @@ This will make biotech investments more differentiated in the coming years.
 
 Good companies will be more expensive, and ordinary companies will be cheaper; assets that can really enter the capital allocation of big pharmaceutical companies will be pursued, and pipelines with unclear positioning will be left out. Oncology drugs are not without a future, but the era of “as long as it’s cancer, someone will pay for it” is probably over.
 
-![Investor Question](images/figure-04-en.svg)
+![Investor Question](images/figure-04.png)
 
 [Conclusion｜Don’t just look at whether GLP-1 is hot or not, look at whose money it takes away]
 
