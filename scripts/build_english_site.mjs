@@ -29,6 +29,105 @@ function campaignUrl(url, content, campaign = "paid_research") {
   return next.toString();
 }
 
+function englishHomeSchema(records = []) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["Organization", "NewsMediaOrganization"],
+        "@id": `${BASE_URL}/#organization`,
+        name: "Drugnews｜藥時事",
+        alternateName: ["Drugnews", "藥時事", "Drugnews English"],
+        url: `${BASE_URL}/`,
+        logo: `${BASE_URL}/favicon.svg`,
+        description: "Drugnews is a biotech and pharmaceutical business-analysis media platform covering clinical data, company strategy, licensing, valuation, and capital-market signals.",
+        slogan: "Biotech and pharmaceutical business analysis media",
+        publishingPrinciples: `${BASE_URL}/en/about.html`,
+        areaServed: ["Taiwan", "Global biotech and pharmaceutical capital markets"],
+        sameAs: [
+          "https://www.facebook.com/profile.php?id=61568446257142",
+          "https://www.dcard.tw/@drugnews",
+          "https://vocus.cc/user/@Drugnews",
+          "https://www.cmoney.tw/app/expert/drugnews?ca=1",
+          "https://www.instagram.com/drugnews.com.tw/"
+        ],
+        email: "drugnews.dr.pan@gmail.com",
+        contactPoint: {
+          "@type": "ContactPoint",
+          email: "drugnews.dr.pan@gmail.com",
+          contactType: "business collaboration"
+        },
+        knowsAbout: [
+          "biotech business analysis",
+          "pharmaceutical business analysis",
+          "clinical data interpretation",
+          "biotech valuation",
+          "BD licensing",
+          "capital markets",
+          "CMC risk",
+          "drug development",
+          "Taiwan biotech media"
+        ],
+        hasOfferCatalog: {
+          "@type": "OfferCatalog",
+          name: "Drugnews paid research and biotech IR services",
+          itemListElement: [
+            {
+              "@type": "Offer",
+              name: "Drugnews paid research subscription",
+              url: `${BASE_URL}/en/subscribe.html`,
+              category: "Paid biotech and pharmaceutical business analysis"
+            },
+            {
+              "@type": "Offer",
+              name: "Biotech IR content and capital-market narrative service",
+              url: `${BASE_URL}/en/services.html`,
+              category: "Company IR content service"
+            }
+          ]
+        },
+        potentialAction: [
+          {
+            "@type": "SubscribeAction",
+            target: `${BASE_URL}/en/subscribe.html`,
+            name: "Subscribe to Drugnews paid research"
+          },
+          {
+            "@type": "CommunicateAction",
+            target: "mailto:drugnews.dr.pan@gmail.com",
+            name: "Contact Drugnews for company collaboration"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        name: "Drugnews English",
+        alternateName: ["Drugnews Biotech Business Analysis", "Drugnews｜藥時事 English"],
+        url: `${BASE_URL}/en/`,
+        inLanguage: "en",
+        description: "English edition of Drugnews biotech and pharmaceutical business analysis.",
+        publisher: { "@id": `${BASE_URL}/#organization` },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: `${BASE_URL}/en/articles/?q={search_term_string}`,
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "ItemList",
+        name: "Latest Drugnews English Analysis",
+        itemListElement: records.slice(0, 5).map((record, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          url: `${BASE_URL}/${record.url}`,
+          name: record.title
+        }))
+      }
+    ]
+  };
+  return `  <script type="application/ld+json">${JSON.stringify(schema)}</script>`;
+}
+
 async function writeAtomic(filePath, content) {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   const temp = `${filePath}.tmp`;
@@ -60,14 +159,14 @@ function footer(depth = 1) {
   return `<footer class="site-footer"><div class="container">© 2026 Drugnews. This site is for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div></footer>`;
 }
 
-function head({ title, description, canonicalPath, image, depth = 1, extraHead = "" }) {
+function head({ title, description, canonicalPath, image, depth = 1, extraHead = "", homeRecords = [] }) {
   const root = "../".repeat(depth);
   const canonical = `${BASE_URL}/${canonicalPath}`;
   const zhPath = canonicalPath.startsWith("en/") ? canonicalPath.replace(/^en\//, "") : canonicalPath;
   const homeSchema = canonicalPath === "en/" ? `
   <meta name="keywords" content="Drugnews, biotech business analysis, pharmaceutical business analysis, biotech investing, clinical data, licensing, BD, valuation, capital markets, Taiwan biotech media">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"${BASE_URL}/#organization","name":"Drugnews｜藥時事","alternateName":["Drugnews","藥時事","Drugnews English"],"url":"${BASE_URL}/","logo":"${BASE_URL}/favicon.svg","description":"Drugnews is a biotech and pharmaceutical business-analysis media platform covering clinical data, company strategy, licensing, valuation, and capital-market signals.","slogan":"Biotech and pharmaceutical business analysis media","publishingPrinciples":"${BASE_URL}/en/about.html","areaServed":["Taiwan","Global biotech and pharmaceutical capital markets"],"sameAs":["https://www.facebook.com/profile.php?id=61568446257142","https://www.dcard.tw/@drugnews","https://vocus.cc/user/@Drugnews","https://www.cmoney.tw/app/expert/drugnews?ca=1","https://www.instagram.com/drugnews.com.tw/"],"email":"drugnews.dr.pan@gmail.com","contactPoint":{"@type":"ContactPoint","email":"drugnews.dr.pan@gmail.com","contactType":"business collaboration"},"knowsAbout":["biotech business analysis","pharmaceutical business analysis","clinical data interpretation","biotech valuation","BD licensing","capital markets","CMC risk","drug development","Taiwan biotech media"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Drugnews paid research and biotech IR services","itemListElement":[{"@type":"Offer","name":"Drugnews paid research subscription","url":"${BASE_URL}/en/subscribe.html","category":"Paid biotech and pharmaceutical business analysis"},{"@type":"Offer","name":"Biotech IR content and capital-market narrative service","url":"${BASE_URL}/en/services.html","category":"Company IR content service"}]},"potentialAction":[{"@type":"SubscribeAction","target":"${BASE_URL}/en/subscribe.html","name":"Subscribe to Drugnews paid research"},{"@type":"CommunicateAction","target":"mailto:drugnews.dr.pan@gmail.com","name":"Contact Drugnews for company collaboration"}]},{"@type":"WebSite","name":"Drugnews English","alternateName":["Drugnews Biotech Business Analysis","Drugnews｜藥時事 English"],"url":"${BASE_URL}/en/","inLanguage":"en","description":"English edition of Drugnews biotech and pharmaceutical business analysis.","publisher":{"@id":"${BASE_URL}/#organization"},"potentialAction":{"@type":"SearchAction","target":"${BASE_URL}/en/articles/?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ItemList","name":"Latest Drugnews English Analysis","itemListElement":[{"@type":"ListItem","position":1,"url":"${BASE_URL}/articles/2026-06-25-protect-pet-medical-roche-platform-en.html","name":"Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet"},{"@type":"ListItem","position":2,"url":"${BASE_URL}/articles/2026-06-22-obesity-drug-third-place-competition-en.html","name":"The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?"},{"@type":"ListItem","position":3,"url":"${BASE_URL}/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html","name":"Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer"}]}]}</script>` : "";
+${englishHomeSchema(homeRecords)}` : "";
   return `<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -92,10 +191,10 @@ ${homeSchema}${extraHead ? `\n${extraHead}` : ""}
 </head>`;
 }
 
-function page({ title, description, canonicalPath, image, current, depth = 1, main, extraHead = "" }) {
+function page({ title, description, canonicalPath, image, current, depth = 1, main, extraHead = "", homeRecords = [] }) {
   return `<!doctype html>
 <html lang="en">
-${head({ title, description, canonicalPath, image, depth, extraHead })}
+${head({ title, description, canonicalPath, image, depth, extraHead, homeRecords })}
 <body>
 ${header(current, depth)}
 ${main}
@@ -258,6 +357,7 @@ function homePage(records) {
   const englishRecords = records.filter((item) => item.lang === "en");
   const lead = englishRecords.find((item) => !/anhorn|安宏/i.test(`${item.slug || ""} ${item.title || ""} ${(item.tags || []).join(" ")}`)) || englishRecords[0];
   const latestLinks = englishRecords.filter((item) => item !== lead).slice(0, 4).map((item) => compactArticleLink(item, 1)).join("");
+  const homeRecords = lead ? [lead, ...englishRecords.filter((item) => item !== lead).slice(0, 4)] : englishRecords.slice(0, 5);
   const leadImage = lead ? imagePath(lead, 1) : "";
   return page({
     title: "Drugnews English｜Biotech and Pharmaceutical Business Analysis",
@@ -266,6 +366,7 @@ function homePage(records) {
     image: `${BASE_URL}/assets/english/drugnews-english-analysis-cover.png`,
     current: "home",
     depth: 1,
+    homeRecords,
     main: `<main>
   <section class="home-hero">
     <div class="container masthead">
