@@ -97,7 +97,7 @@ function cxoScorecard(status, pm) {
       label: "成長追蹤",
       weight: 15,
       ok: statusOk(pm, "ga4_configured") && statusOk(pm, "search_console_configured"),
-      note: [pmCheck(pm, "ga4_configured")?.detail, pmCheck(pm, "search_console_configured")?.detail].filter(Boolean).join("；")
+      note: [pmCheck(pm, "analytics_business_events_ready")?.detail, pmCheck(pm, "ga4_configured")?.detail, pmCheck(pm, "search_console_configured")?.detail].filter(Boolean).join("；")
     },
     {
       label: "商業轉換",

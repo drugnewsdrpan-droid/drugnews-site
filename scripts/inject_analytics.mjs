@@ -44,16 +44,26 @@ function analyticsBlock({ gaId, verification }) {
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', '${escapeHtml(gaId)}');
+    function drugnewsEventName(url) {
+      if (/vocus\\.cc/i.test(url)) return 'paid_column_click';
+      if (/\\/services\\.html|\\/en\\/services\\.html/i.test(url)) return 'company_services_click';
+      if (/facebook\\.com|dcard\\.tw|cmoney\\.tw|instagram\\.com/i.test(url)) return 'social_follow_click';
+      if (/\\/en\\//i.test(url)) return 'english_site_click';
+      if (/mailto:/i.test(url)) return 'contact_click';
+      return 'outbound_click';
+    }
     document.addEventListener('click', function (event) {
       var link = event.target.closest && event.target.closest('a[href]');
       if (!link || !window.gtag) return;
       var url = link.href || '';
       var isOutbound = url && !url.startsWith(window.location.origin);
       var isSubscription = /vocus|facebook|dcard|cmoney|instagram/i.test(url);
-      if (isOutbound || isSubscription) {
-        gtag('event', 'click', {
+      var isTrackedInternal = /\\/services\\.html|\\/en\\/services\\.html|\\/en\\//i.test(url);
+      if (isOutbound || isSubscription || isTrackedInternal) {
+        gtag('event', drugnewsEventName(url), {
           event_category: isOutbound ? 'outbound_link' : 'site_link',
-          event_label: url
+          event_label: url,
+          link_text: (link.innerText || link.getAttribute('aria-label') || '').trim().slice(0, 120)
         });
       }
     });

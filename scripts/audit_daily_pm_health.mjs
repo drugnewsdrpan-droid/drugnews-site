@@ -326,6 +326,25 @@ function websiteSearchActionStatus() {
   };
 }
 
+function analyticsEventPlanStatus() {
+  const scriptPath = path.join(ROOT, "scripts", "inject_analytics.mjs");
+  const text = fs.existsSync(scriptPath) ? fs.readFileSync(scriptPath, "utf8") : "";
+  const requiredEvents = [
+    "paid_column_click",
+    "company_services_click",
+    "social_follow_click",
+    "english_site_click",
+    "contact_click"
+  ];
+  const missing = requiredEvents.filter((eventName) => !text.includes(eventName));
+  return {
+    ok: missing.length === 0,
+    detail: missing.length
+      ? `Missing GA4 business event(s): ${missing.join(", ")}`
+      : `${requiredEvents.length} GA4 business events are ready for paid column, company services, social follow, English site, and contact tracking`
+  };
+}
+
 function cleanArticleTopicMetadataStatus(records = [], limit = 30) {
   const latest = [...records]
     .filter((item) => !item.external && item.fileName && item.url)
@@ -503,6 +522,7 @@ async function main() {
   const imageAssets = imageAssetStatus(records);
   const newsMediaOrganization = await newsMediaOrganizationStatus();
   const websiteSearchAction = websiteSearchActionStatus();
+  const analyticsEventPlan = analyticsEventPlanStatus();
 
   const references = runJson("scripts/audit_references.mjs", ["--limit=30"]).parsed;
   const reader = runJson("scripts/audit_reader_experience.mjs", ["--limit=30"]).parsed;
@@ -533,6 +553,7 @@ async function main() {
     check("brand_profile_exists", fileExists("brand-profile.json") && robots.includes("Allow: /brand-profile.json") && sitemap.includes(`${BASE_URL}/brand-profile.json`), `${BASE_URL}/brand-profile.json`, "warning"),
     check("news_media_organization_schema", newsMediaOrganization.ok, newsMediaOrganization.detail, "warning"),
     check("website_search_action_schema", websiteSearchAction.ok, websiteSearchAction.detail, "warning"),
+    check("analytics_business_events_ready", analyticsEventPlan.ok, analyticsEventPlan.detail, "warning"),
     check("japanese_gateway_removed", !dirExists("ja") && !sitemap.includes(`${BASE_URL}/ja/`), "Japanese gateway and directory are intentionally not exposed until localization quality is ready", "warning"),
     check("paid_offer_catalog_zh", zhOfferCatalog.ok, zhOfferCatalog.detail, "warning"),
     check("paid_offer_catalog_en", enOfferCatalog.ok, enOfferCatalog.detail, "warning"),
