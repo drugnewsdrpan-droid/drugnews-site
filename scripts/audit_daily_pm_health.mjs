@@ -267,6 +267,7 @@ function llmsQueryRoutingStatus(llms = "") {
 function searchIntentsStatus(searchIntents = {}, robots = "", sitemap = "") {
   const intents = Array.isArray(searchIntents.query_intents) ? searchIntents.query_intents : [];
   const commercialRoutes = Array.isArray(searchIntents.commercial_routes) ? searchIntents.commercial_routes : [];
+  const commercialFaqEntrypoints = Array.isArray(searchIntents.commercial_faq_entrypoints) ? searchIntents.commercial_faq_entrypoints : [];
   const latestArticles = Array.isArray(searchIntents.latest_canonical_articles) ? searchIntents.latest_canonical_articles : [];
   const text = JSON.stringify(searchIntents);
   const requiredPhrases = [
@@ -276,16 +277,18 @@ function searchIntentsStatus(searchIntents = {}, robots = "", sitemap = "") {
     "Clinical data",
     "BD licensing",
     "Company services",
-    "Paid research"
+    "Paid research",
+    "English company services",
+    "commercial_faq_entrypoints"
   ];
   const missing = requiredPhrases.filter((phrase) => !new RegExp(phrase, "i").test(text));
   const exposed = robots.includes("Allow: /search-intents.json") && sitemap.includes(`${BASE_URL}/search-intents.json`);
-  const ok = intents.length >= 6 && commercialRoutes.length >= 3 && latestArticles.length >= 12 && missing.length === 0 && exposed;
+  const ok = intents.length >= 7 && commercialRoutes.length >= 5 && commercialFaqEntrypoints.length >= 4 && latestArticles.length >= 12 && missing.length === 0 && exposed;
   return {
     ok,
     detail: ok
-      ? `${intents.length} query intent route(s), ${commercialRoutes.length} commercial route(s), and ${latestArticles.length} canonical article(s) exposed for AI/search discovery`
-      : `intents: ${intents.length}; commercial routes: ${commercialRoutes.length}; latest articles: ${latestArticles.length}; exposed: ${exposed}; missing: ${missing.join(", ") || "none"}`
+      ? `${intents.length} query intent route(s), ${commercialRoutes.length} commercial route(s), ${commercialFaqEntrypoints.length} commercial FAQ entrypoint(s), and ${latestArticles.length} canonical article(s) exposed for AI/search discovery`
+      : `intents: ${intents.length}; commercial routes: ${commercialRoutes.length}; commercial FAQ entrypoints: ${commercialFaqEntrypoints.length}; latest articles: ${latestArticles.length}; exposed: ${exposed}; missing: ${missing.join(", ") || "none"}`
   };
 }
 
