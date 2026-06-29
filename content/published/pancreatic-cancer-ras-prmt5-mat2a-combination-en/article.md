@@ -28,7 +28,7 @@ But it is strong enough to force a new question: the real value of RAS inhibitor
 
 ## 01｜Why Vopimetostat + Daraxonrasib Matters
 
-![English figure: RAS inhibition plus MTAP-selective PRMT5 targeting in pancreatic cancer](images/figure-01-en.svg)
+![English figure: RAS inhibition plus MTAP-selective PRMT5 targeting in pancreatic cancer](images/figure-01.png)
 
 Pancreatic cancer is difficult not only because it is often diagnosed late and progresses quickly, but also because KRAS mutations are extremely common and the tumor microenvironment is highly complex. Daraxonrasib has shown that RAS can be attacked. Yet cancer cells rarely depend on only one survival route.
 
@@ -52,7 +52,7 @@ Another important point: these were not ideal, easy-to-treat patients. The datas
 
 ## 02｜Safety Is the Next Gate
 
-![English figure: early efficacy signal versus safety and dose questions](images/figure-02-en.svg)
+![English figure: early efficacy signal versus safety and dose questions](images/figure-02.png)
 
 The second encouraging point is tolerability. Tango reported that most adverse events in the combination were grade 1 or 2, with common events including rash, stomatitis or mucositis, and diarrhea. The early safety profile appears supportive of further development.
 
@@ -72,7 +72,7 @@ Small early datasets can look beautiful. In pancreatic cancer, the real test is 
 
 ## 03｜IDEAYA Enters the Race: PRMT5 Becomes a Selectivity Battle
 
-![English figure: IDEAYA's PRMT5/MTA and MAT2A strategy](images/figure-03-en.svg)
+![English figure: IDEAYA's PRMT5/MTA and MAT2A strategy](images/figure-03.png)
 
 Tango's data put the PRMT5-MTA field into the spotlight, but competitors are moving quickly too.
 
@@ -90,7 +90,7 @@ If that selectivity translates clinically, IDE892 could have a wider therapeutic
 
 ## 04｜MAT2A Is the Third Piece of the Puzzle
 
-![English figure: RAS plus PRMT5 plus MAT2A triplet rationale](images/figure-04-en.svg)
+![English figure: RAS plus PRMT5 plus MAT2A triplet rationale](images/figure-04.png)
 
 IDEAYA's larger difference is not just IDE892. It is that IDEAYA has already prepared a partner: IDE397.
 

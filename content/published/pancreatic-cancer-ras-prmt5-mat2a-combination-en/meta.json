@@ -21,9 +21,9 @@
     "BD"
   ],
   "summary": "Pancreatic cancer is moving into a new phase of precision combination therapy, as RAS inhibition meets MTAP-selective PRMT5 and MAT2A strategies.",
-  "cover_image": "images/cover-en.svg",
+  "cover_image": "images/cover.png",
   "cover_image_alt": "Pancreatic cancer combination therapy cover: RAS, PRMT5, MAT2A",
   "source_platform": "Website",
   "translation_status": "english_editorial_full",
-  "visual_status": "english_programmatic_biorender_cards"
+  "visual_status": "gpt_background_programmatic_english_png_cards"
 }
