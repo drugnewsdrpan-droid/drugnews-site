@@ -92,6 +92,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 - Home: https://drugnews.com.tw/
 - Articles: https://drugnews.com.tw/articles/
 - English edition: https://drugnews.com.tw/en/
+- About and editorial standards: https://drugnews.com.tw/about.html
 - Investor guides: https://drugnews.com.tw/guides/
 - Paid research: https://drugnews.com.tw/subscribe.html
 - Company services: https://drugnews.com.tw/services.html

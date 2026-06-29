@@ -1844,6 +1844,7 @@ function sitemap(records) {
     ["articles/", "0.9", latest],
     ["en/", "0.85", latest],
     ["en/articles/", "0.75", latest],
+    ["en/about.html", "0.65", latest],
     ["en/guides/", "0.7", latest],
     ["en/guides/clinical-endpoints.html", "0.7", latest],
     ["en/guides/regulatory-milestones.html", "0.7", latest],
@@ -1869,6 +1870,7 @@ function sitemap(records) {
     ["market-radar.json", "0.5", latest],
     ["brand-profile.json", "0.5", latest],
     ["companies.html", "0.75", latest],
+    ["about.html", "0.75", latest],
     ["guides/", "0.8"],
     ["guides/clinical-endpoints.html", "0.7"],
     ["guides/regulatory-milestones.html", "0.7"],
@@ -2061,6 +2063,7 @@ ${latest}
 - Home: ${BASE_URL}/
 - Articles: ${BASE_URL}/articles/
 - English edition: ${BASE_URL}/en/
+- About and editorial standards: ${BASE_URL}/about.html
 - Investor guides: ${BASE_URL}/guides/
 - Paid research: ${BASE_URL}/subscribe.html
 - Company services: ${BASE_URL}/services.html
