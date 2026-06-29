@@ -3,7 +3,7 @@
   "@type": "Organization",
   "@id": "https://drugnews.com.tw/#organization",
   "schema_version": "1.0",
-  "generated_at": "2026-06-29T07:51:55.118Z",
+  "generated_at": "2026-06-29T12:04:05.574Z",
   "name": "藥時事 Drugnews",
   "alternateName": [
     "Drugnews",
@@ -14,12 +14,18 @@
   "url": "https://drugnews.com.tw/",
   "logo": "https://drugnews.com.tw/favicon.svg",
   "foundingLocation": "Taiwan",
+  "areaServed": [
+    "Taiwan",
+    "Global biotech and pharmaceutical capital markets"
+  ],
   "inLanguage": [
     "zh-Hant-TW",
     "en"
   ],
   "description": "藥時事 Drugnews 是台灣生技醫藥商業分析文章媒體，專注臨床數據、公司策略、BD 授權、估值、CMC、製藥巨頭策略與資本市場訊號。",
   "positioning": "Drugnews does not only aggregate biotech news. It interprets whether clinical evidence can become commercial value, how licensing terms reflect industry competition, and why capital markets reprice biotech companies.",
+  "slogan": "生技醫藥商業分析媒體",
+  "publishingPrinciples": "https://drugnews.com.tw/about.html",
   "audience": [
     "生技醫藥投資人",
     "biotech and pharmaceutical investors",
@@ -38,6 +44,11 @@
     "drug development",
     "big-pharma strategy"
   ],
+  "founder": {
+    "@type": "Person",
+    "name": "Dr. Jo-Fan Pan",
+    "jobTitle": "Founder"
+  },
   "sameAs": [
     "https://www.facebook.com/profile.php?id=61568446257142",
     "https://www.dcard.tw/@drugnews",
@@ -50,6 +61,47 @@
     "email": "drugnews.dr.pan@gmail.com",
     "contactType": "business collaboration"
   },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Drugnews paid research and biotech IR services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Drugnews paid research subscription",
+        "url": "https://drugnews.com.tw/subscribe.html",
+        "category": "Paid biotech and pharmaceutical business analysis"
+      },
+      {
+        "@type": "Offer",
+        "name": "Biotech IR content and capital-market narrative service",
+        "url": "https://drugnews.com.tw/services.html",
+        "category": "Company IR content service"
+      },
+      {
+        "@type": "Offer",
+        "name": "Pipeline valuation and licensing-term interpretation",
+        "url": "https://drugnews.com.tw/subscribe.html",
+        "category": "Biotech valuation research"
+      }
+    ]
+  },
+  "potentialAction": [
+    {
+      "@type": "SubscribeAction",
+      "target": "https://drugnews.com.tw/subscribe.html",
+      "name": "Subscribe to Drugnews paid research"
+    },
+    {
+      "@type": "CommunicateAction",
+      "target": "mailto:drugnews.dr.pan@gmail.com",
+      "name": "Contact Drugnews for company collaboration"
+    },
+    {
+      "@type": "SearchAction",
+      "target": "https://drugnews.com.tw/articles/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  ],
   "mainEntityOfPage": "https://drugnews.com.tw/",
   "latestArticleDate": "2026-06-29",
   "officialFeeds": {

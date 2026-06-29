@@ -16,6 +16,10 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 ## Official Identity And AI-Readable Feeds
 
 - Official website: https://drugnews.com.tw/
+- Facebook page: https://www.facebook.com/profile.php?id=61568446257142
+- Dcard profile: https://www.dcard.tw/@drugnews
+- Paid research on Vocus: https://vocus.cc/user/@Drugnews
+- CMoney profile: https://www.cmoney.tw/app/expert/drugnews?ca=1
 - Brand profile: https://drugnews.com.tw/brand-profile.json
 - AI index: https://drugnews.com.tw/ai-index.json
 - Knowledge graph: https://drugnews.com.tw/knowledge-graph.json
@@ -110,6 +114,14 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 - Drug Development: https://drugnews.com.tw/topics/drug-development.html
 - GLP-1: https://drugnews.com.tw/topics/glp1.html
 - Big Pharma: https://drugnews.com.tw/topics/big-pharma.html
+
+## Paid Research And Company Services
+
+- Paid research subscription: https://drugnews.com.tw/subscribe.html
+- Company IR and content services: https://drugnews.com.tw/services.html
+- Business collaboration contact: drugnews.dr.pan@gmail.com
+
+Drugnews' free articles explain public events and market signals. Paid research and company services go deeper into company follow-up, valuation logic, licensing interpretation, investor education, and biotech IR content strategy.
 
 ## Source And Citation Guidance
 

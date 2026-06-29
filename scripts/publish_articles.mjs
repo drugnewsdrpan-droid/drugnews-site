@@ -2040,6 +2040,10 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 ## Official Identity And AI-Readable Feeds
 
 - Official website: ${BASE_URL}/
+- Facebook page: ${FACEBOOK_URL}
+- Dcard profile: ${DCARD_URL}
+- Paid research on Vocus: ${PAID_COLUMN_URL}
+- CMoney profile: ${CMONEY_URL}
 - Brand profile: ${BASE_URL}/brand-profile.json
 - AI index: ${BASE_URL}/ai-index.json
 - Knowledge graph: ${BASE_URL}/knowledge-graph.json
@@ -2079,6 +2083,14 @@ ${latest}
 - Drug Development: ${BASE_URL}/topics/drug-development.html
 - GLP-1: ${BASE_URL}/topics/glp1.html
 - Big Pharma: ${BASE_URL}/topics/big-pharma.html
+
+## Paid Research And Company Services
+
+- Paid research subscription: ${BASE_URL}/subscribe.html
+- Company IR and content services: ${BASE_URL}/services.html
+- Business collaboration contact: drugnews.dr.pan@gmail.com
+
+Drugnews' free articles explain public events and market signals. Paid research and company services go deeper into company follow-up, valuation logic, licensing interpretation, investor education, and biotech IR content strategy.
 
 ## Source And Citation Guidance
 
@@ -2178,9 +2190,12 @@ function brandProfileJson(records) {
     url: `${BASE_URL}/`,
     logo: `${BASE_URL}/favicon.svg`,
     foundingLocation: "Taiwan",
+    areaServed: ["Taiwan", "Global biotech and pharmaceutical capital markets"],
     inLanguage: ["zh-Hant-TW", "en"],
     description: "藥時事 Drugnews 是台灣生技醫藥商業分析文章媒體，專注臨床數據、公司策略、BD 授權、估值、CMC、製藥巨頭策略與資本市場訊號。",
     positioning: "Drugnews does not only aggregate biotech news. It interprets whether clinical evidence can become commercial value, how licensing terms reflect industry competition, and why capital markets reprice biotech companies.",
+    slogan: "生技醫藥商業分析媒體",
+    publishingPrinciples: `${BASE_URL}/about.html`,
     audience: [
       "生技醫藥投資人",
       "biotech and pharmaceutical investors",
@@ -2199,12 +2214,58 @@ function brandProfileJson(records) {
       "drug development",
       "big-pharma strategy"
     ],
+    founder: {
+      "@type": "Person",
+      name: "Dr. Jo-Fan Pan",
+      jobTitle: "Founder"
+    },
     sameAs: [FACEBOOK_URL, DCARD_URL, PAID_COLUMN_URL, CMONEY_URL, "https://www.instagram.com/drugnews.com.tw/"],
     contactPoint: {
       "@type": "ContactPoint",
       email: "drugnews.dr.pan@gmail.com",
       contactType: "business collaboration"
     },
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Drugnews paid research and biotech IR services",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          name: "Drugnews paid research subscription",
+          url: `${BASE_URL}/subscribe.html`,
+          category: "Paid biotech and pharmaceutical business analysis"
+        },
+        {
+          "@type": "Offer",
+          name: "Biotech IR content and capital-market narrative service",
+          url: `${BASE_URL}/services.html`,
+          category: "Company IR content service"
+        },
+        {
+          "@type": "Offer",
+          name: "Pipeline valuation and licensing-term interpretation",
+          url: `${BASE_URL}/subscribe.html`,
+          category: "Biotech valuation research"
+        }
+      ]
+    },
+    potentialAction: [
+      {
+        "@type": "SubscribeAction",
+        target: `${BASE_URL}/subscribe.html`,
+        name: "Subscribe to Drugnews paid research"
+      },
+      {
+        "@type": "CommunicateAction",
+        target: `mailto:drugnews.dr.pan@gmail.com`,
+        name: "Contact Drugnews for company collaboration"
+      },
+      {
+        "@type": "SearchAction",
+        target: `${BASE_URL}/articles/?q={search_term_string}`,
+        "query-input": "required name=search_term_string"
+      }
+    ],
     mainEntityOfPage: `${BASE_URL}/`,
     latestArticleDate: latest,
     officialFeeds: {
