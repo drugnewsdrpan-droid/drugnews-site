@@ -7,6 +7,8 @@ CHROME_APP="${DRUGNEWS_CHROME_APP:-/Applications/Google Chrome.app}"
 FB_URL="https://www.facebook.com/profile.php?id=61568446257142"
 DCARD_URL="${DRUGNEWS_DCARD_PAGE_URL:-https://www.dcard.tw/f/persona_drugnews}"
 DEBUG_URL="http://127.0.0.1:${DEBUG_PORT}/json/version"
+TABS_URL="http://127.0.0.1:${DEBUG_PORT}/json/list"
+NEW_TAB_URL="http://127.0.0.1:${DEBUG_PORT}/json/new"
 
 usage() {
   cat <<EOF
@@ -30,13 +32,29 @@ if [[ "${1:-}" == "--help" || "${1:-}" == "-h" ]]; then
   exit 0
 fi
 
+ensure_social_tabs() {
+  local tabs
+  tabs="$(curl -fsS "$TABS_URL" 2>/dev/null || true)"
+  if [[ "$tabs" == *"facebook.com"* && "$tabs" == *"dcard.tw"* ]]; then
+    return 0
+  fi
+  if [[ "$tabs" != *"facebook.com"* ]]; then
+    curl -fsS -X PUT "${NEW_TAB_URL}?${FB_URL}" >/dev/null 2>&1 || true
+  fi
+  if [[ "$tabs" != *"dcard.tw"* ]]; then
+    curl -fsS -X PUT "${NEW_TAB_URL}?${DCARD_URL}" >/dev/null 2>&1 || true
+  fi
+}
+
 if [[ ! -d "$CHROME_APP" ]]; then
   echo "Google Chrome was not found at: $CHROME_APP" >&2
   exit 1
 fi
 
 if curl -fsS "$DEBUG_URL" >/dev/null 2>&1; then
+  ensure_social_tabs
   echo "Chrome remote debugging is already available at http://127.0.0.1:${DEBUG_PORT}"
+  echo "Ensured Facebook and Dcard capture tabs are open."
   exit 0
 else
   if [[ "${1:-}" == "--check" ]]; then
