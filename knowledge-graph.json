@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-28T11:47:59.535Z",
+  "generated_at": "2026-06-29T07:28:48.422Z",
   "site": {
     "name": "Drugnews｜藥時事",
     "url": "https://drugnews.com.tw/",
@@ -45,6 +45,20 @@
     "brand_profile": "https://drugnews.com.tw/brand-profile.json"
   },
   "latest_articles": [
+    {
+      "title": "美股迎來史上最大 Biotech IPO",
+      "date": "2026-06-29",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。",
+      "alternate_language_versions": {}
+    },
     {
       "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
       "date": "2026-06-28",
@@ -630,25 +644,6 @@
       "alternate_language_versions": {
         "zh-Hant": "2026-06-12-ai-drug-discovery-pipeline-20260612.html"
       }
-    },
-    {
-      "title": "盤點整理，AI藥物開發走得如何了？",
-      "date": "2026-06-12",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "AI 製藥",
-        "臨床管線",
-        "BD",
-        "生技投資",
-        "藥物開發"
-      ],
-      "summary": "AI 製藥已從概念走向臨床驗證。這篇盤點 Zasocitinib、GB-0895、Zovegalisib、REC-4881 等代表管線，拆解不同 AI 路線如何轉化成真正的藥物資產。",
-      "alternate_language_versions": {
-        "en": "2026-06-12-ai-drug-discovery-pipeline-20260612-en.html"
-      }
     }
   ],
   "entities": [
@@ -731,9 +726,15 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 25,
-      "latest_date": "2026-06-28",
+      "mentions": 26,
+      "latest_date": "2026-06-29",
       "latest_articles": [
+        {
+          "title": "美股迎來史上最大 Biotech IPO",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
           "date": "2026-06-28",
@@ -756,12 +757,6 @@
           "title": "邁向「寵物醫療界羅氏」的寶泰生醫",
           "date": "2026-06-25",
           "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
           "language": "zh-Hant"
         }
       ]
@@ -881,44 +876,6 @@
       ]
     },
     {
-      "name": "FDA",
-      "type": "market_topic",
-      "mentions": 17,
-      "latest_date": "2026-06-28",
-      "latest_articles": [
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Regulatory risk",
       "type": "topic",
       "mentions": 17,
@@ -1033,6 +990,44 @@
       ]
     },
     {
+      "name": "FDA",
+      "type": "market_topic",
+      "mentions": 16,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
+          "date": "2026-05-24",
+          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "CAR-T",
       "type": "biotech_concept_or_target",
       "mentions": 15,
@@ -1066,6 +1061,44 @@
           "title": "HIV 新藥很好賺呀...吉利德財報披露",
           "date": "2026-05-19",
           "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "臨床數據",
+      "type": "market_topic",
+      "mentions": 14,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "美股迎來史上最大 Biotech IPO",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
+          "date": "2026-06-27",
+          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
           "language": "zh-Hant"
         }
       ]
@@ -1143,44 +1176,6 @@
           "date": "2026-06-04",
           "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
           "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "臨床數據",
-      "type": "market_topic",
-      "mentions": 13,
-      "latest_date": "2026-06-28",
-      "latest_articles": [
-        {
-          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -1673,38 +1668,6 @@
       ]
     },
     {
-      "name": "Alzheimer",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-05-22",
-      "latest_articles": [
-        {
-          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "中樞神經新藥要靠「神經發炎」？",
-          "date": "2026-05-13",
-          "url": "https://drugnews.com.tw/articles/2026-05-13-neuroinflammation-cns-drug-comeback.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "川普放政策鴿子，減肥藥價格白降了？",
-          "date": "2026-05-10",
-          "url": "https://drugnews.com.tw/articles/2026-05-10-glp1-medicare-policy-delay.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "阿茲海默症20年來的假說開始崩盤？",
-          "date": "2026-05-01",
-          "url": "https://drugnews.com.tw/articles/2026-05-01-alzheimers-amyloid-hypothesis-collapse.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "J&J",
       "type": "topic",
       "mentions": 4,
@@ -1752,6 +1715,32 @@
           "title": "全球生技大浪來襲：看懂五兆減肥藥的主升段與科學定價",
           "date": "2026-05-23",
           "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "川普放政策鴿子，減肥藥價格白降了？",
+          "date": "2026-05-10",
+          "url": "https://drugnews.com.tw/articles/2026-05-10-glp1-medicare-policy-delay.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Alzheimer",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-05-22",
+      "latest_articles": [
+        {
+          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "中樞神經新藥要靠「神經發炎」？",
+          "date": "2026-05-13",
+          "url": "https://drugnews.com.tw/articles/2026-05-13-neuroinflammation-cns-drug-comeback.html",
           "language": "zh-Hant"
         },
         {
@@ -2723,6 +2712,19 @@
   ],
   "market_attention_signals": [
     {
+      "title": "美股迎來史上最大 Biotech IPO",
+      "date": "2026-06-29",
+      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
+      "language": "zh-Hant",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。"
+    },
+    {
       "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
       "date": "2026-06-28",
       "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
@@ -3212,20 +3214,6 @@
         "代謝疾病"
       ],
       "summary": "GLP-1 不只是減重藥題材，而是重新配置全球藥廠研發預算、產能投資、BD 談判與生技估值規則的核心變數。"
-    },
-    {
-      "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-      "date": "2026-06-10",
-      "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-      "language": "en",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "Company Research",
-        "Biotech business analysis",
-        "Drug development"
-      ],
-      "summary": "Daraxonrasib opens a new pancreatic-cancer window, but the next value question is resistance management. Senhwa's CX-5461 matters if it can become a rational combination partner."
     }
   ]
 }

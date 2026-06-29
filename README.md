@@ -21,6 +21,8 @@ If the newest social post URL is known, pass it directly to the same daily entry
 
 This keeps the daily workflow no-API by reading the full post and images from the logged-in Chrome page.
 
+The daily entrypoint now standardizes the no-API fallback Codex has used successfully before: if the Facebook or Dcard profile page exposes only a preview, diagnostics are checked for the newest permalink and the script automatically retries the logged-in single-post route. If the actual post is already open in Chrome, use `--facebook-current` or `--dcard-current`.
+
 If you only want to inspect site health without social capture:
 
 ```bash
@@ -120,7 +122,7 @@ English pages should read as native English articles, not machine-looking mirror
 npm run audit:english-localization
 ```
 
-The same pattern can be reused for a future Japanese site: source article first, native-language rewrite second, localized figures generated with controlled text layout.
+Japanese localization is not exposed on the public site for now. Re-enable it only after there is enough maintained Japanese content and localized figures to meet the same quality bar as the Chinese and English site.
 
 1. Create one folder under `content/inbox/`.
 2. Add:

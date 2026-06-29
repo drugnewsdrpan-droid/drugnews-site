@@ -157,7 +157,6 @@ async function main() {
   if (!dryRun) {
     runNode("scripts/publish_articles.mjs", ["--force"]);
     runNode("scripts/build_english_site.mjs");
-    runNode("scripts/build_japanese_site.mjs");
     runNode("scripts/build_topic_hubs.mjs");
     runNode("scripts/inject_analytics.mjs");
   }

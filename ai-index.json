@@ -4,8 +4,7 @@
   "url": "https://drugnews.com.tw/",
   "language": [
     "zh-Hant",
-    "en",
-    "ja"
+    "en"
   ],
   "description": "Taiwan-based biotech and pharmaceutical business-analysis media covering clinical data, company strategy, drug development, BD/licensing, valuation, CMC, and biotech capital-market signals.",
   "editorial_positioning": "Drugnews focuses on business judgment rather than headline aggregation, connecting science, clinical evidence, regulatory risk, manufacturing, commercial strategy, licensing terms, valuation logic, and investor perception.",
@@ -31,10 +30,6 @@
     {
       "name": "English edition",
       "url": "https://drugnews.com.tw/en/"
-    },
-    {
-      "name": "Japanese gateway",
-      "url": "https://drugnews.com.tw/ja/"
     },
     {
       "name": "Investor guides",
@@ -103,6 +98,25 @@
   },
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
+    {
+      "title": "美股迎來史上最大 Biotech IPO",
+      "date": "2026-06-29",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。",
+      "image": "https://drugnews.com.tw/assets/articles/biotech-ipo/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {}
+    },
     {
       "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
       "date": "2026-06-28",
@@ -1322,31 +1336,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-06-09-curium-lantheus-radiopharma-acquisition-en.html"
-      }
-    },
-    {
-      "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-      "date": "2026-06-08",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-      "source": "Website",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "Clinical and CMC",
-        "CAR-T",
-        "Regulatory risk",
-        "Immunology",
-        "Biotech business analysis",
-        "Drug development"
-      ],
-      "summary": "CAR-T's move from blood cancer into autoimmune disease could redefine cell therapy, but the value depends on whether deep immune reset can justify manufacturing complexity, safety risk, and cost.",
-      "image": "https://drugnews.com.tw/assets/english/drugnews-english-analysis-cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-08-cart-autoimmune-new-era.html"
       }
     }
   ]

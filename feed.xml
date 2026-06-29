@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 28 Jun 2026 11:47:59 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 07:28:48 GMT</lastBuildDate>
+    <item>
+      <title>美股迎來史上最大 Biotech IPO</title>
+      <link>https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html</guid>
+      <pubDate>Mon, 29 Jun 2026 05:50:47 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/biotech-ipo/cover.png" alt="美股迎來史上最大 Biotech IPO 專題封面"></p><p>台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。</p>]]></description>
+    </item>
     <item>
       <title>FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起</title>
       <link>https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Thu, 11 Jun 2026 00:00:01 GMT</pubDate>
       <category>商業分析系列</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/glp1-biotech-capital-reshuffle/cover-glp1-capital.png" alt="GLP-1 重新分配全球生技資本與研發資源的視覺封面"></p><p>GLP-1 不只是減重藥題材，而是重新配置全球藥廠研發預算、產能投資、BD 談判與生技估值規則的核心變數。</p>]]></description>
-    </item>
-    <item>
-      <title>Pipeline 估值雷達 001｜FDA CRL 不是價值歸零，而是估值參數重排</title>
-      <link>https://vocus.cc/user/@Drugnews</link>
-      <guid isPermaLink="true">https://vocus.cc/user/@Drugnews</guid>
-      <pubDate>Wed, 10 Jun 2026 04:00:00 GMT</pubDate>
-      <category>付費深度商業分析文章系列</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/vocus-pipeline-crl-radar-20260610-cover.svg" alt="Pipeline 估值雷達 001 封面"></p><p>FDA CRL 不該只看成藥證失敗，而是要拆成產品、臨床、CMC、label 與補件完整性，重算成功率、上市時間、峰值銷售與稀釋風險。</p>]]></description>
     </item>
   </channel>
 </rss>

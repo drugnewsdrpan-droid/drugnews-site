@@ -62,6 +62,15 @@ else
   "$NODE_BIN" scripts/daily_social_update_check.mjs "${SOCIAL_ARGS[@]}" | tee "$RUN_LOG"
 fi
 "$NODE_BIN" scripts/daily_social_update_check.mjs "${SOCIAL_ARGS[@]}" > "$STATUS_FILE"
+if [[ "$CAPTURE" == "1" ]]; then
+  fallback_args=("${(@f)$("$NODE_BIN" scripts/social_capture_fallback_args.mjs "$STATUS_FILE")}")
+  if (( ${#fallback_args[@]} )); then
+    echo
+    echo "== 3B. Profile capture was incomplete; retrying no-API single-post/current-page fallback =="
+    "$NODE_BIN" scripts/daily_social_update_check.mjs --capture-facebook --capture-dcard "${fallback_args[@]}" | tee -a "$RUN_LOG"
+    "$NODE_BIN" scripts/daily_social_update_check.mjs "${fallback_args[@]}" > "$STATUS_FILE"
+  fi
+fi
 cat "$STATUS_FILE"
 echo
 

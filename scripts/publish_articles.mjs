@@ -35,6 +35,14 @@ const SERIES = new Map([
   ["製藥巨頭系列", "big-pharma"]
 ]);
 
+const SERIES_DISPLAY = new Map([
+  ["商業分析系列", "商業分析"],
+  ["基本面系列", "基本面"],
+  ["醫學大會", "醫學大會"],
+  ["付費深度商業分析文章系列", "深度商業分析"],
+  ["製藥巨頭系列", "製藥巨頭"]
+]);
+
 const ACCESS_TYPES = new Map([
   ["免費文章", "free"],
   ["付費文章", "paid"]
@@ -304,6 +312,18 @@ function displaySeriesLabel(series, item = {}) {
     "付費深度商業分析文章系列": "Paid Deep-Dive Analysis",
     "製藥巨頭系列": "Big Pharma"
   }[series] || series;
+}
+
+function seriesDisplayName(series) {
+  return SERIES_DISPLAY.get(series) || series;
+}
+
+function seriesSwitchHtml(records, activeCategory = "", basePath = "category/") {
+  return `<nav class="series-switch" aria-label="內容系列切換">${[...SERIES.keys()].map((category) => {
+    const count = records.filter((item) => item.category === category).length;
+    const href = `${basePath}${categorySlug(category)}.html`;
+    return `<a href="${escapeHtml(href)}"${category === activeCategory ? ' aria-current="page"' : ""}><span>${escapeHtml(seriesDisplayName(category))}</span><strong>${count}</strong></a>`;
+  }).join("")}</nav>`;
 }
 
 function displayAccessLabel(item = {}) {
@@ -1241,9 +1261,6 @@ function sourceRecordFromMeta(article) {
 function articleIndexPage(records) {
   const displayRecords = readerFirstSort(records);
   const lead = displayRecords[0];
-  const categoryLinks = [...SERIES.keys()]
-    .map((category) => `<a href="category/${categorySlug(category)}.html">${escapeHtml(category)}</a>`)
-    .join("");
   const typeLinks = [...ACCESS_TYPES.keys()]
     .filter((access) => records.some((item) => accessLabel(item) === access))
     .map((access) => `<a href="type/${accessSlug(access)}.html">${escapeHtml(access)}</a>`)
@@ -1292,7 +1309,7 @@ ${headerHtml("articles")}
           <span>篇文章與外部專欄連結</span>
         </div>
       </div>
-      <div class="library-links library-links-large" aria-label="內容系列">${categoryLinks}</div>
+      ${seriesSwitchHtml(records)}
       <div class="library-links muted" aria-label="文章類型、公司索引與月份歸檔">${entityLink}${typeLinks}${monthLinks}</div>
       <div class="search-panel">
         <input class="search-box" data-search-input type="search" placeholder="搜尋公司、主題、估值、BD、IR...">
@@ -1394,7 +1411,6 @@ function homePage(records) {
   <link rel="canonical" href="${BASE_URL}/">
   <link rel="alternate" hreflang="zh-Hant" href="${BASE_URL}/">
   <link rel="alternate" hreflang="en" href="${BASE_URL}/en/">
-  <link rel="alternate" hreflang="ja" href="${BASE_URL}/ja/">
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}/">
   <link rel="icon" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
@@ -1424,7 +1440,6 @@ function homePage(records) {
         <a href="subscribe.html">付費專欄</a>
         <a href="services.html">公司合作</a>
         <a href="en/">English</a>
-        <a href="ja/">日本語</a>
       </nav>
     </div>
   </header>
@@ -1482,11 +1497,11 @@ function homePage(records) {
       </div>
       <div class="container topic-guide">
         <div class="topic-guide-main">
-          <a class="topic-row" href="articles/category/business-analysis.html"><span>01</span><div><h3>商業分析系列</h3><p>FB、Dcard 與網站免費文章，從公開事件拆解公司策略、臨床數據、交易訊號與資本市場判斷。</p></div></a>
-          <a class="topic-row" href="articles/category/fundamental-analysis.html"><span>02</span><div><h3>基本面系列</h3><p>方格子付費專欄中的公司基本面追蹤，重點放在估值、營收、臨床里程碑與可驗證假設。</p></div></a>
+          <a class="topic-row" href="articles/category/business-analysis.html"><span>01</span><div><h3>商業分析</h3><p>FB、Dcard 與網站免費文章，從公開事件拆解公司策略、臨床數據、交易訊號與資本市場判斷。</p></div></a>
+          <a class="topic-row" href="articles/category/fundamental-analysis.html"><span>02</span><div><h3>基本面</h3><p>方格子付費專欄中的公司基本面追蹤，重點放在估值、營收、臨床里程碑與可驗證假設。</p></div></a>
           <a class="topic-row" href="articles/category/medical-conference.html"><span>03</span><div><h3>醫學大會</h3><p>ASCO、ESMO、AACR 等重要學會資料整理，協助讀者快速理解臨床數據與產業意義。</p></div></a>
-          <a class="topic-row" href="articles/category/paid-deep-analysis.html"><span>04</span><div><h3>付費深度商業分析文章系列</h3><p>聚焦 BD、授權、產業策略、平台價值與資本市場重新定價，適合想深入追蹤的讀者。</p></div></a>
-          <a class="topic-row" href="articles/category/big-pharma.html"><span>05</span><div><h3>製藥巨頭系列</h3><p>整理大型藥廠的管線取捨、併購邏輯、專利懸崖與全球競爭格局。</p></div></a>
+          <a class="topic-row" href="articles/category/paid-deep-analysis.html"><span>04</span><div><h3>深度商業分析</h3><p>聚焦 BD、授權、產業策略、平台價值與資本市場重新定價，適合想深入追蹤的讀者。</p></div></a>
+          <a class="topic-row" href="articles/category/big-pharma.html"><span>05</span><div><h3>製藥巨頭</h3><p>整理大型藥廠的管線取捨、併購邏輯、專利懸崖與全球競爭格局。</p></div></a>
         </div>
         <aside class="topic-guide-aside">
           <p class="eyebrow">閱讀路徑</p>
@@ -1624,19 +1639,21 @@ function categoryDescription(category) {
   return descriptions[category] || "Drugnews 內容系列文章。";
 }
 
-function categoryPage(category, records) {
+function categoryPage(category, records, allRecords = records) {
   const slug = categorySlug(category);
   const cards = readerFirstSort(records).map((item) => articleCardHtml(
     item,
     item.external ? item.url : `../${item.fileName}`,
     item.image.replace(/^\.\.\//, "../../")
   )).join("");
+  const displayName = seriesDisplayName(category);
+  const countLabel = `${records.length} 篇${category === "商業分析系列" ? "免費長文" : "文章"}`;
   return `<!doctype html>
 <html lang="zh-Hant">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(category)}｜Drugnews</title>
+  <title>${escapeHtml(displayName)}｜Drugnews</title>
   <meta name="description" content="${escapeHtml(categoryDescription(category))}">
   <link rel="canonical" href="${BASE_URL}/articles/category/${slug}.html">
   <link rel="icon" href="../../favicon.svg">
@@ -1647,7 +1664,28 @@ function categoryPage(category, records) {
 </head>
 <body>
 ${nestedHeaderHtml("articles")}
-<main><section class="page-title"><div class="container"><p class="eyebrow">內容系列</p><h1>${escapeHtml(category)}</h1><p>${escapeHtml(categoryDescription(category))}</p></div></section><section class="section"><div class="container article-list">${cards || '<p class="notice">尚無文章。</p>'}</div></section></main>
+<main>
+  <section class="page-title series-title">
+    <div class="container">
+      <p class="eyebrow">內容系列</p>
+      <h1>${escapeHtml(displayName)}</h1>
+      <p>${escapeHtml(categoryDescription(category))}</p>
+    </div>
+  </section>
+  <section class="section article-library series-page">
+    <div class="container">
+      ${seriesSwitchHtml(allRecords, category, "")}
+      <div class="series-page-head">
+        <div>
+          <p class="eyebrow">${escapeHtml(countLabel)}</p>
+          <h2>全部文章</h2>
+        </div>
+        <a class="text-link" href="../index.html">回文章中心</a>
+      </div>
+      <div class="article-list">${cards || '<p class="notice">尚無文章。</p>'}</div>
+    </div>
+  </section>
+</main>
 ${footerHtml()}
 </body>
 </html>`;
@@ -1905,7 +1943,6 @@ ${latest}
 - Home: ${BASE_URL}/
 - Articles: ${BASE_URL}/articles/
 - English edition: ${BASE_URL}/en/
-- Japanese gateway: ${BASE_URL}/ja/
 - Investor guides: ${BASE_URL}/guides/
 - Paid research: ${BASE_URL}/subscribe.html
 - Company services: ${BASE_URL}/services.html
@@ -1971,7 +2008,7 @@ function aiIndex(records) {
     schema_version: "1.0",
     name: "Drugnews｜藥時事",
     url: `${BASE_URL}/`,
-    language: ["zh-Hant", "en", "ja"],
+    language: ["zh-Hant", "en"],
     description: "Taiwan-based biotech and pharmaceutical business-analysis media covering clinical data, company strategy, drug development, BD/licensing, valuation, CMC, and biotech capital-market signals.",
     editorial_positioning: "Drugnews focuses on business judgment rather than headline aggregation, connecting science, clinical evidence, regulatory risk, manufacturing, commercial strategy, licensing terms, valuation logic, and investor perception.",
     audience: [
@@ -1985,7 +2022,6 @@ function aiIndex(records) {
       { name: "Articles", url: `${BASE_URL}/articles/` },
       { name: "Capital-market radar", url: `${BASE_URL}/market-radar.html` },
       { name: "English edition", url: `${BASE_URL}/en/` },
-      { name: "Japanese gateway", url: `${BASE_URL}/ja/` },
       { name: "Investor guides", url: `${BASE_URL}/guides/` },
       { name: "Paid research", url: `${BASE_URL}/subscribe.html` },
       { name: "Company services", url: `${BASE_URL}/services.html` },
@@ -2415,7 +2451,7 @@ async function main() {
   for (const category of SERIES.keys()) {
     const categoryRecords = zhRecords.filter((item) => item.category === category);
     const categoryFile = path.join(ARTICLES, "category", `${categorySlug(category)}.html`);
-    await writeAtomic(categoryFile, categoryPage(category, categoryRecords));
+    await writeAtomic(categoryFile, categoryPage(category, categoryRecords, zhRecords));
   }
   for (const access of ACCESS_TYPES.keys()) {
     const typeRecords = zhRecords.filter((item) => accessLabel(item) === access);

@@ -26,6 +26,10 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 
 ## Latest Canonical Articles For Citation
 
+- 2026-06-29｜美股迎來史上最大 Biotech IPO
+  URL: https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html
+  Topics: 商業分析系列, 免費文章, 臨床數據, 生技投資
+  Summary: 台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。
 - 2026-06-28｜The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer
   URL: https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html
   Topics: FDA, Biotech rebound, Regulatory risk, Rare disease, Gene therapy
@@ -78,17 +82,12 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   URL: https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html
   Topics: Merck, Keytruda, PD-1 VEGF, MK-2010, Oncology
   Summary: Merck's more serious positioning of MK-2010 suggests that PD-1/VEGF bispecifics are moving from a watch item to a strategic option in the post-Keytruda oncology landscape.
-- 2026-06-21｜默沙東 對 PD-1／VEGF 雙抗改口：Keytruda 王座還在，但下一代免疫底盤已經逼近
-  URL: https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda.html
-  Topics: 商業分析系列, 免費文章, BD, 臨床數據, 生技投資
-  Summary: 在全球腫瘤藥市場裡，很少有一家公司比 Merck（默沙東）更懂 PD-1。
 
 ## Key Site Sections
 
 - Home: https://drugnews.com.tw/
 - Articles: https://drugnews.com.tw/articles/
 - English edition: https://drugnews.com.tw/en/
-- Japanese gateway: https://drugnews.com.tw/ja/
 - Investor guides: https://drugnews.com.tw/guides/
 - Paid research: https://drugnews.com.tw/subscribe.html
 - Company services: https://drugnews.com.tw/services.html

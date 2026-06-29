@@ -1,10 +1,29 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-28T11:47:59.526Z",
+  "generated_at": "2026-06-29T07:28:48.414Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
   "buckets": [
+    {
+      "name": "臨床與法規催化",
+      "count": 1,
+      "articles": [
+        {
+          "title": "美股迎來史上最大 Biotech IPO",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "臨床數據",
+            "生技投資"
+          ],
+          "summary": "台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。"
+        }
+      ]
+    },
     {
       "name": "BD / 授權與併購",
       "count": 2,
@@ -48,7 +67,7 @@
     },
     {
       "name": "腫瘤精準治療",
-      "count": 10,
+      "count": 9,
       "articles": [
         {
           "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
@@ -199,20 +218,6 @@
             "生技投資"
           ],
           "summary": "2026 年，全球最受矚目的 Biotech 之一，毫無疑問是 Revolution Medicines。這家公司站在一個極難、也極誘人的位置：RAS-addicted cancers。"
-        },
-        {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "Company Research",
-            "Biotech business analysis",
-            "Drug development"
-          ],
-          "summary": "Daraxonrasib opens a new pancreatic-cancer window, but the next value question is resistance management. Senhwa's CX-5461 matters if it can become a rational combination partner."
         }
       ]
     },

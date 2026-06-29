@@ -76,7 +76,6 @@ function head({ title, description, canonicalPath, image, depth = 1, extraHead =
   <link rel="canonical" href="${canonical}">
   <link rel="alternate" hreflang="en" href="${canonical}">
   <link rel="alternate" hreflang="zh-Hant" href="${BASE_URL}/${zhPath}">
-${canonicalPath === "en/" ? `  <link rel="alternate" hreflang="ja" href="${BASE_URL}/ja/">` : ""}
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}/${zhPath}">
   <link rel="icon" href="${root}favicon.svg">
   <link rel="stylesheet" href="${root}styles.css?v=en-20260616-1">

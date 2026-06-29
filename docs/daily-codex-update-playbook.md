@@ -70,13 +70,21 @@ npm run checkpoint:cxo
 1. 讀 `README.md`、`package.json`、`scripts/daily_social_update_check.mjs`、`scripts/import_facebook_posts_to_content.mjs`、`scripts/import_dcard_scrape_to_content.mjs`、`scripts/publish_articles.mjs`、`git status --short`。
 2. 跑 `/bin/zsh scripts/codex_daily_start.sh`。
 3. 若使用者已提供最新 FB / Dcard 網址，直接帶入每日入口：`/bin/zsh scripts/codex_daily_start.sh --facebook-post=URL` 或 `/bin/zsh scripts/codex_daily_start.sh --dcard-post=URL`。
-4. 若專用 social-capture Chrome 抓不到 FB / Dcard，先改讀「目前已打開的單篇文章分頁」：`/bin/zsh scripts/codex_daily_start.sh --facebook-current` 或 `/bin/zsh scripts/codex_daily_start.sh --dcard-current`。
-5. 若兩條路線都被登入牆或平台防爬擋住，停止，不猜內容；只要求使用者提供最新貼文網址，或全文加圖片。
-6. 有資料才匯入、重建、QA、提交與部署。
+4. 每日入口已內建 no-API fallback：如果 profile 頁只抓到「查看更多」預覽，它會自動從 diagnostics 拿 permalink 再用單篇頁重抓全文與圖片。
+5. 若專用 social-capture Chrome 抓不到 FB / Dcard，改讀「目前已打開的單篇文章分頁」：`/bin/zsh scripts/codex_daily_start.sh --facebook-current` 或 `/bin/zsh scripts/codex_daily_start.sh --dcard-current`。
+6. 若 profile、單篇網址、目前分頁都被登入牆或平台防爬擋住，停止，不猜內容；只要求使用者提供最新貼文網址，或全文加圖片。
+7. 有資料才匯入、重建、QA、提交與部署。
 
 2026-06-28 實測可行的 FB 備援路線：專用 Chrome profile 仍可能只抓到登入外殼，但日常 Chrome 若已登入 Facebook，可用 permalink 頁讀到完整長文與圖片。這條路只用於抓公開貼文正文與圖，不處理留言、互動數或私人資料。
 
 固定原則：不要把 FB / Dcard API 當成必要條件。主路線永遠是「已登入 Chrome 頁面 → 正文與圖片 → 站內文章」，API 或公開 JSON 只作為加速檢查，不作為唯一來源。
+
+每日入口的標準化判斷已寫在：
+
+- `scripts/codex_daily_start.sh`
+- `scripts/social_capture_fallback_args.mjs`
+
+這兩個檔案負責把「登入 Chrome profile 抓不到全文時，自動改用單篇 permalink」變成固定流程。
 
 若 Dcard profile 只載出個人頁頭部、沒有文章連結，直接改用單篇網址模式：
 
