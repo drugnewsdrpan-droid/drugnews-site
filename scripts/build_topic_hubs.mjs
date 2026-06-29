@@ -398,6 +398,8 @@ const updateSitemap = async (recordsByTopic) => {
       return `  <url><loc>${BASE_URL}/topics/${topic.slug}.html</loc><lastmod>${latestDate(articles)}</lastmod><priority>0.85</priority></url>`;
     })
   ];
+  const topicLocs = [`${BASE_URL}/topics/`, ...topics.map((topic) => `${BASE_URL}/topics/${topic.slug}.html`)];
+  if (topicLocs.every((loc) => sitemap.includes(`<loc>${loc}</loc>`))) return;
   const lines = sitemap.split("\n").filter((line) => !line.includes(`${BASE_URL}/topics/`));
   const endIndex = lines.findIndex((line) => line.includes("</urlset>"));
   if (endIndex === -1) throw new Error("sitemap.xml is missing </urlset>");

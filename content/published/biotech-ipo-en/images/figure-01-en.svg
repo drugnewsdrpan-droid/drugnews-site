@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Helicons sit between small molecules and antibodies">
+  <rect width="1200" height="675" rx="30" fill="#f7fcfd"/>
+  <text x="72" y="90" font-size="22" font-weight="800" letter-spacing="3" fill="#d9732b">FIGURE 01</text>
+  <text x="72" y="152" font-size="48" font-weight="850" fill="#102d3a">Helicons Fill a Modality Gap</text>
+  <text x="72" y="202" font-size="25" font-weight="650" fill="#60737f">A stabilized alpha-helix can reach biology that is awkward for both small molecules and antibodies.</text>
+  <g transform="translate(75 280)">
+    <rect x="0" y="0" width="300" height="220" rx="26" fill="#ffffff" stroke="#c8dde1" stroke-width="3"/>
+    <circle cx="80" cy="78" r="28" fill="#0d8794"/>
+    <circle cx="132" cy="116" r="18" fill="#dc762a"/>
+    <path d="M82 78 C128 40, 168 48, 198 88 S238 132, 260 94" fill="none" stroke="#0d8794" stroke-width="8" stroke-linecap="round"/>
+    <text x="36" y="170" font-size="31" font-weight="850" fill="#102d3a">Small Molecule</text>
+    <text x="36" y="205" font-size="21" font-weight="650" fill="#61737e">Cell entry, but limited pockets</text>
+  </g>
+  <g transform="translate(450 250)">
+    <rect x="0" y="0" width="300" height="280" rx="30" fill="#ffffff" stroke="#0d8794" stroke-width="4"/>
+    <path d="M82 162 C112 82, 162 226, 202 110 S248 128, 260 72" fill="none" stroke="#0d8794" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="84" cy="162" r="16" fill="#dc762a"/>
+    <circle cx="202" cy="110" r="16" fill="#dc762a"/>
+    <text x="52" y="64" font-size="34" font-weight="850" fill="#102d3a">Helicons</text>
+    <text x="38" y="224" font-size="22" font-weight="700" fill="#61737e">Engineered alpha-helical</text>
+    <text x="38" y="254" font-size="22" font-weight="700" fill="#61737e">peptides for intracellular targets</text>
+  </g>
+  <g transform="translate(825 280)">
+    <rect x="0" y="0" width="300" height="220" rx="26" fill="#ffffff" stroke="#c8dde1" stroke-width="3"/>
+    <path d="M74 80 C108 36, 150 36, 178 80 C204 124, 242 126, 266 88" fill="none" stroke="#102d3a" stroke-width="12" stroke-linecap="round"/>
+    <path d="M76 80 C110 124, 150 124, 178 80" fill="none" stroke="#102d3a" stroke-width="12" stroke-linecap="round"/>
+    <text x="46" y="170" font-size="31" font-weight="850" fill="#102d3a">Antibody</text>
+    <text x="46" y="205" font-size="21" font-weight="650" fill="#61737e">Specific, but mostly extracellular</text>
+  </g>
+  <path d="M386 390 H430" stroke="#dc762a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M760 390 H804" stroke="#dc762a" stroke-width="8" stroke-linecap="round"/>
+</svg>

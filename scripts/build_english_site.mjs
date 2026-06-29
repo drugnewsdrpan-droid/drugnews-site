@@ -473,6 +473,7 @@ async function updateSitemap(records) {
     ...guides.map(([file]) => [`en/guides/${file}`, "0.7"])
   ];
   const enLocs = new Set(enUrls.map(([loc]) => `${BASE_URL}/${loc}`));
+  if ([...enLocs].every((loc) => xml.includes(`<loc>${loc}</loc>`))) return;
   xml = xml
     .split("\n")
     .filter((line) => ![...enLocs].some((loc) => line.includes(`<loc>${loc}</loc>`)))

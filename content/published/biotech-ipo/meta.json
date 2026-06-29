@@ -16,5 +16,9 @@
   "cover_image": "images/cover.png",
   "cover_image_alt": "美股迎來史上最大 Biotech IPO 專題封面",
   "source_platform": "Facebook",
-  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0cbyQwo8GcLLAFJPWk1DdvDg1FaH1p64yo93LFEKdWGKJVkYUUtV3BgNVNSywkzJQl&id=61568446257142"
+  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0cbyQwo8GcLLAFJPWk1DdvDg1FaH1p64yo93LFEKdWGKJVkYUUtV3BgNVNSywkzJQl&id=61568446257142",
+  "lang": "zh-Hant",
+  "translations": {
+    "en": "2026-06-29-biotech-ipo-en.html"
+  }
 }

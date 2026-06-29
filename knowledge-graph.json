@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-29T07:51:55.124Z",
+  "generated_at": "2026-06-29T09:58:39.211Z",
   "site": {
     "name": "Drugnews｜藥時事",
     "url": "https://drugnews.com.tw/",
@@ -46,6 +46,28 @@
   },
   "latest_articles": [
     {
+      "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+      "date": "2026-06-29",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "Biotech IPO",
+        "Parabilis Medicines",
+        "Helicons",
+        "Zolucatetide",
+        "Wnt beta-catenin",
+        "Regeneron",
+        "Biotech investing",
+        "Capital markets"
+      ],
+      "summary": "Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-06-29-biotech-ipo.html"
+      }
+    },
+    {
       "title": "美股迎來史上最大 Biotech IPO",
       "date": "2026-06-29",
       "language": "zh-Hant",
@@ -57,7 +79,9 @@
         "生技投資"
       ],
       "summary": "台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。",
-      "alternate_language_versions": {}
+      "alternate_language_versions": {
+        "en": "2026-06-29-biotech-ipo-en.html"
+      }
     },
     {
       "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
@@ -624,33 +648,13 @@
       "alternate_language_versions": {
         "en": "2026-06-13-anhorn-ai-drug-development-en.html"
       }
-    },
-    {
-      "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-      "date": "2026-06-12",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "AI drug discovery",
-        "Clinical pipelines",
-        "Biotech investing",
-        "Business development",
-        "Drug development",
-        "Big Pharma"
-      ],
-      "summary": "AI drug discovery has moved beyond the concept stage and into clinical validation. This article reviews Zasocitinib, GB-0895, Zovegalisib, and REC-4881 to examine how different AI strategies are being converted into real drug assets.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-12-ai-drug-discovery-pipeline-20260612.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 45,
+      "mentions": 44,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -688,7 +692,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 45,
+      "mentions": 44,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -764,7 +768,7 @@
     {
       "name": "Business Analysis",
       "type": "topic",
-      "mentions": 23,
+      "mentions": 22,
       "latest_date": "2026-06-25",
       "latest_articles": [
         {
@@ -840,9 +844,15 @@
     {
       "name": "Capital markets",
       "type": "market_topic",
-      "mentions": 17,
-      "latest_date": "2026-06-28",
+      "mentions": 18,
+      "latest_date": "2026-06-29",
       "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        },
         {
           "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
           "date": "2026-06-28",
@@ -865,50 +875,6 @@
           "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
           "date": "2026-06-14",
           "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Regulatory risk",
-      "type": "topic",
-      "mentions": 17,
-      "latest_date": "2026-06-28",
-      "latest_articles": [
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
-          "language": "en"
-        },
-        {
-          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
           "language": "en"
         }
       ]
@@ -952,44 +918,6 @@
       ]
     },
     {
-      "name": "CNS",
-      "type": "topic",
-      "mentions": 17,
-      "latest_date": "2026-06-02",
-      "latest_articles": [
-        {
-          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
-          "language": "en"
-        },
-        {
-          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
-          "language": "en"
-        },
-        {
-          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "FDA",
       "type": "market_topic",
       "mentions": 16,
@@ -1018,6 +946,82 @@
           "date": "2026-05-24",
           "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
           "language": "zh-Hant"
+        },
+        {
+          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Regulatory risk",
+      "type": "topic",
+      "mentions": 16,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
+          "date": "2026-05-24",
+          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
+          "language": "en"
+        },
+        {
+          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "CNS",
+      "type": "topic",
+      "mentions": 16,
+      "latest_date": "2026-06-02",
+      "latest_articles": [
+        {
+          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
+          "date": "2026-05-24",
+          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
+          "language": "en"
+        },
+        {
+          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
+          "date": "2026-05-24",
+          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
+          "language": "en"
         },
         {
           "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
@@ -1700,6 +1704,32 @@
       ]
     },
     {
+      "name": "Biotech investing",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "減重藥",
       "type": "topic",
       "mentions": 3,
@@ -1826,6 +1856,26 @@
           "date": "2026-05-03",
           "url": "https://drugnews.com.tw/articles/2026-05-03-in-vivo-cart-kelonia-lilly.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Regeneron",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2025,26 +2075,6 @@
           "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
           "date": "2026-06-22",
           "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Biotech investing",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-06-22",
-      "latest_articles": [
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
           "language": "en"
         }
       ]
@@ -2570,6 +2600,76 @@
       ]
     },
     {
+      "name": "Biotech IPO",
+      "type": "topic",
+      "mentions": 1,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Helicons",
+      "type": "topic",
+      "mentions": 1,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Parabilis Medicines",
+      "type": "topic",
+      "mentions": 1,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Wnt beta-catenin",
+      "type": "topic",
+      "mentions": 1,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Zolucatetide",
+      "type": "topic",
+      "mentions": 1,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Biotech rebound",
       "type": "topic",
       "mentions": 1,
@@ -2624,93 +2724,28 @@
           "language": "en"
         }
       ]
-    },
-    {
-      "name": "Clinical Data",
-      "type": "market_topic",
-      "mentions": 1,
-      "latest_date": "2026-06-27",
-      "latest_articles": [
-        {
-          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Pancreatic Cancer",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-27",
-      "latest_articles": [
-        {
-          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Synthetic Lethality",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-27",
-      "latest_articles": [
-        {
-          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "autoimmune disease",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-26",
-      "latest_articles": [
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "IBD",
-      "type": "market_topic",
-      "mentions": 1,
-      "latest_date": "2026-06-26",
-      "latest_articles": [
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "immunometabolism",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-26",
-      "latest_articles": [
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+      "date": "2026-06-29",
+      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+      "language": "en",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "Biotech IPO",
+        "Parabilis Medicines",
+        "Helicons",
+        "Zolucatetide",
+        "Wnt beta-catenin",
+        "Regeneron",
+        "Biotech investing",
+        "Capital markets"
+      ],
+      "summary": "Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up."
+    },
     {
       "title": "美股迎來史上最大 Biotech IPO",
       "date": "2026-06-29",
@@ -3197,23 +3232,6 @@
         "Drug development"
       ],
       "summary": "GLP-1 is no longer only a weight-loss topic. It is redirecting biotech capital, BD urgency, manufacturing attention, and valuation imagination across global pharma."
-    },
-    {
-      "title": "減肥成王：GLP-1 正在把全球生技資本重新洗牌",
-      "date": "2026-06-11",
-      "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle.html",
-      "language": "zh-Hant",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "GLP-1",
-        "減肥藥",
-        "生技資本",
-        "腫瘤管線",
-        "BD",
-        "代謝疾病"
-      ],
-      "summary": "GLP-1 不只是減重藥題材，而是重新配置全球藥廠研發預算、產能投資、BD 談判與生技估值規則的核心變數。"
     }
   ]
 }

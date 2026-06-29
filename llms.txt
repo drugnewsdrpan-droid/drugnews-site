@@ -26,6 +26,10 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 
 ## Latest Canonical Articles For Citation
 
+- 2026-06-29｜The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors
+  URL: https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html
+  Topics: Biotech IPO, Parabilis Medicines, Helicons, Zolucatetide, Wnt beta-catenin
+  Summary: Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up.
 - 2026-06-29｜美股迎來史上最大 Biotech IPO
   URL: https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html
   Topics: 臨床數據, 生技投資
@@ -78,10 +82,6 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   URL: https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html
   Topics: GLP-1, 臨床數據, 生技投資, 製藥巨頭
   Summary: 今年 ADA，也就是美國糖尿病學會年會，減重藥戰場又一次被點燃。
-- 2026-06-21｜Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer
-  URL: https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html
-  Topics: Merck, Keytruda, PD-1 VEGF, MK-2010, Oncology
-  Summary: Merck's more serious positioning of MK-2010 suggests that PD-1/VEGF bispecifics are moving from a watch item to a strategic option in the post-Keytruda oncology landscape.
 
 ## Key Site Sections
 

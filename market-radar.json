@@ -1,10 +1,35 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-29T07:51:55.116Z",
+  "generated_at": "2026-06-29T09:58:39.204Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
   "buckets": [
+    {
+      "name": "估值與資本市場",
+      "count": 1,
+      "articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "Biotech IPO",
+            "Parabilis Medicines",
+            "Helicons",
+            "Zolucatetide",
+            "Wnt beta-catenin",
+            "Regeneron",
+            "Biotech investing",
+            "Capital markets"
+          ],
+          "summary": "Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up."
+        }
+      ]
+    },
     {
       "name": "臨床與法規催化",
       "count": 1,
@@ -223,7 +248,7 @@
     },
     {
       "name": "GLP-1 與代謝賽道",
-      "count": 9,
+      "count": 8,
       "articles": [
         {
           "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
@@ -363,23 +388,6 @@
             "Drug development"
           ],
           "summary": "GLP-1 is no longer only a weight-loss topic. It is redirecting biotech capital, BD urgency, manufacturing attention, and valuation imagination across global pharma."
-        },
-        {
-          "title": "減肥成王：GLP-1 正在把全球生技資本重新洗牌",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "GLP-1",
-            "減肥藥",
-            "生技資本",
-            "腫瘤管線",
-            "BD",
-            "代謝疾病"
-          ],
-          "summary": "GLP-1 不只是減重藥題材，而是重新配置全球藥廠研發預算、產能投資、BD 談判與生技估值規則的核心變數。"
         }
       ]
     },

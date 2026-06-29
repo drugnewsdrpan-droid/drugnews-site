@@ -184,6 +184,7 @@ async function updateSitemap() {
   const articles = JSON.parse(await fs.readFile(SEARCH_INDEX, "utf8"));
   const latest = articles.map((item) => item.date).filter(Boolean).sort().at(-1) || "";
   const entry = `  <url><loc>${BASE_URL}/companies.html</loc>${latest ? `<lastmod>${latest}</lastmod>` : ""}<priority>0.75</priority></url>`;
+  if (sitemap.includes(`<loc>${BASE_URL}/companies.html</loc>`)) return;
   sitemap = sitemap.split("\n").filter((line) => !line.includes(`${BASE_URL}/companies.html`)).join("\n");
   const endIndex = sitemap.lastIndexOf("</urlset>");
   if (endIndex === -1) return;

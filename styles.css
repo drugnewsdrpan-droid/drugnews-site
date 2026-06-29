@@ -2753,12 +2753,12 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     width: 100%;
     max-width: 100%;
     margin-top: 6px;
-    font-size: clamp(1.08rem, 5vw, 1.34rem);
+    font-size: clamp(1.02rem, 4.75vw, 1.26rem);
     line-height: 1.18;
     white-space: normal;
-    text-wrap: wrap;
+    text-wrap: pretty;
     overflow-wrap: anywhere;
-    word-break: break-word;
+    word-break: normal;
     line-break: strict;
     hyphens: auto;
   }
@@ -2800,7 +2800,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     width: auto;
     min-height: 30px;
     padding: 0 6px;
-    font-size: 0.7rem;
+    font-size: 0.66rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2823,6 +2823,15 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .article-share {
     width: calc(100vw - 32px);
     max-width: calc(100vw - 32px);
+  }
+  .article-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .article-layout > *,
+  .article-body figure,
+  .article-body img {
+    min-width: 0;
   }
   .article-hero h1,
   .article-deck,
@@ -2868,7 +2877,14 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     margin-top: 0;
   }
   .article-body img {
+    width: 100%;
     max-width: 100%;
+    object-fit: contain;
+  }
+  .article-body figure {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
   }
   .article-body blockquote {
     margin: 26px 0;

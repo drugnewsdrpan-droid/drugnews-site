@@ -99,6 +99,33 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+      "date": "2026-06-29",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+      "source": "Website",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "Biotech IPO",
+        "Parabilis Medicines",
+        "Helicons",
+        "Zolucatetide",
+        "Wnt beta-catenin",
+        "Regeneron",
+        "Biotech investing",
+        "Capital markets"
+      ],
+      "summary": "Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up.",
+      "image": "https://drugnews.com.tw/assets/articles/biotech-ipo-en/cover-en.svg",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-06-29-biotech-ipo.html"
+      }
+    },
+    {
       "title": "美股迎來史上最大 Biotech IPO",
       "date": "2026-06-29",
       "language": "zh-Hant",
@@ -115,7 +142,9 @@
       "image": "https://drugnews.com.tw/assets/articles/biotech-ipo/cover.png",
       "is_accessible_for_free": true,
       "is_external": false,
-      "alternate_language_versions": {}
+      "alternate_language_versions": {
+        "en": "2026-06-29-biotech-ipo-en.html"
+      }
     },
     {
       "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
@@ -1310,32 +1339,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-06-09-curium-lantheus-radiopharma-acquisition.html"
-      }
-    },
-    {
-      "title": "70億美元核藥併購傳聞：Curium想買Lantheus，真正買的是一張核藥時代的入場券",
-      "date": "2026-06-09",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition.html",
-      "source": "Dcard / Facebook",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "Curium",
-        "Lantheus",
-        "核藥",
-        "放射性藥物",
-        "併購",
-        "PSMA",
-        "PYLARIFY"
-      ],
-      "summary": "Curium 傳出有意以約 70 億美元收購 Lantheus。這不只是核藥併購傳聞，而是診斷、製造、配送、院端網絡與治療端能力整合的產業訊號。",
-      "image": "https://drugnews.com.tw/assets/articles/curium-lantheus-radiopharma-acquisition/dcard-01.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-09-curium-lantheus-radiopharma-acquisition-en.html"
       }
     }
   ]
