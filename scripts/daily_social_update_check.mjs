@@ -34,6 +34,38 @@ function dcardId(url = "") {
   return String(url || "").match(/\/(?:post|p)\/(\d+)/)?.[1] || "";
 }
 
+function looksLikeFacebookPostUrl(url = "") {
+  const value = String(url || "");
+  return /facebook\.com/i.test(value) && (
+    /[?&](story_fbid|fbid)=/i.test(value) ||
+    /\/(?:posts|permalink\.php|photo\.php|share\/p)\b/i.test(value)
+  );
+}
+
+function looksLikeDcardPostUrl(url = "") {
+  return /dcard\.tw\/(?:@drugnews\/post|f\/persona_drugnews\/p)\/\d+/i.test(String(url || ""));
+}
+
+async function chromeTabsSafe() {
+  const endpoint = process.env.CDP_ENDPOINT || "http://127.0.0.1:9222";
+  try {
+    const res = await fetch(`${endpoint}/json/list`);
+    if (!res.ok) return [];
+    const tabs = await res.json();
+    return Array.isArray(tabs) ? tabs : [];
+  } catch {
+    return [];
+  }
+}
+
+function firstExistingSinglePostTab(tabs, platform) {
+  const checker = platform === "facebook" ? looksLikeFacebookPostUrl : looksLikeDcardPostUrl;
+  return tabs
+    .filter((tab) => tab?.type === "page")
+    .map((tab) => String(tab.url || "").split("?")[0] + (String(tab.url || "").includes("?") ? `?${String(tab.url || "").split("?").slice(1).join("?")}` : ""))
+    .find((url) => checker(url)) || "";
+}
+
 async function readJson(filePath) {
   return JSON.parse(await fsp.readFile(filePath, "utf8"));
 }
@@ -179,7 +211,7 @@ function captureRequests(published, missing) {
         url: latestDcard.dcard_url,
         slug: latestDcard.slug
       } : null,
-      note: "Dcard profile pages often expose only the App/login shell and hide post links. Fastest path: open the newest Dcard post itself in the social-capture Chrome, then rerun /bin/zsh scripts/codex_daily_start.sh --dcard-current. If that still fails, save the full post text and image URLs to input_path.",
+      note: "Dcard profile pages often expose only the App/login shell and hide post links. The daily workflow now auto-detects an already-open Dcard single-post tab in the social-capture Chrome. If no single-post tab is open, open the newest Dcard post itself there, then rerun /bin/zsh scripts/codex_daily_start.sh --dcard-current. If that still fails, save the full post text and image URLs to input_path.",
       preferred_recovery: "/bin/zsh scripts/codex_daily_start.sh --dcard-current",
       required_shape: [{
         title: "Post title",
@@ -203,11 +235,21 @@ async function loadFresh(inputPath, platform, published, samePost) {
 }
 
 async function main() {
+  const tabs = (captureFacebook || captureDcard) ? await chromeTabsSafe() : [];
+  const autoFacebookPostUrl = (!facebookPostUrl && !facebookCurrent)
+    ? firstExistingSinglePostTab(tabs, "facebook")
+    : "";
+  const autoDcardPostUrl = (!dcardPostUrl && !dcardCurrent)
+    ? firstExistingSinglePostTab(tabs, "dcard")
+    : "";
+  const effectiveFacebookPostUrl = facebookPostUrl || autoFacebookPostUrl;
+  const effectiveDcardPostUrl = dcardPostUrl || autoDcardPostUrl;
+
   if (captureFacebook) {
     const result = spawnSync(process.execPath, [
       "scripts/scrape_facebook_cdp.mjs",
-      facebookPostUrl ? "post" : facebookCurrent ? "current" : "profile",
-      facebookPostUrl || FB_PAGE_URL,
+      effectiveFacebookPostUrl ? "post" : facebookCurrent ? "current" : "profile",
+      effectiveFacebookPostUrl || FB_PAGE_URL,
       fbInput
     ], {
       cwd: ROOT,
@@ -223,8 +265,8 @@ async function main() {
   if (captureDcard) {
     const result = spawnSync(process.execPath, [
       "scripts/scrape_dcard_cdp.mjs",
-      dcardPostUrl ? "post" : dcardCurrent ? "current" : "profile",
-      dcardPostUrl || DCARD_PAGE_URL,
+      effectiveDcardPostUrl ? "post" : dcardCurrent ? "current" : "profile",
+      effectiveDcardPostUrl || DCARD_PAGE_URL,
       dcardInput
     ], {
       cwd: ROOT,
@@ -285,8 +327,12 @@ async function main() {
       dcard: dcardInput
     },
     capture_mode: {
-      facebook: captureFacebook ? (facebookPostUrl ? "logged_in_chrome_post" : facebookCurrent ? "logged_in_chrome_current_tab" : "logged_in_chrome_profile") : "existing_json",
-      dcard: captureDcard ? (dcardPostUrl ? "logged_in_chrome_post" : dcardCurrent ? "logged_in_chrome_current_tab" : "logged_in_chrome_profile") : "existing_json"
+      facebook: captureFacebook ? (effectiveFacebookPostUrl ? (autoFacebookPostUrl ? "logged_in_chrome_existing_post_tab" : "logged_in_chrome_post") : facebookCurrent ? "logged_in_chrome_current_tab" : "logged_in_chrome_profile") : "existing_json",
+      dcard: captureDcard ? (effectiveDcardPostUrl ? (autoDcardPostUrl ? "logged_in_chrome_existing_post_tab" : "logged_in_chrome_post") : dcardCurrent ? "logged_in_chrome_current_tab" : "logged_in_chrome_profile") : "existing_json"
+    },
+    detected_existing_post_tabs: {
+      facebook: autoFacebookPostUrl || "",
+      dcard: autoDcardPostUrl || ""
     },
     requests: captureRequests(published, {
       facebook: facebook.missing && !facebookLimitedButCurrent,
@@ -300,7 +346,7 @@ async function main() {
     next_step: imported.length
       ? "QA the generated pages, then commit and push intended files only."
       : facebookLimitedButCurrent && dcard.missing
-        ? "Facebook visible preview matches an already published site article. Dcard profile still exposes only the App/login shell; if Dcard has a newer post, open the newest single-post page in the social-capture Chrome and rerun /bin/zsh scripts/codex_daily_start.sh --dcard-current."
+        ? "Facebook visible preview matches an already published site article. Dcard profile still exposes only the App/login shell; if Dcard has a newer post, open the newest single-post page in the social-capture Chrome. The daily workflow will auto-detect that tab, or you can rerun /bin/zsh scripts/codex_daily_start.sh --dcard-current."
         : "If the social platforms have newer posts, run the logged-in Chrome scraper, use --facebook-current / --dcard-current from an opened single-post tab, or provide the missing capture JSON and rerun this command."
   }, null, 2));
 }

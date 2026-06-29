@@ -21,7 +21,7 @@ If the newest social post URL is known, pass it directly to the same daily entry
 
 This keeps the daily workflow no-API by reading the full post and images from the logged-in Chrome page.
 
-The daily entrypoint now standardizes the no-API fallback Codex has used successfully before: if the Facebook or Dcard profile page exposes only a preview, diagnostics are checked for the newest permalink and the script automatically retries the logged-in single-post route. If the actual post is already open in Chrome, use `--facebook-current` or `--dcard-current`.
+The daily entrypoint now standardizes the no-API fallback Codex has used successfully before: if the Facebook or Dcard profile page exposes only a preview, diagnostics are checked for the newest permalink and the script automatically retries the logged-in single-post route. It also checks whether a Facebook or Dcard single-post tab is already open in the social-capture Chrome before navigating back to the profile page. If the actual post is already open and you want to force that active tab, use `--facebook-current` or `--dcard-current`.
 
 If you only want to inspect site health without social capture:
 
