@@ -1437,8 +1437,16 @@ function homePage(records) {
         url: `${BASE_URL}/`,
         logo: { "@type": "ImageObject", url: `${BASE_URL}/favicon.svg` },
         description: "藥時事 Drugnews 官方網站，專注生技醫藥商業分析、公司研究、授權交易、估值框架與資本市場判讀。",
+        slogan: "生技醫藥商業分析媒體",
+        publishingPrinciples: `${BASE_URL}/about.html`,
+        areaServed: ["Taiwan", "Global biotech and pharmaceutical capital markets"],
         sameAs: [PAID_COLUMN_URL, FACEBOOK_URL, CMONEY_URL, DCARD_URL, "https://www.instagram.com/drugnews.com.tw/"],
         email: "drugnews.dr.pan@gmail.com",
+        contactPoint: {
+          "@type": "ContactPoint",
+          email: "drugnews.dr.pan@gmail.com",
+          contactType: "business collaboration"
+        },
         knowsAbout: [
           "生技醫藥商業分析",
           "biotech business analysis",
@@ -1450,7 +1458,37 @@ function homePage(records) {
           "CMC risk",
           "drug development"
         ],
-        founder: { "@type": "Person", name: "Dr. Jo-Fan Pan", jobTitle: "Founder" }
+        founder: { "@type": "Person", name: "Dr. Jo-Fan Pan", jobTitle: "Founder" },
+        hasOfferCatalog: {
+          "@type": "OfferCatalog",
+          name: "Drugnews paid research and biotech IR services",
+          itemListElement: [
+            {
+              "@type": "Offer",
+              name: "Drugnews paid research subscription",
+              url: `${BASE_URL}/subscribe.html`,
+              category: "Paid biotech and pharmaceutical business analysis"
+            },
+            {
+              "@type": "Offer",
+              name: "Biotech IR content and capital-market narrative service",
+              url: `${BASE_URL}/services.html`,
+              category: "Company IR content service"
+            }
+          ]
+        },
+        potentialAction: [
+          {
+            "@type": "SubscribeAction",
+            target: `${BASE_URL}/subscribe.html`,
+            name: "訂閱 Drugnews 付費研究"
+          },
+          {
+            "@type": "CommunicateAction",
+            target: "mailto:drugnews.dr.pan@gmail.com",
+            name: "洽詢 Drugnews 公司合作"
+          }
+        ]
       },
       {
         "@type": "WebSite",
