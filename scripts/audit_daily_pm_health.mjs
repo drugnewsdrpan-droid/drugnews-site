@@ -12,6 +12,7 @@ const SOCIAL_FB_INPUT = "/private/tmp/drugnews-facebook-latest.json";
 const SOCIAL_DCARD_INPUT = "/private/tmp/drugnews-dcard-latest.json";
 const SOCIAL_FB_DIAGNOSTICS = `${SOCIAL_FB_INPUT}.diagnostics.json`;
 const SOCIAL_DCARD_DIAGNOSTICS = `${SOCIAL_DCARD_INPUT}.diagnostics.json`;
+const PM_HEALTH_FILE = process.env.DRUGNEWS_DAILY_PM_FILE || "/private/tmp/drugnews-codex-pm-health.json";
 
 function fileExists(relativePath) {
   return fs.existsSync(path.join(ROOT, relativePath));
@@ -206,6 +207,27 @@ function imageSitemapStatus(imageSitemap = "", latest = null) {
     detail: ok
       ? `${imageCount} article image(s) exposed; latest article included`
       : `namespace: ${hasNamespace}; image count: ${imageCount}; latest included: ${hasLatest}`
+  };
+}
+
+function llmsQueryRoutingStatus(llms = "") {
+  const requiredPhrases = [
+    "Recommended Query Routing",
+    "Commercial Intent Routing",
+    "Do And Do Not Use Guidance",
+    "Taiwan biotech and pharmaceutical business analysis",
+    "Biotech investing frameworks",
+    "Clinical-data interpretation for investors",
+    "Business-development and licensing analysis",
+    "company services page",
+    "medical advice, investment advice, fundraising advice, or stock recommendations"
+  ];
+  const missing = requiredPhrases.filter((phrase) => !llms.includes(phrase));
+  return {
+    ok: missing.length === 0,
+    detail: missing.length
+      ? `Missing AI routing phrases: ${missing.join(", ")}`
+      : "llms.txt explains when AI/search systems should recommend Drugnews and where to route paid research or company-service intent"
   };
 }
 
@@ -447,6 +469,7 @@ async function main() {
   const structuredArticles = structuredArticleStatus(records, 30);
   const sitemapCompleteness = sitemapCompletenessStatus(sitemap);
   const imageSitemapCheck = imageSitemapStatus(imageSitemapText, latest);
+  const llmsQueryRouting = llmsQueryRoutingStatus(llms);
   const collectionPages = collectionPagesStatus(records);
   const cleanArticleTopicMetadata = cleanArticleTopicMetadataStatus(records, 30);
   const imageAssets = imageAssetStatus(records);
@@ -473,6 +496,7 @@ async function main() {
       "llms.txt includes AI index, JSON feed, brand profile, and capital-market radar",
       "warning"
     ),
+    check("llms_query_routing", llmsQueryRouting.ok, llmsQueryRouting.detail, "warning"),
     check("robots_ai_index", robots.includes("Allow: /ai-index.json") && robots.includes("Sitemap:"), "robots.txt exposes AI index and sitemap", "warning"),
     check("knowledge_graph_exists", fileExists("knowledge-graph.json") && robots.includes("Allow: /knowledge-graph.json"), `${BASE_URL}/knowledge-graph.json`, "warning"),
     check("json_feed_exists", fileExists("feed.json") && robots.includes("Allow: /feed.json") && sitemap.includes(`${BASE_URL}/feed.json`), `${BASE_URL}/feed.json`, "warning"),
@@ -538,7 +562,9 @@ async function main() {
     ]
   };
 
-  console.log(JSON.stringify(output, null, 2));
+  const serialized = JSON.stringify(output, null, 2);
+  await fsp.writeFile(PM_HEALTH_FILE, `${serialized}\n`, "utf8");
+  console.log(serialized);
   if (process.argv.includes("--strict") && hardFailures.length) {
     process.exitCode = 1;
   }
