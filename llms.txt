@@ -28,7 +28,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
 
 - 2026-06-29｜美股迎來史上最大 Biotech IPO
   URL: https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html
-  Topics: 商業分析系列, 免費文章, 臨床數據, 生技投資
+  Topics: 臨床數據, 生技投資
   Summary: 台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。
 - 2026-06-28｜The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer
   URL: https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html
@@ -36,7 +36,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   Summary: Biotech’s recent rebound is not only a risk-on trade. FDA review signals, rare-disease flexibility, mRNA vaccine momentum, and renewed pharma M&A are changing how investors price clinical-stage assets.
 - 2026-06-28｜FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起
   URL: https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html
-  Topics: 商業分析系列, 免費文章, 疫苗, 感染症, BD
+  Topics: 疫苗, 感染症, BD, 臨床數據, 生技投資
   Summary: 代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。
 - 2026-06-27｜Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside
   URL: https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html
@@ -44,7 +44,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   Summary: Pancreatic cancer is moving into a new phase of precision combination therapy, as RAS inhibition meets MTAP-selective PRMT5 and MAT2A strategies.
 - 2026-06-27｜胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開
   URL: https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html
-  Topics: 商業分析系列, 免費文章, 胰臟癌, RAS, PRMT5
+  Topics: 胰臟癌, RAS, PRMT5, MAT2A, 臨床數據
   Summary: 胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。
 - 2026-06-26｜Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?
   URL: https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html
@@ -52,7 +52,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   Summary: Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases.
 - 2026-06-26｜神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？
   URL: https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html
-  Topics: 商業分析系列, 免費文章, GLP-1, 臨床數據, 生技投資
+  Topics: GLP-1, 臨床數據, 生技投資, 製藥巨頭
   Summary: 它不像急性感染，用藥幾天或幾週就結束。類風濕性關節炎、乾癬、乾癬性關節炎、發炎性腸道疾病、氣喘、異位性皮膚炎，這些疾病往往跟著患者一輩子。
 - 2026-06-25｜Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet
   URL: https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html
@@ -60,7 +60,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   Summary: As companion animals age and owners become more willing to pay for serious-disease care, the next major question in pet medicine is whether a platform company can connect drugs, diagnostics, veterinary clinics, regulation, manufacturing, channels, and data into one defensible system.
 - 2026-06-25｜邁向「寵物醫療界羅氏」的寶泰生醫
   URL: https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html
-  Topics: 商業分析系列, 免費文章, 寶泰生醫, 寵物醫療, 羅氏
+  Topics: 寶泰生醫, 寵物醫療, 羅氏, 平台型公司, 生技投資
   Summary: 當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。
 - 2026-06-24｜Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head
   URL: https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html
@@ -68,7 +68,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   Summary: Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test.
 - 2026-06-24｜AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu
   URL: https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html
-  Topics: 商業分析系列, 免費文章, AI, 臨床數據, 生技投資
+  Topics: AI, 臨床數據, 生技投資, 製藥巨頭
   Summary: 過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…
 - 2026-06-22｜The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?
   URL: https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html
@@ -76,7 +76,7 @@ Drugnews focuses on business judgment, not headline aggregation. Articles connec
   Summary: Lilly and Novo Nordisk dominate the first phase of the obesity-drug market. The next investment question is who can become the third major player by solving the problems GLP-1 leaders have not fully solved.
 - 2026-06-22｜減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？
   URL: https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html
-  Topics: 商業分析系列, 免費文章, GLP-1, 臨床數據, 生技投資
+  Topics: GLP-1, 臨床數據, 生技投資, 製藥巨頭
   Summary: 今年 ADA，也就是美國糖尿病學會年會，減重藥戰場又一次被點燃。
 - 2026-06-21｜Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer
   URL: https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html

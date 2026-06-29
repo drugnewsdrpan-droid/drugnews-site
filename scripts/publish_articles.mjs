@@ -66,6 +66,12 @@ function visibleDisplayTags(tags = []) {
   return tags.filter((tag) => !HIDDEN_DISPLAY_TAGS.test(tag));
 }
 
+function topicTags(tags = []) {
+  return visibleDisplayTags(tags)
+    .map((tag) => String(tag).trim())
+    .filter(Boolean);
+}
+
 function relatedTopicFamilyScore(sourceText, candidateText) {
   let score = 0;
   for (const family of RELATED_TOPIC_FAMILIES) {
@@ -892,6 +898,7 @@ function articlePage(article, bodyHtml, related) {
   const wordCount = articleWordCount(article.markdown);
   const seriesLabel = displaySeriesLabel(series, meta);
   const accessDisplay = displayAccessLabel(meta);
+  const seoTags = topicTags(meta.tags);
   const localLinks = isEnglish(meta)
     ? { articles: "../en/articles/", subscribe: "../en/subscribe.html", freeType: "../en/articles/" }
     : { articles: "index.html", subscribe: "../subscribe.html", freeType: "type/free.html" };
@@ -924,14 +931,14 @@ function articlePage(article, bodyHtml, related) {
       sameAs: [FACEBOOK_URL, DCARD_URL, PAID_COLUMN_URL, CMONEY_URL, "https://www.instagram.com/drugnews.com.tw/"]
     },
     isAccessibleForFree: true,
-    about: meta.tags.map((tag) => ({ "@type": "Thing", name: tag })),
+    about: seoTags.map((tag) => ({ "@type": "Thing", name: tag })),
     isPartOf: {
       "@type": "WebSite",
       name: "Drugnews｜藥時事",
       url: `${BASE_URL}/`
     },
     articleSection: seriesLabel,
-    keywords: meta.tags.join(", "),
+    keywords: seoTags.join(", "),
     inLanguage: languageTag(meta),
     wordCount,
     timeRequired: readingTimeIso(article.markdown)
@@ -1047,7 +1054,7 @@ function articleRecord(article) {
     source: platformLabel(meta),
     lang: languageTag(meta),
     translations: meta.translations || {},
-    tags: meta.tags,
+    tags: topicTags(meta.tags),
     summary: meta.summary,
     image: articleCover.src,
     imageAlt: articleCover.alt,
@@ -1087,7 +1094,7 @@ async function loadExternalArticleRecords() {
       accessSlug: accessSlug(item.access || "免費文章"),
       lang: item.lang || "zh-Hant",
       translations: item.translations || {},
-      tags,
+      tags: topicTags(tags),
       summary,
       image,
       imageAlt: item.imageAlt || title,
@@ -1095,7 +1102,7 @@ async function loadExternalArticleRecords() {
       slug: slugify(item.slug || title, `external-${index + 1}`),
       fileName: "",
       url,
-      text: [title, summary, topic, inferSeries({ ...item, source: item.source || "方格子" }), tags.join(" "), item.source || "方格子", item.access || ""].join(" ")
+      text: [title, summary, topic, inferSeries({ ...item, source: item.source || "方格子" }), topicTags(tags).join(" "), item.source || "方格子", item.access || ""].join(" ")
     };
   });
 }
@@ -1254,7 +1261,8 @@ function sourceRecordFromMeta(article) {
     category: inferSeries(meta),
     topic: meta.topic || meta.category || inferSeries(meta),
     lang: meta.lang || "zh-Hant",
-    text: [meta.title, meta.summary, article.markdown, ...(meta.tags || [])].join(" ")
+    tags: topicTags(meta.tags),
+    text: [meta.title, meta.summary, article.markdown, ...topicTags(meta.tags)].join(" ")
   };
 }
 
