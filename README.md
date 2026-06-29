@@ -49,7 +49,7 @@ This checks both Facebook and Dcard capture files, imports fresh posts, rebuilds
 
 For the shortest Codex handoff checklist, use `docs/daily-codex-update-playbook.md`.
 
-Daily automation note: Codex now has an app automation named `Drugnews 每日文章更新檢查` that runs the daily social update check. It should import and deploy when it can safely read full posts and images; if Facebook, Dcard, or Vocus blocks access, it reports the exact minimum input needed instead of guessing.
+Daily automation note: Codex has one active app automation named `Drugnews 每日文章更新檢查` (`drugnews`). It runs the same daily social update check at 10:45 Taipei time. Duplicate thread wakeups have been paused so the site is not updated by two competing workflows. The automation should import and deploy only when it can safely read full posts and images; if Facebook, Dcard, or Vocus blocks access, it reports the exact minimum input needed instead of guessing.
 
 For Facebook-only maintenance, use:
 
