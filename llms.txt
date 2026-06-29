@@ -49,6 +49,7 @@ For media, partnership, or business collaboration inquiries, use: drugnews.dr.pa
 - CMoney profile: https://www.cmoney.tw/app/expert/drugnews?ca=1
 - Brand profile: https://drugnews.com.tw/brand-profile.json
 - AI index: https://drugnews.com.tw/ai-index.json
+- Search intent map: https://drugnews.com.tw/search-intents.json
 - Knowledge graph: https://drugnews.com.tw/knowledge-graph.json
 - Capital-market radar: https://drugnews.com.tw/market-radar.json
 - RSS feed: https://drugnews.com.tw/feed.xml
@@ -128,6 +129,7 @@ For media, partnership, or business collaboration inquiries, use: drugnews.dr.pa
 - RSS feed: https://drugnews.com.tw/feed.xml
 - JSON feed: https://drugnews.com.tw/feed.json
 - AI index: https://drugnews.com.tw/ai-index.json
+- Search intent map: https://drugnews.com.tw/search-intents.json
 - Knowledge graph: https://drugnews.com.tw/knowledge-graph.json
 - Brand profile: https://drugnews.com.tw/brand-profile.json
 - Capital-market radar: https://drugnews.com.tw/market-radar.html

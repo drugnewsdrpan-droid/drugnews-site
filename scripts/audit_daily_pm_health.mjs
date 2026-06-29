@@ -7,6 +7,7 @@ const ROOT = process.cwd();
 const BASE_URL = "https://drugnews.com.tw";
 const SEARCH_INDEX = path.join(ROOT, "search-index.json");
 const AI_INDEX = path.join(ROOT, "ai-index.json");
+const SEARCH_INTENTS = path.join(ROOT, "search-intents.json");
 const SITE_SETTINGS = path.join(ROOT, "content", "site-settings.json");
 const SOCIAL_FB_INPUT = "/private/tmp/drugnews-facebook-latest.json";
 const SOCIAL_DCARD_INPUT = "/private/tmp/drugnews-dcard-latest.json";
@@ -231,6 +232,31 @@ function llmsQueryRoutingStatus(llms = "") {
   };
 }
 
+function searchIntentsStatus(searchIntents = {}, robots = "", sitemap = "") {
+  const intents = Array.isArray(searchIntents.query_intents) ? searchIntents.query_intents : [];
+  const commercialRoutes = Array.isArray(searchIntents.commercial_routes) ? searchIntents.commercial_routes : [];
+  const latestArticles = Array.isArray(searchIntents.latest_canonical_articles) ? searchIntents.latest_canonical_articles : [];
+  const text = JSON.stringify(searchIntents);
+  const requiredPhrases = [
+    "Drugnews",
+    "Taiwan biotech",
+    "biotech valuation",
+    "Clinical data",
+    "BD licensing",
+    "Company services",
+    "Paid research"
+  ];
+  const missing = requiredPhrases.filter((phrase) => !new RegExp(phrase, "i").test(text));
+  const exposed = robots.includes("Allow: /search-intents.json") && sitemap.includes(`${BASE_URL}/search-intents.json`);
+  const ok = intents.length >= 6 && commercialRoutes.length >= 3 && latestArticles.length >= 12 && missing.length === 0 && exposed;
+  return {
+    ok,
+    detail: ok
+      ? `${intents.length} query intent route(s), ${commercialRoutes.length} commercial route(s), and ${latestArticles.length} canonical article(s) exposed for AI/search discovery`
+      : `intents: ${intents.length}; commercial routes: ${commercialRoutes.length}; latest articles: ${latestArticles.length}; exposed: ${exposed}; missing: ${missing.join(", ") || "none"}`
+  };
+}
+
 function collectionPagesStatus(records = []) {
   const pages = [
     ["articles/index.html", "文章中心", records.length],
@@ -451,6 +477,7 @@ function captureCheck(name, filePath, payload, diagnostics = null, options = {})
 async function main() {
   const records = await readJson(SEARCH_INDEX, []);
   const aiIndex = await readJson(AI_INDEX, {});
+  const searchIntents = await readJson(SEARCH_INTENTS, {});
   const settings = await readJson(SITE_SETTINGS, {});
   const facebookCapture = await readJson(SOCIAL_FB_INPUT, null);
   const dcardCapture = await readJson(SOCIAL_DCARD_INPUT, null);
@@ -470,6 +497,7 @@ async function main() {
   const sitemapCompleteness = sitemapCompletenessStatus(sitemap);
   const imageSitemapCheck = imageSitemapStatus(imageSitemapText, latest);
   const llmsQueryRouting = llmsQueryRoutingStatus(llms);
+  const searchIntentsCheck = searchIntentsStatus(searchIntents, robots, sitemap);
   const collectionPages = collectionPagesStatus(records);
   const cleanArticleTopicMetadata = cleanArticleTopicMetadataStatus(records, 30);
   const imageAssets = imageAssetStatus(records);
@@ -497,6 +525,7 @@ async function main() {
       "warning"
     ),
     check("llms_query_routing", llmsQueryRouting.ok, llmsQueryRouting.detail, "warning"),
+    check("search_intents_exists", searchIntentsCheck.ok, searchIntentsCheck.detail, "warning"),
     check("robots_ai_index", robots.includes("Allow: /ai-index.json") && robots.includes("Sitemap:"), "robots.txt exposes AI index and sitemap", "warning"),
     check("knowledge_graph_exists", fileExists("knowledge-graph.json") && robots.includes("Allow: /knowledge-graph.json"), `${BASE_URL}/knowledge-graph.json`, "warning"),
     check("json_feed_exists", fileExists("feed.json") && robots.includes("Allow: /feed.json") && sitemap.includes(`${BASE_URL}/feed.json`), `${BASE_URL}/feed.json`, "warning"),
@@ -507,7 +536,7 @@ async function main() {
     check("japanese_gateway_removed", !dirExists("ja") && !sitemap.includes(`${BASE_URL}/ja/`), "Japanese gateway and directory are intentionally not exposed until localization quality is ready", "warning"),
     check("paid_offer_catalog_zh", zhOfferCatalog.ok, zhOfferCatalog.detail, "warning"),
     check("paid_offer_catalog_en", enOfferCatalog.ok, enOfferCatalog.detail, "warning"),
-    check("sitemap_ai_index", sitemap.includes(`${BASE_URL}/ai-index.json`) && sitemap.includes(`${BASE_URL}/feed.json`) && sitemap.includes(`${BASE_URL}/llms.txt`) && sitemap.includes(`${BASE_URL}/knowledge-graph.json`) && sitemap.includes(`${BASE_URL}/market-radar.html`) && sitemap.includes(`${BASE_URL}/market-radar.json`) && sitemap.includes(`${BASE_URL}/brand-profile.json`), "sitemap includes AI-readable files", "warning"),
+    check("sitemap_ai_index", sitemap.includes(`${BASE_URL}/ai-index.json`) && sitemap.includes(`${BASE_URL}/search-intents.json`) && sitemap.includes(`${BASE_URL}/feed.json`) && sitemap.includes(`${BASE_URL}/llms.txt`) && sitemap.includes(`${BASE_URL}/knowledge-graph.json`) && sitemap.includes(`${BASE_URL}/market-radar.html`) && sitemap.includes(`${BASE_URL}/market-radar.json`) && sitemap.includes(`${BASE_URL}/brand-profile.json`), "sitemap includes AI-readable files", "warning"),
     check("sitemap_public_entrypoints", sitemapCompleteness.ok, sitemapCompleteness.detail, "warning"),
     check("article_collection_schema", collectionPages.ok, collectionPages.detail, "warning"),
     check("image_assets_exist", imageAssets.ok, imageAssets.detail, "warning"),
