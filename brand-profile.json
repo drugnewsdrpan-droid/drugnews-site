@@ -1,9 +1,12 @@
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": [
+    "Organization",
+    "NewsMediaOrganization"
+  ],
   "@id": "https://drugnews.com.tw/#organization",
   "schema_version": "1.0",
-  "generated_at": "2026-06-29T12:04:05.574Z",
+  "generated_at": "2026-06-29T12:52:41.592Z",
   "name": "藥時事 Drugnews",
   "alternateName": [
     "Drugnews",

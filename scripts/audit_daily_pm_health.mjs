@@ -295,6 +295,29 @@ function imageAssetStatus(records = []) {
   };
 }
 
+async function newsMediaOrganizationStatus() {
+  const files = [
+    "index.html",
+    "en/index.html",
+    "about.html",
+    "en/about.html",
+    "brand-profile.json",
+    "knowledge-graph.json"
+  ];
+  const missing = [];
+  for (const file of files) {
+    const fullPath = path.join(ROOT, file);
+    const text = fs.existsSync(fullPath) ? await fsp.readFile(fullPath, "utf8") : "";
+    if (!text.includes("NewsMediaOrganization")) missing.push(file);
+  }
+  return {
+    ok: missing.length === 0,
+    detail: missing.length
+      ? `Missing NewsMediaOrganization in: ${missing.join(", ")}`
+      : `${files.length} core identity files expose NewsMediaOrganization schema`
+  };
+}
+
 function summarizeFacebookDiagnostics(diagnostics) {
   if (!diagnostics) return "";
   if (diagnostics.rejected_reason) {
@@ -380,6 +403,7 @@ async function main() {
   const collectionPages = collectionPagesStatus(records);
   const cleanArticleTopicMetadata = cleanArticleTopicMetadataStatus(records, 30);
   const imageAssets = imageAssetStatus(records);
+  const newsMediaOrganization = await newsMediaOrganizationStatus();
 
   const references = runJson("scripts/audit_references.mjs", ["--limit=30"]).parsed;
   const reader = runJson("scripts/audit_reader_experience.mjs", ["--limit=30"]).parsed;
@@ -405,6 +429,7 @@ async function main() {
     check("json_feed_exists", fileExists("feed.json") && robots.includes("Allow: /feed.json") && sitemap.includes(`${BASE_URL}/feed.json`), `${BASE_URL}/feed.json`, "warning"),
     check("market_radar_exists", fileExists("market-radar.html") && fileExists("market-radar.json") && robots.includes("Allow: /market-radar.json"), `${BASE_URL}/market-radar.html`, "warning"),
     check("brand_profile_exists", fileExists("brand-profile.json") && robots.includes("Allow: /brand-profile.json") && sitemap.includes(`${BASE_URL}/brand-profile.json`), `${BASE_URL}/brand-profile.json`, "warning"),
+    check("news_media_organization_schema", newsMediaOrganization.ok, newsMediaOrganization.detail, "warning"),
     check("japanese_gateway_removed", !dirExists("ja") && !sitemap.includes(`${BASE_URL}/ja/`), "Japanese gateway and directory are intentionally not exposed until localization quality is ready", "warning"),
     check("paid_offer_catalog_zh", zhOfferCatalog.ok, zhOfferCatalog.detail, "warning"),
     check("paid_offer_catalog_en", enOfferCatalog.ok, enOfferCatalog.detail, "warning"),

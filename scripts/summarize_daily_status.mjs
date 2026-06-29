@@ -87,8 +87,9 @@ function cxoScorecard(status, pm) {
       ok: statusOk(pm, "sitemap_public_entrypoints") &&
         statusOk(pm, "article_collection_schema") &&
         statusOk(pm, "clean_article_topic_metadata_latest_30") &&
-        statusOk(pm, "sitemap_ai_index"),
-      note: [pmCheck(pm, "sitemap_public_entrypoints")?.detail, pmCheck(pm, "article_collection_schema")?.detail, pmCheck(pm, "clean_article_topic_metadata_latest_30")?.detail].filter(Boolean).join("；")
+        statusOk(pm, "sitemap_ai_index") &&
+        statusOk(pm, "news_media_organization_schema"),
+      note: [pmCheck(pm, "sitemap_public_entrypoints")?.detail, pmCheck(pm, "article_collection_schema")?.detail, pmCheck(pm, "clean_article_topic_metadata_latest_30")?.detail, pmCheck(pm, "news_media_organization_schema")?.detail].filter(Boolean).join("；")
     },
     {
       label: "成長追蹤",

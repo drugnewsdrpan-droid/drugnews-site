@@ -1430,7 +1430,7 @@ function homePage(records) {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Organization",
+        "@type": ["Organization", "NewsMediaOrganization"],
         "@id": `${BASE_URL}/#organization`,
         name: "藥時事 Drugnews",
         alternateName: ["Drugnews", "藥時事", "藥時事官方網站"],
@@ -2217,7 +2217,7 @@ function brandProfileJson(records) {
   const latest = latestRecordDate(records);
   const payload = {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "NewsMediaOrganization"],
     "@id": `${BASE_URL}/#organization`,
     schema_version: "1.0",
     generated_at: new Date().toISOString(),
@@ -2507,6 +2507,7 @@ function knowledgeGraph(records) {
     schema_version: "1.0",
     generated_at: new Date().toISOString(),
     site: {
+      "@type": ["Organization", "NewsMediaOrganization"],
       name: "Drugnews｜藥時事",
       url: `${BASE_URL}/`,
       languages: ["zh-Hant", "en"],
