@@ -5,6 +5,7 @@ const ROOT = process.cwd();
 const BASE_URL = "https://drugnews.com.tw";
 const SEARCH_INDEX = path.join(ROOT, "search-index.json");
 const STATUS_FILE = process.env.DRUGNEWS_DAILY_STATUS_FILE || "/private/tmp/drugnews-codex-daily-status.json";
+const PM_FILE = process.env.DRUGNEWS_DAILY_PM_FILE || "/private/tmp/drugnews-codex-pm-health.json";
 const OUT_JSON = process.env.DRUGNEWS_GROWTH_BRIEF_JSON || "/private/tmp/drugnews-growth-brief.json";
 const OUT_MD = process.env.DRUGNEWS_GROWTH_BRIEF_MD || "/private/tmp/drugnews-growth-brief.md";
 
@@ -94,14 +95,40 @@ function submissionUrls(article) {
   const urls = [
     absoluteUrl(article.url),
     article.translations?.en ? `${BASE_URL}/articles/${article.translations.en}` : "",
+    `${BASE_URL}/llms.txt`,
+    `${BASE_URL}/search-intents.json`,
+    `${BASE_URL}/ai-index.json`,
+    `${BASE_URL}/knowledge-graph.json`,
+    `${BASE_URL}/brand-profile.json`,
     `${BASE_URL}/feed.xml`,
     `${BASE_URL}/feed.json`,
     `${BASE_URL}/news-sitemap.xml`,
     `${BASE_URL}/sitemap.xml`,
-    `${BASE_URL}/ai-index.json`,
     `${BASE_URL}/market-radar.html`
   ];
   return uniq(urls);
+}
+
+function pmCheck(pm, name) {
+  return (pm?.checks || []).find((check) => check.name === name) || null;
+}
+
+function growthOperations(pm = {}) {
+  const actions = [];
+  const ga4 = pmCheck(pm, "ga4_configured");
+  const gsc = pmCheck(pm, "search_console_configured");
+  if (gsc?.status !== "ok") {
+    actions.push("設定 Search Console 後，把今日主推文章、英文版、sitemap.xml、news-sitemap.xml、llms.txt、search-intents.json 送交檢查索引。");
+  } else {
+    actions.push("到 Search Console 檢查今日主推文章、英文版與 sitemap 是否已被探索 / 建立索引。");
+  }
+  if (ga4?.status !== "ok") {
+    actions.push("設定 GA4 後，建立每日追蹤：首頁點擊、文章閱讀、方格子 CTA、公司合作 CTA、英文站入口。");
+  } else {
+    actions.push("檢查 GA4 的文章閱讀、方格子 CTA 與公司合作 CTA 是否有事件資料。");
+  }
+  actions.push("把英文版文章同步放進 LinkedIn / AI 搜尋可讀入口，強化國際可引用度。");
+  return actions;
 }
 
 function socialDrafts(article, keywords) {
@@ -134,6 +161,7 @@ function markdown(brief) {
     : "- 暫無足夠相關文章";
   const urls = brief.search_submission_urls.map((url) => `- ${url}`).join("\n");
   const keywords = brief.target_keywords.map((keyword) => `- ${keyword}`).join("\n");
+  const operations = brief.growth_operations.map((item) => `- ${item}`).join("\n");
   return `# Drugnews 每日搜尋曝光行動清單
 
 時間：${new Date(brief.generated_at).toLocaleString("zh-TW", { timeZone: "Asia/Taipei", hour12: false })}
@@ -150,6 +178,10 @@ ${keywords}
 ## Search Console / AI 索引優先檢查 URL
 
 ${urls}
+
+## 成長追蹤與索引動作
+
+${operations}
 
 ## 內鏈機會
 
@@ -184,6 +216,7 @@ ${brief.social_drafts.linkedin}
 async function main() {
   const records = await readJson(SEARCH_INDEX, []);
   const status = await readJson(STATUS_FILE, {});
+  const pm = await readJson(PM_FILE, {});
   const latest = latestChineseArticle(records);
   if (!latest) throw new Error("No latest Chinese article found in search-index.json");
   const keywords = keywordsFor(latest);
@@ -201,6 +234,7 @@ async function main() {
     },
     target_keywords: keywords,
     search_submission_urls: submissionUrls(latest),
+    growth_operations: growthOperations(pm),
     internal_link_opportunities: relatedArticles(records, latest),
     social_drafts: socialDrafts(latest, keywords)
   };
