@@ -211,10 +211,14 @@ function collectionPagesStatus(records = []) {
     const nodes = graphNodesFromHtml(html);
     const collection = nodes.find((item) => item?.["@type"] === "CollectionPage");
     const list = nodes.find((item) => item?.["@type"] === "ItemList");
+    const breadcrumb = nodes.find((item) => item?.["@type"] === "BreadcrumbList");
     const listed = Array.isArray(list?.itemListElement) ? list.itemListElement.length : 0;
     if (!collection || !list) {
       issues.push(`${label}: missing CollectionPage/ItemList`);
       continue;
+    }
+    if (!breadcrumb) {
+      issues.push(`${label}: missing BreadcrumbList`);
     }
     if (Number(list.numberOfItems) !== expectedCount) {
       issues.push(`${label}: ItemList count ${list.numberOfItems} does not match ${expectedCount}`);
@@ -225,7 +229,7 @@ function collectionPagesStatus(records = []) {
   }
   return {
     ok: issues.length === 0,
-    detail: issues.length ? issues.slice(0, 4).join(" | ") : `${pages.length} article hub pages expose CollectionPage and ItemList schema`
+    detail: issues.length ? issues.slice(0, 4).join(" | ") : `${pages.length} article hub pages expose CollectionPage, ItemList and BreadcrumbList schema`
   };
 }
 

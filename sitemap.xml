@@ -2,9 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url><loc>https://drugnews.com.tw/</loc><lastmod>2026-06-29</lastmod><priority>1.0</priority></url>
   <url><loc>https://drugnews.com.tw/articles/</loc><lastmod>2026-06-29</lastmod><priority>0.9</priority></url>
+  <url><loc>https://drugnews.com.tw/en/</loc><lastmod>2026-06-29</lastmod><priority>0.85</priority></url>
+  <url><loc>https://drugnews.com.tw/en/articles/</loc><lastmod>2026-06-29</lastmod><priority>0.75</priority></url>
+  <url><loc>https://drugnews.com.tw/en/guides/</loc><lastmod>2026-06-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://drugnews.com.tw/en/guides/clinical-endpoints.html</loc><lastmod>2026-06-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://drugnews.com.tw/en/guides/regulatory-milestones.html</loc><lastmod>2026-06-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://drugnews.com.tw/en/guides/biotech-valuation.html</loc><lastmod>2026-06-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://drugnews.com.tw/en/guides/bd-licensing-terms.html</loc><lastmod>2026-06-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://drugnews.com.tw/en/guides/safety-cmc-risk.html</loc><lastmod>2026-06-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://drugnews.com.tw/en/guides/market-sizing.html</loc><lastmod>2026-06-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://drugnews.com.tw/en/guides/patent-competition.html</loc><lastmod>2026-06-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://drugnews.com.tw/en/guides/cash-runway.html</loc><lastmod>2026-06-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://drugnews.com.tw/en/services.html</loc><lastmod>2026-06-29</lastmod><priority>0.65</priority></url>
+  <url><loc>https://drugnews.com.tw/en/subscribe.html</loc><lastmod>2026-06-29</lastmod><priority>0.65</priority></url>
+  <url><loc>https://drugnews.com.tw/en/team.html</loc><lastmod>2026-06-29</lastmod><priority>0.65</priority></url>
+  <url><loc>https://drugnews.com.tw/topics/</loc><lastmod>2026-06-29</lastmod><priority>0.85</priority></url>
+  <url><loc>https://drugnews.com.tw/topics/biotech-investing.html</loc><lastmod>2026-06-29</lastmod><priority>0.75</priority></url>
+  <url><loc>https://drugnews.com.tw/topics/biotech-valuation.html</loc><lastmod>2026-06-29</lastmod><priority>0.75</priority></url>
+  <url><loc>https://drugnews.com.tw/topics/bd-licensing.html</loc><lastmod>2026-06-29</lastmod><priority>0.75</priority></url>
+  <url><loc>https://drugnews.com.tw/topics/clinical-data.html</loc><lastmod>2026-06-29</lastmod><priority>0.75</priority></url>
+  <url><loc>https://drugnews.com.tw/topics/cmc.html</loc><lastmod>2026-06-29</lastmod><priority>0.75</priority></url>
+  <url><loc>https://drugnews.com.tw/topics/drug-development.html</loc><lastmod>2026-06-29</lastmod><priority>0.75</priority></url>
+  <url><loc>https://drugnews.com.tw/topics/big-pharma.html</loc><lastmod>2026-06-29</lastmod><priority>0.75</priority></url>
+  <url><loc>https://drugnews.com.tw/topics/glp1.html</loc><lastmod>2026-06-29</lastmod><priority>0.75</priority></url>
   <url><loc>https://drugnews.com.tw/market-radar.html</loc><lastmod>2026-06-29</lastmod><priority>0.85</priority></url>
   <url><loc>https://drugnews.com.tw/market-radar.json</loc><lastmod>2026-06-29</lastmod><priority>0.5</priority></url>
   <url><loc>https://drugnews.com.tw/brand-profile.json</loc><lastmod>2026-06-29</lastmod><priority>0.5</priority></url>
+  <url><loc>https://drugnews.com.tw/companies.html</loc><lastmod>2026-06-29</lastmod><priority>0.75</priority></url>
   <url><loc>https://drugnews.com.tw/guides/</loc><priority>0.8</priority></url>
   <url><loc>https://drugnews.com.tw/guides/clinical-endpoints.html</loc><priority>0.7</priority></url>
   <url><loc>https://drugnews.com.tw/guides/regulatory-milestones.html</loc><priority>0.7</priority></url>
@@ -215,28 +239,4 @@
   <url><loc>https://drugnews.com.tw/articles/2026-04-02-dcard-261221419.html</loc><lastmod>2026-04-02</lastmod><priority>0.8</priority><xhtml:link rel="alternate" hreflang="zh-Hant" href="https://drugnews.com.tw/articles/2026-04-02-dcard-261221419.html"/><xhtml:link rel="alternate" hreflang="en" href="https://drugnews.com.tw/articles/2026-04-02-dcard-261221419-en.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://drugnews.com.tw/articles/2026-04-02-dcard-261221419.html"/></url>
   <url><loc>https://drugnews.com.tw/articles/2026-04-01-dcard-261215001-en.html</loc><lastmod>2026-04-01</lastmod><priority>0.8</priority><xhtml:link rel="alternate" hreflang="en" href="https://drugnews.com.tw/articles/2026-04-01-dcard-261215001-en.html"/><xhtml:link rel="alternate" hreflang="zh-Hant" href="https://drugnews.com.tw/articles/2026-04-01-dcard-261215001.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://drugnews.com.tw/articles/2026-04-01-dcard-261215001.html"/></url>
   <url><loc>https://drugnews.com.tw/articles/2026-04-01-dcard-261215001.html</loc><lastmod>2026-04-01</lastmod><priority>0.8</priority><xhtml:link rel="alternate" hreflang="zh-Hant" href="https://drugnews.com.tw/articles/2026-04-01-dcard-261215001.html"/><xhtml:link rel="alternate" hreflang="en" href="https://drugnews.com.tw/articles/2026-04-01-dcard-261215001-en.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://drugnews.com.tw/articles/2026-04-01-dcard-261215001.html"/></url>
-  <url><loc>https://drugnews.com.tw/en/</loc><lastmod>2026-06-28</lastmod><priority>0.9</priority></url>
-  <url><loc>https://drugnews.com.tw/en/articles/</loc><lastmod>2026-06-28</lastmod><priority>0.8</priority></url>
-  <url><loc>https://drugnews.com.tw/en/guides/</loc><lastmod>2026-06-28</lastmod><priority>0.8</priority></url>
-  <url><loc>https://drugnews.com.tw/en/services.html</loc><lastmod>2026-06-28</lastmod><priority>0.8</priority></url>
-  <url><loc>https://drugnews.com.tw/en/subscribe.html</loc><lastmod>2026-06-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://drugnews.com.tw/en/team.html</loc><lastmod>2026-06-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://drugnews.com.tw/en/guides/clinical-endpoints.html</loc><lastmod>2026-06-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://drugnews.com.tw/en/guides/regulatory-milestones.html</loc><lastmod>2026-06-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://drugnews.com.tw/en/guides/biotech-valuation.html</loc><lastmod>2026-06-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://drugnews.com.tw/en/guides/bd-licensing-terms.html</loc><lastmod>2026-06-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://drugnews.com.tw/en/guides/safety-cmc-risk.html</loc><lastmod>2026-06-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://drugnews.com.tw/en/guides/market-sizing.html</loc><lastmod>2026-06-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://drugnews.com.tw/en/guides/patent-competition.html</loc><lastmod>2026-06-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://drugnews.com.tw/en/guides/cash-runway.html</loc><lastmod>2026-06-28</lastmod><priority>0.7</priority></url>
-  <url><loc>https://drugnews.com.tw/topics/</loc><lastmod>2026-06-29</lastmod><priority>0.85</priority></url>
-  <url><loc>https://drugnews.com.tw/topics/biotech-investing.html</loc><lastmod>2026-06-29</lastmod><priority>0.85</priority></url>
-  <url><loc>https://drugnews.com.tw/topics/biotech-valuation.html</loc><lastmod>2026-06-29</lastmod><priority>0.85</priority></url>
-  <url><loc>https://drugnews.com.tw/topics/bd-licensing.html</loc><lastmod>2026-06-29</lastmod><priority>0.85</priority></url>
-  <url><loc>https://drugnews.com.tw/topics/clinical-data.html</loc><lastmod>2026-06-29</lastmod><priority>0.85</priority></url>
-  <url><loc>https://drugnews.com.tw/topics/cmc.html</loc><lastmod>2026-06-26</lastmod><priority>0.85</priority></url>
-  <url><loc>https://drugnews.com.tw/topics/drug-development.html</loc><lastmod>2026-06-29</lastmod><priority>0.85</priority></url>
-  <url><loc>https://drugnews.com.tw/topics/big-pharma.html</loc><lastmod>2026-06-28</lastmod><priority>0.85</priority></url>
-  <url><loc>https://drugnews.com.tw/topics/glp1.html</loc><lastmod>2026-06-29</lastmod><priority>0.85</priority></url>
-  <url><loc>https://drugnews.com.tw/companies.html</loc><lastmod>2026-06-29</lastmod><priority>0.75</priority></url>
 </urlset>

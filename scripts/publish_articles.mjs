@@ -140,6 +140,30 @@ function recordUrl(item, prefix = "") {
   return absoluteUrl(`${prefix}${item.fileName || String(item.url || "").replace(/^articles\//, "")}`);
 }
 
+function cleanBreadcrumbName(name) {
+  return String(name || "文章").replace(/^Drugnews\s*/i, "").trim() || "文章";
+}
+
+function collectionBreadcrumbSchema(url, name) {
+  const itemListElement = [
+    { "@type": "ListItem", position: 1, name: "首頁", item: `${BASE_URL}/` }
+  ];
+
+  if (String(url).includes("/articles/")) {
+    itemListElement.push({ "@type": "ListItem", position: 2, name: "文章", item: `${BASE_URL}/articles/` });
+    if (url !== `${BASE_URL}/articles/`) {
+      itemListElement.push({ "@type": "ListItem", position: 3, name: cleanBreadcrumbName(name), item: url });
+    }
+  } else {
+    itemListElement.push({ "@type": "ListItem", position: 2, name: cleanBreadcrumbName(name), item: url });
+  }
+
+  return {
+    "@type": "BreadcrumbList",
+    itemListElement
+  };
+}
+
 function collectionPageSchema({ url, name, description, records, prefix = "", limit = 30 }) {
   const items = records.slice(0, limit).map((item, index) => ({
     "@type": "ListItem",
@@ -168,7 +192,8 @@ function collectionPageSchema({ url, name, description, records, prefix = "", li
         numberOfItems: records.length,
         itemListOrder: "https://schema.org/ItemListOrderDescending",
         itemListElement: items
-      }
+      },
+      collectionBreadcrumbSchema(url, name)
     ]
   };
 }
