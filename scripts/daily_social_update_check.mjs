@@ -179,7 +179,8 @@ function captureRequests(published, missing) {
         url: latestDcard.dcard_url,
         slug: latestDcard.slug
       } : null,
-      note: "Dcard often blocks server-side reading. Use the logged-in Chrome scraper first, or save the full post text and image URLs to input_path.",
+      note: "Dcard profile pages often expose only the App/login shell and hide post links. Fastest path: open the newest Dcard post itself in the social-capture Chrome, then rerun /bin/zsh scripts/codex_daily_start.sh --dcard-current. If that still fails, save the full post text and image URLs to input_path.",
+      preferred_recovery: "/bin/zsh scripts/codex_daily_start.sh --dcard-current",
       required_shape: [{
         title: "Post title",
         published: "YYYY-MM-DDT10:30:00+08:00",
@@ -299,8 +300,8 @@ async function main() {
     next_step: imported.length
       ? "QA the generated pages, then commit and push intended files only."
       : facebookLimitedButCurrent && dcard.missing
-        ? "Facebook visible preview matches an already published site article. Dcard still needs logged-in capture if it has a newer post."
-        : "If the social platforms have newer posts, run the logged-in Chrome scraper or provide the missing capture JSON and rerun this command."
+        ? "Facebook visible preview matches an already published site article. Dcard profile still exposes only the App/login shell; if Dcard has a newer post, open the newest single-post page in the social-capture Chrome and rerun /bin/zsh scripts/codex_daily_start.sh --dcard-current."
+        : "If the social platforms have newer posts, run the logged-in Chrome scraper, use --facebook-current / --dcard-current from an opened single-post tab, or provide the missing capture JSON and rerun this command."
   }, null, 2));
 }
 
