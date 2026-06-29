@@ -20,7 +20,7 @@ When the FDA starts to send a more open and predictable signal, the valuation lo
 
 ## 01 | Operation TrialBlazer: FDA Is Signaling That Review Efficiency Matters Again
 
-![Operation TrialBlazer and biotech valuation logic](images/figure-01-en.svg)
+![Operation TrialBlazer and biotech valuation logic](images/figure-01.png)
 
 On June 22, the FDA announced Operation TrialBlazer. The goal is to accelerate drug development, reduce unnecessary regulatory friction, and use more efficient trial design and data tools so innovative drugs can move more quickly from early research into later-stage clinical development.
 
@@ -38,7 +38,7 @@ If FDA requirements become more predictable, development timelines shorten, and 
 
 ## 02 | Moderna: The Same mRNA Flu Vaccine Suddenly Looks Different
 
-![Moderna mRNA flu vaccine risk benefit shift](images/figure-02-en.svg)
+![Moderna mRNA flu vaccine risk benefit shift](images/figure-02.png)
 
 Moderna is one of the clearest examples of this FDA tone shift.
 
@@ -58,7 +58,7 @@ For the market, the signal is clear: the FDA is not ignoring risk. But if the ev
 
 ## 03 | uniQure: Rare-Disease Gene Therapy Sees a Path Back to Accelerated Approval
 
-![uniQure AMT-130 rare disease regulatory path](images/figure-03-en.svg)
+![uniQure AMT-130 rare disease regulatory path](images/figure-03.png)
 
 The uniQure case is even more dramatic.
 
@@ -78,7 +78,7 @@ This is not regulatory “leniency.” It is a recognition that rare diseases an
 
 ## 04 | REGENXBIO: Navsunli Looks Like a Rare-Disease Review Barometer
 
-![REGENXBIO Navsunli rare disease review signal](images/figure-04-en.svg)
+![REGENXBIO Navsunli rare disease review signal](images/figure-04.png)
 
 REGENXBIO offers another important example.
 
