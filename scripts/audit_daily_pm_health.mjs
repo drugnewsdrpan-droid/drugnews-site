@@ -164,8 +164,17 @@ function sitemapCompletenessStatus(sitemap = "") {
     "/en/",
     "/en/articles/",
     "/en/guides/",
+    "/en/guides/clinical-endpoints.html",
+    "/en/guides/regulatory-milestones.html",
+    "/en/guides/biotech-valuation.html",
+    "/en/guides/bd-licensing-terms.html",
+    "/en/guides/safety-cmc-risk.html",
+    "/en/guides/market-sizing.html",
+    "/en/guides/patent-competition.html",
+    "/en/guides/cash-runway.html",
     "/en/services.html",
     "/en/subscribe.html",
+    "/en/team.html",
     "/topics/",
     "/topics/biotech-investing.html",
     "/topics/biotech-valuation.html",
@@ -242,6 +251,43 @@ function cleanArticleTopicMetadataStatus(records = [], limit = 30) {
     detail: noisy.length
       ? `Platform labels found in Article topic metadata: ${noisy.slice(0, 3).join(" | ")}`
       : `${latest.length} latest articles keep source-platform labels out of Article topic metadata`
+  };
+}
+
+function localAssetPath(assetPath, htmlPath = "") {
+  const value = String(assetPath || "").trim();
+  if (!value || /^(https?:|data:|mailto:|tel:)/i.test(value)) return null;
+  const clean = value.split("#")[0].split("?")[0];
+  if (!clean) return null;
+  if (clean.startsWith("/")) return path.join(ROOT, clean.replace(/^\/+/, ""));
+  if (htmlPath) return path.resolve(path.dirname(path.join(ROOT, htmlPath)), clean);
+  return path.resolve(ROOT, clean.replace(/^(\.\.\/)+/, ""));
+}
+
+function imageAssetStatus(records = []) {
+  const missing = [];
+  for (const record of records) {
+    const imagePath = localAssetPath(record.image);
+    if (imagePath && !fs.existsSync(imagePath)) {
+      missing.push(`${record.title}: ${record.image}`);
+    }
+    if (!record.external && record.url) {
+      const htmlPath = path.join(ROOT, record.url);
+      const html = fs.existsSync(htmlPath) ? fs.readFileSync(htmlPath, "utf8") : "";
+      for (const match of html.matchAll(/<img\b[^>]*\bsrc=["']([^"']+)["']/gi)) {
+        const src = match[1];
+        const fullPath = localAssetPath(src, record.url);
+        if (fullPath && !fs.existsSync(fullPath)) {
+          missing.push(`${record.title}: ${src}`);
+        }
+      }
+    }
+  }
+  return {
+    ok: missing.length === 0,
+    detail: missing.length
+      ? `${missing.length} missing image asset(s): ${missing.slice(0, 3).join(" | ")}`
+      : `${records.length} records have valid local thumbnail/article image paths`
   };
 }
 
@@ -324,6 +370,7 @@ async function main() {
   const sitemapCompleteness = sitemapCompletenessStatus(sitemap);
   const collectionPages = collectionPagesStatus(records);
   const cleanArticleTopicMetadata = cleanArticleTopicMetadataStatus(records, 30);
+  const imageAssets = imageAssetStatus(records);
 
   const references = runJson("scripts/audit_references.mjs", ["--limit=30"]).parsed;
   const reader = runJson("scripts/audit_reader_experience.mjs", ["--limit=30"]).parsed;
@@ -355,6 +402,7 @@ async function main() {
     check("sitemap_ai_index", sitemap.includes(`${BASE_URL}/ai-index.json`) && sitemap.includes(`${BASE_URL}/feed.json`) && sitemap.includes(`${BASE_URL}/llms.txt`) && sitemap.includes(`${BASE_URL}/knowledge-graph.json`) && sitemap.includes(`${BASE_URL}/market-radar.html`) && sitemap.includes(`${BASE_URL}/market-radar.json`) && sitemap.includes(`${BASE_URL}/brand-profile.json`), "sitemap includes AI-readable files", "warning"),
     check("sitemap_public_entrypoints", sitemapCompleteness.ok, sitemapCompleteness.detail, "warning"),
     check("article_collection_schema", collectionPages.ok, collectionPages.detail, "warning"),
+    check("image_assets_exist", imageAssets.ok, imageAssets.detail, "warning"),
     check("news_sitemap_exists", fileExists("news-sitemap.xml") && newsSitemap.includes("<url>"), "news-sitemap.xml has entries", "warning"),
     check("references_latest_30", references?.truncated_url_articles === 0, `${references?.truncated_url_articles ?? "unknown"} articles with truncated URLs`, "error"),
     check("structured_article_schema_latest_30", structuredArticles.ok, structuredArticles.detail, "warning"),
