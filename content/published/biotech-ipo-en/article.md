@@ -2,7 +2,7 @@
 
 ## Parabilis Is Giving the Market a Lesson
 
-![Parabilis Medicines IPO and the return of clinical-asset logic](images/cover-gpt.png)
+![Parabilis Medicines IPO and the return of clinical-asset logic](images/cover-gpt-v2.png)
 
 Taiwan's biotech sector is still struggling through a weak capital-market cycle. In the United States, however, the biotech market has just produced a striking contrast.
 
@@ -24,7 +24,7 @@ It has moved from story-driven investing to clinical-asset logic.
 
 ## 01 | What Is Parabilis Building? Not a Small Molecule, Not an Antibody, but Helicons
 
-![Helicons sit between small molecules and biologics](images/figure-01-gpt.png)
+![Helicons sit between small molecules and biologics](images/figure-01-gpt-v2.png)
 
 Parabilis' core technology is called Helicons.
 
@@ -40,7 +40,7 @@ This is why the platform story is powerful. But it is also why clinical proof ma
 
 ## 02 | Zolucatetide: Going Directly After beta-Catenin, One of the Hardest Bones in Oncology
 
-![Zolucatetide targets the beta-catenin TCF interaction](images/figure-02-gpt.png)
+![Zolucatetide targets the beta-catenin TCF interaction](images/figure-02-gpt-v2.png)
 
 Parabilis' most important clinical asset is zolucatetide, previously known as FOG-001.
 
@@ -60,7 +60,7 @@ It is not merely claiming that it can address hard-to-drug targets. It has produ
 
 ## 03 | The Regeneron Collaboration Turned Platform Potential Into Industry Validation
 
-![Regeneron collaboration validates the Helicon platform strategy](images/figure-03-gpt.png)
+![Regeneron collaboration validates the Helicon platform strategy](images/figure-03-gpt-v2.png)
 
 Another important event before the IPO was Parabilis' collaboration with Regeneron.
 
@@ -76,7 +76,7 @@ That kind of external validation often carries more weight than a slide deck.
 
 ## 04 | Why Parabilis? The Answer Is Not One Single Factor
 
-![Technology, clinical data, capital, and timing lined up](images/figure-04-gpt.png)
+![Technology, clinical data, capital, and timing lined up](images/figure-04-gpt-v2.png)
 
 Parabilis' success cannot be explained simply by saying that the technology is new.
 
