@@ -66,7 +66,7 @@ function cxoScorecard(status, pm) {
   const rows = [
     {
       label: "每日文章更新",
-      weight: 25,
+      weight: 20,
       ok: Boolean(imported.length) || statusOk(pm, "latest_article_recent"),
       note: imported.length ? `新匯入 ${imported.length} 篇` : pmCheck(pm, "latest_article_recent")?.detail || "最新文章狀態未知"
     },
@@ -78,7 +78,7 @@ function cxoScorecard(status, pm) {
     },
     {
       label: "搜尋與 AI 可讀性",
-      weight: 25,
+      weight: 20,
       ok: statusOk(pm, "sitemap_public_entrypoints") &&
         statusOk(pm, "article_collection_schema") &&
         statusOk(pm, "clean_article_topic_metadata_latest_30") &&
@@ -86,8 +86,14 @@ function cxoScorecard(status, pm) {
       note: [pmCheck(pm, "sitemap_public_entrypoints")?.detail, pmCheck(pm, "article_collection_schema")?.detail, pmCheck(pm, "clean_article_topic_metadata_latest_30")?.detail].filter(Boolean).join("；")
     },
     {
-      label: "商業轉換",
+      label: "成長追蹤",
       weight: 15,
+      ok: statusOk(pm, "ga4_configured") && statusOk(pm, "search_console_configured"),
+      note: [pmCheck(pm, "ga4_configured")?.detail, pmCheck(pm, "search_console_configured")?.detail].filter(Boolean).join("；")
+    },
+    {
+      label: "商業轉換",
+      weight: 10,
       ok: statusOk(pm, "paid_offer_catalog_zh") && statusOk(pm, "paid_offer_catalog_en"),
       note: [pmCheck(pm, "paid_offer_catalog_zh")?.detail, pmCheck(pm, "paid_offer_catalog_en")?.detail].filter(Boolean).join("；")
     },
