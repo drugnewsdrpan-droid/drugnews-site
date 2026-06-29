@@ -163,6 +163,7 @@ function sitemapCompletenessStatus(sitemap = "") {
     "/topics/biotech-valuation.html",
     "/topics/bd-licensing.html",
     "/topics/clinical-data.html",
+    "/topics/cmc.html",
     "/topics/drug-development.html",
     "/topics/big-pharma.html",
     "/topics/glp1.html",
