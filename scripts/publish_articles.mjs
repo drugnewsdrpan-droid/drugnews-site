@@ -135,6 +135,44 @@ function absoluteUrl(relativeUrl) {
   return `${BASE_URL}/${String(relativeUrl).replace(/^\.\.\//, "").replace(/^\//, "")}`;
 }
 
+function recordUrl(item, prefix = "") {
+  if (item.external) return item.url;
+  return absoluteUrl(`${prefix}${item.fileName || String(item.url || "").replace(/^articles\//, "")}`);
+}
+
+function collectionPageSchema({ url, name, description, records, prefix = "", limit = 30 }) {
+  const items = records.slice(0, limit).map((item, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    url: recordUrl(item, prefix),
+    name: item.title,
+    description: item.summary || undefined,
+    image: item.image ? absoluteUrl(item.image) : undefined
+  }));
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        name,
+        url,
+        description,
+        isPartOf: { "@type": "WebSite", name: "Drugnews｜藥時事", url: `${BASE_URL}/` },
+        publisher: { "@type": "Organization", name: "Drugnews", url: `${BASE_URL}/` },
+        mainEntity: { "@id": `${url}#item-list` }
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${url}#item-list`,
+        name,
+        numberOfItems: records.length,
+        itemListOrder: "https://schema.org/ItemListOrderDescending",
+        itemListElement: items
+      }
+    ]
+  };
+}
+
 function stripMarkdown(markdown) {
   return markdown
     .replace(/!\[[^\]]*]\([^)]+\)/g, "")
@@ -1269,6 +1307,14 @@ function sourceRecordFromMeta(article) {
 function articleIndexPage(records) {
   const displayRecords = readerFirstSort(records);
   const lead = displayRecords[0];
+  const pageDescription = "Drugnews 文章中心提供生技醫藥公司研究、估值框架、BD 授權與資本市場判讀，協助讀者形成可驗證的商業判斷。";
+  const pageSchema = collectionPageSchema({
+    url: `${BASE_URL}/articles/`,
+    name: "Drugnews 文章中心",
+    description: pageDescription,
+    records: displayRecords,
+    prefix: "articles/"
+  });
   const typeLinks = [...ACCESS_TYPES.keys()]
     .filter((access) => records.some((item) => accessLabel(item) === access))
     .map((access) => `<a href="type/${accessSlug(access)}.html">${escapeHtml(access)}</a>`)
@@ -1285,7 +1331,7 @@ function articleIndexPage(records) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Drugnews｜文章中心</title>
-  <meta name="description" content="Drugnews 文章中心提供生技醫藥公司研究、估值框架、BD 授權與資本市場判讀，協助讀者形成可驗證的商業判斷。">
+  <meta name="description" content="${escapeHtml(pageDescription)}">
   <link rel="canonical" href="${BASE_URL}/articles/">
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
@@ -1299,6 +1345,7 @@ function articleIndexPage(records) {
   <meta property="og:site_name" content="Drugnews｜藥時事">
   ${lead?.image ? `<meta property="og:image" content="${absoluteUrl(lead.image)}">` : ""}
   <meta name="twitter:card" content="${lead?.image ? "summary_large_image" : "summary"}">
+  <script type="application/ld+json">${JSON.stringify(pageSchema)}</script>
 </head>
 <body>
 ${headerHtml("articles")}
@@ -1649,26 +1696,37 @@ function categoryDescription(category) {
 
 function categoryPage(category, records, allRecords = records) {
   const slug = categorySlug(category);
-  const cards = readerFirstSort(records).map((item) => articleCardHtml(
+  const sortedRecords = readerFirstSort(records);
+  const cards = sortedRecords.map((item) => articleCardHtml(
     item,
     item.external ? item.url : `../${item.fileName}`,
     item.image.replace(/^\.\.\//, "../../")
   )).join("");
   const displayName = seriesDisplayName(category);
+  const description = categoryDescription(category);
   const countLabel = `${records.length} 篇${category === "商業分析系列" ? "免費長文" : "文章"}`;
+  const pageUrl = `${BASE_URL}/articles/category/${slug}.html`;
+  const pageSchema = collectionPageSchema({
+    url: pageUrl,
+    name: `Drugnews ${displayName}`,
+    description,
+    records: sortedRecords,
+    prefix: "articles/"
+  });
   return `<!doctype html>
 <html lang="zh-Hant">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(displayName)}｜Drugnews</title>
-  <meta name="description" content="${escapeHtml(categoryDescription(category))}">
-  <link rel="canonical" href="${BASE_URL}/articles/category/${slug}.html">
+  <meta name="description" content="${escapeHtml(description)}">
+  <link rel="canonical" href="${pageUrl}">
   <link rel="icon" href="../../favicon.svg">
   <link rel="stylesheet" href="../../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
   <link rel="alternate" type="application/feed+json" title="Drugnews JSON Feed" href="${BASE_URL}/feed.json">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
+  <script type="application/ld+json">${JSON.stringify(pageSchema)}</script>
 </head>
 <body>
 ${nestedHeaderHtml("articles")}
