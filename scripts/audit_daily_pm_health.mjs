@@ -626,7 +626,7 @@ async function main() {
     next_actions: [
       ...(social?.status === "needs_capture"
         ? [social?.platform_state?.facebook === "already_current_limited_capture" && social?.platform_state?.dcard === "needs_capture"
-          ? "Facebook visible preview already matches the latest site article. If Dcard has a newer post, open the newest Dcard single-post page in the social-capture Chrome, then rerun: /bin/zsh scripts/codex_daily_start.sh --dcard-current."
+          ? "Facebook visible preview already matches the latest site article. If Dcard has a newer post, open the newest Dcard single-post page in the social-capture Chrome; the daily workflow will auto-detect that tab, or rerun: /bin/zsh scripts/codex_daily_start.sh --dcard-current."
           : "Run /bin/zsh scripts/start_social_capture_chrome.sh, confirm Facebook/Dcard login, open the newest single-post tab if profile pages show only previews, then rerun daily social capture; otherwise provide capture JSON."]
         : []),
       ...(readingProduct?.status !== "ok" ? ["Run node scripts/audit_reading_product_tasks.mjs to inspect mobile/search/topic reading-experience regressions."] : []),

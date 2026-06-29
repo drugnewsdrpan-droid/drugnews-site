@@ -17,6 +17,7 @@ const PHARMA_GIANTS_URL = "https://vocus.cc/salon/Drugnews/room/pharmagiants";
 const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61568446257142";
 const DCARD_URL = "https://www.dcard.tw/@drugnews";
 const CMONEY_URL = "https://www.cmoney.tw/app/expert/drugnews?ca=1";
+const COMPANY_SERVICE_FORM_URL = "https://forms.gle/rvDm93vkUx3E7Rci7";
 
 const LEGACY_TOPICS = new Map([
   ["生技估值", "biotech-valuation"],
@@ -370,6 +371,133 @@ function articleUi(meta = {}) {
     nextReading: "Read This Next",
     related: "Related Reading"
   };
+}
+
+function monetizationTheme(meta = {}) {
+  const haystack = `${meta.title || ""} ${meta.summary || ""} ${(meta.tags || []).join(" ")} ${meta.category || ""} ${meta.series || ""}`.toLowerCase();
+  if (/glp-?1|semaglutide|tirzepatide|retatrutide|肥胖|減重|代謝/.test(haystack)) return "glp1";
+  if (/bd|授權|licensing|upfront|milestone|royalty|併購|deal|valuation|估值|rnpv|sotp|ipo|資本市場|capital/.test(haystack)) return "valuation";
+  if (/ir|投資人|公司合作|公開資訊|簡報|法說|溝通|上市櫃/.test(haystack)) return "companyService";
+  if (/製藥巨頭|big pharma|lilly|novo|merck|gsk|bms|pfizer|roche|takeda|藥廠/.test(haystack)) return "pharmaGiants";
+  return "paidResearch";
+}
+
+function monetizationNextStepHtml(meta = {}) {
+  const english = isEnglish(meta);
+  const subscribeHref = english ? "../en/subscribe.html" : "../subscribe.html";
+  const servicesHref = english ? "../en/services.html" : "../services.html";
+  const theme = monetizationTheme(meta);
+  const paidContent = campaignUrl(PAID_COLUMN_URL, `${english ? "en" : "zh"}_article_monetization_${theme}`);
+  const pharmaGiants = campaignUrl(PHARMA_GIANTS_URL, `${english ? "en" : "zh"}_article_monetization_pharma_giants`);
+  const companyForm = campaignUrl(COMPANY_SERVICE_FORM_URL, `${english ? "en" : "zh"}_article_monetization_company_service`);
+  const catalog = {
+    zh: {
+      glp1: {
+        label: "付費專欄",
+        title: "想追 GLP-1 與肥胖藥物格局？",
+        copy: "付費專欄會把產品矩陣、臨床差異、供應鏈、BD 與估值重新整理成長期追蹤框架。",
+        primary: "看方格子深度文",
+        primaryHref: paidContent,
+        secondary: "了解付費專欄",
+        secondaryHref: subscribeHref
+      },
+      valuation: {
+        label: "估值 / BD",
+        title: "把單篇事件升級成估值與交易判斷",
+        copy: "如果你想看 rNPV、upfront、milestone、royalty 與資本市場如何重估管線價值，付費專欄會拆得更完整。",
+        primary: "看方格子深度文",
+        primaryHref: paidContent,
+        secondary: "看付費文章系列",
+        secondaryHref: "../articles/type/paid.html"
+      },
+      companyService: {
+        label: "公司合作",
+        title: "公司故事需要被市場正確理解？",
+        copy: "Drugnews 可協助生醫公司把臨床證據、商業化路徑、競品定位與下一個催化節點，轉成投資人可追蹤的敘事。",
+        primary: "預約內容健檢",
+        primaryHref: companyForm,
+        secondary: "了解公司合作",
+        secondaryHref: servicesHref
+      },
+      pharmaGiants: {
+        label: "製藥巨頭系列",
+        title: "用大型藥廠決策理解產業方向",
+        copy: "製藥巨頭系列整理大型藥廠的管線取捨、併購、專利懸崖與全球競爭格局，適合建立長期產業判斷。",
+        primary: "看製藥巨頭系列",
+        primaryHref: pharmaGiants,
+        secondary: "了解付費專欄",
+        secondaryHref: subscribeHref
+      },
+      paidResearch: {
+        label: "付費專欄",
+        title: "把新聞變成可追蹤的研究系統",
+        copy: "免費文章看事件，付費專欄則整理公司追蹤、產業脈絡、估值框架與資本市場判讀。",
+        primary: "前往方格子訂閱",
+        primaryHref: paidContent,
+        secondary: "了解付費專欄",
+        secondaryHref: subscribeHref
+      }
+    },
+    en: {
+      glp1: {
+        label: "Paid Research",
+        title: "Track the GLP-1 and obesity-drug map",
+        copy: "Paid research connects product strategy, clinical differentiation, supply constraints, BD, and valuation into a durable tracking framework.",
+        primary: "Read paid research",
+        primaryHref: paidContent,
+        secondary: "Explore subscription",
+        secondaryHref: subscribeHref
+      },
+      valuation: {
+        label: "Valuation / BD",
+        title: "Turn a single event into a valuation thesis",
+        copy: "For rNPV, upfront, milestone, royalty, and capital-market repricing logic, Drugnews paid research goes deeper than the free article.",
+        primary: "Read paid research",
+        primaryHref: paidContent,
+        secondary: "Explore subscription",
+        secondaryHref: subscribeHref
+      },
+      companyService: {
+        label: "Company Services",
+        title: "Need the market to understand your company story?",
+        copy: "Drugnews helps biotech companies translate clinical evidence, commercialization paths, competitive positioning, and catalysts into investor-readable narratives.",
+        primary: "Request an IR content audit",
+        primaryHref: companyForm,
+        secondary: "Company services",
+        secondaryHref: servicesHref
+      },
+      pharmaGiants: {
+        label: "Big Pharma Series",
+        title: "Read industry direction through big-pharma decisions",
+        copy: "The Big Pharma series tracks pipeline choices, M&A, patent cliffs, and global competitive positioning.",
+        primary: "Open Big Pharma series",
+        primaryHref: pharmaGiants,
+        secondary: "Explore subscription",
+        secondaryHref: subscribeHref
+      },
+      paidResearch: {
+        label: "Paid Research",
+        title: "Turn biotech news into a research system",
+        copy: "Free articles explain events. Paid research organizes company tracking, industry context, valuation frameworks, and capital-market judgment.",
+        primary: "Open paid research",
+        primaryHref: paidContent,
+        secondary: "Explore subscription",
+        secondaryHref: subscribeHref
+      }
+    }
+  };
+  const item = catalog[english ? "en" : "zh"][theme];
+  const externalPrimary = /^https?:\/\//i.test(item.primaryHref);
+  const externalSecondary = /^https?:\/\//i.test(item.secondaryHref);
+  return `<aside class="article-monetization" aria-label="${escapeHtml(english ? "Paid research next step" : "付費研究下一步")}">
+    <p class="eyebrow">${escapeHtml(item.label)}</p>
+    <h2>${escapeHtml(item.title)}</h2>
+    <p>${escapeHtml(item.copy)}</p>
+    <div class="actions">
+      <a class="button primary" href="${escapeHtml(item.primaryHref)}"${externalPrimary ? ' target="_blank" rel="noopener"' : ""}>${escapeHtml(item.primary)}</a>
+      <a class="button secondary" href="${escapeHtml(item.secondaryHref)}"${externalSecondary ? ' target="_blank" rel="noopener"' : ""}>${escapeHtml(item.secondary)}</a>
+    </div>
+  </aside>`;
 }
 
 function displaySeriesLabel(series, item = {}) {
@@ -968,6 +1096,7 @@ function articlePage(article, bodyHtml, related) {
   const shareHtml = sharePanelHtml(meta, url);
   const bodyWithShare = injectAfterFirstParagraph(bodyHtml, shareHtml);
   const relatedHtml = relatedModuleHtml(meta, related, sourceRecordFromMeta(article));
+  const monetizationHtml = monetizationNextStepHtml(meta);
   const sourceLinks = [
     meta.dcard_url ? `<a class="tag" href="${escapeHtml(meta.dcard_url)}" target="_blank" rel="noopener">${ui.originalDcard}</a>` : "",
     meta.facebook_url ? `<a class="tag" href="${escapeHtml(meta.facebook_url)}" target="_blank" rel="noopener">${ui.originalFb}</a>` : "",
@@ -1068,11 +1197,7 @@ ${headerHtml("articles", meta)}
       ${citationBoxHtml(meta, url)}
       <div class="notice">${disclaimerFor(meta)}</div>
       ${sourceLinks ? `<h2>${ui.originalHeading}</h2><div class="tag-row">${sourceLinks}</div>` : ""}
-      <div class="paid-note">
-        <h2>${ui.paidHeading}</h2>
-        <p>${ui.paidCopy}</p>
-        <div class="actions"><a class="button primary" href="${localLinks.subscribe}">${ui.paidCta}</a></div>
-      </div>
+      ${monetizationHtml}
       ${relatedHtml}
       </article>
       <aside class="sidebar">

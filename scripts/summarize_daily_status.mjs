@@ -126,7 +126,7 @@ function nextAction(status, pm, fbCandidate, dcard) {
     if (dcard.humanVerification) {
       return "FB 可見預覽已對上官網最新文章；Dcard 目前要求真人安全驗證，沒有文章 DOM。請在社群擷取 Chrome 完成人工驗證後重跑每日檢查，或直接提供 Dcard 貼文網址 / 全文＋圖片。";
     }
-    return "FB 可見預覽已對上官網最新文章；Dcard 作者頁目前只回傳登入 / App 外殼，沒有單篇文章連結。若 Dcard 今天有新文，最快做法是在社群擷取 Chrome 直接打開最新 Dcard 單篇貼文，然後執行：/bin/zsh scripts/codex_daily_start.sh --dcard-current。";
+    return "FB 可見預覽已對上官網最新文章；Dcard 作者頁目前只回傳登入 / App 外殼，沒有單篇文章連結。若 Dcard 今天有新文，請在社群擷取 Chrome 直接打開最新 Dcard 單篇貼文；每日流程會自動偵測該分頁，也可執行：/bin/zsh scripts/codex_daily_start.sh --dcard-current。";
   }
   if (fbCandidate?.title) {
     return `FB 今天可見新文標題是「${fbCandidate.title}」，但目前只取得 ${fbCandidate.textLength} 字預覽。需要登入後完整貼文正文與圖片 URL，或請提供貼文全文＋圖片。`;
@@ -135,7 +135,7 @@ function nextAction(status, pm, fbCandidate, dcard) {
     if (dcard.humanVerification) {
       return "Dcard 目前要求真人安全驗證，沒有文章 DOM。請在社群擷取 Chrome 完成人工驗證後重跑每日檢查，或提供 Dcard 貼文網址 / 全文＋圖片。";
     }
-    return "Dcard 目前只回傳登入 / App 外殼，沒有文章連結。請在社群擷取 Chrome 直接打開最新 Dcard 單篇貼文後執行：/bin/zsh scripts/codex_daily_start.sh --dcard-current；或提供貼文全文＋圖片。";
+    return "Dcard 目前只回傳登入 / App 外殼，沒有文章連結。請在社群擷取 Chrome 直接打開最新 Dcard 單篇貼文；每日流程會自動偵測該分頁，也可執行：/bin/zsh scripts/codex_daily_start.sh --dcard-current；或提供貼文全文＋圖片。";
   }
   return pm?.next_actions?.[0] || status?.next_step || "若今天有新文，請提供最新貼文網址或全文＋圖片。";
 }
