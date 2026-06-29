@@ -1985,6 +1985,51 @@ function newsSitemap(records) {
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n${items.join("\n")}\n</urlset>\n`;
 }
 
+function sitemapImageEntries(article) {
+  const images = new Map();
+  const record = articleRecord(article);
+  const cover = coverImage(article);
+  if (cover.src && isLocalAssetImage(cover.src)) {
+    images.set(cover.src, cover.alt || record.title);
+  }
+  for (const image of findMarkdownImages(article.markdown)) {
+    const mapped = article.imageMap.get(image.src) || image.src;
+    if (!isLocalAssetImage(mapped)) continue;
+    images.set(mapped, image.alt || record.title);
+  }
+  return [...images.entries()].map(([src, caption]) => ({
+    loc: absoluteUrl(src),
+    caption: caption || record.title,
+    title: record.title
+  }));
+}
+
+function isLocalAssetImage(src) {
+  const value = String(src || "");
+  return /^(?:\.\.\/)?assets\/articles\//.test(value) || value.startsWith(`${BASE_URL}/assets/articles/`);
+}
+
+function imageSitemap(articles) {
+  const urls = articles
+    .map((article) => {
+      const record = articleRecord(article);
+      const images = sitemapImageEntries(article);
+      if (!images.length) return "";
+      const imageXml = images.map((image) => `    <image:image>
+      <image:loc>${escapeXml(image.loc)}</image:loc>
+      <image:caption>${escapeXml(image.caption)}</image:caption>
+      <image:title>${escapeXml(image.title)}</image:title>
+    </image:image>`).join("\n");
+      return `  <url>
+    <loc>${escapeXml(`${BASE_URL}/${record.url}`)}</loc>
+${imageXml}
+  </url>`;
+    })
+    .filter(Boolean)
+    .join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls}\n</urlset>\n`;
+}
+
 function rssFeed(records) {
   const items = records.slice(0, 25).map((item) => {
     const link = item.external ? item.url : `${BASE_URL}/${item.url}`;
@@ -2690,6 +2735,7 @@ async function main() {
   await writeAtomic(path.join(ROOT, "brand-profile.json"), brandProfileJson(allRecords));
   await writeAtomic(path.join(ROOT, "sitemap.xml"), sitemap(allRecords));
   await writeAtomic(path.join(ROOT, "news-sitemap.xml"), newsSitemap(allRecords));
+  await writeAtomic(path.join(ROOT, "image-sitemap.xml"), imageSitemap(withImages));
   await writeAtomic(path.join(ROOT, "feed.xml"), rssFeed(zhRecords));
   await writeAtomic(path.join(ROOT, "feed.json"), jsonFeed(zhRecords));
   await writeAtomic(path.join(ROOT, "llms.txt"), llmsText(allRecords));

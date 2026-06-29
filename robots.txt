@@ -3,6 +3,7 @@ Allow: /
 
 Sitemap: https://drugnews.com.tw/sitemap.xml
 Sitemap: https://drugnews.com.tw/news-sitemap.xml
+Sitemap: https://drugnews.com.tw/image-sitemap.xml
 
 # Machine-readable site overview for AI search and answer engines.
 Allow: /llms.txt

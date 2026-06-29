@@ -195,6 +195,20 @@ function sitemapCompletenessStatus(sitemap = "") {
   };
 }
 
+function imageSitemapStatus(imageSitemap = "", latest = null) {
+  const hasNamespace = imageSitemap.includes("http://www.google.com/schemas/sitemap-image/1.1");
+  const imageCount = (imageSitemap.match(/<image:image>/g) || []).length;
+  const latestUrl = latest?.url ? `${BASE_URL}/${latest.url}` : "";
+  const hasLatest = latestUrl ? imageSitemap.includes(latestUrl) : false;
+  const ok = hasNamespace && imageCount >= 100 && hasLatest;
+  return {
+    ok,
+    detail: ok
+      ? `${imageCount} article image(s) exposed; latest article included`
+      : `namespace: ${hasNamespace}; image count: ${imageCount}; latest included: ${hasLatest}`
+  };
+}
+
 function collectionPagesStatus(records = []) {
   const pages = [
     ["articles/index.html", "文章中心", records.length],
@@ -393,6 +407,7 @@ async function main() {
   const robots = await readText("robots.txt");
   const sitemap = await readText("sitemap.xml");
   const newsSitemap = await readText("news-sitemap.xml");
+  const imageSitemapText = await readText("image-sitemap.xml");
   const llms = await readText("llms.txt");
   const subscribeHtml = await readText("subscribe.html");
   const enSubscribeHtml = await readText("en/subscribe.html");
@@ -400,6 +415,7 @@ async function main() {
   const enOfferCatalog = offerCatalogStatus(enSubscribeHtml);
   const structuredArticles = structuredArticleStatus(records, 30);
   const sitemapCompleteness = sitemapCompletenessStatus(sitemap);
+  const imageSitemapCheck = imageSitemapStatus(imageSitemapText, latest);
   const collectionPages = collectionPagesStatus(records);
   const cleanArticleTopicMetadata = cleanArticleTopicMetadataStatus(records, 30);
   const imageAssets = imageAssetStatus(records);
@@ -439,6 +455,7 @@ async function main() {
     check("article_collection_schema", collectionPages.ok, collectionPages.detail, "warning"),
     check("image_assets_exist", imageAssets.ok, imageAssets.detail, "warning"),
     check("news_sitemap_exists", fileExists("news-sitemap.xml") && newsSitemap.includes("<url>"), "news-sitemap.xml has entries", "warning"),
+    check("image_sitemap_exists", fileExists("image-sitemap.xml") && robots.includes("image-sitemap.xml") && imageSitemapCheck.ok, imageSitemapCheck.detail, "warning"),
     check("references_latest_30", references?.truncated_url_articles === 0, `${references?.truncated_url_articles ?? "unknown"} articles with truncated URLs`, "error"),
     check("structured_article_schema_latest_30", structuredArticles.ok, structuredArticles.detail, "warning"),
     check("clean_article_topic_metadata_latest_30", cleanArticleTopicMetadata.ok, cleanArticleTopicMetadata.detail, "warning"),
