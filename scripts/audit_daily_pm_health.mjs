@@ -147,6 +147,70 @@ function structuredArticleStatus(records = [], limit = 30) {
   };
 }
 
+function graphNodesFromHtml(html = "") {
+  return jsonLdBlocks(html).flatMap((block) => Array.isArray(block?.["@graph"]) ? block["@graph"] : [block]);
+}
+
+function sitemapCompletenessStatus(sitemap = "") {
+  const requiredPaths = [
+    "/en/",
+    "/en/articles/",
+    "/en/guides/",
+    "/en/services.html",
+    "/en/subscribe.html",
+    "/topics/",
+    "/topics/biotech-investing.html",
+    "/topics/biotech-valuation.html",
+    "/topics/bd-licensing.html",
+    "/topics/clinical-data.html",
+    "/topics/drug-development.html",
+    "/topics/big-pharma.html",
+    "/topics/glp1.html",
+    "/companies.html"
+  ];
+  const missing = requiredPaths.filter((item) => !sitemap.includes(`${BASE_URL}${item}`));
+  return {
+    ok: missing.length === 0,
+    detail: missing.length
+      ? `Missing sitemap entries: ${missing.join(", ")}`
+      : `${requiredPaths.length} public English/topic/company entrypoints are present`
+  };
+}
+
+function collectionPagesStatus(records = []) {
+  const pages = [
+    ["articles/index.html", "文章中心", records.length],
+    ["articles/category/business-analysis.html", "商業分析", records.filter((item) => item.category === "商業分析系列").length],
+    ["articles/category/fundamental-analysis.html", "基本面", records.filter((item) => item.category === "基本面系列").length],
+    ["articles/category/medical-conference.html", "醫學大會", records.filter((item) => item.category === "醫學大會").length],
+    ["articles/category/paid-deep-analysis.html", "深度商業分析", records.filter((item) => item.category === "付費深度商業分析文章系列").length],
+    ["articles/category/big-pharma.html", "製藥巨頭", records.filter((item) => item.category === "製藥巨頭系列").length]
+  ];
+  const issues = [];
+  for (const [relativePath, label, expectedCount] of pages) {
+    const fullPath = path.join(ROOT, relativePath);
+    const html = fs.existsSync(fullPath) ? fs.readFileSync(fullPath, "utf8") : "";
+    const nodes = graphNodesFromHtml(html);
+    const collection = nodes.find((item) => item?.["@type"] === "CollectionPage");
+    const list = nodes.find((item) => item?.["@type"] === "ItemList");
+    const listed = Array.isArray(list?.itemListElement) ? list.itemListElement.length : 0;
+    if (!collection || !list) {
+      issues.push(`${label}: missing CollectionPage/ItemList`);
+      continue;
+    }
+    if (Number(list.numberOfItems) !== expectedCount) {
+      issues.push(`${label}: ItemList count ${list.numberOfItems} does not match ${expectedCount}`);
+    }
+    if (expectedCount > 0 && listed < Math.min(expectedCount, 30)) {
+      issues.push(`${label}: only ${listed} list item(s) exposed`);
+    }
+  }
+  return {
+    ok: issues.length === 0,
+    detail: issues.length ? issues.slice(0, 4).join(" | ") : `${pages.length} article hub pages expose CollectionPage and ItemList schema`
+  };
+}
+
 function summarizeFacebookDiagnostics(diagnostics) {
   if (!diagnostics) return "";
   if (diagnostics.rejected_reason) {
@@ -223,6 +287,8 @@ async function main() {
   const zhOfferCatalog = offerCatalogStatus(subscribeHtml);
   const enOfferCatalog = offerCatalogStatus(enSubscribeHtml);
   const structuredArticles = structuredArticleStatus(records, 30);
+  const sitemapCompleteness = sitemapCompletenessStatus(sitemap);
+  const collectionPages = collectionPagesStatus(records);
 
   const references = runJson("scripts/audit_references.mjs", ["--limit=30"]).parsed;
   const reader = runJson("scripts/audit_reader_experience.mjs", ["--limit=30"]).parsed;
@@ -252,6 +318,8 @@ async function main() {
     check("paid_offer_catalog_zh", zhOfferCatalog.ok, zhOfferCatalog.detail, "warning"),
     check("paid_offer_catalog_en", enOfferCatalog.ok, enOfferCatalog.detail, "warning"),
     check("sitemap_ai_index", sitemap.includes(`${BASE_URL}/ai-index.json`) && sitemap.includes(`${BASE_URL}/feed.json`) && sitemap.includes(`${BASE_URL}/llms.txt`) && sitemap.includes(`${BASE_URL}/knowledge-graph.json`) && sitemap.includes(`${BASE_URL}/market-radar.html`) && sitemap.includes(`${BASE_URL}/market-radar.json`) && sitemap.includes(`${BASE_URL}/brand-profile.json`), "sitemap includes AI-readable files", "warning"),
+    check("sitemap_public_entrypoints", sitemapCompleteness.ok, sitemapCompleteness.detail, "warning"),
+    check("article_collection_schema", collectionPages.ok, collectionPages.detail, "warning"),
     check("news_sitemap_exists", fileExists("news-sitemap.xml") && newsSitemap.includes("<url>"), "news-sitemap.xml has entries", "warning"),
     check("references_latest_30", references?.truncated_url_articles === 0, `${references?.truncated_url_articles ?? "unknown"} articles with truncated URLs`, "error"),
     check("structured_article_schema_latest_30", structuredArticles.ok, structuredArticles.detail, "warning"),
