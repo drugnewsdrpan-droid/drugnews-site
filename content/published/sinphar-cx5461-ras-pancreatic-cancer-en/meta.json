@@ -16,12 +16,12 @@
     "Drug development"
   ],
   "summary": "Daraxonrasib opens a new pancreatic-cancer window, but the next value question is resistance management. Senhwa's CX-5461 matters if it can become a rational combination partner.",
-  "cover_image": "images/cover-en.svg",
+  "cover_image": "images/cover.png",
   "cover_image_alt": "RAS Resistance Management: Where CX-5461 Could Matter",
   "source_platform": "Website",
   "editorial_note": "Full English translation generated from the Chinese edition with Google Translate batch workflow; structure, links, and image positions preserved by Drugnews editorial tooling.",
   "translation_status": "full_google_translate_pass",
   "translation_updated_at": "2026-06-14T03:02:17.246Z",
-  "visual_status": "english_reader_cards",
-  "visual_updated_at": "2026-06-24T01:24:35.108Z"
+  "visual_status": "gpt_background_programmatic_english_png_cards",
+  "visual_updated_at": "2026-06-30T05:05:00+08:00"
 }

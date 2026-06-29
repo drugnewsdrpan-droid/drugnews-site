@@ -10,7 +10,7 @@ But if you just regard it as "another nuclear medicine merger," you will actuall
 
 If the deal is finally completed, it will not only set a new record for the value of nuclear medicine M&A, but also tell the market one thing: the valuation logic of nuclear medicine no longer only depends on "how many pipelines are on hand", but begins to look at who can string together diagnosis, manufacturing, distribution, hospital-side network and treatment-side capabilities into a truly amplified platform.
 
-![Radiopharma Is a Platform Game](images/figure-01-en.svg)
+![Radiopharma Is a Platform Game](images/figure-01.png)
 
 ## 01｜Lantheus is valuable, not just a prostate cancer PET drug
 

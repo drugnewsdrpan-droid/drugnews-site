@@ -14,7 +14,7 @@ But new problems also arise.
 
 > RAS inhibitors are not an endpoint. The real next war is drug resistance.
 
-![RAS Opens the Door](images/figure-01-en.svg)
+![RAS Opens the Door](images/figure-01.png)
 
 ## 01｜After RAS is suppressed, where will the cancer cells escape?
 
@@ -36,7 +36,7 @@ Therefore, after the success of RAS inhibitors, what we really need to ask in cl
 
 This is where the positioning of Biotech CX-5461 (Pidnarulex) starts to get interesting.
 
-![Escape Pathways](images/figure-02-en.svg)
+![Escape Pathways](images/figure-02.png)
 
 ## 02｜CX-5461: Not replacing RAS inhibitors, but adding to the resistance puzzle
 
@@ -54,7 +54,7 @@ This is also the core logic behind its combined use with the PD-1 inhibitor Tisl
 
 If RAS inhibitors are like shutting down the main engine of pancreatic cancer, then the idea of ​​CX-5461 is to make the remaining cancer cells face multiple pressures at the same time and improve the immune system's chance of clearing the cancer cells.
 
-![CX-5461 Positioning](images/figure-03-en.svg)
+![CX-5461 Positioning](images/figure-03.png)
 
 ## 03｜Changing the tumor from cold to hot is the key to immunotherapy of pancreatic cancer
 
@@ -114,7 +114,7 @@ This is important. Because the value of CX-5461 should not be tied to a single p
 
 For investors, Shenghuake is not simply a "pancreatic cancer subject", nor is it a pure "RAS subject". What really matters is the three clinical nodes.
 
-![What to Track](images/figure-04-en.svg)
+![What to Track](images/figure-04.png)
 
 - First, whether the CX-5461 + Tislelizumab trial can be successfully launched and accepted. This is the critical first step for Shenghuake to move from a single-drug mechanism to immune combination therapy.
 - Second, whether immune sensitization and disease control signals can be seen in KRAS-positive treated patients. This will determine whether CX-5461 can truly block the post-RAS inhibitor era.
