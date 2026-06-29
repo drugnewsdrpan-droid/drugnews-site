@@ -99,6 +99,54 @@ function offerCatalogStatus(html = "") {
   };
 }
 
+function structuredArticleStatus(records = [], limit = 30) {
+  const latest = [...records]
+    .filter((item) => !item.external && item.fileName && item.url)
+    .sort((a, b) => new Date(b.publishAt || b.date) - new Date(a.publishAt || a.date))
+    .slice(0, limit);
+  const issues = [];
+  let withCitation = 0;
+  let withReadingMeta = 0;
+  for (const record of latest) {
+    const html = fs.existsSync(path.join(ROOT, record.url))
+      ? fs.readFileSync(path.join(ROOT, record.url), "utf8")
+      : "";
+    const article = jsonLdBlocks(html).find((block) => block?.["@type"] === "Article");
+    if (!article) {
+      issues.push(`${record.date} ${record.title}: missing Article JSON-LD`);
+      continue;
+    }
+    if (Number(article.wordCount) > 0 && /^PT\d+M$/.test(String(article.timeRequired || ""))) {
+      withReadingMeta += 1;
+    } else {
+      issues.push(`${record.date} ${record.title}: missing wordCount/timeRequired`);
+    }
+    if (Array.isArray(article.citation) && article.citation.some((item) => item?.url)) {
+      withCitation += 1;
+    }
+  }
+  const latestTen = latest.slice(0, 10);
+  let latestTenWithCitation = 0;
+  for (const record of latestTen) {
+    const html = fs.existsSync(path.join(ROOT, record.url))
+      ? fs.readFileSync(path.join(ROOT, record.url), "utf8")
+      : "";
+    const article = jsonLdBlocks(html).find((block) => block?.["@type"] === "Article");
+    if (Array.isArray(article?.citation) && article.citation.some((item) => item?.url)) {
+      latestTenWithCitation += 1;
+    }
+  }
+  const ok = latest.length === limit &&
+    withReadingMeta === latest.length &&
+    latestTenWithCitation >= 8 &&
+    withCitation >= 15 &&
+    issues.length === 0;
+  return {
+    ok,
+    detail: `${withReadingMeta}/${latest.length} have reading metadata; ${latestTenWithCitation}/${latestTen.length} latest articles and ${withCitation}/${latest.length} latest-${limit} articles have citation schema${issues.length ? `; ${issues.slice(0, 3).join(" | ")}` : ""}`
+  };
+}
+
 function summarizeFacebookDiagnostics(diagnostics) {
   if (!diagnostics) return "";
   if (diagnostics.rejected_reason) {
@@ -174,6 +222,7 @@ async function main() {
   const enSubscribeHtml = await readText("en/subscribe.html");
   const zhOfferCatalog = offerCatalogStatus(subscribeHtml);
   const enOfferCatalog = offerCatalogStatus(enSubscribeHtml);
+  const structuredArticles = structuredArticleStatus(records, 30);
 
   const references = runJson("scripts/audit_references.mjs", ["--limit=30"]).parsed;
   const reader = runJson("scripts/audit_reader_experience.mjs", ["--limit=30"]).parsed;
@@ -205,6 +254,7 @@ async function main() {
     check("sitemap_ai_index", sitemap.includes(`${BASE_URL}/ai-index.json`) && sitemap.includes(`${BASE_URL}/feed.json`) && sitemap.includes(`${BASE_URL}/llms.txt`) && sitemap.includes(`${BASE_URL}/knowledge-graph.json`) && sitemap.includes(`${BASE_URL}/market-radar.html`) && sitemap.includes(`${BASE_URL}/market-radar.json`) && sitemap.includes(`${BASE_URL}/brand-profile.json`), "sitemap includes AI-readable files", "warning"),
     check("news_sitemap_exists", fileExists("news-sitemap.xml") && newsSitemap.includes("<url>"), "news-sitemap.xml has entries", "warning"),
     check("references_latest_30", references?.truncated_url_articles === 0, `${references?.truncated_url_articles ?? "unknown"} articles with truncated URLs`, "error"),
+    check("structured_article_schema_latest_30", structuredArticles.ok, structuredArticles.detail, "warning"),
     check("reader_related_latest_30", reader?.failed_articles === 0, `${reader?.passed_articles ?? 0}/${reader?.checked_articles ?? 0} passed related-reading audit`, "warning"),
     check("reading_product_tasks", readingProduct?.status === "ok", readingProduct?.status === "ok" ? "mobile, search, topic hubs, tags, and share placement passed" : `${readingProduct?.failed?.length ?? "unknown"} reading-product task(s) need review`, "warning"),
     check("english_localization_images", englishLocalization?.status === "ok", englishLocalization?.status === "ok" ? `${englishLocalization.checked_articles} English articles checked; no Chinese social images reused` : `${englishLocalization?.flagged_images?.length ?? "unknown"} localized image issue(s)`, "warning"),
