@@ -53,6 +53,56 @@ function warningLines(pm) {
     .map((check) => `- ${check.name}: ${check.detail}`);
 }
 
+function pmCheck(pm, name) {
+  return (pm?.checks || []).find((check) => check.name === name) || null;
+}
+
+function statusOk(pm, name) {
+  return pmCheck(pm, name)?.status === "ok";
+}
+
+function cxoScorecard(status, pm) {
+  const imported = Array.isArray(status?.imported_posts) ? status.imported_posts : [];
+  const rows = [
+    {
+      label: "每日文章更新",
+      weight: 25,
+      ok: Boolean(imported.length) || statusOk(pm, "latest_article_recent"),
+      note: imported.length ? `新匯入 ${imported.length} 篇` : pmCheck(pm, "latest_article_recent")?.detail || "最新文章狀態未知"
+    },
+    {
+      label: "閱讀體驗",
+      weight: 20,
+      ok: statusOk(pm, "reader_related_latest_30") && statusOk(pm, "reading_product_tasks"),
+      note: [pmCheck(pm, "reader_related_latest_30")?.detail, pmCheck(pm, "reading_product_tasks")?.detail].filter(Boolean).join("；")
+    },
+    {
+      label: "搜尋與 AI 可讀性",
+      weight: 25,
+      ok: statusOk(pm, "sitemap_public_entrypoints") &&
+        statusOk(pm, "article_collection_schema") &&
+        statusOk(pm, "clean_article_topic_metadata_latest_30") &&
+        statusOk(pm, "sitemap_ai_index"),
+      note: [pmCheck(pm, "sitemap_public_entrypoints")?.detail, pmCheck(pm, "article_collection_schema")?.detail, pmCheck(pm, "clean_article_topic_metadata_latest_30")?.detail].filter(Boolean).join("；")
+    },
+    {
+      label: "商業轉換",
+      weight: 15,
+      ok: statusOk(pm, "paid_offer_catalog_zh") && statusOk(pm, "paid_offer_catalog_en"),
+      note: [pmCheck(pm, "paid_offer_catalog_zh")?.detail, pmCheck(pm, "paid_offer_catalog_en")?.detail].filter(Boolean).join("；")
+    },
+    {
+      label: "社群自動抓取",
+      weight: 15,
+      ok: statusOk(pm, "facebook_capture_ready") && statusOk(pm, "dcard_capture_ready"),
+      note: [pmCheck(pm, "facebook_capture_ready")?.detail, pmCheck(pm, "dcard_capture_ready")?.detail].filter(Boolean).join("；")
+    }
+  ];
+  const score = rows.reduce((sum, row) => sum + (row.ok ? row.weight : 0), 0);
+  const deductions = rows.filter((row) => !row.ok).map((row) => `- ${row.label}：-${row.weight}｜${row.note || "尚未通過"}`);
+  return { score, rows, deductions };
+}
+
 function nextAction(status, pm, fbCandidate, dcard) {
   if (Array.isArray(status?.imported_posts) && status.imported_posts.length) {
     return "檢查新文章頁、圖片、手機版、搜尋索引與 sitemap，確認後提交部署。";
@@ -95,18 +145,28 @@ async function main() {
   const imported = Array.isArray(status.imported_posts) ? status.imported_posts : [];
   const latest = latestFromSearchIndex(searchIndex) || pm.latest_article || status.latest_site_article || null;
   const warnings = warningLines(pm);
+  const scorecard = cxoScorecard(status, pm);
+  const platformState = pm?.social_status?.platform_state || status.platform_state || {};
+  const reportStatus = pm?.social_status?.status || status.status || pm.status || "unknown";
 
   const report = `# Drugnews 每日官網更新暨首席體驗官檢查點
 
 時間：${new Date().toLocaleString("zh-TW", { timeZone: "Asia/Taipei", hour12: false })}
 檢查節點：每完成 ${CHECKPOINT_HOURS} 小時工作量，暫停回傳給首席體驗官檢查
 
+## 建議評分
+
+- 建議分數：${scorecard.score} / 100
+- 評分構成：
+${scorecard.rows.map((row) => `  - ${row.ok ? "通過" : "待補"}｜${row.label}（${row.weight} 分）：${row.note || "無補充"}`).join("\n")}
+${scorecard.deductions.length ? `\n扣分原因：\n${scorecard.deductions.join("\n")}` : "\n扣分原因：無"}
+
 ## 今日同步狀態
 
-- 狀態：${status.status || pm.status || "unknown"}
+- 狀態：${reportStatus}
 - 新匯入文章：${imported.length ? imported.map((item) => item.title).join("、") : "0 篇"}
 - 官網最新文章：${latest ? `${latest.date || ""}｜${latest.title || ""}` : "尚未取得"}
-- 平台狀態：FB ${status.platform_state?.facebook || "unknown"}；Dcard ${status.platform_state?.dcard || "unknown"}
+- 平台狀態：FB ${platformState.facebook || "unknown"}；Dcard ${platformState.dcard || "unknown"}
 
 ## 平台抓取診斷
 
@@ -120,6 +180,11 @@ ${warnings.length ? warnings.join("\n") : "- 全部 PM health checks 通過"}
 ## 首席體驗官檢查重點
 
 ${checkpointVerdict(status, pm)}
+
+請首席體驗官抽查三件事：
+1. 首頁頭版是否是今天最值得讀者點進去的免費文章。
+2. 手機版文章首屏是否能快速看到正文，而不是被導覽與雜訊推太下面。
+3. 文章是否清楚導向方格子付費專欄、Facebook / Dcard 追蹤與公司合作頁。
 
 ## 下一步
 
