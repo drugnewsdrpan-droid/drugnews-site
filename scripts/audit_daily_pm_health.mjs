@@ -211,6 +211,31 @@ function collectionPagesStatus(records = []) {
   };
 }
 
+function cleanArticleTopicMetadataStatus(records = [], limit = 30) {
+  const latest = [...records]
+    .filter((item) => !item.external && item.fileName && item.url)
+    .sort((a, b) => new Date(b.publishAt || b.date) - new Date(a.publishAt || a.date))
+    .slice(0, limit);
+  const noisy = [];
+  const platformPattern = /\b(Dcard|Facebook|FB)\b|方格子|免費文章|付費文章/i;
+  for (const record of latest) {
+    const fullPath = path.join(ROOT, record.url);
+    const html = fs.existsSync(fullPath) ? fs.readFileSync(fullPath, "utf8") : "";
+    const article = jsonLdBlocks(html).find((block) => block?.["@type"] === "Article");
+    if (!article) continue;
+    const about = Array.isArray(article.about) ? article.about.map((item) => item?.name || item).join(" ") : "";
+    const keywords = String(article.keywords || "");
+    const topicText = `${about} ${keywords}`;
+    if (platformPattern.test(topicText)) noisy.push(`${record.date} ${record.title}`);
+  }
+  return {
+    ok: noisy.length === 0,
+    detail: noisy.length
+      ? `Platform labels found in Article topic metadata: ${noisy.slice(0, 3).join(" | ")}`
+      : `${latest.length} latest articles keep source-platform labels out of Article topic metadata`
+  };
+}
+
 function summarizeFacebookDiagnostics(diagnostics) {
   if (!diagnostics) return "";
   if (diagnostics.rejected_reason) {
@@ -289,6 +314,7 @@ async function main() {
   const structuredArticles = structuredArticleStatus(records, 30);
   const sitemapCompleteness = sitemapCompletenessStatus(sitemap);
   const collectionPages = collectionPagesStatus(records);
+  const cleanArticleTopicMetadata = cleanArticleTopicMetadataStatus(records, 30);
 
   const references = runJson("scripts/audit_references.mjs", ["--limit=30"]).parsed;
   const reader = runJson("scripts/audit_reader_experience.mjs", ["--limit=30"]).parsed;
@@ -323,6 +349,7 @@ async function main() {
     check("news_sitemap_exists", fileExists("news-sitemap.xml") && newsSitemap.includes("<url>"), "news-sitemap.xml has entries", "warning"),
     check("references_latest_30", references?.truncated_url_articles === 0, `${references?.truncated_url_articles ?? "unknown"} articles with truncated URLs`, "error"),
     check("structured_article_schema_latest_30", structuredArticles.ok, structuredArticles.detail, "warning"),
+    check("clean_article_topic_metadata_latest_30", cleanArticleTopicMetadata.ok, cleanArticleTopicMetadata.detail, "warning"),
     check("reader_related_latest_30", reader?.failed_articles === 0, `${reader?.passed_articles ?? 0}/${reader?.checked_articles ?? 0} passed related-reading audit`, "warning"),
     check("reading_product_tasks", readingProduct?.status === "ok", readingProduct?.status === "ok" ? "mobile, search, topic hubs, tags, and share placement passed" : `${readingProduct?.failed?.length ?? "unknown"} reading-product task(s) need review`, "warning"),
     check("english_localization_images", englishLocalization?.status === "ok", englishLocalization?.status === "ok" ? `${englishLocalization.checked_articles} English articles checked; no Chinese social images reused` : `${englishLocalization?.flagged_images?.length ?? "unknown"} localized image issue(s)`, "warning"),
