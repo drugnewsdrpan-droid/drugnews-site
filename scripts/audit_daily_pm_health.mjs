@@ -409,6 +409,7 @@ async function main() {
   const reader = runJson("scripts/audit_reader_experience.mjs", ["--limit=30"]).parsed;
   const readingProduct = runJson("scripts/audit_reading_product_tasks.mjs").parsed;
   const englishLocalization = runJson("scripts/audit_english_localization.mjs").parsed;
+  const englishVisual = runJson("scripts/audit_english_visual_quality.mjs").parsed;
   const social = runJson("scripts/daily_social_update_check.mjs", ["--dry-run"]).parsed;
 
   const latestAge = daysSince(latest?.publishAt || latest?.date);
@@ -444,6 +445,7 @@ async function main() {
     check("reader_related_latest_30", reader?.failed_articles === 0, `${reader?.passed_articles ?? 0}/${reader?.checked_articles ?? 0} passed related-reading audit`, "warning"),
     check("reading_product_tasks", readingProduct?.status === "ok", readingProduct?.status === "ok" ? "mobile, search, topic hubs, tags, and share placement passed" : `${readingProduct?.failed?.length ?? "unknown"} reading-product task(s) need review`, "warning"),
     check("english_localization_images", englishLocalization?.status === "ok", englishLocalization?.status === "ok" ? `${englishLocalization.checked_articles} English articles checked; no Chinese social images reused` : `${englishLocalization?.flagged_images?.length ?? "unknown"} localized image issue(s)`, "warning"),
+    check("english_visual_quality", englishVisual?.status === "ok", englishVisual?.status === "ok" ? `${englishVisual.checked_articles} English articles use generated raster-ready artwork` : `${englishVisual?.recent_articles_needing_generated_artwork ?? "unknown"} recent English article(s) still need GPT-generated raster artwork; ${englishVisual?.articles_needing_generated_artwork ?? "unknown"} total backlog`, "warning"),
     captureCheck("facebook_capture_ready", SOCIAL_FB_INPUT, facebookCapture, summarizeFacebookDiagnostics(facebookDiagnostics), {
       limitedButCurrent: facebookPreviewAlreadyPublished(facebookDiagnostics, latest)
     }),
