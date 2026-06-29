@@ -18,7 +18,7 @@ The real question is: who can solve the problems the duopoly has not fully solve
 
 ## 1. The Duopoly Is Moving Beyond Injections: Oral Drugs and Multi-Target Biology Are the Next Battlefield
 
-![Product-portfolio battle](images/figure-01-en.svg)
+![Product-portfolio battle](images/figure-01.png)
 
 The Lilly versus Novo battle is no longer a single-product contest. It has become a product-portfolio contest.
 
@@ -64,7 +64,7 @@ This war is no longer about who can make one good drug. It is about who can buil
 
 ## 2. The Third Player Cannot Be a Weaker Lilly or Novo
 
-![A third player needs asymmetry](images/figure-02-en.svg)
+![A third player needs asymmetry](images/figure-02.png)
 
 For challengers, the least realistic strategy is to build something that merely looks like semaglutide or tirzepatide. The duopoly's moat is too deep.
 
@@ -88,7 +88,7 @@ In other words, the third player will not be a weaker version of Lilly. It has t
 
 ## 3. Pfizer: Berobenatide and the Monthly-Injection Window
 
-![Pfizer's opening](images/figure-03-en.svg)
+![Pfizer's opening](images/figure-03.png)
 
 Pfizer's most important obesity card is berobenatide.
 
@@ -112,7 +112,7 @@ Pfizer's strategy is pragmatic. It may not need the highest weight-loss number. 
 
 ## 4. Roche: Petrelintide for Tolerability, Enicepatide for Efficacy
 
-![Roche's two-axis strategy](images/figure-04-en.svg)
+![Roche's two-axis strategy](images/figure-04.png)
 
 Roche's strategy looks more like a two-line campaign.
 
