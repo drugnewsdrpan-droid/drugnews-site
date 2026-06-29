@@ -17,6 +17,14 @@ function fileExists(relativePath) {
   return fs.existsSync(path.join(ROOT, relativePath));
 }
 
+function dirExists(relativePath) {
+  try {
+    return fs.statSync(path.join(ROOT, relativePath)).isDirectory();
+  } catch {
+    return false;
+  }
+}
+
 async function readJson(filePath, fallback = null) {
   try {
     return JSON.parse(await fsp.readFile(filePath, "utf8"));
@@ -341,7 +349,7 @@ async function main() {
     check("json_feed_exists", fileExists("feed.json") && robots.includes("Allow: /feed.json") && sitemap.includes(`${BASE_URL}/feed.json`), `${BASE_URL}/feed.json`, "warning"),
     check("market_radar_exists", fileExists("market-radar.html") && fileExists("market-radar.json") && robots.includes("Allow: /market-radar.json"), `${BASE_URL}/market-radar.html`, "warning"),
     check("brand_profile_exists", fileExists("brand-profile.json") && robots.includes("Allow: /brand-profile.json") && sitemap.includes(`${BASE_URL}/brand-profile.json`), `${BASE_URL}/brand-profile.json`, "warning"),
-    check("japanese_gateway_removed", !fileExists("ja/index.html") && !sitemap.includes(`${BASE_URL}/ja/`), "Japanese gateway is intentionally not exposed until localization quality is ready", "warning"),
+    check("japanese_gateway_removed", !dirExists("ja") && !sitemap.includes(`${BASE_URL}/ja/`), "Japanese gateway and directory are intentionally not exposed until localization quality is ready", "warning"),
     check("paid_offer_catalog_zh", zhOfferCatalog.ok, zhOfferCatalog.detail, "warning"),
     check("paid_offer_catalog_en", enOfferCatalog.ok, enOfferCatalog.detail, "warning"),
     check("sitemap_ai_index", sitemap.includes(`${BASE_URL}/ai-index.json`) && sitemap.includes(`${BASE_URL}/feed.json`) && sitemap.includes(`${BASE_URL}/llms.txt`) && sitemap.includes(`${BASE_URL}/knowledge-graph.json`) && sitemap.includes(`${BASE_URL}/market-radar.html`) && sitemap.includes(`${BASE_URL}/market-radar.json`) && sitemap.includes(`${BASE_URL}/brand-profile.json`), "sitemap includes AI-readable files", "warning"),

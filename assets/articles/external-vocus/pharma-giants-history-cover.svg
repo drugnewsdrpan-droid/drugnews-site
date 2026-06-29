@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Drugnews BD and Big Pharma analysis cover</title>
+  <desc id="desc">A clean editorial cover for Drugnews paid business-analysis articles about big pharma BD conversations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbfa"/>
+      <stop offset="0.56" stop-color="#eef6f5"/>
+      <stop offset="1" stop-color="#fbf7f1"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f7180"/>
+      <stop offset="1" stop-color="#12313c"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#12313c" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" rx="34" fill="url(#bg)"/>
+  <path d="M0 525 C210 455 315 565 510 498 C700 432 820 385 1200 438 L1200 675 L0 675 Z" fill="#dfeeed" opacity="0.9"/>
+  <path d="M80 120 H1120" stroke="#cbd9dc" stroke-width="3"/>
+  <g opacity="0.34" fill="none" stroke="#b7cbcf" stroke-width="2">
+    <path d="M120 560 C210 500 285 490 386 532"/>
+    <path d="M814 150 C898 205 994 217 1094 188"/>
+    <path d="M168 230 C260 170 380 172 470 226"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="110" y="170" width="405" height="315" rx="28" fill="#ffffff" stroke="#d4e0e3" stroke-width="2"/>
+    <rect x="685" y="170" width="405" height="315" rx="28" fill="#ffffff" stroke="#d4e0e3" stroke-width="2"/>
+    <rect x="482" y="298" width="236" height="68" rx="34" fill="#ffffff" stroke="#d4e0e3" stroke-width="2"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M210 375 C250 320 305 282 380 250" stroke="#0f7180" stroke-width="16"/>
+    <path d="M803 252 H990 M803 312 H940 M803 372 H1015" stroke="#12313c" stroke-width="16"/>
+    <path d="M586 318 L612 346 L658 292" stroke="#cf7134" stroke-width="14"/>
+  </g>
+  <circle cx="206" cy="245" r="48" fill="#e8f5f4" stroke="#0f7180" stroke-width="9"/>
+  <circle cx="386" cy="245" r="48" fill="#fff2e7" stroke="#cf7134" stroke-width="9"/>
+  <path d="M232 278 L356 278" stroke="#12313c" stroke-width="12" stroke-linecap="round"/>
+  <text x="110" y="88" fill="#b2652e" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="26" font-weight="800" letter-spacing="6">DRUGNEWS PAID RESEARCH</text>
+  <text x="110" y="570" fill="#12313c" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="58" font-weight="900">BD 會議不是客氣話</text>
+  <text x="110" y="623" fill="#5f6f78" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="30" font-weight="700">真正要判斷的是買方是否願意往下一步走</text>
+  <text x="533" y="347" fill="#12313c" font-family="Arial, sans-serif" font-size="36" font-weight="900">NEXT</text>
+</svg>
