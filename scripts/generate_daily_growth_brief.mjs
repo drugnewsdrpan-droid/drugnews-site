@@ -128,6 +128,7 @@ function growthOperations(pm = {}) {
     actions.push("檢查 GA4 的文章閱讀、方格子 CTA 與公司合作 CTA 是否有事件資料。");
   }
   actions.push("把英文版文章同步放進 LinkedIn / AI 搜尋可讀入口，強化國際可引用度。");
+  actions.push("跑 node scripts/submit_indexnow.mjs，把今日主推文章、英文版與 AI-readable 檔案提交給支援 IndexNow 的搜尋引擎。");
   return actions;
 }
 

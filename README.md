@@ -51,6 +51,14 @@ For the shortest Codex handoff checklist, use `docs/daily-codex-update-playbook.
 
 Daily automation note: Codex has one active app automation named `Drugnews 每日文章更新檢查` (`drugnews`). It runs the same daily social update check at 10:45 Taipei time. Duplicate thread wakeups have been paused so the site is not updated by two competing workflows. The automation should import and deploy only when it can safely read full posts and images; if Facebook, Dcard, or Vocus blocks access, it reports the exact minimum input needed instead of guessing.
 
+After the daily growth brief is generated, notify supported search engines of the updated canonical article and AI-readable files with:
+
+```bash
+npm run growth:indexnow
+```
+
+Use `node scripts/submit_indexnow.mjs --dry-run` first when checking the URL list without sending it.
+
 For Facebook-only maintenance, use:
 
 ```bash

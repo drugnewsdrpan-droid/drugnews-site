@@ -257,6 +257,27 @@ function searchIntentsStatus(searchIntents = {}, robots = "", sitemap = "") {
   };
 }
 
+function indexNowStatus(robots = "") {
+  const packageJsonPath = path.join(ROOT, "package.json");
+  const submitScript = path.join(ROOT, "scripts", "submit_indexnow.mjs");
+  const keyPath = path.join(ROOT, "indexnow-key.txt");
+  const packageJson = fs.existsSync(packageJsonPath) ? fs.readFileSync(packageJsonPath, "utf8") : "";
+  const key = fs.existsSync(keyPath) ? fs.readFileSync(keyPath, "utf8").trim() : "";
+  const ok = Boolean(
+    key &&
+    /^[A-Za-z0-9_-]{8,128}$/.test(key) &&
+    fs.existsSync(submitScript) &&
+    packageJson.includes("growth:indexnow") &&
+    robots.includes("Allow: /indexnow-key.txt")
+  );
+  return {
+    ok,
+    detail: ok
+      ? "IndexNow key, robots allow rule, and daily submission script are ready"
+      : `key: ${key ? "present" : "missing"}; script: ${fs.existsSync(submitScript)}; npm script: ${packageJson.includes("growth:indexnow")}; robots: ${robots.includes("Allow: /indexnow-key.txt")}`
+  };
+}
+
 function collectionPagesStatus(records = []) {
   const pages = [
     ["articles/index.html", "文章中心", records.length],
@@ -517,6 +538,7 @@ async function main() {
   const imageSitemapCheck = imageSitemapStatus(imageSitemapText, latest);
   const llmsQueryRouting = llmsQueryRoutingStatus(llms);
   const searchIntentsCheck = searchIntentsStatus(searchIntents, robots, sitemap);
+  const indexNowCheck = indexNowStatus(robots);
   const collectionPages = collectionPagesStatus(records);
   const cleanArticleTopicMetadata = cleanArticleTopicMetadataStatus(records, 30);
   const imageAssets = imageAssetStatus(records);
@@ -546,6 +568,7 @@ async function main() {
     ),
     check("llms_query_routing", llmsQueryRouting.ok, llmsQueryRouting.detail, "warning"),
     check("search_intents_exists", searchIntentsCheck.ok, searchIntentsCheck.detail, "warning"),
+    check("indexnow_ready", indexNowCheck.ok, indexNowCheck.detail, "warning"),
     check("robots_ai_index", robots.includes("Allow: /ai-index.json") && robots.includes("Sitemap:"), "robots.txt exposes AI index and sitemap", "warning"),
     check("knowledge_graph_exists", fileExists("knowledge-graph.json") && robots.includes("Allow: /knowledge-graph.json"), `${BASE_URL}/knowledge-graph.json`, "warning"),
     check("json_feed_exists", fileExists("feed.json") && robots.includes("Allow: /feed.json") && sitemap.includes(`${BASE_URL}/feed.json`), `${BASE_URL}/feed.json`, "warning"),

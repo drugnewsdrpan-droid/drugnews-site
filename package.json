@@ -29,6 +29,7 @@
     "audit:pm:strict": "node scripts/audit_daily_pm_health.mjs --strict",
     "checkpoint:cxo": "node scripts/summarize_daily_status.mjs",
     "growth:brief": "node scripts/generate_daily_growth_brief.mjs",
+    "growth:indexnow": "node scripts/submit_indexnow.mjs",
     "repair:summaries": "node scripts/repair_truncated_summaries.mjs",
     "chrome:social": "scripts/start_social_capture_chrome.sh",
     "capture:fb": "node scripts/scrape_facebook_cdp.mjs profile https://www.facebook.com/profile.php?id=61568446257142 /private/tmp/drugnews-facebook-latest.json",

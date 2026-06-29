@@ -9,6 +9,7 @@ Sitemap: https://drugnews.com.tw/image-sitemap.xml
 Allow: /llms.txt
 Allow: /ai-index.json
 Allow: /search-intents.json
+Allow: /indexnow-key.txt
 Allow: /feed.json
 Allow: /knowledge-graph.json
 Allow: /market-radar.json
