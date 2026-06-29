@@ -6,7 +6,7 @@ The scientific story is RAS-addicted cancer. For decades, RAS was treated as one
 
 In previously treated metastatic pancreatic ductal adenocarcinoma, the Phase 3 RASolute-302 study showed median overall survival of 13.2 months for daraxonrasib versus 6.7 months for standard chemotherapy. In pancreatic cancer, that is not a small improvement. It is the type of data that can change how investors, physicians, and potential partners think about an entire modality.
 
-![RAS value creation](images/figure-01-en.svg)
+![RAS value creation](images/figure-01.png)
 
 But the Revolution Medicines case is not only about one strong clinical readout. It is also a case study in how biotech companies turn scientific momentum into financial runway.
 
@@ -14,7 +14,7 @@ Innovative drug development consumes cash at a brutal pace. Revolution Medicines
 
 The company has repeatedly raised money when the market was willing to pay for the next stage of the story. It did not wait until the cash balance became an emergency. After clinical catalysts and share-price re-rating, it converted investor confidence into cash. That is the difference between defensive financing and offensive financing.
 
-![Financing rhythm](images/figure-02-en.svg)
+![Financing rhythm](images/figure-02.png)
 
 The EQRx transaction was especially instructive. In a weak biotech market, Revolution used an all-stock acquisition to bring in a large cash position and support the RAS(ON) portfolio. Later, it added equity offerings, convertible notes, and a Royalty Pharma flexible funding agreement. The point was not simply to "raise money." The point was to preserve control.
 
@@ -22,7 +22,7 @@ For a late-stage oncology biotech, cash is not just a resource. It is negotiatin
 
 That is why Revolution Medicines matters for investors beyond the RAS story. Many biotech companies can describe a large opportunity. Fewer can build the clinical, financial, and organizational structure needed to reach the opportunity without being forced into a weak transaction.
 
-![Science x capital](images/figure-03-en.svg)
+![Science x capital](images/figure-03.png)
 
 The lesson for biotech readers is clear. Science creates the opening. Clinical data creates evidence. Capital creates time. Execution connects the three. Revolution Medicines is compelling because those forces reinforce each other.
 
