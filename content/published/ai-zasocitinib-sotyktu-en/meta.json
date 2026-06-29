@@ -23,9 +23,10 @@
     "Big Pharma"
   ],
   "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test.",
-  "cover_image": "images/cover-en.svg",
+  "cover_image": "images/cover.png",
   "cover_image_alt": "English BioRender-style card explaining AI-designed zasocitinib and psoriasis competition",
   "source_platform": "Website",
+  "visual_status": "gpt_background_programmatic_english_png_cards",
   "dcard_url": "https://www.dcard.tw/@drugnews/post/261716043",
   "facebook_url": "https://www.facebook.com/profile.php?id=61568446257142"
 }

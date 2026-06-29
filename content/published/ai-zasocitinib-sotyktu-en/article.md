@@ -4,7 +4,7 @@ For years, AI drug discovery has produced beautiful slides and ambitious claims.
 
 Takeda's zasocitinib is now entering that exam. In a Phase 3 psoriasis study, the oral TYK2 inhibitor showed superiority over Sotyktu in a head-to-head comparison. That does not automatically make it a blockbuster, but it does make the asset one of the clearest tests of whether AI-assisted design can translate into clinical and commercial value.
 
-![AI-designed drug enters a real clinical exam](images/cover-en.svg)
+![AI-designed drug enters a real clinical exam](images/cover.png)
 
 ## 1. In psoriasis, the bar has moved higher
 
@@ -12,7 +12,7 @@ The old benchmark in psoriasis was PASI 75. That meant a 75% improvement in dise
 
 For patients, "almost clear" and "clear" are very different experiences. For physicians and payers, deeper and durable clearance changes how a product is positioned. That is why oral convenience alone is no longer enough.
 
-![Psoriasis efficacy bar from PASI 75 to PASI 100](images/figure-01-en.svg)
+![Psoriasis efficacy bar from PASI 75 to PASI 100](images/figure-01.png)
 
 ## 2. Why zasocitinib matters for AI drug discovery
 
@@ -20,7 +20,7 @@ Zasocitinib is tied to Schrödinger's computational drug-discovery platform. The
 
 If an AI-enabled asset can beat an established oral competitor in a direct trial, investors will have a stronger reason to treat AI drug discovery as a productivity tool rather than a marketing slogan.
 
-![AI design path from modeling to clinical asset](images/figure-02-en.svg)
+![AI design path from modeling to clinical asset](images/figure-02.png)
 
 ## 3. TYK2 is the narrow gate after JAK risk
 
@@ -28,7 +28,7 @@ The TYK2 story is attractive because it promises more targeted immune modulation
 
 That is the strategic opening for Sotyktu, zasocitinib, and other next-generation oral immune assets.
 
-![TYK2 as a narrow immune signaling gate](images/figure-03-en.svg)
+![TYK2 as a narrow immune signaling gate](images/figure-03.png)
 
 ## 4. Sotyktu teaches an important commercial lesson
 
@@ -48,7 +48,7 @@ Zasocitinib is not alone. The next competitive phase may include multiple oral i
 
 The commercial winner will not be the product with the most exciting headline. It will be the product that gives physicians a simple clinical reason to prescribe and gives payers a clear economic reason to reimburse.
 
-![Commercial exam for oral psoriasis therapies](images/figure-04-en.svg)
+![Commercial exam for oral psoriasis therapies](images/figure-04.png)
 
 ## 7. The market could extend beyond psoriasis
 
