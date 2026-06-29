@@ -4,7 +4,7 @@ Tirzepatide is usually discussed as an obesity and diabetes drug. But Lilly's ne
 
 The reason this matters is simple. Autoimmune and inflammatory diseases are chronic. Psoriasis, psoriatic arthritis, inflammatory bowel disease, asthma, atopic dermatitis, and rheumatoid arthritis do not behave like short-course infections. Patients often remain inside the treatment system for years. That makes the market large, sticky, and commercially valuable.
 
-![Tirzepatide moves into immunometabolism](images/figure-01-en.svg)
+![Tirzepatide moves into immunometabolism](images/figure-01.png)
 
 ## 1. Zepbound plus Taltz is not just a weight-loss study
 
@@ -12,7 +12,7 @@ Lilly is testing Zepbound together with Taltz in people with obesity or overweig
 
 Taltz provides the immune-disease backbone. Zepbound adds a metabolic lever. If the combination improves joint, skin, weight, and inflammatory outcomes at the same time, Lilly can tell a story that is much bigger than "another obesity drug."
 
-![Combination trial logic for Zepbound and Taltz](images/figure-02-en.svg)
+![Combination trial logic for Zepbound and Taltz](images/figure-02.png)
 
 ## 2. Why psoriasis and psoriatic arthritis are natural first tests
 
@@ -26,7 +26,7 @@ The important word is immunometabolism. The idea is that metabolism and immune s
 
 If tirzepatide can interrupt part of that loop, Lilly may be able to extend the commercial boundary of Zepbound. The product would no longer be framed only as weight management. It could become an enabling therapy across several chronic-care settings.
 
-![Immunometabolism loop between obesity and inflammation](images/figure-03-en.svg)
+![Immunometabolism loop between obesity and inflammation](images/figure-03.png)
 
 ## 4. Lilly is not stopping at skin and joints
 
@@ -49,7 +49,7 @@ If the clinical data work, tirzepatide gives Lilly at least four commercial adva
 - A way to connect obesity, inflammation, and autoimmune treatment.
 - A portfolio-level narrative that is harder for single-product competitors to copy.
 
-![Commercial logic for Lilly's tirzepatide expansion](images/figure-04-en.svg)
+![Commercial logic for Lilly's tirzepatide expansion](images/figure-04.png)
 
 ## 7. What investors should not overstate
 
