@@ -96,6 +96,10 @@ echo "== 8. Search and influence growth brief =="
 "$NODE_BIN" scripts/generate_daily_growth_brief.mjs
 echo
 
+echo "== 9. Submit search-engine update signal =="
+"$NODE_BIN" scripts/submit_indexnow.mjs || true
+echo
+
 if [[ "$STRICT" == "1" ]]; then
   "$NODE_BIN" scripts/audit_references.mjs --strict
   "$NODE_BIN" scripts/audit_reader_experience.mjs --strict
