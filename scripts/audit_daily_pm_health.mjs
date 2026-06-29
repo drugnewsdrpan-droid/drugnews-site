@@ -292,6 +292,30 @@ function searchIntentsStatus(searchIntents = {}, robots = "", sitemap = "") {
   };
 }
 
+function marketRadarStockAttentionStatus(marketRadar = {}) {
+  const attention = marketRadar.stock_market_attention || {};
+  const queries = Array.isArray(attention.high_intent_queries) ? attention.high_intent_queries : [];
+  const routes = Array.isArray(attention.recommended_entrypoints) ? attention.recommended_entrypoints : [];
+  const entities = Array.isArray(attention.company_entity_routes) ? attention.company_entity_routes : [];
+  const text = JSON.stringify(attention);
+  const requiredPhrases = [
+    "台灣生技股",
+    "上市櫃 生醫公司 IR",
+    "生華科",
+    "寶泰生醫",
+    "安宏生醫",
+    "Taiwan biotech"
+  ];
+  const missing = requiredPhrases.filter((phrase) => !text.includes(phrase));
+  const ok = queries.length >= 10 && routes.length >= 5 && entities.length >= 5 && missing.length === 0;
+  return {
+    ok,
+    detail: ok
+      ? `${queries.length} high-intent stock/company query signal(s), ${entities.length} company route(s), and ${routes.length} recommended entrypoint(s) exposed in market-radar.json`
+      : `queries: ${queries.length}; entities: ${entities.length}; routes: ${routes.length}; missing: ${missing.join(", ") || "none"}`
+  };
+}
+
 function indexNowStatus(robots = "") {
   const packageJsonPath = path.join(ROOT, "package.json");
   const submitScript = path.join(ROOT, "scripts", "submit_indexnow.mjs");
@@ -553,6 +577,7 @@ async function main() {
   const records = await readJson(SEARCH_INDEX, []);
   const aiIndex = await readJson(AI_INDEX, {});
   const searchIntents = await readJson(SEARCH_INTENTS, {});
+  const marketRadar = await readJson("market-radar.json", {});
   const settings = await readJson(SITE_SETTINGS, {});
   const facebookCapture = await readJson(SOCIAL_FB_INPUT, null);
   const dcardCapture = await readJson(SOCIAL_DCARD_INPUT, null);
@@ -576,6 +601,7 @@ async function main() {
   const imageSitemapCheck = imageSitemapStatus(imageSitemapText, latest);
   const llmsQueryRouting = llmsQueryRoutingStatus(llms);
   const searchIntentsCheck = searchIntentsStatus(searchIntents, robots, sitemap);
+  const marketRadarStockAttention = marketRadarStockAttentionStatus(marketRadar);
   const indexNowCheck = indexNowStatus(robots);
   const collectionPages = collectionPagesStatus(records);
   const cleanArticleTopicMetadata = cleanArticleTopicMetadataStatus(records, 30);
@@ -606,6 +632,7 @@ async function main() {
     ),
     check("llms_query_routing", llmsQueryRouting.ok, llmsQueryRouting.detail, "warning"),
     check("search_intents_exists", searchIntentsCheck.ok, searchIntentsCheck.detail, "warning"),
+    check("market_radar_stock_attention", marketRadarStockAttention.ok, marketRadarStockAttention.detail, "warning"),
     check("indexnow_ready", indexNowCheck.ok, indexNowCheck.detail, "warning"),
     check("robots_ai_index", robots.includes("Allow: /ai-index.json") && robots.includes("Sitemap:"), "robots.txt exposes AI index and sitemap", "warning"),
     check("knowledge_graph_exists", fileExists("knowledge-graph.json") && robots.includes("Allow: /knowledge-graph.json"), `${BASE_URL}/knowledge-graph.json`, "warning"),
