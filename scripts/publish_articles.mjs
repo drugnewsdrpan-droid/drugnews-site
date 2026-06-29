@@ -983,12 +983,14 @@ function articlePage(article, bodyHtml, related) {
     description: meta.summary,
     mainEntityOfPage: url,
     author: {
-      "@type": "Organization",
+      "@type": ["Organization", "NewsMediaOrganization"],
+      "@id": `${BASE_URL}/#organization`,
       name: isEnglish(meta) ? "Drugnews Editorial Team" : "Drugnews 編輯部",
       url: `${BASE_URL}/team.html`
     },
     publisher: {
-      "@type": "Organization",
+      "@type": ["Organization", "NewsMediaOrganization"],
+      "@id": `${BASE_URL}/#organization`,
       name: "Drugnews",
       logo: { "@type": "ImageObject", url: `${BASE_URL}/favicon.svg` },
       sameAs: [FACEBOOK_URL, DCARD_URL, PAID_COLUMN_URL, CMONEY_URL, "https://www.instagram.com/drugnews.com.tw/"]
