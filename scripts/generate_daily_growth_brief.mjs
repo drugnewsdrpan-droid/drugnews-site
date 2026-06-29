@@ -169,6 +169,10 @@ ${brief.social_drafts.dcard}
 
 ${brief.social_drafts.cmoney}
 
+### LinkedIn / English
+
+${brief.social_drafts.linkedin}
+
 ## 轉換 CTA
 
 - 讀者：引導追蹤 Facebook、Dcard、股市爆料同學會，並訂閱方格子付費專欄。
