@@ -247,6 +247,37 @@ function collectionPagesStatus(records = []) {
   };
 }
 
+function websiteSearchActionStatus() {
+  const pages = [
+    ["index.html", `${BASE_URL}/articles/?q={search_term_string}`],
+    ["en/index.html", `${BASE_URL}/en/articles/?q={search_term_string}`]
+  ];
+  const issues = [];
+  for (const [relativePath, expectedTarget] of pages) {
+    const html = fs.existsSync(path.join(ROOT, relativePath))
+      ? fs.readFileSync(path.join(ROOT, relativePath), "utf8")
+      : "";
+    const website = graphNodesFromHtml(html).find((node) => node?.["@type"] === "WebSite");
+    const action = website?.potentialAction;
+    const actions = Array.isArray(action) ? action : [action].filter(Boolean);
+    const search = actions.find((item) => item?.["@type"] === "SearchAction");
+    if (!website || !search) {
+      issues.push(`${relativePath}: missing WebSite SearchAction`);
+      continue;
+    }
+    if (search.target !== expectedTarget) {
+      issues.push(`${relativePath}: SearchAction target is ${search.target || "missing"}`);
+    }
+    if (!String(search["query-input"] || "").includes("search_term_string")) {
+      issues.push(`${relativePath}: query-input missing search_term_string`);
+    }
+  }
+  return {
+    ok: issues.length === 0,
+    detail: issues.length ? issues.join(" | ") : "Chinese and English homepages expose WebSite SearchAction for sitelinks search"
+  };
+}
+
 function cleanArticleTopicMetadataStatus(records = [], limit = 30) {
   const latest = [...records]
     .filter((item) => !item.external && item.fileName && item.url)
@@ -420,6 +451,7 @@ async function main() {
   const cleanArticleTopicMetadata = cleanArticleTopicMetadataStatus(records, 30);
   const imageAssets = imageAssetStatus(records);
   const newsMediaOrganization = await newsMediaOrganizationStatus();
+  const websiteSearchAction = websiteSearchActionStatus();
 
   const references = runJson("scripts/audit_references.mjs", ["--limit=30"]).parsed;
   const reader = runJson("scripts/audit_reader_experience.mjs", ["--limit=30"]).parsed;
@@ -447,6 +479,7 @@ async function main() {
     check("market_radar_exists", fileExists("market-radar.html") && fileExists("market-radar.json") && robots.includes("Allow: /market-radar.json"), `${BASE_URL}/market-radar.html`, "warning"),
     check("brand_profile_exists", fileExists("brand-profile.json") && robots.includes("Allow: /brand-profile.json") && sitemap.includes(`${BASE_URL}/brand-profile.json`), `${BASE_URL}/brand-profile.json`, "warning"),
     check("news_media_organization_schema", newsMediaOrganization.ok, newsMediaOrganization.detail, "warning"),
+    check("website_search_action_schema", websiteSearchAction.ok, websiteSearchAction.detail, "warning"),
     check("japanese_gateway_removed", !dirExists("ja") && !sitemap.includes(`${BASE_URL}/ja/`), "Japanese gateway and directory are intentionally not exposed until localization quality is ready", "warning"),
     check("paid_offer_catalog_zh", zhOfferCatalog.ok, zhOfferCatalog.detail, "warning"),
     check("paid_offer_catalog_en", enOfferCatalog.ok, enOfferCatalog.detail, "warning"),
