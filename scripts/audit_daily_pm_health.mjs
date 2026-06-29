@@ -328,12 +328,17 @@ function summarizeDcardDiagnostics(diagnostics) {
     return [diagnostics.selected_url ? `current tab ${diagnostics.selected_url}` : "", diagnostics.rejected_reason].filter(Boolean).join("; ");
   }
   const profile = diagnostics.profile || {};
+  const body = profile.bodyPreview || "";
   const flags = [];
   if (profile.url) flags.push(`profile resolved to ${profile.url}`);
   if (profile.anchorCount !== undefined) flags.push(`${profile.anchorCount} anchor(s) visible`);
   if (profile.articleCount !== undefined) flags.push(`${profile.articleCount} article element(s) visible`);
   if (Array.isArray(diagnostics.links)) flags.push(`${diagnostics.links.length} post link(s) found`);
-  if (/註冊 \/ 登入|下載 App/.test(profile.bodyPreview || "")) flags.push("page shows logged-out/app-gated shell");
+  if (/需要確認您的連線是安全|驗證請求是真實的人類|you have been blocked|unable to access dcard/i.test(body)) {
+    flags.push("Dcard requires human verification before posts are visible");
+  } else if (/註冊 \/ 登入|下載 App/.test(body)) {
+    flags.push("page shows logged-out/app-gated shell");
+  }
   return flags.join("; ");
 }
 
@@ -447,12 +452,12 @@ async function main() {
     next_actions: [
       ...(social?.status === "needs_capture"
         ? [social?.platform_state?.facebook === "already_current_limited_capture" && social?.platform_state?.dcard === "needs_capture"
-          ? "Facebook visible preview already matches the latest site article. Confirm Dcard login in the capture Chrome, then rerun daily social capture only if Dcard has a newer post."
+          ? "Facebook visible preview already matches the latest site article. If Dcard has a newer post, complete the Dcard human verification/login in the capture Chrome, then rerun daily social capture."
           : "Run npm run chrome:social (or /bin/zsh scripts/start_social_capture_chrome.sh if npm is unavailable), confirm Facebook/Dcard login, then rerun daily social capture; otherwise provide capture JSON."]
         : []),
       ...(readingProduct?.status !== "ok" ? ["Run node scripts/audit_reading_product_tasks.mjs to inspect mobile/search/topic reading-experience regressions."] : []),
-      ...(!settings.google_analytics_id ? ["Add GA4 with: npm run tracking:configure -- --ga4=G-XXXXXXXXXX"] : []),
-      ...(!settings.google_search_console_verification ? ["Add Search Console with: npm run tracking:configure -- --gsc=GOOGLE_SEARCH_CONSOLE_TOKEN"] : [])
+      ...(!settings.google_analytics_id ? ["Add GA4 with: node scripts/configure_site_tracking.mjs --ga4=G-XXXXXXXXXX"] : []),
+      ...(!settings.google_search_console_verification ? ["Add Search Console with: node scripts/configure_site_tracking.mjs --gsc=GOOGLE_SEARCH_CONSOLE_TOKEN"] : [])
     ]
   };
 

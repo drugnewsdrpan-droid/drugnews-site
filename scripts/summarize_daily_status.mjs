@@ -32,12 +32,17 @@ function firstFacebookCandidate(diagnostics) {
 
 function dcardSummary(diagnostics) {
   const profile = diagnostics?.profile || {};
+  const body = profile.bodyPreview || "";
+  const humanVerification = /需要確認您的連線是安全|驗證請求是真實的人類|you have been blocked|unable to access dcard/i.test(body);
+  const appShell = /註冊 \/ 登入|下載 App/.test(body);
   return {
     url: profile.url || "",
     articleCount: profile.articleCount ?? "unknown",
     anchorCount: profile.anchorCount ?? "unknown",
     links: Array.isArray(diagnostics?.links) ? diagnostics.links.length : 0,
-    shell: /註冊 \/ 登入|下載 App/.test(profile.bodyPreview || "")
+    shell: humanVerification || appShell,
+    humanVerification,
+    appShell
   };
 }
 
@@ -114,12 +119,18 @@ function nextAction(status, pm, fbCandidate, dcard) {
     return "檢查新文章頁、圖片、手機版、搜尋索引與 sitemap，確認後提交部署。";
   }
   if (status?.platform_state?.facebook === "already_current_limited_capture" && dcard?.shell) {
+    if (dcard.humanVerification) {
+      return "FB 可見預覽已對上官網最新文章；Dcard 目前要求真人安全驗證，沒有文章 DOM。請在社群擷取 Chrome 完成人工驗證後重跑每日檢查，或直接提供 Dcard 貼文網址 / 全文＋圖片。";
+    }
     return "FB 可見預覽已對上官網最新文章；Dcard 仍只回傳登入 / App 外殼。若 Dcard 今天有新文，需要已登入瀏覽器可讀到文章，或提供 Dcard 貼文網址 / 全文＋圖片。";
   }
   if (fbCandidate?.title) {
     return `FB 今天可見新文標題是「${fbCandidate.title}」，但目前只取得 ${fbCandidate.textLength} 字預覽。需要登入後完整貼文正文與圖片 URL，或請提供貼文全文＋圖片。`;
   }
   if (dcard?.shell) {
+    if (dcard.humanVerification) {
+      return "Dcard 目前要求真人安全驗證，沒有文章 DOM。請在社群擷取 Chrome 完成人工驗證後重跑每日檢查，或提供 Dcard 貼文網址 / 全文＋圖片。";
+    }
     return "Dcard 目前只回傳登入 / App 外殼，沒有文章連結。需要已登入瀏覽器可讀到文章，或提供 Dcard 貼文網址 / 全文＋圖片。";
   }
   return pm?.next_actions?.[0] || status?.next_step || "若今天有新文，請提供最新貼文網址或全文＋圖片。";
@@ -177,7 +188,7 @@ ${scorecard.deductions.length ? `\n扣分原因：\n${scorecard.deductions.join(
 ## 平台抓取診斷
 
 - Facebook：${fbCandidate ? `可見候選「${fbCandidate.title}」，${fbCandidate.images} 張圖，正文只露出 ${fbCandidate.textLength} 字；原因：${fbCandidate.reasons.join(" / ")}` : "沒有可見長文候選"}
-- Dcard：${dcard.url || "未解析頁面"}；文章 DOM：${dcard.articleCount}；可見連結：${dcard.links}；${dcard.shell ? "目前是登入 / App 外殼" : "未偵測到登入外殼"}
+- Dcard：${dcard.url || "未解析頁面"}；文章 DOM：${dcard.articleCount}；可見連結：${dcard.links}；${dcard.humanVerification ? "目前要求真人安全驗證" : dcard.appShell ? "目前是登入 / App 外殼" : "未偵測到登入外殼"}
 
 ## 網站 QA
 
