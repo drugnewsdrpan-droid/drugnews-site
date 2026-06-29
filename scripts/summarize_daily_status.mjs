@@ -103,8 +103,8 @@ function cxoScorecard(status, pm) {
     {
       label: "商業轉換",
       weight: 10,
-      ok: statusOk(pm, "paid_offer_catalog_zh") && statusOk(pm, "paid_offer_catalog_en"),
-      note: [pmCheck(pm, "paid_offer_catalog_zh")?.detail, pmCheck(pm, "paid_offer_catalog_en")?.detail].filter(Boolean).join("；")
+      ok: statusOk(pm, "paid_offer_catalog_zh") && statusOk(pm, "paid_offer_catalog_en") && statusOk(pm, "commercial_faq_service_schema"),
+      note: [pmCheck(pm, "paid_offer_catalog_zh")?.detail, pmCheck(pm, "paid_offer_catalog_en")?.detail, pmCheck(pm, "commercial_faq_service_schema")?.detail].filter(Boolean).join("；")
     },
     {
       label: "社群自動抓取",

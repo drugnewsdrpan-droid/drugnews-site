@@ -252,6 +252,44 @@ function researchPackOfferCatalog() {
   return `  <script type="application/ld+json">${JSON.stringify(schema)}</script>`;
 }
 
+function faqSchema(items = []) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer
+      }
+    }))
+  };
+  return `  <script type="application/ld+json">${JSON.stringify(schema)}</script>`;
+}
+
+function serviceSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Drugnews biotech IR content and business-analysis services",
+    url: `${BASE_URL}/en/services.html`,
+    provider: {
+      "@type": "Organization",
+      name: "Drugnews｜藥時事",
+      url: BASE_URL
+    },
+    areaServed: ["Taiwan", "Global biotech and pharmaceutical capital markets"],
+    serviceType: ["Biotech IR content", "Investor-facing education", "Biotech business analysis", "Capital-market narrative"],
+    audience: {
+      "@type": "Audience",
+      audienceType: "public biotech companies, biotech startups, pharma companies, CDMOs, medical-technology companies, and IR teams"
+    },
+    description: "Drugnews helps biotech and pharmaceutical companies translate clinical evidence, R&D progress, licensing logic, competitive positioning, and capital-market stories into investor-readable narratives."
+  };
+  return `  <script type="application/ld+json">${JSON.stringify(schema)}</script>`;
+}
+
 function imagePath(record, depth = 1) {
   if (!record.image) return "";
   if (/^https?:\/\//i.test(record.image)) return record.image;
@@ -468,6 +506,24 @@ function articlesPage(records) {
 }
 
 function servicesPage() {
+  const faqs = [
+    {
+      question: "Who should use Drugnews company services?",
+      answer: "Drugnews company services are designed for public biotech companies, startups, pharma companies, CDMOs, medical-technology companies, and IR teams that need to explain clinical evidence, technology platforms, licensing transactions, or commercialization strategy more clearly."
+    },
+    {
+      question: "Is this advertising or editorial analysis?",
+      answer: "The goal is not to turn a company deck into advertising. Drugnews uses public information, company-approved disclosure, and research frameworks to help professional readers understand the company's value logic, risks, and catalysts."
+    },
+    {
+      question: "Can Drugnews help with English content for global readers?",
+      answer: "Yes. Drugnews maintains English articles and English service pages, and can help turn Chinese company stories into clearer English narratives for international investors and industry readers."
+    },
+    {
+      question: "How does a company start a collaboration?",
+      answer: "A company can submit the collaboration form or email drugnews.dr.pan@gmail.com. Drugnews first clarifies the market question, available disclosure, target readers, and suitable content format."
+    }
+  ];
   return page({
     title: "Drugnews｜Company Services for Biotech and Pharma",
     description: "Drugnews helps biotech and pharmaceutical companies translate science, clinical evidence, business development, and capital-market narratives into professional investor-facing content.",
@@ -475,16 +531,36 @@ function servicesPage() {
     image: `${BASE_URL}/assets/team/drugnews-team.jpg`,
     current: "services",
     depth: 1,
+    extraHead: `${serviceSchema()}\n${faqSchema(faqs)}`,
     main: `<main>
   <section class="page-title"><div class="container"><p class="eyebrow">Company Services</p><h1>Make your science, clinical progress, and business strategy understandable to professional readers.</h1><p>Drugnews is a reader-first biotech business-analysis media platform. We also work with public companies, biotech startups, pharma companies, CDMOs, and medical-technology teams to turn R&D progress, clinical evidence, licensing logic, and capital-market stories into clear company narratives.</p></div></section>
   <section class="section compact client-proof"><div class="container client-proof-grid"><div><p class="eyebrow">Client Experience</p><h2>Past collaborators</h2></div><div class="client-logo-marquee" aria-label="Past collaborators"><div class="client-logo-track"><span class="client-logo"><img src="../assets/clients/libo-official.png" alt="Libo Pharma logo"></span><span class="client-logo"><img src="../assets/clients/senhwa-official.png" alt="Senhwa Biosciences logo"></span><span class="client-logo"><img src="../assets/clients/protect-official.png" alt="PROTECT Companion Pet Care logo"></span><span class="client-logo"><img src="../assets/clients/anhorn-official.png" alt="AnHorn Medicines logo"></span><span class="client-logo"><img src="../assets/clients/intelligene-logo-20260610.png" alt="Intelligene logo"></span><span class="client-logo"><img src="../assets/clients/globalbio-logo-20260610.png" alt="Global Bio & Investment logo"></span></div></div></div></section>
   <section class="section"><div class="container section-head"><div><h2>How we help</h2><p>All collaboration content is built on public information, company-approved disclosure, and professional research frameworks.</p></div></div><div class="container grid two"><div class="card"><h3>Company research and feature articles</h3><p>We turn pipelines, platforms, clinical positioning, competitive landscapes, and business models into long-form analysis that supports reader judgment.</p></div><div class="card"><h3>IR and capital-market narratives</h3><p>We translate clinical, CMC, regulatory, commercialization, and peer-comparison information into value logic investors can follow.</p></div><div class="card"><h3>Social content and distribution</h3><p>We adapt long-form analysis into readable social summaries, visual posts, and key-message cards that lead back to clear business judgment.</p></div><div class="card"><h3>Events and interviews</h3><p>We design interviews, online briefings, event recaps, and follow-up articles that help professional readers understand a company's market position.</p></div></div></section>
   <section class="section white"><div class="container newsletter"><div><h2>Start a company-services conversation</h2><p>Tell us what you need, or email us directly at drugnews.dr.pan@gmail.com.</p></div><a class="button primary" href="https://forms.gle/rvDm93vkUx3E7Rci7" target="_blank" rel="noopener">Submit a collaboration request</a></div></section>
+  <section class="section white"><div class="container section-head"><div><p class="eyebrow">Company-service FAQ</p><h2>We help companies make value logic clear, not turn analysis into advertising.</h2><p>The goal is to help professional readers understand clinical evidence, business strategy, and capital-market signals.</p></div></div><div class="container faq-grid">${faqs.map((item) => `<article class="faq-item"><h3>${escapeHtml(item.question)}</h3><p>${escapeHtml(item.answer)}</p></article>`).join("")}</div></section>
 </main>`
   });
 }
 
 function subscribePage() {
+  const faqs = [
+    {
+      question: "How is Drugnews paid research different from free articles?",
+      answer: "Free articles explain public events. Paid research connects company tracking, industry context, valuation frameworks, BD terms, and capital-market judgment into a repeatable research system."
+    },
+    {
+      question: "Who is Drugnews paid research for?",
+      answer: "It is designed for biotech investors, industry professionals, research and BD teams, and readers who want commercial judgment around clinical data and company strategy."
+    },
+    {
+      question: "Which paid topic should I start with?",
+      answer: "Readers interested in GLP-1, obesity drugs, pipeline valuation, or licensing transactions can start from the matching paid articles and research packs. Company teams can start with an IR content audit."
+    },
+    {
+      question: "What value does a subscription provide?",
+      answer: "Subscribers get a more systematic way to track company fundamentals, clinical milestones, BD/licensing, valuation changes, and industry competition."
+    }
+  ];
   return page({
     title: "Drugnews｜Paid Biotech Research",
     description: "Subscribe to Drugnews paid research for deeper biotech company research, industry context, valuation frameworks, and capital-market judgment.",
@@ -492,12 +568,13 @@ function subscribePage() {
     image: `${BASE_URL}/assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-cancer-cell.png`,
     current: "subscribe",
     depth: 1,
-    extraHead: researchPackOfferCatalog(),
+    extraHead: `${researchPackOfferCatalog()}\n${faqSchema(faqs)}`,
     main: `<main>
   <section class="page-title paid-hero"><div class="container"><p class="eyebrow">Paid Research</p><h1>Read biotech company change as a repeatable business-judgment framework.</h1><p>Free articles help readers understand public events. Drugnews paid research goes deeper into company tracking, industry context, valuation thinking, and capital-market interpretation.</p><div class="actions"><a class="button primary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_subscribe_hero"))}" target="_blank" rel="noopener">Subscribe on Vocus</a><a class="button secondary" href="../articles/type/paid.html">View paid article series</a></div></div></section>
   <section class="section white"><div class="container section-head"><div><h2>Who it is for</h2><p>Paid research is designed for readers who want to connect individual news events into company fundamentals, clinical milestones, BD logic, and valuation change.</p></div></div><div class="container grid"><div class="card"><h3>Long-term biotech company followers</h3><p>Readers who want each event to connect back to pipeline value, clinical catalysts, and commercialization paths.</p></div><div class="card"><h3>Investors who need industry context</h3><p>Readers who follow BD, licensing, competitive dynamics, clinical risk, and capital-market repricing.</p></div><div class="card"><h3>Biotech and pharma professionals</h3><p>Industry readers who want a more commercial lens on pipelines, platforms, clinical data, and company positioning.</p></div></div></section>
   <section class="section white"><div class="container section-head"><div><p class="eyebrow">Buyable Research Packs</p><h2>Turn single articles into reusable biotech research tools.</h2><p>Drugnews can package high-demand topics into focused research packs for readers and teams who need a faster way to understand a market, valuation question, or BD decision.</p></div></div><div class="container product-grid"><article class="product-card"><span class="product-tag">Investment Framework</span><h3>GLP-1 and Obesity Drug Competition Map</h3><p>A structured view of Novo Nordisk, Lilly, oral GLP-1s, combination therapies, and next-generation obesity pipelines, focused on product, supply-chain, and commercialization advantage.</p><div class="product-meta"><span>PDF / chart pack</span><span>For investors and industry readers</span></div><a class="button primary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_glp1_research_pack", "paid_research_pack"))}" target="_blank" rel="noopener">View related paid research</a></article><article class="product-card"><span class="product-tag">BD / Licensing</span><h3>Pipeline Valuation and Licensing-Terms Pack</h3><p>A practical framework for rNPV, upfront payments, milestones, royalties, territorial rights, and how buyers price an asset before it reaches the market.</p><div class="product-meta"><span>Valuation framework</span><span>For research and BD teams</span></div><a class="button primary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_bd_valuation_pack", "paid_research_pack"))}" target="_blank" rel="noopener">View related paid research</a></article><article class="product-card"><span class="product-tag">Company Service</span><h3>Biotech IR Content Audit</h3><p>A focused review of a company's website, deck, press releases, and investor materials to clarify clinical evidence, commercialization path, competitor positioning, and catalysts.</p><div class="product-meta"><span>30-minute consultation</span><span>For company and IR teams</span></div><a class="button secondary" href="https://forms.gle/rvDm93vkUx3E7Rci7?utm_source=drugnews_site&amp;utm_medium=referral&amp;utm_campaign=company_services&amp;utm_content=english_ir_content_audit" target="_blank" rel="noopener">Book an audit</a></article></div></section>
   <section class="section"><div class="container newsletter"><div><h2>Turn Drugnews into your biotech research radar</h2><p>Follow free posts, paid research, and community discussions together to build a complete reading path.</p></div><div class="actions"><a class="button secondary" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">Facebook</a><a class="button secondary" href="https://www.dcard.tw/@drugnews" target="_blank" rel="noopener">Dcard</a><a class="button secondary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_subscribe_follow_bar"))}" target="_blank" rel="noopener">Vocus</a></div></div></section>
+  <section class="section white"><div class="container section-head"><div><p class="eyebrow">Paid-research FAQ</p><h2>You are not buying a single article. You are building a biotech research radar.</h2><p>Paid research connects individual events back to company value, clinical milestones, licensing terms, and capital-market judgment.</p></div></div><div class="container faq-grid">${faqs.map((item) => `<article class="faq-item"><h3>${escapeHtml(item.question)}</h3><p>${escapeHtml(item.answer)}</p></article>`).join("")}</div></section>
 </main>`
   });
 }

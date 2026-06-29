@@ -1432,6 +1432,28 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   margin-top: 18px;
 }
 
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.faq-item {
+  padding: 24px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.faq-item h3 {
+  margin: 0 0 10px;
+  font-size: 1.12rem;
+}
+
+.faq-item p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .paid-library {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -3108,6 +3130,9 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   }
   .company-grid,
   .company-card {
+    grid-template-columns: 1fr;
+  }
+  .faq-grid {
     grid-template-columns: 1fr;
   }
   .issue-bar a {

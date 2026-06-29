@@ -92,6 +92,13 @@ function jsonLdBlocks(html = "") {
     .filter(Boolean);
 }
 
+function jsonLdEntities(html = "") {
+  return jsonLdBlocks(html).flatMap((block) => {
+    if (Array.isArray(block?.["@graph"])) return block["@graph"];
+    return [block];
+  }).filter(Boolean);
+}
+
 function offerCatalogStatus(html = "") {
   const catalog = jsonLdBlocks(html).find((block) => block?.["@type"] === "OfferCatalog");
   if (!catalog) return { ok: false, detail: "missing OfferCatalog" };
@@ -106,6 +113,31 @@ function offerCatalogStatus(html = "") {
     detail: ok
       ? `${offers.length} offer(s): ${names.join(" / ")}`
       : `${offers.length} offer(s); research-pack tracking: ${hasResearchPackTracking}; company-service tracking: ${hasCompanyServiceTracking}`
+  };
+}
+
+function commercialFaqStatus({ subscribeHtml = "", servicesHtml = "", enSubscribeHtml = "", enServicesHtml = "" } = {}) {
+  const targets = [
+    ["subscribe.html", subscribeHtml, false],
+    ["services.html", servicesHtml, true],
+    ["en/subscribe.html", enSubscribeHtml, false],
+    ["en/services.html", enServicesHtml, true]
+  ];
+  const issues = [];
+  for (const [label, html, needsService] of targets) {
+    const entities = jsonLdEntities(html);
+    const faq = entities.find((entity) => entity?.["@type"] === "FAQPage");
+    const questions = Array.isArray(faq?.mainEntity) ? faq.mainEntity.length : 0;
+    if (questions < 4) issues.push(`${label}: ${questions} FAQ question(s)`);
+    if (needsService && !entities.find((entity) => entity?.["@type"] === "Service")) {
+      issues.push(`${label}: missing Service schema`);
+    }
+  }
+  return {
+    ok: issues.length === 0,
+    detail: issues.length
+      ? issues.join(" | ")
+      : "subscription and company-service pages expose bilingual FAQ schema; service pages expose Service schema"
   };
 }
 
@@ -531,8 +563,11 @@ async function main() {
   const llms = await readText("llms.txt");
   const subscribeHtml = await readText("subscribe.html");
   const enSubscribeHtml = await readText("en/subscribe.html");
+  const servicesHtml = await readText("services.html");
+  const enServicesHtml = await readText("en/services.html");
   const zhOfferCatalog = offerCatalogStatus(subscribeHtml);
   const enOfferCatalog = offerCatalogStatus(enSubscribeHtml);
+  const commercialFaq = commercialFaqStatus({ subscribeHtml, servicesHtml, enSubscribeHtml, enServicesHtml });
   const structuredArticles = structuredArticleStatus(records, 30);
   const sitemapCompleteness = sitemapCompletenessStatus(sitemap);
   const imageSitemapCheck = imageSitemapStatus(imageSitemapText, latest);
@@ -580,6 +615,7 @@ async function main() {
     check("japanese_gateway_removed", !dirExists("ja") && !sitemap.includes(`${BASE_URL}/ja/`), "Japanese gateway and directory are intentionally not exposed until localization quality is ready", "warning"),
     check("paid_offer_catalog_zh", zhOfferCatalog.ok, zhOfferCatalog.detail, "warning"),
     check("paid_offer_catalog_en", enOfferCatalog.ok, enOfferCatalog.detail, "warning"),
+    check("commercial_faq_service_schema", commercialFaq.ok, commercialFaq.detail, "warning"),
     check("sitemap_ai_index", sitemap.includes(`${BASE_URL}/ai-index.json`) && sitemap.includes(`${BASE_URL}/search-intents.json`) && sitemap.includes(`${BASE_URL}/feed.json`) && sitemap.includes(`${BASE_URL}/llms.txt`) && sitemap.includes(`${BASE_URL}/knowledge-graph.json`) && sitemap.includes(`${BASE_URL}/market-radar.html`) && sitemap.includes(`${BASE_URL}/market-radar.json`) && sitemap.includes(`${BASE_URL}/brand-profile.json`), "sitemap includes AI-readable files", "warning"),
     check("sitemap_public_entrypoints", sitemapCompleteness.ok, sitemapCompleteness.detail, "warning"),
     check("article_collection_schema", collectionPages.ok, collectionPages.detail, "warning"),
