@@ -19,8 +19,9 @@
     "In vivo CAR-T"
   ],
   "summary": "ASCO 2026 showed that oncology is moving from single-mechanism breakthroughs toward platform combinations across RAS targeting, ADCs, PD-1/VEGF bispecifics, and in vivo CAR-T.",
-  "cover_image": "images/cover-en.svg",
+  "cover_image": "images/cover.png",
   "cover_image_alt": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
   "source_platform": "Website",
+  "visual_status": "gpt_background_programmatic_english_png_cards",
   "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122177675516614875&id=61568446257142"
 }
