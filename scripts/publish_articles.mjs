@@ -964,6 +964,7 @@ function headerHtml(current, meta = {}) {
         home: "Home",
         articles: "Articles",
         guides: "Guides",
+        team: "Team",
         subscribe: "Paid Research",
         services: "Company Services",
         language: "中文"
@@ -973,6 +974,7 @@ function headerHtml(current, meta = {}) {
         articles: "文章",
         topics: "主題",
         guides: "指南",
+        team: "團隊",
         subscribe: "付費專欄",
         services: "公司合作",
         language: "English"
@@ -982,6 +984,7 @@ function headerHtml(current, meta = {}) {
         home: "../en/index.html",
         articles: "../en/articles/",
         guides: "../en/guides/",
+        team: "../en/team.html",
         subscribe: "../en/subscribe.html",
         services: "../en/services.html",
         language: "../index.html"
@@ -991,14 +994,16 @@ function headerHtml(current, meta = {}) {
         articles: "index.html",
         topics: "../topics/",
         guides: "../guides/",
+        team: "../team.html",
         subscribe: "../subscribe.html",
         services: "../services.html",
         language: "../en/index.html"
       };
+  const brandLabel = english ? "Drugnews" : "Drugnews｜藥時事";
   const link = (href, label, key) => `<a href="${href}"${current === key ? ' aria-current="page"' : ""}>${label}</a>`;
   return `<header class="site-header">
   <div class="container nav">
-    <a class="brand" href="${hrefs.home}"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
+    <a class="brand" href="${hrefs.home}"><img src="../favicon.svg" alt=""><span>${brandLabel}</span></a>
     <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
     <label class="nav-menu-button" for="site-nav-toggle">${english ? "Menu" : "選單"}</label>
     <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
@@ -1006,6 +1011,7 @@ function headerHtml(current, meta = {}) {
       ${link(hrefs.articles, labels.articles, "articles")}
       ${!english ? link(hrefs.topics, labels.topics, "topics") : ""}
       ${link(hrefs.guides, labels.guides, "guides")}
+      ${link(hrefs.team, labels.team, "team")}
       ${link(hrefs.subscribe, labels.subscribe, "subscribe")}
       ${link(hrefs.services, labels.services, "services")}
       ${link(hrefs.language, labels.language, "language")}
@@ -1020,6 +1026,7 @@ function nestedHeaderHtml(current = "articles", prefix = "../../") {
     [prefix + "articles/index.html", "文章", "articles"],
     [prefix + "topics/", "主題", "topics"],
     [prefix + "guides/", "指南", "guides"],
+    [prefix + "team.html", "團隊", "team"],
     [prefix + "subscribe.html", "付費專欄", "subscribe"],
     [prefix + "services.html", "公司合作", "services"],
     [prefix + "en/index.html", "English", "language"]
@@ -1722,6 +1729,7 @@ function homePage(records) {
         <a href="articles/">文章</a>
         <a href="topics/">主題</a>
         <a href="guides/">指南</a>
+        <a href="team.html">團隊</a>
         <a href="subscribe.html">付費專欄</a>
         <a href="services.html">公司合作</a>
         <a href="en/">English</a>
@@ -1749,6 +1757,7 @@ function homePage(records) {
         <a href="articles/category/business-analysis.html">商業分析系列</a>
         <a href="topics/">熱門搜尋主題</a>
         <a href="guides/">研究指南</a>
+        <a href="team.html">團隊</a>
         <a href="subscribe.html">付費專欄</a>
         <a href="services.html">公司合作</a>
       </div>
@@ -1814,6 +1823,29 @@ function homePage(records) {
         <a class="topic-hub-card" href="topics/bd-licensing.html"><span>交易判讀</span><h2>BD 授權</h2><p>拆解 upfront、milestone、royalty 與商業權利分配。</p></a>
         <a class="topic-hub-card" href="topics/clinical-data.html"><span>臨床判讀</span><h2>臨床數據</h2><p>理解 endpoint、對照組、安全性與資料是否足以改變價值。</p></a>
       </div>
+    </section>
+
+    <section class="section white">
+      <div class="container section-head">
+        <div>
+          <p class="eyebrow">Team</p>
+          <h2>雙博士團隊，把科學證據轉成商業判斷。</h2>
+        </div>
+        <p>Drugnews 由潘若凡博士與林詮盛博士共同打造，結合臨床醫學、產業研發、商業開發與資本市場視角，讓文章不只是資訊整理，而是可被檢查、比較與追蹤的研究材料。</p>
+      </div>
+      <div class="container team-grid">
+        <article class="profile-card">
+          <div class="profile-kicker">Founder / Editor-in-Chief</div>
+          <h2>潘若凡 博士</h2>
+          <p>英國曼徹斯特大學博士、台大護理學士，具臨床、醫藥國際貿易、醫療器材代理與內容創業經驗，負責 Drugnews 的選題、商業分析框架與長文編輯。</p>
+        </article>
+        <article class="profile-card">
+          <div class="profile-kicker">Partner / Scientific Strategy</div>
+          <h2>林詮盛 博士</h2>
+          <p>具長庚大學與歐盟生醫雙博士背景，擁有超過 15 年生技醫藥全鏈條經驗，協助團隊檢查科學證據、技術壁壘與研發風險。</p>
+        </article>
+      </div>
+      <div class="container actions"><a class="button secondary" href="team.html">查看完整團隊介紹</a></div>
     </section>
 
     <section class="section white">
@@ -2928,6 +2960,7 @@ function rootHeaderHtml(current = "") {
     ["articles/", "文章", "articles"],
     ["topics/", "主題", "topics"],
     ["guides/", "指南", "guides"],
+    ["team.html", "團隊", "team"],
     ["subscribe.html", "付費專欄", "subscribe"],
     ["services.html", "公司合作", "services"],
     ["en/", "English", "language"]

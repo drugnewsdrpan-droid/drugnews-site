@@ -99,6 +99,35 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+      "date": "2026-06-30",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+      "source": "Website",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "GSK",
+        "Nuvalent",
+        "Oncology",
+        "Lung cancer",
+        "ROS1",
+        "ALK",
+        "BD",
+        "M&A",
+        "Biotech investing",
+        "Big Pharma"
+      ],
+      "summary": "GSK's $10.6 billion all-cash acquisition of Nuvalent is more than a late-stage lung-cancer pipeline deal. It is a strategic attempt to rebuild oncology, buy time before major revenue pressure, and regain a seat at the precision-oncology table.",
+      "image": "https://drugnews.com.tw/assets/articles/gsk-nuvalent-oncology-comeback-en/cover-en.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-06-30-gsk-nuvalent-oncology-comeback.html"
+      }
+    },
+    {
       "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
       "date": "2026-06-30",
       "language": "zh-Hant",
@@ -118,7 +147,9 @@
       "image": "https://drugnews.com.tw/assets/articles/gsk-nuvalent-oncology-comeback/cover.png",
       "is_accessible_for_free": true,
       "is_external": false,
-      "alternate_language_versions": {}
+      "alternate_language_versions": {
+        "en": "2026-06-30-gsk-nuvalent-oncology-comeback-en.html"
+      }
     },
     {
       "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
@@ -1315,29 +1346,6 @@
       "alternate_language_versions": {
         "en": "2026-06-10-biotech-ir-capital-market-story-en.html"
       }
-    },
-    {
-      "title": "BD 解剖室 001｜BMS x 恆瑞：15.2B 美元交易不是「中國創新藥很強」這麼簡單，而是大藥廠正在買一套早期開發",
-      "date": "2026-06-10",
-      "language": "zh-Hant",
-      "url": "https://vocus.cc/salon/Drugnews/room/pharmagiants",
-      "canonical_url": "https://vocus.cc/salon/Drugnews/room/pharmagiants",
-      "source": "方格子",
-      "access": "付費文章",
-      "category": "付費深度商業分析文章系列",
-      "tags": [
-        "BMS",
-        "恆瑞",
-        "交易",
-        "upfront",
-        "milestone",
-        "royalty"
-      ],
-      "summary": "BMS x 恆瑞最高 15.2B 美元合作不能只看 headline value；真正要拆的是 upfront、周年付款、milestone、royalty 與資料包能否讓國際買方承擔下一段風險。",
-      "image": "https://drugnews.com.tw/assets/articles/external-vocus/vocus-bms-hengrui-bd-20260610-cover.svg",
-      "is_accessible_for_free": false,
-      "is_external": true,
-      "alternate_language_versions": {}
     }
   ]
 }

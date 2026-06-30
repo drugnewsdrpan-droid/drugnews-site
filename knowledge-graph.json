@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-30T01:03:49.648Z",
+  "generated_at": "2026-06-30T02:43:22.265Z",
   "site": {
     "@type": [
       "Organization",
@@ -111,6 +111,30 @@
   },
   "latest_articles": [
     {
+      "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+      "date": "2026-06-30",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "GSK",
+        "Nuvalent",
+        "Oncology",
+        "Lung cancer",
+        "ROS1",
+        "ALK",
+        "BD",
+        "M&A",
+        "Biotech investing",
+        "Big Pharma"
+      ],
+      "summary": "GSK's $10.6 billion all-cash acquisition of Nuvalent is more than a late-stage lung-cancer pipeline deal. It is a strategic attempt to rebuild oncology, buy time before major revenue pressure, and regain a seat at the precision-oncology table.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-06-30-gsk-nuvalent-oncology-comeback.html"
+      }
+    },
+    {
       "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
       "date": "2026-06-30",
       "language": "zh-Hant",
@@ -125,7 +149,9 @@
         "製藥巨頭"
       ],
       "summary": "2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。",
-      "alternate_language_versions": {}
+      "alternate_language_versions": {
+        "en": "2026-06-30-gsk-nuvalent-oncology-comeback-en.html"
+      }
     },
     {
       "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
@@ -690,34 +716,13 @@
       "alternate_language_versions": {
         "en": "2026-06-14-revolution-medicines-en.html"
       }
-    },
-    {
-      "title": "The Next Phase of AI Drug Development: Making Molecules Survive as Drugs",
-      "date": "2026-06-13",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-13-anhorn-ai-drug-development-en.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "AI Drug Development",
-        "AnHorn Medicines",
-        "AI+PROTAC",
-        "AIMCADD",
-        "NVIDIA",
-        "Clinical Asset Engine",
-        "Biotech"
-      ],
-      "summary": "AI drug development is moving from molecular generation to clinical survival. AnHorn Medicines shows how AI+PROTAC, experimental feedback, and human translation may form a Taiwan-born clinical-asset engine.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-13-dcard-261654701.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 44,
+      "mentions": 43,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -755,7 +760,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 44,
+      "mentions": 43,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -829,9 +834,47 @@
       ]
     },
     {
+      "name": "BD",
+      "type": "market_topic",
+      "mentions": 21,
+      "latest_date": "2026-06-30",
+      "latest_articles": [
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
+          "date": "2026-06-27",
+          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
+          "language": "en"
+        },
+        {
+          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
+          "date": "2026-06-27",
+          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Business Analysis",
       "type": "topic",
-      "mentions": 22,
+      "mentions": 21,
       "latest_date": "2026-06-25",
       "latest_articles": [
         {
@@ -867,47 +910,9 @@
       ]
     },
     {
-      "name": "BD",
-      "type": "market_topic",
-      "mentions": 20,
-      "latest_date": "2026-06-30",
-      "latest_articles": [
-        {
-          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-          "language": "en"
-        },
-        {
-          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "默沙東 對 PD-1／VEGF 雙抗改口：Keytruda 王座還在，但下一代免疫底盤已經逼近",
-          "date": "2026-06-21",
-          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Capital markets",
       "type": "market_topic",
-      "mentions": 18,
+      "mentions": 17,
       "latest_date": "2026-06-29",
       "latest_articles": [
         {
@@ -1174,8 +1179,14 @@
       "name": "Big Pharma",
       "type": "market_topic",
       "mentions": 14,
-      "latest_date": "2026-06-24",
+      "latest_date": "2026-06-30",
       "latest_articles": [
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        },
         {
           "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
           "date": "2026-06-24",
@@ -1198,12 +1209,6 @@
           "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
           "date": "2026-06-02",
           "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sun Pharma, Teva, and the Transformation Anxiety of Global Generic Drugmakers",
-          "date": "2026-05-27",
-          "url": "https://drugnews.com.tw/articles/2026-05-27-generic-pharma-transformation-anxiety-en.html",
           "language": "en"
         }
       ]
@@ -1249,7 +1254,7 @@
     {
       "name": "Business development",
       "type": "topic",
-      "mentions": 13,
+      "mentions": 12,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -1703,6 +1708,38 @@
       ]
     },
     {
+      "name": "Biotech investing",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-06-30",
+      "latest_articles": [
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Eli Lilly",
       "type": "company",
       "mentions": 4,
@@ -1793,27 +1830,53 @@
       ]
     },
     {
-      "name": "Biotech investing",
+      "name": "M&A",
       "type": "topic",
       "mentions": 3,
-      "latest_date": "2026-06-29",
+      "latest_date": "2026-06-30",
       "latest_articles": [
         {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
           "language": "en"
         },
         {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
           "language": "en"
         },
         {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Oncology",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-06-30",
+      "latest_articles": [
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
+          "date": "2026-06-21",
+          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
+          "language": "en"
+        },
+        {
+          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
           "language": "en"
         }
       ]
@@ -1949,6 +2012,66 @@
       ]
     },
     {
+      "name": "GSK",
+      "type": "company",
+      "mentions": 2,
+      "latest_date": "2026-06-30",
+      "latest_articles": [
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK's US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases",
+          "date": "2026-06-19",
+          "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Lung cancer",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-06-30",
+      "latest_articles": [
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK's US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases",
+          "date": "2026-06-19",
+          "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Nuvalent",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-06-30",
+      "latest_articles": [
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK's US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases",
+          "date": "2026-06-19",
+          "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Regeneron",
       "type": "topic",
       "mentions": 2,
@@ -1985,26 +2108,6 @@
           "date": "2026-06-16",
           "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "M&A",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-06-28",
-      "latest_articles": [
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-          "language": "en"
         }
       ]
     },
@@ -2185,26 +2288,6 @@
           "date": "2026-05-30",
           "url": "https://drugnews.com.tw/articles/2026-05-30-drug-combination-efficacy-doubling.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Oncology",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-06-21",
-      "latest_articles": [
-        {
-          "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
-          "date": "2026-06-21",
-          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
-          "language": "en"
-        },
-        {
-          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-          "language": "en"
         }
       ]
     },
@@ -2649,6 +2732,34 @@
       ]
     },
     {
+      "name": "ALK",
+      "type": "topic",
+      "mentions": 1,
+      "latest_date": "2026-06-30",
+      "latest_articles": [
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "ROS1",
+      "type": "topic",
+      "mentions": 1,
+      "latest_date": "2026-06-30",
+      "latest_articles": [
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Biotech IPO",
       "type": "topic",
       "mentions": 1,
@@ -2717,79 +2828,28 @@
           "language": "en"
         }
       ]
-    },
-    {
-      "name": "Biotech rebound",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-28",
-      "latest_articles": [
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Gene therapy",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-28",
-      "latest_articles": [
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "mRNA vaccines",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-28",
-      "latest_articles": [
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Rare disease",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-28",
-      "latest_articles": [
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Clinical Data",
-      "type": "market_topic",
-      "mentions": 1,
-      "latest_date": "2026-06-27",
-      "latest_articles": [
-        {
-          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-          "language": "en"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+      "date": "2026-06-30",
+      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+      "language": "en",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "GSK",
+        "Nuvalent",
+        "Oncology",
+        "Lung cancer",
+        "ROS1",
+        "ALK",
+        "BD",
+        "M&A"
+      ],
+      "summary": "GSK's $10.6 billion all-cash acquisition of Nuvalent is more than a late-stage lung-cancer pipeline deal. It is a strategic attempt to rebuild oncology, buy time before major revenue pressure, and regain a seat at the precision-oncology table."
+    },
     {
       "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
       "date": "2026-06-30",
@@ -3278,22 +3338,6 @@
         "Big Pharma"
       ],
       "summary": "AI drug discovery has moved beyond the concept stage and into clinical validation. This article reviews Zasocitinib, GB-0895, Zovegalisib, and REC-4881 to examine how different AI strategies are being converted into real drug assets."
-    },
-    {
-      "title": "盤點整理，AI藥物開發走得如何了？",
-      "date": "2026-06-12",
-      "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612.html",
-      "language": "zh-Hant",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "AI 製藥",
-        "臨床管線",
-        "BD",
-        "生技投資",
-        "藥物開發"
-      ],
-      "summary": "AI 製藥已從概念走向臨床驗證。這篇盤點 Zasocitinib、GB-0895、Zovegalisib、REC-4881 等代表管線，拆解不同 AI 路線如何轉化成真正的藥物資產。"
     }
   ]
 }

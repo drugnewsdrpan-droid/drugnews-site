@@ -140,13 +140,14 @@ function header(current, depth = 1) {
   const currentAttr = (key) => current === key ? ' aria-current="page"' : "";
   return `<header class="site-header">
   <div class="container nav">
-    <a class="brand" href="${depth === 0 ? "index.html" : "../".repeat(depth - 1) + "index.html"}"><img src="${root}favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
+    <a class="brand" href="${depth === 0 ? "index.html" : "../".repeat(depth - 1) + "index.html"}"><img src="${root}favicon.svg" alt=""><span>Drugnews</span></a>
     <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
     <label class="nav-menu-button" for="site-nav-toggle">Menu</label>
     <nav class="nav-links" aria-label="Main navigation">
       <a href="${depth === 0 ? "index.html" : "../".repeat(depth - 1) + "index.html"}"${currentAttr("home")}>Home</a>
       <a href="${depth === 0 ? "articles/" : "../".repeat(depth - 1) + "articles/"}"${currentAttr("articles")}>Articles</a>
       <a href="${depth === 0 ? "guides/" : "../".repeat(depth - 1) + "guides/"}"${currentAttr("guides")}>Guides</a>
+      <a href="${depth === 0 ? "team.html" : "../".repeat(depth - 1) + "team.html"}"${currentAttr("team")}>Team</a>
       <a href="${depth === 0 ? "subscribe.html" : "../".repeat(depth - 1) + "subscribe.html"}"${currentAttr("subscribe")}>Paid Research</a>
       <a href="${depth === 0 ? "services.html" : "../".repeat(depth - 1) + "services.html"}"${currentAttr("services")}>Company Services</a>
       <a href="${root}index.html">中文</a>
@@ -478,6 +479,28 @@ function homePage(records) {
         <a class="text-link" href="../articles/">Browse Chinese articles</a>
       </aside>
     </div>
+  </section>
+  <section class="section white">
+    <div class="container section-head">
+      <div>
+        <p class="eyebrow">Team</p>
+        <h2>Two biomedical PhDs translating science into business judgment.</h2>
+      </div>
+      <p>Drugnews is built by Dr. Jo-Fan Pan and Dr. Chuan-Sheng Lin, combining clinical medicine, biotech R&D, business development, and capital-market perspectives. The editorial goal is to turn biotech information into research material readers can inspect, compare, and track.</p>
+    </div>
+    <div class="container team-grid">
+      <article class="profile-card">
+        <div class="profile-kicker">Founder / Editor-in-Chief</div>
+        <h2>Dr. Jo-Fan Pan</h2>
+        <p>PhD, University of Manchester; BSN, National Taiwan University. Leads Drugnews topic selection, business-analysis frameworks, long-form structure, and reader communication.</p>
+      </article>
+      <article class="profile-card">
+        <div class="profile-kicker">Partner / Scientific Strategy</div>
+        <h2>Dr. Chuan-Sheng Lin</h2>
+        <p>Biomedical dual-PhD background with more than 15 years across the biotech and pharmaceutical R&D value chain, helping review scientific evidence, technical barriers, and development risk.</p>
+      </article>
+    </div>
+    <div class="container actions"><a class="button secondary" href="team.html">Meet the full team</a></div>
   </section>
   <section class="section white">
     <div class="container newsletter">

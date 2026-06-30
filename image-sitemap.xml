@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/gsk-nuvalent-oncology-comeback-en/cover-en.png</image:loc>
+      <image:caption>English editorial cover for GSK acquiring Nuvalent and rebuilding its oncology strategy</image:caption>
+      <image:title>GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/gsk-nuvalent-oncology-comeback/cover.png</image:loc>

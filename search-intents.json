@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-30T01:03:49.647Z",
+  "generated_at": "2026-06-30T02:43:22.265Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -361,6 +361,24 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+      "date": "2026-06-30",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+      "category": "商業分析系列",
+      "tags": [
+        "GSK",
+        "Nuvalent",
+        "Oncology",
+        "Lung cancer",
+        "ROS1",
+        "ALK",
+        "BD",
+        "M&A"
+      ],
+      "summary": "GSK's $10.6 billion all-cash acquisition of Nuvalent is more than a late-stage lung-cancer pipeline deal. It is a strategic attempt to rebuild oncology, buy time before major revenue pressure, and regain a seat at the precision-oncology table."
+    },
     {
       "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
       "date": "2026-06-30",
@@ -727,21 +745,6 @@
         "Obesity medicine"
       ],
       "summary": "Ecnoglutide's head-to-head weight-loss data versus semaglutide are interesting, but the GLP-1 race will be decided by long-term outcomes, tolerability, labels, supply, and global evidence."
-    },
-    {
-      "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-      "date": "2026-06-16",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-      "category": "商業分析系列",
-      "tags": [
-        "Eli Lilly",
-        "Vaccines",
-        "M&A",
-        "Prevention medicine",
-        "Obesity medicine"
-      ],
-      "summary": "Lilly's vaccine acquisitions show that the company is using obesity-drug cash flow to widen its long-term disease-prevention and immunology strategy."
     }
   ],
   "do_not_use_as": [
