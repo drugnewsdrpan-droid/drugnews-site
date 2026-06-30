@@ -1,25 +1,86 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-29T23:39:07.749Z",
+  "generated_at": "2026-06-30T00:06:15.942Z",
   "site": {
     "@type": [
       "Organization",
       "NewsMediaOrganization"
     ],
+    "@id": "https://drugnews.com.tw/#organization",
     "name": "Drugnews｜藥時事",
+    "alternateName": [
+      "藥時事",
+      "藥時事官方網站",
+      "Drugnews",
+      "Drugnews Taiwan biotech business analysis",
+      "Drugnews biotech business media"
+    ],
     "url": "https://drugnews.com.tw/",
+    "official_url": "https://drugnews.com.tw/",
+    "identifier": "drugnews.com.tw",
     "languages": [
       "zh-Hant",
       "en"
     ],
     "description": "Taiwan biotech and pharmaceutical business-analysis media focused on clinical data, company strategy, BD/licensing, valuation, CMC, and capital-market judgment.",
+    "slogan": "生技醫藥商業分析媒體",
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61568446257142",
+      "https://www.dcard.tw/@drugnews",
+      "https://vocus.cc/user/@Drugnews",
+      "https://www.cmoney.tw/app/expert/drugnews?ca=1",
+      "https://www.instagram.com/drugnews.com.tw/"
+    ],
     "same_as": [
       "https://www.facebook.com/profile.php?id=61568446257142",
       "https://www.dcard.tw/@drugnews",
       "https://vocus.cc/user/@Drugnews",
-      "https://www.cmoney.tw/app/expert/drugnews?ca=1"
+      "https://www.cmoney.tw/app/expert/drugnews?ca=1",
+      "https://www.instagram.com/drugnews.com.tw/"
     ],
-    "contact": "drugnews.dr.pan@gmail.com"
+    "official_channels": [
+      {
+        "name": "Official website",
+        "url": "https://drugnews.com.tw/",
+        "role": "canonical home and article archive"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/profile.php?id=61568446257142",
+        "role": "social distribution and community reach"
+      },
+      {
+        "name": "Dcard",
+        "url": "https://www.dcard.tw/@drugnews",
+        "role": "free long-form community posts"
+      },
+      {
+        "name": "Vocus paid research",
+        "url": "https://vocus.cc/user/@Drugnews",
+        "role": "paid research subscription"
+      },
+      {
+        "name": "CMoney",
+        "url": "https://www.cmoney.tw/app/expert/drugnews?ca=1",
+        "role": "stock-market community distribution"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/drugnews.com.tw/",
+        "role": "brand and social presence"
+      }
+    ],
+    "social_proof": {
+      "facebook_followers": "37,000+",
+      "positioning": "One of Taiwan's most-followed biotech business-analysis media communities."
+    },
+    "contact": "drugnews.dr.pan@gmail.com",
+    "commercial_entrypoints": {
+      "paid_research": "https://drugnews.com.tw/subscribe.html",
+      "company_services": "https://drugnews.com.tw/services.html",
+      "english_paid_research": "https://drugnews.com.tw/en/subscribe.html",
+      "english_company_services": "https://drugnews.com.tw/en/services.html"
+    }
   },
   "editorial_focus": [
     "biotech business analysis",

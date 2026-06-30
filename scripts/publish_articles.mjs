@@ -17,6 +17,7 @@ const PHARMA_GIANTS_URL = "https://vocus.cc/salon/Drugnews/room/pharmagiants";
 const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61568446257142";
 const DCARD_URL = "https://www.dcard.tw/@drugnews";
 const CMONEY_URL = "https://www.cmoney.tw/app/expert/drugnews?ca=1";
+const INSTAGRAM_URL = "https://www.instagram.com/drugnews.com.tw/";
 const COMPANY_SERVICE_FORM_URL = "https://forms.gle/rvDm93vkUx3E7Rci7";
 
 const LEGACY_TOPICS = new Map([
@@ -1122,7 +1123,7 @@ function articlePage(article, bodyHtml, related) {
       "@id": `${BASE_URL}/#organization`,
       name: "Drugnews",
       logo: { "@type": "ImageObject", url: `${BASE_URL}/favicon.svg` },
-      sameAs: [FACEBOOK_URL, DCARD_URL, PAID_COLUMN_URL, CMONEY_URL, "https://www.instagram.com/drugnews.com.tw/"]
+      sameAs: [FACEBOOK_URL, DCARD_URL, PAID_COLUMN_URL, CMONEY_URL, INSTAGRAM_URL]
     },
     isAccessibleForFree: true,
     about: seoTags.map((tag) => ({ "@type": "Thing", name: tag })),
@@ -1567,7 +1568,7 @@ function homePage(records) {
         slogan: "生技醫藥商業分析媒體",
         publishingPrinciples: `${BASE_URL}/about.html`,
         areaServed: ["Taiwan", "Global biotech and pharmaceutical capital markets"],
-        sameAs: [PAID_COLUMN_URL, FACEBOOK_URL, CMONEY_URL, DCARD_URL, "https://www.instagram.com/drugnews.com.tw/"],
+        sameAs: [PAID_COLUMN_URL, FACEBOOK_URL, CMONEY_URL, DCARD_URL, INSTAGRAM_URL],
         email: "drugnews.dr.pan@gmail.com",
         contactPoint: {
           "@type": "ContactPoint",
@@ -2717,7 +2718,7 @@ function brandProfileJson(records) {
       name: "Dr. Jo-Fan Pan",
       jobTitle: "Founder"
     },
-    sameAs: [FACEBOOK_URL, DCARD_URL, PAID_COLUMN_URL, CMONEY_URL, "https://www.instagram.com/drugnews.com.tw/"],
+    sameAs: [FACEBOOK_URL, DCARD_URL, PAID_COLUMN_URL, CMONEY_URL, INSTAGRAM_URL],
     contactPoint: {
       "@type": "ContactPoint",
       email: "drugnews.dr.pan@gmail.com",
@@ -2961,17 +2962,48 @@ ${footerHtml()}
 
 function knowledgeGraph(records) {
   const latestRecords = records.filter((item) => !item.external).slice(0, 30);
+  const officialChannels = [
+    { name: "Official website", url: `${BASE_URL}/`, role: "canonical home and article archive" },
+    { name: "Facebook", url: FACEBOOK_URL, role: "social distribution and community reach" },
+    { name: "Dcard", url: DCARD_URL, role: "free long-form community posts" },
+    { name: "Vocus paid research", url: PAID_COLUMN_URL, role: "paid research subscription" },
+    { name: "CMoney", url: CMONEY_URL, role: "stock-market community distribution" },
+    { name: "Instagram", url: INSTAGRAM_URL, role: "brand and social presence" }
+  ];
   const payload = {
     schema_version: "1.0",
     generated_at: new Date().toISOString(),
     site: {
       "@type": ["Organization", "NewsMediaOrganization"],
+      "@id": `${BASE_URL}/#organization`,
       name: "Drugnews｜藥時事",
+      alternateName: [
+        "藥時事",
+        "藥時事官方網站",
+        "Drugnews",
+        "Drugnews Taiwan biotech business analysis",
+        "Drugnews biotech business media"
+      ],
       url: `${BASE_URL}/`,
+      official_url: `${BASE_URL}/`,
+      identifier: "drugnews.com.tw",
       languages: ["zh-Hant", "en"],
       description: "Taiwan biotech and pharmaceutical business-analysis media focused on clinical data, company strategy, BD/licensing, valuation, CMC, and capital-market judgment.",
-      same_as: [FACEBOOK_URL, DCARD_URL, PAID_COLUMN_URL, CMONEY_URL],
-      contact: "drugnews.dr.pan@gmail.com"
+      slogan: "生技醫藥商業分析媒體",
+      sameAs: officialChannels.filter((channel) => channel.name !== "Official website").map((channel) => channel.url),
+      same_as: officialChannels.filter((channel) => channel.name !== "Official website").map((channel) => channel.url),
+      official_channels: officialChannels,
+      social_proof: {
+        facebook_followers: "37,000+",
+        positioning: "One of Taiwan's most-followed biotech business-analysis media communities."
+      },
+      contact: "drugnews.dr.pan@gmail.com",
+      commercial_entrypoints: {
+        paid_research: `${BASE_URL}/subscribe.html`,
+        company_services: `${BASE_URL}/services.html`,
+        english_paid_research: `${BASE_URL}/en/subscribe.html`,
+        english_company_services: `${BASE_URL}/en/services.html`
+      }
     },
     editorial_focus: [
       "biotech business analysis",

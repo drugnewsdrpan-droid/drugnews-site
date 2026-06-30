@@ -510,6 +510,40 @@ async function newsMediaOrganizationStatus() {
   };
 }
 
+async function officialIdentityGraphStatus() {
+  const files = ["brand-profile.json", "knowledge-graph.json"];
+  const combined = [];
+  const missingFiles = [];
+  for (const file of files) {
+    const fullPath = path.join(ROOT, file);
+    if (!fs.existsSync(fullPath)) {
+      missingFiles.push(file);
+      continue;
+    }
+    combined.push(await fsp.readFile(fullPath, "utf8"));
+  }
+  const text = combined.join("\n");
+  const requiredPhrases = [
+    "藥時事官方網站",
+    "https://drugnews.com.tw/",
+    "facebook.com/profile.php?id=61568446257142",
+    "dcard.tw/@drugnews",
+    "vocus.cc/user/@Drugnews",
+    "cmoney.tw/app/expert/drugnews",
+    "instagram.com/drugnews.com.tw",
+    "37,000+",
+    "NewsMediaOrganization"
+  ];
+  const missing = requiredPhrases.filter((phrase) => !text.includes(phrase));
+  const ok = missingFiles.length === 0 && missing.length === 0;
+  return {
+    ok,
+    detail: ok
+      ? "brand-profile.json and knowledge-graph.json connect the official website, social profiles, paid research, CMoney, Instagram, and 37,000+ social proof"
+      : `missing files: ${missingFiles.join(", ") || "none"}; missing identity phrases: ${missing.join(", ") || "none"}`
+  };
+}
+
 function summarizeFacebookDiagnostics(diagnostics) {
   if (!diagnostics) return "";
   if (diagnostics.rejected_reason) {
@@ -607,6 +641,7 @@ async function main() {
   const cleanArticleTopicMetadata = cleanArticleTopicMetadataStatus(records, 30);
   const imageAssets = imageAssetStatus(records);
   const newsMediaOrganization = await newsMediaOrganizationStatus();
+  const officialIdentityGraph = await officialIdentityGraphStatus();
   const websiteSearchAction = websiteSearchActionStatus();
   const analyticsEventPlan = analyticsEventPlanStatus();
 
@@ -640,6 +675,7 @@ async function main() {
     check("market_radar_exists", fileExists("market-radar.html") && fileExists("market-radar.json") && robots.includes("Allow: /market-radar.json"), `${BASE_URL}/market-radar.html`, "warning"),
     check("brand_profile_exists", fileExists("brand-profile.json") && robots.includes("Allow: /brand-profile.json") && sitemap.includes(`${BASE_URL}/brand-profile.json`), `${BASE_URL}/brand-profile.json`, "warning"),
     check("news_media_organization_schema", newsMediaOrganization.ok, newsMediaOrganization.detail, "warning"),
+    check("official_identity_graph", officialIdentityGraph.ok, officialIdentityGraph.detail, "warning"),
     check("website_search_action_schema", websiteSearchAction.ok, websiteSearchAction.detail, "warning"),
     check("analytics_business_events_ready", analyticsEventPlan.ok, analyticsEventPlan.detail, "warning"),
     check("japanese_gateway_removed", !dirExists("ja") && !sitemap.includes(`${BASE_URL}/ja/`), "Japanese gateway and directory are intentionally not exposed until localization quality is ready", "warning"),
