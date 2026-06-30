@@ -67,7 +67,7 @@ async function main() {
   const mobileNavOk =
     /\.nav-toggle\s*~\s*\.nav-links\s*{\s*display:\s*none;/m.test(styles) &&
     /\.nav-toggle:checked\s*~\s*\.nav-links\s*{\s*display:\s*grid;/m.test(styles) &&
-    /@media\s*\(max-width:\s*520px\)[\s\S]*?\.nav-menu-button\s*{[\s\S]*?position:\s*absolute;/m.test(styles);
+    /@media\s*\(max-width:\s*520px\)[\s\S]*?\.nav-menu-button\s*{[\s\S]*?position:\s*(?:static|absolute);[\s\S]*?font-size:\s*0\.86rem;/m.test(styles);
   checks.push(mobileNavOk
     ? pass("mobile_nav_collapsed", "手機導覽有選單按鈕，預設收合。")
     : warn("mobile_nav_collapsed", "手機導覽收合樣式可能遺失。"));
