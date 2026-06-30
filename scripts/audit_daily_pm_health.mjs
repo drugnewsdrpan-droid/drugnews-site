@@ -410,6 +410,33 @@ function websiteSearchActionStatus() {
   };
 }
 
+function editorialStandardsEntrypointStatus() {
+  const pages = [
+    ["index.html", /href=["'][^"']*about\.html["']/],
+    ["articles/index.html", /href=["'][^"']*about\.html["']/],
+    ["services.html", /href=["'][^"']*about\.html["']/],
+    ["team.html", /href=["'][^"']*about\.html["']/],
+    ["subscribe.html", /href=["'][^"']*about\.html["']/],
+    ["en/index.html", /href=["'][^"']*en\/about\.html["']/],
+    ["en/articles/index.html", /href=["'][^"']*en\/about\.html["']/],
+    ["en/services.html", /href=["'][^"']*en\/about\.html["']/],
+    ["en/team.html", /href=["'][^"']*en\/about\.html["']/],
+    ["en/subscribe.html", /href=["'][^"']*en\/about\.html["']/]
+  ];
+  const missing = [];
+  for (const [relativePath, pattern] of pages) {
+    const filePath = path.join(ROOT, relativePath);
+    const html = fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8") : "";
+    if (!pattern.test(html)) missing.push(relativePath);
+  }
+  return {
+    ok: missing.length === 0,
+    detail: missing.length
+      ? `Missing About / Editorial Standards footer links: ${missing.join(", ")}`
+      : `${pages.length} core entrypoint(s) expose About / Editorial Standards links for reader and AI trust`
+  };
+}
+
 function analyticsEventPlanStatus() {
   const scriptPath = path.join(ROOT, "scripts", "inject_analytics.mjs");
   const text = fs.existsSync(scriptPath) ? fs.readFileSync(scriptPath, "utf8") : "";
@@ -673,6 +700,7 @@ async function main() {
   const newsMediaOrganization = await newsMediaOrganizationStatus();
   const officialIdentityGraph = await officialIdentityGraphStatus();
   const websiteSearchAction = websiteSearchActionStatus();
+  const editorialStandardsEntrypoint = editorialStandardsEntrypointStatus();
   const analyticsEventPlan = analyticsEventPlanStatus();
 
   const references = runJson("scripts/audit_references.mjs", ["--limit=30"]).parsed;
@@ -707,6 +735,7 @@ async function main() {
     check("news_media_organization_schema", newsMediaOrganization.ok, newsMediaOrganization.detail, "warning"),
     check("official_identity_graph", officialIdentityGraph.ok, officialIdentityGraph.detail, "warning"),
     check("website_search_action_schema", websiteSearchAction.ok, websiteSearchAction.detail, "warning"),
+    check("editorial_standards_entrypoints", editorialStandardsEntrypoint.ok, editorialStandardsEntrypoint.detail, "warning"),
     check("analytics_business_events_ready", analyticsEventPlan.ok, analyticsEventPlan.detail, "warning"),
     check("japanese_gateway_removed", !dirExists("ja") && !sitemap.includes(`${BASE_URL}/ja/`), "Japanese gateway and directory are intentionally not exposed until localization quality is ready", "warning"),
     check("paid_offer_catalog_zh", zhOfferCatalog.ok, zhOfferCatalog.detail, "warning"),

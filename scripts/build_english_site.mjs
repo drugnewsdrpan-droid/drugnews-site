@@ -157,7 +157,7 @@ function header(current, depth = 1) {
 }
 
 function footer(depth = 1) {
-  return `<footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. This site is for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div><nav class="footer-links" aria-label="Footer navigation"><a href="${BASE_URL}/en/team.html">Team</a><a href="${BASE_URL}/en/services.html">Company Services</a><a href="${BASE_URL}/en/subscribe.html">Paid Research</a><a href="${BASE_URL}/en/articles/">Articles</a></nav></div></footer>`;
+  return `<footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. This site is for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div><nav class="footer-links" aria-label="Footer navigation"><a href="${BASE_URL}/en/about.html">About / Editorial Standards</a><a href="${BASE_URL}/en/team.html">Team</a><a href="${BASE_URL}/en/services.html">Company Services</a><a href="${BASE_URL}/en/subscribe.html">Paid Research</a><a href="${BASE_URL}/en/articles/">Articles</a></nav></div></footer>`;
 }
 
 function head({ title, description, canonicalPath, image, depth = 1, extraHead = "", homeRecords = [] }) {

@@ -1045,7 +1045,7 @@ function nestedHeaderHtml(current = "articles", prefix = "../../") {
 }
 
 function footerHtml(meta = {}) {
-  return `<footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. ${disclaimerFor(meta)}</div><nav class="footer-links" aria-label="Footer navigation"><a href="${BASE_URL}/team.html">團隊</a><a href="${BASE_URL}/services.html">公司合作</a><a href="${BASE_URL}/subscribe.html">付費專欄</a><a href="${BASE_URL}/articles/">文章</a></nav></div></footer>`;
+  return `<footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. ${disclaimerFor(meta)}</div><nav class="footer-links" aria-label="Footer navigation"><a href="${BASE_URL}/about.html">關於 / 編輯標準</a><a href="${BASE_URL}/team.html">團隊</a><a href="${BASE_URL}/services.html">公司合作</a><a href="${BASE_URL}/subscribe.html">付費專欄</a><a href="${BASE_URL}/articles/">文章</a></nav></div></footer>`;
 }
 
 function citationText(meta, url) {
@@ -1877,7 +1877,7 @@ function homePage(records) {
   </main>
 
   <footer class="site-footer">
-    <div class="container">© 2026 Drugnews. 內容僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div>
+    <div class="container footer-inner"><div>© 2026 Drugnews. 內容僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div><nav class="footer-links" aria-label="Footer navigation"><a href="about.html">關於 / 編輯標準</a><a href="team.html">團隊</a><a href="services.html">公司合作</a><a href="subscribe.html">付費專欄</a><a href="articles/">文章</a></nav></div>
   </footer>
 
   <script>
