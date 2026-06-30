@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-30T00:34:41.439Z",
+  "generated_at": "2026-06-30T01:03:49.647Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -361,6 +361,21 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
+      "date": "2026-06-30",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
+      "category": "商業分析系列",
+      "tags": [
+        "疫苗",
+        "BD",
+        "臨床數據",
+        "生技投資",
+        "製藥巨頭"
+      ],
+      "summary": "2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。"
+    },
     {
       "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
       "date": "2026-06-29",
@@ -727,23 +742,6 @@
         "Obesity medicine"
       ],
       "summary": "Lilly's vaccine acquisitions show that the company is using obesity-drug cash flow to widen its long-term disease-prevention and immunology strategy."
-    },
-    {
-      "title": "禮來 38 億美元買三家疫苗公司：減肥藥巨頭，為什麼突然回頭買「預防醫學」？",
-      "date": "2026-06-16",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html",
-      "category": "商業分析系列",
-      "tags": [
-        "GLP-1",
-        "疫苗",
-        "感染症",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "市場現在最熟悉的禮來，是 Mounjaro、Zepbound 背後那個 GLP-1 巨頭。2026 年第一季，禮來營收達到 198 億美元，年增 56%，主要動能還是來自 Mounjaro 與 Zepbound 的放量。簡單說，禮來現在手上最強的現金流，是減重與糖尿病藥物。"
     }
   ],
   "do_not_use_as": [

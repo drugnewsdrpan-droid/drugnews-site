@@ -99,6 +99,28 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
+      "date": "2026-06-30",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "疫苗",
+        "BD",
+        "臨床數據",
+        "生技投資",
+        "製藥巨頭"
+      ],
+      "summary": "2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。",
+      "image": "https://drugnews.com.tw/assets/articles/gsk-nuvalent-oncology-comeback/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {}
+    },
+    {
       "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
       "date": "2026-06-29",
       "language": "en",
@@ -1316,30 +1338,6 @@
       "is_accessible_for_free": false,
       "is_external": true,
       "alternate_language_versions": {}
-    },
-    {
-      "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-      "date": "2026-06-09",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-      "source": "Website",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "BD and Licensing",
-        "Radiopharma",
-        "Business development",
-        "Biotech business analysis",
-        "Drug development"
-      ],
-      "summary": "Curium's rumored interest in Lantheus is best read as a bid for nuclear-medicine infrastructure: isotope access, hospital channels, imaging workflow, and radiopharma commercialization depth.",
-      "image": "https://drugnews.com.tw/assets/articles/curium-lantheus-radiopharma-acquisition-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-09-curium-lantheus-radiopharma-acquisition.html"
-      }
     }
   ]
 }

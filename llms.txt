@@ -73,6 +73,10 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
 
 ## Latest Canonical Articles For Citation
 
+- 2026-06-30｜GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌
+  URL: https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html
+  Topics: 疫苗, BD, 臨床數據, 生技投資, 製藥巨頭
+  Summary: 2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。
 - 2026-06-29｜The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors
   URL: https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html
   Topics: Biotech IPO, Parabilis Medicines, Helicons, Zolucatetide, Wnt beta-catenin
@@ -125,10 +129,6 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
   URL: https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html
   Topics: Obesity medicine, GLP-1, Eli Lilly, Novo Nordisk, Pfizer
   Summary: Lilly and Novo Nordisk dominate the first phase of the obesity-drug market. The next investment question is who can become the third major player by solving the problems GLP-1 leaders have not fully solved.
-- 2026-06-22｜減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？
-  URL: https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html
-  Topics: GLP-1, 臨床數據, 生技投資, 製藥巨頭
-  Summary: 今年 ADA，也就是美國糖尿病學會年會，減重藥戰場又一次被點燃。
 
 ## Key Site Sections
 

@@ -51,6 +51,44 @@ function cleanTitle(title) {
     .trim();
 }
 
+function isBadTitle(title) {
+  const text = String(title || "").trim();
+  if (!text) return true;
+  if (/^[-–—_\s]{5,}$/.test(text)) return true;
+  if (/^[-–—_\s]{5,}/.test(text)) return true;
+  if (/^(Facebook|藥時事|Drugnews Facebook post)$/i.test(text)) return true;
+  return false;
+}
+
+function inferTitleFromLines(lines) {
+  const heading = lines
+    .map((line) => String(line || "").trim())
+    .find((line) => /^##\s+/.test(line) && line.replace(/^##\s+/, "").length >= 10);
+  if (heading) return heading.replace(/^##\s+/, "").trim();
+  return lines.find((line) =>
+    line.length >= 12 &&
+    line.length <= 90 &&
+    !/^[-–—_\s]{5,}$/.test(line) &&
+    !/^https?:\/\//i.test(line) &&
+    !/^參考資料/.test(line)
+  ) || "";
+}
+
+function sameLooseTitle(a, b) {
+  const clean = (value) => String(value || "")
+    .replace(/^#{1,6}\s+/, "")
+    .replace(/\s+/g, "")
+    .replace(/[，,。！？!?:：；;｜|「」『』]/g, "");
+  return clean(a) && clean(a) === clean(b);
+}
+
+function dropLeadingTitleHeading(lines, title) {
+  const out = [...lines];
+  while (out.length && /^[-–—_\s]{5,}$/.test(out[0])) out.shift();
+  if (out.length && /^##\s+/.test(out[0]) && sameLooseTitle(out[0], title)) out.shift();
+  return out;
+}
+
 function isAdminOrChromeLine(line, title) {
   if (!line) return true;
   if (line === title) return true;
@@ -177,6 +215,112 @@ async function downloadImages(urls, imageDir) {
   return files;
 }
 
+async function exists(filePath) {
+  try {
+    await fs.access(filePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function escapeXml(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function titleLines(title) {
+  const text = String(title || "").trim();
+  const chunks = [];
+  let current = "";
+  for (const char of text) {
+    current += char;
+    if (current.length >= 16 && /[：，、, ]/.test(char)) {
+      chunks.push(current.trim());
+      current = "";
+    }
+    if (chunks.length >= 2) break;
+  }
+  if (current && chunks.length < 3) chunks.push(current.trim());
+  return chunks.length ? chunks.slice(0, 3) : [text];
+}
+
+async function coverFileFor(imageDir, title, summary) {
+  for (const file of ["cover.png", "cover.webp", "cover.jpg", "cover.jpeg", "cover.svg"]) {
+    if (await exists(path.join(imageDir, file))) return file;
+  }
+  const lines = titleLines(title);
+  const titleSvg = lines
+    .map((line, index) => `<text x="92" y="${250 + index * 78}" class="title">${escapeXml(line)}</text>`)
+    .join("\n");
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fbfb"/>
+      <stop offset=".58" stop-color="#eef8f8"/>
+      <stop offset="1" stop-color="#dff1f2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#0b2d38" flood-opacity=".15"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 690 C280 580 410 750 680 625 C910 520 1030 320 1600 438" fill="none" stroke="#0f8c99" stroke-width="4" opacity=".18"/>
+  <path d="M-40 208 C240 120 466 170 704 274 C1015 411 1160 275 1640 184" fill="none" stroke="#d9792a" stroke-width="5" opacity=".18"/>
+  <g transform="translate(930 142)" filter="url(#shadow)">
+    <rect x="0" y="0" width="520" height="520" rx="82" fill="#ffffff" opacity=".86" stroke="#c7dde2" stroke-width="3"/>
+    <circle cx="258" cy="258" r="148" fill="#e8f7f6" stroke="#128a95" stroke-width="8"/>
+    <circle cx="205" cy="220" r="35" fill="#128a95"/>
+    <circle cx="303" cy="214" r="39" fill="#128a95"/>
+    <circle cx="260" cy="306" r="48" fill="#e07728" opacity=".9"/>
+    <path d="M205 220 L260 306 L303 214" fill="none" stroke="#102d38" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M110 390 C205 450 315 455 424 389" fill="none" stroke="#d9792a" stroke-width="12" stroke-linecap="round"/>
+    <g fill="#ffffff" stroke="#128a95" stroke-width="5">
+      <rect x="-42" y="190" width="166" height="88" rx="30"/>
+      <rect x="388" y="190" width="166" height="88" rx="30"/>
+      <rect x="78" y="466" width="366" height="70" rx="28"/>
+    </g>
+  </g>
+  <g transform="translate(92 92)">
+    <text x="0" y="0" class="eyebrow">DRUGNEWS BIOTECH BUSINESS ANALYSIS</text>
+    ${titleSvg}
+    <text x="0" y="558" class="summary">${escapeXml(boundedSummary(summary, 58))}</text>
+  </g>
+  <style>
+    .eyebrow{font:700 26px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:7px;fill:#d9792a}
+    .title{font:800 58px -apple-system,BlinkMacSystemFont,"Noto Sans TC","Segoe UI",sans-serif;fill:#111820}
+    .summary{font:600 34px -apple-system,BlinkMacSystemFont,"Noto Sans TC","Segoe UI",sans-serif;fill:#5e707a}
+  </style>
+</svg>`;
+  await fs.writeFile(path.join(imageDir, "cover.svg"), svg, "utf8");
+  return "cover.svg";
+}
+
+async function existingSlugForFacebookUrl(url) {
+  const target = String(url || "").trim();
+  if (!target) return "";
+  let entries = [];
+  try {
+    entries = await fs.readdir(PUBLISHED, { withFileTypes: true });
+  } catch {
+    return "";
+  }
+  for (const entry of entries) {
+    if (!entry.isDirectory()) continue;
+    const metaPath = path.join(PUBLISHED, entry.name, "meta.json");
+    try {
+      const meta = JSON.parse(await fs.readFile(metaPath, "utf8"));
+      if (String(meta.facebook_url || "").trim() === target) return meta.slug || entry.name;
+    } catch {
+      // Ignore malformed folders; the publisher will report them separately.
+    }
+  }
+  return "";
+}
+
 function distributeImages(lines, imageFiles, title) {
   if (!imageFiles.length) return lines;
   const result = [];
@@ -224,17 +368,24 @@ const posts = JSON.parse(await fs.readFile(inputPath, "utf8"));
 const imported = [];
 
 for (const post of posts) {
-  const title = cleanTitle(post.title);
   const id = postId(post.url);
   const date = localDate(post.published);
   const fallback = `fb-${id || date}`;
-  const slug = post.slug || slugify(title, fallback);
+  const rawTitle = cleanTitle(post.title);
+  const lines = normalizeLines(post.articleText, rawTitle);
+  const title = isBadTitle(rawTitle) ? cleanTitle(inferTitleFromLines(lines)) : rawTitle;
+  if (isBadTitle(title)) {
+    console.error(`Skipped Facebook post with no usable article title: ${post.url || "(missing url)"}`);
+    continue;
+  }
+  const slug = await existingSlugForFacebookUrl(post.url) || post.slug || slugify(title, fallback);
   const folder = path.join(PUBLISHED, slug);
   const imageDir = path.join(folder, "images");
-  const lines = normalizeLines(post.articleText, title);
   const imageFiles = await downloadImages(post.images || [], imageDir);
-  const bodyLines = preserveParagraphBreaks(distributeImages(lines, imageFiles, title));
-  const summary = summaryFrom(lines);
+  const contentLines = dropLeadingTitleHeading(lines, title);
+  const bodyLines = preserveParagraphBreaks(distributeImages(contentLines, imageFiles, title));
+  const summary = summaryFrom(contentLines);
+  const coverImage = post.cover_image || `images/${await coverFileFor(imageDir, title, summary)}`;
   const markdown = [
     `# ${title}`,
     "",
@@ -253,10 +404,10 @@ for (const post of posts) {
     category: "商業分析系列",
     series: "商業分析系列",
     access: "免費文章",
-    tags: tagsFor(title, lines),
+    tags: tagsFor(title, contentLines),
     summary,
-    cover_image: post.cover_image || "",
-    cover_image_alt: post.cover_image_alt || `${title} 專題封面`,
+    cover_image: coverImage,
+    cover_image_alt: isBadTitle(post.cover_image_alt) ? `${title} 專題封面` : post.cover_image_alt || `${title} 專題封面`,
     source_platform: "Facebook",
     facebook_url: post.url
   };

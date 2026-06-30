@@ -83,6 +83,7 @@ function lineClean(text) {
     .map((line) => line.replace(/\u00a0/g, " ").trim())
     .filter(Boolean)
     .filter((line) => !/^[A-Za-z0-9]$/.test(line))
+    .filter((line) => !/^[-–—]{5,}$/.test(line))
     .filter((line) => !/^(讚|留言|分享|傳送|追蹤|通知|管理粉絲專頁|專業主控板|刊登廣告|查看洞察報告)$/.test(line));
 }
 
@@ -92,6 +93,7 @@ function plausibleTitle(lines) {
     line.length >= 12 &&
     line.length <= 90 &&
     !skipped.test(line) &&
+    !/^[-–—]{5,}$/.test(line) &&
     !/^https?:\/\//.test(line) &&
     !/^(DRUGNEWS\.COM\.TW|CMY\.TW|VOCUS\.CC)/i.test(line)
   ) || "";
