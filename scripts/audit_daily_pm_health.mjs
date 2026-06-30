@@ -788,8 +788,8 @@ async function main() {
     next_actions: [
       ...(social?.status === "needs_capture"
         ? [social?.platform_state?.facebook === "already_current_limited_capture" && social?.platform_state?.dcard === "needs_capture"
-          ? "Facebook visible preview already matches the latest site article. If Dcard has a newer post, open the newest Dcard single-post page in the social-capture Chrome; the daily workflow will auto-detect that tab, or rerun: /bin/zsh scripts/codex_daily_start.sh --dcard-current."
-          : "Run /bin/zsh scripts/start_social_capture_chrome.sh, confirm Facebook/Dcard login, open the newest single-post tab if profile pages show only previews, then rerun daily social capture; otherwise provide capture JSON."]
+          ? "Facebook visible preview already matches the latest site article. If Dcard has a newer post, open the newest Dcard single-post page in regular Chrome and rerun: /bin/zsh scripts/codex_daily_start.sh --dcard-regular-current. One-time Chrome setting required: View -> Developer -> Allow JavaScript from Apple Events. Fallback: /bin/zsh scripts/codex_daily_start.sh --dcard-current in social-capture Chrome."
+          : "Open the newest Facebook/Dcard single-post page in regular Chrome and rerun: /bin/zsh scripts/codex_daily_start.sh --facebook-regular-current or --dcard-regular-current. One-time Chrome setting required: View -> Developer -> Allow JavaScript from Apple Events. If regular Chrome is not readable, use social-capture Chrome or provide capture JSON."]
         : []),
       ...(readingProduct?.status !== "ok" ? ["Run node scripts/audit_reading_product_tasks.mjs to inspect mobile/search/topic reading-experience regressions."] : []),
       ...(!settings.google_analytics_id ? ["Add GA4 with: node scripts/configure_site_tracking.mjs --ga4=G-XXXXXXXXXX"] : []),

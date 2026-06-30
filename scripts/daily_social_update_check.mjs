@@ -213,8 +213,8 @@ function captureRequests(published, missing) {
         url: latestDcard.dcard_url,
         slug: latestDcard.slug
       } : null,
-      note: "Dcard profile pages often expose only the App/login shell and hide post links. The daily workflow now auto-detects an already-open Dcard single-post tab in the social-capture Chrome. If no single-post tab is open, open the newest Dcard post itself there, then rerun /bin/zsh scripts/codex_daily_start.sh --dcard-current. If that still fails, save the full post text and image URLs to input_path.",
-      preferred_recovery: "/bin/zsh scripts/codex_daily_start.sh --dcard-current",
+      note: "Dcard profile pages often expose only the App/login shell and hide post links. Preferred route: open the newest Dcard single-post page in regular Chrome, enable Chrome > View > Developer > Allow JavaScript from Apple Events once, then rerun /bin/zsh scripts/codex_daily_start.sh --dcard-regular-current. Fallback: open the post in the social-capture Chrome and rerun --dcard-current. If both fail, save the full post text and image URLs to input_path.",
+      preferred_recovery: "/bin/zsh scripts/codex_daily_start.sh --dcard-regular-current",
       required_shape: [{
         title: "Post title",
         published: "YYYY-MM-DDT10:30:00+08:00",
@@ -354,8 +354,8 @@ async function main() {
     next_step: imported.length
       ? "QA the generated pages, then commit and push intended files only."
       : facebookLimitedButCurrent && dcard.missing
-        ? "Facebook visible preview matches an already published site article. Dcard profile still exposes only the App/login shell; if Dcard has a newer post, open the newest single-post page in the social-capture Chrome. The daily workflow will auto-detect that tab, or you can rerun /bin/zsh scripts/codex_daily_start.sh --dcard-current."
-        : "If the social platforms have newer posts, run the logged-in Chrome scraper, use --facebook-current / --dcard-current from an opened single-post tab, or provide the missing capture JSON and rerun this command."
+        ? "Facebook visible preview matches an already published site article. Dcard profile still exposes only the App/login shell; if Dcard has a newer post, open the newest Dcard single-post page in regular Chrome and rerun /bin/zsh scripts/codex_daily_start.sh --dcard-regular-current. This requires Chrome: View -> Developer -> Allow JavaScript from Apple Events. If regular Chrome is not readable, use the social-capture Chrome fallback: /bin/zsh scripts/codex_daily_start.sh --dcard-current."
+        : "If the social platforms have newer posts, open the newest single-post tab in regular Chrome and rerun --facebook-regular-current or --dcard-regular-current. This requires Chrome: View -> Developer -> Allow JavaScript from Apple Events. Fallbacks remain --facebook-current / --dcard-current in social-capture Chrome, or provide the missing capture JSON."
   }, null, 2));
 }
 
