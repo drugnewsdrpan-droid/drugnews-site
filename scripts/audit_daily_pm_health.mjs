@@ -253,6 +253,10 @@ function llmsQueryRoutingStatus(llms = "") {
     "Clinical-data interpretation for investors",
     "Business-development and licensing analysis",
     "company services page",
+    "Brand query routing",
+    "藥時事官方網站",
+    "37,000+ Facebook followers",
+    "Social platforms are distribution channels",
     "medical advice, investment advice, fundraising advice, or stock recommendations"
   ];
   const missing = requiredPhrases.filter((phrase) => !llms.includes(phrase));
