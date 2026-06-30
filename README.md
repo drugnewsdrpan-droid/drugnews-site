@@ -35,9 +35,10 @@ After that setting is enabled, the shortest route for the user's already-open no
 
 ```bash
 /bin/zsh scripts/codex_daily_start.sh --facebook-regular-current
+/bin/zsh scripts/codex_daily_start.sh --dcard-regular-current
 ```
 
-This reads the currently active Facebook tab in the normal Chrome profile, writes `/private/tmp/drugnews-facebook-latest.json`, imports fresh posts, and rebuilds the site when the current tab contains a readable long-form post. It is intended for the logged-in Facebook page or a single-post page already opened by the user.
+This reads the currently active Facebook or Dcard tab in the normal Chrome profile, writes `/private/tmp/drugnews-facebook-latest.json` or `/private/tmp/drugnews-dcard-latest.json`, imports fresh posts, and rebuilds the site when the current tab contains a readable long-form post. It is intended for the logged-in platform page or a single-post page already opened by the user.
 
 If you only want to inspect site health without social capture:
 

@@ -18,6 +18,7 @@ const captureDcard = args.includes("--capture-dcard") || process.env.DRUGNEWS_CA
 const facebookCurrent = args.includes("--facebook-current") || process.env.DRUGNEWS_FACEBOOK_CURRENT === "1";
 const facebookRegularCurrent = args.includes("--facebook-regular-current") || process.env.DRUGNEWS_FACEBOOK_REGULAR_CURRENT === "1";
 const dcardCurrent = args.includes("--dcard-current") || process.env.DRUGNEWS_DCARD_CURRENT === "1";
+const dcardRegularCurrent = args.includes("--dcard-regular-current") || process.env.DRUGNEWS_DCARD_REGULAR_CURRENT === "1";
 const fbInput = args.find((arg) => arg.startsWith("--facebook="))?.slice("--facebook=".length) || FB_INPUT;
 const dcardInput = args.find((arg) => arg.startsWith("--dcard="))?.slice("--dcard=".length) || DCARD_INPUT;
 const facebookPostUrl = args.find((arg) => arg.startsWith("--facebook-post="))?.slice("--facebook-post=".length) || process.env.DRUGNEWS_FACEBOOK_POST_URL || "";
@@ -267,12 +268,15 @@ async function main() {
   }
 
   if (captureDcard) {
-    const result = spawnSync(process.execPath, [
-      "scripts/scrape_dcard_cdp.mjs",
-      effectiveDcardPostUrl ? "post" : dcardCurrent ? "current" : "profile",
-      effectiveDcardPostUrl || DCARD_PAGE_URL,
-      dcardInput
-    ], {
+    const scriptArgs = dcardRegularCurrent
+      ? ["scripts/scrape_dcard_regular_chrome.mjs", "current", dcardInput]
+      : [
+        "scripts/scrape_dcard_cdp.mjs",
+        effectiveDcardPostUrl ? "post" : dcardCurrent ? "current" : "profile",
+        effectiveDcardPostUrl || DCARD_PAGE_URL,
+        dcardInput
+      ];
+    const result = spawnSync(process.execPath, scriptArgs, {
       cwd: ROOT,
       encoding: "utf8"
     });
@@ -332,7 +336,7 @@ async function main() {
     },
     capture_mode: {
       facebook: captureFacebook ? (facebookRegularCurrent ? "regular_chrome_current_tab" : effectiveFacebookPostUrl ? (autoFacebookPostUrl ? "logged_in_chrome_existing_post_tab" : "logged_in_chrome_post") : facebookCurrent ? "logged_in_chrome_current_tab" : "logged_in_chrome_profile") : "existing_json",
-      dcard: captureDcard ? (effectiveDcardPostUrl ? (autoDcardPostUrl ? "logged_in_chrome_existing_post_tab" : "logged_in_chrome_post") : dcardCurrent ? "logged_in_chrome_current_tab" : "logged_in_chrome_profile") : "existing_json"
+      dcard: captureDcard ? (dcardRegularCurrent ? "regular_chrome_current_tab" : effectiveDcardPostUrl ? (autoDcardPostUrl ? "logged_in_chrome_existing_post_tab" : "logged_in_chrome_post") : dcardCurrent ? "logged_in_chrome_current_tab" : "logged_in_chrome_profile") : "existing_json"
     },
     detected_existing_post_tabs: {
       facebook: autoFacebookPostUrl || "",
