@@ -92,9 +92,10 @@ function cxoScorecard(status, pm) {
         statusOk(pm, "search_intents_exists") &&
         statusOk(pm, "market_radar_stock_attention") &&
         statusOk(pm, "indexnow_ready") &&
+        statusOk(pm, "author_expertise_schema_latest_30") &&
         statusOk(pm, "news_media_organization_schema") &&
         statusOk(pm, "official_identity_graph"),
-      note: [pmCheck(pm, "sitemap_public_entrypoints")?.detail, pmCheck(pm, "article_collection_schema")?.detail, pmCheck(pm, "llms_query_routing")?.detail, pmCheck(pm, "search_intents_exists")?.detail, pmCheck(pm, "market_radar_stock_attention")?.detail, pmCheck(pm, "indexnow_ready")?.detail, pmCheck(pm, "clean_article_topic_metadata_latest_30")?.detail, pmCheck(pm, "news_media_organization_schema")?.detail, pmCheck(pm, "official_identity_graph")?.detail].filter(Boolean).join("；")
+      note: [pmCheck(pm, "sitemap_public_entrypoints")?.detail, pmCheck(pm, "article_collection_schema")?.detail, pmCheck(pm, "llms_query_routing")?.detail, pmCheck(pm, "search_intents_exists")?.detail, pmCheck(pm, "market_radar_stock_attention")?.detail, pmCheck(pm, "indexnow_ready")?.detail, pmCheck(pm, "clean_article_topic_metadata_latest_30")?.detail, pmCheck(pm, "author_expertise_schema_latest_30")?.detail, pmCheck(pm, "news_media_organization_schema")?.detail, pmCheck(pm, "official_identity_graph")?.detail].filter(Boolean).join("；")
     },
     {
       label: "成長追蹤",

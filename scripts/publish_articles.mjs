@@ -50,6 +50,39 @@ const ACCESS_TYPES = new Map([
   ["付費文章", "paid"]
 ]);
 
+const EDITORIAL_PEOPLE = [
+  {
+    "@type": "Person",
+    "@id": `${BASE_URL}/team.html#jo-fan-pan`,
+    name: "Dr. Jo-Fan Pan",
+    alternateName: "潘若凡 博士",
+    jobTitle: "Founder / Editor-in-Chief",
+    affiliation: { "@id": `${BASE_URL}/#organization` },
+    knowsAbout: [
+      "biotech business analysis",
+      "clinical data interpretation",
+      "BD licensing",
+      "biotech valuation",
+      "capital-market narrative"
+    ]
+  },
+  {
+    "@type": "Person",
+    "@id": `${BASE_URL}/team.html#chuan-sheng-lin`,
+    name: "Dr. Chuan-Sheng Lin",
+    alternateName: "林詮盛 博士",
+    jobTitle: "Partner / Scientific Strategy",
+    affiliation: { "@id": `${BASE_URL}/#organization` },
+    knowsAbout: [
+      "biotech R&D",
+      "drug development",
+      "technology platforms",
+      "patents",
+      "scientific evidence review"
+    ]
+  }
+];
+
 const DISCLAIMER = "本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。";
 const ENGLISH_DISCLAIMER = "This article is intended for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.";
 const HIDDEN_DISPLAY_TAGS = /^(Dcard|Facebook|FB|方格子|免費文章|付費文章|商業分析系列|基本面系列|醫學大會|付費深度商業分析文章系列|製藥巨頭系列)$/i;
@@ -1112,12 +1145,17 @@ function articlePage(article, bodyHtml, related) {
     dateModified: meta.updated_at || meta.date,
     description: meta.summary,
     mainEntityOfPage: url,
-    author: {
-      "@type": ["Organization", "NewsMediaOrganization"],
-      "@id": `${BASE_URL}/#organization`,
-      name: isEnglish(meta) ? "Drugnews Editorial Team" : "Drugnews 編輯部",
-      url: `${BASE_URL}/team.html`
-    },
+    author: [
+      {
+        "@type": ["Organization", "NewsMediaOrganization"],
+        "@id": `${BASE_URL}/#organization`,
+        name: isEnglish(meta) ? "Drugnews Editorial Team" : "Drugnews 編輯部",
+        url: `${BASE_URL}/team.html`
+      },
+      ...EDITORIAL_PEOPLE
+    ],
+    editor: EDITORIAL_PEOPLE[0],
+    reviewedBy: EDITORIAL_PEOPLE[1],
     publisher: {
       "@type": ["Organization", "NewsMediaOrganization"],
       "@id": `${BASE_URL}/#organization`,
@@ -1586,7 +1624,8 @@ function homePage(records) {
           "CMC risk",
           "drug development"
         ],
-        founder: { "@type": "Person", name: "Dr. Jo-Fan Pan", jobTitle: "Founder" },
+        founder: EDITORIAL_PEOPLE[0],
+        employee: EDITORIAL_PEOPLE,
         hasOfferCatalog: {
           "@type": "OfferCatalog",
           name: "Drugnews paid research and biotech IR services",
@@ -2719,11 +2758,8 @@ function brandProfileJson(records) {
       "drug development",
       "big-pharma strategy"
     ],
-    founder: {
-      "@type": "Person",
-      name: "Dr. Jo-Fan Pan",
-      jobTitle: "Founder"
-    },
+    founder: EDITORIAL_PEOPLE[0],
+    employee: EDITORIAL_PEOPLE,
     sameAs: [FACEBOOK_URL, DCARD_URL, PAID_COLUMN_URL, CMONEY_URL, INSTAGRAM_URL],
     contactPoint: {
       "@type": "ContactPoint",

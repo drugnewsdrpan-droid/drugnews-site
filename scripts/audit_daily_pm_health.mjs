@@ -429,6 +429,31 @@ function analyticsEventPlanStatus() {
   };
 }
 
+function authorExpertiseStatus(records = [], limit = 30) {
+  const checked = records.filter((record) => !record.external).slice(0, limit);
+  const missing = [];
+  for (const record of checked) {
+    const htmlPath = path.join(ROOT, record.url || "");
+    const html = fs.existsSync(htmlPath) ? fs.readFileSync(htmlPath, "utf8") : "";
+    const required = [
+      "Dr. Jo-Fan Pan",
+      "Dr. Chuan-Sheng Lin",
+      "reviewedBy",
+      "editor",
+      "潘若凡 博士",
+      "林詮盛 博士"
+    ];
+    const articleHasAll = required.every((phrase) => html.includes(phrase));
+    if (!articleHasAll) missing.push(record.url || record.title);
+  }
+  return {
+    ok: missing.length === 0 && checked.length > 0,
+    detail: missing.length
+      ? `${missing.length}/${checked.length} latest article(s) missing dual-PhD author/editor/reviewer schema: ${missing.slice(0, 3).join(", ")}`
+      : `${checked.length} latest article(s) expose dual-PhD author, editor, and reviewer schema`
+  };
+}
+
 function cleanArticleTopicMetadataStatus(records = [], limit = 30) {
   const latest = [...records]
     .filter((item) => !item.external && item.fileName && item.url)
@@ -635,6 +660,7 @@ async function main() {
   const enOfferCatalog = offerCatalogStatus(enSubscribeHtml);
   const commercialFaq = commercialFaqStatus({ subscribeHtml, servicesHtml, enSubscribeHtml, enServicesHtml });
   const structuredArticles = structuredArticleStatus(records, 30);
+  const authorExpertise = authorExpertiseStatus(records, 30);
   const sitemapCompleteness = sitemapCompletenessStatus(sitemap);
   const imageSitemapCheck = imageSitemapStatus(imageSitemapText, latest);
   const llmsQueryRouting = llmsQueryRoutingStatus(llms);
@@ -694,6 +720,7 @@ async function main() {
     check("image_sitemap_exists", fileExists("image-sitemap.xml") && robots.includes("image-sitemap.xml") && imageSitemapCheck.ok, imageSitemapCheck.detail, "warning"),
     check("references_latest_30", references?.truncated_url_articles === 0, `${references?.truncated_url_articles ?? "unknown"} articles with truncated URLs`, "error"),
     check("structured_article_schema_latest_30", structuredArticles.ok, structuredArticles.detail, "warning"),
+    check("author_expertise_schema_latest_30", authorExpertise.ok, authorExpertise.detail, "warning"),
     check("clean_article_topic_metadata_latest_30", cleanArticleTopicMetadata.ok, cleanArticleTopicMetadata.detail, "warning"),
     check("reader_related_latest_30", reader?.failed_articles === 0, `${reader?.passed_articles ?? 0}/${reader?.checked_articles ?? 0} passed related-reading audit`, "warning"),
     check("reading_product_tasks", readingProduct?.status === "ok", readingProduct?.status === "ok" ? "mobile, search, topic hubs, tags, and share placement passed" : `${readingProduct?.failed?.length ?? "unknown"} reading-product task(s) need review`, "warning"),
