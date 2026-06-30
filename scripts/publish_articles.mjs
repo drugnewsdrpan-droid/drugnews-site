@@ -19,6 +19,8 @@ const DCARD_URL = "https://www.dcard.tw/@drugnews";
 const CMONEY_URL = "https://www.cmoney.tw/app/expert/drugnews?ca=1";
 const INSTAGRAM_URL = "https://www.instagram.com/drugnews.com.tw/";
 const COMPANY_SERVICE_FORM_URL = "https://forms.gle/rvDm93vkUx3E7Rci7";
+const ENGLISH_BRAND = "Drugnews";
+const CHINESE_BRAND = "Drugnews｜藥時事";
 
 const LEGACY_TOPICS = new Map([
   ["生技估值", "biotech-valuation"],
@@ -1126,6 +1128,7 @@ function articlePage(article, bodyHtml, related) {
   const articleCover = coverImage(article);
   const articleImage = articleCover.src;
   const articleImageUrl = articleImage ? absoluteUrl(articleImage) : "";
+  const siteBrand = isEnglish(meta) ? ENGLISH_BRAND : CHINESE_BRAND;
   const citations = extractCitations(article.markdown);
   const wordCount = articleWordCount(article.markdown);
   const seriesLabel = displaySeriesLabel(series, meta);
@@ -1174,7 +1177,7 @@ function articlePage(article, bodyHtml, related) {
     about: seoTags.map((tag) => ({ "@type": "Thing", name: tag })),
     isPartOf: {
       "@type": "WebSite",
-      name: "Drugnews｜藥時事",
+      name: siteBrand,
       url: `${BASE_URL}/`
     },
     articleSection: seriesLabel,
@@ -1213,7 +1216,7 @@ function articlePage(article, bodyHtml, related) {
   <meta property="og:description" content="${escapeHtml(meta.summary)}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="${url}">
-  <meta property="og:site_name" content="Drugnews｜藥時事">
+  <meta property="og:site_name" content="${siteBrand}">
   <meta property="og:locale" content="${ogLocale(meta)}">
   ${articleImageUrl ? `<meta property="og:image" content="${articleImageUrl}">` : ""}
   <meta name="twitter:card" content="${articleImageUrl ? "summary_large_image" : "summary"}">

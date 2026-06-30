@@ -1,3 +1,5 @@
 content/publish-errors.json
 outputs/
 work/
+node_modules/
+pnpm-lock.yaml

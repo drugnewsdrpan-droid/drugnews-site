@@ -3,6 +3,7 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const BASE_URL = "https://drugnews.com.tw";
+const ENGLISH_BRAND = "Drugnews";
 const EN = path.join(ROOT, "en");
 const PUBLISHED = path.join(ROOT, "content", "published");
 const SITEMAP = path.join(ROOT, "sitemap.xml");
@@ -36,8 +37,8 @@ function englishHomeSchema(records = []) {
       {
         "@type": ["Organization", "NewsMediaOrganization"],
         "@id": `${BASE_URL}/#organization`,
-        name: "Drugnews｜藥時事",
-        alternateName: ["Drugnews", "藥時事", "Drugnews English"],
+        name: ENGLISH_BRAND,
+        alternateName: ["Drugnews English", "Drugnews Biotech Business Analysis"],
         url: `${BASE_URL}/`,
         logo: `${BASE_URL}/favicon.svg`,
         description: "Drugnews is a biotech and pharmaceutical business-analysis media platform covering clinical data, company strategy, licensing, valuation, and capital-market signals.",
@@ -102,7 +103,7 @@ function englishHomeSchema(records = []) {
       {
         "@type": "WebSite",
         name: "Drugnews English",
-        alternateName: ["Drugnews Biotech Business Analysis", "Drugnews｜藥時事 English"],
+        alternateName: ["Drugnews Biotech Business Analysis", "Drugnews English Edition"],
         url: `${BASE_URL}/en/`,
         inLanguage: "en",
         description: "English edition of Drugnews biotech and pharmaceutical business analysis.",
@@ -184,7 +185,7 @@ ${englishHomeSchema(homeRecords)}` : "";
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="${canonical}">
-  <meta property="og:site_name" content="Drugnews｜藥時事">
+  <meta property="og:site_name" content="${ENGLISH_BRAND}">
   <meta property="og:locale" content="en_US">
 ${image ? `  <meta property="og:image" content="${escapeHtml(image)}">` : ""}
   <meta name="twitter:card" content="${image ? "summary_large_image" : "summary"}">
@@ -214,7 +215,7 @@ function researchPackOfferCatalog() {
     "description": "Buyable biotech and pharmaceutical business-analysis research packs and IR content services from Drugnews.",
     "provider": {
       "@type": "Organization",
-      "name": "Drugnews｜藥時事",
+      "name": ENGLISH_BRAND,
       "url": BASE_URL
     },
     "itemListElement": [
@@ -277,7 +278,7 @@ function serviceSchema() {
     url: `${BASE_URL}/en/services.html`,
     provider: {
       "@type": "Organization",
-      name: "Drugnews｜藥時事",
+      name: ENGLISH_BRAND,
       url: BASE_URL
     },
     areaServed: ["Taiwan", "Global biotech and pharmaceutical capital markets"],
@@ -612,7 +613,7 @@ function teamPage() {
     current: "team",
     depth: 1,
     main: `<main>
-  <section class="page-title"><div class="container team-hero"><div><p class="eyebrow">Team</p><h1>Two biomedical PhDs translating science into business analysis readers can judge.</h1><p>Drugnews combines clinical medicine, biotech R&D, business development, and capital-market perspectives. Our goal is to make biotech and pharma content more than news summary: it should become research material readers can inspect, compare, and track.</p></div><figure class="team-photo"><img src="../assets/team/drugnews-team.jpg" alt="Drugnews team photo: Dr. Jo-Fan Pan and Dr. Chuan-Sheng Lin"><figcaption>Drugnews｜Dr. Jo-Fan Pan × Dr. Chuan-Sheng Lin</figcaption></figure></div></section>
+  <section class="page-title"><div class="container team-hero"><div><p class="eyebrow">Team</p><h1>Two biomedical PhDs translating science into business analysis readers can judge.</h1><p>Drugnews combines clinical medicine, biotech R&D, business development, and capital-market perspectives. Our goal is to make biotech and pharma content more than news summary: it should become research material readers can inspect, compare, and track.</p></div><figure class="team-photo"><img src="../assets/team/drugnews-team.jpg" alt="Drugnews team photo: Dr. Jo-Fan Pan and Dr. Chuan-Sheng Lin"><figcaption>Drugnews | Dr. Jo-Fan Pan x Dr. Chuan-Sheng Lin</figcaption></figure></div></section>
   <section class="section"><div class="container team-grid"><article class="profile-card"><div class="profile-kicker">Founder / Editor-in-Chief</div><h2>Dr. Jo-Fan Pan</h2><p>PhD, University of Manchester; BSN, National Taiwan University. Former frontline emergency department clinician with experience in pharmaceutical international trade, medical-device distribution, and content entrepreneurship.</p><ul class="credential-list"><li>Specializes in asset value through business development and licensing logic</li><li>Tracks pharma dealmaking, clinical milestones, and capital-market narratives</li><li>Leads Drugnews editorial strategy, long-form structure, and reader communication</li></ul></article><article class="profile-card"><div class="profile-kicker">Partner / Scientific Strategy</div><h2>Dr. Chuan-Sheng Lin</h2><p>Biomedical dual-PhD background from Chang Gung University and Europe, with more than 15 years of biotech and pharmaceutical experience across the R&D value chain.</p><ul class="credential-list"><li>Experienced in drug development, technology platforms, patents, and international collaboration</li><li>Has worked with global pharma companies including Novo Nordisk and Merck</li><li>Helps the team examine scientific evidence, technical barriers, and development risk</li></ul></article></div></section>
   <section class="section white"><div class="container team-belief"><div><p class="eyebrow">Differentiation</p><h2>How Drugnews is different</h2></div><p>We do not only collect news or make social-media summaries. Drugnews places mechanism, clinical evidence, CMC and regulatory risk, competitive dynamics, licensing, and valuation logic into one judgment framework.</p></div><div class="container principle-grid"><div class="principle"><span>Science</span><strong>Understand mechanism and evidence</strong></div><div class="principle"><span>Industry</span><strong>Interpret R&D and commercialization</strong></div><div class="principle"><span>Capital</span><strong>Track valuation and catalysts</strong></div></div></section>
 </main>`
