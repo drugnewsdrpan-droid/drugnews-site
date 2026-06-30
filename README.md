@@ -23,6 +23,14 @@ This keeps the daily workflow no-API by reading the full post and images from th
 
 The daily entrypoint now standardizes the no-API fallback Codex has used successfully before: if the Facebook or Dcard profile page exposes only a preview, diagnostics are checked for the newest permalink and the script automatically retries the logged-in single-post route. It also checks whether a Facebook or Dcard single-post tab is already open in the social-capture Chrome before navigating back to the profile page. If the actual post is already open and you want to force that active tab, use `--facebook-current` or `--dcard-current`.
 
+If the user's normal Chrome profile is already logged in, the daily entrypoint first runs a regular-Chrome readiness check. For Codex to read the actual page body from normal Chrome, Chrome must have this one-time local setting enabled:
+
+```text
+Chrome menu bar -> View -> Developer -> Allow JavaScript from Apple Events
+```
+
+Without that setting, Codex can see the logged-in page on screen but cannot reliably extract the full FB / Dcard article DOM or image URLs. The dedicated social-capture Chrome remains the lowest-friction automation path because it is launched with a fixed remote-debugging endpoint.
+
 If you only want to inspect site health without social capture:
 
 ```bash

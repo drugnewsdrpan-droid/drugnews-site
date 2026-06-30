@@ -49,6 +49,10 @@ echo "== 1. PM preflight =="
 "$NODE_BIN" scripts/audit_daily_pm_health.mjs || true
 echo
 
+echo "== 1B. Regular Chrome readiness =="
+"$NODE_BIN" scripts/check_regular_chrome_readiness.mjs || true
+echo
+
 if [[ "$START_CHROME" == "1" ]]; then
   echo "== 2. Ensure social-capture Chrome =="
   /bin/zsh scripts/start_social_capture_chrome.sh || true
