@@ -31,6 +31,14 @@ Chrome menu bar -> View -> Developer -> Allow JavaScript from Apple Events
 
 Without that setting, Codex can see the logged-in page on screen but cannot reliably extract the full FB / Dcard article DOM or image URLs. The dedicated social-capture Chrome remains the lowest-friction automation path because it is launched with a fixed remote-debugging endpoint.
 
+After that setting is enabled, the shortest route for the user's already-open normal Chrome is:
+
+```bash
+/bin/zsh scripts/codex_daily_start.sh --facebook-regular-current
+```
+
+This reads the currently active Facebook tab in the normal Chrome profile, writes `/private/tmp/drugnews-facebook-latest.json`, imports fresh posts, and rebuilds the site when the current tab contains a readable long-form post. It is intended for the logged-in Facebook page or a single-post page already opened by the user.
+
 If you only want to inspect site health without social capture:
 
 ```bash

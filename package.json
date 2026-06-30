@@ -34,6 +34,7 @@
     "chrome:regular-check": "node scripts/check_regular_chrome_readiness.mjs",
     "chrome:social": "scripts/start_social_capture_chrome.sh",
     "capture:fb": "node scripts/scrape_facebook_cdp.mjs profile https://www.facebook.com/profile.php?id=61568446257142 /private/tmp/drugnews-facebook-latest.json",
+    "capture:fb:regular-current": "node scripts/scrape_facebook_regular_chrome.mjs current /private/tmp/drugnews-facebook-latest.json",
     "capture:dcard": "node scripts/scrape_dcard_cdp.mjs profile https://www.dcard.tw/f/persona_drugnews /private/tmp/drugnews-dcard-latest.json",
     "capture:fb:current": "node scripts/scrape_facebook_cdp.mjs current current /private/tmp/drugnews-facebook-latest.json",
     "capture:dcard:current": "node scripts/scrape_dcard_cdp.mjs current current /private/tmp/drugnews-dcard-latest.json",
