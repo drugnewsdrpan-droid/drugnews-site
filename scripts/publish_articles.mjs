@@ -1128,6 +1128,13 @@ function articlePage(article, bodyHtml, related) {
   const articleCover = coverImage(article);
   const articleImage = articleCover.src;
   const articleImageUrl = articleImage ? absoluteUrl(articleImage) : "";
+  const articleImageUrls = [
+    articleImageUrl,
+    ...findMarkdownImages(article.markdown)
+      .map((image) => article.imageMap.get(image.src) || image.src)
+      .filter(Boolean)
+      .map((src) => absoluteUrl(src))
+  ].filter((url, index, urls) => url && urls.indexOf(url) === index);
   const siteBrand = isEnglish(meta) ? ENGLISH_BRAND : CHINESE_BRAND;
   const citations = extractCitations(article.markdown);
   const wordCount = articleWordCount(article.markdown);
@@ -1186,7 +1193,7 @@ function articlePage(article, bodyHtml, related) {
     wordCount,
     timeRequired: readingTimeIso(article.markdown)
   };
-  if (articleImageUrl) articleSchema.image = [articleImageUrl];
+  if (articleImageUrls.length) articleSchema.image = articleImageUrls;
   if (citations.length) articleSchema.citation = citations;
   const breadcrumbSchema = {
     "@context": "https://schema.org",
