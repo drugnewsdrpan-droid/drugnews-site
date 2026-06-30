@@ -138,21 +138,11 @@ Zidesamtinib 和 neladalkib 的 FDA 決定日期，會是這筆交易的第一�
 
 參考資料：
 
-0. 各公司官網＆公開資料
-
-1. GSK to Buy Nuvalent for $10.6 Billion in Oncology Push
-
-2. New GSK CEO’s Cancer Deal Signals Bigger Ambitions
-
-3. GSK boosts cancer pipeline with $11B Nuvalent buyout
-
-4. GSK inks $10.6B Nuvalent buyout to challenge Roche and Pfizer in lung cancer
-
-5. GSK pays $10.6B for cancer biotech Nuvalent in industry’s second-biggest buy of the year
-
-所有心情：
-
-2次分享
+1. [The Guardian: GSK to buy US cancer treatment firm Nuvalent in $10bn deal](https://www.theguardian.com/business/2026/jun/09/gsk-buy-us-cancer-treatment-firm-nuvalent-luke-miels)
+2. [Investor's Business Daily: Nuvalent stock surges on GSK acquisition](https://www.investors.com/news/technology/nuvalent-stock-gsk-acquisition/)
+3. [MarketWatch: GSK announces its biggest purchase in eight years](https://www.marketwatch.com/story/gsk-just-announced-its-biggest-purchase-in-eight-years-to-rev-up-cancer-portfolio-it-had-previously-wound-down-a95e6065)
+4. [Barron's: Nuvalent stock jumps on GSK cancer deal](https://www.barrons.com/articles/nuvalent-stock-gsk-cancer-deal-89443e68)
+5. 各公司官網與公開資料
 
 ---
 

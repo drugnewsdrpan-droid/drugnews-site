@@ -1591,6 +1591,31 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   font-size: 0.92rem;
 }
 
+.footer-inner {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer-links a {
+  color: var(--brand);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.service-team-proof {
+  border-top: 1px solid var(--line);
+}
+
 .page-title {
   padding: 46px 0 32px;
   background: #fff;
@@ -2485,6 +2510,13 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 
 @media (max-width: 860px) {
   h1 { font-size: 2.25rem; }
+  .footer-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .footer-links {
+    justify-content: flex-start;
+  }
   .hero-grid, .home-hero-grid, .english-home-grid, .masthead, .grid, .grid.two, .article-layout, .newsletter, .lead-story, .english-lead-story, .featured-article, .editorial-note, .editorial-list, .service-strip-inner, .client-proof-grid, .team-hero, .team-grid, .team-belief, .differentiation-strip, .guide-index-grid, .video-panel, .article-library-head {
     grid-template-columns: 1fr;
   }
@@ -2697,7 +2729,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     width: calc(100vw - 32px);
     max-width: calc(100vw - 32px);
     position: relative;
-    padding-right: 68px;
+    padding-right: 0;
   }
   .nav {
     min-height: auto;
@@ -2724,20 +2756,16 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     max-width: 100%;
   }
   .nav-menu-button {
-    position: absolute;
-    top: 50%;
-    right: 0;
+    position: static;
     flex: 0 0 auto;
-    transform: translateY(-50%);
+    transform: none;
     z-index: 2;
-    min-width: 44px;
-    padding: 0;
-    font-size: 0;
+    min-width: 56px;
+    padding: 0 12px;
+    font-size: 0.86rem;
   }
   .nav-menu-button::before {
-    content: "☰";
-    font-size: 1.08rem;
-    line-height: 1;
+    content: none;
   }
   .nav-links {
     width: 100%;

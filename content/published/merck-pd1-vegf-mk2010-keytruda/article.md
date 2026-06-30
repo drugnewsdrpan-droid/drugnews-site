@@ -158,7 +158,10 @@ Keytruda 仍然強大，但下一代免疫治療的形狀，正在改變。
 
 參考資料：
 
-1.各公司官網＆公開資料
+1. [Merck product pipeline](https://www.merck.com/research/product-pipeline/)
+2. [Merck Keytruda prescribing information](https://www.merck.com/product/usa/pi_circulars/k/keytruda/keytruda_pi.pdf)
+3. [Summit Therapeutics: ivonescimab clinical development](https://www.smmttx.com/)
+4. 各公司官網與公開資料
 
 ---
 

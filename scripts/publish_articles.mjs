@@ -247,13 +247,13 @@ function stripMarkdown(markdown) {
 
 function stripReferenceSection(markdown) {
   return String(markdown || "").replace(
-    /(^|\n)\s*(參考資料[:：]?|References:?)\s*\n[\s\S]*?(?=\n---|\n#{1,3}\s|$)/i,
+    /(^|\n)\s*(參考(?:資料|來源)[:：]?|References:?)\s*\n[\s\S]*?(?=\n---|\n#{1,3}\s|$)/i,
     "$1"
   );
 }
 
 function referenceSection(markdown) {
-  const match = String(markdown || "").match(/(^|\n)\s*(參考資料[:：]?|References:?)\s*\n([\s\S]*?)(?=\n---|\n#{1,3}\s|$)/i);
+  const match = String(markdown || "").match(/(^|\n)\s*(參考(?:資料|來源)[:：]?|References:?)\s*\n([\s\S]*?)(?=\n---|\n#{1,3}\s|$)/i);
   return match ? match[3].trim() : "";
 }
 
@@ -1045,7 +1045,7 @@ function nestedHeaderHtml(current = "articles", prefix = "../../") {
 }
 
 function footerHtml(meta = {}) {
-  return `<footer class="site-footer"><div class="container">© 2026 Drugnews. ${disclaimerFor(meta)}</div></footer>`;
+  return `<footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. ${disclaimerFor(meta)}</div><nav class="footer-links" aria-label="Footer navigation"><a href="${BASE_URL}/team.html">團隊</a><a href="${BASE_URL}/services.html">公司合作</a><a href="${BASE_URL}/subscribe.html">付費專欄</a><a href="${BASE_URL}/articles/">文章</a></nav></div></footer>`;
 }
 
 function citationText(meta, url) {
