@@ -141,11 +141,17 @@ English pages should read as native English articles, not machine-looking mirror
 1. Translate and rewrite from the published Chinese article into natural English.
 2. Link the Chinese and English `meta.json` files through `translations`.
 3. Rebuild article images as English SVG or programmatically typeset cards; do not reuse Chinese Facebook or Dcard infographics as English figures.
-4. Run the localization audit before deployment:
+4. Do not shorten the article into a summary. Preserve the Chinese article's argument sequence, section structure, company examples, risk layers, references, and disclaimer. The English version should read like a professional English business-analysis article, not a machine translation and not an executive summary.
+5. For the newest English article, create at least four English article figures when the Chinese source has multiple social images or the topic is a full-length daily analysis. Preferred standard: GPT-generated BioRender-style 16:9 raster figures with short English labels, inspected manually for spelling and layout. If generated text is unreliable, generate a clean no-text background and add exact English labels programmatically.
+6. Put the figures back into the article body by logic, not as a gallery at the end. The cover / OG image should be the best English figure, not a cropped Chinese social infographic.
+7. Run the localization and completeness audits before deployment:
 
 ```bash
 npm run audit:english-localization
+npm run audit:english-completeness
 ```
+
+`audit:english-completeness` checks the latest English article for minimum image count, non-summary length, heading parity with the Chinese source, and absence of Chinese/social-image reuse in English figures.
 
 Japanese localization is not exposed on the public site for now. Re-enable it only after there is enough maintained Japanese content and localized figures to meet the same quality bar as the Chinese and English site.
 

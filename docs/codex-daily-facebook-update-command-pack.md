@@ -151,6 +151,15 @@ Inspect `/private/tmp/drugnews-facebook-latest.json.diagnostics.json` before imp
 - For images with important text, do not rely on AI-rendered text. Use either original images or programmatic English labels.
 - Check that every public image exists under `assets/articles/<slug>/`.
 
+## English Article Rules
+
+- The English article must not be a shortened summary of the Chinese article. Preserve the original argument sequence, H2 sections, examples, risk layers, references, and disclaimer.
+- Write in natural professional English for global biotech, pharma, investor-relations, and capital-market readers. Avoid machine-translation phrasing.
+- The newest English long-form article should have at least four English article figures. Use GPT-generated BioRender-style 16:9 figures that match the article logic, then inspect each image for spelling, layout, and readability.
+- Do not reuse Chinese Facebook/Dcard images as English figures. If the original image is useful, recreate the concept in English. If GPT text quality is poor, generate the background without text and add labels programmatically.
+- Insert English figures into the corresponding sections; do not append them as a disconnected gallery.
+- Use the best English figure as `cover_image` so homepage, OG image, RSS, and search previews are English-native.
+
 ## QA Checklist
 
 Before commit:
@@ -159,8 +168,17 @@ Before commit:
 - `index.html` shows the new article as the latest free article.
 - `articles/index.html`, `search-index.json`, `sitemap.xml`, and `feed.xml` contain the new slug.
 - Article body has full text, section breaks, and image placement.
+- English counterpart has full-length analysis and at least four English figures when it is a daily long-form article.
 - No horizontal overflow in local browser QA.
 - `git status --short` contains only intended files plus known pre-existing unrelated changes.
+
+English-specific QA:
+
+```bash
+npm run audit:english-localization
+npm run audit:english-visual
+npm run audit:english-completeness
+```
 
 ## Commit And Deploy
 

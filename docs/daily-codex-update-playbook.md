@@ -146,8 +146,10 @@ npm run chrome:social
 - 正文是否保留原本分段。
 - 圖片是否依文章邏輯插入，不只放封面。
 - 首頁頭版是否使用免費文章，不用付費文章。
-- 英文版是否同步，英文圖不要直接用中文圖。
-- 英文圖若含關鍵文字，優先用「乾淨底圖或程式精準排字」，不要讓 AI 直接亂生小字。
+- 英文版是否同步，英文圖不要直接用中文圖，也不要只放一張 cover。
+- 英文版不能縮短成摘要。要保留中文原文的論證順序、H2 章節、公司案例、風險拆解、參考資料與免責聲明，改寫成自然、專業、非機翻的英文長文。
+- 最新英文長文預設至少 4 張英文圖卡。若中文原文有多張 FB / Dcard 圖，英文版要用 GPT 生成配合文章邏輯的 BioRender 風格英文圖卡，並插回對應段落。
+- 英文圖若含關鍵文字，文字必須短、清楚、英文-only，生成後要肉眼檢查拼字與排版。若 AI 文字不穩，改成「無字底圖 + 程式精準排字」，不要硬用錯字圖。
 - 英文版每篇文章要像英文讀者會讀的文章，不只是中文直譯；圖片文字也要英文化。
 - 目前不維護公開日文站；除非另有明確策略與內容品質規格，不要在日常流程中新增日文入口。
 - 參考資料不要有截斷網址，至少要是可點、可辨識的一手來源或明確媒體來源。
@@ -172,6 +174,14 @@ npm run chrome:social
 ```bash
 /Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/audit_english_localization.mjs
 ```
+
+每次更新英文版長文後，也跑英文完整度檢查，避免再次發生「英文版變短、圖片不足」：
+
+```bash
+/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/audit_english_article_completeness.mjs
+```
+
+這個檢查只看最新英文文章，標準是：至少 4 張文章圖、英文正文不是短摘要、H2 結構接近中文原文、英文圖不直接復用中文社群圖。
 
 ## 4. 英文圖表修正
 

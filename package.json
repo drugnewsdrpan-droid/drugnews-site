@@ -25,6 +25,8 @@
     "audit:reading-product:strict": "node scripts/audit_reading_product_tasks.mjs --strict",
     "audit:english-localization": "node scripts/audit_english_localization.mjs",
     "audit:english-visual": "node scripts/audit_english_visual_quality.mjs",
+    "audit:english-completeness": "node scripts/audit_english_article_completeness.mjs",
+    "audit:english-completeness:strict": "node scripts/audit_english_article_completeness.mjs --strict",
     "audit:pm": "node scripts/audit_daily_pm_health.mjs",
     "audit:pm:strict": "node scripts/audit_daily_pm_health.mjs --strict",
     "checkpoint:cxo": "node scripts/summarize_daily_status.mjs",
