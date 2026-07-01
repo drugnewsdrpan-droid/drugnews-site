@@ -24,6 +24,7 @@ function unsafeSocialEditorReason(url = "") {
   const value = String(url || "");
   if (/dcard\.tw\/new-post/i.test(value)) return "dcard_new_post_editor";
   if (/dcard\.tw\/my\/scheduled-posts/i.test(value)) return "dcard_scheduled_posts";
+  if (/dcard\.tw\/f\/persona_drugnews\/postTask\//i.test(value)) return "dcard_post_task_editor";
   if (/facebook\.com\/.*(?:composer|stories\/create|posts\/creation|photo\/upload)/i.test(value)) return "facebook_editor_or_upload";
   return "";
 }
