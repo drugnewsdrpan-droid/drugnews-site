@@ -4,28 +4,33 @@ import { spawnSync } from "node:child_process";
 const mode = process.argv[2] || "current";
 const out = process.argv[3] || "/private/tmp/drugnews-facebook-latest.json";
 
-function executeChromeJs(jsCode) {
-  const run = (target) => spawnSync("/usr/bin/osascript", [
-    "-e", "on run argv",
-    "-e", "set jsCode to item 1 of argv",
-    "-e", `tell application ${target} to execute active tab of front window javascript jsCode`,
-    "-e", "end run",
-    jsCode
-  ], { encoding: "utf8", maxBuffer: 1024 * 1024 * 8 });
+async function executeChromeJs(jsCode) {
+  const jsFile = `/private/tmp/drugnews-facebook-regular-${process.pid}.js`;
+  await fs.writeFile(jsFile, jsCode, "utf8");
+  const command = [
+    "/usr/bin/osascript",
+    "-e 'on run argv'",
+    "-e 'set jsPath to item 1 of argv'",
+    "-e 'set jsCode to do shell script \"cat \" & quoted form of jsPath'",
+    "-e 'tell application \"Google Chrome\" to execute active tab of front window javascript jsCode'",
+    "-e 'end run'",
+    "--",
+    jsFile
+  ].join(" ");
+  const result = spawnSync("/bin/zsh", ["-lc", command], { encoding: "utf8", maxBuffer: 1024 * 1024 * 8 });
 
-  let result = run('id "com.google.Chrome"');
-  if (result.status !== 0 && /無法取得|Can’t get|Can't get|application id/i.test(String(result.stderr || result.stdout || ""))) {
-    result = run('"Google Chrome"');
+  try {
+    if (result.status !== 0) {
+      const detail = String(result.stderr || result.stdout || "").trim();
+      const disabled = /AppleScript.*JavaScript|執行 JavaScript 的功能已關閉|Apple 事件的 JavaScript|Allow JavaScript from Apple Events|功能已關閉/i.test(detail);
+      throw new Error(disabled
+        ? `Regular Chrome cannot be read because "Allow JavaScript from Apple Events" is disabled. Enable it once in Chrome: View -> Developer -> Allow JavaScript from Apple Events.\n${detail}`
+        : `Regular Chrome scrape failed.\n${detail}`);
+    }
+    return String(result.stdout || "").trim();
+  } finally {
+    await fs.unlink(jsFile).catch(() => {});
   }
-
-  if (result.status !== 0) {
-    const detail = String(result.stderr || result.stdout || "").trim();
-    const disabled = /AppleScript.*JavaScript|執行 JavaScript 的功能已關閉|Apple 事件的 JavaScript|Allow JavaScript from Apple Events|功能已關閉/i.test(detail);
-    throw new Error(disabled
-      ? `Regular Chrome cannot be read because "Allow JavaScript from Apple Events" is disabled. Enable it once in Chrome: View -> Developer -> Allow JavaScript from Apple Events.\n${detail}`
-      : `Regular Chrome scrape failed.\n${detail}`);
-  }
-  return String(result.stdout || "").trim();
 }
 
 function lineClean(text) {
@@ -116,35 +121,64 @@ if (mode !== "current") {
   process.exit(2);
 }
 
-const js = `(() => {
-  const cleanUrl = (url) => String(url || '').split('&__cft__')[0].split('&__tn__')[0];
-  const uniq = (arr) => [...new Set(arr.filter(Boolean))];
-  const main = document.querySelector('[role="main"]') || document.body;
-  const articles = [...main.querySelectorAll('[role="article"], article')];
-  const candidates = articles.length ? articles : [...main.querySelectorAll('div')].filter((node) => {
-    const text = node.innerText || '';
+const js = `(function () {
+  function cleanUrl(url) {
+    return String(url || '').split('&__cft__')[0].split('&__tn__')[0];
+  }
+  function uniq(arr) {
+    var out = [];
+    arr.filter(Boolean).forEach(function (item) {
+      if (out.indexOf(item) === -1) out.push(item);
+    });
+    return out;
+  }
+  var main = document.querySelector('[role="main"]') || document.body;
+  var articles = Array.prototype.slice.call(main.querySelectorAll('[role="article"], article'));
+  var candidates = articles.length ? articles : Array.prototype.slice.call(main.querySelectorAll('div')).filter(function (node) {
+    var text = node.innerText || '';
     return text.length > 600 && text.length < 30000;
   });
-  const best = candidates.sort((a, b) => (b.innerText || '').length - (a.innerText || '').length)[0] || main;
-  const links = [...best.querySelectorAll('a[href]')].map((a) => a.href);
-  const permalink = links.find((href) => /permalink\\.php\\?story_fbid=|\\/posts\\//.test(href) && !/notif_id=|comment_id=|reply_comment_id=/.test(href)) || location.href;
-  const images = uniq([...best.querySelectorAll('img')].map((img) => img.currentSrc || img.src || '').filter((src) =>
+  var best = candidates.sort(function (a, b) {
+    return (b.innerText || '').length - (a.innerText || '').length;
+  })[0] || main;
+  var links = Array.prototype.slice.call(best.querySelectorAll('a[href]')).map(function (a) {
+    return a.href;
+  });
+  var permalink = '';
+  for (var i = 0; i < links.length; i += 1) {
+    var href = links[i];
+    if (
+      (href.indexOf('permalink.php?story_fbid=') !== -1 || href.indexOf('/posts/') !== -1) &&
+      href.indexOf('notif_id=') === -1 &&
+      href.indexOf('comment_id=') === -1 &&
+      href.indexOf('reply_comment_id=') === -1
+    ) {
+      permalink = href;
+      break;
+    }
+  }
+  permalink = permalink || location.href;
+  var images = uniq(Array.prototype.slice.call(best.querySelectorAll('img')).map(function (img) {
+    return img.currentSrc || img.src || '';
+  }).filter(function (src) {
+    return (
     /scontent|fbcdn|xx\\.fbcdn/.test(src) &&
     !/emoji|static|safe_image|profile|p40x40|s40x40/.test(src)
-  ));
+    );
+  }));
   return JSON.stringify({
     url: cleanUrl(permalink),
     pageUrl: location.href,
     title: document.title,
     published: '',
     articleText: best.innerText || '',
-    images
+    images: images
   });
 })()`;
 
 let raw;
 try {
-  raw = JSON.parse(executeChromeJs(js));
+  raw = JSON.parse(await executeChromeJs(js));
 } catch (error) {
   console.error(error.message);
   process.exit(1);

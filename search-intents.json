@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-30T09:31:09.238Z",
+  "generated_at": "2026-07-01T11:19:40.221Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -362,6 +362,41 @@
   ],
   "latest_canonical_articles": [
     {
+      "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+      "date": "2026-07-01",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+      "category": "商業分析系列",
+      "tags": [
+        "ADHD",
+        "centanafadine",
+        "Otsuka",
+        "clinical data",
+        "neuroscience",
+        "non-stimulant ADHD therapy",
+        "Taiwan biotech",
+        "drug development"
+      ],
+      "summary": "Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention."
+    },
+    {
+      "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+      "date": "2026-07-01",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+      "category": "商業分析系列",
+      "tags": [
+        "ADHD",
+        "centanafadine",
+        "Otsuka",
+        "臨床數據",
+        "神經科學",
+        "美時",
+        "瑩碩生技"
+      ],
+      "summary": "Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。"
+    },
+    {
       "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
       "date": "2026-06-30",
       "language": "en",
@@ -711,40 +746,6 @@
         "生技投資"
       ],
       "summary": "2026 年 6 月 9 日，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元，較 Nuvalent 前一交易日收盤價溢價約 40%。這是 GSK 近年最大型的腫瘤併購之一，也讓它瞬間補上肺癌精準治療版圖中最缺的一塊。"
-    },
-    {
-      "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
-      "date": "2026-06-17",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
-      "category": "商業分析系列",
-      "tags": [
-        "GLP-1",
-        "肥胖藥",
-        "Ecnoglutide",
-        "Wegovy",
-        "輝瑞",
-        "諾和諾德",
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "ADA 2026 剛落幕，GLP-1 賽道又被一組頭對頭資料點燃。Ecnoglutide 在 20 週減重數字上勝出，但真正的競爭不只看短期體重下降，而是長期健康結局、耐受性、產品矩陣與全球商業化。"
-    },
-    {
-      "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-      "date": "2026-06-17",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-      "category": "商業分析系列",
-      "tags": [
-        "GLP-1",
-        "Ecnoglutide",
-        "Wegovy",
-        "Pfizer",
-        "Novo Nordisk",
-        "Obesity medicine"
-      ],
-      "summary": "Ecnoglutide's head-to-head weight-loss data versus semaglutide are interesting, but the GLP-1 race will be decided by long-term outcomes, tolerability, labels, supply, and global evidence."
     }
   ],
   "do_not_use_as": [

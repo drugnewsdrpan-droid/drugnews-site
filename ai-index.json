@@ -99,6 +99,59 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+      "date": "2026-07-01",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+      "source": "Website",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "ADHD",
+        "centanafadine",
+        "Otsuka",
+        "clinical data",
+        "neuroscience",
+        "non-stimulant ADHD therapy",
+        "Taiwan biotech",
+        "drug development"
+      ],
+      "summary": "Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention.",
+      "image": "https://drugnews.com.tw/assets/articles/adhd-centanafadine-phase3b-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-01-adhd-centanafadine-phase3b.html"
+      }
+    },
+    {
+      "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+      "date": "2026-07-01",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "ADHD",
+        "centanafadine",
+        "Otsuka",
+        "臨床數據",
+        "神經科學",
+        "美時",
+        "瑩碩生技"
+      ],
+      "summary": "Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。",
+      "image": "https://drugnews.com.tw/assets/articles/adhd-centanafadine-phase3b/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-01-adhd-centanafadine-phase3b-en.html"
+      }
+    },
+    {
       "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
       "date": "2026-06-30",
       "language": "en",
@@ -1299,52 +1352,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html"
-      }
-    },
-    {
-      "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-      "date": "2026-06-10",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-      "source": "Website",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "IR and Capital Markets",
-        "Capital markets",
-        "Biotech business analysis",
-        "Drug development"
-      ],
-      "summary": "Biotech IR is not cosmetic storytelling. Good IR turns clinical, CMC, regulatory, commercial, and financing milestones into a capital-market narrative that investors can actually track.",
-      "image": "https://drugnews.com.tw/assets/english/drugnews-english-analysis-cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-10-biotech-ir-capital-market-story.html"
-      }
-    },
-    {
-      "title": "生醫公司 IR 不是把簡報變漂亮，而是把管線變成可追蹤的資本市場故事",
-      "date": "2026-06-10",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story.html",
-      "source": "Dcard / Facebook",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "IR",
-        "資本市場故事",
-        "公開資訊",
-        "投資人溝通"
-      ],
-      "summary": "好的 IR 內容不是宣傳話術，而是把臨床、CMC、監管、商業化與對標公司轉成投資人可以追蹤的節點。",
-      "image": "https://drugnews.com.tw/assets/articles/biotech-ir-capital-market-story/ir-flow.svg",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-10-biotech-ir-capital-market-story-en.html"
       }
     }
   ]

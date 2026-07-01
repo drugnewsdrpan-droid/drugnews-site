@@ -73,6 +73,14 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-01｜Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology
+  URL: https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html
+  Topics: ADHD, centanafadine, Otsuka, clinical data, neuroscience
+  Summary: Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention.
+- 2026-07-01｜摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳
+  URL: https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html
+  Topics: ADHD, centanafadine, Otsuka, 臨床數據, 神經科學
+  Summary: Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。
 - 2026-06-30｜GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy
   URL: https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html
   Topics: GSK, Nuvalent, Oncology, Lung cancer, ROS1
@@ -121,14 +129,6 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
   URL: https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html
   Topics: 寶泰生醫, 寵物醫療, 羅氏, 平台型公司, 生技投資
   Summary: 當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。
-- 2026-06-24｜Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head
-  URL: https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html
-  Topics: AI drug discovery, zasocitinib, Takeda, Sotyktu, TYK2
-  Summary: Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test.
-- 2026-06-24｜AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu
-  URL: https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html
-  Topics: AI, 臨床數據, 生技投資, 製藥巨頭
-  Summary: 過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…
 
 ## Key Site Sections
 

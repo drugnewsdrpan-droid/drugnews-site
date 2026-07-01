@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-30T09:31:09.238Z",
+  "generated_at": "2026-07-01T11:19:40.222Z",
   "site": {
     "@type": [
       "Organization",
@@ -110,6 +110,49 @@
     "brand_profile": "https://drugnews.com.tw/brand-profile.json"
   },
   "latest_articles": [
+    {
+      "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+      "date": "2026-07-01",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "ADHD",
+        "centanafadine",
+        "Otsuka",
+        "clinical data",
+        "neuroscience",
+        "non-stimulant ADHD therapy",
+        "Taiwan biotech",
+        "drug development"
+      ],
+      "summary": "Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-01-adhd-centanafadine-phase3b.html"
+      }
+    },
+    {
+      "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+      "date": "2026-07-01",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "ADHD",
+        "centanafadine",
+        "Otsuka",
+        "臨床數據",
+        "神經科學",
+        "美時",
+        "瑩碩生技"
+      ],
+      "summary": "Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。",
+      "alternate_language_versions": {
+        "en": "2026-07-01-adhd-centanafadine-phase3b-en.html"
+      }
+    },
     {
       "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
       "date": "2026-06-30",
@@ -680,49 +723,13 @@
       "alternate_language_versions": {
         "en": "2026-06-15-2026-asco-car-t-en.html"
       }
-    },
-    {
-      "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-      "date": "2026-06-14",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "RAS",
-        "Revolution Medicines",
-        "Daraxonrasib",
-        "Biotech financing",
-        "Pancreatic cancer",
-        "Capital markets"
-      ],
-      "summary": "Revolution Medicines shows why next-generation biotech companies need to convert clinical momentum into capital momentum if they want to finish expensive global drug-development races.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-14-revolution-medicines.html"
-      }
-    },
-    {
-      "title": "Revolution Medicines 神話：會研發還不夠，會融資才撐得過新藥長跑",
-      "date": "2026-06-14",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "2026 年，全球最受矚目的 Biotech 之一，毫無疑問是 Revolution Medicines。這家公司站在一個極難、也極誘人的位置：RAS-addicted cancers。",
-      "alternate_language_versions": {
-        "en": "2026-06-14-revolution-medicines-en.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 43,
+      "mentions": 42,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -760,7 +767,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 43,
+      "mentions": 42,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -798,7 +805,7 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 27,
+      "mentions": 26,
       "latest_date": "2026-06-30",
       "latest_articles": [
         {
@@ -874,7 +881,7 @@
     {
       "name": "Business Analysis",
       "type": "topic",
-      "mentions": 21,
+      "mentions": 20,
       "latest_date": "2026-06-25",
       "latest_articles": [
         {
@@ -981,6 +988,44 @@
           "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
           "date": "2026-06-17",
           "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "臨床數據",
+      "type": "market_topic",
+      "mentions": 16,
+      "latest_date": "2026-07-01",
+      "latest_articles": [
+        {
+          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "美股迎來史上最大 Biotech IPO",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
+          "date": "2026-06-27",
+          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
           "language": "zh-Hant"
         }
       ]
@@ -1100,85 +1145,47 @@
       ]
     },
     {
-      "name": "臨床數據",
-      "type": "market_topic",
-      "mentions": 15,
-      "latest_date": "2026-06-30",
+      "name": "Obesity medicine",
+      "type": "topic",
+      "mentions": 14,
+      "latest_date": "2026-06-22",
       "latest_articles": [
         {
-          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "美股迎來史上最大 Biotech IPO",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "CAR-T",
-      "type": "biotech_concept_or_target",
-      "mentions": 15,
-      "latest_date": "2026-06-15",
-      "latest_articles": [
-        {
-          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
           "language": "en"
         },
         {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
+          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
           "language": "en"
         },
         {
-          "title": "HIV 新藥很好賺呀...吉利德財報披露",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
-          "language": "zh-Hant"
+          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
+          "date": "2026-06-04",
+          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
+          "language": "en"
         }
       ]
     },
     {
       "name": "Big Pharma",
       "type": "market_topic",
-      "mentions": 14,
+      "mentions": 13,
       "latest_date": "2026-06-30",
       "latest_articles": [
         {
@@ -1214,40 +1221,40 @@
       ]
     },
     {
-      "name": "Obesity medicine",
-      "type": "topic",
-      "mentions": 14,
-      "latest_date": "2026-06-22",
+      "name": "CAR-T",
+      "type": "biotech_concept_or_target",
+      "mentions": 13,
+      "latest_date": "2026-06-15",
       "latest_articles": [
         {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
           "language": "en"
         },
         {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
+          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
+          "date": "2026-05-19",
+          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
           "language": "en"
         },
         {
-          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
-          "language": "en"
+          "title": "HIV 新藥很好賺呀...吉利德財報披露",
+          "date": "2026-05-19",
+          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1772,38 +1779,6 @@
       ]
     },
     {
-      "name": "J&J",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-05-19",
-      "latest_articles": [
-        {
-          "title": "HIV 新藥很好賺呀...吉利德財報披露",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Johnson & Johnson（嬌生）砍掉兩條 自體淋巴瘤 CAR-T",
-          "date": "2026-05-17",
-          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "自體免疫 雙子星 拯救 嬌生",
-          "date": "2026-05-12",
-          "url": "https://drugnews.com.tw/articles/2026-05-12-jnj-autoimmune-twins-stelara-transition.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "體內 CAR-T 的泡沫，還是下一代細胞治療最貴的門票？",
-          "date": "2026-05-03",
-          "url": "https://drugnews.com.tw/articles/2026-05-03-in-vivo-cart-kelonia-lilly.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "疫苗",
       "type": "topic",
       "mentions": 3,
@@ -1960,7 +1935,7 @@
       ]
     },
     {
-      "name": "Gilead",
+      "name": "J&J",
       "type": "topic",
       "mentions": 3,
       "latest_date": "2026-05-19",
@@ -1972,41 +1947,75 @@
           "language": "zh-Hant"
         },
         {
-          "title": "大藥廠 輝瑞在兩個判斷上栽跟頭？",
-          "date": "2026-05-18",
-          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "體內 CAR-T 的泡沫，還是下一代細胞治療最貴的門票？",
-          "date": "2026-05-03",
-          "url": "https://drugnews.com.tw/articles/2026-05-03-in-vivo-cart-kelonia-lilly.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Kelonia",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-05-17",
-      "latest_articles": [
-        {
           "title": "Johnson & Johnson（嬌生）砍掉兩條 自體淋巴瘤 CAR-T",
           "date": "2026-05-17",
           "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge.html",
           "language": "zh-Hant"
         },
         {
-          "title": "減肥藥還是太強了，禮來 猛健樂 賺爛！",
-          "date": "2026-05-08",
-          "url": "https://drugnews.com.tw/articles/2026-05-08-lilly-tirzepatide-glp1-growth.html",
+          "title": "自體免疫 雙子星 拯救 嬌生",
+          "date": "2026-05-12",
+          "url": "https://drugnews.com.tw/articles/2026-05-12-jnj-autoimmune-twins-stelara-transition.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "ADHD",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-01",
+      "latest_articles": [
+        {
+          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "language": "en"
         },
         {
-          "title": "體內 CAR-T 的泡沫，還是下一代細胞治療最貴的門票？",
-          "date": "2026-05-03",
-          "url": "https://drugnews.com.tw/articles/2026-05-03-in-vivo-cart-kelonia-lilly.html",
+          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "centanafadine",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-01",
+      "latest_articles": [
+        {
+          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "language": "en"
+        },
+        {
+          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Otsuka",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-01",
+      "latest_articles": [
+        {
+          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "language": "en"
+        },
+        {
+          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
           "language": "zh-Hant"
         }
       ]
@@ -2692,6 +2701,26 @@
       ]
     },
     {
+      "name": "Gilead",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-05-19",
+      "latest_articles": [
+        {
+          "title": "HIV 新藥很好賺呀...吉利德財報披露",
+          "date": "2026-05-19",
+          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "大藥廠 輝瑞在兩個判斷上栽跟頭？",
+          "date": "2026-05-18",
+          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "PROTAC",
       "type": "biotech_concept_or_target",
       "mentions": 2,
@@ -2707,6 +2736,26 @@
           "title": "DAC（降解劑－抗體偶聯藥物）會是下一代標靶藥物的新引爆點嗎？",
           "date": "2026-05-11",
           "url": "https://drugnews.com.tw/articles/2026-05-11-dac-adc-protac-next-targeted-therapy.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Kelonia",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-05-17",
+      "latest_articles": [
+        {
+          "title": "Johnson & Johnson（嬌生）砍掉兩條 自體淋巴瘤 CAR-T",
+          "date": "2026-05-17",
+          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "減肥藥還是太強了，禮來 猛健樂 賺爛！",
+          "date": "2026-05-08",
+          "url": "https://drugnews.com.tw/articles/2026-05-08-lilly-tirzepatide-glp1-growth.html",
           "language": "zh-Hant"
         }
       ]
@@ -2732,105 +2781,100 @@
       ]
     },
     {
-      "name": "ALK",
+      "name": "美時",
       "type": "topic",
       "mentions": 1,
-      "latest_date": "2026-06-30",
+      "latest_date": "2026-07-01",
       "latest_articles": [
         {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en"
+          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+          "language": "zh-Hant"
         }
       ]
     },
     {
-      "name": "ROS1",
+      "name": "神經科學",
       "type": "topic",
       "mentions": 1,
-      "latest_date": "2026-06-30",
+      "latest_date": "2026-07-01",
       "latest_articles": [
         {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en"
+          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+          "language": "zh-Hant"
         }
       ]
     },
     {
-      "name": "Biotech IPO",
+      "name": "瑩碩生技",
       "type": "topic",
       "mentions": 1,
-      "latest_date": "2026-06-29",
+      "latest_date": "2026-07-01",
       "latest_articles": [
         {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
+          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+          "language": "zh-Hant"
         }
       ]
     },
     {
-      "name": "Helicons",
-      "type": "topic",
+      "name": "clinical data",
+      "type": "market_topic",
       "mentions": 1,
-      "latest_date": "2026-06-29",
+      "latest_date": "2026-07-01",
       "latest_articles": [
         {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Parabilis Medicines",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-29",
-      "latest_articles": [
-        {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Wnt beta-catenin",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-29",
-      "latest_articles": [
-        {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Zolucatetide",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-06-29",
-      "latest_articles": [
-        {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
           "language": "en"
         }
       ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+      "date": "2026-07-01",
+      "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+      "language": "en",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "ADHD",
+        "centanafadine",
+        "Otsuka",
+        "clinical data",
+        "neuroscience",
+        "non-stimulant ADHD therapy",
+        "Taiwan biotech",
+        "drug development"
+      ],
+      "summary": "Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention."
+    },
+    {
+      "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+      "date": "2026-07-01",
+      "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+      "language": "zh-Hant",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "ADHD",
+        "centanafadine",
+        "Otsuka",
+        "臨床數據",
+        "神經科學",
+        "美時",
+        "瑩碩生技"
+      ],
+      "summary": "Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。"
+    },
     {
       "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
       "date": "2026-06-30",
@@ -3305,39 +3349,6 @@
         "Biotech"
       ],
       "summary": "AI drug development is moving from molecular generation to clinical survival. AnHorn Medicines shows how AI+PROTAC, experimental feedback, and human translation may form a Taiwan-born clinical-asset engine."
-    },
-    {
-      "title": "AI製藥下半場：讓藥活下來",
-      "date": "2026-06-13",
-      "url": "https://drugnews.com.tw/articles/2026-06-13-dcard-261654701.html",
-      "language": "zh-Hant",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "AI",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "AI 醫藥上半場比生成分子，下半場比成藥存活率。安宏真正值得被看見的，不是單純曝光，而是用 AI + PROTAC（蛋白質降解技術）、實驗閉環與人體轉譯，嘗試形成高資本效率的 clinical asset engine（臨床資產生成引擎）。"
-    },
-    {
-      "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-      "date": "2026-06-12",
-      "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-      "language": "en",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "AI drug discovery",
-        "Clinical pipelines",
-        "Biotech investing",
-        "Business development",
-        "Drug development",
-        "Big Pharma"
-      ],
-      "summary": "AI drug discovery has moved beyond the concept stage and into clinical validation. This article reviews Zasocitinib, GB-0895, Zovegalisib, and REC-4881 to examine how different AI strategies are being converted into real drug assets."
     }
   ]
 }

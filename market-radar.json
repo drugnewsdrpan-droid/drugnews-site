@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-30T09:31:09.215Z",
+  "generated_at": "2026-07-01T11:19:40.175Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -112,6 +112,152 @@
     "positioning_note": "Drugnews does not provide individual stock recommendations. The site is positioned as biotech business-analysis media: clinical evidence, valuation logic, BD/licensing terms, CMC risk, company strategy, investor education, and capital-market narrative."
   },
   "buckets": [
+    {
+      "name": "AI 製藥與新技術",
+      "count": 6,
+      "articles": [
+        {
+          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "ADHD",
+            "centanafadine",
+            "Otsuka",
+            "clinical data",
+            "neuroscience",
+            "non-stimulant ADHD therapy",
+            "Taiwan biotech",
+            "drug development"
+          ],
+          "summary": "Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention."
+        },
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "AI drug discovery",
+            "zasocitinib",
+            "Takeda",
+            "Sotyktu",
+            "TYK2",
+            "psoriasis",
+            "PASI 100",
+            "Schrodinger"
+          ],
+          "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test."
+        },
+        {
+          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "AI",
+            "臨床數據",
+            "生技投資",
+            "製藥巨頭"
+          ],
+          "summary": "過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…"
+        },
+        {
+          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "Enlivex",
+            "RAIN token",
+            "Biotech treasury",
+            "Crypto",
+            "Capital markets"
+          ],
+          "summary": "Enlivex's paper gain from RAIN tokens shows how fragile biotech business models can create unusual treasury stories when operating revenue is absent and capital markets are difficult."
+        },
+        {
+          "title": "【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "AI",
+            "BD",
+            "臨床數據",
+            "生技投資",
+            "製藥巨頭"
+          ],
+          "summary": "一家臨床階段 Biotech，沒有藥品銷售收入，卻在一年內做出 12 億美元級別的淨利。"
+        },
+        {
+          "title": "The Next Phase of AI Drug Development: Making Molecules Survive as Drugs",
+          "date": "2026-06-13",
+          "url": "https://drugnews.com.tw/articles/2026-06-13-anhorn-ai-drug-development-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "AI Drug Development",
+            "AnHorn Medicines",
+            "AI+PROTAC",
+            "AIMCADD",
+            "NVIDIA",
+            "Clinical Asset Engine",
+            "Biotech"
+          ],
+          "summary": "AI drug development is moving from molecular generation to clinical survival. AnHorn Medicines shows how AI+PROTAC, experimental feedback, and human translation may form a Taiwan-born clinical-asset engine."
+        }
+      ]
+    },
+    {
+      "name": "臨床與法規催化",
+      "count": 2,
+      "articles": [
+        {
+          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "ADHD",
+            "centanafadine",
+            "Otsuka",
+            "臨床數據",
+            "神經科學",
+            "美時",
+            "瑩碩生技"
+          ],
+          "summary": "Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。"
+        },
+        {
+          "title": "美股迎來史上最大 Biotech IPO",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "臨床數據",
+            "生技投資"
+          ],
+          "summary": "台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。"
+        }
+      ]
+    },
     {
       "name": "腫瘤精準治療",
       "count": 11,
@@ -329,25 +475,6 @@
       ]
     },
     {
-      "name": "臨床與法規催化",
-      "count": 1,
-      "articles": [
-        {
-          "title": "美股迎來史上最大 Biotech IPO",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "臨床數據",
-            "生技投資"
-          ],
-          "summary": "台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。"
-        }
-      ]
-    },
-    {
       "name": "BD / 授權與併購",
       "count": 2,
       "articles": [
@@ -536,129 +663,6 @@
             "製藥巨頭"
           ],
           "summary": "當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。"
-        }
-      ]
-    },
-    {
-      "name": "AI 製藥與新技術",
-      "count": 7,
-      "articles": [
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "AI drug discovery",
-            "zasocitinib",
-            "Takeda",
-            "Sotyktu",
-            "TYK2",
-            "psoriasis",
-            "PASI 100",
-            "Schrodinger"
-          ],
-          "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test."
-        },
-        {
-          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "AI",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…"
-        },
-        {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "Enlivex",
-            "RAIN token",
-            "Biotech treasury",
-            "Crypto",
-            "Capital markets"
-          ],
-          "summary": "Enlivex's paper gain from RAIN tokens shows how fragile biotech business models can create unusual treasury stories when operating revenue is absent and capital markets are difficult."
-        },
-        {
-          "title": "【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "AI",
-            "BD",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "一家臨床階段 Biotech，沒有藥品銷售收入，卻在一年內做出 12 億美元級別的淨利。"
-        },
-        {
-          "title": "The Next Phase of AI Drug Development: Making Molecules Survive as Drugs",
-          "date": "2026-06-13",
-          "url": "https://drugnews.com.tw/articles/2026-06-13-anhorn-ai-drug-development-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "AI Drug Development",
-            "AnHorn Medicines",
-            "AI+PROTAC",
-            "AIMCADD",
-            "NVIDIA",
-            "Clinical Asset Engine",
-            "Biotech"
-          ],
-          "summary": "AI drug development is moving from molecular generation to clinical survival. AnHorn Medicines shows how AI+PROTAC, experimental feedback, and human translation may form a Taiwan-born clinical-asset engine."
-        },
-        {
-          "title": "AI製藥下半場：讓藥活下來",
-          "date": "2026-06-13",
-          "url": "https://drugnews.com.tw/articles/2026-06-13-dcard-261654701.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "AI",
-            "BD",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "AI 醫藥上半場比生成分子，下半場比成藥存活率。安宏真正值得被看見的，不是單純曝光，而是用 AI + PROTAC（蛋白質降解技術）、實驗閉環與人體轉譯，嘗試形成高資本效率的 clinical asset engine（臨床資產生成引擎）。"
-        },
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "AI drug discovery",
-            "Clinical pipelines",
-            "Biotech investing",
-            "Business development",
-            "Drug development",
-            "Big Pharma"
-          ],
-          "summary": "AI drug discovery has moved beyond the concept stage and into clinical validation. This article reviews Zasocitinib, GB-0895, Zovegalisib, and REC-4881 to examine how different AI strategies are being converted into real drug assets."
         }
       ]
     }

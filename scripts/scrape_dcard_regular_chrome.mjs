@@ -4,28 +4,33 @@ import { spawnSync } from "node:child_process";
 const mode = process.argv[2] || "current";
 const out = process.argv[3] || "/private/tmp/drugnews-dcard-latest.json";
 
-function executeChromeJs(jsCode) {
-  const run = (target) => spawnSync("/usr/bin/osascript", [
-    "-e", "on run argv",
-    "-e", "set jsCode to item 1 of argv",
-    "-e", `tell application ${target} to execute active tab of front window javascript jsCode`,
-    "-e", "end run",
-    jsCode
-  ], { encoding: "utf8", maxBuffer: 1024 * 1024 * 8 });
+async function executeChromeJs(jsCode) {
+  const jsFile = `/private/tmp/drugnews-dcard-regular-${process.pid}.js`;
+  await fs.writeFile(jsFile, jsCode, "utf8");
+  const command = [
+    "/usr/bin/osascript",
+    "-e 'on run argv'",
+    "-e 'set jsPath to item 1 of argv'",
+    "-e 'set jsCode to do shell script \"cat \" & quoted form of jsPath'",
+    "-e 'tell application \"Google Chrome\" to execute active tab of front window javascript jsCode'",
+    "-e 'end run'",
+    "--",
+    jsFile
+  ].join(" ");
+  const result = spawnSync("/bin/zsh", ["-lc", command], { encoding: "utf8", maxBuffer: 1024 * 1024 * 8 });
 
-  let result = run('id "com.google.Chrome"');
-  if (result.status !== 0 && /無法取得|Can’t get|Can't get|application id/i.test(String(result.stderr || result.stdout || ""))) {
-    result = run('"Google Chrome"');
+  try {
+    if (result.status !== 0) {
+      const detail = String(result.stderr || result.stdout || "").trim();
+      const disabled = /AppleScript.*JavaScript|執行 JavaScript 的功能已關閉|Apple 事件的 JavaScript|Allow JavaScript from Apple Events|功能已關閉/i.test(detail);
+      throw new Error(disabled
+        ? `Regular Chrome cannot be read because "Allow JavaScript from Apple Events" is disabled. Enable it once in Chrome: View -> Developer -> Allow JavaScript from Apple Events.\n${detail}`
+        : `Regular Chrome Dcard scrape failed.\n${detail}`);
+    }
+    return String(result.stdout || "").trim();
+  } finally {
+    await fs.unlink(jsFile).catch(() => {});
   }
-
-  if (result.status !== 0) {
-    const detail = String(result.stderr || result.stdout || "").trim();
-    const disabled = /AppleScript.*JavaScript|執行 JavaScript 的功能已關閉|Apple 事件的 JavaScript|Allow JavaScript from Apple Events|功能已關閉/i.test(detail);
-    throw new Error(disabled
-      ? `Regular Chrome cannot be read because "Allow JavaScript from Apple Events" is disabled. Enable it once in Chrome: View -> Developer -> Allow JavaScript from Apple Events.\n${detail}`
-      : `Regular Chrome Dcard scrape failed.\n${detail}`);
-  }
-  return String(result.stdout || "").trim();
 }
 
 function normalizeTitle(title = "") {
@@ -108,7 +113,7 @@ const js = `(() => {
 
 let raw;
 try {
-  raw = JSON.parse(executeChromeJs(js));
+  raw = JSON.parse(await executeChromeJs(js));
 } catch (error) {
   console.error(error.message);
   process.exit(1);
