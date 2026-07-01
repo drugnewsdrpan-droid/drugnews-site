@@ -5,6 +5,7 @@ const STATUS_FILE = process.env.DRUGNEWS_DAILY_STATUS_FILE || "/private/tmp/drug
 const PM_FILE = process.env.DRUGNEWS_DAILY_PM_FILE || "/private/tmp/drugnews-codex-pm-health.json";
 const FB_DIAGNOSTICS = "/private/tmp/drugnews-facebook-latest.json.diagnostics.json";
 const DCARD_DIAGNOSTICS = "/private/tmp/drugnews-dcard-latest.json.diagnostics.json";
+const CHROME_FILE = process.env.DRUGNEWS_REGULAR_CHROME_FILE || "/private/tmp/drugnews-regular-chrome-readiness.json";
 const SEARCH_INDEX = "search-index.json";
 const REPORT_FILE = process.env.DRUGNEWS_DAILY_REPORT_FILE || "/private/tmp/drugnews-codex-daily-report.md";
 const CHECKPOINT_HOURS = process.env.DRUGNEWS_CHECKPOINT_HOURS || "12";
@@ -43,6 +44,34 @@ function dcardSummary(diagnostics) {
     shell: humanVerification || appShell,
     humanVerification,
     appShell
+  };
+}
+
+function chromeSummary(readiness = {}) {
+  const active = readiness?.active_tab || {};
+  const unsafe = readiness?.status === "unsafe_social_editor_tab";
+  const requiresAttention = unsafe || ["unavailable", "needs_chrome_permission", "needs_attention"].includes(readiness?.status);
+  const pageLabel = active.url
+    ? `${active.title || "Chrome"}｜${active.url}`
+    : "尚未取得";
+  const fallbackNextStep = readiness?.next_step ||
+    "平常 Chrome 目前無法可靠讀取。請先確認 Chrome 已開啟、頁面是公開 FB / Dcard 單篇貼文，並開啟「允許 Apple 事件的 JavaScript」；若仍不行，改用社群擷取 Chrome 或提供貼文全文＋圖片。";
+  return {
+    status: readiness?.status || "unknown",
+    reason: readiness?.reason || "",
+    active,
+    unsafe,
+    requiresAttention,
+    line: unsafe
+      ? `目前停在不可匯入頁面（${readiness.reason}）：${pageLabel}`
+      : requiresAttention
+        ? `需要處理（${readiness?.reason || readiness?.status || "unknown"}）：${pageLabel}`
+      : `目前狀態 ${readiness?.status || "unknown"}：${pageLabel}`,
+    nextStep: unsafe
+      ? fallbackNextStep
+      : requiresAttention
+        ? fallbackNextStep
+        : readiness?.next_step || "若要匯入今日文章，請把 Chrome 切到已公開的 FB / Dcard 單篇貼文頁。"
   };
 }
 
@@ -121,9 +150,12 @@ function cxoScorecard(status, pm) {
   return { score, rows, deductions };
 }
 
-function nextAction(status, pm, fbCandidate, dcard) {
+function nextAction(status, pm, fbCandidate, dcard, chrome) {
   if (Array.isArray(status?.imported_posts) && status.imported_posts.length) {
     return "檢查新文章頁、圖片、手機版、搜尋索引與 sitemap，確認後提交部署。";
+  }
+  if (chrome?.requiresAttention) {
+    return chrome.nextStep;
   }
   if (status?.platform_state?.facebook === "already_current_limited_capture" && dcard?.shell) {
     if (dcard.humanVerification) {
@@ -163,9 +195,11 @@ async function main() {
   const pm = await readJson(PM_FILE, {});
   const fbDiagnostics = await readJson(FB_DIAGNOSTICS, {});
   const dcardDiagnostics = await readJson(DCARD_DIAGNOSTICS, {});
+  const chromeReadiness = await readJson(CHROME_FILE, {});
   const searchIndex = await readJson(SEARCH_INDEX, []);
   const fbCandidate = firstFacebookCandidate(fbDiagnostics);
   const dcard = dcardSummary(dcardDiagnostics);
+  const chrome = chromeSummary(chromeReadiness);
   const imported = Array.isArray(status.imported_posts) ? status.imported_posts : [];
   const latest = latestFromSearchIndex(searchIndex) || pm.latest_article || status.latest_site_article || null;
   const warnings = warningLines(pm);
@@ -196,6 +230,7 @@ ${scorecard.deductions.length ? `\n扣分原因：\n${scorecard.deductions.join(
 
 - Facebook：${fbCandidate ? `可見候選「${fbCandidate.title}」，${fbCandidate.images} 張圖，正文只露出 ${fbCandidate.textLength} 字；原因：${fbCandidate.reasons.join(" / ")}` : "沒有可見長文候選"}
 - Dcard：${dcard.url || "未解析頁面"}；文章 DOM：${dcard.articleCount}；可見連結：${dcard.links}；${dcard.humanVerification ? "目前要求真人安全驗證" : dcard.appShell ? "目前是登入 / App 外殼" : "未偵測到登入外殼"}
+- 平常 Chrome：${chrome.line}
 
 ## 網站 QA
 
@@ -212,7 +247,7 @@ ${checkpointVerdict(status, pm)}
 
 ## 下一步
 
-${nextAction(status, pm, fbCandidate, dcard)}
+${nextAction(status, pm, fbCandidate, dcard, chrome)}
 `;
 
   await fsp.writeFile(REPORT_FILE, report, "utf8");

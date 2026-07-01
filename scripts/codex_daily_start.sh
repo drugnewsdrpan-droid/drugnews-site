@@ -6,6 +6,7 @@ BUNDLED_NODE="/Users/jojo/.cache/codex-runtimes/codex-primary-runtime/dependenci
 STATUS_FILE="${DRUGNEWS_DAILY_STATUS_FILE:-/private/tmp/drugnews-codex-daily-status.json}"
 RUN_LOG="${DRUGNEWS_DAILY_RUN_LOG:-/private/tmp/drugnews-codex-daily-run.log}"
 PM_FILE="${DRUGNEWS_DAILY_PM_FILE:-/private/tmp/drugnews-codex-pm-health.json}"
+CHROME_FILE="${DRUGNEWS_REGULAR_CHROME_FILE:-/private/tmp/drugnews-regular-chrome-readiness.json}"
 
 START_CHROME=1
 CAPTURE=1
@@ -52,7 +53,7 @@ echo "== 1. PM preflight =="
 echo
 
 echo "== 1B. Regular Chrome readiness =="
-"$NODE_BIN" scripts/check_regular_chrome_readiness.mjs || true
+"$NODE_BIN" scripts/check_regular_chrome_readiness.mjs | tee "$CHROME_FILE" || true
 echo
 
 if [[ "$START_CHROME" == "1" ]]; then
@@ -115,4 +116,5 @@ fi
 echo "Daily status: $STATUS_FILE"
 echo "Daily run log: $RUN_LOG"
 echo "PM health: $PM_FILE"
+echo "Regular Chrome readiness: $CHROME_FILE"
 echo "Growth brief: ${DRUGNEWS_GROWTH_BRIEF_MD:-/private/tmp/drugnews-growth-brief.md}"
