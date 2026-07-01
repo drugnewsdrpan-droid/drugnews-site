@@ -11,7 +11,7 @@ function runAppleScript(lines) {
 }
 
 function json(status, detail = {}) {
-  console.log(JSON.stringify({ status, ...detail }, null, 2));
+  console.log(JSON.stringify({ status, generated_at: new Date().toISOString(), ...detail }, null, 2));
 }
 
 function runChromeAppleScript(action) {

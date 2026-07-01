@@ -50,10 +50,18 @@ function dcardSummary(diagnostics) {
 function chromeSummary(readiness = {}) {
   const active = readiness?.active_tab || {};
   const unsafe = readiness?.status === "unsafe_social_editor_tab";
-  const requiresAttention = unsafe || ["unavailable", "needs_chrome_permission", "needs_attention"].includes(readiness?.status);
+  const generatedAt = readiness?.generated_at ? new Date(readiness.generated_at) : null;
+  const ageHours = generatedAt && Number.isFinite(generatedAt.getTime())
+    ? (Date.now() - generatedAt.getTime()) / 1000 / 60 / 60
+    : null;
+  const stale = ageHours === null || ageHours > 2;
+  const requiresAttention = stale || unsafe || ["unavailable", "needs_chrome_permission", "needs_attention"].includes(readiness?.status);
   const pageLabel = active.url
     ? `${active.title || "Chrome"}｜${active.url}`
     : "尚未取得";
+  const checkedAt = generatedAt && Number.isFinite(generatedAt.getTime())
+    ? generatedAt.toLocaleString("zh-TW", { timeZone: "Asia/Taipei", hour12: false })
+    : "未知時間";
   const fallbackNextStep = readiness?.next_step ||
     "平常 Chrome 目前無法可靠讀取。請先確認 Chrome 已開啟、頁面是公開 FB / Dcard 單篇貼文，並開啟「允許 Apple 事件的 JavaScript」；若仍不行，改用社群擷取 Chrome 或提供貼文全文＋圖片。";
   return {
@@ -61,12 +69,15 @@ function chromeSummary(readiness = {}) {
     reason: readiness?.reason || "",
     active,
     unsafe,
+    stale,
     requiresAttention,
-    line: unsafe
-      ? `目前停在不可匯入頁面（${readiness.reason}）：${pageLabel}`
+    line: stale
+      ? `需要重新檢查（狀態時間：${checkedAt}）：${pageLabel}`
+      : unsafe
+        ? `目前停在不可匯入頁面（${readiness.reason}，${checkedAt}）：${pageLabel}`
       : requiresAttention
-        ? `需要處理（${readiness?.reason || readiness?.status || "unknown"}）：${pageLabel}`
-      : `目前狀態 ${readiness?.status || "unknown"}：${pageLabel}`,
+        ? `需要處理（${readiness?.reason || readiness?.status || "unknown"}，${checkedAt}）：${pageLabel}`
+      : `目前狀態 ${readiness?.status || "unknown"}（${checkedAt}）：${pageLabel}`,
     nextStep: unsafe
       ? fallbackNextStep
       : requiresAttention
