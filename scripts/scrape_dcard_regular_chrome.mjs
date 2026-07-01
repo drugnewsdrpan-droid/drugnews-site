@@ -5,17 +5,22 @@ const mode = process.argv[2] || "current";
 const out = process.argv[3] || "/private/tmp/drugnews-dcard-latest.json";
 
 function executeChromeJs(jsCode) {
-  const result = spawnSync("/usr/bin/osascript", [
+  const run = (target) => spawnSync("/usr/bin/osascript", [
     "-e", "on run argv",
     "-e", "set jsCode to item 1 of argv",
-    "-e", 'tell application id "com.google.Chrome" to execute active tab of front window javascript jsCode',
+    "-e", `tell application ${target} to execute active tab of front window javascript jsCode`,
     "-e", "end run",
     jsCode
   ], { encoding: "utf8", maxBuffer: 1024 * 1024 * 8 });
 
+  let result = run('id "com.google.Chrome"');
+  if (result.status !== 0 && /無法取得|Can’t get|Can't get|application id/i.test(String(result.stderr || result.stdout || ""))) {
+    result = run('"Google Chrome"');
+  }
+
   if (result.status !== 0) {
     const detail = String(result.stderr || result.stdout || "").trim();
-    const disabled = /AppleScript.*JavaScript|Apple 事件的 JavaScript|Allow JavaScript from Apple Events|功能已關閉/i.test(detail);
+    const disabled = /AppleScript.*JavaScript|執行 JavaScript 的功能已關閉|Apple 事件的 JavaScript|Allow JavaScript from Apple Events|功能已關閉/i.test(detail);
     throw new Error(disabled
       ? `Regular Chrome cannot be read because "Allow JavaScript from Apple Events" is disabled. Enable it once in Chrome: View -> Developer -> Allow JavaScript from Apple Events.\n${detail}`
       : `Regular Chrome Dcard scrape failed.\n${detail}`);

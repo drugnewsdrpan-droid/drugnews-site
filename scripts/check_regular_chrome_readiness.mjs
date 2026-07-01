@@ -14,9 +14,13 @@ function json(status, detail = {}) {
   console.log(JSON.stringify({ status, ...detail }, null, 2));
 }
 
-const windows = runAppleScript([
-  'tell application id "com.google.Chrome" to get count of windows'
-]);
+function runChromeAppleScript(action) {
+  const byId = runAppleScript([`tell application id "com.google.Chrome" to ${action}`]);
+  if (byId.ok || !/無法取得|Can’t get|Can't get|application id/i.test(byId.stderr || byId.stdout)) return byId;
+  return runAppleScript([`tell application "Google Chrome" to ${action}`]);
+}
+
+const windows = runChromeAppleScript("get count of windows");
 
 if (!windows.ok) {
   json("unavailable", {
@@ -35,9 +39,7 @@ if (!windowCount) {
   process.exit(0);
 }
 
-const probe = runAppleScript([
-  'tell application id "com.google.Chrome" to execute active tab of front window javascript "JSON.stringify({title:document.title,url:location.href,bodyLength:(document.body.innerText||\'\').length})"'
-]);
+const probe = runChromeAppleScript('execute active tab of front window javascript "JSON.stringify({title:document.title,url:location.href,bodyLength:(document.body.innerText||\'\').length})"');
 
 if (!probe.ok) {
   const message = probe.stderr || probe.stdout;
