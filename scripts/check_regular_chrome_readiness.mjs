@@ -20,6 +20,40 @@ function runChromeAppleScript(action) {
   return runAppleScript([`tell application "Google Chrome" to ${action}`]);
 }
 
+function unsafeSocialEditorReason(url = "") {
+  const value = String(url || "");
+  if (/dcard\.tw\/new-post/i.test(value)) return "dcard_new_post_editor";
+  if (/dcard\.tw\/my\/scheduled-posts/i.test(value)) return "dcard_scheduled_posts";
+  if (/facebook\.com\/.*(?:composer|stories\/create|posts\/creation|photo\/upload)/i.test(value)) return "facebook_editor_or_upload";
+  return "";
+}
+
+function socialCaptureGuidance(url = "") {
+  const unsafeReason = unsafeSocialEditorReason(url);
+  if (unsafeReason) {
+    return {
+      unsafeReason,
+      next_step: "目前 Chrome 停在發文 / 排程 / 編輯頁，不能匯入，避免未發布內容誤上官網。請改開已公開的 FB 或 Dcard 單篇貼文頁，再執行 /bin/zsh scripts/codex_daily_start.sh --facebook-regular-current 或 --dcard-regular-current。"
+    };
+  }
+  if (/dcard\.tw\/(?:@drugnews\/post\/|f\/persona_drugnews\/p\/)\d+/i.test(url)) {
+    return {
+      unsafeReason: "",
+      next_step: "目前看起來是 Dcard 公開單篇頁，可用 /bin/zsh scripts/codex_daily_start.sh --dcard-regular-current 匯入。"
+    };
+  }
+  if (/facebook\.com\/.*(?:permalink\.php|\/posts\/|story_fbid=)/i.test(url)) {
+    return {
+      unsafeReason: "",
+      next_step: "目前看起來是 Facebook 公開單篇頁，可用 /bin/zsh scripts/codex_daily_start.sh --facebook-regular-current 匯入。"
+    };
+  }
+  return {
+    unsafeReason: "",
+    next_step: "若要匯入今日文章，請把平常 Chrome 切到已公開的 FB 或 Dcard 單篇貼文頁，再執行對應 regular-current 指令。"
+  };
+}
+
 const windows = runChromeAppleScript("get count of windows");
 
 if (!windows.ok) {
@@ -55,15 +89,49 @@ if (!probe.ok) {
 
 try {
   const page = JSON.parse(probe.stdout);
+  const guidance = socialCaptureGuidance(page.url);
+  if (guidance.unsafeReason) {
+    json("unsafe_social_editor_tab", {
+      reason: guidance.unsafeReason,
+      window_count: windowCount,
+      active_tab: page,
+      next_step: guidance.next_step
+    });
+    process.exit(0);
+  }
   json("ready", {
     window_count: windowCount,
     active_tab: page,
-    note: "Regular Chrome can be read by local Apple Events. Daily social capture can use the logged-in page after the actual post tab is open."
+    next_step: guidance.next_step,
+    note: "Regular Chrome can be read by local Apple Events. Daily social capture can use the logged-in page after the actual public post tab is open."
   });
 } catch {
+  const activeUrl = runChromeAppleScript("get URL of active tab of front window");
+  const activeTitle = runChromeAppleScript("get title of active tab of front window");
+  const guidance = socialCaptureGuidance(activeUrl.stdout);
+  if (guidance.unsafeReason) {
+    json("unsafe_social_editor_tab", {
+      reason: guidance.unsafeReason,
+      window_count: windowCount,
+      active_tab: {
+        title: activeTitle.stdout || "",
+        url: activeUrl.stdout || "",
+        bodyLength: null
+      },
+      next_step: guidance.next_step,
+      detail: probe.stdout
+    });
+    process.exit(0);
+  }
   json("needs_attention", {
     reason: "regular_chrome_probe_returned_non_json",
     window_count: windowCount,
+    active_tab: {
+      title: activeTitle.stdout || "",
+      url: activeUrl.stdout || "",
+      bodyLength: null
+    },
+    next_step: guidance.next_step,
     detail: probe.stdout
   });
 }
