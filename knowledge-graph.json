@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T11:19:40.222Z",
+  "generated_at": "2026-07-02T03:03:03.805Z",
   "site": {
     "@type": [
       "Organization",
@@ -110,6 +110,44 @@
     "brand_profile": "https://drugnews.com.tw/brand-profile.json"
   },
   "latest_articles": [
+    {
+      "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+      "date": "2026-07-02",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "synthetic lethality",
+        "PARP",
+        "PRMT5",
+        "MTAP",
+        "RAS",
+        "oncology",
+        "biomarkers",
+        "Taiwan biotech",
+        "drug development"
+      ],
+      "summary": "PARP inhibitors turned synthetic lethality into a commercial reality. Two decades later, the industry is still asking why the next PARP-like blockbuster has been so difficult to reproduce.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-02-synthetic-lethality-next-parp.html"
+      }
+    },
+    {
+      "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
+      "date": "2026-07-02",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "BD",
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。",
+      "alternate_language_versions": {}
+    },
     {
       "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
       "date": "2026-07-01",
@@ -681,55 +719,13 @@
       "alternate_language_versions": {
         "en": "2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html"
       }
-    },
-    {
-      "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-      "date": "2026-06-15",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-      "category": "醫學大會",
-      "access": "免費文章",
-      "tags": [
-        "ASCO",
-        "Oncology",
-        "RAS",
-        "ADC",
-        "PD-1 VEGF",
-        "In vivo CAR-T"
-      ],
-      "summary": "ASCO 2026 showed that oncology is moving from single-mechanism breakthroughs toward platform combinations across RAS targeting, ADCs, PD-1/VEGF bispecifics, and in vivo CAR-T.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-15-2026-asco-car-t.html"
-      }
-    },
-    {
-      "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
-      "date": "2026-06-15",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-      "category": "醫學大會",
-      "access": "免費文章",
-      "tags": [
-        "ASCO",
-        "腫瘤治療",
-        "CAR-T",
-        "RAS",
-        "ADC",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "2026 年美國臨床腫瘤學會年會，也就是 ASCO，最該被記住的贏家，並不是任何一家藥廠，而是癌症患者。",
-      "alternate_language_versions": {
-        "en": "2026-06-15-2026-asco-car-t-en.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 42,
+      "mentions": 41,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -767,7 +763,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 42,
+      "mentions": 41,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -805,9 +801,15 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 26,
-      "latest_date": "2026-06-30",
+      "mentions": 27,
+      "latest_date": "2026-07-02",
       "latest_articles": [
+        {
+          "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
           "date": "2026-06-30",
@@ -831,21 +833,21 @@
           "date": "2026-06-27",
           "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
-          "language": "zh-Hant"
         }
       ]
     },
     {
       "name": "BD",
       "type": "market_topic",
-      "mentions": 21,
-      "latest_date": "2026-06-30",
+      "mentions": 22,
+      "latest_date": "2026-07-02",
       "latest_articles": [
+        {
+          "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
           "date": "2026-06-30",
@@ -869,12 +871,6 @@
           "date": "2026-06-27",
           "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
           "language": "en"
-        },
-        {
-          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -917,40 +913,40 @@
       ]
     },
     {
-      "name": "Capital markets",
+      "name": "臨床數據",
       "type": "market_topic",
       "mentions": 17,
-      "latest_date": "2026-06-29",
+      "latest_date": "2026-07-02",
       "latest_articles": [
         {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "美股迎來史上最大 Biotech IPO",
           "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
+          "language": "zh-Hant"
         },
         {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
           "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -993,40 +989,40 @@
       ]
     },
     {
-      "name": "臨床數據",
+      "name": "Capital markets",
       "type": "market_topic",
       "mentions": 16,
-      "latest_date": "2026-07-01",
+      "latest_date": "2026-06-29",
       "latest_articles": [
         {
-          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "美股迎來史上最大 Biotech IPO",
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
           "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
-          "language": "zh-Hant"
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
         },
         {
-          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
           "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
-          "language": "zh-Hant"
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
         },
         {
-          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-          "language": "zh-Hant"
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
+          "date": "2026-06-14",
+          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1297,82 +1293,6 @@
       ]
     },
     {
-      "name": "Clinical and CMC",
-      "type": "biotech_concept_or_target",
-      "mentions": 12,
-      "latest_date": "2026-06-08",
-      "latest_articles": [
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
-          "date": "2026-06-05",
-          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
-          "date": "2026-06-03",
-          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "AI drug discovery",
-      "type": "topic",
-      "mentions": 11,
-      "latest_date": "2026-06-24",
-      "latest_articles": [
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
-          "date": "2026-05-29",
-          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The First Step in Valuing Taiwanese Biotech: Stop Forcing Every Company Into the Same P/E Ratio",
-          "date": "2026-05-27",
-          "url": "https://drugnews.com.tw/articles/2026-05-27-taiwan-biotech-valuation-framework-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "ADC",
       "type": "biotech_concept_or_target",
       "mentions": 11,
@@ -1411,6 +1331,44 @@
       ]
     },
     {
+      "name": "Clinical and CMC",
+      "type": "biotech_concept_or_target",
+      "mentions": 11,
+      "latest_date": "2026-06-08",
+      "latest_articles": [
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
+          "date": "2026-06-05",
+          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
+          "date": "2026-06-03",
+          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "製藥巨頭",
       "type": "market_topic",
       "mentions": 10,
@@ -1445,6 +1403,44 @@
           "date": "2026-06-22",
           "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "AI drug discovery",
+      "type": "topic",
+      "mentions": 10,
+      "latest_date": "2026-06-24",
+      "latest_articles": [
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
+          "date": "2026-06-07",
+          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
+          "date": "2026-05-29",
+          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The First Step in Valuing Taiwanese Biotech: Stop Forcing Every Company Into the Same P/E Ratio",
+          "date": "2026-05-27",
+          "url": "https://drugnews.com.tw/articles/2026-05-27-taiwan-biotech-valuation-framework-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1489,9 +1485,15 @@
     {
       "name": "RAS",
       "type": "biotech_concept_or_target",
-      "mentions": 7,
-      "latest_date": "2026-06-27",
+      "mentions": 8,
+      "latest_date": "2026-07-02",
       "latest_articles": [
+        {
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en"
+        },
         {
           "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
           "date": "2026-06-27",
@@ -1515,12 +1517,6 @@
           "date": "2026-06-15",
           "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
         }
       ]
     },
@@ -1779,6 +1775,32 @@
       ]
     },
     {
+      "name": "PRMT5",
+      "type": "biotech_concept_or_target",
+      "mentions": 3,
+      "latest_date": "2026-07-02",
+      "latest_articles": [
+        {
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
+          "date": "2026-06-27",
+          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
+          "language": "en"
+        },
+        {
+          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
+          "date": "2026-06-27",
+          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "疫苗",
       "type": "topic",
       "mentions": 3,
@@ -1957,6 +1979,46 @@
           "date": "2026-05-12",
           "url": "https://drugnews.com.tw/articles/2026-05-12-jnj-autoimmune-twins-stelara-transition.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "drug development",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-02",
+      "latest_articles": [
+        {
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Taiwan biotech",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-02",
+      "latest_articles": [
+        {
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2162,26 +2224,6 @@
     },
     {
       "name": "MAT2A",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-06-27",
-      "latest_articles": [
-        {
-          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-          "language": "en"
-        },
-        {
-          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "PRMT5",
       "type": "biotech_concept_or_target",
       "mentions": 2,
       "latest_date": "2026-06-27",
@@ -2661,26 +2703,6 @@
       ]
     },
     {
-      "name": "皮膚科",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-05-26",
-      "latest_articles": [
-        {
-          "title": "減肥藥新副作用，意外帶出新賽道？",
-          "date": "2026-05-26",
-          "url": "https://drugnews.com.tw/articles/2026-05-26-weight-loss-side-effect-new-track.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "最強生髮藥暴漲 47%， 為什麼可能改寫掉髮治療三十年僵局？",
-          "date": "2026-05-04",
-          "url": "https://drugnews.com.tw/articles/2026-05-04-hair-growth-drug-breakthrough.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Clinical development",
       "type": "market_topic",
       "mentions": 2,
@@ -2781,63 +2803,82 @@
       ]
     },
     {
-      "name": "美時",
+      "name": "biomarkers",
       "type": "topic",
       "mentions": 1,
-      "latest_date": "2026-07-01",
+      "latest_date": "2026-07-02",
       "latest_articles": [
         {
-          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
-          "language": "zh-Hant"
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en"
         }
       ]
     },
     {
-      "name": "神經科學",
+      "name": "MTAP",
       "type": "topic",
       "mentions": 1,
-      "latest_date": "2026-07-01",
+      "latest_date": "2026-07-02",
       "latest_articles": [
         {
-          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
-          "language": "zh-Hant"
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en"
         }
       ]
     },
     {
-      "name": "瑩碩生技",
+      "name": "oncology",
       "type": "topic",
       "mentions": 1,
-      "latest_date": "2026-07-01",
+      "latest_date": "2026-07-02",
       "latest_articles": [
         {
-          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "clinical data",
-      "type": "market_topic",
-      "mentions": 1,
-      "latest_date": "2026-07-01",
-      "latest_articles": [
-        {
-          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
           "language": "en"
         }
       ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+      "date": "2026-07-02",
+      "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+      "language": "en",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "synthetic lethality",
+        "PARP",
+        "PRMT5",
+        "MTAP",
+        "RAS",
+        "oncology",
+        "biomarkers",
+        "Taiwan biotech"
+      ],
+      "summary": "PARP inhibitors turned synthetic lethality into a commercial reality. Two decades later, the industry is still asking why the next PARP-like blockbuster has been so difficult to reproduce."
+    },
+    {
+      "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
+      "date": "2026-07-02",
+      "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
+      "language": "zh-Hant",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "BD",
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。"
+    },
     {
       "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
       "date": "2026-07-01",
@@ -3318,37 +3359,6 @@
         "Capital markets"
       ],
       "summary": "Revolution Medicines shows why next-generation biotech companies need to convert clinical momentum into capital momentum if they want to finish expensive global drug-development races."
-    },
-    {
-      "title": "Revolution Medicines 神話：會研發還不夠，會融資才撐得過新藥長跑",
-      "date": "2026-06-14",
-      "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines.html",
-      "language": "zh-Hant",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "2026 年，全球最受矚目的 Biotech 之一，毫無疑問是 Revolution Medicines。這家公司站在一個極難、也極誘人的位置：RAS-addicted cancers。"
-    },
-    {
-      "title": "The Next Phase of AI Drug Development: Making Molecules Survive as Drugs",
-      "date": "2026-06-13",
-      "url": "https://drugnews.com.tw/articles/2026-06-13-anhorn-ai-drug-development-en.html",
-      "language": "en",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "AI Drug Development",
-        "AnHorn Medicines",
-        "AI+PROTAC",
-        "AIMCADD",
-        "NVIDIA",
-        "Clinical Asset Engine",
-        "Biotech"
-      ],
-      "summary": "AI drug development is moving from molecular generation to clinical survival. AnHorn Medicines shows how AI+PROTAC, experimental feedback, and human translation may form a Taiwan-born clinical-asset engine."
     }
   ]
 }

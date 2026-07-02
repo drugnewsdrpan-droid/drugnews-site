@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 01 Jul 2026 11:19:40 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 03:03:03 GMT</lastBuildDate>
+    <item>
+      <title>合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？</title>
+      <link>https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html</guid>
+      <pubDate>Thu, 02 Jul 2026 02:30:00 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/synthetic-lethality-next-parp/cover.svg" alt="合成致死、PARP、PRMT5 與精準腫瘤治療的商業分析封面"></p><p>2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。</p>]]></description>
+    </item>
     <item>
       <title>摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳</title>
       <link>https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Fri, 12 Jun 2026 01:00:12 GMT</pubDate>
       <category>基本面系列</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a28c7e7fd89780001e3daca-source.png" alt="【基本面系列】逸達合理估值是多少？CAMCEVI 是現金流還是選擇權？"></p><p>逸達不是純夢想股，也還不是完全兌現的獲利股。本文拆 CAMCEVI 已上市現金流、3 個月劑型與海外 CPP 增量、FP-045 與 FP-025 選擇權及 SOTP 估值。</p>]]></description>
-    </item>
-    <item>
-      <title>管線估值：為還沒上市的未來定價，BD 最難也最值錢的一課</title>
-      <link>https://vocus.cc/article/6a2a30f7fd89780001162667</link>
-      <guid isPermaLink="true">https://vocus.cc/article/6a2a30f7fd89780001162667</guid>
-      <pubDate>Thu, 11 Jun 2026 04:20:26 GMT</pubDate>
-      <category>付費深度商業分析文章系列</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a2a30f7fd89780001162667-source.png" alt="管線估值：為還沒上市的未來定價，BD 最難也最值錢的一課"></p><p>一個新藥，從實驗室走到臨床，再從臨床走到上市，燒錢速度常常快得嚇人。 但如果成功，回報也可能大到改變一家公司的命運。 這就是生技製藥產業最迷人的地方，也是最殘酷的地方：在產品真正賣錢以前，市場就必須先替它定價。問題是，這些資產很多時候還沒有營收，甚至還沒有大規模臨床資料，卻已經要進行授權、併購、</p>]]></description>
     </item>
   </channel>
 </rss>

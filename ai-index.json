@@ -99,6 +99,54 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+      "date": "2026-07-02",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+      "source": "Website",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "synthetic lethality",
+        "PARP",
+        "PRMT5",
+        "MTAP",
+        "RAS",
+        "oncology",
+        "biomarkers",
+        "Taiwan biotech",
+        "drug development"
+      ],
+      "summary": "PARP inhibitors turned synthetic lethality into a commercial reality. Two decades later, the industry is still asking why the next PARP-like blockbuster has been so difficult to reproduce.",
+      "image": "https://drugnews.com.tw/assets/articles/synthetic-lethality-next-parp-en/cover.svg",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-02-synthetic-lethality-next-parp.html"
+      }
+    },
+    {
+      "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
+      "date": "2026-07-02",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "BD",
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。",
+      "image": "https://drugnews.com.tw/assets/articles/synthetic-lethality-next-parp/cover.svg",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {}
+    },
+    {
       "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
       "date": "2026-07-01",
       "language": "en",
@@ -1305,54 +1353,6 @@
       "is_accessible_for_free": false,
       "is_external": true,
       "alternate_language_versions": {}
-    },
-    {
-      "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-      "date": "2026-06-10",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-      "source": "Website",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "Company Research",
-        "Biotech business analysis",
-        "Drug development"
-      ],
-      "summary": "Daraxonrasib opens a new pancreatic-cancer window, but the next value question is resistance management. Senhwa's CX-5461 matters if it can become a rational combination partner.",
-      "image": "https://drugnews.com.tw/assets/articles/sinphar-cx5461-ras-pancreatic-cancer-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html"
-      }
-    },
-    {
-      "title": "RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場「抗藥性管理」戰",
-      "date": "2026-06-10",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html",
-      "source": "Dcard / Facebook",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "生華科",
-        "CX-5461",
-        "Pidnarulex",
-        "RAS",
-        "胰臟癌",
-        "抗藥性",
-        "Tislelizumab"
-      ],
-      "summary": "Daraxonrasib 打開胰臟癌 RAS 標靶時代後，真正的下一場戰爭是抗藥性管理；生華科 CX-5461 的價值在於能否成為 RAS 標靶後時代的免疫增敏與聯合治療候選策略。",
-      "image": "https://drugnews.com.tw/assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-cancer-cell.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html"
-      }
     }
   ]
 }

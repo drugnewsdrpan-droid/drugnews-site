@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#f5fbfb"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+  <style>.eyebrow{font:700 34px Arial;letter-spacing:5px;fill:#d86f26}.title{font:800 66px Arial;fill:#102b35}.subtitle{font:600 34px Arial;fill:#5f7078}.card-title{font:800 34px Arial;fill:#102b35}.card-body{font:600 25px Arial;fill:#60747d}.num{font:800 34px Arial;fill:white}.small{font:700 24px Arial;fill:#789}</style>
+  <rect width="1600" height="900" rx="36" fill="url(#bg)"/>
+  <path d="M0 725 C260 645 440 815 710 720 C970 628 1170 650 1600 535" fill="none" stroke="#d9ecef" stroke-width="8"/>
+  <circle cx="1320" cy="185" r="120" fill="#eef7f8"/><circle cx="1420" cy="240" r="38" fill="#d86f26" opacity=".22"/>
+  <text x="80" y="105" class="eyebrow">DRUGNEWS BIOTECH BRIEF</text>
+  <text x="80" y="205" class="title">Combination Strategy</text>
+  <text x="80" y="270" class="subtitle">Synthetic lethality may work best as an amplifier of strong oncology backbones</text>
+  <g><rect x="80" y="355" width="610" height="180" rx="26" fill="#ffffff" stroke="#c8dde2" stroke-width="4"/><circle cx="154" cy="433" r="42" fill="#0e8792"/><text x="154" y="446" text-anchor="middle" class="num">01</text><text x="220" y="425" class="card-title">DDR pairs</text><text x="220" y="473" class="card-body">PARP + ATR or WEE1</text></g>
+<g><rect x="780" y="355" width="610" height="180" rx="26" fill="#ffffff" stroke="#c8dde2" stroke-width="4"/><circle cx="854" cy="433" r="42" fill="#d86f26"/><text x="854" y="446" text-anchor="middle" class="num">02</text><text x="920" y="425" class="card-title">WEE1 + PKMYT1</text><text x="920" y="473" class="card-body">Genetically defined ovarian cancer</text></g>
+<g><rect x="80" y="605" width="610" height="180" rx="26" fill="#ffffff" stroke="#c8dde2" stroke-width="4"/><circle cx="154" cy="683" r="42" fill="#0e8792"/><text x="154" y="696" text-anchor="middle" class="num">03</text><text x="220" y="675" class="card-title">PRMT5 + RAS</text><text x="220" y="723" class="card-body">MTAP loss plus RAS signaling</text></g>
+<g><rect x="780" y="605" width="610" height="180" rx="26" fill="#ffffff" stroke="#c8dde2" stroke-width="4"/><circle cx="854" cy="683" r="42" fill="#d86f26"/><text x="854" y="696" text-anchor="middle" class="num">04</text><text x="920" y="675" class="card-title">Phase III test</text><text x="920" y="723" class="card-body">Early signals still need validation</text></g>
+  <text x="80" y="840" class="small">Drugnews | English research edition</text>
+</svg>

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T11:19:40.221Z",
+  "generated_at": "2026-07-02T03:03:03.805Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -362,6 +362,37 @@
   ],
   "latest_canonical_articles": [
     {
+      "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+      "date": "2026-07-02",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+      "category": "商業分析系列",
+      "tags": [
+        "synthetic lethality",
+        "PARP",
+        "PRMT5",
+        "MTAP",
+        "RAS",
+        "oncology",
+        "biomarkers",
+        "Taiwan biotech"
+      ],
+      "summary": "PARP inhibitors turned synthetic lethality into a commercial reality. Two decades later, the industry is still asking why the next PARP-like blockbuster has been so difficult to reproduce."
+    },
+    {
+      "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
+      "date": "2026-07-02",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
+      "category": "商業分析系列",
+      "tags": [
+        "BD",
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。"
+    },
+    {
       "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
       "date": "2026-07-01",
       "language": "en",
@@ -716,36 +747,6 @@
         "製藥巨頭"
       ],
       "summary": "一家臨床階段 Biotech，沒有藥品銷售收入，卻在一年內做出 12 億美元級別的淨利。"
-    },
-    {
-      "title": "GSK's US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases",
-      "date": "2026-06-19",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html",
-      "category": "商業分析系列",
-      "tags": [
-        "GSK",
-        "Nuvalent",
-        "Lung cancer",
-        "Precision oncology",
-        "Resistance",
-        "Brain metastases"
-      ],
-      "summary": "GSK is not merely buying three lung-cancer pipelines. It is buying a next-generation precision-oncology strategy around resistance, CNS activity, and cleaner kinase inhibition."
-    },
-    {
-      "title": "GSK 用 106 億美元買下 Nuvalent：真正買的不是三條肺癌管線，而是「耐藥與腦轉移」的下一代解法",
-      "date": "2026-06-19",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html",
-      "category": "商業分析系列",
-      "tags": [
-        "AI",
-        "BD",
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "2026 年 6 月 9 日，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元，較 Nuvalent 前一交易日收盤價溢價約 40%。這是 GSK 近年最大型的腫瘤併購之一，也讓它瞬間補上肺癌精準治療版圖中最缺的一塊。"
     }
   ],
   "do_not_use_as": [

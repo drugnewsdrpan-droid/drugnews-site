@@ -73,6 +73,14 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-02｜Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find
+  URL: https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html
+  Topics: synthetic lethality, PARP, PRMT5, MTAP, RAS
+  Summary: PARP inhibitors turned synthetic lethality into a commercial reality. Two decades later, the industry is still asking why the next PARP-like blockbuster has been so difficult to reproduce.
+- 2026-07-02｜合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？
+  URL: https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html
+  Topics: BD, 臨床數據, 生技投資
+  Summary: 2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。
 - 2026-07-01｜Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology
   URL: https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html
   Topics: ADHD, centanafadine, Otsuka, clinical data, neuroscience
@@ -121,14 +129,6 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
   URL: https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html
   Topics: GLP-1, 臨床數據, 生技投資, 製藥巨頭
   Summary: 它不像急性感染，用藥幾天或幾週就結束。類風濕性關節炎、乾癬、乾癬性關節炎、發炎性腸道疾病、氣喘、異位性皮膚炎，這些疾病往往跟著患者一輩子。
-- 2026-06-25｜Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet
-  URL: https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html
-  Topics: Business Analysis, Protect Biotech, Companion Animal Medicine, Pet Precision Medicine, Platform Company
-  Summary: As companion animals age and owners become more willing to pay for serious-disease care, the next major question in pet medicine is whether a platform company can connect drugs, diagnostics, veterinary clinics, regulation, manufacturing, channels, and data into one defensible system.
-- 2026-06-25｜邁向「寵物醫療界羅氏」的寶泰生醫
-  URL: https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html
-  Topics: 寶泰生醫, 寵物醫療, 羅氏, 平台型公司, 生技投資
-  Summary: 當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。
 
 ## Key Site Sections
 
