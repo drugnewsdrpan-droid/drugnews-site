@@ -22,9 +22,9 @@
     "drug development"
   ],
   "summary": "PARP inhibitors turned synthetic lethality into a commercial reality. Two decades later, the industry is still asking why the next PARP-like blockbuster has been so difficult to reproduce.",
-  "cover_image": "images/cover.svg",
+  "cover_image": "images/cover.png",
   "cover_image_alt": "English editorial cover on synthetic lethality after PARP",
   "source_platform": "Website",
-  "visual_status": "english_localized_svg_cards",
+  "visual_status": "gpt_generated_raster_figures_with_programmatic_labels",
   "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122178968468614875&id=61568446257142"
 }

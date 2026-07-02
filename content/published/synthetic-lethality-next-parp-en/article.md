@@ -18,7 +18,7 @@ The field remains beautiful in theory, but slow in the clinic. The problem is no
 
 ## 01 | Why Synthetic Lethality Is So Attractive: It Targets the Cancer Cell’s Second Survival Route
 
-![Synthetic lethality targets the second survival route of cancer cells](images/figure-01.svg)
+![Synthetic lethality targets the second survival route of cancer cells](images/figure-01.png)
 
 The basic concept is not difficult to understand.
 
@@ -44,7 +44,7 @@ That is why, after PARP succeeded, the whole industry wanted to find another equ
 
 ## 02 | Why PARP Is Hard to Copy: Most Synthetic-Lethal Relationships Are Not That Simple
 
-![The next PARP is difficult because biology, druggability, and patient selection rarely align at once](images/figure-02.svg)
+![The next PARP is difficult because biology, druggability, and patient selection rarely align at once](images/figure-02.png)
 
 The first challenge is that a target may not be druggable.
 
@@ -70,7 +70,7 @@ These decisions do not mean synthetic lethality has no value. They remind the ma
 
 ## 03 | The First Turning Point: Synthetic Lethality May Be More Valuable as Combination Therapy Than as a Standalone Drug
 
-![Combination therapy may turn synthetic lethality into an amplifier of stronger oncology backbones](images/figure-03.svg)
+![Combination therapy may turn synthetic lethality into an amplifier of stronger oncology backbones](images/figure-03.png)
 
 The industry has slowly moved away from the obsession with finding the next single-agent PARP.
 
@@ -98,7 +98,7 @@ Daraxonrasib suppresses the main RAS signaling axis. Vopimetostat attacks the PR
 
 ## 04 | The Second Turning Point: PROTAC and Molecular Glue Technologies Are Opening Targets That Were Previously Hard to Drug
 
-![Protein degradation technologies can unlock targets that conventional inhibitors struggle to reach](images/figure-04.svg)
+![Protein degradation technologies can unlock targets that conventional inhibitors struggle to reach](images/figure-04.png)
 
 Another bottleneck in synthetic lethality is that many targets are not suitable for conventional small-molecule inhibition.
 
