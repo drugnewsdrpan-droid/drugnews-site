@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-biotech-en/cover.png</image:loc>
+      <image:caption>English Drugnews infographic on RevMed, daraxonrasib, capital flexibility, and biotech independence</image:caption>
+      <image:title>RevMed Says No to Being Bought: Biotech&apos;s Independent Era</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-biotech-en/figure-01.png</image:loc>
+      <image:caption>Why RevMed is not rushing to sell</image:caption>
+      <image:title>RevMed Says No to Being Bought: Biotech&apos;s Independent Era</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-biotech-en/figure-02.png</image:loc>
+      <image:caption>Daraxonrasib is RevMed&apos;s independence ticket</image:caption>
+      <image:title>RevMed Says No to Being Bought: Biotech&apos;s Independent Era</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-biotech-en/figure-03.png</image:loc>
+      <image:caption>From single drug to RAS franchise</image:caption>
+      <image:title>RevMed Says No to Being Bought: Biotech&apos;s Independent Era</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-biotech-en/figure-04.png</image:loc>
+      <image:caption>Taiwan biotech paths to the next stage</image:caption>
+      <image:title>RevMed Says No to Being Bought: Biotech&apos;s Independent Era</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-biotech/cover.png</image:loc>
+      <image:caption>拒絕被併購的 RevMed：Biotech 的獨立時代 專題封面</image:caption>
+      <image:title>拒絕被併購的 RevMed：Biotech 的獨立時代</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-biotech/facebook-01.png</image:loc>
+      <image:caption>Facebook 原圖：拒絕被併購的 RevMed：Biotech 的獨立時代（圖 1）</image:caption>
+      <image:title>拒絕被併購的 RevMed：Biotech 的獨立時代</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-biotech/facebook-02.png</image:loc>
+      <image:caption>Facebook 原圖：拒絕被併購的 RevMed：Biotech 的獨立時代（圖 2）</image:caption>
+      <image:title>拒絕被併購的 RevMed：Biotech 的獨立時代</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-biotech/facebook-03.png</image:loc>
+      <image:caption>Facebook 原圖：拒絕被併購的 RevMed：Biotech 的獨立時代（圖 3）</image:caption>
+      <image:title>拒絕被併購的 RevMed：Biotech 的獨立時代</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-biotech/facebook-04.png</image:loc>
+      <image:caption>Facebook 原圖：拒絕被併購的 RevMed：Biotech 的獨立時代（圖 4）</image:caption>
+      <image:title>拒絕被併購的 RevMed：Biotech 的獨立時代</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/synthetic-lethality-next-parp-en/cover.png</image:loc>

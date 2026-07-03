@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-02T12:04:23.531Z",
+  "generated_at": "2026-07-03T01:58:46.839Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -114,8 +114,27 @@
   "buckets": [
     {
       "name": "腫瘤精準治療",
-      "count": 11,
+      "count": 10,
       "articles": [
+        {
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "Revolution Medicines",
+            "RevMed",
+            "daraxonrasib",
+            "RAS oncology",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "BD licensing",
+            "biotech valuation"
+          ],
+          "summary": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies."
+        },
         {
           "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
           "date": "2026-07-02",
@@ -270,49 +289,28 @@
             "In vivo CAR-T"
           ],
           "summary": "ASCO 2026 showed that oncology is moving from single-mechanism breakthroughs toward platform combinations across RAS targeting, ADCs, PD-1/VEGF bispecifics, and in vivo CAR-T."
-        },
-        {
-          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-          "language": "zh-Hant",
-          "category": "醫學大會",
-          "access": "免費文章",
-          "tags": [
-            "ASCO",
-            "腫瘤治療",
-            "CAR-T",
-            "RAS",
-            "ADC",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "2026 年美國臨床腫瘤學會年會，也就是 ASCO，最該被記住的贏家，並不是任何一家藥廠，而是癌症患者。"
-        },
-        {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "RAS",
-            "Revolution Medicines",
-            "Daraxonrasib",
-            "Biotech financing",
-            "Pancreatic cancer",
-            "Capital markets"
-          ],
-          "summary": "Revolution Medicines shows why next-generation biotech companies need to convert clinical momentum into capital momentum if they want to finish expensive global drug-development races."
         }
       ]
     },
     {
       "name": "BD / 授權與併購",
-      "count": 3,
+      "count": 4,
       "articles": [
+        {
+          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "BD",
+            "臨床數據",
+            "生技投資",
+            "製藥巨頭"
+          ],
+          "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。"
+        },
         {
           "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
           "date": "2026-07-02",

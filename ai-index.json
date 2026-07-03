@@ -99,6 +99,58 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+      "date": "2026-07-03",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+      "source": "Website",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "Revolution Medicines",
+        "RevMed",
+        "daraxonrasib",
+        "RAS oncology",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "BD licensing",
+        "biotech valuation",
+        "clinical data",
+        "capital markets"
+      ],
+      "summary": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies.",
+      "image": "https://drugnews.com.tw/assets/articles/revmed-biotech-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-03-revmed-biotech.html"
+      }
+    },
+    {
+      "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+      "date": "2026-07-03",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "BD",
+        "臨床數據",
+        "生技投資",
+        "製藥巨頭"
+      ],
+      "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。",
+      "image": "https://drugnews.com.tw/assets/articles/revmed-biotech/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-03-revmed-biotech-en.html"
+      }
+    },
+    {
       "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
       "date": "2026-07-02",
       "language": "en",
@@ -1307,52 +1359,6 @@
       "alternate_language_versions": {
         "en": "2026-06-11-glp1-biotech-capital-reshuffle-en.html"
       }
-    },
-    {
-      "title": "Pipeline 估值雷達 001｜FDA CRL 不是價值歸零，而是估值參數重排",
-      "date": "2026-06-10",
-      "language": "zh-Hant",
-      "url": "https://vocus.cc/user/@Drugnews",
-      "canonical_url": "https://vocus.cc/user/@Drugnews",
-      "source": "方格子",
-      "access": "付費文章",
-      "category": "付費深度商業分析文章系列",
-      "tags": [
-        "FDA",
-        "CRL",
-        "CMC",
-        "label",
-        "現金",
-        "稀釋風險"
-      ],
-      "summary": "FDA CRL 不該只看成藥證失敗，而是要拆成產品、臨床、CMC、label 與補件完整性，重算成功率、上市時間、峰值銷售與稀釋風險。",
-      "image": "https://drugnews.com.tw/assets/articles/external-vocus/vocus-pipeline-crl-radar-20260610-cover.svg",
-      "is_accessible_for_free": false,
-      "is_external": true,
-      "alternate_language_versions": {}
-    },
-    {
-      "title": "〖基本面系列〗全福生技合理估值是多少？BRM421 是乾眼症金礦，還是市場把眼科平台夢買得太早？",
-      "date": "2026-06-10",
-      "language": "zh-Hant",
-      "url": "https://vocus.cc/user/@Drugnews",
-      "canonical_url": "https://vocus.cc/user/@Drugnews",
-      "source": "方格子",
-      "access": "付費文章",
-      "category": "基本面系列",
-      "tags": [
-        "全福生技",
-        "BRM421",
-        "BRM424",
-        "乾眼症",
-        "PDSP",
-        "授權"
-      ],
-      "summary": "全福不是單純乾眼症大市場概念股，也不是失敗新藥股；本文拆解 BRM421、BRM424、PDSP 平台、現金與稀釋風險，重算合理估值區間。",
-      "image": "https://drugnews.com.tw/assets/articles/external-vocus/vocus-brm421-valuation-20260610-cover.svg",
-      "is_accessible_for_free": false,
-      "is_external": true,
-      "alternate_language_versions": {}
     }
   ]
 }

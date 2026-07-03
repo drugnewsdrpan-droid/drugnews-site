@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-02T12:04:23.558Z",
+  "generated_at": "2026-07-03T01:58:46.862Z",
   "site": {
     "@type": [
       "Organization",
@@ -110,6 +110,48 @@
     "brand_profile": "https://drugnews.com.tw/brand-profile.json"
   },
   "latest_articles": [
+    {
+      "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+      "date": "2026-07-03",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "Revolution Medicines",
+        "RevMed",
+        "daraxonrasib",
+        "RAS oncology",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "BD licensing",
+        "biotech valuation",
+        "clinical data",
+        "capital markets"
+      ],
+      "summary": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-03-revmed-biotech.html"
+      }
+    },
+    {
+      "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+      "date": "2026-07-03",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "BD",
+        "臨床數據",
+        "生技投資",
+        "製藥巨頭"
+      ],
+      "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。",
+      "alternate_language_versions": {
+        "en": "2026-07-03-revmed-biotech-en.html"
+      }
+    },
     {
       "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
       "date": "2026-07-02",
@@ -679,53 +721,13 @@
       "alternate_language_versions": {
         "zh-Hant": "2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html"
       }
-    },
-    {
-      "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-      "date": "2026-06-16",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "Eli Lilly",
-        "Vaccines",
-        "M&A",
-        "Prevention medicine",
-        "Obesity medicine"
-      ],
-      "summary": "Lilly's vaccine acquisitions show that the company is using obesity-drug cash flow to widen its long-term disease-prevention and immunology strategy.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html"
-      }
-    },
-    {
-      "title": "禮來 38 億美元買三家疫苗公司：減肥藥巨頭，為什麼突然回頭買「預防醫學」？",
-      "date": "2026-06-16",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "GLP-1",
-        "疫苗",
-        "感染症",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "市場現在最熟悉的禮來，是 Mounjaro、Zepbound 背後那個 GLP-1 巨頭。2026 年第一季，禮來營收達到 198 億美元，年增 56%，主要動能還是來自 Mounjaro 與 Zepbound 的放量。簡單說，禮來現在手上最強的現金流，是減重與糖尿病藥物。",
-      "alternate_language_versions": {
-        "en": "2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 41,
+      "mentions": 40,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -763,7 +765,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 41,
+      "mentions": 40,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -801,9 +803,15 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 27,
-      "latest_date": "2026-07-02",
+      "mentions": 28,
+      "latest_date": "2026-07-03",
       "latest_articles": [
+        {
+          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
           "date": "2026-07-02",
@@ -827,12 +835,6 @@
           "date": "2026-06-28",
           "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -840,8 +842,14 @@
       "name": "BD",
       "type": "market_topic",
       "mentions": 22,
-      "latest_date": "2026-07-02",
+      "latest_date": "2026-07-03",
       "latest_articles": [
+        {
+          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
           "date": "2026-07-02",
@@ -865,19 +873,13 @@
           "date": "2026-06-28",
           "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-          "language": "en"
         }
       ]
     },
     {
       "name": "Business Analysis",
       "type": "topic",
-      "mentions": 20,
+      "mentions": 19,
       "latest_date": "2026-06-25",
       "latest_articles": [
         {
@@ -915,9 +917,15 @@
     {
       "name": "臨床數據",
       "type": "market_topic",
-      "mentions": 17,
-      "latest_date": "2026-07-02",
+      "mentions": 18,
+      "latest_date": "2026-07-03",
       "latest_articles": [
+        {
+          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
           "date": "2026-07-02",
@@ -940,50 +948,6 @@
           "title": "美股迎來史上最大 Biotech IPO",
           "date": "2026-06-29",
           "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "GLP-1",
-      "type": "biotech_concept_or_target",
-      "mentions": 17,
-      "latest_date": "2026-06-26",
-      "latest_articles": [
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        },
-        {
-          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
           "language": "zh-Hant"
         }
       ]
@@ -1027,9 +991,47 @@
       ]
     },
     {
+      "name": "GLP-1",
+      "type": "biotech_concept_or_target",
+      "mentions": 16,
+      "latest_date": "2026-06-26",
+      "latest_articles": [
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
+        },
+        {
+          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "FDA",
       "type": "market_topic",
-      "mentions": 16,
+      "mentions": 15,
       "latest_date": "2026-06-28",
       "latest_articles": [
         {
@@ -1067,7 +1069,7 @@
     {
       "name": "Regulatory risk",
       "type": "topic",
-      "mentions": 16,
+      "mentions": 15,
       "latest_date": "2026-06-28",
       "latest_articles": [
         {
@@ -1105,7 +1107,7 @@
     {
       "name": "CNS",
       "type": "topic",
-      "mentions": 16,
+      "mentions": 14,
       "latest_date": "2026-06-02",
       "latest_articles": [
         {
@@ -1137,44 +1139,6 @@
           "date": "2026-05-22",
           "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Obesity medicine",
-      "type": "topic",
-      "mentions": 14,
-      "latest_date": "2026-06-22",
-      "latest_articles": [
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
-          "language": "en"
         }
       ]
     },
@@ -1212,6 +1176,44 @@
           "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
           "date": "2026-06-02",
           "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Obesity medicine",
+      "type": "topic",
+      "mentions": 13,
+      "latest_date": "2026-06-22",
+      "latest_articles": [
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
+          "date": "2026-06-04",
+          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
           "language": "en"
         }
       ]
@@ -1255,9 +1257,47 @@
       ]
     },
     {
+      "name": "製藥巨頭",
+      "type": "market_topic",
+      "mentions": 11,
+      "latest_date": "2026-07-03",
+      "latest_articles": [
+        {
+          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "邁向「寵物醫療界羅氏」的寶泰生醫",
+          "date": "2026-06-25",
+          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Business development",
       "type": "topic",
-      "mentions": 12,
+      "mentions": 11,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -1289,44 +1329,6 @@
           "date": "2026-05-28",
           "url": "https://drugnews.com.tw/articles/2026-05-28-biotech-investment-judgment-system-en.html",
           "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "ADC",
-      "type": "biotech_concept_or_target",
-      "mentions": 11,
-      "latest_date": "2026-06-15",
-      "latest_articles": [
-        {
-          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-          "language": "en"
-        },
-        {
-          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "HIV 新藥很好賺呀...吉利德財報披露",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "大藥廠 輝瑞在兩個判斷上栽跟頭？",
-          "date": "2026-05-18",
-          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Johnson & Johnson（嬌生）砍掉兩條 自體淋巴瘤 CAR-T",
-          "date": "2026-05-17",
-          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -1369,44 +1371,6 @@
       ]
     },
     {
-      "name": "製藥巨頭",
-      "type": "market_topic",
-      "mentions": 10,
-      "latest_date": "2026-06-30",
-      "latest_articles": [
-        {
-          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "邁向「寵物醫療界羅氏」的寶泰生醫",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "AI drug discovery",
       "type": "topic",
       "mentions": 10,
@@ -1445,40 +1409,40 @@
       ]
     },
     {
-      "name": "Targeted therapy",
-      "type": "topic",
-      "mentions": 9,
-      "latest_date": "2026-05-19",
+      "name": "ADC",
+      "type": "biotech_concept_or_target",
+      "mentions": 10,
+      "latest_date": "2026-06-15",
       "latest_articles": [
         {
-          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
+          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
+          "language": "en"
+        },
+        {
+          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "HIV 新藥很好賺呀...吉利德財報披露",
           "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
-          "language": "en"
+          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
+          "language": "zh-Hant"
         },
         {
-          "title": "Where Pfizer Misjudged the Vepdegestrant Strategy",
+          "title": "大藥廠 輝瑞在兩個判斷上栽跟頭？",
           "date": "2026-05-18",
-          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake-en.html",
-          "language": "en"
+          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake.html",
+          "language": "zh-Hant"
         },
         {
-          "title": "Johnson & Johnson Cuts Two Autologous Lymphoma CAR-T Programs",
+          "title": "Johnson & Johnson（嬌生）砍掉兩條 自體淋巴瘤 CAR-T",
           "date": "2026-05-17",
-          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Daiichi Sankyo's Most Expensive Lesson: How an ADC Capacity Bet Can Backfire After a Blockbuster",
-          "date": "2026-05-17",
-          "url": "https://drugnews.com.tw/articles/2026-05-17-daiichi-sankyo-adc-capacity-lesson-en.html",
-          "language": "en"
-        },
-        {
-          "title": "How PharmaEssentia's Besremi Opens a Larger Valuation Imagination",
-          "date": "2026-05-14",
-          "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation-en.html",
-          "language": "en"
+          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1521,40 +1485,40 @@
       ]
     },
     {
-      "name": "藥華藥",
+      "name": "Targeted therapy",
       "type": "topic",
-      "mentions": 6,
-      "latest_date": "2026-05-23",
+      "mentions": 8,
+      "latest_date": "2026-05-19",
       "latest_articles": [
         {
-          "title": "全球生技大浪來襲：看懂五兆減肥藥的主升段與科學定價",
-          "date": "2026-05-23",
-          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend.html",
-          "language": "zh-Hant"
+          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
+          "date": "2026-05-19",
+          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
+          "language": "en"
         },
         {
-          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
-          "language": "zh-Hant"
+          "title": "Where Pfizer Misjudged the Vepdegestrant Strategy",
+          "date": "2026-05-18",
+          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake-en.html",
+          "language": "en"
         },
         {
-          "title": "AI半導體掩蓋生技光芒",
-          "date": "2026-05-21",
-          "url": "https://drugnews.com.tw/articles/2026-05-21-ai-semiconductor-biotech-capital-neglect.html",
-          "language": "zh-Hant"
+          "title": "Johnson & Johnson Cuts Two Autologous Lymphoma CAR-T Programs",
+          "date": "2026-05-17",
+          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge-en.html",
+          "language": "en"
         },
         {
-          "title": "藥華藥 打開估值想像空間",
+          "title": "Daiichi Sankyo's Most Expensive Lesson: How an ADC Capacity Bet Can Backfire After a Blockbuster",
+          "date": "2026-05-17",
+          "url": "https://drugnews.com.tw/articles/2026-05-17-daiichi-sankyo-adc-capacity-lesson-en.html",
+          "language": "en"
+        },
+        {
+          "title": "How PharmaEssentia's Besremi Opens a Larger Valuation Imagination",
           "date": "2026-05-14",
-          "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【限時免費－台北場】藥時事｜捕捉生技飆股：用NPV框架算出翻倍重估點",
-          "date": "2026-05-06",
-          "url": "https://drugnews.com.tw/articles/2026-05-06-taipei-biotech-npv-workshop.html",
-          "language": "zh-Hant"
+          "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1711,6 +1675,44 @@
       ]
     },
     {
+      "name": "藥華藥",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-05-23",
+      "latest_articles": [
+        {
+          "title": "全球生技大浪來襲：看懂五兆減肥藥的主升段與科學定價",
+          "date": "2026-05-23",
+          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "AI半導體掩蓋生技光芒",
+          "date": "2026-05-21",
+          "url": "https://drugnews.com.tw/articles/2026-05-21-ai-semiconductor-biotech-capital-neglect.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "藥華藥 打開估值想像空間",
+          "date": "2026-05-14",
+          "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【限時免費－台北場】藥時事｜捕捉生技飆股：用NPV框架算出翻倍重估點",
+          "date": "2026-05-06",
+          "url": "https://drugnews.com.tw/articles/2026-05-06-taipei-biotech-npv-workshop.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Biotech investing",
       "type": "topic",
       "mentions": 4,
@@ -1771,6 +1773,32 @@
           "date": "2026-06-04",
           "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Taiwan biotech",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-07-03",
+      "latest_articles": [
+        {
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1983,15 +2011,15 @@
       ]
     },
     {
-      "name": "drug development",
-      "type": "topic",
+      "name": "clinical data",
+      "type": "market_topic",
       "mentions": 2,
-      "latest_date": "2026-07-02",
+      "latest_date": "2026-07-03",
       "latest_articles": [
         {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
           "language": "en"
         },
         {
@@ -2003,7 +2031,27 @@
       ]
     },
     {
-      "name": "Taiwan biotech",
+      "name": "Revolution Medicines",
+      "type": "company",
+      "mentions": 2,
+      "latest_date": "2026-07-03",
+      "latest_articles": [
+        {
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
+          "date": "2026-06-14",
+          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "drug development",
       "type": "topic",
       "mentions": 2,
       "latest_date": "2026-07-02",
@@ -2803,49 +2851,55 @@
       ]
     },
     {
-      "name": "biomarkers",
-      "type": "topic",
+      "name": "BD licensing",
+      "type": "market_topic",
       "mentions": 1,
-      "latest_date": "2026-07-02",
+      "latest_date": "2026-07-03",
       "latest_articles": [
         {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "MTAP",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-07-02",
-      "latest_articles": [
-        {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "oncology",
-      "type": "topic",
-      "mentions": 1,
-      "latest_date": "2026-07-02",
-      "latest_articles": [
-        {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
           "language": "en"
         }
       ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+      "date": "2026-07-03",
+      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+      "language": "en",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "Revolution Medicines",
+        "RevMed",
+        "daraxonrasib",
+        "RAS oncology",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "BD licensing",
+        "biotech valuation"
+      ],
+      "summary": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies."
+    },
+    {
+      "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+      "date": "2026-07-03",
+      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+      "language": "zh-Hant",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "BD",
+        "臨床數據",
+        "生技投資",
+        "製藥巨頭"
+      ],
+      "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。"
+    },
     {
       "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
       "date": "2026-07-02",
@@ -3323,42 +3377,6 @@
         "In vivo CAR-T"
       ],
       "summary": "ASCO 2026 showed that oncology is moving from single-mechanism breakthroughs toward platform combinations across RAS targeting, ADCs, PD-1/VEGF bispecifics, and in vivo CAR-T."
-    },
-    {
-      "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
-      "date": "2026-06-15",
-      "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-      "language": "zh-Hant",
-      "category": "醫學大會",
-      "access": "免費文章",
-      "tags": [
-        "ASCO",
-        "腫瘤治療",
-        "CAR-T",
-        "RAS",
-        "ADC",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "2026 年美國臨床腫瘤學會年會，也就是 ASCO，最該被記住的贏家，並不是任何一家藥廠，而是癌症患者。"
-    },
-    {
-      "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-      "date": "2026-06-14",
-      "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-      "language": "en",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "RAS",
-        "Revolution Medicines",
-        "Daraxonrasib",
-        "Biotech financing",
-        "Pancreatic cancer",
-        "Capital markets"
-      ],
-      "summary": "Revolution Medicines shows why next-generation biotech companies need to convert clinical momentum into capital momentum if they want to finish expensive global drug-development races."
     }
   ]
 }

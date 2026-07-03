@@ -177,15 +177,15 @@ NGS 與 HRD 檢測找出真正受益患者。
 
 [0]: 各公司官網＆公開資料
 
-[1]: https://www.coherentmarketinsights.com/....../parp......
+[1]: https://www.coherentmarketinsights.com/
 
-[2]: https://oncodaily.com/....../synthetic-lethality-in-oncology
+[2]: https://oncodaily.com/
 
-[3]: https://ir.reparerx.com/....../repare-therapeutics......
+[3]: https://ir.reparerx.com/
 
-[4]: https://www.fiercebiotech.com/....../gsk-cuts-cord......
+[4]: https://www.fiercebiotech.com/
 
-[5]: https://www.debiopharm.com/....../following-oral......
+[5]: https://www.debiopharm.com/
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-02T12:04:23.557Z",
+  "generated_at": "2026-07-03T01:58:46.862Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -362,6 +362,38 @@
   ],
   "latest_canonical_articles": [
     {
+      "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+      "date": "2026-07-03",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+      "category": "商業分析系列",
+      "tags": [
+        "Revolution Medicines",
+        "RevMed",
+        "daraxonrasib",
+        "RAS oncology",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "BD licensing",
+        "biotech valuation"
+      ],
+      "summary": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies."
+    },
+    {
+      "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+      "date": "2026-07-03",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+      "category": "商業分析系列",
+      "tags": [
+        "BD",
+        "臨床數據",
+        "生技投資",
+        "製藥巨頭"
+      ],
+      "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。"
+    },
+    {
       "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
       "date": "2026-07-02",
       "language": "en",
@@ -717,36 +749,6 @@
         "製藥巨頭"
       ],
       "summary": "在全球腫瘤藥市場裡，很少有一家公司比 Merck（默沙東）更懂 PD-1。"
-    },
-    {
-      "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-      "date": "2026-06-20",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-      "category": "商業分析系列",
-      "tags": [
-        "Enlivex",
-        "RAIN token",
-        "Biotech treasury",
-        "Crypto",
-        "Capital markets"
-      ],
-      "summary": "Enlivex's paper gain from RAIN tokens shows how fragile biotech business models can create unusual treasury stories when operating revenue is absent and capital markets are difficult."
-    },
-    {
-      "title": "【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】",
-      "date": "2026-06-20",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
-      "category": "商業分析系列",
-      "tags": [
-        "AI",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "一家臨床階段 Biotech，沒有藥品銷售收入，卻在一年內做出 12 億美元級別的淨利。"
     }
   ],
   "do_not_use_as": [

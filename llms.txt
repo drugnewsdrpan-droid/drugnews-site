@@ -73,6 +73,14 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-03｜RevMed Says No to Being Bought: Biotech's Independent Era
+  URL: https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html
+  Topics: Revolution Medicines, RevMed, daraxonrasib, RAS oncology, biotech business analysis
+  Summary: Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies.
+- 2026-07-03｜拒絕被併購的 RevMed：Biotech 的獨立時代
+  URL: https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html
+  Topics: BD, 臨床數據, 生技投資, 製藥巨頭
+  Summary: 圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。
 - 2026-07-02｜Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find
   URL: https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html
   Topics: synthetic lethality, PARP, PRMT5, MTAP, RAS
@@ -121,14 +129,6 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
   URL: https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html
   Topics: 胰臟癌, RAS, PRMT5, MAT2A, 臨床數據
   Summary: 胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。
-- 2026-06-26｜Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?
-  URL: https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html
-  Topics: GLP-1, tirzepatide, Zepbound, Taltz, Omvoh
-  Summary: Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases.
-- 2026-06-26｜神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？
-  URL: https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html
-  Topics: GLP-1, 臨床數據, 生技投資, 製藥巨頭
-  Summary: 它不像急性感染，用藥幾天或幾週就結束。類風濕性關節炎、乾癬、乾癬性關節炎、發炎性腸道疾病、氣喘、異位性皮膚炎，這些疾病往往跟著患者一輩子。
 
 ## Key Site Sections
 
