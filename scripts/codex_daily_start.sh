@@ -85,6 +85,7 @@ echo "== 4. Reader and reference QA =="
 "$NODE_BIN" scripts/audit_references.mjs
 "$NODE_BIN" scripts/audit_reader_experience.mjs
 "$NODE_BIN" scripts/audit_english_localization.mjs
+"$NODE_BIN" scripts/audit_cover_visual_consistency.mjs
 echo
 
 echo "== 5. PM health after daily run =="
@@ -110,6 +111,7 @@ echo
 if [[ "$STRICT" == "1" ]]; then
   "$NODE_BIN" scripts/audit_references.mjs --strict
   "$NODE_BIN" scripts/audit_reader_experience.mjs --strict
+  "$NODE_BIN" scripts/audit_cover_visual_consistency.mjs --strict
   "$NODE_BIN" scripts/audit_daily_pm_health.mjs --strict
 fi
 

@@ -175,6 +175,24 @@ Use `npm run publish:force` to publish inbox drafts regardless of `publish_at`.
 
 Facebook and Dcard original images should stay in the article body with their original placement. Do not use long social post infographics as website covers. For Facebook imports, generate a clean landscape editorial cover for `cover_image`; the publisher blocks `images/facebook-XX.*` as a Facebook article cover so card thumbnails, OG images, RSS, and homepage previews do not crop body infographics badly.
 
+### Editorial Cover Visual System
+
+Website covers are a brand surface, not just article decoration. New daily articles should use a consistent Drugnews editorial visual system across article cards, homepage cards, OG previews, and RSS thumbnails:
+
+1. Generate a dedicated 16:9 or 1.91:1 landscape cover for the website. Do not reuse Facebook / Dcard body infographics, long social cards, screenshots, or text-heavy slides as covers.
+2. Keep one premium research-media visual language across the same series: clean biotech-pharma editorial art, restrained labels, generous margins, soft depth, consistent lighting, and a polished white / neutral scientific background. Do not mix dashboard UI cards, cartoon icons, unrelated BioRender diagrams, and pitch-deck slides in the same article list.
+3. Cover text must never be cropped. Prefer no headline text on the cover; if a label is needed, keep it short and inside a safe center area with at least 10% margin on every side.
+4. Covers and body figures serve different jobs. Body figures can explain mechanisms or frameworks; covers should signal the article theme with premium visual quality and consistent composition.
+5. Chinese and English covers must be localized separately. English article covers cannot reuse Chinese text graphics.
+6. Before deployment, inspect the article card list and mobile layout: adjacent covers should feel like one Drugnews brand system, not unrelated one-off prompts.
+7. Already published covers are not silently replaced. If a live cover looks weak, record it as a retrofitting candidate and change it only with explicit user approval.
+
+Run the cover audit during daily QA:
+
+```bash
+npm run audit:cover-visual
+```
+
 ## Article Markdown
 
 Use normal Markdown headings, paragraphs, links, lists, blockquotes, and inline images:
