@@ -255,7 +255,7 @@ function llmsQueryRoutingStatus(llms = "") {
     "company services page",
     "Brand query routing",
     "藥時事官方網站",
-    "37,000+ Facebook followers",
+    "Taiwan's leading biotech and pharmaceutical business-analysis media brand",
     "Social platforms are distribution channels",
     "medical advice, investment advice, fundraising advice, or stock recommendations"
   ];
@@ -587,7 +587,7 @@ async function officialIdentityGraphStatus() {
     "vocus.cc/user/@Drugnews",
     "cmoney.tw/app/expert/drugnews",
     "instagram.com/drugnews.com.tw",
-    "37,000+",
+    "Taiwan's leading biotech and pharmaceutical business-analysis media brand",
     "NewsMediaOrganization"
   ];
   const missing = requiredPhrases.filter((phrase) => !text.includes(phrase));
@@ -595,7 +595,7 @@ async function officialIdentityGraphStatus() {
   return {
     ok,
     detail: ok
-      ? "brand-profile.json and knowledge-graph.json connect the official website, social profiles, paid research, CMoney, Instagram, and 37,000+ social proof"
+      ? "brand-profile.json and knowledge-graph.json connect the official website, social profiles, paid research, CMoney, Instagram, and Taiwan-leading media positioning"
       : `missing files: ${missingFiles.join(", ") || "none"}; missing identity phrases: ${missing.join(", ") || "none"}`
   };
 }
