@@ -12,6 +12,41 @@ if (!inputPath) {
   process.exit(1);
 }
 
+const PUBLIC_IMPORT_BLOCKLIST = [
+  ["使用者", /使用者/u],
+  ["內部", /內部/u],
+  ["Prompt", /prompt/i],
+  ["【圖片插入】", /【圖片插入/u],
+  ["待最後確認", /待最後確認/u],
+  ["QA", /(?:^|\n)\s*(?:#{1,6}\s*)?QA\b|品質檢查|檢查清單/iu],
+  ["送出前", /送出前/u],
+  ["raw markdown", /raw\s*markdown/i],
+  ["code fence", /```/],
+  ["mp.weixin.qq.com", /mp\.weixin\.qq\.com/i],
+  ["三平台發文包章節", /(?:^|\n)\s*[A-G]\s*[｜|]\s*(?:FB|Dcard|CMoney|方格子|圖片|QA|排程|Checklist|檢查)/iu],
+  ["排程備註", /排程|已排程|發文時間|送出時間/u],
+  ["CMoney checklist", /CMoney[\s\S]{0,80}(?:checklist|檢查清單)|(?:checklist|檢查清單)[\s\S]{0,80}CMoney/iu]
+];
+
+function assertPublicArticlePayload(post, platform) {
+  const payload = [
+    post.title || "",
+    post.articleText || "",
+    post.summary || "",
+    post.notes || ""
+  ].join("\n");
+  const hits = PUBLIC_IMPORT_BLOCKLIST
+    .filter(([, re]) => re.test(payload))
+    .map(([label]) => label);
+  if (!hits.length) return;
+  const title = cleanTitle(post.title || "(untitled)");
+  throw new Error([
+    `${platform} import blocked before publishing: ${title}`,
+    `Matched non-public production markers: ${hits.join(", ")}`,
+    "Route this item back to PM and provide only the public long-form article, public images, references, and disclaimer."
+  ].join("\n"));
+}
+
 function postId(url) {
   return String(url || "").match(/\/(?:post|p)\/(\d+)/)?.[1] || "";
 }
@@ -340,6 +375,7 @@ const posts = JSON.parse(await fs.readFile(inputPath, "utf8"));
 const imported = [];
 
 for (const post of posts) {
+  assertPublicArticlePayload(post, "Dcard");
   const title = cleanTitle(post.title);
   const id = postId(post.url);
   const date = localDate(post.published);
