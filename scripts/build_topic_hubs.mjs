@@ -241,8 +241,10 @@ const header = `<body>
         <a href="../articles/">文章</a>
         <a href="./" aria-current="page">主題</a>
         <a href="../guides/">指南</a>
+        <a href="../team.html">團隊</a>
         <a href="../subscribe.html">付費專欄</a>
         <a href="../services.html">公司合作</a>
+        <a href="../en/index.html">English</a>
       </nav>
     </div>
   </header>`;
