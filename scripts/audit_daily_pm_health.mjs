@@ -27,6 +27,18 @@ function dirExists(relativePath) {
   }
 }
 
+function hasGoogleSearchConsoleVerificationFile() {
+  try {
+    return fs.readdirSync(ROOT).some((name) => {
+      if (!/^google[a-z0-9]+\.html$/i.test(name)) return false;
+      const body = fs.readFileSync(path.join(ROOT, name), "utf8");
+      return body.includes(`google-site-verification: ${name}`);
+    });
+  } catch {
+    return false;
+  }
+}
+
 async function readJson(filePath, fallback = null) {
   try {
     return JSON.parse(await fsp.readFile(filePath, "utf8"));
@@ -707,6 +719,7 @@ async function main() {
   const searchIntents = await readJson(SEARCH_INTENTS, {});
   const marketRadar = await readJson("market-radar.json", {});
   const settings = await readJson(SITE_SETTINGS, {});
+  const searchConsoleConfigured = Boolean(settings.google_search_console_verification) || hasGoogleSearchConsoleVerificationFile();
   const facebookCapture = await readJson(SOCIAL_FB_INPUT, null);
   const dcardCapture = await readJson(SOCIAL_DCARD_INPUT, null);
   const facebookDiagnostics = await readJson(SOCIAL_FB_DIAGNOSTICS, null);
@@ -800,7 +813,7 @@ async function main() {
     }),
     captureCheck("dcard_capture_ready", SOCIAL_DCARD_INPUT, dcardCapture, summarizeDcardDiagnostics(dcardDiagnostics)),
     check("ga4_configured", Boolean(settings.google_analytics_id), settings.google_analytics_id ? "GA4 enabled" : "GA4 measurement ID missing", "warning"),
-    check("search_console_configured", Boolean(settings.google_search_console_verification), settings.google_search_console_verification ? "Search Console verification configured" : "Search Console verification missing", "warning")
+    check("search_console_configured", searchConsoleConfigured, searchConsoleConfigured ? "Search Console verification configured" : "Search Console verification missing", "warning")
   ];
 
   const hardFailures = checks.filter((item) => item.status === "error");
@@ -833,7 +846,7 @@ async function main() {
         : []),
       ...(readingProduct?.status !== "ok" ? ["Run node scripts/audit_reading_product_tasks.mjs to inspect mobile/search/topic reading-experience regressions."] : []),
       ...(!settings.google_analytics_id ? ["Add GA4 with: node scripts/configure_site_tracking.mjs --ga4=G-XXXXXXXXXX"] : []),
-      ...(!settings.google_search_console_verification ? ["Add Search Console with: node scripts/configure_site_tracking.mjs --gsc=GOOGLE_SEARCH_CONSOLE_TOKEN"] : [])
+      ...(!searchConsoleConfigured ? ["Add Search Console with: node scripts/configure_site_tracking.mjs --gsc=GOOGLE_SEARCH_CONSOLE_TOKEN or deploy a Google HTML verification file"] : [])
     ]
   };
 
