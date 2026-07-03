@@ -44,26 +44,4 @@
       <news:title>合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-01T02:30:00.000Z</news:publication_date>
-      <news:title>Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-01T02:30:00.000Z</news:publication_date>
-      <news:title>摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳</news:title>
-    </news:news>
-  </url>
 </urlset>

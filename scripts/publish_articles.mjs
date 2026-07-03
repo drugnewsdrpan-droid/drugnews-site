@@ -259,6 +259,37 @@ function referenceSection(markdown) {
   return match ? match[3].trim() : "";
 }
 
+function citationFallbackName(url) {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "");
+    const known = {
+      "ft.com": "Financial Times",
+      "royaltypharma.com": "Royalty Pharma",
+      "investors.com": "Investor's Business Daily",
+      "fda.gov": "U.S. FDA",
+      "foreseepharma.com": "Foresee Pharmaceuticals"
+    };
+    return known[host] || host;
+  } catch {
+    return url;
+  }
+}
+
+function citationName(rawLabel, url) {
+  const label = String(rawLabel || "")
+    .replace(url, "")
+    .replace(/^\s*\[\d+]\s*:?\s*/, "")
+    .replace(/^\s*\d+[.)、]\s*/, "")
+    .replace(/^\s*[-*]\s*/, "")
+    .replace(/\bhttps?:\/\/\S+/g, "")
+    .replace(/^[｜|:：\-–—]+/u, "")
+    .replace(/[｜|:：\-–—]+$/u, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!label || /^[\[\]\d\s:：.\-–—]+$/.test(label)) return citationFallbackName(url);
+  return label;
+}
+
 function extractCitations(markdown) {
   const section = referenceSection(markdown);
   if (!section) return [];
@@ -271,19 +302,13 @@ function extractCitations(markdown) {
       const url = link[2].trim();
       if (seen.has(url)) continue;
       seen.add(url);
-      citations.push({ "@type": "CreativeWork", name: label || url, url });
+      citations.push({ "@type": "CreativeWork", name: citationName(label, url), url });
     }
     const bareUrls = [...line.matchAll(/https?:\/\/[^\s)]+/g)].map((match) => match[0]);
     for (const url of bareUrls) {
       if (seen.has(url)) continue;
       seen.add(url);
-      const label = line
-        .replace(url, "")
-        .replace(/^\[\d+]\s*/, "")
-        .replace(/[｜|:：\-–—]+$/u, "")
-        .replace(/\s+/g, " ")
-        .trim();
-      citations.push({ "@type": "CreativeWork", name: label || url, url });
+      citations.push({ "@type": "CreativeWork", name: citationName(line, url), url });
     }
   }
   return citations.slice(0, 12);
