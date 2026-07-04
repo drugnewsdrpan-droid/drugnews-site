@@ -170,26 +170,15 @@ a { color: inherit; }
 }
 
 .audience-proof {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: 14px;
-  align-items: center;
   max-width: 500px;
   margin-top: 18px;
   padding-top: 16px;
   border-top: 1px solid var(--line);
-}
-
-.audience-proof strong {
   color: var(--brand);
-  font-size: 2rem;
-  line-height: 1;
-}
-
-.audience-proof span {
-  color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.55;
+  font-family: var(--display);
+  font-size: 1.12rem;
+  font-weight: 720;
+  line-height: 1.65;
 }
 
 .hero-copy {
@@ -2796,7 +2785,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     min-width: 0;
   }
   .masthead p:not(.eyebrow),
-  .audience-proof span {
+  .audience-proof {
     width: 100%;
     overflow-wrap: anywhere;
     word-break: normal;
@@ -3069,7 +3058,6 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   .paid-library,
   .topic-hub-grid,
   .topic-hub-grid.compact { grid-template-columns: 1fr; }
-  .audience-proof { grid-template-columns: 1fr; }
   .issue-bar { grid-template-columns: 1fr; }
   .topic-hub-card {
     padding: 24px;
