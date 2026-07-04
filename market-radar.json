@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-03T12:46:54.094Z",
+  "generated_at": "2026-07-04T05:23:52.949Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -113,8 +113,206 @@
   },
   "buckets": [
     {
+      "name": "AI 製藥與新技術",
+      "count": 6,
+      "articles": [
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "HHS",
+            "FDA",
+            "Operation TrialBlazer",
+            "clinical trial reform",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "drug development",
+            "clinical data"
+          ],
+          "summary": "Operation TrialBlazer is not just an FDA efficiency program. It signals that the United States is treating clinical-trial speed as part of national biotech competitiveness, with direct implications for biotech valuation, financing windows, and regulatory strategy."
+        },
+        {
+          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "ADHD",
+            "centanafadine",
+            "Otsuka",
+            "clinical data",
+            "neuroscience",
+            "non-stimulant ADHD therapy",
+            "Taiwan biotech",
+            "drug development"
+          ],
+          "summary": "Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention."
+        },
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "AI drug discovery",
+            "zasocitinib",
+            "Takeda",
+            "Sotyktu",
+            "TYK2",
+            "psoriasis",
+            "PASI 100",
+            "Schrodinger"
+          ],
+          "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test."
+        },
+        {
+          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "AI",
+            "臨床數據",
+            "生技投資",
+            "製藥巨頭"
+          ],
+          "summary": "過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…"
+        },
+        {
+          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "Enlivex",
+            "RAIN token",
+            "Biotech treasury",
+            "Crypto",
+            "Capital markets"
+          ],
+          "summary": "Enlivex's paper gain from RAIN tokens shows how fragile biotech business models can create unusual treasury stories when operating revenue is absent and capital markets are difficult."
+        },
+        {
+          "title": "【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "AI",
+            "BD",
+            "臨床數據",
+            "生技投資",
+            "製藥巨頭"
+          ],
+          "summary": "一家臨床階段 Biotech，沒有藥品銷售收入，卻在一年內做出 12 億美元級別的淨利。"
+        }
+      ]
+    },
+    {
+      "name": "BD / 授權與併購",
+      "count": 5,
+      "articles": [
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "BD",
+            "臨床數據",
+            "生技投資",
+            "FDA",
+            "HHS",
+            "臨床試驗",
+            "新藥開發"
+          ],
+          "summary": "2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。"
+        },
+        {
+          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "BD",
+            "臨床數據",
+            "生技投資",
+            "製藥巨頭"
+          ],
+          "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。"
+        },
+        {
+          "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "BD",
+            "臨床數據",
+            "生技投資"
+          ],
+          "summary": "2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。"
+        },
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "FDA",
+            "Biotech rebound",
+            "Regulatory risk",
+            "Rare disease",
+            "Gene therapy",
+            "mRNA vaccines",
+            "M&A",
+            "Capital markets"
+          ],
+          "summary": "Biotech’s recent rebound is not only a risk-on trade. FDA review signals, rare-disease flexibility, mRNA vaccine momentum, and renewed pharma M&A are changing how investors price clinical-stage assets."
+        },
+        {
+          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "疫苗",
+            "感染症",
+            "BD",
+            "臨床數據",
+            "生技投資"
+          ],
+          "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。"
+        }
+      ]
+    },
+    {
       "name": "腫瘤精準治療",
-      "count": 10,
+      "count": 9,
       "articles": [
         {
           "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
@@ -272,184 +470,6 @@
             "生技投資"
           ],
           "summary": "2026 年 6 月 9 日，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元，較 Nuvalent 前一交易日收盤價溢價約 40%。這是 GSK 近年最大型的腫瘤併購之一，也讓它瞬間補上肺癌精準治療版圖中最缺的一塊。"
-        },
-        {
-          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-          "language": "en",
-          "category": "醫學大會",
-          "access": "免費文章",
-          "tags": [
-            "ASCO",
-            "Oncology",
-            "RAS",
-            "ADC",
-            "PD-1 VEGF",
-            "In vivo CAR-T"
-          ],
-          "summary": "ASCO 2026 showed that oncology is moving from single-mechanism breakthroughs toward platform combinations across RAS targeting, ADCs, PD-1/VEGF bispecifics, and in vivo CAR-T."
-        }
-      ]
-    },
-    {
-      "name": "BD / 授權與併購",
-      "count": 4,
-      "articles": [
-        {
-          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "BD",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。"
-        },
-        {
-          "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "BD",
-            "臨床數據",
-            "生技投資"
-          ],
-          "summary": "2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "FDA",
-            "Biotech rebound",
-            "Regulatory risk",
-            "Rare disease",
-            "Gene therapy",
-            "mRNA vaccines",
-            "M&A",
-            "Capital markets"
-          ],
-          "summary": "Biotech’s recent rebound is not only a risk-on trade. FDA review signals, rare-disease flexibility, mRNA vaccine momentum, and renewed pharma M&A are changing how investors price clinical-stage assets."
-        },
-        {
-          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "疫苗",
-            "感染症",
-            "BD",
-            "臨床數據",
-            "生技投資"
-          ],
-          "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。"
-        }
-      ]
-    },
-    {
-      "name": "AI 製藥與新技術",
-      "count": 5,
-      "articles": [
-        {
-          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "ADHD",
-            "centanafadine",
-            "Otsuka",
-            "clinical data",
-            "neuroscience",
-            "non-stimulant ADHD therapy",
-            "Taiwan biotech",
-            "drug development"
-          ],
-          "summary": "Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention."
-        },
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "AI drug discovery",
-            "zasocitinib",
-            "Takeda",
-            "Sotyktu",
-            "TYK2",
-            "psoriasis",
-            "PASI 100",
-            "Schrodinger"
-          ],
-          "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test."
-        },
-        {
-          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "AI",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…"
-        },
-        {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "Enlivex",
-            "RAIN token",
-            "Biotech treasury",
-            "Crypto",
-            "Capital markets"
-          ],
-          "summary": "Enlivex's paper gain from RAIN tokens shows how fragile biotech business models can create unusual treasury stories when operating revenue is absent and capital markets are difficult."
-        },
-        {
-          "title": "【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "AI",
-            "BD",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "一家臨床階段 Biotech，沒有藥品銷售收入，卻在一年內做出 12 億美元級別的淨利。"
         }
       ]
     },
@@ -517,7 +537,7 @@
     },
     {
       "name": "GLP-1 與代謝賽道",
-      "count": 7,
+      "count": 6,
       "articles": [
         {
           "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
@@ -622,24 +642,6 @@
             "Obesity medicine"
           ],
           "summary": "Ecnoglutide's head-to-head weight-loss data versus semaglutide are interesting, but the GLP-1 race will be decided by long-term outcomes, tolerability, labels, supply, and global evidence."
-        },
-        {
-          "title": "禮來 38 億美元買三家疫苗公司：減肥藥巨頭，為什麼突然回頭買「預防醫學」？",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "GLP-1",
-            "疫苗",
-            "感染症",
-            "BD",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "市場現在最熟悉的禮來，是 Mounjaro、Zepbound 背後那個 GLP-1 巨頭。2026 年第一季，禮來營收達到 198 億美元，年增 56%，主要動能還是來自 Mounjaro 與 Zepbound 的放量。簡單說，禮來現在手上最強的現金流，是減重與糖尿病藥物。"
         }
       ]
     },

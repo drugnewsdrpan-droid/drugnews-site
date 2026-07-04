@@ -380,7 +380,7 @@ for (const post of posts) {
   const id = postId(post.url);
   const date = localDate(post.published);
   const fallback = `dcard-${id || date}`;
-  let slug = slugify(title, fallback);
+  let slug = slugify(post.slug || title, fallback);
   let folder = path.join(PUBLISHED, slug);
   const existingMetaPath = path.join(folder, "meta.json");
   try {

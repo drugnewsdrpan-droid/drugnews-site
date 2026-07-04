@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T00:35:00.000Z</news:publication_date>
+      <news:title>Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T00:35:00.000Z</news:publication_date>
+      <news:title>美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html</loc>
     <news:news>
       <news:publication>
@@ -20,28 +42,6 @@
       </news:publication>
       <news:publication_date>2026-07-03T01:18:26.381Z</news:publication_date>
       <news:title>拒絕被併購的 RevMed：Biotech 的獨立時代</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T02:30:00.000Z</news:publication_date>
-      <news:title>Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T02:30:00.000Z</news:publication_date>
-      <news:title>合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？</news:title>
     </news:news>
   </url>
 </urlset>

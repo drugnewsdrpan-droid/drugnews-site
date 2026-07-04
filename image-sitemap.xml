@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials-en/cover.png</image:loc>
+      <image:caption>Premium Drugnews editorial cover on HHS Operation TrialBlazer and clinical-trial reform</image:caption>
+      <image:title>Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials-en/figure-01.png</image:loc>
+      <image:caption>IND to first patient timeline under Operation TrialBlazer</image:caption>
+      <image:title>Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials-en/figure-02.png</image:loc>
+      <image:caption>QSP, MABEL, and NAMs in first-in-human dose selection</image:caption>
+      <image:title>Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials-en/figure-03.png</image:loc>
+      <image:caption>Late-stage evidence reset under FDA substantial evidence thinking</image:caption>
+      <image:title>Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials-en/figure-04.png</image:loc>
+      <image:caption>CNPV speed, transparency, and biotech valuation catalyst</image:caption>
+      <image:title>Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials/cover.png</image:loc>
+      <image:caption>美國 HHS Operation TrialBlazer 臨床試驗改革專題封面</image:caption>
+      <image:title>美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials/dcard-01.webp</image:loc>
+      <image:caption>Dcard 原圖：美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了（圖 1）</image:caption>
+      <image:title>美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials/dcard-02.png</image:loc>
+      <image:caption>Dcard 原圖：美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了（圖 2）</image:caption>
+      <image:title>美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials/dcard-03.png</image:loc>
+      <image:caption>Dcard 原圖：美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了（圖 3）</image:caption>
+      <image:title>美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials/dcard-04.png</image:loc>
+      <image:caption>Dcard 原圖：美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了（圖 4）</image:caption>
+      <image:title>美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/revmed-biotech-en/cover.png</image:loc>

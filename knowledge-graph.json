@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-03T12:46:54.119Z",
+  "generated_at": "2026-07-04T05:23:52.974Z",
   "site": {
     "@type": [
       "Organization",
@@ -109,6 +109,51 @@
     "brand_profile": "https://drugnews.com.tw/brand-profile.json"
   },
   "latest_articles": [
+    {
+      "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+      "date": "2026-07-04",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "HHS",
+        "FDA",
+        "Operation TrialBlazer",
+        "clinical trial reform",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "drug development",
+        "clinical data",
+        "BD licensing",
+        "biotech valuation"
+      ],
+      "summary": "Operation TrialBlazer is not just an FDA efficiency program. It signals that the United States is treating clinical-trial speed as part of national biotech competitiveness, with direct implications for biotech valuation, financing windows, and regulatory strategy.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-04-hhs-operation-trialblazer-clinical-trials.html"
+      }
+    },
+    {
+      "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+      "date": "2026-07-04",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "BD",
+        "臨床數據",
+        "生技投資",
+        "FDA",
+        "HHS",
+        "臨床試驗",
+        "新藥開發"
+      ],
+      "summary": "2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。",
+      "alternate_language_versions": {
+        "en": "2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html"
+      }
+    },
     {
       "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
       "date": "2026-07-03",
@@ -678,55 +723,13 @@
       "alternate_language_versions": {
         "en": "2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html"
       }
-    },
-    {
-      "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
-      "date": "2026-06-17",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "GLP-1",
-        "肥胖藥",
-        "Ecnoglutide",
-        "Wegovy",
-        "輝瑞",
-        "諾和諾德",
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "ADA 2026 剛落幕，GLP-1 賽道又被一組頭對頭資料點燃。Ecnoglutide 在 20 週減重數字上勝出，但真正的競爭不只看短期體重下降，而是長期健康結局、耐受性、產品矩陣與全球商業化。",
-      "alternate_language_versions": {
-        "en": "2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html"
-      }
-    },
-    {
-      "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-      "date": "2026-06-17",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "GLP-1",
-        "Ecnoglutide",
-        "Wegovy",
-        "Pfizer",
-        "Novo Nordisk",
-        "Obesity medicine"
-      ],
-      "summary": "Ecnoglutide's head-to-head weight-loss data versus semaglutide are interesting, but the GLP-1 race will be decided by long-term outcomes, tolerability, labels, supply, and global evidence.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 40,
+      "mentions": 39,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -764,7 +767,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 40,
+      "mentions": 39,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -803,8 +806,14 @@
       "name": "生技投資",
       "type": "market_topic",
       "mentions": 28,
-      "latest_date": "2026-07-03",
+      "latest_date": "2026-07-04",
       "latest_articles": [
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
           "date": "2026-07-03",
@@ -828,21 +837,21 @@
           "date": "2026-06-29",
           "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
-          "language": "zh-Hant"
         }
       ]
     },
     {
       "name": "BD",
       "type": "market_topic",
-      "mentions": 22,
-      "latest_date": "2026-07-03",
+      "mentions": 23,
+      "latest_date": "2026-07-04",
       "latest_articles": [
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
           "date": "2026-07-03",
@@ -866,11 +875,43 @@
           "date": "2026-06-30",
           "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "臨床數據",
+      "type": "market_topic",
+      "mentions": 19,
+      "latest_date": "2026-07-04",
+      "latest_articles": [
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
         },
         {
-          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
           "language": "zh-Hant"
         }
       ]
@@ -878,7 +919,7 @@
     {
       "name": "Business Analysis",
       "type": "topic",
-      "mentions": 19,
+      "mentions": 18,
       "latest_date": "2026-06-25",
       "latest_articles": [
         {
@@ -914,54 +955,22 @@
       ]
     },
     {
-      "name": "臨床數據",
+      "name": "FDA",
       "type": "market_topic",
-      "mentions": 18,
-      "latest_date": "2026-07-03",
+      "mentions": 17,
+      "latest_date": "2026-07-04",
       "latest_articles": [
         {
-          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "美股迎來史上最大 Biotech IPO",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Capital markets",
-      "type": "market_topic",
-      "mentions": 16,
-      "latest_date": "2026-06-29",
-      "latest_articles": [
-        {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
           "language": "en"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
         },
         {
           "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
@@ -970,22 +979,16 @@
           "language": "en"
         },
         {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
+          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
+          "language": "zh-Hant"
         },
         {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
+          "title": "⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1028,11 +1031,17 @@
       ]
     },
     {
-      "name": "FDA",
+      "name": "Capital markets",
       "type": "market_topic",
       "mentions": 15,
-      "latest_date": "2026-06-28",
+      "latest_date": "2026-06-29",
       "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        },
         {
           "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
           "date": "2026-06-28",
@@ -1040,28 +1049,22 @@
           "language": "en"
         },
         {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
         },
         {
-          "title": "⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis.html",
-          "language": "zh-Hant"
+          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "language": "en"
         },
         {
-          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
-          "language": "zh-Hant"
+          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
+          "date": "2026-06-14",
+          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1370,44 +1373,6 @@
       ]
     },
     {
-      "name": "AI drug discovery",
-      "type": "topic",
-      "mentions": 10,
-      "latest_date": "2026-06-24",
-      "latest_articles": [
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
-          "date": "2026-05-29",
-          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The First Step in Valuing Taiwanese Biotech: Stop Forcing Every Company Into the Same P/E Ratio",
-          "date": "2026-05-27",
-          "url": "https://drugnews.com.tw/articles/2026-05-27-taiwan-biotech-valuation-framework-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "ADC",
       "type": "biotech_concept_or_target",
       "mentions": 10,
@@ -1442,6 +1407,44 @@
           "date": "2026-05-17",
           "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "AI drug discovery",
+      "type": "topic",
+      "mentions": 9,
+      "latest_date": "2026-06-24",
+      "latest_articles": [
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
+          "date": "2026-06-07",
+          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
+          "date": "2026-05-29",
+          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The First Step in Valuing Taiwanese Biotech: Stop Forcing Every Company Into the Same P/E Ratio",
+          "date": "2026-05-27",
+          "url": "https://drugnews.com.tw/articles/2026-05-27-taiwan-biotech-valuation-framework-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1674,40 +1677,34 @@
       ]
     },
     {
-      "name": "藥華藥",
+      "name": "Taiwan biotech",
       "type": "topic",
-      "mentions": 5,
-      "latest_date": "2026-05-23",
+      "mentions": 4,
+      "latest_date": "2026-07-04",
       "latest_articles": [
         {
-          "title": "全球生技大浪來襲：看懂五兆減肥藥的主升段與科學定價",
-          "date": "2026-05-23",
-          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend.html",
-          "language": "zh-Hant"
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
         },
         {
-          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
-          "language": "zh-Hant"
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en"
         },
         {
-          "title": "AI半導體掩蓋生技光芒",
-          "date": "2026-05-21",
-          "url": "https://drugnews.com.tw/articles/2026-05-21-ai-semiconductor-biotech-capital-neglect.html",
-          "language": "zh-Hant"
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en"
         },
         {
-          "title": "藥華藥 打開估值想像空間",
-          "date": "2026-05-14",
-          "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【限時免費－台北場】藥時事｜捕捉生技飆股：用NPV框架算出翻倍重估點",
-          "date": "2026-05-06",
-          "url": "https://drugnews.com.tw/articles/2026-05-06-taipei-biotech-npv-workshop.html",
-          "language": "zh-Hant"
+          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1776,15 +1773,73 @@
       ]
     },
     {
-      "name": "Taiwan biotech",
+      "name": "藥華藥",
       "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-07-03",
+      "mentions": 4,
+      "latest_date": "2026-05-23",
       "latest_articles": [
+        {
+          "title": "全球生技大浪來襲：看懂五兆減肥藥的主升段與科學定價",
+          "date": "2026-05-23",
+          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "AI半導體掩蓋生技光芒",
+          "date": "2026-05-21",
+          "url": "https://drugnews.com.tw/articles/2026-05-21-ai-semiconductor-biotech-capital-neglect.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "藥華藥 打開估值想像空間",
+          "date": "2026-05-14",
+          "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "clinical data",
+      "type": "market_topic",
+      "mentions": 3,
+      "latest_date": "2026-07-04",
+      "latest_articles": [
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
+        },
         {
           "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "drug development",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-07-04",
+      "latest_articles": [
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
           "language": "en"
         },
         {
@@ -2010,22 +2065,102 @@
       ]
     },
     {
-      "name": "clinical data",
+      "name": "BD licensing",
       "type": "market_topic",
       "mentions": 2,
-      "latest_date": "2026-07-03",
+      "latest_date": "2026-07-04",
       "latest_articles": [
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
+        },
         {
           "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "biotech business analysis",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-04",
+      "latest_articles": [
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
         },
         {
-          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "biotech valuation",
+      "type": "market_topic",
+      "mentions": 2,
+      "latest_date": "2026-07-04",
+      "latest_articles": [
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "capital markets",
+      "type": "market_topic",
+      "mentions": 2,
+      "latest_date": "2026-07-04",
+      "latest_articles": [
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "HHS",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-04",
+      "latest_articles": [
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2045,26 +2180,6 @@
           "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
           "date": "2026-06-14",
           "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "drug development",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-02",
-      "latest_articles": [
-        {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
           "language": "en"
         }
       ]
@@ -2768,103 +2883,46 @@
           "language": "en"
         }
       ]
-    },
-    {
-      "name": "Gilead",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-05-19",
-      "latest_articles": [
-        {
-          "title": "HIV 新藥很好賺呀...吉利德財報披露",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "大藥廠 輝瑞在兩個判斷上栽跟頭？",
-          "date": "2026-05-18",
-          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "PROTAC",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-05-18",
-      "latest_articles": [
-        {
-          "title": "大藥廠 輝瑞在兩個判斷上栽跟頭？",
-          "date": "2026-05-18",
-          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "DAC（降解劑－抗體偶聯藥物）會是下一代標靶藥物的新引爆點嗎？",
-          "date": "2026-05-11",
-          "url": "https://drugnews.com.tw/articles/2026-05-11-dac-adc-protac-next-targeted-therapy.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Kelonia",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-05-17",
-      "latest_articles": [
-        {
-          "title": "Johnson & Johnson（嬌生）砍掉兩條 自體淋巴瘤 CAR-T",
-          "date": "2026-05-17",
-          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "減肥藥還是太強了，禮來 猛健樂 賺爛！",
-          "date": "2026-05-08",
-          "url": "https://drugnews.com.tw/articles/2026-05-08-lilly-tirzepatide-glp1-growth.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Tirzepatide",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-05-10",
-      "latest_articles": [
-        {
-          "title": "川普放政策鴿子，減肥藥價格白降了？",
-          "date": "2026-05-10",
-          "url": "https://drugnews.com.tw/articles/2026-05-10-glp1-medicare-policy-delay.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "減肥藥還是太強了，禮來 猛健樂 賺爛！",
-          "date": "2026-05-08",
-          "url": "https://drugnews.com.tw/articles/2026-05-08-lilly-tirzepatide-glp1-growth.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "BD licensing",
-      "type": "market_topic",
-      "mentions": 1,
-      "latest_date": "2026-07-03",
-      "latest_articles": [
-        {
-          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-          "language": "en"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+      "date": "2026-07-04",
+      "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+      "language": "en",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "HHS",
+        "FDA",
+        "Operation TrialBlazer",
+        "clinical trial reform",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "drug development",
+        "clinical data"
+      ],
+      "summary": "Operation TrialBlazer is not just an FDA efficiency program. It signals that the United States is treating clinical-trial speed as part of national biotech competitiveness, with direct implications for biotech valuation, financing windows, and regulatory strategy."
+    },
+    {
+      "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+      "date": "2026-07-04",
+      "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+      "language": "zh-Hant",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "BD",
+        "臨床數據",
+        "生技投資",
+        "FDA",
+        "HHS",
+        "臨床試驗",
+        "新藥開發"
+      ],
+      "summary": "2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。"
+    },
     {
       "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
       "date": "2026-07-03",
@@ -3341,41 +3399,6 @@
         "Obesity medicine"
       ],
       "summary": "Ecnoglutide's head-to-head weight-loss data versus semaglutide are interesting, but the GLP-1 race will be decided by long-term outcomes, tolerability, labels, supply, and global evidence."
-    },
-    {
-      "title": "禮來 38 億美元買三家疫苗公司：減肥藥巨頭，為什麼突然回頭買「預防醫學」？",
-      "date": "2026-06-16",
-      "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html",
-      "language": "zh-Hant",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "GLP-1",
-        "疫苗",
-        "感染症",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "市場現在最熟悉的禮來，是 Mounjaro、Zepbound 背後那個 GLP-1 巨頭。2026 年第一季，禮來營收達到 198 億美元，年增 56%，主要動能還是來自 Mounjaro 與 Zepbound 的放量。簡單說，禮來現在手上最強的現金流，是減重與糖尿病藥物。"
-    },
-    {
-      "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-      "date": "2026-06-15",
-      "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-      "language": "en",
-      "category": "醫學大會",
-      "access": "免費文章",
-      "tags": [
-        "ASCO",
-        "Oncology",
-        "RAS",
-        "ADC",
-        "PD-1 VEGF",
-        "In vivo CAR-T"
-      ],
-      "summary": "ASCO 2026 showed that oncology is moving from single-mechanism breakthroughs toward platform combinations across RAS targeting, ADCs, PD-1/VEGF bispecifics, and in vivo CAR-T."
     }
   ]
 }

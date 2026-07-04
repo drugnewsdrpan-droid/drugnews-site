@@ -73,6 +73,14 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-04｜Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition
+  URL: https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html
+  Topics: HHS, FDA, Operation TrialBlazer, clinical trial reform, biotech business analysis
+  Summary: Operation TrialBlazer is not just an FDA efficiency program. It signals that the United States is treating clinical-trial speed as part of national biotech competitiveness, with direct implications for biotech valuation, financing windows, and regulatory strategy.
+- 2026-07-04｜美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了
+  URL: https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html
+  Topics: BD, 臨床數據, 生技投資, FDA, HHS
+  Summary: 2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。
 - 2026-07-03｜RevMed Says No to Being Bought: Biotech's Independent Era
   URL: https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html
   Topics: Revolution Medicines, RevMed, daraxonrasib, RAS oncology, biotech business analysis
@@ -121,14 +129,6 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
   URL: https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html
   Topics: 疫苗, 感染症, BD, 臨床數據, 生技投資
   Summary: 代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。
-- 2026-06-27｜Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside
-  URL: https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html
-  Topics: Pancreatic Cancer, RAS, PRMT5, MAT2A, Synthetic Lethality
-  Summary: Pancreatic cancer is moving into a new phase of precision combination therapy, as RAS inhibition meets MTAP-selective PRMT5 and MAT2A strategies.
-- 2026-06-27｜胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開
-  URL: https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html
-  Topics: 胰臟癌, RAS, PRMT5, MAT2A, 臨床數據
-  Summary: 胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。
 
 ## Key Site Sections
 

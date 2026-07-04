@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-03T12:46:54.118Z",
+  "generated_at": "2026-07-04T05:23:52.973Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -362,6 +362,41 @@
   ],
   "latest_canonical_articles": [
     {
+      "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+      "date": "2026-07-04",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+      "category": "商業分析系列",
+      "tags": [
+        "HHS",
+        "FDA",
+        "Operation TrialBlazer",
+        "clinical trial reform",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "drug development",
+        "clinical data"
+      ],
+      "summary": "Operation TrialBlazer is not just an FDA efficiency program. It signals that the United States is treating clinical-trial speed as part of national biotech competitiveness, with direct implications for biotech valuation, financing windows, and regulatory strategy."
+    },
+    {
+      "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+      "date": "2026-07-04",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+      "category": "商業分析系列",
+      "tags": [
+        "BD",
+        "臨床數據",
+        "生技投資",
+        "FDA",
+        "HHS",
+        "臨床試驗",
+        "新藥開發"
+      ],
+      "summary": "2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。"
+    },
+    {
       "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
       "date": "2026-07-03",
       "language": "en",
@@ -719,36 +754,6 @@
         "製藥巨頭"
       ],
       "summary": "今年 ADA，也就是美國糖尿病學會年會，減重藥戰場又一次被點燃。"
-    },
-    {
-      "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
-      "date": "2026-06-21",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
-      "category": "商業分析系列",
-      "tags": [
-        "Merck",
-        "Keytruda",
-        "PD-1 VEGF",
-        "MK-2010",
-        "Oncology",
-        "Bispecific antibodies"
-      ],
-      "summary": "Merck's more serious positioning of MK-2010 suggests that PD-1/VEGF bispecifics are moving from a watch item to a strategic option in the post-Keytruda oncology landscape."
-    },
-    {
-      "title": "默沙東 對 PD-1／VEGF 雙抗改口：Keytruda 王座還在，但下一代免疫底盤已經逼近",
-      "date": "2026-06-21",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda.html",
-      "category": "商業分析系列",
-      "tags": [
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "在全球腫瘤藥市場裡，很少有一家公司比 Merck（默沙東）更懂 PD-1。"
     }
   ],
   "do_not_use_as": [
