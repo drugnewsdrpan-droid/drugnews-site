@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 04 Jul 2026 05:23:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 04:43:05 GMT</lastBuildDate>
+    <item>
+      <title>半年併購 1,340 億美元：Big Pharma 到底在搶什麼？</title>
+      <link>https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html</guid>
+      <pubDate>Sun, 05 Jul 2026 04:10:13 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma/cover.png" alt="半年併購 1,340 億美元：Big Pharma 到底在搶什麼？ 專題封面"></p><p>2026 年才過一半，全球製藥業的併購節奏已經快到讓人有點恍神。</p>]]></description>
+    </item>
     <item>
       <title>美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了</title>
       <link>https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Sun, 14 Jun 2026 00:54:00 GMT</pubDate>
       <category>商業分析系列</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/revolution-medicines/cover.svg" alt="Revolution Medicines 神話：會研發還不夠，會融資才撐得過新藥長跑 專題封面"></p><p>2026 年，全球最受矚目的 Biotech 之一，毫無疑問是 Revolution Medicines。這家公司站在一個極難、也極誘人的位置：RAS-addicted cancers。</p>]]></description>
-    </item>
-    <item>
-      <title>AI製藥下半場：讓藥活下來</title>
-      <link>https://drugnews.com.tw/articles/2026-06-13-dcard-261654701.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-13-dcard-261654701.html</guid>
-      <pubDate>Sat, 13 Jun 2026 01:24:16 GMT</pubDate>
-      <category>商業分析系列</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/dcard-261654701/cover-ai-drug-survival.png" alt="AI製藥下半場：讓藥活下來 專題封面"></p><p>AI 醫藥上半場比生成分子，下半場比成藥存活率。安宏真正值得被看見的，不是單純曝光，而是用 AI + PROTAC（蛋白質降解技術）、實驗閉環與人體轉譯，嘗試形成高資本效率的 clinical asset engine（臨床資產生成引擎）。</p>]]></description>
     </item>
   </channel>
 </rss>

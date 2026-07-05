@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-04T05:23:52.973Z",
+  "generated_at": "2026-07-05T04:43:05.935Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -362,6 +362,41 @@
   ],
   "latest_canonical_articles": [
     {
+      "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+      "date": "2026-07-05",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+      "category": "商業分析系列",
+      "tags": [
+        "BD",
+        "併購",
+        "臨床數據",
+        "生技投資",
+        "製藥巨頭",
+        "新藥開發",
+        "生技估值"
+      ],
+      "summary": "2026 年才過一半，全球製藥業的併購節奏已經快到讓人有點恍神。"
+    },
+    {
+      "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+      "date": "2026-07-05",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+      "category": "商業分析系列",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "BD licensing",
+        "biotech M&A",
+        "biotech valuation",
+        "clinical data"
+      ],
+      "summary": "In the first half of 2026, Big Pharma's biotech M&A pace has accelerated sharply. The real question is not why large drugmakers have cash, but why they are suddenly less willing to wait."
+    },
+    {
       "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
       "date": "2026-07-04",
       "language": "en",
@@ -722,38 +757,6 @@
         "製藥巨頭"
       ],
       "summary": "過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…"
-    },
-    {
-      "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-      "date": "2026-06-22",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-      "category": "商業分析系列",
-      "tags": [
-        "Obesity medicine",
-        "GLP-1",
-        "Eli Lilly",
-        "Novo Nordisk",
-        "Pfizer",
-        "Roche",
-        "AstraZeneca",
-        "Regeneron"
-      ],
-      "summary": "Lilly and Novo Nordisk dominate the first phase of the obesity-drug market. The next investment question is who can become the third major player by solving the problems GLP-1 leaders have not fully solved."
-    },
-    {
-      "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
-      "date": "2026-06-22",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
-      "category": "商業分析系列",
-      "tags": [
-        "GLP-1",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "今年 ADA，也就是美國糖尿病學會年會，減重藥戰場又一次被點燃。"
     }
   ],
   "do_not_use_as": [

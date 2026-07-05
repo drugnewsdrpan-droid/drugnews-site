@@ -13,7 +13,7 @@ if (!inputPath) {
 
 const PUBLIC_IMPORT_BLOCKLIST = [
   ["使用者", /使用者/u],
-  ["內部", /內部/u],
+  ["內部工作語", /內部(?:素材|備註|線索|草稿|使用|文件|流程|PM|SOP|排程|溝通|操作)/u],
   ["Prompt", /prompt/i],
   ["【圖片插入】", /【圖片插入/u],
   ["待最後確認", /待最後確認/u],
@@ -157,6 +157,7 @@ function normalizeLines(text, title) {
   const sliced = titleIndex >= 0 ? raw.slice(titleIndex + 1) : raw;
   const out = [];
   for (const line of sliced) {
+    if (/^所有心情/.test(line) || /^\d+\s*次分享$/.test(line)) break;
     if (/^查看洞察報告$/.test(line) || /^以藥時事的身分留言$/.test(line)) break;
     if (isAdminOrChromeLine(line, title)) continue;
     const cleanLine = line.replace(/\s*顯示較少\s*$/u, "").trim();

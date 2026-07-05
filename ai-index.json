@@ -99,6 +99,61 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+      "date": "2026-07-05",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "BD",
+        "併購",
+        "臨床數據",
+        "生技投資",
+        "製藥巨頭",
+        "新藥開發",
+        "生技估值"
+      ],
+      "summary": "2026 年才過一半，全球製藥業的併購節奏已經快到讓人有點恍神。",
+      "image": "https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-05-big-pharma-134b-biotech-ma-en.html"
+      }
+    },
+    {
+      "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+      "date": "2026-07-05",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "BD licensing",
+        "biotech M&A",
+        "biotech valuation",
+        "clinical data",
+        "drug development",
+        "capital markets"
+      ],
+      "summary": "In the first half of 2026, Big Pharma's biotech M&A pace has accelerated sharply. The real question is not why large drugmakers have cash, but why they are suddenly less willing to wait.",
+      "image": "https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-05-big-pharma-134b-biotech-ma.html"
+      }
+    },
+    {
       "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
       "date": "2026-07-04",
       "language": "en",
@@ -1310,58 +1365,6 @@
       "summary": "逸達不是純夢想股，也還不是完全兌現的獲利股。本文拆 CAMCEVI 已上市現金流、3 個月劑型與海外 CPP 增量、FP-045 與 FP-025 選擇權及 SOTP 估值。",
       "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a28c7e7fd89780001e3daca-source.png",
       "is_accessible_for_free": false,
-      "is_external": true,
-      "alternate_language_versions": {}
-    },
-    {
-      "title": "管線估值：為還沒上市的未來定價，BD 最難也最值錢的一課",
-      "date": "2026-06-11",
-      "language": "zh-Hant",
-      "url": "https://vocus.cc/article/6a2a30f7fd89780001162667",
-      "canonical_url": "https://vocus.cc/article/6a2a30f7fd89780001162667",
-      "source": "方格子",
-      "access": "付費文章",
-      "category": "付費深度商業分析文章系列",
-      "tags": [
-        "商業",
-        "FDA",
-        "投資人",
-        "生物",
-        "美股",
-        "醫師",
-        "長期投資",
-        "投資理財",
-        "治療",
-        "醫藥"
-      ],
-      "summary": "一個新藥，從實驗室走到臨床，再從臨床走到上市，燒錢速度常常快得嚇人。 但如果成功，回報也可能大到改變一家公司的命運。 這就是生技製藥產業最迷人的地方，也是最殘酷的地方：在產品真正賣錢以前，市場就必須先替它定價。問題是，這些資產很多時候還沒有營收，甚至還沒有大規模臨床資料，卻已經要進行授權、併購、",
-      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a2a30f7fd89780001162667-source.png",
-      "is_accessible_for_free": false,
-      "is_external": true,
-      "alternate_language_versions": {}
-    },
-    {
-      "title": "生技公司估值模型如何計算",
-      "date": "2026-06-11",
-      "language": "zh-Hant",
-      "url": "https://vocus.cc/article/6a2a2b68fd89780001147e9e",
-      "canonical_url": "https://vocus.cc/article/6a2a2b68fd89780001147e9e",
-      "source": "方格子",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "生技估值",
-        "rNPV",
-        "SOTP",
-        "YouTube",
-        "投資入門",
-        "資本市場",
-        "公司研究",
-        "商業判斷"
-      ],
-      "summary": "方格子同步收錄藥時事 YouTube 影片入口，介紹生技公司估值模型如何計算，適合想建立 rNPV、SOTP 與管線估值基礎的讀者。",
-      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a2a2b68fd89780001147e9e-cover.svg",
-      "is_accessible_for_free": true,
       "is_external": true,
       "alternate_language_versions": {}
     }

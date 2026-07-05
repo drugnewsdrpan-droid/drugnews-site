@@ -73,6 +73,14 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-05｜半年併購 1,340 億美元：Big Pharma 到底在搶什麼？
+  URL: https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html
+  Topics: BD, 併購, 臨床數據, 生技投資, 製藥巨頭
+  Summary: 2026 年才過一半，全球製藥業的併購節奏已經快到讓人有點恍神。
+- 2026-07-05｜Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?
+  URL: https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html
+  Topics: Business Analysis, Free Article, biotech business analysis, Taiwan biotech, BD licensing
+  Summary: In the first half of 2026, Big Pharma's biotech M&A pace has accelerated sharply. The real question is not why large drugmakers have cash, but why they are suddenly less willing to wait.
 - 2026-07-04｜Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition
   URL: https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html
   Topics: HHS, FDA, Operation TrialBlazer, clinical trial reform, biotech business analysis
@@ -121,14 +129,6 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
   URL: https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html
   Topics: 臨床數據, 生技投資
   Summary: 台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。
-- 2026-06-28｜The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer
-  URL: https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html
-  Topics: FDA, Biotech rebound, Regulatory risk, Rare disease, Gene therapy
-  Summary: Biotech’s recent rebound is not only a risk-on trade. FDA review signals, rare-disease flexibility, mRNA vaccine momentum, and renewed pharma M&A are changing how investors price clinical-stage assets.
-- 2026-06-28｜FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起
-  URL: https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html
-  Topics: 疫苗, 感染症, BD, 臨床數據, 生技投資
-  Summary: 代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。
 
 ## Key Site Sections
 

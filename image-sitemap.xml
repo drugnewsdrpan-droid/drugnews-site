@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma/cover.png</image:loc>
+      <image:caption>半年併購 1,340 億美元：Big Pharma 到底在搶什麼？ 專題封面</image:caption>
+      <image:title>半年併購 1,340 億美元：Big Pharma 到底在搶什麼？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma/facebook-01.png</image:loc>
+      <image:caption>Facebook 原圖：半年併購 1,340 億美元：Big Pharma 到底在搶什麼？（圖 1）</image:caption>
+      <image:title>半年併購 1,340 億美元：Big Pharma 到底在搶什麼？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma/facebook-02.png</image:loc>
+      <image:caption>Facebook 原圖：半年併購 1,340 億美元：Big Pharma 到底在搶什麼？（圖 2）</image:caption>
+      <image:title>半年併購 1,340 億美元：Big Pharma 到底在搶什麼？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma/facebook-03.png</image:loc>
+      <image:caption>Facebook 原圖：半年併購 1,340 億美元：Big Pharma 到底在搶什麼？（圖 3）</image:caption>
+      <image:title>半年併購 1,340 億美元：Big Pharma 到底在搶什麼？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma/facebook-04.png</image:loc>
+      <image:caption>Facebook 原圖：半年併購 1,340 億美元：Big Pharma 到底在搶什麼？（圖 4）</image:caption>
+      <image:title>半年併購 1,340 億美元：Big Pharma 到底在搶什麼？</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma-en/cover.png</image:loc>
+      <image:caption>Premium editorial cover for Big Pharma biotech M&amp;A and late-stage pipeline acquisition analysis</image:caption>
+      <image:title>Big Pharma&apos;s $134 Billion M&amp;A Rush: What Is It Really Buying?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma-en/figure-01.png</image:loc>
+      <image:caption>Big Pharma buys validated time by acquiring de-risked biotech assets</image:caption>
+      <image:title>Big Pharma&apos;s $134 Billion M&amp;A Rush: What Is It Really Buying?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma-en/figure-02.png</image:loc>
+      <image:caption>Big Pharma now pays for de-risking rather than platform stories alone</image:caption>
+      <image:title>Big Pharma&apos;s $134 Billion M&amp;A Rush: What Is It Really Buying?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma-en/figure-03.png</image:loc>
+      <image:caption>Biotech M&amp;A capital is concentrated in de-risked late-stage assets</image:caption>
+      <image:title>Big Pharma&apos;s $134 Billion M&amp;A Rush: What Is It Really Buying?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma-en/figure-04.png</image:loc>
+      <image:caption>Acquisitions compress time but do not erase clinical biology risk</image:caption>
+      <image:title>Big Pharma&apos;s $134 Billion M&amp;A Rush: What Is It Really Buying?</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials-en/cover.png</image:loc>

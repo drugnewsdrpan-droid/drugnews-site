@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-04T05:23:52.949Z",
+  "generated_at": "2026-07-05T04:43:05.885Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -113,9 +113,134 @@
   },
   "buckets": [
     {
-      "name": "AI 製藥與新技術",
+      "name": "BD / 授權與併購",
       "count": 6,
       "articles": [
+        {
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "BD",
+            "併購",
+            "臨床數據",
+            "生技投資",
+            "製藥巨頭",
+            "新藥開發",
+            "生技估值"
+          ],
+          "summary": "2026 年才過一半，全球製藥業的併購節奏已經快到讓人有點恍神。"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "BD",
+            "臨床數據",
+            "生技投資",
+            "FDA",
+            "HHS",
+            "臨床試驗",
+            "新藥開發"
+          ],
+          "summary": "2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。"
+        },
+        {
+          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "BD",
+            "臨床數據",
+            "生技投資",
+            "製藥巨頭"
+          ],
+          "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。"
+        },
+        {
+          "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "BD",
+            "臨床數據",
+            "生技投資"
+          ],
+          "summary": "2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。"
+        },
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "FDA",
+            "Biotech rebound",
+            "Regulatory risk",
+            "Rare disease",
+            "Gene therapy",
+            "mRNA vaccines",
+            "M&A",
+            "Capital markets"
+          ],
+          "summary": "Biotech’s recent rebound is not only a risk-on trade. FDA review signals, rare-disease flexibility, mRNA vaccine momentum, and renewed pharma M&A are changing how investors price clinical-stage assets."
+        },
+        {
+          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "疫苗",
+            "感染症",
+            "BD",
+            "臨床數據",
+            "生技投資"
+          ],
+          "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。"
+        }
+      ]
+    },
+    {
+      "name": "AI 製藥與新技術",
+      "count": 7,
+      "articles": [
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "Business Analysis",
+            "Free Article",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "BD licensing",
+            "biotech M&A",
+            "biotech valuation",
+            "clinical data"
+          ],
+          "summary": "In the first half of 2026, Big Pharma's biotech M&A pace has accelerated sharply. The real question is not why large drugmakers have cash, but why they are suddenly less willing to wait."
+        },
         {
           "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
           "date": "2026-07-04",
@@ -219,94 +344,6 @@
             "製藥巨頭"
           ],
           "summary": "一家臨床階段 Biotech，沒有藥品銷售收入，卻在一年內做出 12 億美元級別的淨利。"
-        }
-      ]
-    },
-    {
-      "name": "BD / 授權與併購",
-      "count": 5,
-      "articles": [
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "BD",
-            "臨床數據",
-            "生技投資",
-            "FDA",
-            "HHS",
-            "臨床試驗",
-            "新藥開發"
-          ],
-          "summary": "2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。"
-        },
-        {
-          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "BD",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。"
-        },
-        {
-          "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "BD",
-            "臨床數據",
-            "生技投資"
-          ],
-          "summary": "2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "FDA",
-            "Biotech rebound",
-            "Regulatory risk",
-            "Rare disease",
-            "Gene therapy",
-            "mRNA vaccines",
-            "M&A",
-            "Capital markets"
-          ],
-          "summary": "Biotech’s recent rebound is not only a risk-on trade. FDA review signals, rare-disease flexibility, mRNA vaccine momentum, and renewed pharma M&A are changing how investors price clinical-stage assets."
-        },
-        {
-          "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "疫苗",
-            "感染症",
-            "BD",
-            "臨床數據",
-            "生技投資"
-          ],
-          "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。"
         }
       ]
     },
@@ -537,7 +574,7 @@
     },
     {
       "name": "GLP-1 與代謝賽道",
-      "count": 6,
+      "count": 4,
       "articles": [
         {
           "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
@@ -606,42 +643,6 @@
             "製藥巨頭"
           ],
           "summary": "今年 ADA，也就是美國糖尿病學會年會，減重藥戰場又一次被點燃。"
-        },
-        {
-          "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "GLP-1",
-            "肥胖藥",
-            "Ecnoglutide",
-            "Wegovy",
-            "輝瑞",
-            "諾和諾德",
-            "臨床數據",
-            "生技投資"
-          ],
-          "summary": "ADA 2026 剛落幕，GLP-1 賽道又被一組頭對頭資料點燃。Ecnoglutide 在 20 週減重數字上勝出，但真正的競爭不只看短期體重下降，而是長期健康結局、耐受性、產品矩陣與全球商業化。"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "GLP-1",
-            "Ecnoglutide",
-            "Wegovy",
-            "Pfizer",
-            "Novo Nordisk",
-            "Obesity medicine"
-          ],
-          "summary": "Ecnoglutide's head-to-head weight-loss data versus semaglutide are interesting, but the GLP-1 race will be decided by long-term outcomes, tolerability, labels, supply, and global evidence."
         }
       ]
     },
