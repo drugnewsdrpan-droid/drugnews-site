@@ -73,6 +73,14 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-06｜通用型 CAR-T 的 2026 從低谷回暖
+  URL: https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html
+  Topics: 臨床數據, 生技投資, 細胞治療, CAR-T, 異體細胞治療
+  Summary: 邏輯很簡單：傳統自體 CAR-T 需要取出患者自己的 T 細胞，送到工廠改造、擴增、檢驗，再回輸到患者體內。療效可以很強，但等待時間長、成本高、製程複雜，病情進展太快或 T 細胞品質太差的患者，常常等不到治療。
+- 2026-07-06｜Off-the-Shelf CAR-T in 2026: Rebounding From the Trough
+  URL: https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html
+  Topics: Business Analysis, Free Article, biotech business analysis, Taiwan biotech, cell therapy
+  Summary: Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table.
 - 2026-07-05｜半年併購 1,340 億美元：Big Pharma 到底在搶什麼？
   URL: https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html
   Topics: BD, 併購, 臨床數據, 生技投資, 製藥巨頭
@@ -121,14 +129,6 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
   URL: https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html
   Topics: 疫苗, BD, 臨床數據, 生技投資, 製藥巨頭
   Summary: 2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。
-- 2026-06-29｜The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors
-  URL: https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html
-  Topics: Biotech IPO, Parabilis Medicines, Helicons, Zolucatetide, Wnt beta-catenin
-  Summary: Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up.
-- 2026-06-29｜美股迎來史上最大 Biotech IPO
-  URL: https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html
-  Topics: 臨床數據, 生技投資
-  Summary: 台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。
 
 ## Key Site Sections
 

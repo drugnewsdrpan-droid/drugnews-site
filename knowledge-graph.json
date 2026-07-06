@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-05T04:43:05.935Z",
+  "generated_at": "2026-07-06T05:05:04.474Z",
   "site": {
     "@type": [
       "Organization",
@@ -109,6 +109,51 @@
     "brand_profile": "https://drugnews.com.tw/brand-profile.json"
   },
   "latest_articles": [
+    {
+      "title": "通用型 CAR-T 的 2026 從低谷回暖",
+      "date": "2026-07-06",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "臨床數據",
+        "生技投資",
+        "細胞治療",
+        "CAR-T",
+        "異體細胞治療",
+        "自體免疫疾病",
+        "台灣生技"
+      ],
+      "summary": "邏輯很簡單：傳統自體 CAR-T 需要取出患者自己的 T 細胞，送到工廠改造、擴增、檢驗，再回輸到患者體內。療效可以很強，但等待時間長、成本高、製程複雜，病情進展太快或 T 細胞品質太差的患者，常常等不到治療。",
+      "alternate_language_versions": {
+        "en": "2026-07-06-universal-car-t-2026-rebound-en.html"
+      }
+    },
+    {
+      "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+      "date": "2026-07-06",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "cell therapy",
+        "CAR-T",
+        "allogeneic cell therapy",
+        "clinical data",
+        "drug development",
+        "autoimmune disease"
+      ],
+      "summary": "Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-06-universal-car-t-2026-rebound.html"
+      }
+    },
     {
       "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
       "date": "2026-07-05",
@@ -692,44 +737,6 @@
       "alternate_language_versions": {
         "en": "2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html"
       }
-    },
-    {
-      "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-      "date": "2026-06-20",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "Enlivex",
-        "RAIN token",
-        "Biotech treasury",
-        "Crypto",
-        "Capital markets"
-      ],
-      "summary": "Enlivex's paper gain from RAIN tokens shows how fragile biotech business models can create unusual treasury stories when operating revenue is absent and capital markets are difficult.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-20-enlivex-rain-token-biotech-treasury.html"
-      }
-    },
-    {
-      "title": "【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】",
-      "date": "2026-06-20",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "AI",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "一家臨床階段 Biotech，沒有藥品銷售收入，卻在一年內做出 12 億美元級別的淨利。",
-      "alternate_language_versions": {
-        "en": "2026-06-20-enlivex-rain-token-biotech-treasury-en.html"
-      }
     }
   ],
   "entities": [
@@ -774,7 +781,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 38,
+      "mentions": 37,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -812,9 +819,15 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 29,
-      "latest_date": "2026-07-05",
+      "mentions": 30,
+      "latest_date": "2026-07-06",
       "latest_articles": [
+        {
+          "title": "通用型 CAR-T 的 2026 從低谷回暖",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
           "date": "2026-07-05",
@@ -837,12 +850,6 @@
           "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
           "date": "2026-07-02",
           "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
           "language": "zh-Hant"
         }
       ]
@@ -888,9 +895,15 @@
     {
       "name": "臨床數據",
       "type": "market_topic",
-      "mentions": 20,
-      "latest_date": "2026-07-05",
+      "mentions": 21,
+      "latest_date": "2026-07-06",
       "latest_articles": [
+        {
+          "title": "通用型 CAR-T 的 2026 從低谷回暖",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
           "date": "2026-07-05",
@@ -914,12 +927,6 @@
           "date": "2026-07-02",
           "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -927,8 +934,14 @@
       "name": "Business Analysis",
       "type": "topic",
       "mentions": 18,
-      "latest_date": "2026-07-05",
+      "latest_date": "2026-07-06",
       "latest_articles": [
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
         {
           "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
           "date": "2026-07-05",
@@ -951,12 +964,6 @@
           "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
           "date": "2026-05-24",
           "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Global Biotech Wave: Understanding the Main Phase and Scientific Pricing of the Five-Trillion Weight-Loss Market",
-          "date": "2026-05-23",
-          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend-en.html",
           "language": "en"
         }
       ]
@@ -1000,82 +1007,6 @@
       ]
     },
     {
-      "name": "GLP-1",
-      "type": "biotech_concept_or_target",
-      "mentions": 16,
-      "latest_date": "2026-06-26",
-      "latest_articles": [
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        },
-        {
-          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Capital markets",
-      "type": "market_topic",
-      "mentions": 15,
-      "latest_date": "2026-06-29",
-      "latest_articles": [
-        {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Regulatory risk",
       "type": "topic",
       "mentions": 15,
@@ -1114,9 +1045,85 @@
       ]
     },
     {
-      "name": "Big Pharma",
+      "name": "GLP-1",
+      "type": "biotech_concept_or_target",
+      "mentions": 15,
+      "latest_date": "2026-06-26",
+      "latest_articles": [
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
+        },
+        {
+          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Capital markets",
       "type": "market_topic",
       "mentions": 14,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
+          "date": "2026-06-14",
+          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Big Pharma",
+      "type": "market_topic",
+      "mentions": 13,
       "latest_date": "2026-07-05",
       "latest_articles": [
         {
@@ -1141,44 +1148,6 @@
           "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
           "date": "2026-06-12",
           "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Obesity medicine",
-      "type": "topic",
-      "mentions": 13,
-      "latest_date": "2026-06-22",
-      "latest_articles": [
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
           "language": "en"
         },
         {
@@ -1228,40 +1197,40 @@
       ]
     },
     {
-      "name": "CNS",
+      "name": "Obesity medicine",
       "type": "topic",
       "mentions": 12,
-      "latest_date": "2026-06-02",
+      "latest_date": "2026-06-22",
       "latest_articles": [
         {
-          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
           "language": "en"
         },
         {
-          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
+          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
           "language": "en"
         },
         {
-          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
+          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
           "language": "en"
         },
         {
-          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
-          "language": "zh-Hant"
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
+          "date": "2026-06-04",
+          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1269,8 +1238,20 @@
       "name": "CAR-T",
       "type": "biotech_concept_or_target",
       "mentions": 11,
-      "latest_date": "2026-06-15",
+      "latest_date": "2026-07-06",
       "latest_articles": [
+        {
+          "title": "通用型 CAR-T 的 2026 從低谷回暖",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
         {
           "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
           "date": "2026-06-15",
@@ -1287,18 +1268,6 @@
           "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
           "date": "2026-06-08",
           "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
-          "language": "en"
-        },
-        {
-          "title": "HIV 新藥很好賺呀...吉利德財報披露",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
           "language": "zh-Hant"
         }
       ]
@@ -1380,6 +1349,44 @@
       ]
     },
     {
+      "name": "CNS",
+      "type": "topic",
+      "mentions": 10,
+      "latest_date": "2026-06-02",
+      "latest_articles": [
+        {
+          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
+          "date": "2026-05-24",
+          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
+          "language": "en"
+        },
+        {
+          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
+          "date": "2026-05-24",
+          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
+          "language": "en"
+        },
+        {
+          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "AI drug discovery",
       "type": "topic",
       "mentions": 9,
@@ -1420,7 +1427,7 @@
     {
       "name": "ADC",
       "type": "biotech_concept_or_target",
-      "mentions": 9,
+      "mentions": 8,
       "latest_date": "2026-06-15",
       "latest_articles": [
         {
@@ -1494,9 +1501,47 @@
       ]
     },
     {
+      "name": "Taiwan biotech",
+      "type": "topic",
+      "mentions": 6,
+      "latest_date": "2026-07-06",
+      "latest_articles": [
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Targeted therapy",
       "type": "topic",
-      "mentions": 7,
+      "mentions": 6,
       "latest_date": "2026-05-19",
       "latest_articles": [
         {
@@ -1532,11 +1577,17 @@
       ]
     },
     {
-      "name": "Taiwan biotech",
-      "type": "topic",
+      "name": "clinical data",
+      "type": "market_topic",
       "mentions": 5,
-      "latest_date": "2026-07-05",
+      "latest_date": "2026-07-06",
       "latest_articles": [
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
         {
           "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
           "date": "2026-07-05",
@@ -1553,6 +1604,38 @@
           "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
+          "date": "2026-07-01",
+          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "drug development",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-07-06",
+      "latest_articles": [
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
           "language": "en"
         },
         {
@@ -1722,11 +1805,17 @@
       ]
     },
     {
-      "name": "clinical data",
-      "type": "market_topic",
+      "name": "biotech business analysis",
+      "type": "topic",
       "mentions": 4,
-      "latest_date": "2026-07-05",
+      "latest_date": "2026-07-06",
       "latest_articles": [
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
         {
           "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
           "date": "2026-07-05",
@@ -1744,21 +1833,21 @@
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
           "language": "en"
-        },
-        {
-          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
-          "language": "en"
         }
       ]
     },
     {
-      "name": "drug development",
-      "type": "topic",
+      "name": "biotech valuation",
+      "type": "market_topic",
       "mentions": 4,
-      "latest_date": "2026-07-05",
+      "latest_date": "2026-07-06",
       "latest_articles": [
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
         {
           "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
           "date": "2026-07-05",
@@ -1772,15 +1861,9 @@
           "language": "en"
         },
         {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
           "language": "en"
         }
       ]
@@ -1883,58 +1966,6 @@
     },
     {
       "name": "BD licensing",
-      "type": "market_topic",
-      "mentions": 3,
-      "latest_date": "2026-07-05",
-      "latest_articles": [
-        {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "biotech business analysis",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-07-05",
-      "latest_articles": [
-        {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "biotech valuation",
       "type": "market_topic",
       "mentions": 3,
       "latest_date": "2026-07-05",
@@ -2190,6 +2221,66 @@
           "date": "2026-05-12",
           "url": "https://drugnews.com.tw/articles/2026-05-12-jnj-autoimmune-twins-stelara-transition.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "細胞治療",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-06",
+      "latest_articles": [
+        {
+          "title": "通用型 CAR-T 的 2026 從低谷回暖",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "autoimmune disease",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-06",
+      "latest_articles": [
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Free Article",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-06",
+      "latest_articles": [
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2872,69 +2963,46 @@
           "language": "en"
         }
       ]
-    },
-    {
-      "name": "肥胖治療",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-06-04",
-      "latest_articles": [
-        {
-          "title": "Retatrutide 殺進減重手術級別：禮來三重受體藥物，把肥胖治療推向新戰場",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "減重藥物不只看體重了：下一代療法正在瞄準這些方向",
-          "date": "2026-05-29",
-          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "罕病藥",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-05-31",
-      "latest_articles": [
-        {
-          "title": "⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "臨床試驗作假，FDA 撤市風暴！",
-          "date": "2026-05-09",
-          "url": "https://drugnews.com.tw/articles/2026-05-09-clinical-trial-fraud-fda-withdrawal.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "資料完整性",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-05-31",
-      "latest_articles": [
-        {
-          "title": "⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "臨床試驗作假，FDA 撤市風暴！",
-          "date": "2026-05-09",
-          "url": "https://drugnews.com.tw/articles/2026-05-09-clinical-trial-fraud-fda-withdrawal.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "通用型 CAR-T 的 2026 從低谷回暖",
+      "date": "2026-07-06",
+      "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+      "language": "zh-Hant",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "臨床數據",
+        "生技投資",
+        "細胞治療",
+        "CAR-T",
+        "異體細胞治療",
+        "自體免疫疾病",
+        "台灣生技"
+      ],
+      "summary": "邏輯很簡單：傳統自體 CAR-T 需要取出患者自己的 T 細胞，送到工廠改造、擴增、檢驗，再回輸到患者體內。療效可以很強，但等待時間長、成本高、製程複雜，病情進展太快或 T 細胞品質太差的患者，常常等不到治療。"
+    },
+    {
+      "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+      "date": "2026-07-06",
+      "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+      "language": "en",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "cell therapy",
+        "CAR-T",
+        "allogeneic cell therapy",
+        "clinical data"
+      ],
+      "summary": "Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table."
+    },
     {
       "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
       "date": "2026-07-05",
@@ -3417,38 +3485,6 @@
         "製藥巨頭"
       ],
       "summary": "一家臨床階段 Biotech，沒有藥品銷售收入，卻在一年內做出 12 億美元級別的淨利。"
-    },
-    {
-      "title": "GSK's US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases",
-      "date": "2026-06-19",
-      "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html",
-      "language": "en",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "GSK",
-        "Nuvalent",
-        "Lung cancer",
-        "Precision oncology",
-        "Resistance",
-        "Brain metastases"
-      ],
-      "summary": "GSK is not merely buying three lung-cancer pipelines. It is buying a next-generation precision-oncology strategy around resistance, CNS activity, and cleaner kinase inhibition."
-    },
-    {
-      "title": "GSK 用 106 億美元買下 Nuvalent：真正買的不是三條肺癌管線，而是「耐藥與腦轉移」的下一代解法",
-      "date": "2026-06-19",
-      "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html",
-      "language": "zh-Hant",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "AI",
-        "BD",
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "2026 年 6 月 9 日，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元，較 Nuvalent 前一交易日收盤價溢價約 40%。這是 GSK 近年最大型的腫瘤併購之一，也讓它瞬間補上肺癌精準治療版圖中最缺的一塊。"
     }
   ]
 }

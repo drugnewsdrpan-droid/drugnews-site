@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound/cover.png</image:loc>
+      <image:caption>通用型 CAR-T 與細胞治療普及化的高級科學封面</image:caption>
+      <image:title>通用型 CAR-T 的 2026 從低谷回暖</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound/facebook-01.png</image:loc>
+      <image:caption>Facebook 原圖：通用型 CAR-T 的 2026 從低谷回暖（圖 1）</image:caption>
+      <image:title>通用型 CAR-T 的 2026 從低谷回暖</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound/facebook-02.png</image:loc>
+      <image:caption>Facebook 原圖：通用型 CAR-T 的 2026 從低谷回暖（圖 2）</image:caption>
+      <image:title>通用型 CAR-T 的 2026 從低谷回暖</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound/facebook-03.png</image:loc>
+      <image:caption>Facebook 原圖：通用型 CAR-T 的 2026 從低谷回暖（圖 3）</image:caption>
+      <image:title>通用型 CAR-T 的 2026 從低谷回暖</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound/facebook-04.png</image:loc>
+      <image:caption>Facebook 原圖：通用型 CAR-T 的 2026 從低谷回暖（圖 4）</image:caption>
+      <image:title>通用型 CAR-T 的 2026 從低谷回暖</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound-en/cover.png</image:loc>
+      <image:caption>Premium editorial cover for the 2026 rebound of off-the-shelf allogeneic CAR-T therapies</image:caption>
+      <image:title>Off-the-Shelf CAR-T in 2026: Rebounding From the Trough</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound-en/figure-01.png</image:loc>
+      <image:caption>Off-the-shelf CAR-T workflow</image:caption>
+      <image:title>Off-the-Shelf CAR-T in 2026: Rebounding From the Trough</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound-en/figure-02.png</image:loc>
+      <image:caption>Vispa-cel clinical signal</image:caption>
+      <image:title>Off-the-Shelf CAR-T in 2026: Rebounding From the Trough</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound-en/figure-03.png</image:loc>
+      <image:caption>Beyond last-line rescue</image:caption>
+      <image:title>Off-the-Shelf CAR-T in 2026: Rebounding From the Trough</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound-en/figure-04.png</image:loc>
+      <image:caption>The next cell therapy race</image:caption>
+      <image:title>Off-the-Shelf CAR-T in 2026: Rebounding From the Trough</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma/cover.png</image:loc>

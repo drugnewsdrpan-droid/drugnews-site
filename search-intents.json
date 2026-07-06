@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-05T04:43:05.935Z",
+  "generated_at": "2026-07-06T05:05:04.474Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -361,6 +361,41 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "通用型 CAR-T 的 2026 從低谷回暖",
+      "date": "2026-07-06",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+      "category": "商業分析系列",
+      "tags": [
+        "臨床數據",
+        "生技投資",
+        "細胞治療",
+        "CAR-T",
+        "異體細胞治療",
+        "自體免疫疾病",
+        "台灣生技"
+      ],
+      "summary": "邏輯很簡單：傳統自體 CAR-T 需要取出患者自己的 T 細胞，送到工廠改造、擴增、檢驗，再回輸到患者體內。療效可以很強，但等待時間長、成本高、製程複雜，病情進展太快或 T 細胞品質太差的患者，常常等不到治療。"
+    },
+    {
+      "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+      "date": "2026-07-06",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+      "category": "商業分析系列",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "cell therapy",
+        "CAR-T",
+        "allogeneic cell therapy",
+        "clinical data"
+      ],
+      "summary": "Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table."
+    },
     {
       "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
       "date": "2026-07-05",
@@ -725,38 +760,6 @@
         "製藥巨頭"
       ],
       "summary": "當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。"
-    },
-    {
-      "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-      "date": "2026-06-24",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-      "category": "商業分析系列",
-      "tags": [
-        "AI drug discovery",
-        "zasocitinib",
-        "Takeda",
-        "Sotyktu",
-        "TYK2",
-        "psoriasis",
-        "PASI 100",
-        "Schrodinger"
-      ],
-      "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test."
-    },
-    {
-      "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
-      "date": "2026-06-24",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
-      "category": "商業分析系列",
-      "tags": [
-        "AI",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…"
     }
   ],
   "do_not_use_as": [
