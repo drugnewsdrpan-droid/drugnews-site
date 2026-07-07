@@ -1,4 +1,7 @@
 import { spawnSync } from "node:child_process";
+import { writeFileSync } from "node:fs";
+
+const CHROME_FILE = process.env.DRUGNEWS_REGULAR_CHROME_FILE || "/private/tmp/drugnews-regular-chrome-readiness.json";
 
 function runAppleScript(lines) {
   const args = lines.flatMap((line) => ["-e", line]);
@@ -11,7 +14,14 @@ function runAppleScript(lines) {
 }
 
 function json(status, detail = {}) {
-  console.log(JSON.stringify({ status, generated_at: new Date().toISOString(), ...detail }, null, 2));
+  const payload = { status, generated_at: new Date().toISOString(), ...detail };
+  const text = `${JSON.stringify(payload, null, 2)}\n`;
+  try {
+    writeFileSync(CHROME_FILE, text, "utf8");
+  } catch {
+    // Readiness should still print to stdout even if the temp status file cannot be written.
+  }
+  console.log(text.trimEnd());
 }
 
 function runChromeAppleScript(action) {
