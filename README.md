@@ -32,7 +32,7 @@ The daily entrypoint now standardizes the no-API fallback Codex has used success
 If the user's normal Chrome profile is already logged in, the daily entrypoint first runs a regular-Chrome readiness check. For Codex to read the actual page body from normal Chrome, Chrome must have this one-time local setting enabled:
 
 ```text
-Chrome menu bar -> View -> Developer -> Allow JavaScript from Apple Events
+Chrome menu bar -> View / 顯示方式 -> Developer / 開發人員選項 -> Allow JavaScript from Apple Events / 允許 Apple 事件的 JavaScript
 ```
 
 Without that setting, Codex can see the logged-in page on screen but cannot reliably extract the full FB / Dcard article DOM or image URLs. The dedicated social-capture Chrome remains the lowest-friction automation path because it is launched with a fixed remote-debugging endpoint.

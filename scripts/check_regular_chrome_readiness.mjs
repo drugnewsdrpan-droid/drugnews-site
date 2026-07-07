@@ -82,7 +82,7 @@ if (!probe.ok) {
   json("needs_chrome_permission", {
     reason: disabled ? "allow_javascript_from_apple_events_disabled" : "regular_chrome_dom_probe_failed",
     window_count: windowCount,
-    next_step: "Chrome 選單列 -> 檢視 -> 開發人員 -> 允許 Apple 事件的 JavaScript。開啟後，Codex 才能從你平常已登入的 Chrome 直接讀 FB / Dcard 貼文正文與圖片。",
+    next_step: "Chrome 選單列 -> 顯示方式 / View -> 開發人員選項 / Developer -> 允許 Apple 事件的 JavaScript / Allow JavaScript from Apple Events。開啟後，Codex 才能從你平常已登入的 Chrome 直接讀 FB / Dcard 貼文正文與圖片；若該選項是灰色不可點，改用社群擷取 Chrome 或提供貼文全文＋圖片。",
     detail: message
   });
   process.exit(0);

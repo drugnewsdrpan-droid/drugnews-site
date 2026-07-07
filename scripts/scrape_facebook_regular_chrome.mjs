@@ -24,7 +24,7 @@ async function executeChromeJs(jsCode) {
       const detail = String(result.stderr || result.stdout || "").trim();
       const disabled = /AppleScript.*JavaScript|執行 JavaScript 的功能已關閉|Apple 事件的 JavaScript|Allow JavaScript from Apple Events|功能已關閉/i.test(detail);
       throw new Error(disabled
-        ? `Regular Chrome cannot be read because "Allow JavaScript from Apple Events" is disabled. Enable it once in Chrome: View -> Developer -> Allow JavaScript from Apple Events.\n${detail}`
+        ? `Regular Chrome cannot be read because "Allow JavaScript from Apple Events" is disabled. Enable it once in Chrome: View / 顯示方式 -> Developer / 開發人員選項 -> Allow JavaScript from Apple Events / 允許 Apple 事件的 JavaScript. If the item is disabled, use the social-capture Chrome fallback or provide the full post text plus images.\n${detail}`
         : `Regular Chrome scrape failed.\n${detail}`);
     }
     return String(result.stdout || "").trim();
