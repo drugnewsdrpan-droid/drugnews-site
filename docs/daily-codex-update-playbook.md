@@ -133,6 +133,7 @@ npm run chrome:social
 
 ## 2. 判讀輸出
 
+- 最新官網文章只能從「已公開」的 FB / Dcard 免費長文判斷；方格子付費文只做摘要與導流，不上首頁頭版。不要把本機草稿資料夾、三平台發文包、排程稿、圖片 prompt、CMoney checklist 或未公開素材當成已發布文章。
 - `imported_posts` 有文章：檢查新文章頁、圖片、手機版首屏、英文版與搜尋索引，確認後提交部署。
 - `needs_capture` 且 diagnostics 沒候選：先跑 `npm run chrome:social`，確認專用 Chrome 已登入 FB / Dcard，再重跑一次抓取。
 - FB 若只抓到「官網上線公告」或課程/活動文，不可匯入成文章；繼續找長文候選，最多兩輪。
@@ -143,6 +144,8 @@ npm run chrome:social
 
 每次有新文章都檢查：
 
+- 匯入前若正文或暫存 JSON 命中 `使用者`、`內部`、`Prompt`、`【圖片插入】`、`待最後確認`、`QA`、`送出前`、`raw markdown`、code fence、`mp.weixin.qq.com`、三平台包章節、排程備註或 CMoney checklist，停止匯入並退回 PM；官網只放公開長文、公開圖片、引用來源與免責聲明。
+- 不可整包搬 A/B/C/D/E/F/G 發文包。來源摘要、排程備註、Dcard 插圖位置、CMoney checklist、圖片 prompt、QA 區塊都不能進官網。
 - 正文是否保留原本分段。
 - 圖片是否依文章邏輯插入，不只放封面。
 - 首頁頭版是否使用免費文章，不用付費文章。

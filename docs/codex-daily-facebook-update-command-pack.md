@@ -24,7 +24,7 @@ Do not scan the whole repository unless one of those files points to a specific 
    `npm run chrome:social`
    The first run opens Facebook and Dcard in a reusable profile. Log in there once.
 3. If the dedicated Chrome profile is blocked by a Facebook or Dcard login shell, try the normal logged-in Chrome window once, opening the newest permalink directly.
-4. Find the newest published Drugnews post on each platform.
+4. Find the newest published Drugnews post on each platform. The source of truth is the public Facebook / Dcard post, not local draft folders, three-platform writing packs, image prompt folders, schedule notes, or unpublished PM files.
 5. Compare its title/date/permalink with the newest article in:
    - `index.html`
    - `articles/index.html`
@@ -33,6 +33,7 @@ Do not scan the whole repository unless one of those files points to a specific 
 6. If the newest social post is already on the site, report that and stop.
 7. If the newest social post is not on the site, import it.
 8. If Facebook or Dcard blocks or hides the post body after the dedicated Chrome route and the normal logged-in Chrome route, stop and ask only for the latest post URL or the pasted post body plus images.
+9. Vocus paid articles are not homepage lead stories. Use summaries and routing only; do not move paid full text into the official site.
 
 Successful fallback pattern from 2026-06-28:
 
@@ -77,6 +78,8 @@ For Dcard captures, use:
 ```
 
 Preserve Dcard paragraph breaks exactly. Dcard original images should stay in the article body in the same logical order as the post.
+
+Before import, scan the title, article text, summary, and notes for non-public production markers: `使用者`, `內部`, `Prompt`, `【圖片插入】`, `待最後確認`, `QA`, `送出前`, `raw markdown`, code fences, `mp.weixin.qq.com`, A/B/C/D/E/F/G package headings, scheduling notes, and CMoney checklist language. The Facebook and Dcard importers enforce this gate. A hit means the payload is a writing pack or internal draft, not a public article; stop and route it back to PM.
 
 ## Fast Commands
 
@@ -147,15 +150,15 @@ Inspect `/private/tmp/drugnews-facebook-latest.json.diagnostics.json` before imp
 
 - Keep Facebook/Dcard original images inside the article body.
 - Do not use long social infographics as the homepage cover.
-- Make a clean landscape editorial cover for `cover_image`.
-- For images with important text, do not rely on AI-rendered text. Use either original images or programmatic English labels.
+- Make a clean premium landscape editorial cover for `cover_image`. Prefer no headline text on the cover so homepage cards, OG previews, and mobile crops cannot cut words off.
+- For the newest English daily long-form article, the preferred standard is four GPT-generated 16:9 English figures with short English text baked into the image, inspected manually for spelling, margins, and layout. If generated text is unreliable, fall back to a no-text background plus exact programmatic English labels.
 - Check that every public image exists under `assets/articles/<slug>/`.
 
 ## English Article Rules
 
 - The English article must not be a shortened summary of the Chinese article. Preserve the original argument sequence, H2 sections, examples, risk layers, references, and disclaimer.
 - Write in natural professional English for global biotech, pharma, investor-relations, and capital-market readers. Avoid machine-translation phrasing.
-- The newest English long-form article should have at least four English article figures. Use GPT-generated BioRender-style 16:9 figures that match the article logic, then inspect each image for spelling, layout, and readability.
+- The newest English long-form article should have at least four English article figures. Use GPT-generated BioRender-style 16:9 figures with English labels baked into the image when quality is good, then inspect each image for spelling, layout, and readability.
 - Do not reuse Chinese Facebook/Dcard images as English figures. If the original image is useful, recreate the concept in English. If GPT text quality is poor, generate the background without text and add labels programmatically.
 - Insert English figures into the corresponding sections; do not append them as a disconnected gallery.
 - Use the best English figure as `cover_image` so homepage, OG image, RSS, and search previews are English-native.

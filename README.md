@@ -12,6 +12,12 @@ For the daily Drugnews social update, start with:
 
 This is the fastest Codex entrypoint. It runs the PM health check, confirms the dedicated social-capture Chrome, tries Facebook and Dcard capture/import, rebuilds the site if fresh posts are found, runs reference and reader-path QA, and leaves status files in `/private/tmp`.
 
+### Public Source And Import Gate
+
+The newest website article must be verified from a public Drugnews source before import. Use Facebook and Dcard public long-form posts first; use Vocus only for paid-column summaries and routing. Do not infer "today's article" from local draft folders, three-platform writing packs, filenames, screenshots, or unpublished planning notes. If Facebook or Dcard is blocked by a login wall, app shell, Cloudflare, or missing permalink, report the capture blocker and ask for the latest public post URL or pasted full text plus images instead of guessing.
+
+Before any Facebook or Dcard payload is imported, the importers scan the public article payload for production markers such as `使用者`, `內部`, `Prompt`, `【圖片插入】`, `待最後確認`, `QA`, `送出前`, `raw markdown`, code fences, `mp.weixin.qq.com`, three-platform package sections, scheduling notes, and CMoney checklist language. A match blocks the import and routes the item back to PM. Only the public long-form article, public images, references, and disclaimer belong on the official website.
+
 If the newest social post URL is known, pass it directly to the same daily entrypoint:
 
 ```bash
