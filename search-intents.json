@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-06T05:05:04.474Z",
+  "generated_at": "2026-07-07T01:09:48.386Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -361,6 +361,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+      "date": "2026-07-07",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+      "category": "商業分析系列",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "ADC",
+        "PD-1/VEGF",
+        "bispecific antibody",
+        "oncology"
+      ],
+      "summary": "After a Phase III setback for sigvotatug vedotin, Pfizer's $43 billion Seagen ADC bet is increasingly tied to whether 3SBio's PD-1/VEGF bispecific can become a new immuno-oncology combination backbone."
+    },
+    {
+      "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+      "date": "2026-07-07",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+      "category": "商業分析系列",
+      "tags": [
+        "ADC",
+        "PD-1/VEGF",
+        "雙特異性抗體",
+        "BD",
+        "臨床數據",
+        "生技投資",
+        "腫瘤藥物",
+        "製藥巨頭"
+      ],
+      "summary": "sigvotatug vedotin Phase III 單藥失利後，輝瑞的 430 億美元 Seagen ADC 賭局正轉向 3SBio PD-1/VEGF 雙抗與聯合療法底座。"
+    },
     {
       "title": "通用型 CAR-T 的 2026 從低谷回暖",
       "date": "2026-07-06",
@@ -726,40 +762,6 @@
         "製藥巨頭"
       ],
       "summary": "它不像急性感染，用藥幾天或幾週就結束。類風濕性關節炎、乾癬、乾癬性關節炎、發炎性腸道疾病、氣喘、異位性皮膚炎，這些疾病往往跟著患者一輩子。"
-    },
-    {
-      "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
-      "date": "2026-06-25",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
-      "category": "商業分析系列",
-      "tags": [
-        "Business Analysis",
-        "Protect Biotech",
-        "Companion Animal Medicine",
-        "Pet Precision Medicine",
-        "Platform Company",
-        "Biotech Investing",
-        "Roche",
-        "Animal Health"
-      ],
-      "summary": "As companion animals age and owners become more willing to pay for serious-disease care, the next major question in pet medicine is whether a platform company can connect drugs, diagnostics, veterinary clinics, regulation, manufacturing, channels, and data into one defensible system."
-    },
-    {
-      "title": "邁向「寵物醫療界羅氏」的寶泰生醫",
-      "date": "2026-06-25",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html",
-      "category": "商業分析系列",
-      "tags": [
-        "寶泰生醫",
-        "寵物醫療",
-        "羅氏",
-        "平台型公司",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。"
     }
   ],
   "do_not_use_as": [

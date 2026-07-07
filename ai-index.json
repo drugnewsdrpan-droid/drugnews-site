@@ -99,6 +99,63 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+      "date": "2026-07-07",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "ADC",
+        "PD-1/VEGF",
+        "bispecific antibody",
+        "oncology",
+        "BD licensing",
+        "clinical data"
+      ],
+      "summary": "After a Phase III setback for sigvotatug vedotin, Pfizer's $43 billion Seagen ADC bet is increasingly tied to whether 3SBio's PD-1/VEGF bispecific can become a new immuno-oncology combination backbone.",
+      "image": "https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html"
+      }
+    },
+    {
+      "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+      "date": "2026-07-07",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "ADC",
+        "PD-1/VEGF",
+        "雙特異性抗體",
+        "BD",
+        "臨床數據",
+        "生技投資",
+        "腫瘤藥物",
+        "製藥巨頭",
+        "台灣生技"
+      ],
+      "summary": "sigvotatug vedotin Phase III 單藥失利後，輝瑞的 430 億美元 Seagen ADC 賭局正轉向 3SBio PD-1/VEGF 雙抗與聯合療法底座。",
+      "image": "https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html"
+      }
+    },
+    {
       "title": "通用型 CAR-T 的 2026 從低谷回暖",
       "date": "2026-07-06",
       "language": "zh-Hant",
@@ -1321,55 +1378,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-06-13-dcard-261654701.html"
-      }
-    },
-    {
-      "title": "AI製藥下半場：讓藥活下來",
-      "date": "2026-06-13",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-13-dcard-261654701.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-13-dcard-261654701.html",
-      "source": "Dcard",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "AI",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "AI 醫藥上半場比生成分子，下半場比成藥存活率。安宏真正值得被看見的，不是單純曝光，而是用 AI + PROTAC（蛋白質降解技術）、實驗閉環與人體轉譯，嘗試形成高資本效率的 clinical asset engine（臨床資產生成引擎）。",
-      "image": "https://drugnews.com.tw/assets/articles/dcard-261654701/cover-ai-drug-survival.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-13-anhorn-ai-drug-development-en.html"
-      }
-    },
-    {
-      "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-      "date": "2026-06-12",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-      "source": "Website",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "AI drug discovery",
-        "Clinical pipelines",
-        "Biotech investing",
-        "Business development",
-        "Drug development",
-        "Big Pharma"
-      ],
-      "summary": "AI drug discovery has moved beyond the concept stage and into clinical validation. This article reviews Zasocitinib, GB-0895, Zovegalisib, and REC-4881 to examine how different AI strategies are being converted into real drug assets.",
-      "image": "https://drugnews.com.tw/assets/articles/ai-drug-discovery-pipeline-20260612-en/cover-ai-drug-discovery.jpg",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-12-ai-drug-discovery-pipeline-20260612.html"
       }
     }
   ]

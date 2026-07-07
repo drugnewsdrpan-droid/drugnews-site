@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf-en/cover.png</image:loc>
+      <image:caption>Premium editorial cover for Pfizer&apos;s ADC and PD-1/VEGF bispecific oncology strategy</image:caption>
+      <image:title>Pfizer&apos;s ADC Bet: Why 3SBio&apos;s PD-1/VEGF Bispecific Has Become the New Pivot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf-en/figure-01.png</image:loc>
+      <image:caption>Pfizer oncology reset</image:caption>
+      <image:title>Pfizer&apos;s ADC Bet: Why 3SBio&apos;s PD-1/VEGF Bispecific Has Become the New Pivot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf-en/figure-02.png</image:loc>
+      <image:caption>Why PD-1/VEGF matters</image:caption>
+      <image:title>Pfizer&apos;s ADC Bet: Why 3SBio&apos;s PD-1/VEGF Bispecific Has Become the New Pivot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf-en/figure-03.png</image:loc>
+      <image:caption>Combination engine</image:caption>
+      <image:title>Pfizer&apos;s ADC Bet: Why 3SBio&apos;s PD-1/VEGF Bispecific Has Become the New Pivot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf-en/figure-04.png</image:loc>
+      <image:caption>Taiwan investor lens</image:caption>
+      <image:title>Pfizer&apos;s ADC Bet: Why 3SBio&apos;s PD-1/VEGF Bispecific Has Become the New Pivot</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf/cover.png</image:loc>
+      <image:caption>輝瑞 ADC 與 PD-1/VEGF 雙抗聯合療法策略專題封面</image:caption>
+      <image:title>【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf/facebook-01.png</image:loc>
+      <image:caption>Facebook 原圖：【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】（圖 1）</image:caption>
+      <image:title>【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf/facebook-02.png</image:loc>
+      <image:caption>Facebook 原圖：【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】（圖 2）</image:caption>
+      <image:title>【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf/facebook-03.png</image:loc>
+      <image:caption>Facebook 原圖：【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】（圖 3）</image:caption>
+      <image:title>【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf/facebook-04.png</image:loc>
+      <image:caption>Facebook 原圖：【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】（圖 4）</image:caption>
+      <image:title>【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound/cover.png</image:loc>

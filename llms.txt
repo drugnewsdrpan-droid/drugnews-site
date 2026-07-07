@@ -73,6 +73,14 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-07｜Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot
+  URL: https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html
+  Topics: Business Analysis, Free Article, biotech business analysis, Taiwan biotech, ADC
+  Summary: After a Phase III setback for sigvotatug vedotin, Pfizer's $43 billion Seagen ADC bet is increasingly tied to whether 3SBio's PD-1/VEGF bispecific can become a new immuno-oncology combination backbone.
+- 2026-07-07｜【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】
+  URL: https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html
+  Topics: ADC, PD-1/VEGF, 雙特異性抗體, BD, 臨床數據
+  Summary: sigvotatug vedotin Phase III 單藥失利後，輝瑞的 430 億美元 Seagen ADC 賭局正轉向 3SBio PD-1/VEGF 雙抗與聯合療法底座。
 - 2026-07-06｜通用型 CAR-T 的 2026 從低谷回暖
   URL: https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html
   Topics: 臨床數據, 生技投資, 細胞治療, CAR-T, 異體細胞治療
@@ -121,14 +129,6 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
   URL: https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html
   Topics: ADHD, centanafadine, Otsuka, 臨床數據, 神經科學
   Summary: Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。
-- 2026-06-30｜GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy
-  URL: https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html
-  Topics: GSK, Nuvalent, Oncology, Lung cancer, ROS1
-  Summary: GSK's $10.6 billion all-cash acquisition of Nuvalent is more than a late-stage lung-cancer pipeline deal. It is a strategic attempt to rebuild oncology, buy time before major revenue pressure, and regain a seat at the precision-oncology table.
-- 2026-06-30｜GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌
-  URL: https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html
-  Topics: 疫苗, BD, 臨床數據, 生技投資, 製藥巨頭
-  Summary: 2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。
 
 ## Key Site Sections
 
