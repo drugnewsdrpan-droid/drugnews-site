@@ -201,6 +201,18 @@ function checkpointVerdict(status, pm) {
   return "本輪沒有新文章需要匯入，網站健康狀態可交付檢查；下一步聚焦內容成長、搜尋曝光與下一篇文章同步。";
 }
 
+function facebookDiagnosticsLine(fbCandidate, latest, platformState, pm) {
+  if (fbCandidate) {
+    return `可見候選「${fbCandidate.title}」，${fbCandidate.images} 張圖，正文只露出 ${fbCandidate.textLength} 字；原因：${fbCandidate.reasons.join(" / ")}`;
+  }
+  const fbCheck = (pm?.checks || []).find((check) => check.name === "facebook_capture_ready");
+  const hasCapture = /candidate/i.test(fbCheck?.detail || "") || platformState?.facebook === "capture_ready";
+  if (hasCapture && latest?.title) {
+    return `目前沒有待匯入的新 FB 文章；官網最新已同步至 ${latest.date || "最新"}｜${latest.title}`;
+  }
+  return "沒有可見長文候選";
+}
+
 async function main() {
   const status = await readJson(STATUS_FILE, {});
   const pm = await readJson(PM_FILE, {});
@@ -239,7 +251,7 @@ ${scorecard.deductions.length ? `\n扣分原因：\n${scorecard.deductions.join(
 
 ## 平台抓取診斷
 
-- Facebook：${fbCandidate ? `可見候選「${fbCandidate.title}」，${fbCandidate.images} 張圖，正文只露出 ${fbCandidate.textLength} 字；原因：${fbCandidate.reasons.join(" / ")}` : "沒有可見長文候選"}
+- Facebook：${facebookDiagnosticsLine(fbCandidate, latest, platformState, pm)}
 - Dcard：${dcard.url || "未解析頁面"}；文章 DOM：${dcard.articleCount}；可見連結：${dcard.links}；${dcard.humanVerification ? "目前要求真人安全驗證" : dcard.appShell ? "目前是登入 / App 外殼" : "未偵測到登入外殼"}
 - 平常 Chrome：${chrome.line}
 
