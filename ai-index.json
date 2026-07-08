@@ -99,6 +99,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+      "date": "2026-07-08",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "GLP-1",
+        "dorzagliatin",
+        "glucokinase activator",
+        "GKA",
+        "drug development",
+        "metabolic disease"
+      ],
+      "summary": "GLP-1 competition is moving from peak weight loss toward long-term use, tolerability, rebound control, and combination design. Dorzagliatin matters not as a GLP-1 replacement, but as a possible metabolic base for the next phase of chronic therapy.",
+      "image": "https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html"
+      }
+    },
+    {
+      "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
+      "date": "2026-07-08",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "GLP-1",
+        "dorzagliatin",
+        "多格列艾汀",
+        "glucokinase activator",
+        "GKA",
+        "代謝疾病",
+        "糖尿病",
+        "MASH",
+        "臨床數據",
+        "慢病管理"
+      ],
+      "summary": "GLP-1 競爭進入長期維持與聯用下半場，dorzagliatin 的價值不在取代減重藥，而是可能成為代謝治療的可持續底座。",
+      "image": "https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html"
+      }
+    },
+    {
       "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
       "date": "2026-07-07",
       "language": "en",
@@ -1331,53 +1389,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-06-14-revolution-medicines.html"
-      }
-    },
-    {
-      "title": "Revolution Medicines 神話：會研發還不夠，會融資才撐得過新藥長跑",
-      "date": "2026-06-14",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines.html",
-      "source": "Dcard",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "2026 年，全球最受矚目的 Biotech 之一，毫無疑問是 Revolution Medicines。這家公司站在一個極難、也極誘人的位置：RAS-addicted cancers。",
-      "image": "https://drugnews.com.tw/assets/articles/revolution-medicines/cover.svg",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-14-revolution-medicines-en.html"
-      }
-    },
-    {
-      "title": "The Next Phase of AI Drug Development: Making Molecules Survive as Drugs",
-      "date": "2026-06-13",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-13-anhorn-ai-drug-development-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-13-anhorn-ai-drug-development-en.html",
-      "source": "Website",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "AI Drug Development",
-        "AnHorn Medicines",
-        "AI+PROTAC",
-        "AIMCADD",
-        "NVIDIA",
-        "Clinical Asset Engine",
-        "Biotech"
-      ],
-      "summary": "AI drug development is moving from molecular generation to clinical survival. AnHorn Medicines shows how AI+PROTAC, experimental feedback, and human translation may form a Taiwan-born clinical-asset engine.",
-      "image": "https://drugnews.com.tw/assets/articles/anhorn-ai-drug-development-en/cover-ai-drug-survival.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-13-dcard-261654701.html"
       }
     }
   ]

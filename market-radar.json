@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-07T01:09:48.358Z",
+  "generated_at": "2026-07-08T01:40:46.467Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -113,8 +113,105 @@
   },
   "buckets": [
     {
+      "name": "GLP-1 與代謝賽道",
+      "count": 5,
+      "articles": [
+        {
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "Business Analysis",
+            "Free Article",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "GLP-1",
+            "dorzagliatin",
+            "glucokinase activator",
+            "GKA"
+          ],
+          "summary": "GLP-1 competition is moving from peak weight loss toward long-term use, tolerability, rebound control, and combination design. Dorzagliatin matters not as a GLP-1 replacement, but as a possible metabolic base for the next phase of chronic therapy."
+        },
+        {
+          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "GLP-1",
+            "dorzagliatin",
+            "多格列艾汀",
+            "glucokinase activator",
+            "GKA",
+            "代謝疾病",
+            "糖尿病",
+            "MASH"
+          ],
+          "summary": "GLP-1 競爭進入長期維持與聯用下半場，dorzagliatin 的價值不在取代減重藥，而是可能成為代謝治療的可持續底座。"
+        },
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "GLP-1",
+            "tirzepatide",
+            "Zepbound",
+            "Taltz",
+            "Omvoh",
+            "immunometabolism",
+            "autoimmune disease",
+            "psoriasis"
+          ],
+          "summary": "Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases."
+        },
+        {
+          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "GLP-1",
+            "臨床數據",
+            "生技投資",
+            "製藥巨頭"
+          ],
+          "summary": "它不像急性感染，用藥幾天或幾週就結束。類風濕性關節炎、乾癬、乾癬性關節炎、發炎性腸道疾病、氣喘、異位性皮膚炎，這些疾病往往跟著患者一輩子。"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "Obesity medicine",
+            "GLP-1",
+            "Eli Lilly",
+            "Novo Nordisk",
+            "Pfizer",
+            "Roche",
+            "AstraZeneca",
+            "Regeneron"
+          ],
+          "summary": "Lilly and Novo Nordisk dominate the first phase of the obesity-drug market. The next investment question is who can become the third major player by solving the problems GLP-1 leaders have not fully solved."
+        }
+      ]
+    },
+    {
       "name": "腫瘤精準治療",
-      "count": 9,
+      "count": 8,
       "articles": [
         {
           "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
@@ -263,21 +360,6 @@
             "BD"
           ],
           "summary": "胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。"
-        },
-        {
-          "title": "默沙東 對 PD-1／VEGF 雙抗改口：Keytruda 王座還在，但下一代免疫底盤已經逼近",
-          "date": "2026-06-21",
-          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "BD",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "在全球腫瘤藥市場裡，很少有一家公司比 Merck（默沙東）更懂 PD-1。"
         }
       ]
     },
@@ -580,80 +662,6 @@
             "Capital markets"
           ],
           "summary": "Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up."
-        }
-      ]
-    },
-    {
-      "name": "GLP-1 與代謝賽道",
-      "count": 4,
-      "articles": [
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "GLP-1",
-            "tirzepatide",
-            "Zepbound",
-            "Taltz",
-            "Omvoh",
-            "immunometabolism",
-            "autoimmune disease",
-            "psoriasis"
-          ],
-          "summary": "Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases."
-        },
-        {
-          "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "GLP-1",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "它不像急性感染，用藥幾天或幾週就結束。類風濕性關節炎、乾癬、乾癬性關節炎、發炎性腸道疾病、氣喘、異位性皮膚炎，這些疾病往往跟著患者一輩子。"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "Obesity medicine",
-            "GLP-1",
-            "Eli Lilly",
-            "Novo Nordisk",
-            "Pfizer",
-            "Roche",
-            "AstraZeneca",
-            "Regeneron"
-          ],
-          "summary": "Lilly and Novo Nordisk dominate the first phase of the obesity-drug market. The next investment question is who can become the third major player by solving the problems GLP-1 leaders have not fully solved."
-        },
-        {
-          "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "GLP-1",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "今年 ADA，也就是美國糖尿病學會年會，減重藥戰場又一次被點燃。"
         }
       ]
     },

@@ -73,6 +73,14 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-08｜GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last
+  URL: https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html
+  Topics: Business Analysis, Free Article, biotech business analysis, Taiwan biotech, GLP-1
+  Summary: GLP-1 competition is moving from peak weight loss toward long-term use, tolerability, rebound control, and combination design. Dorzagliatin matters not as a GLP-1 replacement, but as a possible metabolic base for the next phase of chronic therapy.
+- 2026-07-08｜GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住
+  URL: https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html
+  Topics: GLP-1, dorzagliatin, 多格列艾汀, glucokinase activator, GKA
+  Summary: GLP-1 競爭進入長期維持與聯用下半場，dorzagliatin 的價值不在取代減重藥，而是可能成為代謝治療的可持續底座。
 - 2026-07-07｜Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot
   URL: https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html
   Topics: Business Analysis, Free Article, biotech business analysis, Taiwan biotech, ADC
@@ -121,14 +129,6 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
   URL: https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html
   Topics: BD, 臨床數據, 生技投資
   Summary: 2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。
-- 2026-07-01｜Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology
-  URL: https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html
-  Topics: ADHD, centanafadine, Otsuka, clinical data, neuroscience
-  Summary: Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention.
-- 2026-07-01｜摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳
-  URL: https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html
-  Topics: ADHD, centanafadine, Otsuka, 臨床數據, 神經科學
-  Summary: Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。
 
 ## Key Site Sections
 

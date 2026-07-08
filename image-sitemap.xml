@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base-en/cover.png</image:loc>
+      <image:caption>Premium editorial cover for GLP-1, dorzagliatin, and sustainable metabolic therapy</image:caption>
+      <image:title>GLP-1&apos;s Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base-en/figure-01.png</image:loc>
+      <image:caption>Figure 1 | GLP-1&apos;s second half is about durability, tolerability, dose pressure, and rebound risk</image:caption>
+      <image:title>GLP-1&apos;s Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base-en/figure-02.png</image:loc>
+      <image:caption>Figure 2 | Dorzagliatin is framed as a glucose-sensor reset through glucokinase biology</image:caption>
+      <image:title>GLP-1&apos;s Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | Dorzagliatin plus GLP-1 is a combination-design question, not a simple add-on slogan</image:caption>
+      <image:title>GLP-1&apos;s Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base-en/figure-04.png</image:loc>
+      <image:caption>Figure 4 | Metabolic drug development is shifting toward mechanism combinations across MASH, T2D, lipids, and uric acid</image:caption>
+      <image:title>GLP-1&apos;s Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base/cover.png</image:loc>
+      <image:caption>GLP-1、dorzagliatin 與長期代謝治療的高階生技商業分析封面</image:caption>
+      <image:title>GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base/facebook-01.png</image:loc>
+      <image:caption>Facebook 原圖：GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住（圖 1）</image:caption>
+      <image:title>GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base/facebook-02.png</image:loc>
+      <image:caption>Facebook 原圖：GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住（圖 2）</image:caption>
+      <image:title>GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base/facebook-03.png</image:loc>
+      <image:caption>Facebook 原圖：GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住（圖 3）</image:caption>
+      <image:title>GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base/facebook-04.png</image:loc>
+      <image:caption>Facebook 原圖：GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住（圖 4）</image:caption>
+      <image:title>GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf-en/cover.png</image:loc>

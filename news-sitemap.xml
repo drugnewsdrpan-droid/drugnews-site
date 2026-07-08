@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-08T01:10:35.000Z</news:publication_date>
+      <news:title>GLP-1&apos;s Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-08T01:10:35.000Z</news:publication_date>
+      <news:title>GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html</loc>
     <news:news>
       <news:publication>
@@ -42,28 +64,6 @@
       </news:publication>
       <news:publication_date>2026-07-06T04:26:18.000Z</news:publication_date>
       <news:title>Off-the-Shelf CAR-T in 2026: Rebounding From the Trough</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T04:10:13.005Z</news:publication_date>
-      <news:title>半年併購 1,340 億美元：Big Pharma 到底在搶什麼？</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05T04:10:13.000Z</news:publication_date>
-      <news:title>Big Pharma&apos;s $134 Billion M&amp;A Rush: What Is It Really Buying?</news:title>
     </news:news>
   </url>
 </urlset>
