@@ -73,6 +73,14 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-09｜Why Has Japan Struggled to Build Global-Scale Biotech Companies?
+  URL: https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html
+  Topics: Business Analysis, Free Article, biotech business analysis, Japan biotech, Taiwan biotech
+  Summary: Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits.
+- 2026-07-09｜日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態
+  URL: https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html
+  Topics: 日本生技, Biotech ecosystem, startup ecosystem, 創新藥, 大藥廠
+  Summary: 日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。
 - 2026-07-08｜GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last
   URL: https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html
   Topics: Business Analysis, Free Article, biotech business analysis, Taiwan biotech, GLP-1
@@ -121,14 +129,6 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
   URL: https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html
   Topics: BD, 臨床數據, 生技投資, 製藥巨頭
   Summary: 圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。
-- 2026-07-02｜Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find
-  URL: https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html
-  Topics: synthetic lethality, PARP, PRMT5, MTAP, RAS
-  Summary: PARP inhibitors turned synthetic lethality into a commercial reality. Two decades later, the industry is still asking why the next PARP-like blockbuster has been so difficult to reproduce.
-- 2026-07-02｜合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？
-  URL: https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html
-  Topics: BD, 臨床數據, 生技投資
-  Summary: 2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。
 
 ## Key Site Sections
 

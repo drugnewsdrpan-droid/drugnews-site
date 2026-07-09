@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-08T01:40:46.494Z",
+  "generated_at": "2026-07-09T01:58:47.305Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -361,6 +361,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+      "date": "2026-07-09",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+      "category": "商業分析系列",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Japan biotech",
+        "Taiwan biotech",
+        "startup ecosystem",
+        "drug development",
+        "clinical data"
+      ],
+      "summary": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits."
+    },
+    {
+      "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+      "date": "2026-07-09",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+      "category": "商業分析系列",
+      "tags": [
+        "日本生技",
+        "Biotech ecosystem",
+        "startup ecosystem",
+        "創新藥",
+        "大藥廠",
+        "BD",
+        "臨床數據",
+        "CMC"
+      ],
+      "summary": "日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。"
+    },
     {
       "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
       "date": "2026-07-08",
@@ -731,41 +767,6 @@
         "生技投資"
       ],
       "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。"
-    },
-    {
-      "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-      "date": "2026-06-27",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-      "category": "商業分析系列",
-      "tags": [
-        "Pancreatic Cancer",
-        "RAS",
-        "PRMT5",
-        "MAT2A",
-        "Synthetic Lethality",
-        "Clinical Data",
-        "Biotech Investing",
-        "BD"
-      ],
-      "summary": "Pancreatic cancer is moving into a new phase of precision combination therapy, as RAS inhibition meets MTAP-selective PRMT5 and MAT2A strategies."
-    },
-    {
-      "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-      "date": "2026-06-27",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-      "category": "商業分析系列",
-      "tags": [
-        "胰臟癌",
-        "RAS",
-        "PRMT5",
-        "MAT2A",
-        "臨床數據",
-        "生技投資",
-        "BD"
-      ],
-      "summary": "胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。"
     }
   ],
   "do_not_use_as": [

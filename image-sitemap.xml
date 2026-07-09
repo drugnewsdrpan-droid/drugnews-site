@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap-en/cover.png</image:loc>
+      <image:caption>Premium editorial cover for Japan biotech ecosystem and global competitiveness gap</image:caption>
+      <image:title>Why Has Japan Struggled to Build Global-Scale Biotech Companies?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap-en/figure-01.png</image:loc>
+      <image:caption>Figure 1 | Japan&apos;s biotech paradox: strong science, major pharma, large market, but few global biotech startups</image:caption>
+      <image:title>Why Has Japan Struggled to Build Global-Scale Biotech Companies?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap-en/figure-02.png</image:loc>
+      <image:caption>Figure 2 | Large pharma can become the main container for innovation, leaving the startup learning curve thin</image:caption>
+      <image:title>Why Has Japan Struggled to Build Global-Scale Biotech Companies?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | Startup scaling needs talent mobility and risk capital across clinical, CMC, regulatory, and BD execution</image:caption>
+      <image:title>Why Has Japan Struggled to Build Global-Scale Biotech Companies?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap-en/figure-04.png</image:loc>
+      <image:caption>Figure 4 | Taiwan investors should read ecosystem position rather than chasing biotech themes</image:caption>
+      <image:title>Why Has Japan Struggled to Build Global-Scale Biotech Companies?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap/cover.png</image:loc>
+      <image:caption>日本 Biotech 產業生態與全球競爭力落差的高階商業分析封面</image:caption>
+      <image:title>日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap/facebook-01.png</image:loc>
+      <image:caption>Facebook 原圖：日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態（圖 1）</image:caption>
+      <image:title>日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap/facebook-02.png</image:loc>
+      <image:caption>Facebook 原圖：日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態（圖 2）</image:caption>
+      <image:title>日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap/facebook-03.png</image:loc>
+      <image:caption>Facebook 原圖：日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態（圖 3）</image:caption>
+      <image:title>日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap/facebook-04.png</image:loc>
+      <image:caption>Facebook 原圖：日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態（圖 4）</image:caption>
+      <image:title>日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base-en/cover.png</image:loc>

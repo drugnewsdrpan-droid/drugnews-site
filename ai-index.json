@@ -99,6 +99,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+      "date": "2026-07-09",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Japan biotech",
+        "Taiwan biotech",
+        "startup ecosystem",
+        "drug development",
+        "clinical data",
+        "CMC",
+        "BD licensing"
+      ],
+      "summary": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits.",
+      "image": "https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-09-japan-biotech-ecosystem-global-gap.html"
+      }
+    },
+    {
+      "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+      "date": "2026-07-09",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "日本生技",
+        "Biotech ecosystem",
+        "startup ecosystem",
+        "創新藥",
+        "大藥廠",
+        "BD",
+        "臨床數據",
+        "CMC",
+        "資本市場",
+        "生技投資"
+      ],
+      "summary": "日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。",
+      "image": "https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-09-japan-biotech-ecosystem-global-gap-en.html"
+      }
+    },
+    {
       "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
       "date": "2026-07-08",
       "language": "en",
@@ -1337,58 +1395,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-06-15-2026-asco-car-t-en.html"
-      }
-    },
-    {
-      "title": "ASCO 2026 會後深度判讀包：哪些新藥真的改變治療格局，哪些只是會場熱度？",
-      "date": "2026-06-15",
-      "language": "zh-Hant",
-      "url": "https://vocus.cc/article/6a2a7858fd897800012dfd91",
-      "canonical_url": "https://vocus.cc/article/6a2a7858fd897800012dfd91",
-      "source": "方格子",
-      "access": "付費文章",
-      "category": "醫學大會",
-      "tags": [
-        "商業",
-        "投資人",
-        "FDA",
-        "生物",
-        "美股",
-        "醫師",
-        "長期投資",
-        "投資理財",
-        "治療",
-        "醫藥"
-      ],
-      "summary": "投資理財與醫療內容聲明：本文為醫藥產業研究、臨床資料判讀與新藥開發趨勢整理，不構成任何投資建議、買賣建議、醫療診斷或治療建議。臨床資料、監管狀態與藥品適應症可能隨正式發表、期刊全文、監管審查與各國上市核准而改變。臨床用藥請依各國核准仿單、專科醫師判斷與正式治療指引為準。 2026 年 ASCO 最",
-      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a2a7858fd897800012dfd91-source.png",
-      "is_accessible_for_free": false,
-      "is_external": true,
-      "alternate_language_versions": {}
-    },
-    {
-      "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-      "date": "2026-06-14",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-      "source": "Website",
-      "access": "免費文章",
-      "category": "商業分析系列",
-      "tags": [
-        "RAS",
-        "Revolution Medicines",
-        "Daraxonrasib",
-        "Biotech financing",
-        "Pancreatic cancer",
-        "Capital markets"
-      ],
-      "summary": "Revolution Medicines shows why next-generation biotech companies need to convert clinical momentum into capital momentum if they want to finish expensive global drug-development races.",
-      "image": "https://drugnews.com.tw/assets/articles/revolution-medicines-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-14-revolution-medicines.html"
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-08T01:40:46.494Z",
+  "generated_at": "2026-07-09T01:58:47.305Z",
   "site": {
     "@type": [
       "Organization",
@@ -109,6 +109,54 @@
     "brand_profile": "https://drugnews.com.tw/brand-profile.json"
   },
   "latest_articles": [
+    {
+      "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+      "date": "2026-07-09",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Japan biotech",
+        "Taiwan biotech",
+        "startup ecosystem",
+        "drug development",
+        "clinical data",
+        "CMC",
+        "BD licensing"
+      ],
+      "summary": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-09-japan-biotech-ecosystem-global-gap.html"
+      }
+    },
+    {
+      "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+      "date": "2026-07-09",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "日本生技",
+        "Biotech ecosystem",
+        "startup ecosystem",
+        "創新藥",
+        "大藥廠",
+        "BD",
+        "臨床數據",
+        "CMC",
+        "資本市場",
+        "生技投資"
+      ],
+      "summary": "日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。",
+      "alternate_language_versions": {
+        "en": "2026-07-09-japan-biotech-ecosystem-global-gap-en.html"
+      }
+    },
     {
       "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
       "date": "2026-07-08",
@@ -710,55 +758,13 @@
       "alternate_language_versions": {
         "en": "2026-06-25-protect-pet-medical-roche-platform-en.html"
       }
-    },
-    {
-      "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-      "date": "2026-06-24",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "AI drug discovery",
-        "zasocitinib",
-        "Takeda",
-        "Sotyktu",
-        "TYK2",
-        "psoriasis",
-        "PASI 100",
-        "Schrodinger",
-        "biotech investing",
-        "Big Pharma"
-      ],
-      "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-24-ai-zasocitinib-sotyktu.html"
-      }
-    },
-    {
-      "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
-      "date": "2026-06-24",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "AI",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…",
-      "alternate_language_versions": {
-        "en": "2026-06-24-ai-zasocitinib-sotyktu-en.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 36,
+      "mentions": 35,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -796,7 +802,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 35,
+      "mentions": 34,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -834,9 +840,15 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 32,
-      "latest_date": "2026-07-08",
+      "mentions": 33,
+      "latest_date": "2026-07-09",
       "latest_articles": [
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
           "date": "2026-07-08",
@@ -860,21 +872,21 @@
           "date": "2026-07-05",
           "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-          "language": "zh-Hant"
         }
       ]
     },
     {
       "name": "BD",
       "type": "market_topic",
-      "mentions": 25,
-      "latest_date": "2026-07-07",
+      "mentions": 26,
+      "latest_date": "2026-07-09",
       "latest_articles": [
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
           "date": "2026-07-07",
@@ -898,21 +910,21 @@
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
-          "language": "zh-Hant"
         }
       ]
     },
     {
       "name": "臨床數據",
       "type": "market_topic",
-      "mentions": 23,
-      "latest_date": "2026-07-08",
+      "mentions": 24,
+      "latest_date": "2026-07-09",
       "latest_articles": [
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
           "date": "2026-07-08",
@@ -936,12 +948,6 @@
           "date": "2026-07-05",
           "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -949,8 +955,14 @@
       "name": "Business Analysis",
       "type": "topic",
       "mentions": 19,
-      "latest_date": "2026-07-08",
+      "latest_date": "2026-07-09",
       "latest_articles": [
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
         {
           "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
           "date": "2026-07-08",
@@ -973,12 +985,6 @@
           "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
           "date": "2026-07-05",
           "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
           "language": "en"
         }
       ]
@@ -1022,6 +1028,44 @@
       ]
     },
     {
+      "name": "製藥巨頭",
+      "type": "market_topic",
+      "mentions": 15,
+      "latest_date": "2026-07-09",
+      "latest_articles": [
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "FDA",
       "type": "market_topic",
       "mentions": 15,
@@ -1055,44 +1099,6 @@
           "title": "⚠️ Tavneos 危機：20 例死亡通報、資料完整性疑雲，Amgen 罕病明星藥站上撤市邊緣",
           "date": "2026-05-31",
           "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "製藥巨頭",
-      "type": "market_topic",
-      "mentions": 14,
-      "latest_date": "2026-07-08",
-      "latest_articles": [
-        {
-          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
           "language": "zh-Hant"
         }
       ]
@@ -1326,44 +1332,6 @@
       ]
     },
     {
-      "name": "ADC",
-      "type": "biotech_concept_or_target",
-      "mentions": 10,
-      "latest_date": "2026-07-07",
-      "latest_articles": [
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-          "language": "en"
-        },
-        {
-          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "HIV 新藥很好賺呀...吉利德財報披露",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Clinical and CMC",
       "type": "biotech_concept_or_target",
       "mentions": 10,
@@ -1398,6 +1366,82 @@
           "date": "2026-05-31",
           "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Taiwan biotech",
+      "type": "topic",
+      "mentions": 9,
+      "latest_date": "2026-07-09",
+      "latest_articles": [
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "ADC",
+      "type": "biotech_concept_or_target",
+      "mentions": 9,
+      "latest_date": "2026-07-07",
+      "latest_articles": [
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
+          "language": "en"
+        },
+        {
+          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "HIV 新藥很好賺呀...吉利德財報披露",
+          "date": "2026-05-19",
+          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1478,49 +1522,17 @@
       ]
     },
     {
-      "name": "Taiwan biotech",
-      "type": "topic",
-      "mentions": 8,
-      "latest_date": "2026-07-08",
-      "latest_articles": [
-        {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "clinical data",
       "type": "market_topic",
-      "mentions": 7,
-      "latest_date": "2026-07-08",
+      "mentions": 8,
+      "latest_date": "2026-07-09",
       "latest_articles": [
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
         {
           "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
           "date": "2026-07-08",
@@ -1543,12 +1555,6 @@
           "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
           "date": "2026-07-05",
           "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
           "language": "en"
         }
       ]
@@ -1556,9 +1562,15 @@
     {
       "name": "drug development",
       "type": "topic",
-      "mentions": 7,
-      "latest_date": "2026-07-08",
+      "mentions": 8,
+      "latest_date": "2026-07-09",
       "latest_articles": [
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
         {
           "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
           "date": "2026-07-08",
@@ -1582,11 +1594,81 @@
           "date": "2026-07-05",
           "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "biotech business analysis",
+      "type": "topic",
+      "mentions": 7,
+      "latest_date": "2026-07-09",
+      "latest_articles": [
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
         },
         {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "biotech valuation",
+      "type": "market_topic",
+      "mentions": 7,
+      "latest_date": "2026-07-09",
+      "latest_articles": [
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
           "language": "en"
         }
       ]
@@ -1630,125 +1712,17 @@
       ]
     },
     {
-      "name": "biotech business analysis",
-      "type": "topic",
-      "mentions": 6,
-      "latest_date": "2026-07-08",
-      "latest_articles": [
-        {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "biotech valuation",
-      "type": "market_topic",
-      "mentions": 6,
-      "latest_date": "2026-07-08",
-      "latest_articles": [
-        {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Targeted therapy",
-      "type": "topic",
-      "mentions": 6,
-      "latest_date": "2026-05-19",
-      "latest_articles": [
-        {
-          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Where Pfizer Misjudged the Vepdegestrant Strategy",
-          "date": "2026-05-18",
-          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Johnson & Johnson Cuts Two Autologous Lymphoma CAR-T Programs",
-          "date": "2026-05-17",
-          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Daiichi Sankyo's Most Expensive Lesson: How an ADC Capacity Bet Can Backfire After a Blockbuster",
-          "date": "2026-05-17",
-          "url": "https://drugnews.com.tw/articles/2026-05-17-daiichi-sankyo-adc-capacity-lesson-en.html",
-          "language": "en"
-        },
-        {
-          "title": "How PharmaEssentia's Besremi Opens a Larger Valuation Imagination",
-          "date": "2026-05-14",
-          "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "BD licensing",
       "type": "market_topic",
-      "mentions": 5,
-      "latest_date": "2026-07-08",
+      "mentions": 6,
+      "latest_date": "2026-07-09",
       "latest_articles": [
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
         {
           "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
           "date": "2026-07-08",
@@ -1759,6 +1733,38 @@
           "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
           "date": "2026-07-07",
           "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "capital markets",
+      "type": "market_topic",
+      "mentions": 5,
+      "latest_date": "2026-07-09",
+      "latest_articles": [
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
           "language": "en"
         },
         {
@@ -1777,6 +1783,44 @@
           "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Free Article",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-07-09",
+      "latest_articles": [
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
           "language": "en"
         }
       ]
@@ -1934,65 +1978,39 @@
       ]
     },
     {
-      "name": "capital markets",
-      "type": "market_topic",
-      "mentions": 4,
-      "latest_date": "2026-07-08",
-      "latest_articles": [
-        {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Free Article",
+      "name": "Targeted therapy",
       "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-07-08",
+      "mentions": 5,
+      "latest_date": "2026-05-19",
       "latest_articles": [
         {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
+          "date": "2026-05-19",
+          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
           "language": "en"
         },
         {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "title": "Where Pfizer Misjudged the Vepdegestrant Strategy",
+          "date": "2026-05-18",
+          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake-en.html",
           "language": "en"
         },
         {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "title": "Johnson & Johnson Cuts Two Autologous Lymphoma CAR-T Programs",
+          "date": "2026-05-17",
+          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge-en.html",
           "language": "en"
         },
         {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+          "title": "Daiichi Sankyo's Most Expensive Lesson: How an ADC Capacity Bet Can Backfire After a Blockbuster",
+          "date": "2026-05-17",
+          "url": "https://drugnews.com.tw/articles/2026-05-17-daiichi-sankyo-adc-capacity-lesson-en.html",
+          "language": "en"
+        },
+        {
+          "title": "How PharmaEssentia's Besremi Opens a Larger Valuation Imagination",
+          "date": "2026-05-14",
+          "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation-en.html",
           "language": "en"
         }
       ]
@@ -2089,6 +2107,32 @@
           "title": "藥華藥 打開估值想像空間",
           "date": "2026-05-14",
           "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "CMC",
+      "type": "biotech_concept_or_target",
+      "mentions": 3,
+      "latest_date": "2026-07-09",
+      "latest_articles": [
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "從 Ruxolitinib cream 說起：外用 JAK 抑制劑，為什麼不是每個分子都能做？",
+          "date": "2026-06-05",
+          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery.html",
           "language": "zh-Hant"
         }
       ]
@@ -2271,6 +2315,26 @@
           "title": "自體免疫 雙子星 拯救 嬌生",
           "date": "2026-05-12",
           "url": "https://drugnews.com.tw/articles/2026-05-12-jnj-autoimmune-twins-stelara-transition.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "startup ecosystem",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-09",
+      "latest_articles": [
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
           "language": "zh-Hant"
         }
       ]
@@ -2974,49 +3038,47 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "Biotech",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-06-13",
-      "latest_articles": [
-        {
-          "title": "The Next Phase of AI Drug Development: Making Molecules Survive as Drugs",
-          "date": "2026-06-13",
-          "url": "https://drugnews.com.tw/articles/2026-06-13-anhorn-ai-drug-development-en.html",
-          "language": "en"
-        },
-        {
-          "title": "老靶點都很捲，但不是不能賺錢",
-          "date": "2026-06-06",
-          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "AI 製藥",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-06-12",
-      "latest_articles": [
-        {
-          "title": "盤點整理，AI藥物開發走得如何了？",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "破紀錄 AI 製藥融資來了！Google 系公司一次募 21 億美元",
-          "date": "2026-05-20",
-          "url": "https://drugnews.com.tw/articles/2026-05-20-ai-drug-discovery-google-funding.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+      "date": "2026-07-09",
+      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+      "language": "en",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Japan biotech",
+        "Taiwan biotech",
+        "startup ecosystem",
+        "drug development",
+        "clinical data"
+      ],
+      "summary": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits."
+    },
+    {
+      "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+      "date": "2026-07-09",
+      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+      "language": "zh-Hant",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "日本生技",
+        "Biotech ecosystem",
+        "startup ecosystem",
+        "創新藥",
+        "大藥廠",
+        "BD",
+        "臨床數據",
+        "CMC"
+      ],
+      "summary": "日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。"
+    },
     {
       "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
       "date": "2026-07-08",
@@ -3516,40 +3578,6 @@
         "Schrodinger"
       ],
       "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test."
-    },
-    {
-      "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
-      "date": "2026-06-24",
-      "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
-      "language": "zh-Hant",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "AI",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…"
-    },
-    {
-      "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-      "date": "2026-06-22",
-      "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-      "language": "en",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "Obesity medicine",
-        "GLP-1",
-        "Eli Lilly",
-        "Novo Nordisk",
-        "Pfizer",
-        "Roche",
-        "AstraZeneca",
-        "Regeneron"
-      ],
-      "summary": "Lilly and Novo Nordisk dominate the first phase of the obesity-drug market. The next investment question is who can become the third major player by solving the problems GLP-1 leaders have not fully solved."
     }
   ]
 }
