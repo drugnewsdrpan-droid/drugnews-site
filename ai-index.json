@@ -99,6 +99,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+      "date": "2026-07-10",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "drug development",
+        "FDA CRL",
+        "NASP",
+        "Sobi",
+        "CMC",
+        "contract manufacturing"
+      ],
+      "summary": "FDA identified no clinical efficacy or safety concerns that affected NASP's approvability. The setback centered on CMC controls and contract-manufacturing deficiencies, showing biotech investors why manufacturing credibility becomes part of asset value near launch.",
+      "image": "https://drugnews.com.tw/assets/articles/fda-nasp-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-10-fda-nasp.html"
+      }
+    },
+    {
+      "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+      "date": "2026-07-10",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "FDA",
+        "NASP",
+        "Sobi",
+        "CMC",
+        "委託製造",
+        "製造品質",
+        "難治性痛風",
+        "URAT1",
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "FDA 並未指出影響 NASP 核准可能性的臨床療效或安全性問題，真正要求補強的是 CMC 控制策略與委託製造設施缺失。這封 CRL 提醒投資人：越接近上市，製造可信度越是藥品價值的一部分。",
+      "image": "https://drugnews.com.tw/assets/articles/fda-nasp/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-10-fda-nasp-en.html"
+      }
+    },
+    {
       "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
       "date": "2026-07-09",
       "language": "en",
@@ -1344,58 +1402,6 @@
       "is_accessible_for_free": false,
       "is_external": true,
       "alternate_language_versions": {}
-    },
-    {
-      "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-      "date": "2026-06-15",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-      "source": "Website",
-      "access": "免費文章",
-      "category": "醫學大會",
-      "tags": [
-        "ASCO",
-        "Oncology",
-        "RAS",
-        "ADC",
-        "PD-1 VEGF",
-        "In vivo CAR-T"
-      ],
-      "summary": "ASCO 2026 showed that oncology is moving from single-mechanism breakthroughs toward platform combinations across RAS targeting, ADCs, PD-1/VEGF bispecifics, and in vivo CAR-T.",
-      "image": "https://drugnews.com.tw/assets/articles/2026-asco-car-t-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-15-2026-asco-car-t.html"
-      }
-    },
-    {
-      "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
-      "date": "2026-06-15",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-      "source": "Facebook",
-      "access": "免費文章",
-      "category": "醫學大會",
-      "tags": [
-        "ASCO",
-        "腫瘤治療",
-        "CAR-T",
-        "RAS",
-        "ADC",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "2026 年美國臨床腫瘤學會年會，也就是 ASCO，最該被記住的贏家，並不是任何一家藥廠，而是癌症患者。",
-      "image": "https://drugnews.com.tw/assets/articles/2026-asco-car-t/cover-generated.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-15-2026-asco-car-t-en.html"
-      }
     }
   ]
 }

@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 09 Jul 2026 01:58:47 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 02:38:26 GMT</lastBuildDate>
+    <item>
+      <title>痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度</title>
+      <link>https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html</guid>
+      <pubDate>Fri, 10 Jul 2026 01:49:00 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/fda-nasp/cover.png" alt="NASP 痛風新藥、尿酸結晶與生物製劑製造品質關卡的高階商業分析封面"></p><p>FDA 並未指出影響 NASP 核准可能性的臨床療效或安全性問題，真正要求補強的是 CMC 控制策略與委託製造設施缺失。這封 CRL 提醒投資人：越接近上市，製造可信度越是藥品價值的一部分。</p>]]></description>
+    </item>
     <item>
       <title>日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態</title>
       <link>https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Tue, 16 Jun 2026 03:00:00 GMT</pubDate>
       <category>商業分析系列</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/lilly-vaccine-acquisitions-prevention-medicine/cover-generated.png" alt="禮來用 GLP-1 現金流布局疫苗與預防醫學的專題封面"></p><p>市場現在最熟悉的禮來，是 Mounjaro、Zepbound 背後那個 GLP-1 巨頭。2026 年第一季，禮來營收達到 198 億美元，年增 56%，主要動能還是來自 Mounjaro 與 Zepbound 的放量。簡單說，禮來現在手上最強的現金流，是減重與糖尿病藥物。</p>]]></description>
-    </item>
-    <item>
-      <title>ADA 2026 會後深度判讀包：GLP-1 後半場，為什麼已經不是「誰減重比較多」？</title>
-      <link>https://vocus.cc/article/6a2d0f86fd8978000100e761</link>
-      <guid isPermaLink="true">https://vocus.cc/article/6a2d0f86fd8978000100e761</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:43 GMT</pubDate>
-      <category>醫學大會</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a2d0f86fd8978000100e761-source.png" alt="ADA 2026 會後深度判讀包：GLP-1 後半場，為什麼已經不是「誰減重比較多」？"></p><p>ADA 2026 會後深度判讀：從 retatrutide、口服 GLP-1、小分子 incretin、代謝共病與 CGM 照護，拆解 GLP-1 後半場如何從減重競賽走向代謝疾病平台。</p>]]></description>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,35 @@
 [
   {
+    "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+    "slug": "fda-nasp-en",
+    "date": "2026-07-10",
+    "publishAt": "2026-07-10T09:49:00+08:00",
+    "category": "商業分析系列",
+    "access": "免費文章",
+    "lang": "en",
+    "tags": [
+      "Business Analysis",
+      "Free Article",
+      "biotech business analysis",
+      "Taiwan biotech",
+      "drug development",
+      "FDA CRL",
+      "NASP",
+      "Sobi",
+      "CMC",
+      "contract manufacturing",
+      "manufacturing quality",
+      "uncontrolled gout",
+      "URAT1",
+      "clinical data",
+      "biotech investing"
+    ],
+    "summary": "FDA identified no clinical efficacy or safety concerns that affected NASP's approvability. The setback centered on CMC controls and contract-manufacturing deficiencies, showing biotech investors why manufacturing credibility becomes part of asset value near launch.",
+    "image": "../assets/articles/fda-nasp-en/cover.png",
+    "imageAlt": "Premium editorial cover showing NASP gout biology and a biologics manufacturing quality gate",
+    "url": "articles/2026-07-10-fda-nasp-en.html"
+  },
+  {
     "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
     "slug": "japan-biotech-ecosystem-global-gap-en",
     "date": "2026-07-09",

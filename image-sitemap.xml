@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/fda-nasp-en/cover.png</image:loc>
+      <image:caption>Premium editorial cover showing NASP gout biology and a biologics manufacturing quality gate</image:caption>
+      <image:title>Sobi&apos;s NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/fda-nasp-en/figure-01.png</image:loc>
+      <image:caption>Figure 1 | NASP combines nanoencapsulated sirolimus with pegadricase to pair immune modulation with uric acid breakdown</image:caption>
+      <image:title>Sobi&apos;s NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/fda-nasp-en/figure-02.png</image:loc>
+      <image:caption>Figure 2 | The NASP CRL separated clinical performance from CMC and contract-manufacturing execution</image:caption>
+      <image:title>Sobi&apos;s NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/fda-nasp-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | NASP reached the final regulatory mile after Phase 3, but must now remediate CMC and facility issues before resubmission</image:caption>
+      <image:title>Sobi&apos;s NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/fda-nasp-en/figure-04.png</image:loc>
+      <image:caption>Figure 4 | Gout treatment spans high-end biologics, URAT1 uricosurics, and established chronic therapies</image:caption>
+      <image:title>Sobi&apos;s NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/fda-nasp/cover.png</image:loc>
+      <image:caption>NASP 痛風新藥、尿酸結晶與生物製劑製造品質關卡的高階商業分析封面</image:caption>
+      <image:title>痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/fda-nasp/facebook-02.png</image:loc>
+      <image:caption>NASP 以奈米包封 sirolimus 搭配 pegadricase，兼顧免疫調節與尿酸分解</image:caption>
+      <image:title>痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/fda-nasp/facebook-01.png</image:loc>
+      <image:caption>NASP 的 FDA CRL 聚焦 CMC 與委託製造缺失，而非臨床療效或安全性</image:caption>
+      <image:title>痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/fda-nasp/facebook-03.png</image:loc>
+      <image:caption>NASP 從第三期臨床、BLA 審查走到 FDA CRL 的開發路徑</image:caption>
+      <image:title>痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/fda-nasp/facebook-04.png</image:loc>
+      <image:caption>台灣高尿酸與痛風用藥鏈：URAT1、尿酸生成抑制與難治性高階療法</image:caption>
+      <image:title>痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap-en/cover.png</image:loc>

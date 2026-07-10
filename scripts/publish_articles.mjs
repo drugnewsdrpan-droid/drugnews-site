@@ -1036,8 +1036,7 @@ function headerHtml(current, meta = {}) {
     <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
       ${link(hrefs.home, labels.home, "home")}
       ${link(hrefs.articles, labels.articles, "articles")}
-      ${!english ? link(hrefs.topics, labels.topics, "topics") : ""}
-      ${link(hrefs.guides, labels.guides, "guides")}
+${!english ? `      ${link(hrefs.topics, labels.topics, "topics")}\n` : ""}      ${link(hrefs.guides, labels.guides, "guides")}
       ${link(hrefs.team, labels.team, "team")}
       ${link(hrefs.subscribe, labels.subscribe, "subscribe")}
       ${link(hrefs.services, labels.services, "services")}

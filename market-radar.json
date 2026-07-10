@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-09T01:58:47.277Z",
+  "generated_at": "2026-07-10T02:38:26.713Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -117,6 +117,25 @@
       "count": 6,
       "articles": [
         {
+          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "Business Analysis",
+            "Free Article",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "drug development",
+            "FDA CRL",
+            "NASP",
+            "Sobi"
+          ],
+          "summary": "FDA identified no clinical efficacy or safety concerns that affected NASP's approvability. The setback centered on CMC controls and contract-manufacturing deficiencies, showing biotech investors why manufacturing credibility becomes part of asset value near launch."
+        },
+        {
           "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
           "date": "2026-07-09",
           "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
@@ -210,32 +229,32 @@
             "drug development"
           ],
           "summary": "Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention."
-        },
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "AI drug discovery",
-            "zasocitinib",
-            "Takeda",
-            "Sotyktu",
-            "TYK2",
-            "psoriasis",
-            "PASI 100",
-            "Schrodinger"
-          ],
-          "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test."
         }
       ]
     },
     {
       "name": "CMC / 商業化風險",
-      "count": 1,
+      "count": 2,
       "articles": [
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant",
+          "category": "商業分析系列",
+          "access": "免費文章",
+          "tags": [
+            "FDA",
+            "NASP",
+            "Sobi",
+            "CMC",
+            "委託製造",
+            "製造品質",
+            "難治性痛風",
+            "URAT1"
+          ],
+          "summary": "FDA 並未指出影響 NASP 核准可能性的臨床療效或安全性問題，真正要求補強的是 CMC 控制策略與委託製造設施缺失。這封 CRL 提醒投資人：越接近上市，製造可信度越是藥品價值的一部分。"
+        },
         {
           "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
           "date": "2026-07-09",
@@ -672,29 +691,6 @@
             "Capital markets"
           ],
           "summary": "Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up."
-        }
-      ]
-    },
-    {
-      "name": "製藥巨頭策略",
-      "count": 1,
-      "articles": [
-        {
-          "title": "邁向「寵物醫療界羅氏」的寶泰生醫",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html",
-          "language": "zh-Hant",
-          "category": "商業分析系列",
-          "access": "免費文章",
-          "tags": [
-            "寶泰生醫",
-            "寵物醫療",
-            "羅氏",
-            "平台型公司",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。"
         }
       ]
     }
