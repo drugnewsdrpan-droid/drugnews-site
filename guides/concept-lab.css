@@ -1,0 +1,124 @@
+.concept-hero h1 {
+  max-width: 940px;
+  font-size: clamp(2.8rem, 5.5vw, 5.65rem);
+  line-height: 1.02;
+}
+
+.concept-title-unit { display: inline-block; }
+
+.concept-lab .endpoint-controls {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.concept-lab .endpoint-controls button {
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  min-height: 78px;
+  font-size: 1.02rem;
+}
+
+.concept-lab .endpoint-stage {
+  min-height: 450px;
+}
+
+.concept-lab .endpoint-explanation {
+  min-height: 450px;
+}
+
+.concept-lab .endpoint-explanation > p {
+  min-height: 9.2em;
+}
+
+.lesson-body #lessonSections > section {
+  padding-top: 24px;
+  margin-top: 58px;
+  border-top: 1px solid var(--academy-line);
+  scroll-margin-top: 110px;
+}
+
+.lesson-body #lessonSections > section > p {
+  color: #304d54;
+  font-size: 1.08rem;
+  line-height: 1.92;
+}
+
+.lesson-body #lessonSections .lesson-example {
+  margin-top: 28px;
+  padding: 24px;
+  border-left: 3px solid var(--academy-copper);
+  color: #29474e;
+  background: #f0f6f5;
+  line-height: 1.72;
+}
+
+.lesson-body #lessonSections .lesson-example strong {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--academy-teal);
+}
+
+.concept-checklist {
+  margin-top: 58px !important;
+}
+
+.concept-terms {
+  padding-top: 34px !important;
+  border-top: 2px solid #123f48 !important;
+}
+
+.concept-terms > div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 28px;
+  border: 1px solid var(--academy-line);
+  background: var(--academy-line);
+}
+
+.concept-term {
+  padding: 20px;
+  background: #f7faf9;
+}
+
+.concept-term strong {
+  display: block;
+  color: var(--academy-teal);
+  font-family: var(--display);
+  font-size: 1.08rem;
+}
+
+.concept-term p {
+  margin: 7px 0 0;
+  color: #5a6f74;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.concept-source-list {
+  margin-top: 26px;
+  padding-top: 16px;
+  border-top: 1px solid var(--academy-line);
+  color: #617579;
+  font-size: 0.76rem;
+  line-height: 1.7;
+}
+
+.concept-source-list a {
+  color: var(--academy-teal);
+}
+
+@media (max-width: 900px) {
+  .concept-lab .endpoint-stage,
+  .concept-lab .endpoint-explanation { min-height: 400px; }
+  .concept-lab .endpoint-explanation > p { min-height: 0; }
+}
+
+@media (max-width: 680px) {
+  .concept-hero h1 { font-size: 2.65rem; }
+  .concept-lab .endpoint-controls { grid-template-columns: 1fr; }
+  .concept-lab .endpoint-controls button { min-height: 58px; flex-direction: row; justify-content: flex-start; padding: 0 18px; }
+  .concept-lab .endpoint-stage { min-height: 340px; }
+  .concept-lab .endpoint-explanation { min-height: 0; }
+  .concept-terms > div { grid-template-columns: 1fr; }
+}

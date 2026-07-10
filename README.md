@@ -193,6 +193,12 @@ Website covers are a brand surface, not just article decoration. New daily artic
 6. Before deployment, inspect the article card list and mobile layout: adjacent covers should feel like one Drugnews brand system, not unrelated one-off prompts.
 7. Already published covers are not silently replaced. If a live cover looks weak, record it as a retrofitting candidate and change it only with explicit user approval.
 
+When the homepage composition needs a safer crop than the article/OG cover, add an optional `homepage_cover_image` and `homepage_cover_image_alt` to `meta.json`. The publisher copies that asset into `assets/articles/<slug>/`, uses it only for the homepage lead story, and keeps `cover_image` unchanged on the article page. Future daily homepage covers should be landscape, text-safe, and visually useful at both desktop and mobile breakpoints.
+
+## Investor Academy And Taiwan Clinical Database
+
+The production investor-learning hub lives at `guides/`. The eight guide URLs are stable SEO entrypoints and share the interactive lesson assets under `guides/`. The Taiwan listed-biotech clinical database lives at `guides/taiwan-biotech-clinical-trials.html`; its verified records are maintained in `guides/data/taiwan-biotech-clinical.json` with an `asOf` date, primary source, result status, valuation question, and related Drugnews article routes.
+
 Run the cover audit during daily QA:
 
 ```bash

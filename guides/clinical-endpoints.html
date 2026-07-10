@@ -3,27 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>臨床終點怎麼看：ORR、PFS、OS、HR｜Drugnews</title>
-  <meta name="description" content="給投資人的臨床終點入門：ORR、DCR、PFS、OS、HR、p-value 分別代表什麼，為什麼腫瘤縮小不等於一定延長生命。">
+  <title>臨床終點怎麼看：ORR、PFS、OS、HR｜Drugnews 生技投資指南</title>
+  <meta name="description" content="用互動圖解理解 ORR、PFS、OS 與 HR 的差異，學會檢查對照組、效果大小、資料成熟度與安全性，建立臨床數據判讀順序。">
   <link rel="canonical" href="https://drugnews.com.tw/guides/clinical-endpoints.html">
+  <link rel="alternate" hreflang="zh-Hant" href="https://drugnews.com.tw/guides/clinical-endpoints.html">
+  <link rel="alternate" hreflang="en" href="https://drugnews.com.tw/en/guides/clinical-endpoints.html">
+  <link rel="alternate" hreflang="x-default" href="https://drugnews.com.tw/guides/clinical-endpoints.html">
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
-  <meta property="og:title" content="臨床終點怎麼看：ORR、PFS、OS、HR｜Drugnews">
-  <meta property="og:description" content="ORR 看腫瘤縮小，PFS 看疾病不惡化多久，OS 看是否活更久。投資人要避免把不同終點混在一起。">
+  <link rel="stylesheet" href="../science-media.css?v=20260711">
+  <link rel="stylesheet" href="investor-academy.css?v=20260711">
+  <link rel="stylesheet" href="lesson.css?v=20260711">
+  <meta property="og:title" content="臨床終點怎麼看：ORR、PFS、OS、HR">
+  <meta property="og:description" content="用互動圖解建立臨床數據判讀順序，不把腫瘤縮小誤讀成一定能延長生命。">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://drugnews.com.tw/guides/clinical-endpoints.html">
   <meta property="og:site_name" content="Drugnews｜藥時事">
-  <meta property="og:image" content="https://drugnews.com.tw/assets/articles/glp1-biotech-capital-reshuffle/cover-glp1-capital.png">
+  <meta property="og:image" content="https://drugnews.com.tw/assets/site/investor-learning-journey-v1.webp">
   <meta name="twitter:card" content="summary_large_image">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"臨床終點怎麼看：ORR、PFS、OS、HR","description":"給投資人的臨床終點入門：ORR、DCR、PFS、OS、HR、p-value 分別代表什麼。","author":{"@type":"Organization","name":"Drugnews 編輯部","url":"https://drugnews.com.tw/team.html"},"publisher":{"@type":"Organization","name":"Drugnews｜藥時事","url":"https://drugnews.com.tw/"},"mainEntityOfPage":"https://drugnews.com.tw/guides/clinical-endpoints.html","articleSection":"生技投資入門","keywords":"ORR, PFS, OS, HR, p-value, DCR, 臨床終點"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LearningResource","@id":"https://drugnews.com.tw/guides/clinical-endpoints.html#learning-resource","name":"臨床終點怎麼看：ORR、PFS、OS、HR","url":"https://drugnews.com.tw/guides/clinical-endpoints.html","inLanguage":"zh-Hant-TW","description":"用互動圖解理解 ORR、PFS、OS 與 HR，建立臨床證據判讀順序。","learningResourceType":"Interactive lesson","educationalLevel":"Beginner","teaches":["ORR","PFS","OS","Hazard Ratio","臨床試驗終點判讀"],"dateModified":"2026-07-11","author":{"@id":"https://drugnews.com.tw/#organization"},"publisher":{"@id":"https://drugnews.com.tw/#organization"},"isPartOf":{"@id":"https://drugnews.com.tw/guides/#page"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://drugnews.com.tw/"},{"@type":"ListItem","position":2,"name":"研究指南","item":"https://drugnews.com.tw/guides/"},{"@type":"ListItem","position":3,"name":"臨床終點怎麼看","item":"https://drugnews.com.tw/guides/clinical-endpoints.html"}]}]}</script>
 </head>
-<body>
+<body class="learning-preview-page lesson-preview-page">
+  <div class="lesson-reading-progress" aria-hidden="true"><i id="lessonReadingProgress"></i></div>
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="../index.html"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
       <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
-      <label class="nav-menu-button" for="site-nav-toggle">選單</label>
-      <nav class="nav-links" aria-label="Main navigation">
+      <label class="nav-menu-button" for="site-nav-toggle" role="button" tabindex="0" aria-controls="preview-primary-nav" aria-expanded="false">選單</label>
+      <nav class="nav-links" id="preview-primary-nav" aria-label="Main navigation">
         <a href="../index.html">首頁</a>
         <a href="../articles/">文章</a>
         <a href="../topics/">主題</a>
@@ -35,55 +42,95 @@
       </nav>
     </div>
   </header>
+
   <main>
-    <section class="article-hero">
-      <div class="container article-hero-inner">
-        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">指南</a><span>/</span><span>臨床終點</span></nav>
-        <div class="meta"><span>投資入門 01</span><span>ORR / PFS / OS</span></div>
-        <h1>臨床終點怎麼看</h1>
-        <p class="article-deck">讀生技新聞時，最常看到 ORR、PFS、OS、HR。這些不是裝飾用縮寫，而是判斷一個藥到底改善了什麼問題。</p>
-        <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部</a></p>
+    <section class="lesson-hero">
+      <div class="container lesson-hero-grid">
+        <div>
+          <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">指南資料庫</a><span>/</span><span>臨床證據</span></nav>
+          <p class="eyebrow">Path 02 · Clinical Evidence</p>
+          <h1>臨床終點怎麼看</h1>
+          <p class="lesson-deck">ORR、PFS、OS 都可能出現在「正面數據」裡，但它們回答的是三個完全不同的問題。先辨認終點，再談價值。</p>
+          <div class="lesson-meta"><span>投資入門</span><span>約 8 分鐘</span><span>互動教材</span></div>
+        </div>
+        <div class="lesson-objective">
+          <span><i data-lucide="microscope" aria-hidden="true"></i>學完這一課，你會知道</span>
+          <ol><li>一個數字究竟改善了什麼</li><li>為什麼反應率不能直接外推存活</li><li>headline 之外還要檢查哪些證據</li></ol>
+        </div>
       </div>
     </section>
-    <section class="section article-section">
-      <div class="container article-layout">
-        <article class="article-body">
-          <p>臨床數據要先看「終點」。同樣是好消息，ORR 高、PFS 延長、OS 顯著改善，代表的商業價值完全不同。投資人最容易犯的錯，是看到一個數字漂亮，就直接推論公司價值會大幅上升。</p>
-          <div class="guide-diagram" aria-label="臨床終點層級圖">
-            <div class="guide-step"><span>ORR</span><strong>腫瘤有沒有縮小</strong></div>
-            <div class="guide-arrow">→</div>
-            <div class="guide-step"><span>PFS</span><strong>疾病多久不惡化</strong></div>
-            <div class="guide-arrow">→</div>
-            <div class="guide-step"><span>OS</span><strong>病人是否活更久</strong></div>
-          </div>
-          <div class="visual-card-grid" aria-label="臨床終點速讀圖卡">
-            <div class="visual-card"><span>圖解 01</span><strong>ORR 是反應率，不是存活率</strong><p>腫瘤縮小代表藥物有活性，但還要看反應能維持多久、安全性是否能接受。</p></div>
-            <div class="visual-card"><span>圖解 02</span><strong>PFS 介於反應與存活之間</strong><p>PFS 延長代表疾病控制變久，但仍要看對照組、治療線別與統計可信度。</p></div>
-            <div class="visual-card"><span>圖解 03</span><strong>OS 最硬，也最難等</strong><p>整體存活改善最有說服力，但追蹤時間長，也容易受到後續治療影響。</p></div>
-          </div>
-          <h2>ORR：看反應，不等於看存活</h2>
-          <p>ORR 是 objective response rate，通常指腫瘤明顯縮小的病人比例。它很適合早期試驗快速觀察藥物活性，但不能直接等同於延長生命。若反應時間很短，或安全性不好，商業價值仍可能受限。</p>
-          <h2>PFS：看疾病控制時間</h2>
-          <p>PFS 是 progression-free survival，代表疾病沒有惡化的時間。腫瘤藥常用 PFS 判斷治療是否能延後惡化，但投資人還要看對照組、治療線別、統計顯著性與安全性成本。</p>
-          <h2>OS：最硬，但也最難等</h2>
-          <p>OS 是 overall survival，也就是整體存活。OS 改善通常最有說服力，但需要更長追蹤時間，也更容易受到後續治療、交叉用藥與病人差異影響。</p>
-          <div class="term-grid">
-            <div class="term-card"><strong>DCR</strong><p>疾病控制率，包含縮小與穩定。</p></div>
-            <div class="term-card"><strong>HR</strong><p>hazard ratio，常用來看事件風險降低多少。</p></div>
-            <div class="term-card"><strong>p-value</strong><p>統計顯著不等於臨床意義足夠大。</p></div>
-            <div class="term-card"><strong>CI</strong><p>信賴區間，越寬代表不確定性越高。</p></div>
-          </div>
-          <h2>投資人讀法</h2>
-          <p>先問三件事：終點是否適合這個疾病？改善幅度是否足以改變治療選擇？安全性與競品相比是否仍有優勢？如果答案不清楚，就算 headline 寫得很漂亮，也不一定代表價值真的上升。</p>
-          <div class="notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div>
+
+    <section class="section endpoint-lab-section" id="endpointLab">
+      <div class="container section-head academy-section-head">
+        <div><p class="eyebrow">Interactive Evidence Lab</p><h2>同一個藥，換一個終點，能說的話就不同</h2></div>
+        <p>切換四個概念，看示意圖如何改變。動畫只用來解釋量測邏輯，不代表任何真實試驗或療效數字。</p>
+      </div>
+      <div class="container endpoint-lab" data-endpoint="orr">
+        <div class="endpoint-controls" role="tablist" aria-label="臨床終點選擇">
+          <button id="tab-orr" type="button" role="tab" aria-selected="true" aria-controls="endpointPanel" data-endpoint="orr">ORR<span>反應率</span></button>
+          <button id="tab-pfs" type="button" role="tab" aria-selected="false" aria-controls="endpointPanel" data-endpoint="pfs">PFS<span>無惡化存活</span></button>
+          <button id="tab-os" type="button" role="tab" aria-selected="false" aria-controls="endpointPanel" data-endpoint="os">OS<span>整體存活</span></button>
+          <button id="tab-hr" type="button" role="tab" aria-selected="false" aria-controls="endpointPanel" data-endpoint="hr">HR<span>事件風險</span></button>
+        </div>
+        <div class="endpoint-stage" id="endpointPanel" role="tabpanel" aria-labelledby="tab-orr">
+          <canvas id="endpointCanvas" role="img" aria-label="臨床終點概念示意圖"></canvas>
+          <div class="endpoint-stage-overlay" aria-hidden="true"><span id="endpointVisualKicker">WHAT IT MEASURES</span><strong id="endpointVisualTitle">腫瘤有沒有縮小</strong></div>
+        </div>
+        <aside class="endpoint-explanation" aria-live="polite">
+          <span id="endpointKicker">Objective Response Rate</span>
+          <h3 id="endpointTitle">ORR 看見藥物活性，但還沒看見存活</h3>
+          <p id="endpointCopy">ORR 通常指達到完全或部分反應的病人比例。它適合在早期試驗快速觀察訊號，但還要看反應維持多久、安全性如何，以及試驗有沒有可靠的比較基準。</p>
+          <dl><div><dt>先問</dt><dd id="endpointQuestion">反應維持多久？</dd></div><div><dt>不能直接說</dt><dd id="endpointLimit">病人一定活得更久</dd></div></dl>
+        </aside>
+        <p class="endpoint-disclaimer">概念示意，不代表任何真實公司、產品、病人或臨床試驗。</p>
+      </div>
+    </section>
+
+    <section class="section white lesson-reading-section">
+      <div class="container lesson-layout">
+        <article class="lesson-body">
+          <p class="lesson-lead">臨床數據要先看「終點」。同樣是好消息，ORR 高、PFS 延長、OS 顯著改善，代表的臨床與商業價值完全不同。投資人最容易犯的錯，是看到一個數字漂亮，就直接推論公司價值應該大幅上升。</p>
+
+          <section id="orr"><p class="lesson-section-number">01</p><h2>ORR：看反應，不等於看存活</h2><p>ORR 是 objective response rate，通常指腫瘤明顯縮小的病人比例。它很適合早期試驗快速觀察藥物活性，但不能直接等同於延長生命。若反應時間很短，或安全性不好，商業價值仍可能受限。</p><div class="lesson-callout"><strong>投資人要補看的資料</strong><span>反應持續時間 DoR、追蹤成熟度、基線差異、安全性與後續治療。</span></div></section>
+
+          <section id="pfs"><p class="lesson-section-number">02</p><h2>PFS：看疾病控制時間</h2><p>PFS 是 progression-free survival，代表疾病沒有惡化或病人尚未死亡的時間。腫瘤藥常用 PFS 判斷治療是否能延後惡化，但投資人還要看對照組、治療線別、影像評估方式、統計顯著性與安全性成本。</p><div class="lesson-callout"><strong>曲線比中位數更重要</strong><span>中位 PFS 只是一個時間點；曲線何時分開、是否維持、尾端還剩多少病人，會影響解讀。</span></div></section>
+
+          <section id="os"><p class="lesson-section-number">03</p><h2>OS：最硬，也最難等</h2><p>OS 是 overall survival，也就是整體存活。OS 改善通常最有說服力，但需要更長追蹤時間，也更容易受到後續治療、交叉用藥與病人差異影響。資料尚未成熟時，「趨勢良好」與「統計顯著」不能混為一談。</p></section>
+
+          <section id="hr"><p class="lesson-section-number">04</p><h2>HR：比較整段時間裡的事件風險</h2><p>Hazard ratio 不是「多活了幾個月」，而是比較兩組在整段觀察期間的事件風險。HR 小於 1 通常有利於治療組，但仍要搭配信賴區間、比例風險假設與實際曲線判斷。</p></section>
+
+          <section class="evidence-checklist" aria-labelledby="checklistTitle">
+            <p class="eyebrow">Reading Order</p><h2 id="checklistTitle">看到臨床 headline，照這四層檢查</h2>
+            <ol><li><span>01</span><div><strong>量測什麼</strong><p>主要終點是否適合疾病與治療線別？</p></div></li><li><span>02</span><div><strong>和誰比較</strong><p>有沒有對照組？歷史對照是否真的可比？</p></div></li><li><span>03</span><div><strong>改善多少、維持多久</strong><p>效果大小、持續性與資料成熟度能否支撐結論？</p></div></li><li><span>04</span><div><strong>付出什麼代價</strong><p>安全性、停藥率、製造與商業化條件會不會抵消療效？</p></div></li></ol>
+          </section>
+
+          <section class="judgment-practice" id="judgmentPractice">
+            <div class="practice-header"><p class="eyebrow">Judgment Practice</p><h2>你會怎麼讀這則 headline？</h2><span>示意案例</span></div>
+            <blockquote>某早期單臂腫瘤試驗公布 ORR 60%，公司稱結果「具改變治療標準的潛力」。目前入組 20 人，中位追蹤 4 個月。</blockquote>
+            <fieldset><legend>現階段最合理的判斷是：</legend><label><input type="radio" name="practice" value="a"> 療效已證明優於現有標準治療</label><label><input type="radio" name="practice" value="b"> 有初步活性訊號，但需要持續性、比較基準與更多病人確認</label><label><input type="radio" name="practice" value="c"> ORR 高，因此 OS 一定會改善</label></fieldset>
+            <button type="button" id="practiceReveal">查看判讀</button>
+            <div class="practice-answer" id="practiceAnswer" hidden aria-live="polite"></div>
+          </section>
+
+          <div class="lesson-notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。互動圖為概念示意，不代表任何真實臨床數據。</div>
         </article>
-        <aside class="sidebar">
-          <div class="card"><h3>常見搜尋詞</h3><p>ORR、DCR、PFS、OS、HR、p-value、confidence interval。</p></div>
-          <div class="card"><h3>下一篇</h3><p><a href="regulatory-milestones.html">法規節點怎麼看</a></p></div>
+
+        <aside class="lesson-sidebar">
+          <div class="lesson-sidebar-inner">
+            <p class="eyebrow">本課索引</p>
+            <nav aria-label="本課段落"><a href="#orr">ORR</a><a href="#pfs">PFS</a><a href="#os">OS</a><a href="#hr">HR</a><a href="#judgmentPractice">判讀練習</a></nav>
+            <label class="lesson-complete"><input type="checkbox" id="lessonComplete"><span>標記為已完成</span></label>
+            <a class="lesson-back-link" href="index.html">回到學習資料庫</a>
+            <a class="lesson-back-link lesson-database-link" href="taiwan-biotech-clinical-trials.html"><i data-lucide="database-search" aria-hidden="true"></i>查台灣生技臨床資料</a>
+          </div>
         </aside>
       </div>
     </section>
   </main>
-  <footer class="site-footer"><div class="container">© 2026 Drugnews. 內容僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div></footer>
+
+  <footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. 內容僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div><nav class="footer-links" aria-label="Footer navigation"><a href="index.html">指南資料庫</a><a href="../articles/">文章</a></nav></div></footer>
+  <script src="../assets/vendor/lucide.min.js"></script>
+  <script src="clinical-endpoints.js?v=20260711"></script>
+  <script>window.lucide?.createIcons();</script>
 </body>
 </html>

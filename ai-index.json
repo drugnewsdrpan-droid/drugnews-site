@@ -36,6 +36,10 @@
       "url": "https://drugnews.com.tw/guides/"
     },
     {
+      "name": "Taiwan biotech clinical database",
+      "url": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
+    },
+    {
       "name": "Paid research",
       "url": "https://drugnews.com.tw/subscribe.html"
     },
@@ -84,6 +88,112 @@
     {
       "name": "Big Pharma",
       "url": "https://drugnews.com.tw/topics/big-pharma.html"
+    }
+  ],
+  "learning_resources": [
+    {
+      "name": "Biotech investor academy",
+      "url": "https://drugnews.com.tw/guides/",
+      "topics": [
+        "drug development",
+        "clinical evidence",
+        "regulatory and CMC",
+        "commercialization and BD",
+        "valuation and capital markets"
+      ]
+    },
+    {
+      "name": "Clinical endpoints",
+      "url": "https://drugnews.com.tw/guides/clinical-endpoints.html",
+      "topics": [
+        "ORR",
+        "PFS",
+        "OS",
+        "hazard ratio"
+      ]
+    },
+    {
+      "name": "FDA regulatory milestones",
+      "url": "https://drugnews.com.tw/guides/regulatory-milestones.html",
+      "topics": [
+        "IND",
+        "NDA",
+        "BLA",
+        "PDUFA",
+        "CRL"
+      ]
+    },
+    {
+      "name": "Safety and CMC",
+      "url": "https://drugnews.com.tw/guides/safety-cmc-risk.html",
+      "topics": [
+        "AE",
+        "SAE",
+        "DLT",
+        "CMC",
+        "GMP"
+      ]
+    },
+    {
+      "name": "Market sizing",
+      "url": "https://drugnews.com.tw/guides/market-sizing.html",
+      "topics": [
+        "TAM",
+        "SAM",
+        "SOM",
+        "pricing",
+        "penetration"
+      ]
+    },
+    {
+      "name": "BD licensing terms",
+      "url": "https://drugnews.com.tw/guides/bd-licensing-terms.html",
+      "topics": [
+        "upfront",
+        "milestone",
+        "royalty",
+        "option rights"
+      ]
+    },
+    {
+      "name": "Patent and competition",
+      "url": "https://drugnews.com.tw/guides/patent-competition.html",
+      "topics": [
+        "LOE",
+        "patent cliff",
+        "generic",
+        "biosimilar"
+      ]
+    },
+    {
+      "name": "Biotech valuation",
+      "url": "https://drugnews.com.tw/guides/biotech-valuation.html",
+      "topics": [
+        "rNPV",
+        "SOTP",
+        "probability of success",
+        "peak sales"
+      ]
+    },
+    {
+      "name": "Cash runway and dilution",
+      "url": "https://drugnews.com.tw/guides/cash-runway.html",
+      "topics": [
+        "burn rate",
+        "cash runway",
+        "financing",
+        "dilution"
+      ]
+    },
+    {
+      "name": "Taiwan biotech clinical progress and trial results",
+      "url": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html",
+      "topics": [
+        "Taiwan biotech",
+        "clinical trial phase",
+        "trial endpoint",
+        "valuation lens"
+      ]
     }
   ],
   "feeds": {

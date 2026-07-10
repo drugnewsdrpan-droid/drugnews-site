@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-10T02:38:26.746Z",
+  "generated_at": "2026-07-10T18:22:55.360Z",
   "site": {
     "@type": [
       "Organization",
@@ -107,6 +107,18 @@
     "ai_index": "https://drugnews.com.tw/ai-index.json",
     "market_radar": "https://drugnews.com.tw/market-radar.json",
     "brand_profile": "https://drugnews.com.tw/brand-profile.json"
+  },
+  "learning_resources": {
+    "academy": "https://drugnews.com.tw/guides/",
+    "clinical_endpoints": "https://drugnews.com.tw/guides/clinical-endpoints.html",
+    "regulatory_milestones": "https://drugnews.com.tw/guides/regulatory-milestones.html",
+    "safety_and_cmc": "https://drugnews.com.tw/guides/safety-cmc-risk.html",
+    "market_sizing": "https://drugnews.com.tw/guides/market-sizing.html",
+    "bd_licensing_terms": "https://drugnews.com.tw/guides/bd-licensing-terms.html",
+    "patent_and_competition": "https://drugnews.com.tw/guides/patent-competition.html",
+    "biotech_valuation": "https://drugnews.com.tw/guides/biotech-valuation.html",
+    "cash_runway": "https://drugnews.com.tw/guides/cash-runway.html",
+    "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
     {

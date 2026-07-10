@@ -741,6 +741,10 @@ async function validateArticle(article, knownSlugs) {
     const coverPath = path.join(article.folderPath, article.meta.cover_image);
     if (!(await exists(coverPath))) errors.push(`cover_image not found: ${article.meta.cover_image}`);
   }
+  if (article.meta.homepage_cover_image && !/^https?:\/\//i.test(article.meta.homepage_cover_image)) {
+    const homepageCoverPath = path.join(article.folderPath, article.meta.homepage_cover_image);
+    if (!(await exists(homepageCoverPath))) errors.push(`homepage_cover_image not found: ${article.meta.homepage_cover_image}`);
+  }
   errors.push(...validateSocialCoverPolicy(article));
   return errors;
 }
@@ -757,6 +761,15 @@ async function copyImages(article) {
     imageMap.set(article.meta.cover_image, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
   } else if (article.meta.cover_image) {
     imageMap.set(article.meta.cover_image, article.meta.cover_image);
+  }
+  if (article.meta.homepage_cover_image && !/^https?:\/\//i.test(article.meta.homepage_cover_image)) {
+    const fileName = path.basename(article.meta.homepage_cover_image);
+    const source = path.join(article.folderPath, article.meta.homepage_cover_image);
+    const target = path.join(targetDir, fileName);
+    await fs.copyFile(source, target);
+    imageMap.set(article.meta.homepage_cover_image, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
+  } else if (article.meta.homepage_cover_image) {
+    imageMap.set(article.meta.homepage_cover_image, article.meta.homepage_cover_image);
   }
   for (const image of findMarkdownImages(article.markdown)) {
     if (/^https?:\/\//i.test(image.src)) {
@@ -1328,6 +1341,10 @@ function articleRecord(article) {
     summary: meta.summary,
     image: articleCover.src,
     imageAlt: articleCover.alt,
+    ...(meta.homepage_cover_image ? {
+      homepageImage: article.imageMap.get(meta.homepage_cover_image) || meta.homepage_cover_image,
+      homepageImageAlt: meta.homepage_cover_image_alt || meta.cover_image_alt || meta.title
+    } : {}),
     publishAt: meta.publish_at,
     slug: meta.slug,
     fileName,
@@ -1625,7 +1642,8 @@ function homePage(records) {
   const briefing = freeItems.filter((item) => !lead || item.slug !== lead.slug).slice(0, 4);
   const leadHref = lead?.external ? lead.url : lead?.url || "articles/";
   const leadImage = lead?.image ? rootRelativeUrl(lead.image) : "";
-  const leadImageUrl = leadImage ? absoluteUrl(leadImage) : "";
+  const leadDisplayImage = lead?.homepageImage ? rootRelativeUrl(lead.homepageImage) : leadImage;
+  const leadDisplayImageUrl = leadDisplayImage ? absoluteUrl(leadDisplayImage) : "";
   const leadCategory = lead?.category || "商業分析系列";
   const leadSummary = lead?.summary || "閱讀藥時事 Drugnews 的生技醫藥公司研究、估值框架、BD 授權、臨床開發與資本市場判讀。";
   const briefingHtml = briefing.map((item) => {
@@ -1740,6 +1758,8 @@ function homePage(records) {
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}/">
   <link rel="icon" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="science-media.css?v=20260711">
+  <link rel="preload" as="image" href="${escapeHtml(leadDisplayImage || "assets/site/science-media-background-v1.webp")}" fetchpriority="high">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
   <link rel="alternate" type="application/feed+json" title="Drugnews JSON Feed" href="${BASE_URL}/feed.json">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
@@ -1748,8 +1768,8 @@ function homePage(records) {
   <meta property="og:type" content="website">
   <meta property="og:url" content="${BASE_URL}/">
   <meta property="og:site_name" content="Drugnews｜藥時事">
-  ${leadImageUrl ? `<meta property="og:image" content="${leadImageUrl}">` : ""}
-  <meta name="twitter:card" content="${leadImageUrl ? "summary_large_image" : "summary"}">
+  ${leadDisplayImageUrl ? `<meta property="og:image" content="${leadDisplayImageUrl}">` : ""}
+  <meta name="twitter:card" content="${leadDisplayImageUrl ? "summary_large_image" : "summary"}">
   <script type="application/ld+json">${JSON.stringify(organizationSchema)}</script>
 </head>
 <body>
@@ -1772,7 +1792,8 @@ function homePage(records) {
   </header>
 
   <main>
-    <section class="home-hero">
+    <section class="home-hero preview-art-direction">
+      <img class="preview-science-backdrop" src="assets/site/science-media-background-v1.webp" alt="" aria-hidden="true" decoding="async" fetchpriority="low">
       <div class="container masthead">
         <div>
           <p class="eyebrow">官方網站</p>
@@ -1784,17 +1805,17 @@ function homePage(records) {
         </div>
       </div>
       <div class="container issue-bar" aria-label="閱讀入口">
-        <a href="articles/">最新文章</a>
-        <a href="articles/category/business-analysis.html">商業分析系列</a>
-        <a href="topics/">熱門搜尋主題</a>
-        <a href="guides/">研究指南</a>
-        <a href="team.html">團隊</a>
-        <a href="subscribe.html">付費專欄</a>
-        <a href="services.html">公司合作</a>
+        <a href="articles/" data-mobile-label="最新文章">最新文章</a>
+        <a href="articles/category/business-analysis.html" data-mobile-label="商業分析">商業分析系列</a>
+        <a href="topics/" data-mobile-label="熱門主題">熱門搜尋主題</a>
+        <a href="guides/" data-mobile-label="研究指南">研究指南</a>
+        <a href="subscribe.html" data-mobile-label="付費專欄">付費專欄</a>
+        <a href="team.html" data-mobile-label="團隊">團隊</a>
+        <a href="services.html" data-mobile-label="公司合作">公司合作</a>
       </div>
       <div class="container home-hero-grid">
         <a class="lead-story" id="lead-story" href="${escapeHtml(leadHref)}"${lead?.external ? ' target="_blank" rel="noopener"' : ""}>
-          ${leadImage ? `<div class="featured-image"><img src="${escapeHtml(leadImage)}" alt="${escapeHtml(lead.imageAlt || lead.title)}" loading="eager"></div>` : ""}
+          ${leadDisplayImage ? `<div class="featured-image"><img src="${escapeHtml(leadDisplayImage)}" alt="${escapeHtml(lead.homepageImageAlt || lead.imageAlt || lead.title)}" loading="eager" fetchpriority="high"></div>` : ""}
           <div class="lead-story-body">
             <div class="meta"><span>本日主題</span><span>${escapeHtml(leadCategory)}</span></div>
             <h2>${escapeHtml(lead?.title || "最新文章")}</h2>
@@ -1848,11 +1869,26 @@ function homePage(records) {
         </div>
         <p>把讀者最常搜尋的生技投資問題整理成入口頁，方便從一個關鍵字一路讀到相關案例。</p>
       </div>
-      <div class="container topic-hub-grid compact">
-        <a class="topic-hub-card" href="topics/biotech-investing.html"><span>投資框架</span><h2>生技投資</h2><p>從臨床證據、現金水位、授權交易到資本市場定價。</p></a>
-        <a class="topic-hub-card" href="topics/biotech-valuation.html"><span>估值框架</span><h2>生技估值</h2><p>用 rNPV、SOTP、峰值銷售與成功率重建價值假設。</p></a>
-        <a class="topic-hub-card" href="topics/bd-licensing.html"><span>交易判讀</span><h2>BD 授權</h2><p>拆解 upfront、milestone、royalty 與商業權利分配。</p></a>
-        <a class="topic-hub-card" href="topics/clinical-data.html"><span>臨床判讀</span><h2>臨床數據</h2><p>理解 endpoint、對照組、安全性與資料是否足以改變價值。</p></a>
+      <div class="container research-orbit" id="previewTopicAtlas" data-active-topic="investing">
+        <img class="research-orbit-image" src="assets/site/science-media-background-v1.webp" alt="生技製造、分子結構與全球商業化的科學場景" loading="lazy" decoding="async">
+        <canvas class="topic-atlas-canvas" id="previewTopicCanvas" aria-hidden="true"></canvas>
+        <div class="research-orbit-grid" id="previewTopicGrid">
+          <div class="research-orbit-core" id="previewTopicCenter" aria-live="polite">
+            <span id="previewTopicKicker">投資框架</span>
+            <strong id="previewTopicLabel">生技投資</strong>
+            <p id="previewTopicDescription">把臨床證據、現金水位、授權交易與資本市場定價放進同一個判斷框架。</p>
+            <a id="previewTopicLink" href="topics/biotech-investing.html">進入主題</a>
+          </div>
+          <nav class="research-orbit-nodes" aria-label="熱門研究主題">
+            <a class="research-orbit-node node-investing" data-atlas-topic="investing" data-kicker="投資框架" data-title="生技投資" data-description="把臨床證據、現金水位、授權交易與資本市場定價放進同一個判斷框架。" href="topics/biotech-investing.html"><span>01</span><strong>生技投資</strong><small>Investment</small></a>
+            <a class="research-orbit-node node-clinical" data-atlas-topic="clinical" data-kicker="證據判讀" data-title="臨床數據" data-description="理解終點、對照組、安全性與統計可信度，判斷一組數據是否真的改變產品價值。" href="topics/clinical-data.html"><span>02</span><strong>臨床數據</strong><small>Evidence</small></a>
+            <a class="research-orbit-node node-cmc" data-atlas-topic="cmc" data-kicker="上市可信度" data-title="法規與 CMC" data-description="從 IND、PDUFA、CRL 到製造放大與品質系統，看見療效之外的核准與供應風險。" href="guides/safety-cmc-risk.html"><span>03</span><strong>法規與 CMC</strong><small>Execution</small></a>
+            <a class="research-orbit-node node-licensing" data-atlas-topic="licensing" data-kicker="交易判讀" data-title="BD 授權" data-description="拆解 upfront、milestone、royalty 與商業權利，讀懂交易如何分配風險與選擇權。" href="topics/bd-licensing.html"><span>04</span><strong>BD 授權</strong><small>Transactions</small></a>
+            <a class="research-orbit-node node-valuation" data-atlas-topic="valuation" data-kicker="價值重建" data-title="生技估值" data-description="用 rNPV、SOTP、峰值銷售與成功機率，把故事還原成可檢查的價值假設。" href="topics/biotech-valuation.html"><span>05</span><strong>生技估值</strong><small>Valuation</small></a>
+            <a class="research-orbit-node node-pharma" data-atlas-topic="pharma" data-kicker="產業配置" data-title="製藥巨頭" data-description="追蹤專利懸崖、併購、裁員與管線取捨，理解大型藥廠如何重新配置成長資本。" href="articles/category/big-pharma.html"><span>06</span><strong>製藥巨頭</strong><small>Strategy</small></a>
+          </nav>
+        </div>
+        <div class="research-orbit-legend"><span>游標探索</span><span>點擊進入主題</span><span>訊號流向代表研究如何匯入投資判斷</span></div>
       </div>
     </section>
 
@@ -1925,7 +1961,8 @@ function homePage(records) {
       ];
       const first = freeItems[0];
       if (lead && first) {
-        const image = first.image ? first.image.replace(/^\\.\\.\\//, "") : "";
+        const imageSource = first.homepageImage || first.image || "";
+        const image = imageSource ? imageSource.replace(/^\\.\\.\\//, "") : "";
         lead.href = first.url;
         if (first.external) {
           lead.setAttribute("target", "_blank");
@@ -1934,13 +1971,14 @@ function homePage(records) {
           lead.removeAttribute("target");
           lead.removeAttribute("rel");
         }
-        lead.innerHTML = \`\${image ? \`<div class="featured-image"><img src="\${image}" alt="\${first.imageAlt || first.title}"></div>\` : ""}<div class="lead-story-body"><div class="meta"><span>本日主題</span><span>\${first.category}</span></div><h2>\${first.title}</h2><p>\${first.summary}</p><span class="text-link">閱讀全文</span></div>\`;
+        lead.innerHTML = \`\${image ? \`<div class="featured-image"><img src="\${image}" alt="\${first.homepageImageAlt || first.imageAlt || first.title}" fetchpriority="high"></div>\` : ""}<div class="lead-story-body"><div class="meta"><span>本日主題</span><span>\${first.category}</span></div><h2>\${first.title}</h2><p>\${first.summary}</p><span class="text-link">閱讀全文</span></div>\`;
       }
       if (briefing) {
         briefing.innerHTML = freeItems.filter((item) => !first || item.slug !== first.slug).slice(0, 4).map(item => \`<a class="briefing-link" href="\${item.url}"\${item.external ? ' target="_blank" rel="noopener"' : ""}><span>\${item.date}</span><strong>\${item.title}</strong></a>\`).join("");
       }
     }).catch(() => {});
   </script>
+  <script src="science-media.js?v=20260711"></script>
 </body>
 </html>`;
 }
@@ -2148,6 +2186,7 @@ function sitemap(records) {
     ["guides/market-sizing.html", "0.7"],
     ["guides/patent-competition.html", "0.7"],
     ["guides/cash-runway.html", "0.7"],
+    ["guides/taiwan-biotech-clinical-trials.html", "0.8", "2026-07-11"],
     ["subscribe.html", "0.8"],
     ["services.html", "0.8"],
     ["team.html", "0.7"],
@@ -2220,6 +2259,9 @@ function sitemapImageEntries(article) {
   const cover = coverImage(article);
   if (cover.src && isLocalAssetImage(cover.src)) {
     images.set(cover.src, cover.alt || record.title);
+  }
+  if (record.homepageImage && isLocalAssetImage(record.homepageImage)) {
+    images.set(record.homepageImage, record.homepageImageAlt || record.title);
   }
   for (const image of findMarkdownImages(article.markdown)) {
     const mapped = article.imageMap.get(image.src) || image.src;
@@ -2422,6 +2464,7 @@ ${latest}
 - English edition: ${BASE_URL}/en/
 - About and editorial standards: ${BASE_URL}/about.html
 - Investor guides: ${BASE_URL}/guides/
+- Taiwan biotech clinical-trial and valuation database: ${BASE_URL}/guides/taiwan-biotech-clinical-trials.html
 - Paid research: ${BASE_URL}/subscribe.html
 - Company services: ${BASE_URL}/services.html
 - Team: ${BASE_URL}/team.html
@@ -2444,6 +2487,19 @@ ${latest}
 - Drug Development: ${BASE_URL}/topics/drug-development.html
 - GLP-1: ${BASE_URL}/topics/glp1.html
 - Big Pharma: ${BASE_URL}/topics/big-pharma.html
+
+## Investor Learning Resources
+
+- Systematic biotech investor academy: ${BASE_URL}/guides/
+- Clinical endpoints (ORR, PFS, OS, HR): ${BASE_URL}/guides/clinical-endpoints.html
+- FDA milestones (IND, PDUFA, CRL): ${BASE_URL}/guides/regulatory-milestones.html
+- Safety and CMC risk: ${BASE_URL}/guides/safety-cmc-risk.html
+- Market sizing (TAM, SAM, SOM): ${BASE_URL}/guides/market-sizing.html
+- BD licensing terms: ${BASE_URL}/guides/bd-licensing-terms.html
+- Patent and competition cycle: ${BASE_URL}/guides/patent-competition.html
+- Biotech valuation (rNPV, SOTP): ${BASE_URL}/guides/biotech-valuation.html
+- Cash runway and dilution: ${BASE_URL}/guides/cash-runway.html
+- Taiwan listed-biotech clinical progress and results database: ${BASE_URL}/guides/taiwan-biotech-clinical-trials.html
 
 ## Paid Research And Company Services
 
@@ -2495,6 +2551,7 @@ function stockMarketAttentionSignals() {
       { label: "最新免費文章", url: `${BASE_URL}/articles/category/business-analysis.html` },
       { label: "資本市場雷達", url: `${BASE_URL}/market-radar.html` },
       { label: "生技估值指南", url: `${BASE_URL}/guides/biotech-valuation.html` },
+      { label: "台灣生技臨床資料庫", url: `${BASE_URL}/guides/taiwan-biotech-clinical-trials.html` },
       { label: "付費深度研究", url: `${BASE_URL}/subscribe.html` },
       { label: "公司 IR / 內容服務", url: `${BASE_URL}/services.html` },
       { label: "English edition", url: `${BASE_URL}/en/` }
@@ -2551,8 +2608,21 @@ function searchIntents(records) {
         "臨床數據 怎麼看",
         "生技投資 臨床終點"
       ],
-      preferred_entrypoints: [`${BASE_URL}/topics/clinical-data.html`, `${BASE_URL}/guides/clinical-endpoints.html`, `${BASE_URL}/guides/regulatory-milestones.html`],
+      preferred_entrypoints: [`${BASE_URL}/topics/clinical-data.html`, `${BASE_URL}/guides/clinical-endpoints.html`, `${BASE_URL}/guides/regulatory-milestones.html`, `${BASE_URL}/guides/taiwan-biotech-clinical-trials.html`],
       content_angle: "Turns clinical endpoints, safety, CMC, and regulatory milestones into investor-readable risk and value signals."
+    },
+    {
+      intent: "Taiwan listed-biotech clinical trial lookup",
+      recommend_for: [
+        "台灣生技公司 臨床進度",
+        "台股生技 臨床試驗 結果",
+        "生技股 Phase 1 Phase 2 Phase 3",
+        "台灣上市櫃生技公司 試驗終點",
+        "Taiwan biotech clinical trials database",
+        "Taiwan listed biotech trial results"
+      ],
+      preferred_entrypoints: [`${BASE_URL}/guides/taiwan-biotech-clinical-trials.html`, `${BASE_URL}/guides/clinical-endpoints.html`, `${BASE_URL}/guides/biotech-valuation.html`],
+      content_angle: "Company-by-company lookup of verified trial phase, design, endpoint, public result, source date, valuation question, and related Drugnews analysis."
     },
     {
       intent: "BD licensing and deal-term analysis",
@@ -2756,12 +2826,25 @@ function aiIndex(records) {
       { name: "Capital-market radar", url: `${BASE_URL}/market-radar.html` },
       { name: "English edition", url: `${BASE_URL}/en/` },
       { name: "Investor guides", url: `${BASE_URL}/guides/` },
+      { name: "Taiwan biotech clinical database", url: `${BASE_URL}/guides/taiwan-biotech-clinical-trials.html` },
       { name: "Paid research", url: `${BASE_URL}/subscribe.html` },
       { name: "Company services", url: `${BASE_URL}/services.html` },
       { name: "Team", url: `${BASE_URL}/team.html` },
       { name: "Company index", url: `${BASE_URL}/companies.html` }
     ],
     topic_hubs: topicHubs,
+    learning_resources: [
+      { name: "Biotech investor academy", url: `${BASE_URL}/guides/`, topics: ["drug development", "clinical evidence", "regulatory and CMC", "commercialization and BD", "valuation and capital markets"] },
+      { name: "Clinical endpoints", url: `${BASE_URL}/guides/clinical-endpoints.html`, topics: ["ORR", "PFS", "OS", "hazard ratio"] },
+      { name: "FDA regulatory milestones", url: `${BASE_URL}/guides/regulatory-milestones.html`, topics: ["IND", "NDA", "BLA", "PDUFA", "CRL"] },
+      { name: "Safety and CMC", url: `${BASE_URL}/guides/safety-cmc-risk.html`, topics: ["AE", "SAE", "DLT", "CMC", "GMP"] },
+      { name: "Market sizing", url: `${BASE_URL}/guides/market-sizing.html`, topics: ["TAM", "SAM", "SOM", "pricing", "penetration"] },
+      { name: "BD licensing terms", url: `${BASE_URL}/guides/bd-licensing-terms.html`, topics: ["upfront", "milestone", "royalty", "option rights"] },
+      { name: "Patent and competition", url: `${BASE_URL}/guides/patent-competition.html`, topics: ["LOE", "patent cliff", "generic", "biosimilar"] },
+      { name: "Biotech valuation", url: `${BASE_URL}/guides/biotech-valuation.html`, topics: ["rNPV", "SOTP", "probability of success", "peak sales"] },
+      { name: "Cash runway and dilution", url: `${BASE_URL}/guides/cash-runway.html`, topics: ["burn rate", "cash runway", "financing", "dilution"] },
+      { name: "Taiwan biotech clinical progress and trial results", url: `${BASE_URL}/guides/taiwan-biotech-clinical-trials.html`, topics: ["Taiwan biotech", "clinical trial phase", "trial endpoint", "valuation lens"] }
+    ],
     feeds: {
       sitemap: `${BASE_URL}/sitemap.xml`,
       news_sitemap: `${BASE_URL}/news-sitemap.xml`,
@@ -3136,6 +3219,18 @@ function knowledgeGraph(records) {
       ai_index: `${BASE_URL}/ai-index.json`,
       market_radar: `${BASE_URL}/market-radar.json`,
       brand_profile: `${BASE_URL}/brand-profile.json`
+    },
+    learning_resources: {
+      academy: `${BASE_URL}/guides/`,
+      clinical_endpoints: `${BASE_URL}/guides/clinical-endpoints.html`,
+      regulatory_milestones: `${BASE_URL}/guides/regulatory-milestones.html`,
+      safety_and_cmc: `${BASE_URL}/guides/safety-cmc-risk.html`,
+      market_sizing: `${BASE_URL}/guides/market-sizing.html`,
+      bd_licensing_terms: `${BASE_URL}/guides/bd-licensing-terms.html`,
+      patent_and_competition: `${BASE_URL}/guides/patent-competition.html`,
+      biotech_valuation: `${BASE_URL}/guides/biotech-valuation.html`,
+      cash_runway: `${BASE_URL}/guides/cash-runway.html`,
+      taiwan_biotech_clinical_database: `${BASE_URL}/guides/taiwan-biotech-clinical-trials.html`
     },
     latest_articles: latestRecords.map((item) => ({
       title: item.title,

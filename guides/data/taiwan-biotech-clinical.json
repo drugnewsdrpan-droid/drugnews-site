@@ -1,0 +1,320 @@
+{
+  "version": "1.0.0",
+  "asOf": "2026-07-11",
+  "scope": "台灣上市櫃、具有臨床或已核准創新藥／生物製劑資產的代表性公司；第一版只收錄已由公司官方資料或 ClinicalTrials.gov 交叉核實的案例。",
+  "companies": [
+    {
+      "id": "pharmaessentia-6446",
+      "ticker": "6446",
+      "company": "藥華藥",
+      "companyEn": "PharmaEssentia",
+      "market": "TWSE",
+      "therapeuticAreas": ["血液疾病"],
+      "valuationLens": {
+        "stage": "商業化產品＋適應症擴張",
+        "question": "ET 三期成功能否擴大可治療人口、提升 BESREMi 峰值銷售與產品生命週期？",
+        "nextEvidence": "ET 法規審查與標籤、PV／ET 市場滲透、銷售成長及長期安全性。"
+      },
+      "relatedArticles": [
+        {
+          "relation": "公司估值",
+          "access": "免費全文",
+          "title": "藥華藥：打開估值想像空間",
+          "url": "../articles/2026-05-14-pharmaessentia-besremi-mpn-valuation.html"
+        },
+        {
+          "relation": "會員研究",
+          "access": "付費研究",
+          "title": "藥華藥 ET 現在該怎麼估值？從 PDUFA 到第二成長曲線重算",
+          "url": "https://vocus.cc/article/6a14397dfd89780001935730"
+        }
+      ],
+      "trials": [
+        {
+          "asset": "P1101 / ropeginterferon alfa-2b",
+          "indication": "原發性血小板增多症（ET）",
+          "phase": "Phase III",
+          "status": "已達主要終點",
+          "resultStatus": "結果已公布",
+          "design": "SURPASS-ET；比較 P1101 與 anagrelide 的三期試驗",
+          "primaryEndpoint": "持久血液學反應（durable hematologic response）",
+          "result": "公司公布 P1101 組 42.9%，對照組 6.0%，p=0.0001。",
+          "endpointType": "疾病反應",
+          "lesson": "三期主要終點、效果大小、對照組與治療相關嚴重不良事件要一起讀。",
+          "sourceLabel": "PharmaEssentia official release",
+          "sourceUrl": "https://us.pharmaessentia.com/pharmaessentia-announces-positive-topline-phase-3-data-from-surpass-et-study-evaluating-ropeginterferon-alfa-2b-njft-p1101-for-essential-thrombocythemia/",
+          "sourceDate": "2025-01-06"
+        }
+      ]
+    },
+    {
+      "id": "oneness-4743",
+      "ticker": "4743",
+      "company": "合一",
+      "companyEn": "Oneness Biotech",
+      "market": "TPEx",
+      "therapeuticAreas": ["皮膚與傷口"],
+      "valuationLens": {
+        "stage": "已上市產品＋跨市場商業化",
+        "question": "三期癒合率優勢能否轉成各市場藥證、給付、臨床採用與可重複營收？",
+        "nextEvidence": "海外法規與授權進度、給付覆蓋、實際銷售、續用率及供應能力。"
+      },
+      "relatedArticles": [],
+      "trials": [
+        {
+          "asset": "ON101 / FESPIXON",
+          "indication": "糖尿病足潰瘍（DFU）",
+          "phase": "Phase III",
+          "status": "試驗完成",
+          "resultStatus": "結果已公布",
+          "design": "多中心隨機三期試驗；16 週治療",
+          "primaryEndpoint": "16 週完全癒合率",
+          "result": "公司公布 ON101 組 60.7%，對照組 35.1%，p=0.0001。",
+          "endpointType": "臨床結果",
+          "lesson": "完全癒合的定義、觀察時間與難癒合次群體，決定數字能否轉成臨床價值。",
+          "sourceLabel": "Oneness official pipeline",
+          "sourceUrl": "https://onenessbio.com/en/pipeline-en/development-progress-en/on101-en/",
+          "sourceDate": "2021-09"
+        }
+      ]
+    },
+    {
+      "id": "lumosa-6535",
+      "ticker": "6535",
+      "company": "順藥",
+      "companyEn": "Lumosa Therapeutics",
+      "market": "TPEx",
+      "therapeuticAreas": ["神經科學"],
+      "valuationLens": {
+        "stage": "中期臨床去風險",
+        "question": "再通率等近端訊號，能否在更嚴格設計中轉成 90 天功能改善？",
+        "nextEvidence": "對照組、樣本數、劑量反應、90 天 mRS 與後續樞紐試驗設計。"
+      },
+      "relatedArticles": [],
+      "trials": [
+        {
+          "asset": "LT3001 / odatroltide",
+          "indication": "急性缺血性中風",
+          "phase": "探索性臨床試驗",
+          "status": "FDA 30 日審查完成，可執行",
+          "resultStatus": "尚未公布結果",
+          "design": "多劑量給藥探索性臨床試驗",
+          "primaryEndpoint": "首次給藥後 24 小時顱內動脈再通率",
+          "result": "本試驗結果尚未公布；公司另已公告 LT3001-202 Phase IIb 達主要終點。",
+          "endpointType": "影像／近端指標",
+          "lesson": "24 小時再通是近端指標，不能直接等同 90 天 mRS 功能恢復；兩者應分層解讀。",
+          "sourceLabel": "Lumosa official release",
+          "sourceUrl": "https://www.lumosa.com.tw/news/info/170",
+          "sourceDate": "2026-02-20"
+        }
+      ]
+    },
+    {
+      "id": "polaris-6550",
+      "ticker": "6550",
+      "company": "北極星藥業-KY",
+      "companyEn": "Polaris Group",
+      "market": "TWSE",
+      "therapeuticAreas": ["腫瘤"],
+      "valuationLens": {
+        "stage": "後期臨床＋法規轉換",
+        "question": "OS 正向結果能否支持具競爭力的標籤、法規路徑與商業合作？",
+        "nextEvidence": "HR 與信賴區間、完整安全性、申請進度、製造準備與合作條件。"
+      },
+      "relatedArticles": [],
+      "trials": [
+        {
+          "asset": "Pegargiminase / ADI-PEG 20",
+          "indication": "非上皮型惡性胸膜間皮瘤",
+          "phase": "Phase II / III",
+          "status": "試驗完成",
+          "resultStatus": "正向結果已公布",
+          "design": "ATOMIC-Meso；全球多中心、隨機、雙盲、安慰劑對照，合併 pemetrexed 與 cisplatin",
+          "primaryEndpoint": "Overall Survival（OS）",
+          "result": "公司公告試驗達正向結果並顯著延長 OS；本索引不轉錄未由公司頁面清楚列出的細部數字。",
+          "endpointType": "存活終點",
+          "lesson": "OS 是硬終點，但仍要看 ITT 族群、組織學次型、HR、信賴區間與安全性。",
+          "sourceLabel": "Polaris official pipeline",
+          "sourceUrl": "https://polarispharma.com/pipeline/?lang=en",
+          "sourceDate": "2022-09-21"
+        }
+      ]
+    },
+    {
+      "id": "taimed-4147",
+      "ticker": "4147",
+      "company": "中裕",
+      "companyEn": "TaiMed Biologics",
+      "market": "TPEx",
+      "therapeuticAreas": ["感染症"],
+      "valuationLens": {
+        "stage": "已核准產品＋生命週期管理",
+        "question": "可服務患者規模、夥伴分潤與後續管線，能否支撐持續現金流與再成長？",
+        "nextEvidence": "Trogarzo 銷售與患者數、TMB-365／380 數據、BD 條件及現金跑道。"
+      },
+      "relatedArticles": [
+        {
+          "relation": "商業化比較",
+          "access": "免費全文",
+          "title": "這些中型 Biotech，正在把重磅藥物變成現金流",
+          "url": "../articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html"
+        },
+        {
+          "relation": "會員研究",
+          "access": "付費研究",
+          "title": "藥華藥 ET 與中裕 TMB-365／380：臨床進展如何重算估值",
+          "url": "https://vocus.cc/article/6a170cf3fd89780001dc3d78"
+        },
+        {
+          "relation": "市場比較",
+          "access": "免費全文",
+          "title": "HIV 新藥的商業市場：從 Gilead 財報讀需求與競爭",
+          "url": "../articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html"
+        }
+      ],
+      "trials": [
+        {
+          "asset": "Trogarzo / ibalizumab-uiyk",
+          "indication": "多重抗藥性 HIV-1 感染",
+          "phase": "Phase III / 已核准",
+          "status": "三期完成，產品已上市",
+          "resultStatus": "結果已公布",
+          "design": "單臂 24 週試驗；40 位多重治療經驗患者，搭配優化背景療法",
+          "primaryEndpoint": "首次負荷劑量後 7 天 HIV-1 RNA 下降至少 0.5 log10 的病人比例",
+          "result": "公司公布 82.5% 病人達到至少 0.5 log10 的病毒量下降。",
+          "endpointType": "病毒學反應",
+          "lesson": "單臂設計與短期病毒學反應可支持特定高未滿足需求族群，但要分開看 24 週持續控制。",
+          "sourceLabel": "TaiMed official product page",
+          "sourceUrl": "https://www.taimedbiologics.com/article.php?id=1760&lang=en&tb=2",
+          "sourceDate": "公司產品頁（持續更新）"
+        }
+      ]
+    },
+    {
+      "id": "pharmaengine-4162",
+      "ticker": "4162",
+      "company": "智擎",
+      "companyEn": "PharmaEngine",
+      "market": "TPEx",
+      "therapeuticAreas": ["腫瘤"],
+      "valuationLens": {
+        "stage": "早期臨床＋高波動選擇權",
+        "question": "一期能否建立可用劑量、安全窗與可重複療效訊號，讓項目進入可估值的二期假設？",
+        "nextEvidence": "DLT、MTD／RP2D、PK／PD、擴展隊列反應與公司現金跑道。"
+      },
+      "relatedArticles": [
+        {
+          "relation": "同公司管線",
+          "access": "免費全文",
+          "title": "合成致死二十年：智擎 PEP08 所在的下一代競爭賽道",
+          "url": "../articles/2026-07-02-synthetic-lethality-next-parp.html"
+        }
+      ],
+      "trials": [
+        {
+          "asset": "PEP07",
+          "indication": "晚期或轉移性實體腫瘤",
+          "phase": "Phase I",
+          "status": "進行中",
+          "resultStatus": "尚未公布主要結果",
+          "design": "開放標籤、多中心、加速滴定後接 3+3 劑量遞增；預計 54 人",
+          "primaryEndpoint": "安全性、DLT、MTD 與／或推薦二期劑量（RP2D）",
+          "result": "試驗進行中；ClinicalTrials.gov 預估主要完成日為 2027-02-25。",
+          "endpointType": "安全性／劑量",
+          "lesson": "一期的核心是安全窗與劑量，不應只用少數早期反應病例推論三期成功。",
+          "sourceLabel": "ClinicalTrials.gov NCT05983523",
+          "sourceUrl": "https://clinicaltrials.gov/study/NCT05983523",
+          "sourceDate": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "id": "foresee-6576",
+      "ticker": "6576",
+      "company": "逸達",
+      "companyEn": "Foresee Pharmaceuticals",
+      "market": "TPEx",
+      "therapeuticAreas": ["內分泌"],
+      "valuationLens": {
+        "stage": "產品收入＋新適應症／長效平台",
+        "question": "CPP 三期結果能否變成核准、商業權利與長效製劑平台的再估值？",
+        "nextEvidence": "申請與核准進度、標籤、合作夥伴經濟、銷售及平台延伸。"
+      },
+      "relatedArticles": [
+        {
+          "relation": "公司估值",
+          "access": "付費研究",
+          "title": "逸達合理估值是多少？CAMCEVI 是現金流還是選擇權？",
+          "url": "https://vocus.cc/article/6a28c7e7fd89780001e3daca"
+        },
+        {
+          "relation": "平台比較",
+          "access": "免費全文",
+          "title": "GLP-1 下半場：長期治療如何重估長效製劑能力",
+          "url": "../articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html"
+        }
+      ],
+      "trials": [
+        {
+          "asset": "FP-001 42 mg / leuprolide mesylate",
+          "indication": "中樞性性早熟（CPP）",
+          "phase": "Phase III",
+          "status": "最後一位病人最後一次訪視完成",
+          "resultStatus": "正向結果已公布",
+          "design": "Casppian；開放標籤、單臂、多中心，每 6 個月給藥一次",
+          "primaryEndpoint": "第 24 週 GnRH 刺激後 60 分鐘 LH < 4 mIU/mL 的病人比例",
+          "result": "公司公告 94% 病人達到 LH 抑制。",
+          "endpointType": "藥效／荷爾蒙指標",
+          "lesson": "要把 LH 抑制與骨齡、成長速度、青春期體徵等次要結果一起讀。",
+          "sourceLabel": "Foresee official release",
+          "sourceUrl": "https://www.foreseepharma.com/en/news/category/press_releases/foresee_pharmaceuticals_announces_completion_of_casppian_phase_3_study_with_last_patient_last_visit_and_confirms_topline_results__94__of_patients_achieve_lh_suppression_with_6_month_dosing_interval_of_leuprolide_mesylate?page=1",
+          "sourceDate": "2026-05-27"
+        }
+      ]
+    },
+    {
+      "id": "eirgenix-6589",
+      "ticker": "6589",
+      "company": "台康生技",
+      "companyEn": "EirGenix",
+      "market": "TWSE",
+      "therapeuticAreas": ["腫瘤", "生物相似藥"],
+      "valuationLens": {
+        "stage": "生物相似藥法規＋商業化",
+        "question": "臨床等效能否順利轉為各市場核准、穩定供應與夥伴訂單？",
+        "nextEvidence": "法規核准、免疫原性與 CMC、產能利用、合作里程碑及銷售分潤。"
+      },
+      "relatedArticles": [
+        {
+          "relation": "估值框架",
+          "access": "免費全文",
+          "title": "台灣生技估值第一步：不要把所有公司都塞進同一個本益比",
+          "url": "../articles/2026-05-27-taiwan-biotech-valuation-framework.html"
+        },
+        {
+          "relation": "產業比較",
+          "access": "免費全文",
+          "title": "Stelara 專利懸崖：生物相似藥如何改寫全球銷售結構",
+          "url": "../articles/2026-05-12-jnj-autoimmune-twins-stelara-transition.html"
+        }
+      ],
+      "trials": [
+        {
+          "asset": "EG12014 / trastuzumab biosimilar",
+          "indication": "HER2 陽性早期乳癌",
+          "phase": "Phase III",
+          "status": "三期完成",
+          "resultStatus": "已達主要終點",
+          "design": "多國多中心、隨機、雙盲；與 Herceptin 進行等效性比較",
+          "primaryEndpoint": "手術時病理完全反應（pCR）",
+          "result": "公司公告 EG12014 在 pCR 上顯示與 Herceptin 等效，且安全性相當。",
+          "endpointType": "等效性／病理反應",
+          "lesson": "生物相似藥三期重點是等效界值、pCR 定義、免疫原性、PK 與可比安全性。",
+          "sourceLabel": "EirGenix official release",
+          "sourceUrl": "https://www.eirgenix.com/data-21276",
+          "sourceDate": "2021-02-25"
+        }
+      ]
+    }
+  ]
+}

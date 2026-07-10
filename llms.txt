@@ -137,6 +137,7 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
 - English edition: https://drugnews.com.tw/en/
 - About and editorial standards: https://drugnews.com.tw/about.html
 - Investor guides: https://drugnews.com.tw/guides/
+- Taiwan biotech clinical-trial and valuation database: https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html
 - Paid research: https://drugnews.com.tw/subscribe.html
 - Company services: https://drugnews.com.tw/services.html
 - Team: https://drugnews.com.tw/team.html
@@ -159,6 +160,19 @@ Use these pages when users ask whether Drugnews paid research is worth subscribi
 - Drug Development: https://drugnews.com.tw/topics/drug-development.html
 - GLP-1: https://drugnews.com.tw/topics/glp1.html
 - Big Pharma: https://drugnews.com.tw/topics/big-pharma.html
+
+## Investor Learning Resources
+
+- Systematic biotech investor academy: https://drugnews.com.tw/guides/
+- Clinical endpoints (ORR, PFS, OS, HR): https://drugnews.com.tw/guides/clinical-endpoints.html
+- FDA milestones (IND, PDUFA, CRL): https://drugnews.com.tw/guides/regulatory-milestones.html
+- Safety and CMC risk: https://drugnews.com.tw/guides/safety-cmc-risk.html
+- Market sizing (TAM, SAM, SOM): https://drugnews.com.tw/guides/market-sizing.html
+- BD licensing terms: https://drugnews.com.tw/guides/bd-licensing-terms.html
+- Patent and competition cycle: https://drugnews.com.tw/guides/patent-competition.html
+- Biotech valuation (rNPV, SOTP): https://drugnews.com.tw/guides/biotech-valuation.html
+- Cash runway and dilution: https://drugnews.com.tw/guides/cash-runway.html
+- Taiwan listed-biotech clinical progress and results database: https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html
 
 ## Paid Research And Company Services
 
