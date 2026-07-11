@@ -1065,6 +1065,10 @@ body {
   overflow: hidden;
 }
 
+.evidence-feature {
+  display: block;
+}
+
 .evidence-scene::before {
   content: "";
   position: absolute;
@@ -1075,6 +1079,90 @@ body {
   background-size: 54px 54px;
   opacity: 0.55;
   pointer-events: none;
+}
+
+.evidence-visual {
+  position: absolute;
+  left: 28px;
+  right: 28px;
+  top: 30px;
+  height: 330px;
+  overflow: hidden;
+  border: 1px solid rgba(128, 158, 163, 0.34);
+  background: #f7fbfa;
+  box-shadow: 0 28px 70px rgba(15, 56, 63, 0.12);
+}
+
+.evidence-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 45% center;
+}
+
+.evidence-visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(238, 247, 245, 0.16)),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.18), transparent 36%, rgba(255, 255, 255, 0.12));
+  pointer-events: none;
+}
+
+.scene-related {
+  position: absolute;
+  left: 34px;
+  right: 34px;
+  bottom: 32px;
+  z-index: 2;
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.88);
+  border-left: 4px solid rgba(11, 123, 127, 0.62);
+  box-shadow: 0 24px 60px rgba(15, 56, 63, 0.12);
+  backdrop-filter: blur(12px);
+}
+
+.scene-related .eyebrow {
+  margin-bottom: 10px;
+}
+
+.related-list {
+  display: grid;
+  gap: 8px;
+}
+
+.related-link {
+  display: grid;
+  gap: 2px;
+  padding: 10px 0;
+  border-top: 1px solid rgba(128, 158, 163, 0.26);
+  color: #0b2f38;
+  text-decoration: none;
+}
+
+.related-link:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.related-link span {
+  color: var(--gold);
+  font-size: 0.74rem;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.related-link strong {
+  font-size: clamp(0.96rem, 1.08vw, 1.06rem);
+  line-height: 1.35;
+}
+
+.related-link:hover strong,
+.related-link:focus-visible strong {
+  color: var(--teal);
 }
 
 .signal-rail {
@@ -1800,7 +1888,43 @@ body {
   }
 
   .evidence-scene {
-    min-height: 448px;
+    min-height: 520px;
+  }
+
+  .evidence-visual {
+    left: 14px;
+    right: 14px;
+    top: 16px;
+    height: 235px;
+  }
+
+  .evidence-visual img {
+    object-position: 40% center;
+  }
+
+  .scene-related {
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    padding: 14px;
+  }
+
+  .scene-related .eyebrow {
+    margin-bottom: 6px;
+    font-size: 10px;
+  }
+
+  .related-link {
+    padding: 8px 0;
+  }
+
+  .related-link span {
+    font-size: 0.68rem;
+  }
+
+  .related-link strong {
+    font-size: 0.92rem;
+    line-height: 1.28;
   }
 
   .signal-rail {
