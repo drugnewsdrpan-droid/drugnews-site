@@ -2,32 +2,199 @@
   const header = document.querySelector(".site-header");
   const navToggle = document.getElementById("site-nav-toggle");
   const navButton = document.querySelector(".nav-menu-button");
-  const atlas = document.getElementById("previewTopicAtlas");
-  const canvas = document.getElementById("previewTopicCanvas");
-  const centerNode = document.getElementById("previewTopicCenter");
-  const centerKicker = document.getElementById("previewTopicKicker");
-  const centerLabel = document.getElementById("previewTopicLabel");
-  const centerDescription = document.getElementById("previewTopicDescription");
-  const centerLink = document.getElementById("previewTopicLink");
+  const menuButton = document.querySelector("[data-menu-button]");
+  const menuNav = document.querySelector("[data-nav-links]");
+  const atlas = document.getElementById("topicAtlas");
+  const canvas = document.getElementById("topicCanvas");
+  const centerNode = document.getElementById("topicCenter");
+  const centerKicker = document.getElementById("topicKicker");
+  const centerLabel = document.getElementById("topicLabel");
+  const centerDescription = document.getElementById("topicDescription");
+  const centerLink = document.getElementById("topicLink");
   const topicLinks = [...document.querySelectorAll("[data-atlas-topic]")];
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
   function updateHeader() {
-    header?.classList.toggle("preview-condensed", window.scrollY > 20);
+    header?.classList.toggle("science-condensed", window.scrollY > 20);
   }
 
   function syncMenuState() {
     navButton?.setAttribute("aria-expanded", String(Boolean(navToggle?.checked)));
   }
 
+  function initMenuButton() {
+    if (!menuButton || !menuNav) return;
+    let lastFocus = null;
+    function setOpen(open) {
+      menuNav.classList.toggle("is-open", open);
+      menuButton.setAttribute("aria-expanded", String(open));
+      if (!open && lastFocus) lastFocus.focus();
+    }
+    menuButton.addEventListener("click", () => {
+      const open = menuButton.getAttribute("aria-expanded") !== "true";
+      lastFocus = document.activeElement;
+      setOpen(open);
+      if (open) menuNav.querySelector("a,button")?.focus();
+    });
+    menuButton.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter" && event.key !== " ") return;
+      event.preventDefault();
+      menuButton.click();
+    });
+    menuNav.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") setOpen(false);
+    });
+    menuNav.addEventListener("click", (event) => {
+      if (event.target.closest("a")) setOpen(false);
+    });
+  }
+
+  const evidenceStates = {
+    discovery: {
+      kicker: "01 Target",
+      title: "先確認靶點與病人分層，故事才有估值資格。",
+      description: "讀者看到的是分子如何對上疾病生物學，以及哪些病人最可能產生可重現訊號。",
+      link: "topics/drug-development.html",
+      article: "看藥物開發主題",
+      metric: "Target fit",
+      className: "state-discovery"
+    },
+    trial: {
+      kicker: "02 Trial",
+      title: "終點、對照組與效果量，決定新聞能不能變成證據。",
+      description: "圖解用 CI 與零線示意 treatment / placebo 的差異是否足以改寫成功率；不是實際試驗數據。",
+      link: "topics/clinical-data.html",
+      article: "看臨床數據主題",
+      metric: "Delta + CI",
+      className: "state-trial"
+    },
+    regulatory: {
+      kicker: "03 FDA / CMC",
+      title: "FDA / CMC 不是後勤，是商業化能否成立的閘門。",
+      description: "Data、CMC、site inspection 與 label 只要有一格卡住，上市時間與估值可信度都會被重算。",
+      link: "articles/2026-07-10-fda-nasp.html",
+      article: "讀 NASP / CMC 案例",
+      metric: "Approval gate",
+      className: "state-regulatory"
+    },
+    bd: {
+      kicker: "04 BD",
+      title: "授權條款真正揭露的是：誰先付錢，誰接走風險。",
+      description: "Upfront 是今天的現金，milestone 是未來風險，royalty 才是長期分潤；headline value 不能直接當估值。",
+      link: "topics/bd-licensing.html",
+      article: "看 BD 授權主題",
+      metric: "Risk transfer",
+      className: "state-bd"
+    },
+    market: {
+      kicker: "05 Valuation",
+      title: "最後回到估值：哪一個參數真的被改寫？",
+      description: "同一則新聞可能改變 PoS、peak sales、上市時間或折現率；Drugnews 的價值是指出哪一格真的變了。",
+      link: "topics/biotech-valuation.html",
+      article: "看估值框架",
+      metric: "rNPV shift",
+      className: "state-market"
+    }
+  };
+
+  function initEvidenceScene() {
+    const scene = document.querySelector("[data-evidence-scene]");
+    if (!scene) return;
+    const nodes = Array.from(scene.querySelectorAll("[data-evidence-node]"));
+    const readout = {
+      kicker: scene.querySelector("[data-scene-kicker]"),
+      title: scene.querySelector("[data-scene-title]"),
+      description: scene.querySelector("[data-scene-description]"),
+      link: scene.querySelector("[data-scene-link]"),
+      metric: scene.querySelector("[data-scene-metric]")
+    };
+    const order = ["discovery", "trial", "regulatory", "bd", "market"];
+    let active = "discovery";
+    let animationTimer = 0;
+
+    function playSemanticAnimation() {
+      if (reducedMotion.matches) return;
+      window.clearTimeout(animationTimer);
+      scene.classList.remove("is-animating");
+      void scene.offsetWidth;
+      scene.classList.add("is-animating");
+      animationTimer = window.setTimeout(() => {
+        scene.classList.remove("is-animating");
+      }, 680);
+    }
+
+    function setActive(id, options = {}) {
+      const state = evidenceStates[id];
+      if (!state) return;
+      active = id;
+      scene.dataset.state = id;
+      scene.classList.remove(...Object.values(evidenceStates).map((item) => item.className));
+      scene.classList.add(state.className);
+      nodes.forEach((node) => {
+        const selected = node.dataset.evidenceNode === id;
+        node.classList.toggle("is-active", selected);
+        node.setAttribute("aria-pressed", String(selected));
+        node.tabIndex = selected ? 0 : -1;
+      });
+      if (readout.kicker) readout.kicker.textContent = state.kicker;
+      if (readout.title) readout.title.textContent = state.title;
+      if (readout.description) readout.description.textContent = state.description;
+      if (readout.link) {
+        readout.link.href = state.link;
+        readout.link.textContent = state.article;
+      }
+      if (readout.metric) readout.metric.textContent = state.metric;
+      if (options.animate) playSemanticAnimation();
+    }
+
+    function moveBy(delta) {
+      const index = order.indexOf(active);
+      const next = order[(index + delta + order.length) % order.length];
+      setActive(next, { animate: true });
+      nodes.find((node) => node.dataset.evidenceNode === next)?.focus();
+    }
+
+    nodes.forEach((node, index) => {
+      node.setAttribute("aria-pressed", "false");
+      node.addEventListener("click", () => setActive(node.dataset.evidenceNode, { animate: true }));
+      node.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          setActive(node.dataset.evidenceNode, { animate: true });
+        } else if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+          event.preventDefault();
+          moveBy(1);
+        } else if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
+          event.preventDefault();
+          moveBy(-1);
+        } else if (event.key === "Home") {
+          event.preventDefault();
+          setActive(order[0], { animate: true });
+          nodes[0]?.focus();
+        } else if (event.key === "End") {
+          event.preventDefault();
+          setActive(order[order.length - 1], { animate: true });
+          nodes[order.length - 1]?.focus();
+        }
+      });
+      node.tabIndex = index === 0 ? 0 : -1;
+    });
+
+    setActive(active);
+  }
+
   window.addEventListener("scroll", updateHeader, { passive: true });
   navToggle?.addEventListener("change", syncMenuState);
-  navButton?.addEventListener("keydown", (event) => {
-    if (event.key !== "Enter" && event.key !== " ") return;
-    event.preventDefault();
-    navToggle.checked = !navToggle.checked;
-    syncMenuState();
-  });
+  if (navToggle && navButton && !menuButton) {
+    navButton.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter" && event.key !== " ") return;
+      event.preventDefault();
+      navToggle.checked = !navToggle.checked;
+      syncMenuState();
+    });
+  }
+  initMenuButton();
+  initEvidenceScene();
   updateHeader();
   syncMenuState();
 

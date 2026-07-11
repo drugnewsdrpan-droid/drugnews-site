@@ -320,14 +320,15 @@ body.learning-preview-page {
 
 .valuation-video-layout {
   position: relative;
+  width: min(1480px, calc(100% - 48px));
   display: grid;
-  grid-template-columns: minmax(0, 0.84fr) minmax(520px, 1.16fr);
-  gap: clamp(48px, 6vw, 96px);
+  grid-template-columns: minmax(260px, 0.55fr) minmax(720px, 1.45fr);
+  gap: clamp(36px, 4.4vw, 72px);
   align-items: center;
 }
 
 .valuation-video-copy h2 {
-  max-width: 620px;
+  max-width: 520px;
   margin: 10px 0 20px;
   color: #082a32;
   font-family: var(--display);
@@ -337,7 +338,7 @@ body.learning-preview-page {
 }
 
 .valuation-video-lead {
-  max-width: 610px;
+  max-width: 500px;
   margin: 0;
   color: #4c6267;
   font-size: 1.02rem;
@@ -759,7 +760,7 @@ body.learning-preview-page {
   .journey-stage:nth-child(4), .journey-stage:nth-child(5) { grid-column: span 1; }
   .phase-matrix { overflow-x: auto; }
   .phase-matrix-head, .phase-matrix-row { min-width: 1040px; }
-  .valuation-video-layout { grid-template-columns: 1fr; }
+  .valuation-video-layout { width: min(1120px, calc(100% - 32px)); grid-template-columns: 1fr; }
   .valuation-video-player { width: 100%; }
 }
 

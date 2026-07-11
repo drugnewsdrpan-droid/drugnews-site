@@ -32,9 +32,7 @@
 <header class="site-header">
   <div class="container nav">
     <a class="brand" href="../index.html"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
-    <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
-    <label class="nav-menu-button" for="site-nav-toggle">選單</label>
-    <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
+    <nav class="nav-links" id="site-nav-links" data-nav-links aria-label="Main navigation">
       <a href="../index.html">首頁</a>
       <a href="index.html" aria-current="page">文章</a>
       <a href="../topics/">主題</a>
@@ -44,6 +42,9 @@
       <a href="../services.html">公司合作</a>
       <a href="../en/index.html">English</a>
     </nav>
+    <div class="nav-actions">
+      <button class="nav-menu-button" type="button" data-menu-button aria-controls="site-nav-links" aria-expanded="false">選單</button>
+    </div>
   </div>
 </header>
 <main>
@@ -54,12 +55,30 @@
       <h1>社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格</h1>
       <p class="article-deck">一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。</p>
       <p class="article-byline">作者：<a href="../team.html">Drugnews 編輯部｜潘若凡博士、林詮盛博士團隊</a></p>
+      <div class="article-trust-meta">
+        <span>科學審閱：林詮盛博士</span>
+        <span>發布：2026/07/11</span>
+        <span>最後更新：2026/07/11</span>
+        <span>閱讀時間：約 8 分鐘</span>
+      </div>
       <div class="tag-row"><span class="tag">臨床數據</span><span class="tag">生技投資</span></div>
+      <ul class="core-judgments" aria-label="本篇核心判斷">
+        <li><b>01</b><span>PALISADE-4 不是單純壞消息，而是提醒市場：CNS 新藥最難的是把主觀症狀穩定證明出來。</span></li>
+        <li><b>02</b><span>事後嚴重族群訊號只能算「可救的假設」，不能直接變成註冊勝利。</span></li>
+        <li><b>03</b><span>如果產品從急性按需轉向長期治療，商業定位、競爭對手與估值邏輯都要重算。</span></li>
+      </ul>
     </div>
   </section>
   <section class="section article-section">
     <div class="container article-layout">
       <article class="article-body">
+      <details class="mobile-toc">
+        <summary>章節目錄</summary>
+        <a href="#claim-1">PALISADE-4 失敗在哪裡</a><br>
+        <a href="#claim-2">公司下一步如何改寫定位</a><br>
+        <a href="#claim-3">SUDS 與 LSAS 為什麼關鍵</a><br>
+        <a href="#sources">來源與政策</a>
+      </details>
       <p>一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。</p>
 <div class="article-share" aria-label="分享這篇分析">
     <div>
@@ -78,7 +97,7 @@
 <p>所以 Fasedienol 的故事很容易被市場喜歡。它不像 SSRI / SNRI 那樣需要時間堆疊，也不像 benzodiazepine 那樣天然背著鎮靜、耐受性與依賴性的陰影。它說自己走的是鼻腔到神經迴路的路徑，試圖用「急性、按需、快速」切進社交焦慮症。</p>
 <p>但 2026 年 6 月 30 日，Vistagen 公布 PALISADE-4 三期結果後，故事被臨床終點狠狠拉回現實。</p>
 <p>這不是說社交焦慮市場不存在，也不是說 Fasedienol 完全沒有任何訊號。更準確地說，它提醒市場一件事：CNS 新藥最難的地方，常常不是機制講不講得漂亮，而是你能不能在一個高度主觀、安慰劑效應強、病人差異很大的疾病裡，把效果穩定證明出來。</p>
-<h3>01｜PALISADE-4 失敗在哪裡？數字其實很直接</h3>
+<h3 id="claim-1">01｜PALISADE-4 失敗在哪裡？數字其實很直接</h3>
 <figure><img src="../assets/articles/fasedienol-cns/facebook-01.png" alt="Facebook 原圖：社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格（圖 1）" loading="lazy"></figure>
 <p>PALISADE-4 是一個美國多中心、隨機、雙盲、安慰劑對照的三期試驗，用來評估單次鼻噴 fasedienol 能不能在公共演講挑戰中，急性降低成人社交焦慮症患者的焦慮症狀。</p>
 <p>這裡的場景很有意思。它不是讓病人回家吃幾個月，再看長期量表，而是在臨床環境裡設計一個會誘發焦慮的公共演講挑戰。藥物在挑戰前給，然後用 SUDS，也就是 Subjective Units of Distress Scale，作為主要終點。</p>
@@ -89,7 +108,7 @@
 <p>公司同時公布了一個事後分析：在 baseline LSAS 分數 ≥95、也就是非常嚴重社交焦慮的族群中，fasedienol 在 SUDS 上出現名義統計顯著改善。這個族群 n=123，fasedienol 為 -12.8，安慰劑為 -3.7，差異 -9.1，p=0.036。</p>
 <p>這裡要分得很清楚：這是訊號，不是勝利。</p>
 <p>因為它是 post-hoc analysis，不是整體試驗的主要分析。對投資人來說，它代表「也許還有可以救的族群」；對監管來說，它通常還需要新的前瞻性試驗去證明。這兩個世界的語氣完全不同。</p>
-<h3>02｜公司下一步不是原路重跑，而是改寫定位</h3>
+<h3 id="claim-2">02｜公司下一步不是原路重跑，而是改寫定位</h3>
 <figure><img src="../assets/articles/fasedienol-cns/facebook-02.png" alt="Facebook 原圖：社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格（圖 2）" loading="lazy"></figure>
 <p>Vistagen 在新聞稿裡給了一個很關鍵的方向：公司計畫與 FDA 討論一條潛在註冊路徑，可能用一個未來的多劑量三期試驗，以 LSAS 作為主要終點，並用 PALISADE program 的資料作為支持。</p>
 <p>這句話的重點不是「還要再做一個三期」而已。</p>
@@ -100,7 +119,7 @@
 <p>這不是不能做。</p>
 <p>但它會改變市場對這款藥的想像。急性救急藥看的是快速、方便、按需、安全感；長期治療藥看的是穩定療效、持續服用、與既有 SSRI / SNRI、CBT、beta-blocker、benzodiazepine 等工具相比的定位。</p>
 <p>產品沒有死，但故事變了。</p>
-<h3>03｜為什麼 SUDS 和 LSAS 會變成核心？</h3>
+<h3 id="claim-3">03｜為什麼 SUDS 和 LSAS 會變成核心？</h3>
 <figure><img src="../assets/articles/fasedienol-cns/facebook-03.png" alt="Facebook 原圖：社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格（圖 3）" loading="lazy"></figure>
 <p>這次最值得拆的是終點。</p>
 <p>SUDS 是一種當下主觀痛苦評分。它很直覺，適合公共演講這種急性場景：你現在有多焦慮？你現在的痛苦是幾分？</p>
@@ -158,16 +177,23 @@
 <p>Fasedienol 不是輸在故事。</p>
 <p>它只是走到門口，才被證據要求交出通行證。</p>
 <p>而 CNS 新藥的門，從來都不是靠故事打開的。</p>
-<p>參考資料：</p>
-<ol><li>Vistagen｜PALISADE-4 Phase 3 topline and post-hoc data: https://www.vistagen.com/news-releases/news-release-details/vistagen-announces-topline-and-post-hoc-data-palisade-4-phase-3</li></ol>
-<ol><li>Vistagen｜Fasedienol / PH94B overview: https://www.vistagen.com/pipeline/PH94B/overview</li></ol>
-<ol><li>ClinicalTrials.gov｜NCT06615557 PALISADE-4: https://clinicaltrials.gov/study/NCT06615557</li></ol>
-<ol><li>NIMH｜Social Anxiety Disorder: What You Need to Know: https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness</li></ol>
-<ol><li>SyneuRx｜Research and CNS pipeline: https://www.syneurx.com/research/</li></ol>
-<ol><li>Lumosa Therapeutics｜Neuroscience pipeline: https://www.lumosa.com.tw/tw/pipeline/list?id=neuroscience</li></ol>
+<h2 id="sources">參考資料</h2>
+<ol class="reference-list">
+  <li><a href="https://www.vistagen.com/news-releases/news-release-details/vistagen-announces-topline-and-post-hoc-data-palisade-4-phase-3" target="_blank" rel="noopener">Vistagen｜PALISADE-4 Phase 3 topline and post-hoc data: https://www.vistagen.com/news-releases/news-release-details/vistagen-announces-topline-and-post-hoc-data-palisade-4-phase-3</a></li>
+  <li><a href="https://www.vistagen.com/pipeline/PH94B/overview" target="_blank" rel="noopener">Vistagen｜Fasedienol / PH94B overview: https://www.vistagen.com/pipeline/PH94B/overview</a></li>
+  <li><a href="https://clinicaltrials.gov/study/NCT06615557" target="_blank" rel="noopener">ClinicalTrials.gov｜NCT06615557 PALISADE-4: https://clinicaltrials.gov/study/NCT06615557</a></li>
+  <li><a href="https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness" target="_blank" rel="noopener">NIMH｜Social Anxiety Disorder: What You Need to Know: https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness</a></li>
+  <li><a href="https://www.syneurx.com/research/" target="_blank" rel="noopener">SyneuRx｜Research and CNS pipeline: https://www.syneurx.com/research/</a></li>
+  <li><a href="https://www.lumosa.com.tw/tw/pipeline/list?id=neuroscience" target="_blank" rel="noopener">Lumosa Therapeutics｜Neuroscience pipeline: https://www.lumosa.com.tw/tw/pipeline/list?id=neuroscience</a></li>
+</ol>
 <p>更多完整長文與產業追蹤，會整理在藥時事官網：</p>
 <p>https://drugnews.com.tw/</p>
 <p>免責聲明：本文僅為產業研究與公開資料整理，不構成任何投資建議、買賣建議或個股推薦。生技醫藥投資涉及臨床試驗、法規審查、授權談判、商業化、匯率與資本市場波動等多重風險，投資人應自行判斷並自負盈虧。若有焦慮或精神健康相關症狀，請諮詢合格醫療專業人員。</p>
+<div class="policy-grid" aria-label="編輯政策">
+  <article class="policy-card"><h3>Corrections</h3><p>若資料、引用或數字有誤，文章頁會保留更正與最後更新日期；重大錯誤先標示再修正。</p></article>
+  <article class="policy-card"><h3>Conflict</h3><p>若作者、審閱者或公司與文中標的有利益關係，會在文章頁明確揭露；無則以一般編輯分析處理。</p></article>
+  <article class="policy-card"><h3>Sponsored</h3><p>合作內容、IR 服務或委託文章會在標題區與文章尾標示，不與一般編輯分析混同。</p></article>
+</div>
 <hr>
       <div class="citation-box">
     <h2>引用本文</h2>
@@ -218,6 +244,13 @@
   </div>
       </article>
       <aside class="sidebar">
+      <nav class="article-toc" aria-label="章節目錄">
+        <h3>章節目錄</h3>
+        <a href="#claim-1">PALISADE-4 失敗在哪裡</a>
+        <a href="#claim-2">公司下一步如何改寫定位</a>
+        <a href="#claim-3">SUDS 與 LSAS 為什麼關鍵</a>
+        <a href="#sources">參考資料與政策</a>
+      </nav>
       <div class="card paid-card">
         <p class="eyebrow">付費專欄</p>
         <h3>方格子付費專欄</h3>
@@ -239,6 +272,7 @@
   </section>
 </main>
 <footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. 本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div><nav class="footer-links" aria-label="Footer navigation"><a href="https://drugnews.com.tw/about.html">關於 / 編輯標準</a><a href="https://drugnews.com.tw/team.html">團隊</a><a href="https://drugnews.com.tw/services.html">公司合作</a><a href="https://drugnews.com.tw/subscribe.html">付費專欄</a><a href="https://drugnews.com.tw/articles/">文章</a></nav></div></footer>
+<script src="../science-media.js?v=20260711-release95"></script>
 <script>
   document.querySelectorAll(".copy-link").forEach((button) => {
     button.addEventListener("click", async () => {
