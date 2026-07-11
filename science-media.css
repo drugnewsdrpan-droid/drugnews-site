@@ -955,6 +955,7 @@ body {
   font-size: clamp(2.15rem, 3.1vw, 3.15rem);
   line-height: 1.08;
   letter-spacing: 0;
+  overflow-wrap: anywhere;
 }
 
 .science-evidence-copy .line-keep {
@@ -1026,6 +1027,7 @@ body {
   color: #09242c;
   font-size: clamp(1.32rem, 1.72vw, 1.72rem);
   line-height: 1.22;
+  overflow-wrap: anywhere;
 }
 
 .hero-lead-story p {
@@ -1992,6 +1994,16 @@ body {
 
   .science-latest-section .editorial-note {
     grid-column: auto;
+  }
+}
+
+@media (max-width: 520px) {
+  .site-header .nav-actions {
+    margin-left: 0;
+  }
+
+  .site-header .nav-actions .button.primary {
+    display: none;
   }
 }
 
