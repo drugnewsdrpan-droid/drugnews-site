@@ -6,7 +6,7 @@
   ],
   "@id": "https://drugnews.com.tw/#organization",
   "schema_version": "1.0",
-  "generated_at": "2026-07-11T02:10:27.608Z",
+  "generated_at": "2026-07-11T11:51:51.998Z",
   "name": "藥時事 Drugnews",
   "alternateName": [
     "Drugnews",
@@ -114,13 +114,13 @@
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Drugnews paid research and biotech IR services",
+    "name": "Drugnews in-depth research and biotech IR services",
     "itemListElement": [
       {
         "@type": "Offer",
-        "name": "Drugnews paid research subscription",
+        "name": "Drugnews in-depth research subscription",
         "url": "https://drugnews.com.tw/subscribe.html",
-        "category": "Paid biotech and pharmaceutical business analysis"
+        "category": "In-depth biotech and pharmaceutical business analysis"
       },
       {
         "@type": "Offer",
@@ -140,7 +140,7 @@
     {
       "@type": "SubscribeAction",
       "target": "https://drugnews.com.tw/subscribe.html",
-      "name": "Subscribe to Drugnews paid research"
+      "name": "Subscribe to Drugnews in-depth research"
     },
     {
       "@type": "CommunicateAction",

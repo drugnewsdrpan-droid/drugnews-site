@@ -23,8 +23,9 @@ const topics = [
     eyebrow: "估值框架",
     description:
       "從 rNPV、SOTP、管線價值、峰值銷售與臨床成功率出發，拆解一家生技公司究竟是在重估價值，還是只是在重複敘事。",
-    keywords: ["估值", "rNPV", "SOTP", "峰值銷售", "市值", "價值", "重估", "管線"],
-    terms: ["rNPV", "SOTP", "峰值銷售", "成功率"]
+    keywords: ["估值", "rNPV", "SOTP", "峰值銷售", "市值", "重估", "管線價值", "估值模型"],
+    terms: ["rNPV", "SOTP", "峰值銷售", "成功率"],
+    minScore: 5
   },
   {
     slug: "bd-licensing",
@@ -111,6 +112,19 @@ const articleAbsUrl = (article) => {
 
 const readable = (value = "") => stripHtml(value).slice(0, 168);
 
+const readerFacingText = (value = "") =>
+  String(value)
+    .replaceAll("【限時免費－", "【")
+    .replaceAll("【限時免費-", "【")
+    .replaceAll("限時免費－", "限時活動－")
+    .replaceAll("限時免費-", "限時活動-")
+    .replaceAll("免費文章", "商業分析文")
+    .replaceAll("免費分析", "商業分析")
+    .replaceAll("付費文章", "深度分析")
+    .replaceAll("付費專欄", "深度分析")
+    .replaceAll("付費研究", "深度分析")
+    .replaceAll("付費深度商業分析文章系列", "深度商業分析系列");
+
 const sortByDate = (items) =>
   [...items].sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0) || String(a.title).localeCompare(String(b.title), "zh-Hant"));
 
@@ -147,24 +161,30 @@ const pickArticles = (records, topic) =>
   records
     .filter((article) => article.lang !== "en")
     .map((article) => ({ ...article, score: relevanceScore(article, topic) }))
-    .filter((article) => article.score > 0)
+    .filter((article) => article.score >= (topic.minScore || 1))
     .sort((a, b) => b.score - a.score || new Date(b.date || 0) - new Date(a.date || 0));
 
 const tagsHtml = (article) =>
   (article.tags || [])
     .filter((tag) => !/^(Dcard|Facebook|FB|方格子|免費文章|付費文章|商業分析系列|基本面系列|醫學大會|付費深度商業分析文章系列|製藥巨頭系列)$/i.test(String(tag)))
     .slice(0, 5)
-    .map((tag) => `<span>${escapeHtml(tag)}</span>`)
+    .map((tag) => `<span>${escapeHtml(readerFacingText(tag))}</span>`)
     .join("");
+
+const accessDisplay = (access = "") =>
+  ({
+    "免費文章": "商業分析文",
+    "付費文章": "深度分析"
+  })[access] || access;
 
 const articleCard = (article) => {
   const image = cleanImage(article.image);
   const external = /^https?:\/\//.test(articleUrl(article));
   return `<a class="topic-hub-article${image ? "" : " no-image"}" href="${escapeHtml(articleUrl(article))}"${external ? ' target="_blank" rel="noopener"' : ""}>
-    ${image ? `<img src="../${escapeHtml(image)}" alt="${escapeHtml(article.imageAlt || article.title)}" loading="lazy">` : ""}
+    ${image ? `<img src="../${escapeHtml(image)}" alt="${escapeHtml(readerFacingText(article.imageAlt || article.title))}" loading="lazy">` : ""}
     <div>
-      <p class="meta">${escapeHtml(article.date || "")}　${escapeHtml(article.category || "")}　${escapeHtml(article.access || "")}</p>
-      <h3>${escapeHtml(article.title)}</h3>
+      <p class="meta">${escapeHtml(article.date || "")}　${escapeHtml(readerFacingText(article.category || ""))}　${escapeHtml(accessDisplay(article.access || ""))}</p>
+      <h3>${escapeHtml(readerFacingText(article.title))}</h3>
       <p>${escapeHtml(readable(article.summary || article.text))}</p>
       <div class="tags">${tagsHtml(article)}</div>
     </div>
@@ -176,8 +196,8 @@ const compactArticleLink = (article, label = "") => {
   const external = /^https?:\/\//.test(articleUrl(article));
   return `<a class="curated-link" href="${escapeHtml(articleUrl(article))}"${external ? ' target="_blank" rel="noopener"' : ""}>
     ${label ? `<span>${escapeHtml(label)}</span>` : ""}
-    <strong>${escapeHtml(article.title)}</strong>
-    <small>${escapeHtml(article.date || "")} · ${escapeHtml(article.category || "")}</small>
+    <strong>${escapeHtml(readerFacingText(article.title))}</strong>
+    <small>${escapeHtml(article.date || "")} · ${escapeHtml(readerFacingText(article.category || ""))}</small>
   </a>`;
 };
 
@@ -187,8 +207,8 @@ const readingPathCard = (article, label, description) => {
   return `<a class="reading-path-card" href="${escapeHtml(articleUrl(article))}"${external ? ' target="_blank" rel="noopener"' : ""}>
     <span>${escapeHtml(label)}</span>
     <p>${escapeHtml(description)}</p>
-    <strong>${escapeHtml(article.title)}</strong>
-    <small>${escapeHtml(article.date || "")} · ${escapeHtml(article.category || "")}</small>
+    <strong>${escapeHtml(readerFacingText(article.title))}</strong>
+    <small>${escapeHtml(article.date || "")} · ${escapeHtml(readerFacingText(article.category || ""))}</small>
   </a>`;
 };
 
@@ -198,6 +218,7 @@ const topicPaths = (articles) => {
   const textOf = (article) => [article.title, article.summary, article.text, ...(article.tags || [])].join(" ");
   const beginner = byScore.filter((article) => /指南|估值|怎麼看|入門|框架|基本|什麼|101|001|重點/i.test(textOf(article)));
   const advanced = byScore.filter((article) => /BD|授權|rNPV|SOTP|Phase|臨床|CMC|併購|交易|機制|策略|風險|pipeline/i.test(textOf(article)));
+  const caseStudy = byScore.filter((article) => /案例|公司|藥華|台灣|授權|上市|估值模型|管線價值|Big Pharma|biotech/i.test(textOf(article)));
   const used = new Set();
   const pick = (pool, fallback) => {
     const item = [...pool, ...fallback].find((candidate) => candidate && !used.has(candidate.slug));
@@ -208,7 +229,7 @@ const topicPaths = (articles) => {
     starter: byScore.slice(0, 3),
     beginner: pick(beginner, byScore),
     advanced: pick(advanced, byScore),
-    latest: pick(latest, byScore)
+    caseStudy: pick(caseStudy, byScore)
   };
 };
 
@@ -242,7 +263,7 @@ const header = `<body>
         <a href="./" aria-current="page">主題</a>
         <a href="../guides/">指南</a>
         <a href="../team.html">團隊</a>
-        <a href="../subscribe.html">付費專欄</a>
+        <a href="../subscribe.html">深度分析</a>
         <a href="../services.html">公司合作</a>
         <a href="../en/index.html">English</a>
       </nav>
@@ -250,7 +271,7 @@ const header = `<body>
   </header>`;
 
 const footer = `  <footer class="site-footer">
-    <div class="container footer-inner"><div><strong>Drugnews｜藥時事</strong><p>生技醫藥商業分析文章媒體。本文僅供產業研究與知識分享，不構成投資、醫療或個股建議。</p></div><nav class="footer-links" aria-label="Footer navigation"><a href="../about.html">關於 / 編輯標準</a><a href="../team.html">團隊</a><a href="../services.html">公司合作</a><a href="../subscribe.html">付費專欄</a><a href="../articles/">文章</a></nav></div>
+    <div class="container footer-inner"><div><strong>Drugnews｜藥時事</strong><p>生技醫藥商業分析文章媒體。本文僅供產業研究與知識分享，不構成投資、醫療或個股建議。</p></div><nav class="footer-links" aria-label="Footer navigation"><a href="../about.html">關於 / 編輯標準</a><a href="../team.html">團隊</a><a href="../services.html">公司合作</a><a href="../subscribe.html">深度分析</a><a href="../articles/">文章</a></nav></div>
   </footer>
 </body>
 </html>
@@ -305,7 +326,7 @@ ${header}
         <div class="curated-topic-intro">
           <p class="eyebrow">先讀這 3 篇</p>
           <h2>${escapeHtml(topic.title)}起手式</h2>
-          <p>從 ${escapeHtml(countText)}中挑出最適合起步的三篇，先建立判斷框架，再往案例與最新事件延伸。</p>
+          <p>從 ${escapeHtml(countText)}中挑出最適合起步的三篇，先建立判斷框架，再往同主題案例延伸。</p>
         </div>
         <div class="curated-link-grid">
           ${paths.starter.map((article, index) => compactArticleLink(article, `0${index + 1}`)).join("") || '<p class="notice">這個主題正在整理中。</p>'}
@@ -314,7 +335,7 @@ ${header}
       <div class="container reading-paths">
         ${readingPathCard(paths.beginner, "初階", "先建立詞彙與判斷框架。")}
         ${readingPathCard(paths.advanced, "進階", "再看交易、臨床、估值與風險拆解。")}
-        ${readingPathCard(paths.latest, "最新", "最後接上最近的市場事件。")}
+        ${readingPathCard(paths.caseStudy, "案例", "用同主題案例練習判斷。")}
       </div>
     </section>
     <section class="section">

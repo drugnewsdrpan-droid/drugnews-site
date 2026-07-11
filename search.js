@@ -63,6 +63,38 @@
     return tags.filter((tag) => !/^(Dcard|Facebook|FB|方格子|免費文章|付費文章|商業分析系列|基本面系列|醫學大會|付費深度商業分析文章系列|製藥巨頭系列)$/i.test(tag));
   }
 
+  function readerFacingText(value = "") {
+    return String(value || "")
+      .replaceAll("【限時免費－", "【")
+      .replaceAll("【限時免費-", "【")
+      .replaceAll("限時免費－", "限時活動－")
+      .replaceAll("限時免費-", "限時活動-")
+      .replaceAll("【付費深度商業分析文章系列】", "【深度商業分析系列】")
+      .replaceAll("付費深度商業分析文章系列", "深度商業分析系列")
+      .replaceAll("付費專欄", "深度分析")
+      .replaceAll("付費文章", "深度分析")
+      .replaceAll("免費文章", "商業分析文")
+      .replaceAll("近期免費分析", "近期商業分析")
+      .replaceAll("免費分析", "商業分析")
+      .replaceAll("Paid Research", "In-depth Research")
+      .replaceAll("Paid Article", "In-depth Analysis")
+      .replaceAll("Free Article", "Business Analysis")
+      .replaceAll("paid research", "in-depth research")
+      .replaceAll("paid article", "in-depth article")
+      .replaceAll("free article", "business analysis");
+  }
+
+  function categoryDisplay(category = "") {
+    return readerFacingText(category);
+  }
+
+  function accessDisplay(access = "") {
+    return {
+      "免費文章": "商業分析文",
+      "付費文章": "深度分析"
+    }[access] || access || "商業分析文";
+  }
+
   function normalize(value) {
     return String(value || "")
       .toLowerCase()
@@ -181,14 +213,15 @@
     }
     list.innerHTML = items.map((item) => {
       const image = imageFor(item.image);
+      const title = readerFacingText(item.title);
       return `
       <a class="article-card${image ? " with-image" : ""}${item.external ? " external-card" : ""}" href="${escapeHtml(hrefFor(item))}"${item.external ? ' target="_blank" rel="noopener"' : ""}>
-        ${image ? `<div class="thumb-wrap"><img class="card-thumb" src="${escapeHtml(image)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy"></div>` : ""}
+        ${image ? `<div class="thumb-wrap"><img class="card-thumb" src="${escapeHtml(image)}" alt="${escapeHtml(readerFacingText(item.imageAlt || title))}" loading="lazy"></div>` : ""}
         <div class="article-card-body">
-          <div class="meta"><span>${escapeHtml(item.date)}</span><span>${escapeHtml(item.category)}</span><span>${escapeHtml(item.access || "免費文章")}</span></div>
-          <h3>${escapeHtml(item.title)}</h3>
+          <div class="meta"><span>${escapeHtml(item.date)}</span><span>${escapeHtml(categoryDisplay(item.category))}</span><span>${escapeHtml(accessDisplay(item.access))}</span></div>
+          <h3>${escapeHtml(title)}</h3>
           <p>${escapeHtml(item.summary)}</p>
-          <div class="tag-row">${visibleTags(item.tags).slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
+          <div class="tag-row">${visibleTags(item.tags).slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(readerFacingText(tag))}</span>`).join("")}</div>
         </div>
       </a>`;
     }).join("");
@@ -196,12 +229,13 @@
 
   function resultCard({ item, reasons }, index) {
     const image = imageFor(item.image);
+    const title = readerFacingText(item.title);
     return `
       <a class="article-card${image ? " with-image" : ""}${item.external ? " external-card" : ""}" href="${escapeHtml(hrefFor(item))}"${item.external ? ' target="_blank" rel="noopener"' : ""}>
-        ${image ? `<div class="thumb-wrap"><img class="card-thumb" src="${escapeHtml(image)}" alt="${escapeHtml(item.imageAlt || item.title)}" loading="lazy"></div>` : ""}
+        ${image ? `<div class="thumb-wrap"><img class="card-thumb" src="${escapeHtml(image)}" alt="${escapeHtml(readerFacingText(item.imageAlt || title))}" loading="lazy"></div>` : ""}
         <div class="article-card-body">
-          <div class="meta"><span>#${index + 1}</span><span>${escapeHtml(item.date)}</span><span>${escapeHtml(item.category)}</span><span>${escapeHtml(item.access || "免費文章")}</span></div>
-          <h3>${escapeHtml(item.title)}</h3>
+          <div class="meta"><span>#${index + 1}</span><span>${escapeHtml(item.date)}</span><span>${escapeHtml(categoryDisplay(item.category))}</span><span>${escapeHtml(accessDisplay(item.access))}</span></div>
+          <h3>${escapeHtml(title)}</h3>
           <p>${escapeHtml(item.summary)}</p>
           <div class="reason-row">${reasons.map((reason) => `<span>${escapeHtml(reason)}</span>`).join("")}</div>
         </div>

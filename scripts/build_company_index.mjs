@@ -158,7 +158,7 @@ function page(articles) {
       <a href="topics/">主題</a>
       <a href="guides/">指南</a>
       <a href="team.html">團隊</a>
-      <a href="subscribe.html">付費專欄</a>
+      <a href="subscribe.html">深度分析</a>
       <a href="services.html">公司合作</a>
       <a href="en/index.html">English</a>
     </nav>
@@ -174,7 +174,7 @@ function page(articles) {
   </section>
   ${ENTITY_GROUPS.map((group) => groupSection(group, articles)).join("\n")}
 </main>
-<footer class="site-footer"><div class="container footer-grid"><div><strong>Drugnews｜藥時事</strong><p>生技醫藥商業分析文章媒體。</p></div><div><a href="about.html">關於 / 編輯標準</a><a href="articles/">文章</a><a href="companies.html">公司索引</a><a href="subscribe.html">付費專欄</a><a href="services.html">公司合作</a></div></div></footer>
+<footer class="site-footer"><div class="container footer-grid"><div><strong>Drugnews｜藥時事</strong><p>生技醫藥商業分析文章媒體。</p></div><div><a href="about.html">關於 / 編輯標準</a><a href="articles/">文章</a><a href="companies.html">公司索引</a><a href="subscribe.html">深度分析</a><a href="services.html">公司合作</a></div></div></footer>
 </body>
 </html>`;
 }
