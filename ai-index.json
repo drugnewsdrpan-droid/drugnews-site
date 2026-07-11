@@ -209,6 +209,56 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+      "date": "2026-07-11",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。",
+      "image": "https://drugnews.com.tw/assets/articles/fasedienol-cns/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-11-fasedienol-cns-en.html"
+      }
+    },
+    {
+      "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+      "date": "2026-07-11",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+      "source": "Facebook",
+      "access": "免費文章",
+      "category": "商業分析系列",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "drug development",
+        "CNS drug development",
+        "social anxiety disorder",
+        "fasedienol",
+        "PALISADE-4",
+        "Vistagen"
+      ],
+      "summary": "Fasedienol's PALISADE-4 miss was not simply a failed Phase 3 headline. It exposed the core CNS drug-development problem: a beautiful mechanism and a real unmet need still have to survive subjective endpoints, placebo response, patient selection, and a commercial repositioning test.",
+      "image": "https://drugnews.com.tw/assets/articles/fasedienol-cns-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-11-fasedienol-cns.html"
+      }
+    },
+    {
       "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
       "date": "2026-07-10",
       "language": "en",
@@ -1458,60 +1508,6 @@
       "alternate_language_versions": {
         "en": "2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html"
       }
-    },
-    {
-      "title": "ADA 2026 會後深度判讀包：GLP-1 後半場，為什麼已經不是「誰減重比較多」？",
-      "date": "2026-06-16",
-      "language": "zh-Hant",
-      "url": "https://vocus.cc/article/6a2d0f86fd8978000100e761",
-      "canonical_url": "https://vocus.cc/article/6a2d0f86fd8978000100e761",
-      "source": "方格子",
-      "access": "付費文章",
-      "category": "醫學大會",
-      "tags": [
-        "retatrutide",
-        "糖尿病",
-        "BMI",
-        "減重",
-        "代謝",
-        "體重",
-        "肥胖",
-        "市場",
-        "藥物",
-        "支付"
-      ],
-      "summary": "ADA 2026 會後深度判讀：從 retatrutide、口服 GLP-1、小分子 incretin、代謝共病與 CGM 照護，拆解 GLP-1 後半場如何從減重競賽走向代謝疾病平台。",
-      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a2d0f86fd8978000100e761-source.png",
-      "is_accessible_for_free": false,
-      "is_external": true,
-      "alternate_language_versions": {}
-    },
-    {
-      "title": "【商業分析】亞果生醫暴漲後，合理估值到底是多少？從三類醫材、患者池到 rNPV 重算一遍",
-      "date": "2026-06-16",
-      "language": "zh-Hant",
-      "url": "https://vocus.cc/article/6a2a61fffd89780001269792",
-      "canonical_url": "https://vocus.cc/article/6a2a61fffd89780001269792",
-      "source": "方格子",
-      "access": "付費文章",
-      "category": "基本面系列",
-      "tags": [
-        "商業",
-        "FDA",
-        "投資人",
-        "生物",
-        "美股",
-        "醫師",
-        "投資理財",
-        "長期投資",
-        "治療",
-        "醫藥"
-      ],
-      "summary": "投資理財內容聲明 本文為產業研究與估值框架分析，目的在於拆解生技醫藥公司價值驅動因子、患者池、手術池、醫材證照、通路放量、財務結構與資本市場變數，不構成任何投資建議、買賣推薦或收益保證。文中部分估值參數為藥時事模型假設，所有數字都應該隨公司財報、股本變化、上市櫃時程、證照進展、訂單放量、醫院採用與市",
-      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a2a61fffd89780001269792-source.png",
-      "is_accessible_for_free": false,
-      "is_external": true,
-      "alternate_language_versions": {}
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-10T18:22:55.360Z",
+  "generated_at": "2026-07-11T02:10:27.640Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -384,6 +384,36 @@
   ],
   "latest_canonical_articles": [
     {
+      "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+      "date": "2026-07-11",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+      "category": "商業分析系列",
+      "tags": [
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。"
+    },
+    {
+      "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+      "date": "2026-07-11",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+      "category": "商業分析系列",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "drug development",
+        "CNS drug development",
+        "social anxiety disorder",
+        "fasedienol"
+      ],
+      "summary": "Fasedienol's PALISADE-4 miss was not simply a failed Phase 3 headline. It exposed the core CNS drug-development problem: a beautiful mechanism and a real unmet need still have to survive subjective endpoints, placebo response, patient selection, and a commercial repositioning test."
+    },
+    {
       "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
       "date": "2026-07-10",
       "language": "en",
@@ -762,36 +792,6 @@
         "製藥巨頭"
       ],
       "summary": "2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。"
-    },
-    {
-      "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-      "date": "2026-06-29",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-      "category": "商業分析系列",
-      "tags": [
-        "Biotech IPO",
-        "Parabilis Medicines",
-        "Helicons",
-        "Zolucatetide",
-        "Wnt beta-catenin",
-        "Regeneron",
-        "Biotech investing",
-        "Capital markets"
-      ],
-      "summary": "Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up."
-    },
-    {
-      "title": "美股迎來史上最大 Biotech IPO",
-      "date": "2026-06-29",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
-      "category": "商業分析系列",
-      "tags": [
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。"
     }
   ],
   "do_not_use_as": [

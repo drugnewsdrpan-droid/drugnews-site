@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-10T18:22:55.360Z",
+  "generated_at": "2026-07-11T02:10:27.640Z",
   "site": {
     "@type": [
       "Organization",
@@ -121,6 +121,46 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+      "date": "2026-07-11",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。",
+      "alternate_language_versions": {
+        "en": "2026-07-11-fasedienol-cns-en.html"
+      }
+    },
+    {
+      "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+      "date": "2026-07-11",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "drug development",
+        "CNS drug development",
+        "social anxiety disorder",
+        "fasedienol",
+        "PALISADE-4",
+        "Vistagen"
+      ],
+      "summary": "Fasedienol's PALISADE-4 miss was not simply a failed Phase 3 headline. It exposed the core CNS drug-development problem: a beautiful mechanism and a real unmet need still have to survive subjective endpoints, placebo response, patient selection, and a commercial repositioning test.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-11-fasedienol-cns.html"
+      }
+    },
     {
       "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
       "date": "2026-07-10",
@@ -734,55 +774,51 @@
       "alternate_language_versions": {
         "en": "2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html"
       }
-    },
-    {
-      "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-      "date": "2026-06-26",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "GLP-1",
-        "tirzepatide",
-        "Zepbound",
-        "Taltz",
-        "Omvoh",
-        "immunometabolism",
-        "autoimmune disease",
-        "psoriasis",
-        "IBD",
-        "Eli Lilly"
-      ],
-      "summary": "Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-26-tirzepatide-autoimmune-immunometabolism.html"
-      }
-    },
-    {
-      "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
-      "date": "2026-06-26",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "GLP-1",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "它不像急性感染，用藥幾天或幾週就結束。類風濕性關節炎、乾癬、乾癬性關節炎、發炎性腸道疾病、氣喘、異位性皮膚炎，這些疾病往往跟著患者一輩子。",
-      "alternate_language_versions": {
-        "en": "2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html"
-      }
     }
   ],
   "entities": [
     {
+      "name": "生技投資",
+      "type": "market_topic",
+      "mentions": 34,
+      "latest_date": "2026-07-11",
+      "latest_articles": [
+        {
+          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 34,
+      "mentions": 33,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -818,47 +854,9 @@
       ]
     },
     {
-      "name": "生技投資",
-      "type": "market_topic",
-      "mentions": 33,
-      "latest_date": "2026-07-10",
-      "latest_articles": [
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "通用型 CAR-T 的 2026 從低谷回暖",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 33,
+      "mentions": 32,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -896,9 +894,15 @@
     {
       "name": "臨床數據",
       "type": "market_topic",
-      "mentions": 25,
-      "latest_date": "2026-07-10",
+      "mentions": 26,
+      "latest_date": "2026-07-11",
       "latest_articles": [
+        {
+          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
           "date": "2026-07-10",
@@ -921,12 +925,6 @@
           "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
           "date": "2026-07-07",
           "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "通用型 CAR-T 的 2026 從低谷回暖",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
           "language": "zh-Hant"
         }
       ]
@@ -973,8 +971,14 @@
       "name": "Business Analysis",
       "type": "topic",
       "mentions": 19,
-      "latest_date": "2026-07-10",
+      "latest_date": "2026-07-11",
       "latest_articles": [
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en"
+        },
         {
           "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
           "date": "2026-07-10",
@@ -997,12 +1001,6 @@
           "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
           "date": "2026-07-07",
           "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
           "language": "en"
         }
       ]
@@ -1122,44 +1120,6 @@
       ]
     },
     {
-      "name": "Big Pharma",
-      "type": "market_topic",
-      "mentions": 13,
-      "latest_date": "2026-07-07",
-      "latest_articles": [
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Capital markets",
       "type": "market_topic",
       "mentions": 13,
@@ -1193,6 +1153,44 @@
           "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
           "date": "2026-06-14",
           "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Big Pharma",
+      "type": "market_topic",
+      "mentions": 12,
+      "latest_date": "2026-07-07",
+      "latest_articles": [
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
           "language": "en"
         }
       ]
@@ -1236,6 +1234,44 @@
       ]
     },
     {
+      "name": "Taiwan biotech",
+      "type": "topic",
+      "mentions": 11,
+      "latest_date": "2026-07-11",
+      "latest_articles": [
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Obesity medicine",
       "type": "topic",
       "mentions": 11,
@@ -1274,11 +1310,17 @@
       ]
     },
     {
-      "name": "Taiwan biotech",
-      "type": "topic",
+      "name": "clinical data",
+      "type": "market_topic",
       "mentions": 10,
-      "latest_date": "2026-07-10",
+      "latest_date": "2026-07-11",
       "latest_articles": [
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en"
+        },
         {
           "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
           "date": "2026-07-10",
@@ -1302,11 +1344,43 @@
           "date": "2026-07-07",
           "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "drug development",
+      "type": "topic",
+      "mentions": 10,
+      "latest_date": "2026-07-11",
+      "latest_articles": [
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en"
         },
         {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
           "language": "en"
         }
       ]
@@ -1388,49 +1462,17 @@
       ]
     },
     {
-      "name": "clinical data",
-      "type": "market_topic",
-      "mentions": 9,
-      "latest_date": "2026-07-10",
-      "latest_articles": [
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "drug development",
+      "name": "biotech business analysis",
       "type": "topic",
       "mentions": 9,
-      "latest_date": "2026-07-10",
+      "latest_date": "2026-07-11",
       "latest_articles": [
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en"
+        },
         {
           "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
           "date": "2026-07-10",
@@ -1453,12 +1495,6 @@
           "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
           "date": "2026-07-07",
           "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
           "language": "en"
         }
       ]
@@ -1578,49 +1614,55 @@
       ]
     },
     {
-      "name": "CNS",
-      "type": "topic",
-      "mentions": 9,
-      "latest_date": "2026-06-02",
+      "name": "biotech valuation",
+      "type": "market_topic",
+      "mentions": 8,
+      "latest_date": "2026-07-11",
       "latest_articles": [
         {
-          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
           "language": "en"
         },
         {
-          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
           "language": "en"
         },
         {
-          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
           "language": "en"
         },
         {
-          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
-          "language": "zh-Hant"
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
         }
       ]
     },
     {
-      "name": "biotech business analysis",
+      "name": "Free Article",
       "type": "topic",
-      "mentions": 8,
-      "latest_date": "2026-07-10",
+      "mentions": 7,
+      "latest_date": "2026-07-11",
       "latest_articles": [
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en"
+        },
         {
           "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
           "date": "2026-07-10",
@@ -1643,50 +1685,6 @@
           "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
           "date": "2026-07-07",
           "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "biotech valuation",
-      "type": "market_topic",
-      "mentions": 7,
-      "latest_date": "2026-07-09",
-      "latest_articles": [
-        {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
           "language": "en"
         }
       ]
@@ -1730,40 +1728,40 @@
       ]
     },
     {
-      "name": "Free Article",
+      "name": "CNS",
       "type": "topic",
-      "mentions": 6,
-      "latest_date": "2026-07-10",
+      "mentions": 7,
+      "latest_date": "2026-06-02",
       "latest_articles": [
         {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
           "language": "en"
         },
         {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
+          "date": "2026-05-24",
+          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
           "language": "en"
         },
         {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "title": "OX2R 爆紅：從發作性嗜睡症，到下一代 CNS 藥物想像空間",
+          "date": "2026-05-24",
+          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
           "language": "en"
         },
         {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
+          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1920,44 +1918,6 @@
       ]
     },
     {
-      "name": "Pfizer",
-      "type": "company",
-      "mentions": 5,
-      "latest_date": "2026-06-22",
-      "latest_articles": [
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "HIV 新藥很好賺呀...吉利德財報披露",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "大藥廠 輝瑞在兩個判斷上栽跟頭？",
-          "date": "2026-05-18",
-          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "中樞神經新藥要靠「神經發炎」？",
-          "date": "2026-05-13",
-          "url": "https://drugnews.com.tw/articles/2026-05-13-neuroinflammation-cns-drug-comeback.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Company Research",
       "type": "topic",
       "mentions": 5,
@@ -2029,6 +1989,38 @@
           "title": "How PharmaEssentia's Besremi Opens a Larger Valuation Imagination",
           "date": "2026-05-14",
           "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "biotech investing",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-07-11",
+      "latest_articles": [
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
           "language": "en"
         }
       ]
@@ -2130,6 +2122,38 @@
       ]
     },
     {
+      "name": "Pfizer",
+      "type": "company",
+      "mentions": 4,
+      "latest_date": "2026-06-22",
+      "latest_articles": [
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "HIV 新藥很好賺呀...吉利德財報披露",
+          "date": "2026-05-19",
+          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "大藥廠 輝瑞在兩個判斷上栽跟頭？",
+          "date": "2026-05-18",
+          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Immunology",
       "type": "topic",
       "mentions": 4,
@@ -2190,32 +2214,6 @@
           "date": "2026-05-14",
           "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "biotech investing",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-07-10",
-      "latest_articles": [
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en"
         }
       ]
     },
@@ -3072,6 +3070,38 @@
   ],
   "market_attention_signals": [
     {
+      "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+      "date": "2026-07-11",
+      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+      "language": "zh-Hant",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "臨床數據",
+        "生技投資"
+      ],
+      "summary": "一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。"
+    },
+    {
+      "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+      "date": "2026-07-11",
+      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+      "language": "en",
+      "category": "商業分析系列",
+      "access": "免費文章",
+      "tags": [
+        "Business Analysis",
+        "Free Article",
+        "biotech business analysis",
+        "Taiwan biotech",
+        "drug development",
+        "CNS drug development",
+        "social anxiety disorder",
+        "fasedienol"
+      ],
+      "summary": "Fasedienol's PALISADE-4 miss was not simply a failed Phase 3 headline. It exposed the core CNS drug-development problem: a beautiful mechanism and a real unmet need still have to survive subjective endpoints, placebo response, patient selection, and a commercial repositioning test."
+    },
+    {
       "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
       "date": "2026-07-10",
       "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
@@ -3576,40 +3606,6 @@
         "BD"
       ],
       "summary": "胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。"
-    },
-    {
-      "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-      "date": "2026-06-26",
-      "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-      "language": "en",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "GLP-1",
-        "tirzepatide",
-        "Zepbound",
-        "Taltz",
-        "Omvoh",
-        "immunometabolism",
-        "autoimmune disease",
-        "psoriasis"
-      ],
-      "summary": "Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases."
-    },
-    {
-      "title": "神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？",
-      "date": "2026-06-26",
-      "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html",
-      "language": "zh-Hant",
-      "category": "商業分析系列",
-      "access": "免費文章",
-      "tags": [
-        "GLP-1",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "它不像急性感染，用藥幾天或幾週就結束。類風濕性關節炎、乾癬、乾癬性關節炎、發炎性腸道疾病、氣喘、異位性皮膚炎，這些疾病往往跟著患者一輩子。"
     }
   ]
 }

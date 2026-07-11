@@ -6,12 +6,24 @@
   const areaFilter = document.getElementById("areaFilter");
   const phaseFilter = document.getElementById("phaseFilter");
   const resultFilter = document.getElementById("resultFilter");
+  const marketFilter = document.getElementById("marketFilter");
+  const evidenceFilter = document.getElementById("evidenceFilter");
   const resetButton = document.getElementById("resetFilters");
+  const resetDirectoryButton = document.getElementById("resetDirectoryFilters");
   const resultCount = document.getElementById("trialResultCount");
+  const sortLabel = document.getElementById("trialSortLabel");
   const companyJump = document.getElementById("trialCompanyJump");
+  const companyJumpWrap = document.getElementById("trialCompanyJumpWrap");
+  const companyDirectory = document.getElementById("companyDirectory");
   const companyList = document.getElementById("trialCompanyList");
+  const loadMoreButton = document.getElementById("loadMoreCompanies");
   const emptyState = document.getElementById("trialEmpty");
-  let dataset = null;
+  const modeButtons = [...document.querySelectorAll("[data-database-view]")];
+  const filterPanels = [...document.querySelectorAll("[data-filter-panel]")];
+  let clinicalDataset = null;
+  let universeDataset = null;
+  let currentView = "directory";
+  let directoryLimit = 48;
 
   function updateHeader() {
     header?.classList.toggle("preview-condensed", window.scrollY > 20);
@@ -52,6 +64,47 @@
     const dd = element("dd", "", description);
     wrapper.append(dt, dd);
     return wrapper;
+  }
+
+  function createDirectoryCard(company) {
+    const article = element("article", "directory-company");
+    const heading = element("div", "directory-company-heading");
+    heading.append(
+      element("span", "directory-ticker", company.ticker),
+      element("span", `directory-market is-${company.marketCode.toLowerCase()}`, company.market)
+    );
+    const name = element("h2", "", company.company);
+    const fullName = element("p", "directory-full-name", company.fullName);
+    const meta = element("div", "directory-company-meta");
+    if (company.listingDate) meta.append(element("span", "", `${company.market}日期 ${company.listingDate}`));
+    if (company.hasClinicalEvidence) {
+      const evidence = element("span", "is-verified", `${company.clinicalAssetCount} 筆臨床證據`);
+      evidence.prepend(icon("badge-check"));
+      meta.append(evidence);
+    }
+    if (company.relatedArticleCount) meta.append(element("span", "is-article", `${company.relatedArticleCount} 篇 Drugnews 分析`));
+
+    const actions = element("div", "directory-company-actions");
+    if (company.hasClinicalEvidence) {
+      const detailButton = element("button", "directory-primary-action", "臨床與估值");
+      detailButton.type = "button";
+      detailButton.dataset.clinicalTicker = company.ticker;
+      detailButton.append(icon("arrow-right"));
+      actions.append(detailButton);
+    }
+    if (company.officialWebsite) {
+      const website = element("a");
+      website.href = company.officialWebsite;
+      website.target = "_blank";
+      website.rel = "noopener";
+      website.className = "directory-website-action";
+      website.title = `${company.company} 官方網站`;
+      website.setAttribute("aria-label", `${company.company} 官方網站`);
+      website.append(icon("external-link"));
+      actions.append(website);
+    }
+    article.append(heading, name, fullName, meta, actions);
+    return article;
   }
 
   function createCompany(company, trials, checkedDate) {
@@ -192,8 +245,65 @@
     return false;
   }
 
+  function directorySearchText(company) {
+    const clinicalCompany = clinicalDataset.companies.find((item) => item.ticker === company.ticker);
+    const clinicalText = clinicalCompany
+      ? clinicalCompany.trials.map((trial) => trialSearchText(clinicalCompany, trial)).join(" ")
+      : "";
+    return normalize([
+      company.ticker,
+      company.company,
+      company.fullName,
+      company.market,
+      company.marketCode,
+      company.industry,
+      clinicalText
+    ].join(" "));
+  }
+
+  function renderDirectory() {
+    if (!universeDataset || !clinicalDataset) return;
+    const query = normalize(search.value);
+    const market = marketFilter.value;
+    const evidence = evidenceFilter.value;
+    const matchingCompanies = universeDataset.companies.filter((company) => {
+      const matchesQuery = !query || directorySearchText(company).includes(query);
+      const matchesMarket = market === "all" || company.marketCode === market;
+      const matchesEvidence = evidence === "all"
+        || (evidence === "verified" && company.hasClinicalEvidence)
+        || (evidence === "articles" && company.relatedArticleCount > 0);
+      return matchesQuery && matchesMarket && matchesEvidence;
+    });
+    const visibleCompanies = matchingCompanies.slice(0, directoryLimit);
+    companyDirectory.replaceChildren(...visibleCompanies.map(createDirectoryCard));
+    resultCount.textContent = `找到 ${matchingCompanies.length} 家公司，目前顯示 ${visibleCompanies.length} 家`;
+    loadMoreButton.hidden = visibleCompanies.length >= matchingCompanies.length;
+    emptyState.hidden = matchingCompanies.length !== 0;
+    window.lucide?.createIcons();
+  }
+
   function render() {
-    if (!dataset) return;
+    if (currentView === "directory") renderDirectory();
+    else renderClinical();
+  }
+
+  function setView(view, preserveQuery = true) {
+    currentView = view;
+    directoryLimit = 48;
+    if (!preserveQuery) search.value = "";
+    modeButtons.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.databaseView === view)));
+    filterPanels.forEach((panel) => { panel.hidden = panel.dataset.filterPanel !== view; });
+    companyDirectory.hidden = view !== "directory";
+    loadMoreButton.parentElement.hidden = view !== "directory";
+    document.querySelector(".directory-source").hidden = view !== "directory";
+    companyList.hidden = view !== "clinical";
+    companyJumpWrap.hidden = view !== "clinical";
+    sortLabel.textContent = view === "directory" ? "來源：官方生技醫療業公司清單" : "排序：股票代號";
+    render();
+  }
+
+  function renderClinical() {
+    if (!clinicalDataset) return;
     const query = normalize(search.value);
     const area = areaFilter.value;
     const phase = phaseFilter.value;
@@ -201,7 +311,7 @@
     const matchingCompanies = [];
     let matchingTrials = 0;
 
-    dataset.companies.forEach((company) => {
+    clinicalDataset.companies.forEach((company) => {
       const trials = company.trials.filter((trial) => {
         const matchesQuery = !query || trialSearchText(company, trial).includes(query);
         const matchesArea = area === "all" || company.therapeuticAreas.includes(area);
@@ -216,7 +326,7 @@
     });
 
     matchingCompanies.sort((a, b) => Number(a.company.ticker) - Number(b.company.ticker));
-    companyList.replaceChildren(...matchingCompanies.map(({ company, trials }) => createCompany(company, trials, dataset.asOf)));
+    companyList.replaceChildren(...matchingCompanies.map(({ company, trials }) => createCompany(company, trials, clinicalDataset.asOf)));
     companyJump.replaceChildren(...matchingCompanies.map(({ company }) => {
       const link = element("a", "", `${company.ticker} ${company.company}`);
       link.href = `#${company.id}`;
@@ -228,19 +338,30 @@
   }
 
   function populateFilters() {
-    const areas = [...new Set(dataset.companies.flatMap((company) => company.therapeuticAreas))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
+    const areas = [...new Set(clinicalDataset.companies.flatMap((company) => company.therapeuticAreas))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
     areas.forEach((area) => {
       const option = element("option", "", area);
       option.value = area;
       areaFilter.append(option);
     });
-    const trialCount = dataset.companies.reduce((sum, company) => sum + company.trials.length, 0);
-    document.getElementById("companyMetric").textContent = dataset.companies.length;
+    const trialCount = clinicalDataset.companies.reduce((sum, company) => sum + company.trials.length, 0);
+    document.getElementById("universeMetric").textContent = universeDataset.counts.total;
+    document.getElementById("companyMetric").textContent = clinicalDataset.companies.length;
     document.getElementById("trialMetric").textContent = trialCount;
-    document.getElementById("updatedMetric").textContent = dataset.asOf.slice(5).replace("-", ".");
+    document.getElementById("updatedMetric").textContent = universeDataset.asOf.slice(5).replace("-", ".");
+    document.getElementById("directoryModeCount").textContent = universeDataset.counts.total;
+    document.getElementById("clinicalModeCount").textContent = clinicalDataset.companies.length;
   }
 
-  [search, areaFilter, phaseFilter, resultFilter].forEach((control) => control.addEventListener(control === search ? "input" : "change", render));
+  search.addEventListener("input", () => {
+    directoryLimit = 48;
+    render();
+  });
+  [areaFilter, phaseFilter, resultFilter, marketFilter, evidenceFilter].forEach((control) => control.addEventListener("change", () => {
+    directoryLimit = 48;
+    render();
+  }));
+  modeButtons.forEach((button) => button.addEventListener("click", () => setView(button.dataset.databaseView)));
   resetButton.addEventListener("click", () => {
     search.value = "";
     areaFilter.value = "all";
@@ -249,16 +370,40 @@
     render();
     search.focus();
   });
+  resetDirectoryButton.addEventListener("click", () => {
+    search.value = "";
+    marketFilter.value = "all";
+    evidenceFilter.value = "all";
+    directoryLimit = 48;
+    render();
+    search.focus();
+  });
+  loadMoreButton.addEventListener("click", () => {
+    directoryLimit += 48;
+    renderDirectory();
+  });
+  companyDirectory.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-clinical-ticker]");
+    if (!button) return;
+    search.value = button.dataset.clinicalTicker;
+    setView("clinical");
+    document.querySelector(".trial-tools")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
 
-  fetch("data/taiwan-biotech-clinical.json", { cache: "no-store" })
-    .then((response) => {
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      return response.json();
+  Promise.all([
+    fetch("data/taiwan-biotech-universe.json", { cache: "no-store" }),
+    fetch("data/taiwan-biotech-clinical.json", { cache: "no-store" })
+  ])
+    .then(async ([universeResponse, clinicalResponse]) => {
+      if (!universeResponse.ok) throw new Error(`Universe HTTP ${universeResponse.status}`);
+      if (!clinicalResponse.ok) throw new Error(`Clinical HTTP ${clinicalResponse.status}`);
+      return Promise.all([universeResponse.json(), clinicalResponse.json()]);
     })
-    .then((data) => {
-      dataset = data;
+    .then(([universe, clinical]) => {
+      universeDataset = universe;
+      clinicalDataset = clinical;
       populateFilters();
-      render();
+      setView("directory");
     })
     .catch(() => {
       resultCount.textContent = "資料載入失敗，請重新整理頁面。";

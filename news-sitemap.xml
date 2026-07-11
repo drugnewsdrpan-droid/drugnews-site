@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-11T01:49:15.886Z</news:publication_date>
+      <news:title>社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-11T01:49:00.000Z</news:publication_date>
+      <news:title>Fasedienol&apos;s Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html</loc>
     <news:news>
       <news:publication>
@@ -20,28 +42,6 @@
       </news:publication>
       <news:publication_date>2026-07-10T01:49:00.000Z</news:publication_date>
       <news:title>痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-09T01:30:00.000Z</news:publication_date>
-      <news:title>Why Has Japan Struggled to Build Global-Scale Biotech Companies?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-09T01:30:00.000Z</news:publication_date>
-      <news:title>日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態</news:title>
     </news:news>
   </url>
 </urlset>

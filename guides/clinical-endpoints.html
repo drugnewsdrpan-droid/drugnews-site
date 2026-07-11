@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../science-media.css?v=20260711">
   <link rel="stylesheet" href="investor-academy.css?v=20260711">
-  <link rel="stylesheet" href="lesson.css?v=20260711">
+  <link rel="stylesheet" href="lesson.css?v=20260711-2">
   <meta property="og:title" content="臨床終點怎麼看：ORR、PFS、OS、HR">
   <meta property="og:description" content="用互動圖解建立臨床數據判讀順序，不把腫瘤縮小誤讀成一定能延長生命。">
   <meta property="og:type" content="article">
@@ -73,7 +73,10 @@
           <button id="tab-hr" type="button" role="tab" aria-selected="false" aria-controls="endpointPanel" data-endpoint="hr">HR<span>事件風險</span></button>
         </div>
         <div class="endpoint-stage" id="endpointPanel" role="tabpanel" aria-labelledby="tab-orr">
-          <canvas id="endpointCanvas" role="img" aria-label="臨床終點概念示意圖"></canvas>
+          <svg id="endpointVisual" viewBox="0 0 760 420" role="img" aria-labelledby="endpointVisualSvgTitle endpointVisualSvgDescription" preserveAspectRatio="xMidYMid meet">
+            <title id="endpointVisualSvgTitle">ORR 臨床終點概念圖</title>
+            <desc id="endpointVisualSvgDescription">以四位示意病人的治療前與影像評估結果，說明客觀反應率如何觀察腫瘤縮小。</desc>
+          </svg>
           <div class="endpoint-stage-overlay" aria-hidden="true"><span id="endpointVisualKicker">WHAT IT MEASURES</span><strong id="endpointVisualTitle">腫瘤有沒有縮小</strong></div>
         </div>
         <aside class="endpoint-explanation" aria-live="polite">

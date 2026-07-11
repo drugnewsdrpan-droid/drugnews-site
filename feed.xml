@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 10 Jul 2026 02:38:26 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 02:10:27 GMT</lastBuildDate>
+    <item>
+      <title>社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格</title>
+      <link>https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html</guid>
+      <pubDate>Sat, 11 Jul 2026 01:49:15 GMT</pubDate>
+      <category>商業分析系列</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/fasedienol-cns/cover.png" alt="Fasedienol 鼻噴劑、CNS 神經迴路與臨床證據閘門的無文字科學封面"></p><p>一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。</p>]]></description>
+    </item>
     <item>
       <title>痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度</title>
       <link>https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Wed, 17 Jun 2026 01:30:00 GMT</pubDate>
       <category>商業分析系列</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/glp1-head-to-head-ecnoglutide-wegovy/cover-generated.svg" alt="GLP-1 頭對頭競爭與代謝健康管理專題封面"></p><p>ADA 2026 剛落幕，GLP-1 賽道又被一組頭對頭資料點燃。Ecnoglutide 在 20 週減重數字上勝出，但真正的競爭不只看短期體重下降，而是長期健康結局、耐受性、產品矩陣與全球商業化。</p>]]></description>
-    </item>
-    <item>
-      <title>禮來 38 億美元買三家疫苗公司：減肥藥巨頭，為什麼突然回頭買「預防醫學」？</title>
-      <link>https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html</guid>
-      <pubDate>Tue, 16 Jun 2026 03:00:00 GMT</pubDate>
-      <category>商業分析系列</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/lilly-vaccine-acquisitions-prevention-medicine/cover-generated.png" alt="禮來用 GLP-1 現金流布局疫苗與預防醫學的專題封面"></p><p>市場現在最熟悉的禮來，是 Mounjaro、Zepbound 背後那個 GLP-1 巨頭。2026 年第一季，禮來營收達到 198 億美元，年增 56%，主要動能還是來自 Mounjaro 與 Zepbound 的放量。簡單說，禮來現在手上最強的現金流，是減重與糖尿病藥物。</p>]]></description>
     </item>
   </channel>
 </rss>
