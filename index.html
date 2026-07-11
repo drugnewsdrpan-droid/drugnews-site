@@ -12,7 +12,7 @@
   <link rel="alternate" hreflang="x-default" href="https://drugnews.com.tw/">
   <link rel="icon" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="science-media.css?v=20260711-readerfirst2">
+  <link rel="stylesheet" href="science-media.css?v=20260711-cinematic1">
   <link rel="preload" as="image" href="assets/articles/fasedienol-cns/cover.png" fetchpriority="high">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="https://drugnews.com.tw/feed.xml">
   <link rel="alternate" type="application/feed+json" title="Drugnews JSON Feed" href="https://drugnews.com.tw/feed.json">
@@ -51,20 +51,19 @@
     <section class="science-evidence-hero" aria-labelledby="science-evidence-title">
       <div class="container science-evidence-stage">
         <div class="science-evidence-copy">
-          <p class="eyebrow">今日分析 · CNS 新藥</p>
-          <h1 id="science-evidence-title">Fasedienol 三期踩煞車：CNS 新藥難在哪裡？</h1>
-          <p class="science-hero-lede">Fasedienol 曾被市場期待打開社交焦慮症新市場；三期結果提醒投資人，CNS 藥物真正的門檻不是故事，而是終點、安慰劑效應與可重現性。</p>
-          <div class="science-proof-strip">
-            <span>社交焦慮症市場</span>
-            <span>CNS 三期風險</span>
-            <span>臨床終點與估值</span>
+          <p class="eyebrow">Today · 今日分析</p>
+          <h1 id="science-evidence-title">故事之外，先看證據。</h1>
+          <p class="science-hero-lede">CNS 新藥，最後要靠臨床結果定價。</p>
+          <div class="science-hero-actions">
+            <a class="button primary" href="articles/2026-07-11-fasedienol-cns.html">閱讀今日分析</a>
+            <span>Fasedienol · CNS · 三期結果</span>
           </div>
           <a class="lead-story hero-lead-story" id="lead-story" href="articles/2026-07-11-fasedienol-cns.html">
             <div class="featured-image"><img src="assets/articles/fasedienol-cns/cover.png" alt="Fasedienol 鼻噴劑、CNS 神經迴路與臨床證據閘門的無文字科學封面" loading="eager" fetchpriority="high"></div>
             <div class="lead-story-body">
               <div class="meta"><span>本日主題</span><span>商業分析系列</span></div>
-              <h2>社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格</h2>
-              <p>一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。</p>
+              <h2>社恐神藥三期踩煞車</h2>
+              <p>市場先愛上故事，臨床才追問證據。</p>
               <span class="text-link">閱讀全文</span>
             </div>
           </a>
@@ -295,7 +294,9 @@
           lead.removeAttribute("target");
           lead.removeAttribute("rel");
         }
-        lead.innerHTML = `${image ? `<div class="featured-image"><img src="${image}" alt="${first.homepageImageAlt || first.imageAlt || first.title}" fetchpriority="high"></div>` : ""}<div class="lead-story-body"><div class="meta"><span>本日主題</span><span>${first.category}</span></div><h2>${first.title}</h2><p>${first.summary}</p><span class="text-link">閱讀全文</span></div>`;
+        const compactTitle = first.homepageTitle || first.title.replace(/：.*/, "");
+        lead.setAttribute("aria-label", `閱讀今日分析：${first.title}`);
+        lead.innerHTML = `${image ? `<div class="featured-image"><img src="${image}" alt="${first.homepageImageAlt || first.imageAlt || first.title}" fetchpriority="high"></div>` : ""}<div class="lead-story-body"><div class="meta"><span>本日主題</span><span>${first.category}</span></div><h2>${compactTitle}</h2><p>${first.summary}</p><span class="text-link">閱讀全文</span></div>`;
       }
       if (briefing) {
         briefing.innerHTML = freeItems.filter((item) => !first || item.slug !== first.slug).slice(0, 4).map(item => `<a class="briefing-link" href="${item.url}"${item.external ? ' target="_blank" rel="noopener"' : ""}><span>${item.date}</span><strong>${item.title}</strong></a>`).join("");
