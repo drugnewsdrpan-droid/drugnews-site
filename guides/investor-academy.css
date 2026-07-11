@@ -298,21 +298,24 @@ body.learning-preview-page {
   position: relative;
   padding: 92px 0;
   overflow: hidden;
-  border-top: 1px solid var(--academy-line);
-  border-bottom: 1px solid var(--academy-line);
+  border-top: 1px solid rgba(175, 195, 196, 0.55);
+  border-bottom: 1px solid rgba(175, 195, 196, 0.55);
   background:
-    linear-gradient(90deg, transparent 0 49.92%, rgba(23, 111, 123, 0.055) 49.92% 50.08%, transparent 50.08%),
+    radial-gradient(circle at 88% 18%, rgba(176, 103, 52, 0.1), transparent 26%),
+    radial-gradient(circle at 10% 82%, rgba(23, 111, 123, 0.08), transparent 28%),
+    linear-gradient(90deg, transparent 0 49.94%, rgba(23, 111, 123, 0.04) 49.94% 50.06%, transparent 50.06%),
     #fbfdfc;
 }
 
 .valuation-video-section::before {
   content: "";
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 28px;
+  bottom: 28px;
   left: 0;
-  width: max(18px, calc((100vw - 1120px) / 2));
-  background: var(--academy-teal);
+  width: max(4px, calc((100vw - 1180px) / 2));
+  max-width: 8px;
+  background: linear-gradient(180deg, transparent, rgba(23, 111, 123, 0.56), transparent);
 }
 
 .valuation-video-layout {
@@ -328,8 +331,8 @@ body.learning-preview-page {
   margin: 10px 0 20px;
   color: #082a32;
   font-family: var(--display);
-  font-size: clamp(2.15rem, 3.8vw, 3.65rem);
-  line-height: 1.08;
+  font-size: clamp(1.9rem, 3vw, 3rem);
+  line-height: 1.16;
   letter-spacing: 0;
 }
 
@@ -352,7 +355,7 @@ body.learning-preview-page {
   display: grid;
   grid-template-columns: 30px minmax(0, 1fr);
   gap: 13px;
-  padding: 17px 0;
+  padding: 15px 0;
   border-bottom: 1px solid var(--academy-line);
   color: #53696e;
   font-size: 0.87rem;
@@ -398,18 +401,18 @@ body.learning-preview-page {
   position: relative;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  border: 1px solid #7f9a9e;
-  border-radius: 4px;
+  border: 1px solid rgba(127, 154, 158, 0.7);
+  border-radius: 2px;
   background: #092d35;
-  box-shadow: 0 34px 80px rgba(8, 44, 52, 0.2);
+  box-shadow: 0 24px 64px rgba(8, 44, 52, 0.16);
 }
 
 .valuation-video-player::after {
   content: "";
   position: absolute;
-  inset: 12px;
+  inset: 0;
   z-index: 2;
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.18), transparent 24%, transparent 76%, rgba(176, 103, 52, 0.12));
   pointer-events: none;
 }
 
@@ -614,6 +617,26 @@ body.learning-preview-page {
 .curriculum-filters button[aria-pressed="true"] { border-color: #0f4d56; color: #fff; background: #0f4d56; }
 .curriculum-result { margin: 14px 0 0; color: #607378; font-size: 0.8rem; }
 
+.curriculum-plan-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(260px, 0.95fr);
+  gap: 28px;
+  align-items: center;
+  margin-top: 22px;
+  padding: 24px 26px;
+  border-left: 3px solid var(--academy-copper);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 16px 42px rgba(9, 47, 55, 0.07);
+}
+
+.curriculum-plan-panel[hidden] { display: none; }
+.curriculum-plan-panel h3 { margin: 7px 0 8px; color: #0c3038; font-family: var(--display); font-size: clamp(1.35rem, 2.4vw, 2rem); line-height: 1.25; }
+.curriculum-plan-panel p:last-child { margin: 0; color: #5c7176; line-height: 1.68; }
+.curriculum-plan-panel nav { display: flex; flex-wrap: wrap; gap: 9px; justify-content: flex-end; }
+.curriculum-plan-panel nav a { display: inline-flex; min-height: 38px; align-items: center; padding: 0 12px; border: 1px solid #a9bdbf; color: #123f48; background: #fff; font-size: 0.8rem; font-weight: 800; text-decoration: none; }
+.curriculum-plan-panel nav a:hover,
+.curriculum-plan-panel nav a:focus-visible { border-color: var(--academy-teal); color: #fff; background: var(--academy-teal); }
+
 .curriculum-tracks { margin-top: 34px; }
 .curriculum-track { margin-bottom: 54px; scroll-margin-top: 104px; }
 .curriculum-track[hidden], .curriculum-list [data-module][hidden] { display: none; }
@@ -666,10 +689,20 @@ body.learning-preview-page {
 .curriculum-list article[data-module] {
   color: #5f7378;
   background: rgba(255, 255, 255, 0.52);
+  cursor: pointer;
+}
+
+.curriculum-list article[data-module]:hover,
+.curriculum-list article[data-module]:focus-visible {
+  z-index: 1;
+  background: #fff;
+  box-shadow: 0 14px 34px rgba(9, 47, 55, 0.07);
+  outline: 2px solid rgba(160, 82, 47, 0.24);
+  outline-offset: -2px;
 }
 
 .curriculum-list article[data-module] em {
-  color: #8a9da1;
+  color: #9a623d;
 }
 
 .curriculum-list [data-module] > span { color: #6c7f83; font-family: var(--display); font-size: 0.82rem; font-weight: 850; }
@@ -766,6 +799,8 @@ body.learning-preview-page {
   .taiwan-case-index article:hover { transform: none; }
   .curriculum-section { padding-top: 64px; }
   .curriculum-tools { padding: 20px 16px; }
+  .curriculum-plan-panel { grid-template-columns: 1fr; padding: 22px 18px; }
+  .curriculum-plan-panel nav { justify-content: flex-start; }
   .curriculum-search { grid-template-columns: 1fr; gap: 9px; }
   .curriculum-filters { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .curriculum-filters button { width: 100%; }
