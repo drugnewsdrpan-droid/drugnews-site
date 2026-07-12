@@ -197,6 +197,14 @@
     </div>`;
   }
 
+  function renderIdle() {
+    list.innerHTML = `<div class="search-idle">
+      <p class="eyebrow">Start a search</p>
+      <h3>輸入一家公司、一個資產，或一個你正在追的臨床問題。</h3>
+      <p>例如藥華藥、6446、Trogarzo、KRAS G12C、PFS、BD 授權或 rNPV。</p>
+    </div>`;
+  }
+
   function syncQueryParam(query, mode = "replace") {
     const url = new URL(location.href);
     if (query) {
@@ -276,7 +284,7 @@
     if (!q) {
       updateStatus("", 0);
       if (clear) clear.hidden = true;
-      render(readerFirstSort(records));
+      renderIdle();
       if (options.sync !== false) syncQueryParam("", options.historyMode);
       return;
     }

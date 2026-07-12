@@ -770,7 +770,10 @@ async function validateArticle(article, knownSlugs) {
   }
   knownSlugs.add(article.meta.slug);
   const plain = stripMarkdown(article.markdown);
-  if (!plain.includes("不構成") || (!plain.includes("投資") && !plain.includes("醫療"))) {
+  const hasDisclaimer = isEnglish(article.meta)
+    ? /does not constitute[^.]{0,160}(investment|medical)/i.test(plain)
+    : plain.includes("不構成") && (plain.includes("投資") || plain.includes("醫療"));
+  if (!hasDisclaimer) {
     errors.push("article.md must include an investment / medical disclaimer sentence");
   }
   for (const image of findMarkdownImages(article.markdown)) {
@@ -794,11 +797,21 @@ async function copyImages(article) {
   const imageMap = new Map();
   const targetDir = path.join(ASSETS, article.meta.slug);
   await fs.mkdir(targetDir, { recursive: true });
+  async function copyResponsiveVariants(source) {
+    const parsed = path.parse(source);
+    for (const suffix of ["720", "1400"]) {
+      const variant = path.join(parsed.dir, `${parsed.name}-${suffix}.webp`);
+      if (await exists(variant)) {
+        await fs.copyFile(variant, path.join(targetDir, path.basename(variant)));
+      }
+    }
+  }
   if (article.meta.cover_image && !/^https?:\/\//i.test(article.meta.cover_image)) {
     const fileName = path.basename(article.meta.cover_image);
     const source = path.join(article.folderPath, article.meta.cover_image);
     const target = path.join(targetDir, fileName);
     await fs.copyFile(source, target);
+    await copyResponsiveVariants(source);
     imageMap.set(article.meta.cover_image, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
   } else if (article.meta.cover_image) {
     imageMap.set(article.meta.cover_image, article.meta.cover_image);
@@ -808,6 +821,7 @@ async function copyImages(article) {
     const source = path.join(article.folderPath, article.meta.homepage_cover_image);
     const target = path.join(targetDir, fileName);
     await fs.copyFile(source, target);
+    await copyResponsiveVariants(source);
     imageMap.set(article.meta.homepage_cover_image, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
   } else if (article.meta.homepage_cover_image) {
     imageMap.set(article.meta.homepage_cover_image, article.meta.homepage_cover_image);
@@ -821,6 +835,7 @@ async function copyImages(article) {
     const fileName = path.basename(image.src);
     const target = path.join(targetDir, fileName);
     await fs.copyFile(source, target);
+    await copyResponsiveVariants(source);
     imageMap.set(image.src, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
   }
   return imageMap;
@@ -1795,7 +1810,7 @@ function searchPage(records) {
   <meta name="description" content="${escapeHtml(pageDescription)}">
   <link rel="canonical" href="${BASE_URL}/search.html">
   <link rel="icon" href="favicon.svg">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260713">
   <link rel="stylesheet" href="science-media.css?v=20260711">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
   <link rel="alternate" type="application/feed+json" title="Drugnews JSON Feed" href="${BASE_URL}/feed.json">
@@ -1846,10 +1861,12 @@ function searchPage(records) {
       <div class="container search-shell" data-search-preview>
         <section class="search-panel">
           <div class="search-bar">
-            <input class="search-input" data-search-input type="search" value="" aria-label="搜尋公司、股票代號或藥名">
-            <button class="button primary" type="button" data-search-submit>搜尋</button>
+            <svg class="search-field-icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.4-3.4"></path></svg>
+            <input class="search-input" data-search-input type="search" value="" placeholder="搜尋公司、股票代號或藥名" aria-label="搜尋公司、股票代號或藥名">
+            <button class="search-submit" type="button" data-search-submit aria-label="搜尋" title="搜尋"><svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg></button>
           </div>
           <div class="test-chips" aria-label="常用搜尋">
+            <span class="query-label">常用</span>
             <button class="chip" type="button" data-query="藥華藥">藥華藥</button>
             <button class="chip" type="button" data-query="6446">6446</button>
             <button class="chip" type="button" data-query="中裕">中裕</button>
@@ -1870,7 +1887,7 @@ function searchPage(records) {
     </section>
   </main>
   ${footerHtml()}
-  <script src="search.js?v=20260711"></script>
+  <script src="search.js?v=20260713"></script>
   <script src="science-media.js?v=20260711"></script>
 </body>
 </html>`;

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-12T10:02:39.202Z",
+  "generated_at": "2026-07-12T17:28:16.342Z",
   "site": {
     "@type": [
       "Organization",
@@ -121,6 +121,52 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+      "date": "2026-07-12",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Business Analysis",
+        "KRAS G12C",
+        "divarasib",
+        "Roche",
+        "oncology",
+        "clinical data",
+        "PFS",
+        "OS",
+        "biotech business analysis",
+        "Taiwan biotech"
+      ],
+      "summary": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-12-roche-divarasib-kras-generation.html"
+      }
+    },
+    {
+      "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+      "date": "2026-07-12",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "KRAS G12C",
+        "divarasib",
+        "Roche",
+        "腫瘤新藥",
+        "臨床數據",
+        "PFS",
+        "OS",
+        "生技投資"
+      ],
+      "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。",
+      "alternate_language_versions": {
+        "en": "2026-07-12-roche-divarasib-kras-generation-en.html"
+      }
+    },
     {
       "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
       "date": "2026-07-11",
@@ -731,49 +777,6 @@
       "alternate_language_versions": {
         "en": "2026-06-28-fda-regulatory-shift-biotech-rebound-en.html"
       }
-    },
-    {
-      "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-      "date": "2026-06-27",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Pancreatic Cancer",
-        "RAS",
-        "PRMT5",
-        "MAT2A",
-        "Synthetic Lethality",
-        "Clinical Data",
-        "Biotech Investing",
-        "BD"
-      ],
-      "summary": "Pancreatic cancer is moving into a new phase of precision combination therapy, as RAS inhibition meets MTAP-selective PRMT5 and MAT2A strategies.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html"
-      }
-    },
-    {
-      "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-      "date": "2026-06-27",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "胰臟癌",
-        "RAS",
-        "PRMT5",
-        "MAT2A",
-        "臨床數據",
-        "生技投資",
-        "BD"
-      ],
-      "summary": "胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。",
-      "alternate_language_versions": {
-        "en": "2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html"
-      }
     }
   ],
   "entities": [
@@ -781,8 +784,14 @@
       "name": "生技投資",
       "type": "market_topic",
       "mentions": 34,
-      "latest_date": "2026-07-11",
+      "latest_date": "2026-07-12",
       "latest_articles": [
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
           "date": "2026-07-11",
@@ -806,19 +815,13 @@
           "date": "2026-07-08",
           "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
         }
       ]
     },
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 33,
+      "mentions": 32,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -856,7 +859,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 32,
+      "mentions": 31,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -894,9 +897,15 @@
     {
       "name": "臨床數據",
       "type": "market_topic",
-      "mentions": 26,
-      "latest_date": "2026-07-11",
+      "mentions": 27,
+      "latest_date": "2026-07-12",
       "latest_articles": [
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
           "date": "2026-07-11",
@@ -919,12 +928,6 @@
           "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
           "date": "2026-07-08",
           "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
           "language": "zh-Hant"
         }
       ]
@@ -971,8 +974,14 @@
       "name": "Business Analysis",
       "type": "topic",
       "mentions": 19,
-      "latest_date": "2026-07-11",
+      "latest_date": "2026-07-12",
       "latest_articles": [
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
+        },
         {
           "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
           "date": "2026-07-11",
@@ -995,12 +1004,6 @@
           "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
           "date": "2026-07-08",
           "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
           "language": "en"
         }
       ]
@@ -1044,44 +1047,6 @@
       ]
     },
     {
-      "name": "FDA",
-      "type": "market_topic",
-      "mentions": 15,
-      "latest_date": "2026-07-10",
-      "latest_articles": [
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "製藥巨頭",
       "type": "market_topic",
       "mentions": 15,
@@ -1120,16 +1085,28 @@
       ]
     },
     {
-      "name": "Capital markets",
+      "name": "FDA",
       "type": "market_topic",
-      "mentions": 13,
-      "latest_date": "2026-06-29",
+      "mentions": 14,
+      "latest_date": "2026-07-10",
       "latest_articles": [
         {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
           "language": "en"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
         },
         {
           "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
@@ -1138,21 +1115,47 @@
           "language": "en"
         },
         {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Taiwan biotech",
+      "type": "topic",
+      "mentions": 12,
+      "latest_date": "2026-07-12",
+      "latest_articles": [
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
           "language": "en"
         },
         {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
           "language": "en"
         },
         {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
+          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
           "language": "en"
         }
       ]
@@ -1196,9 +1199,85 @@
       ]
     },
     {
+      "name": "Capital markets",
+      "type": "market_topic",
+      "mentions": 12,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
+          "date": "2026-06-14",
+          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "clinical data",
+      "type": "market_topic",
+      "mentions": 11,
+      "latest_date": "2026-07-12",
+      "latest_articles": [
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Regulatory risk",
       "type": "topic",
-      "mentions": 12,
+      "mentions": 11,
       "latest_date": "2026-06-28",
       "latest_articles": [
         {
@@ -1229,44 +1308,6 @@
           "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
           "date": "2026-05-22",
           "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Taiwan biotech",
-      "type": "topic",
-      "mentions": 11,
-      "latest_date": "2026-07-11",
-      "latest_articles": [
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
           "language": "en"
         }
       ]
@@ -1310,11 +1351,17 @@
       ]
     },
     {
-      "name": "clinical data",
-      "type": "market_topic",
+      "name": "biotech business analysis",
+      "type": "topic",
       "mentions": 10,
-      "latest_date": "2026-07-11",
+      "latest_date": "2026-07-12",
       "latest_articles": [
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
+        },
         {
           "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
           "date": "2026-07-11",
@@ -1337,12 +1384,6 @@
           "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
           "date": "2026-07-08",
           "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
           "language": "en"
         }
       ]
@@ -1462,82 +1503,6 @@
       ]
     },
     {
-      "name": "biotech business analysis",
-      "type": "topic",
-      "mentions": 9,
-      "latest_date": "2026-07-11",
-      "latest_articles": [
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "ADC",
-      "type": "biotech_concept_or_target",
-      "mentions": 9,
-      "latest_date": "2026-07-07",
-      "latest_articles": [
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-          "language": "en"
-        },
-        {
-          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "HIV 新藥很好賺呀...吉利德財報披露",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "CAR-T",
       "type": "biotech_concept_or_target",
       "mentions": 9,
@@ -1648,6 +1613,44 @@
           "date": "2026-07-06",
           "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "ADC",
+      "type": "biotech_concept_or_target",
+      "mentions": 8,
+      "latest_date": "2026-07-07",
+      "latest_articles": [
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
+          "language": "en"
+        },
+        {
+          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "HIV 新藥很好賺呀...吉利德財報披露",
+          "date": "2026-05-19",
+          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1956,39 +1959,33 @@
       ]
     },
     {
-      "name": "Targeted therapy",
-      "type": "topic",
-      "mentions": 5,
-      "latest_date": "2026-05-19",
+      "name": "Roche",
+      "type": "company",
+      "mentions": 4,
+      "latest_date": "2026-07-12",
       "latest_articles": [
         {
-          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
           "language": "en"
         },
         {
-          "title": "Where Pfizer Misjudged the Vepdegestrant Strategy",
-          "date": "2026-05-18",
-          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake-en.html",
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
+          "date": "2026-06-25",
+          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
           "language": "en"
         },
         {
-          "title": "Johnson & Johnson Cuts Two Autologous Lymphoma CAR-T Programs",
-          "date": "2026-05-17",
-          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Daiichi Sankyo's Most Expensive Lesson: How an ADC Capacity Bet Can Backfire After a Blockbuster",
-          "date": "2026-05-17",
-          "url": "https://drugnews.com.tw/articles/2026-05-17-daiichi-sankyo-adc-capacity-lesson-en.html",
-          "language": "en"
-        },
-        {
-          "title": "How PharmaEssentia's Besremi Opens a Larger Valuation Imagination",
-          "date": "2026-05-14",
-          "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation-en.html",
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
           "language": "en"
         }
       ]
@@ -2186,34 +2183,60 @@
       ]
     },
     {
-      "name": "藥華藥",
+      "name": "Targeted therapy",
       "type": "topic",
       "mentions": 4,
-      "latest_date": "2026-05-23",
+      "latest_date": "2026-05-19",
       "latest_articles": [
         {
-          "title": "全球生技大浪來襲：看懂五兆減肥藥的主升段與科學定價",
-          "date": "2026-05-23",
-          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend.html",
-          "language": "zh-Hant"
+          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
+          "date": "2026-05-19",
+          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
+          "language": "en"
         },
         {
-          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
-          "language": "zh-Hant"
+          "title": "Where Pfizer Misjudged the Vepdegestrant Strategy",
+          "date": "2026-05-18",
+          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake-en.html",
+          "language": "en"
         },
         {
-          "title": "AI半導體掩蓋生技光芒",
-          "date": "2026-05-21",
-          "url": "https://drugnews.com.tw/articles/2026-05-21-ai-semiconductor-biotech-capital-neglect.html",
-          "language": "zh-Hant"
+          "title": "Johnson & Johnson Cuts Two Autologous Lymphoma CAR-T Programs",
+          "date": "2026-05-17",
+          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge-en.html",
+          "language": "en"
         },
         {
-          "title": "藥華藥 打開估值想像空間",
-          "date": "2026-05-14",
-          "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation.html",
-          "language": "zh-Hant"
+          "title": "Daiichi Sankyo's Most Expensive Lesson: How an ADC Capacity Bet Can Backfire After a Blockbuster",
+          "date": "2026-05-17",
+          "url": "https://drugnews.com.tw/articles/2026-05-17-daiichi-sankyo-adc-capacity-lesson-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "oncology",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-07-12",
+      "latest_articles": [
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2322,11 +2345,17 @@
       ]
     },
     {
-      "name": "BESREMi",
+      "name": "藥華藥",
       "type": "topic",
       "mentions": 3,
-      "latest_date": "2026-05-22",
+      "latest_date": "2026-05-23",
       "latest_articles": [
+        {
+          "title": "全球生技大浪來襲：看懂五兆減肥藥的主升段與科學定價",
+          "date": "2026-05-23",
+          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
           "date": "2026-05-22",
@@ -2338,11 +2367,85 @@
           "date": "2026-05-21",
           "url": "https://drugnews.com.tw/articles/2026-05-21-ai-semiconductor-biotech-capital-neglect.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "divarasib",
+      "type": "biotech_concept_or_target",
+      "mentions": 2,
+      "latest_date": "2026-07-12",
+      "latest_articles": [
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
         },
         {
-          "title": "藥華藥 打開估值想像空間",
-          "date": "2026-05-14",
-          "url": "https://drugnews.com.tw/articles/2026-05-14-pharmaessentia-besremi-mpn-valuation.html",
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "KRAS G12C",
+      "type": "biotech_concept_or_target",
+      "mentions": 2,
+      "latest_date": "2026-07-12",
+      "latest_articles": [
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
+        },
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "OS",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-12",
+      "latest_articles": [
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
+        },
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "PFS",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-12",
+      "latest_articles": [
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
+        },
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
           "language": "zh-Hant"
         }
       ]
@@ -2544,26 +2647,6 @@
           "date": "2026-07-08",
           "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "oncology",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-07",
-      "latest_articles": [
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
-          "language": "en"
         }
       ]
     },
@@ -2968,26 +3051,6 @@
       ]
     },
     {
-      "name": "Roche",
-      "type": "company",
-      "mentions": 2,
-      "latest_date": "2026-06-25",
-      "latest_articles": [
-        {
-          "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Novo Nordisk",
       "type": "company",
       "mentions": 2,
@@ -3006,69 +3069,47 @@
           "language": "en"
         }
       ]
-    },
-    {
-      "name": "Keytruda",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-06-21",
-      "latest_articles": [
-        {
-          "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
-          "date": "2026-06-21",
-          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
-          "language": "en"
-        },
-        {
-          "title": "藥王的最佳搭檔？療效翻倍！",
-          "date": "2026-05-30",
-          "url": "https://drugnews.com.tw/articles/2026-05-30-drug-combination-efficacy-doubling.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "PD-1 VEGF",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-06-21",
-      "latest_articles": [
-        {
-          "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
-          "date": "2026-06-21",
-          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
-          "language": "en"
-        },
-        {
-          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Ecnoglutide",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-06-17",
-      "latest_articles": [
-        {
-          "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+      "date": "2026-07-12",
+      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Business Analysis",
+        "KRAS G12C",
+        "divarasib",
+        "Roche",
+        "oncology",
+        "clinical data",
+        "PFS",
+        "OS"
+      ],
+      "summary": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence."
+    },
+    {
+      "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+      "date": "2026-07-12",
+      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "KRAS G12C",
+        "divarasib",
+        "Roche",
+        "腫瘤新藥",
+        "臨床數據",
+        "PFS",
+        "OS",
+        "生技投資"
+      ],
+      "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。"
+    },
     {
       "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
       "date": "2026-07-11",
@@ -3569,43 +3610,6 @@
         "生技投資"
       ],
       "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。"
-    },
-    {
-      "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-      "date": "2026-06-27",
-      "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Pancreatic Cancer",
-        "RAS",
-        "PRMT5",
-        "MAT2A",
-        "Synthetic Lethality",
-        "Clinical Data",
-        "Biotech Investing",
-        "BD"
-      ],
-      "summary": "Pancreatic cancer is moving into a new phase of precision combination therapy, as RAS inhibition meets MTAP-selective PRMT5 and MAT2A strategies."
-    },
-    {
-      "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-      "date": "2026-06-27",
-      "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "胰臟癌",
-        "RAS",
-        "PRMT5",
-        "MAT2A",
-        "臨床數據",
-        "生技投資",
-        "BD"
-      ],
-      "summary": "胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。"
     }
   ]
 }

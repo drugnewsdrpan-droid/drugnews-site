@@ -73,6 +73,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-12｜Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race
+  URL: https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html
+  Topics: Business Analysis, KRAS G12C, divarasib, Roche, oncology
+  Summary: Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence.
+- 2026-07-12｜先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰
+  URL: https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html
+  Topics: KRAS G12C, divarasib, Roche, 腫瘤新藥, 臨床數據
+  Summary: Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。
 - 2026-07-11｜社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格
   URL: https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html
   Topics: 臨床數據, 生技投資
@@ -121,14 +129,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html
   Topics: Business Analysis, Business Analysis, biotech business analysis, Taiwan biotech, cell therapy
   Summary: Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table.
-- 2026-07-05｜半年併購 1,340 億美元：Big Pharma 到底在搶什麼？
-  URL: https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html
-  Topics: BD, 併購, 臨床數據, 生技投資, 製藥巨頭
-  Summary: 2026 年才過一半，全球製藥業的併購節奏已經快到讓人有點恍神。
-- 2026-07-05｜Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?
-  URL: https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html
-  Topics: Business Analysis, Business Analysis, biotech business analysis, Taiwan biotech, BD licensing
-  Summary: In the first half of 2026, Big Pharma's biotech M&A pace has accelerated sharply. The real question is not why large drugmakers have cash, but why they are suddenly less willing to wait.
 
 ## Key Site Sections
 

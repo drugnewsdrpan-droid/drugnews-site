@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-07-11",
+  "asOf": "2026-07-13",
   "scope": "台灣上市櫃、具有臨床或已核准創新藥／生物製劑資產的代表性公司；第一版只收錄已由公司官方資料或 ClinicalTrials.gov 交叉核實的案例。",
   "companies": [
     {
@@ -225,6 +225,50 @@
           "sourceLabel": "ClinicalTrials.gov NCT05983523",
           "sourceUrl": "https://clinicaltrials.gov/study/NCT05983523",
           "sourceDate": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "id": "obi-4174",
+      "ticker": "4174",
+      "company": "浩鼎",
+      "companyEn": "OBI Pharma",
+      "market": "TPEx",
+      "therapeuticAreas": ["腫瘤", "ADC"],
+      "valuationLens": {
+        "stage": "早期臨床 ADC＋平台選擇權",
+        "question": "OBI-902 能否用人體安全性、RP2D 與早期療效證明 GlycOBI 平台具臨床轉譯與授權價值？",
+        "nextEvidence": "劑量遞增安全性、DLT／MTD、PK、RP2D、特定腫瘤擴展隊列反應，以及 OBI-992／902 的權利與合作進展。"
+      },
+      "relatedArticles": [
+        {
+          "relation": "產業與台灣連結",
+          "access": "免費全文",
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "url": "../articles/2026-07-12-roche-divarasib-kras-generation.html"
+        },
+        {
+          "relation": "公司估值",
+          "access": "付費研究",
+          "title": "浩鼎 ADC 重估：市場買的是 TROP2 題材，還是 GlycOBI 平台選擇權？",
+          "url": "https://vocus.cc/article/6a297eadfd89780001e9cbec"
+        }
+      ],
+      "trials": [
+        {
+          "asset": "OBI-902",
+          "indication": "TROP2 陽性晚期實體瘤",
+          "phase": "Phase I / II",
+          "status": "美國與台灣招募中",
+          "resultStatus": "尚未公布結果",
+          "design": "NCT07124117；開放標籤、三部分 Phase 1/2，包含劑量遞增、擴展隊列與隨機劑量最佳化；預計 147 人",
+          "primaryEndpoint": "Phase 1a 安全性、耐受性、DLT、MTD 與 putative RP2D；後續評估安全性及初步抗腫瘤活性",
+          "result": "ClinicalTrials.gov 尚未張貼研究結果；浩鼎 2026 年 4 月公告 OBI-902 劑量遞增已進入第 4 劑量隊列（6 mg）。",
+          "endpointType": "安全性／劑量／早期療效",
+          "lesson": "一期 ADC 不能只看少數 PR；要先確認 DLT、暴露、安全窗、RP2D、腫瘤類型與反應持續性，再談平台估值。",
+          "sourceLabel": "ClinicalTrials.gov NCT07124117",
+          "sourceUrl": "https://clinicaltrials.gov/study/NCT07124117",
+          "sourceDate": "2026-01-05"
         }
       ]
     },

@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 12 Jul 2026 10:02:39 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 17:28:16 GMT</lastBuildDate>
+    <item>
+      <title>先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰</title>
+      <link>https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html</guid>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/roche-divarasib-kras-generation/cover.png" alt="divarasib 鎖定 KRAS G12C Switch-II 口袋的專業科學封面"></p><p>Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。</p>]]></description>
+    </item>
     <item>
       <title>社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格</title>
       <link>https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html</link>
@@ -24,6 +32,14 @@
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/fda-nasp/cover.png" alt="NASP 痛風新藥、尿酸結晶與生物製劑製造品質關卡的高階商業分析封面"></p><p>FDA 並未指出影響 NASP 核准可能性的臨床療效或安全性問題，真正要求補強的是 CMC 控制策略與委託製造設施缺失。這封 CRL 提醒投資人：越接近上市，製造可信度越是藥品價值的一部分。</p>]]></description>
     </item>
     <item>
+      <title>【基本面系列】泰福-KY 合理估值是多少？TX05 CRL 後，41.65 元買到的是什麼？</title>
+      <link>https://vocus.cc/article/6a4029aefd897800016e6e48</link>
+      <guid isPermaLink="true">https://vocus.cc/article/6a4029aefd897800016e6e48</guid>
+      <pubDate>Fri, 10 Jul 2026 01:00:08 GMT</pubDate>
+      <category>基本面</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a4029aefd897800016e6e48-source.webp" alt="泰福-KY、TX05 CRL 與 SOTP 估值分析"></p><p>泰福-KY 不是單純 biosimilar 題材股。這篇把 TX01、TX05、Bora Biologics、San Diego 生物製劑 CDMO、現金水位與股本稀釋拆成 SOTP，判斷 38.55 元附近是否真的便宜。</p>]]></description>
+    </item>
+    <item>
       <title>日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態</title>
       <link>https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html</link>
       <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html</guid>
@@ -32,12 +48,36 @@
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap/cover.png" alt="日本 Biotech 產業生態與全球競爭力落差的高階商業分析封面"></p><p>日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。</p>]]></description>
     </item>
     <item>
+      <title>生技公司估值不是看新聞標題：6 個會改變模型的參數</title>
+      <link>https://vocus.cc/article/6a42b340fd897800012cc406</link>
+      <guid isPermaLink="true">https://vocus.cc/article/6a42b340fd897800012cc406</guid>
+      <pubDate>Thu, 09 Jul 2026 01:00:42 GMT</pubDate>
+      <category>深度商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a42b340fd897800012cc406-source.webp" alt="會改變生技公司估值模型的 6 個參數"></p><p>新聞只告訴你發生了什麼；估值要問的是，事件究竟改變成功率、上市時間、患者池、峰值銷售、權利經濟，還是現金與稀釋風險。</p>]]></description>
+    </item>
+    <item>
       <title>GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住</title>
       <link>https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html</link>
       <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html</guid>
       <pubDate>Wed, 08 Jul 2026 01:10:35 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base/cover.png" alt="GLP-1、dorzagliatin 與長期代謝治療的高階生技商業分析封面"></p><p>GLP-1 競爭進入長期維持與聯用下半場，dorzagliatin 的價值不在取代減重藥，而是可能成為代謝治療的可持續底座。</p>]]></description>
+    </item>
+    <item>
+      <title>下週雷達｜5 個可能重算台灣 biotech 估值的全球訊號：ADC、監管、公告、BD 與資金折現率</title>
+      <link>https://vocus.cc/article/6a402ec5fd897800016f65cc</link>
+      <guid isPermaLink="true">https://vocus.cc/article/6a402ec5fd897800016f65cc</guid>
+      <pubDate>Wed, 08 Jul 2026 01:00:32 GMT</pubDate>
+      <category>深度商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a402ec5fd897800016f65cc-source.jpg" alt="5 個可能重算台灣 biotech 估值的全球訊號"></p><p>這篇不是新聞清單，而是會員版下週雷達：把 ADC、FDA／EMA、台灣公司公告、大藥廠 BD 與資金環境五個訊號，翻成會改變成功率、上市時間、峰值銷售、折現率、現金水位與 BD 機率的估值參數。</p>]]></description>
+    </item>
+    <item>
+      <title>【基本面系列】保瑞合理估值是多少？它不是 CDMO 題材股，而是台灣少數能用併購把藥品現金流做大的製藥平台</title>
+      <link>https://vocus.cc/article/6a401d9ffd897800016c1e2a</link>
+      <guid isPermaLink="true">https://vocus.cc/article/6a401d9ffd897800016c1e2a</guid>
+      <pubDate>Tue, 07 Jul 2026 01:00:00 GMT</pubDate>
+      <category>基本面</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a401d9ffd897800016c1e2a-source.jpg" alt="保瑞合理估值與製藥平台分析"></p><p>保瑞不是單純 CDMO 題材，也不是普通學名藥公司。這篇用營收、EBITDA、自由現金流、淨負債與平台倍數，重算 412 元附近到底買到什麼。</p>]]></description>
     </item>
     <item>
       <title>【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】</title>
@@ -54,6 +94,14 @@
       <pubDate>Mon, 06 Jul 2026 04:26:18 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound/cover.png" alt="通用型 CAR-T 與細胞治療普及化的高級科學封面"></p><p>邏輯很簡單：傳統自體 CAR-T 需要取出患者自己的 T 細胞，送到工廠改造、擴增、檢驗，再回輸到患者體內。療效可以很強，但等待時間長、成本高、製程複雜，病情進展太快或 T 細胞品質太差的患者，常常等不到治療。</p>]]></description>
+    </item>
+    <item>
+      <title>【事件型估值快評】浩鼎 ADC 重估：市場買的是 TROP2 題材，還是 GlycOBI 平台選擇權？</title>
+      <link>https://vocus.cc/article/6a297eadfd89780001e9cbec</link>
+      <guid isPermaLink="true">https://vocus.cc/article/6a297eadfd89780001e9cbec</guid>
+      <pubDate>Mon, 06 Jul 2026 01:00:12 GMT</pubDate>
+      <category>深度商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a297eadfd89780001e9cbec-source.jpg" alt="浩鼎 ADC 與 GlycOBI 平台估值快評"></p><p>浩鼎 ADC 重估不能只看 TROP2 題材。這篇用 OBI-992、OBI-902、GlycOBI、BD 選擇權與 SOTP，重算合理市值與上修／下修條件。</p>]]></description>
     </item>
     <item>
       <title>半年併購 1,340 億美元：Big Pharma 到底在搶什麼？</title>
@@ -158,54 +206,6 @@
       <pubDate>Wed, 24 Jun 2026 00:13:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/ai-zasocitinib-sotyktu/cover.svg" alt="AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu 專題封面"></p><p>過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…</p>]]></description>
-    </item>
-    <item>
-      <title>減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？</title>
-      <link>https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html</guid>
-      <pubDate>Mon, 22 Jun 2026 00:49:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/obesity-drug-third-place-competition/cover-generated.png" alt="減重藥第三名競爭與代謝藥物市場專題封面"></p><p>今年 ADA，也就是美國糖尿病學會年會，減重藥戰場又一次被點燃。</p>]]></description>
-    </item>
-    <item>
-      <title>默沙東 對 PD-1／VEGF 雙抗改口：Keytruda 王座還在，但下一代免疫底盤已經逼近</title>
-      <link>https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda.html</guid>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/merck-pd1-vegf-mk2010-keytruda/cover-generated.svg" alt="默沙東 對 PD-1／VEGF 雙抗改口：Keytruda 王座還在，但下一代免疫底盤已經逼近 專題封面"></p><p>在全球腫瘤藥市場裡，很少有一家公司比 Merck（默沙東）更懂 PD-1。</p>]]></description>
-    </item>
-    <item>
-      <title>【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】</title>
-      <link>https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html</guid>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/enlivex-rain-token-biotech-treasury/cover-generated.svg" alt="【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】 專題封面"></p><p>一家臨床階段 Biotech，沒有藥品銷售收入，卻在一年內做出 12 億美元級別的淨利。</p>]]></description>
-    </item>
-    <item>
-      <title>大藥廠的客氣話，真的別太當真</title>
-      <link>https://vocus.cc/article/6a2e1308fd897800013f3925</link>
-      <guid isPermaLink="true">https://vocus.cc/article/6a2e1308fd897800013f3925</guid>
-      <pubDate>Fri, 19 Jun 2026 00:00:46 GMT</pubDate>
-      <category>深度商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/pharma-giants-history-cover.svg" alt="大藥廠的客氣話，真的別太當真"></p><p>很多 台灣的生技公司 做完一場 大藥廠 一對一會議後，最容易陷入一種甜蜜誤會。 會議氣氛很好。 對方科學家頻頻點頭。 BD 問題很精準。 最後還留下一句：「Interesting, let’s discuss internally.」 然後團隊回到公司，大家開始覺得事情好像有戲。有人說對方</p>]]></description>
-    </item>
-    <item>
-      <title>GSK 用 106 億美元買下 Nuvalent：真正買的不是三條肺癌管線，而是「耐藥與腦轉移」的下一代解法</title>
-      <link>https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html</guid>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/gsk-nuvalent-lung-cancer-resistance-brain-metastasis/cover-generated.svg" alt="GSK 用 106 億美元買下 Nuvalent：真正買的不是三條肺癌管線，而是「耐藥與腦轉移」的下一代解法 專題封面"></p><p>2026 年 6 月 9 日，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元，較 Nuvalent 前一交易日收盤價溢價約 40%。這是 GSK 近年最大型的腫瘤併購之一，也讓它瞬間補上肺癌精準治療版圖中最缺的一塊。</p>]]></description>
-    </item>
-    <item>
-      <title>GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？</title>
-      <link>https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html</guid>
-      <pubDate>Wed, 17 Jun 2026 01:30:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/glp1-head-to-head-ecnoglutide-wegovy/cover-generated.svg" alt="GLP-1 頭對頭競爭與代謝健康管理專題封面"></p><p>ADA 2026 剛落幕，GLP-1 賽道又被一組頭對頭資料點燃。Ecnoglutide 在 20 週減重數字上勝出，但真正的競爭不只看短期體重下降，而是長期健康結局、耐受性、產品矩陣與全球商業化。</p>]]></description>
     </item>
   </channel>
 </rss>

@@ -75,14 +75,18 @@
           <p>深度分析的價值在於把公司公告、臨床事件與 BD 新聞翻成估值參數，而不是只重述新聞。</p>
         </div>
       </div>
-      <div class="container latest-paid-card" id="latest-paid-card">
-        <a class="article-card with-image external-card" href="https://vocus.cc/article/6a2a30f7fd89780001162667?utm_source=drugnews_site&amp;utm_medium=referral&amp;utm_campaign=paid_research&amp;utm_content=subscribe_latest_paid_card" target="_blank" rel="noopener">
-          <div class="thumb-wrap"><img class="card-thumb" src="assets/articles/external-vocus/6a2a30f7fd89780001162667-source.png" alt="管線估值：為還沒上市的未來定價，BD 最難也最值錢的一課" loading="lazy"></div>
-          <div class="article-card-body">
-            <div class="meta"><span>2026-06-11</span><span>深度商業分析系列</span><span>深度分析</span></div>
-            <h3>管線估值：為還沒上市的未來定價，BD 最難也最值錢的一課</h3>
-            <p>新藥在真正賣錢以前，市場就必須先替它定價。這篇拆解未上市管線如何影響授權、併購與投資判斷。</p>
-          </div>
+      <div class="container paid-latest-grid" id="latest-paid-card">
+        <a class="article-card with-image external-card" href="https://vocus.cc/article/6a4029aefd897800016e6e48?utm_source=drugnews_site&amp;utm_medium=referral&amp;utm_campaign=paid_research&amp;utm_content=subscribe_latest_1" target="_blank" rel="noopener">
+          <div class="thumb-wrap"><img class="card-thumb" src="assets/articles/external-vocus/6a4029aefd897800016e6e48-source.webp" alt="泰福-KY、TX05 CRL 與 SOTP 估值分析" loading="lazy" width="1200" height="713"></div>
+          <div class="article-card-body"><div class="meta"><span>2026-07-10</span><span>基本面</span></div><h3>泰福-KY 合理估值是多少？</h3><p>把 TX01、TX05、Bora Biologics、CDMO、現金水位與稀釋拆成 SOTP。</p></div>
+        </a>
+        <a class="article-card with-image external-card" href="https://vocus.cc/article/6a42b340fd897800012cc406?utm_source=drugnews_site&amp;utm_medium=referral&amp;utm_campaign=paid_research&amp;utm_content=subscribe_latest_2" target="_blank" rel="noopener">
+          <div class="thumb-wrap"><img class="card-thumb" src="assets/articles/external-vocus/6a42b340fd897800012cc406-source.webp" alt="會改變生技公司估值模型的 6 個參數" loading="lazy" width="1200" height="751"></div>
+          <div class="article-card-body"><div class="meta"><span>2026-07-09</span><span>估值框架</span></div><h3>生技公司估值不是看新聞標題</h3><p>用 6 個模型參數判斷事件是否真的改變公司價值。</p></div>
+        </a>
+        <a class="article-card with-image external-card" href="https://vocus.cc/article/6a402ec5fd897800016f65cc?utm_source=drugnews_site&amp;utm_medium=referral&amp;utm_campaign=paid_research&amp;utm_content=subscribe_latest_3" target="_blank" rel="noopener">
+          <div class="thumb-wrap"><img class="card-thumb" src="assets/articles/external-vocus/6a402ec5fd897800016f65cc-source.jpg" alt="5 個可能重算台灣 biotech 估值的全球訊號" loading="lazy"></div>
+          <div class="article-card-body"><div class="meta"><span>2026-07-08</span><span>下週雷達</span></div><h3>5 個可能重算台灣 biotech 估值的全球訊號</h3><p>把 ADC、監管、公告、BD 與資金環境翻成成功率、上市時間、峰值銷售與折現率。</p></div>
         </a>
       </div>
     </section>
@@ -147,39 +151,6 @@
     <div class="container footer-inner"><div>© 2026 Drugnews. 內容僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div><nav class="footer-links" aria-label="Footer navigation"><a href="about.html">關於 / 編輯標準</a><a href="team.html">團隊</a><a href="services.html">公司合作</a><a href="subscribe.html">深度分析</a><a href="articles/">文章</a></nav></div>
   </footer>
   <script src="science-media.js?v=20260711-release95"></script>
-  <script>
-    fetch("search-index.json", { cache: "no-store" }).then(r => r.json()).then(items => {
-      const mount = document.getElementById("latest-paid-card");
-      if (!mount) return;
-      const latest = items.find(item => item.access === "付費文章" && item.source === "方格子");
-      if (!latest) return;
-      const cleanText = (value = "") => String(value || "")
-        .replaceAll("【限時免費－", "【")
-        .replaceAll("【限時免費-", "【")
-        .replaceAll("限時免費－", "限時活動－")
-        .replaceAll("限時免費-", "限時活動-")
-        .replaceAll("付費深度商業分析文章系列", "深度商業分析系列")
-        .replaceAll("付費專欄", "深度分析")
-        .replaceAll("付費文章", "深度分析")
-        .replaceAll("免費文章", "商業分析文")
-        .replaceAll("免費分析", "商業分析");
-      const htmlText = (value = "") => cleanText(value)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#39;");
-      const image = latest.image ? latest.image.replace(/^\.\.\//, "") : "";
-      mount.innerHTML = `<a class="article-card${image ? " with-image" : ""} external-card" href="${latest.url}" target="_blank" rel="noopener">
-        ${image ? `<div class="thumb-wrap"><img class="card-thumb" src="${image}" alt="${htmlText(latest.imageAlt || latest.title)}" loading="lazy"></div>` : ""}
-        <div class="article-card-body">
-          <div class="meta"><span>${htmlText(latest.date)}</span><span>${htmlText(latest.category)}</span><span>${latest.access === "付費文章" ? "深度分析" : latest.access === "免費文章" ? "商業分析文" : htmlText(latest.access)}</span></div>
-          <h3>${htmlText(latest.title)}</h3>
-          <p>${htmlText(latest.summary)}</p>
-        </div>
-      </a>`;
-    }).catch(() => {});
-  </script>
   <script src="site-nav.js?v=20260712-1"></script>
 </body>
 </html>

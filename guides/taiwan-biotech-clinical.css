@@ -233,6 +233,10 @@
   list-style: none;
 }
 .trial-chip-list li {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
   padding: 4px 7px;
   border: 1px solid #b6c8c9;
   border-radius: 999px;
@@ -241,6 +245,7 @@
   font-size: .68rem;
   font-weight: 760;
   line-height: 1.2;
+  text-align: center;
 }
 .trial-chip-list.is-compact li { font-size: .66rem; }
 .trial-facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin: 22px 0 0; border-top: 1px solid #c6d3d4; border-left: 1px solid #c6d3d4; }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-12T10:02:39.200Z",
+  "generated_at": "2026-07-12T17:28:16.341Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -384,6 +384,42 @@
   ],
   "latest_canonical_articles": [
     {
+      "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+      "date": "2026-07-12",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "KRAS G12C",
+        "divarasib",
+        "Roche",
+        "oncology",
+        "clinical data",
+        "PFS",
+        "OS"
+      ],
+      "summary": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence."
+    },
+    {
+      "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+      "date": "2026-07-12",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+      "category": "商業分析",
+      "tags": [
+        "KRAS G12C",
+        "divarasib",
+        "Roche",
+        "腫瘤新藥",
+        "臨床數據",
+        "PFS",
+        "OS",
+        "生技投資"
+      ],
+      "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。"
+    },
+    {
       "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
       "date": "2026-07-11",
       "language": "zh-Hant",
@@ -759,39 +795,6 @@
         "瑩碩生技"
       ],
       "summary": "Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。"
-    },
-    {
-      "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-      "date": "2026-06-30",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-      "category": "商業分析",
-      "tags": [
-        "GSK",
-        "Nuvalent",
-        "Oncology",
-        "Lung cancer",
-        "ROS1",
-        "ALK",
-        "BD",
-        "M&A"
-      ],
-      "summary": "GSK's $10.6 billion all-cash acquisition of Nuvalent is more than a late-stage lung-cancer pipeline deal. It is a strategic attempt to rebuild oncology, buy time before major revenue pressure, and regain a seat at the precision-oncology table."
-    },
-    {
-      "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
-      "date": "2026-06-30",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
-      "category": "商業分析",
-      "tags": [
-        "疫苗",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。"
     }
   ],
   "do_not_use_as": [

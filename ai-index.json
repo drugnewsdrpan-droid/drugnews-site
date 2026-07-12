@@ -209,6 +209,62 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+      "date": "2026-07-12",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "KRAS G12C",
+        "divarasib",
+        "Roche",
+        "oncology",
+        "clinical data",
+        "PFS",
+        "OS",
+        "biotech business analysis",
+        "Taiwan biotech"
+      ],
+      "summary": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence.",
+      "image": "https://drugnews.com.tw/assets/articles/roche-divarasib-kras-generation-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-12-roche-divarasib-kras-generation.html"
+      }
+    },
+    {
+      "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+      "date": "2026-07-12",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "KRAS G12C",
+        "divarasib",
+        "Roche",
+        "腫瘤新藥",
+        "臨床數據",
+        "PFS",
+        "OS",
+        "生技投資"
+      ],
+      "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。",
+      "image": "https://drugnews.com.tw/assets/articles/roche-divarasib-kras-generation/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-12-roche-divarasib-kras-generation-en.html"
+      }
+    },
+    {
       "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
       "date": "2026-07-11",
       "language": "zh-Hant",
@@ -317,6 +373,28 @@
       }
     },
     {
+      "title": "【基本面系列】泰福-KY 合理估值是多少？TX05 CRL 後，41.65 元買到的是什麼？",
+      "date": "2026-07-10",
+      "language": "zh-Hant",
+      "url": "https://vocus.cc/article/6a4029aefd897800016e6e48",
+      "canonical_url": "https://vocus.cc/article/6a4029aefd897800016e6e48",
+      "source": "方格子",
+      "access": "深度分析",
+      "category": "基本面",
+      "tags": [
+        "泰福-KY",
+        "生物相似藥",
+        "CRL",
+        "CDMO",
+        "SOTP"
+      ],
+      "summary": "泰福-KY 不是單純 biosimilar 題材股。這篇把 TX01、TX05、Bora Biologics、San Diego 生物製劑 CDMO、現金水位與股本稀釋拆成 SOTP，判斷 38.55 元附近是否真的便宜。",
+      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a4029aefd897800016e6e48-source.webp",
+      "is_accessible_for_free": false,
+      "is_external": true,
+      "alternate_language_versions": {}
+    },
+    {
       "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
       "date": "2026-07-09",
       "language": "en",
@@ -375,6 +453,28 @@
       }
     },
     {
+      "title": "生技公司估值不是看新聞標題：6 個會改變模型的參數",
+      "date": "2026-07-09",
+      "language": "zh-Hant",
+      "url": "https://vocus.cc/article/6a42b340fd897800012cc406",
+      "canonical_url": "https://vocus.cc/article/6a42b340fd897800012cc406",
+      "source": "方格子",
+      "access": "商業分析",
+      "category": "深度商業分析",
+      "tags": [
+        "生技估值",
+        "rNPV",
+        "臨床成功率",
+        "上市時間",
+        "BD 授權"
+      ],
+      "summary": "新聞只告訴你發生了什麼；估值要問的是，事件究竟改變成功率、上市時間、患者池、峰值銷售、權利經濟，還是現金與稀釋風險。",
+      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a42b340fd897800012cc406-source.webp",
+      "is_accessible_for_free": false,
+      "is_external": true,
+      "alternate_language_versions": {}
+    },
+    {
       "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
       "date": "2026-07-08",
       "language": "en",
@@ -431,6 +531,50 @@
       "alternate_language_versions": {
         "en": "2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html"
       }
+    },
+    {
+      "title": "下週雷達｜5 個可能重算台灣 biotech 估值的全球訊號：ADC、監管、公告、BD 與資金折現率",
+      "date": "2026-07-08",
+      "language": "zh-Hant",
+      "url": "https://vocus.cc/article/6a402ec5fd897800016f65cc",
+      "canonical_url": "https://vocus.cc/article/6a402ec5fd897800016f65cc",
+      "source": "方格子",
+      "access": "深度分析",
+      "category": "深度商業分析",
+      "tags": [
+        "ADC",
+        "FDA",
+        "EMA",
+        "BD 授權",
+        "生技估值",
+        "資金折現率"
+      ],
+      "summary": "這篇不是新聞清單，而是會員版下週雷達：把 ADC、FDA／EMA、台灣公司公告、大藥廠 BD 與資金環境五個訊號，翻成會改變成功率、上市時間、峰值銷售、折現率、現金水位與 BD 機率的估值參數。",
+      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a402ec5fd897800016f65cc-source.jpg",
+      "is_accessible_for_free": false,
+      "is_external": true,
+      "alternate_language_versions": {}
+    },
+    {
+      "title": "【基本面系列】保瑞合理估值是多少？它不是 CDMO 題材股，而是台灣少數能用併購把藥品現金流做大的製藥平台",
+      "date": "2026-07-07",
+      "language": "zh-Hant",
+      "url": "https://vocus.cc/article/6a401d9ffd897800016c1e2a",
+      "canonical_url": "https://vocus.cc/article/6a401d9ffd897800016c1e2a",
+      "source": "方格子",
+      "access": "深度分析",
+      "category": "基本面",
+      "tags": [
+        "保瑞",
+        "CDMO",
+        "併購",
+        "自由現金流"
+      ],
+      "summary": "保瑞不是單純 CDMO 題材，也不是普通學名藥公司。這篇用營收、EBITDA、自由現金流、淨負債與平台倍數，重算 412 元附近到底買到什麼。",
+      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a401d9ffd897800016c1e2a-source.jpg",
+      "is_accessible_for_free": false,
+      "is_external": true,
+      "alternate_language_versions": {}
     },
     {
       "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
@@ -543,6 +687,28 @@
       "alternate_language_versions": {
         "zh-Hant": "2026-07-06-universal-car-t-2026-rebound.html"
       }
+    },
+    {
+      "title": "【事件型估值快評】浩鼎 ADC 重估：市場買的是 TROP2 題材，還是 GlycOBI 平台選擇權？",
+      "date": "2026-07-06",
+      "language": "zh-Hant",
+      "url": "https://vocus.cc/article/6a297eadfd89780001e9cbec",
+      "canonical_url": "https://vocus.cc/article/6a297eadfd89780001e9cbec",
+      "source": "方格子",
+      "access": "深度分析",
+      "category": "深度商業分析",
+      "tags": [
+        "浩鼎",
+        "ADC",
+        "TROP2",
+        "GlycOBI",
+        "SOTP"
+      ],
+      "summary": "浩鼎 ADC 重估不能只看 TROP2 題材。這篇用 OBI-992、OBI-902、GlycOBI、BD 選擇權與 SOTP，重算合理市值與上修／下修條件。",
+      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a297eadfd89780001e9cbec-source.jpg",
+      "is_accessible_for_free": false,
+      "is_external": true,
+      "alternate_language_versions": {}
     },
     {
       "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
@@ -1330,183 +1496,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-06-20-enlivex-rain-token-biotech-treasury-en.html"
-      }
-    },
-    {
-      "title": "大藥廠的客氣話，真的別太當真",
-      "date": "2026-06-19",
-      "language": "zh-Hant",
-      "url": "https://vocus.cc/article/6a2e1308fd897800013f3925",
-      "canonical_url": "https://vocus.cc/article/6a2e1308fd897800013f3925",
-      "source": "方格子",
-      "access": "深度分析",
-      "category": "深度商業分析",
-      "tags": [
-        "商業",
-        "FDA",
-        "投資人",
-        "生物",
-        "長期投資",
-        "投資理財",
-        "美股",
-        "醫師",
-        "治療",
-        "醫藥"
-      ],
-      "summary": "很多 台灣的生技公司 做完一場 大藥廠 一對一會議後，最容易陷入一種甜蜜誤會。 會議氣氛很好。 對方科學家頻頻點頭。 BD 問題很精準。 最後還留下一句：「Interesting, let’s discuss internally.」 然後團隊回到公司，大家開始覺得事情好像有戲。有人說對方",
-      "image": "https://drugnews.com.tw/assets/articles/external-vocus/pharma-giants-history-cover.svg",
-      "is_accessible_for_free": false,
-      "is_external": true,
-      "alternate_language_versions": {}
-    },
-    {
-      "title": "GSK's US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases",
-      "date": "2026-06-19",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "GSK",
-        "Nuvalent",
-        "Lung cancer",
-        "Precision oncology",
-        "Resistance",
-        "Brain metastases"
-      ],
-      "summary": "GSK is not merely buying three lung-cancer pipelines. It is buying a next-generation precision-oncology strategy around resistance, CNS activity, and cleaner kinase inhibition.",
-      "image": "https://drugnews.com.tw/assets/articles/gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html"
-      }
-    },
-    {
-      "title": "GSK 用 106 億美元買下 Nuvalent：真正買的不是三條肺癌管線，而是「耐藥與腦轉移」的下一代解法",
-      "date": "2026-06-19",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "AI",
-        "BD",
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "2026 年 6 月 9 日，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元，較 Nuvalent 前一交易日收盤價溢價約 40%。這是 GSK 近年最大型的腫瘤併購之一，也讓它瞬間補上肺癌精準治療版圖中最缺的一塊。",
-      "image": "https://drugnews.com.tw/assets/articles/gsk-nuvalent-lung-cancer-resistance-brain-metastasis/cover-generated.svg",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html"
-      }
-    },
-    {
-      "title": "GLP-1「頭對頭」大戰：輝瑞＆諾和諾德必有一戰？",
-      "date": "2026-06-17",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "GLP-1",
-        "肥胖藥",
-        "Ecnoglutide",
-        "Wegovy",
-        "輝瑞",
-        "諾和諾德",
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "ADA 2026 剛落幕，GLP-1 賽道又被一組頭對頭資料點燃。Ecnoglutide 在 20 週減重數字上勝出，但真正的競爭不只看短期體重下降，而是長期健康結局、耐受性、產品矩陣與全球商業化。",
-      "image": "https://drugnews.com.tw/assets/articles/glp1-head-to-head-ecnoglutide-wegovy/cover-generated.svg",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html"
-      }
-    },
-    {
-      "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-      "date": "2026-06-17",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "GLP-1",
-        "Ecnoglutide",
-        "Wegovy",
-        "Pfizer",
-        "Novo Nordisk",
-        "Obesity medicine"
-      ],
-      "summary": "Ecnoglutide's head-to-head weight-loss data versus semaglutide are interesting, but the GLP-1 race will be decided by long-term outcomes, tolerability, labels, supply, and global evidence.",
-      "image": "https://drugnews.com.tw/assets/articles/glp1-head-to-head-ecnoglutide-wegovy-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-17-glp1-head-to-head-ecnoglutide-wegovy.html"
-      }
-    },
-    {
-      "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-      "date": "2026-06-16",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Eli Lilly",
-        "Vaccines",
-        "M&A",
-        "Prevention medicine",
-        "Obesity medicine"
-      ],
-      "summary": "Lilly's vaccine acquisitions show that the company is using obesity-drug cash flow to widen its long-term disease-prevention and immunology strategy.",
-      "image": "https://drugnews.com.tw/assets/articles/lilly-vaccine-acquisitions-prevention-medicine-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html"
-      }
-    },
-    {
-      "title": "禮來 38 億美元買三家疫苗公司：減肥藥巨頭，為什麼突然回頭買「預防醫學」？",
-      "date": "2026-06-16",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "GLP-1",
-        "疫苗",
-        "感染症",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "市場現在最熟悉的禮來，是 Mounjaro、Zepbound 背後那個 GLP-1 巨頭。2026 年第一季，禮來營收達到 198 億美元，年增 56%，主要動能還是來自 Mounjaro 與 Zepbound 的放量。簡單說，禮來現在手上最強的現金流，是減重與糖尿病藥物。",
-      "image": "https://drugnews.com.tw/assets/articles/lilly-vaccine-acquisitions-prevention-medicine/cover-generated.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html"
       }
     }
   ]

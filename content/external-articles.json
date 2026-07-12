@@ -2,6 +2,107 @@
   {
     "source": "方格子",
     "access": "付費文章",
+    "title": "【基本面系列】泰福-KY 合理估值是多少？TX05 CRL 後，41.65 元買到的是什麼？",
+    "date": "2026-07-10",
+    "publish_at": "2026-07-10T01:00:08.799Z",
+    "category": "基本面系列",
+    "tags": [
+      "泰福-KY",
+      "生物相似藥",
+      "CRL",
+      "CDMO",
+      "SOTP"
+    ],
+    "summary": "泰福-KY 不是單純 biosimilar 題材股。這篇把 TX01、TX05、Bora Biologics、San Diego 生物製劑 CDMO、現金水位與股本稀釋拆成 SOTP，判斷 38.55 元附近是否真的便宜。",
+    "image": "../assets/articles/external-vocus/6a4029aefd897800016e6e48-source.webp",
+    "imageAlt": "泰福-KY、TX05 CRL 與 SOTP 估值分析",
+    "url": "https://vocus.cc/article/6a4029aefd897800016e6e48",
+    "slug": "6a4029aefd897800016e6e48"
+  },
+  {
+    "source": "方格子",
+    "access": "商業分析",
+    "title": "生技公司估值不是看新聞標題：6 個會改變模型的參數",
+    "date": "2026-07-09",
+    "publish_at": "2026-07-09T01:00:42.353Z",
+    "category": "付費深度商業分析文章系列",
+    "tags": [
+      "生技估值",
+      "rNPV",
+      "臨床成功率",
+      "上市時間",
+      "BD 授權"
+    ],
+    "summary": "新聞只告訴你發生了什麼；估值要問的是，事件究竟改變成功率、上市時間、患者池、峰值銷售、權利經濟，還是現金與稀釋風險。",
+    "image": "../assets/articles/external-vocus/6a42b340fd897800012cc406-source.webp",
+    "imageAlt": "會改變生技公司估值模型的 6 個參數",
+    "url": "https://vocus.cc/article/6a42b340fd897800012cc406",
+    "slug": "6a42b340fd897800012cc406"
+  },
+  {
+    "source": "方格子",
+    "access": "付費文章",
+    "title": "下週雷達｜5 個可能重算台灣 biotech 估值的全球訊號：ADC、監管、公告、BD 與資金折現率",
+    "date": "2026-07-08",
+    "publish_at": "2026-07-08T01:00:32.039Z",
+    "category": "付費深度商業分析文章系列",
+    "tags": [
+      "ADC",
+      "FDA",
+      "EMA",
+      "BD 授權",
+      "生技估值",
+      "資金折現率"
+    ],
+    "summary": "這篇不是新聞清單，而是會員版下週雷達：把 ADC、FDA／EMA、台灣公司公告、大藥廠 BD 與資金環境五個訊號，翻成會改變成功率、上市時間、峰值銷售、折現率、現金水位與 BD 機率的估值參數。",
+    "image": "../assets/articles/external-vocus/6a402ec5fd897800016f65cc-source.jpg",
+    "imageAlt": "5 個可能重算台灣 biotech 估值的全球訊號",
+    "url": "https://vocus.cc/article/6a402ec5fd897800016f65cc",
+    "slug": "6a402ec5fd897800016f65cc"
+  },
+  {
+    "source": "方格子",
+    "access": "付費文章",
+    "title": "【基本面系列】保瑞合理估值是多少？它不是 CDMO 題材股，而是台灣少數能用併購把藥品現金流做大的製藥平台",
+    "date": "2026-07-07",
+    "publish_at": "2026-07-07T01:00:00.033Z",
+    "category": "基本面系列",
+    "tags": [
+      "保瑞",
+      "CDMO",
+      "併購",
+      "自由現金流",
+      "基本面系列"
+    ],
+    "summary": "保瑞不是單純 CDMO 題材，也不是普通學名藥公司。這篇用營收、EBITDA、自由現金流、淨負債與平台倍數，重算 412 元附近到底買到什麼。",
+    "image": "../assets/articles/external-vocus/6a401d9ffd897800016c1e2a-source.jpg",
+    "imageAlt": "保瑞合理估值與製藥平台分析",
+    "url": "https://vocus.cc/article/6a401d9ffd897800016c1e2a",
+    "slug": "6a401d9ffd897800016c1e2a"
+  },
+  {
+    "source": "方格子",
+    "access": "付費文章",
+    "title": "【事件型估值快評】浩鼎 ADC 重估：市場買的是 TROP2 題材，還是 GlycOBI 平台選擇權？",
+    "date": "2026-07-06",
+    "publish_at": "2026-07-06T01:00:12.256Z",
+    "category": "付費深度商業分析文章系列",
+    "tags": [
+      "浩鼎",
+      "ADC",
+      "TROP2",
+      "GlycOBI",
+      "SOTP"
+    ],
+    "summary": "浩鼎 ADC 重估不能只看 TROP2 題材。這篇用 OBI-992、OBI-902、GlycOBI、BD 選擇權與 SOTP，重算合理市值與上修／下修條件。",
+    "image": "../assets/articles/external-vocus/6a297eadfd89780001e9cbec-source.jpg",
+    "imageAlt": "浩鼎 ADC 與 GlycOBI 平台估值快評",
+    "url": "https://vocus.cc/article/6a297eadfd89780001e9cbec",
+    "slug": "6a297eadfd89780001e9cbec"
+  },
+  {
+    "source": "方格子",
+    "access": "付費文章",
     "title": "【付費深度商業分析文章系列】BD 最高金額不是成交價：真正要拆的是誰承擔了風險",
     "date": "2026-06-26",
     "publish_at": "2026-06-26T01:00:30.296Z",

@@ -72,6 +72,24 @@
         updateChange: "新增：以未特定癌別的實體瘤管線示範如何避免硬塞疾病分類。"
       }
     },
+    "4174": {
+      companyType: "臨床期 ADC 新藥與平台公司",
+      businessModel: "自有 ADC 資產、平台授權與國際合作",
+      dataDepth: "Drugnews 編輯核實",
+      therapeuticAreas: ["腫瘤", "實體瘤"],
+      diseasePath: ["腫瘤", "實體瘤", "TROP2 陽性晚期實體瘤"],
+      modality: "抗體藥物複合體 ADC",
+      mechanism: "TROP2 ADC／GlycOBI 定點醣基接合平台",
+      trial: {
+        verdict: "浩鼎目前最重要的不是再多一個 ADC 故事，而是 OBI-902 能否在一期建立安全窗、RP2D 與可重複的早期療效，讓 GlycOBI 從平台敘事變成可授權的臨床資產。",
+        maturity: "D",
+        valuationVariables: ["PoS", "上市時間", "平台選擇權", "權利經濟", "成本／現金需求"],
+        keyRisks: ["安全性", "劑量選擇", "TROP2 競爭", "平台轉譯", "募資"],
+        nextCatalyst: { event: "OBI-902 Phase 1a 劑量遞增與初步臨床資料", timing: "公司目標 2027 上半年完成 Phase 1a", status: "招募中" },
+        comparators: ["已上市 TROP2 ADC", "其他次世代 TROP2 ADC", "同類 TOP1 payload ADC"],
+        updateChange: "新增：OBI-902 已進入美國與台灣 Phase 1/2；現階段只提高平台可驗證性，不預設臨床成功。"
+      }
+    },
     "4743": {
       companyType: "創新傷口照護／代謝併發症公司",
       businessModel: "自有產品、區域授權與商業化",
@@ -502,9 +520,10 @@
 
   function summarizeDesign(design) {
     if (/隨機.*雙盲|雙盲.*隨機/.test(design)) return "隨機、雙盲、對照";
+    if (/劑量遞增/.test(design) && /隨機.*劑量/.test(design)) return "早期劑量遞增；後續隨機劑量最佳化";
+    if (/3\+3|劑量遞增|加速滴定/.test(design)) return "早期劑量遞增";
     if (/隨機/.test(design)) return "隨機對照";
     if (/單臂/.test(design)) return "單臂（無隨機對照）";
-    if (/3\+3|劑量遞增|加速滴定/.test(design)) return "早期劑量遞增";
     if (/探索性/.test(design)) return "探索性試驗";
     return "依原始試驗登錄";
   }
@@ -714,7 +733,8 @@
     document.getElementById("universeMetric").textContent = universeDataset.counts.total;
     document.getElementById("companyMetric").textContent = clinicalDataset.companies.length;
     document.getElementById("trialMetric").textContent = trialCount;
-    document.getElementById("updatedMetric").textContent = universeDataset.asOf.slice(5).replace("-", ".");
+    const latestAsOf = [universeDataset.asOf, clinicalDataset.asOf].sort().at(-1);
+    document.getElementById("updatedMetric").textContent = latestAsOf.slice(5).replace("-", ".");
     document.getElementById("directoryModeCount").textContent = universeDataset.counts.total;
     document.getElementById("clinicalModeCount").textContent = clinicalDataset.companies.length;
   }
