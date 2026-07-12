@@ -25,19 +25,19 @@
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="index.html"><img src="favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
-      <nav class="nav-links" id="site-primary-nav" data-nav-links aria-label="Main navigation">
+      <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
+      <button class="nav-menu-button" type="button" aria-controls="site-nav-links" aria-expanded="false">選單</button>
+      <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
         <a href="index.html">首頁</a>
         <a href="articles/">文章</a>
+        <a href="subscribe.html" aria-current="page">深度分析</a>
+        <a href="search.html">搜尋</a>
         <a href="topics/">主題</a>
         <a href="guides/">指南</a>
         <a href="team.html">團隊</a>
-        <a href="subscribe.html" aria-current="page">深度分析</a>
         <a href="services.html">公司合作</a>
         <a href="en/subscribe.html">English</a>
       </nav>
-      <div class="nav-actions">
-        <button class="nav-menu-button" type="button" data-menu-button aria-controls="site-primary-nav" aria-expanded="false">選單</button>
-      </div>
     </div>
   </header>
 
@@ -180,5 +180,6 @@
       </a>`;
     }).catch(() => {});
   </script>
+  <script src="site-nav.js?v=20260712-1"></script>
 </body>
 </html>

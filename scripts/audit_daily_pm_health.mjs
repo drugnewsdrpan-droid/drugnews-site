@@ -393,7 +393,7 @@ function collectionPagesStatus(records = []) {
 
 function websiteSearchActionStatus() {
   const pages = [
-    ["index.html", `${BASE_URL}/articles/?q={search_term_string}`],
+    ["index.html", `${BASE_URL}/search.html?q={search_term_string}`],
     ["en/index.html", `${BASE_URL}/en/articles/?q={search_term_string}`]
   ];
   const issues = [];

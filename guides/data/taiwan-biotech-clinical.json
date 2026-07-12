@@ -36,7 +36,7 @@
           "phase": "Phase III",
           "status": "已達主要終點",
           "resultStatus": "結果已公布",
-          "design": "SURPASS-ET；比較 P1101 與 anagrelide 的三期試驗",
+          "design": "SURPASS-ET；全球多中心、隨機、開放標籤、活性對照三期試驗，比較 P1101 與 anagrelide",
           "primaryEndpoint": "持久血液學反應（durable hematologic response）",
           "result": "公司公布 P1101 組 42.9%，對照組 6.0%，p=0.0001。",
           "endpointType": "疾病反應",
@@ -246,12 +246,6 @@
           "access": "付費研究",
           "title": "逸達合理估值是多少？CAMCEVI 是現金流還是選擇權？",
           "url": "https://vocus.cc/article/6a28c7e7fd89780001e3daca"
-        },
-        {
-          "relation": "平台比較",
-          "access": "免費全文",
-          "title": "GLP-1 下半場：長期治療如何重估長效製劑能力",
-          "url": "../articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html"
         }
       ],
       "trials": [

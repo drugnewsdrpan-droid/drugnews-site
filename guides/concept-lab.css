@@ -19,7 +19,7 @@
 }
 
 .concept-lab .endpoint-stage {
-  min-height: 450px;
+  min-height: 0;
 }
 
 .concept-lab .endpoint-explanation {
@@ -28,6 +28,101 @@
 
 .concept-lab .endpoint-explanation > p {
   min-height: 9.2em;
+}
+
+.concept-lab #conceptCanvas[hidden] {
+  display: none !important;
+}
+
+.concept-generated-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #d5e2e2;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 24px 60px rgba(9, 47, 55, 0.12);
+}
+
+.concept-static-header span {
+  display: block;
+  color: var(--academy-copper);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.concept-static-header strong {
+  display: block;
+  max-width: 760px;
+  margin-top: 7px;
+  color: #0c3038;
+  font-family: var(--display);
+  font-size: clamp(1.7rem, 4vw, 3.2rem);
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.concept-static-flow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.concept-static-flow li {
+  min-height: 120px;
+  padding: 18px 16px;
+  border: 1px solid rgba(121, 161, 166, 0.58);
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 18px 40px rgba(11, 48, 56, 0.07);
+}
+
+.concept-static-flow li span {
+  display: block;
+  color: var(--academy-copper);
+  font-size: 0.72rem;
+  font-weight: 900;
+}
+
+.concept-static-flow li strong {
+  display: block;
+  margin-top: 18px;
+  color: #0d333b;
+  font-size: clamp(1rem, 1.8vw, 1.28rem);
+  line-height: 1.28;
+}
+
+.concept-static-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  border: 1px solid rgba(126, 165, 170, 0.58);
+  background: rgba(126, 165, 170, 0.58);
+}
+
+.concept-static-grid div {
+  padding: 15px 16px;
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.concept-static-grid span {
+  display: block;
+  color: var(--academy-copper);
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.concept-static-grid strong {
+  display: block;
+  margin-top: 7px;
+  color: #314f55;
+  font-size: 0.9rem;
+  line-height: 1.55;
 }
 
 .lesson-body #lessonSections > section {
@@ -110,15 +205,20 @@
 
 @media (max-width: 900px) {
   .concept-lab .endpoint-stage,
-  .concept-lab .endpoint-explanation { min-height: 400px; }
+  .concept-lab .endpoint-explanation { min-height: 0; }
   .concept-lab .endpoint-explanation > p { min-height: 0; }
+  .concept-generated-image { border-radius: 12px; }
 }
 
 @media (max-width: 680px) {
   .concept-hero h1 { font-size: 2.65rem; }
   .concept-lab .endpoint-controls { grid-template-columns: 1fr; }
   .concept-lab .endpoint-controls button { min-height: 58px; flex-direction: row; justify-content: flex-start; padding: 0 18px; }
-  .concept-lab .endpoint-stage { min-height: 340px; }
+  .concept-lab .endpoint-stage { min-height: 0; }
   .concept-lab .endpoint-explanation { min-height: 0; }
+  .concept-generated-image { border-radius: 10px; box-shadow: 0 14px 34px rgba(9, 47, 55, 0.1); }
+  .concept-static-flow,
+  .concept-static-grid { grid-template-columns: 1fr; }
+  .concept-static-flow li { min-height: 0; }
   .concept-terms > div { grid-template-columns: 1fr; }
 }

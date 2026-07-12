@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import fsSync from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
@@ -19,6 +20,27 @@ function escapeHtml(value) {
 
 function escapeXml(value) {
   return escapeHtml(value).replaceAll("&#39;", "&apos;");
+}
+
+function responsiveEnglishLeadPicture(image, alt) {
+  if (!image) return "";
+
+  const extension = path.extname(image);
+  const base = image.slice(0, -extension.length);
+  const mobile = `${base}-720.webp`;
+  const desktop = `${base}-1400.webp`;
+  const localPath = (src) => path.join(ROOT, src.replace(/^\.\.\//, ""));
+  const hasVariants = fsSync.existsSync(localPath(mobile)) && fsSync.existsSync(localPath(desktop));
+
+  if (!hasVariants) {
+    return `<img src="${escapeHtml(image)}" alt="${escapeHtml(alt)}" width="1400" height="1050" loading="eager" fetchpriority="high">`;
+  }
+
+  return `<picture>
+            <source media="(max-width: 720px)" srcset="${escapeHtml(mobile)}" type="image/webp">
+            <source srcset="${escapeHtml(mobile)} 720w, ${escapeHtml(desktop)} 1400w" sizes="(max-width: 900px) 100vw, 54vw" type="image/webp">
+            <img src="${escapeHtml(desktop)}" alt="${escapeHtml(alt)}" width="1400" height="1050" loading="eager" fetchpriority="high">
+          </picture>`;
 }
 
 function campaignUrl(url, content, campaign = "paid_research") {
@@ -132,7 +154,7 @@ function englishHomeSchema(records = []) {
 async function writeAtomic(filePath, content) {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   const temp = `${filePath}.tmp`;
-  await fs.writeFile(temp, content);
+  await fs.writeFile(temp, typeof content === "string" ? content.replace(/[ \t]+\n/g, "\n") : content);
   await fs.rename(temp, filePath);
 }
 
@@ -147,10 +169,9 @@ function header(current, depth = 1) {
     <nav class="nav-links" aria-label="Main navigation">
       <a href="${depth === 0 ? "index.html" : "../".repeat(depth - 1) + "index.html"}"${currentAttr("home")}>Home</a>
       <a href="${depth === 0 ? "articles/" : "../".repeat(depth - 1) + "articles/"}"${currentAttr("articles")}>Articles</a>
-      <a href="${depth === 0 ? "guides/" : "../".repeat(depth - 1) + "guides/"}"${currentAttr("guides")}>Guides</a>
+      <a href="${depth === 0 ? "subscribe.html" : "../".repeat(depth - 1) + "subscribe.html"}"${currentAttr("subscribe")}>Research</a>
       <a href="${depth === 0 ? "team.html" : "../".repeat(depth - 1) + "team.html"}"${currentAttr("team")}>Team</a>
-      <a href="${depth === 0 ? "subscribe.html" : "../".repeat(depth - 1) + "subscribe.html"}"${currentAttr("subscribe")}>In-depth Research</a>
-      <a href="${depth === 0 ? "services.html" : "../".repeat(depth - 1) + "services.html"}"${currentAttr("services")}>Company Services</a>
+      <a href="${depth === 0 ? "services.html" : "../".repeat(depth - 1) + "services.html"}"${currentAttr("services")}>Services</a>
       <a href="${root}index.html">中文</a>
     </nav>
   </div>
@@ -396,6 +417,11 @@ async function loadEnglishRecords() {
 function homePage(records) {
   const englishRecords = records.filter((item) => item.lang === "en");
   const lead = englishRecords.find((item) => !/anhorn|安宏/i.test(`${item.slug || ""} ${item.title || ""} ${(item.tags || []).join(" ")}`)) || englishRecords[0];
+  const leadMeta = lead
+    ? [...new Set(["Featured English Analysis", englishCategory(lead.category), englishAccess(lead.access)].filter(Boolean))]
+        .map((label) => `<span>${escapeHtml(label)}</span>`)
+        .join("")
+    : "";
   const latestLinks = englishRecords.filter((item) => item !== lead).slice(0, 4).map((item) => compactArticleLink(item, 1)).join("");
   const homeRecords = lead ? [lead, ...englishRecords.filter((item) => item !== lead).slice(0, 4)] : englishRecords.slice(0, 5);
   const leadImage = lead ? imagePath(lead, 1) : "";
@@ -423,14 +449,13 @@ function homePage(records) {
       <a href="articles/">Latest English Articles</a>
       <a href="articles/">Business Analysis</a>
       <a href="articles/">AI Drug Development</a>
-      <a href="guides/">Research Guides</a>
       <a href="subscribe.html">In-depth Research</a>
       <a href="../articles/">Chinese Archive</a>
     </div>
     <div class="container english-home-grid">
       ${lead ? `<a class="english-lead-story" href="../${escapeHtml(lead.url)}">
         <div class="english-lead-copy">
-          <div class="meta"><span>Featured English Analysis</span><span>${escapeHtml(englishCategory(lead.category))}</span><span>${escapeHtml(englishAccess(lead.access))}</span></div>
+          <div class="meta">${leadMeta}</div>
           <h2>${escapeHtml(lead.title)}</h2>
           <p>${escapeHtml(lead.summary)}</p>
           <div class="english-proof-points" aria-label="Why this article matters">
@@ -440,7 +465,7 @@ function homePage(records) {
           </div>
           <span class="text-link">Read full analysis</span>
         </div>
-        ${leadImage ? `<div class="english-lead-media"><img src="${escapeHtml(leadImage)}" alt="${escapeHtml(lead.imageAlt || lead.title)}"></div>` : ""}
+        ${leadImage ? `<div class="english-lead-media">${responsiveEnglishLeadPicture(leadImage, lead.imageAlt || lead.title)}</div>` : ""}
       </a>` : ""}
       <aside class="english-briefing-panel" aria-label="Latest English articles">
         <p class="eyebrow">English Edition</p>
@@ -469,9 +494,8 @@ function homePage(records) {
     <div class="container topic-guide">
       <div class="topic-guide-main">
         <a class="topic-row" href="articles/"><span>01</span><div><h3>Latest English Articles</h3><p>Reader-first biotech and pharmaceutical business analysis translated and edited for professional English readers.</p></div></a>
-        <a class="topic-row" href="guides/"><span>02</span><div><h3>Research Guides</h3><p>Short frameworks for reading clinical endpoints, valuation, BD terms, safety, CMC, market sizing, patents, and cash runway.</p></div></a>
-        <a class="topic-row" href="subscribe.html"><span>03</span><div><h3>In-depth Research</h3><p>Deeper company tracking and industry context for readers who need repeatable biotech business judgment.</p></div></a>
-        <a class="topic-row" href="services.html"><span>04</span><div><h3>Company Services</h3><p>Investor-facing biotech content, market storytelling, and English communication support for company teams.</p></div></a>
+        <a class="topic-row" href="subscribe.html"><span>02</span><div><h3>In-depth Research</h3><p>Deeper company tracking and industry context for readers who need repeatable biotech business judgment.</p></div></a>
+        <a class="topic-row" href="services.html"><span>03</span><div><h3>Company Services</h3><p>Investor-facing biotech content, market storytelling, and English communication support for company teams.</p></div></a>
       </div>
       <aside class="topic-guide-aside">
         <p class="eyebrow">Chinese Archive</p>
@@ -638,7 +662,8 @@ function guidesIndexPage() {
     canonicalPath: "en/guides/",
     current: "guides",
     depth: 2,
-    main: `<main><section class="page-title"><div class="container"><p class="eyebrow">Guides</p><h1>Research Guides</h1><p>Short frameworks for reading biotech and pharmaceutical companies with more discipline.</p></div></section><section class="section"><div class="container topic-guide"><div class="topic-guide-main">${rows}</div></div></section></main>`
+    extraHead: '<meta name="robots" content="noindex,follow">',
+    main: `<main><section class="page-title"><div class="container"><p class="eyebrow">Guides</p><h1>Research Guides</h1><p>The complete English guide library is being localized. Read current English analysis in the meantime.</p></div></section></main>`
   });
 }
 
@@ -647,8 +672,9 @@ function guidePage(file, label, title, text) {
     title: `${label}｜Drugnews Guides`,
     description: text,
     canonicalPath: `en/guides/${file}`,
-    current: "guides",
+    current: "",
     depth: 2,
+    extraHead: '<meta name="robots" content="noindex,follow">',
     main: `<main><section class="page-title"><div class="container"><p class="eyebrow">Research Guide</p><h1>${escapeHtml(title)}</h1><p>${escapeHtml(text)}</p></div></section><section class="section"><div class="container grid two"><div class="card"><h2>What to check first</h2><p>Start with the evidence that can change value: clinical relevance, regulatory path, competitive context, financing needs, and whether the company can reach the next milestone.</p></div><div class="card"><h2>How Drugnews uses this guide</h2><p>We apply these frameworks when writing company research, paid analysis, and client-facing content so that readers can follow the logic behind each judgment.</p></div></div></section></main>`
   });
 }
@@ -668,17 +694,14 @@ async function updateSitemap(records) {
   const enUrls = [
     ["en/", "0.9"],
     ["en/articles/", "0.8"],
-    ["en/guides/", "0.8"],
     ["en/services.html", "0.8"],
     ["en/subscribe.html", "0.7"],
     ["en/team.html", "0.7"],
-    ...guides.map(([file]) => [`en/guides/${file}`, "0.7"])
   ];
   const enLocs = new Set(enUrls.map(([loc]) => `${BASE_URL}/${loc}`));
-  if ([...enLocs].every((loc) => xml.includes(`<loc>${loc}</loc>`))) return;
   xml = xml
     .split("\n")
-    .filter((line) => ![...enLocs].some((loc) => line.includes(`<loc>${loc}</loc>`)))
+    .filter((line) => ![...enLocs].some((loc) => line.includes(`<loc>${loc}</loc>`)) && !line.includes("<loc>https://drugnews.com.tw/en/guides"))
     .join("\n");
   const additions = enUrls
     .map(([loc, priority]) => `  <url><loc>${BASE_URL}/${escapeXml(loc)}</loc>${latest ? `<lastmod>${latest}</lastmod>` : ""}<priority>${priority}</priority></url>`);

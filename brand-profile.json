@@ -6,7 +6,7 @@
   ],
   "@id": "https://drugnews.com.tw/#organization",
   "schema_version": "1.0",
-  "generated_at": "2026-07-11T11:51:51.998Z",
+  "generated_at": "2026-07-12T10:02:39.105Z",
   "name": "藥時事 Drugnews",
   "alternateName": [
     "Drugnews",
@@ -149,7 +149,7 @@
     },
     {
       "@type": "SearchAction",
-      "target": "https://drugnews.com.tw/articles/?q={search_term_string}",
+      "target": "https://drugnews.com.tw/search.html?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   ],

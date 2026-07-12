@@ -7,7 +7,8 @@
 
   let records = [];
   try {
-    const response = await fetch("../search-index.json", { cache: "no-store" });
+    const indexUrl = document.body.dataset.searchIndex || (location.pathname.includes("/articles/") ? "../search-index.json" : "search-index.json");
+    const response = await fetch(indexUrl, { cache: "no-store" });
     records = await response.json();
   } catch (error) {
     list.innerHTML = '<p class="notice">搜尋資料尚未載入，請稍後再試。</p>';
@@ -196,14 +197,14 @@
     </div>`;
   }
 
-  function syncQueryParam(query) {
+  function syncQueryParam(query, mode = "replace") {
     const url = new URL(location.href);
     if (query) {
       url.searchParams.set("q", query);
     } else {
       url.searchParams.delete("q");
     }
-    history.replaceState(null, "", url);
+    history[mode === "push" ? "pushState" : "replaceState"]({ query }, "", url);
   }
 
   function render(items, query = "") {
@@ -270,13 +271,13 @@
     status.textContent = `搜尋「${query}」：直接相關 ${count} 筆，延伸提及 ${mentionCount} 筆`;
   }
 
-  function applySearch() {
+  function applySearch(options = {}) {
     const q = input.value.trim();
     if (!q) {
       updateStatus("", 0);
       if (clear) clear.hidden = true;
       render(readerFirstSort(records));
-      syncQueryParam("");
+      if (options.sync !== false) syncQueryParam("", options.historyMode);
       return;
     }
     const ranked = records
@@ -288,18 +289,38 @@
     updateStatus(q, direct.length, mentions.length);
     if (clear) clear.hidden = !q;
     renderSearchGroups(direct, mentions, q);
-    syncQueryParam(q);
+    if (options.sync !== false) syncQueryParam(q, options.historyMode);
   }
 
   const initialQuery = new URLSearchParams(location.search).get("q");
   if (initialQuery) input.value = initialQuery;
 
-  input.addEventListener("input", applySearch);
+  input.addEventListener("input", () => applySearch({ sync: false }));
+  input.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter") return;
+    event.preventDefault();
+    applySearch({ historyMode: "push" });
+  });
+  document.querySelector("[data-search-submit]")?.addEventListener("click", () => {
+    applySearch({ historyMode: "push" });
+  });
   clear?.addEventListener("click", () => {
     input.value = "";
     input.focus();
-    applySearch();
+    applySearch({ historyMode: "push" });
+  });
+  document.querySelectorAll("[data-query]").forEach((button) => {
+    button.addEventListener("click", () => {
+      input.value = button.dataset.query || "";
+      input.focus();
+      applySearch({ historyMode: "push" });
+    });
   });
 
-  applySearch();
+  window.addEventListener("popstate", () => {
+    input.value = new URLSearchParams(location.search).get("q") || "";
+    applySearch({ sync: false });
+  });
+
+  applySearch({ sync: false });
 })();

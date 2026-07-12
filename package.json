@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "publish": "node scripts/publish_articles.mjs && node scripts/build_english_site.mjs && node scripts/build_topic_hubs.mjs && node scripts/build_company_index.mjs && node scripts/inject_analytics.mjs",
-    "publish:force": "node scripts/publish_articles.mjs --force && node scripts/build_english_site.mjs && node scripts/build_topic_hubs.mjs && node scripts/build_company_index.mjs && node scripts/inject_analytics.mjs",
+    "publish": "node scripts/publish_articles.mjs && node scripts/build_english_site.mjs && node scripts/build_topic_hubs.mjs && node scripts/build_company_index.mjs && node scripts/prerender_concept_guides.mjs && node scripts/normalize_site_headers.mjs && node scripts/inject_analytics.mjs && node scripts/audit_image_budget.mjs",
+    "publish:force": "node scripts/publish_articles.mjs --force && node scripts/build_english_site.mjs && node scripts/build_topic_hubs.mjs && node scripts/build_company_index.mjs && node scripts/prerender_concept_guides.mjs && node scripts/normalize_site_headers.mjs && node scripts/inject_analytics.mjs && node scripts/audit_image_budget.mjs",
+    "audit:image-budget": "node scripts/audit_image_budget.mjs",
     "build:topics": "node scripts/build_topic_hubs.mjs",
     "build:en": "node scripts/build_english_site.mjs",
     "build:companies": "node scripts/build_company_index.mjs",

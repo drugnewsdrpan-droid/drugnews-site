@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../science-media.css?v=20260711">
   <link rel="stylesheet" href="investor-academy.css?v=20260711">
-  <link rel="stylesheet" href="lesson.css?v=20260711">
-  <link rel="stylesheet" href="concept-lab.css?v=20260711">
+  <link rel="stylesheet" href="lesson.css?v=20260711-4">
+  <link rel="stylesheet" href="concept-lab.css?v=20260712-1">
   <meta property="og:title" content="BD 授權條款怎麼讀">
   <meta property="og:description" content="用互動時間軸拆解生技授權交易的 upfront、milestone、royalty、option 與權利範圍，判斷交易含金量與風險分配。">
   <meta property="og:type" content="article">
@@ -30,16 +30,17 @@
     <div class="container nav">
       <a class="brand" href="../index.html"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
       <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
-      <label class="nav-menu-button" for="site-nav-toggle" role="button" tabindex="0" aria-controls="preview-primary-nav" aria-expanded="false">選單</label>
-      <nav class="nav-links" id="preview-primary-nav" aria-label="Main navigation">
+      <button class="nav-menu-button" type="button" aria-controls="site-nav-links" aria-expanded="false">選單</button>
+      <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
         <a href="../index.html">首頁</a>
         <a href="../articles/">文章</a>
+        <a href="../subscribe.html">深度分析</a>
+        <a href="../search.html">搜尋</a>
         <a href="../topics/">主題</a>
         <a href="index.html" aria-current="page">指南</a>
         <a href="../team.html">團隊</a>
-        <a href="../subscribe.html">深度分析</a>
         <a href="../services.html">公司合作</a>
-        <a id="englishGuideLink" href="../en/guides/">English</a>
+        <a id="englishGuideLink" href="../en/">English</a>
       </nav>
     </div>
   </header>
@@ -48,35 +49,37 @@
     <section class="lesson-hero concept-hero">
       <div class="container lesson-hero-grid">
         <div>
-          <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">指南資料庫</a><span>/</span><span id="breadcrumbCurrent">互動教材</span></nav>
-          <p class="eyebrow" id="lessonPath">Drugnews Investor Academy</p>
-          <h1 id="lessonTitle">生技投資互動教材</h1>
-          <p class="lesson-deck" id="lessonDeck">載入中。</p>
-          <div class="lesson-meta"><span id="lessonNumber">投資入門</span><span>約 8 分鐘</span><span>互動教材</span></div>
+          <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">指南資料庫</a><span>/</span><span id="breadcrumbCurrent">BD 授權條款怎麼讀</span></nav>
+          <p class="eyebrow" id="lessonPath">Path 04 · Business Development</p>
+          <h1 id="lessonTitle">BD 授權條款怎麼讀</h1>
+          <p class="lesson-deck" id="lessonDeck">headline 總額很醒目，但真正落袋的是 upfront；真正長期影響價值的，則是里程碑難度、權利範圍與 royalty。</p>
+          <div class="lesson-meta"><span id="lessonNumber">投資入門 05</span><span>約 8 分鐘</span><span>互動教材</span></div>
         </div>
         <div class="lesson-objective">
           <span><i data-lucide="book-open-check" aria-hidden="true"></i>學完這一課，你會知道</span>
-          <ol id="lessonObjectives"></ol>
+          <ol id="lessonObjectives"><li>分辨 upfront 與總交易額</li><li>看懂 milestone 觸發條件</li><li>從權利範圍判斷交易含金量</li></ol>
         </div>
       </div>
     </section>
 
     <section class="section endpoint-lab-section concept-lab-section" id="conceptLabSection">
       <div class="container section-head academy-section-head">
-        <div><p class="eyebrow">Interactive Concept Lab</p><h2 id="labHeading">把抽象名詞變成可操作的判斷</h2></div>
-        <p id="labIntro">切換圖解，理解每個概念在投資判斷中真正改變的是哪一層。</p>
+        <div><p class="eyebrow">Concept Lab</p><h2 id="labHeading">交易不是一個數字，而是一條風險分配路徑</h2></div>
+        <p id="labIntro">把 upfront、milestone、royalty 與商業權利放回時間軸，才看得到誰承擔風險、誰保留上行。</p>
       </div>
       <div class="container endpoint-lab concept-lab" id="conceptLab">
-        <div class="endpoint-controls" id="conceptTabs" role="tablist" aria-label="概念圖解選擇"></div>
+        <div class="endpoint-controls" id="conceptTabs" role="tablist" aria-label="概念圖解選擇"><button id="concept-tab-upfront" type="button" role="tab" aria-selected="true" aria-controls="conceptPanel" data-mode-index="0" tabindex="0">簽約金<span>Upfront</span></button><button id="concept-tab-milestone" type="button" role="tab" aria-selected="false" aria-controls="conceptPanel" data-mode-index="1" tabindex="-1">里程碑<span>Milestones</span></button><button id="concept-tab-royalty" type="button" role="tab" aria-selected="false" aria-controls="conceptPanel" data-mode-index="2" tabindex="-1">權利與分潤<span>Royalty</span></button></div>
         <div class="endpoint-stage" id="conceptPanel" role="tabpanel">
-          <canvas id="conceptCanvas" role="img" aria-label="生技投資概念互動圖解"></canvas>
-          <div class="endpoint-stage-overlay" aria-hidden="true"><span>CONCEPT MODEL</span><strong id="conceptVisualTitle">概念圖解</strong></div>
+          <picture id="conceptPicture"><source media="(max-width: 680px)" srcset="../assets/guides/webp/bd-upfront-v1-720.webp"><img id="conceptVisual" class="concept-generated-image" src="../assets/guides/webp/bd-upfront-v1-1200.webp" alt="BD 授權簽約金：現金與資產權利在授權方及合作方之間流動的圖解" width="1536" height="1024" decoding="async"></picture>
+          <button class="guide-image-zoom" type="button" aria-label="放大 BD 授權圖解"><i data-lucide="zoom-in" aria-hidden="true"></i><span>放大圖解</span></button>
+          <p class="concept-mode-caption" id="conceptModeCaption">教學示意圖，非特定公司、產品、試驗結果或通用定量規格；實際判讀須回到原始資料。</p>
+          <div class="endpoint-stage-overlay" aria-hidden="true"><span>CONCEPT MODEL</span><strong id="conceptVisualTitle">最確定的錢，在交易一開始</strong></div>
         </div>
         <aside class="endpoint-explanation" aria-live="polite">
-          <span id="conceptKicker">Drugnews Framework</span>
-          <h3 id="conceptTitle">正在載入教材</h3>
-          <p id="conceptCopy"></p>
-          <dl><div><dt>先問</dt><dd id="conceptQuestion"></dd></div><div><dt>避免誤讀</dt><dd id="conceptLimit"></dd></div></dl>
+          <span id="conceptKicker">Cash at Signing</span>
+          <h3 id="conceptTitle">Upfront 是交易對資產當下信心的第一個硬訊號</h3>
+          <p id="conceptCopy">Upfront 通常在簽約後支付，確定性高於多年後的里程碑。比較交易時，還要看資產階段、競爭程度與公司讓出的權利。</p>
+          <dl><div><dt>先問</dt><dd id="conceptQuestion">簽約時真正支付多少？讓出了什麼？</dd></div><div><dt>避免誤讀</dt><dd id="conceptLimit">把總交易額全部當成收入</dd></div></dl>
         </aside>
         <p class="endpoint-disclaimer">互動圖為概念模型，不代表任何真實公司、產品、交易、病人或財務預測。</p>
       </div>
@@ -85,19 +88,19 @@
     <section class="section white lesson-reading-section">
       <div class="container lesson-layout">
         <article class="lesson-body">
-          <p class="lesson-lead" id="lessonLead"></p>
-          <div id="lessonSections"></div>
+          <p class="lesson-lead" id="lessonLead">授權交易的核心不是『金額大不大』，而是開發風險、資本負擔與成功後上行如何在雙方之間重新分配。</p>
+          <div id="lessonSections"><section id="upfront"><p class="lesson-section-number">01</p><h2>Upfront：最硬，但仍要放回交易背景</h2><p>Upfront 是簽約時的現金或短期應收款，通常最具確定性。金額高可能反映競爭激烈、資產去風險程度高，也可能因公司讓出更廣泛權利。</p></section><section id="milestone"><p class="lesson-section-number">02</p><h2>Milestone：先按觸發條件分層</h2><p>臨床里程碑、法規里程碑與銷售里程碑的時間與機率不同。交易 headline 的總額常把多年後、門檻很高的付款全部加總。</p></section><section id="rights"><p class="lesson-section-number">03</p><h2>Royalty 與權利範圍：決定成功後的剩餘價值</h2><p>Royalty 可能分級，也會受專利、地區與銷售定義影響。投資人應同時看誰負責開發、誰出資、誰掌握定價與商業化，以及公司是否保留選擇權。</p><div class="lesson-example"><strong>投資人應用</strong>同樣是十億美元 headline，一筆可能有高 upfront 與全球共同開發，另一筆可能大多是遠期銷售里程碑；兩者含金量不能直接相比。</div></section></div>
           <section class="evidence-checklist concept-checklist" aria-labelledby="investorChecklistTitle">
             <p class="eyebrow">Investor Checklist</p><h2 id="investorChecklistTitle">投資人判讀順序</h2>
-            <ol id="investorChecklist"></ol>
+            <ol id="investorChecklist"><li><span>01</span><div><strong>先拆 upfront、近程里程碑與遠期里程碑</strong></div></li><li><span>02</span><div><strong>標記每一筆付款的觸發條件與時間</strong></div></li><li><span>03</span><div><strong>確認地區、適應症、平台與共同商業化權利</strong></div></li><li><span>04</span><div><strong>把交易現金流連回公司現金跑道與後續支出</strong></div></li></ol>
           </section>
-          <section class="concept-terms" aria-labelledby="termsTitle"><p class="eyebrow">Key Terms</p><h2 id="termsTitle">關鍵詞速查</h2><div id="conceptTerms"></div></section>
-          <div class="lesson-notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。互動圖為概念示意，不代表真實數據。</div>
+          <section class="concept-terms" aria-labelledby="termsTitle"><p class="eyebrow">Key Terms</p><h2 id="termsTitle">關鍵詞速查</h2><div id="conceptTerms"><div class="concept-term"><strong>Upfront</strong><p>簽約時或短期內支付的確定性較高款項。</p></div><div class="concept-term"><strong>Milestone</strong><p>達成臨床、法規或商業條件才支付的款項。</p></div><div class="concept-term"><strong>Royalty</strong><p>依淨銷售額計算的長期分潤。</p></div><div class="concept-term"><strong>Option</strong><p>在特定條件下取得或擴大權利的選擇權。</p></div><div class="concept-term"><strong>Co-development</strong><p>雙方共同承擔開發成本與決策。</p></div></div></section><section class="concept-source-panel" aria-labelledby="guide-source-title"><p class="eyebrow">Source Check</p><h2 id="guide-source-title">參考來源／延伸核對</h2><ul><li><a href="https://www.wipo.int/edocs/pubdocs/en/licensing/903/wipo_pub_903.pdf" target="_blank" rel="noopener noreferrer">WIPO — Exchanging Value: Negotiating Technology Licensing Agreements</a><p>核對 upfront、milestone、royalty、權利範圍與風險分配的授權架構。</p></li><li><a href="https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/regulation-s-k" target="_blank" rel="noopener noreferrer">SEC — Regulation S-K Compliance &amp; Disclosure Interpretations</a><p>核對上市公司重大合約的揭露要求，並回查實際 licensing agreement 條款。</p></li></ul></section>
+          <nav class="course-pager" aria-label="課程前後導覽"><a href="market-sizing.html"><span>上一課</span><strong>市場規模怎麼看</strong></a><a href="patent-competition.html"><span>下一課</span><strong>專利與競爭週期怎麼看</strong></a></nav><div class="lesson-notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。互動圖為概念示意，不代表真實數據。</div>
         </article>
         <aside class="lesson-sidebar">
           <div class="lesson-sidebar-inner">
             <p class="eyebrow">本課索引</p>
-            <nav id="lessonSectionNav" aria-label="本課段落"></nav>
+            <nav id="lessonSectionNav" aria-label="本課段落"><a href="#upfront">Upfront</a><a href="#milestone">Milestone</a><a href="#rights">Royalty 與權利範圍</a></nav>
             <label class="lesson-complete"><input type="checkbox" id="lessonComplete"><span>標記為已完成</span></label>
             <a class="lesson-back-link" href="index.html">回到學習資料庫</a>
             <a class="lesson-back-link lesson-database-link" href="taiwan-biotech-clinical-trials.html"><i data-lucide="database-search" aria-hidden="true"></i>查台灣生技臨床資料</a>
@@ -109,7 +112,8 @@
 
   <footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. 內容僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div><nav class="footer-links" aria-label="Footer navigation"><a href="index.html">指南資料庫</a><a href="../articles/">文章</a></nav></div></footer>
   <script src="../assets/vendor/lucide.min.js"></script>
-  <script src="concept-lab.js?v=20260711"></script>
+  <script src="guide-image-viewer.js?v=20260712-2"></script><script src="concept-lab.js?v=20260712-4"></script>
   <script>window.lucide?.createIcons();</script>
+  <script src="../site-nav.js?v=20260712-1"></script>
 </body>
 </html>

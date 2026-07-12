@@ -22,26 +22,4 @@
       <news:title>Fasedienol&apos;s Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T01:49:00.000Z</news:publication_date>
-      <news:title>Sobi&apos;s NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-10T01:49:00.000Z</news:publication_date>
-      <news:title>痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度</news:title>
-    </news:news>
-  </url>
 </urlset>

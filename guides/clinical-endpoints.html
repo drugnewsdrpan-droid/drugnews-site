@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../science-media.css?v=20260711">
   <link rel="stylesheet" href="investor-academy.css?v=20260711">
-  <link rel="stylesheet" href="lesson.css?v=20260711-2">
+  <link rel="stylesheet" href="lesson.css?v=20260712-1">
   <meta property="og:title" content="臨床終點怎麼看：ORR、PFS、OS、HR">
   <meta property="og:description" content="用互動圖解建立臨床數據判讀順序，不把腫瘤縮小誤讀成一定能延長生命。">
   <meta property="og:type" content="article">
@@ -29,16 +29,17 @@
     <div class="container nav">
       <a class="brand" href="../index.html"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
       <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
-      <label class="nav-menu-button" for="site-nav-toggle" role="button" tabindex="0" aria-controls="preview-primary-nav" aria-expanded="false">選單</label>
-      <nav class="nav-links" id="preview-primary-nav" aria-label="Main navigation">
+      <button class="nav-menu-button" type="button" aria-controls="site-nav-links" aria-expanded="false">選單</button>
+      <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
         <a href="../index.html">首頁</a>
         <a href="../articles/">文章</a>
+        <a href="../subscribe.html">深度分析</a>
+        <a href="../search.html">搜尋</a>
         <a href="../topics/">主題</a>
         <a href="index.html" aria-current="page">指南</a>
         <a href="../team.html">團隊</a>
-        <a href="../subscribe.html">深度分析</a>
         <a href="../services.html">公司合作</a>
-        <a href="../en/guides/clinical-endpoints.html">English</a>
+        <a href="../en/">English</a>
       </nav>
     </div>
   </header>
@@ -51,7 +52,7 @@
           <p class="eyebrow">Path 02 · Clinical Evidence</p>
           <h1>臨床終點怎麼看</h1>
           <p class="lesson-deck">ORR、PFS、OS 都可能出現在「正面數據」裡，但它們回答的是三個完全不同的問題。先辨認終點，再談價值。</p>
-          <div class="lesson-meta"><span>投資入門</span><span>約 8 分鐘</span><span>互動教材</span></div>
+          <div class="lesson-meta"><span>投資入門 01</span><span>約 8 分鐘</span><span>圖解教材</span></div>
         </div>
         <div class="lesson-objective">
           <span><i data-lucide="microscope" aria-hidden="true"></i>學完這一課，你會知道</span>
@@ -62,8 +63,8 @@
 
     <section class="section endpoint-lab-section" id="endpointLab">
       <div class="container section-head academy-section-head">
-        <div><p class="eyebrow">Interactive Evidence Lab</p><h2>同一個藥，換一個終點，能說的話就不同</h2></div>
-        <p>切換四個概念，看示意圖如何改變。動畫只用來解釋量測邏輯，不代表任何真實試驗或療效數字。</p>
+        <div><p class="eyebrow">Evidence Lab</p><h2>同一個藥，換一個終點，<br>能說的話就不同</h2></div>
+        <p>切換四個概念，看示意圖如何改變。圖解只用來解釋量測邏輯，不代表任何真實試驗或療效數字。</p>
       </div>
       <div class="container endpoint-lab" data-endpoint="orr">
         <div class="endpoint-controls" role="tablist" aria-label="臨床終點選擇">
@@ -73,10 +74,9 @@
           <button id="tab-hr" type="button" role="tab" aria-selected="false" aria-controls="endpointPanel" data-endpoint="hr">HR<span>事件風險</span></button>
         </div>
         <div class="endpoint-stage" id="endpointPanel" role="tabpanel" aria-labelledby="tab-orr">
-          <svg id="endpointVisual" viewBox="0 0 760 420" role="img" aria-labelledby="endpointVisualSvgTitle endpointVisualSvgDescription" preserveAspectRatio="xMidYMid meet">
-            <title id="endpointVisualSvgTitle">ORR 臨床終點概念圖</title>
-            <desc id="endpointVisualSvgDescription">以四位示意病人的治療前與影像評估結果，說明客觀反應率如何觀察腫瘤縮小。</desc>
-          </svg>
+          <picture id="endpointPicture"><source media="(max-width: 680px)" srcset="../assets/guides/webp/clinical-endpoint-orr-v1-720.webp"><img id="endpointVisual" class="endpoint-generated-image" src="../assets/guides/webp/clinical-endpoint-orr-v1-1200.webp" alt="ORR：腫瘤有沒有縮小。看藥物活性，不等於看存活。" width="1536" height="1024" decoding="async"></picture>
+          <button class="guide-image-zoom" type="button" aria-label="放大 ORR 圖解"><i data-lucide="zoom-in" aria-hidden="true"></i><span>放大圖解</span></button>
+          <p class="concept-mode-caption" id="endpointModeCaption">教學示意數據，非特定臨床試驗結果；判讀實際研究須回到 protocol、SAP 與完整資料。</p>
           <div class="endpoint-stage-overlay" aria-hidden="true"><span id="endpointVisualKicker">WHAT IT MEASURES</span><strong id="endpointVisualTitle">腫瘤有沒有縮小</strong></div>
         </div>
         <aside class="endpoint-explanation" aria-live="polite">
@@ -115,6 +115,21 @@
             <div class="practice-answer" id="practiceAnswer" hidden aria-live="polite"></div>
           </section>
 
+          <section class="concept-source-panel" aria-labelledby="endpoint-source-title">
+            <p class="eyebrow">Source Check</p>
+            <h2 id="endpoint-source-title">參考來源／延伸核對</h2>
+            <ul>
+              <li><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics" target="_blank" rel="noopener noreferrer">FDA — Clinical Trial Endpoints for the Approval of Cancer Drugs and Biologics</a><p>核對 ORR、PFS、OS 等腫瘤終點的監管意義、資料要求與限制。</p></li>
+              <li><a href="https://clinicaltrials.gov/policy/results-definitions" target="_blank" rel="noopener noreferrer">ClinicalTrials.gov — Results Data Element Definitions</a><p>核對 outcome measure、分析族群、時間框架與結果欄位的正式定義。</p></li>
+              <li><a href="https://www.fda.gov/about-fda/oncology-center-excellence/patient-friendly-language-cancer-clinical-trials" target="_blank" rel="noopener noreferrer">FDA — Patient-Friendly Language for Cancer Clinical Trials</a><p>延伸核對 hazard ratio、confidence interval 與臨床試驗常用語。</p></li>
+            </ul>
+          </section>
+
+          <nav class="course-pager" aria-label="課程前後導覽">
+            <a href="index.html"><span>上一課</span><strong>生技投資學習資料庫</strong></a>
+            <a href="regulatory-milestones.html"><span>下一課</span><strong>FDA 法規節點怎麼看</strong></a>
+          </nav>
+
           <div class="lesson-notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。互動圖為概念示意，不代表任何真實臨床數據。</div>
         </article>
 
@@ -133,7 +148,9 @@
 
   <footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. 內容僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div><nav class="footer-links" aria-label="Footer navigation"><a href="index.html">指南資料庫</a><a href="../articles/">文章</a></nav></div></footer>
   <script src="../assets/vendor/lucide.min.js"></script>
-  <script src="clinical-endpoints.js?v=20260711"></script>
+  <script src="guide-image-viewer.js?v=20260712-2"></script>
+  <script src="clinical-endpoints.js?v=20260712-3"></script>
   <script>window.lucide?.createIcons();</script>
+  <script src="../site-nav.js?v=20260712-1"></script>
 </body>
 </html>

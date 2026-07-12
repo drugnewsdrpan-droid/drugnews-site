@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../science-media.css?v=20260711">
   <link rel="stylesheet" href="investor-academy.css?v=20260711">
-  <link rel="stylesheet" href="taiwan-biotech-clinical.css?v=20260711-3">
+  <link rel="stylesheet" href="taiwan-biotech-clinical.css?v=20260712-2">
   <meta property="og:title" content="台灣生技醫療公司、臨床進度與估值資料庫">
   <meta property="og:description" content="一次查詢台灣上市、上櫃、興櫃生技醫療公司，以及已核實的公開臨床證據與 Drugnews 估值分析。">
   <meta property="og:type" content="website">
@@ -27,9 +27,9 @@
     <div class="container nav">
       <a class="brand" href="../index.html"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
       <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
-      <label class="nav-menu-button" for="site-nav-toggle" role="button" tabindex="0" aria-controls="preview-primary-nav" aria-expanded="false">選單</label>
-      <nav class="nav-links" id="preview-primary-nav" aria-label="Main navigation">
-        <a href="../index.html">首頁</a><a href="../articles/">文章</a><a href="../topics/">主題</a><a href="index.html" aria-current="page">指南</a><a href="../team.html">團隊</a><a href="../subscribe.html">深度分析</a><a href="../services.html">公司合作</a><a href="../en/guides/">English</a>
+      <button class="nav-menu-button" type="button" aria-controls="site-nav-links" aria-expanded="false">選單</button>
+      <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
+        <a href="../index.html">首頁</a><a href="../articles/">文章</a><a href="../subscribe.html">深度分析</a><a href="../search.html">搜尋</a><a href="../topics/">主題</a><a href="index.html" aria-current="page">指南</a><a href="../team.html">團隊</a><a href="../services.html">公司合作</a><a href="../en/">English</a>
       </nav>
     </div>
   </header>
@@ -42,51 +42,54 @@
       </div>
     </section>
 
-    <section class="valuation-bridge-section" aria-labelledby="valuationBridgeTitle">
-      <div class="container valuation-bridge-grid">
-        <div class="valuation-bridge-copy">
-          <p class="eyebrow">Evidence to Valuation</p>
-          <h2 id="valuationBridgeTitle">不是看到 Phase III 就結束，而是開始重算假設</h2>
-          <p>同一筆臨床資料，必須先確認它改變的是成功率、可治療人口、上市時間、峰值銷售，還是只有短期市場情緒。</p>
-        </div>
-        <ol class="valuation-bridge-steps" aria-label="從臨床資料走到估值文章的四個步驟">
-          <li><span>01</span><strong>找公司</strong><small>公司、代號、藥物</small></li>
-          <li><span>02</span><strong>查證據</strong><small>設計、終點、結果</small></li>
-          <li><span>03</span><strong>找變數</strong><small>催化劑與風險</small></li>
-          <li><span>04</span><strong>讀估值</strong><small>回到 Drugnews 分析</small></li>
-        </ol>
-        <nav class="valuation-bridge-links" aria-label="Drugnews 估值學習入口">
-          <a href="biotech-valuation.html"><i data-lucide="calculator" aria-hidden="true"></i><span>互動指南</span><strong>rNPV、SOTP 與競爭格局</strong></a>
-          <a href="../articles/2026-05-27-taiwan-biotech-valuation-framework.html"><span>商業分析文</span><strong>台灣生技估值第一步</strong></a>
-        </nav>
-      </div>
-    </section>
-
     <section class="section trials-database-section">
       <div class="container trials-database-head"><div><p class="eyebrow">Company & Evidence Database</p><h2>台灣生技公司，一次查清楚</h2></div><p>上市、上櫃、興櫃先完整收錄；臨床結果與估值判讀只放已核實資料。</p></div>
       <div class="container trial-tools" aria-label="臨床資料庫篩選工具">
-        <div class="database-mode" role="group" aria-label="資料庫檢視模式"><button type="button" data-database-view="directory" aria-pressed="true"><i data-lucide="building-2" aria-hidden="true"></i>公司總覽 <span id="directoryModeCount">252</span></button><button type="button" data-database-view="clinical" aria-pressed="false"><i data-lucide="microscope" aria-hidden="true"></i>臨床證據 <span id="clinicalModeCount">8</span></button></div>
+        <div class="database-mode" role="group" aria-label="資料庫檢視模式"><button type="button" data-database-view="clinical" aria-pressed="true"><i data-lucide="microscope" aria-hidden="true"></i>臨床資產 <span id="clinicalModeCount">8</span></button><button type="button" data-database-view="directory" aria-pressed="false"><i data-lucide="building-2" aria-hidden="true"></i>公司名錄 <span id="directoryModeCount">252</span></button></div>
         <label class="trial-search"><span><i data-lucide="search" aria-hidden="true"></i>搜尋公司、股票代號、資產、疾病、終點或文章</span><input id="trialSearch" type="search" placeholder="例如：6446、藥華藥、LT3001、OS、Phase III" autocomplete="off"></label>
-        <div class="trial-selects directory-filters" data-filter-panel="directory">
+        <div class="trial-selects directory-filters" data-filter-panel="directory" hidden>
           <label><span>掛牌市場</span><select id="marketFilter"><option value="all">全部市場</option><option value="TWSE">上市</option><option value="TPEx">上櫃</option><option value="Emerging">興櫃</option></select></label>
           <label><span>資料深度</span><select id="evidenceFilter"><option value="all">全部公司</option><option value="verified">已有臨床證據</option><option value="articles">已有 Drugnews 文章</option></select></label>
           <button id="resetDirectoryFilters" class="icon-only-action" type="button" title="清除全部篩選" aria-label="清除全部篩選"><i data-lucide="rotate-ccw" aria-hidden="true"></i><span class="sr-only">清除篩選</span></button>
         </div>
-        <div class="trial-selects clinical-filters" data-filter-panel="clinical" hidden>
-          <label><span>疾病領域</span><select id="areaFilter"><option value="all">全部領域</option></select></label>
+        <div class="trial-selects clinical-filters" data-filter-panel="clinical">
+          <label><span>治療領域</span><select id="areaFilter"><option value="all">全部領域</option></select></label>
+          <label><span>疾病／適應症</span><select id="indicationFilter"><option value="all">全部疾病</option></select></label>
+          <label><span>技術／Modality</span><select id="modalityFilter"><option value="all">全部技術</option></select></label>
           <label><span>臨床階段</span><select id="phaseFilter"><option value="all">全部階段</option><option value="Phase I">Phase I</option><option value="Phase II">Phase II</option><option value="Phase III">Phase III</option><option value="已核准">已核准</option></select></label>
           <label><span>結果狀態</span><select id="resultFilter"><option value="all">全部狀態</option><option value="結果已公布">結果已公布</option><option value="正向結果已公布">正向結果已公布</option><option value="已達主要終點">已達主要終點</option><option value="尚未公布結果">尚未公布結果</option><option value="尚未公布主要結果">尚未公布主要結果</option></select></label>
+          <label><span>Drugnews 判讀</span><select id="articleFilter"><option value="all">全部資產</option><option value="yes">已有相關文章</option></select></label>
           <button id="resetFilters" class="icon-only-action" type="button" title="清除全部篩選" aria-label="清除全部篩選"><i data-lucide="rotate-ccw" aria-hidden="true"></i><span class="sr-only">清除篩選</span></button>
         </div>
         <div class="trial-result-line"><p id="trialResultCount" aria-live="polite">載入資料中</p><p id="trialSortLabel">排序：股票代號</p></div>
         <div class="trial-company-jump" id="trialCompanyJumpWrap" hidden><span>公司索引</span><nav id="trialCompanyJump" aria-label="符合條件的公司索引"></nav></div>
       </div>
 
-      <div class="container company-directory" id="companyDirectory" aria-live="polite"></div>
-      <div class="container directory-actions"><button id="loadMoreCompanies" type="button">顯示更多公司 <span aria-hidden="true">↓</span></button></div>
-      <div class="container directory-source">公司母表依據證交所與櫃買中心生技醫療業分類，每日可重新建置；臨床證據與估值文章為 Drugnews 編輯核實層。<a href="https://openapi.twse.com.tw/" target="_blank" rel="noopener">證交所 OpenAPI</a><a href="https://www.tpex.org.tw/openapi/" target="_blank" rel="noopener">櫃買中心 OpenAPI</a></div>
-      <div class="container trial-company-list" id="trialCompanyList" aria-live="polite" hidden></div>
+      <div class="container company-directory" id="companyDirectory" aria-live="polite" hidden></div>
+      <div class="container directory-actions" hidden><button id="loadMoreCompanies" type="button">顯示更多公司 <span aria-hidden="true">↓</span></button></div>
+      <div class="container directory-source" hidden>公司母表依據證交所與櫃買中心生技醫療業分類，每日可重新建置；臨床證據與估值文章為 Drugnews 編輯核實層。<a href="https://openapi.twse.com.tw/" target="_blank" rel="noopener">證交所 OpenAPI</a><a href="https://www.tpex.org.tw/openapi/" target="_blank" rel="noopener">櫃買中心 OpenAPI</a></div>
+      <div class="container trial-company-list" id="trialCompanyList" aria-live="polite"></div>
       <div class="container trial-empty" id="trialEmpty" hidden><h2>目前沒有符合的資料</h2><p>請換一個關鍵字，或清除部分篩選條件。</p></div>
+    </section>
+
+    <section class="valuation-bridge-section" aria-labelledby="valuationBridgeTitle">
+      <div class="container valuation-bridge-grid">
+        <div class="valuation-bridge-copy">
+          <p class="eyebrow">Evidence to Valuation</p>
+          <h2 id="valuationBridgeTitle">從臨床資料回到估值假設</h2>
+          <p>確認一筆資料改變的是成功率、上市時間、市場、權利經濟，還是現金需求。</p>
+        </div>
+        <ol class="valuation-bridge-steps" aria-label="從臨床資料走到估值文章的四個步驟">
+          <li><span>01</span><strong>找公司</strong><small>公司、代號、藥物</small></li>
+          <li><span>02</span><strong>查證據</strong><small>設計、終點、結果</small></li>
+          <li><span>03</span><strong>找變數</strong><small>催化事件與風險</small></li>
+          <li><span>04</span><strong>讀分析</strong><small>回到 Drugnews 判讀</small></li>
+        </ol>
+        <nav class="valuation-bridge-links" aria-label="Drugnews 估值學習入口">
+          <a href="biotech-valuation.html"><i data-lucide="calculator" aria-hidden="true"></i><span>研究指南</span><strong>rNPV、SOTP 與競爭格局</strong></a>
+          <a href="../articles/2026-05-27-taiwan-biotech-valuation-framework.html"><span>商業分析文</span><strong>台灣生技估值第一步</strong></a>
+        </nav>
+      </div>
     </section>
 
     <section class="section white data-standard-section">
@@ -99,7 +102,8 @@
 
   <footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. 資料僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div><nav class="footer-links" aria-label="Footer navigation"><a href="index.html">指南資料庫</a><a href="../articles/">文章</a></nav></div></footer>
   <script src="../assets/vendor/lucide.min.js"></script>
-  <script src="taiwan-biotech-clinical.js?v=20260711-4"></script>
+  <script src="taiwan-biotech-clinical.js?v=20260712-3"></script>
   <script>window.lucide?.createIcons();</script>
+  <script src="../site-nav.js?v=20260712-1"></script>
 </body>
 </html>

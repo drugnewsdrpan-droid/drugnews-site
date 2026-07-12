@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../science-media.css?v=20260711">
   <link rel="stylesheet" href="investor-academy.css?v=20260711">
-  <link rel="stylesheet" href="lesson.css?v=20260711">
-  <link rel="stylesheet" href="concept-lab.css?v=20260711">
+  <link rel="stylesheet" href="lesson.css?v=20260711-4">
+  <link rel="stylesheet" href="concept-lab.css?v=20260712-1">
   <meta property="og:title" content="生技市場規模怎麼看">
   <meta property="og:description" content="用病人漏斗、定價給付與採用曲線，拆解 TAM、SAM、SOM、滲透率與峰值銷售，不把病人數乘藥價當作收入。">
   <meta property="og:type" content="article">
@@ -30,16 +30,17 @@
     <div class="container nav">
       <a class="brand" href="../index.html"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
       <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
-      <label class="nav-menu-button" for="site-nav-toggle" role="button" tabindex="0" aria-controls="preview-primary-nav" aria-expanded="false">選單</label>
-      <nav class="nav-links" id="preview-primary-nav" aria-label="Main navigation">
+      <button class="nav-menu-button" type="button" aria-controls="site-nav-links" aria-expanded="false">選單</button>
+      <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
         <a href="../index.html">首頁</a>
         <a href="../articles/">文章</a>
+        <a href="../subscribe.html">深度分析</a>
+        <a href="../search.html">搜尋</a>
         <a href="../topics/">主題</a>
         <a href="index.html" aria-current="page">指南</a>
         <a href="../team.html">團隊</a>
-        <a href="../subscribe.html">深度分析</a>
         <a href="../services.html">公司合作</a>
-        <a id="englishGuideLink" href="../en/guides/">English</a>
+        <a id="englishGuideLink" href="../en/">English</a>
       </nav>
     </div>
   </header>
@@ -48,35 +49,37 @@
     <section class="lesson-hero concept-hero">
       <div class="container lesson-hero-grid">
         <div>
-          <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">指南資料庫</a><span>/</span><span id="breadcrumbCurrent">互動教材</span></nav>
-          <p class="eyebrow" id="lessonPath">Drugnews Investor Academy</p>
-          <h1 id="lessonTitle">生技投資互動教材</h1>
-          <p class="lesson-deck" id="lessonDeck">載入中。</p>
-          <div class="lesson-meta"><span id="lessonNumber">投資入門</span><span>約 8 分鐘</span><span>互動教材</span></div>
+          <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">指南資料庫</a><span>/</span><span id="breadcrumbCurrent">市場規模怎麼看</span></nav>
+          <p class="eyebrow" id="lessonPath">Path 04 · Market &amp; Commercialization</p>
+          <h1 id="lessonTitle">市場規模怎麼看</h1>
+          <p class="lesson-deck" id="lessonDeck">市場不是病人數乘上藥價。真正能形成收入的，是被診斷、適合治療、獲得給付，而且最後選擇這個產品的病人。</p>
+          <div class="lesson-meta"><span id="lessonNumber">投資入門 04</span><span>約 8 分鐘</span><span>互動教材</span></div>
         </div>
         <div class="lesson-objective">
           <span><i data-lucide="book-open-check" aria-hidden="true"></i>學完這一課，你會知道</span>
-          <ol id="lessonObjectives"></ol>
+          <ol id="lessonObjectives"><li>分辨 TAM、SAM、SOM</li><li>把定價與可及性一起看</li><li>理解採用曲線為何需要時間</li></ol>
         </div>
       </div>
     </section>
 
     <section class="section endpoint-lab-section concept-lab-section" id="conceptLabSection">
       <div class="container section-head academy-section-head">
-        <div><p class="eyebrow">Interactive Concept Lab</p><h2 id="labHeading">把抽象名詞變成可操作的判斷</h2></div>
-        <p id="labIntro">切換圖解，理解每個概念在投資判斷中真正改變的是哪一層。</p>
+        <div><p class="eyebrow">Concept Lab</p><h2 id="labHeading">把百億市場拆回一個可驗證的病人漏斗</h2></div>
+        <p id="labIntro">三張概念圖顯示理論市場、給付限制與商業化速度如何逐層改寫收入。</p>
       </div>
       <div class="container endpoint-lab concept-lab" id="conceptLab">
-        <div class="endpoint-controls" id="conceptTabs" role="tablist" aria-label="概念圖解選擇"></div>
+        <div class="endpoint-controls" id="conceptTabs" role="tablist" aria-label="概念圖解選擇"><button id="concept-tab-funnel" type="button" role="tab" aria-selected="true" aria-controls="conceptPanel" data-mode-index="0" tabindex="0">病人漏斗<span>TAM → SAM → SOM</span></button><button id="concept-tab-pricing" type="button" role="tab" aria-selected="false" aria-controls="conceptPanel" data-mode-index="1" tabindex="-1">定價與給付<span>Price × Access</span></button><button id="concept-tab-adoption" type="button" role="tab" aria-selected="false" aria-controls="conceptPanel" data-mode-index="2" tabindex="-1">採用曲線<span>Commercial Uptake</span></button></div>
         <div class="endpoint-stage" id="conceptPanel" role="tabpanel">
-          <canvas id="conceptCanvas" role="img" aria-label="生技投資概念互動圖解"></canvas>
-          <div class="endpoint-stage-overlay" aria-hidden="true"><span>CONCEPT MODEL</span><strong id="conceptVisualTitle">概念圖解</strong></div>
+          <picture id="conceptPicture"><source media="(max-width: 680px)" srcset="../assets/guides/webp/market-funnel-v1-720.webp"><img id="conceptVisual" class="concept-generated-image" src="../assets/guides/webp/market-funnel-v1-1200.webp" alt="市場規模病人漏斗：從 TAM、SAM 到 SOM 的逐層篩選圖" width="1536" height="1024" decoding="async"></picture>
+          <button class="guide-image-zoom" type="button" aria-label="放大病人漏斗圖解"><i data-lucide="zoom-in" aria-hidden="true"></i><span>放大圖解</span></button>
+          <p class="concept-mode-caption" id="conceptModeCaption">教學示意圖，非特定公司、產品、試驗結果或通用定量規格；實際判讀須回到原始資料。</p>
+          <div class="endpoint-stage-overlay" aria-hidden="true"><span>CONCEPT MODEL</span><strong id="conceptVisualTitle">每一層限制都會縮小市場</strong></div>
         </div>
         <aside class="endpoint-explanation" aria-live="polite">
-          <span id="conceptKicker">Drugnews Framework</span>
-          <h3 id="conceptTitle">正在載入教材</h3>
-          <p id="conceptCopy"></p>
-          <dl><div><dt>先問</dt><dd id="conceptQuestion"></dd></div><div><dt>避免誤讀</dt><dd id="conceptLimit"></dd></div></dl>
+          <span id="conceptKicker">Patient Funnel</span>
+          <h3 id="conceptTitle">TAM 是天花板，不是收入</h3>
+          <p id="conceptCopy">理論病人數要依序扣掉診斷率、治療資格、可服務地區、給付、競品與實際市占。漏斗每一層都應該有可查證的假設。</p>
+          <dl><div><dt>先問</dt><dd id="conceptQuestion">從總病人數到真正可得病人，中間扣掉了什麼？</dd></div><div><dt>避免誤讀</dt><dd id="conceptLimit">病人數 × 藥價就當作營收</dd></div></dl>
         </aside>
         <p class="endpoint-disclaimer">互動圖為概念模型，不代表任何真實公司、產品、交易、病人或財務預測。</p>
       </div>
@@ -85,19 +88,19 @@
     <section class="section white lesson-reading-section">
       <div class="container lesson-layout">
         <article class="lesson-body">
-          <p class="lesson-lead" id="lessonLead"></p>
-          <div id="lessonSections"></div>
+          <p class="lesson-lead" id="lessonLead">市場規模的工作，是把每一個樂觀假設拆成能被檢查的分母。TAM 可以說明天花板，SAM 與 SOM 才開始接近公司真正有機會拿到的收入。</p>
+          <div id="lessonSections"><section id="tam"><p class="lesson-section-number">01</p><h2>TAM、SAM、SOM：從理論市場走到可取得份額</h2><p>TAM 是理論最大市場；SAM 是公司在適應症、地區、給付與產品能力下可服務的市場；SOM 才是考慮競品、採用與執行後可能取得的份額。</p></section><section id="price"><p class="lesson-section-number">02</p><h2>定價要和給付能力一起建模</h2><p>高藥價可以提高單位收入，也可能換來更嚴格的使用條件。估值時應區分標價、實收價格、折讓、病人自付與不同地區支付能力。</p></section><section id="uptake"><p class="lesson-section-number">03</p><h2>滲透率是一條曲線，不是一個固定百分比</h2><p>醫師採用、病人辨識、通路與產能都需要時間。市場模型應該有上市爬坡、峰值年份與競品進場，而不是從第一年就假設成熟市占。</p><div class="lesson-example"><strong>投資人應用</strong>看到公司宣稱『百億美元市場』時，先要求病人漏斗、價格來源、給付假設、競品與達到峰值所需年份。</div></section></div>
           <section class="evidence-checklist concept-checklist" aria-labelledby="investorChecklistTitle">
             <p class="eyebrow">Investor Checklist</p><h2 id="investorChecklistTitle">投資人判讀順序</h2>
-            <ol id="investorChecklist"></ol>
+            <ol id="investorChecklist"><li><span>01</span><div><strong>列出總病人、診斷、治療、給付與可取得病人</strong></div></li><li><span>02</span><div><strong>區分標價、實收價與不同地區價格</strong></div></li><li><span>03</span><div><strong>設定上市爬坡與競品進場時間</strong></div></li><li><span>04</span><div><strong>用悲觀、基準、樂觀情境檢查敏感度</strong></div></li></ol>
           </section>
-          <section class="concept-terms" aria-labelledby="termsTitle"><p class="eyebrow">Key Terms</p><h2 id="termsTitle">關鍵詞速查</h2><div id="conceptTerms"></div></section>
-          <div class="lesson-notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。互動圖為概念示意，不代表真實數據。</div>
+          <section class="concept-terms" aria-labelledby="termsTitle"><p class="eyebrow">Key Terms</p><h2 id="termsTitle">關鍵詞速查</h2><div id="conceptTerms"><div class="concept-term"><strong>TAM</strong><p>理論上可服務的最大市場。</p></div><div class="concept-term"><strong>SAM</strong><p>公司產品與地區實際能服務的市場。</p></div><div class="concept-term"><strong>SOM</strong><p>考慮競爭與執行後可能取得的份額。</p></div><div class="concept-term"><strong>Penetration</strong><p>產品在可服務市場中的實際滲透率。</p></div><div class="concept-term"><strong>Adoption Curve</strong><p>市場從早期使用到成熟採用的時間曲線。</p></div></div></section><section class="concept-source-panel" aria-labelledby="guide-source-title"><p class="eyebrow">Source Check</p><h2 id="guide-source-title">參考來源／延伸核對</h2><ul><li><a href="https://seer.cancer.gov/" target="_blank" rel="noopener noreferrer">NCI — Surveillance, Epidemiology, and End Results Program</a><p>核對 incidence、prevalence、survival 與病人母數；疾病市場估算應回到可追溯流行病學資料。</p></li><li><a href="https://www.cms.gov/medicare/payment/fee-for-service-providers/part-b-drugs/average-drug-sales-price" target="_blank" rel="noopener noreferrer">CMS — Medicare Part B Drug Average Sales Price</a><p>核對 Medicare Part B 支付價格；標價、實收價與給付可及性不可混為一談。</p></li></ul></section>
+          <nav class="course-pager" aria-label="課程前後導覽"><a href="safety-cmc-risk.html"><span>上一課</span><strong>安全性與 CMC 風險怎麼看</strong></a><a href="bd-licensing-terms.html"><span>下一課</span><strong>BD 授權條款怎麼讀</strong></a></nav><div class="lesson-notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。互動圖為概念示意，不代表真實數據。</div>
         </article>
         <aside class="lesson-sidebar">
           <div class="lesson-sidebar-inner">
             <p class="eyebrow">本課索引</p>
-            <nav id="lessonSectionNav" aria-label="本課段落"></nav>
+            <nav id="lessonSectionNav" aria-label="本課段落"><a href="#tam">TAM、SAM、SOM</a><a href="#price">定價要和給付能力一起建模</a><a href="#uptake">滲透率是一條曲線，不是一個固定百分比</a></nav>
             <label class="lesson-complete"><input type="checkbox" id="lessonComplete"><span>標記為已完成</span></label>
             <a class="lesson-back-link" href="index.html">回到學習資料庫</a>
             <a class="lesson-back-link lesson-database-link" href="taiwan-biotech-clinical-trials.html"><i data-lucide="database-search" aria-hidden="true"></i>查台灣生技臨床資料</a>
@@ -109,7 +112,8 @@
 
   <footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. 內容僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div><nav class="footer-links" aria-label="Footer navigation"><a href="index.html">指南資料庫</a><a href="../articles/">文章</a></nav></div></footer>
   <script src="../assets/vendor/lucide.min.js"></script>
-  <script src="concept-lab.js?v=20260711"></script>
+  <script src="guide-image-viewer.js?v=20260712-2"></script><script src="concept-lab.js?v=20260712-4"></script>
   <script>window.lucide?.createIcons();</script>
+  <script src="../site-nav.js?v=20260712-1"></script>
 </body>
 </html>

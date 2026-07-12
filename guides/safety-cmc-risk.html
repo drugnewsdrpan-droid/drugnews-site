@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../science-media.css?v=20260711">
   <link rel="stylesheet" href="investor-academy.css?v=20260711">
-  <link rel="stylesheet" href="lesson.css?v=20260711">
-  <link rel="stylesheet" href="concept-lab.css?v=20260711">
+  <link rel="stylesheet" href="lesson.css?v=20260711-4">
+  <link rel="stylesheet" href="concept-lab.css?v=20260712-1">
   <meta property="og:title" content="安全性與 CMC 風險怎麼看">
   <meta property="og:description" content="用互動圖解理解 AE、SAE、DLT、治療窗、製程放大、GMP 與查廠，判斷療效之外的上市與供應風險。">
   <meta property="og:type" content="article">
@@ -30,16 +30,17 @@
     <div class="container nav">
       <a class="brand" href="../index.html"><img src="../favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
       <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
-      <label class="nav-menu-button" for="site-nav-toggle" role="button" tabindex="0" aria-controls="preview-primary-nav" aria-expanded="false">選單</label>
-      <nav class="nav-links" id="preview-primary-nav" aria-label="Main navigation">
+      <button class="nav-menu-button" type="button" aria-controls="site-nav-links" aria-expanded="false">選單</button>
+      <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
         <a href="../index.html">首頁</a>
         <a href="../articles/">文章</a>
+        <a href="../subscribe.html">深度分析</a>
+        <a href="../search.html">搜尋</a>
         <a href="../topics/">主題</a>
         <a href="index.html" aria-current="page">指南</a>
         <a href="../team.html">團隊</a>
-        <a href="../subscribe.html">深度分析</a>
         <a href="../services.html">公司合作</a>
-        <a id="englishGuideLink" href="../en/guides/">English</a>
+        <a id="englishGuideLink" href="../en/">English</a>
       </nav>
     </div>
   </header>
@@ -48,35 +49,37 @@
     <section class="lesson-hero concept-hero">
       <div class="container lesson-hero-grid">
         <div>
-          <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">指南資料庫</a><span>/</span><span id="breadcrumbCurrent">互動教材</span></nav>
-          <p class="eyebrow" id="lessonPath">Drugnews Investor Academy</p>
-          <h1 id="lessonTitle">生技投資互動教材</h1>
-          <p class="lesson-deck" id="lessonDeck">載入中。</p>
-          <div class="lesson-meta"><span id="lessonNumber">投資入門</span><span>約 8 分鐘</span><span>互動教材</span></div>
+          <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">首頁</a><span>/</span><a href="index.html">指南資料庫</a><span>/</span><span id="breadcrumbCurrent">安全性與 CMC 風險怎麼看</span></nav>
+          <p class="eyebrow" id="lessonPath">Path 03 · Safety &amp; Manufacturing</p>
+          <h1 id="lessonTitle">安全性與 CMC 風險怎麼看</h1>
+          <p class="lesson-deck" id="lessonDeck">療效漂亮只是第一步。產品還要能找到可用劑量、穩定製造、通過查廠，並在商業規模下維持一致品質。</p>
+          <div class="lesson-meta"><span id="lessonNumber">投資入門 03</span><span>約 8 分鐘</span><span>互動教材</span></div>
         </div>
         <div class="lesson-objective">
           <span><i data-lucide="book-open-check" aria-hidden="true"></i>學完這一課，你會知道</span>
-          <ol id="lessonObjectives"></ol>
+          <ol id="lessonObjectives"><li>分辨 AE、SAE 與 DLT</li><li>理解治療窗為何限制價值</li><li>看懂製程放大與查廠風險</li></ol>
         </div>
       </div>
     </section>
 
     <section class="section endpoint-lab-section concept-lab-section" id="conceptLabSection">
       <div class="container section-head academy-section-head">
-        <div><p class="eyebrow">Interactive Concept Lab</p><h2 id="labHeading">把抽象名詞變成可操作的判斷</h2></div>
-        <p id="labIntro">切換圖解，理解每個概念在投資判斷中真正改變的是哪一層。</p>
+        <div><p class="eyebrow">Concept Lab</p><h2 id="labHeading">從安全窗到商業批次，風險是一條連續路徑</h2></div>
+        <p id="labIntro">三張概念圖分別呈現劑量、安全窗、製程放大與查廠控制點。</p>
       </div>
       <div class="container endpoint-lab concept-lab" id="conceptLab">
-        <div class="endpoint-controls" id="conceptTabs" role="tablist" aria-label="概念圖解選擇"></div>
+        <div class="endpoint-controls" id="conceptTabs" role="tablist" aria-label="概念圖解選擇"><button id="concept-tab-window" type="button" role="tab" aria-selected="true" aria-controls="conceptPanel" data-mode-index="0" tabindex="0">治療窗<span>Efficacy vs Toxicity</span></button><button id="concept-tab-scale" type="button" role="tab" aria-selected="false" aria-controls="conceptPanel" data-mode-index="1" tabindex="-1">製程放大<span>Scale-up</span></button><button id="concept-tab-inspection" type="button" role="tab" aria-selected="false" aria-controls="conceptPanel" data-mode-index="2" tabindex="-1">查廠與放行<span>GMP</span></button></div>
         <div class="endpoint-stage" id="conceptPanel" role="tabpanel">
-          <canvas id="conceptCanvas" role="img" aria-label="生技投資概念互動圖解"></canvas>
-          <div class="endpoint-stage-overlay" aria-hidden="true"><span>CONCEPT MODEL</span><strong id="conceptVisualTitle">概念圖解</strong></div>
+          <picture id="conceptPicture"><source media="(max-width: 680px)" srcset="../assets/guides/webp/safety-window-v1-720.webp"><img id="conceptVisual" class="concept-generated-image" src="../assets/guides/webp/safety-window-v1-1200.webp" alt="治療窗：MED 最低有效劑量與 MTD 最大耐受劑量依預先定義標準判定的劑量反應圖" width="1536" height="1024" decoding="async"></picture>
+          <button class="guide-image-zoom" type="button" aria-label="放大治療窗圖解"><i data-lucide="zoom-in" aria-hidden="true"></i><span>放大圖解</span></button>
+          <p class="concept-mode-caption" id="conceptModeCaption">教學示意圖，非特定公司、產品、試驗結果或通用定量規格；實際判讀須回到原始資料。</p>
+          <div class="endpoint-stage-overlay" aria-hidden="true"><span>CONCEPT MODEL</span><strong id="conceptVisualTitle">有效劑量與毒性之間的空間</strong></div>
         </div>
         <aside class="endpoint-explanation" aria-live="polite">
-          <span id="conceptKicker">Drugnews Framework</span>
-          <h3 id="conceptTitle">正在載入教材</h3>
-          <p id="conceptCopy"></p>
-          <dl><div><dt>先問</dt><dd id="conceptQuestion"></dd></div><div><dt>避免誤讀</dt><dd id="conceptLimit"></dd></div></dl>
+          <span id="conceptKicker">Therapeutic Window</span>
+          <h3 id="conceptTitle">藥有效，不代表能安全地給到有效劑量</h3>
+          <p id="conceptCopy">在劑量反應框架中，MED 與 MTD 都必須對應預先定義的判定標準。MTD 依 protocol 設定的 DLT 門檻、毒性類型與整體安全性資料判定，不是固定百分比。</p>
+          <dl><div><dt>先問</dt><dd id="conceptQuestion">MED 與 MTD 之間是否留有可用空間？</dd></div><div><dt>避免誤讀</dt><dd id="conceptLimit">看到反應就忽略 DLT、停藥與減量</dd></div></dl>
         </aside>
         <p class="endpoint-disclaimer">互動圖為概念模型，不代表任何真實公司、產品、交易、病人或財務預測。</p>
       </div>
@@ -85,19 +88,19 @@
     <section class="section white lesson-reading-section">
       <div class="container lesson-layout">
         <article class="lesson-body">
-          <p class="lesson-lead" id="lessonLead"></p>
-          <div id="lessonSections"></div>
+          <p class="lesson-lead" id="lessonLead">越接近上市，CMC 越不是後台工作，而是產品本身的一部分。安全性決定能不能給，製造與品質系統決定能不能穩定供應。</p>
+          <div id="lessonSections"><section id="safety"><p class="lesson-section-number">01</p><h2>AE、SAE、DLT：先分辨嚴重度與因果</h2><p>AE 是治療期間出現的不良事件；SAE 依死亡、住院等嚴重結果定義；DLT 則用於限制劑量遞增。投資人還要看與藥物的關聯、停藥率、減量率與是否具類別效應。</p></section><section id="window"><p class="lesson-section-number">02</p><h2>安全窗會改寫產品定位</h2><p>如果療效需要高暴露，但毒性讓病人無法維持劑量，產品即使有活性，也可能只能用在較後線或特定族群。真正的競爭力是效益風險，而不是最高反應數字。</p></section><section id="cmc"><p class="lesson-section-number">03</p><h2>CMC：把每一批藥做成同一個產品</h2><p>CMC 涵蓋原料、製程、分析方法、規格、安定性、包裝與設施。製程放大、技術轉移或更換廠址時，還要用可比性資料證明產品品質沒有改變。</p><div class="lesson-example"><strong>投資人應用</strong>CRL 若核心是 CMC 或委託製造設施，投資人應追蹤補件是否只需文件，還是需要重做批次、方法驗證或再次查廠。</div></section></div>
           <section class="evidence-checklist concept-checklist" aria-labelledby="investorChecklistTitle">
             <p class="eyebrow">Investor Checklist</p><h2 id="investorChecklistTitle">投資人判讀順序</h2>
-            <ol id="investorChecklist"></ol>
+            <ol id="investorChecklist"><li><span>01</span><div><strong>把 AE、SAE、DLT、停藥與減量分開</strong></div></li><li><span>02</span><div><strong>確認 MED 與 MTD 的判定標準及兩者距離</strong></div></li><li><span>03</span><div><strong>確認商業規模、技轉與可比性進度</strong></div></li><li><span>04</span><div><strong>追蹤查廠缺失是否影響品質、供應或資料完整性</strong></div></li></ol>
           </section>
-          <section class="concept-terms" aria-labelledby="termsTitle"><p class="eyebrow">Key Terms</p><h2 id="termsTitle">關鍵詞速查</h2><div id="conceptTerms"></div></section>
-          <div class="lesson-notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。互動圖為概念示意，不代表真實數據。</div>
+          <section class="concept-terms" aria-labelledby="termsTitle"><p class="eyebrow">Key Terms</p><h2 id="termsTitle">關鍵詞速查</h2><div id="conceptTerms"><div class="concept-term"><strong>AE</strong><p>治療期間發生的不良事件。</p></div><div class="concept-term"><strong>SAE</strong><p>造成死亡、住院等嚴重結果的不良事件。</p></div><div class="concept-term"><strong>DLT</strong><p>限制劑量繼續上升的毒性。</p></div><div class="concept-term"><strong>CQA</strong><p>必須被控制的關鍵品質屬性。</p></div><div class="concept-term"><strong>Comparability</strong><p>證明製程變更前後產品品質仍可比較。</p></div></div></section><section class="concept-source-panel" aria-labelledby="guide-source-title"><p class="eyebrow">Source Check</p><h2 id="guide-source-title">參考來源／延伸核對</h2><ul><li><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/optimizing-dosage-human-prescription-drugs-and-biological-products-treatment-oncologic-diseases" target="_blank" rel="noopener noreferrer">FDA — Optimizing the Dosage of Human Prescription Drugs and Biological Products for the Treatment of Oncologic Diseases</a><p>核對劑量選擇須綜合安全性、耐受性、活性與效益風險，不以單一 MTD 代表最佳劑量。</p></li><li><a href="https://www.fda.gov/about-fda/oncology-center-excellence/oncology-dosing-tool-kit" target="_blank" rel="noopener noreferrer">FDA — Oncology Dosing Tool Kit</a><p>延伸核對 DLT、dose-response、exposure-response 與劑量最佳化。</p></li><li><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations" target="_blank" rel="noopener noreferrer">FDA — Quality Systems Approach to Pharmaceutical Current Good Manufacturing Practice Regulations</a><p>核對製程控制、偏差處理、資料完整性與品質系統。</p></li></ul></section>
+          <nav class="course-pager" aria-label="課程前後導覽"><a href="regulatory-milestones.html"><span>上一課</span><strong>FDA 法規節點怎麼看</strong></a><a href="market-sizing.html"><span>下一課</span><strong>市場規模怎麼看</strong></a></nav><div class="lesson-notice">本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。互動圖為概念示意，不代表真實數據。</div>
         </article>
         <aside class="lesson-sidebar">
           <div class="lesson-sidebar-inner">
             <p class="eyebrow">本課索引</p>
-            <nav id="lessonSectionNav" aria-label="本課段落"></nav>
+            <nav id="lessonSectionNav" aria-label="本課段落"><a href="#safety">AE、SAE、DLT</a><a href="#window">安全窗會改寫產品定位</a><a href="#cmc">CMC</a></nav>
             <label class="lesson-complete"><input type="checkbox" id="lessonComplete"><span>標記為已完成</span></label>
             <a class="lesson-back-link" href="index.html">回到學習資料庫</a>
             <a class="lesson-back-link lesson-database-link" href="taiwan-biotech-clinical-trials.html"><i data-lucide="database-search" aria-hidden="true"></i>查台灣生技臨床資料</a>
@@ -109,7 +112,8 @@
 
   <footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. 內容僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。</div><nav class="footer-links" aria-label="Footer navigation"><a href="index.html">指南資料庫</a><a href="../articles/">文章</a></nav></div></footer>
   <script src="../assets/vendor/lucide.min.js"></script>
-  <script src="concept-lab.js?v=20260711"></script>
+  <script src="guide-image-viewer.js?v=20260712-2"></script><script src="concept-lab.js?v=20260712-4"></script>
   <script>window.lucide?.createIcons();</script>
+  <script src="../site-nav.js?v=20260712-1"></script>
 </body>
 </html>

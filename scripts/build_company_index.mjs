@@ -155,10 +155,11 @@ function page(articles) {
     <nav class="nav-links" aria-label="Main navigation">
       <a href="index.html">首頁</a>
       <a href="articles/">文章</a>
+      <a href="subscribe.html">深度分析</a>
+      <a href="search.html">搜尋</a>
       <a href="topics/">主題</a>
       <a href="guides/">指南</a>
       <a href="team.html">團隊</a>
-      <a href="subscribe.html">深度分析</a>
       <a href="services.html">公司合作</a>
       <a href="en/index.html">English</a>
     </nav>

@@ -31,7 +31,7 @@
   const stageCopy = document.getElementById("journeyStageCopy");
   const stageLink = document.getElementById("journeyStageLink");
 
-  if (journey && journeyCanvas && journeyStages.length && journeyCanvas.getContext) {
+  if (journey && journeyCanvas && journeyStages.length && journeyCanvas.getContext && getComputedStyle(journey.closest(".academy-journey-section") || journey).display !== "none") {
     const context = journeyCanvas.getContext("2d");
     const colors = ["#176f7b", "#315f8b", "#357b69", "#a0522f", "#274f70"];
     let width = 0;
@@ -213,80 +213,13 @@
   const search = document.getElementById("curriculumSearch");
   const filterButtons = [...document.querySelectorAll("[data-track-filter]")];
   const tracks = [...document.querySelectorAll(".curriculum-track")];
-  const modules = [...document.querySelectorAll("[data-module]")];
+  const modules = [...document.querySelectorAll("a.is-available[data-module]")];
   const result = document.getElementById("curriculumResult");
-  const planPanel = document.getElementById("curriculumPlanPanel");
-  const planKicker = document.getElementById("curriculumPlanKicker");
-  const planTitle = document.getElementById("curriculumPlanTitle");
-  const planCopy = document.getElementById("curriculumPlanCopy");
-  const planLinks = document.getElementById("curriculumPlanLinks");
   let activeFilter = "all";
-
-  const planLinkMap = {
-    foundation: [
-      ["看臨床階段比較", "#phaseMatrix"],
-      ["查台股案例資料庫", "taiwan-biotech-clinical-trials.html"],
-      ["先走 8 堂入門", "#startPath"]
-    ],
-    evidence: [
-      ["臨床終點教材", "clinical-endpoints.html"],
-      ["Phase I / II / III 比較", "#phaseMatrix"],
-      ["台股臨床案例", "taiwan-biotech-clinical-trials.html"]
-    ],
-    execution: [
-      ["FDA 法規節點", "regulatory-milestones.html"],
-      ["安全性與 CMC", "safety-cmc-risk.html"],
-      ["台股臨床案例", "taiwan-biotech-clinical-trials.html"]
-    ],
-    commercial: [
-      ["市場規模教材", "market-sizing.html"],
-      ["BD 授權條款", "bd-licensing-terms.html"],
-      ["專利與競爭週期", "patent-competition.html"]
-    ],
-    capital: [
-      ["生技估值教材", "biotech-valuation.html"],
-      ["現金跑道教材", "cash-runway.html"],
-      ["台股案例資料庫", "taiwan-biotech-clinical-trials.html"]
-    ]
-  };
 
   function normalize(value) {
     return value.toLocaleLowerCase("zh-Hant").trim();
   }
-
-  function showPlan(module) {
-    if (!planPanel || !planTitle || !planCopy || !planLinks) return;
-    const track = module.closest(".curriculum-track");
-    const trackName = track?.querySelector("header h2")?.textContent?.trim() || "課程藍圖";
-    const trackId = track?.dataset.track || "foundation";
-    const title = module.querySelector("h3")?.textContent?.trim() || "課程藍圖";
-    const copy = module.querySelector("p")?.textContent?.trim() || "";
-    if (planKicker) planKicker.textContent = trackName;
-    planTitle.textContent = title;
-    planCopy.textContent = `這堂課會補齊「${copy}」這個判讀能力。完整教材尚未上線；你可以先讀下面幾個已完成入口，先建立同一條閱讀路徑。`;
-    planLinks.replaceChildren();
-    (planLinkMap[trackId] || planLinkMap.foundation).forEach(([label, href]) => {
-      const link = document.createElement("a");
-      link.href = href;
-      link.textContent = label;
-      planLinks.append(link);
-    });
-    planPanel.hidden = false;
-    planPanel.scrollIntoView({ behavior: reducedMotion.matches ? "auto" : "smooth", block: "center" });
-  }
-
-  modules.forEach((module) => {
-    if (module.matches("a")) return;
-    module.setAttribute("role", "button");
-    module.setAttribute("tabindex", "0");
-    module.querySelector("em")?.replaceChildren(document.createTextNode("查看路徑"));
-    module.addEventListener("click", () => showPlan(module));
-    module.addEventListener("keydown", (event) => {
-      if (event.key !== "Enter" && event.key !== " ") return;
-      event.preventDefault();
-      showPlan(module);
-    });
-  });
 
   function filterCurriculum() {
     const query = normalize(search?.value || "");
@@ -295,7 +228,7 @@
     tracks.forEach((track) => {
       const matchesTrack = activeFilter === "all" || track.dataset.track === activeFilter;
       let trackCount = 0;
-      track.querySelectorAll("[data-module]").forEach((module) => {
+      track.querySelectorAll("a.is-available[data-module]").forEach((module) => {
         const searchText = normalize(`${module.dataset.search || ""} ${module.textContent || ""}`);
         const matchesQuery = !query || searchText.includes(query);
         const show = matchesTrack && matchesQuery;
@@ -305,6 +238,8 @@
           trackCount += 1;
         }
       });
+      const count = track.querySelector("header > strong");
+      if (count) count.textContent = `${trackCount} 個教材`;
       track.hidden = trackCount === 0;
     });
 

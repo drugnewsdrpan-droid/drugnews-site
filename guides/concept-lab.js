@@ -9,35 +9,35 @@
       labHeading: "同一個法規事件，影響可能完全不同",
       labIntro: "切換送件、審查時鐘與 CRL 分流，理解市場 headline 背後真正改變的風險。",
       progressId: "regulatory-milestones",
-      english: "../en/guides/regulatory-milestones.html",
+      english: "../en/",
       modes: [
-        { id: "submission", label: "送件路徑", sub: "IND → NDA / BLA", visual: "申請不等於核准", kicker: "Submission Path", title: "先分辨公司走到哪一個法規動作", copy: "IND 讓人體試驗得以開始；NDA 或 BLA 才是正式申請上市。FDA 接受送件，代表資料進入審查，不代表療效、安全與製造問題已經通過。", question: "這是允許試驗、接受審查，還是核准上市？", limit: "把受理送件寫成核准" },
+        { id: "submission", label: "送件路徑", sub: "IND → NDA / BLA", visual: "申請不等於核准", kicker: "Submission Path", title: "先分辨公司走到哪一個法規動作", copy: "IND 通常在 FDA 收到後 30 天生效，除非 FDA 提前通知可開始或置於 clinical hold；這不等於 FDA 肯定試驗設計或產品。NDA 或 BLA 才是正式申請上市。", question: "這是 IND 生效、接受審查，還是核准上市？", limit: "把 IND 生效寫成 FDA 核准試驗或產品", caption: "流程為教學示意；IND 生效不等於 FDA 核准試驗結果或產品。" },
         { id: "pdufa", label: "審查時鐘", sub: "PDUFA", visual: "日期是決策目標，不是答案", kicker: "Review Clock", title: "PDUFA 是預計完成審查的日期", copy: "市場常把 PDUFA 視為二元事件，但結果可能包括核准、延長審查、限制標籤或 CRL。日期越近，投資人越要回到申請內容與剩餘風險。", question: "審查期間還有哪些未解決問題？", limit: "PDUFA 到期就一定核准" },
         { id: "crl", label: "補件分流", sub: "CRL", visual: "同一封 CRL，修補難度不同", kicker: "Complete Response", title: "CRL 要先拆原因，再談時間", copy: "療效、安全性、統計、CMC 與廠房缺失需要的補救方式完全不同。真正影響價值的是是否要重做試驗、能否只補文件，以及供應鏈能否被修復。", question: "需要新試驗、補分析，還是修正製造？", limit: "所有 CRL 都只是行政補件" }
       ],
       lead: "法規語言的難點，不是縮寫太多，而是每一個動作都只回答一個有限問題。投資人要把申請、審查、查廠、標籤與最終決策分開。",
       sections: [
-        { id: "ind", title: "IND：允許進入人體，不代表產品有效", body: "IND 申請整合臨床前安全性、製造資訊與預定臨床方案。通過審查的核心是能否在合理風險下開始人體試驗，而不是產品已經證明有效。", example: "讀公司公告時，先確認是 IND submitted、IND cleared，還是 first patient dosed；三者代表的執行進度不同。" },
+        { id: "ind", title: "IND 生效／未被臨床暫停：得開始人體試驗", body: "IND 整合臨床前安全性、製造資訊與預定臨床方案。FDA 可在審查期間提出問題或 clinical hold；IND 生效不等於 FDA 已核准試驗結果、肯定試驗設計或核准產品。", example: "讀公司公告時，先確認是 IND submitted、IND effective / cleared，還是 first patient dosed；三者代表的執行進度不同。" },
         { id: "nda-bla", title: "NDA / BLA：把產品完整故事交給監管機關", body: "NDA 用於新藥，BLA 用於生物製劑。申請內容不只包括臨床資料，還包括非臨床、CMC、標籤、風險管理與製造設施。任何一層不可信，都可能影響核准。" },
         { id: "decision", title: "PDUFA 與 CRL：把事件拆成可修補與不可修補", body: "PDUFA 是審查目標日期；CRL 表示目前資料不足以核准。投資人最該問的是缺口在哪一層、補救需要多久、需要多少資本，以及補完後是否仍保有商業優勢。" }
       ],
       checklist: ["先確認事件動詞：submitted、accepted、cleared、approved", "找出臨床、統計、CMC、查廠與標籤的剩餘風險", "估算補件是否需要新試驗與額外資本", "把法規時間表連回現金跑道與商業化準備"],
       terms: [["IND", "人體臨床試驗前的研究用新藥申請。"], ["NDA", "小分子等新藥的上市申請。"], ["BLA", "生物製劑的上市申請。"], ["PDUFA", "FDA 預計完成審查並採取行動的目標日期。"], ["CRL", "FDA 認為目前申請尚不能核准的完整回覆函。"]],
-      sources: [["FDA Drug Development Process", "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/drug-development-process"], ["FDA Drug Review", "https://www.fda.gov/patients/drug-development-process/step-4-fda-drug-review"]]
+      sources: [["21 CFR § 312.40 — General requirements for use of an investigational new drug", "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.40", "核對 IND 一般於 FDA 收到後 30 天生效，以及 clinical hold 的法規條件。"], ["FDA — Enclosure: PDUFA Reauthorization Performance Goals and Procedures", "https://www.fda.gov/industry/prescription-drug-user-fee-amendments/enclosure-pdufa-reauthorization-performance-goals-and-procedures", "核對 review goal、action date 與重大修訂可能延長審查時鐘。"], ["FDA — Complete Response Letter Final Rule", "https://www.fda.gov/drugs/laws-acts-and-rules/complete-response-letter-final-rule", "核對 CRL 代表審查週期完成，但申請目前尚不能核准。"]]
     },
     "safety-cmc": {
       title: "安全性與 CMC 風險怎麼看",
       path: "Path 03 · Safety & Manufacturing",
-      number: "投資入門 05",
+      number: "投資入門 03",
       deck: "療效漂亮只是第一步。產品還要能找到可用劑量、穩定製造、通過查廠，並在商業規模下維持一致品質。",
       objectives: ["分辨 AE、SAE 與 DLT", "理解治療窗為何限制價值", "看懂製程放大與查廠風險"],
       labHeading: "從安全窗到商業批次，風險是一條連續路徑",
-      labIntro: "三張互動模型分別呈現劑量、安全窗、製程放大與查廠控制點。",
+      labIntro: "三張概念圖分別呈現劑量、安全窗、製程放大與查廠控制點。",
       progressId: "safety-cmc",
-      english: "../en/guides/safety-cmc-risk.html",
+      english: "../en/",
       modes: [
-        { id: "window", label: "治療窗", sub: "Efficacy vs Toxicity", visual: "有效劑量與毒性之間的空間", kicker: "Therapeutic Window", title: "藥有效，不代表能安全地給到有效劑量", copy: "治療窗是有效暴露與不可接受毒性之間的空間。若毒性曲線太早上升，推薦劑量可能無法達到最佳藥效，後續開發與商業定位都會受限。", question: "有效暴露和 DLT 之間還有多少空間？", limit: "看到反應就忽略停藥與減量" },
-        { id: "scale", label: "製程放大", sub: "Scale-up", visual: "放大的是產能，也可能放大變異", kicker: "Manufacturing Scale-up", title: "實驗室批次成功，不等於商業批次穩定", copy: "從小試、中試到商業規模，設備、原料、參數與分析方法都會改變。公司必須證明關鍵品質屬性可被控制，批次之間仍具一致性。", question: "關鍵品質屬性與製程參數是否被控制？", limit: "把委外製造當成風險已外包" },
+        { id: "window", label: "治療窗", sub: "Efficacy vs Toxicity", visual: "有效劑量與毒性之間的空間", kicker: "Therapeutic Window", title: "藥有效，不代表能安全地給到有效劑量", copy: "在劑量反應框架中，MED 與 MTD 都必須對應預先定義的判定標準。MTD 依 protocol 設定的 DLT 門檻、毒性類型與整體安全性資料判定，不是固定百分比。", question: "MED 與 MTD 之間是否留有可用空間？", limit: "看到反應就忽略 DLT、停藥與減量" },
+        { id: "scale", label: "製程放大", sub: "Scale-up", visual: "放大的是產能，也可能放大變異", kicker: "Manufacturing Scale-up", title: "實驗室批次成功，不等於商業批次穩定", copy: "從小試、中試到商業規模，設備、原料、參數與分析方法都會改變。公司必須證明關鍵品質屬性可被控制，批次之間仍具一致性。", question: "關鍵品質屬性與製程參數是否被控制？", limit: "把委外製造當成風險已外包", caption: "容量僅為概念示意，實際規模依產品、製程與設備而異。" },
         { id: "inspection", label: "查廠與放行", sub: "GMP", visual: "每個控制點都要留下可信證據", kicker: "Inspection Readiness", title: "查廠檢查的是系統，不只是一台設備", copy: "監管機關會看設施、資料完整性、偏差處理、無菌保證與批次放行。缺失若影響產品品質或資料可信度，就可能擋住核准。", question: "缺失會不會影響產品品質或資料可信度？", limit: "把所有查廠缺失視為同等嚴重" }
       ],
       lead: "越接近上市，CMC 越不是後台工作，而是產品本身的一部分。安全性決定能不能給，製造與品質系統決定能不能穩定供應。",
@@ -46,20 +46,20 @@
         { id: "window", title: "安全窗會改寫產品定位", body: "如果療效需要高暴露，但毒性讓病人無法維持劑量，產品即使有活性，也可能只能用在較後線或特定族群。真正的競爭力是效益風險，而不是最高反應數字。" },
         { id: "cmc", title: "CMC：把每一批藥做成同一個產品", body: "CMC 涵蓋原料、製程、分析方法、規格、安定性、包裝與設施。製程放大、技術轉移或更換廠址時，還要用可比性資料證明產品品質沒有改變。", example: "CRL 若核心是 CMC 或委託製造設施，投資人應追蹤補件是否只需文件，還是需要重做批次、方法驗證或再次查廠。" }
       ],
-      checklist: ["把 AE、SAE、DLT、停藥與減量分開", "比較療效暴露與毒性暴露的距離", "確認商業規模、技轉與可比性進度", "追蹤查廠缺失是否影響品質、供應或資料完整性"],
+      checklist: ["把 AE、SAE、DLT、停藥與減量分開", "確認 MED 與 MTD 的判定標準及兩者距離", "確認商業規模、技轉與可比性進度", "追蹤查廠缺失是否影響品質、供應或資料完整性"],
       terms: [["AE", "治療期間發生的不良事件。"], ["SAE", "造成死亡、住院等嚴重結果的不良事件。"], ["DLT", "限制劑量繼續上升的毒性。"], ["CQA", "必須被控制的關鍵品質屬性。"], ["Comparability", "證明製程變更前後產品品質仍可比較。"]],
-      sources: [["FDA Drug Review Process", "https://www.fda.gov/drugs/information-consumers-and-patients-drugs/fdas-drug-review-process-ensuring-drugs-are-safe-and-effective"]]
+      sources: [["FDA — Optimizing the Dosage of Human Prescription Drugs and Biological Products for the Treatment of Oncologic Diseases", "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/optimizing-dosage-human-prescription-drugs-and-biological-products-treatment-oncologic-diseases", "核對劑量選擇須綜合安全性、耐受性、活性與效益風險，不以單一 MTD 代表最佳劑量。"], ["FDA — Oncology Dosing Tool Kit", "https://www.fda.gov/about-fda/oncology-center-excellence/oncology-dosing-tool-kit", "延伸核對 DLT、dose-response、exposure-response 與劑量最佳化。"], ["FDA — Quality Systems Approach to Pharmaceutical Current Good Manufacturing Practice Regulations", "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations", "核對製程控制、偏差處理、資料完整性與品質系統。"]]
     },
     "market-sizing": {
       title: "市場規模怎麼看",
       path: "Path 04 · Market & Commercialization",
-      number: "投資入門 06",
+      number: "投資入門 04",
       deck: "市場不是病人數乘上藥價。真正能形成收入的，是被診斷、適合治療、獲得給付，而且最後選擇這個產品的病人。",
       objectives: ["分辨 TAM、SAM、SOM", "把定價與可及性一起看", "理解採用曲線為何需要時間"],
       labHeading: "把百億市場拆回一個可驗證的病人漏斗",
-      labIntro: "三張互動模型顯示理論市場、給付限制與商業化速度如何逐層改寫收入。",
+      labIntro: "三張概念圖顯示理論市場、給付限制與商業化速度如何逐層改寫收入。",
       progressId: "market-sizing",
-      english: "../en/guides/market-sizing.html",
+      english: "../en/",
       modes: [
         { id: "funnel", label: "病人漏斗", sub: "TAM → SAM → SOM", visual: "每一層限制都會縮小市場", kicker: "Patient Funnel", title: "TAM 是天花板，不是收入", copy: "理論病人數要依序扣掉診斷率、治療資格、可服務地區、給付、競品與實際市占。漏斗每一層都應該有可查證的假設。", question: "從總病人數到真正可得病人，中間扣掉了什麼？", limit: "病人數 × 藥價就當作營收" },
         { id: "pricing", label: "定價與給付", sub: "Price × Access", visual: "單價與可及性必須一起成立", kicker: "Price and Access", title: "藥價提高，不一定讓市場價值同步提高", copy: "價格越高，單一病人收入越大，但支付方可能限制使用條件。慢性病、罕病、癌症與一次性療法的給付邏輯不同，不能只看標價。", question: "誰付錢？使用條件會不會縮小病人池？", limit: "高定價直接等於高峰值銷售" },
@@ -73,19 +73,19 @@
       ],
       checklist: ["列出總病人、診斷、治療、給付與可取得病人", "區分標價、實收價與不同地區價格", "設定上市爬坡與競品進場時間", "用悲觀、基準、樂觀情境檢查敏感度"],
       terms: [["TAM", "理論上可服務的最大市場。"], ["SAM", "公司產品與地區實際能服務的市場。"], ["SOM", "考慮競爭與執行後可能取得的份額。"], ["Penetration", "產品在可服務市場中的實際滲透率。"], ["Adoption Curve", "市場從早期使用到成熟採用的時間曲線。"]],
-      sources: []
+      sources: [["NCI — Surveillance, Epidemiology, and End Results Program", "https://seer.cancer.gov/", "核對 incidence、prevalence、survival 與病人母數；疾病市場估算應回到可追溯流行病學資料。"], ["CMS — Medicare Part B Drug Average Sales Price", "https://www.cms.gov/medicare/payment/fee-for-service-providers/part-b-drugs/average-drug-sales-price", "核對 Medicare Part B 支付價格；標價、實收價與給付可及性不可混為一談。"]]
     },
     "bd-licensing": {
       title: "BD 授權條款怎麼讀",
       titleParts: ["BD 授權條款", "怎麼讀"],
       path: "Path 04 · Business Development",
-      number: "投資入門 04",
+      number: "投資入門 05",
       deck: "headline 總額很醒目，但真正落袋的是 upfront；真正長期影響價值的，則是里程碑難度、權利範圍與 royalty。",
       objectives: ["分辨 upfront 與總交易額", "看懂 milestone 觸發條件", "從權利範圍判斷交易含金量"],
       labHeading: "交易不是一個數字，而是一條風險分配路徑",
       labIntro: "把 upfront、milestone、royalty 與商業權利放回時間軸，才看得到誰承擔風險、誰保留上行。",
       progressId: "bd-licensing",
-      english: "../en/guides/bd-licensing-terms.html",
+      english: "../en/",
       modes: [
         { id: "upfront", label: "簽約金", sub: "Upfront", visual: "最確定的錢，在交易一開始", kicker: "Cash at Signing", title: "Upfront 是交易對資產當下信心的第一個硬訊號", copy: "Upfront 通常在簽約後支付，確定性高於多年後的里程碑。比較交易時，還要看資產階段、競爭程度與公司讓出的權利。", question: "簽約時真正支付多少？讓出了什麼？", limit: "把總交易額全部當成收入" },
         { id: "milestone", label: "里程碑", sub: "Milestones", visual: "每一筆付款都有觸發條件", kicker: "Contingent Payments", title: "Milestone 要按臨床、法規與銷售難度拆開", copy: "臨床、法規與商業里程碑的成功機率不同。越遠期、越依賴高銷售門檻的金額，越不能和 upfront 用同樣權重計算。", question: "每一筆款項要跨過哪一個風險門檻？", limit: "把所有 milestone 視為必然發生" },
@@ -99,18 +99,18 @@
       ],
       checklist: ["先拆 upfront、近程里程碑與遠期里程碑", "標記每一筆付款的觸發條件與時間", "確認地區、適應症、平台與共同商業化權利", "把交易現金流連回公司現金跑道與後續支出"],
       terms: [["Upfront", "簽約時或短期內支付的確定性較高款項。"], ["Milestone", "達成臨床、法規或商業條件才支付的款項。"], ["Royalty", "依淨銷售額計算的長期分潤。"], ["Option", "在特定條件下取得或擴大權利的選擇權。"], ["Co-development", "雙方共同承擔開發成本與決策。"]],
-      sources: []
+      sources: [["WIPO — Exchanging Value: Negotiating Technology Licensing Agreements", "https://www.wipo.int/edocs/pubdocs/en/licensing/903/wipo_pub_903.pdf", "核對 upfront、milestone、royalty、權利範圍與風險分配的授權架構。"], ["SEC — Regulation S-K Compliance & Disclosure Interpretations", "https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/regulation-s-k", "核對上市公司重大合約的揭露要求，並回查實際 licensing agreement 條款。"]]
     },
     "patent-cycle": {
       title: "專利與競爭週期怎麼看",
       path: "Path 04 · Patent & Competition",
-      number: "投資入門 07",
+      number: "投資入門 06",
       deck: "專利不是一個到期日，而是一組會被挑戰、延長、繞開或被新配方補強的權利。LOE 則會重新分配收入與 BD 需求。",
       objectives: ["分辨專利與法規排他性", "理解 LOE 對現金流的影響", "把專利懸崖連到大藥廠 BD"],
       labHeading: "產品生命週期，從保護期一路走到收入缺口",
       labIntro: "三張圖把核心專利、LOE 收入曲線與大藥廠管線補洞放在同一條時間軸。",
       progressId: "patent-cycle",
-      english: "../en/guides/patent-competition.html",
+      english: "../en/",
       modes: [
         { id: "protection", label: "保護層", sub: "Patent Estate", visual: "產品通常有多層保護", kicker: "Protection Stack", title: "核心物質專利之外，還有配方、用途與法規排他性", copy: "產品生命週期可能同時受物質、製程、配方、給藥與用途專利保護，也可能有資料或孤兒藥排他性。每一層強度與到期時間不同。", question: "真正難以繞開的是哪一層保護？", limit: "只看一個最晚到期日" },
         { id: "loe", label: "專利懸崖", sub: "Loss of Exclusivity", visual: "排他性結束後，價格與市占可能重估", kicker: "LOE Curve", title: "LOE 不是收入立刻歸零，而是競爭結構改變", copy: "學名藥與生物相似藥的侵蝕速度不同，也受給付、替代規則與製造門檻影響。估值要模擬價格、市占與時間，而不是直接砍成零。", question: "競品何時進場、能用多快速度取代？", limit: "所有產品都套用同一個懸崖斜率" },
@@ -124,18 +124,18 @@
       ],
       checklist: ["列出核心專利、補強專利與法規排他性", "區分專利到期與競品實際上市時間", "依產品類型估算價格與市占侵蝕", "把 LOE 缺口連到內部管線與 BD 策略"],
       terms: [["LOE", "Loss of Exclusivity，排他性結束。"], ["Patent Estate", "圍繞一個產品建立的整套專利組合。"], ["Data Exclusivity", "監管法規給予的資料排他保護。"], ["Generic", "與原廠小分子藥具相同活性成分的學名藥。"], ["Biosimilar", "與參考生物製劑高度相似的生物相似藥。"]],
-      sources: []
+      sources: [["FDA — How can I better understand Patents and Exclusivity?", "https://www.fda.gov/industry/fda-basics-industry/how-can-i-better-understand-patents-and-exclusivity", "核對 patent 與 FDA exclusivity 是不同保護，起算點、範圍與挑戰機制也不同。"], ["USPTO — Patent term calculator", "https://www.uspto.gov/patents/laws/patent-term-calculator", "核對專利期限需依申請日、調整與延長計算，不能直接套用上市後固定年數。"], ["FDA — Orange Book Data Files", "https://www.fda.gov/drugs/drug-approvals-and-databases/orange-book-data-files", "查核核准小分子藥的專利與排他資訊。"]]
     },
     valuation: {
       title: "生技估值與競爭格局",
       path: "Path 05 · Valuation",
-      number: "投資入門 03",
+      number: "投資入門 07",
       deck: "估值模型不是答案，而是把市場、成功機率、上市時間、競品與資本需求攤開，看看哪一個假設最容易錯。",
       objectives: ["理解 rNPV 的四個核心變數", "知道何時使用 SOTP", "用敏感度而不是單一目標價思考"],
       labHeading: "把估值拆成可被臨床與商業事件改寫的假設",
       labIntro: "切換 rNPV、SOTP 與敏感度矩陣，觀察模型如何把不確定性轉成價值區間。",
       progressId: "valuation",
-      english: "../en/guides/biotech-valuation.html",
+      english: "../en/",
       modes: [
         { id: "rnpv", label: "風險調整", sub: "rNPV", visual: "未來價值要經過機率與時間", kicker: "Risk-adjusted NPV", title: "rNPV 把遠期現金流、成功率與折現放在一起", copy: "峰值銷售不是今天的價值。模型要乘上開發成功機率、扣除時間折現與後續成本；任何一個假設變動，都可能大幅改寫結果。", question: "價值最敏感的是成功率、銷售、時間還是成本？", limit: "把模型輸出當成精確目標價" },
         { id: "sotp", label: "分部加總", sub: "SOTP", visual: "不同業務要用不同邏輯估值", kicker: "Sum of the Parts", title: "已上市產品、臨床資產與現金不能塞進同一倍數", copy: "SOTP 把穩定現金流、高風險管線、平台、CDMO 或現金分開評價，再檢查公司層級成本與折價。", question: "每一部分的風險與現金流性質相同嗎？", limit: "所有業務都套用同一個營收倍數" },
@@ -149,7 +149,7 @@
       ],
       checklist: ["先建立病人漏斗、價格、滲透率與峰值年份", "依證據與階段調整成功機率", "納入上市時間、開發成本與資本稀釋", "用敏感度矩陣找出會讓結論翻轉的變數"],
       terms: [["rNPV", "經成功機率調整後的淨現值。"], ["SOTP", "將不同資產或業務分開估值後加總。"], ["Peak Sales", "產品成熟期可能達到的最高年銷售。"], ["Discount Rate", "反映時間與資本風險的折現率。"], ["Sensitivity", "檢查假設變動對估值結果的影響。"]],
-      sources: []
+      sources: [["Svennebring & Wikberg (2013) — Net present value approaches for drug discovery", "https://link.springer.com/article/10.1186/2193-1801-2-140", "核對 rNPV 以成功機率、開發階段、成本、時點與未來現金流做風險調整的概念。"], ["Dando & Lebmeier (2020) — A novel valuation model for medical intervention development based on progressive dynamic changes", "https://link.springer.com/article/10.1186/s13731-019-0111-1", "延伸核對醫療產品開發中風險、成本、時程與未來現金流的估值框架。"]]
     },
     "cash-runway": {
       title: "財務與現金跑道怎麼看",
@@ -160,7 +160,7 @@
       labHeading: "把現金、燒錢與里程碑放在同一條時間軸",
       labIntro: "三張圖解分別呈現現金何時用完、支出何時加速，以及募資如何改變股東持分。",
       progressId: "cash-runway",
-      english: "../en/guides/cash-runway.html",
+      english: "../en/",
       modes: [
         { id: "runway", label: "現金跑道", sub: "Cash Runway", visual: "現金線要先跨過下一個里程碑", kicker: "Cash vs Milestone", title: "跑道不是幾個月，而是能不能抵達價值事件", copy: "用現金與季度 burn rate 可以得到粗略 runway，但真正重要的是主要數據、藥證或交易發生前，公司是否需要被迫募資。", question: "現金用完日和下一個催化事件，誰先到？", limit: "只用最近一季支出直線外推" },
         { id: "burn", label: "燒錢速度", sub: "Burn Rate", visual: "試驗放大時，斜率會突然變陡", kicker: "Changing Cost Base", title: "Phase III、建廠與上市準備會改變 burn rate", copy: "燒錢不是固定值。試驗人數、站點、製造批次、商業團隊與庫存準備都可能讓支出階梯式上升。", question: "未來四季有哪些支出會讓 burn 加速？", limit: "永遠沿用過去平均 burn rate" },
@@ -174,7 +174,7 @@
       ],
       checklist: ["用可用現金與正常化 burn rate 計算基礎跑道", "加入試驗放大、製造與上市準備的支出階梯", "對齊下一個數據、法規與 BD 里程碑", "估算不同募資價格下的新股數、權證與持分變化"],
       terms: [["Burn Rate", "公司在一段期間內消耗現金的速度。"], ["Runway", "現金在目前與預估支出下能支撐的時間。"], ["Dilution", "增發新股後既有股東持分比例下降。"], ["ATM", "依市場條件逐步發行股票的融資工具。"], ["Catalyst", "可能改變公司風險與估值的重要事件。"]],
-      sources: []
+      sources: [["SEC — Beginners' Guide to Financial Statements", "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements", "核對現金、營運現金流、融資現金流與財務報表的基本關係。"], ["Investor.gov — Convertible Securities", "https://www.investor.gov/introduction-investing/investing-basics/glossary/convertible-securities", "核對可轉換證券轉換後增加流通股數與稀釋的基本機制。"], ["SEC — Financial Reporting Manual, Topic 9", "https://www.sec.gov/about/divisions-offices/division-corporation-finance/financial-reporting-manual/frm-topic-9", "核對流動性、資本需求與持續經營揭露。"]]
     }
   };
 
@@ -208,21 +208,31 @@
   $("labIntro").textContent = guide.labIntro;
   $("lessonLead").textContent = guide.lead;
   $("englishGuideLink").href = guide.english;
-  guide.objectives.forEach((objective) => $("lessonObjectives").insertAdjacentHTML("beforeend", `<li>${objective}</li>`));
+  $("lessonObjectives").innerHTML = guide.objectives.map((objective) => `<li>${objective}</li>`).join("");
 
-  guide.sections.forEach((section, index) => {
-    $("lessonSections").insertAdjacentHTML("beforeend", `<section id="${section.id}"><p class="lesson-section-number">0${index + 1}</p><h2>${section.title}</h2><p>${section.body}</p>${section.example ? `<div class="lesson-example"><strong>投資人應用</strong>${section.example}</div>` : ""}</section>`);
-    $("lessonSectionNav").insertAdjacentHTML("beforeend", `<a href="#${section.id}">${section.title.replace(/：.*/, "")}</a>`);
-  });
+  $("lessonSections").innerHTML = guide.sections.map((section, index) => `<section id="${section.id}"><p class="lesson-section-number">0${index + 1}</p><h2>${section.title}</h2><p>${section.body}</p>${section.example ? `<div class="lesson-example"><strong>投資人應用</strong>${section.example}</div>` : ""}</section>`).join("");
+  $("lessonSectionNav").innerHTML = guide.sections.map((section) => `<a href="#${section.id}">${section.title.replace(/：.*/, "")}</a>`).join("");
 
-  guide.checklist.forEach((item, index) => $("investorChecklist").insertAdjacentHTML("beforeend", `<li><span>0${index + 1}</span><div><strong>${item}</strong></div></li>`));
-  guide.terms.forEach(([term, definition]) => $("conceptTerms").insertAdjacentHTML("beforeend", `<div class="concept-term"><strong>${term}</strong><p>${definition}</p></div>`));
-  if (guide.sources.length) {
-    $("conceptTerms").insertAdjacentHTML("afterend", `<p class="concept-source-list">參考來源：${guide.sources.map(([name, url]) => `<a href="${url}" target="_blank" rel="noopener">${name}</a>`).join("、")}</p>`);
-  }
+  $("investorChecklist").innerHTML = guide.checklist.map((item, index) => `<li><span>0${index + 1}</span><div><strong>${item}</strong></div></li>`).join("");
+  $("conceptTerms").innerHTML = guide.terms.map(([term, definition]) => `<div class="concept-term"><strong>${term}</strong><p>${definition}</p></div>`).join("");
+  const courseSequence = [
+    { key: "clinical", href: "clinical-endpoints.html", title: "臨床終點怎麼看" },
+    { key: "regulatory", href: "regulatory-milestones.html", title: "FDA 法規節點怎麼看" },
+    { key: "safety-cmc", href: "safety-cmc-risk.html", title: "安全性與 CMC 風險怎麼看" },
+    { key: "market-sizing", href: "market-sizing.html", title: "市場規模怎麼看" },
+    { key: "bd-licensing", href: "bd-licensing-terms.html", title: "BD 授權條款怎麼讀" },
+    { key: "patent-cycle", href: "patent-competition.html", title: "專利與競爭週期怎麼看" },
+    { key: "valuation", href: "biotech-valuation.html", title: "生技估值怎麼做" },
+    { key: "cash-runway", href: "cash-runway.html", title: "現金跑道與稀釋怎麼看" }
+  ];
+  const courseIndex = courseSequence.findIndex((item) => item.key === guideKey);
+  const previousCourse = courseSequence[courseIndex - 1] || { href: "index.html", title: "生技投資學習資料庫" };
+  const nextCourse = courseSequence[courseIndex + 1] || { href: "taiwan-biotech-clinical-trials.html", title: "台灣生技臨床資料庫" };
+  const pager = document.querySelector(".course-pager");
+  if (pager) pager.innerHTML = `<a href="${previousCourse.href}"><span>上一課</span><strong>${previousCourse.title}</strong></a><a href="${nextCourse.href}"><span>下一課</span><strong>${nextCourse.title}</strong></a>`;
 
   const tabsRoot = $("conceptTabs");
-  guide.modes.forEach((item, index) => tabsRoot.insertAdjacentHTML("beforeend", `<button id="concept-tab-${item.id}" type="button" role="tab" aria-selected="${index === 0}" aria-controls="conceptPanel" data-mode-index="${index}">${item.label}<span>${item.sub}</span></button>`));
+  tabsRoot.innerHTML = guide.modes.map((item, index) => `<button id="concept-tab-${item.id}" type="button" role="tab" aria-selected="${index === 0}" aria-controls="conceptPanel" data-mode-index="${index}" tabindex="${index === 0 ? 0 : -1}">${item.label}<span>${item.sub}</span></button>`).join("");
 
   const header = document.querySelector(".site-header");
   const navToggle = $("site-nav-toggle");
@@ -246,10 +256,16 @@
   syncMenuState();
 
   const lab = $("conceptLab");
-  const canvas = $("conceptCanvas");
+  const canvas = null;
   const panel = $("conceptPanel");
   const tabs = [...tabsRoot.querySelectorAll("[data-mode-index]")];
-  const context = canvas.getContext("2d");
+  const context = null;
+  const picture = $("conceptPicture");
+  const mobileSource = picture?.querySelector("source");
+  const staticVisual = $("conceptVisual");
+  const visualCaption = $("conceptModeCaption");
+  const mobileViewport = window.matchMedia("(max-width: 680px)");
+  let imageRequestId = 0;
   let width = 0;
   let height = 0;
   let dpr = 1;
@@ -257,10 +273,84 @@
   let modeStartedAt = performance.now();
   let visible = true;
   let lastFrame = 0;
+  let animationFrame = 0;
+  let animationUntil = 0;
+
+  const conceptImages = {
+    regulatory: { submission: "regulatory-submission-v1", pdufa: "regulatory-pdufa-v1", crl: "regulatory-crl-v1" },
+    "safety-cmc": { window: "safety-window-v1", scale: "cmc-scaleup-v1", inspection: "cmc-inspection-v1" },
+    "market-sizing": { funnel: "market-funnel-v1", pricing: "market-pricing-v1", adoption: "market-adoption-v1" },
+    "bd-licensing": { upfront: "bd-upfront-v1", milestone: "bd-milestone-v1", royalty: "bd-royalty-v1" },
+    "patent-cycle": { protection: "patent-protection-v1", loe: "patent-loe-v1", bdgap: "patent-bdgap-v1" },
+    valuation: { rnpv: "valuation-rnpv-v1", sotp: "valuation-sotp-v1", sensitivity: "valuation-sensitivity-v1" },
+    "cash-runway": { runway: "cash-runway-v1", burn: "cash-burn-v1", dilution: "cash-dilution-v1" }
+  };
+
+  const staticFlows = {
+    regulatory: {
+      submission: ["IND", "人體試驗", "NDA / BLA", "審查"],
+      pdufa: ["受理", "審查互動", "查廠 / 標籤", "決策"],
+      crl: ["臨床缺口", "安全性疑慮", "CMC / 查廠", "修補路徑"]
+    },
+    "safety-cmc": {
+      window: ["有效暴露", "治療窗", "毒性門檻", "可用劑量"],
+      scale: ["小試批次", "中試放大", "商業批次", "一致性"],
+      inspection: ["設施", "資料完整性", "偏差處理", "批次放行"]
+    },
+    "market-sizing": {
+      funnel: ["TAM", "診斷 / 可治療", "給付 / 地區", "SOM"],
+      pricing: ["標價", "實收價", "可及病人", "收入"],
+      adoption: ["上市", "醫師教育", "給付放量", "成熟市場"]
+    },
+    "bd-licensing": {
+      upfront: ["資產權利", "簽約金", "開發責任", "現金跑道"],
+      milestone: ["臨床", "法規", "上市", "銷售門檻"],
+      royalty: ["地區權利", "淨銷售", "分潤級距", "長期上行"]
+    },
+    "patent-cycle": {
+      protection: ["物質專利", "配方 / 用途", "法規排他", "保護強度"],
+      loe: ["排他性", "競品進場", "價格侵蝕", "收入重估"],
+      bdgap: ["成熟產品", "收入缺口", "外部資產", "管線更新"]
+    },
+    valuation: {
+      rnpv: ["現金流", "成功機率", "上市時程", "折現 / 成本"],
+      sotp: ["已上市產品", "臨床管線", "平台 / 現金", "公司折價"],
+      sensitivity: ["悲觀", "基準", "樂觀", "結論翻轉點"]
+    },
+    "cash-runway": {
+      runway: ["現金", "Burn rate", "下一里程碑", "募資窗口"],
+      burn: ["Phase I", "Phase II", "Phase III", "上市準備"],
+      dilution: ["新現金", "新增股數", "持分稀釋", "去風險價值"]
+    }
+  };
+
+  function imageUrl(base, size) { return `../assets/guides/webp/${base}-${size}.webp`; }
+  function preloadAdjacent(index) {
+    [index - 1, index + 1].filter((next) => guide.modes[next]).forEach((next) => {
+      const preload = new Image();
+      preload.src = imageUrl(conceptImages[guideKey][guide.modes[next].id], mobileViewport.matches ? 720 : 1200);
+    });
+  }
+  async function renderStaticVisual(item) {
+    const base = conceptImages[guideKey]?.[item.id];
+    if (!base || !staticVisual) return;
+    const requestId = ++imageRequestId;
+    const mobileUrl = imageUrl(base, 720);
+    const desktopUrl = imageUrl(base, 1200);
+    const next = new Image();
+    next.src = mobileViewport.matches ? mobileUrl : desktopUrl;
+    try { await next.decode(); } catch { return; }
+    if (requestId !== imageRequestId) return;
+    if (mobileSource) mobileSource.srcset = mobileUrl;
+    staticVisual.src = desktopUrl;
+    staticVisual.alt = `${guide.title}：${item.label}。${item.visual}。${item.question}`;
+    staticVisual.dataset.zoomSrc = desktopUrl;
+    staticVisual.dataset.conceptReady = "true";
+  }
 
   function label(text, x, y, options = {}) {
     context.fillStyle = options.color || "#536d72";
-    context.font = `${options.weight || 700} ${options.size || 12}px system-ui, -apple-system, sans-serif`;
+    context.font = `${options.weight || 720} ${Math.max(options.size || 12, 12)}px system-ui, -apple-system, sans-serif`;
     context.textAlign = options.align || "left";
     context.fillText(text, x, y);
   }
@@ -287,10 +377,8 @@
     items.forEach((item, index) => {
       const x = left + (right - left) * index / (items.length - 1);
       node(x, y, index === active ? 13 : 8, index === active ? "#a0522f" : "#176f7b", index <= active);
-      label(item, x, y + 34 + (index % 2) * 18, { size: width < 520 ? 9 : 11, align: "center", color: "#405c62" });
+      label(item, x, y + 34 + (index % 2) * 18, { size: width < 520 ? 11 : 12, align: "center", color: "#405c62" });
     });
-    const signalX = left + (right - left) * ((time * 0.00012) % 1);
-    node(signalX, y, 3.5, "#a0522f", true);
   }
 
   function drawRegulatory(time) {
@@ -304,10 +392,21 @@
       label("申請受理", left, y + 40, { align: "center" }); label("審查互動與查廠", (left + right) / 2, y - 30, { align: "center" }); label("PDUFA", right, y + 40, { align: "center", color: "#a0522f" });
     }
     if (modeIndex === 2) {
-      const cx = width * .5, cy = height * .34;
-      node(cx, cy, 16, "#176f7b", true); label("FDA Review", cx, cy - 30, { align: "center" });
-      const outcomes = [[.2, .72, "核准 / 標籤"], [.5, .72, "延長審查"], [.8, .72, "CRL：臨床 / CMC / 查廠"]];
-      outcomes.forEach(([rx, ry, text], index) => { const x=width*rx,y=height*ry; line(cx,cy+16,x,y-16,index===2?"rgba(160,82,47,.6)":"rgba(23,111,123,.4)",2); node(x,y,12,index===2?"#a0522f":"#176f7b",index===2); label(text,x,y+34,{align:"center",size:width<520?9:11,color:index===2?"#a0522f":"#405c62"}); });
+      const lanes = [
+        ["臨床 / 統計缺口", "補分析或追加試驗", "#a0522f"],
+        ["安全性疑慮", "補風險管理或更多追蹤", "#315f8b"],
+        ["CMC / 查廠缺失", "修製程、文件或再查廠", "#176f7b"]
+      ];
+      const left = width * .12, right = width * .88;
+      label("CRL 要先拆原因，再判斷補救難度", width * .5, height * .16, { align: "center", size: 13, color: "#173f48" });
+      lanes.forEach(([gap, fix, color], index) => {
+        const y = height * (.34 + index * .18);
+        node(left, y, 11, color, true);
+        line(left + 18, y, right - 18, y, `${color}88`, 3);
+        node(right, y, 11, color, index !== 0);
+        label(gap, left + 32, y - 12, { size: 12, color });
+        label(fix, right - 32, y + 20, { align: "right", size: 12, color: "#405c62" });
+      });
     }
   }
 
@@ -317,8 +416,10 @@
       const left=width*.12,right=width*.9,bottom=height*.82,top=height*.2;
       line(left,bottom,right,bottom); line(left,bottom,left,top);
       context.fillStyle="rgba(53,123,105,.12)"; context.fillRect(left+(right-left)*.32,top,(right-left)*.28,bottom-top);
-      label("治療窗",left+(right-left)*.46,top+20,{align:"center",color:"#357b69"});
-      [["療效", "#176f7b", .28], ["毒性", "#a0522f", .58]].forEach(([name,color,mid],idx)=>{ context.beginPath(); for(let i=0;i<=60*p;i++){const t=i/60,x=left+(right-left)*t,y=bottom-(bottom-top)/(1+Math.exp(-10*(t-mid))); if(i===0)context.moveTo(x,y);else context.lineTo(x,y);} context.strokeStyle=color;context.lineWidth=3;context.stroke();label(name,right-8,idx?top+26:top+52,{align:"right",color}); });
+      label("劑量 / 暴露 →",right,bottom+30,{align:"right",color:"#405c62"});
+      label("反應 / 毒性",left,top-16,{color:"#405c62"});
+      label("治療窗",left+(right-left)*.46,top+24,{align:"center",color:"#357b69"});
+      [["療效反應", "#176f7b", .28], ["毒性發生率", "#a0522f", .58]].forEach(([name,color,mid],idx)=>{ context.beginPath(); for(let i=0;i<=60*p;i++){const t=i/60,x=left+(right-left)*t,y=bottom-(bottom-top)/(1+Math.exp(-10*(t-mid))); if(i===0)context.moveTo(x,y);else context.lineTo(x,y);} context.strokeStyle=color;context.lineWidth=3;context.stroke();label(name,right-8,idx?top+42:top+70,{align:"right",color}); });
     }
     if (modeIndex === 1) {
       const sizes=[.12,.2,.3]; const xs=[.22,.5,.78];
@@ -395,6 +496,7 @@
   }
 
   function draw(time, force=false) {
+    if (!width || !height) return;
     if(!force&&(!visible||document.hidden))return;
     context.clearRect(0,0,width,height);
     if(guideKey==="regulatory")drawRegulatory(time);
@@ -407,15 +509,25 @@
     canvas.dataset.conceptReady="true";
   }
 
-  function resizeCanvas(){const rect=panel.getBoundingClientRect();width=Math.max(280,Math.round(rect.width));height=Math.max(320,Math.round(rect.height));dpr=Math.min(1.5,window.devicePixelRatio||1);canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);canvas.style.width=`${width}px`;canvas.style.height=`${height}px`;context.setTransform(dpr,0,0,dpr,0,0);draw(performance.now(),true);}
+  function resizeCanvas(){
+    const nextWidth = Math.max(280, Math.round(panel.clientWidth || panel.getBoundingClientRect().width || 0));
+    const nextHeight = nextWidth < 520 ? 340 : nextWidth < 900 ? 400 : 450;
+    const nextDpr = Math.min(1.5,window.devicePixelRatio||1);
+    if (nextWidth === width && nextHeight === height && nextDpr === dpr) return;
+    width=nextWidth;height=nextHeight;dpr=nextDpr;
+    canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);canvas.style.width=`${width}px`;canvas.style.height=`${height}px`;context.setTransform(dpr,0,0,dpr,0,0);draw(performance.now(),true);
+  }
 
-  function activateTab(tab,index){modeIndex=index;modeStartedAt=performance.now();const item=guide.modes[index];tabs.forEach((button,buttonIndex)=>{const active=buttonIndex===index;button.setAttribute("aria-selected",String(active));button.tabIndex=active?0:-1;});panel.setAttribute("aria-labelledby",tab.id);$("conceptVisualTitle").textContent=item.visual;$("conceptKicker").textContent=item.kicker;$("conceptTitle").textContent=item.title;$("conceptCopy").textContent=item.copy;$("conceptQuestion").textContent=item.question;$("conceptLimit").textContent=item.limit;draw(modeStartedAt,true);}
+  function startAnimation() {
+    renderStaticVisual(guide.modes[modeIndex]);
+    preloadAdjacent(modeIndex);
+  }
+
+  function activateTab(tab,index){modeIndex=index;modeStartedAt=performance.now();const item=guide.modes[index];tabs.forEach((button,buttonIndex)=>{const active=buttonIndex===index;button.setAttribute("aria-selected",String(active));button.tabIndex=active?0:-1;});panel.setAttribute("aria-labelledby",tab.id);panel.setAttribute("aria-label",`${guide.title}：${item.label}。${item.visual}。${item.copy} 核心問題：${item.question}`);$("conceptVisualTitle").textContent=item.visual;$("conceptKicker").textContent=item.kicker;$("conceptTitle").textContent=item.title;$("conceptCopy").textContent=item.copy;$("conceptQuestion").textContent=item.question;$("conceptLimit").textContent=item.limit;if(visualCaption)visualCaption.textContent=item.caption||"教學示意圖，非特定公司、產品、試驗結果或通用定量規格；實際判讀須回到原始資料。";startAnimation();}
   tabs.forEach((tab,index)=>{tab.addEventListener("click",()=>activateTab(tab,index));tab.addEventListener("keydown",event=>{if(!["ArrowLeft","ArrowRight","Home","End"].includes(event.key))return;event.preventDefault();let next=index;if(event.key==="ArrowLeft")next=(index-1+tabs.length)%tabs.length;if(event.key==="ArrowRight")next=(index+1)%tabs.length;if(event.key==="Home")next=0;if(event.key==="End")next=tabs.length-1;tabs[next].focus();activateTab(tabs[next],next);});});
 
-  function animate(time){requestAnimationFrame(animate);if(time-lastFrame<33)return;lastFrame=time;draw(time);}
-  new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;},{threshold:.02}).observe(lab);
-  new ResizeObserver(resizeCanvas).observe(panel);
-  activateTab(tabs[0],0);resizeCanvas();if(!reducedMotion.matches)requestAnimationFrame(animate);
+  function animate(time){ animationFrame = 0; renderStaticVisual(guide.modes[modeIndex]); }
+  activateTab(tabs[0],0);
 
   const complete=$("lessonComplete");const progressKey="drugnews-guide-progress-v1";
   function readProgress(){try{return JSON.parse(localStorage.getItem(progressKey)||"[]");}catch{return[];}}
