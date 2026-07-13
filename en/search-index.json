@@ -1,5 +1,32 @@
 [
   {
+    "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+    "slug": "anthropic-claude-science-ai-drug-discovery-en",
+    "date": "2026-07-13",
+    "publishAt": "2026-07-13T08:00:00+08:00",
+    "category": "商業分析系列",
+    "access": "Free Article",
+    "lang": "en",
+    "tags": [
+      "Business Analysis",
+      "AI drug discovery",
+      "Claude Science",
+      "Anthropic",
+      "foundation models",
+      "drug development",
+      "AnHorn Medicines",
+      "PROTAC",
+      "CMC",
+      "clinical assets",
+      "biotech business analysis",
+      "Taiwan biotech"
+    ],
+    "summary": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets.",
+    "image": "../assets/articles/anthropic-claude-science-ai-drug-discovery-en/cover.png",
+    "imageAlt": "Scientific visualization connecting AI models, molecular design, wet-lab experiments and clinical readouts in a drug discovery loop",
+    "url": "articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html"
+  },
+  {
     "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
     "slug": "roche-divarasib-kras-generation-en",
     "date": "2026-07-12",

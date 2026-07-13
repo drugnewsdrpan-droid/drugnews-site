@@ -209,6 +209,63 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+      "date": "2026-07-13",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+      "source": "Facebook",
+      "access": "Free Article",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "AI drug discovery",
+        "Claude Science",
+        "Anthropic",
+        "foundation models",
+        "drug development",
+        "AnHorn Medicines",
+        "PROTAC",
+        "CMC",
+        "clinical assets"
+      ],
+      "summary": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets.",
+      "image": "https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery-en/cover.png",
+      "is_accessible_for_free": false,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-13-anthropic-claude-science-ai-drug-discovery.html"
+      }
+    },
+    {
+      "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+      "date": "2026-07-13",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "AI 製藥",
+        "Claude Science",
+        "Anthropic",
+        "大型語言模型",
+        "新藥研發",
+        "安宏生醫",
+        "PROTAC",
+        "CMC",
+        "臨床資產"
+      ],
+      "summary": "Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。",
+      "image": "https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html"
+      }
+    },
+    {
       "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
       "date": "2026-07-12",
       "language": "en",
@@ -1448,54 +1505,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html"
-      }
-    },
-    {
-      "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-      "date": "2026-06-20",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Enlivex",
-        "RAIN token",
-        "Biotech treasury",
-        "Crypto",
-        "Capital markets"
-      ],
-      "summary": "Enlivex's paper gain from RAIN tokens shows how fragile biotech business models can create unusual treasury stories when operating revenue is absent and capital markets are difficult.",
-      "image": "https://drugnews.com.tw/assets/articles/enlivex-rain-token-biotech-treasury-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-20-enlivex-rain-token-biotech-treasury.html"
-      }
-    },
-    {
-      "title": "【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】",
-      "date": "2026-06-20",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "AI",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "一家臨床階段 Biotech，沒有藥品銷售收入，卻在一年內做出 12 億美元級別的淨利。",
-      "image": "https://drugnews.com.tw/assets/articles/enlivex-rain-token-biotech-treasury/cover-generated.svg",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-20-enlivex-rain-token-biotech-treasury-en.html"
       }
     }
   ]

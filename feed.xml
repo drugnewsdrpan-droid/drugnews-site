@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 12 Jul 2026 17:28:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 07:30:57 GMT</lastBuildDate>
+    <item>
+      <title>大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場</title>
+      <link>https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery/cover.png" alt="AI 模型、分子設計、濕實驗與臨床資料串成藥物研發閉環的科學主視覺"></p><p>Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。</p>]]></description>
+    </item>
     <item>
       <title>先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰</title>
       <link>https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Thu, 25 Jun 2026 00:30:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/protect-pet-medical-roche-platform/cover.png" alt="寶泰生醫寵物重症醫療平台與診斷治療閉環封面"></p><p>當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。</p>]]></description>
-    </item>
-    <item>
-      <title>AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu</title>
-      <link>https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html</guid>
-      <pubDate>Wed, 24 Jun 2026 00:13:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/ai-zasocitinib-sotyktu/cover.svg" alt="AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu 專題封面"></p><p>過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…</p>]]></description>
     </item>
   </channel>
 </rss>

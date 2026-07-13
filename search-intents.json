@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-12T17:28:16.341Z",
+  "generated_at": "2026-07-13T07:30:57.662Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -384,6 +384,42 @@
   ],
   "latest_canonical_articles": [
     {
+      "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+      "date": "2026-07-13",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "AI drug discovery",
+        "Claude Science",
+        "Anthropic",
+        "foundation models",
+        "drug development",
+        "AnHorn Medicines",
+        "PROTAC"
+      ],
+      "summary": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets."
+    },
+    {
+      "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+      "date": "2026-07-13",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+      "category": "商業分析",
+      "tags": [
+        "AI 製藥",
+        "Claude Science",
+        "Anthropic",
+        "大型語言模型",
+        "新藥研發",
+        "安宏生醫",
+        "PROTAC",
+        "CMC"
+      ],
+      "summary": "Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。"
+    },
+    {
       "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
       "date": "2026-07-12",
       "language": "en",
@@ -760,41 +796,6 @@
         "生技投資"
       ],
       "summary": "2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。"
-    },
-    {
-      "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
-      "date": "2026-07-01",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
-      "category": "商業分析",
-      "tags": [
-        "ADHD",
-        "centanafadine",
-        "Otsuka",
-        "clinical data",
-        "neuroscience",
-        "non-stimulant ADHD therapy",
-        "Taiwan biotech",
-        "drug development"
-      ],
-      "summary": "Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention."
-    },
-    {
-      "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
-      "date": "2026-07-01",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
-      "category": "商業分析",
-      "tags": [
-        "ADHD",
-        "centanafadine",
-        "Otsuka",
-        "臨床數據",
-        "神經科學",
-        "美時",
-        "瑩碩生技"
-      ],
-      "summary": "Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。"
     }
   ],
   "do_not_use_as": [

@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery-en/cover.png</image:loc>
+      <image:caption>Scientific visualization connecting AI models, molecular design, wet-lab experiments and clinical readouts in a drug discovery loop</image:caption>
+      <image:title>Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&amp;D Arena</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery-en/figure-01.webp</image:loc>
+      <image:caption>Claude Science connects literature, models, compute, wet-lab work and validation in a repeatable experimental feedback loop</image:caption>
+      <image:title>Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&amp;D Arena</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery-en/figure-02.webp</image:loc>
+      <image:caption>AI drug discovery creates three distinct layers of value through research workflows, R&amp;D partnerships and tradable assets</image:caption>
+      <image:title>Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&amp;D Arena</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery-en/figure-03.webp</image:loc>
+      <image:caption>A model output must pass through experimental validation, development gates and human evidence before it becomes a drug asset</image:caption>
+      <image:title>Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&amp;D Arena</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery-en/figure-04.webp</image:loc>
+      <image:caption>Anthropic and AnHorn Medicines enter the same AI drug discovery landscape from scientific workflows and AI-native asset creation</image:caption>
+      <image:title>Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&amp;D Arena</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery/cover.png</image:loc>
+      <image:caption>AI 模型、分子設計、濕實驗與臨床資料串成藥物研發閉環的科學主視覺</image:caption>
+      <image:title>大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery/facebook-01.jpg</image:loc>
+      <image:caption>Claude Science 把文獻、模型、運算、濕實驗與驗證串成可反覆學習的研發閉環</image:caption>
+      <image:title>大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery/facebook-02.jpg</image:loc>
+      <image:caption>AI 製藥從科研工作流、研發合作走向可交易資產的三層估值邏輯</image:caption>
+      <image:title>大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery/facebook-03.jpg</image:loc>
+      <image:caption>大模型必須把模型輸出接到實驗、臨床與可交易資產，才真正進入藥物研發</image:caption>
+      <image:title>大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery/facebook-04.jpg</image:loc>
+      <image:caption>Anthropic 與安宏生醫分別從科研工作台與 AI 原生新藥研發切入同一張產業地圖</image:caption>
+      <image:title>大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/roche-divarasib-kras-generation-en/cover.png</image:loc>

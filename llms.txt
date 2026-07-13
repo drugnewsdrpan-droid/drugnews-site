@@ -73,6 +73,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-13｜Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena
+  URL: https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html
+  Topics: Business Analysis, AI drug discovery, Claude Science, Anthropic, foundation models
+  Summary: Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets.
+- 2026-07-13｜大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場
+  URL: https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html
+  Topics: AI 製藥, Claude Science, Anthropic, 大型語言模型, 新藥研發
+  Summary: Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。
 - 2026-07-12｜Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race
   URL: https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html
   Topics: Business Analysis, KRAS G12C, divarasib, Roche, oncology
@@ -121,14 +129,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html
   Topics: ADC, PD-1/VEGF, 雙特異性抗體, BD, 臨床數據
   Summary: sigvotatug vedotin Phase III 單藥失利後，輝瑞的 430 億美元 Seagen ADC 賭局正轉向 3SBio PD-1/VEGF 雙抗與聯合療法底座。
-- 2026-07-06｜通用型 CAR-T 的 2026 從低谷回暖
-  URL: https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html
-  Topics: 臨床數據, 生技投資, 細胞治療, CAR-T, 異體細胞治療
-  Summary: 邏輯很簡單：傳統自體 CAR-T 需要取出患者自己的 T 細胞，送到工廠改造、擴增、檢驗，再回輸到患者體內。療效可以很強，但等待時間長、成本高、製程複雜，病情進展太快或 T 細胞品質太差的患者，常常等不到治療。
-- 2026-07-06｜Off-the-Shelf CAR-T in 2026: Rebounding From the Trough
-  URL: https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html
-  Topics: Business Analysis, Business Analysis, biotech business analysis, Taiwan biotech, cell therapy
-  Summary: Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table.
 
 ## Key Site Sections
 
