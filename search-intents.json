@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-13T07:30:57.662Z",
+  "generated_at": "2026-07-15T05:30:59.687Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -384,6 +384,78 @@
   ],
   "latest_canonical_articles": [
     {
+      "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+      "date": "2026-07-15",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "regulatory T cells",
+        "Treg",
+        "immune tolerance",
+        "cell therapy",
+        "autoimmune disease",
+        "transplantation",
+        "CMC"
+      ],
+      "summary": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline."
+    },
+    {
+      "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
+      "date": "2026-07-15",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
+      "category": "商業分析",
+      "tags": [
+        "Treg",
+        "免疫耐受",
+        "細胞療法",
+        "自體免疫",
+        "移植",
+        "CMC",
+        "台寶生醫",
+        "臨床開發"
+      ],
+      "summary": "諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。"
+    },
+    {
+      "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+      "date": "2026-07-14",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "ADC",
+        "Novartis",
+        "Myricx Bio",
+        "NMT inhibitor",
+        "ADC payload",
+        "BD licensing",
+        "oncology"
+      ],
+      "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value."
+    },
+    {
+      "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+      "date": "2026-07-14",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+      "category": "商業分析",
+      "tags": [
+        "ADC",
+        "Novartis",
+        "Myricx Bio",
+        "NMTi",
+        "payload",
+        "BD 授權",
+        "腫瘤",
+        "浩鼎"
+      ],
+      "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。"
+    },
+    {
       "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
       "date": "2026-07-13",
       "language": "en",
@@ -733,69 +805,6 @@
         "新藥開發"
       ],
       "summary": "2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。"
-    },
-    {
-      "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-      "date": "2026-07-03",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Revolution Medicines",
-        "RevMed",
-        "daraxonrasib",
-        "RAS oncology",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "BD licensing",
-        "biotech valuation"
-      ],
-      "summary": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies."
-    },
-    {
-      "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
-      "date": "2026-07-03",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
-      "category": "商業分析",
-      "tags": [
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。"
-    },
-    {
-      "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-      "date": "2026-07-02",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
-      "category": "商業分析",
-      "tags": [
-        "synthetic lethality",
-        "PARP",
-        "PRMT5",
-        "MTAP",
-        "RAS",
-        "oncology",
-        "biomarkers",
-        "Taiwan biotech"
-      ],
-      "summary": "PARP inhibitors turned synthetic lethality into a commercial reality. Two decades later, the industry is still asking why the next PARP-like blockbuster has been so difficult to reproduce."
-    },
-    {
-      "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
-      "date": "2026-07-02",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
-      "category": "商業分析",
-      "tags": [
-        "BD",
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。"
     }
   ],
   "do_not_use_as": [

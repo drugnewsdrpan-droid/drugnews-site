@@ -79,7 +79,8 @@ const topics = [
     description:
       "GLP-1 已經從降血糖與減重延伸到心腎代謝、口服化、多靶點與長期管理，是未來十年最重要的藥物市場之一。",
     keywords: ["GLP-1", "減重", "肥胖", "代謝", "tirzepatide", "semaglutide", "retatrutide", "Novo", "Lilly"],
-    terms: ["減重藥", "代謝疾病", "口服 GLP-1", "多靶點"]
+    terms: ["減重藥", "代謝疾病", "口服 GLP-1", "多靶點"],
+    minScore: 5
   }
 ];
 

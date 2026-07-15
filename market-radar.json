@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-13T07:30:57.533Z",
+  "generated_at": "2026-07-15T05:30:59.659Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -116,6 +116,246 @@
     "positioning_note": "Drugnews does not provide individual stock recommendations. The site is positioned as biotech business-analysis media: clinical evidence, valuation logic, BD/licensing terms, CMC risk, company strategy, investor education, and capital-market narrative."
   },
   "buckets": [
+    {
+      "name": "CMC / 商業化風險",
+      "count": 4,
+      "articles": [
+        {
+          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Business Analysis",
+            "regulatory T cells",
+            "Treg",
+            "immune tolerance",
+            "cell therapy",
+            "autoimmune disease",
+            "transplantation",
+            "CMC"
+          ],
+          "summary": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline."
+        },
+        {
+          "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Treg",
+            "免疫耐受",
+            "細胞療法",
+            "自體免疫",
+            "移植",
+            "CMC",
+            "台寶生醫",
+            "臨床開發"
+          ],
+          "summary": "諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。"
+        },
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "FDA",
+            "NASP",
+            "Sobi",
+            "CMC",
+            "委託製造",
+            "製造品質",
+            "難治性痛風",
+            "URAT1"
+          ],
+          "summary": "FDA 並未指出影響 NASP 核准可能性的臨床療效或安全性問題，真正要求補強的是 CMC 控制策略與委託製造設施缺失。這封 CRL 提醒投資人：越接近上市，製造可信度越是藥品價值的一部分。"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "日本生技",
+            "Biotech ecosystem",
+            "startup ecosystem",
+            "創新藥",
+            "大藥廠",
+            "BD",
+            "臨床數據",
+            "CMC"
+          ],
+          "summary": "日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。"
+        }
+      ]
+    },
+    {
+      "name": "腫瘤精準治療",
+      "count": 8,
+      "articles": [
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Business Analysis",
+            "ADC",
+            "Novartis",
+            "Myricx Bio",
+            "NMT inhibitor",
+            "ADC payload",
+            "BD licensing",
+            "oncology"
+          ],
+          "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value."
+        },
+        {
+          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "ADC",
+            "Novartis",
+            "Myricx Bio",
+            "NMTi",
+            "payload",
+            "BD 授權",
+            "腫瘤",
+            "浩鼎"
+          ],
+          "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。"
+        },
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Business Analysis",
+            "KRAS G12C",
+            "divarasib",
+            "Roche",
+            "oncology",
+            "clinical data",
+            "PFS",
+            "OS"
+          ],
+          "summary": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence."
+        },
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "KRAS G12C",
+            "divarasib",
+            "Roche",
+            "腫瘤新藥",
+            "臨床數據",
+            "PFS",
+            "OS",
+            "生技投資"
+          ],
+          "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Business Analysis",
+            "Business Analysis",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "ADC",
+            "PD-1/VEGF",
+            "bispecific antibody",
+            "oncology"
+          ],
+          "summary": "After a Phase III setback for sigvotatug vedotin, Pfizer's $43 billion Seagen ADC bet is increasingly tied to whether 3SBio's PD-1/VEGF bispecific can become a new immuno-oncology combination backbone."
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "ADC",
+            "PD-1/VEGF",
+            "雙特異性抗體",
+            "BD",
+            "臨床數據",
+            "生技投資",
+            "腫瘤藥物",
+            "製藥巨頭"
+          ],
+          "summary": "sigvotatug vedotin Phase III 單藥失利後，輝瑞的 430 億美元 Seagen ADC 賭局正轉向 3SBio PD-1/VEGF 雙抗與聯合療法底座。"
+        },
+        {
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Revolution Medicines",
+            "RevMed",
+            "daraxonrasib",
+            "RAS oncology",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "BD licensing",
+            "biotech valuation"
+          ],
+          "summary": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies."
+        },
+        {
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "synthetic lethality",
+            "PARP",
+            "PRMT5",
+            "MTAP",
+            "RAS",
+            "oncology",
+            "biomarkers",
+            "Taiwan biotech"
+          ],
+          "summary": "PARP inhibitors turned synthetic lethality into a commercial reality. Two decades later, the industry is still asking why the next PARP-like blockbuster has been so difficult to reproduce."
+        }
+      ]
+    },
     {
       "name": "AI 製藥與新技術",
       "count": 9,
@@ -294,163 +534,8 @@
       ]
     },
     {
-      "name": "腫瘤精準治療",
-      "count": 8,
-      "articles": [
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "KRAS G12C",
-            "divarasib",
-            "Roche",
-            "oncology",
-            "clinical data",
-            "PFS",
-            "OS"
-          ],
-          "summary": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence."
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "KRAS G12C",
-            "divarasib",
-            "Roche",
-            "腫瘤新藥",
-            "臨床數據",
-            "PFS",
-            "OS",
-            "生技投資"
-          ],
-          "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Business Analysis",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "ADC",
-            "PD-1/VEGF",
-            "bispecific antibody",
-            "oncology"
-          ],
-          "summary": "After a Phase III setback for sigvotatug vedotin, Pfizer's $43 billion Seagen ADC bet is increasingly tied to whether 3SBio's PD-1/VEGF bispecific can become a new immuno-oncology combination backbone."
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "ADC",
-            "PD-1/VEGF",
-            "雙特異性抗體",
-            "BD",
-            "臨床數據",
-            "生技投資",
-            "腫瘤藥物",
-            "製藥巨頭"
-          ],
-          "summary": "sigvotatug vedotin Phase III 單藥失利後，輝瑞的 430 億美元 Seagen ADC 賭局正轉向 3SBio PD-1/VEGF 雙抗與聯合療法底座。"
-        },
-        {
-          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Revolution Medicines",
-            "RevMed",
-            "daraxonrasib",
-            "RAS oncology",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "BD licensing",
-            "biotech valuation"
-          ],
-          "summary": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies."
-        },
-        {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "synthetic lethality",
-            "PARP",
-            "PRMT5",
-            "MTAP",
-            "RAS",
-            "oncology",
-            "biomarkers",
-            "Taiwan biotech"
-          ],
-          "summary": "PARP inhibitors turned synthetic lethality into a commercial reality. Two decades later, the industry is still asking why the next PARP-like blockbuster has been so difficult to reproduce."
-        },
-        {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "GSK",
-            "Nuvalent",
-            "Oncology",
-            "Lung cancer",
-            "ROS1",
-            "ALK",
-            "BD",
-            "M&A"
-          ],
-          "summary": "GSK's $10.6 billion all-cash acquisition of Nuvalent is more than a late-stage lung-cancer pipeline deal. It is a strategic attempt to rebuild oncology, buy time before major revenue pressure, and regain a seat at the precision-oncology table."
-        },
-        {
-          "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "疫苗",
-            "BD",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。"
-        }
-      ]
-    },
-    {
       "name": "臨床與法規催化",
-      "count": 4,
+      "count": 3,
       "articles": [
         {
           "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
@@ -500,63 +585,6 @@
             "瑩碩生技"
           ],
           "summary": "Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。"
-        },
-        {
-          "title": "美股迎來史上最大 Biotech IPO",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "臨床數據",
-            "生技投資"
-          ],
-          "summary": "台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。"
-        }
-      ]
-    },
-    {
-      "name": "CMC / 商業化風險",
-      "count": 2,
-      "articles": [
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "FDA",
-            "NASP",
-            "Sobi",
-            "CMC",
-            "委託製造",
-            "製造品質",
-            "難治性痛風",
-            "URAT1"
-          ],
-          "summary": "FDA 並未指出影響 NASP 核准可能性的臨床療效或安全性問題，真正要求補強的是 CMC 控制策略與委託製造設施缺失。這封 CRL 提醒投資人：越接近上市，製造可信度越是藥品價值的一部分。"
-        },
-        {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "日本生技",
-            "Biotech ecosystem",
-            "startup ecosystem",
-            "創新藥",
-            "大藥廠",
-            "BD",
-            "臨床數據",
-            "CMC"
-          ],
-          "summary": "日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。"
         }
       ]
     },
@@ -672,31 +700,6 @@
             "生技投資"
           ],
           "summary": "2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。"
-        }
-      ]
-    },
-    {
-      "name": "估值與資本市場",
-      "count": 1,
-      "articles": [
-        {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Biotech IPO",
-            "Parabilis Medicines",
-            "Helicons",
-            "Zolucatetide",
-            "Wnt beta-catenin",
-            "Regeneron",
-            "Biotech investing",
-            "Capital markets"
-          ],
-          "summary": "Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up."
         }
       ]
     }

@@ -1,6 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization-en/cover.png</image:loc>
+      <image:caption>A regulatory T cell suppressing excessive immune activation while a controlled cell-manufacturing workflow supports transplant tolerance</image:caption>
+      <image:title>After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization-en/figure-01.webp</image:loc>
+      <image:caption>Regulatory T cells suppress excessive immune activation and help restore immune tolerance</image:caption>
+      <image:title>After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization-en/figure-02.webp</image:loc>
+      <image:caption>Productization requires Treg identity, potency, manufacturing consistency, clinical evidence and a workable commercial model</image:caption>
+      <image:title>After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization-en/figure-03.webp</image:loc>
+      <image:caption>In vivo Treg expansion, ex vivo Treg therapy and engineered Treg solve different product problems and carry different development tests</image:caption>
+      <image:title>After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization-en/figure-04.webp</image:loc>
+      <image:caption>Taiwan Bio Therapeutics&apos; TRK-001 should be followed through cell identity and potency, manufacturing consistency, clinical endpoints and access</image:caption>
+      <image:title>After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization/cover.png</image:loc>
+      <image:caption>調節性 T 細胞抑制過度免疫反應並串連細胞製造與移植耐受的科學主視覺</image:caption>
+      <image:title>諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization/facebook-01.webp</image:loc>
+      <image:caption>Treg 科學從免疫耐受概念走向可製造、可追蹤與可交付的細胞產品</image:caption>
+      <image:title>諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization/facebook-02.webp</image:loc>
+      <image:caption>調節性 T 細胞像免疫系統的煞車，在必要時抑制過度反應並維持周邊免疫耐受</image:caption>
+      <image:title>諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization/facebook-03.webp</image:loc>
+      <image:caption>Treg 產品化可分為體內誘導或擴增、體外細胞療法與工程化 Treg 三條路徑</image:caption>
+      <image:title>諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization/facebook-04.webp</image:loc>
+      <image:caption>台寶 TRK-001 自體 Treg 從採血、體外擴增、腎移植後回輸到第二期試驗的產品化路徑</image:caption>
+      <image:title>諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc-en/cover.png</image:loc>
+      <image:caption>A next-generation antibody-drug conjugate entering a tumor cell and delivering a novel payload toward intracellular trafficking machinery</image:caption>
+      <image:title>The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc-en/figure-01.webp</image:loc>
+      <image:caption>A next-generation ADC must integrate target choice, linker performance, payload differentiation, therapeutic window, resistance and platform scalability</image:caption>
+      <image:title>The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc-en/figure-02.webp</image:loc>
+      <image:caption>An NMTi-ADC binds a tumor antigen, enters the cell, releases its payload and disrupts intracellular protein trafficking and survival programs</image:caption>
+      <image:title>The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc-en/figure-03.webp</image:loc>
+      <image:caption>The Novartis-Myricx transaction combines two lead ADC assets, an NMTi payload platform and broader oncology option value</image:caption>
+      <image:title>The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc-en/figure-04.webp</image:loc>
+      <image:caption>Taiwan&apos;s ADC watchlist should distinguish verified pipelines, technology moving toward the clinic and companies that still need greater public-data transparency</image:caption>
+      <image:title>The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc/cover.png</image:loc>
+      <image:caption>新型 NMTi payload 抗體藥物複合體進入腫瘤細胞並干擾細胞內機制的科學主視覺</image:caption>
+      <image:title>ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc/facebook-01.webp</image:loc>
+      <image:caption>ADC 下一場競爭將從熱門靶點推進到 payload、安全窗、耐藥與平台可複製性的綜合比較</image:caption>
+      <image:title>ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc/facebook-02.webp</image:loc>
+      <image:caption>下一代 ADC 必須同時回答靶點、linker、payload、安全窗、耐藥與平台延伸能力</image:caption>
+      <image:title>ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc/facebook-03.webp</image:loc>
+      <image:caption>NMTi-ADC 透過抗體將新型 payload 送入腫瘤細胞並干擾關鍵細胞功能依賴</image:caption>
+      <image:title>ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc/facebook-04.webp</image:loc>
+      <image:caption>台灣 ADC 公司要分別從公開管線、技術進臨床與資料透明度三條證據線觀察</image:caption>
+      <image:title>ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery-en/cover.png</image:loc>

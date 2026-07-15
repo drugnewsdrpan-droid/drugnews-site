@@ -73,6 +73,22 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-15｜After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product
+  URL: https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html
+  Topics: Business Analysis, regulatory T cells, Treg, immune tolerance, cell therapy
+  Summary: The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline.
+- 2026-07-15｜諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品
+  URL: https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html
+  Topics: Treg, 免疫耐受, 細胞療法, 自體免疫, 移植
+  Summary: 諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。
+- 2026-07-14｜The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class
+  URL: https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html
+  Topics: Business Analysis, ADC, Novartis, Myricx Bio, NMT inhibitor
+  Summary: Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value.
+- 2026-07-14｜ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload
+  URL: https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html
+  Topics: ADC, Novartis, Myricx Bio, NMTi, payload
+  Summary: 諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。
 - 2026-07-13｜Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena
   URL: https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html
   Topics: Business Analysis, AI drug discovery, Claude Science, Anthropic, foundation models
@@ -113,22 +129,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html
   Topics: 日本生技, Biotech ecosystem, startup ecosystem, 創新藥, 大藥廠
   Summary: 日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。
-- 2026-07-08｜GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last
-  URL: https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html
-  Topics: Business Analysis, Business Analysis, biotech business analysis, Taiwan biotech, GLP-1
-  Summary: GLP-1 competition is moving from peak weight loss toward long-term use, tolerability, rebound control, and combination design. Dorzagliatin matters not as a GLP-1 replacement, but as a possible metabolic base for the next phase of chronic therapy.
-- 2026-07-08｜GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住
-  URL: https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html
-  Topics: GLP-1, dorzagliatin, 多格列艾汀, glucokinase activator, GKA
-  Summary: GLP-1 競爭進入長期維持與聯用下半場，dorzagliatin 的價值不在取代減重藥，而是可能成為代謝治療的可持續底座。
-- 2026-07-07｜Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot
-  URL: https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html
-  Topics: Business Analysis, Business Analysis, biotech business analysis, Taiwan biotech, ADC
-  Summary: After a Phase III setback for sigvotatug vedotin, Pfizer's $43 billion Seagen ADC bet is increasingly tied to whether 3SBio's PD-1/VEGF bispecific can become a new immuno-oncology combination backbone.
-- 2026-07-07｜【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】
-  URL: https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html
-  Topics: ADC, PD-1/VEGF, 雙特異性抗體, BD, 臨床數據
-  Summary: sigvotatug vedotin Phase III 單藥失利後，輝瑞的 430 億美元 Seagen ADC 賭局正轉向 3SBio PD-1/VEGF 雙抗與聯合療法底座。
 
 ## Key Site Sections
 

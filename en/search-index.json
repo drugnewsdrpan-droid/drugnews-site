@@ -1,5 +1,57 @@
 [
   {
+    "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+    "slug": "treg-immune-tolerance-productization-en",
+    "date": "2026-07-15",
+    "publishAt": "2026-07-15T08:00:00+08:00",
+    "category": "商業分析系列",
+    "access": "Free Article",
+    "lang": "en",
+    "tags": [
+      "Business Analysis",
+      "regulatory T cells",
+      "Treg",
+      "immune tolerance",
+      "cell therapy",
+      "autoimmune disease",
+      "transplantation",
+      "CMC",
+      "Taiwan Bio Therapeutics",
+      "Taiwan biotech",
+      "clinical development"
+    ],
+    "summary": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline.",
+    "image": "../assets/articles/treg-immune-tolerance-productization-en/cover.png",
+    "imageAlt": "A regulatory T cell suppressing excessive immune activation while a controlled cell-manufacturing workflow supports transplant tolerance",
+    "url": "articles/2026-07-15-treg-immune-tolerance-productization-en.html"
+  },
+  {
+    "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+    "slug": "novartis-myricx-nmti-adc-en",
+    "date": "2026-07-14",
+    "publishAt": "2026-07-14T08:00:00+08:00",
+    "category": "商業分析系列",
+    "access": "Free Article",
+    "lang": "en",
+    "tags": [
+      "Business Analysis",
+      "ADC",
+      "Novartis",
+      "Myricx Bio",
+      "NMT inhibitor",
+      "ADC payload",
+      "BD licensing",
+      "oncology",
+      "Taiwan biotech",
+      "biotech valuation",
+      "drug development"
+    ],
+    "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value.",
+    "image": "../assets/articles/novartis-myricx-nmti-adc-en/cover.png",
+    "imageAlt": "A next-generation antibody-drug conjugate entering a tumor cell and delivering a novel payload toward intracellular trafficking machinery",
+    "url": "articles/2026-07-14-novartis-myricx-nmti-adc-en.html"
+  },
+  {
     "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
     "slug": "anthropic-claude-science-ai-drug-discovery-en",
     "date": "2026-07-13",

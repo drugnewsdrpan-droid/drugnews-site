@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-13T07:30:57.670Z",
+  "generated_at": "2026-07-15T05:30:59.688Z",
   "site": {
     "@type": [
       "Organization",
@@ -121,6 +121,101 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+      "date": "2026-07-15",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Business Analysis",
+        "regulatory T cells",
+        "Treg",
+        "immune tolerance",
+        "cell therapy",
+        "autoimmune disease",
+        "transplantation",
+        "CMC",
+        "Taiwan Bio Therapeutics",
+        "Taiwan biotech"
+      ],
+      "summary": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-15-treg-immune-tolerance-productization.html"
+      }
+    },
+    {
+      "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
+      "date": "2026-07-15",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Treg",
+        "免疫耐受",
+        "細胞療法",
+        "自體免疫",
+        "移植",
+        "CMC",
+        "台寶生醫",
+        "臨床開發",
+        "生技投資"
+      ],
+      "summary": "諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。",
+      "alternate_language_versions": {
+        "en": "2026-07-15-treg-immune-tolerance-productization-en.html"
+      }
+    },
+    {
+      "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+      "date": "2026-07-14",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Business Analysis",
+        "ADC",
+        "Novartis",
+        "Myricx Bio",
+        "NMT inhibitor",
+        "ADC payload",
+        "BD licensing",
+        "oncology",
+        "Taiwan biotech",
+        "biotech valuation"
+      ],
+      "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-14-novartis-myricx-nmti-adc.html"
+      }
+    },
+    {
+      "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+      "date": "2026-07-14",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "ADC",
+        "Novartis",
+        "Myricx Bio",
+        "NMTi",
+        "payload",
+        "BD 授權",
+        "腫瘤",
+        "浩鼎",
+        "諦醫生技",
+        "嘉正生技"
+      ],
+      "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。",
+      "alternate_language_versions": {
+        "en": "2026-07-14-novartis-myricx-nmti-adc-en.html"
+      }
+    },
     {
       "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
       "date": "2026-07-13",
@@ -702,87 +797,6 @@
       "alternate_language_versions": {
         "en": "2026-07-01-adhd-centanafadine-phase3b-en.html"
       }
-    },
-    {
-      "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-      "date": "2026-06-30",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "GSK",
-        "Nuvalent",
-        "Oncology",
-        "Lung cancer",
-        "ROS1",
-        "ALK",
-        "BD",
-        "M&A",
-        "Biotech investing",
-        "Big Pharma"
-      ],
-      "summary": "GSK's $10.6 billion all-cash acquisition of Nuvalent is more than a late-stage lung-cancer pipeline deal. It is a strategic attempt to rebuild oncology, buy time before major revenue pressure, and regain a seat at the precision-oncology table.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-30-gsk-nuvalent-oncology-comeback.html"
-      }
-    },
-    {
-      "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
-      "date": "2026-06-30",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "疫苗",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。",
-      "alternate_language_versions": {
-        "en": "2026-06-30-gsk-nuvalent-oncology-comeback-en.html"
-      }
-    },
-    {
-      "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-      "date": "2026-06-29",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Biotech IPO",
-        "Parabilis Medicines",
-        "Helicons",
-        "Zolucatetide",
-        "Wnt beta-catenin",
-        "Regeneron",
-        "Biotech investing",
-        "Capital markets"
-      ],
-      "summary": "Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-29-biotech-ipo.html"
-      }
-    },
-    {
-      "title": "美股迎來史上最大 Biotech IPO",
-      "date": "2026-06-29",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。",
-      "alternate_language_versions": {
-        "en": "2026-06-29-biotech-ipo-en.html"
-      }
     }
   ],
   "entities": [
@@ -790,8 +804,14 @@
       "name": "生技投資",
       "type": "market_topic",
       "mentions": 33,
-      "latest_date": "2026-07-12",
+      "latest_date": "2026-07-15",
       "latest_articles": [
+        {
+          "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
           "date": "2026-07-12",
@@ -815,19 +835,13 @@
           "date": "2026-07-09",
           "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-          "language": "zh-Hant"
         }
       ]
     },
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 31,
+      "mentions": 29,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -865,7 +879,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 30,
+      "mentions": 28,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -941,7 +955,7 @@
     {
       "name": "BD",
       "type": "market_topic",
-      "mentions": 24,
+      "mentions": 23,
       "latest_date": "2026-07-09",
       "latest_articles": [
         {
@@ -979,9 +993,21 @@
     {
       "name": "Business Analysis",
       "type": "topic",
-      "mentions": 19,
-      "latest_date": "2026-07-13",
+      "mentions": 20,
+      "latest_date": "2026-07-15",
       "latest_articles": [
+        {
+          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        },
         {
           "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
           "date": "2026-07-13",
@@ -999,17 +1025,43 @@
           "date": "2026-07-11",
           "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
           "language": "en"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Taiwan biotech",
+      "type": "topic",
+      "mentions": 15,
+      "latest_date": "2026-07-15",
+      "latest_articles": [
         {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
           "language": "en"
         },
         {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
           "language": "en"
         }
       ]
@@ -1091,21 +1143,21 @@
       ]
     },
     {
-      "name": "Taiwan biotech",
+      "name": "drug development",
       "type": "topic",
-      "mentions": 13,
-      "latest_date": "2026-07-13",
+      "mentions": 12,
+      "latest_date": "2026-07-14",
       "latest_articles": [
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        },
         {
           "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
           "date": "2026-07-13",
           "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
           "language": "en"
         },
         {
@@ -1131,7 +1183,7 @@
     {
       "name": "FDA",
       "type": "market_topic",
-      "mentions": 13,
+      "mentions": 12,
       "latest_date": "2026-07-10",
       "latest_articles": [
         {
@@ -1163,82 +1215,6 @@
           "date": "2026-06-08",
           "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Big Pharma",
-      "type": "market_topic",
-      "mentions": 12,
-      "latest_date": "2026-07-07",
-      "latest_articles": [
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Capital markets",
-      "type": "market_topic",
-      "mentions": 12,
-      "latest_date": "2026-06-29",
-      "latest_articles": [
-        {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
         }
       ]
     },
@@ -1276,44 +1252,6 @@
           "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
           "date": "2026-07-09",
           "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "drug development",
-      "type": "topic",
-      "mentions": 11,
-      "latest_date": "2026-07-13",
-      "latest_articles": [
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
           "language": "en"
         }
       ]
@@ -1357,15 +1295,27 @@
       ]
     },
     {
-      "name": "AI drug discovery",
-      "type": "topic",
-      "mentions": 10,
-      "latest_date": "2026-07-13",
+      "name": "Big Pharma",
+      "type": "market_topic",
+      "mentions": 11,
+      "latest_date": "2026-07-07",
       "latest_articles": [
         {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
           "language": "en"
         },
         {
@@ -1379,27 +1329,21 @@
           "date": "2026-06-12",
           "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
           "language": "en"
-        },
-        {
-          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
-          "date": "2026-05-29",
-          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
-          "language": "en"
         }
       ]
     },
     {
-      "name": "Regulatory risk",
-      "type": "topic",
-      "mentions": 10,
-      "latest_date": "2026-06-28",
+      "name": "Capital markets",
+      "type": "market_topic",
+      "mentions": 11,
+      "latest_date": "2026-06-29",
       "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        },
         {
           "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
           "date": "2026-06-28",
@@ -1407,27 +1351,21 @@
           "language": "en"
         },
         {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
           "language": "en"
         },
         {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
           "language": "en"
         },
         {
-          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
-          "language": "en"
-        },
-        {
-          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
+          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
+          "date": "2026-06-14",
+          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
           "language": "en"
         }
       ]
@@ -1471,39 +1409,153 @@
       ]
     },
     {
-      "name": "Clinical and CMC",
+      "name": "CMC",
       "type": "biotech_concept_or_target",
-      "mentions": 10,
-      "latest_date": "2026-06-08",
+      "mentions": 9,
+      "latest_date": "2026-07-15",
       "latest_articles": [
         {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
           "language": "en"
         },
         {
-          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
-          "date": "2026-06-05",
-          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
+          "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
           "language": "en"
         },
         {
-          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
-          "date": "2026-06-03",
-          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "ADC",
+      "type": "biotech_concept_or_target",
+      "mentions": 9,
+      "latest_date": "2026-07-14",
+      "latest_articles": [
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
           "language": "en"
         },
         {
-          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
           "language": "en"
         },
         {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "biotech valuation",
+      "type": "market_topic",
+      "mentions": 9,
+      "latest_date": "2026-07-14",
+      "latest_articles": [
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "AI drug discovery",
+      "type": "topic",
+      "mentions": 9,
+      "latest_date": "2026-07-13",
+      "latest_articles": [
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
+          "date": "2026-06-07",
+          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
+          "date": "2026-05-29",
+          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
           "language": "en"
         }
       ]
@@ -1547,9 +1599,85 @@
       ]
     },
     {
-      "name": "Business development",
+      "name": "Regulatory risk",
       "type": "topic",
       "mentions": 9,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
+          "date": "2026-05-24",
+          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
+          "language": "en"
+        },
+        {
+          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Clinical and CMC",
+      "type": "biotech_concept_or_target",
+      "mentions": 9,
+      "latest_date": "2026-06-08",
+      "latest_articles": [
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
+          "date": "2026-06-05",
+          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
+          "date": "2026-06-03",
+          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Business development",
+      "type": "topic",
+      "mentions": 8,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -1585,15 +1713,15 @@
       ]
     },
     {
-      "name": "biotech valuation",
+      "name": "BD licensing",
       "type": "market_topic",
-      "mentions": 8,
-      "latest_date": "2026-07-11",
+      "mentions": 7,
+      "latest_date": "2026-07-14",
       "latest_articles": [
         {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
           "language": "en"
         },
         {
@@ -1615,85 +1743,9 @@
           "language": "en"
         },
         {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "ADC",
-      "type": "biotech_concept_or_target",
-      "mentions": 8,
-      "latest_date": "2026-07-07",
-      "latest_articles": [
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-          "language": "en"
-        },
-        {
-          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "HIV 新藥很好賺呀...吉利德財報披露",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "CMC",
-      "type": "biotech_concept_or_target",
-      "mentions": 7,
-      "latest_date": "2026-07-13",
-      "latest_articles": [
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
           "language": "en"
         }
       ]
@@ -1771,44 +1823,6 @@
           "date": "2026-06-15",
           "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "BD licensing",
-      "type": "market_topic",
-      "mentions": 6,
-      "latest_date": "2026-07-09",
-      "latest_articles": [
-        {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
         }
       ]
     },
@@ -1961,6 +1975,38 @@
           "date": "2026-05-22",
           "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "oncology",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-07-14",
+      "latest_articles": [
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2189,34 +2235,54 @@
       ]
     },
     {
-      "name": "Targeted therapy",
+      "name": "autoimmune disease",
       "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-05-19",
+      "mentions": 3,
+      "latest_date": "2026-07-15",
       "latest_articles": [
         {
-          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
+          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
           "language": "en"
         },
         {
-          "title": "Where Pfizer Misjudged the Vepdegestrant Strategy",
-          "date": "2026-05-18",
-          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake-en.html",
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
           "language": "en"
         },
         {
-          "title": "Johnson & Johnson Cuts Two Autologous Lymphoma CAR-T Programs",
-          "date": "2026-05-17",
-          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge-en.html",
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Novartis",
+      "type": "company",
+      "mentions": 3,
+      "latest_date": "2026-07-14",
+      "latest_articles": [
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
           "language": "en"
         },
         {
-          "title": "Daiichi Sankyo's Most Expensive Lesson: How an ADC Capacity Bet Can Backfire After a Blockbuster",
-          "date": "2026-05-17",
-          "url": "https://drugnews.com.tw/articles/2026-05-17-daiichi-sankyo-adc-capacity-lesson-en.html",
-          "language": "en"
+          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "核藥賣爆了",
+          "date": "2026-06-01",
+          "url": "https://drugnews.com.tw/articles/2026-06-01-pluvicto-radioligand-therapy-growth.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2269,32 +2335,6 @@
           "date": "2026-05-18",
           "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "oncology",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-07-12",
-      "latest_articles": [
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
-          "language": "en"
         }
       ]
     },
@@ -2424,6 +2464,112 @@
           "title": "AI半導體掩蓋生技光芒",
           "date": "2026-05-21",
           "url": "https://drugnews.com.tw/articles/2026-05-21-ai-semiconductor-biotech-capital-neglect.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Targeted therapy",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-05-19",
+      "latest_articles": [
+        {
+          "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
+          "date": "2026-05-19",
+          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Pfizer Misjudged the Vepdegestrant Strategy",
+          "date": "2026-05-18",
+          "url": "https://drugnews.com.tw/articles/2026-05-18-pfizer-vepdegestrant-strategy-mistake-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Johnson & Johnson Cuts Two Autologous Lymphoma CAR-T Programs",
+          "date": "2026-05-17",
+          "url": "https://drugnews.com.tw/articles/2026-05-17-jnj-auto-car-t-commercial-challenge-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "自體免疫",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-15",
+      "latest_articles": [
+        {
+          "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "cell therapy",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-15",
+      "latest_articles": [
+        {
+          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Treg",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-15",
+      "latest_articles": [
+        {
+          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+          "language": "en"
+        },
+        {
+          "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Myricx Bio",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-14",
+      "latest_articles": [
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        },
+        {
+          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
           "language": "zh-Hant"
         }
       ]
@@ -2829,26 +2975,6 @@
       ]
     },
     {
-      "name": "autoimmune disease",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-06",
-      "latest_articles": [
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "生技估值",
       "type": "market_topic",
       "mentions": 2,
@@ -2987,109 +3113,85 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "Otsuka",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-01",
-      "latest_articles": [
-        {
-          "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
-          "language": "en"
-        },
-        {
-          "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
-          "date": "2026-07-01",
-          "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "GSK",
-      "type": "company",
-      "mentions": 2,
-      "latest_date": "2026-06-30",
-      "latest_articles": [
-        {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK's US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases",
-          "date": "2026-06-19",
-          "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Lung cancer",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-06-30",
-      "latest_articles": [
-        {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK's US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases",
-          "date": "2026-06-19",
-          "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Nuvalent",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-06-30",
-      "latest_articles": [
-        {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK's US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases",
-          "date": "2026-06-19",
-          "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Regeneron",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-06-29",
-      "latest_articles": [
-        {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+      "date": "2026-07-15",
+      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Business Analysis",
+        "regulatory T cells",
+        "Treg",
+        "immune tolerance",
+        "cell therapy",
+        "autoimmune disease",
+        "transplantation",
+        "CMC"
+      ],
+      "summary": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline."
+    },
+    {
+      "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
+      "date": "2026-07-15",
+      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Treg",
+        "免疫耐受",
+        "細胞療法",
+        "自體免疫",
+        "移植",
+        "CMC",
+        "台寶生醫",
+        "臨床開發"
+      ],
+      "summary": "諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。"
+    },
+    {
+      "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+      "date": "2026-07-14",
+      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Business Analysis",
+        "ADC",
+        "Novartis",
+        "Myricx Bio",
+        "NMT inhibitor",
+        "ADC payload",
+        "BD licensing",
+        "oncology"
+      ],
+      "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value."
+    },
+    {
+      "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+      "date": "2026-07-14",
+      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "ADC",
+        "Novartis",
+        "Myricx Bio",
+        "NMTi",
+        "payload",
+        "BD 授權",
+        "腫瘤",
+        "浩鼎"
+      ],
+      "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。"
+    },
     {
       "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
       "date": "2026-07-13",
@@ -3564,73 +3666,6 @@
         "瑩碩生技"
       ],
       "summary": "Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。"
-    },
-    {
-      "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-      "date": "2026-06-30",
-      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "GSK",
-        "Nuvalent",
-        "Oncology",
-        "Lung cancer",
-        "ROS1",
-        "ALK",
-        "BD",
-        "M&A"
-      ],
-      "summary": "GSK's $10.6 billion all-cash acquisition of Nuvalent is more than a late-stage lung-cancer pipeline deal. It is a strategic attempt to rebuild oncology, buy time before major revenue pressure, and regain a seat at the precision-oncology table."
-    },
-    {
-      "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
-      "date": "2026-06-30",
-      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "疫苗",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。"
-    },
-    {
-      "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-      "date": "2026-06-29",
-      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Biotech IPO",
-        "Parabilis Medicines",
-        "Helicons",
-        "Zolucatetide",
-        "Wnt beta-catenin",
-        "Regeneron",
-        "Biotech investing",
-        "Capital markets"
-      ],
-      "summary": "Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up."
-    },
-    {
-      "title": "美股迎來史上最大 Biotech IPO",
-      "date": "2026-06-29",
-      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。"
     }
   ]
 }

@@ -209,6 +209,121 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+      "date": "2026-07-15",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+      "source": "Facebook",
+      "access": "Free Article",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "regulatory T cells",
+        "Treg",
+        "immune tolerance",
+        "cell therapy",
+        "autoimmune disease",
+        "transplantation",
+        "CMC",
+        "Taiwan Bio Therapeutics",
+        "Taiwan biotech"
+      ],
+      "summary": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline.",
+      "image": "https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization-en/cover.png",
+      "is_accessible_for_free": false,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-15-treg-immune-tolerance-productization.html"
+      }
+    },
+    {
+      "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
+      "date": "2026-07-15",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Treg",
+        "免疫耐受",
+        "細胞療法",
+        "自體免疫",
+        "移植",
+        "CMC",
+        "台寶生醫",
+        "臨床開發",
+        "生技投資"
+      ],
+      "summary": "諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。",
+      "image": "https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-15-treg-immune-tolerance-productization-en.html"
+      }
+    },
+    {
+      "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+      "date": "2026-07-14",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+      "source": "Facebook",
+      "access": "Free Article",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "ADC",
+        "Novartis",
+        "Myricx Bio",
+        "NMT inhibitor",
+        "ADC payload",
+        "BD licensing",
+        "oncology",
+        "Taiwan biotech",
+        "biotech valuation"
+      ],
+      "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value.",
+      "image": "https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc-en/cover.png",
+      "is_accessible_for_free": false,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-14-novartis-myricx-nmti-adc.html"
+      }
+    },
+    {
+      "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+      "date": "2026-07-14",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "ADC",
+        "Novartis",
+        "Myricx Bio",
+        "NMTi",
+        "payload",
+        "BD 授權",
+        "腫瘤",
+        "浩鼎",
+        "諦醫生技",
+        "嘉正生技"
+      ],
+      "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。",
+      "image": "https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-14-novartis-myricx-nmti-adc-en.html"
+      }
+    },
+    {
       "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
       "date": "2026-07-13",
       "language": "en",
@@ -1405,106 +1520,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-06-24-ai-zasocitinib-sotyktu-en.html"
-      }
-    },
-    {
-      "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-      "date": "2026-06-22",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Obesity medicine",
-        "GLP-1",
-        "Eli Lilly",
-        "Novo Nordisk",
-        "Pfizer",
-        "Roche",
-        "AstraZeneca",
-        "Regeneron",
-        "Biotech investing",
-        "Capital markets"
-      ],
-      "summary": "Lilly and Novo Nordisk dominate the first phase of the obesity-drug market. The next investment question is who can become the third major player by solving the problems GLP-1 leaders have not fully solved.",
-      "image": "https://drugnews.com.tw/assets/articles/obesity-drug-third-place-competition-en/cover-generated.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-22-obesity-drug-third-place-competition.html"
-      }
-    },
-    {
-      "title": "減重藥「第三名」爭奪戰：禮來 與 諾和諾德 之外，誰能成為下一個代謝巨頭？",
-      "date": "2026-06-22",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "GLP-1",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "今年 ADA，也就是美國糖尿病學會年會，減重藥戰場又一次被點燃。",
-      "image": "https://drugnews.com.tw/assets/articles/obesity-drug-third-place-competition/cover-generated.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-22-obesity-drug-third-place-competition-en.html"
-      }
-    },
-    {
-      "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
-      "date": "2026-06-21",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Merck",
-        "Keytruda",
-        "PD-1 VEGF",
-        "MK-2010",
-        "Oncology",
-        "Bispecific antibodies"
-      ],
-      "summary": "Merck's more serious positioning of MK-2010 suggests that PD-1/VEGF bispecifics are moving from a watch item to a strategic option in the post-Keytruda oncology landscape.",
-      "image": "https://drugnews.com.tw/assets/articles/merck-pd1-vegf-mk2010-keytruda-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-21-merck-pd1-vegf-mk2010-keytruda.html"
-      }
-    },
-    {
-      "title": "默沙東 對 PD-1／VEGF 雙抗改口：Keytruda 王座還在，但下一代免疫底盤已經逼近",
-      "date": "2026-06-21",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "在全球腫瘤藥市場裡，很少有一家公司比 Merck（默沙東）更懂 PD-1。",
-      "image": "https://drugnews.com.tw/assets/articles/merck-pd1-vegf-mk2010-keytruda/cover-generated.svg",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html"
       }
     }
   ]

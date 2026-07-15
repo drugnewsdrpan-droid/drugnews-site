@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html</loc>
+    <loc>https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html</loc>
     <news:news>
       <news:publication>
         <news:name>Drugnews｜藥時事</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-07-13T00:00:00.000Z</news:publication_date>
-      <news:title>Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&amp;D Arena</news:title>
+      <news:publication_date>2026-07-15T00:00:00.000Z</news:publication_date>
+      <news:title>After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html</loc>
+    <loc>https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html</loc>
     <news:news>
       <news:publication>
         <news:name>Drugnews｜藥時事</news:name>
         <news:language>zh-tw</news:language>
       </news:publication>
-      <news:publication_date>2026-07-13T00:00:00.000Z</news:publication_date>
-      <news:title>大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場</news:title>
+      <news:publication_date>2026-07-15T00:00:00.000Z</news:publication_date>
+      <news:title>諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html</loc>
+    <loc>https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html</loc>
     <news:news>
       <news:publication>
         <news:name>Drugnews｜藥時事</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-07-12T00:00:00.000Z</news:publication_date>
-      <news:title>Winning First Is Not Winning: Roche&apos;s Divarasib Pushes KRAS Into a Generational Elimination Race</news:title>
+      <news:publication_date>2026-07-14T00:00:00.000Z</news:publication_date>
+      <news:title>The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html</loc>
+    <loc>https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html</loc>
     <news:news>
       <news:publication>
         <news:name>Drugnews｜藥時事</news:name>
         <news:language>zh-tw</news:language>
       </news:publication>
-      <news:publication_date>2026-07-12T00:00:00.000Z</news:publication_date>
-      <news:title>先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰</news:title>
+      <news:publication_date>2026-07-14T00:00:00.000Z</news:publication_date>
+      <news:title>ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload</news:title>
     </news:news>
   </url>
 </urlset>
