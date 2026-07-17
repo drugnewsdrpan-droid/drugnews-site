@@ -168,8 +168,8 @@ For Taiwan, Taiwan Bio Therapeutics can be placed on the watchlist, but it shoul
 1. [NobelPrize.org｜The Nobel Prize in Physiology or Medicine 2025](https://www.nobelprize.org/prizes/medicine/2025/summary/)
 2. [Nektar Therapeutics｜Our Pipeline](https://www.nektar.com/our-pipeline/)
 3. [Sonoma Biotherapeutics｜Pipeline](https://sonomabio.com/platform-pipeline/pipeline/)
-4. [Quell Therapeutics｜Pipeline](https://www.quell-tx.com/our-science/pipeline/)
-5. [Quell Therapeutics｜Technology Platform](https://www.quell-tx.com/our-science/technology-platform/)
+4. [Quell Therapeutics｜Pipeline](https://www.quell-tx.com/pipeline)
+5. [Quell Therapeutics｜Technology Platform](https://www.quell-tx.com/science/)
 6. [Taiwan Bio Therapeutics｜TRK-001 Phase II study cleared to proceed in Taiwan](https://twbio-thera.com/tw/news/1/16)
 
 ## Disclaimer
