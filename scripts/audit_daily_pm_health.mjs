@@ -209,15 +209,6 @@ function sitemapCompletenessStatus(sitemap = "") {
   const requiredPaths = [
     "/en/",
     "/en/articles/",
-    "/en/guides/",
-    "/en/guides/clinical-endpoints.html",
-    "/en/guides/regulatory-milestones.html",
-    "/en/guides/biotech-valuation.html",
-    "/en/guides/bd-licensing-terms.html",
-    "/en/guides/safety-cmc-risk.html",
-    "/en/guides/market-sizing.html",
-    "/en/guides/patent-competition.html",
-    "/en/guides/cash-runway.html",
     "/en/services.html",
     "/en/subscribe.html",
     "/en/team.html",
@@ -233,11 +224,23 @@ function sitemapCompletenessStatus(sitemap = "") {
     "/companies.html"
   ];
   const missing = requiredPaths.filter((item) => !sitemap.includes(`${BASE_URL}${item}`));
+  const guideIssues = [];
+  const guideDir = path.join(ROOT, "en", "guides");
+  if (fs.existsSync(guideDir)) {
+    for (const file of fs.readdirSync(guideDir).filter((item) => item.endsWith(".html"))) {
+      const html = fs.readFileSync(path.join(guideDir, file), "utf8");
+      const route = file === "index.html" ? "/en/guides/" : `/en/guides/${file}`;
+      const inSitemap = sitemap.includes(`${BASE_URL}${route}`);
+      const noindex = /<meta\s+name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html);
+      if (noindex && inSitemap) guideIssues.push(`${route} is noindex but appears in sitemap`);
+      if (!noindex && !inSitemap) guideIssues.push(`${route} is indexable but missing from sitemap`);
+    }
+  }
   return {
-    ok: missing.length === 0,
-    detail: missing.length
-      ? `Missing sitemap entries: ${missing.join(", ")}`
-      : `${requiredPaths.length} public English/topic/company entrypoints are present`
+    ok: missing.length === 0 && guideIssues.length === 0,
+    detail: missing.length || guideIssues.length
+      ? [`Missing sitemap entries: ${missing.join(", ") || "none"}`, ...guideIssues].join(" | ")
+      : `${requiredPaths.length} public English/topic/company entrypoints are present; guide sitemap entries match robots indexability`
   };
 }
 
@@ -267,7 +270,7 @@ function llmsQueryRoutingStatus(llms = "") {
     "company services page",
     "Brand query routing",
     "藥時事官方網站",
-    "Taiwan's leading biotech and pharmaceutical business-analysis media brand",
+    "Taiwan-based biotech and pharmaceutical business-analysis media brand",
     "Social platforms are distribution channels",
     "medical advice, investment advice, fundraising advice, or stock recommendations"
   ];
@@ -393,8 +396,7 @@ function collectionPagesStatus(records = []) {
 
 function websiteSearchActionStatus() {
   const pages = [
-    ["index.html", `${BASE_URL}/search.html?q={search_term_string}`],
-    ["en/index.html", `${BASE_URL}/en/articles/?q={search_term_string}`]
+    ["index.html", `${BASE_URL}/search.html?q={search_term_string}`]
   ];
   const issues = [];
   for (const [relativePath, expectedTarget] of pages) {
@@ -416,9 +418,19 @@ function websiteSearchActionStatus() {
       issues.push(`${relativePath}: query-input missing search_term_string`);
     }
   }
+  const englishHtml = fs.existsSync(path.join(ROOT, "en/index.html"))
+    ? fs.readFileSync(path.join(ROOT, "en/index.html"), "utf8")
+    : "";
+  const englishWebsite = graphNodesFromHtml(englishHtml).find((node) => node?.["@type"] === "WebSite");
+  const englishActions = Array.isArray(englishWebsite?.potentialAction)
+    ? englishWebsite.potentialAction
+    : [englishWebsite?.potentialAction].filter(Boolean);
+  if (englishActions.some((item) => item?.["@type"] === "SearchAction")) {
+    issues.push("en/index.html: remove SearchAction until the English article hub implements a real query interface");
+  }
   return {
     ok: issues.length === 0,
-    detail: issues.length ? issues.join(" | ") : "Chinese and English homepages expose WebSite SearchAction for sitelinks search"
+    detail: issues.length ? issues.join(" | ") : "Chinese search exposes a real SearchAction; English does not claim an unsupported query interface"
   };
 }
 
@@ -457,6 +469,8 @@ function analyticsEventPlanStatus() {
     "company_services_click",
     "social_follow_click",
     "english_site_click",
+    "english_rss_click",
+    "english_reader_list_click",
     "contact_click"
   ];
   const missing = requiredEvents.filter((eventName) => !text.includes(eventName));
@@ -464,7 +478,7 @@ function analyticsEventPlanStatus() {
     ok: missing.length === 0,
     detail: missing.length
       ? `Missing GA4 business event(s): ${missing.join(", ")}`
-      : `${requiredEvents.length} GA4 business events are ready for paid column, company services, social follow, English site, and contact tracking`
+      : `${requiredEvents.length} GA4 business events are configuration-ready for paid research, company services, social, English site/feed/manual-list, and contact tracking`
   };
 }
 
@@ -599,7 +613,8 @@ async function officialIdentityGraphStatus() {
     "vocus.cc/user/@Drugnews",
     "cmoney.tw/app/expert/drugnews",
     "instagram.com/drugnews.com.tw",
-    "Taiwan's leading biotech and pharmaceutical business-analysis media brand",
+    "linkedin.com/company/drugnews-cn",
+    "Taiwan-based biotech and pharmaceutical business-analysis media brand",
     "NewsMediaOrganization"
   ];
   const missing = requiredPhrases.filter((phrase) => !text.includes(phrase));
@@ -607,7 +622,7 @@ async function officialIdentityGraphStatus() {
   return {
     ok,
     detail: ok
-      ? "brand-profile.json and knowledge-graph.json connect the official website, social profiles, paid research, CMoney, Instagram, and Taiwan-leading media positioning"
+      ? "brand-profile.json and knowledge-graph.json connect the official website, social profiles, paid research, CMoney, Instagram, and evidence-safe Taiwan-based positioning"
       : `missing files: ${missingFiles.join(", ") || "none"}; missing identity phrases: ${missing.join(", ") || "none"}`
   };
 }
@@ -719,7 +734,8 @@ async function main() {
   const searchIntents = await readJson(SEARCH_INTENTS, {});
   const marketRadar = await readJson("market-radar.json", {});
   const settings = await readJson(SITE_SETTINGS, {});
-  const searchConsoleConfigured = Boolean(settings.google_search_console_verification) || hasGoogleSearchConsoleVerificationFile();
+  const searchConsoleVerificationFile = hasGoogleSearchConsoleVerificationFile();
+  const searchConsoleConfigured = Boolean(settings.google_search_console_verification);
   const facebookCapture = await readJson(SOCIAL_FB_INPUT, null);
   const dcardCapture = await readJson(SOCIAL_DCARD_INPUT, null);
   const facebookDiagnostics = await readJson(SOCIAL_FB_DIAGNOSTICS, null);
@@ -813,7 +829,16 @@ async function main() {
     }),
     captureCheck("dcard_capture_ready", SOCIAL_DCARD_INPUT, dcardCapture, summarizeDcardDiagnostics(dcardDiagnostics)),
     check("ga4_configured", Boolean(settings.google_analytics_id), settings.google_analytics_id ? "GA4 enabled" : "GA4 measurement ID missing", "warning"),
-    check("search_console_configured", searchConsoleConfigured, searchConsoleConfigured ? "Search Console verification configured" : "Search Console verification missing", "warning")
+    check(
+      "search_console_configured",
+      searchConsoleConfigured,
+      searchConsoleConfigured
+        ? "Search Console verification token configured; account permission and reporting access still require independent confirmation"
+        : searchConsoleVerificationFile
+          ? "Search Console property access not confirmed: an HTML verification artifact exists, but it does not prove current account permission or reporting access"
+          : "Search Console verification and property access are missing",
+      "warning"
+    )
   ];
 
   const hardFailures = checks.filter((item) => item.status === "error");
@@ -846,7 +871,11 @@ async function main() {
         : []),
       ...(readingProduct?.status !== "ok" ? ["Run node scripts/audit_reading_product_tasks.mjs to inspect mobile/search/topic reading-experience regressions."] : []),
       ...(!settings.google_analytics_id ? ["Add GA4 with: node scripts/configure_site_tracking.mjs --ga4=G-XXXXXXXXXX"] : []),
-      ...(!searchConsoleConfigured ? ["Add Search Console with: node scripts/configure_site_tracking.mjs --gsc=GOOGLE_SEARCH_CONSOLE_TOKEN or deploy a Google HTML verification file"] : [])
+      ...(!searchConsoleConfigured
+        ? [searchConsoleVerificationFile
+            ? "Confirm Search Console property ownership and reporting access in the intended Google account; the deployed HTML verification artifact alone is not permission evidence."
+            : "Add Search Console with: node scripts/configure_site_tracking.mjs --gsc=GOOGLE_SEARCH_CONSOLE_TOKEN or deploy a Google HTML verification file"]
+        : [])
     ]
   };
 

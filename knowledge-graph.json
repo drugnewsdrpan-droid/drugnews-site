@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-15T05:30:59.688Z",
+  "generated_at": "2026-07-17T11:14:33.162Z",
   "site": {
     "@type": [
       "Organization",
@@ -29,14 +29,16 @@
       "https://www.dcard.tw/@drugnews",
       "https://vocus.cc/user/@Drugnews",
       "https://www.cmoney.tw/app/expert/drugnews?ca=1",
-      "https://www.instagram.com/drugnews.com.tw/"
+      "https://www.instagram.com/drugnews.com.tw/",
+      "https://www.linkedin.com/company/drugnews-cn"
     ],
     "same_as": [
       "https://www.facebook.com/profile.php?id=61568446257142",
       "https://www.dcard.tw/@drugnews",
       "https://vocus.cc/user/@Drugnews",
       "https://www.cmoney.tw/app/expert/drugnews?ca=1",
-      "https://www.instagram.com/drugnews.com.tw/"
+      "https://www.instagram.com/drugnews.com.tw/",
+      "https://www.linkedin.com/company/drugnews-cn"
     ],
     "official_channels": [
       {
@@ -68,10 +70,15 @@
         "name": "Instagram",
         "url": "https://www.instagram.com/drugnews.com.tw/",
         "role": "brand and social presence"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/company/drugnews-cn",
+        "role": "English-language industry distribution and company presence"
       }
     ],
     "social_proof": {
-      "positioning": "Taiwan's leading biotech and pharmaceutical business-analysis media brand for clinical data, BD/licensing, valuation, and capital-market judgment."
+      "positioning": "Taiwan-based biotech and pharmaceutical business-analysis media brand focused on clinical data, BD/licensing, valuation, and capital-market judgment."
     },
     "contact": "drugnews.dr.pan@gmail.com",
     "commercial_entrypoints": {

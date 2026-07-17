@@ -1,5 +1,56 @@
 [
   {
+    "title": "How to read FDA regulatory milestones: what each event changes—and what it does not",
+    "slug": "regulatory-milestones",
+    "date": "2026-07-17",
+    "publishAt": "2026-07-17T09:00:00+08:00",
+    "category": "Research Guides",
+    "access": "Business Analysis",
+    "lang": "en",
+    "tags": [
+      "Research Guides",
+      "Regulatory Milestones"
+    ],
+    "summary": "A practical guide to INDs, FDA designations, pivotal alignment, NDA/BLA review, PDUFA dates, advisory committees, complete response letters, and approval pathways.",
+    "image": "",
+    "imageAlt": "How to read FDA regulatory milestones: what each event changes—and what it does not",
+    "url": "en/guides/regulatory-milestones.html"
+  },
+  {
+    "title": "How to read biotech licensing deals: from headline value to risk-adjusted economics",
+    "slug": "bd-licensing-terms",
+    "date": "2026-07-17",
+    "publishAt": "2026-07-17T09:00:00+08:00",
+    "category": "Research Guides",
+    "access": "Business Analysis",
+    "lang": "en",
+    "tags": [
+      "Research Guides",
+      "BD and Licensing Terms"
+    ],
+    "summary": "A practical guide to biotech licensing terms: upfront cash, milestones, royalties, territory, control, development obligations, supply, termination, and risk-adjusted deal economics.",
+    "image": "",
+    "imageAlt": "How to read biotech licensing deals: from headline value to risk-adjusted economics",
+    "url": "en/guides/bd-licensing-terms.html"
+  },
+  {
+    "title": "How to read biotech clinical endpoints without overreading a positive headline",
+    "slug": "clinical-endpoints",
+    "date": "2026-07-17",
+    "publishAt": "2026-07-17T09:00:00+08:00",
+    "category": "Research Guides",
+    "access": "Business Analysis",
+    "lang": "en",
+    "tags": [
+      "Research Guides",
+      "Clinical Endpoints"
+    ],
+    "summary": "A practical guide to primary endpoints, effect size, confidence intervals, multiplicity, surrogate endpoints, and the questions that keep a positive biotech readout from being overread.",
+    "image": "",
+    "imageAlt": "How to read biotech clinical endpoints without overreading a positive headline",
+    "url": "en/guides/clinical-endpoints.html"
+  },
+  {
     "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
     "slug": "treg-immune-tolerance-productization-en",
     "date": "2026-07-15",

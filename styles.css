@@ -618,6 +618,10 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   max-width: 620px;
 }
 
+.heading-keep {
+  white-space: nowrap;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

@@ -4,8 +4,13 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const BASE_URL = "https://drugnews.com.tw";
-const ENGLISH_BRAND = "Drugnews";
+const ENGLISH_BRAND = "Drugnews｜Taiwan Biotech Intelligence";
+const ENGLISH_DESCRIPTION = "Independent biotech and pharmaceutical intelligence from Taiwan, covering clinical data, company strategy, licensing, valuation, and capital markets.";
+const LINKEDIN_URL = "https://www.linkedin.com/company/drugnews-cn";
+const COMPANY_SERVICE_FORM_URL = "https://forms.gle/rvDm93vkUx3E7Rci7";
+const ENGLISH_READER_LIST_EMAIL = "drugnews.dr.pan@gmail.com";
 const EN = path.join(ROOT, "en");
+const ARTICLES = path.join(ROOT, "articles");
 const PUBLISHED = path.join(ROOT, "content", "published");
 const SITEMAP = path.join(ROOT, "sitemap.xml");
 
@@ -52,6 +57,14 @@ function campaignUrl(url, content, campaign = "paid_research") {
   return next.toString();
 }
 
+function englishReaderListMailto() {
+  const params = new URLSearchParams({
+    subject: "Join the Drugnews English reader list",
+    body: "Please add this email address to the manually managed Drugnews English reader list."
+  });
+  return `mailto:${ENGLISH_READER_LIST_EMAIL}?${params.toString()}`;
+}
+
 function englishHomeSchema(records = []) {
   const schema = {
     "@context": "https://schema.org",
@@ -60,7 +73,7 @@ function englishHomeSchema(records = []) {
         "@type": ["Organization", "NewsMediaOrganization"],
         "@id": `${BASE_URL}/#organization`,
         name: ENGLISH_BRAND,
-        alternateName: ["Drugnews English", "Drugnews Biotech Business Analysis"],
+        alternateName: ["Drugnews", "Drugnews English", "Drugnews Biotech Business Analysis", "Drugnews Taiwan Biotech Intelligence"],
         url: `${BASE_URL}/`,
         logo: `${BASE_URL}/favicon.svg`,
         description: "Drugnews is a biotech and pharmaceutical business-analysis media platform covering clinical data, company strategy, licensing, valuation, and capital-market signals.",
@@ -72,7 +85,8 @@ function englishHomeSchema(records = []) {
           "https://www.dcard.tw/@drugnews",
           "https://vocus.cc/user/@Drugnews",
           "https://www.cmoney.tw/app/expert/drugnews?ca=1",
-          "https://www.instagram.com/drugnews.com.tw/"
+          "https://www.instagram.com/drugnews.com.tw/",
+          LINKEDIN_URL
         ],
         email: "drugnews.dr.pan@gmail.com",
         contactPoint: {
@@ -124,17 +138,12 @@ function englishHomeSchema(records = []) {
       },
       {
         "@type": "WebSite",
-        name: "Drugnews English",
-        alternateName: ["Drugnews Biotech Business Analysis", "Drugnews English Edition"],
+        name: ENGLISH_BRAND,
+        alternateName: ["Drugnews English", "Drugnews Biotech Business Analysis", "Drugnews English Edition"],
         url: `${BASE_URL}/en/`,
         inLanguage: "en",
-        description: "English edition of Drugnews biotech and pharmaceutical business analysis.",
-        publisher: { "@id": `${BASE_URL}/#organization` },
-        potentialAction: {
-          "@type": "SearchAction",
-          target: `${BASE_URL}/en/articles/?q={search_term_string}`,
-          "query-input": "required name=search_term_string"
-        }
+        description: ENGLISH_DESCRIPTION,
+        publisher: { "@id": `${BASE_URL}/#organization` }
       },
       {
         "@type": "ItemList",
@@ -179,7 +188,7 @@ function header(current, depth = 1) {
 }
 
 function footer(depth = 1) {
-  return `<footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. This site is for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div><nav class="footer-links" aria-label="Footer navigation"><a href="${BASE_URL}/en/about.html">About / Editorial Standards</a><a href="${BASE_URL}/en/team.html">Team</a><a href="${BASE_URL}/en/services.html">Company Services</a><a href="${BASE_URL}/en/subscribe.html">In-depth Research</a><a href="${BASE_URL}/en/articles/">Articles</a></nav></div></footer>`;
+  return `<footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. This site is for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div><nav class="footer-links" aria-label="Footer navigation"><a href="${BASE_URL}/en/about.html">About / Editorial Standards</a><a href="${BASE_URL}/en/team.html">Team</a><a href="${BASE_URL}/en/services.html">Company Services</a><a href="${BASE_URL}/en/subscribe.html">In-depth Research</a><a href="${BASE_URL}/en/guides/">Research Guides</a><a href="${BASE_URL}/en/articles/">Articles</a><a href="${BASE_URL}/en/feed.xml">English RSS</a></nav></div></footer>`;
 }
 
 function head({ title, description, canonicalPath, image, depth = 1, extraHead = "", homeRecords = [] }) {
@@ -188,7 +197,6 @@ function head({ title, description, canonicalPath, image, depth = 1, extraHead =
   const zhPath = canonicalPath.startsWith("en/") ? canonicalPath.replace(/^en\//, "") : canonicalPath;
   const homeSchema = canonicalPath === "en/" ? `
   <meta name="keywords" content="Drugnews, biotech business analysis, pharmaceutical business analysis, biotech investing, clinical data, licensing, BD, valuation, capital markets, Taiwan biotech media">
-  <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
 ${englishHomeSchema(homeRecords)}` : "";
   return `<head>
   <meta charset="utf-8">
@@ -201,6 +209,8 @@ ${englishHomeSchema(homeRecords)}` : "";
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}/${zhPath}">
   <link rel="icon" href="${root}favicon.svg">
   <link rel="stylesheet" href="${root}styles.css?v=en-20260616-1">
+  <link rel="alternate" type="application/rss+xml" title="${ENGLISH_BRAND} RSS" href="${BASE_URL}/en/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="${ENGLISH_BRAND} JSON Feed" href="${BASE_URL}/en/feed.json">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(description)}">
@@ -263,7 +273,7 @@ function researchPackOfferCatalog() {
       {
         "@type": "Offer",
         "availability": "https://schema.org/InStock",
-        "url": "https://forms.gle/rvDm93vkUx3E7Rci7?utm_source=drugnews_site&utm_medium=referral&utm_campaign=company_services&utm_content=english_ir_content_audit",
+        "url": campaignUrl(COMPANY_SERVICE_FORM_URL, "english_ir_content_audit", "company_services"),
         "itemOffered": {
           "@type": "Service",
           "name": "Biotech IR Content Audit",
@@ -426,8 +436,8 @@ function homePage(records) {
   const homeRecords = lead ? [lead, ...englishRecords.filter((item) => item !== lead).slice(0, 4)] : englishRecords.slice(0, 5);
   const leadImage = lead ? imagePath(lead, 1) : "";
   return page({
-    title: "Drugnews English｜Biotech and Pharmaceutical Business Analysis",
-    description: "Drugnews English is a biotech and pharmaceutical business-analysis media platform covering clinical data, company strategy, licensing, valuation, and capital-market signals.",
+    title: ENGLISH_BRAND,
+    description: ENGLISH_DESCRIPTION,
     canonicalPath: "en/",
     image: `${BASE_URL}/assets/english/drugnews-english-analysis-cover.png`,
     current: "home",
@@ -442,14 +452,16 @@ function homePage(records) {
       </div>
       <div>
         <p>Drugnews turns clinical data, company strategy, licensing activity, and capital-market signals into clear business judgment for biotech and pharmaceutical readers.</p>
-        <p class="audience-proof">Taiwan's leading biotech and pharmaceutical business-analysis media brand.</p>
+        <p class="audience-proof">Taiwan-based biotech and pharmaceutical business intelligence for global readers.</p>
       </div>
     </div>
     <div class="container issue-bar" aria-label="Reading entry points">
       <a href="articles/">Latest English Articles</a>
       <a href="articles/">Business Analysis</a>
       <a href="articles/">AI Drug Development</a>
+      <a href="guides/">Research Guides</a>
       <a href="subscribe.html">In-depth Research</a>
+      <a href="feed.xml">English RSS</a>
       <a href="../articles/">Chinese Archive</a>
     </div>
     <div class="container english-home-grid">
@@ -494,8 +506,9 @@ function homePage(records) {
     <div class="container topic-guide">
       <div class="topic-guide-main">
         <a class="topic-row" href="articles/"><span>01</span><div><h3>Latest English Articles</h3><p>Reader-first biotech and pharmaceutical business analysis translated and edited for professional English readers.</p></div></a>
-        <a class="topic-row" href="subscribe.html"><span>02</span><div><h3>In-depth Research</h3><p>Deeper company tracking and industry context for readers who need repeatable biotech business judgment.</p></div></a>
-        <a class="topic-row" href="services.html"><span>03</span><div><h3>Company Services</h3><p>Investor-facing biotech content, market storytelling, and English communication support for company teams.</p></div></a>
+        <a class="topic-row" href="guides/"><span>02</span><div><h3>Research Guides</h3><p>Evidence-first frameworks for clinical endpoints, regulatory milestones, and licensing economics.</p></div></a>
+        <a class="topic-row" href="subscribe.html"><span>03</span><div><h3>In-depth Research</h3><p>Deeper company tracking and industry context for readers who need repeatable biotech business judgment.</p></div></a>
+        <a class="topic-row" href="services.html"><span>04</span><div><h3>Company Services</h3><p>Investor-facing biotech content, market storytelling, and English communication support for company teams.</p></div></a>
       </div>
       <aside class="topic-guide-aside">
         <p class="eyebrow">Chinese Archive</p>
@@ -541,7 +554,7 @@ function articlesPage(records) {
   const english = records.filter((item) => item.lang === "en");
   const cards = english.map((item) => articleCard(item, 2)).join("");
   return page({
-    title: "English Articles｜Drugnews",
+    title: `English Biotech Analysis｜${ENGLISH_BRAND}`,
     description: "Native-English Drugnews articles on biotech business analysis, AI drug development, clinical assets, and pharmaceutical strategy.",
     canonicalPath: "en/articles/",
     current: "articles",
@@ -573,7 +586,7 @@ function servicesPage() {
     }
   ];
   return page({
-    title: "Drugnews｜Company Services for Biotech and Pharma",
+    title: `Biotech & Pharma Company Services｜${ENGLISH_BRAND}`,
     description: "Drugnews helps biotech and pharmaceutical companies translate science, clinical evidence, business development, and capital-market narratives into professional investor-facing content.",
     canonicalPath: "en/services.html",
     image: `${BASE_URL}/assets/team/drugnews-team.jpg`,
@@ -584,7 +597,7 @@ function servicesPage() {
   <section class="page-title"><div class="container"><p class="eyebrow">Company Services</p><h1>Make your science, clinical progress, and business strategy understandable to professional readers.</h1><p>Drugnews is a reader-first biotech business-analysis media platform. We also work with public companies, biotech startups, pharma companies, CDMOs, and medical-technology teams to turn R&D progress, clinical evidence, licensing logic, and capital-market stories into clear company narratives.</p></div></section>
   <section class="section compact client-proof"><div class="container client-proof-grid"><div><p class="eyebrow">Client Experience</p><h2>Past collaborators</h2></div><div class="client-logo-marquee" aria-label="Past collaborators"><div class="client-logo-track"><span class="client-logo"><img src="../assets/clients/libo-official.png" alt="Libo Pharma logo"></span><span class="client-logo"><img src="../assets/clients/senhwa-official.png" alt="Senhwa Biosciences logo"></span><span class="client-logo"><img src="../assets/clients/protect-official.png" alt="PROTECT Companion Pet Care logo"></span><span class="client-logo"><img src="../assets/clients/anhorn-official.png" alt="AnHorn Medicines logo"></span><span class="client-logo"><img src="../assets/clients/intelligene-logo-20260610.png" alt="Intelligene logo"></span><span class="client-logo"><img src="../assets/clients/globalbio-logo-20260610.png" alt="Global Bio & Investment logo"></span></div></div></div></section>
   <section class="section"><div class="container section-head"><div><h2>How we help</h2><p>All collaboration content is built on public information, company-approved disclosure, and professional research frameworks.</p></div></div><div class="container grid two"><div class="card"><h3>Company research and feature articles</h3><p>We turn pipelines, platforms, clinical positioning, competitive landscapes, and business models into long-form analysis that supports reader judgment.</p></div><div class="card"><h3>IR and capital-market narratives</h3><p>We translate clinical, CMC, regulatory, commercialization, and peer-comparison information into value logic investors can follow.</p></div><div class="card"><h3>Social content and distribution</h3><p>We adapt long-form analysis into readable social summaries, visual posts, and key-message cards that lead back to clear business judgment.</p></div><div class="card"><h3>Events and interviews</h3><p>We design interviews, online briefings, event recaps, and follow-up articles that help professional readers understand a company's market position.</p></div></div></section>
-  <section class="section white"><div class="container newsletter"><div><h2>Start a company-services conversation</h2><p>Tell us what you need, or email us directly at drugnews.dr.pan@gmail.com.</p></div><a class="button primary" href="https://forms.gle/rvDm93vkUx3E7Rci7" target="_blank" rel="noopener">Submit a collaboration request</a></div></section>
+  <section class="section white"><div class="container newsletter"><div><h2>Start a company-services conversation</h2><p>Tell us what you need, or email us directly at drugnews.dr.pan@gmail.com.</p></div><a class="button primary" href="${escapeHtml(campaignUrl(COMPANY_SERVICE_FORM_URL, "english_services_primary_cta", "company_services"))}" target="_blank" rel="noopener">Submit a collaboration request</a></div></section>
   <section class="section white"><div class="container section-head"><div><p class="eyebrow">Company-service FAQ</p><h2>We help companies make value logic clear, not turn analysis into advertising.</h2><p>The goal is to help professional readers understand clinical evidence, business strategy, and capital-market signals.</p></div></div><div class="container faq-grid">${faqs.map((item) => `<article class="faq-item"><h3>${escapeHtml(item.question)}</h3><p>${escapeHtml(item.answer)}</p></article>`).join("")}</div></section>
 </main>`
   });
@@ -610,7 +623,7 @@ function subscribePage() {
     }
   ];
   return page({
-    title: "Drugnews｜In-depth Biotech Research",
+    title: `In-depth Biotech Research｜${ENGLISH_BRAND}`,
     description: "Subscribe to Drugnews in-depth research for deeper biotech company research, industry context, valuation frameworks, and capital-market judgment.",
     canonicalPath: "en/subscribe.html",
     image: `${BASE_URL}/assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-cancer-cell.png`,
@@ -620,8 +633,8 @@ function subscribePage() {
     main: `<main>
   <section class="page-title paid-hero"><div class="container"><p class="eyebrow">In-depth Research</p><h1>Read biotech company change as a repeatable business-judgment framework.</h1><p>Business analysis helps readers understand public events. Drugnews in-depth research goes deeper into company tracking, industry context, valuation thinking, and capital-market interpretation.</p><div class="actions"><a class="button primary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_subscribe_hero"))}" target="_blank" rel="noopener">Subscribe on Vocus</a><a class="button secondary" href="../articles/type/paid.html">View in-depth series</a></div></div></section>
   <section class="section white"><div class="container section-head"><div><h2>Who it is for</h2><p>In-depth research is designed for readers who want to connect individual news events into company fundamentals, clinical milestones, BD logic, and valuation change.</p></div></div><div class="container grid"><div class="card"><h3>Long-term biotech company followers</h3><p>Readers who want each event to connect back to pipeline value, clinical catalysts, and commercialization paths.</p></div><div class="card"><h3>Investors who need industry context</h3><p>Readers who follow BD, licensing, competitive dynamics, clinical risk, and capital-market repricing.</p></div><div class="card"><h3>Biotech and pharma professionals</h3><p>Industry readers who want a more commercial lens on pipelines, platforms, clinical data, and company positioning.</p></div></div></section>
-  <section class="section white"><div class="container section-head"><div><p class="eyebrow">Research Packs</p><h2>Turn single articles into reusable biotech research tools.</h2><p>Drugnews can package high-demand topics into focused research packs for readers and teams who need a faster way to understand a market, valuation question, or BD decision.</p></div></div><div class="container product-grid"><article class="product-card"><span class="product-tag">Investment Framework</span><h3>GLP-1 and Obesity Drug Competition Map</h3><p>A structured view of Novo Nordisk, Lilly, oral GLP-1s, combination therapies, and next-generation obesity pipelines, focused on product, supply-chain, and commercialization advantage.</p><div class="product-meta"><span>PDF / chart pack</span><span>For investors and industry readers</span></div><a class="button primary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_glp1_research_pack", "paid_research_pack"))}" target="_blank" rel="noopener">View related in-depth research</a></article><article class="product-card"><span class="product-tag">BD / Licensing</span><h3>Pipeline Valuation and Licensing-Terms Pack</h3><p>A practical framework for rNPV, upfront payments, milestones, royalties, territorial rights, and how buyers price an asset before it reaches the market.</p><div class="product-meta"><span>Valuation framework</span><span>For research and BD teams</span></div><a class="button primary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_bd_valuation_pack", "paid_research_pack"))}" target="_blank" rel="noopener">View related in-depth research</a></article><article class="product-card"><span class="product-tag">Company Service</span><h3>Biotech IR Content Audit</h3><p>A focused review of a company's website, deck, press releases, and investor materials to clarify clinical evidence, commercialization path, competitor positioning, and catalysts.</p><div class="product-meta"><span>30-minute consultation</span><span>For company and IR teams</span></div><a class="button secondary" href="https://forms.gle/rvDm93vkUx3E7Rci7?utm_source=drugnews_site&amp;utm_medium=referral&amp;utm_campaign=company_services&amp;utm_content=english_ir_content_audit" target="_blank" rel="noopener">Book an audit</a></article></div></section>
-  <section class="section"><div class="container newsletter"><div><h2>Turn Drugnews into your biotech research radar</h2><p>Follow public posts, in-depth research, and community discussions together to build a complete reading path.</p></div><div class="actions"><a class="button secondary" href="https://www.facebook.com/profile.php?id=61568446257142" target="_blank" rel="noopener">Facebook</a><a class="button secondary" href="https://www.dcard.tw/@drugnews" target="_blank" rel="noopener">Dcard</a><a class="button secondary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_subscribe_follow_bar"))}" target="_blank" rel="noopener">Vocus</a></div></div></section>
+  <section class="section white"><div class="container section-head"><div><p class="eyebrow">Research Packs</p><h2>Turn single articles into reusable biotech research tools.</h2><p>Drugnews can package high-demand topics into focused research packs for readers and teams who need a faster way to understand a market, valuation question, or BD decision.</p></div></div><div class="container product-grid"><article class="product-card"><span class="product-tag">Investment Framework</span><h3>GLP-1 and Obesity Drug Competition Map</h3><p>A structured view of Novo Nordisk, Lilly, oral GLP-1s, combination therapies, and next-generation obesity pipelines, focused on product, supply-chain, and commercialization advantage.</p><div class="product-meta"><span>PDF / chart pack</span><span>For investors and industry readers</span></div><a class="button primary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_glp1_research_pack", "paid_research_pack"))}" target="_blank" rel="noopener">View related in-depth research</a></article><article class="product-card"><span class="product-tag">BD / Licensing</span><h3>Pipeline Valuation and Licensing-Terms Pack</h3><p>A practical framework for rNPV, upfront payments, milestones, royalties, territorial rights, and how buyers price an asset before it reaches the market.</p><div class="product-meta"><span>Valuation framework</span><span>For research and BD teams</span></div><a class="button primary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_bd_valuation_pack", "paid_research_pack"))}" target="_blank" rel="noopener">View related in-depth research</a></article><article class="product-card"><span class="product-tag">Company Service</span><h3>Biotech IR Content Audit</h3><p>A focused review of a company's website, deck, press releases, and investor materials to clarify clinical evidence, commercialization path, competitor positioning, and catalysts.</p><div class="product-meta"><span>30-minute consultation</span><span>For company and IR teams</span></div><a class="button secondary" href="${escapeHtml(campaignUrl(COMPANY_SERVICE_FORM_URL, "english_ir_content_audit", "company_services"))}" target="_blank" rel="noopener">Book an audit</a></article></div></section>
+  <section class="section"><div class="container newsletter"><div><h2>Turn Drugnews into your biotech research radar</h2><p>Use the English feed for automatic updates, or email us to join the manually managed English reader list. Automated newsletter delivery is not active yet.</p></div><div class="actions"><a class="button primary" href="${escapeHtml(englishReaderListMailto())}">Email to join (manual)</a><a class="button secondary" href="feed.xml">English RSS</a><a class="button secondary" href="${LINKEDIN_URL}" target="_blank" rel="noopener">LinkedIn</a><a class="button secondary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_subscribe_follow_bar"))}" target="_blank" rel="noopener">Vocus</a></div></div></section>
   <section class="section white"><div class="container section-head"><div><p class="eyebrow">In-depth research FAQ</p><h2>A research radar, not isolated articles.</h2><p>In-depth research connects individual events back to company value, clinical milestones, licensing terms, and capital-market judgment.</p></div></div><div class="container faq-grid">${faqs.map((item) => `<article class="faq-item"><h3>${escapeHtml(item.question)}</h3><p>${escapeHtml(item.answer)}</p></article>`).join("")}</div></section>
 </main>`
   });
@@ -629,7 +642,7 @@ function subscribePage() {
 
 function teamPage() {
   return page({
-    title: "Drugnews｜Team",
+    title: `Editorial Team｜${ENGLISH_BRAND}`,
     description: "Drugnews is built by Dr. Jo-Fan Pan and Dr. Chuan-Sheng Lin, combining clinical, scientific, business-development, and capital-market perspectives.",
     canonicalPath: "en/team.html",
     image: `${BASE_URL}/assets/team/drugnews-team.jpg`,
@@ -654,22 +667,95 @@ const guides = [
   ["cash-runway.html", "Cash Runway", "How to read biotech cash runway", "Cash runway determines whether a company can reach its next value-changing milestone without dilutive financing. The important question is whether the cash balance matches the clinical plan and catalyst timeline."]
 ];
 
+const PUBLISHED_GUIDE_FILES = new Set([
+  "clinical-endpoints.html",
+  "regulatory-milestones.html",
+  "bd-licensing-terms.html"
+]);
+const PUBLISHED_GUIDE_DATE = "2026-07-17";
+
+function decodeBasicHtml(value = "") {
+  return value
+    .replaceAll("&amp;", "&")
+    .replaceAll("&#39;", "'")
+    .replaceAll("&quot;", '"')
+    .replaceAll("&lt;", "<")
+    .replaceAll("&gt;", ">");
+}
+
+async function loadIndexableGuideRecords() {
+  const records = [];
+  for (const [file, label] of guides.filter(([name]) => PUBLISHED_GUIDE_FILES.has(name))) {
+    const filePath = path.join(EN, "guides", file);
+    if (!(await exists(filePath))) continue;
+    const html = await fs.readFile(filePath, "utf8");
+    if (/content=["'][^"']*noindex/i.test(html)) continue;
+    const headline = decodeBasicHtml((html.match(/<h1[^>]*>(.*?)<\/h1>/is)?.[1] || label).replace(/<[^>]+>/g, "").trim());
+    const summary = decodeBasicHtml(html.match(/<meta\s+name="description"\s+content="([^"]+)"/i)?.[1] || "");
+    records.push({
+      title: headline,
+      slug: file.replace(/\.html$/i, ""),
+      date: PUBLISHED_GUIDE_DATE,
+      publishAt: `${PUBLISHED_GUIDE_DATE}T09:00:00+08:00`,
+      category: "Research Guides",
+      access: "Business Analysis",
+      lang: "en",
+      tags: ["Research Guides", label],
+      summary,
+      image: "",
+      imageAlt: headline,
+      url: `en/guides/${file}`
+    });
+  }
+  return records;
+}
+
+function guidesIndexSchema(publishedGuides) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        name: "Drugnews Research Guides",
+        url: `${BASE_URL}/en/guides/`,
+        inLanguage: "en",
+        isPartOf: { "@type": "WebSite", name: ENGLISH_BRAND, url: `${BASE_URL}/en/` }
+      },
+      {
+        "@type": "ItemList",
+        name: "Drugnews English Research Guides",
+        numberOfItems: publishedGuides.length,
+        itemListElement: publishedGuides.map(([file, label], index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: label,
+          url: `${BASE_URL}/en/guides/${file}`
+        }))
+      }
+    ]
+  };
+  return `<script type="application/ld+json">${JSON.stringify(schema)}</script>`;
+}
+
 function guidesIndexPage() {
-  const rows = guides.map(([file, label, title, text], index) => `<a class="topic-row" href="${file}"><span>${String(index + 1).padStart(2, "0")}</span><div><h3>${escapeHtml(label)}</h3><p>${escapeHtml(text)}</p></div></a>`).join("");
+  const publishedGuides = guides.filter(([file]) => PUBLISHED_GUIDE_FILES.has(file));
+  const rows = publishedGuides
+    .map(([file, label, title, text], index) => `<a class="topic-row" href="${file}"><span>${String(index + 1).padStart(2, "0")}</span><div><h3>${escapeHtml(label)}</h3><p>${escapeHtml(text)}</p></div></a>`)
+    .join("");
   return page({
-    title: "Research Guides｜Drugnews",
+    title: `Research Guides｜${ENGLISH_BRAND}`,
     description: "Drugnews research guides for reading biotech clinical data, valuation, BD, CMC risk, market sizing, patents, and cash runway.",
     canonicalPath: "en/guides/",
     current: "guides",
     depth: 2,
-    extraHead: '<meta name="robots" content="noindex,follow">',
-    main: `<main><section class="page-title"><div class="container"><p class="eyebrow">Guides</p><h1>Research Guides</h1><p>The complete English guide library is being localized. Read current English analysis in the meantime.</p></div></section></main>`
+    extraHead: guidesIndexSchema(publishedGuides),
+    main: `<main><section class="page-title"><div class="container"><p class="eyebrow">Guides</p><h1>Research Guides</h1><p>Evidence-first frameworks for reading clinical endpoints, FDA milestones, and biotech licensing economics without overreading a headline.</p></div></section><section class="section"><div class="container topic-guide"><div class="topic-guide-main">${rows}</div><aside class="topic-guide-aside"><p class="eyebrow">Editorial standard</p><h2>Built for decisions, not definitions.</h2><p>Each published guide includes a reader task, a worked example, explicit limits, and primary sources. Short localization stubs remain excluded from search until they meet the same standard.</p></aside></div></section></main>`
   });
 }
 
 function guidePage(file, label, title, text) {
   return page({
-    title: `${label}｜Drugnews Guides`,
+    title: `${label}｜${ENGLISH_BRAND}`,
     description: text,
     canonicalPath: `en/guides/${file}`,
     current: "",
@@ -677,6 +763,110 @@ function guidePage(file, label, title, text) {
     extraHead: '<meta name="robots" content="noindex,follow">',
     main: `<main><section class="page-title"><div class="container"><p class="eyebrow">Research Guide</p><h1>${escapeHtml(title)}</h1><p>${escapeHtml(text)}</p></div></section><section class="section"><div class="container grid two"><div class="card"><h2>What to check first</h2><p>Start with the evidence that can change value: clinical relevance, regulatory path, competitive context, financing needs, and whether the company can reach the next milestone.</p></div><div class="card"><h2>How Drugnews uses this guide</h2><p>We apply these frameworks when writing company research, paid analysis, and client-facing content so that readers can follow the logic behind each judgment.</p></div></div></section></main>`
   });
+}
+
+function feedDate(record) {
+  const date = new Date(record.publishAt || `${record.date}T00:00:00+08:00`);
+  return Number.isNaN(date.getTime()) ? "" : date.toUTCString();
+}
+
+function englishRss(records) {
+  const items = records.map((record) => {
+    const url = `${BASE_URL}/${record.url}`;
+    const published = feedDate(record);
+    return `  <item>
+    <title>${escapeXml(record.title)}</title>
+    <link>${escapeXml(url)}</link>
+    <guid isPermaLink="true">${escapeXml(url)}</guid>
+${published ? `    <pubDate>${escapeXml(published)}</pubDate>\n` : ""}    <description>${escapeXml(record.summary)}</description>
+  </item>`;
+  }).join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>${escapeXml(ENGLISH_BRAND)}</title>
+  <link>${BASE_URL}/en/</link>
+  <description>${escapeXml(ENGLISH_DESCRIPTION)}</description>
+  <language>en</language>
+  <atom:link href="${BASE_URL}/en/feed.xml" rel="self" type="application/rss+xml"/>
+${items}
+</channel>
+</rss>
+`;
+}
+
+function englishJsonFeed(records) {
+  const payload = {
+    version: "https://jsonfeed.org/version/1.1",
+    title: ENGLISH_BRAND,
+    home_page_url: `${BASE_URL}/en/`,
+    feed_url: `${BASE_URL}/en/feed.json`,
+    description: ENGLISH_DESCRIPTION,
+    language: "en",
+    items: records.map((record) => ({
+      id: `${BASE_URL}/${record.url}`,
+      url: `${BASE_URL}/${record.url}`,
+      title: record.title,
+      content_text: record.summary,
+      date_published: record.publishAt || `${record.date}T00:00:00+08:00`,
+      tags: record.tags || []
+    }))
+  };
+  return `${JSON.stringify(payload, null, 2)}\n`;
+}
+
+function normalizeEnglishSchema(schema) {
+  const types = Array.isArray(schema?.["@type"]) ? schema["@type"] : [schema?.["@type"]];
+  if (types.includes("Article")) {
+    if (schema.publisher) {
+      schema.publisher.name = ENGLISH_BRAND;
+      schema.publisher.sameAs = [...new Set([...(schema.publisher.sameAs || []), LINKEDIN_URL])];
+    }
+    if (schema.isPartOf) {
+      schema.isPartOf.name = ENGLISH_BRAND;
+      schema.isPartOf.url = `${BASE_URL}/en/`;
+    }
+  }
+  if (types.includes("BreadcrumbList") && Array.isArray(schema.itemListElement)) {
+    const englishItems = new Map([
+      [1, `${BASE_URL}/en/`],
+      [2, `${BASE_URL}/en/articles/`],
+      [3, `${BASE_URL}/en/articles/`]
+    ]);
+    for (const item of schema.itemListElement) {
+      if (englishItems.has(item.position)) item.item = englishItems.get(item.position);
+    }
+  }
+  return schema;
+}
+
+async function normalizeEnglishArticleMetadata() {
+  const entries = await fs.readdir(ARTICLES, { withFileTypes: true });
+  let changed = 0;
+  for (const entry of entries) {
+    if (!entry.isFile() || !entry.name.endsWith("-en.html")) continue;
+    const filePath = path.join(ARTICLES, entry.name);
+    const original = await fs.readFile(filePath, "utf8");
+    let next = original
+      .replace(/(<title>[^<]*?)｜Drugnews(?:｜Taiwan Biotech Intelligence)?<\/title>/u, `$1｜${ENGLISH_BRAND}</title>`)
+      .replace(/(<meta property="og:title" content="[^"]*?)｜Drugnews(?:｜Taiwan Biotech Intelligence)?">/u, `$1｜${ENGLISH_BRAND}">`)
+      .replace(/(<meta name="twitter:title" content="[^"]*?)｜Drugnews(?:｜Taiwan Biotech Intelligence)?">/u, `$1｜${ENGLISH_BRAND}">`)
+      .replace(/<meta property="og:site_name" content="[^"]*">/u, `<meta property="og:site_name" content="${ENGLISH_BRAND}">`)
+      .replace(/<link rel="alternate" type="application\/rss\+xml" title="[^"]*" href="https:\/\/drugnews\.com\.tw\/(?:en\/)?feed\.xml">/u, `<link rel="alternate" type="application/rss+xml" title="${ENGLISH_BRAND} RSS" href="${BASE_URL}/en/feed.xml">`)
+      .replace(/<link rel="alternate" type="application\/feed\+json" title="[^"]*" href="https:\/\/drugnews\.com\.tw\/(?:en\/)?feed\.json">/u, `<link rel="alternate" type="application/feed+json" title="${ENGLISH_BRAND} JSON Feed" href="${BASE_URL}/en/feed.json">`)
+      .replace(/<script type="application\/ld\+json">([^<]+)<\/script>/gu, (match, json) => {
+        try {
+          return `<script type="application/ld+json">${JSON.stringify(normalizeEnglishSchema(JSON.parse(json)))}</script>`;
+        } catch {
+          return match;
+        }
+      });
+    if (next !== original) {
+      await writeAtomic(filePath, next);
+      changed += 1;
+    }
+  }
+  return changed;
 }
 
 function latestRecordDate(records) {
@@ -691,17 +881,26 @@ async function updateSitemap(records) {
   let xml = await fs.readFile(SITEMAP, "utf8");
   xml = xml.replace(/\n?<\/urlset>\s*$/u, "");
   const latest = latestRecordDate(records.filter((item) => item.lang === "en"));
+  const indexableGuides = [];
+  for (const file of ["index.html", ...PUBLISHED_GUIDE_FILES]) {
+    const filePath = path.join(EN, "guides", file);
+    if (!(await exists(filePath))) continue;
+    const html = await fs.readFile(filePath, "utf8");
+    if (/content=["'][^"']*noindex/i.test(html)) continue;
+    indexableGuides.push(file === "index.html" ? "en/guides/" : `en/guides/${file}`);
+  }
   const enUrls = [
     ["en/", "0.9"],
     ["en/articles/", "0.8"],
+    ...indexableGuides.map((loc) => [loc, loc === "en/guides/" ? "0.75" : "0.7"]),
+    ["en/about.html", "0.75"],
     ["en/services.html", "0.8"],
     ["en/subscribe.html", "0.7"],
     ["en/team.html", "0.7"],
   ];
-  const enLocs = new Set(enUrls.map(([loc]) => `${BASE_URL}/${loc}`));
   xml = xml
     .split("\n")
-    .filter((line) => ![...enLocs].some((loc) => line.includes(`<loc>${loc}</loc>`)) && !line.includes("<loc>https://drugnews.com.tw/en/guides"))
+    .filter((line) => !line.includes(`<loc>${BASE_URL}/en/`) && !line.includes("<loc>https://drugnews.com.tw/en/guides"))
     .join("\n");
   const additions = enUrls
     .map(([loc, priority]) => `  <url><loc>${BASE_URL}/${escapeXml(loc)}</loc>${latest ? `<lastmod>${latest}</lastmod>` : ""}<priority>${priority}</priority></url>`);
@@ -718,11 +917,20 @@ async function main() {
   await writeAtomic(path.join(EN, "team.html"), teamPage());
   await writeAtomic(path.join(EN, "guides", "index.html"), guidesIndexPage());
   for (const guide of guides) {
-    await writeAtomic(path.join(EN, "guides", guide[0]), guidePage(...guide));
+    const guidePath = path.join(EN, "guides", guide[0]);
+    if (!(await exists(guidePath))) {
+      await writeAtomic(guidePath, guidePage(...guide));
+    }
   }
-  await writeAtomic(path.join(EN, "search-index.json"), JSON.stringify(records.filter((item) => item.lang === "en"), null, 2));
+  const guideRecords = await loadIndexableGuideRecords();
+  const discoveryRecords = [...records.filter((item) => item.lang === "en"), ...guideRecords]
+    .sort((a, b) => new Date(b.publishAt) - new Date(a.publishAt) || b.title.localeCompare(a.title, "en"));
+  await writeAtomic(path.join(EN, "search-index.json"), JSON.stringify(discoveryRecords, null, 2));
+  await writeAtomic(path.join(EN, "feed.xml"), englishRss(discoveryRecords));
+  await writeAtomic(path.join(EN, "feed.json"), englishJsonFeed(discoveryRecords));
+  const normalizedArticles = await normalizeEnglishArticleMetadata();
   await updateSitemap(records);
-  console.log("Built English site under /en.");
+  console.log(`Built English site under /en with ${guideRecords.length} indexable guide(s) and normalized ${normalizedArticles} English article page(s).`);
 }
 
 main().catch((error) => {
