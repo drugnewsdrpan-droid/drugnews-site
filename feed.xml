@@ -6,7 +6,23 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 15 Jul 2026 05:30:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 03:08:41 GMT</lastBuildDate>
+    <item>
+      <title>又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代</title>
+      <link>https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html</guid>
+      <pubDate>Fri, 17 Jul 2026 01:46:13 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/revmed-ras/cover.png" alt="KRAS 分子開關與雙重 RAS 阻斷共同切斷胰臟癌逃脫路徑的科學主視覺"></p><p>Daraxonrasib 已用第三期總生存期資料抬高胰臟癌 RAS 賽道門檻；zoldonrasib 與 pan-RAS 或化療的早期組合訊號，則把競爭從單藥推向治療生態系。</p>]]></description>
+    </item>
+    <item>
+      <title>百億美元併購新狂潮</title>
+      <link>https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic/cover.png" alt="大型藥廠從眾多生技資產中精準篩選差異化標的的科學商業主視覺"></p><p>Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。</p>]]></description>
+    </item>
     <item>
       <title>諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品</title>
       <link>https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html</link>
@@ -190,22 +206,6 @@
       <pubDate>Sun, 28 Jun 2026 00:50:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/fda-regulatory-shift-biotech-rebound/cover.svg" alt="FDA 審查風向與 Biotech 反攻訊號專題封面"></p><p>代表中小型 Biotech 的 XBI（SPDR S&amp;P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。</p>]]></description>
-    </item>
-    <item>
-      <title>胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開</title>
-      <link>https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html</guid>
-      <pubDate>Sat, 27 Jun 2026 02:30:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/pancreatic-cancer-ras-prmt5-mat2a-combination/cover-generated.svg" alt="胰臟癌 RAS PRMT5 MAT2A 聯合療法專題封面"></p><p>胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。</p>]]></description>
-    </item>
-    <item>
-      <title>神藥 猛健樂 Tirzepatide 進軍自體免疫，只差臨門一腳？</title>
-      <link>https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism.html</guid>
-      <pubDate>Fri, 26 Jun 2026 02:30:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/tirzepatide-autoimmune-immunometabolism/cover-generated.svg" alt="Tirzepatide 進軍自體免疫與免疫代謝治療分析封面"></p><p>它不像急性感染，用藥幾天或幾週就結束。類風濕性關節炎、乾癬、乾癬性關節炎、發炎性腸道疾病、氣喘、異位性皮膚炎，這些疾病往往跟著患者一輩子。</p>]]></description>
     </item>
   </channel>
 </rss>

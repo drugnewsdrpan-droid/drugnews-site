@@ -209,6 +209,122 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+      "date": "2026-07-17",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Revolution Medicines",
+        "RevMed",
+        "胰臟癌",
+        "KRAS G12D",
+        "RAS(ON)",
+        "Zoldonrasib",
+        "Daraxonrasib",
+        "ESMO GI 2026",
+        "臨床數據",
+        "組合療法"
+      ],
+      "summary": "Daraxonrasib 已用第三期總生存期資料抬高胰臟癌 RAS 賽道門檻；zoldonrasib 與 pan-RAS 或化療的早期組合訊號，則把競爭從單藥推向治療生態系。",
+      "image": "https://drugnews.com.tw/assets/articles/revmed-ras/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-17-revmed-ras-en.html"
+      }
+    },
+    {
+      "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+      "date": "2026-07-17",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "Revolution Medicines",
+        "RevMed",
+        "pancreatic cancer",
+        "KRAS G12D",
+        "RAS(ON)",
+        "zoldonrasib",
+        "daraxonrasib",
+        "ESMO GI 2026",
+        "clinical data"
+      ],
+      "summary": "Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems.",
+      "image": "https://drugnews.com.tw/assets/articles/revmed-ras-en/cover.png",
+      "is_accessible_for_free": false,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-17-revmed-ras.html"
+      }
+    },
+    {
+      "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
+      "date": "2026-07-16",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "Big Pharma",
+        "biotech M&A",
+        "Vertex",
+        "Crinetics",
+        "AbbVie",
+        "Apogee Therapeutics",
+        "Novartis",
+        "Avidity Biosciences",
+        "Merck"
+      ],
+      "summary": "Vertex's roughly $10 billion deal for Crinetics captures a wider change in Big Pharma's acquisition taste: away from scale and fashionable platforms, toward niche leadership, technological step-changes and commercial visibility.",
+      "image": "https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic-en/cover.png",
+      "is_accessible_for_free": false,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-16-big-pharma-ma-new-aesthetic.html"
+      }
+    },
+    {
+      "title": "百億美元併購新狂潮",
+      "date": "2026-07-16",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Big Pharma",
+        "生技併購",
+        "Vertex",
+        "Crinetics",
+        "AbbVie",
+        "Apogee Therapeutics",
+        "Novartis",
+        "Avidity Biosciences",
+        "Merck",
+        "Cidara Therapeutics"
+      ],
+      "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。",
+      "image": "https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-16-big-pharma-ma-new-aesthetic-en.html"
+      }
+    },
+    {
       "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
       "date": "2026-07-15",
       "language": "en",
@@ -1417,110 +1533,6 @@
       "is_accessible_for_free": false,
       "is_external": true,
       "alternate_language_versions": {}
-    },
-    {
-      "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
-      "date": "2026-06-25",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Protect Biotech",
-        "Companion Animal Medicine",
-        "Pet Precision Medicine",
-        "Platform Company",
-        "Biotech Investing",
-        "Roche",
-        "Animal Health"
-      ],
-      "summary": "As companion animals age and owners become more willing to pay for serious-disease care, the next major question in pet medicine is whether a platform company can connect drugs, diagnostics, veterinary clinics, regulation, manufacturing, channels, and data into one defensible system.",
-      "image": "https://drugnews.com.tw/assets/articles/protect-pet-medical-roche-platform-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-25-protect-pet-medical-roche-platform.html"
-      }
-    },
-    {
-      "title": "邁向「寵物醫療界羅氏」的寶泰生醫",
-      "date": "2026-06-25",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html",
-      "source": "Dcard",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "寶泰生醫",
-        "寵物醫療",
-        "羅氏",
-        "平台型公司",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "當毛孩高齡化趨勢推動癌症、心臟病與自體免疫等重症治療的需求升級，市場的長期觀察核心，在於誰能率先打造一座寵物重症新藥平台，成為『寵物醫療界羅氏』。而這一改寫行業格局的答案，正於台灣的一家生技公司加速浮現。",
-      "image": "https://drugnews.com.tw/assets/articles/protect-pet-medical-roche-platform/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-25-protect-pet-medical-roche-platform-en.html"
-      }
-    },
-    {
-      "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-      "date": "2026-06-24",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "AI drug discovery",
-        "zasocitinib",
-        "Takeda",
-        "Sotyktu",
-        "TYK2",
-        "psoriasis",
-        "PASI 100",
-        "Schrodinger",
-        "biotech investing",
-        "Big Pharma"
-      ],
-      "summary": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test.",
-      "image": "https://drugnews.com.tw/assets/articles/ai-zasocitinib-sotyktu-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-24-ai-zasocitinib-sotyktu.html"
-      }
-    },
-    {
-      "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
-      "date": "2026-06-24",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
-      "source": "Dcard",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "AI",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "過去，口服藥在中重度乾癬市場裡，常常扮演的是「方便但療效有限」的角色。真正能把皮膚清得很乾淨的，仍然是 Skyrizi（risankizumab，瑞莎奇珠單抗）、Tremfya（guselkumab，古塞奇尤單抗）、Cosentyx（secukinumab，司庫奇尤單抗）、Taltz（ixekizu…",
-      "image": "https://drugnews.com.tw/assets/articles/ai-zasocitinib-sotyktu/cover.svg",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-24-ai-zasocitinib-sotyktu-en.html"
-      }
     }
   ]
 }

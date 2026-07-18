@@ -1,6 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-ras/cover.png</image:loc>
+      <image:caption>KRAS 分子開關與雙重 RAS 阻斷共同切斷胰臟癌逃脫路徑的科學主視覺</image:caption>
+      <image:title>又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-ras/facebook-01.webp</image:loc>
+      <image:caption>胰臟癌中的 KRAS G12D 分子開關與下游訊號路徑</image:caption>
+      <image:title>又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-ras/facebook-02.webp</image:loc>
+      <image:caption>Zoldonrasib 與 daraxonrasib 從突變深度與逃脫路徑廣度形成 RAS 雙封鎖</image:caption>
+      <image:title>又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-ras/facebook-03.webp</image:loc>
+      <image:caption>ESMO GI 2026 公布的 zoldonrasib 與 daraxonrasib 組合療法早期臨床訊號</image:caption>
+      <image:title>又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-ras/facebook-04.webp</image:loc>
+      <image:caption>RevMed 以 daraxonrasib 為骨架建立多突變、多治療線與多組合的 RAS 產品矩陣</image:caption>
+      <image:title>又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-ras-en/cover.png</image:loc>
+      <image:caption>A molecular RAS switch in pancreatic cancer is blocked by complementary selective and broad-spectrum inhibitors</image:caption>
+      <image:title>RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-ras-en/figure-01.webp</image:loc>
+      <image:caption>Why pancreatic cancer is difficult: KRAS G12D functions as a central driver of RAS signaling</image:caption>
+      <image:title>RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-ras-en/figure-02.webp</image:loc>
+      <image:caption>Zoldonrasib provides mutation-specific depth while daraxonrasib broadens blockade across RAS escape routes</image:caption>
+      <image:title>RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-ras-en/figure-03.webp</image:loc>
+      <image:caption>Early zoldonrasib combination cohorts reported notable response and disease-control signals, with longer follow-up still required</image:caption>
+      <image:title>RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/revmed-ras-en/figure-04.webp</image:loc>
+      <image:caption>RevMed is organizing daraxonrasib and mutation-selective agents into a multi-line RAS combination franchise</image:caption>
+      <image:title>RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic-en/cover.png</image:loc>
+      <image:caption>A precision scientific gateway selecting differentiated biotech assets for Big Pharma</image:caption>
+      <image:title>Big Pharma&apos;s New $10 Billion M&amp;A Wave: Why Differentiation Now Beats Scale and Hype</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic-en/figure-01.webp</image:loc>
+      <image:caption>The new $10 billion M&amp;A wave, led by Vertex-Crinetics, Sun Pharma-Organon and Lilly-Centessa</image:caption>
+      <image:title>Big Pharma&apos;s New $10 Billion M&amp;A Wave: Why Differentiation Now Beats Scale and Hype</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic-en/figure-02.webp</image:loc>
+      <image:caption>Big-market acquisitions now demand a technological step-change in immunology, RNA delivery or antiviral prevention</image:caption>
+      <image:title>Big Pharma&apos;s New $10 Billion M&amp;A Wave: Why Differentiation Now Beats Scale and Hype</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic-en/figure-03.webp</image:loc>
+      <image:caption>Three shifts in Big Pharma acquisition taste: scale, fashionable platforms and differentiated certainty</image:caption>
+      <image:title>Big Pharma&apos;s New $10 Billion M&amp;A Wave: Why Differentiation Now Beats Scale and Hype</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic-en/figure-04.webp</image:loc>
+      <image:caption>Taiwan biotech examples that translate specialist leadership, formulation innovation and unmet need into strategic value</image:caption>
+      <image:title>Big Pharma&apos;s New $10 Billion M&amp;A Wave: Why Differentiation Now Beats Scale and Hype</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic/cover.png</image:loc>
+      <image:caption>大型藥廠從眾多生技資產中精準篩選差異化標的的科學商業主視覺</image:caption>
+      <image:title>百億美元併購新狂潮</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic/facebook-01.webp</image:loc>
+      <image:caption>2026 年大型藥廠百億美元級併購，從規模競賽轉向細分市場與專科領導力</image:caption>
+      <image:title>百億美元併購新狂潮</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic/facebook-02.webp</image:loc>
+      <image:caption>留在免疫、神經肌肉與感染等大賽道的藥廠，改以長效抗體、AOC 與 DFC 取得代際差異</image:caption>
+      <image:title>百億美元併購新狂潮</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic/facebook-03.webp</image:loc>
+      <image:caption>Big Pharma 併購審美從規模崇拜、風口崇拜，走向差異化與確定性</image:caption>
+      <image:title>百億美元併購新狂潮</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic/facebook-04.webp</image:loc>
+      <image:caption>藥華藥、逸達與昱展新藥分別以專科市場、長效製劑與明確臨床需求建立差異化</image:caption>
+      <image:title>百億美元併購新狂潮</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization-en/cover.png</image:loc>

@@ -1,5 +1,32 @@
 [
   {
+    "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+    "slug": "revmed-ras-en",
+    "date": "2026-07-17",
+    "publishAt": "2026-07-17T09:46:13+08:00",
+    "category": "商業分析系列",
+    "access": "Business Analysis",
+    "lang": "en",
+    "tags": [
+      "Business Analysis",
+      "Revolution Medicines",
+      "RevMed",
+      "pancreatic cancer",
+      "KRAS G12D",
+      "RAS(ON)",
+      "zoldonrasib",
+      "daraxonrasib",
+      "ESMO GI 2026",
+      "clinical data",
+      "combination therapy",
+      "oncology"
+    ],
+    "summary": "Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems.",
+    "image": "../assets/articles/revmed-ras-en/cover.png",
+    "imageAlt": "A molecular RAS switch in pancreatic cancer is blocked by complementary selective and broad-spectrum inhibitors",
+    "url": "articles/2026-07-17-revmed-ras-en.html"
+  },
+  {
     "title": "How to read FDA regulatory milestones: what each event changes—and what it does not",
     "slug": "regulatory-milestones",
     "date": "2026-07-17",
@@ -49,6 +76,34 @@
     "image": "",
     "imageAlt": "How to read biotech clinical endpoints without overreading a positive headline",
     "url": "en/guides/clinical-endpoints.html"
+  },
+  {
+    "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
+    "slug": "big-pharma-ma-new-aesthetic-en",
+    "date": "2026-07-16",
+    "publishAt": "2026-07-16T08:00:00+08:00",
+    "category": "商業分析系列",
+    "access": "Business Analysis",
+    "lang": "en",
+    "tags": [
+      "Business Analysis",
+      "Big Pharma",
+      "biotech M&A",
+      "Vertex",
+      "Crinetics",
+      "AbbVie",
+      "Apogee Therapeutics",
+      "Novartis",
+      "Avidity Biosciences",
+      "Merck",
+      "Cidara Therapeutics",
+      "BD licensing",
+      "Taiwan biotech"
+    ],
+    "summary": "Vertex's roughly $10 billion deal for Crinetics captures a wider change in Big Pharma's acquisition taste: away from scale and fashionable platforms, toward niche leadership, technological step-changes and commercial visibility.",
+    "image": "../assets/articles/big-pharma-ma-new-aesthetic-en/cover.png",
+    "imageAlt": "A precision scientific gateway selecting differentiated biotech assets for Big Pharma",
+    "url": "articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html"
   },
   {
     "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",

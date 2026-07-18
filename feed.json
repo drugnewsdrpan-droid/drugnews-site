@@ -15,6 +15,64 @@
   ],
   "items": [
     {
+      "id": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+      "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+      "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+      "summary": "Daraxonrasib 已用第三期總生存期資料抬高胰臟癌 RAS 賽道門檻；zoldonrasib 與 pan-RAS 或化療的早期組合訊號，則把競爭從單藥推向治療生態系。",
+      "content_text": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代 胰臟癌這個「癌王」，可能真的要被 RAS 藥物撬開一道縫了。 過去，胰臟癌最可怕的地方，不只是死亡率高，而是長期缺乏真正能改寫治療路徑的標靶藥。 KRAS 突變明明出現在超過九成胰臟導管腺癌（PDAC）患者身上，卻因為蛋白結構太滑、缺乏好口袋，長期被視為「不可成藥」。 直到 Revolution Medicines，也就是 RevMed，把 RAS(ON) 抑制劑推到三期陽性。 它的核心藥物 daraxonrasib（RMC-6236），是一款口服 RAS(ON) multi-selective inhibitor，也就是 RAS 活化狀態多選擇性抑制劑。在先前 RASolute-302 三期試驗中，daraxonrasib 用於既往治療過的轉移性 PDAC，將中位整體存活期拉到 13.2 個月，對照化療約 6.7 個月，死亡風險顯著下降，幾乎把後線胰臟癌治療標準直接重寫。 但 RevMed 想要的，顯然不只是二線胰臟癌。 7 月 2 日，RevMed 在 2026 ESMO GI 公布另一組更有想像力的資料：KRAS G12D 抑制劑 zoldonrasib（RMC-9805）聯合 daraxonrasib，在 RAS G12D 轉移性胰臟癌患者中展現強勁訊號。 二線患者中，zoldonrasib 加 daraxonrasib 的 ORR，也就是客觀緩解率，達 50%；DCR，也就是疾病控制率，達 97%；中位 PFS，也就是無惡化存活期，達 9.6 個月。三線以上患者 ORR 也有 47%，DCR 達 90%。同時，在一線患者中，zoldonrasib 聯合標準化療也做出高反應率： 搭配 modified FOLFIRINOX 的 ORR 達 82%。 搭配 gemcitabine plus nab-paclitaxel，也就是吉西他濱加白蛋白結合型紫杉醇的 ORR 達 61%。 這組資料真正重要的地方，不是又多一款 KRAS G12D 藥物。而是 RevMed 正在用 RAS 矩陣管線，試圖把胰臟癌從一線到後線全部吃下來。 01｜為什麼胰臟癌這麼難？KRAS 是關鍵開關 要理解這組聯合療法，必須先理解 KRAS。 KRAS 在正常細胞裡像一個訊號開關。當外部有生長訊號時，KRAS 結合 GTP，進入活化狀態，通知細胞增殖；當訊號結束後，GTP 被水解成 GDP，KRAS 回到關閉狀態。這個「開—關」循環，原本非常精密。問題是，KRAS G12D 突變會讓 KRAS 蛋白結構改變，使它難以正常關閉。結果是 KRAS 長期卡在活化狀態，不斷向下游送出兩條訊號： 一條透過 RAF-MEK-ERK 告訴細胞繼續增殖。 另一條透過 PI3K-AKT 告訴細胞不要死亡。 這也是為什麼 KRAS 突變癌細胞很難打。你不是在處理一個單點訊號，而是在處理一個被鎖死的生長引擎。在胰臟癌中，KRAS G12D 又是最常見的突變亞型之一。 RevMed 公告指出，PDAC 是主要癌種中最典型的 RAS-driven malignancy，也就是 RAS 驅動惡性腫瘤，超過 90% 患者帶有 RAS 突變，其中 RAS G12D 約占 40%。所以，誰能真正壓住 G12D，誰就有機會改寫胰臟癌治療。 02｜Zoldonrasib 加 Daraxonrasib：不是 1+1，而是「深度＋廣度」 這次最值得玩味的，不是 zoldonrasib 單藥，而是它和 daraxonrasib 的組合。 Zoldonrasib 是口服 RAS(ON) G12D-selective covalent inhibitor，也就是 RAS 活化狀態 G12D 選擇性共價抑制劑，主打深度。它用共價方式鎖住 KRAS G12D，針對最大亞型做高強度壓制。 Daraxonrasib 則是 RAS(ON) multi-selective inhibitor，主打廣度。 它不是只打 G12D，而是覆蓋多種活化 RAS 訊號，包括 G12D、G12V、G12R，以及部分癌細胞繞路後重新啟動的 RAS 訊號。兩者聯用的邏輯，不是簡單把兩個藥加在一起，而是在 RAS 通路上做雙重封鎖。 第一層，是縱向深度。Zoldonrasib 對 KRAS G12D 做高強度、持久性壓制，把最主要的驅動突變先封住。 第二層，是橫向廣度。Daraxonrasib 則負責堵住癌細胞的逃生路。癌細胞若透過 NRAS、HRAS 旁路，或 HER2、MET 等上游受體重新啟動野生型 RAS 訊號，daraxonrasib 仍有機會把這些活化 RAS 訊號一起攔下來。 這就是為什麼這組聯合療法有意思。 KRAS G12D 單藥面對的最大問題，是癌細胞會逃。它可以擴增 KRAS G12D 拷貝數，製造更多靶蛋白來稀釋抑制劑效果；也可以啟動其他 RAS 家族成員，繞過 G12D；還可以透過上游 RTK 訊號重建下游 ERK、AKT 活性。 Zoldonrasib 解決的是「主幹突變」。 Daraxonrasib 解決的是「旁路反撲」。 這就是 RAS 雙封鎖的精髓。 03｜資料真的強，但還不能忘記它仍是早期樣本 從療效來看，zoldonrasib 加 daraxonrasib 的訊號相當亮眼。 二線 RAS G12D 轉移性 PDAC 患者 ORR 50%、DCR 97%、中位 PFS 9.6 個月； 三線以上 ORR 47%、DCR 90%、中位 PFS 7.6 個月。 對照傳統後線胰臟癌治療，這組數字非常有衝擊力。更重要的是，這不是挑最漂亮的患者族群。RevMed 公布資料顯示，這些患者多數已有後線治療經驗，且相當高比例存在肝轉移。胰臟癌肝轉移通常代表預後更差、進展更快、化療滲透更困難，能在這樣的人群中打出接近五成反應率，確實不容易。安全性方面，zoldonrasib 加 daraxonrasib 的 3 級以上治療相關不良事件發生率為 35%。常見 3 級以上事件包括： 皮疹 12%。 貧血 10%。 口腔炎／黏膜炎 7%。 因不良事件停用 zoldonrasib 與 daraxonrasib 的比例分別為 2% 與 5%。這組安全性比市場原先想像更好。但也必須保持冷靜。 第一，樣本數仍不大。二線 30 人、三線以上 30 人，訊號很強，但還不能替代三期結論。 第二，daraxonrasib 劑量強度只有 76%。這代表臨床上可能仍需要在療效與皮疹、口腔炎等毒性之間找平衡。 第三，真正決定這個組合價值的，仍是後續 OS、PFS 長期追蹤與三期驗證。OS 是整體存活期，PFS 是無惡化存活期，這些才是胰臟癌治療能否真正改寫標準的關鍵。 所以，這不是可以直接宣告勝利的資料。但它足以宣告一件事： RAS 治療不再是單藥故事，而是進入組合療法時代。 04｜RevMed 正在做的，是把 RAS 做成一個 franchise RevMed 最可怕的地方，不只是有 daraxonrasib。而是它正在把 RAS 做成一套產品矩陣。 Daraxonrasib 負責廣譜 RAS(ON) 抑制，是平台骨架。 Zoldonrasib 負責 KRAS G12D，是胰臟癌最大突變族群。 Elironrasib（RMC-6291）負責 G12C。 RMC-5127 則瞄準 G12V。 後面還有 Q61H、G13C 等更細分突變亞型。 這種布局的意義在於，RevMed 不是只想做一款胰臟癌藥，而是想重建 RAS-driven cancers，也就是 RAS 驅動癌症的治療版圖。從二線胰臟癌，到一線胰臟癌，再到肺癌、結直腸癌與其他 RAS 突變實體瘤，它正在把不同 RAS 分型一塊一塊接起來。這也會改變整個 KRAS G12D 賽道的估值邏輯。 過去市場看 G12D，常把它當成單一突變抑制劑故事。但現在，daraxonrasib 成功後，G12D 抑制劑的價值不只是單藥，而是能不能成為 RAS backbone，也就是 RAS 治療骨架上的加成模組。換句話說，G12D 不再只是自己打。而是要看它能不能跟 pan-RAS、化療、PRMT5 inhibitor、MAT2A inhibitor、EGFR inhibitor 或免疫療法一起打。 也就是： G12D 能不能搭 pan-RAS？ 能不能搭化療？ 能不能搭 PRMT5 抑制劑？ 能不能搭 MAT2A 抑制劑？ 能不能搭 EGFR 抑制劑？ 能不能搭免疫療法？ 這就是 RevMed 掀桌的地方。它把一條原本單點競爭的賽道，改造成矩陣競爭。 05｜國際玩家都會重新被定價 RevMed 的資料一出來，整個 RAS 賽道都會被重新看待。 Bristol Myers Squibb 旗下的 MRTX1133 曾是 KRAS G12D 領域早期焦點之一，目前仍有 G12D 實體瘤臨床試驗登錄紀錄。 Eli Lilly 的 LY4066434 則是 pan-KRAS inhibitor，也就是泛 KRAS 抑制劑，正在 KRAS 突變實體瘤中評估安全性與耐受性。 Incyte 的 INCB161734 也是口服 KRAS G12D inhibitor，也就是口服 KRAS G12D 抑制劑，已有早期臨床結果發表，並開始推進胰臟癌相關研究。 這些公司面對的問題會變得更尖銳： 你的藥能不能單藥打出差異？ 能不能安全地和化療、pan-RAS 或其他機制聯用？ 能不能在胰臟癌這種高死亡率疾病裡做出真正 OS？ 能不能建立自己的組合療法主場？ RevMed 已經把標準",
+      "image": "https://drugnews.com.tw/assets/articles/revmed-ras/cover.png",
+      "banner_image": "https://drugnews.com.tw/assets/articles/revmed-ras/cover.png",
+      "date_published": "2026-07-17T01:46:13.333Z",
+      "tags": [
+        "Revolution Medicines",
+        "RevMed",
+        "胰臟癌",
+        "KRAS G12D",
+        "RAS(ON)",
+        "Zoldonrasib",
+        "Daraxonrasib",
+        "ESMO GI 2026",
+        "臨床數據",
+        "組合療法"
+      ],
+      "language": "zh-Hant",
+      "authors": [
+        {
+          "name": "Drugnews 編輯部",
+          "url": "https://drugnews.com.tw/team.html"
+        }
+      ]
+    },
+    {
+      "id": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+      "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+      "title": "百億美元併購新狂潮",
+      "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。",
+      "content_text": "百億美元併購新狂潮 00｜大藥廠的「審美」變了 又一筆百億美元級併購誕生。 7 月 6 日，Vertex Pharmaceuticals 宣布以每股 85 美元、總股權價值約 100 億美元的全現金交易，收購專注於內分泌罕見病的 Crinetics Pharmaceuticals。交易完成後，Crinetics 將為 Vertex 帶來已上市的肢端肥大症口服藥 PALSONIFY，以及處於後期開發階段的 atumelnant。 Atumelnant 瞄準先天性腎上腺增生症與其他 ACTH 相關內分泌疾病。Vertex 官方也表示，這組資產具備約 50 億美元峰值銷售潛力，並將內分泌學納入公司第五大治療領域。 至此，2026 年全球製藥產業的百億美元級併購已經一筆接一筆。 大型藥廠加大併購力度並不意外。專利懸崖逼近，內部研發不可能永遠準時交卷，手上又握有大量現金，併購本來就是 Big Pharma 填補成長缺口最直接的工具。 真正值得注意的，不是它們又開始買了，而是它們開始買得不一樣了。 過去十年，跨國藥廠的併購審美經歷過兩個階段：第一個階段是規模崇拜，越大越好；第二個階段是風口崇拜，越熱門越好。 到了 2026 年，新的審美正在成形：不再追逐最大聲量的賽道，而是尋找最不內卷、最具差異化、最能形成細分統治力的資產。 這才是 Vertex 收購 Crinetics 背後真正值得看的地方。 01｜百億美元新狂潮：不是亂買，而是精準狙擊 這一輪跨國藥廠併購，有兩條很清楚的主線。 第一條，是策略去內卷。 也就是不再硬擠最紅、最擁擠、最被資本追捧的大賽道，而是轉向相對冷門、競爭較少、但臨床需求穩定的細分市場，追求絕對統治力。 Sun Pharma 以企業價值約 117.5 億美元收購 Organon，看中的不是一個炫目的新靶點，而是女性健康、成熟品牌、生物相似藥與專科產品組成的全球商業網路。這種資產不像腫瘤免疫那樣性感，但現金流穩定、通路成熟、競爭格局相對清楚。 Eli Lilly 以最高 78 億美元收購 Centessa Pharmaceuticals，則是跳出 GLP-1 舒適圈，切入睡眠清醒障礙市場。Centessa 的核心是 orexin receptor 2 agonist，也就是 orexin 2 受體促效劑 cleminorexton，瞄準 narcolepsy，也就是嗜睡症，以及 idiopathic hypersomnia，也就是特發性嗜睡症。這不是最熱的大眾慢病市場，卻是高度專科、需求明確、競品有限的 CNS，也就是中樞神經系統細分藍海。 Vertex 收購 Crinetics，也是同一個邏輯。 肢端肥大症與先天性腎上腺增生症，本來不是最吸睛的賽道。傳統治療長期依賴注射或不夠理想的替代方案，患者依從性差，醫療負擔也重。Crinetics 的價值，不在於發明了全新的生物學，而在於把成熟內分泌靶點做出產品差異化：把原本麻煩的治療，做成每日一次口服藥。 PALSONIFY 是全球首個且目前唯一每日一次口服肢端肥大症治療藥物。Atumelnant 則是口服 ACTH receptor antagonist，也就是 ACTH 受體拮抗劑，處於先天性腎上腺增生症後期開發階段。 這不是最華麗的科學故事，但非常符合 Vertex 的核心能力：在罕見病裡建立深度專科壁壘，再用全球商業化能力放大價值。 Vertex 過去靠囊性纖維化建立壟斷型商業模式。現在買 Crinetics，本質上是把這套模式複製到內分泌罕見病。 這是非常典型的新審美：不追最大市場，而追最能掌控的市場。 02｜第二條路：如果留在大賽道，就必須技術升維 另一條主線，是技術去內卷。 如果 Big Pharma 仍然要留在腫瘤、免疫、代謝、神經這些大賽道，它們不再願意為普通跟隨型資產付高價。它們要的是能對現有療法形成代際差異的技術平台。 AbbVie 宣布以約 109 億美元收購 Apogee Therapeutics，看中的就是長效化免疫療法。Apogee 的核心資產 zumilokibart 是長效 IL-13 antibody，也就是長效 IL-13 抗體，主攻異位性皮膚炎、氣喘等 type 2 inflammation，也就是第二型發炎疾病。 AbbVie 不是缺免疫藥，它真正需要的是下一代免疫產品：更少給藥次數、更長作用時間、更好的患者黏著度。 Novartis 完成約 120 億美元收購 Avidity Biosciences，則是買下肌肉導向的 Antibody Oligonucleotide Conjugate，簡稱 AOC，也就是抗體寡核苷酸偶聯平台，與三個後期神經肌肉疾病管線。這筆交易的重點不是單一靶點，而是把 RNA 藥物從肝臟推向肌肉組織，解決過去小核酸藥物遞送受限的問題。 Merck 完成約 92 億美元收購 Cidara Therapeutics，也是類似邏輯。Cidara 的 CD388 是長效 Drug-Fc Conjugate，簡稱 DFC，也就是藥物 Fc 偶聯抗病毒候選藥，處於 Phase 3，用於高風險族群流感預防。它不是疫苗，也不是傳統單株抗體，而是小分子神經胺酸酶抑制劑與 Fc 片段結合，目標是一次注射提供整季保護，且不依賴疫苗株匹配。 這些交易表面上分散在免疫、神經肌肉、流感、內分泌，但背後語言一致：要嘛避開內卷，在細分市場建立壟斷；要嘛進入大賽道，但必須用技術升維打出差異化。 Big Pharma 不是不買了，而是不再願意買普通故事。 03｜十年前的審美：規模即正義 如果把時間拉回十年前，Big Pharma 的併購邏輯完全不同。 那時候的核心信仰是：規模即正義。 重磅藥專利到期壓力浮現，藥廠最直接的解法，就是買更大的公司、吃下更大的產品矩陣、砍掉重複成本、快速並表收入。 2019 年，是大型併購的巔峰。Bristol Myers Squibb 以約 740 億美元收購 Celgene；AbbVie 以約 630 億美元收購 Allergan；Takeda 則背負巨大債務收購 Shire，押注罕見病與血液製品版圖。 這些交易背後，是對「大而不倒」的信仰。產品多、通路大、成本可砍、利潤能並表，看起來就能對抗專利懸崖。 但大型合併的代價也很清楚：組織臃腫、管線整合困難、債務壓力大、無形資產攤銷沉重。 一旦後續臨床或商業化不如預期，當初的併購很容易變成多年負擔。更重要的是，全球反壟斷監管開始收緊，千億美元級超大型合併的空間越來越小。 規模崇拜，不再那麼好用了。 04｜疫情後的審美：風口即正義 2020 到 2023 年，Big Pharma 的審美又轉了一次。 疫情帶來流動性，也帶來 FOMO，也就是害怕錯過。手握 COVID-19 紅利和老藥現金流的大藥廠，開始害怕錯過下一代技術平台。 ADC、mRNA、細胞治療、基因治療、CNS 新機制、蛋白降解，一個又一個熱點被推高。 Gilead 以約 210 億美元收購 Immunomedics，拿下 TROP2 ADC Trodelvy。Pfizer 以約 430 億美元收購 Seagen，試圖用 ADC 平台重建腫瘤業務。AbbVie 以約 101 億美元收購 ImmunoGen，買下 FRα ADC Elahere。 風口不只在 ADC。AbbVie 也以約 87 億美元收購 Cerevel Therapeutics，押注精神分裂症 M4 receptor positive allosteric modulator，也就是 M4 受體正向變構調節劑 emraclidine。Pfizer 也買下 Biohaven 的偏頭痛管線，並收購 Global Blood Therapeutics，進入鐮刀型貧血市場。 那時候的邏輯是：寧可買錯，也不能缺席。 但風口過後，代價開始浮現。同質化管線太多，臨床失敗頻繁，商業化不如預期。ADC 變成紅海，CNS 高風險再次暴露，部分罕見病資產也在上市後面對真實世界安全性挑戰。 Pfizer 收購 Seagen 後，多個 ADC 管線接連遇挫。2026 年，sigvotatug vedotin 在既往治療過的非鱗狀非小細胞肺癌 Phase 3 試驗中，未能相較 docetaxel，也就是多西他賽，顯著改善整體存活期。 Pfizer 收購 Global Blood Therapeutics 的教訓更重。其鐮刀型貧血藥 Oxbryta，也就是 voxelotor，因安全性疑慮在全球撤市。FDA 也發布警示，指出 Pfizer 撤回該藥與疼痛併發症和潛在死亡風險有關。 這些案例讓產業重新清醒：風口不是壁壘，熱門不等於差異化；大手筆買下平台，也買不到臨床成功保證。 05｜新審美的本質：不是不買，而是只買真正差異化 到了 2025、2026 年，Big Pharma 併購重新升溫，但審美明顯變了。 不是再追千億美元超級合併，也不是再看到熱門平台就全包，而是更精準地尋找三種資產： 第一，細分市場裡已建立先發位置的資產。 第二，後期臨床或已上市、商業化能見度高的資產。 第三，技術平台能帶來代際差異，而不是只做同質化跟隨的資產。 Vertex 買 Crinetics，就是這種新審美的代表。PALSONIFY 不是因為靶點新而值錢，而是因為它把肢端肥大症治療做成每日一次口服，切進一個高度專科、低內卷、未滿足需求明確的市場。 AbbVie 買 Apogee，也不是因為 IL-13 是新靶點，而是因為長效化可能改變 type 2 inflammation 的給藥體驗。 Novartis 買 Avi",
+      "image": "https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic/cover.png",
+      "banner_image": "https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic/cover.png",
+      "date_published": "2026-07-16T00:00:00.000Z",
+      "tags": [
+        "Big Pharma",
+        "生技併購",
+        "Vertex",
+        "Crinetics",
+        "AbbVie",
+        "Apogee Therapeutics",
+        "Novartis",
+        "Avidity Biosciences",
+        "Merck",
+        "Cidara Therapeutics"
+      ],
+      "language": "zh-Hant",
+      "authors": [
+        {
+          "name": "Drugnews 編輯部",
+          "url": "https://drugnews.com.tw/team.html"
+        }
+      ]
+    },
+    {
       "id": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
       "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
       "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
@@ -1239,55 +1297,6 @@
         "乾眼症",
         "PDSP",
         "授權"
-      ],
-      "language": "zh-Hant",
-      "authors": [
-        {
-          "name": "Drugnews 編輯部",
-          "url": "https://drugnews.com.tw/team.html"
-        }
-      ]
-    },
-    {
-      "id": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html",
-      "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html",
-      "title": "RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場「抗藥性管理」戰",
-      "summary": "Daraxonrasib 打開胰臟癌 RAS 標靶時代後，真正的下一場戰爭是抗藥性管理；生華科 CX-5461 的價值在於能否成為 RAS 標靶後時代的免疫增敏與聯合治療候選策略。",
-      "content_text": "RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場「抗藥性管理」戰 胰臟癌治療，正在迎來一個久違的轉折。 長久以來，胰臟癌幾乎是實體瘤中最難攻克的高牆：診斷晚、進展快、化療選擇有限，腫瘤微環境又高度免疫抑制，讓許多新藥一再折戟。但隨著 RAS 標靶治療開始跑出關鍵數據，這個過去被視為「不可成藥」的核心驅動訊號，終於被真正撬開。 Revolution Medicines 的 Daraxonrasib 在 RASolute 302 三期試驗中，讓既往接受治療的轉移性胰臟導管腺癌患者，中位總存活期達 13.2 個月，對照化療組為 6.7 個月。對胰臟癌來說，這不是普通進展，而是一個重要里程碑。 因為胰臟癌中，超過九成與 RAS 訊號驅動有關。當 RAS(ON) 抑制劑在三期臨床拿出存活期資料，代表胰臟癌正式從化療主導，走向真正的 RAS 標靶治療時代。 但新的問題也隨之而來。 RAS 抑制劑不是終點。真正的下一場戰爭，是抗藥性。 01｜RAS 被壓下去後，癌細胞會往哪裡逃？ 不論是傳統偏 RAS-off 的抑制策略，或是近年最受矚目的 RAS-on 抑制劑，本質上都是在壓制癌細胞的 RAS 驅動訊號。但胰臟癌最難纏的地方，就是它不只會長，還很會逃。 當 RAS 這條主訊號被關掉後，癌細胞可能透過其他路徑重新找到生路： MYC 活化。 KEAP1 / NRF2 抗氧化壓力路徑。 YAP / TAZ / TEAD 轉錄調控路徑。 腫瘤微環境重塑。 免疫逃脫。 這些路徑有一個共同特色：重要，但難成藥。 MYC 長期被視為癌症裡最難直接標靶的核心驅動因子；YAP / TAZ / TEAD 牽涉腫瘤可塑性與轉錄重編程；KEAP1 / NRF2 則與癌細胞面對氧化壓力、代謝壓力時的存活能力有關。 所以，RAS 抑制劑成功之後，臨床上真正要問的，不只是「RAS 藥有沒有效」，而是：癌細胞被 RAS 抑制後，會往哪裡逃？我們有沒有辦法提前堵住這些逃生路線？ 這正是生華科 CX-5461（Pidnarulex） 的定位開始變得有意思的地方。 02｜CX-5461：不是取代 RAS 抑制劑，而是補上抗藥性拼圖 CX-5461 不是 RAS 抑制劑。 它真正的價值，不是取代 Daraxonrasib 這類 RAS 標靶藥，而是有機會成為 RAS 標靶時代後的聯合治療夥伴。CX-5461 最早被認識，是因為它能抑制癌細胞高度依賴的核糖體 RNA 合成。癌細胞要快速增殖，就需要大量製造蛋白質；而核糖體就像細胞裡的蛋白質工廠。CX-5461 對這個工廠施加壓力，進一步干擾癌細胞生存。 但它的故事不只如此。研究與公司公開資料顯示，CX-5461 也可能誘發 DNA 損傷與複製壓力，並活化先天免疫訊號，使原本免疫反應低落的冷腫瘤，更有機會被免疫系統辨識。白話講，CX-5461 可能同時做三件事： 讓癌細胞承受核糖體生成壓力。 讓癌細胞面對 DNA 損傷與複製壓力。 讓腫瘤微環境更容易啟動免疫反應。 這也是它和 PD-1 抑制劑 Tislelizumab 併用的核心邏輯。 如果 RAS 抑制劑像是關掉胰臟癌的主引擎，那 CX-5461 的想像，就是讓殘存癌細胞同時面對多重壓力，並提高免疫系統清除癌細胞的機會。 03｜從冷腫瘤變熱，才是胰臟癌免疫治療的關鍵 胰臟癌長期被視為典型的「冷腫瘤」。 所謂冷腫瘤，就是免疫細胞不容易進入，腫瘤抗原呈現不足，免疫系統不容易辨識癌細胞。因此，PD-1 抑制劑在胰臟癌單用時，往往很難打出像黑色素瘤或肺癌那樣的效果。 所以胰臟癌免疫治療的關鍵，不是只有「有沒有 PD-1」，而是能不能讓免疫系統先看見癌細胞。 生華科目前推進的策略，是將 CX-5461 與 Tislelizumab 併用，評估多種晚期或轉移性實體瘤，包括胰臟癌、大腸直腸癌與黑色素瘤。這個設計的產業意義，在於它不是單純再加一個抗癌藥，而是嘗試把原本免疫反應低落的冷腫瘤，推向更容易被免疫攻擊的狀態。 換句話說，CX-5461 的角色，可以更精準地理解為：RAS 標靶時代後，潛在的免疫增敏與抗藥性管理工具。 04｜多路徑施壓，創造更高抗藥門檻 這次提出的重點，其實很關鍵。 RAS 抑制劑抗藥性不會只走單一路徑。MYC、KEAP1 / NRF2、YAP / TAZ / TEAD 這些節點，都可能成為癌細胞逃逸的方向。而這些方向最大的麻煩，就是難以直接成藥。CX-5461 的潛在價值，正在於它不是只押單一抗藥節點，而是透過多重壓力，讓癌細胞更難輕易繞路生存。它不是只打一個按鈕，而是同時對癌細胞施加： 核糖體壓力。 DNA 損傷壓力。 免疫活化壓力。 如果未來臨床能證明這些機制能轉化為實際疾病控制，CX-5461 就有機會成為 RAS 抑制劑時代中，提高抗藥門檻的聯合治療候選方案。 這裡要講得精準一點：目前不能說 CX-5461 已經解決 RAS 抗藥性。但可以說，CX-5461 的多重機制，使它具備在 KRAS 陽性、經治或 RAS 抑制後反應不佳患者中，探索抗藥性管理與免疫增敏的臨床潛力。 這就是它最值得市場追蹤的地方。 05｜FDA 同意收案設計，意義在於「進入真實抗藥性場景」 目前生華科與 Tislelizumab 的 PD-1 併用計畫中，重要設計之一，是允許納入 KRAS 陽性且曾接受或參與過相關臨床試驗治療的患者族群。這項設計也已獲美國 FDA 同意執行。 這裡要特別注意。 FDA 同意的，是臨床試驗設計與收案條件，不是代表療效已經被證明。 但這仍然有意義。因為它讓 CX-5461 不只是停留在理論上討論 RAS 抑制後抗藥性，而是有機會真正進入 KRAS 陽性、經治患者這種更貼近未來臨床需求的族群中驗證。接下來市場會看的，不是機制講得多漂亮，而是： 安全性是否可控。 和 PD-1 併用是否有協同訊號。 冷腫瘤是否真的變得更有免疫活性。 KRAS 陽性患者是否出現疾病控制或長期存活訊號。 是否能找出生物標記來篩選最可能受益的患者。 這些資料，才會決定 CX-5461 能否真正從台灣新藥故事，走向國際難治實體瘤聯合治療資產。 06｜不只胰臟癌，HRD 與 PARP 抗藥也是另一條價值線 除了胰臟癌與 RAS 抗藥性，CX-5461 在 HRD，也就是同源重組缺陷腫瘤領域，也有另一條值得追蹤的價值線。 在 BRCA 突變、且曾接受 PARP 抑制劑治療後的晚期卵巢癌患者中，CX-5461 過去已有疾病控制訊號。這代表它可能不只適用於 RAS 驅動腫瘤，也可能在 DNA 修復缺陷、PARP 抗藥或高度依賴複製壓力的癌症中，找到差異化定位。 這點很重要。因為 CX-5461 的價值不該只被綁在單一胰臟癌故事上。更完整的定位應該是：一個能對癌細胞施加核糖體壓力、DNA 損傷壓力與免疫活化壓力的多機制抗癌候選藥。胰臟癌，是它切入 RAS 標靶時代後聯合治療的重要場景。HRD 腫瘤，則是它在 DNA 損傷與 PARP 抗藥領域的另一個潛在場景。 07｜生華科真正要看的三個節點 對投資人來說，生華科不是單純「胰臟癌題材」，也不是單純「RAS 題材」。真正要看的，是三個臨床節點。 第一，CX-5461 + Tislelizumab 試驗能否順利啟動並收案。這是生華科從單藥機制，走向免疫聯合治療的關鍵第一步。 第二，KRAS 陽性經治患者中，能否看到免疫增敏與疾病控制訊號。這會決定 CX-5461 能不能真正卡位 RAS 抑制劑後時代。 第三，能不能建立可被國際藥廠理解的生物標記策略。MYC、KRAS、DNA 損傷反應、免疫浸潤、PD-L1、STING 路徑活化，未來都可能成為 CX-5461 精準開發的重要語言。 如果這些資料逐步成立，CX-5461 的故事就不只是台灣新藥公司的單點突破，而是有機會成為國際難治實體瘤聯合治療中的差異化資產。 結語｜RAS 抑制劑打開門，CX-5461 想守住下一道抗藥性關卡 Daraxonrasib 的成功，代表胰臟癌治療正式進入 RAS 標靶時代。 但 RAS 標靶不會是終點。 當 RAS 訊號被壓下去後，癌細胞往 MYC、KEAP1 / NRF2、YAP / TAZ / TEAD 與免疫逃脫路徑轉移，幾乎會是下一場戰爭。 生華科 CX-5461 的價值，就在於它不是只押單一抗藥節點，而是透過核糖體壓力、DNA 損傷壓力與先天免疫活化，嘗試把癌細胞推向更難逃脫、也更容易被免疫系統辨識的狀態。 如果 RAS 抑制劑是胰臟癌精準治療的第一張牌，那 CX-5461 與 PD-1 抑制劑的組合，則可能是下一階段抗藥性管理與免疫增敏的重要候選策略。當然，這一切仍需要臨床數據驗證。真正要看的，不是 CX-5461 的機制有多漂亮，而是它能不能在 KRAS 陽性、經治或 RAS 抑制後反應不佳的患者中，拿出可重複的安全性、免疫活化與疾病控制訊號。 這才是生華科 CX-5461 接下來最值得市場追蹤的地方。 ------------ 參考資料：各公司官網與公開資料。 本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。 公司研究 商業分析系列 zh-Hant",
-      "image": "https://drugnews.com.tw/assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-cancer-cell.png",
-      "banner_image": "https://drugnews.com.tw/assets/articles/sinphar-cx5461-ras-pancreatic-cancer/cover-cancer-cell.png",
-      "date_published": "2026-06-10T02:45:00.000Z",
-      "tags": [
-        "生華科",
-        "CX-5461",
-        "Pidnarulex",
-        "RAS",
-        "胰臟癌",
-        "抗藥性",
-        "Tislelizumab"
-      ],
-      "language": "zh-Hant",
-      "authors": [
-        {
-          "name": "Drugnews 編輯部",
-          "url": "https://drugnews.com.tw/team.html"
-        }
-      ]
-    },
-    {
-      "id": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story.html",
-      "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story.html",
-      "title": "生醫公司 IR 不是把簡報變漂亮，而是把管線變成可追蹤的資本市場故事",
-      "summary": "好的 IR 內容不是宣傳話術，而是把臨床、CMC、監管、商業化與對標公司轉成投資人可以追蹤的節點。",
-      "content_text": "生醫公司 IR 不是把簡報變漂亮，而是把管線變成可追蹤的資本市場故事 很多生醫公司談 IR，第一反應是簡報、新聞稿、活動或社群曝光。 這些都重要，但它們不是核心。 真正的核心是：投資人是否知道公司靠什麼創造價值，以及接下來應該追哪些事件。 投資人不缺資訊，缺的是可採用的結構 生醫公司資訊通常很複雜。臨床設計、CMC、監管路徑、競品、授權案例、醫療未滿足需求，單獨看都能寫成一份長報告。 但資本市場需要的是一個能被理解、被比較、被追蹤的故事。 一個好的 IR 內容應該回答四件事 公司核心管線解決哪個未滿足需求。 相對競品與對標公司，差異化在哪裡。 下一個會改變市場理解的事件是什麼。 如果事件兌現，估值模型裡哪個參數應該被調整。 合規邊界很重要 資本市場內容不能建立在未公開重大訊息上。 更穩健的做法，是用公開資訊、公司已公開或確認可使用資料，搭配外部文獻、競品資料與可驗證事件，形成可公開討論的研究內容。 本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。 IR 與資本市場 商業分析系列 zh-Hant",
-      "image": "https://drugnews.com.tw/assets/articles/biotech-ir-capital-market-story/ir-flow.svg",
-      "banner_image": "https://drugnews.com.tw/assets/articles/biotech-ir-capital-market-story/ir-flow.svg",
-      "date_published": "2026-06-10T02:30:00.000Z",
-      "tags": [
-        "IR",
-        "資本市場故事",
-        "公開資訊",
-        "投資人溝通"
       ],
       "language": "zh-Hant",
       "authors": [
