@@ -208,7 +208,7 @@ ${englishHomeSchema(homeRecords)}` : "";
   <link rel="alternate" hreflang="zh-Hant" href="${BASE_URL}/${zhPath}">
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}/${zhPath}">
   <link rel="icon" href="${root}favicon.svg">
-  <link rel="stylesheet" href="${root}styles.css?v=en-20260616-1">
+  <link rel="stylesheet" href="${root}styles.css?v=en-20260719-2">
   <link rel="alternate" type="application/rss+xml" title="${ENGLISH_BRAND} RSS" href="${BASE_URL}/en/feed.xml">
   <link rel="alternate" type="application/feed+json" title="${ENGLISH_BRAND} JSON Feed" href="${BASE_URL}/en/feed.json">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
