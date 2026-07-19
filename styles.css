@@ -382,8 +382,9 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
 .english-lead-media img {
   display: block;
   width: 100%;
+  height: auto;
   max-height: 360px;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   object-position: center;
   border: 1px solid var(--line);
@@ -3189,6 +3190,7 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     padding: 0 20px 22px;
   }
   .english-lead-media img {
+    height: auto;
     max-height: none;
     aspect-ratio: 16 / 9;
   }

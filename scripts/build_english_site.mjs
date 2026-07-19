@@ -38,13 +38,13 @@ function responsiveEnglishLeadPicture(image, alt) {
   const hasVariants = fsSync.existsSync(localPath(mobile)) && fsSync.existsSync(localPath(desktop));
 
   if (!hasVariants) {
-    return `<img src="${escapeHtml(image)}" alt="${escapeHtml(alt)}" width="1400" height="1050" loading="eager" fetchpriority="high">`;
+    return `<img src="${escapeHtml(image)}" alt="${escapeHtml(alt)}" width="1400" height="788" loading="eager" fetchpriority="high">`;
   }
 
   return `<picture>
             <source media="(max-width: 720px)" srcset="${escapeHtml(mobile)}" type="image/webp">
             <source srcset="${escapeHtml(mobile)} 720w, ${escapeHtml(desktop)} 1400w" sizes="(max-width: 900px) 100vw, 54vw" type="image/webp">
-            <img src="${escapeHtml(desktop)}" alt="${escapeHtml(alt)}" width="1400" height="1050" loading="eager" fetchpriority="high">
+            <img src="${escapeHtml(desktop)}" alt="${escapeHtml(alt)}" width="1400" height="788" loading="eager" fetchpriority="high">
           </picture>`;
 }
 
