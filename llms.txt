@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-19｜Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?
+  URL: https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html
+  Topics: Business Analysis, pelacarsen, Lp(a), HORIZON, cardiovascular disease
+  Summary: Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.
+- 2026-07-19｜HORIZON：Lp(a) 降了，心梗會少嗎？
+  URL: https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html
+  Topics: Pelacarsen, Lp(a), HORIZON, 心血管疾病, 臨床試驗
+  Summary: Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。
 - 2026-07-17｜又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代
   URL: https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html
   Topics: Revolution Medicines, RevMed, 胰臟癌, KRAS G12D, RAS(ON)
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html
   Topics: KRAS G12C, divarasib, Roche, 腫瘤新藥, 臨床數據
   Summary: Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。
-- 2026-07-11｜社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格
-  URL: https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html
-  Topics: 臨床數據, 生技投資
-  Summary: 一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。
-- 2026-07-11｜Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.
-  URL: https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html
-  Topics: Business Analysis, Business Analysis, biotech business analysis, Taiwan biotech, drug development
-  Summary: Fasedienol's PALISADE-4 miss was not simply a failed Phase 3 headline. It exposed the core CNS drug-development problem: a beautiful mechanism and a real unmet need still have to survive subjective endpoints, placebo response, patient selection, and a commercial repositioning test.
 
 ## Key Site Sections
 

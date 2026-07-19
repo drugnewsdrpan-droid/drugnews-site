@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-17T01:46:13.333Z</news:publication_date>
-      <news:title>又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html</loc>
+    <loc>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html</loc>
     <news:news>
       <news:publication>
         <news:name>Drugnews｜藥時事</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-07-17T01:46:13.000Z</news:publication_date>
-      <news:title>RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived</news:title>
+      <news:publication_date>2026-07-19T10:45:00.000Z</news:publication_date>
+      <news:title>Pelacarsen&apos;s HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-19T10:45:00.000Z</news:publication_date>
+      <news:title>HORIZON：Lp(a) 降了，心梗會少嗎？</news:title>
     </news:news>
   </url>
 </urlset>

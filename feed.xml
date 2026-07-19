@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 18 Jul 2026 03:08:41 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 11:59:00 GMT</lastBuildDate>
+    <item>
+      <title>HORIZON：Lp(a) 降了，心梗會少嗎？</title>
+      <link>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</guid>
+      <pubDate>Sun, 19 Jul 2026 10:45:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/cover.png" alt="Lp(a) 粒子、心血管事件與問號橋樑構成 HORIZON 臨床結果尚待驗證的科學主視覺"></p><p>Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。</p>]]></description>
+    </item>
     <item>
       <title>又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代</title>
       <link>https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Mon, 29 Jun 2026 05:50:47 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/biotech-ipo/cover.png" alt="美股迎來史上最大 Biotech IPO 專題封面"></p><p>台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。</p>]]></description>
-    </item>
-    <item>
-      <title>FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起</title>
-      <link>https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html</guid>
-      <pubDate>Sun, 28 Jun 2026 00:50:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/fda-regulatory-shift-biotech-rebound/cover.svg" alt="FDA 審查風向與 Biotech 反攻訊號專題封面"></p><p>代表中小型 Biotech 的 XBI（SPDR S&amp;P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。</p>]]></description>
     </item>
   </channel>
 </rss>
