@@ -6,7 +6,7 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 19 Jul 2026 11:59:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 14:26:23 GMT</lastBuildDate>
     <item>
       <title>HORIZON：Lp(a) 降了，心梗會少嗎？</title>
       <link>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</link>
@@ -14,6 +14,14 @@
       <pubDate>Sun, 19 Jul 2026 10:45:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/cover.png" alt="Lp(a) 粒子、心血管事件與問號橋樑構成 HORIZON 臨床結果尚待驗證的科學主視覺"></p><p>Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。</p>]]></description>
+    </item>
+    <item>
+      <title>當 ADC 走進自體免疫：不是殺得更狠，而是調得更準</title>
+      <link>https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html</guid>
+      <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200/cover-1400.webp" alt="一組定向遞送 glucocorticoid payload 的抗體藥物複合體靠近 VISTA 陽性免疫細胞"></p><p>自體免疫 ADC 的價值不在把腫瘤細胞毒 payload 搬到免疫細胞，而在把 glucocorticoid、ASO、siRNA 等強效免疫調節作用定向送到真正需要干預的細胞；LFD-200 的早期人體訊號，是這條路第一次重要的機制驗證。</p>]]></description>
     </item>
     <item>
       <title>又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代</title>
@@ -198,14 +206,6 @@
       <pubDate>Tue, 30 Jun 2026 00:43:58 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/gsk-nuvalent-oncology-comeback/cover.png" alt="GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌 專題封面"></p><p>2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。</p>]]></description>
-    </item>
-    <item>
-      <title>美股迎來史上最大 Biotech IPO</title>
-      <link>https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html</guid>
-      <pubDate>Mon, 29 Jun 2026 05:50:47 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/biotech-ipo/cover.png" alt="美股迎來史上最大 Biotech IPO 專題封面"></p><p>台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。</p>]]></description>
     </item>
   </channel>
 </rss>

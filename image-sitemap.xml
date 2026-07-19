@@ -62,6 +62,72 @@
     </image:image>
   </url>
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200-en/cover.png</image:loc>
+      <image:caption>An antibody-drug conjugate carrying glucocorticoid payloads approaches a VISTA-positive immune cell</image:caption>
+      <image:title>When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200-en/cover-1400.webp</image:loc>
+      <image:caption>An antibody-drug conjugate delivers an immune-modulating payload toward an autoimmune disease-relevant cell</image:caption>
+      <image:title>When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200-en/figure-01.webp</image:loc>
+      <image:caption>The ADC platform moves from selective tumor killing toward selective immune modulation in autoimmune disease</image:caption>
+      <image:title>When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200-en/figure-02.webp</image:loc>
+      <image:caption>Autoimmune ADCs follow two development paths: cell depletion and cell-selective immune modulation</image:caption>
+      <image:title>When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200-en/figure-03.webp</image:loc>
+      <image:caption>LFD-200 targets VISTA-positive immune cells with eight glucocorticoid payloads and has produced an early human proof-of-mechanism signal</image:caption>
+      <image:title>When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200-en/figure-04.webp</image:loc>
+      <image:caption>Autoimmune ADCs may occupy the strategic space between conventional biologics, small molecules and operationally intensive cell therapy</image:caption>
+      <image:title>When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200/cover.png</image:loc>
+      <image:caption>一組定向遞送 glucocorticoid payload 的抗體藥物複合體靠近 VISTA 陽性免疫細胞</image:caption>
+      <image:title>當 ADC 走進自體免疫：不是殺得更狠，而是調得更準</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200/cover-1400.webp</image:loc>
+      <image:caption>抗體藥物複合體將免疫調節 payload 定向送往自體免疫疾病相關細胞</image:caption>
+      <image:title>當 ADC 走進自體免疫：不是殺得更狠，而是調得更準</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200/figure-01.webp</image:loc>
+      <image:caption>ADC 從腫瘤的選擇性殺傷，延伸到自體免疫疾病的選擇性免疫調節</image:caption>
+      <image:title>當 ADC 走進自體免疫：不是殺得更狠，而是調得更準</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200/figure-02.webp</image:loc>
+      <image:caption>自體免疫 ADC 分成細胞清除與免疫調節兩條技術路線</image:caption>
+      <image:title>當 ADC 走進自體免疫：不是殺得更狠，而是調得更準</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200/figure-03.webp</image:loc>
+      <image:caption>LFD-200 將八個 glucocorticoid payload 定向送入 VISTA 陽性免疫細胞的作用機制與早期人體訊號</image:caption>
+      <image:title>當 ADC 走進自體免疫：不是殺得更狠，而是調得更準</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200/figure-04.webp</image:loc>
+      <image:caption>自體免疫 ADC 位於傳統生物製劑、小分子與重型細胞治療之間的商業定位</image:caption>
+      <image:title>當 ADC 走進自體免疫：不是殺得更狠，而是調得更準</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/revmed-ras/cover.png</image:loc>

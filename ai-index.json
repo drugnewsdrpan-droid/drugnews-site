@@ -231,7 +231,7 @@
       ],
       "summary": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.",
       "image": "https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/homepage-cover.png",
-      "is_accessible_for_free": false,
+      "is_accessible_for_free": true,
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-07-19-pelacarsen-lpa-horizon.html"
@@ -263,6 +263,63 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-07-19-pelacarsen-lpa-horizon-en.html"
+      }
+    },
+    {
+      "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+      "date": "2026-07-18",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+      "source": "Dcard",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "antibody-drug conjugates",
+        "autoimmune disease",
+        "LFD-200",
+        "Lifordi Immunotherapeutics",
+        "VISTA",
+        "glucocorticoid",
+        "immune modulation",
+        "rheumatoid arthritis",
+        "biotech investing"
+      ],
+      "summary": "The opportunity for autoimmune ADCs is not to transplant oncology cytotoxins into immune cells. It is to deliver powerful glucocorticoids, small molecules, ASOs or siRNAs selectively to the cells that drive disease. LFD-200 offers an early human proof-of-mechanism signal for that thesis.",
+      "image": "https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-18-autoimmune-adc-lfd200.html"
+      }
+    },
+    {
+      "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+      "date": "2026-07-18",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
+      "source": "Dcard",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "ADC",
+        "自體免疫疾病",
+        "LFD-200",
+        "Lifordi Immunotherapeutics",
+        "VISTA",
+        "glucocorticoid",
+        "免疫調節",
+        "類風濕性關節炎",
+        "生技投資"
+      ],
+      "summary": "自體免疫 ADC 的價值不在把腫瘤細胞毒 payload 搬到免疫細胞，而在把 glucocorticoid、ASO、siRNA 等強效免疫調節作用定向送到真正需要干預的細胞；LFD-200 的早期人體訊號，是這條路第一次重要的機制驗證。",
+      "image": "https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-18-autoimmune-adc-lfd200-en.html"
       }
     },
     {
@@ -317,7 +374,7 @@
       ],
       "summary": "Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems.",
       "image": "https://drugnews.com.tw/assets/articles/revmed-ras-en/cover.png",
-      "is_accessible_for_free": false,
+      "is_accessible_for_free": true,
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-07-17-revmed-ras.html"
@@ -346,7 +403,7 @@
       ],
       "summary": "Vertex's roughly $10 billion deal for Crinetics captures a wider change in Big Pharma's acquisition taste: away from scale and fashionable platforms, toward niche leadership, technological step-changes and commercial visibility.",
       "image": "https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic-en/cover.png",
-      "is_accessible_for_free": false,
+      "is_accessible_for_free": true,
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-07-16-big-pharma-ma-new-aesthetic.html"
@@ -1495,61 +1552,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html"
-      }
-    },
-    {
-      "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-      "date": "2026-06-27",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "胰臟癌",
-        "RAS",
-        "PRMT5",
-        "MAT2A",
-        "臨床數據",
-        "生技投資",
-        "BD"
-      ],
-      "summary": "胰臟癌正在進入 RAS 抑制劑與 PRMT5／MAT2A 合成致死聯合療法的新階段，市場開始重新評估 daraxonrasib 作為治療骨架的價值。",
-      "image": "https://drugnews.com.tw/assets/articles/pancreatic-cancer-ras-prmt5-mat2a-combination/cover-generated.svg",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html"
-      }
-    },
-    {
-      "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-      "date": "2026-06-26",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "GLP-1",
-        "tirzepatide",
-        "Zepbound",
-        "Taltz",
-        "Omvoh",
-        "immunometabolism",
-        "autoimmune disease",
-        "psoriasis",
-        "IBD",
-        "Eli Lilly"
-      ],
-      "summary": "Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases.",
-      "image": "https://drugnews.com.tw/assets/articles/tirzepatide-autoimmune-immunometabolism-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-26-tirzepatide-autoimmune-immunometabolism.html"
       }
     }
   ]

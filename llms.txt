@@ -84,6 +84,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html
   Topics: Pelacarsen, Lp(a), HORIZON, 心血管疾病, 臨床試驗
   Summary: Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。
+- 2026-07-18｜When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing
+  URL: https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html
+  Topics: Business Analysis, antibody-drug conjugates, autoimmune disease, LFD-200, Lifordi Immunotherapeutics
+  Summary: The opportunity for autoimmune ADCs is not to transplant oncology cytotoxins into immune cells. It is to deliver powerful glucocorticoids, small molecules, ASOs or siRNAs selectively to the cells that drive disease. LFD-200 offers an early human proof-of-mechanism signal for that thesis.
+- 2026-07-18｜當 ADC 走進自體免疫：不是殺得更狠，而是調得更準
+  URL: https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html
+  Topics: ADC, 自體免疫疾病, LFD-200, Lifordi Immunotherapeutics, VISTA
+  Summary: 自體免疫 ADC 的價值不在把腫瘤細胞毒 payload 搬到免疫細胞，而在把 glucocorticoid、ASO、siRNA 等強效免疫調節作用定向送到真正需要干預的細胞；LFD-200 的早期人體訊號，是這條路第一次重要的機制驗證。
 - 2026-07-17｜又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代
   URL: https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html
   Topics: Revolution Medicines, RevMed, 胰臟癌, KRAS G12D, RAS(ON)
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html
   Topics: AI 製藥, Claude Science, Anthropic, 大型語言模型, 新藥研發
   Summary: Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。
-- 2026-07-12｜Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race
-  URL: https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html
-  Topics: Business Analysis, KRAS G12C, divarasib, Roche, oncology
-  Summary: Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence.
-- 2026-07-12｜先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰
-  URL: https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html
-  Topics: KRAS G12C, divarasib, Roche, 腫瘤新藥, 臨床數據
-  Summary: Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。
 
 ## Key Site Sections
 

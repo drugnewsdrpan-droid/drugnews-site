@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-18T03:08:41.252Z",
+  "generated_at": "2026-07-19T14:26:23.344Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,100 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+      "date": "2026-07-19",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Business Analysis",
+        "pelacarsen",
+        "Lp(a)",
+        "HORIZON",
+        "cardiovascular disease",
+        "clinical trials",
+        "antisense oligonucleotide",
+        "Novartis",
+        "Ionis",
+        "biotech investing"
+      ],
+      "summary": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-19-pelacarsen-lpa-horizon.html"
+      }
+    },
+    {
+      "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+      "date": "2026-07-19",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Pelacarsen",
+        "Lp(a)",
+        "HORIZON",
+        "心血管疾病",
+        "臨床試驗",
+        "ASO",
+        "Novartis",
+        "Ionis",
+        "生技投資"
+      ],
+      "summary": "Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。",
+      "alternate_language_versions": {
+        "en": "2026-07-19-pelacarsen-lpa-horizon-en.html"
+      }
+    },
+    {
+      "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+      "date": "2026-07-18",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Business Analysis",
+        "antibody-drug conjugates",
+        "autoimmune disease",
+        "LFD-200",
+        "Lifordi Immunotherapeutics",
+        "VISTA",
+        "glucocorticoid",
+        "immune modulation",
+        "rheumatoid arthritis",
+        "biotech investing"
+      ],
+      "summary": "The opportunity for autoimmune ADCs is not to transplant oncology cytotoxins into immune cells. It is to deliver powerful glucocorticoids, small molecules, ASOs or siRNAs selectively to the cells that drive disease. LFD-200 offers an early human proof-of-mechanism signal for that thesis.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-18-autoimmune-adc-lfd200.html"
+      }
+    },
+    {
+      "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+      "date": "2026-07-18",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "ADC",
+        "自體免疫疾病",
+        "LFD-200",
+        "Lifordi Immunotherapeutics",
+        "VISTA",
+        "glucocorticoid",
+        "免疫調節",
+        "類風濕性關節炎",
+        "生技投資"
+      ],
+      "summary": "自體免疫 ADC 的價值不在把腫瘤細胞毒 payload 搬到免疫細胞，而在把 glucocorticoid、ASO、siRNA 等強效免疫調節作用定向送到真正需要干預的細胞；LFD-200 的早期人體訊號，是這條路第一次重要的機制驗證。",
+      "alternate_language_versions": {
+        "en": "2026-07-18-autoimmune-adc-lfd200-en.html"
+      }
+    },
     {
       "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
       "date": "2026-07-17",
@@ -732,102 +826,27 @@
       "alternate_language_versions": {
         "zh-Hant": "2026-07-05-big-pharma-134b-biotech-ma.html"
       }
-    },
-    {
-      "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-      "date": "2026-07-04",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "HHS",
-        "FDA",
-        "Operation TrialBlazer",
-        "clinical trial reform",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "drug development",
-        "clinical data",
-        "BD licensing",
-        "biotech valuation"
-      ],
-      "summary": "Operation TrialBlazer is not just an FDA efficiency program. It signals that the United States is treating clinical-trial speed as part of national biotech competitiveness, with direct implications for biotech valuation, financing windows, and regulatory strategy.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-04-hhs-operation-trialblazer-clinical-trials.html"
-      }
-    },
-    {
-      "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-      "date": "2026-07-04",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "FDA",
-        "HHS",
-        "臨床試驗",
-        "新藥開發"
-      ],
-      "summary": "2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。",
-      "alternate_language_versions": {
-        "en": "2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html"
-      }
-    },
-    {
-      "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-      "date": "2026-07-03",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Revolution Medicines",
-        "RevMed",
-        "daraxonrasib",
-        "RAS oncology",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "BD licensing",
-        "biotech valuation",
-        "clinical data",
-        "capital markets"
-      ],
-      "summary": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-03-revmed-biotech.html"
-      }
-    },
-    {
-      "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
-      "date": "2026-07-03",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。",
-      "alternate_language_versions": {
-        "en": "2026-07-03-revmed-biotech-en.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 33,
-      "latest_date": "2026-07-15",
+      "mentions": 34,
+      "latest_date": "2026-07-19",
       "latest_articles": [
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
           "date": "2026-07-15",
@@ -844,18 +863,6 @@
           "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
           "date": "2026-07-11",
           "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
           "language": "zh-Hant"
         }
       ]
@@ -901,7 +908,7 @@
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 27,
+      "mentions": 25,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -939,7 +946,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 26,
+      "mentions": 24,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -970,6 +977,44 @@
           "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
           "date": "2026-06-08",
           "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Business Analysis",
+      "type": "topic",
+      "mentions": 21,
+      "latest_date": "2026-07-19",
+      "latest_articles": [
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
+          "language": "en"
+        },
+        {
+          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
           "language": "en"
         }
       ]
@@ -1009,44 +1054,6 @@
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Business Analysis",
-      "type": "topic",
-      "mentions": 20,
-      "latest_date": "2026-07-17",
-      "latest_articles": [
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-          "language": "en"
-        },
-        {
-          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
-          "date": "2026-07-15",
-          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
         }
       ]
     },
@@ -1241,44 +1248,6 @@
       ]
     },
     {
-      "name": "Big Pharma",
-      "type": "market_topic",
-      "mentions": 11,
-      "latest_date": "2026-07-16",
-      "latest_articles": [
-        {
-          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "biotech business analysis",
       "type": "topic",
       "mentions": 11,
@@ -1355,40 +1324,40 @@
       ]
     },
     {
-      "name": "FDA",
+      "name": "Big Pharma",
       "type": "market_topic",
       "mentions": 10,
-      "latest_date": "2026-07-10",
+      "latest_date": "2026-07-16",
       "latest_articles": [
         {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
           "language": "en"
         },
         {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
           "language": "zh-Hant"
         },
         {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
           "language": "en"
         },
         {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1507,40 +1476,40 @@
       ]
     },
     {
-      "name": "AI drug discovery",
-      "type": "topic",
+      "name": "FDA",
+      "type": "market_topic",
       "mentions": 9,
-      "latest_date": "2026-07-13",
+      "latest_date": "2026-07-10",
       "latest_articles": [
         {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
           "language": "en"
         },
         {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
           "language": "en"
         },
         {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
-          "date": "2026-05-29",
-          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
-          "language": "en"
+          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1621,11 +1590,93 @@
       ]
     },
     {
+      "name": "AI drug discovery",
+      "type": "topic",
+      "mentions": 8,
+      "latest_date": "2026-07-13",
+      "latest_articles": [
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
+          "date": "2026-06-07",
+          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
+          "date": "2026-05-29",
+          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Novartis",
+      "type": "company",
+      "mentions": 7,
+      "latest_date": "2026-07-19",
+      "latest_articles": [
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "ADC",
       "type": "biotech_concept_or_target",
       "mentions": 7,
-      "latest_date": "2026-07-14",
+      "latest_date": "2026-07-18",
       "latest_articles": [
+        {
+          "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
           "date": "2026-07-14",
@@ -1649,12 +1700,6 @@
           "date": "2026-07-07",
           "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
           "language": "zh-Hant"
-        },
-        {
-          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-          "language": "en"
         }
       ]
     },
@@ -1697,44 +1742,6 @@
       ]
     },
     {
-      "name": "CAR-T",
-      "type": "biotech_concept_or_target",
-      "mentions": 7,
-      "latest_date": "2026-07-06",
-      "latest_articles": [
-        {
-          "title": "通用型 CAR-T 的 2026 從低谷回暖",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "RAS",
       "type": "biotech_concept_or_target",
       "mentions": 7,
@@ -1773,9 +1780,47 @@
       ]
     },
     {
+      "name": "biotech investing",
+      "type": "topic",
+      "mentions": 6,
+      "latest_date": "2026-07-19",
+      "latest_articles": [
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Regulatory risk",
       "type": "topic",
-      "mentions": 7,
+      "mentions": 6,
       "latest_date": "2026-06-28",
       "latest_articles": [
         {
@@ -1925,44 +1970,6 @@
       ]
     },
     {
-      "name": "Novartis",
-      "type": "company",
-      "mentions": 5,
-      "latest_date": "2026-07-16",
-      "latest_articles": [
-        {
-          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
-        },
-        {
-          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "核藥賣爆了",
-          "date": "2026-06-01",
-          "url": "https://drugnews.com.tw/articles/2026-06-01-pluvicto-radioligand-therapy-growth.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "capital markets",
       "type": "market_topic",
       "mentions": 5,
@@ -1997,6 +2004,44 @@
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "CAR-T",
+      "type": "biotech_concept_or_target",
+      "mentions": 5,
+      "latest_date": "2026-07-06",
+      "latest_articles": [
+        {
+          "title": "通用型 CAR-T 的 2026 從低谷回暖",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2039,44 +2084,6 @@
       ]
     },
     {
-      "name": "Company Research",
-      "type": "topic",
-      "mentions": 5,
-      "latest_date": "2026-06-10",
-      "latest_articles": [
-        {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pluvicto Is Selling Fast: What Radioligand Therapy Growth Really Means",
-          "date": "2026-06-01",
-          "url": "https://drugnews.com.tw/articles/2026-06-01-pluvicto-radioligand-therapy-growth-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sun Pharma, Teva, and the Transformation Anxiety of Global Generic Drugmakers",
-          "date": "2026-05-27",
-          "url": "https://drugnews.com.tw/articles/2026-05-27-generic-pharma-transformation-anxiety-en.html",
-          "language": "en"
-        },
-        {
-          "title": "A Record AI Drug-Discovery Financing: Why a Google-Backed Company Raised US$2.1 Billion",
-          "date": "2026-05-20",
-          "url": "https://drugnews.com.tw/articles/2026-05-20-ai-drug-discovery-google-funding-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "CNS",
       "type": "topic",
       "mentions": 5,
@@ -2111,6 +2118,38 @@
           "date": "2026-05-22",
           "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "autoimmune disease",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-07-18",
+      "latest_articles": [
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2179,38 +2218,6 @@
       ]
     },
     {
-      "name": "biotech investing",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-07-11",
-      "latest_articles": [
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Biotech investing",
       "type": "topic",
       "mentions": 4,
@@ -2271,6 +2278,38 @@
           "date": "2026-06-04",
           "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Company Research",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-06-10",
+      "latest_articles": [
+        {
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
+          "date": "2026-06-04",
+          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pluvicto Is Selling Fast: What Radioligand Therapy Growth Really Means",
+          "date": "2026-06-01",
+          "url": "https://drugnews.com.tw/articles/2026-06-01-pluvicto-radioligand-therapy-growth-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Sun Pharma, Teva, and the Transformation Anxiety of Global Generic Drugmakers",
+          "date": "2026-05-27",
+          "url": "https://drugnews.com.tw/articles/2026-05-27-generic-pharma-transformation-anxiety-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2385,58 +2424,6 @@
       ]
     },
     {
-      "name": "autoimmune disease",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-07-15",
-      "latest_articles": [
-        {
-          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
-          "date": "2026-07-15",
-          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "AI 製藥",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-07-13",
-      "latest_articles": [
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "盤點整理，AI藥物開發走得如何了？",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "破紀錄 AI 製藥融資來了！Google 系公司一次募 21 億美元",
-          "date": "2026-05-20",
-          "url": "https://drugnews.com.tw/articles/2026-05-20-ai-drug-discovery-google-funding.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "PRMT5",
       "type": "biotech_concept_or_target",
       "mentions": 3,
@@ -2541,32 +2528,6 @@
       ]
     },
     {
-      "name": "Pfizer",
-      "type": "company",
-      "mentions": 3,
-      "latest_date": "2026-06-22",
-      "latest_articles": [
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "HIV 新藥很好賺呀...吉利德財報披露",
-          "date": "2026-05-19",
-          "url": "https://drugnews.com.tw/articles/2026-05-19-gilead-hiv-yeztugo-prep-growth.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "藥華藥",
       "type": "topic",
       "mentions": 3,
@@ -2588,6 +2549,206 @@
           "title": "AI半導體掩蓋生技光芒",
           "date": "2026-05-21",
           "url": "https://drugnews.com.tw/articles/2026-05-21-ai-semiconductor-biotech-capital-neglect.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "臨床試驗",
+      "type": "market_topic",
+      "mentions": 2,
+      "latest_date": "2026-07-19",
+      "latest_articles": [
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "ASO",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-19",
+      "latest_articles": [
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "HORIZON",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-19",
+      "latest_articles": [
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Ionis",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-19",
+      "latest_articles": [
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Lp(a)",
+      "type": "biotech_concept_or_target",
+      "mentions": 2,
+      "latest_date": "2026-07-19",
+      "latest_articles": [
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "自體免疫疾病",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-18",
+      "latest_articles": [
+        {
+          "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "通用型 CAR-T 的 2026 從低谷回暖",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "glucocorticoid",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-18",
+      "latest_articles": [
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "LFD-200",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-18",
+      "latest_articles": [
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Lifordi Immunotherapeutics",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-18",
+      "latest_articles": [
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "VISTA",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-18",
+      "latest_articles": [
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
           "language": "zh-Hant"
         }
       ]
@@ -2973,6 +3134,26 @@
       ]
     },
     {
+      "name": "AI 製藥",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-13",
+      "latest_articles": [
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "盤點整理，AI藥物開發走得如何了？",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "AnHorn Medicines",
       "type": "company",
       "mentions": 2,
@@ -2989,186 +3170,6 @@
           "date": "2026-06-13",
           "url": "https://drugnews.com.tw/articles/2026-06-13-anhorn-ai-drug-development-en.html",
           "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Anthropic",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-13",
-      "latest_articles": [
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Claude Science",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-13",
-      "latest_articles": [
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "PROTAC",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-07-13",
-      "latest_articles": [
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "divarasib",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-07-12",
-      "latest_articles": [
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "KRAS G12C",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-07-12",
-      "latest_articles": [
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "OS",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-12",
-      "latest_articles": [
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "PFS",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-12",
-      "latest_articles": [
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "NASP",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-10",
-      "latest_articles": [
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Sobi",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-10",
-      "latest_articles": [
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
         }
       ]
     }

@@ -25,6 +25,31 @@
     "url": "articles/2026-07-19-pelacarsen-lpa-horizon-en.html"
   },
   {
+    "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+    "slug": "autoimmune-adc-lfd200-en",
+    "date": "2026-07-18",
+    "publishAt": "2026-07-18T20:00:00+08:00",
+    "category": "商業分析系列",
+    "access": "免費文章",
+    "lang": "en",
+    "tags": [
+      "Business Analysis",
+      "antibody-drug conjugates",
+      "autoimmune disease",
+      "LFD-200",
+      "Lifordi Immunotherapeutics",
+      "VISTA",
+      "glucocorticoid",
+      "immune modulation",
+      "rheumatoid arthritis",
+      "biotech investing"
+    ],
+    "summary": "The opportunity for autoimmune ADCs is not to transplant oncology cytotoxins into immune cells. It is to deliver powerful glucocorticoids, small molecules, ASOs or siRNAs selectively to the cells that drive disease. LFD-200 offers an early human proof-of-mechanism signal for that thesis.",
+    "image": "../assets/articles/autoimmune-adc-lfd200-en/cover.png",
+    "imageAlt": "An antibody-drug conjugate carrying glucocorticoid payloads approaches a VISTA-positive immune cell",
+    "url": "articles/2026-07-18-autoimmune-adc-lfd200-en.html"
+  },
+  {
     "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
     "slug": "revmed-ras-en",
     "date": "2026-07-17",

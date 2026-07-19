@@ -330,7 +330,7 @@ function imagePath(record, depth = 1) {
 }
 
 function articleCard(record, depth = 1) {
-  const image = imagePath(record, depth);
+  const image = imagePath({ ...record, image: record.cardImage || record.image }, depth);
   const href = record.external ? record.url : `${"../".repeat(depth)}${record.url}`;
   const target = record.external ? ' target="_blank" rel="noopener"' : "";
   const tags = (record.tags || []).slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
@@ -393,6 +393,12 @@ function publishedImage(meta) {
   return `../assets/articles/${meta.slug}/${path.basename(meta.cover_image)}`;
 }
 
+function publishedCardImage(meta) {
+  if (!meta.card_image) return "";
+  if (/^https?:\/\//i.test(meta.card_image)) return meta.card_image;
+  return `../assets/articles/${meta.slug}/${path.basename(meta.card_image)}`;
+}
+
 function publishedRecord(meta) {
   return {
     title: meta.title,
@@ -405,6 +411,7 @@ function publishedRecord(meta) {
     tags: meta.tags || [],
     summary: meta.summary || "",
     image: publishedImage(meta),
+    cardImage: publishedCardImage(meta),
     imageAlt: meta.cover_image_alt || meta.title,
     url: `articles/${articleFileName(meta)}`
   };

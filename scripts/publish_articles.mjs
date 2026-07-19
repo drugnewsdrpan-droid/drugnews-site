@@ -152,6 +152,14 @@ function escapeHtml(value) {
     .replaceAll("'", "&#39;");
 }
 
+function articleTitleHtml(meta) {
+  if (!Array.isArray(meta.title_lines) || meta.title_lines.length < 2) return escapeHtml(meta.title);
+  return meta.title_lines
+    .filter((line) => String(line).trim())
+    .map((line) => `<span class="article-title-line">${escapeHtml(line)}</span>`)
+    .join("");
+}
+
 function campaignUrl(url, content, campaign = "paid_research") {
   const next = new URL(url);
   next.searchParams.set("utm_source", "drugnews_site");
@@ -351,6 +359,11 @@ function accessSlug(access) {
 
 function accessLabel(item) {
   return item.access || "免費文章";
+}
+
+function isFreeAccess(item = {}) {
+  const access = accessLabel(item);
+  return access === "免費文章" || (isEnglish(item) && access === "Business Analysis");
 }
 
 function isEnglish(item = {}) {
@@ -790,6 +803,10 @@ async function validateArticle(article, knownSlugs) {
     const coverPath = path.join(article.folderPath, article.meta.cover_image);
     if (!(await exists(coverPath))) errors.push(`cover_image not found: ${article.meta.cover_image}`);
   }
+  if (article.meta.card_image && !/^https?:\/\//i.test(article.meta.card_image)) {
+    const cardImagePath = path.join(article.folderPath, article.meta.card_image);
+    if (!(await exists(cardImagePath))) errors.push(`card_image not found: ${article.meta.card_image}`);
+  }
   if (article.meta.homepage_cover_image && !/^https?:\/\//i.test(article.meta.homepage_cover_image)) {
     const homepageCoverPath = path.join(article.folderPath, article.meta.homepage_cover_image);
     if (!(await exists(homepageCoverPath))) errors.push(`homepage_cover_image not found: ${article.meta.homepage_cover_image}`);
@@ -820,6 +837,14 @@ async function copyImages(article) {
     imageMap.set(article.meta.cover_image, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
   } else if (article.meta.cover_image) {
     imageMap.set(article.meta.cover_image, article.meta.cover_image);
+  }
+  if (article.meta.card_image && !/^https?:\/\//i.test(article.meta.card_image)) {
+    const fileName = path.basename(article.meta.card_image);
+    const source = path.join(article.folderPath, article.meta.card_image);
+    await fs.copyFile(source, path.join(targetDir, fileName));
+    imageMap.set(article.meta.card_image, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
+  } else if (article.meta.card_image) {
+    imageMap.set(article.meta.card_image, article.meta.card_image);
   }
   if (article.meta.homepage_cover_image && !/^https?:\/\//i.test(article.meta.homepage_cover_image)) {
     const fileName = path.basename(article.meta.homepage_cover_image);
@@ -1445,7 +1470,7 @@ ${headerHtml("articles", meta)}
     <div class="container article-hero-inner">
       <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="${isEnglish(meta) ? "../en/index.html" : "../index.html"}">${ui.home}</a><span>/</span><a href="${localLinks.articles}">${ui.articles}</a><span>/</span><a href="${localLinks.freeType}">${ui.freeArticle}</a></nav>
       <div class="meta">${heroMetaLabels.map((label) => `<span>${escapeHtml(label)}</span>`).join("")}</div>
-      <h1>${escapeHtml(meta.title)}</h1>
+      <h1>${articleTitleHtml(meta)}</h1>
       <p class="article-deck">${escapeHtml(meta.summary)}</p>
       <p class="article-byline">${ui.byline}<a href="${isEnglish(meta) ? "../en/team.html" : "../team.html"}">${ui.author}</a></p>
       ${trustHtml}
@@ -1496,6 +1521,9 @@ function articleRecord(article) {
   const fileName = `${meta.date}-${meta.slug}.html`;
   const markdownImages = findMarkdownImages(article.markdown);
   const articleCover = coverImage(article, markdownImages);
+  const cardImage = meta.card_image
+    ? article.imageMap.get(meta.card_image) || meta.card_image
+    : articleCover.src;
   return {
     title: meta.title,
     date: meta.date,
@@ -1509,8 +1537,8 @@ function articleRecord(article) {
     translations: meta.translations || {},
     tags: topicTags(meta.tags),
     summary: meta.summary,
-    image: articleCover.src,
-    imageAlt: articleCover.alt,
+    image: cardImage,
+    imageAlt: meta.card_image_alt || articleCover.alt,
     ...(meta.homepage_cover_image ? {
       homepageImage: article.imageMap.get(meta.homepage_cover_image) || meta.homepage_cover_image,
       homepageImageAlt: meta.homepage_cover_image_alt || meta.cover_image_alt || meta.title
@@ -3006,7 +3034,7 @@ function aiIndex(records) {
     tags: displayTags(item.tags || []).slice(0, 10),
     summary: item.summary || "",
     image: item.image ? absoluteUrl(item.image) : "",
-    is_accessible_for_free: accessLabel(item) === "免費文章",
+    is_accessible_for_free: isFreeAccess(item),
     is_external: Boolean(item.external),
     alternate_language_versions: item.translations || {}
   }));

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-18T03:08:41.252Z",
+  "generated_at": "2026-07-19T14:26:23.343Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -384,6 +384,78 @@
   ],
   "latest_canonical_articles": [
     {
+      "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+      "date": "2026-07-19",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "pelacarsen",
+        "Lp(a)",
+        "HORIZON",
+        "cardiovascular disease",
+        "clinical trials",
+        "antisense oligonucleotide",
+        "Novartis"
+      ],
+      "summary": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations."
+    },
+    {
+      "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+      "date": "2026-07-19",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+      "category": "商業分析",
+      "tags": [
+        "Pelacarsen",
+        "Lp(a)",
+        "HORIZON",
+        "心血管疾病",
+        "臨床試驗",
+        "ASO",
+        "Novartis",
+        "Ionis"
+      ],
+      "summary": "Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。"
+    },
+    {
+      "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+      "date": "2026-07-18",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "antibody-drug conjugates",
+        "autoimmune disease",
+        "LFD-200",
+        "Lifordi Immunotherapeutics",
+        "VISTA",
+        "glucocorticoid",
+        "immune modulation"
+      ],
+      "summary": "The opportunity for autoimmune ADCs is not to transplant oncology cytotoxins into immune cells. It is to deliver powerful glucocorticoids, small molecules, ASOs or siRNAs selectively to the cells that drive disease. LFD-200 offers an early human proof-of-mechanism signal for that thesis."
+    },
+    {
+      "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+      "date": "2026-07-18",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
+      "category": "商業分析",
+      "tags": [
+        "ADC",
+        "自體免疫疾病",
+        "LFD-200",
+        "Lifordi Immunotherapeutics",
+        "VISTA",
+        "glucocorticoid",
+        "免疫調節",
+        "類風濕性關節炎"
+      ],
+      "summary": "自體免疫 ADC 的價值不在把腫瘤細胞毒 payload 搬到免疫細胞，而在把 glucocorticoid、ASO、siRNA 等強效免疫調節作用定向送到真正需要干預的細胞；LFD-200 的早期人體訊號，是這條路第一次重要的機制驗證。"
+    },
+    {
       "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
       "date": "2026-07-17",
       "language": "zh-Hant",
@@ -736,77 +808,6 @@
         "MASH"
       ],
       "summary": "GLP-1 競爭進入長期維持與聯用下半場，dorzagliatin 的價值不在取代減重藥，而是可能成為代謝治療的可持續底座。"
-    },
-    {
-      "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-      "date": "2026-07-07",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "ADC",
-        "PD-1/VEGF",
-        "bispecific antibody",
-        "oncology"
-      ],
-      "summary": "After a Phase III setback for sigvotatug vedotin, Pfizer's $43 billion Seagen ADC bet is increasingly tied to whether 3SBio's PD-1/VEGF bispecific can become a new immuno-oncology combination backbone."
-    },
-    {
-      "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-      "date": "2026-07-07",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-      "category": "商業分析",
-      "tags": [
-        "ADC",
-        "PD-1/VEGF",
-        "雙特異性抗體",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "腫瘤藥物",
-        "製藥巨頭"
-      ],
-      "summary": "sigvotatug vedotin Phase III 單藥失利後，輝瑞的 430 億美元 Seagen ADC 賭局正轉向 3SBio PD-1/VEGF 雙抗與聯合療法底座。"
-    },
-    {
-      "title": "通用型 CAR-T 的 2026 從低谷回暖",
-      "date": "2026-07-06",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
-      "category": "商業分析",
-      "tags": [
-        "臨床數據",
-        "生技投資",
-        "細胞治療",
-        "CAR-T",
-        "異體細胞治療",
-        "自體免疫疾病",
-        "台灣生技"
-      ],
-      "summary": "邏輯很簡單：傳統自體 CAR-T 需要取出患者自己的 T 細胞，送到工廠改造、擴增、檢驗，再回輸到患者體內。療效可以很強，但等待時間長、成本高、製程複雜，病情進展太快或 T 細胞品質太差的患者，常常等不到治療。"
-    },
-    {
-      "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-      "date": "2026-07-06",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "cell therapy",
-        "CAR-T",
-        "allogeneic cell therapy",
-        "clinical data"
-      ],
-      "summary": "Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table."
     }
   ],
   "do_not_use_as": [

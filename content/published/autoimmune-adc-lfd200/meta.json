@@ -1,0 +1,36 @@
+{
+  "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+  "title_lines": [
+    "當 ADC 走進自體免疫：",
+    "不是殺得更狠，而是調得更準"
+  ],
+  "slug": "autoimmune-adc-lfd200",
+  "date": "2026-07-18",
+  "publish_at": "2026-07-18T20:00:00+08:00",
+  "category": "商業分析系列",
+  "series": "商業分析系列",
+  "access": "免費文章",
+  "tags": [
+    "商業分析系列",
+    "ADC",
+    "自體免疫疾病",
+    "LFD-200",
+    "Lifordi Immunotherapeutics",
+    "VISTA",
+    "glucocorticoid",
+    "免疫調節",
+    "類風濕性關節炎",
+    "生技投資"
+  ],
+  "summary": "自體免疫 ADC 的價值不在把腫瘤細胞毒 payload 搬到免疫細胞，而在把 glucocorticoid、ASO、siRNA 等強效免疫調節作用定向送到真正需要干預的細胞；LFD-200 的早期人體訊號，是這條路第一次重要的機制驗證。",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "一組定向遞送 glucocorticoid payload 的抗體藥物複合體靠近 VISTA 陽性免疫細胞",
+  "card_image": "images/cover-1400.webp",
+  "homepage_cover_image": "images/cover-1400.webp",
+  "homepage_cover_image_alt": "抗體藥物複合體將免疫調節 payload 定向送往自體免疫疾病相關細胞",
+  "source_platform": "Dcard",
+  "source_url": "https://www.dcard.tw/@drugnews/post/261839370",
+  "translations": {
+    "en": "2026-07-18-autoimmune-adc-lfd200-en.html"
+  }
+}

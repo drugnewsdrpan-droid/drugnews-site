@@ -2209,6 +2209,11 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   color: var(--ink);
   font-size: clamp(1.9rem, 3.4vw, 2.65rem);
   line-height: 1.14;
+  text-wrap: pretty;
+}
+
+.article-title-line {
+  display: block;
 }
 
 .article-deck {
@@ -3320,6 +3325,9 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
     word-break: normal;
     line-break: strict;
     hyphens: auto;
+  }
+  .article-title-line {
+    display: inline;
   }
   .article-deck {
     display: -webkit-box;
