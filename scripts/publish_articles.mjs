@@ -1737,7 +1737,7 @@ function relatedModuleHtml(meta, related, record) {
     <h2>${ui.nextReading}</h2>
     <p>${description}</p>
     ${relatedSignalHtml(record, related)}
-    <div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName)).join("")}</div>
+    <div class="article-list">${related.map((item) => articleCardHtml(item, item.external ? item.url : item.fileName, "")).join("")}</div>
     ${relatedDiagnosticScript(record, related)}
   </div>`;
 }
