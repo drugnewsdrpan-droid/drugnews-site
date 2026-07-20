@@ -209,6 +209,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
+      "date": "2026-07-20",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
+      "source": "Website",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "MASH",
+        "Madrigal Pharmaceuticals",
+        "Rezdiffra",
+        "resmetirom",
+        "siRNA",
+        "Ribo Life Science",
+        "Ribocure",
+        "Arrowhead Pharmaceuticals",
+        "ARO-PNPLA3"
+      ],
+      "summary": "Rezdiffra has opened the MASH market and built its commercialization infrastructure. Madrigal is now adding six Ribo siRNA programs and Arrowhead's ARO-PNPLA3 to create a cornerstone-plus-precision-combination treatment matrix.",
+      "image": "https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-20-madrigal-mash-sirna-platform.html"
+      }
+    },
+    {
+      "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
+      "date": "2026-07-20",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "MASH",
+        "Madrigal Pharmaceuticals",
+        "Rezdiffra",
+        "resmetirom",
+        "siRNA",
+        "Ribo Life Science",
+        "Ribocure",
+        "Arrowhead Pharmaceuticals",
+        "ARO-PNPLA3",
+        "PNPLA3"
+      ],
+      "summary": "Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。",
+      "image": "https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-20-madrigal-mash-sirna-platform-en.html"
+      }
+    },
+    {
       "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
       "date": "2026-07-19",
       "language": "en",
@@ -1503,54 +1561,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-06-29-biotech-ipo.html"
-      }
-    },
-    {
-      "title": "美股迎來史上最大 Biotech IPO",
-      "date": "2026-06-29",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "台股生技板塊還在低谷裡掙扎，美股生技市場卻突然打出一個極端反差。",
-      "image": "https://drugnews.com.tw/assets/articles/biotech-ipo/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-29-biotech-ipo-en.html"
-      }
-    },
-    {
-      "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-      "date": "2026-06-28",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "FDA",
-        "Biotech rebound",
-        "Regulatory risk",
-        "Rare disease",
-        "Gene therapy",
-        "mRNA vaccines",
-        "M&A",
-        "Capital markets"
-      ],
-      "summary": "Biotech’s recent rebound is not only a risk-on trade. FDA review signals, rare-disease flexibility, mRNA vaccine momentum, and renewed pharma M&A are changing how investors price clinical-stage assets.",
-      "image": "https://drugnews.com.tw/assets/articles/fda-regulatory-shift-biotech-rebound-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-28-fda-regulatory-shift-biotech-rebound.html"
       }
     }
   ]

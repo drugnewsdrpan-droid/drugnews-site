@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-20｜Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine
+  URL: https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html
+  Topics: Business Analysis, MASH, Madrigal Pharmaceuticals, Rezdiffra, resmetirom
+  Summary: Rezdiffra has opened the MASH market and built its commercialization infrastructure. Madrigal is now adding six Ribo siRNA programs and Arrowhead's ARO-PNPLA3 to create a cornerstone-plus-precision-combination treatment matrix.
+- 2026-07-20｜聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒
+  URL: https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html
+  Topics: MASH, Madrigal Pharmaceuticals, Rezdiffra, resmetirom, siRNA
+  Summary: Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。
 - 2026-07-19｜Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?
   URL: https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html
   Topics: Business Analysis, pelacarsen, Lp(a), HORIZON, cardiovascular disease
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html
   Topics: Treg, 免疫耐受, 細胞療法, 自體免疫, 移植
   Summary: 諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。
-- 2026-07-14｜The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class
-  URL: https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html
-  Topics: Business Analysis, ADC, Novartis, Myricx Bio, NMT inhibitor
-  Summary: Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value.
-- 2026-07-14｜ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload
-  URL: https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html
-  Topics: ADC, Novartis, Myricx Bio, NMTi, payload
-  Summary: 諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。
 
 ## Key Site Sections
 

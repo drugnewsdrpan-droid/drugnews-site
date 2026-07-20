@@ -96,7 +96,9 @@ async function main() {
   const searchUiOk =
     articlesIndex.includes("data-search-status") &&
     articlesIndex.includes("data-search-clear") &&
-    /搜尋「\$\{query\}」：找到 \$\{count\} 篇/.test(searchJs) &&
+    /搜尋「\$\{query\}」：直接相關 \$\{count\} 筆，延伸提及 \$\{mentionCount\} 筆/.test(searchJs) &&
+    searchJs.includes("沒有直接相關結果") &&
+    searchJs.includes("沒有延伸提及") &&
     searchJs.includes("沒有找到") &&
     ["BD", "GLP-1", "臨床數據", "估值"].every((term) => searchJs.includes(term));
   checks.push(searchUiOk
@@ -118,7 +120,7 @@ async function main() {
     html.includes("先讀這 3 篇") &&
     html.includes("初階") &&
     html.includes("進階") &&
-    html.includes("最新") &&
+    (html.includes("最新") || html.includes("案例")) &&
     /篇相關文章/.test(html)
   ).length;
   checks.push(topicCuratedCount === topicHtml.length

@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform-en/cover.png</image:loc>
+      <image:caption>A liver, Rezdiffra and precision gene-silencing signals visualize Madrigal&apos;s MASH cornerstone-drug and siRNA platform strategy</image:caption>
+      <image:title>Madrigal&apos;s MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform-en/homepage-cover.png</image:loc>
+      <image:caption>Madrigal expands from Rezdiffra as a MASH cornerstone into a precision siRNA combination matrix</image:caption>
+      <image:title>Madrigal&apos;s MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform-en/figure-01.webp</image:loc>
+      <image:caption>Rezdiffra is evolving from FDA accelerated approval into a MASH cornerstone while confirmatory studies continue</image:caption>
+      <image:title>Madrigal&apos;s MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform-en/figure-02.webp</image:loc>
+      <image:caption>The MASH treatment matrix combines four complementary mechanisms: Rezdiffra, GLP-1, FGF21 and siRNA</image:caption>
+      <image:title>Madrigal&apos;s MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform-en/figure-03.webp</image:loc>
+      <image:caption>Madrigal is pursuing a dual-track siRNA strategy through Ribo&apos;s six early-stage programs and Arrowhead&apos;s clinical-stage ARO-PNPLA3</image:caption>
+      <image:title>Madrigal&apos;s MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform-en/figure-04.webp</image:loc>
+      <image:caption>Rezdiffra&apos;s clinical, diagnostic, payer and prescribing networks can amplify the commercialization of future MASH combination programs</image:caption>
+      <image:title>Madrigal&apos;s MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform/cover.png</image:loc>
+      <image:caption>肝臟、Rezdiffra 與精準基因沉默訊號構成 Madrigal MASH 基石藥與 siRNA 平台策略主視覺</image:caption>
+      <image:title>聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform/homepage-cover.png</image:loc>
+      <image:caption>Madrigal 以 Rezdiffra 為基石、向 siRNA 精準聯用矩陣擴張的 MASH 首頁主視覺</image:caption>
+      <image:title>聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform/figure-01.webp</image:loc>
+      <image:caption>Rezdiffra 從 FDA 加速核准走向 MASH 基石藥；確認性研究仍在進行</image:caption>
+      <image:title>聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform/figure-02.webp</image:loc>
+      <image:caption>MASH 治療矩陣由 Rezdiffra、GLP-1、FGF21 與 siRNA 四種互補機制構成</image:caption>
+      <image:title>聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform/figure-03.webp</image:loc>
+      <image:caption>Madrigal 以 Ribo 六條早期 siRNA 管線與 Arrowhead 臨床階段 ARO-PNPLA3 建立雙軌策略</image:caption>
+      <image:title>聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform/figure-04.webp</image:loc>
+      <image:caption>Rezdiffra 的臨床、診斷、給付與處方網絡，成為後續 MASH 聯用管線的商業放大器</image:caption>
+      <image:title>聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/homepage-cover.png</image:loc>
@@ -112,7 +178,7 @@
       <image:title>動物實驗不是消失，而是藥物研發規則開始換代</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/nams-regulatory-shift/04_NAMs%E9%87%8D%E5%A1%91%E7%94%A2%E6%A5%AD%E9%8F%88.jpg</image:loc>
+      <image:loc>https://drugnews.com.tw/assets/articles/nams-regulatory-shift/figure-04.jpg</image:loc>
       <image:caption>類器官、器官晶片、CGT、AI 製藥與 CRO 的產業價值鏈可能被重新定價</image:caption>
       <image:title>動物實驗不是消失，而是藥物研發規則開始換代</image:title>
     </image:image>

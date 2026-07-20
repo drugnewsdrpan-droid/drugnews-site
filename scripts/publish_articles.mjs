@@ -261,13 +261,13 @@ function stripMarkdown(markdown) {
 
 function stripReferenceSection(markdown) {
   return String(markdown || "").replace(
-    /(^|\n)\s*(參考(?:資料|來源)[:：]?|References:?)\s*\n[\s\S]*?(?=\n---|\n#{1,3}\s|$)/i,
+    /(^|\n)\s*(?:#{1,3}\s*)?(參考(?:資料|來源)[:：]?|References:?)\s*\n[\s\S]*?(?=\n---|\n#{1,3}\s|$)/i,
     "$1"
   );
 }
 
 function referenceSection(markdown) {
-  const match = String(markdown || "").match(/(^|\n)\s*(參考(?:資料|來源)[:：]?|References:?)\s*\n([\s\S]*?)(?=\n---|\n#{1,3}\s|$)/i);
+  const match = String(markdown || "").match(/(^|\n)\s*(?:#{1,3}\s*)?(參考(?:資料|來源)[:：]?|References:?)\s*\n([\s\S]*?)(?=\n---|\n#{1,3}\s|$)/i);
   return match ? match[3].trim() : "";
 }
 

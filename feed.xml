@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 20 Jul 2026 08:41:22 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 14:32:02 GMT</lastBuildDate>
+    <item>
+      <title>聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒</title>
+      <link>https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html</guid>
+      <pubDate>Mon, 20 Jul 2026 00:58:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform/cover.png" alt="肝臟、Rezdiffra 與精準基因沉默訊號構成 Madrigal MASH 基石藥與 siRNA 平台策略主視覺"></p><p>Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。</p>]]></description>
+    </item>
     <item>
       <title>HORIZON：Lp(a) 降了，心梗會少嗎？</title>
       <link>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Thu, 02 Jul 2026 02:30:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/synthetic-lethality-next-parp/cover.png" alt="合成致死、PARP、PRMT5 與精準腫瘤治療的商業分析封面"></p><p>2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。</p>]]></description>
-    </item>
-    <item>
-      <title>摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳</title>
-      <link>https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html</guid>
-      <pubDate>Wed, 01 Jul 2026 02:30:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/adhd-centanafadine-phase3b/cover.png" alt="ADHD 新藥 centanafadine IIIb 期成功專題封面"></p><p>Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。</p>]]></description>
     </item>
   </channel>
 </rss>
