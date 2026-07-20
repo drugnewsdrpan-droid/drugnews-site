@@ -62,6 +62,62 @@
     </image:image>
   </url>
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/nams-regulatory-shift-en/cover.png</image:loc>
+      <image:caption>Editorial illustration of organoids, organ-on-a-chip technology and computational evidence in a regulatory workflow</image:caption>
+      <image:title>Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/nams-regulatory-shift-en/figure-01.webp</image:loc>
+      <image:caption>Three human-relevant evidence platforms: organoids, organ-on-a-chip technology and computational models</image:caption>
+      <image:title>Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/nams-regulatory-shift-en/figure-02.webp</image:loc>
+      <image:caption>CDE PIONEER&apos;s two entry points for drug developers and method developers</image:caption>
+      <image:title>Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/nams-regulatory-shift-en/figure-03.webp</image:loc>
+      <image:caption>FDA, EMA and MHRA illustrate different pathways toward regulatory acceptance of NAMs</image:caption>
+      <image:title>Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/nams-regulatory-shift-en/figure-04.webp</image:loc>
+      <image:caption>Where NAMs can create value: organoids, CGT, AI validation and integrated CRO services</image:caption>
+      <image:title>Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/nams-regulatory-shift/cover.png</image:loc>
+      <image:caption>類器官、器官晶片與資料網路組成的新方法學藥物研發視覺</image:caption>
+      <image:title>動物實驗不是消失，而是藥物研發規則開始換代</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/nams-regulatory-shift/01_NAMs_%E8%97%A5%E7%89%A9%E7%A0%94%E7%99%BC%E4%B8%8D%E5%86%8D%E5%8F%AA%E9%9D%A0%E5%8B%95%E7%89%A9%E5%AF%A6%E9%A9%97.jpg</image:loc>
+      <image:caption>類器官、器官晶片與新方法學共同組成更接近人體的證據鏈</image:caption>
+      <image:title>動物實驗不是消失，而是藥物研發規則開始換代</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/nams-regulatory-shift/02_CDE%E5%85%88%E9%8B%92%E8%A8%88%E7%95%AB_%E5%85%A9%E5%80%8B%E5%85%A5%E5%8F%A3%E5%85%AB%E5%80%8B%E5%A0%B4%E6%99%AF.jpg</image:loc>
+      <image:caption>CDE 先鋒計畫為藥企與方法開發者設計兩個入口及多個應用場景</image:caption>
+      <image:title>動物實驗不是消失，而是藥物研發規則開始換代</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/nams-regulatory-shift/03_%E5%85%A8%E7%90%83NAMs%E7%9B%A3%E7%AE%A1%E7%AB%B6%E8%B3%BD.jpg</image:loc>
+      <image:caption>FDA、EMA、MHRA 與 CDE 的 NAMs 監管路徑各有不同節奏</image:caption>
+      <image:title>動物實驗不是消失，而是藥物研發規則開始換代</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/nams-regulatory-shift/04_NAMs%E9%87%8D%E5%A1%91%E7%94%A2%E6%A5%AD%E9%8F%88.jpg</image:loc>
+      <image:caption>類器官、器官晶片、CGT、AI 製藥與 CRO 的產業價值鏈可能被重新定價</image:caption>
+      <image:title>動物實驗不是消失，而是藥物研發規則開始換代</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200-en/cover.png</image:loc>

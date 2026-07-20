@@ -266,6 +266,56 @@
       }
     },
     {
+      "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
+      "date": "2026-07-19",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
+      "source": "facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "NAMs",
+        "CDE",
+        "Regulatory Science",
+        "Organoids",
+        "Organ-on-a-Chip",
+        "AI Drug Discovery"
+      ],
+      "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable.",
+      "image": "https://drugnews.com.tw/assets/articles/nams-regulatory-shift-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-19-nams-regulatory-shift.html"
+      }
+    },
+    {
+      "title": "動物實驗不是消失，而是藥物研發規則開始換代",
+      "date": "2026-07-19",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
+      "source": "facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "NAMs",
+        "CDE",
+        "監管科學",
+        "類器官",
+        "器官晶片",
+        "AI 製藥"
+      ],
+      "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。",
+      "image": "https://drugnews.com.tw/assets/articles/nams-regulatory-shift/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-19-nams-regulatory-shift-en.html"
+      }
+    },
+    {
       "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
       "date": "2026-07-18",
       "language": "en",
@@ -1501,57 +1551,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-06-28-fda-regulatory-shift-biotech-rebound.html"
-      }
-    },
-    {
-      "title": "FDA 風向變了：Biotech 反攻訊號，正在從監管端亮起",
-      "date": "2026-06-28",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "疫苗",
-        "感染症",
-        "BD",
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "代表中小型 Biotech 的 XBI（SPDR S&P Biotech ETF）近期走勢強勁，資金也重新流入。照理說，在利率仍未完全放鬆、風險資產仍會被折現率壓制的環境下，高波動的 Biotech 不應該是最輕鬆的族群。",
-      "image": "https://drugnews.com.tw/assets/articles/fda-regulatory-shift-biotech-rebound/cover.svg",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-28-fda-regulatory-shift-biotech-rebound-en.html"
-      }
-    },
-    {
-      "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-      "date": "2026-06-27",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Pancreatic Cancer",
-        "RAS",
-        "PRMT5",
-        "MAT2A",
-        "Synthetic Lethality",
-        "Clinical Data",
-        "Biotech Investing",
-        "BD"
-      ],
-      "summary": "Pancreatic cancer is moving into a new phase of precision combination therapy, as RAS inhibition meets MTAP-selective PRMT5 and MAT2A strategies.",
-      "image": "https://drugnews.com.tw/assets/articles/pancreatic-cancer-ras-prmt5-mat2a-combination-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html"
       }
     }
   ]

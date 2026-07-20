@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-19T14:26:23.343Z",
+  "generated_at": "2026-07-20T08:41:22.776Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -420,6 +420,38 @@
       "summary": "Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。"
     },
     {
+      "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
+      "date": "2026-07-19",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
+      "category": "商業分析",
+      "tags": [
+        "NAMs",
+        "CDE",
+        "Regulatory Science",
+        "Organoids",
+        "Organ-on-a-Chip",
+        "AI Drug Discovery"
+      ],
+      "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable."
+    },
+    {
+      "title": "動物實驗不是消失，而是藥物研發規則開始換代",
+      "date": "2026-07-19",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
+      "category": "商業分析",
+      "tags": [
+        "NAMs",
+        "CDE",
+        "監管科學",
+        "類器官",
+        "器官晶片",
+        "AI 製藥"
+      ],
+      "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。"
+    },
+    {
       "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
       "date": "2026-07-18",
       "language": "en",
@@ -772,42 +804,6 @@
         "CMC"
       ],
       "summary": "日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。"
-    },
-    {
-      "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-      "date": "2026-07-08",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "GLP-1",
-        "dorzagliatin",
-        "glucokinase activator",
-        "GKA"
-      ],
-      "summary": "GLP-1 competition is moving from peak weight loss toward long-term use, tolerability, rebound control, and combination design. Dorzagliatin matters not as a GLP-1 replacement, but as a possible metabolic base for the next phase of chronic therapy."
-    },
-    {
-      "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-      "date": "2026-07-08",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-      "category": "商業分析",
-      "tags": [
-        "GLP-1",
-        "dorzagliatin",
-        "多格列艾汀",
-        "glucokinase activator",
-        "GKA",
-        "代謝疾病",
-        "糖尿病",
-        "MASH"
-      ],
-      "summary": "GLP-1 競爭進入長期維持與聯用下半場，dorzagliatin 的價值不在取代減重藥，而是可能成為代謝治療的可持續底座。"
     }
   ],
   "do_not_use_as": [

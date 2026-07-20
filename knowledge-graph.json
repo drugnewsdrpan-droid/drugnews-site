@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-19T14:26:23.344Z",
+  "generated_at": "2026-07-20T08:41:22.777Z",
   "site": {
     "@type": [
       "Organization",
@@ -173,6 +173,46 @@
       "summary": "Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。",
       "alternate_language_versions": {
         "en": "2026-07-19-pelacarsen-lpa-horizon-en.html"
+      }
+    },
+    {
+      "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
+      "date": "2026-07-19",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "NAMs",
+        "CDE",
+        "Regulatory Science",
+        "Organoids",
+        "Organ-on-a-Chip",
+        "AI Drug Discovery"
+      ],
+      "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-19-nams-regulatory-shift.html"
+      }
+    },
+    {
+      "title": "動物實驗不是消失，而是藥物研發規則開始換代",
+      "date": "2026-07-19",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "NAMs",
+        "CDE",
+        "監管科學",
+        "類器官",
+        "器官晶片",
+        "AI 製藥"
+      ],
+      "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。",
+      "alternate_language_versions": {
+        "en": "2026-07-19-nams-regulatory-shift-en.html"
       }
     },
     {
@@ -781,58 +821,13 @@
       "alternate_language_versions": {
         "zh-Hant": "2026-07-06-universal-car-t-2026-rebound.html"
       }
-    },
-    {
-      "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-      "date": "2026-07-05",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "BD",
-        "併購",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭",
-        "新藥開發",
-        "生技估值"
-      ],
-      "summary": "2026 年才過一半，全球製藥業的併購節奏已經快到讓人有點恍神。",
-      "alternate_language_versions": {
-        "en": "2026-07-05-big-pharma-134b-biotech-ma-en.html"
-      }
-    },
-    {
-      "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-      "date": "2026-07-05",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "BD licensing",
-        "biotech M&A",
-        "biotech valuation",
-        "clinical data",
-        "drug development",
-        "capital markets"
-      ],
-      "summary": "In the first half of 2026, Big Pharma's biotech M&A pace has accelerated sharply. The real question is not why large drugmakers have cash, but why they are suddenly less willing to wait.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-05-big-pharma-134b-biotech-ma.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 34,
+      "mentions": 33,
       "latest_date": "2026-07-19",
       "latest_articles": [
         {
@@ -908,7 +903,7 @@
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 25,
+      "mentions": 24,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -946,7 +941,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 24,
+      "mentions": 23,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -984,7 +979,7 @@
     {
       "name": "Business Analysis",
       "type": "topic",
-      "mentions": 21,
+      "mentions": 20,
       "latest_date": "2026-07-19",
       "latest_articles": [
         {
@@ -1022,7 +1017,7 @@
     {
       "name": "BD",
       "type": "market_topic",
-      "mentions": 21,
+      "mentions": 20,
       "latest_date": "2026-07-09",
       "latest_articles": [
         {
@@ -1286,44 +1281,6 @@
       ]
     },
     {
-      "name": "Capital markets",
-      "type": "market_topic",
-      "mentions": 11,
-      "latest_date": "2026-06-29",
-      "latest_articles": [
-        {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Big Pharma",
       "type": "market_topic",
       "mentions": 10,
@@ -1357,6 +1314,44 @@
           "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
           "date": "2026-06-30",
           "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Capital markets",
+      "type": "market_topic",
+      "mentions": 10,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
+          "date": "2026-06-14",
+          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
           "language": "en"
         }
       ]
@@ -1476,44 +1471,6 @@
       ]
     },
     {
-      "name": "FDA",
-      "type": "market_topic",
-      "mentions": 9,
-      "latest_date": "2026-07-10",
-      "latest_articles": [
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Clinical and CMC",
       "type": "biotech_concept_or_target",
       "mentions": 9,
@@ -1590,40 +1547,40 @@
       ]
     },
     {
-      "name": "AI drug discovery",
-      "type": "topic",
+      "name": "FDA",
+      "type": "market_topic",
       "mentions": 8,
-      "latest_date": "2026-07-13",
+      "latest_date": "2026-07-10",
       "latest_articles": [
         {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
           "language": "en"
         },
         {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
           "language": "en"
         },
         {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
-          "date": "2026-05-29",
-          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
-          "language": "en"
+          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1700,6 +1657,44 @@
           "date": "2026-07-07",
           "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "AI drug discovery",
+      "type": "topic",
+      "mentions": 7,
+      "latest_date": "2026-07-13",
+      "latest_articles": [
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
+          "date": "2026-06-07",
+          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
+          "date": "2026-05-29",
+          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1813,82 +1808,6 @@
           "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
           "date": "2026-06-26",
           "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Regulatory risk",
-      "type": "topic",
-      "mentions": 6,
-      "latest_date": "2026-06-28",
-      "latest_articles": [
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
-          "date": "2026-05-24",
-          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
-          "language": "en"
-        },
-        {
-          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Business development",
-      "type": "topic",
-      "mentions": 6,
-      "latest_date": "2026-06-12",
-      "latest_articles": [
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Old Targets Are Crowded, but They Can Still Make Money",
-          "date": "2026-06-06",
-          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech Investing Needs a Judgment System, Not More News",
-          "date": "2026-05-28",
-          "url": "https://drugnews.com.tw/articles/2026-05-28-biotech-investment-judgment-system-en.html",
           "language": "en"
         }
       ]
@@ -2046,6 +1965,44 @@
       ]
     },
     {
+      "name": "Regulatory risk",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-06-28",
+      "latest_articles": [
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
+          "date": "2026-05-24",
+          "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity-en.html",
+          "language": "en"
+        },
+        {
+          "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
+          "date": "2026-05-22",
+          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "AI",
       "type": "topic",
       "mentions": 5,
@@ -2080,6 +2037,44 @@
           "date": "2026-06-07",
           "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Business development",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-06-12",
+      "latest_articles": [
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Old Targets Are Crowded, but They Can Still Make Money",
+          "date": "2026-06-06",
+          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech Investing Needs a Judgment System, Not More News",
+          "date": "2026-05-28",
+          "url": "https://drugnews.com.tw/articles/2026-05-28-biotech-investment-judgment-system-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2346,6 +2341,32 @@
       ]
     },
     {
+      "name": "AI 製藥",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-07-19",
+      "latest_articles": [
+        {
+          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "盤點整理，AI藥物開發走得如何了？",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "胰臟癌",
       "type": "topic",
       "mentions": 3,
@@ -2528,32 +2549,6 @@
       ]
     },
     {
-      "name": "藥華藥",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-05-23",
-      "latest_articles": [
-        {
-          "title": "全球生技大浪來襲：看懂五兆減肥藥的主升段與科學定價",
-          "date": "2026-05-23",
-          "url": "https://drugnews.com.tw/articles/2026-05-23-global-biotech-obesity-megatrend.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "這些中型 Biotech，正在把「重磅炸彈藥物」從夢想變成現金流",
-          "date": "2026-05-22",
-          "url": "https://drugnews.com.tw/articles/2026-05-22-mid-size-biotech-blockbuster-cashflow.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "AI半導體掩蓋生技光芒",
-          "date": "2026-05-21",
-          "url": "https://drugnews.com.tw/articles/2026-05-21-ai-semiconductor-biotech-capital-neglect.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "臨床試驗",
       "type": "market_topic",
       "mentions": 2,
@@ -2589,6 +2584,26 @@
           "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
           "date": "2026-06-02",
           "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "CDE",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-19",
+      "latest_articles": [
+        {
+          "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
+          "language": "en"
+        },
+        {
+          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
           "language": "zh-Hant"
         }
       ]
@@ -2649,6 +2664,26 @@
           "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
           "date": "2026-07-19",
           "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "NAMs",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-19",
+      "latest_articles": [
+        {
+          "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
+          "language": "en"
+        },
+        {
+          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
           "language": "zh-Hant"
         }
       ]
@@ -3132,49 +3167,43 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "AI 製藥",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-13",
-      "latest_articles": [
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "盤點整理，AI藥物開發走得如何了？",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "AnHorn Medicines",
-      "type": "company",
-      "mentions": 2,
-      "latest_date": "2026-07-13",
-      "latest_articles": [
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Next Phase of AI Drug Development: Making Molecules Survive as Drugs",
-          "date": "2026-06-13",
-          "url": "https://drugnews.com.tw/articles/2026-06-13-anhorn-ai-drug-development-en.html",
-          "language": "en"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
+      "date": "2026-07-19",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "NAMs",
+        "CDE",
+        "Regulatory Science",
+        "Organoids",
+        "Organ-on-a-Chip",
+        "AI Drug Discovery"
+      ],
+      "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable."
+    },
+    {
+      "title": "動物實驗不是消失，而是藥物研發規則開始換代",
+      "date": "2026-07-19",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "NAMs",
+        "CDE",
+        "監管科學",
+        "類器官",
+        "器官晶片",
+        "AI 製藥"
+      ],
+      "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。"
+    },
     {
       "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
       "date": "2026-07-17",
@@ -3697,40 +3726,6 @@
         "新藥開發"
       ],
       "summary": "2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。"
-    },
-    {
-      "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-      "date": "2026-07-03",
-      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Revolution Medicines",
-        "RevMed",
-        "daraxonrasib",
-        "RAS oncology",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "BD licensing",
-        "biotech valuation"
-      ],
-      "summary": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies."
-    },
-    {
-      "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
-      "date": "2026-07-03",
-      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。"
     }
   ]
 }

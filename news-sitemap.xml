@@ -23,6 +23,28 @@
     </news:news>
   </url>
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-19T00:36:00.000Z</news:publication_date>
+      <news:title>Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-19T00:36:00.000Z</news:publication_date>
+      <news:title>動物實驗不是消失，而是藥物研發規則開始換代</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html</loc>
     <news:news>
       <news:publication>

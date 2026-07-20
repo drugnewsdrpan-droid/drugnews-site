@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-18T03:08:41.224Z",
+  "generated_at": "2026-07-20T08:41:22.731Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -117,8 +117,200 @@
   },
   "buckets": [
     {
+      "name": "AI 製藥與新技術",
+      "count": 10,
+      "articles": [
+        {
+          "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "NAMs",
+            "CDE",
+            "Regulatory Science",
+            "Organoids",
+            "Organ-on-a-Chip",
+            "AI Drug Discovery"
+          ],
+          "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable."
+        },
+        {
+          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "NAMs",
+            "CDE",
+            "監管科學",
+            "類器官",
+            "器官晶片",
+            "AI 製藥"
+          ],
+          "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Business Analysis",
+            "AI drug discovery",
+            "Claude Science",
+            "Anthropic",
+            "foundation models",
+            "drug development",
+            "AnHorn Medicines",
+            "PROTAC"
+          ],
+          "summary": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets."
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "AI 製藥",
+            "Claude Science",
+            "Anthropic",
+            "大型語言模型",
+            "新藥研發",
+            "安宏生醫",
+            "PROTAC",
+            "CMC"
+          ],
+          "summary": "Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。"
+        },
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Business Analysis",
+            "Business Analysis",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "drug development",
+            "CNS drug development",
+            "social anxiety disorder",
+            "fasedienol"
+          ],
+          "summary": "Fasedienol's PALISADE-4 miss was not simply a failed Phase 3 headline. It exposed the core CNS drug-development problem: a beautiful mechanism and a real unmet need still have to survive subjective endpoints, placebo response, patient selection, and a commercial repositioning test."
+        },
+        {
+          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Business Analysis",
+            "Business Analysis",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "drug development",
+            "FDA CRL",
+            "NASP",
+            "Sobi"
+          ],
+          "summary": "FDA identified no clinical efficacy or safety concerns that affected NASP's approvability. The setback centered on CMC controls and contract-manufacturing deficiencies, showing biotech investors why manufacturing credibility becomes part of asset value near launch."
+        },
+        {
+          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Business Analysis",
+            "Business Analysis",
+            "biotech business analysis",
+            "Japan biotech",
+            "Taiwan biotech",
+            "startup ecosystem",
+            "drug development",
+            "clinical data"
+          ],
+          "summary": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits."
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Business Analysis",
+            "Business Analysis",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "cell therapy",
+            "CAR-T",
+            "allogeneic cell therapy",
+            "clinical data"
+          ],
+          "summary": "Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table."
+        },
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Business Analysis",
+            "Business Analysis",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "BD licensing",
+            "biotech M&A",
+            "biotech valuation",
+            "clinical data"
+          ],
+          "summary": "In the first half of 2026, Big Pharma's biotech M&A pace has accelerated sharply. The real question is not why large drugmakers have cash, but why they are suddenly less willing to wait."
+        },
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "HHS",
+            "FDA",
+            "Operation TrialBlazer",
+            "clinical trial reform",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "drug development",
+            "clinical data"
+          ],
+          "summary": "Operation TrialBlazer is not just an FDA efficiency program. It signals that the United States is treating clinical-trial speed as part of national biotech competitiveness, with direct implications for biotech valuation, financing windows, and regulatory strategy."
+        }
+      ]
+    },
+    {
       "name": "腫瘤精準治療",
-      "count": 9,
+      "count": 8,
       "articles": [
         {
           "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
@@ -271,25 +463,6 @@
             "製藥巨頭"
           ],
           "summary": "sigvotatug vedotin Phase III 單藥失利後，輝瑞的 430 億美元 Seagen ADC 賭局正轉向 3SBio PD-1/VEGF 雙抗與聯合療法底座。"
-        },
-        {
-          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Revolution Medicines",
-            "RevMed",
-            "daraxonrasib",
-            "RAS oncology",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "BD licensing",
-            "biotech valuation"
-          ],
-          "summary": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies."
         }
       ]
     },
@@ -396,7 +569,7 @@
     },
     {
       "name": "BD / 授權與併購",
-      "count": 4,
+      "count": 3,
       "articles": [
         {
           "title": "百億美元併購新狂潮",
@@ -452,179 +625,6 @@
             "新藥開發"
           ],
           "summary": "2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。"
-        },
-        {
-          "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "BD",
-            "臨床數據",
-            "生技投資",
-            "製藥巨頭"
-          ],
-          "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。"
-        }
-      ]
-    },
-    {
-      "name": "AI 製藥與新技術",
-      "count": 8,
-      "articles": [
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Free Article",
-          "tags": [
-            "Business Analysis",
-            "AI drug discovery",
-            "Claude Science",
-            "Anthropic",
-            "foundation models",
-            "drug development",
-            "AnHorn Medicines",
-            "PROTAC"
-          ],
-          "summary": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets."
-        },
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "AI 製藥",
-            "Claude Science",
-            "Anthropic",
-            "大型語言模型",
-            "新藥研發",
-            "安宏生醫",
-            "PROTAC",
-            "CMC"
-          ],
-          "summary": "Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。"
-        },
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Business Analysis",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "drug development",
-            "CNS drug development",
-            "social anxiety disorder",
-            "fasedienol"
-          ],
-          "summary": "Fasedienol's PALISADE-4 miss was not simply a failed Phase 3 headline. It exposed the core CNS drug-development problem: a beautiful mechanism and a real unmet need still have to survive subjective endpoints, placebo response, patient selection, and a commercial repositioning test."
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Business Analysis",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "drug development",
-            "FDA CRL",
-            "NASP",
-            "Sobi"
-          ],
-          "summary": "FDA identified no clinical efficacy or safety concerns that affected NASP's approvability. The setback centered on CMC controls and contract-manufacturing deficiencies, showing biotech investors why manufacturing credibility becomes part of asset value near launch."
-        },
-        {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Business Analysis",
-            "biotech business analysis",
-            "Japan biotech",
-            "Taiwan biotech",
-            "startup ecosystem",
-            "drug development",
-            "clinical data"
-          ],
-          "summary": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits."
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Business Analysis",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "cell therapy",
-            "CAR-T",
-            "allogeneic cell therapy",
-            "clinical data"
-          ],
-          "summary": "Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table."
-        },
-        {
-          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Business Analysis",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "BD licensing",
-            "biotech M&A",
-            "biotech valuation",
-            "clinical data"
-          ],
-          "summary": "In the first half of 2026, Big Pharma's biotech M&A pace has accelerated sharply. The real question is not why large drugmakers have cash, but why they are suddenly less willing to wait."
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "HHS",
-            "FDA",
-            "Operation TrialBlazer",
-            "clinical trial reform",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "drug development",
-            "clinical data"
-          ],
-          "summary": "Operation TrialBlazer is not just an FDA efficiency program. It signals that the United States is treating clinical-trial speed as part of national biotech competitiveness, with direct implications for biotech valuation, financing windows, and regulatory strategy."
         }
       ]
     },
