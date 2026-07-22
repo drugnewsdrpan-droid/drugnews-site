@@ -996,11 +996,13 @@ body {
   }
 
   .science-art-direction .lead-story h1 {
+    width: 100%;
+    min-width: 0;
     font-size: clamp(1.75rem, 8.6vw, 2.18rem);
     line-height: 1.18;
-    word-break: auto-phrase;
-    overflow-wrap: normal;
-    text-wrap: balance;
+    word-break: normal;
+    overflow-wrap: anywhere;
+    text-wrap: wrap;
   }
   .science-art-direction .lead-story h1 .keep-phrase {
     display: inline-block;
