@@ -284,7 +284,11 @@
     if (!q) {
       updateStatus("", 0);
       if (clear) clear.hidden = true;
-      renderIdle();
+      if (inArticlesPage()) {
+        render(readerFirstSort(records));
+      } else {
+        renderIdle();
+      }
       if (options.sync !== false) syncQueryParam("", options.historyMode);
       return;
     }
