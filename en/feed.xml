@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
   <title>Drugnews｜Taiwan Biotech Intelligence</title>
   <link>https://drugnews.com.tw/en/</link>
   <description>Independent biotech and pharmaceutical intelligence from Taiwan, covering clinical data, company strategy, licensing, valuation, and capital markets.</description>
   <language>en</language>
   <atom:link href="https://drugnews.com.tw/en/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>After Xtandi: Can Astellas Build an Oncology Platform?</title>
+    <link>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html</link>
+    <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html</guid>
+    <pubDate>Thu, 23 Jul 2026 01:45:00 GMT</pubDate>
+    <description>Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.</description>
+    <media:content url="https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/cover-en.png" medium="image" type="image/png"/>
+  </item>
   <item>
     <title>Madrigal&apos;s MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine</title>
     <link>https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html</link>
