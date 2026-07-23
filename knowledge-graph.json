@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-20T14:32:02.133Z",
+  "generated_at": "2026-07-23T01:53:18.470Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,46 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+      "date": "2026-07-23",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+      "category": "製藥巨頭",
+      "access": "商業分析文",
+      "tags": [
+        "Astellas",
+        "Xtandi",
+        "Padcev",
+        "Vyloy",
+        "腫瘤",
+        "藥物開發"
+      ],
+      "summary": "Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。",
+      "alternate_language_versions": {
+        "en": "2026-07-23-astellas-oncology-platform-en.html"
+      }
+    },
+    {
+      "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+      "date": "2026-07-23",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+      "category": "製藥巨頭",
+      "access": "Business Analysis",
+      "tags": [
+        "Astellas",
+        "Xtandi",
+        "Padcev",
+        "Vyloy",
+        "oncology",
+        "drug development"
+      ],
+      "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-23-astellas-oncology-platform.html"
+      }
+    },
     {
       "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
       "date": "2026-07-20",
@@ -777,60 +817,13 @@
       "alternate_language_versions": {
         "en": "2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html"
       }
-    },
-    {
-      "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-      "date": "2026-07-07",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "ADC",
-        "PD-1/VEGF",
-        "bispecific antibody",
-        "oncology",
-        "BD licensing",
-        "clinical data"
-      ],
-      "summary": "After a Phase III setback for sigvotatug vedotin, Pfizer's $43 billion Seagen ADC bet is increasingly tied to whether 3SBio's PD-1/VEGF bispecific can become a new immuno-oncology combination backbone.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html"
-      }
-    },
-    {
-      "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-      "date": "2026-07-07",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "ADC",
-        "PD-1/VEGF",
-        "雙特異性抗體",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "腫瘤藥物",
-        "製藥巨頭",
-        "台灣生技"
-      ],
-      "summary": "sigvotatug vedotin Phase III 單藥失利後，輝瑞的 430 億美元 Seagen ADC 賭局正轉向 3SBio PD-1/VEGF 雙抗與聯合療法底座。",
-      "alternate_language_versions": {
-        "en": "2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 33,
+      "mentions": 32,
       "latest_date": "2026-07-19",
       "latest_articles": [
         {
@@ -906,7 +899,7 @@
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 23,
+      "mentions": 22,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -944,7 +937,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 22,
+      "mentions": 21,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -975,44 +968,6 @@
           "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
           "date": "2026-06-08",
           "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Business Analysis",
-      "type": "topic",
-      "mentions": 20,
-      "latest_date": "2026-07-20",
-      "latest_articles": [
-        {
-          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
-          "date": "2026-07-18",
-          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
           "language": "en"
         }
       ]
@@ -1052,6 +1007,44 @@
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Business Analysis",
+      "type": "topic",
+      "mentions": 19,
+      "latest_date": "2026-07-20",
+      "latest_articles": [
+        {
+          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1170,6 +1163,44 @@
       ]
     },
     {
+      "name": "drug development",
+      "type": "topic",
+      "mentions": 13,
+      "latest_date": "2026-07-23",
+      "latest_articles": [
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "clinical data",
       "type": "market_topic",
       "mentions": 12,
@@ -1185,44 +1216,6 @@
           "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
           "date": "2026-07-12",
           "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "drug development",
-      "type": "topic",
-      "mentions": 12,
-      "latest_date": "2026-07-14",
-      "latest_articles": [
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
           "language": "en"
         },
         {
@@ -1474,44 +1467,6 @@
       ]
     },
     {
-      "name": "Obesity medicine",
-      "type": "topic",
-      "mentions": 9,
-      "latest_date": "2026-06-22",
-      "latest_articles": [
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Clinical and CMC",
       "type": "biotech_concept_or_target",
       "mentions": 9,
@@ -1545,6 +1500,44 @@
           "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
           "date": "2026-05-31",
           "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Obesity medicine",
+      "type": "topic",
+      "mentions": 8,
+      "latest_date": "2026-06-22",
+      "latest_articles": [
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
+          "date": "2026-06-04",
+          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
           "language": "en"
         }
       ]
@@ -1622,44 +1615,6 @@
           "date": "2026-07-07",
           "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "AI drug discovery",
-      "type": "topic",
-      "mentions": 7,
-      "latest_date": "2026-07-13",
-      "latest_articles": [
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
-          "date": "2026-05-29",
-          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
-          "language": "en"
         }
       ]
     },
@@ -1778,6 +1733,44 @@
       ]
     },
     {
+      "name": "oncology",
+      "type": "topic",
+      "mentions": 6,
+      "latest_date": "2026-07-23",
+      "latest_articles": [
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "台灣生技",
       "type": "topic",
       "mentions": 6,
@@ -1854,39 +1847,39 @@
       ]
     },
     {
-      "name": "oncology",
+      "name": "AI drug discovery",
       "type": "topic",
-      "mentions": 5,
-      "latest_date": "2026-07-17",
+      "mentions": 6,
+      "latest_date": "2026-07-13",
       "latest_articles": [
         {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
           "language": "en"
         },
         {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
           "language": "en"
         },
         {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
           "language": "en"
         },
         {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
+          "date": "2026-06-07",
+          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
           "language": "en"
         },
         {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
+          "date": "2026-05-29",
+          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
           "language": "en"
         }
       ]
@@ -2332,6 +2325,32 @@
       ]
     },
     {
+      "name": "腫瘤",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-07-23",
+      "latest_articles": [
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "BD 授權",
       "type": "market_topic",
       "mentions": 3,
@@ -2588,6 +2607,106 @@
           "date": "2026-05-24",
           "url": "https://drugnews.com.tw/articles/2026-05-24-ox2r-cns-narcolepsy-opportunity.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "藥物開發",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-23",
+      "latest_articles": [
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "盤點整理，AI藥物開發走得如何了？",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Astellas",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-23",
+      "latest_articles": [
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Padcev",
+      "type": "biotech_concept_or_target",
+      "mentions": 2,
+      "latest_date": "2026-07-23",
+      "latest_articles": [
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Vyloy",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-23",
+      "latest_articles": [
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Xtandi",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-23",
+      "latest_articles": [
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
         }
       ]
     },
@@ -3048,126 +3167,6 @@
           "date": "2026-07-18",
           "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "腫瘤",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-17",
-      "latest_articles": [
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "daraxonrasib",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-07-17",
-      "latest_articles": [
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Daraxonrasib",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-07-17",
-      "latest_articles": [
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "ESMO GI 2026",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-17",
-      "latest_articles": [
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "KRAS G12D",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-07-17",
-      "latest_articles": [
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "RAS(ON)",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-07-17",
-      "latest_articles": [
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
         }
       ]
     }

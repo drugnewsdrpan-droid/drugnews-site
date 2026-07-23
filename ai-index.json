@@ -209,6 +209,56 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+      "date": "2026-07-23",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+      "source": "cmoney",
+      "access": "商業分析文",
+      "category": "製藥巨頭",
+      "tags": [
+        "Astellas",
+        "Xtandi",
+        "Padcev",
+        "Vyloy",
+        "腫瘤",
+        "藥物開發"
+      ],
+      "summary": "Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。",
+      "image": "https://drugnews.com.tw/assets/articles/astellas-oncology-platform/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-23-astellas-oncology-platform-en.html"
+      }
+    },
+    {
+      "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+      "date": "2026-07-23",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+      "source": "cmoney",
+      "access": "Business Analysis",
+      "category": "製藥巨頭",
+      "tags": [
+        "Astellas",
+        "Xtandi",
+        "Padcev",
+        "Vyloy",
+        "oncology",
+        "drug development"
+      ],
+      "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.",
+      "image": "https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/cover-en.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-23-astellas-oncology-platform.html"
+      }
+    },
+    {
       "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
       "date": "2026-07-20",
       "language": "en",
@@ -1510,57 +1560,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-06-30-gsk-nuvalent-oncology-comeback.html"
-      }
-    },
-    {
-      "title": "GSK 上強度：106 億美元買下 Nuvalent，不只是補肺癌管線，而是重返腫瘤牌桌",
-      "date": "2026-06-30",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "疫苗",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "2026 年 6 月，GSK 宣布以 106 億美元全現金收購 Nuvalent，收購價格為每股 124 美元。這筆交易不是小修小補，而是新任 CEO Luke Miels 上任後，替 GSK 腫瘤版圖打下的一記重拳。",
-      "image": "https://drugnews.com.tw/assets/articles/gsk-nuvalent-oncology-comeback/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-06-30-gsk-nuvalent-oncology-comeback-en.html"
-      }
-    },
-    {
-      "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-      "date": "2026-06-29",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Biotech IPO",
-        "Parabilis Medicines",
-        "Helicons",
-        "Zolucatetide",
-        "Wnt beta-catenin",
-        "Regeneron",
-        "Biotech investing",
-        "Capital markets"
-      ],
-      "summary": "Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up.",
-      "image": "https://drugnews.com.tw/assets/articles/biotech-ipo-en/cover-gpt-v3.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-29-biotech-ipo.html"
       }
     }
   ]

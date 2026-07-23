@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 20 Jul 2026 14:32:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 01:53:18 GMT</lastBuildDate>
+    <item>
+      <title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</title>
+      <link>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</guid>
+      <pubDate>Thu, 23 Jul 2026 01:45:00 GMT</pubDate>
+      <category>製藥巨頭</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/astellas-oncology-platform/cover.png" alt="由單一藥物核心延伸至多條腫瘤研發路徑的抽象科學視覺"></p><p>Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。</p>]]></description>
+    </item>
     <item>
       <title>聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒</title>
       <link>https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Fri, 03 Jul 2026 01:18:26 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/revmed-biotech/cover.png" alt="拒絕被併購的 RevMed：Biotech 的獨立時代 專題封面"></p><p>圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。</p>]]></description>
-    </item>
-    <item>
-      <title>合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？</title>
-      <link>https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html</guid>
-      <pubDate>Thu, 02 Jul 2026 02:30:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/synthetic-lethality-next-parp/cover.png" alt="合成致死、PARP、PRMT5 與精準腫瘤治療的商業分析封面"></p><p>2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。</p>]]></description>
     </item>
   </channel>
 </rss>

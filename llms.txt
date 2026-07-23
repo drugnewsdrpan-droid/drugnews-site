@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-23｜Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門
+  URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html
+  Topics: Astellas, Xtandi, Padcev, Vyloy, 腫瘤
+  Summary: Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。
+- 2026-07-23｜After Xtandi: Can Astellas Build an Oncology Platform?
+  URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html
+  Topics: Astellas, Xtandi, Padcev, Vyloy, oncology
+  Summary: Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.
 - 2026-07-20｜Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine
   URL: https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html
   Topics: Business Analysis, MASH, Madrigal Pharmaceuticals, Rezdiffra, resmetirom
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html
   Topics: Big Pharma, 生技併購, Vertex, Crinetics, AbbVie
   Summary: Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。
-- 2026-07-15｜After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product
-  URL: https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html
-  Topics: Business Analysis, regulatory T cells, Treg, immune tolerance, cell therapy
-  Summary: The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline.
-- 2026-07-15｜諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品
-  URL: https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html
-  Topics: Treg, 免疫耐受, 細胞療法, 自體免疫, 移植
-  Summary: 諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。
 
 ## Key Site Sections
 
