@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-23T01:53:18.470Z",
+  "generated_at": "2026-07-24T04:00:32.000Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+      "date": "2026-07-24",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Biotech",
+        "Biopharma",
+        "argenx",
+        "Insmed",
+        "Incyte",
+        "Revolution Medicines",
+        "Royalty Pharma",
+        "business development"
+      ],
+      "summary": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs."
+    },
+    {
+      "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+      "date": "2026-07-24",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+      "category": "商業分析",
+      "tags": [
+        "Biotech",
+        "Biopharma",
+        "argenx",
+        "Insmed",
+        "Incyte",
+        "Revolution Medicines",
+        "Royalty Pharma",
+        "BD"
+      ],
+      "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
+    },
     {
       "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
       "date": "2026-07-23",
@@ -770,36 +806,6 @@
         "生技投資"
       ],
       "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。"
-    },
-    {
-      "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
-      "date": "2026-07-11",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-      "category": "商業分析",
-      "tags": [
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。"
-    },
-    {
-      "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-      "date": "2026-07-11",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "drug development",
-        "CNS drug development",
-        "social anxiety disorder",
-        "fasedienol"
-      ],
-      "summary": "Fasedienol's PALISADE-4 miss was not simply a failed Phase 3 headline. It exposed the core CNS drug-development problem: a beautiful mechanism and a real unmet need still have to survive subjective endpoints, placebo response, patient selection, and a commercial repositioning test."
     }
   ],
   "do_not_use_as": [

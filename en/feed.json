@@ -7,15 +7,31 @@
   "language": "en",
   "items": [
     {
+      "id": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+      "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+      "content_text": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs.",
+      "date_published": "2026-07-24T10:30:00+08:00",
+      "tags": [
+        "Biotech",
+        "Biopharma",
+        "argenx",
+        "Insmed",
+        "Incyte",
+        "Revolution Medicines",
+        "Royalty Pharma",
+        "business development",
+        "commercialization",
+        "biotech investing"
+      ]
+    },
+    {
       "id": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
       "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
       "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
       "content_text": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.",
       "date_published": "2026-07-23T09:45:00+08:00",
-      "image": "https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/cover-en.png",
-      "banner_image": "https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/cover-en.png",
       "tags": [
-        "Business Analysis",
         "Astellas",
         "Xtandi",
         "Padcev",

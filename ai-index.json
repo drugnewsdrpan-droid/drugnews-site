@@ -209,6 +209,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+      "date": "2026-07-24",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+      "source": "cmoney",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Biotech",
+        "Biopharma",
+        "argenx",
+        "Insmed",
+        "Incyte",
+        "Revolution Medicines",
+        "Royalty Pharma",
+        "business development",
+        "commercialization",
+        "biotech investing"
+      ],
+      "summary": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs.",
+      "image": "https://drugnews.com.tw/assets/articles/biotech-independence-five-engines-en/cover-en.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-24-biotech-independence-five-engines.html"
+      }
+    },
+    {
+      "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+      "date": "2026-07-24",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+      "source": "cmoney",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Biotech",
+        "Biopharma",
+        "argenx",
+        "Insmed",
+        "Incyte",
+        "Revolution Medicines",
+        "Royalty Pharma",
+        "BD",
+        "商業化",
+        "生技投資"
+      ],
+      "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。",
+      "image": "https://drugnews.com.tw/assets/articles/biotech-independence-five-engines/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-24-biotech-independence-five-engines-en.html"
+      }
+    },
+    {
       "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
       "date": "2026-07-23",
       "language": "zh-Hant",
@@ -1505,61 +1563,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-07-01-adhd-centanafadine-phase3b.html"
-      }
-    },
-    {
-      "title": "摒棄「鐵拳教育」：ADHD 新藥 centanafadine IIIb 期成功，上市只差臨門一腳",
-      "date": "2026-07-01",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "ADHD",
-        "centanafadine",
-        "Otsuka",
-        "臨床數據",
-        "神經科學",
-        "美時",
-        "瑩碩生技"
-      ],
-      "summary": "Otsuka 的 ADHD 新藥 centanafadine 公布成人 ADHD 合併焦慮症 IIIb 期積極結果，FDA 已接受 NDA 並給予優先審查。這不只是新藥進度，也反映 ADHD 治療正在從單一路徑走向更多機制與病人分層。",
-      "image": "https://drugnews.com.tw/assets/articles/adhd-centanafadine-phase3b/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-01-adhd-centanafadine-phase3b-en.html"
-      }
-    },
-    {
-      "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-      "date": "2026-06-30",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "GSK",
-        "Nuvalent",
-        "Oncology",
-        "Lung cancer",
-        "ROS1",
-        "ALK",
-        "BD",
-        "M&A",
-        "Biotech investing",
-        "Big Pharma"
-      ],
-      "summary": "GSK's $10.6 billion all-cash acquisition of Nuvalent is more than a late-stage lung-cancer pipeline deal. It is a strategic attempt to rebuild oncology, buy time before major revenue pressure, and regain a seat at the precision-oncology table.",
-      "image": "https://drugnews.com.tw/assets/articles/gsk-nuvalent-oncology-comeback-en/figure-01.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-06-30-gsk-nuvalent-oncology-comeback.html"
       }
     }
   ]

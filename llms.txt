@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-24｜When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma
+  URL: https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html
+  Topics: Biotech, Biopharma, argenx, Insmed, Incyte
+  Summary: An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs.
+- 2026-07-24｜Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma
+  URL: https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html
+  Topics: Biotech, Biopharma, argenx, Insmed, Incyte
+  Summary: 被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。
 - 2026-07-23｜Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門
   URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html
   Topics: Astellas, Xtandi, Padcev, Vyloy, 腫瘤
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html
   Topics: Business Analysis, Revolution Medicines, RevMed, pancreatic cancer, KRAS G12D
   Summary: Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems.
-- 2026-07-16｜Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype
-  URL: https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html
-  Topics: Business Analysis, Big Pharma, biotech M&A, Vertex, Crinetics
-  Summary: Vertex's roughly $10 billion deal for Crinetics captures a wider change in Big Pharma's acquisition taste: away from scale and fashionable platforms, toward niche leadership, technological step-changes and commercial visibility.
-- 2026-07-16｜百億美元併購新狂潮
-  URL: https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html
-  Topics: Big Pharma, 生技併購, Vertex, Crinetics, AbbVie
-  Summary: Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。
 
 ## Key Site Sections
 

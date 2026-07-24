@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-five-engines-en/cover-en.png</image:loc>
+      <image:caption>A molecular platform bridging discovery, clinical development, manufacturing, commercialization, and durable financing</image:caption>
+      <image:title>When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-five-engines-en/figure-01-en.png</image:loc>
+      <image:caption>Five engines of biotech independence</image:caption>
+      <image:title>When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-five-engines-en/figure-03-en.png</image:loc>
+      <image:caption>Revolution Medicines&apos; financing, retained control, and 15-year cost</image:caption>
+      <image:title>When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-five-engines-en/figure-02-en.png</image:loc>
+      <image:caption>Four companies at four stages of independence</image:caption>
+      <image:title>When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-five-engines-en/figure-04-en.png</image:loc>
+      <image:caption>Five questions for biotech independence</image:caption>
+      <image:title>When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-five-engines/cover.png</image:loc>
+      <image:caption>一個分子核心向產品證據、現金、第二曲線、全球執行與融資能力延伸的科學視覺</image:caption>
+      <image:title>Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-five-engines/01_%E4%B8%8D%E8%B3%A3%E8%B3%87%E6%A0%BC%E4%BA%94%E5%BC%95%E6%93%8E.png</image:loc>
+      <image:caption>Biotech 的不賣資格：五個引擎</image:caption>
+      <image:title>Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-five-engines/03_Revolution%E7%8D%A8%E7%AB%8B%E5%AE%9A%E9%87%91.png</image:loc>
+      <image:caption>Revolution 的獨立定金：資金、控制權與成本</image:caption>
+      <image:title>Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-five-engines/02_%E5%9B%9B%E5%85%AC%E5%8F%B8%E5%9B%9B%E9%9A%8E%E6%AE%B5.png</image:loc>
+      <image:caption>四家公司，四個獨立階段</image:caption>
+      <image:title>Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-five-engines/04_%E4%B8%8D%E8%B3%A3%E8%B3%87%E6%A0%BC%E4%BA%94%E5%95%8F.png</image:loc>
+      <image:caption>Biotech 有沒有不賣資格：五個問題</image:caption>
+      <image:title>Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform/cover.png</image:loc>

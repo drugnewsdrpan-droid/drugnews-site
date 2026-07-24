@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T02:30:00.000Z</news:publication_date>
+      <news:title>When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T02:30:00.000Z</news:publication_date>
+      <news:title>Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</loc>
     <news:news>
       <news:publication>

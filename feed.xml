@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 23 Jul 2026 01:53:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 04:00:31 GMT</lastBuildDate>
+    <item>
+      <title>Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma</title>
+      <link>https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html</guid>
+      <pubDate>Fri, 24 Jul 2026 02:30:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/biotech-independence-five-engines/cover.png" alt="一個分子核心向產品證據、現金、第二曲線、全球執行與融資能力延伸的科學視覺"></p><p>被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。</p>]]></description>
+    </item>
     <item>
       <title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</title>
       <link>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Sat, 04 Jul 2026 00:35:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials/cover.png" alt="美國 HHS Operation TrialBlazer 臨床試驗改革專題封面"></p><p>2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。</p>]]></description>
-    </item>
-    <item>
-      <title>拒絕被併購的 RevMed：Biotech 的獨立時代</title>
-      <link>https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html</guid>
-      <pubDate>Fri, 03 Jul 2026 01:18:26 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/revmed-biotech/cover.png" alt="拒絕被併購的 RevMed：Biotech 的獨立時代 專題封面"></p><p>圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。</p>]]></description>
     </item>
   </channel>
 </rss>

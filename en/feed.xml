@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>Drugnews｜Taiwan Biotech Intelligence</title>
   <link>https://drugnews.com.tw/en/</link>
@@ -7,12 +7,18 @@
   <language>en</language>
   <atom:link href="https://drugnews.com.tw/en/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma</title>
+    <link>https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html</link>
+    <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html</guid>
+    <pubDate>Fri, 24 Jul 2026 02:30:00 GMT</pubDate>
+    <description>An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs.</description>
+  </item>
+  <item>
     <title>After Xtandi: Can Astellas Build an Oncology Platform?</title>
     <link>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html</link>
     <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html</guid>
     <pubDate>Thu, 23 Jul 2026 01:45:00 GMT</pubDate>
     <description>Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.</description>
-    <media:content url="https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/cover-en.png" medium="image" type="image/png"/>
   </item>
   <item>
     <title>Madrigal&apos;s MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine</title>
