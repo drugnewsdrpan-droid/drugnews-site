@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-24｜SpaceX Goes to Orbit. Is the Money in the Crystals?
+  URL: https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html
+  Topics: SpaceX, microgravity, space pharmaceuticals, drug crystallization, Keytruda
+  Summary: SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation.
+- 2026-07-24｜SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金
+  URL: https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html
+  Topics: SpaceX, 微重力, 太空製藥, 藥物結晶, Keytruda
+  Summary: SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。
 - 2026-07-24｜When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma
   URL: https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html
   Topics: Biotech, Biopharma, argenx, Insmed, Incyte
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html
   Topics: ADC, 自體免疫疾病, LFD-200, Lifordi Immunotherapeutics, VISTA
   Summary: 自體免疫 ADC 的價值不在把腫瘤細胞毒 payload 搬到免疫細胞，而在把 glucocorticoid、ASO、siRNA 等強效免疫調節作用定向送到真正需要干預的細胞；LFD-200 的早期人體訊號，是這條路第一次重要的機制驗證。
-- 2026-07-17｜又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代
-  URL: https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html
-  Topics: Revolution Medicines, RevMed, 胰臟癌, KRAS G12D, RAS(ON)
-  Summary: Daraxonrasib 已用第三期總生存期資料抬高胰臟癌 RAS 賽道門檻；zoldonrasib 與 pan-RAS 或化療的早期組合訊號，則把競爭從單藥推向治療生態系。
-- 2026-07-17｜RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived
-  URL: https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html
-  Topics: Business Analysis, Revolution Medicines, RevMed, pancreatic cancer, KRAS G12D
-  Summary: Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems.
 
 ## Key Site Sections
 

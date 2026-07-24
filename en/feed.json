@@ -7,6 +7,25 @@
   "language": "en",
   "items": [
     {
+      "id": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+      "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+      "content_text": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation.",
+      "date_published": "2026-07-24T16:20:00+08:00",
+      "tags": [
+        "SpaceX",
+        "microgravity",
+        "space pharmaceuticals",
+        "drug crystallization",
+        "Keytruda",
+        "Redwire",
+        "SpaceMD",
+        "Varda",
+        "formulation development",
+        "Taiwan biotech"
+      ]
+    },
+    {
       "id": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
       "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
       "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",

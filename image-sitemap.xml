@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals-en/cover-en.webp</image:loc>
+      <image:caption>A SpaceX launch sends crystallization research to orbit before samples return to Earth for analysis</image:caption>
+      <image:title>SpaceX Goes to Orbit. Is the Money in the Crystals?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals-en/figure-01-en.webp</image:loc>
+      <image:caption>Candidate molecules travel to orbit and crystal samples return to Earth for analysis</image:caption>
+      <image:title>SpaceX Goes to Orbit. Is the Money in the Crystals?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals-en/figure-02-en.webp</image:loc>
+      <image:caption>Crystal growth under gravity compared with the potential effects of microgravity</image:caption>
+      <image:title>SpaceX Goes to Orbit. Is the Money in the Crystals?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals-en/figure-03-en.webp</image:loc>
+      <image:caption>Minimum viable value chain for space-enabled pharmaceutical research and manufacturing</image:caption>
+      <image:title>SpaceX Goes to Orbit. Is the Money in the Crystals?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals-en/figure-04-en.webp</image:loc>
+      <image:caption>Taiwan capability map from mission integration and launch-return logistics to planned X-ray crystallography</image:caption>
+      <image:title>SpaceX Goes to Orbit. Is the Money in the Crystals?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals/cover-zh.webp</image:loc>
+      <image:caption>SpaceX 火箭把結晶實驗送上軌道，再將樣本帶回地球分析</image:caption>
+      <image:title>SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals/01_SpaceX_%E6%8A%8A%E8%97%A5%E9%80%81%E4%B8%8A%E5%A4%AA%E7%A9%BA_GPT.webp</image:loc>
+      <image:caption>SpaceX 把候選分子送上太空，再把晶體樣本帶回地球</image:caption>
+      <image:title>SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals/02_%E5%9C%B0%E7%90%83%E8%88%87%E5%BE%AE%E9%87%8D%E5%8A%9B%E6%99%B6%E9%AB%94_GPT.webp</image:loc>
+      <image:caption>地球重力與微重力下的晶體生長差異</image:caption>
+      <image:title>SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals/03_%E5%A4%AA%E7%A9%BA%E8%A3%BD%E8%97%A5%E5%83%B9%E5%80%BC%E9%8F%88_GPT.webp</image:loc>
+      <image:caption>太空製藥的最小可行價值鏈</image:caption>
+      <image:title>SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals/04_%E5%8F%B0%E7%81%A3%E5%A4%AA%E7%A9%BA%E7%B5%90%E6%99%B6%E5%BA%A7%E6%A8%99_GPT.webp</image:loc>
+      <image:caption>台灣太空結晶能力座標</image:caption>
+      <image:title>SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-five-engines-en/cover-en.png</image:loc>

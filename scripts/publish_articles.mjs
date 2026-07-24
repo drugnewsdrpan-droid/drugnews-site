@@ -261,13 +261,13 @@ function stripMarkdown(markdown) {
 
 function stripReferenceSection(markdown) {
   return String(markdown || "").replace(
-    /(^|\n)\s*(?:#{1,3}\s*)?(參考(?:資料|來源)[:：]?|References:?)\s*\n[\s\S]*?(?=\n---|\n#{1,3}\s|$)/i,
+    /(^|\n)\s*(?:#{1,3}\s*)?(參考(?:資料|來源)[:：]?|References:?|Primary Sources:?)\s*\n[\s\S]*?(?=\n---|\n#{1,3}\s|$)/i,
     "$1"
   );
 }
 
 function referenceSection(markdown) {
-  const match = String(markdown || "").match(/(^|\n)\s*(?:#{1,3}\s*)?(參考(?:資料|來源)[:：]?|References:?)\s*\n([\s\S]*?)(?=\n---|\n#{1,3}\s|$)/i);
+  const match = String(markdown || "").match(/(^|\n)\s*(?:#{1,3}\s*)?(參考(?:資料|來源)[:：]?|References:?|Primary Sources:?)\s*\n([\s\S]*?)(?=\n---|\n#{1,3}\s|$)/i);
   return match ? match[3].trim() : "";
 }
 
@@ -1086,7 +1086,7 @@ function markdownToHtml(markdown, imageMap) {
 }
 
 function normalizeReferenceLists(html) {
-  const headingPattern = /(<(?:p|h[23])>\s*(?:參考資料|參考來源|References)[:：]?\s*<\/(?:p|h[23])>)([\s\S]*?)(?=<hr>|<div class="citation-box"|$)/i;
+  const headingPattern = /(<(?:p|h[23])>\s*(?:參考資料|參考來源|References|Primary Sources)[:：]?\s*<\/(?:p|h[23])>)([\s\S]*?)(?=<hr>|<div class="citation-box"|$)/i;
   return html.replace(headingPattern, (match, heading, section) => {
     if (/^\s*<ol>/i.test(section)) return match;
     const paragraphs = [...section.matchAll(/<p>([\s\S]*?)<\/p>/gi)].map((item) => item[1].trim()).filter(Boolean);
@@ -1213,7 +1213,8 @@ function footerHtml(meta = {}) {
 function citationText(meta, url) {
   const dateText = displayDate(meta.date, meta);
   if (isEnglish(meta)) {
-    return `Drugnews Editorial Team. "${meta.title}." Drugnews, ${dateText}. ${url}`;
+    const titlePunctuation = /[.!?]$/.test(meta.title) ? "" : ".";
+    return `Drugnews Editorial Team. "${meta.title}${titlePunctuation}" Drugnews, ${dateText}. ${url}`;
   }
   return `Drugnews 編輯部，〈${meta.title}〉，Drugnews｜藥時事，${dateText}，${url}`;
 }
@@ -1281,13 +1282,14 @@ function enhanceArticleHeadings(bodyHtml) {
   return { html, toc };
 }
 
-function tocLinksHtml(toc, mobile = false) {
+function tocLinksHtml(toc, mobile = false, english = false) {
   if (!toc.length) return "";
   const links = toc.slice(0, 8).map((item) => `<a href="#${item.id}" class="toc-level-${item.level}">${escapeHtml(item.title)}</a>`).join("");
+  const label = english ? "Table of Contents" : "章節目錄";
   if (mobile) {
-    return `<details class="mobile-toc"><summary>章節目錄</summary><div>${links}</div></details>`;
+    return `<details class="mobile-toc"><summary>${label}</summary><div>${links}</div></details>`;
   }
-  return `<aside class="article-toc" aria-label="章節目錄"><h2>章節目錄</h2>${links}</aside>`;
+  return `<aside class="article-toc" aria-label="${label}"><h2>${label}</h2>${links}</aside>`;
 }
 
 function markdownHeadings(markdown) {
@@ -1324,8 +1326,8 @@ function articleTrustHtml(article, toc) {
           ${updated ? `<span>${english ? "Last updated: " : "最後更新："}${escapeHtml(updated)}</span>` : ""}
           <span>${english ? `Reading time: about ${minutes} minutes` : `閱讀時間：約 ${minutes} 分鐘`}</span>
         </div>
-        ${judgments.length ? `<ul class="core-judgments" aria-label="本篇核心判斷">${judgments.map((item, index) => `<li><b>${String(index + 1).padStart(2, "0")}</b><span>${escapeHtml(item)}</span></li>`).join("")}</ul>` : ""}
-        ${tocLinksHtml(toc, true)}
+        ${judgments.length ? `<ul class="core-judgments" aria-label="${english ? "Key Judgments" : "本篇核心判斷"}">${judgments.map((item, index) => `<li><b>${String(index + 1).padStart(2, "0")}</b><span>${escapeHtml(item)}</span></li>`).join("")}</ul>` : ""}
+        ${tocLinksHtml(toc, true, english)}
       </div>`;
 }
 
@@ -1377,7 +1379,7 @@ function articlePage(article, bodyHtml, related) {
     ? enhanceArticleHeadings(bodyHtml)
     : { html: bodyHtml, toc: [] };
   const trustHtml = articleTrustHtml(article, enhancedArticle.toc);
-  const desktopTocHtml = tocLinksHtml(enhancedArticle.toc, false);
+  const desktopTocHtml = tocLinksHtml(enhancedArticle.toc, false, isEnglish(meta));
   const shareHtml = sharePanelHtml(meta, url);
   const bodyWithShare = injectAfterFirstParagraph(enhancedArticle.html, shareHtml);
   const relatedHtml = relatedModuleHtml(meta, related, sourceRecordFromMeta(article));
@@ -1980,9 +1982,7 @@ function evidenceSceneHtml() {
 }
 
 function homePage(records) {
-  const primaryItems = readerFirstSort(records.filter((item) => !item.external && accessLabel(item) === "免費文章" && /(Dcard|Facebook|FB)/i.test(item.source || "")));
-  const fallbackItems = readerFirstSort(records.filter((item) => accessLabel(item) === "免費文章" && !primaryItems.some((picked) => picked.slug === item.slug)));
-  const freeItems = [...primaryItems, ...fallbackItems];
+  const freeItems = readerFirstSort(records.filter((item) => accessLabel(item) === "免費文章"));
   const lead = freeItems[0] || readerFirstSort(records)[0];
   const briefing = freeItems.filter((item) => !lead || item.slug !== lead.slug).slice(0, 4);
   const leadHref = lead?.external ? lead.url : lead?.url || "articles/";

@@ -209,6 +209,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+      "date": "2026-07-24",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+      "source": "cmoney",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "SpaceX",
+        "microgravity",
+        "space pharmaceuticals",
+        "drug crystallization",
+        "Keytruda",
+        "Redwire",
+        "SpaceMD",
+        "Varda",
+        "formulation development",
+        "Taiwan biotech"
+      ],
+      "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation.",
+      "image": "https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals-en/cover-en.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-24-spacex-microgravity-drug-crystals.html"
+      }
+    },
+    {
+      "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+      "date": "2026-07-24",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+      "source": "cmoney",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "SpaceX",
+        "微重力",
+        "太空製藥",
+        "藥物結晶",
+        "Keytruda",
+        "Redwire",
+        "SpaceMD",
+        "Varda",
+        "製劑開發",
+        "台灣生技"
+      ],
+      "summary": "SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。",
+      "image": "https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals/cover-zh.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-24-spacex-microgravity-drug-crystals-en.html"
+      }
+    },
+    {
       "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
       "date": "2026-07-24",
       "language": "en",
@@ -1516,53 +1574,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-07-02-synthetic-lethality-next-parp.html"
-      }
-    },
-    {
-      "title": "合成致死二十年：為什麼 PARP 之後，下一個神藥遲遲沒有出現？",
-      "date": "2026-07-02",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "BD",
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "2005 年，《Nature》兩篇經典研究把 BRCA／PARP 這組關係推上舞台。",
-      "image": "https://drugnews.com.tw/assets/articles/synthetic-lethality-next-parp/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {}
-    },
-    {
-      "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
-      "date": "2026-07-01",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-01-adhd-centanafadine-phase3b-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "ADHD",
-        "centanafadine",
-        "Otsuka",
-        "clinical data",
-        "neuroscience",
-        "non-stimulant ADHD therapy",
-        "Taiwan biotech",
-        "drug development"
-      ],
-      "summary": "Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention.",
-      "image": "https://drugnews.com.tw/assets/articles/adhd-centanafadine-phase3b-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-01-adhd-centanafadine-phase3b.html"
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-24T04:00:32.000Z",
+  "generated_at": "2026-07-24T08:26:53.875Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+      "date": "2026-07-24",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+      "category": "商業分析",
+      "tags": [
+        "SpaceX",
+        "microgravity",
+        "space pharmaceuticals",
+        "drug crystallization",
+        "Keytruda",
+        "Redwire",
+        "SpaceMD",
+        "Varda"
+      ],
+      "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation."
+    },
+    {
+      "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+      "date": "2026-07-24",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+      "category": "商業分析",
+      "tags": [
+        "SpaceX",
+        "微重力",
+        "太空製藥",
+        "藥物結晶",
+        "Keytruda",
+        "Redwire",
+        "SpaceMD",
+        "Varda"
+      ],
+      "summary": "SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。"
+    },
     {
       "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
       "date": "2026-07-24",
@@ -770,42 +806,6 @@
         "CMC"
       ],
       "summary": "Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。"
-    },
-    {
-      "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-      "date": "2026-07-12",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "KRAS G12C",
-        "divarasib",
-        "Roche",
-        "oncology",
-        "clinical data",
-        "PFS",
-        "OS"
-      ],
-      "summary": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence."
-    },
-    {
-      "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-      "date": "2026-07-12",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-      "category": "商業分析",
-      "tags": [
-        "KRAS G12C",
-        "divarasib",
-        "Roche",
-        "腫瘤新藥",
-        "臨床數據",
-        "PFS",
-        "OS",
-        "生技投資"
-      ],
-      "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。"
     }
   ],
   "do_not_use_as": [

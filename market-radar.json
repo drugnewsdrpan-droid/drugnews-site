@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-24T04:00:31.951Z",
+  "generated_at": "2026-07-24T08:26:53.822Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -120,6 +120,25 @@
       "name": "AI 製藥與新技術",
       "count": 9,
       "articles": [
+        {
+          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "SpaceX",
+            "microgravity",
+            "space pharmaceuticals",
+            "drug crystallization",
+            "Keytruda",
+            "Redwire",
+            "SpaceMD",
+            "Varda"
+          ],
+          "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation."
+        },
         {
           "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
           "date": "2026-07-24",
@@ -267,25 +286,6 @@
             "clinical data"
           ],
           "summary": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits."
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Business Analysis",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "cell therapy",
-            "CAR-T",
-            "allogeneic cell therapy",
-            "clinical data"
-          ],
-          "summary": "Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table."
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-24T04:00:32.000Z",
+  "generated_at": "2026-07-24T08:26:53.875Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,54 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+      "date": "2026-07-24",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "SpaceX",
+        "microgravity",
+        "space pharmaceuticals",
+        "drug crystallization",
+        "Keytruda",
+        "Redwire",
+        "SpaceMD",
+        "Varda",
+        "formulation development",
+        "Taiwan biotech"
+      ],
+      "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-24-spacex-microgravity-drug-crystals.html"
+      }
+    },
+    {
+      "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+      "date": "2026-07-24",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "SpaceX",
+        "微重力",
+        "太空製藥",
+        "藥物結晶",
+        "Keytruda",
+        "Redwire",
+        "SpaceMD",
+        "Varda",
+        "製劑開發",
+        "台灣生技"
+      ],
+      "summary": "SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。",
+      "alternate_language_versions": {
+        "en": "2026-07-24-spacex-microgravity-drug-crystals-en.html"
+      }
+    },
     {
       "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
       "date": "2026-07-24",
@@ -769,54 +817,6 @@
       "alternate_language_versions": {
         "en": "2026-07-10-fda-nasp-en.html"
       }
-    },
-    {
-      "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-      "date": "2026-07-09",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Japan biotech",
-        "Taiwan biotech",
-        "startup ecosystem",
-        "drug development",
-        "clinical data",
-        "CMC",
-        "BD licensing"
-      ],
-      "summary": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-09-japan-biotech-ecosystem-global-gap.html"
-      }
-    },
-    {
-      "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-      "date": "2026-07-09",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "日本生技",
-        "Biotech ecosystem",
-        "startup ecosystem",
-        "創新藥",
-        "大藥廠",
-        "BD",
-        "臨床數據",
-        "CMC",
-        "資本市場",
-        "生技投資"
-      ],
-      "summary": "日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。",
-      "alternate_language_versions": {
-        "en": "2026-07-09-japan-biotech-ecosystem-global-gap-en.html"
-      }
     }
   ],
   "entities": [
@@ -937,7 +937,7 @@
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 21,
+      "mentions": 20,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -975,7 +975,7 @@
     {
       "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 20,
+      "mentions": 19,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -1006,6 +1006,44 @@
           "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
           "date": "2026-06-08",
           "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Taiwan biotech",
+      "type": "topic",
+      "mentions": 18,
+      "latest_date": "2026-07-24",
+      "latest_articles": [
+        {
+          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
+          "language": "en"
+        },
+        {
+          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
           "language": "en"
         }
       ]
@@ -1044,44 +1082,6 @@
           "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
           "date": "2026-07-16",
           "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Taiwan biotech",
-      "type": "topic",
-      "mentions": 17,
-      "latest_date": "2026-07-20",
-      "latest_articles": [
-        {
-          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-          "language": "en"
-        },
-        {
-          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
-          "date": "2026-07-15",
-          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
           "language": "en"
         }
       ]
@@ -1469,7 +1469,7 @@
     {
       "name": "Clinical and CMC",
       "type": "biotech_concept_or_target",
-      "mentions": 9,
+      "mentions": 8,
       "latest_date": "2026-06-08",
       "latest_articles": [
         {
@@ -1501,6 +1501,44 @@
           "date": "2026-05-31",
           "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "台灣生技",
+      "type": "topic",
+      "mentions": 7,
+      "latest_date": "2026-07-24",
+      "latest_articles": [
+        {
+          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1809,44 +1847,6 @@
       ]
     },
     {
-      "name": "台灣生技",
-      "type": "topic",
-      "mentions": 6,
-      "latest_date": "2026-07-20",
-      "latest_articles": [
-        {
-          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "AI drug discovery",
       "type": "topic",
       "mentions": 6,
@@ -2107,6 +2107,38 @@
       ]
     },
     {
+      "name": "Keytruda",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-07-24",
+      "latest_articles": [
+        {
+          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+          "language": "en"
+        },
+        {
+          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
+          "date": "2026-06-21",
+          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
+          "language": "en"
+        },
+        {
+          "title": "藥王的最佳搭檔？療效翻倍！",
+          "date": "2026-05-30",
+          "url": "https://drugnews.com.tw/articles/2026-05-30-drug-combination-efficacy-doubling.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "MASH",
       "type": "topic",
       "mentions": 4,
@@ -2294,38 +2326,6 @@
           "title": "Sun Pharma, Teva, and the Transformation Anxiety of Global Generic Drugmakers",
           "date": "2026-05-27",
           "url": "https://drugnews.com.tw/articles/2026-05-27-generic-pharma-transformation-anxiety-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Immunology",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-06-08",
-      "latest_articles": [
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        },
-        {
-          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
-          "date": "2026-06-03",
-          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Asthma Drugs Are Shifting Gears: From Triple Inhalers to Upstream Immune Targets",
-          "date": "2026-05-25",
-          "url": "https://drugnews.com.tw/articles/2026-05-25-asthma-new-drug-immune-targets-en.html",
           "language": "en"
         }
       ]
@@ -2643,6 +2643,32 @@
       ]
     },
     {
+      "name": "Immunology",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-06-08",
+      "latest_articles": [
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        },
+        {
+          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
+          "date": "2026-06-03",
+          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "argenx",
       "type": "topic",
       "mentions": 2,
@@ -2703,6 +2729,26 @@
       ]
     },
     {
+      "name": "Redwire",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-24",
+      "latest_articles": [
+        {
+          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+          "language": "en"
+        },
+        {
+          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Royalty Pharma",
       "type": "topic",
       "mentions": 2,
@@ -2718,6 +2764,66 @@
           "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
           "date": "2026-07-24",
           "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "SpaceMD",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-24",
+      "latest_articles": [
+        {
+          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+          "language": "en"
+        },
+        {
+          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "SpaceX",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-24",
+      "latest_articles": [
+        {
+          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+          "language": "en"
+        },
+        {
+          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Varda",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-24",
+      "latest_articles": [
+        {
+          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+          "language": "en"
+        },
+        {
+          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
           "language": "zh-Hant"
         }
       ]
@@ -3081,109 +3187,28 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "CDE",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-19",
-      "latest_articles": [
-        {
-          "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
-          "language": "en"
-        },
-        {
-          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "HORIZON",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-19",
-      "latest_articles": [
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Ionis",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-19",
-      "latest_articles": [
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Lp(a)",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-07-19",
-      "latest_articles": [
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "NAMs",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-19",
-      "latest_articles": [
-        {
-          "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
-          "language": "en"
-        },
-        {
-          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+      "date": "2026-07-24",
+      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "SpaceX",
+        "microgravity",
+        "space pharmaceuticals",
+        "drug crystallization",
+        "Keytruda",
+        "Redwire",
+        "SpaceMD",
+        "Varda"
+      ],
+      "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation."
+    },
     {
       "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
       "date": "2026-07-24",
@@ -3723,25 +3748,6 @@
         "台灣生技"
       ],
       "summary": "邏輯很簡單：傳統自體 CAR-T 需要取出患者自己的 T 細胞，送到工廠改造、擴增、檢驗，再回輸到患者體內。療效可以很強，但等待時間長、成本高、製程複雜，病情進展太快或 T 細胞品質太差的患者，常常等不到治療。"
-    },
-    {
-      "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-      "date": "2026-07-06",
-      "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "cell therapy",
-        "CAR-T",
-        "allogeneic cell therapy",
-        "clinical data"
-      ],
-      "summary": "Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table."
     }
   ]
 }

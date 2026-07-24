@@ -1,0 +1,24 @@
+{
+  "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+  "date": "2026-07-24",
+  "publish_at": "2026-07-24T16:20:00+08:00",
+  "category": "商業分析系列",
+  "tags": ["SpaceX", "微重力", "太空製藥", "藥物結晶", "Keytruda", "Redwire", "SpaceMD", "Varda", "製劑開發", "台灣生技"],
+  "summary": "SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。",
+  "slug": "spacex-microgravity-drug-crystals",
+  "source_platform": "cmoney",
+  "cmoney_article_id": "180705246",
+  "cmoney_url": "https://www.cmoney.tw/forum/article/180705246",
+  "source_status": "public CMoney article readback recorded on 2026-07-20",
+  "cover_image": "images/cover-zh.webp",
+  "cover_image_alt": "SpaceX 火箭、低地球軌道晶體、返回艙與地面分析共同構成微重力製藥往返流程",
+  "homepage_cover_image": "images/cover-zh.webp",
+  "homepage_cover_image_alt": "SpaceX 火箭把結晶實驗送上軌道，再將樣本帶回地球分析",
+  "enable_toc": true,
+  "core_judgments": [
+    "SpaceX 提供的是往返低軌與樣本回收，不是新藥研發。",
+    "太空製藥的初期價值更可能來自晶型探索、晶種培養與製劑篩選，量產仍在地面。",
+    "商業化必須同時通過可重複、可放大與可監管三道驗證。"
+  ],
+  "translations": {"en": "2026-07-24-spacex-microgravity-drug-crystals-en.html"}
+}

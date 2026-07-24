@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 24 Jul 2026 04:00:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 08:26:53 GMT</lastBuildDate>
+    <item>
+      <title>SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金</title>
+      <link>https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html</guid>
+      <pubDate>Fri, 24 Jul 2026 08:20:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals/cover-zh.webp" alt="SpaceX 火箭、低地球軌道晶體、返回艙與地面分析共同構成微重力製藥往返流程"></p><p>SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。</p>]]></description>
+    </item>
     <item>
       <title>Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma</title>
       <link>https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Sun, 05 Jul 2026 04:10:13 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma/cover.png" alt="半年併購 1,340 億美元：Big Pharma 到底在搶什麼？ 專題封面"></p><p>2026 年才過一半，全球製藥業的併購節奏已經快到讓人有點恍神。</p>]]></description>
-    </item>
-    <item>
-      <title>美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了</title>
-      <link>https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html</guid>
-      <pubDate>Sat, 04 Jul 2026 00:35:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials/cover.png" alt="美國 HHS Operation TrialBlazer 臨床試驗改革專題封面"></p><p>2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。</p>]]></description>
     </item>
   </channel>
 </rss>
