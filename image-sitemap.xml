@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine-en/cover-en.webp</image:loc>
+      <image:caption>Roche uses established clinical, diagnostic, and commercial capabilities to carry new molecules into its next growth cycle</image:caption>
+      <image:title>Roche&apos;s Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine-en/figure-01-en.webp</image:loc>
+      <image:caption>Roche&apos;s established products hand clinical and commercial infrastructure to the next generation of medicines</image:caption>
+      <image:title>Roche&apos;s Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine-en/figure-02-en.webp</image:loc>
+      <image:caption>Roche&apos;s near-term filings, mid-term phase 3 programs, and longer-term options form a three-layer succession map</image:caption>
+      <image:title>Roche&apos;s Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine-en/figure-04-en.webp</image:loc>
+      <image:caption>Roche reuses clinical trials, diagnostics, physician networks, and commercial channels across six disease areas</image:caption>
+      <image:title>Roche&apos;s Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine-en/figure-03-en.webp</image:loc>
+      <image:caption>BRIM Biotechnology&apos;s four ophthalmology assets face a prove, license, and scale succession test</image:caption>
+      <image:title>Roche&apos;s Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine/cover-zh.webp</image:loc>
+      <image:caption>羅氏以既有臨床、診斷與商業能力把新分子接進下一個成長週期</image:caption>
+      <image:title>羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine/figure-01-zh.webp</image:loc>
+      <image:caption>羅氏成熟產品把臨床試驗與商業通路交給下一代藥物</image:caption>
+      <image:title>羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine/figure-02-zh.webp</image:loc>
+      <image:caption>羅氏以近端申報、中段三期與遠端新選擇權構成三層接棒架構</image:caption>
+      <image:title>羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine/figure-04-zh.webp</image:loc>
+      <image:caption>羅氏把臨床試驗、診斷、醫師網路與商業通路重複用在六個疾病版圖</image:caption>
+      <image:title>羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine/figure-03-zh.webp</image:loc>
+      <image:caption>全福生技四項眼科資產從證明、授權到放大的接棒考題</image:caption>
+      <image:title>羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals-en/cover-en.webp</image:loc>

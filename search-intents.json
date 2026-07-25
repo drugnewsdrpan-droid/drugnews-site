@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-24T08:26:53.875Z",
+  "generated_at": "2026-07-25T02:48:33.711Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+      "date": "2026-07-25",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Roche",
+        "Big Pharma",
+        "pharma strategy",
+        "giredestrant",
+        "fenebrutinib",
+        "trontinemab",
+        "petrelintide",
+        "bexobrutideg"
+      ],
+      "summary": "Roche generated CHF 47.669 billion in pharmaceutical sales in 2025, with Ocrevus, Hemlibra, and Vabysmo already accounting for roughly one-third of the total. The number that matters is not simply 19 potential new molecules, but whether giredestrant, fenebrutinib, obesity, Alzheimer's, and protein-degradation assets can inherit Roche's existing clinical, diagnostic, and commercial infrastructure on time."
+    },
+    {
+      "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+      "date": "2026-07-25",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+      "category": "商業分析",
+      "tags": [
+        "Roche",
+        "羅氏",
+        "Big Pharma",
+        "製藥巨頭",
+        "giredestrant",
+        "fenebrutinib",
+        "trontinemab",
+        "petrelintide"
+      ],
+      "summary": "羅氏 2025 年製藥銷售 476.69 億瑞士法郎，Ocrevus、Hemlibra 與 Vabysmo 已撐起約三分之一收入。真正值得追的不是 19 個新分子的總數，而是 giredestrant、fenebrutinib、減重、阿茲海默症與蛋白質降解資產能否沿既有臨床、診斷與商業通路準時接棒。"
+    },
     {
       "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
       "date": "2026-07-24",
@@ -770,42 +806,6 @@
         "浩鼎"
       ],
       "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。"
-    },
-    {
-      "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-      "date": "2026-07-13",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "AI drug discovery",
-        "Claude Science",
-        "Anthropic",
-        "foundation models",
-        "drug development",
-        "AnHorn Medicines",
-        "PROTAC"
-      ],
-      "summary": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets."
-    },
-    {
-      "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-      "date": "2026-07-13",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-      "category": "商業分析",
-      "tags": [
-        "AI 製藥",
-        "Claude Science",
-        "Anthropic",
-        "大型語言模型",
-        "新藥研發",
-        "安宏生醫",
-        "PROTAC",
-        "CMC"
-      ],
-      "summary": "Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。"
     }
   ],
   "do_not_use_as": [

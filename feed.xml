@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 24 Jul 2026 08:26:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 02:48:33 GMT</lastBuildDate>
+    <item>
+      <title>羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？</title>
+      <link>https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html</guid>
+      <pubDate>Sat, 25 Jul 2026 01:20:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine/cover-zh.webp" alt="成熟產品、臨床試驗橋梁與多種新療法構成羅氏藥物接棒系統"></p><p>羅氏 2025 年製藥銷售 476.69 億瑞士法郎，Ocrevus、Hemlibra 與 Vabysmo 已撐起約三分之一收入。真正值得追的不是 19 個新分子的總數，而是 giredestrant、fenebrutinib、減重、阿茲海默症與蛋白質降解資產能否沿既有臨床、診斷與商業通路準時接棒。</p>]]></description>
+    </item>
     <item>
       <title>SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金</title>
       <link>https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Mon, 06 Jul 2026 01:00:12 GMT</pubDate>
       <category>深度商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a297eadfd89780001e9cbec-source.jpg" alt="浩鼎 ADC 與 GlycOBI 平台估值快評"></p><p>浩鼎 ADC 重估不能只看 TROP2 題材。這篇用 OBI-992、OBI-902、GlycOBI、BD 選擇權與 SOTP，重算合理市值與上修／下修條件。</p>]]></description>
-    </item>
-    <item>
-      <title>半年併購 1,340 億美元：Big Pharma 到底在搶什麼？</title>
-      <link>https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html</guid>
-      <pubDate>Sun, 05 Jul 2026 04:10:13 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma/cover.png" alt="半年併購 1,340 億美元：Big Pharma 到底在搶什麼？ 專題封面"></p><p>2026 年才過一半，全球製藥業的併購節奏已經快到讓人有點恍神。</p>]]></description>
     </item>
   </channel>
 </rss>

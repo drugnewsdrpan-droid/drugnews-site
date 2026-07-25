@@ -1320,7 +1320,6 @@ function articleTrustHtml(article, toc) {
   if (!judgments.length && !reviewer && !updated) return "";
   return `<div class="article-trust-panel">
         <div class="article-trust-meta">
-          <span>${english ? "Author: Drugnews Editorial Team" : "作者：Drugnews 編輯部"}</span>
           ${reviewer ? `<span>${english ? "Scientific review: " : "科學審閱："}${escapeHtml(reviewer)}</span>` : ""}
           <span>${english ? "Published: " : "發布："}${escapeHtml(date)}</span>
           ${updated ? `<span>${english ? "Last updated: " : "最後更新："}${escapeHtml(updated)}</span>` : ""}

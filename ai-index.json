@@ -209,6 +209,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+      "date": "2026-07-25",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+      "source": "facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Roche",
+        "Big Pharma",
+        "pharma strategy",
+        "giredestrant",
+        "fenebrutinib",
+        "trontinemab",
+        "petrelintide",
+        "bexobrutideg",
+        "BRIM Biotechnology",
+        "BD licensing"
+      ],
+      "summary": "Roche generated CHF 47.669 billion in pharmaceutical sales in 2025, with Ocrevus, Hemlibra, and Vabysmo already accounting for roughly one-third of the total. The number that matters is not simply 19 potential new molecules, but whether giredestrant, fenebrutinib, obesity, Alzheimer's, and protein-degradation assets can inherit Roche's existing clinical, diagnostic, and commercial infrastructure on time.",
+      "image": "https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine-en/cover-en.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-25-roche-19-molecule-succession-engine.html"
+      }
+    },
+    {
+      "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+      "date": "2026-07-25",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+      "source": "facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Roche",
+        "羅氏",
+        "Big Pharma",
+        "製藥巨頭",
+        "giredestrant",
+        "fenebrutinib",
+        "trontinemab",
+        "petrelintide",
+        "bexobrutideg",
+        "全福生技"
+      ],
+      "summary": "羅氏 2025 年製藥銷售 476.69 億瑞士法郎，Ocrevus、Hemlibra 與 Vabysmo 已撐起約三分之一收入。真正值得追的不是 19 個新分子的總數，而是 giredestrant、fenebrutinib、減重、阿茲海默症與蛋白質降解資產能否沿既有臨床、診斷與商業通路準時接棒。",
+      "image": "https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine/cover-zh.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-25-roche-19-molecule-succession-engine-en.html"
+      }
+    },
+    {
       "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
       "date": "2026-07-24",
       "language": "en",
@@ -1523,57 +1581,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-07-03-revmed-biotech.html"
-      }
-    },
-    {
-      "title": "拒絕被併購的 RevMed：Biotech 的獨立時代",
-      "date": "2026-07-03",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭"
-      ],
-      "summary": "圍繞 Revolution Medicines（RevMed）的併購傳聞，一直沒有真正停過。",
-      "image": "https://drugnews.com.tw/assets/articles/revmed-biotech/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-03-revmed-biotech-en.html"
-      }
-    },
-    {
-      "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-      "date": "2026-07-02",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "synthetic lethality",
-        "PARP",
-        "PRMT5",
-        "MTAP",
-        "RAS",
-        "oncology",
-        "biomarkers",
-        "Taiwan biotech",
-        "drug development"
-      ],
-      "summary": "PARP inhibitors turned synthetic lethality into a commercial reality. Two decades later, the industry is still asking why the next PARP-like blockbuster has been so difficult to reproduce.",
-      "image": "https://drugnews.com.tw/assets/articles/synthetic-lethality-next-parp-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-02-synthetic-lethality-next-parp.html"
       }
     }
   ]

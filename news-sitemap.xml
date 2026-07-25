@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T01:20:00.000Z</news:publication_date>
+      <news:title>Roche&apos;s Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T01:20:00.000Z</news:publication_date>
+      <news:title>羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html</loc>
     <news:news>
       <news:publication>
@@ -42,28 +64,6 @@
       </news:publication>
       <news:publication_date>2026-07-24T02:30:00.000Z</news:publication_date>
       <news:title>Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T01:45:00.000Z</news:publication_date>
-      <news:title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T01:45:00.000Z</news:publication_date>
-      <news:title>After Xtandi: Can Astellas Build an Oncology Platform?</news:title>
     </news:news>
   </url>
 </urlset>
