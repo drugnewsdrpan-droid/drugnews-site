@@ -16,6 +16,8 @@ The FDA and J&J formally describe ICOTYDE as a targeted oral peptide. It is not 
 
 Its technical significance is that an oral peptide can directly block IL-23R despite the gastrointestinal stability and absorption barriers that historically constrained peptides. That does not validate every oral macromolecule platform. Exposure, dose, target biology, and therapeutic window remain molecule-specific.
 
+That distinction matters commercially as well as scientifically. ICOTYDE should be read as evidence for one molecule under one set of exposure, dose, target, and therapeutic-window constraints—not as blanket validation of every oral peptide or macromolecule program. The product shows that direct IL-23R blockade can be delivered orally in this setting. It does not remove the separate formulation, absorption, target-biology, and safety questions that each future candidate must answer for itself.
+
 ![ICOTYDE is a targeted oral IL-23R peptide, not an oral biologic](images/01_approval-and-naming.png)
 
 ## The Threshold It Actually Crossed Was Efficacy
