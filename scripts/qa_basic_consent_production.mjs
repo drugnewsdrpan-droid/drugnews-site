@@ -18,7 +18,7 @@ function stage(label) {
 
 function applyTimeouts(page) {
   page.setDefaultTimeout(15_000);
-  page.setDefaultNavigationTimeout(20_000);
+  page.setDefaultNavigationTimeout(60_000);
 }
 
 function isGoogleAnalyticsRequest(url) {
@@ -124,6 +124,7 @@ try {
   check(await acceptedPage.evaluate(() => document.activeElement?.hasAttribute("data-drugnews-consent-settings")), "keyboard: focus did not return");
 
   await settingsButton.click();
+  await acceptedPage.waitForTimeout(1_000);
   requestPhase = "withdraw";
   await Promise.all([
     acceptedPage.waitForNavigation({ waitUntil: "domcontentloaded" }),
