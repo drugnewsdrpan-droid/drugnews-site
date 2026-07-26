@@ -6,6 +6,10 @@ const SETTINGS_PATH = path.join(ROOT, "content", "site-settings.json");
 const START = "<!-- Drugnews analytics:start -->";
 const END = "<!-- Drugnews analytics:end -->";
 const MANAGED_BLOCK = new RegExp(`\\n?\\s*${START}[\\s\\S]*?${END}\\s*\\n?`, "g");
+const PRIVACY_START = "<!-- Drugnews privacy-links:start -->";
+const PRIVACY_END = "<!-- Drugnews privacy-links:end -->";
+const PRIVACY_BLOCK = new RegExp(`\\n?\\s*${PRIVACY_START}[\\s\\S]*?${PRIVACY_END}\\s*\\n?`, "g");
+const CONSENT_VERSION = "2026-07-26";
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -37,55 +41,40 @@ function analyticsBlock({ gaId, verification }) {
   const verificationMeta = verification
     ? `  <meta name="google-site-verification" content="${escapeHtml(verification)}">\n`
     : "";
-  const gaBlock = gaId
-    ? `  <script async src="https://www.googletagmanager.com/gtag/js?id=${escapeHtml(gaId)}"></script>
+  return `  ${START}
+${verificationMeta}  <link rel="stylesheet" href="/privacy-consent.css?v=20260726-2">
   <script>
+    window.drugnewsAnalyticsConfig = {
+      measurementId: '${escapeHtml(gaId)}',
+      consentVersion: '${CONSENT_VERSION}'
+    };
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '${escapeHtml(gaId)}');
-    function drugnewsEventName(url) {
-      var parsed = new URL(url, window.location.origin);
-      var campaign = parsed.searchParams.get('utm_campaign') || '';
-      if (/^mailto:/i.test(url) && /join(?:%20|\+)the(?:%20|\+)drugnews(?:%20|\+)english(?:%20|\+)reader(?:%20|\+)list/i.test(url)) return 'english_reader_list_click';
-      if (campaign === 'company_services' || /forms\\.gle/i.test(parsed.hostname)) return 'company_services_click';
-      if (/^paid_research/.test(campaign)) return 'paid_research_click';
-      if (/\\/en\\/feed\\.(xml|json)$/i.test(parsed.pathname)) return 'english_rss_click';
-      if (/vocus\\.cc/i.test(url)) return 'paid_column_click';
-      if (/\\/services\\.html|\\/en\\/services\\.html/i.test(url)) return 'company_services_click';
-      if (/facebook\\.com|dcard\\.tw|cmoney\\.tw|instagram\\.com|linkedin\\.com/i.test(url)) return 'social_follow_click';
-      if (/\\/en\\//i.test(url)) return 'english_site_click';
-      if (/mailto:/i.test(url)) return 'contact_click';
-      return 'outbound_click';
-    }
-    document.addEventListener('click', function (event) {
-      var link = event.target.closest && event.target.closest('a[href]');
-      if (!link || !window.gtag) return;
-      var url = link.href || '';
-      var parsed = new URL(url, window.location.origin);
-      var isOutbound = url && !url.startsWith(window.location.origin);
-      var isSubscription = /vocus|facebook|dcard|cmoney|instagram|linkedin/i.test(url);
-      var isTrackedInternal = /\\/services\\.html|\\/en\\/services\\.html|\\/en\\/|\\/en\\/feed\\.(xml|json)/i.test(url);
-      if (isOutbound || isSubscription || isTrackedInternal) {
-        gtag('event', drugnewsEventName(url), {
-          event_category: isOutbound ? 'outbound_link' : 'site_link',
-          event_label: url,
-          link_url: url,
-          link_domain: parsed.hostname,
-          link_text: (link.innerText || link.getAttribute('aria-label') || '').trim().slice(0, 120),
-          page_language: document.documentElement.lang || '',
-          page_path: window.location.pathname,
-          utm_campaign: parsed.searchParams.get('utm_campaign') || '',
-          utm_content: parsed.searchParams.get('utm_content') || ''
-        });
-      }
+    window.gtag = window.gtag || function(){window.dataLayer.push(arguments);};
+    window.gtag('consent', 'default', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied'
     });
-  </script>\n`
-    : "";
-  if (!verificationMeta && !gaBlock) return "";
-  return `
-  ${START}
-${verificationMeta}${gaBlock}  ${END}`;
+    window.gtag('set', 'ads_data_redaction', true);
+  </script>
+  <script defer src="/privacy-consent.js?v=20260726-2"></script>
+  ${END}`;
+}
+
+function privacyLinks(isEnglish) {
+  const privacyHref = isEnglish ? "/en/privacy.html" : "/privacy.html";
+  const cookiesHref = isEnglish ? "/en/cookies.html" : "/cookies.html";
+  const privacyLabel = isEnglish ? "Privacy" : "隱私權";
+  const cookiesLabel = isEnglish ? "Cookies" : "Cookie";
+  const settingsLabel = isEnglish ? "Privacy settings" : "隱私設定";
+  return `${PRIVACY_START}
+  <nav class="privacy-footer-links" aria-label="${isEnglish ? "Privacy" : "隱私權"}">
+    <a href="${privacyHref}">${privacyLabel}</a>
+    <a href="${cookiesHref}">${cookiesLabel}</a>
+    <button type="button" class="privacy-footer-button" data-drugnews-consent-settings>${settingsLabel}</button>
+  </nav>
+  ${PRIVACY_END}`;
 }
 
 async function listHtmlFiles(dir) {
@@ -110,12 +99,20 @@ async function main() {
   const block = analyticsBlock({ gaId, verification });
   const files = await listHtmlFiles(ROOT);
   let changed = 0;
+  let headCoverage = 0;
+  let footerCoverage = 0;
 
   for (const file of files) {
     const original = await fs.readFile(file, "utf8");
-    let next = original.replace(MANAGED_BLOCK, "\n");
-    if (block && /<\/head>/i.test(next)) {
-      next = next.replace(/<\/head>/i, `${block}\n</head>`);
+    let next = original.replace(MANAGED_BLOCK, "").replace(PRIVACY_BLOCK, "");
+    if (/<\/head>/i.test(next)) {
+      next = next.replace(/\s*<\/head>/i, `\n${block}\n</head>`);
+      headCoverage += 1;
+    }
+    if (/<\/footer>/i.test(next)) {
+      const isEnglish = /<html\b[^>]*\blang=["']en(?:-|["'])/i.test(next);
+      next = next.replace(/\s*<\/footer>/i, `\n${privacyLinks(isEnglish)}\n</footer>`);
+      footerCoverage += 1;
     }
     if (next !== original) {
       await fs.writeFile(file, next);
@@ -123,9 +120,11 @@ async function main() {
     }
   }
 
-  const status = gaId ? `GA4 enabled (${gaId})` : "GA4 not enabled; set content/site-settings.json google_analytics_id.";
+  const status = gaId
+    ? `Consent-gated GA4 configured (${gaId}); Google tag loads only after acceptance.`
+    : "Consent UI enabled; GA4 not configured and cannot load without a real Measurement ID.";
   const verifyStatus = verification ? "Search Console verification meta enabled." : "Search Console verification meta not enabled.";
-  console.log(`${status} ${verifyStatus} Updated ${changed} HTML file(s).`);
+  console.log(`${status} ${verifyStatus} Updated ${changed} HTML file(s); head coverage ${headCoverage}; footer coverage ${footerCoverage}.`);
 }
 
 main().catch((error) => {
