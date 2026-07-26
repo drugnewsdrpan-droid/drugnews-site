@@ -42,7 +42,7 @@ function analyticsBlock({ gaId, verification }) {
     ? `  <meta name="google-site-verification" content="${escapeHtml(verification)}">\n`
     : "";
   return `  ${START}
-${verificationMeta}  <link rel="stylesheet" href="/privacy-consent.css?v=20260726-1">
+${verificationMeta}  <link rel="stylesheet" href="/privacy-consent.css?v=20260726-2">
   <script>
     window.drugnewsAnalyticsConfig = {
       measurementId: '${escapeHtml(gaId)}',
@@ -58,7 +58,7 @@ ${verificationMeta}  <link rel="stylesheet" href="/privacy-consent.css?v=2026072
     });
     window.gtag('set', 'ads_data_redaction', true);
   </script>
-  <script defer src="/privacy-consent.js?v=20260726-1"></script>
+  <script defer src="/privacy-consent.js?v=20260726-2"></script>
   ${END}`;
 }
 

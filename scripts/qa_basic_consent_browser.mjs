@@ -133,6 +133,7 @@ try {
   ]);
   const withdrawn = await acceptPage.evaluate(() => JSON.parse(localStorage.getItem("drugnewsConsentV1")));
   check(withdrawn.status === "denied" && Boolean(withdrawn.timestamp), "withdrawal: denied preference missing");
+  check(await acceptPage.evaluate(() => window["ga-disable-G-QAONLY123"] === true), "withdrawal: GA disable flag missing");
   check(analyticsRequests.length === requestsBeforeWithdrawal, "withdrawal reload: loaded Google tag again");
   check((await acceptContext.cookies()).every((cookie) => !cookie.name.startsWith("_ga")), "withdrawal: _ga cookie remains");
   check(await acceptPage.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth), "1440: horizontal overflow");

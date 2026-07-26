@@ -91,6 +91,11 @@
     });
   }
 
+  function setAnalyticsDisabled(disabled) {
+    if (!validMeasurementId()) return;
+    window["ga-disable-" + measurementId] = Boolean(disabled);
+  }
+
   function safeCampaignValue(value) {
     value = String(value || "").trim();
     return /^[a-z0-9._-]{1,80}$/i.test(value) ? value : "";
@@ -112,6 +117,7 @@
   function loadAnalytics() {
     if (!validMeasurementId() || googleTagLoaded) return;
 
+    setAnalyticsDisabled(false);
     consentState("granted");
     analyticsEnabled = true;
     googleTagLoaded = true;
@@ -239,6 +245,7 @@
     }
 
     analyticsEnabled = false;
+    setAnalyticsDisabled(true);
     consentState("denied");
     deleteAnalyticsCookies();
     announce(copy.statusDenied);
@@ -292,10 +299,12 @@
     document.body.insertAdjacentHTML("beforeend", settingsMarkup(preference));
     document.body.insertAdjacentHTML("beforeend", '<div class="drugnews-consent-live" data-consent-live aria-live="polite"></div>');
     if (!preference) {
+      setAnalyticsDisabled(true);
       document.body.insertAdjacentHTML("beforeend", bannerMarkup());
     } else if (preference.status === "accepted") {
       loadAnalytics();
     } else {
+      setAnalyticsDisabled(true);
       consentState("denied");
     }
 

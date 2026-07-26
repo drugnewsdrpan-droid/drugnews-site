@@ -46,6 +46,8 @@ const runtimeRequirements = [
   'ad_personalization: "denied"',
   "allow_google_signals: false",
   "allow_ad_personalization_signals: false",
+  "setAnalyticsDisabled",
+  '"ga-disable-" + measurementId',
   "deleteAnalyticsCookies",
   'window.location.reload()',
   "keepFocusInSettings",
@@ -63,7 +65,7 @@ const injectorRequirements = [
   "ad_storage: 'denied'",
   "ad_user_data: 'denied'",
   "ad_personalization: 'denied'",
-  'src="/privacy-consent.js?v=20260726-1"',
+  'src="/privacy-consent.js?v=20260726-2"',
   "data-drugnews-consent-settings"
 ];
 for (const marker of injectorRequirements) {
@@ -83,11 +85,11 @@ for (const file of files) {
   if (/<\/head>/i.test(html)) {
     headPages += 1;
     requireMarker(count(html, "<!-- Drugnews analytics:start -->") === 1, `${relative}: analytics block count is not 1`);
-    requireMarker(count(html, "/privacy-consent.js?v=20260726-1") === 1, `${relative}: consent runtime count is not 1`);
-    requireMarker(count(html, "/privacy-consent.css?v=20260726-1") === 1, `${relative}: consent stylesheet count is not 1`);
+    requireMarker(count(html, "/privacy-consent.js?v=20260726-2") === 1, `${relative}: consent runtime count is not 1`);
+    requireMarker(count(html, "/privacy-consent.css?v=20260726-2") === 1, `${relative}: consent stylesheet count is not 1`);
     requireMarker(!html.includes("googletagmanager.com/gtag/js"), `${relative}: directly loads Google tag`);
     const deniedIndex = html.indexOf("window.gtag('consent', 'default'");
-    const runtimeIndex = html.indexOf("/privacy-consent.js?v=20260726-1");
+    const runtimeIndex = html.indexOf("/privacy-consent.js?v=20260726-2");
     requireMarker(deniedIndex >= 0 && runtimeIndex > deniedIndex, `${relative}: default-denied does not precede runtime`);
   }
   if (/<\/footer>/i.test(html)) {
