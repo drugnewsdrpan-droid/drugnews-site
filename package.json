@@ -33,6 +33,7 @@
     "audit:cover-visual:strict": "node scripts/audit_cover_visual_consistency.mjs --strict",
     "audit:english-completeness": "node scripts/audit_english_article_completeness.mjs",
     "audit:english-completeness:strict": "node scripts/audit_english_article_completeness.mjs --strict",
+    "audit:source-provenance": "node scripts/audit_source_provenance.mjs",
     "audit:pm": "node scripts/audit_daily_pm_health.mjs",
     "audit:pm:strict": "node scripts/audit_daily_pm_health.mjs --strict",
     "checkpoint:cxo": "node scripts/summarize_daily_status.mjs",
