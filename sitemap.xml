@@ -23,6 +23,10 @@
   <url><loc>https://drugnews.com.tw/brand-profile.json</loc><lastmod>2026-07-25</lastmod><priority>0.5</priority></url>
   <url><loc>https://drugnews.com.tw/companies.html</loc><lastmod>2026-07-25</lastmod><priority>0.75</priority></url>
   <url><loc>https://drugnews.com.tw/about.html</loc><lastmod>2026-07-25</lastmod><priority>0.75</priority></url>
+  <url><loc>https://drugnews.com.tw/privacy.html</loc><lastmod>2026-07-26</lastmod><priority>0.55</priority></url>
+  <url><loc>https://drugnews.com.tw/cookies.html</loc><lastmod>2026-07-26</lastmod><priority>0.55</priority></url>
+  <url><loc>https://drugnews.com.tw/en/privacy.html</loc><lastmod>2026-07-26</lastmod><priority>0.55</priority></url>
+  <url><loc>https://drugnews.com.tw/en/cookies.html</loc><lastmod>2026-07-26</lastmod><priority>0.55</priority></url>
   <url><loc>https://drugnews.com.tw/guides/</loc><priority>0.8</priority></url>
   <url><loc>https://drugnews.com.tw/guides/clinical-endpoints.html</loc><priority>0.7</priority></url>
   <url><loc>https://drugnews.com.tw/guides/regulatory-milestones.html</loc><priority>0.7</priority></url>

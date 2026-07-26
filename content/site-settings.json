@@ -1,8 +1,10 @@
 {
   "google_analytics_id": "",
   "google_search_console_verification": "",
+  "consent_policy_version": "2026-07-26",
   "notes": {
-    "google_analytics_id": "Fill with a GA4 Measurement ID such as G-XXXXXXXXXX to enable page-view and outbound-click tracking.",
+    "google_analytics_id": "A real GA4 Measurement ID enables analytics only after the visitor explicitly accepts optional analytics.",
+    "consent_policy_version": "Increment when the purposes or data practices change so visitors are asked again.",
     "google_search_console_verification": "Optional HTML-tag verification token from Google Search Console."
   }
 }

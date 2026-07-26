@@ -1,0 +1,263 @@
+.privacy-footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  max-width: 1180px;
+  margin: 14px auto 0;
+  padding: 14px 28px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  font-size: 14px;
+}
+
+.privacy-footer-links a,
+.privacy-footer-button {
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.privacy-footer-button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.drugnews-consent-open {
+  overflow: hidden;
+}
+
+.drugnews-consent-banner {
+  position: fixed;
+  z-index: 10000;
+  right: 24px;
+  bottom: 24px;
+  left: 24px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 22px;
+  align-items: center;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 22px;
+  color: #f8fafc;
+  background: #111827;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 18px;
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.32);
+}
+
+.drugnews-consent-copy {
+  min-width: 0;
+}
+
+.drugnews-consent-copy h2,
+.drugnews-consent-dialog h2 {
+  margin: 0 0 8px;
+  font-size: clamp(20px, 2vw, 25px);
+  line-height: 1.25;
+}
+
+.drugnews-consent-copy p,
+.drugnews-consent-dialog p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.drugnews-consent-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-top: 9px !important;
+  font-size: 14px;
+}
+
+.drugnews-consent-links a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.drugnews-consent-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.drugnews-consent-button {
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.drugnews-consent-button.primary {
+  color: #111827;
+  background: #f8fafc;
+}
+
+.drugnews-consent-button.secondary {
+  color: #f8fafc;
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.44);
+}
+
+.drugnews-consent-button:focus-visible,
+.drugnews-consent-close:focus-visible,
+.privacy-footer-button:focus-visible {
+  outline: 3px solid #f59e0b;
+  outline-offset: 3px;
+}
+
+.drugnews-consent-backdrop {
+  position: fixed;
+  z-index: 10010;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(15, 23, 42, 0.66);
+}
+
+.drugnews-consent-backdrop[hidden] {
+  display: none;
+}
+
+.drugnews-consent-dialog {
+  position: relative;
+  width: min(560px, 100%);
+  max-height: min(720px, calc(100vh - 48px));
+  overflow: auto;
+  padding: 30px;
+  color: #111827;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 24px 80px rgba(15, 23, 42, 0.34);
+}
+
+.drugnews-consent-dialog .drugnews-consent-actions {
+  margin-top: 22px;
+}
+
+.drugnews-consent-dialog .drugnews-consent-button.primary {
+  color: #fff;
+  background: #111827;
+}
+
+.drugnews-consent-dialog .drugnews-consent-button.secondary {
+  color: #111827;
+  border-color: #64748b;
+}
+
+.drugnews-consent-current {
+  margin-top: 18px !important;
+  padding: 12px 14px;
+  background: #f1f5f9;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.drugnews-consent-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  color: #334155;
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.drugnews-consent-live {
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.privacy-page {
+  max-width: 860px;
+}
+
+.privacy-page h2 {
+  margin-top: 36px;
+}
+
+.privacy-page table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 18px 0 28px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.privacy-page th,
+.privacy-page td {
+  min-width: 132px;
+  padding: 12px;
+  overflow-wrap: anywhere;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid var(--line);
+}
+
+.privacy-page th {
+  background: #f1f5f9;
+}
+
+.privacy-page .button {
+  margin-top: 10px;
+}
+
+@media (max-width: 720px) {
+  .drugnews-consent-banner {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    padding: 18px;
+  }
+
+  .drugnews-consent-actions,
+  .drugnews-consent-button {
+    width: 100%;
+  }
+
+  .drugnews-consent-dialog {
+    padding: 26px 20px 22px;
+  }
+
+  .privacy-footer-links {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .privacy-page th,
+  .privacy-page td {
+    min-width: 118px;
+    padding: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .drugnews-consent-banner,
+  .drugnews-consent-dialog {
+    scroll-behavior: auto;
+  }
+}
