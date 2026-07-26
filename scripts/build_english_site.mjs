@@ -178,6 +178,7 @@ function header(current, depth = 1) {
     <nav class="nav-links" aria-label="Main navigation">
       <a href="${depth === 0 ? "index.html" : "../".repeat(depth - 1) + "index.html"}"${currentAttr("home")}>Home</a>
       <a href="${depth === 0 ? "articles/" : "../".repeat(depth - 1) + "articles/"}"${currentAttr("articles")}>Articles</a>
+      <a href="${depth === 0 ? "search.html" : "../".repeat(depth - 1) + "search.html"}"${currentAttr("search")}>Search</a>
       <a href="${depth === 0 ? "subscribe.html" : "../".repeat(depth - 1) + "subscribe.html"}"${currentAttr("subscribe")}>Research</a>
       <a href="${depth === 0 ? "team.html" : "../".repeat(depth - 1) + "team.html"}"${currentAttr("team")}>Team</a>
       <a href="${depth === 0 ? "services.html" : "../".repeat(depth - 1) + "services.html"}"${currentAttr("services")}>Services</a>
