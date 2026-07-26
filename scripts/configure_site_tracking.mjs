@@ -74,8 +74,7 @@ async function main() {
 
   next.notes = {
     ...(current.notes || {}),
-    google_analytics_id: "Fill with a GA4 Measurement ID such as G-XXXXXXXXXX to enable page-view and outbound-click tracking.",
-    google_search_console_verification: "Use the content value from the Google Search Console HTML-tag verification method."
+    google_analytics_id: "A real GA4 Measurement ID enables analytics only after the visitor explicitly accepts optional analytics."
   };
 
   await fs.writeFile(SETTINGS_PATH, `${JSON.stringify(next, null, 2)}\n`);

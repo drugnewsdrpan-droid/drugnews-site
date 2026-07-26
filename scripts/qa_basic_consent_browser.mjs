@@ -39,7 +39,9 @@ const server = http.createServer(async (request, response) => {
     if (!file.startsWith(ROOT)) throw new Error("invalid path");
     let body = await fs.readFile(file);
     if (path.extname(file) === ".html" && url.searchParams.get("qa_ga") === "1") {
-      body = Buffer.from(body.toString("utf8").replace("measurementId: ''", "measurementId: 'G-QAONLY123'"));
+      body = Buffer.from(
+        body.toString("utf8").replace(/measurementId:\s*'[^']*'/, "measurementId: 'G-QAONLY123'")
+      );
     }
     response.writeHead(200, { "content-type": mimeTypes[path.extname(file)] || "application/octet-stream" });
     response.end(body);
@@ -56,7 +58,7 @@ stage("launch isolated Chrome");
 const browser = await chromium.launch({
   headless: true,
   channel: "chrome",
-  timeout: 15_000
+  timeout: 60_000
 });
 
 try {
