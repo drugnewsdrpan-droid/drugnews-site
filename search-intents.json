@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-25T02:48:33.711Z",
+  "generated_at": "2026-07-26T08:40:44.431Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
+      "date": "2026-07-26",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
+      "category": "商業分析",
+      "tags": [
+        "ICOTYDE",
+        "icotrokinra",
+        "Johnson & Johnson",
+        "J&J",
+        "plaque psoriasis",
+        "IL-23R",
+        "oral peptide",
+        "deucravacitinib"
+      ],
+      "summary": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis."
+    },
+    {
+      "title": "一顆藥，搶針劑的飯碗",
+      "date": "2026-07-26",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
+      "category": "商業分析",
+      "tags": [
+        "ICOTYDE",
+        "icotrokinra",
+        "Johnson & Johnson",
+        "J&J",
+        "乾癬",
+        "IL-23R",
+        "口服胜肽",
+        "deucravacitinib"
+      ],
+      "summary": "ICOTYDE 上市首季超過 18,000 張處方，證明口服 IL-23R 胜肽有需求；真正決定估值的，仍是付費處方、續方、支付品質與多適應症兌現。"
+    },
     {
       "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
       "date": "2026-07-25",
@@ -770,42 +806,6 @@
         "臨床開發"
       ],
       "summary": "諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。"
-    },
-    {
-      "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-      "date": "2026-07-14",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "ADC",
-        "Novartis",
-        "Myricx Bio",
-        "NMT inhibitor",
-        "ADC payload",
-        "BD licensing",
-        "oncology"
-      ],
-      "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value."
-    },
-    {
-      "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
-      "date": "2026-07-14",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
-      "category": "商業分析",
-      "tags": [
-        "ADC",
-        "Novartis",
-        "Myricx Bio",
-        "NMTi",
-        "payload",
-        "BD 授權",
-        "腫瘤",
-        "浩鼎"
-      ],
-      "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。"
     }
   ],
   "do_not_use_as": [

@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 25 Jul 2026 02:48:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 08:40:44 GMT</lastBuildDate>
+    <item>
+      <title>一顆藥，搶針劑的飯碗</title>
+      <link>https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/cover-zh.webp" alt="口服 IL-23R 胜肽、乾癬皮膚與注射型生物製劑構成 ICOTYDE 商業競爭場景"></p><p>ICOTYDE 上市首季超過 18,000 張處方，證明口服 IL-23R 胜肽有需求；真正決定估值的，仍是付費處方、續方、支付品質與多適應症兌現。</p>]]></description>
+    </item>
     <item>
       <title>羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？</title>
       <link>https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Mon, 06 Jul 2026 04:26:18 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound/cover.png" alt="通用型 CAR-T 與細胞治療普及化的高級科學封面"></p><p>邏輯很簡單：傳統自體 CAR-T 需要取出患者自己的 T 細胞，送到工廠改造、擴增、檢驗，再回輸到患者體內。療效可以很強，但等待時間長、成本高、製程複雜，病情進展太快或 T 細胞品質太差的患者，常常等不到治療。</p>]]></description>
-    </item>
-    <item>
-      <title>【事件型估值快評】浩鼎 ADC 重估：市場買的是 TROP2 題材，還是 GlycOBI 平台選擇權？</title>
-      <link>https://vocus.cc/article/6a297eadfd89780001e9cbec</link>
-      <guid isPermaLink="true">https://vocus.cc/article/6a297eadfd89780001e9cbec</guid>
-      <pubDate>Mon, 06 Jul 2026 01:00:12 GMT</pubDate>
-      <category>深度商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a297eadfd89780001e9cbec-source.jpg" alt="浩鼎 ADC 與 GlycOBI 平台估值快評"></p><p>浩鼎 ADC 重估不能只看 TROP2 題材。這篇用 OBI-992、OBI-902、GlycOBI、BD 選擇權與 SOTP，重算合理市值與上修／下修條件。</p>]]></description>
     </item>
   </channel>
 </rss>

@@ -209,6 +209,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
+      "date": "2026-07-26",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
+      "source": "cmoney",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "ICOTYDE",
+        "icotrokinra",
+        "Johnson & Johnson",
+        "J&J",
+        "plaque psoriasis",
+        "IL-23R",
+        "oral peptide",
+        "deucravacitinib",
+        "PASI 90",
+        "IGA 0/1"
+      ],
+      "summary": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis.",
+      "image": "https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/cover-en.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-26-icotyde-oral-il23r-launch.html"
+      }
+    },
+    {
+      "title": "一顆藥，搶針劑的飯碗",
+      "date": "2026-07-26",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
+      "source": "cmoney",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "ICOTYDE",
+        "icotrokinra",
+        "Johnson & Johnson",
+        "J&J",
+        "乾癬",
+        "IL-23R",
+        "口服胜肽",
+        "deucravacitinib",
+        "PASI 90",
+        "IGA 0/1"
+      ],
+      "summary": "ICOTYDE 上市首季超過 18,000 張處方，證明口服 IL-23R 胜肽有需求；真正決定估值的，仍是付費處方、續方、支付品質與多適應症兌現。",
+      "image": "https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/cover-zh.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-26-icotyde-oral-il23r-launch-en.html"
+      }
+    },
+    {
       "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
       "date": "2026-07-25",
       "language": "en",
@@ -1526,61 +1584,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-07-04-hhs-operation-trialblazer-clinical-trials.html"
-      }
-    },
-    {
-      "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-      "date": "2026-07-04",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-      "source": "Dcard",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "FDA",
-        "HHS",
-        "臨床試驗",
-        "新藥開發"
-      ],
-      "summary": "2026 年 6 月 22 日，美國衛生與公共服務部，也就是 HHS，啟動了一項名為 Operation TrialBlazer 的部門級臨床試驗改革計畫。",
-      "image": "https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html"
-      }
-    },
-    {
-      "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-      "date": "2026-07-03",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Revolution Medicines",
-        "RevMed",
-        "daraxonrasib",
-        "RAS oncology",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "BD licensing",
-        "biotech valuation",
-        "clinical data",
-        "capital markets"
-      ],
-      "summary": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies.",
-      "image": "https://drugnews.com.tw/assets/articles/revmed-biotech-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-03-revmed-biotech.html"
       }
     }
   ]

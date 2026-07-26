@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-25T02:48:33.679Z",
+  "generated_at": "2026-07-26T08:40:44.260Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -117,249 +117,28 @@
   },
   "buckets": [
     {
-      "name": "腫瘤精準治療",
-      "count": 9,
-      "articles": [
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Roche",
-            "Big Pharma",
-            "pharma strategy",
-            "giredestrant",
-            "fenebrutinib",
-            "trontinemab",
-            "petrelintide",
-            "bexobrutideg"
-          ],
-          "summary": "Roche generated CHF 47.669 billion in pharmaceutical sales in 2025, with Ocrevus, Hemlibra, and Vabysmo already accounting for roughly one-third of the total. The number that matters is not simply 19 potential new molecules, but whether giredestrant, fenebrutinib, obesity, Alzheimer's, and protein-degradation assets can inherit Roche's existing clinical, diagnostic, and commercial infrastructure on time."
-        },
-        {
-          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "MASH",
-            "Madrigal Pharmaceuticals",
-            "Rezdiffra",
-            "resmetirom",
-            "siRNA",
-            "Ribo Life Science",
-            "Ribocure"
-          ],
-          "summary": "Rezdiffra has opened the MASH market and built its commercialization infrastructure. Madrigal is now adding six Ribo siRNA programs and Arrowhead's ARO-PNPLA3 to create a cornerstone-plus-precision-combination treatment matrix."
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Revolution Medicines",
-            "RevMed",
-            "胰臟癌",
-            "KRAS G12D",
-            "RAS(ON)",
-            "Zoldonrasib",
-            "Daraxonrasib",
-            "ESMO GI 2026"
-          ],
-          "summary": "Daraxonrasib 已用第三期總生存期資料抬高胰臟癌 RAS 賽道門檻；zoldonrasib 與 pan-RAS 或化療的早期組合訊號，則把競爭從單藥推向治療生態系。"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Revolution Medicines",
-            "RevMed",
-            "pancreatic cancer",
-            "KRAS G12D",
-            "RAS(ON)",
-            "zoldonrasib",
-            "daraxonrasib"
-          ],
-          "summary": "Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems."
-        },
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Free Article",
-          "tags": [
-            "Business Analysis",
-            "ADC",
-            "Novartis",
-            "Myricx Bio",
-            "NMT inhibitor",
-            "ADC payload",
-            "BD licensing",
-            "oncology"
-          ],
-          "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value."
-        },
-        {
-          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "ADC",
-            "Novartis",
-            "Myricx Bio",
-            "NMTi",
-            "payload",
-            "BD 授權",
-            "腫瘤",
-            "浩鼎"
-          ],
-          "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。"
-        },
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "KRAS G12C",
-            "divarasib",
-            "Roche",
-            "oncology",
-            "clinical data",
-            "PFS",
-            "OS"
-          ],
-          "summary": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence."
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "KRAS G12C",
-            "divarasib",
-            "Roche",
-            "腫瘤新藥",
-            "臨床數據",
-            "PFS",
-            "OS",
-            "生技投資"
-          ],
-          "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Business Analysis",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "ADC",
-            "PD-1/VEGF",
-            "bispecific antibody",
-            "oncology"
-          ],
-          "summary": "After a Phase III setback for sigvotatug vedotin, Pfizer's $43 billion Seagen ADC bet is increasingly tied to whether 3SBio's PD-1/VEGF bispecific can become a new immuno-oncology combination backbone."
-        }
-      ]
-    },
-    {
-      "name": "GLP-1 與代謝賽道",
-      "count": 3,
-      "articles": [
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Roche",
-            "羅氏",
-            "Big Pharma",
-            "製藥巨頭",
-            "giredestrant",
-            "fenebrutinib",
-            "trontinemab",
-            "petrelintide"
-          ],
-          "summary": "羅氏 2025 年製藥銷售 476.69 億瑞士法郎，Ocrevus、Hemlibra 與 Vabysmo 已撐起約三分之一收入。真正值得追的不是 19 個新分子的總數，而是 giredestrant、fenebrutinib、減重、阿茲海默症與蛋白質降解資產能否沿既有臨床、診斷與商業通路準時接棒。"
-        },
-        {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Business Analysis",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "GLP-1",
-            "dorzagliatin",
-            "glucokinase activator",
-            "GKA"
-          ],
-          "summary": "GLP-1 competition is moving from peak weight loss toward long-term use, tolerability, rebound control, and combination design. Dorzagliatin matters not as a GLP-1 replacement, but as a possible metabolic base for the next phase of chronic therapy."
-        },
-        {
-          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "GLP-1",
-            "dorzagliatin",
-            "多格列艾汀",
-            "glucokinase activator",
-            "GKA",
-            "代謝疾病",
-            "糖尿病",
-            "MASH"
-          ],
-          "summary": "GLP-1 競爭進入長期維持與聯用下半場，dorzagliatin 的價值不在取代減重藥，而是可能成為代謝治療的可持續底座。"
-        }
-      ]
-    },
-    {
       "name": "AI 製藥與新技術",
-      "count": 9,
+      "count": 10,
       "articles": [
+        {
+          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
+          "date": "2026-07-26",
+          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "ICOTYDE",
+            "icotrokinra",
+            "Johnson & Johnson",
+            "J&J",
+            "plaque psoriasis",
+            "IL-23R",
+            "oral peptide",
+            "deucravacitinib"
+          ],
+          "summary": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis."
+        },
         {
           "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
           "date": "2026-07-24",
@@ -526,6 +305,233 @@
             "clinical data"
           ],
           "summary": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits."
+        }
+      ]
+    },
+    {
+      "name": "估值與資本市場",
+      "count": 1,
+      "articles": [
+        {
+          "title": "一顆藥，搶針劑的飯碗",
+          "date": "2026-07-26",
+          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "ICOTYDE",
+            "icotrokinra",
+            "Johnson & Johnson",
+            "J&J",
+            "乾癬",
+            "IL-23R",
+            "口服胜肽",
+            "deucravacitinib"
+          ],
+          "summary": "ICOTYDE 上市首季超過 18,000 張處方，證明口服 IL-23R 胜肽有需求；真正決定估值的，仍是付費處方、續方、支付品質與多適應症兌現。"
+        }
+      ]
+    },
+    {
+      "name": "腫瘤精準治療",
+      "count": 8,
+      "articles": [
+        {
+          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Roche",
+            "Big Pharma",
+            "pharma strategy",
+            "giredestrant",
+            "fenebrutinib",
+            "trontinemab",
+            "petrelintide",
+            "bexobrutideg"
+          ],
+          "summary": "Roche generated CHF 47.669 billion in pharmaceutical sales in 2025, with Ocrevus, Hemlibra, and Vabysmo already accounting for roughly one-third of the total. The number that matters is not simply 19 potential new molecules, but whether giredestrant, fenebrutinib, obesity, Alzheimer's, and protein-degradation assets can inherit Roche's existing clinical, diagnostic, and commercial infrastructure on time."
+        },
+        {
+          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Business Analysis",
+            "MASH",
+            "Madrigal Pharmaceuticals",
+            "Rezdiffra",
+            "resmetirom",
+            "siRNA",
+            "Ribo Life Science",
+            "Ribocure"
+          ],
+          "summary": "Rezdiffra has opened the MASH market and built its commercialization infrastructure. Madrigal is now adding six Ribo siRNA programs and Arrowhead's ARO-PNPLA3 to create a cornerstone-plus-precision-combination treatment matrix."
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Revolution Medicines",
+            "RevMed",
+            "胰臟癌",
+            "KRAS G12D",
+            "RAS(ON)",
+            "Zoldonrasib",
+            "Daraxonrasib",
+            "ESMO GI 2026"
+          ],
+          "summary": "Daraxonrasib 已用第三期總生存期資料抬高胰臟癌 RAS 賽道門檻；zoldonrasib 與 pan-RAS 或化療的早期組合訊號，則把競爭從單藥推向治療生態系。"
+        },
+        {
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Business Analysis",
+            "Revolution Medicines",
+            "RevMed",
+            "pancreatic cancer",
+            "KRAS G12D",
+            "RAS(ON)",
+            "zoldonrasib",
+            "daraxonrasib"
+          ],
+          "summary": "Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems."
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Business Analysis",
+            "ADC",
+            "Novartis",
+            "Myricx Bio",
+            "NMT inhibitor",
+            "ADC payload",
+            "BD licensing",
+            "oncology"
+          ],
+          "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value."
+        },
+        {
+          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "ADC",
+            "Novartis",
+            "Myricx Bio",
+            "NMTi",
+            "payload",
+            "BD 授權",
+            "腫瘤",
+            "浩鼎"
+          ],
+          "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。"
+        },
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Business Analysis",
+            "KRAS G12C",
+            "divarasib",
+            "Roche",
+            "oncology",
+            "clinical data",
+            "PFS",
+            "OS"
+          ],
+          "summary": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence."
+        },
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "KRAS G12C",
+            "divarasib",
+            "Roche",
+            "腫瘤新藥",
+            "臨床數據",
+            "PFS",
+            "OS",
+            "生技投資"
+          ],
+          "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。"
+        }
+      ]
+    },
+    {
+      "name": "GLP-1 與代謝賽道",
+      "count": 2,
+      "articles": [
+        {
+          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Roche",
+            "羅氏",
+            "Big Pharma",
+            "製藥巨頭",
+            "giredestrant",
+            "fenebrutinib",
+            "trontinemab",
+            "petrelintide"
+          ],
+          "summary": "羅氏 2025 年製藥銷售 476.69 億瑞士法郎，Ocrevus、Hemlibra 與 Vabysmo 已撐起約三分之一收入。真正值得追的不是 19 個新分子的總數，而是 giredestrant、fenebrutinib、減重、阿茲海默症與蛋白質降解資產能否沿既有臨床、診斷與商業通路準時接棒。"
+        },
+        {
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Business Analysis",
+            "Business Analysis",
+            "biotech business analysis",
+            "Taiwan biotech",
+            "GLP-1",
+            "dorzagliatin",
+            "glucokinase activator",
+            "GKA"
+          ],
+          "summary": "GLP-1 competition is moving from peak weight loss toward long-term use, tolerability, rebound control, and combination design. Dorzagliatin matters not as a GLP-1 replacement, but as a possible metabolic base for the next phase of chronic therapy."
         }
       ]
     },
