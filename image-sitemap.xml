@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time/cover-zh.webp</image:loc>
+      <image:caption>大型藥廠在專利懸崖前透過併購買進臨床時間</image:caption>
+      <image:title>半年千億，買的是時間</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time/01_%E5%85%A9%E5%80%8B%E7%B5%B1%E8%A8%88%E4%B8%8D%E8%83%BD%E7%A1%AC%E6%8B%BC.webp</image:loc>
+      <image:caption>BioSpace 與 IQVIA 的統計口徑不同，52 筆與 42 筆不能直接相加</image:caption>
+      <image:title>半年千億，買的是時間</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time/02_%E5%B0%88%E5%88%A9%E6%87%B8%E5%B4%96%E8%B2%B7%E6%99%82%E9%96%93.webp</image:loc>
+      <image:caption>專利懸崖迫使大型藥廠以更高價格購買接近讀出、申請或上市的時間</image:caption>
+      <image:title>半年千億，買的是時間</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time/03_%E5%85%AD%E7%AD%86%E4%BA%A4%E6%98%93%E7%8B%80%E6%85%8B.webp</image:loc>
+      <image:caption>六筆代表交易分別處於宣布、完成、早期臨床、FDA 審查與等待交割等不同狀態</image:caption>
+      <image:title>半年千億，買的是時間</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time/04_%E4%BA%A4%E6%98%93%E6%A2%9D%E6%AC%BE%E5%88%86%E9%85%8D%E9%A2%A8%E9%9A%AA.webp</image:loc>
+      <image:caption>前期現金、里程碑、CVR 與交割條件把併購風險分配給不同參與者</image:caption>
+      <image:title>半年千億，買的是時間</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time-en/cover-en.webp</image:loc>
+      <image:caption>Big Pharma buys measurable clinical time before the patent cliff</image:caption>
+      <image:title>$130 Billion in Six Months: Big Pharma Is Buying Time</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time-en/01-dataset-methodology.webp</image:loc>
+      <image:caption>BioSpace and IQVIA use different inclusion rules, so 52 transactions and 42 transactions cannot be combined</image:caption>
+      <image:title>$130 Billion in Six Months: Big Pharma Is Buying Time</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time-en/02-buying-time-before-patent-cliff.webp</image:loc>
+      <image:caption>Patent cliffs increase the value of assets that are closer to readout, filing, review or launch</image:caption>
+      <image:title>$130 Billion in Six Months: Big Pharma Is Buying Time</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time-en/03-six-deals-six-states.webp</image:loc>
+      <image:caption>Six representative transactions occupy different states, from announcement and closing to early clinical development and FDA review</image:caption>
+      <image:title>$130 Billion in Six Months: Big Pharma Is Buying Time</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time-en/04-how-deal-terms-allocate-risk.webp</image:loc>
+      <image:caption>Upfront cash, milestones, CVRs and closing conditions allocate different parts of transaction risk</image:caption>
+      <image:title>$130 Billion in Six Months: Big Pharma Is Buying Time</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/cover-en.webp</image:loc>

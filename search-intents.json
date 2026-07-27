@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-26T10:14:59.528Z",
+  "generated_at": "2026-07-27T07:50:04.228Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "半年千億，買的是時間",
+      "date": "2026-07-27",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+      "category": "商業分析",
+      "tags": [
+        "生技併購",
+        "藥廠併購",
+        "Biopharma M&A",
+        "專利懸崖",
+        "Lilly",
+        "Merck",
+        "AbbVie",
+        "Gilead"
+      ],
+      "summary": "2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。"
+    },
+    {
+      "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+      "date": "2026-07-27",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+      "category": "商業分析",
+      "tags": [
+        "biopharma M&A",
+        "Big Pharma",
+        "patent cliff",
+        "loss of exclusivity",
+        "Lilly",
+        "Merck",
+        "AbbVie",
+        "Gilead"
+      ],
+      "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time."
+    },
     {
       "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
       "date": "2026-07-26",
@@ -770,42 +806,6 @@
         "Avidity Biosciences"
       ],
       "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。"
-    },
-    {
-      "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
-      "date": "2026-07-15",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "regulatory T cells",
-        "Treg",
-        "immune tolerance",
-        "cell therapy",
-        "autoimmune disease",
-        "transplantation",
-        "CMC"
-      ],
-      "summary": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline."
-    },
-    {
-      "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
-      "date": "2026-07-15",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
-      "category": "商業分析",
-      "tags": [
-        "Treg",
-        "免疫耐受",
-        "細胞療法",
-        "自體免疫",
-        "移植",
-        "CMC",
-        "台寶生醫",
-        "臨床開發"
-      ],
-      "summary": "諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。"
     }
   ],
   "do_not_use_as": [

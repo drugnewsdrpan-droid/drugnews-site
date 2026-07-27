@@ -905,7 +905,7 @@ function flushParagraph(paragraph, out) {
   paragraph.length = 0;
 }
 
-function markdownToHtml(markdown, imageMap) {
+function markdownToHtml(markdown, imageMap, options = {}) {
   const lines = markdown.replace(/\r\n/g, "\n").split("\n");
   const out = [];
   const paragraph = [];
@@ -1020,12 +1020,27 @@ function markdownToHtml(markdown, imageMap) {
       flushQuote();
       const alt = image[1];
       const src = imageMap.get(image[2]) || image[2];
+      const imageWidth = Number(options.inline_image_width);
+      const imageHeight = Number(options.inline_image_height);
+      const hasIntrinsicSize = Number.isFinite(imageWidth) && imageWidth > 0
+        && Number.isFinite(imageHeight) && imageHeight > 0;
+      const dimensionAttributes = hasIntrinsicSize
+        ? ` width="${imageWidth}" height="${imageHeight}"`
+        : "";
+      const expandable = options.inline_image_viewer === true;
+      const figureClass = expandable ? ` class="article-figure article-figure-expandable"` : "";
+      const zoomLabel = isEnglish(options)
+        ? `Open full-size figure: ${alt}`
+        : `放大圖解：${alt}`;
+      const zoomButton = expandable
+        ? `<button class="article-image-zoom" type="button" aria-label="${escapeHtml(zoomLabel)}"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.4-3.4M8 11h6M11 8v6"></path></svg><span>${isEnglish(options) ? "View full size" : "放大閱讀"}</span></button>`
+        : "";
       const responsiveMatch = src.match(/^(.*\/fasedienol-cns-en\/figure-0[1-4])\.png$/);
       if (responsiveMatch) {
         const stem = responsiveMatch[1];
-        out.push(`<figure><picture><source type="image/webp" srcset="${escapeHtml(`${stem}-720.webp`)} 720w, ${escapeHtml(`${stem}-1400.webp`)} 1400w" sizes="(max-width: 680px) 100vw, 760px"><img src="${escapeHtml(`${stem}-1400.webp`)}" alt="${escapeHtml(alt)}" width="1672" height="941" loading="lazy" decoding="async"></picture></figure>`);
+        out.push(`<figure${figureClass}><picture><source type="image/webp" srcset="${escapeHtml(`${stem}-720.webp`)} 720w, ${escapeHtml(`${stem}-1400.webp`)} 1400w" sizes="(max-width: 680px) 100vw, 760px"><img src="${escapeHtml(`${stem}-1400.webp`)}" alt="${escapeHtml(alt)}" width="1672" height="941" loading="lazy" decoding="async"></picture>${zoomButton}</figure>`);
       } else {
-        out.push(`<figure><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy"></figure>`);
+        out.push(`<figure${figureClass}><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}"${dimensionAttributes} loading="lazy" decoding="async">${zoomButton}</figure>`);
       }
       continue;
     }
@@ -1086,9 +1101,12 @@ function markdownToHtml(markdown, imageMap) {
 }
 
 function normalizeReferenceLists(html) {
-  const headingPattern = /(<(?:p|h[23])>\s*(?:參考資料|參考來源|References|Primary Sources)[:：]?\s*<\/(?:p|h[23])>)([\s\S]*?)(?=<hr>|<div class="citation-box"|$)/i;
+  const headingPattern = /(<(?:p|h[23])>\s*(?:參考資料|參考來源|References|Primary Sources)[:：]?\s*<\/(?:p|h[23])>)([\s\S]*?)(?=<h[23]\b|<hr>|<div class="citation-box"|$)/gi;
   return html.replace(headingPattern, (match, heading, section) => {
-    if (/^\s*<ol>/i.test(section)) return match;
+    if (/<ol\b/i.test(section)) {
+      const normalized = section.replace(/<ol(?![^>]*\bclass=)/i, '<ol class="article-reference-list"');
+      return `${heading}${normalized}`;
+    }
     const paragraphs = [...section.matchAll(/<p>([\s\S]*?)<\/p>/gi)].map((item) => item[1].trim()).filter(Boolean);
     if (!paragraphs.length) return match;
     const groups = [];
@@ -1101,7 +1119,10 @@ function normalizeReferenceLists(html) {
 }
 
 function headlineHtml(title = "") {
-  return escapeHtml(title).replace("踩煞車", '<span class="keep-phrase">踩煞車</span>');
+  return ["踩煞車", "買的是時間"].reduce(
+    (html, phrase) => html.replace(phrase, `<span class="keep-phrase">${phrase}</span>`),
+    escapeHtml(title)
+  );
 }
 
 function stripLeadingTitle(markdown, title) {
@@ -1325,7 +1346,7 @@ function articleTrustHtml(article, toc) {
           ${updated ? `<span>${english ? "Last updated: " : "最後更新："}${escapeHtml(updated)}</span>` : ""}
           <span>${english ? `Reading time: about ${minutes} minutes` : `閱讀時間：約 ${minutes} 分鐘`}</span>
         </div>
-        ${judgments.length ? `<ul class="core-judgments" aria-label="${english ? "Key Judgments" : "本篇核心判斷"}">${judgments.map((item, index) => `<li><b>${String(index + 1).padStart(2, "0")}</b><span>${escapeHtml(item)}</span></li>`).join("")}</ul>` : ""}
+        ${judgments.length ? `<div class="core-judgments-desktop"><ul class="core-judgments" aria-label="${english ? "Key Judgments" : "本篇核心判斷"}">${judgments.map((item, index) => `<li><b>${String(index + 1).padStart(2, "0")}</b><span>${escapeHtml(item)}</span></li>`).join("")}</ul></div><details class="core-judgments-mobile" data-nosnippet><summary>${english ? "Key judgments" : "本篇核心判斷"}</summary><ul class="core-judgments" aria-label="${english ? "Key Judgments" : "本篇核心判斷"}">${judgments.map((item, index) => `<li><b>${String(index + 1).padStart(2, "0")}</b><span>${escapeHtml(item)}</span></li>`).join("")}</ul></details>` : ""}
         ${tocLinksHtml(toc, true, english)}
       </div>`;
 }
@@ -1446,7 +1467,7 @@ function articlePage(article, bodyHtml, related) {
   <link rel="canonical" href="${url}">
   ${alternateLinks(meta, url)}
   <link rel="icon" href="../favicon.svg">
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../styles.css?v=20260727-1">
   <link rel="alternate" type="application/rss+xml" title="${escapeHtml(siteBrand)} RSS" href="${isEnglish(meta) ? `${BASE_URL}/en/feed.xml` : `${BASE_URL}/feed.xml`}">
   <link rel="alternate" type="application/feed+json" title="${escapeHtml(siteBrand)} JSON Feed" href="${isEnglish(meta) ? `${BASE_URL}/en/feed.json` : `${BASE_URL}/feed.json`}">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
@@ -1512,6 +1533,7 @@ ${headerHtml("articles", meta)}
 </main>
 ${footerHtml(meta)}
 ${copyLinkScript(meta)}
+${meta.inline_image_viewer === true ? '<script src="../article-image-viewer.js" defer></script>' : ""}
 </body>
 </html>
 `;
@@ -3608,7 +3630,7 @@ async function main() {
     const record = articleRecord(article);
     const related = pickRelatedArticles(record, allRecords);
     const bodyMarkdown = stripLeadingTitle(article.markdown.replace(DISCLAIMER, "").trim(), article.meta.title);
-    const body = normalizeReferenceLists(markdownToHtml(bodyMarkdown, article.imageMap));
+    const body = normalizeReferenceLists(markdownToHtml(bodyMarkdown, article.imageMap, article.meta));
     await writeAtomic(path.join(ARTICLES, record.fileName), articlePage(article, body, related));
   }
 

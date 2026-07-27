@@ -209,6 +209,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "半年千億，買的是時間",
+      "date": "2026-07-27",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+      "source": "CMoney",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "生技併購",
+        "藥廠併購",
+        "Biopharma M&A",
+        "專利懸崖",
+        "Lilly",
+        "Merck",
+        "AbbVie",
+        "Gilead",
+        "GSK",
+        "Terns"
+      ],
+      "summary": "2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。",
+      "image": "https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time/cover-zh.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-27-h1-2026-biopharma-ma-buying-time-en.html"
+      }
+    },
+    {
+      "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+      "date": "2026-07-27",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+      "source": "Website",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "biopharma M&A",
+        "Big Pharma",
+        "patent cliff",
+        "loss of exclusivity",
+        "Lilly",
+        "Merck",
+        "AbbVie",
+        "Gilead",
+        "GSK",
+        "Terns"
+      ],
+      "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time.",
+      "image": "https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time-en/cover-en.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-27-h1-2026-biopharma-ma-buying-time.html"
+      }
+    },
+    {
       "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
       "date": "2026-07-26",
       "language": "en",
@@ -1526,64 +1584,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-07-05-big-pharma-134b-biotech-ma-en.html"
-      }
-    },
-    {
-      "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
-      "date": "2026-07-05",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "BD licensing",
-        "biotech M&A",
-        "biotech valuation",
-        "clinical data",
-        "drug development",
-        "capital markets"
-      ],
-      "summary": "In the first half of 2026, Big Pharma's biotech M&A pace has accelerated sharply. The real question is not why large drugmakers have cash, but why they are suddenly less willing to wait.",
-      "image": "https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-05-big-pharma-134b-biotech-ma.html"
-      }
-    },
-    {
-      "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-      "date": "2026-07-04",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "HHS",
-        "FDA",
-        "Operation TrialBlazer",
-        "clinical trial reform",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "drug development",
-        "clinical data",
-        "BD licensing",
-        "biotech valuation"
-      ],
-      "summary": "Operation TrialBlazer is not just an FDA efficiency program. It signals that the United States is treating clinical-trial speed as part of national biotech competitiveness, with direct implications for biotech valuation, financing windows, and regulatory strategy.",
-      "image": "https://drugnews.com.tw/assets/articles/hhs-operation-trialblazer-clinical-trials-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-04-hhs-operation-trialblazer-clinical-trials.html"
       }
     }
   ]

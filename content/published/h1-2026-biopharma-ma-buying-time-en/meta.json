@@ -1,0 +1,28 @@
+{
+  "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+  "lang": "en",
+  "date": "2026-07-27",
+  "publish_at": "2026-07-27T08:00:00+08:00",
+  "category": "商業分析系列",
+  "tags": ["biopharma M&A", "Big Pharma", "patent cliff", "loss of exclusivity", "Lilly", "Merck", "AbbVie", "Gilead", "GSK", "Terns", "Apogee", "Arcellx", "Tubulis", "Nuvalent", "Organon", "CVR", "milestones", "biotech valuation"],
+  "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time.",
+  "slug": "h1-2026-biopharma-ma-buying-time-en",
+  "source_platform": "Website",
+  "cmoney_article_id": "180903123",
+  "cmoney_url": "https://www.cmoney.tw/forum/article/180903123",
+  "source_status": "English website adaptation synchronized to the 2026-07-19 PASS Facebook/Dcard longform; public CMoney readback retained as publication evidence",
+  "cover_image": "images/cover-en.webp",
+  "cover_image_alt": "A patent clock, clinical pipeline and acquisition bridge show Big Pharma buying time through M&A",
+  "homepage_cover_image": "images/cover-en.webp",
+  "homepage_cover_image_alt": "Big Pharma buys measurable clinical time before the patent cliff",
+  "inline_image_width": 1400,
+  "inline_image_height": 788,
+  "inline_image_viewer": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "BioSpace's 52 transactions and IQVIA's 42 transactions use different inclusion thresholds. Both show a hotter market, but they are not one dataset.",
+    "Patent cliffs are increasing the price of late-stage, near-readout, near-filing and near-launch assets because buyers can value the time those assets save.",
+    "A completed company acquisition is not the same as an approved product or immediate revenue; upfront cash, CVRs, milestones and closing conditions still allocate risk."
+  ],
+  "translations": {"zh-Hant": "2026-07-27-h1-2026-biopharma-ma-buying-time.html"}
+}

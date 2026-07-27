@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 26 Jul 2026 10:14:59 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 07:50:04 GMT</lastBuildDate>
+    <item>
+      <title>半年千億，買的是時間</title>
+      <link>https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time/cover-zh.webp" alt="專利時鐘、臨床管線與大型藥廠收購橋樑構成 2026 上半年生技併購主視覺"></p><p>2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。</p>]]></description>
+    </item>
     <item>
       <title>一顆藥，搶針劑的飯碗</title>
       <link>https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Tue, 07 Jul 2026 00:49:37 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf/cover.png" alt="輝瑞 ADC 與 PD-1/VEGF 雙抗聯合療法策略專題封面"></p><p>sigvotatug vedotin Phase III 單藥失利後，輝瑞的 430 億美元 Seagen ADC 賭局正轉向 3SBio PD-1/VEGF 雙抗與聯合療法底座。</p>]]></description>
-    </item>
-    <item>
-      <title>通用型 CAR-T 的 2026 從低谷回暖</title>
-      <link>https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html</guid>
-      <pubDate>Mon, 06 Jul 2026 04:26:18 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound/cover.png" alt="通用型 CAR-T 與細胞治療普及化的高級科學封面"></p><p>邏輯很簡單：傳統自體 CAR-T 需要取出患者自己的 T 細胞，送到工廠改造、擴增、檢驗，再回輸到患者體內。療效可以很強，但等待時間長、成本高、製程複雜，病情進展太快或 T 細胞品質太差的患者，常常等不到治療。</p>]]></description>
     </item>
   </channel>
 </rss>
