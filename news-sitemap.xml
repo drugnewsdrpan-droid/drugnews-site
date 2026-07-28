@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T00:00:00.000Z</news:publication_date>
+      <news:title>T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy&apos;s Next Contest Is Durability</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T00:00:00.000Z</news:publication_date>
+      <news:title>T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html</loc>
     <news:news>
       <news:publication>
@@ -20,28 +42,6 @@
       </news:publication>
       <news:publication_date>2026-07-27T00:00:00.000Z</news:publication_date>
       <news:title>$130 Billion in Six Months: Big Pharma Is Buying Time</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T00:00:00.000Z</news:publication_date>
-      <news:title>Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T00:00:00.000Z</news:publication_date>
-      <news:title>一顆藥，搶針劑的飯碗</news:title>
     </news:news>
   </url>
 </urlset>

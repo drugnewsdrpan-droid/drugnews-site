@@ -1,0 +1,27 @@
+{
+  "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+  "lang": "en",
+  "date": "2026-07-28",
+  "publish_at": "2026-07-28T08:00:00+08:00",
+  "category": "商業分析系列",
+  "tags": ["T-cell exhaustion", "immunotherapy", "PD-1 blockade", "CAR-T", "T-cell engager", "bispecific antibody", "TCF1", "Taiwan biotech", "Shine-On Biomedical", "Ever Supreme", "Pell Biomedical", "AP Biosciences", "AcePodiA", "SOA101", "CAR001", "PL001", "AP203", "ACE1831"],
+  "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy.",
+  "slug": "t-cell-exhaustion-immunotherapy-durability-en",
+  "source_platform": "Website",
+  "source_url": "https://www.facebook.com/permalink.php?story_fbid=122181144842614875&id=61568446257142",
+  "source_status": "Complete professional English adaptation of the Facebook public E4 longform verified on 2026-07-28",
+  "cover_image": "images/cover-en.webp",
+  "cover_image_alt": "T cells progressing from progenitor-like to terminal exhaustion alongside PD-1 blockade, CAR-T and a T-cell engager",
+  "homepage_cover_image": "images/cover-en.webp",
+  "homepage_cover_image_alt": "PD-1 blockade, CAR-T and T-cell engagers all depend on durable T-cell fitness",
+  "inline_image_width": 1400,
+  "inline_image_height": 788,
+  "inline_image_viewer": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "PD-1 blockade, CAR-T and T-cell engagers use different mechanisms but share one limiting resource: T cells that can expand, renew and persist. Similar early response rates do not imply similar durability.",
+    "Exhaustion is not a binary switch and cannot be defined by PD-1 alone. Antigen history, differentiation state, function, plasticity and sampling site must be read longitudinally.",
+    "The meaningful product distinction lies in the therapeutic window and allocation of immune capital: signaling and manufacturing for CAR-T, CD3 affinity and exposure for TCE, and response durability, cell kinetics and toxicity in the clinic."
+  ],
+  "translations": {"zh-Hant": "2026-07-28-t-cell-exhaustion-immunotherapy-durability.html"}
+}

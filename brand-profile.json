@@ -6,7 +6,7 @@
   ],
   "@id": "https://drugnews.com.tw/#organization",
   "schema_version": "1.0",
-  "generated_at": "2026-07-27T07:50:04.066Z",
+  "generated_at": "2026-07-28T04:27:02.552Z",
   "name": "藥時事 Drugnews",
   "alternateName": [
     "Drugnews",
@@ -156,7 +156,7 @@
     }
   ],
   "mainEntityOfPage": "https://drugnews.com.tw/",
-  "latestArticleDate": "2026-07-27",
+  "latestArticleDate": "2026-07-28",
   "officialFeeds": {
     "articles": "https://drugnews.com.tw/articles/",
     "ai_index": "https://drugnews.com.tw/ai-index.json",

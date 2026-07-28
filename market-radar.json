@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-27T07:50:04.052Z",
+  "generated_at": "2026-07-28T04:27:02.550Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -117,91 +117,28 @@
   },
   "buckets": [
     {
-      "name": "BD / 授權與併購",
-      "count": 4,
+      "name": "AI 製藥與新技術",
+      "count": 10,
       "articles": [
         {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "生技併購",
-            "藥廠併購",
-            "Biopharma M&A",
-            "專利懸崖",
-            "Lilly",
-            "Merck",
-            "AbbVie",
-            "Gilead"
-          ],
-          "summary": "2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
           "language": "en",
           "category": "商業分析",
           "access": "Business Analysis",
           "tags": [
-            "biopharma M&A",
-            "Big Pharma",
-            "patent cliff",
-            "loss of exclusivity",
-            "Lilly",
-            "Merck",
-            "AbbVie",
-            "Gilead"
+            "T-cell exhaustion",
+            "immunotherapy",
+            "PD-1 blockade",
+            "CAR-T",
+            "T-cell engager",
+            "bispecific antibody",
+            "TCF1",
+            "Taiwan biotech"
           ],
-          "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time."
+          "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy."
         },
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Biotech",
-            "Biopharma",
-            "argenx",
-            "Insmed",
-            "Incyte",
-            "Revolution Medicines",
-            "Royalty Pharma",
-            "BD"
-          ],
-          "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Big Pharma",
-            "生技併購",
-            "Vertex",
-            "Crinetics",
-            "AbbVie",
-            "Apogee Therapeutics",
-            "Novartis",
-            "Avidity Biosciences"
-          ],
-          "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。"
-        }
-      ]
-    },
-    {
-      "name": "AI 製藥與新技術",
-      "count": 10,
-      "articles": [
         {
           "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
           "date": "2026-07-26",
@@ -368,25 +305,88 @@
             "Sobi"
           ],
           "summary": "FDA identified no clinical efficacy or safety concerns that affected NASP's approvability. The setback centered on CMC controls and contract-manufacturing deficiencies, showing biotech investors why manufacturing credibility becomes part of asset value near launch."
+        }
+      ]
+    },
+    {
+      "name": "BD / 授權與併購",
+      "count": 4,
+      "articles": [
+        {
+          "title": "半年千億，買的是時間",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "生技併購",
+            "藥廠併購",
+            "Biopharma M&A",
+            "專利懸崖",
+            "Lilly",
+            "Merck",
+            "AbbVie",
+            "Gilead"
+          ],
+          "summary": "2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。"
         },
         {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
           "language": "en",
           "category": "商業分析",
           "access": "Business Analysis",
           "tags": [
-            "Business Analysis",
-            "Business Analysis",
-            "biotech business analysis",
-            "Japan biotech",
-            "Taiwan biotech",
-            "startup ecosystem",
-            "drug development",
-            "clinical data"
+            "biopharma M&A",
+            "Big Pharma",
+            "patent cliff",
+            "loss of exclusivity",
+            "Lilly",
+            "Merck",
+            "AbbVie",
+            "Gilead"
           ],
-          "summary": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits."
+          "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time."
+        },
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Biotech",
+            "Biopharma",
+            "argenx",
+            "Insmed",
+            "Incyte",
+            "Revolution Medicines",
+            "Royalty Pharma",
+            "BD"
+          ],
+          "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
+        },
+        {
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Big Pharma",
+            "生技併購",
+            "Vertex",
+            "Crinetics",
+            "AbbVie",
+            "Apogee Therapeutics",
+            "Novartis",
+            "Avidity Biosciences"
+          ],
+          "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。"
         }
       ]
     },

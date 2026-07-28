@@ -209,6 +209,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+      "date": "2026-07-28",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+      "source": "Website",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "T-cell exhaustion",
+        "immunotherapy",
+        "PD-1 blockade",
+        "CAR-T",
+        "T-cell engager",
+        "bispecific antibody",
+        "TCF1",
+        "Taiwan biotech",
+        "Shine-On Biomedical",
+        "Ever Supreme"
+      ],
+      "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy.",
+      "image": "https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability-en/cover-en.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-28-t-cell-exhaustion-immunotherapy-durability.html"
+      }
+    },
+    {
+      "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+      "date": "2026-07-28",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "T 細胞耗竭",
+        "免疫治療",
+        "PD-1",
+        "CAR-T",
+        "TCE",
+        "雙特異性抗體",
+        "TCF1",
+        "聖安生醫",
+        "長聖",
+        "沛爾生醫"
+      ],
+      "summary": "PD-1、CAR-T 與 TCE 最後都仰賴可增殖、可補充且能持久的 T 細胞戰力。本文從耗竭分化、產品工程與臨床資料，拆解免疫治療下半場的真正競爭門檻。",
+      "image": "https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability/cover-zh.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html"
+      }
+    },
+    {
       "title": "半年千億，買的是時間",
       "date": "2026-07-27",
       "language": "zh-Hant",
@@ -1536,54 +1594,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-07-06-universal-car-t-2026-rebound.html"
-      }
-    },
-    {
-      "title": "【事件型估值快評】浩鼎 ADC 重估：市場買的是 TROP2 題材，還是 GlycOBI 平台選擇權？",
-      "date": "2026-07-06",
-      "language": "zh-Hant",
-      "url": "https://vocus.cc/article/6a297eadfd89780001e9cbec",
-      "canonical_url": "https://vocus.cc/article/6a297eadfd89780001e9cbec",
-      "source": "方格子",
-      "access": "深度分析",
-      "category": "深度商業分析",
-      "tags": [
-        "浩鼎",
-        "ADC",
-        "TROP2",
-        "GlycOBI",
-        "SOTP"
-      ],
-      "summary": "浩鼎 ADC 重估不能只看 TROP2 題材。這篇用 OBI-992、OBI-902、GlycOBI、BD 選擇權與 SOTP，重算合理市值與上修／下修條件。",
-      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a297eadfd89780001e9cbec-source.jpg",
-      "is_accessible_for_free": false,
-      "is_external": true,
-      "alternate_language_versions": {}
-    },
-    {
-      "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-      "date": "2026-07-05",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "BD",
-        "併購",
-        "臨床數據",
-        "生技投資",
-        "製藥巨頭",
-        "新藥開發",
-        "生技估值"
-      ],
-      "summary": "2026 年才過一半，全球製藥業的併購節奏已經快到讓人有點恍神。",
-      "image": "https://drugnews.com.tw/assets/articles/big-pharma-134b-biotech-ma/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-05-big-pharma-134b-biotech-ma-en.html"
       }
     }
   ]

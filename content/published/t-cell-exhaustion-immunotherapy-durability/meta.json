@@ -1,0 +1,26 @@
+{
+  "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+  "date": "2026-07-28",
+  "publish_at": "2026-07-28T08:00:00+08:00",
+  "category": "商業分析系列",
+  "tags": ["T 細胞耗竭", "免疫治療", "PD-1", "CAR-T", "TCE", "雙特異性抗體", "TCF1", "聖安生醫", "長聖", "沛爾生醫", "圓祥生技", "育世博", "SOA101", "CAR001", "PL001", "AP203", "ACE1831"],
+  "summary": "PD-1、CAR-T 與 TCE 最後都仰賴可增殖、可補充且能持久的 T 細胞戰力。本文從耗竭分化、產品工程與臨床資料，拆解免疫治療下半場的真正競爭門檻。",
+  "slug": "t-cell-exhaustion-immunotherapy-durability",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/permalink.php?story_fbid=122181144842614875&id=61568446257142",
+  "source_status": "Facebook public E4 readback PASS on 2026-07-28; website body synchronized to the approved complete FB/Dcard longform",
+  "cover_image": "images/cover-zh.webp",
+  "cover_image_alt": "從前驅樣到終末耗竭的 T 細胞，連結 PD-1 阻斷、CAR-T 與 TCE 三種免疫治療",
+  "homepage_cover_image": "images/cover-zh.webp",
+  "homepage_cover_image_alt": "PD-1、CAR-T 與 TCE 都依賴可長期維持的 T 細胞戰力",
+  "inline_image_width": 1400,
+  "inline_image_height": 788,
+  "inline_image_viewer": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "PD-1、CAR-T 與 TCE 的機制不同，卻共同依賴可增殖、可補充且能持久的 T 細胞；早期反應率相近，不代表產品續航相同。",
+    "耗竭不是單一開關，也不能只靠 PD-1 判斷；抗原歷史、分化位置、功能、可塑性與取樣位置必須放在同一條時間軸。",
+    "真正的產品差異在治療窗與免疫資本配置：CAR-T 要看訊號與製程，TCE 要看 CD3 親和力、暴露和給藥節奏，臨床則要看反應維持、細胞動力學與毒性。"
+  ],
+  "translations": {"en": "2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html"}
+}

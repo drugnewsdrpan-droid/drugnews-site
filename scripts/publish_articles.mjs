@@ -323,7 +323,7 @@ function extractCitations(markdown) {
       citations.push({ "@type": "CreativeWork", name: citationName(line, url), url });
     }
   }
-  return citations.slice(0, 12);
+  return citations.slice(0, 24);
 }
 
 function articleWordCount(markdown) {
@@ -1119,7 +1119,7 @@ function normalizeReferenceLists(html) {
 }
 
 function headlineHtml(title = "") {
-  return ["踩煞車", "買的是時間"].reduce(
+  return ["踩煞車", "買的是時間", "PD-1", "CAR-T", "TCE"].reduce(
     (html, phrase) => html.replace(phrase, `<span class="keep-phrase">${phrase}</span>`),
     escapeHtml(title)
   );
@@ -1185,7 +1185,7 @@ function headerHtml(current, meta = {}) {
   <div class="container nav">
     <a class="brand" href="${hrefs.home}"><img src="../favicon.svg" alt=""><span>${brandLabel}</span></a>
     <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
-    <label class="nav-menu-button" for="site-nav-toggle">${english ? "Menu" : "選單"}</label>
+    <button class="nav-menu-button" type="button" aria-controls="site-nav-links" aria-expanded="false">${english ? "Menu" : "選單"}</button>
     <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">
       ${link(hrefs.home, labels.home, "home")}
       ${link(hrefs.articles, labels.articles, "articles")}
@@ -1218,8 +1218,8 @@ function nestedHeaderHtml(current = "articles", prefix = "../../") {
   <div class="container nav">
     <a class="brand" href="${prefix}index.html"><img src="${prefix}favicon.svg" alt=""><span>Drugnews｜藥時事</span></a>
     <input class="nav-toggle" id="site-nav-toggle" type="checkbox" aria-hidden="true">
-    <label class="nav-menu-button" for="site-nav-toggle">選單</label>
-    <nav class="nav-links" aria-label="Main navigation">${nav}</nav>
+    <button class="nav-menu-button" type="button" aria-controls="site-nav-links" aria-expanded="false">選單</button>
+    <nav class="nav-links" id="site-nav-links" aria-label="Main navigation">${nav}</nav>
   </div>
 </header>`;
 }
@@ -1742,7 +1742,8 @@ function relatedSignalBadges(record, related) {
 function relatedSignalHtml(record, related) {
   const badges = relatedSignalBadges(record, related);
   if (!badges.length) return "";
-  return `<div class="related-signal-row" aria-label="推薦依據">${badges.map((badge) => `<span>${escapeHtml(badge)}</span>`).join("")}</div>`;
+  const label = record.lang === "en" ? "Recommendation signals" : "推薦依據";
+  return `<div class="related-signal-row" aria-label="${label}">${badges.map((badge) => `<span>${escapeHtml(badge)}</span>`).join("")}</div>`;
 }
 
 function relatedDiagnosticScript(record, related) {

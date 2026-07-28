@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-28｜T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability
+  URL: https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html
+  Topics: T-cell exhaustion, immunotherapy, PD-1 blockade, CAR-T, T-cell engager
+  Summary: PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy.
+- 2026-07-28｜T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後
+  URL: https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html
+  Topics: T 細胞耗竭, 免疫治療, PD-1, CAR-T, TCE
+  Summary: PD-1、CAR-T 與 TCE 最後都仰賴可增殖、可補充且能持久的 T 細胞戰力。本文從耗竭分化、產品工程與臨床資料，拆解免疫治療下半場的真正競爭門檻。
 - 2026-07-27｜半年千億，買的是時間
   URL: https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html
   Topics: 生技併購, 藥廠併購, Biopharma M&A, 專利懸崖, Lilly
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html
   Topics: Astellas, Xtandi, Padcev, Vyloy, oncology
   Summary: Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.
-- 2026-07-20｜Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine
-  URL: https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html
-  Topics: Business Analysis, MASH, Madrigal Pharmaceuticals, Rezdiffra, resmetirom
-  Summary: Rezdiffra has opened the MASH market and built its commercialization infrastructure. Madrigal is now adding six Ribo siRNA programs and Arrowhead's ARO-PNPLA3 to create a cornerstone-plus-precision-combination treatment matrix.
-- 2026-07-20｜聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒
-  URL: https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html
-  Topics: MASH, Madrigal Pharmaceuticals, Rezdiffra, resmetirom, siRNA
-  Summary: Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。
 
 ## Key Site Sections
 

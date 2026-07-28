@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability-en/cover-en.webp</image:loc>
+      <image:caption>PD-1 blockade, CAR-T and T-cell engagers all depend on durable T-cell fitness</image:caption>
+      <image:title>T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy&apos;s Next Contest Is Durability</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability-en/01_three-modalities-en.webp</image:loc>
+      <image:caption>PD-1 blockade, CAR-T and T-cell engagers all depend on T cells that can expand, renew and persist</image:caption>
+      <image:title>T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy&apos;s Next Contest Is Durability</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability-en/02_exhaustion-trajectory-en.webp</image:loc>
+      <image:caption>T-cell exhaustion progresses from progenitor-like through transitional to terminal states under persistent antigen and microenvironmental pressure</image:caption>
+      <image:title>T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy&apos;s Next Contest Is Durability</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability-en/03_product-engineering-en.webp</image:loc>
+      <image:caption>CAR-T and T-cell engagers must balance tumor killing, toxicity and T-cell persistence through product-specific engineering levers</image:caption>
+      <image:title>T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy&apos;s Next Contest Is Durability</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability-en/04_taiwan-coordinates-en.webp</image:loc>
+      <image:caption>SOA101, CAR001, PL001 and AP203 represent four direct Taiwan product coordinates, with ACE1831 as an adjacent T-cell therapy comparison</image:caption>
+      <image:title>T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy&apos;s Next Contest Is Durability</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability/cover-zh.webp</image:loc>
+      <image:caption>PD-1、CAR-T 與 TCE 都依賴可長期維持的 T 細胞戰力</image:caption>
+      <image:title>T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability/01_three-modalities.webp</image:loc>
+      <image:caption>PD-1 阻斷、CAR-T 與 TCE 都依賴可增殖、可補充且能持久的 T 細胞戰力</image:caption>
+      <image:title>T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability/02_exhaustion-trajectory.webp</image:loc>
+      <image:caption>T 細胞耗竭從前驅樣、過渡到終末耗竭，是受到持續抗原與微環境壓力塑造的分化路徑</image:caption>
+      <image:title>T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability/03_product-engineering.webp</image:loc>
+      <image:caption>CAR-T 與 TCE 都必須在腫瘤殺傷、毒性與 T 細胞持久性之間找到產品自己的治療窗</image:caption>
+      <image:title>T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability/04_taiwan-coordinates.webp</image:loc>
+      <image:caption>聖安生醫 SOA101、長聖 CAR001、沛爾生醫 PL001 與圓祥 AP203 是台灣四個直接產品座標，育世博 ACE1831 為延伸觀察</image:caption>
+      <image:title>T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time/cover-zh.webp</image:loc>

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-27T07:50:04.228Z",
+  "generated_at": "2026-07-28T04:27:02.587Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+      "date": "2026-07-28",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+      "category": "商業分析",
+      "tags": [
+        "T-cell exhaustion",
+        "immunotherapy",
+        "PD-1 blockade",
+        "CAR-T",
+        "T-cell engager",
+        "bispecific antibody",
+        "TCF1",
+        "Taiwan biotech"
+      ],
+      "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy."
+    },
+    {
+      "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+      "date": "2026-07-28",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+      "category": "商業分析",
+      "tags": [
+        "T 細胞耗竭",
+        "免疫治療",
+        "PD-1",
+        "CAR-T",
+        "TCE",
+        "雙特異性抗體",
+        "TCF1",
+        "聖安生醫"
+      ],
+      "summary": "PD-1、CAR-T 與 TCE 最後都仰賴可增殖、可補充且能持久的 T 細胞戰力。本文從耗竭分化、產品工程與臨床資料，拆解免疫治療下半場的真正競爭門檻。"
+    },
     {
       "title": "半年千億，買的是時間",
       "date": "2026-07-27",
@@ -770,42 +806,6 @@
         "daraxonrasib"
       ],
       "summary": "Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems."
-    },
-    {
-      "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-      "date": "2026-07-16",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Big Pharma",
-        "biotech M&A",
-        "Vertex",
-        "Crinetics",
-        "AbbVie",
-        "Apogee Therapeutics",
-        "Novartis"
-      ],
-      "summary": "Vertex's roughly $10 billion deal for Crinetics captures a wider change in Big Pharma's acquisition taste: away from scale and fashionable platforms, toward niche leadership, technological step-changes and commercial visibility."
-    },
-    {
-      "title": "百億美元併購新狂潮",
-      "date": "2026-07-16",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-      "category": "商業分析",
-      "tags": [
-        "Big Pharma",
-        "生技併購",
-        "Vertex",
-        "Crinetics",
-        "AbbVie",
-        "Apogee Therapeutics",
-        "Novartis",
-        "Avidity Biosciences"
-      ],
-      "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。"
     }
   ],
   "do_not_use_as": [

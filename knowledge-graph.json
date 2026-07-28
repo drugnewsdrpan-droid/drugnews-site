@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-27T07:50:04.231Z",
+  "generated_at": "2026-07-28T04:27:02.588Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,54 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+      "date": "2026-07-28",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "T-cell exhaustion",
+        "immunotherapy",
+        "PD-1 blockade",
+        "CAR-T",
+        "T-cell engager",
+        "bispecific antibody",
+        "TCF1",
+        "Taiwan biotech",
+        "Shine-On Biomedical",
+        "Ever Supreme"
+      ],
+      "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-28-t-cell-exhaustion-immunotherapy-durability.html"
+      }
+    },
+    {
+      "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+      "date": "2026-07-28",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "T 細胞耗竭",
+        "免疫治療",
+        "PD-1",
+        "CAR-T",
+        "TCE",
+        "雙特異性抗體",
+        "TCF1",
+        "聖安生醫",
+        "長聖",
+        "沛爾生醫"
+      ],
+      "summary": "PD-1、CAR-T 與 TCE 最後都仰賴可增殖、可補充且能持久的 T 細胞戰力。本文從耗竭分化、產品工程與臨床資料，拆解免疫治療下半場的真正競爭門檻。",
+      "alternate_language_versions": {
+        "en": "2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html"
+      }
+    },
     {
       "title": "半年千億，買的是時間",
       "date": "2026-07-27",
@@ -780,60 +828,13 @@
       "alternate_language_versions": {
         "en": "2026-07-14-novartis-myricx-nmti-adc-en.html"
       }
-    },
-    {
-      "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-      "date": "2026-07-13",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-      "category": "商業分析",
-      "access": "Free Article",
-      "tags": [
-        "Business Analysis",
-        "AI drug discovery",
-        "Claude Science",
-        "Anthropic",
-        "foundation models",
-        "drug development",
-        "AnHorn Medicines",
-        "PROTAC",
-        "CMC",
-        "clinical assets"
-      ],
-      "summary": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-13-anthropic-claude-science-ai-drug-discovery.html"
-      }
-    },
-    {
-      "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-      "date": "2026-07-13",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "AI 製藥",
-        "Claude Science",
-        "Anthropic",
-        "大型語言模型",
-        "新藥研發",
-        "安宏生醫",
-        "PROTAC",
-        "CMC",
-        "臨床資產"
-      ],
-      "summary": "Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。",
-      "alternate_language_versions": {
-        "en": "2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 33,
+      "mentions": 32,
       "latest_date": "2026-07-24",
       "latest_articles": [
         {
@@ -907,9 +908,47 @@
       ]
     },
     {
+      "name": "Taiwan biotech",
+      "type": "topic",
+      "mentions": 21,
+      "latest_date": "2026-07-28",
+      "latest_articles": [
+        {
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
+          "date": "2026-07-26",
+          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "language": "en"
+        },
+        {
+          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "BD",
       "type": "market_topic",
-      "mentions": 21,
+      "mentions": 20,
       "latest_date": "2026-07-24",
       "latest_articles": [
         {
@@ -945,47 +984,9 @@
       ]
     },
     {
-      "name": "Taiwan biotech",
-      "type": "topic",
-      "mentions": 20,
-      "latest_date": "2026-07-26",
-      "latest_articles": [
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Business Analysis",
       "type": "topic",
-      "mentions": 18,
+      "mentions": 17,
       "latest_date": "2026-07-20",
       "latest_articles": [
         {
@@ -1016,44 +1017,6 @@
           "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
           "date": "2026-07-16",
           "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Drug development",
-      "type": "topic",
-      "mentions": 17,
-      "latest_date": "2026-06-12",
-      "latest_articles": [
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
           "language": "en"
         }
       ]
@@ -1097,9 +1060,47 @@
       ]
     },
     {
-      "name": "Biotech business analysis",
+      "name": "Drug development",
       "type": "topic",
       "mentions": 16,
+      "latest_date": "2026-06-12",
+      "latest_articles": [
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Biotech business analysis",
+      "type": "topic",
+      "mentions": 15,
       "latest_date": "2026-06-11",
       "latest_articles": [
         {
@@ -1473,6 +1474,44 @@
           "date": "2026-06-14",
           "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "CAR-T",
+      "type": "biotech_concept_or_target",
+      "mentions": 7,
+      "latest_date": "2026-07-28",
+      "latest_articles": [
+        {
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "language": "en"
+        },
+        {
+          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "通用型 CAR-T 的 2026 從低谷回暖",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2047,44 +2086,6 @@
       ]
     },
     {
-      "name": "CAR-T",
-      "type": "biotech_concept_or_target",
-      "mentions": 5,
-      "latest_date": "2026-07-06",
-      "latest_articles": [
-        {
-          "title": "通用型 CAR-T 的 2026 從低谷回暖",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "AI",
       "type": "topic",
       "mentions": 5,
@@ -2119,44 +2120,6 @@
           "date": "2026-06-07",
           "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Business development",
-      "type": "topic",
-      "mentions": 5,
-      "latest_date": "2026-06-12",
-      "latest_articles": [
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Old Targets Are Crowded, but They Can Still Make Money",
-          "date": "2026-06-06",
-          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech Investing Needs a Judgment System, Not More News",
-          "date": "2026-05-28",
-          "url": "https://drugnews.com.tw/articles/2026-05-28-biotech-investment-judgment-system-en.html",
-          "language": "en"
         }
       ]
     },
@@ -2477,6 +2440,38 @@
           "date": "2026-06-04",
           "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Business development",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-06-12",
+      "latest_articles": [
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Old Targets Are Crowded, but They Can Still Make Money",
+          "date": "2026-06-06",
+          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2819,6 +2814,186 @@
       ]
     },
     {
+      "name": "雙特異性抗體",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-28",
+      "latest_articles": [
+        {
+          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "ACE1831",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-28",
+      "latest_articles": [
+        {
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "language": "en"
+        },
+        {
+          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "AP203",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-28",
+      "latest_articles": [
+        {
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "language": "en"
+        },
+        {
+          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "bispecific antibody",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-28",
+      "latest_articles": [
+        {
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "CAR001",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-28",
+      "latest_articles": [
+        {
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "language": "en"
+        },
+        {
+          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "PD-1",
+      "type": "biotech_concept_or_target",
+      "mentions": 2,
+      "latest_date": "2026-07-28",
+      "latest_articles": [
+        {
+          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "老靶點都很捲，但不是不能賺錢",
+          "date": "2026-06-06",
+          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "PL001",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-28",
+      "latest_articles": [
+        {
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "language": "en"
+        },
+        {
+          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "SOA101",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-28",
+      "latest_articles": [
+        {
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "language": "en"
+        },
+        {
+          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "TCF1",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-28",
+      "latest_articles": [
+        {
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "language": "en"
+        },
+        {
+          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "生技併購",
       "type": "topic",
       "mentions": 2,
@@ -3077,189 +3252,28 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "IL-23R",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-26",
-      "latest_articles": [
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一顆藥，搶針劑的飯碗",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "J&J",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-26",
-      "latest_articles": [
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一顆藥，搶針劑的飯碗",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Johnson & Johnson",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-26",
-      "latest_articles": [
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一顆藥，搶針劑的飯碗",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "PASI 90",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-26",
-      "latest_articles": [
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一顆藥，搶針劑的飯碗",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "羅氏",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-25",
-      "latest_articles": [
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "邁向「寵物醫療界羅氏」的寶泰生醫",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "bexobrutideg",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-25",
-      "latest_articles": [
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "BRIM Biotechnology",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-25",
-      "latest_articles": [
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "fenebrutinib",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-25",
-      "latest_articles": [
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "giredestrant",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-25",
-      "latest_articles": [
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+      "date": "2026-07-28",
+      "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "T-cell exhaustion",
+        "immunotherapy",
+        "PD-1 blockade",
+        "CAR-T",
+        "T-cell engager",
+        "bispecific antibody",
+        "TCF1",
+        "Taiwan biotech"
+      ],
+      "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy."
+    },
     {
       "title": "半年千億，買的是時間",
       "date": "2026-07-27",
@@ -3800,25 +3814,6 @@
         "URAT1"
       ],
       "summary": "FDA 並未指出影響 NASP 核准可能性的臨床療效或安全性問題，真正要求補強的是 CMC 控制策略與委託製造設施缺失。這封 CRL 提醒投資人：越接近上市，製造可信度越是藥品價值的一部分。"
-    },
-    {
-      "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-      "date": "2026-07-09",
-      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Japan biotech",
-        "Taiwan biotech",
-        "startup ecosystem",
-        "drug development",
-        "clinical data"
-      ],
-      "summary": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits."
     }
   ]
 }
