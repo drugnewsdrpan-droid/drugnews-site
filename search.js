@@ -86,6 +86,9 @@
   }
 
   function categoryDisplay(category = "") {
+    if (document.documentElement.lang === "en" && category === "商業分析系列") {
+      return "Business Analysis";
+    }
     return readerFacingText(category);
   }
 
