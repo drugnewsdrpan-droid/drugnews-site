@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-30T06:16:50.963Z",
+  "generated_at": "2026-07-30T11:58:54.331Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,50 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+      "date": "2026-07-31",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "AnBogen Therapeutics",
+        "ABT-301",
+        "Cancer Immunotherapy",
+        "PD-1",
+        "Metastatic Colorectal Cancer",
+        "HDAC",
+        "Taiwan Biotech",
+        "Oncology"
+      ],
+      "summary": "Can a small molecule from Taiwan extend the $30 billion PD-1 ecosystem into the 95% of metastatic colorectal cancer patients still beyond immunotherapy’s reach?",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-31-anbogen-immunotherapy-starlink.html"
+      }
+    },
+    {
+      "title": "安邦生技：免疫治療的「星鏈計畫」",
+      "date": "2026-07-31",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "安邦生技",
+        "ABT-301",
+        "癌症免疫治療",
+        "PD-1",
+        "轉移性大腸直腸癌",
+        "HDAC",
+        "台灣生技",
+        "腫瘤"
+      ],
+      "summary": "一顆台灣小分子，有機會把三百億美元級PD-1藥王送進九成五患者仍無法受益的治療盲區嗎？",
+      "alternate_language_versions": {
+        "en": "2026-07-31-anbogen-immunotherapy-starlink-en.html"
+      }
+    },
     {
       "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
       "date": "2026-07-23",
@@ -780,54 +824,6 @@
       "alternate_language_versions": {
         "en": "2026-07-15-treg-immune-tolerance-productization-en.html"
       }
-    },
-    {
-      "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-      "date": "2026-07-14",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-      "category": "商業分析",
-      "access": "Free Article",
-      "tags": [
-        "Business Analysis",
-        "ADC",
-        "Novartis",
-        "Myricx Bio",
-        "NMT inhibitor",
-        "ADC payload",
-        "BD licensing",
-        "oncology",
-        "Taiwan biotech",
-        "biotech valuation"
-      ],
-      "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-14-novartis-myricx-nmti-adc.html"
-      }
-    },
-    {
-      "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
-      "date": "2026-07-14",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "ADC",
-        "Novartis",
-        "Myricx Bio",
-        "NMTi",
-        "payload",
-        "BD 授權",
-        "腫瘤",
-        "浩鼎",
-        "諦醫生技",
-        "嘉正生技"
-      ],
-      "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。",
-      "alternate_language_versions": {
-        "en": "2026-07-14-novartis-myricx-nmti-adc-en.html"
-      }
     }
   ],
   "entities": [
@@ -1062,7 +1058,7 @@
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 16,
+      "mentions": 15,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -1093,44 +1089,6 @@
           "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
           "date": "2026-06-09",
           "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Biotech business analysis",
-      "type": "topic",
-      "mentions": 15,
-      "latest_date": "2026-06-11",
-      "latest_articles": [
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
           "language": "en"
         }
       ]
@@ -1174,9 +1132,47 @@
       ]
     },
     {
+      "name": "Biotech business analysis",
+      "type": "topic",
+      "mentions": 14,
+      "latest_date": "2026-06-11",
+      "latest_articles": [
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "GLP-1",
       "type": "biotech_concept_or_target",
-      "mentions": 14,
+      "mentions": 13,
       "latest_date": "2026-07-20",
       "latest_articles": [
         {
@@ -1440,9 +1436,47 @@
       ]
     },
     {
+      "name": "台灣生技",
+      "type": "topic",
+      "mentions": 8,
+      "latest_date": "2026-07-31",
+      "latest_articles": [
+        {
+          "title": "安邦生技：免疫治療的「星鏈計畫」",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Capital markets",
       "type": "market_topic",
-      "mentions": 9,
+      "mentions": 8,
       "latest_date": "2026-06-29",
       "latest_articles": [
         {
@@ -1511,44 +1545,6 @@
           "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
           "date": "2026-06-15",
           "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "台灣生技",
-      "type": "topic",
-      "mentions": 7,
-      "latest_date": "2026-07-24",
-      "latest_articles": [
-        {
-          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
           "language": "zh-Hant"
         }
       ]
@@ -1744,44 +1740,6 @@
       ]
     },
     {
-      "name": "Clinical and CMC",
-      "type": "biotech_concept_or_target",
-      "mentions": 7,
-      "latest_date": "2026-06-08",
-      "latest_articles": [
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
-          "date": "2026-06-05",
-          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
-          "date": "2026-06-03",
-          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Roche",
       "type": "company",
       "mentions": 6,
@@ -1934,39 +1892,39 @@
       ]
     },
     {
-      "name": "Obesity medicine",
-      "type": "topic",
+      "name": "Clinical and CMC",
+      "type": "biotech_concept_or_target",
       "mentions": 6,
-      "latest_date": "2026-06-22",
+      "latest_date": "2026-06-08",
       "latest_articles": [
         {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
           "language": "en"
         },
         {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
+          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
+          "date": "2026-06-05",
+          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
           "language": "en"
         },
         {
-          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
+          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
+          "date": "2026-06-03",
+          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
           "language": "en"
         },
         {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
           "language": "en"
         },
         {
-          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
+          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
           "language": "en"
         }
       ]
@@ -2005,44 +1963,6 @@
           "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
           "date": "2026-06-21",
           "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "AI drug discovery",
-      "type": "topic",
-      "mentions": 5,
-      "latest_date": "2026-07-13",
-      "latest_articles": [
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
-          "date": "2026-05-29",
-          "url": "https://drugnews.com.tw/articles/2026-05-29-next-generation-obesity-therapy-directions-en.html",
           "language": "en"
         }
       ]
@@ -2119,6 +2039,140 @@
           "title": "沒有 AI 能力的藥廠，將不再被稱作藥廠",
           "date": "2026-06-07",
           "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Obesity medicine",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-06-22",
+      "latest_articles": [
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
+          "date": "2026-06-04",
+          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "腫瘤",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-07-31",
+      "latest_articles": [
+        {
+          "title": "安邦生技：免疫治療的「星鏈計畫」",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-23",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Oncology",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-07-31",
+      "latest_articles": [
+        {
+          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
+          "date": "2026-06-21",
+          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
+          "language": "en"
+        },
+        {
+          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "PD-1",
+      "type": "biotech_concept_or_target",
+      "mentions": 4,
+      "latest_date": "2026-07-31",
+      "latest_articles": [
+        {
+          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+          "language": "en"
+        },
+        {
+          "title": "安邦生技：免疫治療的「星鏈計畫」",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "老靶點都很捲，但不是不能賺錢",
+          "date": "2026-06-06",
+          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy.html",
           "language": "zh-Hant"
         }
       ]
@@ -2380,6 +2434,38 @@
       ]
     },
     {
+      "name": "AI drug discovery",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-07-13",
+      "latest_articles": [
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
+          "date": "2026-06-07",
+          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Biotech investing",
       "type": "topic",
       "mentions": 4,
@@ -2523,32 +2609,6 @@
           "title": "從 Ruxolitinib cream 說起：外用 JAK 抑制劑，為什麼不是每個分子都能做？",
           "date": "2026-06-05",
           "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "腫瘤",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-07-23",
-      "latest_articles": [
-        {
-          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
-          "date": "2026-07-23",
-          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
           "language": "zh-Hant"
         }
       ]
@@ -2710,32 +2770,6 @@
       ]
     },
     {
-      "name": "Oncology",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-06-30",
-      "latest_articles": [
-        {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
-          "date": "2026-06-21",
-          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
-          "language": "en"
-        },
-        {
-          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Regulatory risk",
       "type": "topic",
       "mentions": 3,
@@ -2810,6 +2844,46 @@
           "date": "2026-05-31",
           "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "ABT-301",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-31",
+      "latest_articles": [
+        {
+          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+          "language": "en"
+        },
+        {
+          "title": "安邦生技：免疫治療的「星鏈計畫」",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "HDAC",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-31",
+      "latest_articles": [
+        {
+          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+          "language": "en"
+        },
+        {
+          "title": "安邦生技：免疫治療的「星鏈計畫」",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2909,26 +2983,6 @@
           "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
           "date": "2026-07-28",
           "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "PD-1",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-07-28",
-      "latest_articles": [
-        {
-          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "老靶點都很捲，但不是不能賺錢",
-          "date": "2026-06-06",
-          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy.html",
           "language": "zh-Hant"
         }
       ]
@@ -3212,49 +3266,28 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "ICOTYDE",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-26",
-      "latest_articles": [
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一顆藥，搶針劑的飯碗",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "IGA 0/1",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-26",
-      "latest_articles": [
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一顆藥，搶針劑的飯碗",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+      "date": "2026-07-31",
+      "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "AnBogen Therapeutics",
+        "ABT-301",
+        "Cancer Immunotherapy",
+        "PD-1",
+        "Metastatic Colorectal Cancer",
+        "HDAC",
+        "Taiwan Biotech",
+        "Oncology"
+      ],
+      "summary": "Can a small molecule from Taiwan extend the $30 billion PD-1 ecosystem into the 95% of metastatic colorectal cancer patients still beyond immunotherapy’s reach?"
+    },
     {
       "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
       "date": "2026-07-28",
@@ -3795,25 +3828,6 @@
         "Sobi"
       ],
       "summary": "FDA identified no clinical efficacy or safety concerns that affected NASP's approvability. The setback centered on CMC controls and contract-manufacturing deficiencies, showing biotech investors why manufacturing credibility becomes part of asset value near launch."
-    },
-    {
-      "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-      "date": "2026-07-10",
-      "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "FDA",
-        "NASP",
-        "Sobi",
-        "CMC",
-        "委託製造",
-        "製造品質",
-        "難治性痛風",
-        "URAT1"
-      ],
-      "summary": "FDA 並未指出影響 NASP 核准可能性的臨床療效或安全性問題，真正要求補強的是 CMC 控制策略與委託製造設施缺失。這封 CRL 提醒投資人：越接近上市，製造可信度越是藥品價值的一部分。"
     }
   ]
 }

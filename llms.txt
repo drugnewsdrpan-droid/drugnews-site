@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-31｜AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy
+  URL: https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html
+  Topics: AnBogen Therapeutics, ABT-301, Cancer Immunotherapy, PD-1, Metastatic Colorectal Cancer
+  Summary: Can a small molecule from Taiwan extend the $30 billion PD-1 ecosystem into the 95% of metastatic colorectal cancer patients still beyond immunotherapy’s reach?
+- 2026-07-31｜安邦生技：免疫治療的「星鏈計畫」
+  URL: https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html
+  Topics: 安邦生技, ABT-301, 癌症免疫治療, PD-1, 轉移性大腸直腸癌
+  Summary: 一顆台灣小分子，有機會把三百億美元級PD-1藥王送進九成五患者仍無法受益的治療盲區嗎？
 - 2026-07-23｜Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門
   URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html
   Topics: Astellas, Xtandi, Padcev, Vyloy, 腫瘤
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html
   Topics: SpaceX, 微重力, 太空製藥, 藥物結晶, Keytruda
   Summary: SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。
-- 2026-07-24｜When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma
-  URL: https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html
-  Topics: Biotech, Biopharma, argenx, Insmed, Incyte
-  Summary: An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs.
-- 2026-07-24｜Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma
-  URL: https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html
-  Topics: Biotech, Biopharma, argenx, Insmed, Incyte
-  Summary: 被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。
 
 ## Key Site Sections
 

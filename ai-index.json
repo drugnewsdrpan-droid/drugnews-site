@@ -209,6 +209,60 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+      "date": "2026-07-31",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+      "source": "Website",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "AnBogen Therapeutics",
+        "ABT-301",
+        "Cancer Immunotherapy",
+        "PD-1",
+        "Metastatic Colorectal Cancer",
+        "HDAC",
+        "Taiwan Biotech",
+        "Oncology"
+      ],
+      "summary": "Can a small molecule from Taiwan extend the $30 billion PD-1 ecosystem into the 95% of metastatic colorectal cancer patients still beyond immunotherapy’s reach?",
+      "image": "https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-31-anbogen-immunotherapy-starlink.html"
+      }
+    },
+    {
+      "title": "安邦生技：免疫治療的「星鏈計畫」",
+      "date": "2026-07-31",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+      "source": "Website",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "安邦生技",
+        "ABT-301",
+        "癌症免疫治療",
+        "PD-1",
+        "轉移性大腸直腸癌",
+        "HDAC",
+        "台灣生技",
+        "腫瘤"
+      ],
+      "summary": "一顆台灣小分子，有機會把三百億美元級PD-1藥王送進九成五患者仍無法受益的治療盲區嗎？",
+      "image": "https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-07-31-anbogen-immunotherapy-starlink-en.html"
+      }
+    },
+    {
       "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
       "date": "2026-07-23",
       "language": "zh-Hant",
@@ -1539,61 +1593,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html"
-      }
-    },
-    {
-      "title": "通用型 CAR-T 的 2026 從低谷回暖",
-      "date": "2026-07-06",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "臨床數據",
-        "生技投資",
-        "細胞治療",
-        "CAR-T",
-        "異體細胞治療",
-        "自體免疫疾病",
-        "台灣生技"
-      ],
-      "summary": "邏輯很簡單：傳統自體 CAR-T 需要取出患者自己的 T 細胞，送到工廠改造、擴增、檢驗，再回輸到患者體內。療效可以很強，但等待時間長、成本高、製程複雜，病情進展太快或 T 細胞品質太差的患者，常常等不到治療。",
-      "image": "https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-06-universal-car-t-2026-rebound-en.html"
-      }
-    },
-    {
-      "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-      "date": "2026-07-06",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "cell therapy",
-        "CAR-T",
-        "allogeneic cell therapy",
-        "clinical data",
-        "drug development",
-        "autoimmune disease"
-      ],
-      "summary": "Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table.",
-      "image": "https://drugnews.com.tw/assets/articles/universal-car-t-2026-rebound-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-06-universal-car-t-2026-rebound.html"
       }
     }
   ]

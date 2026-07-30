@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 30 Jul 2026 06:16:50 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 11:58:54 GMT</lastBuildDate>
+    <item>
+      <title>安邦生技：免疫治療的「星鏈計畫」</title>
+      <link>https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink/cover-1400.webp" alt="安邦生技 ABT-301 如衛星中繼訊號般把免疫治療送入目前難以覆蓋的冷腫瘤"></p><p>一顆台灣小分子，有機會把三百億美元級PD-1藥王送進九成五患者仍無法受益的治療盲區嗎？</p>]]></description>
+    </item>
     <item>
       <title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</title>
       <link>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Wed, 08 Jul 2026 01:00:32 GMT</pubDate>
       <category>深度商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a402ec5fd897800016f65cc-source.jpg" alt="5 個可能重算台灣 biotech 估值的全球訊號"></p><p>這篇不是新聞清單，而是會員版下週雷達：把 ADC、FDA／EMA、台灣公司公告、大藥廠 BD 與資金環境五個訊號，翻成會改變成功率、上市時間、峰值銷售、折現率、現金水位與 BD 機率的估值參數。</p>]]></description>
-    </item>
-    <item>
-      <title>【基本面系列】保瑞合理估值是多少？它不是 CDMO 題材股，而是台灣少數能用併購把藥品現金流做大的製藥平台</title>
-      <link>https://vocus.cc/article/6a401d9ffd897800016c1e2a</link>
-      <guid isPermaLink="true">https://vocus.cc/article/6a401d9ffd897800016c1e2a</guid>
-      <pubDate>Tue, 07 Jul 2026 01:00:00 GMT</pubDate>
-      <category>基本面</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a401d9ffd897800016c1e2a-source.jpg" alt="保瑞合理估值與製藥平台分析"></p><p>保瑞不是單純 CDMO 題材，也不是普通學名藥公司。這篇用營收、EBITDA、自由現金流、淨負債與平台倍數，重算 412 元附近到底買到什麼。</p>]]></description>
     </item>
   </channel>
 </rss>

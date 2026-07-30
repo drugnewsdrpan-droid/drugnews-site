@@ -1035,10 +1035,14 @@ function markdownToHtml(markdown, imageMap, options = {}) {
       const zoomButton = expandable
         ? `<button class="article-image-zoom" type="button" aria-label="${escapeHtml(zoomLabel)}"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.4-3.4M8 11h6M11 8v6"></path></svg><span>${isEnglish(options) ? "View full size" : "放大閱讀"}</span></button>`
         : "";
-      const responsiveMatch = src.match(/^(.*\/fasedienol-cns-en\/figure-0[1-4])\.png$/);
-      if (responsiveMatch) {
-        const stem = responsiveMatch[1];
-        out.push(`<figure${figureClass}><picture><source type="image/webp" srcset="${escapeHtml(`${stem}-720.webp`)} 720w, ${escapeHtml(`${stem}-1400.webp`)} 1400w" sizes="(max-width: 680px) 100vw, 760px"><img src="${escapeHtml(`${stem}-1400.webp`)}" alt="${escapeHtml(alt)}" width="1672" height="941" loading="lazy" decoding="async"></picture>${zoomButton}</figure>`);
+      const legacyResponsiveMatch = src.match(/^(.*\/fasedienol-cns-en\/figure-0[1-4])\.png$/);
+      const responsiveStem = options.responsive_inline_images === true && /\.png$/i.test(src)
+        ? src.replace(/\.png$/i, "")
+        : legacyResponsiveMatch?.[1];
+      if (responsiveStem) {
+        const responsiveWidth = hasIntrinsicSize ? imageWidth : 1672;
+        const responsiveHeight = hasIntrinsicSize ? imageHeight : 941;
+        out.push(`<figure${figureClass}><picture><source type="image/webp" srcset="${escapeHtml(`${responsiveStem}-720.webp`)} 720w, ${escapeHtml(`${responsiveStem}-1400.webp`)} 1400w" sizes="(max-width: 680px) 100vw, 760px"><img src="${escapeHtml(`${responsiveStem}-1400.webp`)}" alt="${escapeHtml(alt)}" width="${responsiveWidth}" height="${responsiveHeight}" loading="lazy" decoding="async"></picture>${zoomButton}</figure>`);
       } else {
         out.push(`<figure${figureClass}><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}"${dimensionAttributes} loading="lazy" decoding="async">${zoomButton}</figure>`);
       }
@@ -1390,7 +1394,10 @@ function articlePage(article, bodyHtml, related) {
   const wordCount = articleWordCount(article.markdown);
   const seriesLabel = displaySeriesLabel(series, meta);
   const accessDisplay = displayAccessLabel(meta);
-  const heroMetaLabels = [...new Set([displayDate(meta.date, meta), accessDisplay, seriesLabel].filter(Boolean))];
+  const sponsoredLabel = meta.sponsored === true
+    ? (isEnglish(meta) ? "Sponsored Content" : "合作內容")
+    : "";
+  const heroMetaLabels = [...new Set([displayDate(meta.date, meta), accessDisplay, seriesLabel, sponsoredLabel].filter(Boolean))];
   const seoTags = topicTags(meta.tags);
   const localLinks = isEnglish(meta)
     ? { articles: "../en/articles/", subscribe: "../en/subscribe.html", freeType: "../en/articles/" }
@@ -1447,6 +1454,17 @@ function articlePage(article, bodyHtml, related) {
   };
   if (articleImageUrls.length) articleSchema.image = articleImageUrls;
   if (citations.length) articleSchema.citation = citations;
+  if (meta.sponsored === true && meta.sponsor_name) {
+    articleSchema.sponsor = {
+      "@type": "Organization",
+      name: meta.sponsor_name
+    };
+  }
+  const sponsorDisclosure = meta.sponsored === true && meta.sponsor_name
+    ? `<p class="article-sponsor-disclosure"><strong>${isEnglish(meta) ? "Sponsored Content" : "合作內容"}</strong><span>${escapeHtml(isEnglish(meta)
+      ? `Research materials were supplied by ${meta.sponsor_name}; Drugnews was responsible for editorial development and presentation.`
+      : `本文由${meta.sponsor_name}提供研究資料，Drugnews 負責內容整理與編輯。`)}</span></p>`
+    : "";
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -1467,7 +1485,7 @@ function articlePage(article, bodyHtml, related) {
   <link rel="canonical" href="${url}">
   ${alternateLinks(meta, url)}
   <link rel="icon" href="../favicon.svg">
-  <link rel="stylesheet" href="../styles.css?v=20260727-1">
+  <link rel="stylesheet" href="../styles.css?v=20260730-1">
   <link rel="alternate" type="application/rss+xml" title="${escapeHtml(siteBrand)} RSS" href="${isEnglish(meta) ? `${BASE_URL}/en/feed.xml` : `${BASE_URL}/feed.xml`}">
   <link rel="alternate" type="application/feed+json" title="${escapeHtml(siteBrand)} JSON Feed" href="${isEnglish(meta) ? `${BASE_URL}/en/feed.json` : `${BASE_URL}/feed.json`}">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
@@ -1495,6 +1513,7 @@ ${headerHtml("articles", meta)}
       <h1>${articleTitleHtml(meta)}</h1>
       <p class="article-deck">${escapeHtml(meta.summary)}</p>
       <p class="article-byline">${ui.byline}<a href="${isEnglish(meta) ? "../en/team.html" : "../team.html"}">${ui.author}</a></p>
+      ${sponsorDisclosure}
       ${trustHtml}
       ${tagRowHtml(meta.tags)}
     </div>
@@ -1562,6 +1581,8 @@ function articleRecord(article) {
     summary: meta.summary,
     image: cardImage,
     imageAlt: meta.card_image_alt || articleCover.alt,
+    sponsored: meta.sponsored === true,
+    sponsorName: meta.sponsor_name || "",
     updatedAt: meta.updated_at || meta.date,
     ...(meta.homepage_cover_image ? {
       homepageImage: article.imageMap.get(meta.homepage_cover_image) || meta.homepage_cover_image,
@@ -1626,7 +1647,13 @@ function articleCardHtml(item, href, imageSrc = item.image) {
   const visibleTags = [...new Set(displayTags(item.tags))];
   const categoryDisplay = readerFacingText(displaySeriesLabel(item.category, item));
   const accessDisplay = displayAccessLabel(item);
-  const metaLabels = [...new Set([displayDate(item.date, item), categoryDisplay, accessDisplay].filter(Boolean))];
+  const sponsoredDisplay = item.sponsored === true ? "合作內容" : "";
+  const metaLabels = [...new Set([
+    displayDate(item.date, item),
+    categoryDisplay,
+    accessDisplay,
+    sponsoredDisplay
+  ].filter(Boolean))];
   const cardTags = visibleTags.filter((tag) => !metaLabels.includes(tag));
   return `<a class="article-card${image ? " with-image" : ""}${item.external ? " external-card" : ""}" href="${escapeHtml(finalHref)}"${target}>${image ? `
     ${image}` : ""}
@@ -2005,7 +2032,9 @@ function evidenceSceneHtml() {
 }
 
 function homePage(records) {
-  const freeItems = readerFirstSort(records.filter((item) => accessLabel(item) === "免費文章"));
+  const freeItems = readerFirstSort(records.filter(
+    (item) => accessLabel(item) === "免費文章" && item.sponsored !== true
+  ));
   const lead = freeItems[0] || readerFirstSort(records)[0];
   const briefing = freeItems.filter((item) => !lead || item.slug !== lead.slug).slice(0, 4);
   const leadHref = lead?.external ? lead.url : lead?.url || "articles/";

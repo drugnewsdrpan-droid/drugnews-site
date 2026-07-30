@@ -335,10 +335,16 @@ function articleCard(record, depth = 1) {
   const href = record.external ? record.url : `${"../".repeat(depth)}${record.url}`;
   const target = record.external ? ' target="_blank" rel="noopener"' : "";
   const tags = (record.tags || []).slice(0, 5).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
+  const metaLabels = [...new Set([
+    record.date,
+    englishCategory(record.category),
+    englishAccess(record.access),
+    record.sponsored === true ? "Sponsored Content" : ""
+  ].filter(Boolean))];
   return `<a class="article-card${image ? " with-image" : ""}${record.external ? " external-card" : ""}" href="${escapeHtml(href)}"${target}>
     ${image ? `<div class="thumb-wrap"><img class="card-thumb" src="${escapeHtml(image)}" alt="${escapeHtml(record.imageAlt || record.title)}" loading="lazy"></div>` : ""}
     <div class="article-card-body">
-      <div class="meta"><span>${escapeHtml(record.date)}</span><span>${escapeHtml(englishCategory(record.category))}</span><span>${escapeHtml(englishAccess(record.access))}</span></div>
+      <div class="meta">${metaLabels.map((label) => `<span>${escapeHtml(label)}</span>`).join("")}</div>
       <h3>${escapeHtml(record.title)}</h3>
       <p>${escapeHtml(record.summary)}</p>
       <div class="tag-row">${tags}</div>
@@ -415,6 +421,8 @@ function publishedRecord(meta) {
     image: publishedImage(meta),
     cardImage: publishedCardImage(meta),
     imageAlt: meta.cover_image_alt || meta.title,
+    sponsored: meta.sponsored === true,
+    sponsorName: meta.sponsor_name || "",
     url: `articles/${articleFileName(meta)}`
   };
 }
@@ -435,7 +443,10 @@ async function loadEnglishRecords() {
 
 function homePage(records) {
   const englishRecords = records.filter((item) => item.lang === "en");
-  const lead = englishRecords.find((item) => !/anhorn|安宏/i.test(`${item.slug || ""} ${item.title || ""} ${(item.tags || []).join(" ")}`)) || englishRecords[0];
+  const lead = englishRecords.find((item) => (
+    item.sponsored !== true
+    && !/anhorn|安宏/i.test(`${item.slug || ""} ${item.title || ""} ${(item.tags || []).join(" ")}`)
+  )) || englishRecords.find((item) => item.sponsored !== true) || englishRecords[0];
   const leadMeta = lead
     ? [...new Set(["Featured English Analysis", englishCategory(lead.category), englishAccess(lead.access)].filter(Boolean))]
         .map((label) => `<span>${escapeHtml(label)}</span>`)

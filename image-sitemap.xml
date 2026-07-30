@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink-en/cover.png</image:loc>
+      <image:caption>A satellite constellation relays a therapeutic signal into a cold tumor as immune cells begin to infiltrate</image:caption>
+      <image:title>AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink-en/figure-01.png</image:loc>
+      <image:caption>Figure 1 | A “Starlink” for cancer immunotherapy: ABT-301 is designed to carry immune signaling into tumors that remain beyond the reach of current treatment.</image:caption>
+      <image:title>AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink-en/figure-02.png</image:loc>
+      <image:caption>Figure 2 | ABT-301 is designed to reprogram the tumor microenvironment—making the tumor visible again and reactivating an immune response.</image:caption>
+      <image:title>AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | A sequential network of the ABT-301 triple therapy: reprogram the microenvironment, improve immune access, and release the immune brake.</image:caption>
+      <image:title>AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink-en/figure-04.png</image:loc>
+      <image:caption>Figure 4 | From one satellite to a full constellation: ABT-301’s expansion blueprint across drugs, tumor types, and partners.</image:caption>
+      <image:title>AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink-en/figure-05.png</image:loc>
+      <image:caption>Figure 5 | AnBogen’s capital-markets trajectory: from the first signal in 66 patients to a cross-tumor platform and a globally partnerable asset.</image:caption>
+      <image:title>AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink/cover.png</image:loc>
+      <image:caption>安邦生技 ABT-301 如衛星中繼訊號般把免疫治療送入目前難以覆蓋的冷腫瘤</image:caption>
+      <image:title>安邦生技：免疫治療的「星鏈計畫」</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink/figure-01.png</image:loc>
+      <image:caption>圖1｜免疫治療的「星鏈計畫」：ABT-301嘗試把免疫訊號送進治療盲區</image:caption>
+      <image:title>安邦生技：免疫治療的「星鏈計畫」</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink/figure-02.png</image:loc>
+      <image:caption>圖2｜ABT-301透過腫瘤微環境重塑，嘗試讓腫瘤重新被看見、讓免疫重新被啟動</image:caption>
+      <image:title>安邦生技：免疫治療的「星鏈計畫」</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink/figure-03.png</image:loc>
+      <image:caption>圖3｜三聯療法的順序式邏輯：重塑環境、打開通道、解除煞車</image:caption>
+      <image:title>安邦生技：免疫治療的「星鏈計畫」</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink/figure-04.png</image:loc>
+      <image:caption>圖4｜從一顆衛星到整個星座：ABT-301的跨藥物、跨癌種、跨夥伴擴張藍圖</image:caption>
+      <image:title>安邦生技：免疫治療的「星鏈計畫」</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink/figure-05.png</image:loc>
+      <image:caption>圖5｜安邦的資本市場想像：從66名患者的第一組訊號，走向跨癌種平台與全球合作資產</image:caption>
+      <image:title>安邦生技：免疫治療的「星鏈計畫」</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform/cover.png</image:loc>
