@@ -1562,6 +1562,7 @@ function articleRecord(article) {
     summary: meta.summary,
     image: cardImage,
     imageAlt: meta.card_image_alt || articleCover.alt,
+    updatedAt: meta.updated_at || meta.date,
     ...(meta.homepage_cover_image ? {
       homepageImage: article.imageMap.get(meta.homepage_cover_image) || meta.homepage_cover_image,
       homepageImageAlt: meta.homepage_cover_image_alt || meta.cover_image_alt || meta.title
@@ -1731,7 +1732,7 @@ function relatedSignalBadges(record, related) {
     .flatMap((item) => {
       const diag = relatedDiagnostics(record, [item])[0];
       if (diag.sharedTags.length) return diag.sharedTags.slice(0, 2);
-      if (diag.familyOverlap) return ["同主題"];
+      if (diag.familyOverlap) return [record.lang === "en" ? "Same topic" : "同主題"];
       if (diag.sameCategory) return [item.category];
       return [];
     })
@@ -2423,6 +2424,10 @@ function sitemap(records) {
     ["search.html", "0.85", latest],
     ["en/", "0.85", latest],
     ["en/articles/", "0.75", latest],
+    ["en/guides/", "0.75", latest],
+    ["en/guides/clinical-endpoints.html", "0.7", latest],
+    ["en/guides/regulatory-milestones.html", "0.7", latest],
+    ["en/guides/bd-licensing-terms.html", "0.7", latest],
     ["en/about.html", "0.65", latest],
     ["en/services.html", "0.65", latest],
     ["en/subscribe.html", "0.65", latest],
@@ -2481,7 +2486,7 @@ function sitemap(records) {
   }
   for (const item of records.filter((record) => !record.external)) {
     const alternates = sitemapAlternates(item);
-    urls.push(`  <url><loc>${BASE_URL}/${item.url}</loc><lastmod>${item.date}</lastmod><priority>0.8</priority>${alternates}</url>`);
+    urls.push(`  <url><loc>${BASE_URL}/${item.url}</loc><lastmod>${item.updatedAt || item.date}</lastmod><priority>0.8</priority>${alternates}</url>`);
   }
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join("\n")}\n</urlset>\n`;
 }
@@ -2490,10 +2495,17 @@ function newsLanguage(item) {
   return isEnglish(item) ? "en" : "zh-tw";
 }
 
-function newsPublicationDate(item) {
-  const value = item.publishAt || `${item.date}T08:00:00+08:00`;
+function originalPublicationDate(item) {
+  const publishDate = String(item.publishAt || "").slice(0, 10);
+  const value = publishDate === item.date
+    ? item.publishAt
+    : `${item.date}T08:00:00+08:00`;
   const date = new Date(value);
   return Number.isNaN(date.getTime()) ? "" : date.toISOString();
+}
+
+function newsPublicationDate(item) {
+  return originalPublicationDate(item);
 }
 
 function newsSitemap(records) {
@@ -2501,7 +2513,7 @@ function newsSitemap(records) {
   const cutoff = now.getTime() - (48 * 60 * 60 * 1000);
   const items = records
     .filter((item) => !item.external)
-    .map((item) => ({ item, published: new Date(item.publishAt || `${item.date}T08:00:00+08:00`) }))
+    .map((item) => ({ item, published: new Date(originalPublicationDate(item)) }))
     .filter(({ published }) => !Number.isNaN(published.getTime()))
     .filter(({ published }) => published.getTime() >= cutoff && published.getTime() <= now.getTime() + (60 * 60 * 1000))
     .sort((a, b) => b.published.getTime() - a.published.getTime())
@@ -2581,7 +2593,7 @@ function rssFeed(records) {
       <title>${escapeXml(title)}</title>
       <link>${escapeXml(link)}</link>
       <guid isPermaLink="true">${escapeXml(link)}</guid>
-      <pubDate>${new Date(item.publishAt || `${item.date}T00:00:00+08:00`).toUTCString()}</pubDate>
+      <pubDate>${new Date(originalPublicationDate(item)).toUTCString()}</pubDate>
       <category>${escapeXml(displayCategory(item))}</category>
       <description><![CDATA[${description}]]></description>
     </item>`;
@@ -2614,7 +2626,8 @@ function jsonFeed(records) {
       content_text: stripMarkdown(item.text || item.summary || "").slice(0, 4000),
       image: imageUrl || undefined,
       banner_image: imageUrl || undefined,
-      date_published: new Date(item.publishAt || `${item.date}T00:00:00+08:00`).toISOString(),
+      date_published: originalPublicationDate(item),
+      date_modified: new Date(`${item.updatedAt || item.date}T08:00:00+08:00`).toISOString(),
       tags: displayTags(item.tags || []).slice(0, 10),
       language: item.lang || "zh-Hant",
       authors: [{

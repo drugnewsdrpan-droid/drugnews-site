@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-28T04:27:02.587Z",
+  "generated_at": "2026-07-30T06:16:50.961Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -384,6 +384,38 @@
   ],
   "latest_canonical_articles": [
     {
+      "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+      "date": "2026-07-23",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+      "category": "製藥巨頭",
+      "tags": [
+        "Astellas",
+        "Xtandi",
+        "Padcev",
+        "Vyloy",
+        "腫瘤",
+        "藥物開發"
+      ],
+      "summary": "Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。"
+    },
+    {
+      "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+      "date": "2026-07-23",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+      "category": "製藥巨頭",
+      "tags": [
+        "Astellas",
+        "Xtandi",
+        "Padcev",
+        "Vyloy",
+        "oncology",
+        "drug development"
+      ],
+      "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform."
+    },
+    {
       "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
       "date": "2026-07-28",
       "language": "en",
@@ -598,38 +630,6 @@
         "BD"
       ],
       "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
-    },
-    {
-      "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
-      "date": "2026-07-23",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
-      "category": "製藥巨頭",
-      "tags": [
-        "Astellas",
-        "Xtandi",
-        "Padcev",
-        "Vyloy",
-        "腫瘤",
-        "藥物開發"
-      ],
-      "summary": "Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。"
-    },
-    {
-      "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-      "date": "2026-07-23",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-      "category": "製藥巨頭",
-      "tags": [
-        "Astellas",
-        "Xtandi",
-        "Padcev",
-        "Vyloy",
-        "oncology",
-        "drug development"
-      ],
-      "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform."
     },
     {
       "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",

@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-07-23｜Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門
+  URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html
+  Topics: Astellas, Xtandi, Padcev, Vyloy, 腫瘤
+  Summary: Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。
+- 2026-07-23｜After Xtandi: Can Astellas Build an Oncology Platform?
+  URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html
+  Topics: Astellas, Xtandi, Padcev, Vyloy, oncology
+  Summary: Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.
 - 2026-07-28｜T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability
   URL: https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html
   Topics: T-cell exhaustion, immunotherapy, PD-1 blockade, CAR-T, T-cell engager
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html
   Topics: Biotech, Biopharma, argenx, Insmed, Incyte
   Summary: 被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。
-- 2026-07-23｜Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門
-  URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html
-  Topics: Astellas, Xtandi, Padcev, Vyloy, 腫瘤
-  Summary: Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。
-- 2026-07-23｜After Xtandi: Can Astellas Build an Oncology Platform?
-  URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html
-  Topics: Astellas, Xtandi, Padcev, Vyloy, oncology
-  Summary: Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.
 
 ## Key Site Sections
 

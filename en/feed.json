@@ -7,11 +7,28 @@
   "language": "en",
   "items": [
     {
+      "id": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+      "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+      "content_text": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.",
+      "date_published": "2026-07-23T08:00:00+08:00",
+      "date_modified": "2026-07-30T08:00:00+08:00",
+      "tags": [
+        "Astellas",
+        "Xtandi",
+        "Padcev",
+        "Vyloy",
+        "oncology",
+        "drug development"
+      ]
+    },
+    {
       "id": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
       "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
       "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
       "content_text": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy.",
       "date_published": "2026-07-28T08:00:00+08:00",
+      "date_modified": "2026-07-28T08:00:00+08:00",
       "tags": [
         "T-cell exhaustion",
         "immunotherapy",
@@ -39,6 +56,7 @@
       "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
       "content_text": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time.",
       "date_published": "2026-07-27T08:00:00+08:00",
+      "date_modified": "2026-07-27T08:00:00+08:00",
       "tags": [
         "biopharma M&A",
         "Big Pharma",
@@ -66,6 +84,7 @@
       "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
       "content_text": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis.",
       "date_published": "2026-07-26T08:00:00+08:00",
+      "date_modified": "2026-07-26T08:00:00+08:00",
       "tags": [
         "ICOTYDE",
         "icotrokinra",
@@ -88,6 +107,7 @@
       "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
       "content_text": "Roche generated CHF 47.669 billion in pharmaceutical sales in 2025, with Ocrevus, Hemlibra, and Vabysmo already accounting for roughly one-third of the total. The number that matters is not simply 19 potential new molecules, but whether giredestrant, fenebrutinib, obesity, Alzheimer's, and protein-degradation assets can inherit Roche's existing clinical, diagnostic, and commercial infrastructure on time.",
       "date_published": "2026-07-25T09:20:00+08:00",
+      "date_modified": "2026-07-25T08:00:00+08:00",
       "tags": [
         "Roche",
         "Big Pharma",
@@ -110,6 +130,7 @@
       "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
       "content_text": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation.",
       "date_published": "2026-07-24T16:20:00+08:00",
+      "date_modified": "2026-07-24T08:00:00+08:00",
       "tags": [
         "SpaceX",
         "microgravity",
@@ -129,6 +150,7 @@
       "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
       "content_text": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs.",
       "date_published": "2026-07-24T10:30:00+08:00",
+      "date_modified": "2026-07-24T08:00:00+08:00",
       "tags": [
         "Biotech",
         "Biopharma",
@@ -143,26 +165,12 @@
       ]
     },
     {
-      "id": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-      "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-      "content_text": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.",
-      "date_published": "2026-07-23T09:45:00+08:00",
-      "tags": [
-        "Astellas",
-        "Xtandi",
-        "Padcev",
-        "Vyloy",
-        "oncology",
-        "drug development"
-      ]
-    },
-    {
       "id": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
       "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
       "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
       "content_text": "Rezdiffra has opened the MASH market and built its commercialization infrastructure. Madrigal is now adding six Ribo siRNA programs and Arrowhead's ARO-PNPLA3 to create a cornerstone-plus-precision-combination treatment matrix.",
       "date_published": "2026-07-20T08:58:00+08:00",
+      "date_modified": "2026-07-20T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "MASH",
@@ -188,6 +196,7 @@
       "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
       "content_text": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.",
       "date_published": "2026-07-19T18:45:00+08:00",
+      "date_modified": "2026-07-19T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "pelacarsen",
@@ -207,6 +216,7 @@
       "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
       "content_text": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable.",
       "date_published": "2026-07-19T08:36:00+08:00",
+      "date_modified": "2026-07-19T08:00:00+08:00",
       "tags": [
         "NAMs",
         "CDE",
@@ -222,6 +232,7 @@
       "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
       "content_text": "The opportunity for autoimmune ADCs is not to transplant oncology cytotoxins into immune cells. It is to deliver powerful glucocorticoids, small molecules, ASOs or siRNAs selectively to the cells that drive disease. LFD-200 offers an early human proof-of-mechanism signal for that thesis.",
       "date_published": "2026-07-18T20:00:00+08:00",
+      "date_modified": "2026-07-18T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "antibody-drug conjugates",
@@ -241,6 +252,7 @@
       "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
       "content_text": "Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems.",
       "date_published": "2026-07-17T09:46:13+08:00",
+      "date_modified": "2026-07-17T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Revolution Medicines",
@@ -262,6 +274,7 @@
       "title": "How to read FDA regulatory milestones: what each event changes—and what it does not",
       "content_text": "A practical guide to INDs, FDA designations, pivotal alignment, NDA/BLA review, PDUFA dates, advisory committees, complete response letters, and approval pathways.",
       "date_published": "2026-07-17T09:00:00+08:00",
+      "date_modified": "2026-07-17T08:00:00+08:00",
       "tags": [
         "Research Guides",
         "Regulatory Milestones"
@@ -273,6 +286,7 @@
       "title": "How to read biotech licensing deals: from headline value to risk-adjusted economics",
       "content_text": "A practical guide to biotech licensing terms: upfront cash, milestones, royalties, territory, control, development obligations, supply, termination, and risk-adjusted deal economics.",
       "date_published": "2026-07-17T09:00:00+08:00",
+      "date_modified": "2026-07-17T08:00:00+08:00",
       "tags": [
         "Research Guides",
         "BD and Licensing Terms"
@@ -284,6 +298,7 @@
       "title": "How to read biotech clinical endpoints without overreading a positive headline",
       "content_text": "A practical guide to primary endpoints, effect size, confidence intervals, multiplicity, surrogate endpoints, and the questions that keep a positive biotech readout from being overread.",
       "date_published": "2026-07-17T09:00:00+08:00",
+      "date_modified": "2026-07-17T08:00:00+08:00",
       "tags": [
         "Research Guides",
         "Clinical Endpoints"
@@ -295,6 +310,7 @@
       "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
       "content_text": "Vertex's roughly $10 billion deal for Crinetics captures a wider change in Big Pharma's acquisition taste: away from scale and fashionable platforms, toward niche leadership, technological step-changes and commercial visibility.",
       "date_published": "2026-07-16T08:00:00+08:00",
+      "date_modified": "2026-07-16T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Big Pharma",
@@ -317,6 +333,7 @@
       "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
       "content_text": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline.",
       "date_published": "2026-07-15T08:00:00+08:00",
+      "date_modified": "2026-07-15T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "regulatory T cells",
@@ -337,6 +354,7 @@
       "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
       "content_text": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value.",
       "date_published": "2026-07-14T08:00:00+08:00",
+      "date_modified": "2026-07-14T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "ADC",
@@ -357,6 +375,7 @@
       "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
       "content_text": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets.",
       "date_published": "2026-07-13T08:00:00+08:00",
+      "date_modified": "2026-07-13T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -378,6 +397,7 @@
       "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
       "content_text": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence.",
       "date_published": "2026-07-12T08:00:00+08:00",
+      "date_modified": "2026-07-12T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "KRAS G12C",
@@ -397,6 +417,7 @@
       "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
       "content_text": "Fasedienol's PALISADE-4 miss was not simply a failed Phase 3 headline. It exposed the core CNS drug-development problem: a beautiful mechanism and a real unmet need still have to survive subjective endpoints, placebo response, patient selection, and a commercial repositioning test.",
       "date_published": "2026-07-11T09:49:00+08:00",
+      "date_modified": "2026-07-11T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Free Article",
@@ -420,6 +441,7 @@
       "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
       "content_text": "FDA identified no clinical efficacy or safety concerns that affected NASP's approvability. The setback centered on CMC controls and contract-manufacturing deficiencies, showing biotech investors why manufacturing credibility becomes part of asset value near launch.",
       "date_published": "2026-07-10T09:49:00+08:00",
+      "date_modified": "2026-07-10T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Free Article",
@@ -444,6 +466,7 @@
       "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
       "content_text": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits.",
       "date_published": "2026-07-09T09:30:00+08:00",
+      "date_modified": "2026-07-09T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Free Article",
@@ -466,6 +489,7 @@
       "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
       "content_text": "GLP-1 competition is moving from peak weight loss toward long-term use, tolerability, rebound control, and combination design. Dorzagliatin matters not as a GLP-1 replacement, but as a possible metabolic base for the next phase of chronic therapy.",
       "date_published": "2026-07-08T09:10:35+08:00",
+      "date_modified": "2026-07-08T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Free Article",
@@ -492,6 +516,7 @@
       "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
       "content_text": "After a Phase III setback for sigvotatug vedotin, Pfizer's $43 billion Seagen ADC bet is increasingly tied to whether 3SBio's PD-1/VEGF bispecific can become a new immuno-oncology combination backbone.",
       "date_published": "2026-07-07T08:49:37+08:00",
+      "date_modified": "2026-07-07T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Free Article",
@@ -514,6 +539,7 @@
       "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
       "content_text": "Off-the-shelf allogeneic CAR-T is no longer just a beautiful manufacturing story. In 2026, better clinical signals and clearer positioning are bringing the field back to the table.",
       "date_published": "2026-07-06T12:26:18+08:00",
+      "date_modified": "2026-07-06T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Free Article",
@@ -534,6 +560,7 @@
       "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
       "content_text": "In the first half of 2026, Big Pharma's biotech M&A pace has accelerated sharply. The real question is not why large drugmakers have cash, but why they are suddenly less willing to wait.",
       "date_published": "2026-07-05T12:10:13+08:00",
+      "date_modified": "2026-07-05T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Free Article",
@@ -554,6 +581,7 @@
       "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
       "content_text": "Operation TrialBlazer is not just an FDA efficiency program. It signals that the United States is treating clinical-trial speed as part of national biotech competitiveness, with direct implications for biotech valuation, financing windows, and regulatory strategy.",
       "date_published": "2026-07-04T08:35:00+08:00",
+      "date_modified": "2026-07-04T08:00:00+08:00",
       "tags": [
         "HHS",
         "FDA",
@@ -575,6 +603,7 @@
       "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
       "content_text": "Revolution Medicines is choosing not to make a sale its priority. The decision reflects a broader shift: top-tier biotech companies with breakthrough assets may once again have a credible path to grow into independent biopharma companies.",
       "date_published": "2026-07-03T10:30:00+08:00",
+      "date_modified": "2026-07-03T08:00:00+08:00",
       "tags": [
         "Revolution Medicines",
         "RevMed",
@@ -594,6 +623,7 @@
       "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
       "content_text": "PARP inhibitors turned synthetic lethality into a commercial reality. Two decades later, the industry is still asking why the next PARP-like blockbuster has been so difficult to reproduce.",
       "date_published": "2026-07-02T10:30:00+08:00",
+      "date_modified": "2026-07-02T08:00:00+08:00",
       "tags": [
         "synthetic lethality",
         "PARP",
@@ -612,6 +642,7 @@
       "title": "Centanafadine’s Phase 3b Win: Why ADHD Treatment Is Moving Beyond Discipline and Toward Neurobiology",
       "content_text": "Otsuka’s centanafadine has reported positive Phase 3b data in adults with ADHD and comorbid anxiety. The FDA has accepted the NDA and granted priority review, making the program a useful lens for how ADHD treatment is shifting from behavioral stigma toward more precise neurobiological intervention.",
       "date_published": "2026-07-01T10:30:00+08:00",
+      "date_modified": "2026-07-01T08:00:00+08:00",
       "tags": [
         "ADHD",
         "centanafadine",
@@ -629,6 +660,7 @@
       "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
       "content_text": "GSK's $10.6 billion all-cash acquisition of Nuvalent is more than a late-stage lung-cancer pipeline deal. It is a strategic attempt to rebuild oncology, buy time before major revenue pressure, and regain a seat at the precision-oncology table.",
       "date_published": "2026-06-30T00:43:58.356Z",
+      "date_modified": "2026-06-30T08:00:00+08:00",
       "tags": [
         "GSK",
         "Nuvalent",
@@ -648,6 +680,7 @@
       "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
       "content_text": "Parabilis Medicines' record-setting US biotech IPO is not a sign that speculative biotech is back. It shows that investors are willing to fund high-risk innovation when the platform, clinical asset, external validation, and capital-market window all line up.",
       "date_published": "2026-06-29T05:50:47.700Z",
+      "date_modified": "2026-06-29T08:00:00+08:00",
       "tags": [
         "Biotech IPO",
         "Parabilis Medicines",
@@ -665,6 +698,7 @@
       "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
       "content_text": "Biotech’s recent rebound is not only a risk-on trade. FDA review signals, rare-disease flexibility, mRNA vaccine momentum, and renewed pharma M&A are changing how investors price clinical-stage assets.",
       "date_published": "2026-06-28T08:50:00+08:00",
+      "date_modified": "2026-06-28T08:00:00+08:00",
       "tags": [
         "FDA",
         "Biotech rebound",
@@ -682,6 +716,7 @@
       "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
       "content_text": "Pancreatic cancer is moving into a new phase of precision combination therapy, as RAS inhibition meets MTAP-selective PRMT5 and MAT2A strategies.",
       "date_published": "2026-06-27T10:30:00+08:00",
+      "date_modified": "2026-06-27T08:00:00+08:00",
       "tags": [
         "Pancreatic Cancer",
         "RAS",
@@ -699,6 +734,7 @@
       "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
       "content_text": "Lilly is testing whether tirzepatide can move beyond weight loss and become part of an immunometabolism strategy for chronic immune-inflammatory diseases.",
       "date_published": "2026-06-26T10:30:00+08:00",
+      "date_modified": "2026-06-26T08:00:00+08:00",
       "tags": [
         "GLP-1",
         "tirzepatide",
@@ -719,6 +755,7 @@
       "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
       "content_text": "As companion animals age and owners become more willing to pay for serious-disease care, the next major question in pet medicine is whether a platform company can connect drugs, diagnostics, veterinary clinics, regulation, manufacturing, channels, and data into one defensible system.",
       "date_published": "2026-06-25T08:30:00+08:00",
+      "date_modified": "2026-06-25T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Protect Biotech",
@@ -736,6 +773,7 @@
       "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
       "content_text": "Takeda's zasocitinib beat Sotyktu in a head-to-head Phase 3 psoriasis study, turning AI-enabled drug design into a real commercial test.",
       "date_published": "2026-06-24T08:13:00+08:00",
+      "date_modified": "2026-06-24T08:00:00+08:00",
       "tags": [
         "AI drug discovery",
         "zasocitinib",
@@ -755,6 +793,7 @@
       "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
       "content_text": "Lilly and Novo Nordisk dominate the first phase of the obesity-drug market. The next investment question is who can become the third major player by solving the problems GLP-1 leaders have not fully solved.",
       "date_published": "2026-06-22T08:49:01+08:00",
+      "date_modified": "2026-06-22T08:00:00+08:00",
       "tags": [
         "Obesity medicine",
         "GLP-1",
@@ -774,6 +813,7 @@
       "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
       "content_text": "Merck's more serious positioning of MK-2010 suggests that PD-1/VEGF bispecifics are moving from a watch item to a strategic option in the post-Keytruda oncology landscape.",
       "date_published": "2026-06-21T08:00:00+08:00",
+      "date_modified": "2026-06-21T08:00:00+08:00",
       "tags": [
         "Merck",
         "Keytruda",
@@ -789,6 +829,7 @@
       "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
       "content_text": "Enlivex's paper gain from RAIN tokens shows how fragile biotech business models can create unusual treasury stories when operating revenue is absent and capital markets are difficult.",
       "date_published": "2026-06-20T08:00:00+08:00",
+      "date_modified": "2026-06-20T08:00:00+08:00",
       "tags": [
         "Enlivex",
         "RAIN token",
@@ -803,6 +844,7 @@
       "title": "GSK's US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases",
       "content_text": "GSK is not merely buying three lung-cancer pipelines. It is buying a next-generation precision-oncology strategy around resistance, CNS activity, and cleaner kinase inhibition.",
       "date_published": "2026-06-19T08:00:00+08:00",
+      "date_modified": "2026-06-19T08:00:00+08:00",
       "tags": [
         "GSK",
         "Nuvalent",
@@ -818,6 +860,7 @@
       "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
       "content_text": "Ecnoglutide's head-to-head weight-loss data versus semaglutide are interesting, but the GLP-1 race will be decided by long-term outcomes, tolerability, labels, supply, and global evidence.",
       "date_published": "2026-06-17T09:30:00+08:00",
+      "date_modified": "2026-06-17T08:00:00+08:00",
       "tags": [
         "GLP-1",
         "Ecnoglutide",
@@ -833,6 +876,7 @@
       "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
       "content_text": "Lilly's vaccine acquisitions show that the company is using obesity-drug cash flow to widen its long-term disease-prevention and immunology strategy.",
       "date_published": "2026-06-16T11:00:00+08:00",
+      "date_modified": "2026-06-16T08:00:00+08:00",
       "tags": [
         "Eli Lilly",
         "Vaccines",
@@ -847,6 +891,7 @@
       "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
       "content_text": "ASCO 2026 showed that oncology is moving from single-mechanism breakthroughs toward platform combinations across RAS targeting, ADCs, PD-1/VEGF bispecifics, and in vivo CAR-T.",
       "date_published": "2026-06-15T10:35:00+08:00",
+      "date_modified": "2026-06-15T08:00:00+08:00",
       "tags": [
         "ASCO",
         "Oncology",
@@ -862,6 +907,7 @@
       "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
       "content_text": "Revolution Medicines shows why next-generation biotech companies need to convert clinical momentum into capital momentum if they want to finish expensive global drug-development races.",
       "date_published": "2026-06-14T00:54:00.739Z",
+      "date_modified": "2026-06-14T08:00:00+08:00",
       "tags": [
         "RAS",
         "Revolution Medicines",
@@ -877,6 +923,7 @@
       "title": "The Next Phase of AI Drug Development: Making Molecules Survive as Drugs",
       "content_text": "AI drug development is moving from molecular generation to clinical survival. AnHorn Medicines shows how AI+PROTAC, experimental feedback, and human translation may form a Taiwan-born clinical-asset engine.",
       "date_published": "2026-06-13T15:20:00+08:00",
+      "date_modified": "2026-06-13T08:00:00+08:00",
       "tags": [
         "AI Drug Development",
         "AnHorn Medicines",
@@ -893,6 +940,7 @@
       "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
       "content_text": "AI drug discovery has moved beyond the concept stage and into clinical validation. This article reviews Zasocitinib, GB-0895, Zovegalisib, and REC-4881 to examine how different AI strategies are being converted into real drug assets.",
       "date_published": "2026-06-12T10:30:00+08:00",
+      "date_modified": "2026-06-12T08:00:00+08:00",
       "tags": [
         "AI drug discovery",
         "Clinical pipelines",
@@ -908,6 +956,7 @@
       "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
       "content_text": "GLP-1 is no longer only a weight-loss topic. It is redirecting biotech capital, BD urgency, manufacturing attention, and valuation imagination across global pharma.",
       "date_published": "2026-06-11T08:00:01+08:00",
+      "date_modified": "2026-06-11T08:00:00+08:00",
       "tags": [
         "Biotech Valuation",
         "Obesity medicine",
@@ -923,6 +972,7 @@
       "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
       "content_text": "Daraxonrasib opens a new pancreatic-cancer window, but the next value question is resistance management. Senhwa's CX-5461 matters if it can become a rational combination partner.",
       "date_published": "2026-06-10T10:45:00+08:00",
+      "date_modified": "2026-06-10T08:00:00+08:00",
       "tags": [
         "Company Research",
         "Biotech business analysis",
@@ -935,6 +985,7 @@
       "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
       "content_text": "Biotech IR is not cosmetic storytelling. Good IR turns clinical, CMC, regulatory, commercial, and financing milestones into a capital-market narrative that investors can actually track.",
       "date_published": "2026-06-10T10:30:00+08:00",
+      "date_modified": "2026-06-10T08:00:00+08:00",
       "tags": [
         "IR and Capital Markets",
         "Capital markets",
@@ -948,6 +999,7 @@
       "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
       "content_text": "Curium's rumored interest in Lantheus is best read as a bid for nuclear-medicine infrastructure: isotope access, hospital channels, imaging workflow, and radiopharma commercialization depth.",
       "date_published": "2026-06-09T10:30:00+08:00",
+      "date_modified": "2026-06-09T08:00:00+08:00",
       "tags": [
         "BD and Licensing",
         "Radiopharma",
@@ -962,6 +1014,7 @@
       "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
       "content_text": "CAR-T's move from blood cancer into autoimmune disease could redefine cell therapy, but the value depends on whether deep immune reset can justify manufacturing complexity, safety risk, and cost.",
       "date_published": "2026-06-08T10:30:00+08:00",
+      "date_modified": "2026-06-08T08:00:00+08:00",
       "tags": [
         "Clinical and CMC",
         "CAR-T",
@@ -977,6 +1030,7 @@
       "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
       "content_text": "AI is becoming a core operating capability for pharma, but its value comes from improving discovery, translation, trial design, and portfolio decisions rather than from marketing language alone.",
       "date_published": "2026-06-07T10:30:00+08:00",
+      "date_modified": "2026-06-07T08:00:00+08:00",
       "tags": [
         "IR and Capital Markets",
         "AI drug discovery",
@@ -990,6 +1044,7 @@
       "title": "Old Targets Are Crowded, but They Can Still Make Money",
       "content_text": "Crowded drug targets can still create value when companies differentiate through patient selection, formulation, route of administration, clinical design, pricing, or commercial channel strategy.",
       "date_published": "2026-06-06T10:30:00+08:00",
+      "date_modified": "2026-06-06T08:00:00+08:00",
       "tags": [
         "BD and Licensing",
         "Business development",
@@ -1003,6 +1058,7 @@
       "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
       "content_text": "Topical JAK drugs are not won by target biology alone. The real value lies in skin delivery, local exposure, systemic safety, indication choice, and whether the product can fit daily dermatology practice.",
       "date_published": "2026-06-05T10:30:00+08:00",
+      "date_modified": "2026-06-05T08:00:00+08:00",
       "tags": [
         "Clinical and CMC",
         "Biotech business analysis",
@@ -1015,6 +1071,7 @@
       "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
       "content_text": "Retatrutide pushes obesity-drug efficacy toward surgery-level territory, but the real competitive battle will be durability, tolerability, body composition, comorbidity benefit, and access.",
       "date_published": "2026-06-04T10:30:00+08:00",
+      "date_modified": "2026-06-04T08:00:00+08:00",
       "tags": [
         "Company Research",
         "Obesity medicine",
@@ -1029,6 +1086,7 @@
       "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
       "content_text": "AATD is entering a new treatment cycle after decades of limited options, with RNA and gene-based approaches trying to move the field beyond symptom control and protein replacement.",
       "date_published": "2026-06-03T10:30:00+08:00",
+      "date_modified": "2026-06-03T08:00:00+08:00",
       "tags": [
         "Clinical and CMC",
         "Immunology",
@@ -1042,6 +1100,7 @@
       "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
       "content_text": "Biogen's BIIB080 tau program reflects a broader Alzheimer's reset: the field is no longer only asking whether amyloid matters, but whether tau biology can produce measurable disease-modifying benefit.",
       "date_published": "2026-06-02T10:30:00+08:00",
+      "date_modified": "2026-06-02T08:00:00+08:00",
       "tags": [
         "Clinical and CMC",
         "CNS",
@@ -1057,6 +1116,7 @@
       "title": "Pluvicto Is Selling Fast: What Radioligand Therapy Growth Really Means",
       "content_text": "Pluvicto's rapid growth shows radioligand therapy moving from specialist science into a real commercial infrastructure story, where isotope supply, hospital workflow, and patient selection become strategic assets.",
       "date_published": "2026-06-01T10:30:00+08:00",
+      "date_modified": "2026-06-01T08:00:00+08:00",
       "tags": [
         "Company Research",
         "Radiopharma",
@@ -1070,6 +1130,7 @@
       "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
       "content_text": "A Drugnews English brief on The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal, focusing on regulatory risk, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-31T10:30:00+08:00",
+      "date_modified": "2026-05-31T08:00:00+08:00",
       "tags": [
         "Clinical and CMC",
         "Regulatory risk",
@@ -1084,6 +1145,7 @@
       "title": "The Best Partner for a Drug King? When Combination Therapy Doubles Efficacy",
       "content_text": "A Drugnews English brief on The Best Partner for a Drug King? When Combination Therapy Doubles Efficacy, focusing on company strategy, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-30T10:30:00+08:00",
+      "date_modified": "2026-05-30T08:00:00+08:00",
       "tags": [
         "Clinical and CMC",
         "Biotech business analysis",
@@ -1096,6 +1158,7 @@
       "title": "Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming",
       "content_text": "A Drugnews English brief on Weight-Loss Drugs Are No Longer Only About Body Weight: Where Next-Generation Therapies Are Aiming, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-29T10:30:00+08:00",
+      "date_modified": "2026-05-29T08:00:00+08:00",
       "tags": [
         "Clinical and CMC",
         "AI drug discovery",
@@ -1111,6 +1174,7 @@
       "title": "Biotech Investing Needs a Judgment System, Not More News",
       "content_text": "A Drugnews English brief on Biotech Investing Needs a Judgment System, Not More News, focusing on business development, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-28T10:30:00+08:00",
+      "date_modified": "2026-05-28T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Business development",
@@ -1124,6 +1188,7 @@
       "title": "The First Step in Valuing Taiwanese Biotech: Stop Forcing Every Company Into the Same P/E Ratio",
       "content_text": "A Drugnews English brief on The First Step in Valuing Taiwanese Biotech: Stop Forcing Every Company Into the Same P/E Ratio, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-27T10:30:00+08:00",
+      "date_modified": "2026-05-27T08:00:00+08:00",
       "tags": [
         "Biotech Valuation",
         "AI drug discovery",
@@ -1138,6 +1203,7 @@
       "title": "Sun Pharma, Teva, and the Transformation Anxiety of Global Generic Drugmakers",
       "content_text": "A Drugnews English brief on Sun Pharma, Teva, and the Transformation Anxiety of Global Generic Drugmakers, focusing on big pharma, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-27T10:30:00+08:00",
+      "date_modified": "2026-05-27T08:00:00+08:00",
       "tags": [
         "Company Research",
         "Big Pharma",
@@ -1151,6 +1217,7 @@
       "title": "A New Weight-Loss Drug Side Effect Accidentally Opens a New Therapeutic Track",
       "content_text": "A Drugnews English brief on A New Weight-Loss Drug Side Effect Accidentally Opens a New Therapeutic Track, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-26T10:30:00+08:00",
+      "date_modified": "2026-05-26T08:00:00+08:00",
       "tags": [
         "Clinical and CMC",
         "Obesity medicine",
@@ -1164,6 +1231,7 @@
       "title": "Asthma Drugs Are Shifting Gears: From Triple Inhalers to Upstream Immune Targets",
       "content_text": "A Drugnews English brief on Asthma Drugs Are Shifting Gears: From Triple Inhalers to Upstream Immune Targets, focusing on immunology, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-25T10:30:00+08:00",
+      "date_modified": "2026-05-25T08:00:00+08:00",
       "tags": [
         "Clinical and CMC",
         "Immunology",
@@ -1177,6 +1245,7 @@
       "title": "Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity",
       "content_text": "A Drugnews English brief on Why OX2R Is Heating Up: From Narcolepsy to the Next CNS Drug Opportunity, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-24T10:30:00+08:00",
+      "date_modified": "2026-05-24T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Obesity medicine",
@@ -1192,6 +1261,7 @@
       "title": "The Global Biotech Wave: Understanding the Main Phase and Scientific Pricing of the Five-Trillion Weight-Loss Market",
       "content_text": "A Drugnews English brief on The Global Biotech Wave: Understanding the Main Phase and Scientific Pricing of the Five-Trillion Weight-Loss Market, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-23T10:30:00+08:00",
+      "date_modified": "2026-05-23T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1207,6 +1277,7 @@
       "title": "How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow",
       "content_text": "A Drugnews English brief on How Mid-Sized Biotechs Are Turning Blockbuster Drugs From Dreams Into Cash Flow, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-22T10:30:00+08:00",
+      "date_modified": "2026-05-22T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Obesity medicine",
@@ -1222,6 +1293,7 @@
       "title": "How AI Semiconductors Have Hidden the Biotech Opportunity in Plain Sight",
       "content_text": "A Drugnews English brief on How AI Semiconductors Have Hidden the Biotech Opportunity in Plain Sight, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-21T10:30:00+08:00",
+      "date_modified": "2026-05-21T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1238,6 +1310,7 @@
       "title": "A Record AI Drug-Discovery Financing: Why a Google-Backed Company Raised US$2.1 Billion",
       "content_text": "A Drugnews English brief on A Record AI Drug-Discovery Financing: Why a Google-Backed Company Raised US$2.1 Billion, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-20T10:30:00+08:00",
+      "date_modified": "2026-05-20T08:00:00+08:00",
       "tags": [
         "Company Research",
         "AI drug discovery",
@@ -1251,6 +1324,7 @@
       "title": "HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal",
       "content_text": "A Drugnews English brief on HIV Drugs Are Still Highly Profitable: What Gilead's Earnings Reveal, focusing on car-t, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-19T10:30:00+08:00",
+      "date_modified": "2026-05-19T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "CAR-T",
@@ -1267,6 +1341,7 @@
       "title": "Where Pfizer Misjudged the Vepdegestrant Strategy",
       "content_text": "A Drugnews English brief on Where Pfizer Misjudged the Vepdegestrant Strategy, focusing on targeted therapy, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-18T10:30:00+08:00",
+      "date_modified": "2026-05-18T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Targeted therapy",
@@ -1283,6 +1358,7 @@
       "title": "Johnson & Johnson Cuts Two Autologous Lymphoma CAR-T Programs",
       "content_text": "A Drugnews English brief on Johnson & Johnson Cuts Two Autologous Lymphoma CAR-T Programs, focusing on car-t, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-17T10:30:00+08:00",
+      "date_modified": "2026-05-17T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "CAR-T",
@@ -1300,6 +1376,7 @@
       "title": "Daiichi Sankyo's Most Expensive Lesson: How an ADC Capacity Bet Can Backfire After a Blockbuster",
       "content_text": "A Drugnews English brief on Daiichi Sankyo's Most Expensive Lesson: How an ADC Capacity Bet Can Backfire After a Blockbuster, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-17T10:30:00+08:00",
+      "date_modified": "2026-05-17T08:00:00+08:00",
       "tags": [
         "Clinical and CMC",
         "AI drug discovery",
@@ -1316,6 +1393,7 @@
       "title": "The FDA Commissioner's Exit: Why the World's Most Important Drug Referee Is Becoming Less Predictable",
       "content_text": "A Drugnews English brief on The FDA Commissioner's Exit: Why the World's Most Important Drug Referee Is Becoming Less Predictable, focusing on regulatory risk, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-16T10:30:00+08:00",
+      "date_modified": "2026-05-16T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Regulatory risk",
@@ -1330,6 +1408,7 @@
       "title": "A Complete Map of the New Antidepressant Drug Pipeline",
       "content_text": "A Drugnews English brief on A Complete Map of the New Antidepressant Drug Pipeline, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-15T10:30:00+08:00",
+      "date_modified": "2026-05-15T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Obesity medicine",
@@ -1346,6 +1425,7 @@
       "title": "How PharmaEssentia's Besremi Opens a Larger Valuation Imagination",
       "content_text": "A Drugnews English brief on How PharmaEssentia's Besremi Opens a Larger Valuation Imagination, focusing on targeted therapy, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-14T10:30:00+08:00",
+      "date_modified": "2026-05-14T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Targeted therapy",
@@ -1361,6 +1441,7 @@
       "title": "Could Neuroinflammation Bring CNS Drug Development Back?",
       "content_text": "A Drugnews English brief on Could Neuroinflammation Bring CNS Drug Development Back?, focusing on cns, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-13T10:30:00+08:00",
+      "date_modified": "2026-05-13T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "CNS",
@@ -1375,6 +1456,7 @@
       "title": "The Autoimmune Twins That Could Save Johnson & Johnson",
       "content_text": "A Drugnews English brief on The Autoimmune Twins That Could Save Johnson & Johnson, focusing on car-t, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-12T10:30:00+08:00",
+      "date_modified": "2026-05-12T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "CAR-T",
@@ -1392,6 +1474,7 @@
       "title": "Could DAC Become the Next Breakout Format in Targeted Therapy?",
       "content_text": "A Drugnews English brief on Could DAC Become the Next Breakout Format in Targeted Therapy?, focusing on targeted therapy, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-11T10:30:00+08:00",
+      "date_modified": "2026-05-11T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Targeted therapy",
@@ -1405,6 +1488,7 @@
       "title": "Trump Delays the Policy Signal: Did Weight-Loss Drugs Cut Prices for Nothing?",
       "content_text": "A Drugnews English brief on Trump Delays the Policy Signal: Did Weight-Loss Drugs Cut Prices for Nothing?, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-10T10:30:00+08:00",
+      "date_modified": "2026-05-10T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Obesity medicine",
@@ -1421,6 +1505,7 @@
       "title": "Clinical-Trial Fraud and an FDA Withdrawal Storm",
       "content_text": "A Drugnews English brief on Clinical-Trial Fraud and an FDA Withdrawal Storm, focusing on regulatory risk, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-09T10:30:00+08:00",
+      "date_modified": "2026-05-09T08:00:00+08:00",
       "tags": [
         "Clinical and CMC",
         "Regulatory risk",
@@ -1435,6 +1520,7 @@
       "title": "Weight-Loss Drugs Are Still Too Strong: Lilly's Mounjaro Keeps Printing Money",
       "content_text": "A Drugnews English brief on Weight-Loss Drugs Are Still Too Strong: Lilly's Mounjaro Keeps Printing Money, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-08T10:30:00+08:00",
+      "date_modified": "2026-05-08T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Obesity medicine",
@@ -1452,6 +1538,7 @@
       "title": "The Shadow Behind the Next Century-Defining Drug",
       "content_text": "A Drugnews English brief on The Shadow Behind the Next Century-Defining Drug, focusing on car-t, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-07T10:30:00+08:00",
+      "date_modified": "2026-05-07T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "CAR-T",
@@ -1467,6 +1554,7 @@
       "title": "Free Taipei Workshop: Using an NPV Framework to Identify Biotech Re-Rating Points",
       "content_text": "A Drugnews English brief on Free Taipei Workshop: Using an NPV Framework to Identify Biotech Re-Rating Points, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-06T10:30:00+08:00",
+      "date_modified": "2026-05-06T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1481,6 +1569,7 @@
       "title": "What Makes a Pipeline Attractive to Big Pharma?",
       "content_text": "A Drugnews English brief on What Makes a Pipeline Attractive to Big Pharma?, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-05T10:30:00+08:00",
+      "date_modified": "2026-05-05T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Obesity medicine",
@@ -1498,6 +1587,7 @@
       "title": "The Hair-Growth Drug That Jumped 47%: Why It Could Rewrite Three Decades of Hair-Loss Treatment",
       "content_text": "A Drugnews English brief on The Hair-Growth Drug That Jumped 47%: Why It Could Rewrite Three Decades of Hair-Loss Treatment, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-04T10:30:00+08:00",
+      "date_modified": "2026-05-04T08:00:00+08:00",
       "tags": [
         "Clinical and CMC",
         "AI drug discovery",
@@ -1512,6 +1602,7 @@
       "title": "In Vivo CAR-T: Bubble or the Most Expensive Ticket to Next-Generation Cell Therapy?",
       "content_text": "A Drugnews English brief on In Vivo CAR-T: Bubble or the Most Expensive Ticket to Next-Generation Cell Therapy?, focusing on car-t, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-03T10:30:00+08:00",
+      "date_modified": "2026-05-03T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "CAR-T",
@@ -1526,6 +1617,7 @@
       "title": "The Ambition of an Indian Pharma Giant: Acquiring a US Drugmaker",
       "content_text": "A Drugnews English brief on The Ambition of an Indian Pharma Giant: Acquiring a US Drugmaker, focusing on big pharma, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-02T10:30:00+08:00",
+      "date_modified": "2026-05-02T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Big Pharma",
@@ -1541,6 +1633,7 @@
       "title": "Is the 20-Year Amyloid Hypothesis in Alzheimer's Disease Starting to Collapse?",
       "content_text": "A Drugnews English brief on Is the 20-Year Amyloid Hypothesis in Alzheimer's Disease Starting to Collapse?, focusing on cns, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-05-01T10:30:00+08:00",
+      "date_modified": "2026-05-01T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "CNS",
@@ -1555,6 +1648,7 @@
       "title": "Amazon Enters AI Drug Discovery and Challenges Nvidia's Pharma Ambition",
       "content_text": "A Drugnews English brief on Amazon Enters AI Drug Discovery and Challenges Nvidia's Pharma Ambition, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-30T10:30:00+08:00",
+      "date_modified": "2026-04-30T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1569,6 +1663,7 @@
       "title": "A Clear Read on Lilly's Current M&A Logic",
       "content_text": "A Drugnews English brief on A Clear Read on Lilly's Current M&A Logic, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-29T10:30:00+08:00",
+      "date_modified": "2026-04-29T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1586,6 +1681,7 @@
       "title": "When a Gray-Market Industry Gets a Seat at the Table",
       "content_text": "A Drugnews English brief on When a Gray-Market Industry Gets a Seat at the Table, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-28T10:30:00+08:00",
+      "date_modified": "2026-04-28T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1601,6 +1697,7 @@
       "title": "Goodbye Autologous CAR-T: Why Taiwan's Cell-Therapy Bubble Also Needs to Break",
       "content_text": "A Drugnews English brief on Goodbye Autologous CAR-T: Why Taiwan's Cell-Therapy Bubble Also Needs to Break, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-27T10:30:00+08:00",
+      "date_modified": "2026-04-27T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1617,6 +1714,7 @@
       "title": "The Healthcare-Giant Spin-Off Wave",
       "content_text": "A Drugnews English brief on The Healthcare-Giant Spin-Off Wave, focusing on business development, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-26T10:30:00+08:00",
+      "date_modified": "2026-04-26T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Business development",
@@ -1630,6 +1728,7 @@
       "title": "Why Platform Biotechs Can Generate Five Times More Licensing Revenue",
       "content_text": "A Drugnews English brief on Why Platform Biotechs Can Generate Five Times More Licensing Revenue, focusing on business development, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-25T10:30:00+08:00",
+      "date_modified": "2026-04-25T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Business development",
@@ -1644,6 +1743,7 @@
       "title": "Investors Should Pay Attention: Drug Delivery Is a Blue Ocean",
       "content_text": "A Drugnews English brief on Investors Should Pay Attention: Drug Delivery Is a Blue Ocean, focusing on business development, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-24T10:30:00+08:00",
+      "date_modified": "2026-04-24T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Business development",
@@ -1658,6 +1758,7 @@
       "title": "Do COPD Patients Finally Have Another New Drug Option?",
       "content_text": "A Drugnews English brief on Do COPD Patients Finally Have Another New Drug Option?, focusing on business development, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-23T10:30:00+08:00",
+      "date_modified": "2026-04-23T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Business development",
@@ -1673,6 +1774,7 @@
       "title": "The Three AI Giants Battling Inside Medicine",
       "content_text": "A Drugnews English brief on The Three AI Giants Battling Inside Medicine, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-22T10:30:00+08:00",
+      "date_modified": "2026-04-22T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1688,6 +1790,7 @@
       "title": "Did Lilly's Oral Drug Ignite the Market?",
       "content_text": "A Drugnews English brief on Did Lilly's Oral Drug Ignite the Market?, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-21T10:30:00+08:00",
+      "date_modified": "2026-04-21T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1704,6 +1807,7 @@
       "title": "A Historic Moment: The Next Century-Defining Drug Has Arrived",
       "content_text": "A Drugnews English brief on A Historic Moment: The Next Century-Defining Drug Has Arrived, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-20T10:30:00+08:00",
+      "date_modified": "2026-04-20T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Obesity medicine",
@@ -1718,6 +1822,7 @@
       "title": "Neuralink and the Next Trillion-Dollar Race: Ten Brain-Computer Interface Companies to Know",
       "content_text": "A Drugnews English brief on Neuralink and the Next Trillion-Dollar Race: Ten Brain-Computer Interface Companies to Know, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-19T10:30:00+08:00",
+      "date_modified": "2026-04-19T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1733,6 +1838,7 @@
       "title": "Could This Taiwanese Biotech Capture the Entire AI Infrastructure Dividend?",
       "content_text": "A Drugnews English brief on Could This Taiwanese Biotech Capture the Entire AI Infrastructure Dividend?, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-18T10:30:00+08:00",
+      "date_modified": "2026-04-18T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1749,6 +1855,7 @@
       "title": "The Valley of Death in Innovative Drug Development",
       "content_text": "A Drugnews English brief on The Valley of Death in Innovative Drug Development, focusing on business development, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-17T10:30:00+08:00",
+      "date_modified": "2026-04-17T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Business development",
@@ -1763,6 +1870,7 @@
       "title": "The 2026 Q2 Drug Catalysts Biotech Readers Need to Know",
       "content_text": "A Drugnews English brief on The 2026 Q2 Drug Catalysts Biotech Readers Need to Know, focusing on immunology, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-16T10:30:00+08:00",
+      "date_modified": "2026-04-16T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Immunology",
@@ -1777,6 +1885,7 @@
       "title": "The Fall of Two Star Biotechs",
       "content_text": "A Drugnews English brief on The Fall of Two Star Biotechs, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-15T10:30:00+08:00",
+      "date_modified": "2026-04-15T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Obesity medicine",
@@ -1792,6 +1901,7 @@
       "title": "Investors Should Pay Attention to the Autoimmune Mega-Drug Race",
       "content_text": "A Drugnews English brief on Investors Should Pay Attention to the Autoimmune Mega-Drug Race, focusing on business development, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-14T10:30:00+08:00",
+      "date_modified": "2026-04-14T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Business development",
@@ -1807,6 +1917,7 @@
       "title": "The King of Weight-Loss Drugs: Did US$7.8 Billion Buy the Next Era of Metabolic Medicine?",
       "content_text": "A Drugnews English brief on The King of Weight-Loss Drugs: Did US$7.8 Billion Buy the Next Era of Metabolic Medicine?, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-13T10:30:00+08:00",
+      "date_modified": "2026-04-13T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1823,6 +1934,7 @@
       "title": "Idiopathic Pulmonary Fibrosis Is Entering an Acceleration Phase",
       "content_text": "A Drugnews English brief on Idiopathic Pulmonary Fibrosis Is Entering an Acceleration Phase, focusing on immunology, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-12T10:30:00+08:00",
+      "date_modified": "2026-04-12T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Immunology",
@@ -1837,6 +1949,7 @@
       "title": "Why Did the Market Like This Company More After a Clinical Failure?",
       "content_text": "A Drugnews English brief on Why Did the Market Like This Company More After a Clinical Failure?, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-11T10:30:00+08:00",
+      "date_modified": "2026-04-11T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1851,6 +1964,7 @@
       "title": "When Should a Company Decisively Abandon a Clinical Trial?",
       "content_text": "A Drugnews English brief on When Should a Company Decisively Abandon a Clinical Trial?, focusing on business development, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-10T10:30:00+08:00",
+      "date_modified": "2026-04-10T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Business development",
@@ -1865,6 +1979,7 @@
       "title": "A New Drug Finally Arrives for This Group of Rare-Disease Patients",
       "content_text": "A Drugnews English brief on A New Drug Finally Arrives for This Group of Rare-Disease Patients, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-09T10:30:00+08:00",
+      "date_modified": "2026-04-09T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",
@@ -1880,6 +1995,7 @@
       "title": "The Abivax Story: How a European Biotech Became a 14-Fold Market Myth",
       "content_text": "A Drugnews English brief on The Abivax Story: How a European Biotech Became a 14-Fold Market Myth, focusing on business development, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-08T10:30:00+08:00",
+      "date_modified": "2026-04-08T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Business development",
@@ -1895,6 +2011,7 @@
       "title": "While the US CDC Was Still Looking for a Director",
       "content_text": "A Drugnews English brief on While the US CDC Was Still Looking for a Director, focusing on regulatory risk, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-07T10:30:00+08:00",
+      "date_modified": "2026-04-07T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Regulatory risk",
@@ -1911,6 +2028,7 @@
       "title": "The Cut-Rate Weight-Loss Injection Has Arrived: What a NT$420 Monthly Price Really Means",
       "content_text": "A Drugnews English brief on The Cut-Rate Weight-Loss Injection Has Arrived: What a NT$420 Monthly Price Really Means, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-06T10:30:00+08:00",
+      "date_modified": "2026-04-06T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Obesity medicine",
@@ -1926,6 +2044,7 @@
       "title": "How Far Are We From a Real Anti-Aging Drug?",
       "content_text": "A Drugnews English brief on How Far Are We From a Real Anti-Aging Drug?, focusing on clinical development, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-05T10:30:00+08:00",
+      "date_modified": "2026-04-05T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Clinical development",
@@ -1939,6 +2058,7 @@
       "title": "Did Weight-Loss Injections Backfire and Trigger Pancreatitis Risk?",
       "content_text": "A Drugnews English brief on Did Weight-Loss Injections Backfire and Trigger Pancreatitis Risk?, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-04T10:30:00+08:00",
+      "date_modified": "2026-04-04T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Obesity medicine",
@@ -1954,6 +2074,7 @@
       "title": "After GLP-1 and Mounjaro, What Is Happening in Weight-Loss Drug R&D?",
       "content_text": "A Drugnews English brief on After GLP-1 and Mounjaro, What Is Happening in Weight-Loss Drug R&D?, focusing on obesity medicine, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-03T10:30:00+08:00",
+      "date_modified": "2026-04-03T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Obesity medicine",
@@ -1969,6 +2090,7 @@
       "title": "Can Merck Build Another Oncology Empire?",
       "content_text": "A Drugnews English brief on Can Merck Build Another Oncology Empire?, focusing on big pharma, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-02T10:30:00+08:00",
+      "date_modified": "2026-04-02T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "Big Pharma",
@@ -1983,6 +2105,7 @@
       "title": "Innovent's Globalization Train: Did Taiwan's Forward Therapeutics Get On Board?",
       "content_text": "A Drugnews English brief on Innovent's Globalization Train: Did Taiwan's Forward Therapeutics Get On Board?, focusing on ai drug discovery, clinical evidence, company strategy, business development, and biotech capital-market implications.",
       "date_published": "2026-04-01T10:30:00+08:00",
+      "date_modified": "2026-04-01T08:00:00+08:00",
       "tags": [
         "Business Analysis",
         "AI drug discovery",

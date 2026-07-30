@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform/cover.png</image:loc>
+      <image:caption>由單一藥物核心延伸至多條腫瘤研發路徑的抽象科學視覺</image:caption>
+      <image:title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform/01_%E4%B8%8D%E6%98%AF%E5%8F%AA%E6%9C%89Xtandi_%E4%BB%8D%E9%AB%98%E5%BA%A6%E9%9B%86%E4%B8%AD.png</image:loc>
+      <image:caption>安斯泰來不再只有 Xtandi，但產品組合仍高度集中</image:caption>
+      <image:title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform/02_Padcev%E8%B5%B0%E9%80%B2%E6%89%8B%E8%A1%93%E5%89%8D%E5%BE%8C.png</image:loc>
+      <image:caption>Padcev 從晚期治療走進膀胱癌手術前後</image:caption>
+      <image:title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform/03_%E5%B9%B3%E5%8F%B0%E9%9B%9B%E5%BD%A2_%E5%9B%9B%E5%B8%82%E5%A0%B4%E4%B8%89%E6%A8%A1%E6%85%8B.png</image:loc>
+      <image:caption>安斯泰來已形成跨癌種、跨模態的平台雛形</image:caption>
+      <image:title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform/04_%E5%9B%9B%E9%81%93%E9%A9%97%E8%AD%89%E9%96%80.png</image:loc>
+      <image:caption>評估安斯泰來腫瘤平台的四道驗證門</image:caption>
+      <image:title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/cover-en.png</image:loc>
+      <image:caption>An abstract scientific image of one medicine core branching into multiple oncology development paths</image:caption>
+      <image:title>After Xtandi: Can Astellas Build an Oncology Platform?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/figure-01-en.svg</image:loc>
+      <image:caption>Astellas is no longer only Xtandi, but its oncology portfolio remains concentrated</image:caption>
+      <image:title>After Xtandi: Can Astellas Build an Oncology Platform?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/figure-02-en.svg</image:loc>
+      <image:caption>Padcev moves from advanced disease into treatment before and after bladder-cancer surgery</image:caption>
+      <image:title>After Xtandi: Can Astellas Build an Oncology Platform?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/figure-03-en.svg</image:loc>
+      <image:caption>Astellas has assembled the outline of a multi-tumor, multi-modality platform</image:caption>
+      <image:title>After Xtandi: Can Astellas Build an Oncology Platform?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/figure-04-en.svg</image:loc>
+      <image:caption>Four validation gates for Astellas’ emerging oncology platform</image:caption>
+      <image:title>After Xtandi: Can Astellas Build an Oncology Platform?</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability-en/cover-en.webp</image:loc>
@@ -334,62 +390,6 @@
       <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-five-engines/04_%E4%B8%8D%E8%B3%A3%E8%B3%87%E6%A0%BC%E4%BA%94%E5%95%8F.png</image:loc>
       <image:caption>Biotech 有沒有不賣資格：五個問題</image:caption>
       <image:title>Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</loc>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform/cover.png</image:loc>
-      <image:caption>由單一藥物核心延伸至多條腫瘤研發路徑的抽象科學視覺</image:caption>
-      <image:title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform/01_%E4%B8%8D%E6%98%AF%E5%8F%AA%E6%9C%89Xtandi_%E4%BB%8D%E9%AB%98%E5%BA%A6%E9%9B%86%E4%B8%AD.png</image:loc>
-      <image:caption>安斯泰來不再只有 Xtandi，但產品組合仍高度集中</image:caption>
-      <image:title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform/02_Padcev%E8%B5%B0%E9%80%B2%E6%89%8B%E8%A1%93%E5%89%8D%E5%BE%8C.png</image:loc>
-      <image:caption>Padcev 從晚期治療走進膀胱癌手術前後</image:caption>
-      <image:title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform/03_%E5%B9%B3%E5%8F%B0%E9%9B%9B%E5%BD%A2_%E5%9B%9B%E5%B8%82%E5%A0%B4%E4%B8%89%E6%A8%A1%E6%85%8B.png</image:loc>
-      <image:caption>安斯泰來已形成跨癌種、跨模態的平台雛形</image:caption>
-      <image:title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform/04_%E5%9B%9B%E9%81%93%E9%A9%97%E8%AD%89%E9%96%80.png</image:loc>
-      <image:caption>評估安斯泰來腫瘤平台的四道驗證門</image:caption>
-      <image:title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html</loc>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/cover-en.png</image:loc>
-      <image:caption>An abstract scientific image of one medicine core branching into multiple oncology development paths</image:caption>
-      <image:title>After Xtandi: Can Astellas Build an Oncology Platform?</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/figure-01-en.svg</image:loc>
-      <image:caption>Astellas is no longer only Xtandi, but its oncology portfolio remains concentrated</image:caption>
-      <image:title>After Xtandi: Can Astellas Build an Oncology Platform?</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/figure-02-en.svg</image:loc>
-      <image:caption>Padcev moves from advanced disease into treatment before and after bladder-cancer surgery</image:caption>
-      <image:title>After Xtandi: Can Astellas Build an Oncology Platform?</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/figure-03-en.svg</image:loc>
-      <image:caption>Astellas has assembled the outline of a multi-tumor, multi-modality platform</image:caption>
-      <image:title>After Xtandi: Can Astellas Build an Oncology Platform?</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/figure-04-en.svg</image:loc>
-      <image:caption>Four validation gates for Astellas’ emerging oncology platform</image:caption>
-      <image:title>After Xtandi: Can Astellas Build an Oncology Platform?</image:title>
     </image:image>
   </url>
   <url>

@@ -406,6 +406,7 @@ function publishedRecord(meta) {
     slug: meta.slug,
     date: meta.date,
     publishAt: meta.publish_at || `${meta.date}T00:00:00+08:00`,
+    updatedAt: meta.updated_at || meta.date,
     category: meta.category || meta.series || "Business Analysis",
     access: meta.access || "免費文章",
     lang: meta.lang || "zh-Hant",
@@ -773,8 +774,15 @@ function guidePage(file, label, title, text) {
   });
 }
 
+function originalPublicationTimestamp(record) {
+  const publishDate = String(record.publishAt || "").slice(0, 10);
+  return publishDate === record.date
+    ? record.publishAt
+    : `${record.date}T08:00:00+08:00`;
+}
+
 function feedDate(record) {
-  const date = new Date(record.publishAt || `${record.date}T00:00:00+08:00`);
+  const date = new Date(originalPublicationTimestamp(record));
   return Number.isNaN(date.getTime()) ? "" : date.toUTCString();
 }
 
@@ -816,7 +824,8 @@ function englishJsonFeed(records) {
       url: `${BASE_URL}/${record.url}`,
       title: record.title,
       content_text: record.summary,
-      date_published: record.publishAt || `${record.date}T00:00:00+08:00`,
+      date_published: originalPublicationTimestamp(record),
+      date_modified: `${record.updatedAt || record.date}T08:00:00+08:00`,
       tags: record.tags || []
     }))
   };
@@ -879,7 +888,7 @@ async function normalizeEnglishArticleMetadata() {
 
 function latestRecordDate(records) {
   return records
-    .map((item) => item.date)
+    .map((item) => item.updatedAt || item.date)
     .filter(Boolean)
     .sort()
     .at(-1) || "";

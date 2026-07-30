@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-28T04:27:02.588Z",
+  "generated_at": "2026-07-30T06:16:50.963Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,46 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+      "date": "2026-07-23",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+      "category": "製藥巨頭",
+      "access": "商業分析文",
+      "tags": [
+        "Astellas",
+        "Xtandi",
+        "Padcev",
+        "Vyloy",
+        "腫瘤",
+        "藥物開發"
+      ],
+      "summary": "Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。",
+      "alternate_language_versions": {
+        "en": "2026-07-23-astellas-oncology-platform-en.html"
+      }
+    },
+    {
+      "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+      "date": "2026-07-23",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+      "category": "製藥巨頭",
+      "access": "Business Analysis",
+      "tags": [
+        "Astellas",
+        "Xtandi",
+        "Padcev",
+        "Vyloy",
+        "oncology",
+        "drug development"
+      ],
+      "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-23-astellas-oncology-platform.html"
+      }
+    },
     {
       "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
       "date": "2026-07-28",
@@ -414,46 +454,6 @@
       "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。",
       "alternate_language_versions": {
         "en": "2026-07-24-biotech-independence-five-engines-en.html"
-      }
-    },
-    {
-      "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
-      "date": "2026-07-23",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
-      "category": "製藥巨頭",
-      "access": "商業分析文",
-      "tags": [
-        "Astellas",
-        "Xtandi",
-        "Padcev",
-        "Vyloy",
-        "腫瘤",
-        "藥物開發"
-      ],
-      "summary": "Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。",
-      "alternate_language_versions": {
-        "en": "2026-07-23-astellas-oncology-platform-en.html"
-      }
-    },
-    {
-      "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-      "date": "2026-07-23",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-      "category": "製藥巨頭",
-      "access": "Business Analysis",
-      "tags": [
-        "Astellas",
-        "Xtandi",
-        "Padcev",
-        "Vyloy",
-        "oncology",
-        "drug development"
-      ],
-      "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-23-astellas-oncology-platform.html"
       }
     },
     {
@@ -1142,15 +1142,15 @@
       "latest_date": "2026-07-25",
       "latest_articles": [
         {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        },
-        {
           "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
           "date": "2026-07-23",
           "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
           "language": "en"
         },
         {
