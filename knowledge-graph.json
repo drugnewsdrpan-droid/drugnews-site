@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-30T11:58:54.331Z",
+  "generated_at": "2026-07-31T17:07:51.851Z",
   "site": {
     "@type": [
       "Organization",
@@ -174,7 +174,7 @@
     },
     {
       "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
-      "date": "2026-07-23",
+      "date": "2026-07-30",
       "language": "zh-Hant",
       "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
       "category": "製藥巨頭",
@@ -194,7 +194,7 @@
     },
     {
       "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-      "date": "2026-07-23",
+      "date": "2026-07-30",
       "language": "en",
       "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
       "category": "製藥巨頭",
@@ -210,6 +210,53 @@
       "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.",
       "alternate_language_versions": {
         "zh-Hant": "2026-07-23-astellas-oncology-platform.html"
+      }
+    },
+    {
+      "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+      "date": "2026-07-29",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Business Analysis",
+        "pelacarsen",
+        "Lp(a)",
+        "HORIZON",
+        "cardiovascular disease",
+        "clinical trials",
+        "antisense oligonucleotide",
+        "Novartis",
+        "Ionis",
+        "biotech investing"
+      ],
+      "summary": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-07-19-pelacarsen-lpa-horizon.html"
+      }
+    },
+    {
+      "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+      "date": "2026-07-29",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Pelacarsen",
+        "Lp(a)",
+        "HORIZON",
+        "心血管疾病",
+        "臨床試驗",
+        "ASO",
+        "Novartis",
+        "Ionis",
+        "生技投資"
+      ],
+      "summary": "Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。",
+      "alternate_language_versions": {
+        "en": "2026-07-19-pelacarsen-lpa-horizon-en.html"
       }
     },
     {
@@ -549,53 +596,6 @@
       }
     },
     {
-      "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-      "date": "2026-07-19",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "pelacarsen",
-        "Lp(a)",
-        "HORIZON",
-        "cardiovascular disease",
-        "clinical trials",
-        "antisense oligonucleotide",
-        "Novartis",
-        "Ionis",
-        "biotech investing"
-      ],
-      "summary": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-19-pelacarsen-lpa-horizon.html"
-      }
-    },
-    {
-      "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-      "date": "2026-07-19",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Pelacarsen",
-        "Lp(a)",
-        "HORIZON",
-        "心血管疾病",
-        "臨床試驗",
-        "ASO",
-        "Novartis",
-        "Ionis",
-        "生技投資"
-      ],
-      "summary": "Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。",
-      "alternate_language_versions": {
-        "en": "2026-07-19-pelacarsen-lpa-horizon-en.html"
-      }
-    },
-    {
       "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
       "date": "2026-07-19",
       "language": "en",
@@ -831,18 +831,18 @@
       "name": "生技投資",
       "type": "market_topic",
       "mentions": 32,
-      "latest_date": "2026-07-24",
+      "latest_date": "2026-07-29",
       "latest_articles": [
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
           "date": "2026-07-24",
           "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
           "language": "zh-Hant"
         },
         {
@@ -983,18 +983,18 @@
       "name": "Business Analysis",
       "type": "topic",
       "mentions": 17,
-      "latest_date": "2026-07-20",
+      "latest_date": "2026-07-29",
       "latest_articles": [
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
         {
           "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
           "date": "2026-07-20",
           "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
           "language": "en"
         },
         {
@@ -1097,11 +1097,11 @@
       "name": "drug development",
       "type": "topic",
       "mentions": 14,
-      "latest_date": "2026-07-25",
+      "latest_date": "2026-07-30",
       "latest_articles": [
         {
           "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-          "date": "2026-07-23",
+          "date": "2026-07-30",
           "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
           "language": "en"
         },
@@ -1512,6 +1512,82 @@
       ]
     },
     {
+      "name": "biotech investing",
+      "type": "topic",
+      "mentions": 7,
+      "latest_date": "2026-07-29",
+      "latest_articles": [
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "language": "en"
+        },
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Novartis",
+      "type": "company",
+      "mentions": 7,
+      "latest_date": "2026-07-29",
+      "latest_articles": [
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "CAR-T",
       "type": "biotech_concept_or_target",
       "mentions": 7,
@@ -1546,82 +1622,6 @@
           "date": "2026-06-15",
           "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "biotech investing",
-      "type": "topic",
-      "mentions": 7,
-      "latest_date": "2026-07-24",
-      "latest_articles": [
-        {
-          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
-          "date": "2026-07-18",
-          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Novartis",
-      "type": "company",
-      "mentions": 7,
-      "latest_date": "2026-07-19",
-      "latest_articles": [
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
         }
       ]
     },
@@ -1740,6 +1740,44 @@
       ]
     },
     {
+      "name": "oncology",
+      "type": "topic",
+      "mentions": 6,
+      "latest_date": "2026-07-30",
+      "latest_articles": [
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Roche",
       "type": "company",
       "mentions": 6,
@@ -1811,44 +1849,6 @@
           "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "oncology",
-      "type": "topic",
-      "mentions": 6,
-      "latest_date": "2026-07-23",
-      "latest_articles": [
-        {
-          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-          "date": "2026-07-23",
-          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
           "language": "en"
         }
       ]
@@ -2095,7 +2095,7 @@
         },
         {
           "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
-          "date": "2026-07-23",
+          "date": "2026-07-30",
           "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
           "language": "zh-Hant"
         },
@@ -2888,6 +2888,206 @@
       ]
     },
     {
+      "name": "藥物開發",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-30",
+      "latest_articles": [
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "盤點整理，AI藥物開發走得如何了？",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Astellas",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-30",
+      "latest_articles": [
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Padcev",
+      "type": "biotech_concept_or_target",
+      "mentions": 2,
+      "latest_date": "2026-07-30",
+      "latest_articles": [
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Vyloy",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-30",
+      "latest_articles": [
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Xtandi",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-30",
+      "latest_articles": [
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "臨床試驗",
+      "type": "market_topic",
+      "mentions": 2,
+      "latest_date": "2026-07-29",
+      "latest_articles": [
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "ASO",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-29",
+      "latest_articles": [
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "HORIZON",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-29",
+      "latest_articles": [
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Ionis",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-07-29",
+      "latest_articles": [
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Lp(a)",
+      "type": "biotech_concept_or_target",
+      "mentions": 2,
+      "latest_date": "2026-07-29",
+      "latest_articles": [
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "雙特異性抗體",
       "type": "topic",
       "mentions": 2,
@@ -3063,206 +3263,6 @@
           "title": "百億美元併購新狂潮",
           "date": "2026-07-16",
           "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Apogee",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Arcellx",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "CVR",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Gilead",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Lilly",
-      "type": "company",
-      "mentions": 2,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Organon",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Terns",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Tubulis",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "deucravacitinib",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-26",
-      "latest_articles": [
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一顆藥，搶針劑的飯碗",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "icotrokinra",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-26",
-      "latest_articles": [
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一顆藥，搶針劑的飯碗",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
           "language": "zh-Hant"
         }
       ]

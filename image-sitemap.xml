@@ -123,6 +123,67 @@
     </image:image>
   </url>
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/homepage-cover.png</image:loc>
+      <image:caption>An Lp(a) particle, unresolved question mark and heart visualize the unanswered HORIZON outcomes question</image:caption>
+      <image:title>Pelacarsen&apos;s HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/figure-01.webp</image:loc>
+      <image:caption>HORIZON must establish whether lowering Lp(a) reduces cardiovascular events, not merely whether the biomarker falls</image:caption>
+      <image:title>Pelacarsen&apos;s HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/figure-02.webp</image:loc>
+      <image:caption>Pelacarsen reduces apo(a) production and Lp(a), while the connection to fewer cardiovascular events remains to be proven</image:caption>
+      <image:title>Pelacarsen&apos;s HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/figure-03.webp</image:loc>
+      <image:caption>A five-layer framework for reading HORIZON: hypothesis, effect size, endpoint composition, biomarker linkage and long-term burden</image:caption>
+      <image:title>Pelacarsen&apos;s HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/figure-04.webp</image:loc>
+      <image:caption>Four checks for Taiwan readers: population, measurement units, local access and direct investment evidence</image:caption>
+      <image:title>Pelacarsen&apos;s HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/cover.png</image:loc>
+      <image:caption>Lp(a) 粒子、心血管事件與問號橋樑構成 HORIZON 臨床結果尚待驗證的科學主視覺</image:caption>
+      <image:title>HORIZON：Lp(a) 降了，心梗會少嗎？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/homepage-cover.png</image:loc>
+      <image:caption>Lp(a) 粒子、未解問號與心臟構成 HORIZON 臨床結果待驗證的首頁主視覺</image:caption>
+      <image:title>HORIZON：Lp(a) 降了，心梗會少嗎？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/facebook-01.webp</image:loc>
+      <image:caption>HORIZON 真正要驗證的是降低 Lp(a) 能否減少心血管事件，而非只看生物標記下降</image:caption>
+      <image:title>HORIZON：Lp(a) 降了，心梗會少嗎？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/facebook-02.webp</image:loc>
+      <image:caption>Pelacarsen 從肝臟 LPA mRNA、apo(a) 生成到 Lp(a) 下降的作用鏈，臨床事件端仍待 HORIZON 驗證</image:caption>
+      <image:title>HORIZON：Lp(a) 降了，心梗會少嗎？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/facebook-03.webp</image:loc>
+      <image:caption>HORIZON 結果應從預設檢定、效果量、事件組成、降幅連結與長期代價五層判讀</image:caption>
+      <image:title>HORIZON：Lp(a) 降了，心梗會少嗎？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/facebook-04.webp</image:loc>
+      <image:caption>台灣讀者判讀 HORIZON 的四個檢查點：族群、單位、臨床落地與直接證據</image:caption>
+      <image:title>HORIZON：Lp(a) 降了，心梗會少嗎？</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability-en/cover-en.webp</image:loc>
@@ -522,67 +583,6 @@
       <image:loc>https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform/figure-04.webp</image:loc>
       <image:caption>Rezdiffra 的臨床、診斷、給付與處方網絡，成為後續 MASH 聯用管線的商業放大器</image:caption>
       <image:title>聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html</loc>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/homepage-cover.png</image:loc>
-      <image:caption>An Lp(a) particle, unresolved question mark and heart visualize the unanswered HORIZON outcomes question</image:caption>
-      <image:title>Pelacarsen&apos;s HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/figure-01.webp</image:loc>
-      <image:caption>HORIZON must establish whether lowering Lp(a) reduces cardiovascular events, not merely whether the biomarker falls</image:caption>
-      <image:title>Pelacarsen&apos;s HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/figure-02.webp</image:loc>
-      <image:caption>Pelacarsen reduces apo(a) production and Lp(a), while the connection to fewer cardiovascular events remains to be proven</image:caption>
-      <image:title>Pelacarsen&apos;s HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/figure-03.webp</image:loc>
-      <image:caption>A five-layer framework for reading HORIZON: hypothesis, effect size, endpoint composition, biomarker linkage and long-term burden</image:caption>
-      <image:title>Pelacarsen&apos;s HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/figure-04.webp</image:loc>
-      <image:caption>Four checks for Taiwan readers: population, measurement units, local access and direct investment evidence</image:caption>
-      <image:title>Pelacarsen&apos;s HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</loc>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/cover.png</image:loc>
-      <image:caption>Lp(a) 粒子、心血管事件與問號橋樑構成 HORIZON 臨床結果尚待驗證的科學主視覺</image:caption>
-      <image:title>HORIZON：Lp(a) 降了，心梗會少嗎？</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/homepage-cover.png</image:loc>
-      <image:caption>Lp(a) 粒子、未解問號與心臟構成 HORIZON 臨床結果待驗證的首頁主視覺</image:caption>
-      <image:title>HORIZON：Lp(a) 降了，心梗會少嗎？</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/facebook-01.webp</image:loc>
-      <image:caption>HORIZON 真正要驗證的是降低 Lp(a) 能否減少心血管事件，而非只看生物標記下降</image:caption>
-      <image:title>HORIZON：Lp(a) 降了，心梗會少嗎？</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/facebook-02.webp</image:loc>
-      <image:caption>Pelacarsen 從肝臟 LPA mRNA、apo(a) 生成到 Lp(a) 下降的作用鏈，臨床事件端仍待 HORIZON 驗證</image:caption>
-      <image:title>HORIZON：Lp(a) 降了，心梗會少嗎？</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/facebook-03.webp</image:loc>
-      <image:caption>HORIZON 結果應從預設檢定、效果量、事件組成、降幅連結與長期代價五層判讀</image:caption>
-      <image:title>HORIZON：Lp(a) 降了，心梗會少嗎？</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/facebook-04.webp</image:loc>
-      <image:caption>台灣讀者判讀 HORIZON 的四個檢查點：族群、單位、臨床落地與直接證據</image:caption>
-      <image:title>HORIZON：Lp(a) 降了，心梗會少嗎？</image:title>
     </image:image>
   </url>
   <url>

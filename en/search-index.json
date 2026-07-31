@@ -29,7 +29,7 @@
   {
     "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
     "slug": "astellas-oncology-platform-en",
-    "date": "2026-07-23",
+    "date": "2026-07-30",
     "publishAt": "2026-07-30T08:00:00+08:00",
     "updatedAt": "2026-07-30",
     "category": "製藥巨頭系列",
@@ -50,6 +50,35 @@
     "sponsored": false,
     "sponsorName": "",
     "url": "articles/2026-07-23-astellas-oncology-platform-en.html"
+  },
+  {
+    "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+    "slug": "pelacarsen-lpa-horizon-en",
+    "date": "2026-07-29",
+    "publishAt": "2026-07-29T08:00:00+08:00",
+    "updatedAt": "2026-07-29",
+    "category": "商業分析系列",
+    "access": "Business Analysis",
+    "lang": "en",
+    "tags": [
+      "Business Analysis",
+      "pelacarsen",
+      "Lp(a)",
+      "HORIZON",
+      "cardiovascular disease",
+      "clinical trials",
+      "antisense oligonucleotide",
+      "Novartis",
+      "Ionis",
+      "biotech investing"
+    ],
+    "summary": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.",
+    "image": "../assets/articles/pelacarsen-lpa-horizon-en/homepage-cover.png",
+    "cardImage": "",
+    "imageAlt": "An Lp(a) particle, cardiovascular event markers and an unresolved evidence bridge visualize the unanswered HORIZON outcomes question",
+    "sponsored": false,
+    "sponsorName": "",
+    "url": "articles/2026-07-19-pelacarsen-lpa-horizon-en.html"
   },
   {
     "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
@@ -281,35 +310,6 @@
     "sponsored": false,
     "sponsorName": "",
     "url": "articles/2026-07-20-madrigal-mash-sirna-platform-en.html"
-  },
-  {
-    "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-    "slug": "pelacarsen-lpa-horizon-en",
-    "date": "2026-07-19",
-    "publishAt": "2026-07-19T18:45:00+08:00",
-    "updatedAt": "2026-07-19",
-    "category": "商業分析系列",
-    "access": "Business Analysis",
-    "lang": "en",
-    "tags": [
-      "Business Analysis",
-      "pelacarsen",
-      "Lp(a)",
-      "HORIZON",
-      "cardiovascular disease",
-      "clinical trials",
-      "antisense oligonucleotide",
-      "Novartis",
-      "Ionis",
-      "biotech investing"
-    ],
-    "summary": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.",
-    "image": "../assets/articles/pelacarsen-lpa-horizon-en/homepage-cover.png",
-    "cardImage": "",
-    "imageAlt": "An Lp(a) particle, cardiovascular event markers and an unresolved evidence bridge visualize the unanswered HORIZON outcomes question",
-    "sponsored": false,
-    "sponsorName": "",
-    "url": "articles/2026-07-19-pelacarsen-lpa-horizon-en.html"
   },
   {
     "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",

@@ -29,7 +29,7 @@
       "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
       "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
       "content_text": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.",
-      "date_published": "2026-07-23T08:00:00+08:00",
+      "date_published": "2026-07-30T08:00:00+08:00",
       "date_modified": "2026-07-30T08:00:00+08:00",
       "tags": [
         "Astellas",
@@ -38,6 +38,26 @@
         "Vyloy",
         "oncology",
         "drug development"
+      ]
+    },
+    {
+      "id": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+      "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+      "content_text": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.",
+      "date_published": "2026-07-29T08:00:00+08:00",
+      "date_modified": "2026-07-29T08:00:00+08:00",
+      "tags": [
+        "Business Analysis",
+        "pelacarsen",
+        "Lp(a)",
+        "HORIZON",
+        "cardiovascular disease",
+        "clinical trials",
+        "antisense oligonucleotide",
+        "Novartis",
+        "Ionis",
+        "biotech investing"
       ]
     },
     {
@@ -206,26 +226,6 @@
         "GLP-1",
         "BD licensing",
         "Taiwan biotech"
-      ]
-    },
-    {
-      "id": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-      "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-      "content_text": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.",
-      "date_published": "2026-07-19T18:45:00+08:00",
-      "date_modified": "2026-07-19T08:00:00+08:00",
-      "tags": [
-        "Business Analysis",
-        "pelacarsen",
-        "Lp(a)",
-        "HORIZON",
-        "cardiovascular disease",
-        "clinical trials",
-        "antisense oligonucleotide",
-        "Novartis",
-        "Ionis",
-        "biotech investing"
       ]
     },
     {

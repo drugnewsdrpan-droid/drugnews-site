@@ -6,7 +6,7 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 30 Jul 2026 11:58:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 17:07:51 GMT</lastBuildDate>
     <item>
       <title>安邦生技：免疫治療的「星鏈計畫」</title>
       <link>https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html</link>
@@ -19,9 +19,17 @@
       <title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</title>
       <link>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</link>
       <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
       <category>製藥巨頭</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/astellas-oncology-platform/cover.png" alt="由單一藥物核心延伸至多條腫瘤研發路徑的抽象科學視覺"></p><p>Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。</p>]]></description>
+    </item>
+    <item>
+      <title>HORIZON：Lp(a) 降了，心梗會少嗎？</title>
+      <link>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/cover.png" alt="Lp(a) 粒子、心血管事件與問號橋樑構成 HORIZON 臨床結果尚待驗證的科學主視覺"></p><p>Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。</p>]]></description>
     </item>
     <item>
       <title>T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後</title>
@@ -78,14 +86,6 @@
       <pubDate>Mon, 20 Jul 2026 00:58:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform/cover.png" alt="肝臟、Rezdiffra 與精準基因沉默訊號構成 Madrigal MASH 基石藥與 siRNA 平台策略主視覺"></p><p>Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。</p>]]></description>
-    </item>
-    <item>
-      <title>HORIZON：Lp(a) 降了，心梗會少嗎？</title>
-      <link>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</guid>
-      <pubDate>Sun, 19 Jul 2026 10:45:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/cover.png" alt="Lp(a) 粒子、心血管事件與問號橋樑構成 HORIZON 臨床結果尚待驗證的科學主視覺"></p><p>Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。</p>]]></description>
     </item>
     <item>
       <title>動物實驗不是消失，而是藥物研發規則開始換代</title>

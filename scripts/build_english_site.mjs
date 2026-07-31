@@ -406,12 +406,13 @@ function publishedCardImage(meta) {
 }
 
 function publishedRecord(meta) {
+  const publicDate = meta.public_date || meta.date;
   return {
     title: meta.title,
     slug: meta.slug,
-    date: meta.date,
+    date: publicDate,
     publishAt: meta.publish_at || `${meta.date}T00:00:00+08:00`,
-    updatedAt: meta.updated_at || meta.date,
+    updatedAt: meta.updated_at || publicDate,
     category: meta.category || meta.series || "Business Analysis",
     access: meta.access || "免費文章",
     lang: meta.lang || "zh-Hant",

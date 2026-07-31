@@ -710,6 +710,10 @@ function displayDate(date, meta = {}) {
   }).format(new Date(`${date}T00:00:00+08:00`));
 }
 
+function publicDate(meta = {}) {
+  return meta.public_date || meta.date;
+}
+
 function alternateLinks(meta, url) {
   const alternates = new Map([[languageTag(meta), url]]);
   for (const [lang, href] of Object.entries(meta.translations || {})) {
@@ -741,6 +745,9 @@ function parseMeta(raw, folderName) {
   }
   const publishAt = new Date(meta.publish_at);
   if (Number.isNaN(publishAt.getTime())) throw new Error("meta.json field `publish_at` is not a valid date");
+  if (meta.public_date && Number.isNaN(new Date(`${meta.public_date}T00:00:00+08:00`).getTime())) {
+    throw new Error("meta.json field `public_date` is not a valid date");
+  }
   const slug = slugify(meta.slug || meta.title, folderName);
   return { ...meta, slug, publishAt };
 }
@@ -1236,7 +1243,7 @@ function footerHtml(meta = {}) {
 }
 
 function citationText(meta, url) {
-  const dateText = displayDate(meta.date, meta);
+  const dateText = displayDate(publicDate(meta), meta);
   if (isEnglish(meta)) {
     const titlePunctuation = /[.!?]$/.test(meta.title) ? "" : ".";
     return `Drugnews Editorial Team. "${meta.title}${titlePunctuation}" Drugnews, ${dateText}. ${url}`;
@@ -1337,7 +1344,7 @@ function articleTrustHtml(article, toc) {
   const english = isEnglish(meta);
   const minutes = readingMinutes(article.markdown);
   const judgments = coreJudgments(article);
-  const date = displayDate(meta.date, meta);
+  const date = displayDate(publicDate(meta), meta);
   const reviewer = meta.reviewed_by || meta.scientific_reviewer || "";
   const updated = meta.updated_at && meta.updated_at !== meta.date
     ? displayDate(meta.updated_at, meta)
@@ -1397,7 +1404,7 @@ function articlePage(article, bodyHtml, related) {
   const sponsoredLabel = meta.sponsored === true
     ? (isEnglish(meta) ? "Sponsored Content" : "合作內容")
     : "";
-  const heroMetaLabels = [...new Set([displayDate(meta.date, meta), accessDisplay, seriesLabel, sponsoredLabel].filter(Boolean))];
+  const heroMetaLabels = [...new Set([displayDate(publicDate(meta), meta), accessDisplay, seriesLabel, sponsoredLabel].filter(Boolean))];
   const seoTags = topicTags(meta.tags);
   const localLinks = isEnglish(meta)
     ? { articles: "../en/articles/", subscribe: "../en/subscribe.html", freeType: "../en/articles/" }
@@ -1421,8 +1428,8 @@ function articlePage(article, bodyHtml, related) {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: meta.title,
-    datePublished: meta.date,
-    dateModified: meta.updated_at || meta.date,
+    datePublished: publicDate(meta),
+    dateModified: meta.updated_at || publicDate(meta),
     description: meta.summary,
     mainEntityOfPage: url,
     author: {
@@ -1568,7 +1575,7 @@ function articleRecord(article) {
     : articleCover.src;
   return {
     title: meta.title,
-    date: meta.date,
+    date: publicDate(meta),
     category: inferSeries(meta),
     categorySlug: categorySlug(inferSeries(meta)),
     topic: meta.category,
@@ -1583,7 +1590,7 @@ function articleRecord(article) {
     imageAlt: meta.card_image_alt || articleCover.alt,
     sponsored: meta.sponsored === true,
     sponsorName: meta.sponsor_name || "",
-    updatedAt: meta.updated_at || meta.date,
+    updatedAt: meta.updated_at || publicDate(meta),
     ...(meta.homepage_cover_image ? {
       homepageImage: article.imageMap.get(meta.homepage_cover_image) || meta.homepage_cover_image,
       homepageImageAlt: meta.homepage_cover_image_alt || meta.cover_image_alt || meta.title

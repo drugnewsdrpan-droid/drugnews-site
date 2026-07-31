@@ -84,14 +84,22 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html
   Topics: 安邦生技, ABT-301, 癌症免疫治療, PD-1, 轉移性大腸直腸癌
   Summary: 一顆台灣小分子，有機會把三百億美元級PD-1藥王送進九成五患者仍無法受益的治療盲區嗎？
-- 2026-07-23｜Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門
+- 2026-07-30｜Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門
   URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html
   Topics: Astellas, Xtandi, Padcev, Vyloy, 腫瘤
   Summary: Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。
-- 2026-07-23｜After Xtandi: Can Astellas Build an Oncology Platform?
+- 2026-07-30｜After Xtandi: Can Astellas Build an Oncology Platform?
   URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html
   Topics: Astellas, Xtandi, Padcev, Vyloy, oncology
   Summary: Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.
+- 2026-07-29｜Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?
+  URL: https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html
+  Topics: Business Analysis, pelacarsen, Lp(a), HORIZON, cardiovascular disease
+  Summary: Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.
+- 2026-07-29｜HORIZON：Lp(a) 降了，心梗會少嗎？
+  URL: https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html
+  Topics: Pelacarsen, Lp(a), HORIZON, 心血管疾病, 臨床試驗
+  Summary: Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。
 - 2026-07-28｜T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability
   URL: https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html
   Topics: T-cell exhaustion, immunotherapy, PD-1 blockade, CAR-T, T-cell engager
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html
   Topics: Roche, 羅氏, Big Pharma, 製藥巨頭, giredestrant
   Summary: 羅氏 2025 年製藥銷售 476.69 億瑞士法郎，Ocrevus、Hemlibra 與 Vabysmo 已撐起約三分之一收入。真正值得追的不是 19 個新分子的總數，而是 giredestrant、fenebrutinib、減重、阿茲海默症與蛋白質降解資產能否沿既有臨床、診斷與商業通路準時接棒。
-- 2026-07-24｜SpaceX Goes to Orbit. Is the Money in the Crystals?
-  URL: https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html
-  Topics: SpaceX, microgravity, space pharmaceuticals, drug crystallization, Keytruda
-  Summary: SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation.
-- 2026-07-24｜SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金
-  URL: https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html
-  Topics: SpaceX, 微重力, 太空製藥, 藥物結晶, Keytruda
-  Summary: SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。
 
 ## Key Site Sections
 

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-30T11:58:54.331Z",
+  "generated_at": "2026-07-31T17:07:51.850Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -421,7 +421,7 @@
     },
     {
       "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
-      "date": "2026-07-23",
+      "date": "2026-07-30",
       "language": "zh-Hant",
       "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
       "category": "製藥巨頭",
@@ -437,7 +437,7 @@
     },
     {
       "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-      "date": "2026-07-23",
+      "date": "2026-07-30",
       "language": "en",
       "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
       "category": "製藥巨頭",
@@ -450,6 +450,42 @@
         "drug development"
       ],
       "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform."
+    },
+    {
+      "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+      "date": "2026-07-29",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "pelacarsen",
+        "Lp(a)",
+        "HORIZON",
+        "cardiovascular disease",
+        "clinical trials",
+        "antisense oligonucleotide",
+        "Novartis"
+      ],
+      "summary": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations."
+    },
+    {
+      "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+      "date": "2026-07-29",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+      "category": "商業分析",
+      "tags": [
+        "Pelacarsen",
+        "Lp(a)",
+        "HORIZON",
+        "心血管疾病",
+        "臨床試驗",
+        "ASO",
+        "Novartis",
+        "Ionis"
+      ],
+      "summary": "Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。"
     },
     {
       "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
@@ -702,42 +738,6 @@
         "Arrowhead Pharmaceuticals"
       ],
       "summary": "Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。"
-    },
-    {
-      "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-      "date": "2026-07-19",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "pelacarsen",
-        "Lp(a)",
-        "HORIZON",
-        "cardiovascular disease",
-        "clinical trials",
-        "antisense oligonucleotide",
-        "Novartis"
-      ],
-      "summary": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations."
-    },
-    {
-      "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-      "date": "2026-07-19",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-      "category": "商業分析",
-      "tags": [
-        "Pelacarsen",
-        "Lp(a)",
-        "HORIZON",
-        "心血管疾病",
-        "臨床試驗",
-        "ASO",
-        "Novartis",
-        "Ionis"
-      ],
-      "summary": "Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。"
     },
     {
       "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
