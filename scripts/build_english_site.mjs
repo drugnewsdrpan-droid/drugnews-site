@@ -30,8 +30,7 @@ function escapeXml(value) {
 function responsiveEnglishLeadPicture(image, alt) {
   if (!image) return "";
 
-  const extension = path.extname(image);
-  const base = image.slice(0, -extension.length);
+  const base = image.replace(/(?:-(?:720|1400))?\.[^.]+$/, "");
   const mobile = `${base}-720.webp`;
   const desktop = `${base}-1400.webp`;
   const localPath = (src) => path.join(ROOT, src.replace(/^\.\.\//, ""));
@@ -443,10 +442,7 @@ async function loadEnglishRecords() {
 
 function homePage(records) {
   const englishRecords = records.filter((item) => item.lang === "en");
-  const lead = englishRecords.find((item) => (
-    item.sponsored !== true
-    && !/anhorn|安宏/i.test(`${item.slug || ""} ${item.title || ""} ${(item.tags || []).join(" ")}`)
-  )) || englishRecords.find((item) => item.sponsored !== true) || englishRecords[0];
+  const lead = englishRecords[0];
   const leadMeta = lead
     ? [...new Set(["Featured English Analysis", englishCategory(lead.category), englishAccess(lead.access)].filter(Boolean))]
         .map((label) => `<span>${escapeHtml(label)}</span>`)

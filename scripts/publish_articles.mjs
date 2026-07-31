@@ -2033,7 +2033,7 @@ function evidenceSceneHtml() {
 
 function homePage(records) {
   const freeItems = readerFirstSort(records.filter(
-    (item) => accessLabel(item) === "免費文章" && item.sponsored !== true
+    (item) => accessLabel(item) === "免費文章"
   ));
   const lead = freeItems[0] || readerFirstSort(records)[0];
   const briefing = freeItems.filter((item) => !lead || item.slug !== lead.slug).slice(0, 4);
@@ -2044,7 +2044,7 @@ function homePage(records) {
   const leadCategory = lead ? displayCategory(lead) : "商業分析系列";
   const leadSummary = lead?.summary || "閱讀藥時事 Drugnews 的生技醫藥公司研究、估值框架、BD 授權、臨床開發與資本市場判讀。";
   const leadAlt = readerFacingText(lead?.homepageImageAlt || lead?.imageAlt || (lead ? displayTitle(lead) : "最新文章"));
-  const leadStem = leadDisplayImage.replace(/\.[^.]+$/, "");
+  const leadStem = leadDisplayImage.replace(/(?:-(?:720|1400))?\.[^.]+$/, "");
   const leadMediaHtml = leadDisplayImage
     ? `<div class="featured-image"><picture><source media="(max-width: 680px)" type="image/webp" srcset="${escapeHtml(`${leadStem}-720.webp`)}"><source type="image/webp" srcset="${escapeHtml(`${leadStem}-1400.webp`)}"><img src="${escapeHtml(`${leadStem}-1400.webp`)}" alt="${escapeHtml(leadAlt)}" width="1672" height="941" loading="eager" fetchpriority="high" decoding="async"></picture></div>`
     : "";
