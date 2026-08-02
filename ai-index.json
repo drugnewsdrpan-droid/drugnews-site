@@ -209,6 +209,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+      "date": "2026-08-02",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "alopecia areata",
+        "bempikibart",
+        "Q32 Bio",
+        "QTTB",
+        "IL-7Rα",
+        "JAK inhibitors",
+        "SALT",
+        "biotech valuation",
+        "clinical data",
+        "drug development"
+      ],
+      "summary": "Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors.",
+      "image": "https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata-en/figure-01.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-02-bempikibart-alopecia-areata.html"
+      }
+    },
+    {
+      "title": "鬼剃頭新藥，先別封神",
+      "date": "2026-08-02",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "斑禿",
+        "鬼剃頭",
+        "Bempikibart",
+        "Q32 Bio",
+        "QTTB",
+        "IL-7Rα",
+        "JAK 抑制劑",
+        "SALT",
+        "生技股",
+        "新藥研發"
+      ],
+      "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。",
+      "image": "https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/figure-01.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-02-bempikibart-alopecia-areata-en.html"
+      }
+    },
+    {
       "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
       "date": "2026-07-31",
       "language": "en",
@@ -1537,63 +1595,6 @@
       "is_accessible_for_free": false,
       "is_external": true,
       "alternate_language_versions": {}
-    },
-    {
-      "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-      "date": "2026-07-07",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "ADC",
-        "PD-1/VEGF",
-        "bispecific antibody",
-        "oncology",
-        "BD licensing",
-        "clinical data"
-      ],
-      "summary": "After a Phase III setback for sigvotatug vedotin, Pfizer's $43 billion Seagen ADC bet is increasingly tied to whether 3SBio's PD-1/VEGF bispecific can become a new immuno-oncology combination backbone.",
-      "image": "https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html"
-      }
-    },
-    {
-      "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-      "date": "2026-07-07",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "ADC",
-        "PD-1/VEGF",
-        "雙特異性抗體",
-        "BD",
-        "臨床數據",
-        "生技投資",
-        "腫瘤藥物",
-        "製藥巨頭",
-        "台灣生技"
-      ],
-      "summary": "sigvotatug vedotin Phase III 單藥失利後，輝瑞的 430 億美元 Seagen ADC 賭局正轉向 3SBio PD-1/VEGF 雙抗與聯合療法底座。",
-      "image": "https://drugnews.com.tw/assets/articles/pfizer-seagen-3sbio-adc-pd1-vegf/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html"
-      }
     }
   ]
 }

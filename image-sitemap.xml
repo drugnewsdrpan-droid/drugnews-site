@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata-en/figure-01.png</image:loc>
+      <image:caption>A 33-patient trial nearly doubled Q32 Bio shares, but the evidence remains an early Phase 2a signal</image:caption>
+      <image:title>Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata-en/figure-02.png</image:loc>
+      <image:caption>The same 10 responders yield different percentages when the denominator changes from 25 to 33</image:caption>
+      <image:title>Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata-en/figure-03.png</image:loc>
+      <image:caption>A clean 33-patient safety signal cannot exclude low-frequency risks that emerge with larger exposure</image:caption>
+      <image:title>Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata-en/figure-04.png</image:loc>
+      <image:caption>The next bempikibart test is Week 52 durability, controlled replication and larger safety exposure</image:caption>
+      <image:title>Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/figure-01.png</image:loc>
+      <image:caption>33 人讓股價近乎翻倍，但單臂 Phase 2a 資料仍只是進入下一階段的門票</image:caption>
+      <image:title>鬼剃頭新藥，先別封神</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/figure-02.png</image:loc>
+      <image:caption>同樣 10 名患者達到 SALT 不超過 20，mITT 與 ITT 分母會得出不同百分比</image:caption>
+      <image:title>鬼剃頭新藥，先別封神</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/figure-03.png</image:loc>
+      <image:caption>33 人研究沒有觀察到嚴重安全事件，不代表擴大暴露後不會出現低頻重要風險</image:caption>
+      <image:title>鬼剃頭新藥，先別封神</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/figure-04.png</image:loc>
+      <image:caption>Bempikibart 下一場考試包括第 52 週、對照設計、療效重現與長期安全</image:caption>
+      <image:title>鬼剃頭新藥，先別封神</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink-en/cover.png</image:loc>

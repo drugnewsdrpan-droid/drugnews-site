@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-31T17:07:51.851Z",
+  "generated_at": "2026-08-02T03:20:49.488Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,54 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+      "date": "2026-08-02",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "alopecia areata",
+        "bempikibart",
+        "Q32 Bio",
+        "QTTB",
+        "IL-7Rα",
+        "JAK inhibitors",
+        "SALT",
+        "biotech valuation",
+        "clinical data",
+        "drug development"
+      ],
+      "summary": "Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-02-bempikibart-alopecia-areata.html"
+      }
+    },
+    {
+      "title": "鬼剃頭新藥，先別封神",
+      "date": "2026-08-02",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "斑禿",
+        "鬼剃頭",
+        "Bempikibart",
+        "Q32 Bio",
+        "QTTB",
+        "IL-7Rα",
+        "JAK 抑制劑",
+        "SALT",
+        "生技股",
+        "新藥研發"
+      ],
+      "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。",
+      "alternate_language_versions": {
+        "en": "2026-08-02-bempikibart-alopecia-areata-en.html"
+      }
+    },
     {
       "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
       "date": "2026-07-31",
@@ -777,53 +825,6 @@
       "alternate_language_versions": {
         "en": "2026-07-16-big-pharma-ma-new-aesthetic-en.html"
       }
-    },
-    {
-      "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
-      "date": "2026-07-15",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
-      "category": "商業分析",
-      "access": "Free Article",
-      "tags": [
-        "Business Analysis",
-        "regulatory T cells",
-        "Treg",
-        "immune tolerance",
-        "cell therapy",
-        "autoimmune disease",
-        "transplantation",
-        "CMC",
-        "Taiwan Bio Therapeutics",
-        "Taiwan biotech"
-      ],
-      "summary": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-15-treg-immune-tolerance-productization.html"
-      }
-    },
-    {
-      "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
-      "date": "2026-07-15",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Treg",
-        "免疫耐受",
-        "細胞療法",
-        "自體免疫",
-        "移植",
-        "CMC",
-        "台寶生醫",
-        "臨床開發",
-        "生技投資"
-      ],
-      "summary": "諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。",
-      "alternate_language_versions": {
-        "en": "2026-07-15-treg-immune-tolerance-productization-en.html"
-      }
     }
   ],
   "entities": [
@@ -1056,9 +1057,47 @@
       ]
     },
     {
-      "name": "Drug development",
+      "name": "drug development",
       "type": "topic",
       "mentions": 15,
+      "latest_date": "2026-08-02",
+      "latest_articles": [
+        {
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+          "language": "en"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Drug development",
+      "type": "topic",
+      "mentions": 14,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -1094,15 +1133,27 @@
       ]
     },
     {
-      "name": "drug development",
-      "type": "topic",
-      "mentions": 14,
-      "latest_date": "2026-07-30",
+      "name": "biotech valuation",
+      "type": "market_topic",
+      "mentions": 13,
+      "latest_date": "2026-08-02",
       "latest_articles": [
         {
-          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-          "date": "2026-07-30",
-          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+          "language": "en"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
+          "date": "2026-07-26",
+          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
           "language": "en"
         },
         {
@@ -1116,11 +1167,31 @@
           "date": "2026-07-14",
           "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "clinical data",
+      "type": "market_topic",
+      "mentions": 13,
+      "latest_date": "2026-08-02",
+      "latest_articles": [
+        {
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+          "language": "en"
         },
         {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
           "language": "en"
         },
         {
@@ -1128,43 +1199,11 @@
           "date": "2026-07-11",
           "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
           "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Biotech business analysis",
-      "type": "topic",
-      "mentions": 14,
-      "latest_date": "2026-06-11",
-      "latest_articles": [
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
         },
         {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
           "language": "en"
         }
       ]
@@ -1208,6 +1247,44 @@
       ]
     },
     {
+      "name": "Biotech business analysis",
+      "type": "topic",
+      "mentions": 13,
+      "latest_date": "2026-06-11",
+      "latest_articles": [
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Big Pharma",
       "type": "market_topic",
       "mentions": 12,
@@ -1242,82 +1319,6 @@
           "date": "2026-07-16",
           "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "biotech valuation",
-      "type": "market_topic",
-      "mentions": 12,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "clinical data",
-      "type": "market_topic",
-      "mentions": 12,
-      "latest_date": "2026-07-17",
-      "latest_articles": [
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-          "language": "en"
         }
       ]
     },
@@ -1892,44 +1893,6 @@
       ]
     },
     {
-      "name": "Clinical and CMC",
-      "type": "biotech_concept_or_target",
-      "mentions": 6,
-      "latest_date": "2026-06-08",
-      "latest_articles": [
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
-          "date": "2026-06-05",
-          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
-          "date": "2026-06-03",
-          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Merck",
       "type": "company",
       "mentions": 5,
@@ -2077,6 +2040,44 @@
           "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
           "date": "2026-06-04",
           "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Clinical and CMC",
+      "type": "biotech_concept_or_target",
+      "mentions": 5,
+      "latest_date": "2026-06-08",
+      "latest_articles": [
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
+          "date": "2026-06-05",
+          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
+          "date": "2026-06-03",
+          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
+          "date": "2026-05-31",
+          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
           "language": "en"
         }
       ]
@@ -2338,38 +2339,6 @@
       ]
     },
     {
-      "name": "Keytruda",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-07-24",
-      "latest_articles": [
-        {
-          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
-          "language": "en"
-        },
-        {
-          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
-          "date": "2026-06-21",
-          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
-          "language": "en"
-        },
-        {
-          "title": "藥王的最佳搭檔？療效翻倍！",
-          "date": "2026-05-30",
-          "url": "https://drugnews.com.tw/articles/2026-05-30-drug-combination-efficacy-doubling.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "MASH",
       "type": "topic",
       "mentions": 4,
@@ -2562,6 +2531,32 @@
       ]
     },
     {
+      "name": "新藥研發",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-08-02",
+      "latest_articles": [
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "沒有 AI 能力的藥廠，將不再被稱作藥廠",
+          "date": "2026-06-07",
+          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "生技估值",
       "type": "market_topic",
       "mentions": 3,
@@ -2610,6 +2605,32 @@
           "date": "2026-06-05",
           "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Keytruda",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-07-24",
+      "latest_articles": [
+        {
+          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+          "language": "en"
+        },
+        {
+          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
+          "date": "2026-06-21",
+          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2844,6 +2865,106 @@
           "date": "2026-05-31",
           "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "IL-7Rα",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-02",
+      "latest_articles": [
+        {
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+          "language": "en"
+        },
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "JAK 抑制劑",
+      "type": "biotech_concept_or_target",
+      "mentions": 2,
+      "latest_date": "2026-08-02",
+      "latest_articles": [
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "從 Ruxolitinib cream 說起：外用 JAK 抑制劑，為什麼不是每個分子都能做？",
+          "date": "2026-06-05",
+          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Q32 Bio",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-02",
+      "latest_articles": [
+        {
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+          "language": "en"
+        },
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "QTTB",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-02",
+      "latest_articles": [
+        {
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+          "language": "en"
+        },
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "SALT",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-02",
+      "latest_articles": [
+        {
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+          "language": "en"
+        },
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -3146,129 +3267,47 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "bispecific antibody",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-28",
-      "latest_articles": [
-        {
-          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "CAR001",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-28",
-      "latest_articles": [
-        {
-          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-          "language": "en"
-        },
-        {
-          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "PL001",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-28",
-      "latest_articles": [
-        {
-          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-          "language": "en"
-        },
-        {
-          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "SOA101",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-28",
-      "latest_articles": [
-        {
-          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-          "language": "en"
-        },
-        {
-          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "TCF1",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-28",
-      "latest_articles": [
-        {
-          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-          "language": "en"
-        },
-        {
-          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "生技併購",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+      "date": "2026-08-02",
+      "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "alopecia areata",
+        "bempikibart",
+        "Q32 Bio",
+        "QTTB",
+        "IL-7Rα",
+        "JAK inhibitors",
+        "SALT",
+        "biotech valuation"
+      ],
+      "summary": "Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors."
+    },
+    {
+      "title": "鬼剃頭新藥，先別封神",
+      "date": "2026-08-02",
+      "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "斑禿",
+        "鬼剃頭",
+        "Bempikibart",
+        "Q32 Bio",
+        "QTTB",
+        "IL-7Rα",
+        "JAK 抑制劑",
+        "SALT"
+      ],
+      "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。"
+    },
     {
       "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
       "date": "2026-07-31",
@@ -3790,44 +3829,6 @@
         "生技投資"
       ],
       "summary": "一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。"
-    },
-    {
-      "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-      "date": "2026-07-11",
-      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "drug development",
-        "CNS drug development",
-        "social anxiety disorder",
-        "fasedienol"
-      ],
-      "summary": "Fasedienol's PALISADE-4 miss was not simply a failed Phase 3 headline. It exposed the core CNS drug-development problem: a beautiful mechanism and a real unmet need still have to survive subjective endpoints, placebo response, patient selection, and a commercial repositioning test."
-    },
-    {
-      "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-      "date": "2026-07-10",
-      "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "drug development",
-        "FDA CRL",
-        "NASP",
-        "Sobi"
-      ],
-      "summary": "FDA identified no clinical efficacy or safety concerns that affected NASP's approvability. The setback centered on CMC controls and contract-manufacturing deficiencies, showing biotech investors why manufacturing credibility becomes part of asset value near launch."
     }
   ]
 }

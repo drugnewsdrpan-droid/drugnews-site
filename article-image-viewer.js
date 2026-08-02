@@ -32,6 +32,11 @@
     event.preventDefault();
     closeDialog();
   });
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || !dialog.open) return;
+    event.preventDefault();
+    closeDialog();
+  });
   dialog.addEventListener("close", () => {
     document.body.classList.remove("article-image-dialog-open");
     trigger?.focus();

@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-02｜Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors
+  URL: https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html
+  Topics: alopecia areata, bempikibart, Q32 Bio, QTTB, IL-7Rα
+  Summary: Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors.
+- 2026-08-02｜鬼剃頭新藥，先別封神
+  URL: https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html
+  Topics: 斑禿, 鬼剃頭, Bempikibart, Q32 Bio, QTTB
+  Summary: 33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。
 - 2026-07-31｜AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy
   URL: https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html
   Topics: AnBogen Therapeutics, ABT-301, Cancer Immunotherapy, PD-1, Metastatic Colorectal Cancer
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html
   Topics: ICOTYDE, icotrokinra, Johnson & Johnson, J&J, 乾癬
   Summary: ICOTYDE 上市首季超過 18,000 張處方，證明口服 IL-23R 胜肽有需求；真正決定估值的，仍是付費處方、續方、支付品質與多適應症兌現。
-- 2026-07-25｜Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle
-  URL: https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html
-  Topics: Roche, Big Pharma, pharma strategy, giredestrant, fenebrutinib
-  Summary: Roche generated CHF 47.669 billion in pharmaceutical sales in 2025, with Ocrevus, Hemlibra, and Vabysmo already accounting for roughly one-third of the total. The number that matters is not simply 19 potential new molecules, but whether giredestrant, fenebrutinib, obesity, Alzheimer's, and protein-degradation assets can inherit Roche's existing clinical, diagnostic, and commercial infrastructure on time.
-- 2026-07-25｜羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？
-  URL: https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html
-  Topics: Roche, 羅氏, Big Pharma, 製藥巨頭, giredestrant
-  Summary: 羅氏 2025 年製藥銷售 476.69 億瑞士法郎，Ocrevus、Hemlibra 與 Vabysmo 已撐起約三分之一收入。真正值得追的不是 19 個新分子的總數，而是 giredestrant、fenebrutinib、減重、阿茲海默症與蛋白質降解資產能否沿既有臨床、診斷與商業通路準時接棒。
 
 ## Key Site Sections
 

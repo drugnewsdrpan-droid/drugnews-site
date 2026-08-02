@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 31 Jul 2026 17:07:51 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 03:20:49 GMT</lastBuildDate>
+    <item>
+      <title>鬼剃頭新藥，先別封神</title>
+      <link>https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/figure-01.png" alt="33 人 SIGNAL-AA Part B Phase 2a 試驗與下一階段證據門檻"></p><p>33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。</p>]]></description>
+    </item>
     <item>
       <title>安邦生技：免疫治療的「星鏈計畫」</title>
       <link>https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Wed, 08 Jul 2026 01:10:35 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base/cover.png" alt="GLP-1、dorzagliatin 與長期代謝治療的高階生技商業分析封面"></p><p>GLP-1 競爭進入長期維持與聯用下半場，dorzagliatin 的價值不在取代減重藥，而是可能成為代謝治療的可持續底座。</p>]]></description>
-    </item>
-    <item>
-      <title>下週雷達｜5 個可能重算台灣 biotech 估值的全球訊號：ADC、監管、公告、BD 與資金折現率</title>
-      <link>https://vocus.cc/article/6a402ec5fd897800016f65cc</link>
-      <guid isPermaLink="true">https://vocus.cc/article/6a402ec5fd897800016f65cc</guid>
-      <pubDate>Wed, 08 Jul 2026 01:00:32 GMT</pubDate>
-      <category>深度商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a402ec5fd897800016f65cc-source.jpg" alt="5 個可能重算台灣 biotech 估值的全球訊號"></p><p>這篇不是新聞清單，而是會員版下週雷達：把 ADC、FDA／EMA、台灣公司公告、大藥廠 BD 與資金環境五個訊號，翻成會改變成功率、上市時間、峰值銷售、折現率、現金水位與 BD 機率的估值參數。</p>]]></description>
     </item>
   </channel>
 </rss>

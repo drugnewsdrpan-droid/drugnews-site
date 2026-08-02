@@ -1654,7 +1654,9 @@ function articleCardHtml(item, href, imageSrc = item.image) {
   const visibleTags = [...new Set(displayTags(item.tags))];
   const categoryDisplay = readerFacingText(displaySeriesLabel(item.category, item));
   const accessDisplay = displayAccessLabel(item);
-  const sponsoredDisplay = item.sponsored === true ? "合作內容" : "";
+  const sponsoredDisplay = item.sponsored === true
+    ? (isEnglish(item) ? "Sponsored Content" : "合作內容")
+    : "";
   const metaLabels = [...new Set([
     displayDate(item.date, item),
     categoryDisplay,

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-30T06:16:50.764Z",
+  "generated_at": "2026-08-02T03:20:49.445Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -117,283 +117,28 @@
   },
   "buckets": [
     {
-      "name": "AI 製藥與新技術",
-      "count": 10,
-      "articles": [
-        {
-          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "T-cell exhaustion",
-            "immunotherapy",
-            "PD-1 blockade",
-            "CAR-T",
-            "T-cell engager",
-            "bispecific antibody",
-            "TCF1",
-            "Taiwan biotech"
-          ],
-          "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy."
-        },
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "ICOTYDE",
-            "icotrokinra",
-            "Johnson & Johnson",
-            "J&J",
-            "plaque psoriasis",
-            "IL-23R",
-            "oral peptide",
-            "deucravacitinib"
-          ],
-          "summary": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis."
-        },
-        {
-          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "SpaceX",
-            "microgravity",
-            "space pharmaceuticals",
-            "drug crystallization",
-            "Keytruda",
-            "Redwire",
-            "SpaceMD",
-            "Varda"
-          ],
-          "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation."
-        },
-        {
-          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Biotech",
-            "Biopharma",
-            "argenx",
-            "Insmed",
-            "Incyte",
-            "Revolution Medicines",
-            "Royalty Pharma",
-            "business development"
-          ],
-          "summary": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs."
-        },
-        {
-          "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "NAMs",
-            "CDE",
-            "Regulatory Science",
-            "Organoids",
-            "Organ-on-a-Chip",
-            "AI Drug Discovery"
-          ],
-          "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable."
-        },
-        {
-          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "NAMs",
-            "CDE",
-            "監管科學",
-            "類器官",
-            "器官晶片",
-            "AI 製藥"
-          ],
-          "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。"
-        },
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Free Article",
-          "tags": [
-            "Business Analysis",
-            "AI drug discovery",
-            "Claude Science",
-            "Anthropic",
-            "foundation models",
-            "drug development",
-            "AnHorn Medicines",
-            "PROTAC"
-          ],
-          "summary": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets."
-        },
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "AI 製藥",
-            "Claude Science",
-            "Anthropic",
-            "大型語言模型",
-            "新藥研發",
-            "安宏生醫",
-            "PROTAC",
-            "CMC"
-          ],
-          "summary": "Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。"
-        },
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Business Analysis",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "drug development",
-            "CNS drug development",
-            "social anxiety disorder",
-            "fasedienol"
-          ],
-          "summary": "Fasedienol's PALISADE-4 miss was not simply a failed Phase 3 headline. It exposed the core CNS drug-development problem: a beautiful mechanism and a real unmet need still have to survive subjective endpoints, placebo response, patient selection, and a commercial repositioning test."
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Business Analysis",
-            "biotech business analysis",
-            "Taiwan biotech",
-            "drug development",
-            "FDA CRL",
-            "NASP",
-            "Sobi"
-          ],
-          "summary": "FDA identified no clinical efficacy or safety concerns that affected NASP's approvability. The setback centered on CMC controls and contract-manufacturing deficiencies, showing biotech investors why manufacturing credibility becomes part of asset value near launch."
-        }
-      ]
-    },
-    {
-      "name": "BD / 授權與併購",
-      "count": 4,
-      "articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "生技併購",
-            "藥廠併購",
-            "Biopharma M&A",
-            "專利懸崖",
-            "Lilly",
-            "Merck",
-            "AbbVie",
-            "Gilead"
-          ],
-          "summary": "2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "biopharma M&A",
-            "Big Pharma",
-            "patent cliff",
-            "loss of exclusivity",
-            "Lilly",
-            "Merck",
-            "AbbVie",
-            "Gilead"
-          ],
-          "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time."
-        },
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Biotech",
-            "Biopharma",
-            "argenx",
-            "Insmed",
-            "Incyte",
-            "Revolution Medicines",
-            "Royalty Pharma",
-            "BD"
-          ],
-          "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Big Pharma",
-            "生技併購",
-            "Vertex",
-            "Crinetics",
-            "AbbVie",
-            "Apogee Therapeutics",
-            "Novartis",
-            "Avidity Biosciences"
-          ],
-          "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。"
-        }
-      ]
-    },
-    {
       "name": "估值與資本市場",
-      "count": 1,
+      "count": 2,
       "articles": [
+        {
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "alopecia areata",
+            "bempikibart",
+            "Q32 Bio",
+            "QTTB",
+            "IL-7Rα",
+            "JAK inhibitors",
+            "SALT",
+            "biotech valuation"
+          ],
+          "summary": "Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors."
+        },
         {
           "title": "一顆藥，搶針劑的飯碗",
           "date": "2026-07-26",
@@ -416,9 +161,66 @@
       ]
     },
     {
-      "name": "腫瘤精準治療",
-      "count": 8,
+      "name": "臨床與法規催化",
+      "count": 2,
       "articles": [
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "斑禿",
+            "鬼剃頭",
+            "Bempikibart",
+            "Q32 Bio",
+            "QTTB",
+            "IL-7Rα",
+            "JAK 抑制劑",
+            "SALT"
+          ],
+          "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。"
+        },
+        {
+          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "臨床數據",
+            "生技投資"
+          ],
+          "summary": "一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。"
+        }
+      ]
+    },
+    {
+      "name": "腫瘤精準治療",
+      "count": 9,
+      "articles": [
+        {
+          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "AnBogen Therapeutics",
+            "ABT-301",
+            "Cancer Immunotherapy",
+            "PD-1",
+            "Metastatic Colorectal Cancer",
+            "HDAC",
+            "Taiwan Biotech",
+            "Oncology"
+          ],
+          "summary": "Can a small molecule from Taiwan extend the $30 billion PD-1 ecosystem into the 95% of metastatic colorectal cancer patients still beyond immunotherapy’s reach?"
+        },
         {
           "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
           "date": "2026-07-25",
@@ -574,6 +376,242 @@
       ]
     },
     {
+      "name": "AI 製藥與新技術",
+      "count": 8,
+      "articles": [
+        {
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "T-cell exhaustion",
+            "immunotherapy",
+            "PD-1 blockade",
+            "CAR-T",
+            "T-cell engager",
+            "bispecific antibody",
+            "TCF1",
+            "Taiwan biotech"
+          ],
+          "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy."
+        },
+        {
+          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
+          "date": "2026-07-26",
+          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "ICOTYDE",
+            "icotrokinra",
+            "Johnson & Johnson",
+            "J&J",
+            "plaque psoriasis",
+            "IL-23R",
+            "oral peptide",
+            "deucravacitinib"
+          ],
+          "summary": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis."
+        },
+        {
+          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "SpaceX",
+            "microgravity",
+            "space pharmaceuticals",
+            "drug crystallization",
+            "Keytruda",
+            "Redwire",
+            "SpaceMD",
+            "Varda"
+          ],
+          "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation."
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Biotech",
+            "Biopharma",
+            "argenx",
+            "Insmed",
+            "Incyte",
+            "Revolution Medicines",
+            "Royalty Pharma",
+            "business development"
+          ],
+          "summary": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs."
+        },
+        {
+          "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "NAMs",
+            "CDE",
+            "Regulatory Science",
+            "Organoids",
+            "Organ-on-a-Chip",
+            "AI Drug Discovery"
+          ],
+          "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable."
+        },
+        {
+          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "NAMs",
+            "CDE",
+            "監管科學",
+            "類器官",
+            "器官晶片",
+            "AI 製藥"
+          ],
+          "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Business Analysis",
+            "AI drug discovery",
+            "Claude Science",
+            "Anthropic",
+            "foundation models",
+            "drug development",
+            "AnHorn Medicines",
+            "PROTAC"
+          ],
+          "summary": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets."
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "AI 製藥",
+            "Claude Science",
+            "Anthropic",
+            "大型語言模型",
+            "新藥研發",
+            "安宏生醫",
+            "PROTAC",
+            "CMC"
+          ],
+          "summary": "Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。"
+        }
+      ]
+    },
+    {
+      "name": "BD / 授權與併購",
+      "count": 4,
+      "articles": [
+        {
+          "title": "半年千億，買的是時間",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "生技併購",
+            "藥廠併購",
+            "Biopharma M&A",
+            "專利懸崖",
+            "Lilly",
+            "Merck",
+            "AbbVie",
+            "Gilead"
+          ],
+          "summary": "2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "biopharma M&A",
+            "Big Pharma",
+            "patent cliff",
+            "loss of exclusivity",
+            "Lilly",
+            "Merck",
+            "AbbVie",
+            "Gilead"
+          ],
+          "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time."
+        },
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Biotech",
+            "Biopharma",
+            "argenx",
+            "Insmed",
+            "Incyte",
+            "Revolution Medicines",
+            "Royalty Pharma",
+            "BD"
+          ],
+          "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
+        },
+        {
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Big Pharma",
+            "生技併購",
+            "Vertex",
+            "Crinetics",
+            "AbbVie",
+            "Apogee Therapeutics",
+            "Novartis",
+            "Avidity Biosciences"
+          ],
+          "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。"
+        }
+      ]
+    },
+    {
       "name": "GLP-1 與代謝賽道",
       "count": 1,
       "articles": [
@@ -625,7 +663,7 @@
     },
     {
       "name": "CMC / 商業化風險",
-      "count": 4,
+      "count": 3,
       "articles": [
         {
           "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
@@ -683,44 +721,6 @@
             "臨床開發"
           ],
           "summary": "諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "FDA",
-            "NASP",
-            "Sobi",
-            "CMC",
-            "委託製造",
-            "製造品質",
-            "難治性痛風",
-            "URAT1"
-          ],
-          "summary": "FDA 並未指出影響 NASP 核准可能性的臨床療效或安全性問題，真正要求補強的是 CMC 控制策略與委託製造設施缺失。這封 CRL 提醒投資人：越接近上市，製造可信度越是藥品價值的一部分。"
-        }
-      ]
-    },
-    {
-      "name": "臨床與法規催化",
-      "count": 1,
-      "articles": [
-        {
-          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "臨床數據",
-            "生技投資"
-          ],
-          "summary": "一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。"
         }
       ]
     }

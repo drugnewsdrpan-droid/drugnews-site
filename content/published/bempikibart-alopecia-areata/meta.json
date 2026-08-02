@@ -1,0 +1,40 @@
+{
+  "title": "鬼剃頭新藥，先別封神",
+  "date": "2026-08-02",
+  "publish_at": "2026-08-02T08:00:00+08:00",
+  "category": "商業分析系列",
+  "tags": [
+    "斑禿",
+    "鬼剃頭",
+    "Bempikibart",
+    "Q32 Bio",
+    "QTTB",
+    "IL-7Rα",
+    "JAK 抑制劑",
+    "SALT",
+    "生技股",
+    "新藥研發"
+  ],
+  "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。",
+  "slug": "bempikibart-alopecia-areata",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/permalink.php?story_fbid=122181546362614875&id=61568446257142",
+  "source_status": "Facebook public E4 readback PASS on 2026-08-02; website body synchronized to the approved complete FB/Dcard longform",
+  "cover_image": "images/figure-01.png",
+  "cover_image_alt": "33 人 SIGNAL-AA Part B Phase 2a 試驗與下一階段證據門檻",
+  "homepage_cover_image": "images/figure-01.png",
+  "homepage_cover_image_alt": "Bempikibart 33 人 Phase 2a 資料支持繼續驗證，但尚不能證明勝過 JAK 抑制劑",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "Q32 Bio 的 33 人單臂 Phase 2a 資料支持 bempikibart 進入下一階段，但沒有安慰劑或 JAK 頭對頭對照，不能證明已勝過 JAK 抑制劑。",
+    "mITT 的 10/25 與 ITT 的 10/33 分別得到 40.0% 與 30.3%，顯示小樣本研究必須連同分母、缺失資料與分析族群閱讀。",
+    "下一個估值節點不是股價漲幅，而是第 52 週持久性、隨機對照後的療效重現、擴大暴露後安全性，以及 2027 年註冊導向計畫是否真正啟動。"
+  ],
+  "translations": {
+    "en": "2026-08-02-bempikibart-alopecia-areata-en.html"
+  }
+}

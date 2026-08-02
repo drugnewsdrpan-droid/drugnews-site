@@ -1,0 +1,41 @@
+{
+  "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+  "date": "2026-08-02",
+  "publish_at": "2026-08-02T08:00:00+08:00",
+  "category": "商業分析系列",
+  "tags": [
+    "alopecia areata",
+    "bempikibart",
+    "Q32 Bio",
+    "QTTB",
+    "IL-7Rα",
+    "JAK inhibitors",
+    "SALT",
+    "biotech valuation",
+    "clinical data",
+    "drug development"
+  ],
+  "summary": "Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors.",
+  "slug": "bempikibart-alopecia-areata-en",
+  "lang": "en",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/permalink.php?story_fbid=122181546362614875&id=61568446257142",
+  "source_status": "Complete professional English adaptation of the approved public Drugnews Facebook/Dcard longform; argument order, clinical figures, investment interpretation, caveats and references retained",
+  "cover_image": "images/figure-01.png",
+  "cover_image_alt": "A 33-patient SIGNAL-AA Part B Phase 2a signal and the evidence required before the program can be considered de-risked",
+  "homepage_cover_image": "images/figure-01.png",
+  "homepage_cover_image_alt": "Bempikibart has earned a larger test in alopecia areata, but has not yet beaten JAK inhibitors",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "The 33-patient, single-arm Phase 2a readout is sufficient to advance bempikibart, but the absence of placebo control or a JAK head-to-head comparison means it has not demonstrated superiority over JAK inhibitors.",
+    "The same 10 responders produce 40.0% in the 25-patient mITT set and 30.3% in the 33-patient ITT set, illustrating why denominator, missing-data rules and analysis populations matter in small trials.",
+    "The next valuation inflection points are Week 52 durability, efficacy replication under randomized control, safety at larger exposure and whether the planned registration-directed program actually starts in the first half of 2027."
+  ],
+  "translations": {
+    "zh-Hant": "2026-08-02-bempikibart-alopecia-areata.html"
+  }
+}
