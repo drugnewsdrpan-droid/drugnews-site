@@ -1,0 +1,44 @@
+{
+  "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+  "date": "2026-08-03",
+  "publish_at": "2026-08-03T08:01:00+08:00",
+  "category": "商業分析系列",
+  "tags": [
+    "阿茲海默症",
+    "Tau",
+    "Diranersen",
+    "BIIB080",
+    "IONIS-MAPTRx",
+    "Biogen",
+    "Ionis",
+    "反義寡核苷酸",
+    "ASO",
+    "CDR-SB",
+    "臨床數據",
+    "新藥研發"
+  ],
+  "summary": "CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。",
+  "slug": "diranersen-celia-tau-phase3",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/61568446257142/posts/122181619952614875",
+  "source_status": "Facebook public E4 readback PASS at 2026-08-03 08:01; website body synchronized to the approved complete FB/Dcard longform",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "反義寡核苷酸降低 Tau 生成，並通往仍待確認的阿茲海默症第三期試驗",
+  "card_image": "images/cover.png",
+  "card_image_alt": "Diranersen 以 ASO 降低 Tau，CELIA 訊號支持進一步第三期驗證",
+  "homepage_cover_image": "images/cover.png",
+  "homepage_cover_image_alt": "Diranersen 讓 Tau 降低策略取得進入第三期驗證的理由",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "CELIA 沒有證明劑量愈高效果愈好，因此預設劑量反應主要終點失敗；這個統計結論不能被 26% 的次級訊號取代。",
+    "60 mg 每 6 個月組在 CDR-SB 少惡化 0.54 分、相對減緩 26%，CSF total tau 與 Tau PET 又同向下降，足以支持確認性試驗，但尚未證明臨床效益。",
+    "下一個價值節點不是宣布 Tau 翻身，而是三期能否重現認知與功能效益、找出合理劑量窗，並證明重複鞘內給藥與長期降低 Tau 的安全性。"
+  ],
+  "translations": {
+    "en": "2026-08-03-diranersen-celia-tau-phase3-en.html"
+  }
+}

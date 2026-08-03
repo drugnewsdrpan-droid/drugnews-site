@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-02T03:20:49.445Z",
+  "generated_at": "2026-08-03T03:22:24.032Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -117,6 +117,94 @@
   },
   "buckets": [
     {
+      "name": "臨床與法規催化",
+      "count": 2,
+      "articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Alzheimer's disease",
+            "tau",
+            "diranersen",
+            "BIIB080",
+            "IONIS-MAPTRx",
+            "Biogen",
+            "Ionis",
+            "antisense oligonucleotide"
+          ],
+          "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
+        },
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "斑禿",
+            "鬼剃頭",
+            "Bempikibart",
+            "Q32 Bio",
+            "QTTB",
+            "IL-7Rα",
+            "JAK 抑制劑",
+            "SALT"
+          ],
+          "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。"
+        }
+      ]
+    },
+    {
+      "name": "其他市場訊號",
+      "count": 2,
+      "articles": [
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "阿茲海默症",
+            "Tau",
+            "Diranersen",
+            "BIIB080",
+            "IONIS-MAPTRx",
+            "Biogen",
+            "Ionis",
+            "反義寡核苷酸"
+          ],
+          "summary": "CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。"
+        },
+        {
+          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "MASH",
+            "Madrigal Pharmaceuticals",
+            "Rezdiffra",
+            "resmetirom",
+            "siRNA",
+            "Ribo Life Science",
+            "Ribocure",
+            "Arrowhead Pharmaceuticals"
+          ],
+          "summary": "Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。"
+        }
+      ]
+    },
+    {
       "name": "估值與資本市場",
       "count": 2,
       "articles": [
@@ -161,46 +249,8 @@
       ]
     },
     {
-      "name": "臨床與法規催化",
-      "count": 2,
-      "articles": [
-        {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "斑禿",
-            "鬼剃頭",
-            "Bempikibart",
-            "Q32 Bio",
-            "QTTB",
-            "IL-7Rα",
-            "JAK 抑制劑",
-            "SALT"
-          ],
-          "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。"
-        },
-        {
-          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "臨床數據",
-            "生技投資"
-          ],
-          "summary": "一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。"
-        }
-      ]
-    },
-    {
       "name": "腫瘤精準治療",
-      "count": 9,
+      "count": 8,
       "articles": [
         {
           "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
@@ -353,25 +403,6 @@
             "OS"
           ],
           "summary": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence."
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "KRAS G12C",
-            "divarasib",
-            "Roche",
-            "腫瘤新藥",
-            "臨床數據",
-            "PFS",
-            "OS",
-            "生技投資"
-          ],
-          "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。"
         }
       ]
     },
@@ -633,31 +664,6 @@
             "petrelintide"
           ],
           "summary": "羅氏 2025 年製藥銷售 476.69 億瑞士法郎，Ocrevus、Hemlibra 與 Vabysmo 已撐起約三分之一收入。真正值得追的不是 19 個新分子的總數，而是 giredestrant、fenebrutinib、減重、阿茲海默症與蛋白質降解資產能否沿既有臨床、診斷與商業通路準時接棒。"
-        }
-      ]
-    },
-    {
-      "name": "其他市場訊號",
-      "count": 1,
-      "articles": [
-        {
-          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "MASH",
-            "Madrigal Pharmaceuticals",
-            "Rezdiffra",
-            "resmetirom",
-            "siRNA",
-            "Ribo Life Science",
-            "Ribocure",
-            "Arrowhead Pharmaceuticals"
-          ],
-          "summary": "Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。"
         }
       ]
     },

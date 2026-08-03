@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-02T03:20:49.488Z",
+  "generated_at": "2026-08-03T03:22:24.097Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,54 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+      "date": "2026-08-03",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Alzheimer's disease",
+        "tau",
+        "diranersen",
+        "BIIB080",
+        "IONIS-MAPTRx",
+        "Biogen",
+        "Ionis",
+        "antisense oligonucleotide",
+        "ASO",
+        "CDR-SB"
+      ],
+      "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-03-diranersen-celia-tau-phase3.html"
+      }
+    },
+    {
+      "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+      "date": "2026-08-03",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "阿茲海默症",
+        "Tau",
+        "Diranersen",
+        "BIIB080",
+        "IONIS-MAPTRx",
+        "Biogen",
+        "Ionis",
+        "反義寡核苷酸",
+        "ASO",
+        "CDR-SB"
+      ],
+      "summary": "CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。",
+      "alternate_language_versions": {
+        "en": "2026-08-03-diranersen-celia-tau-phase3-en.html"
+      }
+    },
     {
       "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
       "date": "2026-08-02",
@@ -777,54 +825,6 @@
       "alternate_language_versions": {
         "zh-Hant": "2026-07-17-revmed-ras.html"
       }
-    },
-    {
-      "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-      "date": "2026-07-16",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "Big Pharma",
-        "biotech M&A",
-        "Vertex",
-        "Crinetics",
-        "AbbVie",
-        "Apogee Therapeutics",
-        "Novartis",
-        "Avidity Biosciences",
-        "Merck"
-      ],
-      "summary": "Vertex's roughly $10 billion deal for Crinetics captures a wider change in Big Pharma's acquisition taste: away from scale and fashionable platforms, toward niche leadership, technological step-changes and commercial visibility.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-16-big-pharma-ma-new-aesthetic.html"
-      }
-    },
-    {
-      "title": "百億美元併購新狂潮",
-      "date": "2026-07-16",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Big Pharma",
-        "生技併購",
-        "Vertex",
-        "Crinetics",
-        "AbbVie",
-        "Apogee Therapeutics",
-        "Novartis",
-        "Avidity Biosciences",
-        "Merck",
-        "Cidara Therapeutics"
-      ],
-      "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。",
-      "alternate_language_versions": {
-        "en": "2026-07-16-big-pharma-ma-new-aesthetic-en.html"
-      }
     }
   ],
   "entities": [
@@ -869,9 +869,15 @@
     {
       "name": "臨床數據",
       "type": "market_topic",
-      "mentions": 28,
-      "latest_date": "2026-07-17",
+      "mentions": 29,
+      "latest_date": "2026-08-03",
       "latest_articles": [
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
           "date": "2026-07-17",
@@ -894,12 +900,6 @@
           "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
           "date": "2026-07-10",
           "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
           "language": "zh-Hant"
         }
       ]
@@ -1019,6 +1019,44 @@
       ]
     },
     {
+      "name": "drug development",
+      "type": "topic",
+      "mentions": 16,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+          "language": "en"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "製藥巨頭",
       "type": "market_topic",
       "mentions": 16,
@@ -1057,11 +1095,17 @@
       ]
     },
     {
-      "name": "drug development",
-      "type": "topic",
-      "mentions": 15,
-      "latest_date": "2026-08-02",
+      "name": "clinical data",
+      "type": "market_topic",
+      "mentions": 14,
+      "latest_date": "2026-08-03",
       "latest_articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en"
+        },
         {
           "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
           "date": "2026-08-02",
@@ -1069,65 +1113,21 @@
           "language": "en"
         },
         {
-          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-          "date": "2026-07-30",
-          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
           "language": "en"
         },
         {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
           "language": "en"
         },
         {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Drug development",
-      "type": "topic",
-      "mentions": 14,
-      "latest_date": "2026-06-12",
-      "latest_articles": [
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
           "language": "en"
         }
       ]
@@ -1171,44 +1171,6 @@
       ]
     },
     {
-      "name": "clinical data",
-      "type": "market_topic",
-      "mentions": 13,
-      "latest_date": "2026-08-02",
-      "latest_articles": [
-        {
-          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "GLP-1",
       "type": "biotech_concept_or_target",
       "mentions": 13,
@@ -1247,11 +1209,17 @@
       ]
     },
     {
-      "name": "Biotech business analysis",
+      "name": "Drug development",
       "type": "topic",
       "mentions": 13,
-      "latest_date": "2026-06-11",
+      "latest_date": "2026-06-12",
       "latest_articles": [
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
         {
           "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
           "date": "2026-06-11",
@@ -1274,12 +1242,6 @@
           "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
           "date": "2026-06-09",
           "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
           "language": "en"
         }
       ]
@@ -1319,6 +1281,44 @@
           "date": "2026-07-16",
           "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Biotech business analysis",
+      "type": "topic",
+      "mentions": 12,
+      "latest_date": "2026-06-11",
+      "latest_articles": [
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1855,44 +1855,6 @@
       ]
     },
     {
-      "name": "FDA",
-      "type": "market_topic",
-      "mentions": 6,
-      "latest_date": "2026-07-10",
-      "latest_articles": [
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Merck",
       "type": "company",
       "mentions": 5,
@@ -1927,6 +1889,44 @@
           "date": "2026-06-21",
           "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "FDA",
+      "type": "market_topic",
+      "mentions": 5,
+      "latest_date": "2026-07-10",
+      "latest_articles": [
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2045,40 +2045,98 @@
       ]
     },
     {
-      "name": "Clinical and CMC",
-      "type": "biotech_concept_or_target",
-      "mentions": 5,
-      "latest_date": "2026-06-08",
+      "name": "新藥研發",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-03",
       "latest_articles": [
         {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "沒有 AI 能力的藥廠，將不再被稱作藥廠",
+          "date": "2026-06-07",
+          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "ASO",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
           "language": "en"
         },
         {
-          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
-          "date": "2026-06-05",
-          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
-          "language": "en"
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
         },
         {
-          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
-          "date": "2026-06-03",
-          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
-          "language": "en"
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
         },
         {
-          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
+          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
           "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Ionis",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
           "language": "en"
         },
         {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
           "language": "en"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2531,27 +2589,85 @@
       ]
     },
     {
-      "name": "新藥研發",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-08-02",
+      "name": "Clinical and CMC",
+      "type": "biotech_concept_or_target",
+      "mentions": 4,
+      "latest_date": "2026-06-08",
       "latest_articles": [
         {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
+          "date": "2026-06-05",
+          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
+          "date": "2026-06-03",
+          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "BIIB080",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
           "language": "zh-Hant"
         },
         {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Biogen",
+      "type": "company",
+      "mentions": 3,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
           "language": "zh-Hant"
         },
         {
-          "title": "沒有 AI 能力的藥廠，將不再被稱作藥廠",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
+          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
           "language": "zh-Hant"
         }
       ]
@@ -2791,32 +2907,6 @@
       ]
     },
     {
-      "name": "Regulatory risk",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-06-28",
-      "latest_articles": [
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Company Research",
       "type": "topic",
       "mentions": 3,
@@ -2843,28 +2933,102 @@
       ]
     },
     {
-      "name": "Immunology",
+      "name": "antisense oligonucleotide",
       "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-06-08",
+      "mentions": 2,
+      "latest_date": "2026-08-03",
       "latest_articles": [
         {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
           "language": "en"
         },
         {
-          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
-          "date": "2026-06-03",
-          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "CDR-SB",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
           "language": "en"
         },
         {
-          "title": "The Tavneos Crisis: Death Reports, Data-Integrity Questions, and an Amgen Rare-Disease Star at the Edge of Withdrawal",
-          "date": "2026-05-31",
-          "url": "https://drugnews.com.tw/articles/2026-05-31-tavneos-safety-data-integrity-crisis-en.html",
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "diranersen",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
           "language": "en"
+        },
+        {
+          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "IONIS-MAPTRx",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "tau",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
+          "date": "2026-06-02",
+          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -3127,149 +3291,47 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "ASO",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-29",
-      "latest_articles": [
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "HORIZON",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-29",
-      "latest_articles": [
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Ionis",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-29",
-      "latest_articles": [
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Lp(a)",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-07-29",
-      "latest_articles": [
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "雙特異性抗體",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-28",
-      "latest_articles": [
-        {
-          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "ACE1831",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-28",
-      "latest_articles": [
-        {
-          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-          "language": "en"
-        },
-        {
-          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "AP203",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-07-28",
-      "latest_articles": [
-        {
-          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-          "language": "en"
-        },
-        {
-          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+      "date": "2026-08-03",
+      "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Alzheimer's disease",
+        "tau",
+        "diranersen",
+        "BIIB080",
+        "IONIS-MAPTRx",
+        "Biogen",
+        "Ionis",
+        "antisense oligonucleotide"
+      ],
+      "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
+    },
+    {
+      "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+      "date": "2026-08-03",
+      "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "阿茲海默症",
+        "Tau",
+        "Diranersen",
+        "BIIB080",
+        "IONIS-MAPTRx",
+        "Biogen",
+        "Ionis",
+        "反義寡核苷酸"
+      ],
+      "summary": "CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。"
+    },
     {
       "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
       "date": "2026-08-02",
@@ -3797,38 +3859,6 @@
         "OS"
       ],
       "summary": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence."
-    },
-    {
-      "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-      "date": "2026-07-12",
-      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "KRAS G12C",
-        "divarasib",
-        "Roche",
-        "腫瘤新藥",
-        "臨床數據",
-        "PFS",
-        "OS",
-        "生技投資"
-      ],
-      "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。"
-    },
-    {
-      "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
-      "date": "2026-07-11",
-      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。"
     }
   ]
 }

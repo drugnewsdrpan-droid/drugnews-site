@@ -1,0 +1,45 @@
+{
+  "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+  "date": "2026-08-03",
+  "publish_at": "2026-08-03T08:01:00+08:00",
+  "category": "商業分析系列",
+  "tags": [
+    "Alzheimer's disease",
+    "tau",
+    "diranersen",
+    "BIIB080",
+    "IONIS-MAPTRx",
+    "Biogen",
+    "Ionis",
+    "antisense oligonucleotide",
+    "ASO",
+    "CDR-SB",
+    "clinical data",
+    "drug development"
+  ],
+  "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway.",
+  "slug": "diranersen-celia-tau-phase3-en",
+  "lang": "en",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/61568446257142/posts/122181619952614875",
+  "source_status": "Complete professional English adaptation of the approved public Drugnews Facebook/Dcard longform; argument order, clinical figures, investment interpretation, caveats and references retained",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "An antisense oligonucleotide reduces tau production along an uncertain path toward confirmatory Phase 3 testing",
+  "card_image": "images/cover.png",
+  "card_image_alt": "Diranersen lowers tau production and has earned further Phase 3 testing after CELIA",
+  "homepage_cover_image": "images/cover.png",
+  "homepage_cover_image_alt": "Diranersen has given tau lowering a reason to advance into confirmatory testing",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "CELIA did not demonstrate that higher or more frequent dosing produced greater benefit, so the prespecified dose-response primary endpoint failed; the 26% secondary signal does not reverse that statistical result.",
+    "The 60 mg every-six-months group showed a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. Those aligned signals justify confirmation, not a claim of proven clinical benefit.",
+    "The next value inflection point is whether Phase 3 can reproduce cognitive and functional benefit, define a credible dose window, and establish the acceptability of repeated intrathecal dosing and sustained tau lowering."
+  ],
+  "translations": {
+    "zh-Hant": "2026-08-03-diranersen-celia-tau-phase3.html"
+  }
+}

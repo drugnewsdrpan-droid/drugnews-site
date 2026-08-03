@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-02T03:20:49.488Z",
+  "generated_at": "2026-08-03T03:22:24.096Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+      "date": "2026-08-03",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Alzheimer's disease",
+        "tau",
+        "diranersen",
+        "BIIB080",
+        "IONIS-MAPTRx",
+        "Biogen",
+        "Ionis",
+        "antisense oligonucleotide"
+      ],
+      "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
+    },
+    {
+      "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+      "date": "2026-08-03",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+      "category": "商業分析",
+      "tags": [
+        "阿茲海默症",
+        "Tau",
+        "Diranersen",
+        "BIIB080",
+        "IONIS-MAPTRx",
+        "Biogen",
+        "Ionis",
+        "反義寡核苷酸"
+      ],
+      "summary": "CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。"
+    },
     {
       "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
       "date": "2026-08-02",
@@ -774,38 +810,6 @@
         "Arrowhead Pharmaceuticals"
       ],
       "summary": "Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。"
-    },
-    {
-      "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
-      "date": "2026-07-19",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
-      "category": "商業分析",
-      "tags": [
-        "NAMs",
-        "CDE",
-        "Regulatory Science",
-        "Organoids",
-        "Organ-on-a-Chip",
-        "AI Drug Discovery"
-      ],
-      "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable."
-    },
-    {
-      "title": "動物實驗不是消失，而是藥物研發規則開始換代",
-      "date": "2026-07-19",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
-      "category": "商業分析",
-      "tags": [
-        "NAMs",
-        "CDE",
-        "監管科學",
-        "類器官",
-        "器官晶片",
-        "AI 製藥"
-      ],
-      "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。"
     }
   ],
   "do_not_use_as": [

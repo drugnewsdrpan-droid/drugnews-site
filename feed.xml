@@ -6,14 +6,22 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 02 Aug 2026 03:20:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 03:22:24 GMT</lastBuildDate>
+    <item>
+      <title>Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？</title>
+      <link>https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html</guid>
+      <pubDate>Mon, 03 Aug 2026 00:01:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3/cover.png" alt="Diranersen 以 ASO 降低 Tau，CELIA 訊號支持進一步第三期驗證"></p><p>CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。</p>]]></description>
+    </item>
     <item>
       <title>鬼剃頭新藥，先別封神</title>
       <link>https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html</link>
       <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/figure-01.png" alt="33 人 SIGNAL-AA Part B Phase 2a 試驗與下一階段證據門檻"></p><p>33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。</p>]]></description>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/cover.png" alt="斑禿毛囊免疫發炎與新藥介入的科學視覺"></p><p>33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。</p>]]></description>
     </item>
     <item>
       <title>安邦生技：免疫治療的「星鏈計畫」</title>
@@ -198,14 +206,6 @@
       <pubDate>Thu, 09 Jul 2026 01:00:42 GMT</pubDate>
       <category>深度商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a42b340fd897800012cc406-source.webp" alt="會改變生技公司估值模型的 6 個參數"></p><p>新聞只告訴你發生了什麼；估值要問的是，事件究竟改變成功率、上市時間、患者池、峰值銷售、權利經濟，還是現金與稀釋風險。</p>]]></description>
-    </item>
-    <item>
-      <title>GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住</title>
-      <link>https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html</guid>
-      <pubDate>Wed, 08 Jul 2026 01:10:35 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base/cover.png" alt="GLP-1、dorzagliatin 與長期代謝治療的高階生技商業分析封面"></p><p>GLP-1 競爭進入長期維持與聯用下半場，dorzagliatin 的價值不在取代減重藥，而是可能成為代謝治療的可持續底座。</p>]]></description>
     </item>
   </channel>
 </rss>

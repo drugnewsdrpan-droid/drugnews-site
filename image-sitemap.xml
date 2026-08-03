@@ -1,7 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3-en/cover.png</image:loc>
+      <image:caption>Diranersen has given tau lowering a reason to advance into confirmatory testing</image:caption>
+      <image:title>Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3-en/figure-01.png</image:loc>
+      <image:caption>CELIA tested whether higher or more frequent dosing produced greater CDR-SB benefit</image:caption>
+      <image:title>Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3-en/figure-02.png</image:loc>
+      <image:caption>The lowest dose showed the largest CDR-SB difference, while the prespecified dose-response endpoint was missed</image:caption>
+      <image:title>Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3-en/figure-03.png</image:loc>
+      <image:caption>Mechanism, biomarkers and a selected clinical signal moved in the same direction but do not establish Phase 3 benefit</image:caption>
+      <image:title>Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3-en/figure-04.png</image:loc>
+      <image:caption>Five questions a confirmatory diranersen trial must answer</image:caption>
+      <image:title>Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3/cover.png</image:loc>
+      <image:caption>Diranersen 讓 Tau 降低策略取得進入第三期驗證的理由</image:caption>
+      <image:title>Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3/figure-01.png</image:loc>
+      <image:caption>CELIA 的主要終點檢驗更高或更頻繁劑量是否帶來更大 CDR-SB 效益</image:caption>
+      <image:title>Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3/figure-02.png</image:loc>
+      <image:caption>最低劑量組在 CDR-SB 表現最好，但預設劑量反應主要終點仍未達</image:caption>
+      <image:title>Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3/figure-03.png</image:loc>
+      <image:caption>機制、生物標記與部分臨床結果同方向，仍不等於三期已證明患者效益</image:caption>
+      <image:title>Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3/figure-04.png</image:loc>
+      <image:caption>Diranersen 第三期必須回答訊號重現、認知與功能、劑量窗、安全性及治療背景五個問題</image:caption>
+      <image:title>Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata-en/cover.png</image:loc>
+      <image:caption>The follicular immune mechanism bempikibart must validate in larger clinical trials</image:caption>
+      <image:title>Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata-en/figure-01.png</image:loc>
       <image:caption>A 33-patient trial nearly doubled Q32 Bio shares, but the evidence remains an early Phase 2a signal</image:caption>
@@ -25,6 +86,11 @@
   </url>
   <url>
     <loc>https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/cover.png</image:loc>
+      <image:caption>Bempikibart 進入更大規模臨床驗證前的毛囊免疫機轉</image:caption>
+      <image:title>鬼剃頭新藥，先別封神</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/figure-01.png</image:loc>
       <image:caption>33 人讓股價近乎翻倍，但單臂 Phase 2a 資料仍只是進入下一階段的門票</image:caption>

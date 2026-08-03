@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T00:01:00.000Z</news:publication_date>
+      <news:title>Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T00:01:00.000Z</news:publication_date>
+      <news:title>Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html</loc>
     <news:news>
       <news:publication>
