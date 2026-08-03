@@ -1896,6 +1896,10 @@ h3 { margin: 0 0 10px; font-size: 1.08rem; }
   transform: scale(1.12);
 }
 
+.client-logo img[src*="anbogen"] {
+  transform: scale(1.58);
+}
+
 .client-logo[aria-hidden="true"] { display: none; }
 
 .differentiation-strip {
