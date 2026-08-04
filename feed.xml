@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 03 Aug 2026 03:22:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 18:25:18 GMT</lastBuildDate>
+    <item>
+      <title>超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！</title>
+      <link>https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks/cover.png" alt="阿斯特捷利康與 BMS 的 4,000 億美元合併傳聞"></p><p>Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。</p>]]></description>
+    </item>
     <item>
       <title>Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？</title>
       <link>https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Thu, 09 Jul 2026 01:30:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap/cover.png" alt="日本 Biotech 產業生態與全球競爭力落差的高階商業分析封面"></p><p>日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。</p>]]></description>
-    </item>
-    <item>
-      <title>生技公司估值不是看新聞標題：6 個會改變模型的參數</title>
-      <link>https://vocus.cc/article/6a42b340fd897800012cc406</link>
-      <guid isPermaLink="true">https://vocus.cc/article/6a42b340fd897800012cc406</guid>
-      <pubDate>Thu, 09 Jul 2026 01:00:42 GMT</pubDate>
-      <category>深度商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/external-vocus/6a42b340fd897800012cc406-source.webp" alt="會改變生技公司估值模型的 6 個參數"></p><p>新聞只告訴你發生了什麼；估值要問的是，事件究竟改變成功率、上市時間、患者池、峰值銷售、權利經濟，還是現金與稀釋風險。</p>]]></description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,27 @@
   "language": "en",
   "items": [
     {
+      "id": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
+      "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
+      "content_text": "AstraZeneca and BMS reportedly explored a combination with a combined market value approaching $400 billion. There is no announced transaction. The real questions are AstraZeneca's 2030 growth target, BMS's Eliquis and Opdivo exclusivity timeline, oncology-pipeline overlap, antitrust and whether integration can actually buy time.",
+      "date_published": "2026-08-04T08:00:00+08:00",
+      "date_modified": "2026-08-04T08:00:00+08:00",
+      "tags": [
+        "AstraZeneca",
+        "Bristol Myers Squibb",
+        "BMS",
+        "pharma M&A",
+        "patent cliff",
+        "oncology",
+        "antibody-drug conjugates",
+        "ADC",
+        "CAR-T",
+        "antitrust",
+        "biotech business analysis"
+      ]
+    },
+    {
       "id": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
       "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
       "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",

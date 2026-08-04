@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks-en/cover.png</image:loc>
+      <image:caption>Two pharmaceutical research ecosystems remain separated while reported AstraZeneca and BMS merger discussions are examined</image:caption>
+      <image:title>A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks-en/homepage-cover.png</image:loc>
+      <image:caption>Two pharmaceutical research ecosystems remain separated, reflecting reported AstraZeneca and BMS discussions without an announced transaction</image:caption>
+      <image:title>A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks-en/figure-01-en.png</image:loc>
+      <image:caption>AstraZeneca and BMS had a combined market value approaching $400 billion, but public evidence supports only reported exploratory discussions</image:caption>
+      <image:title>A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks-en/figure-02-en.png</image:loc>
+      <image:caption>The growth and patent-cliff logic that could bring AstraZeneca and BMS to the same negotiating table</image:caption>
+      <image:title>A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks-en/figure-03-en.png</image:loc>
+      <image:caption>Complementarity and overlap across solid tumors, immunotherapy, hematology and CAR-T in the AstraZeneca and BMS portfolios</image:caption>
+      <image:title>A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks-en/figure-04-en.png</image:loc>
+      <image:caption>A reported AstraZeneca-BMS combination would still have to pass four gates: structure, governance, antitrust and pipeline integration</image:caption>
+      <image:title>A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks/cover.png</image:loc>
+      <image:caption>阿斯特捷利康與 BMS 兩個製藥體系隔著尚未跨越的距離，對應報導中的 4,000 億美元合併可能性</image:caption>
+      <image:title>超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks/homepage-cover.png</image:loc>
+      <image:caption>兩個製藥研發生態系隔著尚未跨越的距離，對應阿斯特捷利康與 BMS 合併傳聞尚未成案</image:caption>
+      <image:title>超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks/figure-01.png</image:loc>
+      <image:caption>阿斯特捷利康與 BMS 合計市值接近 4,000 億美元，但公開資訊仍只支持曾探討結合</image:caption>
+      <image:title>超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks/figure-02.png</image:loc>
+      <image:caption>阿斯特捷利康與 BMS 坐上同一張桌的成長與專利懸崖邏輯</image:caption>
+      <image:title>超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks/figure-03.png</image:loc>
+      <image:caption>阿斯特捷利康與 BMS 在實體瘤、免疫治療、血液腫瘤與 CAR-T 的互補及重疊</image:caption>
+      <image:title>超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks/figure-04.png</image:loc>
+      <image:caption>阿斯特捷利康與 BMS 的合併傳聞仍須跨過交易、治理、反壟斷與管線整合四道關</image:caption>
+      <image:title>超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3-en/cover.png</image:loc>

@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-04｜A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking
+  URL: https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html
+  Topics: AstraZeneca, Bristol Myers Squibb, BMS, pharma M&A, patent cliff
+  Summary: AstraZeneca and BMS reportedly explored a combination with a combined market value approaching $400 billion. There is no announced transaction. The real questions are AstraZeneca's 2030 growth target, BMS's Eliquis and Opdivo exclusivity timeline, oncology-pipeline overlap, antitrust and whether integration can actually buy time.
+- 2026-08-04｜超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！
+  URL: https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html
+  Topics: AstraZeneca, 阿斯特捷利康, Bristol Myers Squibb, BMS, 百時美施貴寶
+  Summary: Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。
 - 2026-08-03｜Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint
   URL: https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html
   Topics: Alzheimer's disease, tau, diranersen, BIIB080, IONIS-MAPTRx
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html
   Topics: T 細胞耗竭, 免疫治療, PD-1, CAR-T, TCE
   Summary: PD-1、CAR-T 與 TCE 最後都仰賴可增殖、可補充且能持久的 T 細胞戰力。本文從耗竭分化、產品工程與臨床資料，拆解免疫治療下半場的真正競爭門檻。
-- 2026-07-27｜半年千億，買的是時間
-  URL: https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html
-  Topics: 生技併購, 藥廠併購, Biopharma M&A, 專利懸崖, Lilly
-  Summary: 2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。
-- 2026-07-27｜$130 Billion in Six Months: Big Pharma Is Buying Time
-  URL: https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html
-  Topics: biopharma M&A, Big Pharma, patent cliff, loss of exclusivity, Lilly
-  Summary: Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time.
 
 ## Key Site Sections
 

@@ -209,6 +209,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
+      "date": "2026-08-04",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "AstraZeneca",
+        "Bristol Myers Squibb",
+        "BMS",
+        "pharma M&A",
+        "patent cliff",
+        "oncology",
+        "antibody-drug conjugates",
+        "ADC",
+        "CAR-T",
+        "antitrust"
+      ],
+      "summary": "AstraZeneca and BMS reportedly explored a combination with a combined market value approaching $400 billion. There is no announced transaction. The real questions are AstraZeneca's 2030 growth target, BMS's Eliquis and Opdivo exclusivity timeline, oncology-pipeline overlap, antitrust and whether integration can actually buy time.",
+      "image": "https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-04-astrazeneca-bms-400b-merger-talks.html"
+      }
+    },
+    {
+      "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
+      "date": "2026-08-04",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "AstraZeneca",
+        "阿斯特捷利康",
+        "Bristol Myers Squibb",
+        "BMS",
+        "百時美施貴寶",
+        "生技併購",
+        "大藥廠",
+        "專利懸崖",
+        "腫瘤新藥",
+        "ADC"
+      ],
+      "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。",
+      "image": "https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-04-astrazeneca-bms-400b-merger-talks-en.html"
+      }
+    },
+    {
       "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
       "date": "2026-08-03",
       "language": "en",
@@ -1551,64 +1609,6 @@
       "is_accessible_for_free": false,
       "is_external": true,
       "alternate_language_versions": {}
-    },
-    {
-      "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-      "date": "2026-07-08",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "GLP-1",
-        "dorzagliatin",
-        "glucokinase activator",
-        "GKA",
-        "drug development",
-        "metabolic disease"
-      ],
-      "summary": "GLP-1 competition is moving from peak weight loss toward long-term use, tolerability, rebound control, and combination design. Dorzagliatin matters not as a GLP-1 replacement, but as a possible metabolic base for the next phase of chronic therapy.",
-      "image": "https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html"
-      }
-    },
-    {
-      "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-      "date": "2026-07-08",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "GLP-1",
-        "dorzagliatin",
-        "多格列艾汀",
-        "glucokinase activator",
-        "GKA",
-        "代謝疾病",
-        "糖尿病",
-        "MASH",
-        "臨床數據",
-        "慢病管理"
-      ],
-      "summary": "GLP-1 競爭進入長期維持與聯用下半場，dorzagliatin 的價值不在取代減重藥，而是可能成為代謝治療的可持續底座。",
-      "image": "https://drugnews.com.tw/assets/articles/glp1-dorzagliatin-long-term-metabolic-base/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html"
-      }
     }
   ]
 }

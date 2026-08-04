@@ -1,0 +1,44 @@
+{
+  "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
+  "date": "2026-08-04",
+  "publish_at": "2026-08-04T08:00:00+08:00",
+  "category": "商業分析系列",
+  "tags": [
+    "AstraZeneca",
+    "Bristol Myers Squibb",
+    "BMS",
+    "pharma M&A",
+    "patent cliff",
+    "oncology",
+    "antibody-drug conjugates",
+    "ADC",
+    "CAR-T",
+    "antitrust",
+    "biotech business analysis"
+  ],
+  "summary": "AstraZeneca and BMS reportedly explored a combination with a combined market value approaching $400 billion. There is no announced transaction. The real questions are AstraZeneca's 2030 growth target, BMS's Eliquis and Opdivo exclusivity timeline, oncology-pipeline overlap, antitrust and whether integration can actually buy time.",
+  "slug": "astrazeneca-bms-400b-merger-talks-en",
+  "lang": "en",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/permalink.php?story_fbid=122181703478614875&id=61568446257142",
+  "source_status": "Complete professional English adaptation of the approved public Drugnews Facebook/Dcard longform; argument sequence, financial figures, portfolio analysis, Taiwan implications, caveats and references retained",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "Two pharmaceutical research ecosystems remain separated while reported AstraZeneca and BMS merger discussions are examined",
+  "card_image": "images/cover.png",
+  "card_image_alt": "Reported AstraZeneca and BMS discussions around a potential $400 billion combination",
+  "homepage_cover_image": "images/homepage-cover.png",
+  "homepage_cover_image_alt": "Two pharmaceutical research ecosystems remain separated, reflecting reported AstraZeneca and BMS discussions without an announced transaction",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "As of August 3, 2026, public evidence supports only reported exploratory discussions. There is no announced price, exchange ratio, transaction structure or signed agreement, and $400 billion is an approximate combined market value rather than a deal value.",
+    "AstraZeneca needs faster growth to reach at least $80 billion in 2030 revenue, while BMS must establish sufficiently large successors before U.S. exclusivity on Eliquis and Opdivo reaches a major 2028 inflection point.",
+    "The value of any transaction would depend less on the number of assets than on pipeline prioritization across liver-cancer immunotherapy, CAR-T and other oncology overlaps, together with antitrust, governance and execution risk."
+  ],
+  "translations": {
+    "zh-Hant": "2026-08-04-astrazeneca-bms-400b-merger-talks.html"
+  }
+}

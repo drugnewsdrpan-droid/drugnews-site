@@ -1,0 +1,44 @@
+{
+  "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
+  "date": "2026-08-04",
+  "publish_at": "2026-08-04T08:00:00+08:00",
+  "category": "商業分析系列",
+  "tags": [
+    "AstraZeneca",
+    "阿斯特捷利康",
+    "Bristol Myers Squibb",
+    "BMS",
+    "百時美施貴寶",
+    "生技併購",
+    "大藥廠",
+    "專利懸崖",
+    "腫瘤新藥",
+    "ADC",
+    "CAR-T",
+    "反壟斷"
+  ],
+  "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。",
+  "slug": "astrazeneca-bms-400b-merger-talks",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/permalink.php?story_fbid=122181703478614875&id=61568446257142",
+  "source_status": "Facebook public E4 readback PASS for the 2026-08-04 08:00 post; website body synchronized to the approved complete FB/Dcard longform",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "阿斯特捷利康與 BMS 兩個製藥體系隔著尚未跨越的距離，對應報導中的 4,000 億美元合併可能性",
+  "card_image": "images/cover.png",
+  "card_image_alt": "阿斯特捷利康與 BMS 的 4,000 億美元合併傳聞",
+  "homepage_cover_image": "images/homepage-cover.png",
+  "homepage_cover_image_alt": "兩個製藥研發生態系隔著尚未跨越的距離，對應阿斯特捷利康與 BMS 合併傳聞尚未成案",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "截至 2026 年 8 月 3 日，公開證據只支持兩家公司曾探討結合；沒有正式價格、換股比例、交易架構或簽署協議，4,000 億美元是合計市值量級，不是成交價。",
+    "阿斯特捷利康需要為 2030 年至少 800 億美元營收目標補上更快增長，BMS 則必須在 Eliquis 與 Opdivo 的 2028 年美國獨占期轉折前建立下一條夠大的產品曲線。",
+    "真正決定交易價值的不是資產數量，而是肝癌雙免疫、CAR-T 與其他腫瘤管線如何排序，以及反壟斷、治理與大型組織整合能否避免拖慢決策。"
+  ],
+  "translations": {
+    "en": "2026-08-04-astrazeneca-bms-400b-merger-talks-en.html"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-03T03:22:24.096Z",
+  "generated_at": "2026-08-04T18:25:18.351Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
+      "date": "2026-08-04",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
+      "category": "商業分析",
+      "tags": [
+        "AstraZeneca",
+        "Bristol Myers Squibb",
+        "BMS",
+        "pharma M&A",
+        "patent cliff",
+        "oncology",
+        "antibody-drug conjugates",
+        "ADC"
+      ],
+      "summary": "AstraZeneca and BMS reportedly explored a combination with a combined market value approaching $400 billion. There is no announced transaction. The real questions are AstraZeneca's 2030 growth target, BMS's Eliquis and Opdivo exclusivity timeline, oncology-pipeline overlap, antitrust and whether integration can actually buy time."
+    },
+    {
+      "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
+      "date": "2026-08-04",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
+      "category": "商業分析",
+      "tags": [
+        "AstraZeneca",
+        "阿斯特捷利康",
+        "Bristol Myers Squibb",
+        "BMS",
+        "百時美施貴寶",
+        "生技併購",
+        "大藥廠",
+        "專利懸崖"
+      ],
+      "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。"
+    },
     {
       "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
       "date": "2026-08-03",
@@ -774,42 +810,6 @@
         "BD"
       ],
       "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
-    },
-    {
-      "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-      "date": "2026-07-20",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "MASH",
-        "Madrigal Pharmaceuticals",
-        "Rezdiffra",
-        "resmetirom",
-        "siRNA",
-        "Ribo Life Science",
-        "Ribocure"
-      ],
-      "summary": "Rezdiffra has opened the MASH market and built its commercialization infrastructure. Madrigal is now adding six Ribo siRNA programs and Arrowhead's ARO-PNPLA3 to create a cornerstone-plus-precision-combination treatment matrix."
-    },
-    {
-      "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
-      "date": "2026-07-20",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
-      "category": "商業分析",
-      "tags": [
-        "MASH",
-        "Madrigal Pharmaceuticals",
-        "Rezdiffra",
-        "resmetirom",
-        "siRNA",
-        "Ribo Life Science",
-        "Ribocure",
-        "Arrowhead Pharmaceuticals"
-      ],
-      "summary": "Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。"
     }
   ],
   "do_not_use_as": [
