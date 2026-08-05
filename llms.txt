@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-05｜More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?
+  URL: https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html
+  Topics: Alnylam, Amvuttra, RNA interference, ATTR amyloidosis, small nucleic acid drugs
+  Summary: Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives.
+- 2026-08-05｜一季賣破 10 億，Alnylam 為何崩 28%？
+  URL: https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html
+  Topics: Alnylam, Amvuttra, RNAi, ATTR, 小核酸藥物
+  Summary: Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。
 - 2026-08-04｜A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking
   URL: https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html
   Topics: AstraZeneca, Bristol Myers Squibb, BMS, pharma M&A, patent cliff
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html
   Topics: Pelacarsen, Lp(a), HORIZON, 心血管疾病, 臨床試驗
   Summary: Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。
-- 2026-07-28｜T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability
-  URL: https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html
-  Topics: T-cell exhaustion, immunotherapy, PD-1 blockade, CAR-T, T-cell engager
-  Summary: PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy.
-- 2026-07-28｜T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後
-  URL: https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html
-  Topics: T 細胞耗竭, 免疫治療, PD-1, CAR-T, TCE
-  Summary: PD-1、CAR-T 與 TCE 最後都仰賴可增殖、可補充且能持久的 T 細胞戰力。本文從耗竭分化、產品工程與臨床資料，拆解免疫治療下半場的真正競爭門檻。
 
 ## Key Site Sections
 

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-04T18:25:18.353Z",
+  "generated_at": "2026-08-05T04:48:02.261Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,53 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+      "date": "2026-08-05",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Alnylam",
+        "Amvuttra",
+        "RNA interference",
+        "ATTR amyloidosis",
+        "small nucleic acid drugs",
+        "biotech valuation",
+        "Taiwan biotech",
+        "clinical data",
+        "biotech business analysis"
+      ],
+      "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-05-alnylam-amvuttra-ttr-growth-reset.html"
+      }
+    },
+    {
+      "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
+      "date": "2026-08-05",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Alnylam",
+        "Amvuttra",
+        "RNAi",
+        "ATTR",
+        "小核酸藥物",
+        "生技股",
+        "合一",
+        "中天",
+        "智新生技",
+        "基米"
+      ],
+      "summary": "Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。",
+      "alternate_language_versions": {
+        "en": "2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html"
+      }
+    },
     {
       "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
       "date": "2026-08-04",
@@ -778,53 +825,6 @@
       "alternate_language_versions": {
         "en": "2026-07-19-nams-regulatory-shift-en.html"
       }
-    },
-    {
-      "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
-      "date": "2026-07-18",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "antibody-drug conjugates",
-        "autoimmune disease",
-        "LFD-200",
-        "Lifordi Immunotherapeutics",
-        "VISTA",
-        "glucocorticoid",
-        "immune modulation",
-        "rheumatoid arthritis",
-        "biotech investing"
-      ],
-      "summary": "The opportunity for autoimmune ADCs is not to transplant oncology cytotoxins into immune cells. It is to deliver powerful glucocorticoids, small molecules, ASOs or siRNAs selectively to the cells that drive disease. LFD-200 offers an early human proof-of-mechanism signal for that thesis.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-18-autoimmune-adc-lfd200.html"
-      }
-    },
-    {
-      "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
-      "date": "2026-07-18",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "ADC",
-        "自體免疫疾病",
-        "LFD-200",
-        "Lifordi Immunotherapeutics",
-        "VISTA",
-        "glucocorticoid",
-        "免疫調節",
-        "類風濕性關節炎",
-        "生技投資"
-      ],
-      "summary": "自體免疫 ADC 的價值不在把腫瘤細胞毒 payload 搬到免疫細胞，而在把 glucocorticoid、ASO、siRNA 等強效免疫調節作用定向送到真正需要干預的細胞；LFD-200 的早期人體訊號，是這條路第一次重要的機制驗證。",
-      "alternate_language_versions": {
-        "en": "2026-07-18-autoimmune-adc-lfd200-en.html"
-      }
     }
   ],
   "entities": [
@@ -907,9 +907,15 @@
     {
       "name": "Taiwan biotech",
       "type": "topic",
-      "mentions": 21,
-      "latest_date": "2026-07-28",
+      "mentions": 22,
+      "latest_date": "2026-08-05",
       "latest_articles": [
+        {
+          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+          "language": "en"
+        },
         {
           "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
           "date": "2026-07-28",
@@ -932,12 +938,6 @@
           "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
           "date": "2026-07-24",
           "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
           "language": "en"
         }
       ]
@@ -1097,9 +1097,15 @@
     {
       "name": "clinical data",
       "type": "market_topic",
-      "mentions": 14,
-      "latest_date": "2026-08-03",
+      "mentions": 15,
+      "latest_date": "2026-08-05",
       "latest_articles": [
+        {
+          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+          "language": "en"
+        },
         {
           "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
           "date": "2026-08-03",
@@ -1123,21 +1129,21 @@
           "date": "2026-07-12",
           "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
           "language": "en"
-        },
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
         }
       ]
     },
     {
       "name": "biotech valuation",
       "type": "market_topic",
-      "mentions": 13,
-      "latest_date": "2026-08-02",
+      "mentions": 14,
+      "latest_date": "2026-08-05",
       "latest_articles": [
+        {
+          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+          "language": "en"
+        },
         {
           "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
           "date": "2026-08-02",
@@ -1161,11 +1167,43 @@
           "date": "2026-07-25",
           "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "biotech business analysis",
+      "type": "topic",
+      "mentions": 13,
+      "latest_date": "2026-08-05",
+      "latest_articles": [
+        {
+          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+          "language": "en"
         },
         {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
+          "date": "2026-08-04",
+          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
           "language": "en"
         }
       ]
@@ -1209,47 +1247,9 @@
       ]
     },
     {
-      "name": "biotech business analysis",
-      "type": "topic",
-      "mentions": 12,
-      "latest_date": "2026-08-04",
-      "latest_articles": [
-        {
-          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Big Pharma",
       "type": "market_topic",
-      "mentions": 12,
+      "mentions": 11,
       "latest_date": "2026-07-27",
       "latest_articles": [
         {
@@ -1287,7 +1287,7 @@
     {
       "name": "Drug development",
       "type": "topic",
-      "mentions": 12,
+      "mentions": 11,
       "latest_date": "2026-06-12",
       "latest_articles": [
         {
@@ -1318,44 +1318,6 @@
           "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
           "date": "2026-06-09",
           "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Biotech business analysis",
-      "type": "topic",
-      "mentions": 11,
-      "latest_date": "2026-06-11",
-      "latest_articles": [
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
           "language": "en"
         }
       ]
@@ -1394,6 +1356,44 @@
           "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
           "date": "2026-07-09",
           "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Biotech business analysis",
+      "type": "topic",
+      "mentions": 10,
+      "latest_date": "2026-06-11",
+      "latest_articles": [
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
           "language": "en"
         }
       ]
@@ -1551,44 +1551,6 @@
       ]
     },
     {
-      "name": "Capital markets",
-      "type": "market_topic",
-      "mentions": 8,
-      "latest_date": "2026-06-29",
-      "latest_articles": [
-        {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "oncology",
       "type": "topic",
       "mentions": 7,
@@ -1737,6 +1699,44 @@
           "date": "2026-06-15",
           "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Capital markets",
+      "type": "market_topic",
+      "mentions": 7,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
+          "date": "2026-06-14",
+          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2072,38 +2072,6 @@
           "title": "沒有 AI 能力的藥廠，將不再被稱作藥廠",
           "date": "2026-06-07",
           "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "ASO",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
           "language": "zh-Hant"
         }
       ]
@@ -2589,38 +2557,6 @@
       ]
     },
     {
-      "name": "Clinical and CMC",
-      "type": "biotech_concept_or_target",
-      "mentions": 4,
-      "latest_date": "2026-06-08",
-      "latest_articles": [
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
-          "date": "2026-06-05",
-          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
-          "date": "2026-06-03",
-          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biogen's High-Risk Bet: Can Tau Find a Way Out of the Alzheimer's R&D Graveyard?",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "生技併購",
       "type": "topic",
       "mentions": 3,
@@ -2673,7 +2609,7 @@
       ]
     },
     {
-      "name": "BIIB080",
+      "name": "ASO",
       "type": "topic",
       "mentions": 3,
       "latest_date": "2026-08-03",
@@ -2691,35 +2627,9 @@
           "language": "zh-Hant"
         },
         {
-          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Biogen",
-      "type": "company",
-      "mentions": 3,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
           "language": "zh-Hant"
         }
       ]
@@ -2959,6 +2869,92 @@
       ]
     },
     {
+      "name": "Clinical and CMC",
+      "type": "biotech_concept_or_target",
+      "mentions": 3,
+      "latest_date": "2026-06-08",
+      "latest_articles": [
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
+          "date": "2026-06-05",
+          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
+          "date": "2026-06-03",
+          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "生技股",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-05",
+      "latest_articles": [
+        {
+          "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Alnylam",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-05",
+      "latest_articles": [
+        {
+          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+          "language": "en"
+        },
+        {
+          "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Amvuttra",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-05",
+      "latest_articles": [
+        {
+          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+          "language": "en"
+        },
+        {
+          "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "大藥廠",
       "type": "topic",
       "mentions": 2,
@@ -3119,6 +3115,46 @@
       ]
     },
     {
+      "name": "BIIB080",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Biogen",
+      "type": "company",
+      "mentions": 2,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "CDR-SB",
       "type": "topic",
       "mentions": 2,
@@ -3139,26 +3175,6 @@
       ]
     },
     {
-      "name": "diranersen",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "IONIS-MAPTRx",
       "type": "topic",
       "mentions": 2,
@@ -3174,26 +3190,6 @@
           "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
           "date": "2026-08-03",
           "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "tau",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biogen 孤注一擲：Alzheimer’s Disease 研發墳場裡，tau 靶點能不能走出新路？",
-          "date": "2026-06-02",
-          "url": "https://drugnews.com.tw/articles/2026-06-02-biogen-alzheimers-tau-biib080-strategy.html",
           "language": "zh-Hant"
         }
       ]
@@ -3277,29 +3273,47 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "SALT",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-02",
-      "latest_articles": [
-        {
-          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-          "language": "en"
-        },
-        {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+      "date": "2026-08-05",
+      "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Alnylam",
+        "Amvuttra",
+        "RNA interference",
+        "ATTR amyloidosis",
+        "small nucleic acid drugs",
+        "biotech valuation",
+        "Taiwan biotech",
+        "clinical data"
+      ],
+      "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives."
+    },
+    {
+      "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
+      "date": "2026-08-05",
+      "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Alnylam",
+        "Amvuttra",
+        "RNAi",
+        "ATTR",
+        "小核酸藥物",
+        "生技股",
+        "合一",
+        "中天"
+      ],
+      "summary": "Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。"
+    },
     {
       "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
       "date": "2026-08-04",
@@ -3827,44 +3841,6 @@
         "浩鼎"
       ],
       "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。"
-    },
-    {
-      "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-      "date": "2026-07-13",
-      "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Free Article",
-      "tags": [
-        "Business Analysis",
-        "AI drug discovery",
-        "Claude Science",
-        "Anthropic",
-        "foundation models",
-        "drug development",
-        "AnHorn Medicines",
-        "PROTAC"
-      ],
-      "summary": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets."
-    },
-    {
-      "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-      "date": "2026-07-13",
-      "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "AI 製藥",
-        "Claude Science",
-        "Anthropic",
-        "大型語言模型",
-        "新藥研發",
-        "安宏生醫",
-        "PROTAC",
-        "CMC"
-      ],
-      "summary": "Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。"
     }
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+  "date": "2026-08-05",
+  "publish_at": "2026-08-05T08:00:00+08:00",
+  "category": "商業分析系列",
+  "tags": [
+    "Alnylam",
+    "Amvuttra",
+    "RNA interference",
+    "ATTR amyloidosis",
+    "small nucleic acid drugs",
+    "biotech valuation",
+    "Taiwan biotech",
+    "clinical data",
+    "biotech business analysis"
+  ],
+  "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives.",
+  "slug": "alnylam-amvuttra-ttr-growth-reset-en",
+  "lang": "en",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/4160431884231901",
+  "source_status": "Complete professional English adaptation of the approved public Drugnews Facebook/Dcard longform; argument sequence, financial figures, portfolio analysis, Taiwan implications, caveats and references retained",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "Alnylam valuation reset after Amvuttra surpassed one billion dollars in quarterly sales",
+  "card_image": "images/cover.png",
+  "card_image_alt": "Alnylam and Amvuttra growth shift from launch demand to normalized demand",
+  "homepage_cover_image": "images/cover.png",
+  "homepage_cover_image_alt": "Amvuttra crossed one billion dollars in quarterly sales while Alnylam's growth expectations were reset",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "Amvuttra's commercial success did not disappear; investors reset the growth curve as pent-up launch demand began giving way to normalized patient flow.",
+    "Amvuttra represented approximately 86.3% of Alnylam's quarterly product net revenue, showing that the RNAi platform has not yet produced a sufficiently diversified commercial base.",
+    "The next valuation test is whether nucresiran can demonstrate incremental clinical benefit on top of modern background therapy and become a second commercial pillar before the timing gap widens."
+  ],
+  "translations": {
+    "zh-Hant": "2026-08-05-alnylam-amvuttra-ttr-growth-reset.html"
+  }
+}

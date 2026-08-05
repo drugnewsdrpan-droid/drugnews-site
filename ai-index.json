@@ -209,6 +209,63 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+      "date": "2026-08-05",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Alnylam",
+        "Amvuttra",
+        "RNA interference",
+        "ATTR amyloidosis",
+        "small nucleic acid drugs",
+        "biotech valuation",
+        "Taiwan biotech",
+        "clinical data",
+        "biotech business analysis"
+      ],
+      "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives.",
+      "image": "https://drugnews.com.tw/assets/articles/alnylam-amvuttra-ttr-growth-reset-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-05-alnylam-amvuttra-ttr-growth-reset.html"
+      }
+    },
+    {
+      "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
+      "date": "2026-08-05",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Alnylam",
+        "Amvuttra",
+        "RNAi",
+        "ATTR",
+        "小核酸藥物",
+        "生技股",
+        "合一",
+        "中天",
+        "智新生技",
+        "基米"
+      ],
+      "summary": "Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。",
+      "image": "https://drugnews.com.tw/assets/articles/alnylam-amvuttra-ttr-growth-reset/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html"
+      }
+    },
+    {
       "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
       "date": "2026-08-04",
       "language": "en",
@@ -1558,57 +1615,6 @@
       "alternate_language_versions": {
         "zh-Hant": "2026-07-09-japan-biotech-ecosystem-global-gap.html"
       }
-    },
-    {
-      "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-      "date": "2026-07-09",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "日本生技",
-        "Biotech ecosystem",
-        "startup ecosystem",
-        "創新藥",
-        "大藥廠",
-        "BD",
-        "臨床數據",
-        "CMC",
-        "資本市場",
-        "生技投資"
-      ],
-      "summary": "日本不是缺少科學，也不是缺少大藥廠，而是缺少把大學技術、人才、資本、臨床與 BD 串成全球級 Biotech 的連續生態。",
-      "image": "https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-09-japan-biotech-ecosystem-global-gap-en.html"
-      }
-    },
-    {
-      "title": "生技公司估值不是看新聞標題：6 個會改變模型的參數",
-      "date": "2026-07-09",
-      "language": "zh-Hant",
-      "url": "https://vocus.cc/article/6a42b340fd897800012cc406",
-      "canonical_url": "https://vocus.cc/article/6a42b340fd897800012cc406",
-      "source": "方格子",
-      "access": "商業分析",
-      "category": "深度商業分析",
-      "tags": [
-        "生技估值",
-        "rNPV",
-        "臨床成功率",
-        "上市時間",
-        "BD 授權"
-      ],
-      "summary": "新聞只告訴你發生了什麼；估值要問的是，事件究竟改變成功率、上市時間、患者池、峰值銷售、權利經濟，還是現金與稀釋風險。",
-      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a42b340fd897800012cc406-source.webp",
-      "is_accessible_for_free": false,
-      "is_external": true,
-      "alternate_language_versions": {}
     }
   ]
 }

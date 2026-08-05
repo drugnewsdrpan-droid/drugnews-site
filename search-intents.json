@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-04T18:25:18.351Z",
+  "generated_at": "2026-08-05T04:48:02.261Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+      "date": "2026-08-05",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Alnylam",
+        "Amvuttra",
+        "RNA interference",
+        "ATTR amyloidosis",
+        "small nucleic acid drugs",
+        "biotech valuation",
+        "Taiwan biotech",
+        "clinical data"
+      ],
+      "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives."
+    },
+    {
+      "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
+      "date": "2026-08-05",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
+      "category": "商業分析",
+      "tags": [
+        "Alnylam",
+        "Amvuttra",
+        "RNAi",
+        "ATTR",
+        "小核酸藥物",
+        "生技股",
+        "合一",
+        "中天"
+      ],
+      "summary": "Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。"
+    },
     {
       "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
       "date": "2026-08-04",
@@ -774,42 +810,6 @@
         "Varda"
       ],
       "summary": "SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。"
-    },
-    {
-      "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-      "date": "2026-07-24",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Biotech",
-        "Biopharma",
-        "argenx",
-        "Insmed",
-        "Incyte",
-        "Revolution Medicines",
-        "Royalty Pharma",
-        "business development"
-      ],
-      "summary": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs."
-    },
-    {
-      "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-      "date": "2026-07-24",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-      "category": "商業分析",
-      "tags": [
-        "Biotech",
-        "Biopharma",
-        "argenx",
-        "Insmed",
-        "Incyte",
-        "Revolution Medicines",
-        "Royalty Pharma",
-        "BD"
-      ],
-      "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
     }
   ],
   "do_not_use_as": [

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-04T18:25:18.203Z",
+  "generated_at": "2026-08-05T04:48:02.223Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -116,6 +116,160 @@
     "positioning_note": "Drugnews does not provide individual stock recommendations. The site is positioned as biotech business-analysis media: clinical evidence, valuation logic, BD/licensing terms, CMC risk, company strategy, investor education, and capital-market narrative."
   },
   "buckets": [
+    {
+      "name": "AI 製藥與新技術",
+      "count": 8,
+      "articles": [
+        {
+          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Alnylam",
+            "Amvuttra",
+            "RNA interference",
+            "ATTR amyloidosis",
+            "small nucleic acid drugs",
+            "biotech valuation",
+            "Taiwan biotech",
+            "clinical data"
+          ],
+          "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives."
+        },
+        {
+          "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Alnylam",
+            "Amvuttra",
+            "RNAi",
+            "ATTR",
+            "小核酸藥物",
+            "生技股",
+            "合一",
+            "中天"
+          ],
+          "summary": "Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。"
+        },
+        {
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "T-cell exhaustion",
+            "immunotherapy",
+            "PD-1 blockade",
+            "CAR-T",
+            "T-cell engager",
+            "bispecific antibody",
+            "TCF1",
+            "Taiwan biotech"
+          ],
+          "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy."
+        },
+        {
+          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
+          "date": "2026-07-26",
+          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "ICOTYDE",
+            "icotrokinra",
+            "Johnson & Johnson",
+            "J&J",
+            "plaque psoriasis",
+            "IL-23R",
+            "oral peptide",
+            "deucravacitinib"
+          ],
+          "summary": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis."
+        },
+        {
+          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "SpaceX",
+            "microgravity",
+            "space pharmaceuticals",
+            "drug crystallization",
+            "Keytruda",
+            "Redwire",
+            "SpaceMD",
+            "Varda"
+          ],
+          "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation."
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Biotech",
+            "Biopharma",
+            "argenx",
+            "Insmed",
+            "Incyte",
+            "Revolution Medicines",
+            "Royalty Pharma",
+            "business development"
+          ],
+          "summary": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs."
+        },
+        {
+          "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "NAMs",
+            "CDE",
+            "Regulatory Science",
+            "Organoids",
+            "Organ-on-a-Chip",
+            "AI Drug Discovery"
+          ],
+          "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable."
+        },
+        {
+          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "NAMs",
+            "CDE",
+            "監管科學",
+            "類器官",
+            "器官晶片",
+            "AI 製藥"
+          ],
+          "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。"
+        }
+      ]
+    },
     {
       "name": "腫瘤精準治療",
       "count": 8,
@@ -403,160 +557,6 @@
             "deucravacitinib"
           ],
           "summary": "ICOTYDE 上市首季超過 18,000 張處方，證明口服 IL-23R 胜肽有需求；真正決定估值的，仍是付費處方、續方、支付品質與多適應症兌現。"
-        }
-      ]
-    },
-    {
-      "name": "AI 製藥與新技術",
-      "count": 8,
-      "articles": [
-        {
-          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "T-cell exhaustion",
-            "immunotherapy",
-            "PD-1 blockade",
-            "CAR-T",
-            "T-cell engager",
-            "bispecific antibody",
-            "TCF1",
-            "Taiwan biotech"
-          ],
-          "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy."
-        },
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "ICOTYDE",
-            "icotrokinra",
-            "Johnson & Johnson",
-            "J&J",
-            "plaque psoriasis",
-            "IL-23R",
-            "oral peptide",
-            "deucravacitinib"
-          ],
-          "summary": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis."
-        },
-        {
-          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "SpaceX",
-            "microgravity",
-            "space pharmaceuticals",
-            "drug crystallization",
-            "Keytruda",
-            "Redwire",
-            "SpaceMD",
-            "Varda"
-          ],
-          "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation."
-        },
-        {
-          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Biotech",
-            "Biopharma",
-            "argenx",
-            "Insmed",
-            "Incyte",
-            "Revolution Medicines",
-            "Royalty Pharma",
-            "business development"
-          ],
-          "summary": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs."
-        },
-        {
-          "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "NAMs",
-            "CDE",
-            "Regulatory Science",
-            "Organoids",
-            "Organ-on-a-Chip",
-            "AI Drug Discovery"
-          ],
-          "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable."
-        },
-        {
-          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "NAMs",
-            "CDE",
-            "監管科學",
-            "類器官",
-            "器官晶片",
-            "AI 製藥"
-          ],
-          "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。"
-        },
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Free Article",
-          "tags": [
-            "Business Analysis",
-            "AI drug discovery",
-            "Claude Science",
-            "Anthropic",
-            "foundation models",
-            "drug development",
-            "AnHorn Medicines",
-            "PROTAC"
-          ],
-          "summary": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets."
-        },
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "AI 製藥",
-            "Claude Science",
-            "Anthropic",
-            "大型語言模型",
-            "新藥研發",
-            "安宏生醫",
-            "PROTAC",
-            "CMC"
-          ],
-          "summary": "Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。"
         }
       ]
     },

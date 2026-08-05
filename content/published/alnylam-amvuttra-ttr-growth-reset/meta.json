@@ -1,0 +1,42 @@
+{
+  "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
+  "date": "2026-08-05",
+  "publish_at": "2026-08-05T08:00:00+08:00",
+  "category": "商業分析系列",
+  "tags": [
+    "Alnylam",
+    "Amvuttra",
+    "RNAi",
+    "ATTR",
+    "小核酸藥物",
+    "生技股",
+    "合一",
+    "中天",
+    "智新生技",
+    "基米"
+  ],
+  "summary": "Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。",
+  "slug": "alnylam-amvuttra-ttr-growth-reset",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/4160431884231901",
+  "source_status": "Facebook public E4 readback PASS for the 2026-08-05 08:00 post; website body synchronized to the approved complete FB/Dcard longform",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "Amvuttra 單季銷售突破 10 億美元後，Alnylam 面臨 28% 股價重估",
+  "card_image": "images/cover.png",
+  "card_image_alt": "Alnylam 與 Amvuttra 的營收成長和估值換檔",
+  "homepage_cover_image": "images/cover.png",
+  "homepage_cover_image_alt": "Amvuttra 銷售突破 10 億美元，Alnylam 的成長預期卻被市場重新定價",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "Amvuttra 的商業成功沒有失效；市場重新估算的是上市初期積壓需求退潮後，常態新增病人能否延續原本的成長斜率。",
+    "Amvuttra 約占 Alnylam 單季產品收入 86.3%，顯示 RNAi 平台尚未轉化成足以分散風險的多產品收入結構。",
+    "下一個估值重點不是再喊一次平台故事，而是 nucresiran 能否在現代背景治療上證明額外臨床效益，並在時間差內成為第二支柱。"
+  ],
+  "translations": {
+    "en": "2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html"
+  }
+}
