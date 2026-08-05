@@ -2547,7 +2547,7 @@ function newsPublicationDate(item) {
 }
 
 function newsSitemap(records) {
-  const now = new Date();
+  const now = NOW;
   const cutoff = now.getTime() - (48 * 60 * 60 * 1000);
   const items = records
     .filter((item) => !item.external)
