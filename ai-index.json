@@ -209,6 +209,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+      "date": "2026-08-06",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+      "source": "Website",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "AnHorn Medicines",
+        "AH-001",
+        "Androgenetic Alopecia",
+        "Hair-Loss Drug",
+        "AR Degrader",
+        "PROTAC",
+        "Eli Lilly",
+        "Veradermics",
+        "Absci",
+        "Taiwan Biotech"
+      ],
+      "summary": "Lilly has placed a $40 million bet on next-generation hair-loss drugs. With roughly 80 million U.S. patients still constrained by two legacy therapies, AH-001's Phase 2 data could become the next global asset-revaluation trigger.",
+      "image": "https://drugnews.com.tw/assets/articles/anhorn-ah001-hair-loss-blockbuster-market-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html"
+      }
+    },
+    {
+      "title": "投資人請注意，下一個減肥藥級別賽道來了！",
+      "date": "2026-08-06",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
+      "source": "Website",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "安宏生醫",
+        "AH-001",
+        "雄性禿",
+        "掉髮新藥",
+        "AR 降解劑",
+        "PROTAC",
+        "禮來",
+        "Veradermics",
+        "Absci",
+        "台灣生技"
+      ],
+      "summary": "禮來用 4,000 萬美元卡位掉髮新藥；當美國約 8,000 萬名患者仍受限於兩款老藥，安宏 AH-001 的二期數據可能成為下一次全球資產重估關鍵。",
+      "image": "https://drugnews.com.tw/assets/articles/anhorn-ah001-hair-loss-blockbuster-market/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html"
+      }
+    },
+    {
       "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
       "date": "2026-08-05",
       "language": "en",
@@ -1563,57 +1621,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-07-10-fda-nasp-en.html"
-      }
-    },
-    {
-      "title": "【基本面系列】泰福-KY 合理估值是多少？TX05 CRL 後，41.65 元買到的是什麼？",
-      "date": "2026-07-10",
-      "language": "zh-Hant",
-      "url": "https://vocus.cc/article/6a4029aefd897800016e6e48",
-      "canonical_url": "https://vocus.cc/article/6a4029aefd897800016e6e48",
-      "source": "方格子",
-      "access": "深度分析",
-      "category": "基本面",
-      "tags": [
-        "泰福-KY",
-        "生物相似藥",
-        "CRL",
-        "CDMO",
-        "SOTP"
-      ],
-      "summary": "泰福-KY 不是單純 biosimilar 題材股。這篇把 TX01、TX05、Bora Biologics、San Diego 生物製劑 CDMO、現金水位與股本稀釋拆成 SOTP，判斷 38.55 元附近是否真的便宜。",
-      "image": "https://drugnews.com.tw/assets/articles/external-vocus/6a4029aefd897800016e6e48-source.webp",
-      "is_accessible_for_free": false,
-      "is_external": true,
-      "alternate_language_versions": {}
-    },
-    {
-      "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
-      "date": "2026-07-09",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Japan biotech",
-        "Taiwan biotech",
-        "startup ecosystem",
-        "drug development",
-        "clinical data",
-        "CMC",
-        "BD licensing"
-      ],
-      "summary": "Japan has strong science, major pharmaceutical companies, and a large drug market. The harder question is why that foundation has not produced more global-scale biotech startups. The answer is not scientific weakness, but an ecosystem gap across assets, talent, capital, clinical execution, and exits.",
-      "image": "https://drugnews.com.tw/assets/articles/japan-biotech-ecosystem-global-gap-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-09-japan-biotech-ecosystem-global-gap.html"
       }
     }
   ]

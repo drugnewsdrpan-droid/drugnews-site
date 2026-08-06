@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-05T04:48:02.261Z",
+  "generated_at": "2026-08-06T01:16:16.251Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,54 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+      "date": "2026-08-06",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "AnHorn Medicines",
+        "AH-001",
+        "Androgenetic Alopecia",
+        "Hair-Loss Drug",
+        "AR Degrader",
+        "PROTAC",
+        "Eli Lilly",
+        "Veradermics",
+        "Absci",
+        "Taiwan Biotech"
+      ],
+      "summary": "Lilly has placed a $40 million bet on next-generation hair-loss drugs. With roughly 80 million U.S. patients still constrained by two legacy therapies, AH-001's Phase 2 data could become the next global asset-revaluation trigger.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html"
+      }
+    },
+    {
+      "title": "投資人請注意，下一個減肥藥級別賽道來了！",
+      "date": "2026-08-06",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "安宏生醫",
+        "AH-001",
+        "雄性禿",
+        "掉髮新藥",
+        "AR 降解劑",
+        "PROTAC",
+        "禮來",
+        "Veradermics",
+        "Absci",
+        "台灣生技"
+      ],
+      "summary": "禮來用 4,000 萬美元卡位掉髮新藥；當美國約 8,000 萬名患者仍受限於兩款老藥，安宏 AH-001 的二期數據可能成為下一次全球資產重估關鍵。",
+      "alternate_language_versions": {
+        "en": "2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html"
+      }
+    },
     {
       "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
       "date": "2026-08-05",
@@ -785,46 +833,6 @@
       "alternate_language_versions": {
         "en": "2026-07-20-madrigal-mash-sirna-platform-en.html"
       }
-    },
-    {
-      "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
-      "date": "2026-07-19",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "NAMs",
-        "CDE",
-        "Regulatory Science",
-        "Organoids",
-        "Organ-on-a-Chip",
-        "AI Drug Discovery"
-      ],
-      "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-19-nams-regulatory-shift.html"
-      }
-    },
-    {
-      "title": "動物實驗不是消失，而是藥物研發規則開始換代",
-      "date": "2026-07-19",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "NAMs",
-        "CDE",
-        "監管科學",
-        "類器官",
-        "器官晶片",
-        "AI 製藥"
-      ],
-      "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。",
-      "alternate_language_versions": {
-        "en": "2026-07-19-nams-regulatory-shift-en.html"
-      }
     }
   ],
   "entities": [
@@ -1285,44 +1293,6 @@
       ]
     },
     {
-      "name": "Drug development",
-      "type": "topic",
-      "mentions": 11,
-      "latest_date": "2026-06-12",
-      "latest_articles": [
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "BD licensing",
       "type": "market_topic",
       "mentions": 10,
@@ -1361,11 +1331,17 @@
       ]
     },
     {
-      "name": "Biotech business analysis",
+      "name": "Drug development",
       "type": "topic",
       "mentions": 10,
-      "latest_date": "2026-06-11",
+      "latest_date": "2026-06-12",
       "latest_articles": [
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
         {
           "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
           "date": "2026-06-11",
@@ -1389,12 +1365,44 @@
           "date": "2026-06-09",
           "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "台灣生技",
+      "type": "topic",
+      "mentions": 9,
+      "latest_date": "2026-08-06",
+      "latest_articles": [
+        {
+          "title": "投資人請注意，下一個減肥藥級別賽道來了！",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
+          "language": "zh-Hant"
         },
         {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
-          "language": "en"
+          "title": "安邦生技：免疫治療的「星鏈計畫」",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1513,40 +1521,40 @@
       ]
     },
     {
-      "name": "台灣生技",
+      "name": "Biotech business analysis",
       "type": "topic",
-      "mentions": 8,
-      "latest_date": "2026-07-31",
+      "mentions": 9,
+      "latest_date": "2026-06-11",
       "latest_articles": [
         {
-          "title": "安邦生技：免疫治療的「星鏈計畫」",
-          "date": "2026-07-31",
-          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
-          "language": "zh-Hant"
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
         },
         {
-          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
-          "language": "zh-Hant"
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "language": "en"
         },
         {
-          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
-          "language": "zh-Hant"
+          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
+          "language": "en"
         },
         {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
         },
         {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1855,6 +1863,44 @@
       ]
     },
     {
+      "name": "Eli Lilly",
+      "type": "company",
+      "mentions": 5,
+      "latest_date": "2026-08-06",
+      "latest_articles": [
+        {
+          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Retatrutide 殺進減重手術級別：禮來三重受體藥物，把肥胖治療推向新戰場",
+          "date": "2026-06-04",
+          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Merck",
       "type": "company",
       "mentions": 5,
@@ -2041,6 +2087,38 @@
           "date": "2026-06-04",
           "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "PROTAC",
+      "type": "biotech_concept_or_target",
+      "mentions": 4,
+      "latest_date": "2026-08-06",
+      "latest_articles": [
+        {
+          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+          "language": "en"
+        },
+        {
+          "title": "投資人請注意，下一個減肥藥級別賽道來了！",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2493,38 +2571,6 @@
       ]
     },
     {
-      "name": "Eli Lilly",
-      "type": "company",
-      "mentions": 4,
-      "latest_date": "2026-06-26",
-      "latest_articles": [
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Retatrutide 殺進減重手術級別：禮來三重受體藥物，把肥胖治療推向新戰場",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Business development",
       "type": "topic",
       "mentions": 4,
@@ -2552,6 +2598,32 @@
           "title": "Old Targets Are Crowded, but They Can Still Make Money",
           "date": "2026-06-06",
           "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "AnHorn Medicines",
+      "type": "company",
+      "mentions": 3,
+      "latest_date": "2026-08-06",
+      "latest_articles": [
+        {
+          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Next Phase of AI Drug Development: Making Molecules Survive as Drugs",
+          "date": "2026-06-13",
+          "url": "https://drugnews.com.tw/articles/2026-06-13-anhorn-ai-drug-development-en.html",
           "language": "en"
         }
       ]
@@ -2869,28 +2941,102 @@
       ]
     },
     {
-      "name": "Clinical and CMC",
-      "type": "biotech_concept_or_target",
-      "mentions": 3,
-      "latest_date": "2026-06-08",
+      "name": "安宏生醫",
+      "type": "company",
+      "mentions": 2,
+      "latest_date": "2026-08-06",
       "latest_articles": [
         {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "title": "投資人請注意，下一個減肥藥級別賽道來了！",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Absci",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-06",
+      "latest_articles": [
+        {
+          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
           "language": "en"
         },
         {
-          "title": "Starting With Ruxolitinib Cream: Why Not Every JAK Molecule Can Become a Topical Drug",
-          "date": "2026-06-05",
-          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery-en.html",
+          "title": "投資人請注意，下一個減肥藥級別賽道來了！",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "AH-001",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-06",
+      "latest_articles": [
+        {
+          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
           "language": "en"
         },
         {
-          "title": "A Genetic Disease With No New Treatment for 40 Years Finally Enters a New Drug Era",
-          "date": "2026-06-03",
-          "url": "https://drugnews.com.tw/articles/2026-06-03-aatd-new-therapy-rna-gene-editing-en.html",
+          "title": "投資人請注意，下一個減肥藥級別賽道來了！",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Taiwan Biotech",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-06",
+      "latest_articles": [
+        {
+          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
           "language": "en"
+        },
+        {
+          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Veradermics",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-06",
+      "latest_articles": [
+        {
+          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+          "language": "en"
+        },
+        {
+          "title": "投資人請注意，下一個減肥藥級別賽道來了！",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -3153,129 +3299,28 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "CDR-SB",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "IONIS-MAPTRx",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "IL-7Rα",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-02",
-      "latest_articles": [
-        {
-          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-          "language": "en"
-        },
-        {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "JAK 抑制劑",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-08-02",
-      "latest_articles": [
-        {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "從 Ruxolitinib cream 說起：外用 JAK 抑制劑，為什麼不是每個分子都能做？",
-          "date": "2026-06-05",
-          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Q32 Bio",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-02",
-      "latest_articles": [
-        {
-          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-          "language": "en"
-        },
-        {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "QTTB",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-02",
-      "latest_articles": [
-        {
-          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-          "language": "en"
-        },
-        {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+      "date": "2026-08-06",
+      "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "AnHorn Medicines",
+        "AH-001",
+        "Androgenetic Alopecia",
+        "Hair-Loss Drug",
+        "AR Degrader",
+        "PROTAC",
+        "Eli Lilly",
+        "Veradermics"
+      ],
+      "summary": "Lilly has placed a $40 million bet on next-generation hair-loss drugs. With roughly 80 million U.S. patients still constrained by two legacy therapies, AH-001's Phase 2 data could become the next global asset-revaluation trigger."
+    },
     {
       "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
       "date": "2026-08-05",
@@ -3822,25 +3867,6 @@
         "oncology"
       ],
       "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value."
-    },
-    {
-      "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
-      "date": "2026-07-14",
-      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "ADC",
-        "Novartis",
-        "Myricx Bio",
-        "NMTi",
-        "payload",
-        "BD 授權",
-        "腫瘤",
-        "浩鼎"
-      ],
-      "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。"
     }
   ]
 }

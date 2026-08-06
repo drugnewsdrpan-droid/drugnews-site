@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-06T00:00:00.000Z</news:publication_date>
+      <news:title>Investors, Take Note: Hair Loss Could Be Biotech&apos;s Next Weight-Loss-Drug-Sized Blockbuster</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-06T00:00:00.000Z</news:publication_date>
+      <news:title>投資人請注意，下一個減肥藥級別賽道來了！</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html</loc>
     <news:news>
       <news:publication>
@@ -20,28 +42,6 @@
       </news:publication>
       <news:publication_date>2026-08-05T00:00:00.000Z</news:publication_date>
       <news:title>一季賣破 10 億，Alnylam 為何崩 28%？</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T00:00:00.000Z</news:publication_date>
-      <news:title>A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T00:00:00.000Z</news:publication_date>
-      <news:title>超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！</news:title>
     </news:news>
   </url>
 </urlset>

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-05T04:48:02.223Z",
+  "generated_at": "2026-08-06T01:16:15.993Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -118,8 +118,27 @@
   "buckets": [
     {
       "name": "AI 製藥與新技術",
-      "count": 8,
+      "count": 9,
       "articles": [
+        {
+          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "AnHorn Medicines",
+            "AH-001",
+            "Androgenetic Alopecia",
+            "Hair-Loss Drug",
+            "AR Degrader",
+            "PROTAC",
+            "Eli Lilly",
+            "Veradermics"
+          ],
+          "summary": "Lilly has placed a $40 million bet on next-generation hair-loss drugs. With roughly 80 million U.S. patients still constrained by two legacy therapies, AH-001's Phase 2 data could become the next global asset-revaluation trigger."
+        },
         {
           "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
           "date": "2026-08-05",
@@ -272,7 +291,7 @@
     },
     {
       "name": "腫瘤精準治療",
-      "count": 8,
+      "count": 7,
       "articles": [
         {
           "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
@@ -406,25 +425,6 @@
             "oncology"
           ],
           "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value."
-        },
-        {
-          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "ADC",
-            "Novartis",
-            "Myricx Bio",
-            "NMTi",
-            "payload",
-            "BD 授權",
-            "腫瘤",
-            "浩鼎"
-          ],
-          "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。"
         }
       ]
     },

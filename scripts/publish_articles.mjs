@@ -1559,6 +1559,7 @@ ${headerHtml("articles", meta)}
 </main>
 ${footerHtml(meta)}
 ${copyLinkScript(meta)}
+<script src="../site-nav.js?v=20260712-1"></script>
 ${meta.inline_image_viewer === true ? '<script src="../article-image-viewer.js" defer></script>' : ""}
 </body>
 </html>

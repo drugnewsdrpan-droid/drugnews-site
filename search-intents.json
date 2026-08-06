@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-05T04:48:02.261Z",
+  "generated_at": "2026-08-06T01:16:16.248Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+      "date": "2026-08-06",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+      "category": "商業分析",
+      "tags": [
+        "AnHorn Medicines",
+        "AH-001",
+        "Androgenetic Alopecia",
+        "Hair-Loss Drug",
+        "AR Degrader",
+        "PROTAC",
+        "Eli Lilly",
+        "Veradermics"
+      ],
+      "summary": "Lilly has placed a $40 million bet on next-generation hair-loss drugs. With roughly 80 million U.S. patients still constrained by two legacy therapies, AH-001's Phase 2 data could become the next global asset-revaluation trigger."
+    },
+    {
+      "title": "投資人請注意，下一個減肥藥級別賽道來了！",
+      "date": "2026-08-06",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
+      "category": "商業分析",
+      "tags": [
+        "安宏生醫",
+        "AH-001",
+        "雄性禿",
+        "掉髮新藥",
+        "AR 降解劑",
+        "PROTAC",
+        "禮來",
+        "Veradermics"
+      ],
+      "summary": "禮來用 4,000 萬美元卡位掉髮新藥；當美國約 8,000 萬名患者仍受限於兩款老藥，安宏 AH-001 的二期數據可能成為下一次全球資產重估關鍵。"
+    },
     {
       "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
       "date": "2026-08-05",
@@ -774,42 +810,6 @@
         "petrelintide"
       ],
       "summary": "羅氏 2025 年製藥銷售 476.69 億瑞士法郎，Ocrevus、Hemlibra 與 Vabysmo 已撐起約三分之一收入。真正值得追的不是 19 個新分子的總數，而是 giredestrant、fenebrutinib、減重、阿茲海默症與蛋白質降解資產能否沿既有臨床、診斷與商業通路準時接棒。"
-    },
-    {
-      "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
-      "date": "2026-07-24",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
-      "category": "商業分析",
-      "tags": [
-        "SpaceX",
-        "microgravity",
-        "space pharmaceuticals",
-        "drug crystallization",
-        "Keytruda",
-        "Redwire",
-        "SpaceMD",
-        "Varda"
-      ],
-      "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation."
-    },
-    {
-      "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
-      "date": "2026-07-24",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
-      "category": "商業分析",
-      "tags": [
-        "SpaceX",
-        "微重力",
-        "太空製藥",
-        "藥物結晶",
-        "Keytruda",
-        "Redwire",
-        "SpaceMD",
-        "Varda"
-      ],
-      "summary": "SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。"
     }
   ],
   "do_not_use_as": [
