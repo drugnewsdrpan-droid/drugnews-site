@@ -1,0 +1,43 @@
+{
+  "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+  "date": "2026-08-07",
+  "publish_at": "2026-08-07T08:00:00+08:00",
+  "category": "商業分析系列",
+  "tags": [
+    "argenx",
+    "Forte Biosciences",
+    "FB102",
+    "VYVGART",
+    "CD122",
+    "autoimmune disease",
+    "vitiligo",
+    "celiac disease",
+    "biotech M&A",
+    "Taiwan biotech"
+  ],
+  "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat.",
+  "slug": "argenx-forte-fb102-acquisition-en",
+  "lang": "en",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/3105493142973585",
+  "source_status": "Complete professional English adaptation of the approved Drugnews Chinese longform; transaction terms, clinical denominators, mechanism boundaries, Taiwan implications, references and disclaimers retained",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "argenx weighs a 2.2 billion dollar acquisition of Forte and the early anti-CD122 antibody FB102",
+  "card_image": "images/cover.png",
+  "card_image_alt": "FB102 tests whether argenx can repeat the development playbook behind VYVGART",
+  "homepage_cover_image": "images/cover.png",
+  "homepage_cover_image_alt": "argenx moves from VYVGART commercial scale to an early-stage FB102 platform test",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "argenx has proved that it can scale VYVGART globally; acquiring FB102 tests whether its mechanism selection, indication sequencing and commercialization playbook can be repeated.",
+    "FB102's celiac disease and vitiligo Phase 1b signals support further investment but do not establish a second pipeline-in-a-product.",
+    "The $2.2 billion price will be justified by Phase 2 replication, a durable CD122 safety window and disciplined indication sequencing—not by the completeness of the acquisition narrative."
+  ],
+  "translations": {
+    "zh-Hant": "2026-08-07-argenx-forte-fb102-acquisition.html"
+  }
+}

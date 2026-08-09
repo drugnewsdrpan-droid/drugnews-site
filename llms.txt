@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-07｜22 億美元，買下一個自體免疫藥王？
+  URL: https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html
+  Topics: argenx, Forte Biosciences, FB102, VYVGART, CD122, 自體免疫
+  Summary: argenx 擬以 22 億美元現金收購 Forte；真正考題是 VYVGART 的成功能否複製成平台能力。
+- 2026-08-07｜$2.2 Billion for the Next Autoimmune Blockbuster?
+  URL: https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html
+  Topics: argenx, Forte Biosciences, FB102, VYVGART, CD122, autoimmune disease
+  Summary: argenx plans to pay $2.2 billion for Forte; the test is whether VYVGART's success reflects a repeatable engine.
 - 2026-08-06｜Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster
   URL: https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html
   Topics: AnHorn Medicines, AH-001, Androgenetic Alopecia, Hair-Loss Drug, AR Degrader

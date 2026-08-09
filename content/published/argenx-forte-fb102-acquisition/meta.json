@@ -1,0 +1,43 @@
+{
+  "title": "22 億美元，買下一個自體免疫藥王？",
+  "date": "2026-08-07",
+  "publish_at": "2026-08-07T08:00:00+08:00",
+  "category": "商業分析系列",
+  "tags": [
+    "argenx",
+    "Forte Biosciences",
+    "FB102",
+    "VYVGART",
+    "CD122",
+    "自體免疫",
+    "白斑",
+    "乳糜瀉",
+    "健喬",
+    "安立璽榮",
+    "安成生技"
+  ],
+  "summary": "argenx 擬以 22 億美元現金收購 Forte，把早期抗 CD122 抗體 FB102 納入管線。真正的考題不是一組一期 p 值，而是 VYVGART 的單品成功能否被複製成可重複的公司能力。",
+  "slug": "argenx-forte-fb102-acquisition",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/3105493142973585",
+  "source_status": "Website body synchronized to the approved complete FB/Dcard longform and the four-image set used for the 2026-08-07 public post; local content QA and FB/CMoney media differential QA passed before website publication",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "argenx 以 22 億美元收購 Forte 與 FB102 的早期臨床押注",
+  "card_image": "images/cover.png",
+  "card_image_alt": "22 億美元收購 FB102，考驗 argenx 能否複製 VYVGART 的成功",
+  "homepage_cover_image": "images/cover.png",
+  "homepage_cover_image_alt": "argenx 從 VYVGART 的單品成功走向 FB102 平台能力考試",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "argenx 已證明能把 VYVGART 做成全球大藥；收購 FB102 要驗證的是這套選機制、排適應症與商業化能力能否再複製一次。",
+    "FB102 在乳糜瀉與白斑的兩組 Phase 1b 訊號足以支持進一步投資，但還不能等同於第二個 pipeline-in-a-product 已成立。",
+    "22 億美元的合理性將取決於 Phase 2 重現、CD122 長期安全窗與適應症排序，而不是交易公告當下的故事完整度。"
+  ],
+  "translations": {
+    "en": "2026-08-07-argenx-forte-fb102-acquisition-en.html"
+  }
+}

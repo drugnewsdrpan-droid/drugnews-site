@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#eaf3f7"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#183b70"/><stop offset="1" stop-color="#276b8c"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#12304a" flood-opacity=".14"/></filter>
+  </defs>
+  <rect width="1672" height="941" fill="url(#bg)"/>
+  <circle cx="1490" cy="130" r="240" fill="#68c8c0" opacity=".12"/><circle cx="180" cy="850" r="280" fill="#3375b6" opacity=".08"/>
+  <text x="112" y="118" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#297e83" letter-spacing="4">DRUGNEWS | DEAL ANALYSIS</text>
+  <text x="112" y="222" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="800" fill="#102f50">$2.2 Billion for the Next</text>
+  <text x="112" y="306" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="800" fill="#102f50">Autoimmune Blockbuster?</text>
+  <rect x="112" y="382" width="1448" height="380" rx="38" fill="#fff" filter="url(#shadow)"/>
+  <rect x="158" y="432" width="352" height="278" rx="28" fill="url(#blue)"/>
+  <text x="334" y="520" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" fill="#fff">argenx</text>
+  <text x="334" y="584" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#d9edf7">VYVGART cash engine</text>
+  <text x="334" y="640" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#d9edf7">$5.2B liquidity</text>
+  <path d="M548 571 H780" stroke="#2f8392" stroke-width="10" stroke-linecap="round"/><path d="M754 542 L792 571 L754 600" fill="none" stroke="#2f8392" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="670" y="526" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800" fill="#174d69">$2.2B</text>
+  <text x="670" y="632" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#5d7180">cash offer</text>
+  <rect x="822" y="432" width="690" height="278" rx="28" fill="#eaf6f5" stroke="#68bcb7" stroke-width="3"/>
+  <text x="870" y="512" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="800" fill="#144258">Forte | FB102</text>
+  <text x="870" y="574" font-family="Arial,Helvetica,sans-serif" font-size="29" fill="#355e6a">Anti-CD122 antibody</text>
+  <text x="870" y="628" font-family="Arial,Helvetica,sans-serif" font-size="29" fill="#355e6a">Two Phase 1b signals</text>
+  <rect x="1248" y="474" width="218" height="76" rx="38" fill="#fff3d6"/><text x="1357" y="523" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#8a5b13">PENDING CLOSE</text>
+  <text x="112" y="844" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#173d5b">A strategic option—not proof of a second VYVGART.</text>
+  <text x="1560" y="886" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#6c7f8d">drugnews.com.tw</text>
+</svg>

@@ -129,6 +129,28 @@
   },
   "latest_articles": [
     {
+      "title": "22 億美元，買下一個自體免疫藥王？",
+      "date": "2026-08-07",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": ["argenx", "Forte Biosciences", "FB102", "VYVGART", "CD122", "自體免疫", "白斑", "乳糜瀉"],
+      "summary": "argenx 擬以 22 億美元現金收購 Forte，把早期抗 CD122 抗體 FB102 納入管線；真正考題是 VYVGART 的成功能否複製。",
+      "alternate_language_versions": {"en": "2026-08-07-argenx-forte-fb102-acquisition-en.html"}
+    },
+    {
+      "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+      "date": "2026-08-07",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": ["argenx", "Forte Biosciences", "FB102", "VYVGART", "CD122", "autoimmune disease", "vitiligo", "celiac disease"],
+      "summary": "argenx plans to pay $2.2 billion for Forte and early anti-CD122 antibody FB102; the test is whether VYVGART's success reflects a repeatable engine.",
+      "alternate_language_versions": {"zh-Hant": "2026-08-07-argenx-forte-fb102-acquisition.html"}
+    },
+    {
       "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
       "date": "2026-08-06",
       "language": "en",
