@@ -1,0 +1,44 @@
+{
+  "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+  "date": "2026-08-10",
+  "publish_at": "2026-08-10T08:00:00+08:00",
+  "category": "商業分析系列",
+  "series": "商業分析系列",
+  "tags": [
+    "biopharma M&A",
+    "pharma acquisitions",
+    "patent cliff",
+    "Eli Lilly",
+    "Merck",
+    "AbbVie",
+    "Gilead",
+    "GSK",
+    "IQVIA",
+    "biotech"
+  ],
+  "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff.",
+  "slug": "biopharma-ma-buying-time-2026h1-en",
+  "lang": "en",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/permalink.php?story_fbid=1519900413219836&id=61568446257142",
+  "source_status": "Published publicly on Facebook; complete professional English adaptation preserves the approved argument order, company examples, figures, transaction statuses, caveats, references and disclaimer",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "Biopharma transactions connect research assets with clinical and commercialization time",
+  "card_image": "images/cover-1400.webp",
+  "card_image_alt": "Big Pharma uses acquisitions to buy clinical and commercialization time",
+  "homepage_cover_image": "images/cover.png",
+  "homepage_cover_image_alt": "A biopharma transaction links research assets with the time needed to reach commercialization",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "BioSpace's 52 deals and IQVIA's 42 deals use different thresholds and definitions, so deal counts, aggregate values and payment measures should not be combined directly.",
+    "Buyers in this cycle favor assets with visible clinical profiles, approaching readouts or potential launches; economically, they are buying measurable time before the patent cliff.",
+    "More M&A does not mean financing has recovered for every biotech, and a completed corporate acquisition does not guarantee product approval or revenue; risk has been redistributed into CVRs, milestones and closing conditions."
+  ],
+  "translations": {
+    "zh-Hant": "2026-08-10-biopharma-ma-buying-time-2026h1.html"
+  }
+}

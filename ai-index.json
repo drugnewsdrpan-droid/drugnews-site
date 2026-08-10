@@ -209,6 +209,172 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+      "date": "2026-08-10",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "生技併購",
+        "藥廠併購",
+        "專利懸崖",
+        "Eli Lilly",
+        "Merck",
+        "AbbVie",
+        "Gilead",
+        "GSK",
+        "IQVIA",
+        "Biotech"
+      ],
+      "summary": "2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。",
+      "image": "https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-10-biopharma-ma-buying-time-2026h1-en.html"
+      }
+    },
+    {
+      "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+      "date": "2026-08-10",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "biopharma M&A",
+        "pharma acquisitions",
+        "patent cliff",
+        "Eli Lilly",
+        "Merck",
+        "AbbVie",
+        "Gilead",
+        "GSK",
+        "IQVIA",
+        "biotech"
+      ],
+      "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff.",
+      "image": "https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-10-biopharma-ma-buying-time-2026h1.html"
+      }
+    },
+    {
+      "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
+      "date": "2026-08-09",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "ICOTYDE",
+        "icotrokinra",
+        "Johnson & Johnson",
+        "Psoriasis",
+        "IL-23R",
+        "Oral Peptide",
+        "Drug Commercialization"
+      ],
+      "summary": "ICOTYDE logged more than 18,000 prescriptions in its first full quarter. The oral IL-23R peptide has earned entry into the high-efficacy psoriasis market, but durable value still depends on paid fills, persistence, payer quality, safety, and additional indications.",
+      "image": "https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-09-icotyde-oral-il23r-launch.html"
+      }
+    },
+    {
+      "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
+      "date": "2026-08-09",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "ICOTYDE",
+        "icotrokinra",
+        "Johnson & Johnson",
+        "乾癬",
+        "IL-23R",
+        "口服胜肽",
+        "新藥商業化"
+      ],
+      "summary": "ICOTYDE 上市後第一個完整季度累積逾 18,000 張處方。口服 IL-23R 胜肽已取得進入高療效市場的資格，真正的商業答案仍取決於續方、支付品質、長期留存與多適應症。",
+      "image": "https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-09-icotyde-oral-il23r-launch-en.html"
+      }
+    },
+    {
+      "title": "Why These Four Biotechs Can Afford Not to Sell",
+      "date": "2026-08-08",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Biotech",
+        "Biopharma",
+        "argenx",
+        "Insmed",
+        "Revolution Medicines",
+        "Incyte",
+        "Royalty Pharma",
+        "Drug Development",
+        "Biotech Investing"
+      ],
+      "summary": "argenx, Insmed, Incyte, and Revolution Medicines show why biotech independence depends on product evidence, cash generation, a second growth curve, global execution, and financing without surrendering control.",
+      "image": "https://drugnews.com.tw/assets/articles/biotech-independence-not-selling-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-08-biotech-independence-not-selling.html"
+      }
+    },
+    {
+      "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+      "date": "2026-08-08",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Biotech",
+        "Biopharma",
+        "argenx",
+        "Insmed",
+        "Revolution Medicines",
+        "Incyte",
+        "Royalty Pharma",
+        "新藥開發",
+        "生技投資"
+      ],
+      "summary": "argenx、Insmed、Incyte 與 Revolution Medicines 選擇保留獨立經營權。真正的不賣資格，來自產品證據、現金引擎、第二曲線、全球執行與不交出控制權也能取得資金的能力。",
+      "image": "https://drugnews.com.tw/assets/articles/biotech-independence-not-selling/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-08-biotech-independence-not-selling-en.html"
+      }
+    },
+    {
       "title": "22 億美元，買下一個自體免疫藥王？",
       "date": "2026-08-07",
       "language": "zh-Hant",
@@ -217,12 +383,25 @@
       "source": "Facebook",
       "access": "商業分析文",
       "category": "商業分析",
-      "tags": ["argenx", "Forte Biosciences", "FB102", "VYVGART", "CD122", "自體免疫", "白斑", "乳糜瀉"],
-      "summary": "argenx 擬以 22 億美元現金收購 Forte，把早期抗 CD122 抗體 FB102 納入管線；真正考題是 VYVGART 的成功能否複製。",
+      "tags": [
+        "argenx",
+        "Forte Biosciences",
+        "FB102",
+        "VYVGART",
+        "CD122",
+        "自體免疫",
+        "白斑",
+        "乳糜瀉",
+        "健喬",
+        "安立璽榮"
+      ],
+      "summary": "argenx 擬以 22 億美元現金收購 Forte，把早期抗 CD122 抗體 FB102 納入管線。真正的考題不是一組一期 p 值，而是 VYVGART 的單品成功能否被複製成可重複的公司能力。",
       "image": "https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/cover.png",
       "is_accessible_for_free": true,
       "is_external": false,
-      "alternate_language_versions": {"en": "2026-08-07-argenx-forte-fb102-acquisition-en.html"}
+      "alternate_language_versions": {
+        "en": "2026-08-07-argenx-forte-fb102-acquisition-en.html"
+      }
     },
     {
       "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
@@ -233,12 +412,25 @@
       "source": "Facebook",
       "access": "Business Analysis",
       "category": "商業分析",
-      "tags": ["argenx", "Forte Biosciences", "FB102", "VYVGART", "CD122", "autoimmune disease", "vitiligo", "celiac disease"],
-      "summary": "argenx plans to pay $2.2 billion for Forte and early anti-CD122 antibody FB102; the test is whether VYVGART's success reflects a repeatable engine.",
+      "tags": [
+        "argenx",
+        "Forte Biosciences",
+        "FB102",
+        "VYVGART",
+        "CD122",
+        "autoimmune disease",
+        "vitiligo",
+        "celiac disease",
+        "biotech M&A",
+        "Taiwan biotech"
+      ],
+      "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat.",
       "image": "https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition-en/cover.png",
       "is_accessible_for_free": true,
       "is_external": false,
-      "alternate_language_versions": {"zh-Hant": "2026-08-07-argenx-forte-fb102-acquisition.html"}
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-07-argenx-forte-fb102-acquisition.html"
+      }
     },
     {
       "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
@@ -804,64 +996,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-07-27-h1-2026-biopharma-ma-buying-time.html"
-      }
-    },
-    {
-      "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-      "date": "2026-07-26",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "J&J",
-        "plaque psoriasis",
-        "IL-23R",
-        "oral peptide",
-        "deucravacitinib",
-        "PASI 90",
-        "IGA 0/1"
-      ],
-      "summary": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis.",
-      "image": "https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/cover-en.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-26-icotyde-oral-il23r-launch.html"
-      }
-    },
-    {
-      "title": "一顆藥，搶針劑的飯碗",
-      "date": "2026-07-26",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "J&J",
-        "乾癬",
-        "IL-23R",
-        "口服胜肽",
-        "deucravacitinib",
-        "PASI 90",
-        "IGA 0/1"
-      ],
-      "summary": "ICOTYDE 上市首季超過 18,000 張處方，證明口服 IL-23R 胜肽有需求；真正決定估值的，仍是付費處方、續方、支付品質與多適應症兌現。",
-      "image": "https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/cover-zh.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-26-icotyde-oral-il23r-launch-en.html"
       }
     },
     {
@@ -1489,170 +1623,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html"
-      }
-    },
-    {
-      "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-      "date": "2026-07-12",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "KRAS G12C",
-        "divarasib",
-        "Roche",
-        "oncology",
-        "clinical data",
-        "PFS",
-        "OS",
-        "biotech business analysis",
-        "Taiwan biotech"
-      ],
-      "summary": "Roche's divarasib beat first-generation KRAS G12C inhibitors in a head-to-head Phase III study, moving the RAS field from proving druggability to replacing earlier products with harder clinical evidence.",
-      "image": "https://drugnews.com.tw/assets/articles/roche-divarasib-kras-generation-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-12-roche-divarasib-kras-generation.html"
-      }
-    },
-    {
-      "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-      "date": "2026-07-12",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "KRAS G12C",
-        "divarasib",
-        "Roche",
-        "腫瘤新藥",
-        "臨床數據",
-        "PFS",
-        "OS",
-        "生技投資"
-      ],
-      "summary": "Roche 的 divarasib 在頭對頭三期試驗中擊敗第一代 KRAS G12C 抑制劑，代表 RAS 賽道已從證明可成藥，進入用臨床硬終點淘汰上一代產品的競爭。",
-      "image": "https://drugnews.com.tw/assets/articles/roche-divarasib-kras-generation/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-12-roche-divarasib-kras-generation-en.html"
-      }
-    },
-    {
-      "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
-      "date": "2026-07-11",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "一款藥最迷人的時候，常常也是它最危險的時候：市場先愛上故事，臨床才慢慢追問證據。",
-      "image": "https://drugnews.com.tw/assets/articles/fasedienol-cns/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-11-fasedienol-cns-en.html"
-      }
-    },
-    {
-      "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-      "date": "2026-07-11",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "drug development",
-        "CNS drug development",
-        "social anxiety disorder",
-        "fasedienol",
-        "PALISADE-4",
-        "Vistagen"
-      ],
-      "summary": "Fasedienol's PALISADE-4 miss was not simply a failed Phase 3 headline. It exposed the core CNS drug-development problem: a beautiful mechanism and a real unmet need still have to survive subjective endpoints, placebo response, patient selection, and a commercial repositioning test.",
-      "image": "https://drugnews.com.tw/assets/articles/fasedienol-cns-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-11-fasedienol-cns.html"
-      }
-    },
-    {
-      "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-      "date": "2026-07-10",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Business Analysis",
-        "biotech business analysis",
-        "Taiwan biotech",
-        "drug development",
-        "FDA CRL",
-        "NASP",
-        "Sobi",
-        "CMC",
-        "contract manufacturing"
-      ],
-      "summary": "FDA identified no clinical efficacy or safety concerns that affected NASP's approvability. The setback centered on CMC controls and contract-manufacturing deficiencies, showing biotech investors why manufacturing credibility becomes part of asset value near launch.",
-      "image": "https://drugnews.com.tw/assets/articles/fda-nasp-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-10-fda-nasp.html"
-      }
-    },
-    {
-      "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-      "date": "2026-07-10",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "FDA",
-        "NASP",
-        "Sobi",
-        "CMC",
-        "委託製造",
-        "製造品質",
-        "難治性痛風",
-        "URAT1",
-        "臨床數據",
-        "生技投資"
-      ],
-      "summary": "FDA 並未指出影響 NASP 核准可能性的臨床療效或安全性問題，真正要求補強的是 CMC 控制策略與委託製造設施缺失。這封 CRL 提醒投資人：越接近上市，製造可信度越是藥品價值的一部分。",
-      "image": "https://drugnews.com.tw/assets/articles/fda-nasp/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-10-fda-nasp-en.html"
       }
     }
   ]

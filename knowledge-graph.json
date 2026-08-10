@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-06T01:16:16.251Z",
+  "generated_at": "2026-08-10T16:06:56.383Z",
   "site": {
     "@type": [
       "Organization",
@@ -129,15 +129,164 @@
   },
   "latest_articles": [
     {
+      "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+      "date": "2026-08-10",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "生技併購",
+        "藥廠併購",
+        "專利懸崖",
+        "Eli Lilly",
+        "Merck",
+        "AbbVie",
+        "Gilead",
+        "GSK",
+        "IQVIA",
+        "Biotech"
+      ],
+      "summary": "2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。",
+      "alternate_language_versions": {
+        "en": "2026-08-10-biopharma-ma-buying-time-2026h1-en.html"
+      }
+    },
+    {
+      "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+      "date": "2026-08-10",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "biopharma M&A",
+        "pharma acquisitions",
+        "patent cliff",
+        "Eli Lilly",
+        "Merck",
+        "AbbVie",
+        "Gilead",
+        "GSK",
+        "IQVIA",
+        "biotech"
+      ],
+      "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-10-biopharma-ma-buying-time-2026h1.html"
+      }
+    },
+    {
+      "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
+      "date": "2026-08-09",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "ICOTYDE",
+        "icotrokinra",
+        "Johnson & Johnson",
+        "Psoriasis",
+        "IL-23R",
+        "Oral Peptide",
+        "Drug Commercialization"
+      ],
+      "summary": "ICOTYDE logged more than 18,000 prescriptions in its first full quarter. The oral IL-23R peptide has earned entry into the high-efficacy psoriasis market, but durable value still depends on paid fills, persistence, payer quality, safety, and additional indications.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-09-icotyde-oral-il23r-launch.html"
+      }
+    },
+    {
+      "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
+      "date": "2026-08-09",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "ICOTYDE",
+        "icotrokinra",
+        "Johnson & Johnson",
+        "乾癬",
+        "IL-23R",
+        "口服胜肽",
+        "新藥商業化"
+      ],
+      "summary": "ICOTYDE 上市後第一個完整季度累積逾 18,000 張處方。口服 IL-23R 胜肽已取得進入高療效市場的資格，真正的商業答案仍取決於續方、支付品質、長期留存與多適應症。",
+      "alternate_language_versions": {
+        "en": "2026-08-09-icotyde-oral-il23r-launch-en.html"
+      }
+    },
+    {
+      "title": "Why These Four Biotechs Can Afford Not to Sell",
+      "date": "2026-08-08",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Biotech",
+        "Biopharma",
+        "argenx",
+        "Insmed",
+        "Revolution Medicines",
+        "Incyte",
+        "Royalty Pharma",
+        "Drug Development",
+        "Biotech Investing"
+      ],
+      "summary": "argenx, Insmed, Incyte, and Revolution Medicines show why biotech independence depends on product evidence, cash generation, a second growth curve, global execution, and financing without surrendering control.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-08-biotech-independence-not-selling.html"
+      }
+    },
+    {
+      "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+      "date": "2026-08-08",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Biotech",
+        "Biopharma",
+        "argenx",
+        "Insmed",
+        "Revolution Medicines",
+        "Incyte",
+        "Royalty Pharma",
+        "新藥開發",
+        "生技投資"
+      ],
+      "summary": "argenx、Insmed、Incyte 與 Revolution Medicines 選擇保留獨立經營權。真正的不賣資格，來自產品證據、現金引擎、第二曲線、全球執行與不交出控制權也能取得資金的能力。",
+      "alternate_language_versions": {
+        "en": "2026-08-08-biotech-independence-not-selling-en.html"
+      }
+    },
+    {
       "title": "22 億美元，買下一個自體免疫藥王？",
       "date": "2026-08-07",
       "language": "zh-Hant",
       "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html",
       "category": "商業分析",
       "access": "商業分析文",
-      "tags": ["argenx", "Forte Biosciences", "FB102", "VYVGART", "CD122", "自體免疫", "白斑", "乳糜瀉"],
-      "summary": "argenx 擬以 22 億美元現金收購 Forte，把早期抗 CD122 抗體 FB102 納入管線；真正考題是 VYVGART 的成功能否複製。",
-      "alternate_language_versions": {"en": "2026-08-07-argenx-forte-fb102-acquisition-en.html"}
+      "tags": [
+        "argenx",
+        "Forte Biosciences",
+        "FB102",
+        "VYVGART",
+        "CD122",
+        "自體免疫",
+        "白斑",
+        "乳糜瀉",
+        "健喬",
+        "安立璽榮"
+      ],
+      "summary": "argenx 擬以 22 億美元現金收購 Forte，把早期抗 CD122 抗體 FB102 納入管線。真正的考題不是一組一期 p 值，而是 VYVGART 的單品成功能否被複製成可重複的公司能力。",
+      "alternate_language_versions": {
+        "en": "2026-08-07-argenx-forte-fb102-acquisition-en.html"
+      }
     },
     {
       "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
@@ -146,9 +295,22 @@
       "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
       "category": "商業分析",
       "access": "Business Analysis",
-      "tags": ["argenx", "Forte Biosciences", "FB102", "VYVGART", "CD122", "autoimmune disease", "vitiligo", "celiac disease"],
-      "summary": "argenx plans to pay $2.2 billion for Forte and early anti-CD122 antibody FB102; the test is whether VYVGART's success reflects a repeatable engine.",
-      "alternate_language_versions": {"zh-Hant": "2026-08-07-argenx-forte-fb102-acquisition.html"}
+      "tags": [
+        "argenx",
+        "Forte Biosciences",
+        "FB102",
+        "VYVGART",
+        "CD122",
+        "autoimmune disease",
+        "vitiligo",
+        "celiac disease",
+        "biotech M&A",
+        "Taiwan biotech"
+      ],
+      "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-07-argenx-forte-fb102-acquisition.html"
+      }
     },
     {
       "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
@@ -617,54 +779,6 @@
       }
     },
     {
-      "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-      "date": "2026-07-26",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "J&J",
-        "plaque psoriasis",
-        "IL-23R",
-        "oral peptide",
-        "deucravacitinib",
-        "PASI 90",
-        "IGA 0/1"
-      ],
-      "summary": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-26-icotyde-oral-il23r-launch.html"
-      }
-    },
-    {
-      "title": "一顆藥，搶針劑的飯碗",
-      "date": "2026-07-26",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "J&J",
-        "乾癬",
-        "IL-23R",
-        "口服胜肽",
-        "deucravacitinib",
-        "PASI 90",
-        "IGA 0/1"
-      ],
-      "summary": "ICOTYDE 上市首季超過 18,000 張處方，證明口服 IL-23R 胜肽有需求；真正決定估值的，仍是付費處方、續方、支付品質與多適應症兌現。",
-      "alternate_language_versions": {
-        "en": "2026-07-26-icotyde-oral-il23r-launch-en.html"
-      }
-    },
-    {
       "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
       "date": "2026-07-25",
       "language": "en",
@@ -711,159 +825,21 @@
       "alternate_language_versions": {
         "en": "2026-07-25-roche-19-molecule-succession-engine-en.html"
       }
-    },
-    {
-      "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
-      "date": "2026-07-24",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "SpaceX",
-        "microgravity",
-        "space pharmaceuticals",
-        "drug crystallization",
-        "Keytruda",
-        "Redwire",
-        "SpaceMD",
-        "Varda",
-        "formulation development",
-        "Taiwan biotech"
-      ],
-      "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-24-spacex-microgravity-drug-crystals.html"
-      }
-    },
-    {
-      "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
-      "date": "2026-07-24",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "SpaceX",
-        "微重力",
-        "太空製藥",
-        "藥物結晶",
-        "Keytruda",
-        "Redwire",
-        "SpaceMD",
-        "Varda",
-        "製劑開發",
-        "台灣生技"
-      ],
-      "summary": "SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。",
-      "alternate_language_versions": {
-        "en": "2026-07-24-spacex-microgravity-drug-crystals-en.html"
-      }
-    },
-    {
-      "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-      "date": "2026-07-24",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Biotech",
-        "Biopharma",
-        "argenx",
-        "Insmed",
-        "Incyte",
-        "Revolution Medicines",
-        "Royalty Pharma",
-        "business development",
-        "commercialization",
-        "biotech investing"
-      ],
-      "summary": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-24-biotech-independence-five-engines.html"
-      }
-    },
-    {
-      "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-      "date": "2026-07-24",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Biotech",
-        "Biopharma",
-        "argenx",
-        "Insmed",
-        "Incyte",
-        "Revolution Medicines",
-        "Royalty Pharma",
-        "BD",
-        "商業化",
-        "生技投資"
-      ],
-      "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。",
-      "alternate_language_versions": {
-        "en": "2026-07-24-biotech-independence-five-engines-en.html"
-      }
-    },
-    {
-      "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-      "date": "2026-07-20",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "MASH",
-        "Madrigal Pharmaceuticals",
-        "Rezdiffra",
-        "resmetirom",
-        "siRNA",
-        "Ribo Life Science",
-        "Ribocure",
-        "Arrowhead Pharmaceuticals",
-        "ARO-PNPLA3"
-      ],
-      "summary": "Rezdiffra has opened the MASH market and built its commercialization infrastructure. Madrigal is now adding six Ribo siRNA programs and Arrowhead's ARO-PNPLA3 to create a cornerstone-plus-precision-combination treatment matrix.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-20-madrigal-mash-sirna-platform.html"
-      }
-    },
-    {
-      "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
-      "date": "2026-07-20",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "MASH",
-        "Madrigal Pharmaceuticals",
-        "Rezdiffra",
-        "resmetirom",
-        "siRNA",
-        "Ribo Life Science",
-        "Ribocure",
-        "Arrowhead Pharmaceuticals",
-        "ARO-PNPLA3",
-        "PNPLA3"
-      ],
-      "summary": "Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。",
-      "alternate_language_versions": {
-        "en": "2026-07-20-madrigal-mash-sirna-platform-en.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 32,
-      "latest_date": "2026-07-29",
+      "mentions": 33,
+      "latest_date": "2026-08-08",
       "latest_articles": [
+        {
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
           "date": "2026-07-29",
@@ -886,12 +862,6 @@
           "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
           "date": "2026-07-15",
           "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
           "language": "zh-Hant"
         }
       ]
@@ -938,8 +908,14 @@
       "name": "Taiwan biotech",
       "type": "topic",
       "mentions": 22,
-      "latest_date": "2026-08-05",
+      "latest_date": "2026-08-07",
       "latest_articles": [
+        {
+          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+          "language": "en"
+        },
         {
           "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
           "date": "2026-08-05",
@@ -950,12 +926,6 @@
           "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
           "date": "2026-07-28",
           "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
           "language": "en"
         },
         {
@@ -975,7 +945,7 @@
     {
       "name": "BD",
       "type": "market_topic",
-      "mentions": 20,
+      "mentions": 19,
       "latest_date": "2026-07-24",
       "latest_articles": [
         {
@@ -1163,44 +1133,6 @@
       ]
     },
     {
-      "name": "biotech valuation",
-      "type": "market_topic",
-      "mentions": 14,
-      "latest_date": "2026-08-05",
-      "latest_articles": [
-        {
-          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
-          "date": "2026-08-05",
-          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-          "language": "en"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "biotech business analysis",
       "type": "topic",
       "mentions": 13,
@@ -1239,9 +1171,47 @@
       ]
     },
     {
+      "name": "biotech valuation",
+      "type": "market_topic",
+      "mentions": 13,
+      "latest_date": "2026-08-05",
+      "latest_articles": [
+        {
+          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+          "language": "en"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "GLP-1",
       "type": "biotech_concept_or_target",
-      "mentions": 13,
+      "mentions": 12,
       "latest_date": "2026-07-20",
       "latest_articles": [
         {
@@ -1279,7 +1249,7 @@
     {
       "name": "Big Pharma",
       "type": "market_topic",
-      "mentions": 11,
+      "mentions": 10,
       "latest_date": "2026-07-27",
       "latest_articles": [
         {
@@ -1348,44 +1318,6 @@
           "title": "Why Has Japan Struggled to Build Global-Scale Biotech Companies?",
           "date": "2026-07-09",
           "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Drug development",
-      "type": "topic",
-      "mentions": 10,
-      "latest_date": "2026-06-12",
-      "latest_articles": [
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
           "language": "en"
         }
       ]
@@ -1505,9 +1437,47 @@
       ]
     },
     {
+      "name": "Revolution Medicines",
+      "type": "company",
+      "mentions": 8,
+      "latest_date": "2026-08-08",
+      "latest_articles": [
+        {
+          "title": "Why These Four Biotechs Can Afford Not to Sell",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+          "language": "en"
+        },
+        {
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "CMC",
       "type": "biotech_concept_or_target",
-      "mentions": 9,
+      "mentions": 8,
       "latest_date": "2026-07-15",
       "latest_articles": [
         {
@@ -1543,39 +1513,39 @@
       ]
     },
     {
-      "name": "Biotech business analysis",
-      "type": "topic",
-      "mentions": 9,
-      "latest_date": "2026-06-11",
+      "name": "Merck",
+      "type": "company",
+      "mentions": 7,
+      "latest_date": "2026-08-10",
       "latest_articles": [
         {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
           "language": "en"
         },
         {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "title": "半年千億，買的是時間",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
           "language": "en"
         },
         {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
           "language": "en"
         }
       ]
@@ -1771,6 +1741,234 @@
       ]
     },
     {
+      "name": "Drug development",
+      "type": "topic",
+      "mentions": 7,
+      "latest_date": "2026-06-12",
+      "latest_articles": [
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "AbbVie",
+      "type": "topic",
+      "mentions": 6,
+      "latest_date": "2026-08-10",
+      "latest_articles": [
+        {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+          "language": "en"
+        },
+        {
+          "title": "半年千億，買的是時間",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Biotech",
+      "type": "topic",
+      "mentions": 6,
+      "latest_date": "2026-08-10",
+      "latest_articles": [
+        {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Why These Four Biotechs Can Afford Not to Sell",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+          "language": "en"
+        },
+        {
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Eli Lilly",
+      "type": "company",
+      "mentions": 6,
+      "latest_date": "2026-08-10",
+      "latest_articles": [
+        {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
+          "date": "2026-06-26",
+          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "GSK",
+      "type": "company",
+      "mentions": 6,
+      "latest_date": "2026-08-10",
+      "latest_articles": [
+        {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+          "language": "en"
+        },
+        {
+          "title": "半年千億，買的是時間",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "argenx",
+      "type": "topic",
+      "mentions": 6,
+      "latest_date": "2026-08-08",
+      "latest_articles": [
+        {
+          "title": "Why These Four Biotechs Can Afford Not to Sell",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+          "language": "en"
+        },
+        {
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "22 億美元，買下一個自體免疫藥王？",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Novartis",
       "type": "company",
       "mentions": 6,
@@ -1847,115 +2045,77 @@
       ]
     },
     {
-      "name": "Revolution Medicines",
-      "type": "company",
+      "name": "Biotech business analysis",
+      "type": "topic",
       "mentions": 6,
-      "latest_date": "2026-07-24",
+      "latest_date": "2026-06-11",
       "latest_articles": [
         {
-          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
           "language": "en"
         },
         {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
           "language": "en"
         },
         {
-          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
           "language": "en"
         }
       ]
     },
     {
-      "name": "Eli Lilly",
-      "type": "company",
+      "name": "autoimmune disease",
+      "type": "topic",
       "mentions": 5,
-      "latest_date": "2026-08-06",
+      "latest_date": "2026-08-07",
       "latest_articles": [
         {
-          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
-          "date": "2026-08-06",
-          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
           "language": "en"
         },
         {
           "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
           "date": "2026-06-26",
           "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Retatrutide 殺進減重手術級別：禮來三重受體藥物，把肥胖治療推向新戰場",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Merck",
-      "type": "company",
-      "mentions": 5,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Merck's Shift on PD-1/VEGF Bispecifics: Keytruda Still Rules, but the Next IO Backbone Is Getting Closer",
-          "date": "2026-06-21",
-          "url": "https://drugnews.com.tw/articles/2026-06-21-merck-pd1-vegf-mk2010-keytruda-en.html",
           "language": "en"
         }
       ]
@@ -2075,40 +2235,194 @@
       ]
     },
     {
-      "name": "Obesity medicine",
+      "name": "生技併購",
       "type": "topic",
-      "mentions": 5,
-      "latest_date": "2026-06-22",
+      "mentions": 4,
+      "latest_date": "2026-08-10",
       "latest_articles": [
         {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
+          "date": "2026-08-04",
+          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年千億，買的是時間",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Gilead",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-10",
+      "latest_articles": [
+        {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
           "language": "en"
         },
         {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
+          "title": "半年千億，買的是時間",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Biopharma",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-08",
+      "latest_articles": [
+        {
+          "title": "Why These Four Biotechs Can Afford Not to Sell",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
           "language": "en"
         },
         {
-          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
           "language": "en"
         },
         {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Incyte",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-08",
+      "latest_articles": [
+        {
+          "title": "Why These Four Biotechs Can Afford Not to Sell",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
           "language": "en"
         },
         {
-          "title": "Retatrutide Moves Toward Surgery-Level Weight Loss: Lilly's Triple-Agonist Pushes Obesity Treatment Into a New Arena",
-          "date": "2026-06-04",
-          "url": "https://drugnews.com.tw/articles/2026-06-04-retatrutide-obesity-surgery-level-weight-loss-en.html",
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
           "language": "en"
+        },
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Insmed",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-08",
+      "latest_articles": [
+        {
+          "title": "Why These Four Biotechs Can Afford Not to Sell",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+          "language": "en"
+        },
+        {
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Royalty Pharma",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-08",
+      "latest_articles": [
+        {
+          "title": "Why These Four Biotechs Can Afford Not to Sell",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+          "language": "en"
+        },
+        {
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2273,102 +2587,6 @@
       ]
     },
     {
-      "name": "PD-1",
-      "type": "biotech_concept_or_target",
-      "mentions": 4,
-      "latest_date": "2026-07-31",
-      "latest_articles": [
-        {
-          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
-          "date": "2026-07-31",
-          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
-          "language": "en"
-        },
-        {
-          "title": "安邦生技：免疫治療的「星鏈計畫」",
-          "date": "2026-07-31",
-          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "老靶點都很捲，但不是不能賺錢",
-          "date": "2026-06-06",
-          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "AbbVie",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "GSK",
-      "type": "company",
-      "mentions": 4,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK's US$10.6 Billion Nuvalent Deal Is Really a Bet on Resistance and Brain Metastases",
-          "date": "2026-06-19",
-          "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Nuvalent",
       "type": "topic",
       "mentions": 4,
@@ -2433,38 +2651,6 @@
       ]
     },
     {
-      "name": "Biotech",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-07-24",
-      "latest_articles": [
-        {
-          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Next Phase of AI Drug Development: Making Molecules Survive as Drugs",
-          "date": "2026-06-13",
-          "url": "https://drugnews.com.tw/articles/2026-06-13-anhorn-ai-drug-development-en.html",
-          "language": "en"
-        },
-        {
-          "title": "老靶點都很捲，但不是不能賺錢",
-          "date": "2026-06-06",
-          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "MASH",
       "type": "topic",
       "mentions": 4,
@@ -2493,38 +2679,6 @@
           "date": "2026-07-08",
           "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "autoimmune disease",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-07-18",
-      "latest_articles": [
-        {
-          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
-          "date": "2026-07-18",
-          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
-          "language": "en"
-        },
-        {
-          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
-          "date": "2026-07-15",
-          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
         }
       ]
     },
@@ -2593,15 +2747,27 @@
       ]
     },
     {
-      "name": "Business development",
+      "name": "Obesity medicine",
       "type": "topic",
       "mentions": 4,
-      "latest_date": "2026-06-12",
+      "latest_date": "2026-06-22",
       "latest_articles": [
         {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
           "language": "en"
         },
         {
@@ -2609,17 +2775,161 @@
           "date": "2026-06-11",
           "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "專利懸崖",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-08-10",
+      "latest_articles": [
+        {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
         },
         {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
+          "date": "2026-08-04",
+          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年千億，買的是時間",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "patent cliff",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-08-10",
+      "latest_articles": [
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
           "language": "en"
         },
         {
-          "title": "Old Targets Are Crowded, but They Can Still Make Money",
-          "date": "2026-06-06",
-          "url": "https://drugnews.com.tw/articles/2026-06-06-old-targets-differentiation-strategy-en.html",
+          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
+          "date": "2026-08-04",
+          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
+          "language": "en"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "新藥開發",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-08-08",
+      "latest_articles": [
+        {
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Biotech Investing",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-08-08",
+      "latest_articles": [
+        {
+          "title": "Why These Four Biotechs Can Afford Not to Sell",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
+          "date": "2026-06-27",
+          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
+          "date": "2026-06-25",
+          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "自體免疫",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-08-07",
+      "latest_articles": [
+        {
+          "title": "22 億美元，買下一個自體免疫藥王？",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "biotech M&A",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-08-07",
+      "latest_articles": [
+        {
+          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
           "language": "en"
         }
       ]
@@ -2647,32 +2957,6 @@
           "date": "2026-06-13",
           "url": "https://drugnews.com.tw/articles/2026-06-13-anhorn-ai-drug-development-en.html",
           "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "生技併購",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-08-04",
-      "latest_articles": [
-        {
-          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -2729,53 +3013,27 @@
       ]
     },
     {
-      "name": "生技估值",
-      "type": "market_topic",
+      "name": "PD-1",
+      "type": "biotech_concept_or_target",
       "mentions": 3,
-      "latest_date": "2026-07-26",
+      "latest_date": "2026-07-31",
       "latest_articles": [
         {
-          "title": "一顆藥，搶針劑的飯碗",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Incyte",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-07-24",
-      "latest_articles": [
-        {
-          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
           "language": "en"
         },
         {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "title": "安邦生技：免疫治療的「星鏈計畫」",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
           "language": "zh-Hant"
         },
         {
-          "title": "從 Ruxolitinib cream 說起：外用 JAK 抑制劑，為什麼不是每個分子都能做？",
-          "date": "2026-06-05",
-          "url": "https://drugnews.com.tw/articles/2026-06-05-topical-jak-inhibitor-skin-delivery.html",
+          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
           "language": "zh-Hant"
         }
       ]
@@ -2963,195 +3221,41 @@
       ]
     },
     {
-      "name": "安宏生醫",
-      "type": "company",
-      "mentions": 2,
-      "latest_date": "2026-08-06",
-      "latest_articles": [
-        {
-          "title": "投資人請注意，下一個減肥藥級別賽道來了！",
-          "date": "2026-08-06",
-          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Absci",
+      "name": "Business development",
       "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-06",
+      "mentions": 3,
+      "latest_date": "2026-06-12",
       "latest_articles": [
         {
-          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
-          "date": "2026-08-06",
-          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
           "language": "en"
         },
         {
-          "title": "投資人請注意，下一個減肥藥級別賽道來了！",
-          "date": "2026-08-06",
-          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "AH-001",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-06",
-      "latest_articles": [
-        {
-          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
-          "date": "2026-08-06",
-          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
           "language": "en"
         },
         {
-          "title": "投資人請注意，下一個減肥藥級別賽道來了！",
-          "date": "2026-08-06",
-          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Taiwan Biotech",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-06",
-      "latest_articles": [
-        {
-          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
-          "date": "2026-08-06",
-          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
-          "language": "en"
-        },
-        {
-          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
-          "date": "2026-07-31",
-          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
           "language": "en"
         }
       ]
     },
     {
-      "name": "Veradermics",
+      "name": "藥廠併購",
       "type": "topic",
       "mentions": 2,
-      "latest_date": "2026-08-06",
+      "latest_date": "2026-08-10",
       "latest_articles": [
         {
-          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
-          "date": "2026-08-06",
-          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
-          "language": "en"
-        },
-        {
-          "title": "投資人請注意，下一個減肥藥級別賽道來了！",
-          "date": "2026-08-06",
-          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "生技股",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-05",
-      "latest_articles": [
-        {
-          "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
-          "date": "2026-08-05",
-          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Alnylam",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-05",
-      "latest_articles": [
-        {
-          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
-          "date": "2026-08-05",
-          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
-          "date": "2026-08-05",
-          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Amvuttra",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-05",
-      "latest_articles": [
-        {
-          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
-          "date": "2026-08-05",
-          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
-          "date": "2026-08-05",
-          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "大藥廠",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-04",
-      "latest_articles": [
-        {
-          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "專利懸崖",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-04",
-      "latest_articles": [
-        {
-          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
           "language": "zh-Hant"
         },
         {
@@ -3163,95 +3267,15 @@
       ]
     },
     {
-      "name": "腫瘤新藥",
+      "name": "biopharma M&A",
       "type": "topic",
       "mentions": 2,
-      "latest_date": "2026-08-04",
+      "latest_date": "2026-08-10",
       "latest_articles": [
         {
-          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "antibody-drug conjugates",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-04",
-      "latest_articles": [
-        {
-          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
-          "language": "en"
-        },
-        {
-          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
-          "date": "2026-07-18",
-          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "BMS",
-      "type": "company",
-      "mentions": 2,
-      "latest_date": "2026-08-04",
-      "latest_articles": [
-        {
-          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
-          "language": "en"
-        },
-        {
-          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Bristol Myers Squibb",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-04",
-      "latest_articles": [
-        {
-          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
-          "language": "en"
-        },
-        {
-          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "patent cliff",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-04",
-      "latest_articles": [
-        {
-          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
           "language": "en"
         },
         {
@@ -3263,67 +3287,202 @@
       ]
     },
     {
-      "name": "antisense oligonucleotide",
+      "name": "IQVIA",
       "type": "topic",
       "mentions": 2,
-      "latest_date": "2026-08-03",
+      "latest_date": "2026-08-10",
       "latest_articles": [
         {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en"
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
         },
         {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
           "language": "en"
         }
       ]
     },
     {
-      "name": "BIIB080",
+      "name": "icotrokinra",
       "type": "topic",
       "mentions": 2,
-      "latest_date": "2026-08-03",
+      "latest_date": "2026-08-09",
       "latest_articles": [
         {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
+          "date": "2026-08-09",
+          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
           "language": "en"
         },
         {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
+          "date": "2026-08-09",
+          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
           "language": "zh-Hant"
         }
       ]
     },
     {
-      "name": "Biogen",
-      "type": "company",
+      "name": "ICOTYDE",
+      "type": "topic",
       "mentions": 2,
-      "latest_date": "2026-08-03",
+      "latest_date": "2026-08-09",
       "latest_articles": [
         {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
+          "date": "2026-08-09",
+          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
           "language": "en"
         },
         {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
+          "date": "2026-08-09",
+          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "IL-23R",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-09",
+      "latest_articles": [
+        {
+          "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
+          "date": "2026-08-09",
+          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
+          "language": "en"
+        },
+        {
+          "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
+          "date": "2026-08-09",
+          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Johnson & Johnson",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-09",
+      "latest_articles": [
+        {
+          "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
+          "date": "2026-08-09",
+          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
+          "language": "en"
+        },
+        {
+          "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
+          "date": "2026-08-09",
+          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "CD122",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-07",
+      "latest_articles": [
+        {
+          "title": "22 億美元，買下一個自體免疫藥王？",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+          "language": "en"
         }
       ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+      "date": "2026-08-10",
+      "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "生技併購",
+        "藥廠併購",
+        "專利懸崖",
+        "Eli Lilly",
+        "Merck",
+        "AbbVie",
+        "Gilead",
+        "GSK"
+      ],
+      "summary": "2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。"
+    },
+    {
+      "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+      "date": "2026-08-10",
+      "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "biopharma M&A",
+        "pharma acquisitions",
+        "patent cliff",
+        "Eli Lilly",
+        "Merck",
+        "AbbVie",
+        "Gilead",
+        "GSK"
+      ],
+      "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff."
+    },
+    {
+      "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
+      "date": "2026-08-09",
+      "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "ICOTYDE",
+        "icotrokinra",
+        "Johnson & Johnson",
+        "Psoriasis",
+        "IL-23R",
+        "Oral Peptide",
+        "Drug Commercialization"
+      ],
+      "summary": "ICOTYDE logged more than 18,000 prescriptions in its first full quarter. The oral IL-23R peptide has earned entry into the high-efficacy psoriasis market, but durable value still depends on paid fills, persistence, payer quality, safety, and additional indications."
+    },
+    {
+      "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+      "date": "2026-08-07",
+      "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "argenx",
+        "Forte Biosciences",
+        "FB102",
+        "VYVGART",
+        "CD122",
+        "autoimmune disease",
+        "vitiligo",
+        "celiac disease"
+      ],
+      "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat."
+    },
     {
       "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
       "date": "2026-08-06",
@@ -3551,44 +3710,6 @@
         "Gilead"
       ],
       "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time."
-    },
-    {
-      "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-      "date": "2026-07-26",
-      "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "J&J",
-        "plaque psoriasis",
-        "IL-23R",
-        "oral peptide",
-        "deucravacitinib"
-      ],
-      "summary": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis."
-    },
-    {
-      "title": "一顆藥，搶針劑的飯碗",
-      "date": "2026-07-26",
-      "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "J&J",
-        "乾癬",
-        "IL-23R",
-        "口服胜肽",
-        "deucravacitinib"
-      ],
-      "summary": "ICOTYDE 上市首季超過 18,000 張處方，證明口服 IL-23R 胜肽有需求；真正決定估值的，仍是付費處方、續方、支付品質與多適應症兌現。"
     },
     {
       "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
@@ -3851,44 +3972,6 @@
         "CMC"
       ],
       "summary": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline."
-    },
-    {
-      "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
-      "date": "2026-07-15",
-      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Treg",
-        "免疫耐受",
-        "細胞療法",
-        "自體免疫",
-        "移植",
-        "CMC",
-        "台寶生醫",
-        "臨床開發"
-      ],
-      "summary": "諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。"
-    },
-    {
-      "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-      "date": "2026-07-14",
-      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Free Article",
-      "tags": [
-        "Business Analysis",
-        "ADC",
-        "Novartis",
-        "Myricx Bio",
-        "NMT inhibitor",
-        "ADC payload",
-        "BD licensing",
-        "oncology"
-      ],
-      "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value."
     }
   ]
 }

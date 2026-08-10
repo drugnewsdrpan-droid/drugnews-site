@@ -1,0 +1,43 @@
+{
+  "title": "Why These Four Biotechs Can Afford Not to Sell",
+  "date": "2026-08-08",
+  "publish_at": "2026-08-08T08:00:00+08:00",
+  "category": "商業分析系列",
+  "series": "商業分析系列",
+  "tags": [
+    "Biotech",
+    "Biopharma",
+    "argenx",
+    "Insmed",
+    "Revolution Medicines",
+    "Incyte",
+    "Royalty Pharma",
+    "Drug Development",
+    "Biotech Investing"
+  ],
+  "summary": "argenx, Insmed, Incyte, and Revolution Medicines show why biotech independence depends on product evidence, cash generation, a second growth curve, global execution, and financing without surrendering control.",
+  "slug": "biotech-independence-not-selling-en",
+  "lang": "en",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/permalink.php?story_fbid=2702553496813426&id=61568446257142",
+  "source_status": "Published publicly on Facebook; this complete English edition preserves the argument sequence, company cases, risk hierarchy, figures, references and disclaimer",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "Five capabilities that allow a biotech to remain independent",
+  "card_image": "images/cover-1400.webp",
+  "card_image_alt": "Four biotechs choosing independent growth",
+  "homepage_cover_image": "images/cover.png",
+  "homepage_cover_image_alt": "What it takes for a biotech to decline a sale",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "core_judgments": [
+    "Biotech independence is not a posture toward M&A; it is the ability to retain core rights and reinvest one success into another.",
+    "A second growth curve determines how long independence can last, while global execution, cash flow, and financing determine whether scientific value reaches the market.",
+    "Royalties, convertibles, and loans can preserve control, but they dilute equity, add interest expense, or carve away future cash flow."
+  ],
+  "translations": {
+    "zh-Hant": "2026-08-08-biotech-independence-not-selling.html"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-06T01:16:15.993Z",
+  "generated_at": "2026-08-10T16:06:56.326Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -117,9 +117,147 @@
   },
   "buckets": [
     {
+      "name": "BD / 授權與併購",
+      "count": 6,
+      "articles": [
+        {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "生技併購",
+            "藥廠併購",
+            "專利懸崖",
+            "Eli Lilly",
+            "Merck",
+            "AbbVie",
+            "Gilead",
+            "GSK"
+          ],
+          "summary": "2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "biopharma M&A",
+            "pharma acquisitions",
+            "patent cliff",
+            "Eli Lilly",
+            "Merck",
+            "AbbVie",
+            "Gilead",
+            "GSK"
+          ],
+          "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff."
+        },
+        {
+          "title": "半年千億，買的是時間",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "生技併購",
+            "藥廠併購",
+            "Biopharma M&A",
+            "專利懸崖",
+            "Lilly",
+            "Merck",
+            "AbbVie",
+            "Gilead"
+          ],
+          "summary": "2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "biopharma M&A",
+            "Big Pharma",
+            "patent cliff",
+            "loss of exclusivity",
+            "Lilly",
+            "Merck",
+            "AbbVie",
+            "Gilead"
+          ],
+          "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time."
+        },
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Biotech",
+            "Biopharma",
+            "argenx",
+            "Insmed",
+            "Incyte",
+            "Revolution Medicines",
+            "Royalty Pharma",
+            "BD"
+          ],
+          "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
+        },
+        {
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Big Pharma",
+            "生技併購",
+            "Vertex",
+            "Crinetics",
+            "AbbVie",
+            "Apogee Therapeutics",
+            "Novartis",
+            "Avidity Biosciences"
+          ],
+          "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。"
+        }
+      ]
+    },
+    {
       "name": "AI 製藥與新技術",
       "count": 9,
       "articles": [
+        {
+          "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
+          "date": "2026-08-09",
+          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "ICOTYDE",
+            "icotrokinra",
+            "Johnson & Johnson",
+            "Psoriasis",
+            "IL-23R",
+            "Oral Peptide",
+            "Drug Commercialization"
+          ],
+          "summary": "ICOTYDE logged more than 18,000 prescriptions in its first full quarter. The oral IL-23R peptide has earned entry into the high-efficacy psoriasis market, but durable value still depends on paid fills, persistence, payer quality, safety, and additional indications."
+        },
         {
           "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
           "date": "2026-08-06",
@@ -197,25 +335,6 @@
           "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy."
         },
         {
-          "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "ICOTYDE",
-            "icotrokinra",
-            "Johnson & Johnson",
-            "J&J",
-            "plaque psoriasis",
-            "IL-23R",
-            "oral peptide",
-            "deucravacitinib"
-          ],
-          "summary": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis."
-        },
-        {
           "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
           "date": "2026-07-24",
           "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
@@ -290,8 +409,71 @@
       ]
     },
     {
+      "name": "臨床與法規催化",
+      "count": 3,
+      "articles": [
+        {
+          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "argenx",
+            "Forte Biosciences",
+            "FB102",
+            "VYVGART",
+            "CD122",
+            "autoimmune disease",
+            "vitiligo",
+            "celiac disease"
+          ],
+          "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat."
+        },
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Alzheimer's disease",
+            "tau",
+            "diranersen",
+            "BIIB080",
+            "IONIS-MAPTRx",
+            "Biogen",
+            "Ionis",
+            "antisense oligonucleotide"
+          ],
+          "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
+        },
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "斑禿",
+            "鬼剃頭",
+            "Bempikibart",
+            "Q32 Bio",
+            "QTTB",
+            "IL-7Rα",
+            "JAK 抑制劑",
+            "SALT"
+          ],
+          "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。"
+        }
+      ]
+    },
+    {
       "name": "腫瘤精準治療",
-      "count": 7,
+      "count": 6,
       "articles": [
         {
           "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
@@ -406,69 +588,6 @@
             "daraxonrasib"
           ],
           "summary": "Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems."
-        },
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Free Article",
-          "tags": [
-            "Business Analysis",
-            "ADC",
-            "Novartis",
-            "Myricx Bio",
-            "NMT inhibitor",
-            "ADC payload",
-            "BD licensing",
-            "oncology"
-          ],
-          "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value."
-        }
-      ]
-    },
-    {
-      "name": "臨床與法規催化",
-      "count": 2,
-      "articles": [
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Alzheimer's disease",
-            "tau",
-            "diranersen",
-            "BIIB080",
-            "IONIS-MAPTRx",
-            "Biogen",
-            "Ionis",
-            "antisense oligonucleotide"
-          ],
-          "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
-        },
-        {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "斑禿",
-            "鬼剃頭",
-            "Bempikibart",
-            "Q32 Bio",
-            "QTTB",
-            "IL-7Rα",
-            "JAK 抑制劑",
-            "SALT"
-          ],
-          "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。"
         }
       ]
     },
@@ -518,7 +637,7 @@
     },
     {
       "name": "估值與資本市場",
-      "count": 2,
+      "count": 1,
       "articles": [
         {
           "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
@@ -538,107 +657,6 @@
             "biotech valuation"
           ],
           "summary": "Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors."
-        },
-        {
-          "title": "一顆藥，搶針劑的飯碗",
-          "date": "2026-07-26",
-          "url": "https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "ICOTYDE",
-            "icotrokinra",
-            "Johnson & Johnson",
-            "J&J",
-            "乾癬",
-            "IL-23R",
-            "口服胜肽",
-            "deucravacitinib"
-          ],
-          "summary": "ICOTYDE 上市首季超過 18,000 張處方，證明口服 IL-23R 胜肽有需求；真正決定估值的，仍是付費處方、續方、支付品質與多適應症兌現。"
-        }
-      ]
-    },
-    {
-      "name": "BD / 授權與併購",
-      "count": 4,
-      "articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "生技併購",
-            "藥廠併購",
-            "Biopharma M&A",
-            "專利懸崖",
-            "Lilly",
-            "Merck",
-            "AbbVie",
-            "Gilead"
-          ],
-          "summary": "2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "biopharma M&A",
-            "Big Pharma",
-            "patent cliff",
-            "loss of exclusivity",
-            "Lilly",
-            "Merck",
-            "AbbVie",
-            "Gilead"
-          ],
-          "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time."
-        },
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Biotech",
-            "Biopharma",
-            "argenx",
-            "Insmed",
-            "Incyte",
-            "Revolution Medicines",
-            "Royalty Pharma",
-            "BD"
-          ],
-          "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Big Pharma",
-            "生技併購",
-            "Vertex",
-            "Crinetics",
-            "AbbVie",
-            "Apogee Therapeutics",
-            "Novartis",
-            "Avidity Biosciences"
-          ],
-          "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。"
         }
       ]
     },
@@ -669,7 +687,7 @@
     },
     {
       "name": "CMC / 商業化風險",
-      "count": 3,
+      "count": 2,
       "articles": [
         {
           "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
@@ -708,25 +726,6 @@
             "CMC"
           ],
           "summary": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline."
-        },
-        {
-          "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
-          "date": "2026-07-15",
-          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Treg",
-            "免疫耐受",
-            "細胞療法",
-            "自體免疫",
-            "移植",
-            "CMC",
-            "台寶生醫",
-            "臨床開發"
-          ],
-          "summary": "諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。"
         }
       ]
     }

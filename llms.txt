@@ -76,14 +76,38 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-10｜禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！
+  URL: https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html
+  Topics: 生技併購, 藥廠併購, 專利懸崖, Eli Lilly, Merck
+  Summary: 2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。
+- 2026-08-10｜$130 Billion in Six Months: Big Pharma Is Buying Time
+  URL: https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html
+  Topics: biopharma M&A, pharma acquisitions, patent cliff, Eli Lilly, Merck
+  Summary: Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff.
+- 2026-08-09｜J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?
+  URL: https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html
+  Topics: ICOTYDE, icotrokinra, Johnson & Johnson, Psoriasis, IL-23R
+  Summary: ICOTYDE logged more than 18,000 prescriptions in its first full quarter. The oral IL-23R peptide has earned entry into the high-efficacy psoriasis market, but durable value still depends on paid fills, persistence, payer quality, safety, and additional indications.
+- 2026-08-09｜嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？
+  URL: https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html
+  Topics: ICOTYDE, icotrokinra, Johnson & Johnson, 乾癬, IL-23R
+  Summary: ICOTYDE 上市後第一個完整季度累積逾 18,000 張處方。口服 IL-23R 胜肽已取得進入高療效市場的資格，真正的商業答案仍取決於續方、支付品質、長期留存與多適應症。
+- 2026-08-08｜Why These Four Biotechs Can Afford Not to Sell
+  URL: https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html
+  Topics: Biotech, Biopharma, argenx, Insmed, Revolution Medicines
+  Summary: argenx, Insmed, Incyte, and Revolution Medicines show why biotech independence depends on product evidence, cash generation, a second growth curve, global execution, and financing without surrendering control.
+- 2026-08-08｜不賣給大藥廠，4 家生技公司憑什麼自己做大？
+  URL: https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html
+  Topics: Biotech, Biopharma, argenx, Insmed, Revolution Medicines
+  Summary: argenx、Insmed、Incyte 與 Revolution Medicines 選擇保留獨立經營權。真正的不賣資格，來自產品證據、現金引擎、第二曲線、全球執行與不交出控制權也能取得資金的能力。
 - 2026-08-07｜22 億美元，買下一個自體免疫藥王？
   URL: https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html
-  Topics: argenx, Forte Biosciences, FB102, VYVGART, CD122, 自體免疫
-  Summary: argenx 擬以 22 億美元現金收購 Forte；真正考題是 VYVGART 的成功能否複製成平台能力。
+  Topics: argenx, Forte Biosciences, FB102, VYVGART, CD122
+  Summary: argenx 擬以 22 億美元現金收購 Forte，把早期抗 CD122 抗體 FB102 納入管線。真正的考題不是一組一期 p 值，而是 VYVGART 的單品成功能否被複製成可重複的公司能力。
 - 2026-08-07｜$2.2 Billion for the Next Autoimmune Blockbuster?
   URL: https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html
-  Topics: argenx, Forte Biosciences, FB102, VYVGART, CD122, autoimmune disease
-  Summary: argenx plans to pay $2.2 billion for Forte; the test is whether VYVGART's success reflects a repeatable engine.
+  Topics: argenx, Forte Biosciences, FB102, VYVGART, CD122
+  Summary: argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat.
 - 2026-08-06｜Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster
   URL: https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html
   Topics: AnHorn Medicines, AH-001, Androgenetic Alopecia, Hair-Loss Drug, AR Degrader
@@ -108,38 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html
   Topics: AstraZeneca, 阿斯特捷利康, Bristol Myers Squibb, BMS, 百時美施貴寶
   Summary: Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。
-- 2026-08-03｜Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint
-  URL: https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html
-  Topics: Alzheimer's disease, tau, diranersen, BIIB080, IONIS-MAPTRx
-  Summary: CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway.
-- 2026-08-03｜Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？
-  URL: https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html
-  Topics: 阿茲海默症, Tau, Diranersen, BIIB080, IONIS-MAPTRx
-  Summary: CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。
-- 2026-08-02｜Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors
-  URL: https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html
-  Topics: alopecia areata, bempikibart, Q32 Bio, QTTB, IL-7Rα
-  Summary: Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors.
-- 2026-08-02｜鬼剃頭新藥，先別封神
-  URL: https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html
-  Topics: 斑禿, 鬼剃頭, Bempikibart, Q32 Bio, QTTB
-  Summary: 33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。
-- 2026-07-31｜AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy
-  URL: https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html
-  Topics: AnBogen Therapeutics, ABT-301, Cancer Immunotherapy, PD-1, Metastatic Colorectal Cancer
-  Summary: Can a small molecule from Taiwan extend the $30 billion PD-1 ecosystem into the 95% of metastatic colorectal cancer patients still beyond immunotherapy’s reach?
-- 2026-07-31｜安邦生技：免疫治療的「星鏈計畫」
-  URL: https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html
-  Topics: 安邦生技, ABT-301, 癌症免疫治療, PD-1, 轉移性大腸直腸癌
-  Summary: 一顆台灣小分子，有機會把三百億美元級PD-1藥王送進九成五患者仍無法受益的治療盲區嗎？
-- 2026-07-30｜Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門
-  URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html
-  Topics: Astellas, Xtandi, Padcev, Vyloy, 腫瘤
-  Summary: Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。
-- 2026-07-30｜After Xtandi: Can Astellas Build an Oncology Platform?
-  URL: https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html
-  Topics: Astellas, Xtandi, Padcev, Vyloy, oncology
-  Summary: Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.
 
 ## Key Site Sections
 

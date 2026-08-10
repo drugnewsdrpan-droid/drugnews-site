@@ -1,20 +1,228 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1/cover.png</image:loc>
+      <image:caption>專利懸崖倒數，大藥廠用交易連結研發資產與商業化時間</image:caption>
+      <image:title>禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1/figure-01.png</image:loc>
+      <image:caption>禮來領頭，大藥廠半年豪砸 1,300 億美元，真正買的是時間</image:caption>
+      <image:title>禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1/figure-03.png</image:loc>
+      <image:caption>BioSpace 與 IQVIA 對 2026 年上半年生技製藥併購的不同統計口徑</image:caption>
+      <image:title>禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1/figure-02.png</image:loc>
+      <image:caption>專利懸崖如何推動大藥廠收購臨床階段資產以換取開發時間</image:caption>
+      <image:title>禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1/figure-04.png</image:loc>
+      <image:caption>公告金額必須拆解為前期現金、股權價值、企業價值、或有價值權、里程碑與交割條件</image:caption>
+      <image:title>禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1-en/cover.png</image:loc>
+      <image:caption>A biopharma transaction links research assets with the time needed to reach commercialization</image:caption>
+      <image:title>$130 Billion in Six Months: Big Pharma Is Buying Time</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1-en/figure-01.png</image:loc>
+      <image:caption>Lilly leads as large drugmakers spend 130 billion dollars in six months to buy time</image:caption>
+      <image:title>$130 Billion in Six Months: Big Pharma Is Buying Time</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1-en/figure-03.png</image:loc>
+      <image:caption>Different BioSpace and IQVIA methodologies for biopharma M&amp;A in the first half of 2026</image:caption>
+      <image:title>$130 Billion in Six Months: Big Pharma Is Buying Time</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1-en/figure-02.png</image:loc>
+      <image:caption>How the patent cliff drives large drugmakers to acquire clinical-stage assets and save development time</image:caption>
+      <image:title>$130 Billion in Six Months: Big Pharma Is Buying Time</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1-en/figure-04.png</image:loc>
+      <image:caption>An announced deal value must be separated into upfront cash, equity value, enterprise value, CVRs, milestones and closing conditions</image:caption>
+      <image:title>$130 Billion in Six Months: Big Pharma Is Buying Time</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/cover.png</image:loc>
+      <image:caption>Scientific visualization of an oral IL-23R peptide and its immune receptor</image:caption>
+      <image:title>J&amp;J&apos;s Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/figure-01.png</image:loc>
+      <image:caption>ICOTYDE enters the high-efficacy oral psoriasis market</image:caption>
+      <image:title>J&amp;J&apos;s Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/figure-02.png</image:loc>
+      <image:caption>Prescription volume, patient counts, prescriber reach, and insurance coverage are demand signals, not a complete revenue answer</image:caption>
+      <image:title>J&amp;J&apos;s Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/figure-03.png</image:loc>
+      <image:caption>The one-year maintenance result must be read using the correct responder denominator</image:caption>
+      <image:title>J&amp;J&apos;s Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/figure-04.png</image:loc>
+      <image:caption>The commercial follow-up for ICOTYDE centers on paid prescriptions, refill persistence, access quality, and long-term outcomes</image:caption>
+      <image:title>J&amp;J&apos;s Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/cover.png</image:loc>
+      <image:caption>口服 IL-23R 胜肽與免疫受體的藥物開發主視覺</image:caption>
+      <image:title>嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/figure-01.png</image:loc>
+      <image:caption>ICOTYDE 進入口服高療效乾癬市場</image:caption>
+      <image:title>嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/figure-02.png</image:loc>
+      <image:caption>上市初期處方、病人、開方者與保險覆蓋，是需求訊號而非完整收入答案</image:caption>
+      <image:title>嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/figure-03.png</image:loc>
+      <image:caption>解讀 ICOTYDE 一年療效時，必須先看清楚分析分母</image:caption>
+      <image:title>嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/figure-04.png</image:loc>
+      <image:caption>ICOTYDE 商業化後續要看付費處方、續方留存、保險品質與長期結果</image:caption>
+      <image:title>嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-not-selling-en/cover.png</image:loc>
+      <image:caption>What it takes for a biotech to decline a sale</image:caption>
+      <image:title>Why These Four Biotechs Can Afford Not to Sell</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-not-selling-en/figure-01.png</image:loc>
+      <image:caption>Five capabilities that determine whether a biotech can remain independent</image:caption>
+      <image:title>Why These Four Biotechs Can Afford Not to Sell</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-not-selling-en/figure-03.png</image:loc>
+      <image:caption>How Revolution Medicines used structured financing to retain control while sharing future economics</image:caption>
+      <image:title>Why These Four Biotechs Can Afford Not to Sell</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-not-selling-en/figure-02.png</image:loc>
+      <image:caption>Four biotechs at four different stages of independence</image:caption>
+      <image:title>Why These Four Biotechs Can Afford Not to Sell</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-not-selling-en/figure-04.png</image:loc>
+      <image:caption>Five questions to test whether a biotech can afford to remain independent</image:caption>
+      <image:title>Why These Four Biotechs Can Afford Not to Sell</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-not-selling/cover.png</image:loc>
+      <image:caption>Biotech 不賣給大藥廠的五個條件</image:caption>
+      <image:title>不賣給大藥廠，4 家生技公司憑什麼自己做大？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-not-selling/figure-01.png</image:loc>
+      <image:caption>不賣給大藥廠的五個條件：產品證據、現金引擎、第二曲線、全球執行與融資選項</image:caption>
+      <image:title>不賣給大藥廠，4 家生技公司憑什麼自己做大？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-not-selling/figure-02.png</image:loc>
+      <image:caption>四家公司走在不同的獨立經營階段</image:caption>
+      <image:title>不賣給大藥廠，4 家生技公司憑什麼自己做大？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-not-selling/figure-03.png</image:loc>
+      <image:caption>Revolution Medicines 以融資保留控制權，同時承擔 15 年權利金與債務成本</image:caption>
+      <image:title>不賣給大藥廠，4 家生技公司憑什麼自己做大？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/biotech-independence-not-selling/figure-04.png</image:loc>
+      <image:caption>判斷 Biotech 是否有不賣資格的五個問題</image:caption>
+      <image:title>不賣給大藥廠，4 家生技公司憑什麼自己做大？</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html</loc>
-    <image:image><image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/cover.png</image:loc><image:caption>22 億美元收購 FB102，考驗 argenx 能否複製 VYVGART 的成功</image:caption><image:title>22 億美元，買下一個自體免疫藥王？</image:title></image:image>
-    <image:image><image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/figure-01.png</image:loc><image:caption>交易已宣布、仍待交割；22 億美元買到的是 FB102 的早期選擇權。</image:caption><image:title>22 億美元，買下一個自體免疫藥王？</image:title></image:image>
-    <image:image><image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/figure-02.png</image:loc><image:caption>VYVGART 到平台能力的第二場考試。</image:caption><image:title>22 億美元，買下一個自體免疫藥王？</image:title></image:image>
-    <image:image><image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/figure-03.png</image:loc><image:caption>CD122 是 IL-2 與 IL-15 受體共用的 beta 次單元。</image:caption><image:title>22 億美元，買下一個自體免疫藥王？</image:title></image:image>
-    <image:image><image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/figure-04.png</image:loc><image:caption>Phase 2 重現與長期安全是第二個商業支柱的門檻。</image:caption><image:title>22 億美元，買下一個自體免疫藥王？</image:title></image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/cover.png</image:loc>
+      <image:caption>argenx 從 VYVGART 的單品成功走向 FB102 平台能力考試</image:caption>
+      <image:title>22 億美元，買下一個自體免疫藥王？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/figure-01.png</image:loc>
+      <image:caption>argenx 以 22 億美元收購 Forte、把 FB102 納入免疫管線的交易考題</image:caption>
+      <image:title>22 億美元，買下一個自體免疫藥王？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/figure-02.png</image:loc>
+      <image:caption>VYVGART 現金流如何支撐 argenx 收購 FB102</image:caption>
+      <image:title>22 億美元，買下一個自體免疫藥王？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/figure-03.png</image:loc>
+      <image:caption>FB102 的 CD122、IL-2 與 IL-15 作用邊界</image:caption>
+      <image:title>22 億美元，買下一個自體免疫藥王？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/figure-04.png</image:loc>
+      <image:caption>FB102 從兩組 Phase 1b 訊號走向 Phase 2 與長期安全驗證的證據階梯</image:caption>
+      <image:title>22 億美元，買下一個自體免疫藥王？</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html</loc>
-    <image:image><image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition-en/cover.png</image:loc><image:caption>argenx weighs a 2.2 billion dollar acquisition of Forte and early anti-CD122 antibody FB102.</image:caption><image:title>$2.2 Billion for the Next Autoimmune Blockbuster?</image:title></image:image>
-    <image:image><image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition-en/figure-01.png</image:loc><image:caption>The deal is announced but not yet closed.</image:caption><image:title>$2.2 Billion for the Next Autoimmune Blockbuster?</image:title></image:image>
-    <image:image><image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition-en/figure-02.png</image:loc><image:caption>From VYVGART product success to a repeatable development engine.</image:caption><image:title>$2.2 Billion for the Next Autoimmune Blockbuster?</image:title></image:image>
-    <image:image><image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition-en/figure-03.png</image:loc><image:caption>CD122 is the shared beta subunit of the IL-2 and IL-15 receptors.</image:caption><image:title>$2.2 Billion for the Next Autoimmune Blockbuster?</image:title></image:image>
-    <image:image><image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition-en/figure-04.png</image:loc><image:caption>Phase 2 replication and long-term safety are the real thresholds.</image:caption><image:title>$2.2 Billion for the Next Autoimmune Blockbuster?</image:title></image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition-en/cover.png</image:loc>
+      <image:caption>argenx moves from VYVGART commercial scale to an early-stage FB102 platform test</image:caption>
+      <image:title>$2.2 Billion for the Next Autoimmune Blockbuster?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition-en/figure-01.png</image:loc>
+      <image:caption>argenx proposes to acquire Forte and the early-stage anti-CD122 antibody FB102 for $2.2 billion</image:caption>
+      <image:title>$2.2 Billion for the Next Autoimmune Blockbuster?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition-en/figure-02.png</image:loc>
+      <image:caption>VYVGART sales and argenx liquidity finance a test of whether the company can repeat its development playbook with FB102</image:caption>
+      <image:title>$2.2 Billion for the Next Autoimmune Blockbuster?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition-en/figure-03.png</image:loc>
+      <image:caption>FB102 targets CD122, the shared beta subunit of IL-2 and IL-15 receptors, while the long-term immune safety window remains unproven</image:caption>
+      <image:title>$2.2 Billion for the Next Autoimmune Blockbuster?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition-en/figure-04.png</image:loc>
+      <image:caption>The evidence ladder for FB102 runs from two Phase 1b signals to Phase 2 replication, larger studies and long-term safety</image:caption>
+      <image:title>$2.2 Billion for the Next Autoimmune Blockbuster?</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html</loc>
@@ -599,62 +807,6 @@
       <image:loc>https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time-en/04-how-deal-terms-allocate-risk.webp</image:loc>
       <image:caption>Upfront cash, milestones, CVRs and closing conditions allocate different parts of transaction risk</image:caption>
       <image:title>$130 Billion in Six Months: Big Pharma Is Buying Time</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch-en.html</loc>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/cover-en.webp</image:loc>
-      <image:caption>ICOTYDE brings a once-daily oral peptide into competition with injectable psoriasis therapies</image:caption>
-      <image:title>Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/01_approval-and-naming.png</image:loc>
-      <image:caption>ICOTYDE is a targeted oral IL-23R peptide, not an oral biologic</image:caption>
-      <image:title>Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/02_launch-demand.png</image:loc>
-      <image:caption>ICOTYDE&apos;s first 90 days show prescription, patient, prescriber, and coverage signals, not yet paid-demand proof</image:caption>
-      <image:title>Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/03_efficacy-denominator.png</image:loc>
-      <image:caption>How to read ICOTYDE&apos;s week-16 head-to-head results and the denominator behind week-52 PASI 90 maintenance</image:caption>
-      <image:title>Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/04_commercial-watchpoints.png</image:loc>
-      <image:caption>Four commercial variables that will determine whether ICOTYDE can take share from injectable psoriasis therapies</image:caption>
-      <image:title>Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-07-26-icotyde-oral-il23r-launch.html</loc>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/cover-zh.webp</image:loc>
-      <image:caption>ICOTYDE 以每日口服胜肽挑戰乾癬注射治療的商業主視覺</image:caption>
-      <image:title>一顆藥，搶針劑的飯碗</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/01_%E6%A0%B8%E5%87%86%E8%88%87%E6%AD%A3%E5%90%8D.png</image:loc>
-      <image:caption>ICOTYDE 是標靶口服 IL-23R 胜肽，不是口服生物製劑</image:caption>
-      <image:title>一顆藥，搶針劑的飯碗</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/02_%E4%B8%8A%E5%B8%82%E9%9C%80%E6%B1%82%E8%A8%8A%E8%99%9F.png</image:loc>
-      <image:caption>ICOTYDE 上市 90 天的處方、病人、開方者與保險覆蓋訊號</image:caption>
-      <image:title>一顆藥，搶針劑的飯碗</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/03_%E7%99%82%E6%95%88%E5%88%86%E6%AF%8D%E8%AE%80%E6%B3%95.png</image:loc>
-      <image:caption>ICOTYDE 第 16 週頭對頭結果與第 52 週 PASI 90 維持率的正確分母</image:caption>
-      <image:title>一顆藥，搶針劑的飯碗</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/04_%E5%95%86%E6%A5%AD%E5%8C%96%E5%9B%9B%E8%A7%80%E5%AF%9F.png</image:loc>
-      <image:caption>判斷 ICOTYDE 能否搶走針劑市場要追蹤的四個商業化指標</image:caption>
-      <image:title>一顆藥，搶針劑的飯碗</image:title>
     </image:image>
   </url>
   <url>

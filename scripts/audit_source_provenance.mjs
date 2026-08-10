@@ -12,6 +12,7 @@ function textOf(markdown) {
     .replace(/^---[\s\S]*?---\s*/m, "")
     .replace(/!\[[^\]]*]\([^)]*\)/g, " ")
     .replace(/\[([^\]]+)]\([^)]*\)/g, "$1")
+    .replace(/https?:\/\/\S+/g, " ")
     .replace(/[`*_>#|]/g, " ")
     .replace(/\s+/g, " ")
     .trim();

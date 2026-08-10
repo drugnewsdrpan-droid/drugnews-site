@@ -1,25 +1,41 @@
 {
-  "title": "Can a Pill Take Share from Injectables? The ICOTYDE Commercial Test",
-  "lang": "en",
-  "date": "2026-07-26",
-  "publish_at": "2026-07-26T08:00:00+08:00",
+  "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
+  "date": "2026-08-09",
+  "publish_at": "2026-08-09T08:00:00+08:00",
   "category": "商業分析系列",
-  "tags": ["ICOTYDE", "icotrokinra", "Johnson & Johnson", "J&J", "plaque psoriasis", "IL-23R", "oral peptide", "deucravacitinib", "PASI 90", "IGA 0/1", "Formosa Laboratories", "Taiwan biotech", "biotech valuation"],
-  "summary": "ICOTYDE generated more than 18,000 prescriptions in its first full quarter, showing demand for an oral IL-23R peptide. Valuation now depends on paid scripts, persistence, payer quality, and success beyond psoriasis.",
+  "series": "商業分析系列",
+  "tags": [
+    "ICOTYDE",
+    "icotrokinra",
+    "Johnson & Johnson",
+    "Psoriasis",
+    "IL-23R",
+    "Oral Peptide",
+    "Drug Commercialization"
+  ],
+  "summary": "ICOTYDE logged more than 18,000 prescriptions in its first full quarter. The oral IL-23R peptide has earned entry into the high-efficacy psoriasis market, but durable value still depends on paid fills, persistence, payer quality, safety, and additional indications.",
   "slug": "icotyde-oral-il23r-launch-en",
-  "source_platform": "Website",
-  "cmoney_article_id": "180916467",
-  "cmoney_url": "https://www.cmoney.tw/forum/article/180916467",
-  "source_status": "English website adaptation synchronized to the 2026-07-19 PASS Facebook/Dcard longform; public CMoney readback retained as publication evidence",
-  "cover_image": "images/cover-en.webp",
-  "cover_image_alt": "An oral IL-23R peptide, psoriatic skin, and an injectable biologic define the ICOTYDE commercial contest",
-  "homepage_cover_image": "images/cover-en.webp",
-  "homepage_cover_image_alt": "ICOTYDE brings a once-daily oral peptide into competition with injectable psoriasis therapies",
+  "lang": "en",
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/permalink.php?story_fbid=1571385171312382&id=61568446257142",
+  "source_status": "Published publicly on Facebook; this complete English edition preserves the argument sequence, denominator caveats, commercial analysis, references and disclaimer",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "An oral IL-23R peptide approaching an immune receptor in a scientific visualization",
+  "card_image": "images/cover-1400.webp",
+  "card_image_alt": "An oral IL-23R peptide begins challenging the injectable psoriasis market",
+  "homepage_cover_image": "images/cover.png",
+  "homepage_cover_image_alt": "Scientific visualization of an oral IL-23R peptide and its immune receptor",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
   "enable_toc": true,
   "core_judgments": [
-    "ICOTYDE has moved oral psoriasis therapy into a high-efficacy competitive tier, but launch momentum must convert into paid prescriptions and persistence before it becomes commercial proof.",
-    "The 84% week-52 PASI 90 maintenance figure applies only to adult week-24 PASI 90 responders rerandomized to continue therapy, not to every treated patient.",
-    "The more-than-$5-billion potential depends on psoriatic arthritis, ulcerative colitis, and Crohn's disease, so a multi-indication expectation should not be capitalized all at once."
+    "Eighteen thousand prescriptions show willingness to try a high-efficacy oral option, but they do not by themselves establish paid revenue or long-term persistence.",
+    "ICOTYDE outperformed deucravacitinib head to head and has supportive one-year maintenance evidence, but responder-denominator results cannot be compared directly with whole-population rates from other trials.",
+    "J&J's more-than-$5-billion ambition requires success across indications as well as durable reimbursement, refills, safety, and real-world outcomes."
   ],
-  "translations": {"zh-Hant": "2026-07-26-icotyde-oral-il23r-launch.html"}
+  "translations": {
+    "zh-Hant": "2026-08-09-icotyde-oral-il23r-launch.html"
+  }
 }

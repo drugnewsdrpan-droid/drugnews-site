@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-06T00:00:00.000Z</news:publication_date>
-      <news:title>Investors, Take Note: Hair Loss Could Be Biotech&apos;s Next Weight-Loss-Drug-Sized Blockbuster</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html</loc>
+    <loc>https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html</loc>
     <news:news>
       <news:publication>
         <news:name>Drugnews｜藥時事</news:name>
         <news:language>zh-tw</news:language>
       </news:publication>
-      <news:publication_date>2026-08-06T00:00:00.000Z</news:publication_date>
-      <news:title>投資人請注意，下一個減肥藥級別賽道來了！</news:title>
+      <news:publication_date>2026-08-10T00:00:00.000Z</news:publication_date>
+      <news:title>禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html</loc>
+    <loc>https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html</loc>
     <news:news>
       <news:publication>
         <news:name>Drugnews｜藥時事</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-05T00:00:00.000Z</news:publication_date>
-      <news:title>More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?</news:title>
+      <news:publication_date>2026-08-10T00:00:00.000Z</news:publication_date>
+      <news:title>$130 Billion in Six Months: Big Pharma Is Buying Time</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html</loc>
+    <loc>https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T00:00:00.000Z</news:publication_date>
+      <news:title>J&amp;J&apos;s Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html</loc>
     <news:news>
       <news:publication>
         <news:name>Drugnews｜藥時事</news:name>
         <news:language>zh-tw</news:language>
       </news:publication>
-      <news:publication_date>2026-08-05T00:00:00.000Z</news:publication_date>
-      <news:title>一季賣破 10 億，Alnylam 為何崩 28%？</news:title>
+      <news:publication_date>2026-08-09T00:00:00.000Z</news:publication_date>
+      <news:title>嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？</news:title>
     </news:news>
   </url>
 </urlset>

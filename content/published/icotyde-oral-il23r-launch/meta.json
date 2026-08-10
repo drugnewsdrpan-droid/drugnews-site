@@ -1,24 +1,39 @@
 {
-  "title": "一顆藥，搶針劑的飯碗",
-  "date": "2026-07-26",
-  "publish_at": "2026-07-26T08:00:00+08:00",
+  "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
+  "date": "2026-08-09",
+  "publish_at": "2026-08-09T08:00:00+08:00",
   "category": "商業分析系列",
-  "tags": ["ICOTYDE", "icotrokinra", "Johnson & Johnson", "J&J", "乾癬", "IL-23R", "口服胜肽", "deucravacitinib", "PASI 90", "IGA 0/1", "台耀", "4746", "生技估值"],
-  "summary": "ICOTYDE 上市首季超過 18,000 張處方，證明口服 IL-23R 胜肽有需求；真正決定估值的，仍是付費處方、續方、支付品質與多適應症兌現。",
+  "tags": [
+    "ICOTYDE",
+    "icotrokinra",
+    "Johnson & Johnson",
+    "乾癬",
+    "IL-23R",
+    "口服胜肽",
+    "新藥商業化"
+  ],
+  "summary": "ICOTYDE 上市後第一個完整季度累積逾 18,000 張處方。口服 IL-23R 胜肽已取得進入高療效市場的資格，真正的商業答案仍取決於續方、支付品質、長期留存與多適應症。",
   "slug": "icotyde-oral-il23r-launch",
   "source_platform": "Facebook",
-  "cmoney_article_id": "180916467",
-  "cmoney_url": "https://www.cmoney.tw/forum/article/180916467",
-  "source_status": "website body synchronized to the 2026-07-19 PASS Facebook/Dcard longform; public CMoney readback retained as publication evidence",
-  "cover_image": "images/cover-zh.webp",
-  "cover_image_alt": "口服 IL-23R 胜肽、乾癬皮膚與注射型生物製劑構成 ICOTYDE 商業競爭場景",
-  "homepage_cover_image": "images/cover-zh.webp",
-  "homepage_cover_image_alt": "ICOTYDE 以每日口服胜肽挑戰乾癬注射治療的商業主視覺",
+  "source_url": "https://www.facebook.com/permalink.php?story_fbid=1571385171312382&id=61568446257142",
+  "source_status": "Published publicly on Facebook; website article preserves the complete approved longform, denominator caveats, references and disclaimer",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "口服 IL-23R 胜肽與免疫受體結合的科學主視覺",
+  "card_image": "images/cover-1400.webp",
+  "card_image_alt": "口服 IL-23R 胜肽開始挑戰乾癬生物製劑市場",
+  "homepage_cover_image": "images/cover.png",
+  "homepage_cover_image_alt": "口服 IL-23R 胜肽與免疫受體的藥物開發主視覺",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
   "enable_toc": true,
   "core_judgments": [
-    "ICOTYDE 已讓口服乾癬治療進入高療效競爭區，但上市聲量必須轉成付費處方與持續用藥，才算商業證明。",
-    "第 52 週維持 PASI 90 的 84%，只適用於第 24 週已達 PASI 90 且持續用藥的成人反應者，不能代表所有治療病人。",
-    "50 億美元以上潛力依賴乾癬性關節炎、潰瘍性結腸炎與克隆氏症兌現，不能把多適應症期待一次灌進估值。"
+    "18,000 張處方證明醫療端與病人願意嘗試口服高療效選項，但不能直接等同付費收入或長期留存。",
+    "ICOTYDE 頭對頭優於 deucravacitinib，且有一年維持資料；跨試驗把反應者分母與全體患者百分比直接相比並不成立。",
+    "50 億美元以上的商業敘事需要乾癬以外的多適應症成功，並持續證明支付、續方、安全性與真實世界效果。"
   ],
-  "translations": {"en": "2026-07-26-icotyde-oral-il23r-launch-en.html"}
+  "translations": {
+    "en": "2026-08-09-icotyde-oral-il23r-launch-en.html"
+  }
 }
