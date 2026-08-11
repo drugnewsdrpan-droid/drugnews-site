@@ -209,6 +209,60 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+      "date": "2026-08-11",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+      "source": "Website",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "AnBogen Therapeutics",
+        "ABT-301",
+        "imofinostat",
+        "HDAC inhibitor",
+        "Chidamide",
+        "pMMR colorectal cancer",
+        "cancer immunotherapy",
+        "Taiwan biotech"
+      ],
+      "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone.",
+      "image": "https://drugnews.com.tw/assets/articles/anbogen-abt301-next-generation-hdaci-backbone-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html"
+      }
+    },
+    {
+      "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
+      "date": "2026-08-11",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
+      "source": "Website",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "安邦生技",
+        "ABT-301",
+        "imofinostat",
+        "HDAC抑制劑",
+        "Chidamide",
+        "pMMR大腸直腸癌",
+        "癌症免疫治療",
+        "台灣生技"
+      ],
+      "summary": "Chidamide以pMMR大腸癌44% ORR與黑色素瘤第三期PFS達標，重新降低HDAC抑制劑的類別風險；安邦ABT-301接下來必須用治療窗口、三聯可組合性與人體免疫機轉，證明資產差異。",
+      "image": "https://drugnews.com.tw/assets/articles/anbogen-abt301-next-generation-hdaci-backbone/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html"
+      }
+    },
+    {
       "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
       "date": "2026-08-10",
       "language": "zh-Hant",
@@ -1566,63 +1620,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-07-14-novartis-myricx-nmti-adc-en.html"
-      }
-    },
-    {
-      "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-      "date": "2026-07-13",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-      "source": "Facebook",
-      "access": "Free Article",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "AI drug discovery",
-        "Claude Science",
-        "Anthropic",
-        "foundation models",
-        "drug development",
-        "AnHorn Medicines",
-        "PROTAC",
-        "CMC",
-        "clinical assets"
-      ],
-      "summary": "Anthropic's launch of Claude Science and its move into drug discovery show foundation-model companies shifting from research tools into real R&D workflows. AI drug discovery will ultimately be judged by experiments, clinical data and tradable assets.",
-      "image": "https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery-en/cover.png",
-      "is_accessible_for_free": false,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-13-anthropic-claude-science-ai-drug-discovery.html"
-      }
-    },
-    {
-      "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-      "date": "2026-07-13",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "AI 製藥",
-        "Claude Science",
-        "Anthropic",
-        "大型語言模型",
-        "新藥研發",
-        "安宏生醫",
-        "PROTAC",
-        "CMC",
-        "臨床資產"
-      ],
-      "summary": "Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。",
-      "image": "https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html"
       }
     }
   ]

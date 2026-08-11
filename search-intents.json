@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-10T16:06:56.382Z",
+  "generated_at": "2026-08-11T01:00:09.981Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+      "date": "2026-08-11",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+      "category": "商業分析",
+      "tags": [
+        "AnBogen Therapeutics",
+        "ABT-301",
+        "imofinostat",
+        "HDAC inhibitor",
+        "Chidamide",
+        "pMMR colorectal cancer",
+        "cancer immunotherapy",
+        "Taiwan biotech"
+      ],
+      "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone."
+    },
+    {
+      "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
+      "date": "2026-08-11",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
+      "category": "商業分析",
+      "tags": [
+        "安邦生技",
+        "ABT-301",
+        "imofinostat",
+        "HDAC抑制劑",
+        "Chidamide",
+        "pMMR大腸直腸癌",
+        "癌症免疫治療",
+        "台灣生技"
+      ],
+      "summary": "Chidamide以pMMR大腸癌44% ORR與黑色素瘤第三期PFS達標，重新降低HDAC抑制劑的類別風險；安邦ABT-301接下來必須用治療窗口、三聯可組合性與人體免疫機轉，證明資產差異。"
+    },
     {
       "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
       "date": "2026-08-10",
@@ -772,42 +808,6 @@
         "drug development"
       ],
       "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform."
-    },
-    {
-      "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-      "date": "2026-07-29",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "pelacarsen",
-        "Lp(a)",
-        "HORIZON",
-        "cardiovascular disease",
-        "clinical trials",
-        "antisense oligonucleotide",
-        "Novartis"
-      ],
-      "summary": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations."
-    },
-    {
-      "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-      "date": "2026-07-29",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-      "category": "商業分析",
-      "tags": [
-        "Pelacarsen",
-        "Lp(a)",
-        "HORIZON",
-        "心血管疾病",
-        "臨床試驗",
-        "ASO",
-        "Novartis",
-        "Ionis"
-      ],
-      "summary": "Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。"
     }
   ],
   "do_not_use_as": [

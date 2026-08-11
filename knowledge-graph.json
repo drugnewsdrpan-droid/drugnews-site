@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-10T16:06:56.383Z",
+  "generated_at": "2026-08-11T01:00:09.982Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,50 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+      "date": "2026-08-11",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "AnBogen Therapeutics",
+        "ABT-301",
+        "imofinostat",
+        "HDAC inhibitor",
+        "Chidamide",
+        "pMMR colorectal cancer",
+        "cancer immunotherapy",
+        "Taiwan biotech"
+      ],
+      "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html"
+      }
+    },
+    {
+      "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
+      "date": "2026-08-11",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "安邦生技",
+        "ABT-301",
+        "imofinostat",
+        "HDAC抑制劑",
+        "Chidamide",
+        "pMMR大腸直腸癌",
+        "癌症免疫治療",
+        "台灣生技"
+      ],
+      "summary": "Chidamide以pMMR大腸癌44% ORR與黑色素瘤第三期PFS達標，重新降低HDAC抑制劑的類別風險；安邦ABT-301接下來必須用治療窗口、三聯可組合性與人體免疫機轉，證明資產差異。",
+      "alternate_language_versions": {
+        "en": "2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html"
+      }
+    },
     {
       "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
       "date": "2026-08-10",
@@ -777,54 +821,6 @@
       "alternate_language_versions": {
         "zh-Hant": "2026-07-27-h1-2026-biopharma-ma-buying-time.html"
       }
-    },
-    {
-      "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-      "date": "2026-07-25",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Roche",
-        "Big Pharma",
-        "pharma strategy",
-        "giredestrant",
-        "fenebrutinib",
-        "trontinemab",
-        "petrelintide",
-        "bexobrutideg",
-        "BRIM Biotechnology",
-        "BD licensing"
-      ],
-      "summary": "Roche generated CHF 47.669 billion in pharmaceutical sales in 2025, with Ocrevus, Hemlibra, and Vabysmo already accounting for roughly one-third of the total. The number that matters is not simply 19 potential new molecules, but whether giredestrant, fenebrutinib, obesity, Alzheimer's, and protein-degradation assets can inherit Roche's existing clinical, diagnostic, and commercial infrastructure on time.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-25-roche-19-molecule-succession-engine.html"
-      }
-    },
-    {
-      "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-      "date": "2026-07-25",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Roche",
-        "羅氏",
-        "Big Pharma",
-        "製藥巨頭",
-        "giredestrant",
-        "fenebrutinib",
-        "trontinemab",
-        "petrelintide",
-        "bexobrutideg",
-        "全福生技"
-      ],
-      "summary": "羅氏 2025 年製藥銷售 476.69 億瑞士法郎，Ocrevus、Hemlibra 與 Vabysmo 已撐起約三分之一收入。真正值得追的不是 19 個新分子的總數，而是 giredestrant、fenebrutinib、減重、阿茲海默症與蛋白質降解資產能否沿既有臨床、診斷與商業通路準時接棒。",
-      "alternate_language_versions": {
-        "en": "2026-07-25-roche-19-molecule-succession-engine-en.html"
-      }
     }
   ],
   "entities": [
@@ -907,9 +903,15 @@
     {
       "name": "Taiwan biotech",
       "type": "topic",
-      "mentions": 22,
-      "latest_date": "2026-08-07",
+      "mentions": 23,
+      "latest_date": "2026-08-11",
       "latest_articles": [
+        {
+          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+          "language": "en"
+        },
         {
           "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
           "date": "2026-08-07",
@@ -932,12 +934,6 @@
           "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
           "date": "2026-07-25",
           "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
           "language": "en"
         }
       ]
@@ -1247,6 +1243,44 @@
       ]
     },
     {
+      "name": "台灣生技",
+      "type": "topic",
+      "mentions": 10,
+      "latest_date": "2026-08-11",
+      "latest_articles": [
+        {
+          "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "投資人請注意，下一個減肥藥級別賽道來了！",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "安邦生技：免疫治療的「星鏈計畫」",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Big Pharma",
       "type": "market_topic",
       "mentions": 10,
@@ -1319,44 +1353,6 @@
           "date": "2026-07-09",
           "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap-en.html",
           "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "台灣生技",
-      "type": "topic",
-      "mentions": 9,
-      "latest_date": "2026-08-06",
-      "latest_articles": [
-        {
-          "title": "投資人請注意，下一個減肥藥級別賽道來了！",
-          "date": "2026-08-06",
-          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "安邦生技：免疫治療的「星鏈計畫」",
-          "date": "2026-07-31",
-          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -1741,44 +1737,6 @@
       ]
     },
     {
-      "name": "Drug development",
-      "type": "topic",
-      "mentions": 7,
-      "latest_date": "2026-06-12",
-      "latest_articles": [
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "AbbVie",
       "type": "topic",
       "mentions": 6,
@@ -2045,11 +2003,17 @@
       ]
     },
     {
-      "name": "Biotech business analysis",
+      "name": "Drug development",
       "type": "topic",
       "mentions": 6,
-      "latest_date": "2026-06-11",
+      "latest_date": "2026-06-12",
       "latest_articles": [
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
         {
           "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
           "date": "2026-06-11",
@@ -2072,12 +2036,6 @@
           "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
           "date": "2026-06-09",
           "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
           "language": "en"
         }
       ]
@@ -2197,39 +2155,71 @@
       ]
     },
     {
-      "name": "AI",
+      "name": "Biotech business analysis",
       "type": "topic",
       "mentions": 5,
-      "latest_date": "2026-06-24",
+      "latest_date": "2026-06-11",
       "latest_articles": [
         {
-          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
+          "date": "2026-06-08",
+          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "ABT-301",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-11",
+      "latest_articles": [
+        {
+          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+          "language": "en"
+        },
+        {
+          "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
           "language": "zh-Hant"
         },
         {
-          "title": "【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
-          "language": "zh-Hant"
+          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+          "language": "en"
         },
         {
-          "title": "GSK 用 106 億美元買下 Nuvalent：真正買的不是三條肺癌管線，而是「耐藥與腦轉移」的下一代解法",
-          "date": "2026-06-19",
-          "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "AI製藥下半場：讓藥活下來",
-          "date": "2026-06-13",
-          "url": "https://drugnews.com.tw/articles/2026-06-13-dcard-261654701.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "沒有 AI 能力的藥廠，將不再被稱作藥廠",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
+          "title": "安邦生技：免疫治療的「星鏈計畫」",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
           "language": "zh-Hant"
         }
       ]
@@ -2459,38 +2449,6 @@
       ]
     },
     {
-      "name": "新藥研發",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "沒有 AI 能力的藥廠，將不再被稱作藥廠",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Ionis",
       "type": "topic",
       "mentions": 4,
@@ -2683,38 +2641,6 @@
       ]
     },
     {
-      "name": "AI drug discovery",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-07-13",
-      "latest_articles": [
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Drugmakers Without AI Capability May No Longer Be Called Drugmakers",
-          "date": "2026-06-07",
-          "url": "https://drugnews.com.tw/articles/2026-06-07-pharma-ai-capability-future-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Biotech investing",
       "type": "topic",
       "mentions": 4,
@@ -2743,6 +2669,38 @@
           "date": "2026-06-12",
           "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "AI",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-06-24",
+      "latest_articles": [
+        {
+          "title": "AI製藥，第一藥終於要來了嗎？武田 Zasocitinib 頭對頭打敗 Sotyktu",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【Enlivex 的幣圈豪賭：Biotech 沒收入，卻靠 RAIN 代幣賺出 12 億美元帳面利潤】",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GSK 用 106 億美元買下 Nuvalent：真正買的不是三條肺癌管線，而是「耐藥與腦轉移」的下一代解法",
+          "date": "2026-06-19",
+          "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "AI製藥下半場：讓藥活下來",
+          "date": "2026-06-13",
+          "url": "https://drugnews.com.tw/articles/2026-06-13-dcard-261654701.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2987,6 +2945,32 @@
       ]
     },
     {
+      "name": "新藥研發",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "ASO",
       "type": "topic",
       "mentions": 3,
@@ -3143,6 +3127,32 @@
       ]
     },
     {
+      "name": "AI drug discovery",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-07-13",
+      "latest_articles": [
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "PRMT5",
       "type": "biotech_concept_or_target",
       "mentions": 3,
@@ -3247,6 +3257,106 @@
       ]
     },
     {
+      "name": "安邦生技",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-11",
+      "latest_articles": [
+        {
+          "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "安邦生技：免疫治療的「星鏈計畫」",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "癌症免疫治療",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-11",
+      "latest_articles": [
+        {
+          "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "安邦生技：免疫治療的「星鏈計畫」",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "AnBogen Therapeutics",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-11",
+      "latest_articles": [
+        {
+          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+          "language": "en"
+        },
+        {
+          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Chidamide",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-11",
+      "latest_articles": [
+        {
+          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+          "language": "en"
+        },
+        {
+          "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "imofinostat",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-11",
+      "latest_articles": [
+        {
+          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+          "language": "en"
+        },
+        {
+          "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "藥廠併購",
       "type": "topic",
       "mentions": 2,
@@ -3285,129 +3395,28 @@
           "language": "en"
         }
       ]
-    },
-    {
-      "name": "IQVIA",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-10",
-      "latest_articles": [
-        {
-          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "icotrokinra",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-09",
-      "latest_articles": [
-        {
-          "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
-          "date": "2026-08-09",
-          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
-          "date": "2026-08-09",
-          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "ICOTYDE",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-09",
-      "latest_articles": [
-        {
-          "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
-          "date": "2026-08-09",
-          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
-          "date": "2026-08-09",
-          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "IL-23R",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-09",
-      "latest_articles": [
-        {
-          "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
-          "date": "2026-08-09",
-          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
-          "date": "2026-08-09",
-          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Johnson & Johnson",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-09",
-      "latest_articles": [
-        {
-          "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
-          "date": "2026-08-09",
-          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
-          "language": "en"
-        },
-        {
-          "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
-          "date": "2026-08-09",
-          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "CD122",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-07",
-      "latest_articles": [
-        {
-          "title": "22 億美元，買下一個自體免疫藥王？",
-          "date": "2026-08-07",
-          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
-          "date": "2026-08-07",
-          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
-          "language": "en"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+      "date": "2026-08-11",
+      "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "AnBogen Therapeutics",
+        "ABT-301",
+        "imofinostat",
+        "HDAC inhibitor",
+        "Chidamide",
+        "pMMR colorectal cancer",
+        "cancer immunotherapy",
+        "Taiwan biotech"
+      ],
+      "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone."
+    },
     {
       "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
       "date": "2026-08-10",
@@ -3953,25 +3962,6 @@
         "Avidity Biosciences"
       ],
       "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。"
-    },
-    {
-      "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
-      "date": "2026-07-15",
-      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Free Article",
-      "tags": [
-        "Business Analysis",
-        "regulatory T cells",
-        "Treg",
-        "immune tolerance",
-        "cell therapy",
-        "autoimmune disease",
-        "transplantation",
-        "CMC"
-      ],
-      "summary": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline."
     }
   ]
 }

@@ -51,7 +51,7 @@
       const english = document.documentElement.lang.startsWith("en");
       title.textContent = english ? "Full-size article figure" : "文章圖解原尺寸閱讀";
       closeButton.setAttribute("aria-label", english ? "Close figure" : "關閉圖解");
-      expandedImage.src = source.currentSrc || source.src;
+      expandedImage.src = source.src || source.currentSrc;
       expandedImage.alt = source.alt;
       document.body.classList.add("article-image-dialog-open");
       dialog.showModal();

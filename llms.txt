@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-11｜After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone
+  URL: https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html
+  Topics: AnBogen Therapeutics, ABT-301, imofinostat, HDAC inhibitor, Chidamide
+  Summary: Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone.
+- 2026-08-11｜20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹
+  URL: https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html
+  Topics: 安邦生技, ABT-301, imofinostat, HDAC抑制劑, Chidamide
+  Summary: Chidamide以pMMR大腸癌44% ORR與黑色素瘤第三期PFS達標，重新降低HDAC抑制劑的類別風險；安邦ABT-301接下來必須用治療窗口、三聯可組合性與人體免疫機轉，證明資產差異。
 - 2026-08-10｜禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！
   URL: https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html
   Topics: 生技併購, 藥廠併購, 專利懸崖, Eli Lilly, Merck
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html
   Topics: Alnylam, Amvuttra, RNAi, ATTR, 小核酸藥物
   Summary: Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。
-- 2026-08-04｜A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking
-  URL: https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html
-  Topics: AstraZeneca, Bristol Myers Squibb, BMS, pharma M&A, patent cliff
-  Summary: AstraZeneca and BMS reportedly explored a combination with a combined market value approaching $400 billion. There is no announced transaction. The real questions are AstraZeneca's 2030 growth target, BMS's Eliquis and Opdivo exclusivity timeline, oncology-pipeline overlap, antitrust and whether integration can actually buy time.
-- 2026-08-04｜超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！
-  URL: https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html
-  Topics: AstraZeneca, 阿斯特捷利康, Bristol Myers Squibb, BMS, 百時美施貴寶
-  Summary: Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。
 
 ## Key Site Sections
 

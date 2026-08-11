@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 10 Aug 2026 16:06:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 01:00:09 GMT</lastBuildDate>
+    <item>
+      <title>20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹</title>
+      <link>https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/anbogen-abt301-next-generation-hdaci-backbone/cover-1400.webp" alt="ABT-301透過表觀遺傳重塑，讓免疫細胞進入原本排斥免疫的實體腫瘤"></p><p>Chidamide以pMMR大腸癌44% ORR與黑色素瘤第三期PFS達標，重新降低HDAC抑制劑的類別風險；安邦ABT-301接下來必須用治療窗口、三聯可組合性與人體免疫機轉，證明資產差異。</p>]]></description>
+    </item>
     <item>
       <title>禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！</title>
       <link>https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc/cover.png" alt="新型 NMTi payload 抗體藥物複合體進入腫瘤細胞並干擾細胞內機制的科學主視覺"></p><p>諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。</p>]]></description>
-    </item>
-    <item>
-      <title>大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場</title>
-      <link>https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/anthropic-claude-science-ai-drug-discovery/cover.png" alt="AI 模型、分子設計、濕實驗與臨床資料串成藥物研發閉環的科學主視覺"></p><p>Anthropic 推出 Claude Science 並啟動藥物發現計畫，顯示大模型公司正從科研工具走向真實研發工作流；AI 製藥最終仍要用實驗、臨床資料與可交易資產證明價值。</p>]]></description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T00:00:00.000Z</news:publication_date>
+      <news:title>After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T00:00:00.000Z</news:publication_date>
+      <news:title>20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html</loc>
     <news:news>
       <news:publication>
@@ -20,28 +42,6 @@
       </news:publication>
       <news:publication_date>2026-08-10T00:00:00.000Z</news:publication_date>
       <news:title>$130 Billion in Six Months: Big Pharma Is Buying Time</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-09T00:00:00.000Z</news:publication_date>
-      <news:title>J&amp;J&apos;s Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-09T00:00:00.000Z</news:publication_date>
-      <news:title>嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？</news:title>
     </news:news>
   </url>
 </urlset>
