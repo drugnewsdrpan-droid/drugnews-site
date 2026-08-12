@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-11T01:00:09.982Z",
+  "generated_at": "2026-08-12T07:16:07.066Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,53 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+      "date": "2026-08-12",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Bio Genesis Mission",
+        "AI drug discovery",
+        "NIH",
+        "DOE",
+        "biomedical data",
+        "drug development",
+        "digital pathology",
+        "multi-omics",
+        "Taiwan biotech"
+      ],
+      "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-12-bio-genesis-mission-ai-drug-rd.html"
+      }
+    },
+    {
+      "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
+      "date": "2026-08-12",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Bio Genesis Mission",
+        "AI製藥",
+        "NIH",
+        "DOE",
+        "生醫資料",
+        "藥物研發",
+        "數位病理",
+        "多體學",
+        "雲象科技",
+        "基米"
+      ],
+      "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。",
+      "alternate_language_versions": {
+        "en": "2026-08-12-bio-genesis-mission-ai-drug-rd-en.html"
+      }
+    },
     {
       "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
       "date": "2026-08-11",
@@ -773,54 +820,6 @@
       "alternate_language_versions": {
         "en": "2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html"
       }
-    },
-    {
-      "title": "半年千億，買的是時間",
-      "date": "2026-07-27",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "生技併購",
-        "藥廠併購",
-        "Biopharma M&A",
-        "專利懸崖",
-        "Lilly",
-        "Merck",
-        "AbbVie",
-        "Gilead",
-        "GSK",
-        "Terns"
-      ],
-      "summary": "2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。",
-      "alternate_language_versions": {
-        "en": "2026-07-27-h1-2026-biopharma-ma-buying-time-en.html"
-      }
-    },
-    {
-      "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-      "date": "2026-07-27",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "biopharma M&A",
-        "Big Pharma",
-        "patent cliff",
-        "loss of exclusivity",
-        "Lilly",
-        "Merck",
-        "AbbVie",
-        "Gilead",
-        "GSK",
-        "Terns"
-      ],
-      "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-27-h1-2026-biopharma-ma-buying-time.html"
-      }
     }
   ],
   "entities": [
@@ -903,9 +902,15 @@
     {
       "name": "Taiwan biotech",
       "type": "topic",
-      "mentions": 23,
-      "latest_date": "2026-08-11",
+      "mentions": 24,
+      "latest_date": "2026-08-12",
       "latest_articles": [
+        {
+          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "language": "en"
+        },
         {
           "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
           "date": "2026-08-11",
@@ -928,12 +933,6 @@
           "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
           "date": "2026-07-28",
           "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
           "language": "en"
         }
       ]
@@ -977,6 +976,44 @@
       ]
     },
     {
+      "name": "drug development",
+      "type": "topic",
+      "mentions": 17,
+      "latest_date": "2026-08-12",
+      "latest_articles": [
+        {
+          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+          "language": "en"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Business Analysis",
       "type": "topic",
       "mentions": 17,
@@ -1010,44 +1047,6 @@
           "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
           "date": "2026-07-16",
           "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "drug development",
-      "type": "topic",
-      "mentions": 16,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-          "language": "en"
-        },
-        {
-          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-          "date": "2026-07-30",
-          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
           "language": "en"
         }
       ]
@@ -1395,44 +1394,6 @@
       ]
     },
     {
-      "name": "CAR-T",
-      "type": "biotech_concept_or_target",
-      "mentions": 9,
-      "latest_date": "2026-08-04",
-      "latest_articles": [
-        {
-          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
-          "language": "en"
-        },
-        {
-          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-          "language": "en"
-        },
-        {
-          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "通用型 CAR-T 的 2026 從低谷回暖",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Revolution Medicines",
       "type": "company",
       "mentions": 8,
@@ -1543,6 +1504,44 @@
           "date": "2026-07-16",
           "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "CAR-T",
+      "type": "biotech_concept_or_target",
+      "mentions": 7,
+      "latest_date": "2026-08-04",
+      "latest_articles": [
+        {
+          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
+          "date": "2026-08-04",
+          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
+          "language": "en"
+        },
+        {
+          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
+          "date": "2026-08-04",
+          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "language": "en"
+        },
+        {
+          "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
+          "date": "2026-07-28",
+          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "通用型 CAR-T 的 2026 從低谷回暖",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2003,44 +2002,6 @@
       ]
     },
     {
-      "name": "Drug development",
-      "type": "topic",
-      "mentions": 6,
-      "latest_date": "2026-06-12",
-      "latest_articles": [
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "autoimmune disease",
       "type": "topic",
       "mentions": 5,
@@ -2075,44 +2036,6 @@
           "date": "2026-06-26",
           "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
           "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "FDA",
-      "type": "market_topic",
-      "mentions": 5,
-      "latest_date": "2026-07-10",
-      "latest_articles": [
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -2155,11 +2078,17 @@
       ]
     },
     {
-      "name": "Biotech business analysis",
+      "name": "Drug development",
       "type": "topic",
       "mentions": 5,
-      "latest_date": "2026-06-11",
+      "latest_date": "2026-06-12",
       "latest_articles": [
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "language": "en"
+        },
         {
           "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
           "date": "2026-06-11",
@@ -2183,11 +2112,37 @@
           "date": "2026-06-09",
           "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "AI drug discovery",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-12",
+      "latest_articles": [
+        {
+          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "language": "en"
         },
         {
-          "title": "CAR-T Enters a New Era: From Blood Cancer to Autoimmune Disease",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era-en.html",
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
+          "date": "2026-06-24",
+          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
+          "date": "2026-06-12",
+          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
           "language": "en"
         }
       ]
@@ -2641,6 +2596,38 @@
       ]
     },
     {
+      "name": "FDA",
+      "type": "market_topic",
+      "mentions": 4,
+      "latest_date": "2026-07-10",
+      "latest_articles": [
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Biotech investing",
       "type": "topic",
       "mentions": 4,
@@ -2732,6 +2719,38 @@
           "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
           "date": "2026-06-11",
           "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Biotech business analysis",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-06-11",
+      "latest_articles": [
+        {
+          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
+          "date": "2026-06-11",
+          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
+          "date": "2026-06-09",
+          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
           "language": "en"
         }
       ]
@@ -2837,32 +2856,6 @@
           "date": "2026-06-25",
           "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
           "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "自體免疫",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-08-07",
-      "latest_articles": [
-        {
-          "title": "22 億美元，買下一個自體免疫藥王？",
-          "date": "2026-08-07",
-          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
-          "date": "2026-07-15",
-          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "CAR-T 迎接新時代：從血癌走向自體免疫",
-          "date": "2026-06-08",
-          "url": "https://drugnews.com.tw/articles/2026-06-08-cart-autoimmune-new-era.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -3127,32 +3120,6 @@
       ]
     },
     {
-      "name": "AI drug discovery",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-07-13",
-      "latest_articles": [
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "PRMT5",
       "type": "biotech_concept_or_target",
       "mentions": 3,
@@ -3257,6 +3224,106 @@
       ]
     },
     {
+      "name": "基米",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-12",
+      "latest_articles": [
+        {
+          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "藥物研發",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-12",
+      "latest_articles": [
+        {
+          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Bio Genesis Mission",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-12",
+      "latest_articles": [
+        {
+          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "language": "en"
+        },
+        {
+          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "DOE",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-12",
+      "latest_articles": [
+        {
+          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "language": "en"
+        },
+        {
+          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "NIH",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-12",
+      "latest_articles": [
+        {
+          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "language": "en"
+        },
+        {
+          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "安邦生技",
       "type": "topic",
       "mentions": 2,
@@ -3315,89 +3382,47 @@
           "language": "en"
         }
       ]
-    },
-    {
-      "name": "Chidamide",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-11",
-      "latest_articles": [
-        {
-          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
-          "date": "2026-08-11",
-          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
-          "language": "en"
-        },
-        {
-          "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
-          "date": "2026-08-11",
-          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "imofinostat",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-11",
-      "latest_articles": [
-        {
-          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
-          "date": "2026-08-11",
-          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
-          "language": "en"
-        },
-        {
-          "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
-          "date": "2026-08-11",
-          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "藥廠併購",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-10",
-      "latest_articles": [
-        {
-          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "biopharma M&A",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-10",
-      "latest_articles": [
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
-          "language": "en"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+      "date": "2026-08-12",
+      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Bio Genesis Mission",
+        "AI drug discovery",
+        "NIH",
+        "DOE",
+        "biomedical data",
+        "drug development",
+        "digital pathology",
+        "multi-omics"
+      ],
+      "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster."
+    },
+    {
+      "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
+      "date": "2026-08-12",
+      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Bio Genesis Mission",
+        "AI製藥",
+        "NIH",
+        "DOE",
+        "生醫資料",
+        "藥物研發",
+        "數位病理",
+        "多體學"
+      ],
+      "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。"
+    },
     {
       "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
       "date": "2026-08-11",
@@ -3924,44 +3949,6 @@
         "daraxonrasib"
       ],
       "summary": "Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems."
-    },
-    {
-      "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-      "date": "2026-07-16",
-      "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "Big Pharma",
-        "biotech M&A",
-        "Vertex",
-        "Crinetics",
-        "AbbVie",
-        "Apogee Therapeutics",
-        "Novartis"
-      ],
-      "summary": "Vertex's roughly $10 billion deal for Crinetics captures a wider change in Big Pharma's acquisition taste: away from scale and fashionable platforms, toward niche leadership, technological step-changes and commercial visibility."
-    },
-    {
-      "title": "百億美元併購新狂潮",
-      "date": "2026-07-16",
-      "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Big Pharma",
-        "生技併購",
-        "Vertex",
-        "Crinetics",
-        "AbbVie",
-        "Apogee Therapeutics",
-        "Novartis",
-        "Avidity Biosciences"
-      ],
-      "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。"
     }
   ]
 }

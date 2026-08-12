@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-12｜Can $1.2 Billion Help AI Double the Pace of Drug R&D?
+  URL: https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html
+  Topics: Bio Genesis Mission, AI drug discovery, NIH, DOE, biomedical data
+  Summary: The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster.
+- 2026-08-12｜美國砸 12 億美元，想用 AI 把新藥研發快一倍！
+  URL: https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html
+  Topics: Bio Genesis Mission, AI製藥, NIH, DOE, 生醫資料
+  Summary: 美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。
 - 2026-08-11｜After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone
   URL: https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html
   Topics: AnBogen Therapeutics, ABT-301, imofinostat, HDAC inhibitor, Chidamide
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html
   Topics: 安宏生醫, AH-001, 雄性禿, 掉髮新藥, AR 降解劑
   Summary: 禮來用 4,000 萬美元卡位掉髮新藥；當美國約 8,000 萬名患者仍受限於兩款老藥，安宏 AH-001 的二期數據可能成為下一次全球資產重估關鍵。
-- 2026-08-05｜More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?
-  URL: https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html
-  Topics: Alnylam, Amvuttra, RNA interference, ATTR amyloidosis, small nucleic acid drugs
-  Summary: Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives.
-- 2026-08-05｜一季賣破 10 億，Alnylam 為何崩 28%？
-  URL: https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html
-  Topics: Alnylam, Amvuttra, RNAi, ATTR, 小核酸藥物
-  Summary: Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。
 
 ## Key Site Sections
 

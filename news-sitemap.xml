@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12T00:00:00.000Z</news:publication_date>
+      <news:title>Can $1.2 Billion Help AI Double the Pace of Drug R&amp;D?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12T00:00:00.000Z</news:publication_date>
+      <news:title>美國砸 12 億美元，想用 AI 把新藥研發快一倍！</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html</loc>
     <news:news>
       <news:publication>
@@ -20,28 +42,6 @@
       </news:publication>
       <news:publication_date>2026-08-11T00:00:00.000Z</news:publication_date>
       <news:title>20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10T00:00:00.000Z</news:publication_date>
-      <news:title>禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10T00:00:00.000Z</news:publication_date>
-      <news:title>$130 Billion in Six Months: Big Pharma Is Buying Time</news:title>
     </news:news>
   </url>
 </urlset>

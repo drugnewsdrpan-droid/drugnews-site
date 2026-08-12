@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-11T01:00:09.981Z",
+  "generated_at": "2026-08-12T07:16:07.065Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+      "date": "2026-08-12",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Bio Genesis Mission",
+        "AI drug discovery",
+        "NIH",
+        "DOE",
+        "biomedical data",
+        "drug development",
+        "digital pathology",
+        "multi-omics"
+      ],
+      "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster."
+    },
+    {
+      "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
+      "date": "2026-08-12",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+      "category": "商業分析",
+      "tags": [
+        "Bio Genesis Mission",
+        "AI製藥",
+        "NIH",
+        "DOE",
+        "生醫資料",
+        "藥物研發",
+        "數位病理",
+        "多體學"
+      ],
+      "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。"
+    },
     {
       "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
       "date": "2026-08-11",
@@ -776,38 +812,6 @@
         "腫瘤"
       ],
       "summary": "一顆台灣小分子，有機會把三百億美元級PD-1藥王送進九成五患者仍無法受益的治療盲區嗎？"
-    },
-    {
-      "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
-      "date": "2026-07-30",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
-      "category": "製藥巨頭",
-      "tags": [
-        "Astellas",
-        "Xtandi",
-        "Padcev",
-        "Vyloy",
-        "腫瘤",
-        "藥物開發"
-      ],
-      "summary": "Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。"
-    },
-    {
-      "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-      "date": "2026-07-30",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-      "category": "製藥巨頭",
-      "tags": [
-        "Astellas",
-        "Xtandi",
-        "Padcev",
-        "Vyloy",
-        "oncology",
-        "drug development"
-      ],
-      "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform."
     }
   ],
   "do_not_use_as": [

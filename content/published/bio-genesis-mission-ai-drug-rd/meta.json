@@ -1,0 +1,46 @@
+{
+  "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
+  "slug": "bio-genesis-mission-ai-drug-rd",
+  "date": "2026-08-12",
+  "publish_at": "2026-08-12T08:00:00+08:00",
+  "updated_at": "2026-08-12",
+  "category": "商業分析系列",
+  "series": "商業分析系列",
+  "access": "免費文章",
+  "lang": "zh-Hant",
+  "tags": [
+    "Bio Genesis Mission",
+    "AI製藥",
+    "NIH",
+    "DOE",
+    "生醫資料",
+    "藥物研發",
+    "數位病理",
+    "多體學",
+    "雲象科技",
+    "基米"
+  ],
+  "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。",
+  "cover_image": "images/cover.png",
+  "card_image": "images/cover-1400.webp",
+  "homepage_cover_image": "images/cover.png",
+  "cover_image_alt": "Bio Genesis Mission 將生醫資料、AI 超算、自動化實驗與臨床證據串成藥物研發閉環",
+  "card_image_alt": "AI 串起資料、模型、實驗與臨床的生醫研發閉環",
+  "homepage_cover_image_alt": "美國 Bio Genesis Mission 以 AI 重接新藥研發回饋迴路",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/3978769418926662",
+  "source_status": "Facebook 2026-08-12 08:00 public platform readback PASS; website body synchronized to the approved complete FB/Dcard longform",
+  "core_judgments": [
+    "Bio Genesis 不是單一 AI 模型專案，而是把國家實驗室超算、生醫資料、自動化實驗、臨床網路與監管能力重接成同一條研究閉環。",
+    "超過 12 億、50 億與 8 億美元分屬不同資金口徑，不能相加，也不能把產業承諾全部解讀為現金或特定公司的訂單。",
+    "台灣公司的能力對位不等於直接受惠；真正門檻是可核對資料、跨院標準、患者同意、資安、臨床驗證與法規轉譯。"
+  ],
+  "translations": {
+    "en": "2026-08-12-bio-genesis-mission-ai-drug-rd-en.html"
+  }
+}

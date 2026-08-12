@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 11 Aug 2026 01:00:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 07:16:07 GMT</lastBuildDate>
+    <item>
+      <title>美國砸 12 億美元，想用 AI 把新藥研發快一倍！</title>
+      <link>https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd/cover-1400.webp" alt="AI 串起資料、模型、實驗與臨床的生醫研發閉環"></p><p>美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。</p>]]></description>
+    </item>
     <item>
       <title>20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹</title>
       <link>https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization/cover.png" alt="調節性 T 細胞抑制過度免疫反應並串連細胞製造與移植耐受的科學主視覺"></p><p>諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。</p>]]></description>
-    </item>
-    <item>
-      <title>ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload</title>
-      <link>https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc/cover.png" alt="新型 NMTi payload 抗體藥物複合體進入腫瘤細胞並干擾細胞內機制的科學主視覺"></p><p>諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。</p>]]></description>
     </item>
   </channel>
 </rss>

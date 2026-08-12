@@ -1,5 +1,33 @@
 [
   {
+    "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+    "slug": "bio-genesis-mission-ai-drug-rd-en",
+    "date": "2026-08-12",
+    "publishAt": "2026-08-12T08:00:00+08:00",
+    "updatedAt": "2026-08-12",
+    "category": "商業分析系列",
+    "access": "免費文章",
+    "lang": "en",
+    "tags": [
+      "Bio Genesis Mission",
+      "AI drug discovery",
+      "NIH",
+      "DOE",
+      "biomedical data",
+      "drug development",
+      "digital pathology",
+      "multi-omics",
+      "Taiwan biotech"
+    ],
+    "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster.",
+    "image": "../assets/articles/bio-genesis-mission-ai-drug-rd-en/cover.png",
+    "cardImage": "../assets/articles/bio-genesis-mission-ai-drug-rd-en/cover-1400.webp",
+    "imageAlt": "Bio Genesis Mission connects biomedical data, AI supercomputing, automated experiments, and clinical evidence into a drug-development loop",
+    "sponsored": false,
+    "sponsorName": "",
+    "url": "articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html"
+  },
+  {
     "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
     "slug": "anbogen-abt301-next-generation-hdaci-backbone-en",
     "date": "2026-08-11",

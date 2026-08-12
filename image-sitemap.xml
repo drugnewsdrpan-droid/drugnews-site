@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd-en/cover.png</image:loc>
+      <image:caption>Bio Genesis Mission rebuilds the drug-development feedback loop with AI</image:caption>
+      <image:title>Can $1.2 Billion Help AI Double the Pace of Drug R&amp;D?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd-en/figure-01.png</image:loc>
+      <image:caption>Figure 1 | Bio Genesis aims to connect governed biomedical data, AI supercomputing, hypothesis generation, automated experiments, and clinical evidence in a repeatable R&amp;D loop.</image:caption>
+      <image:title>Can $1.2 Billion Help AI Double the Pace of Drug R&amp;D?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd-en/figure-02.png</image:loc>
+      <image:caption>Figure 2 | The six Bio Genesis missions span complex biological systems, manufacturing scale-up, biological threats, childhood cancer, translational medicine, and chronic disease. AI is one shared layer of the infrastructure.</image:caption>
+      <image:title>Can $1.2 Billion Help AI Double the Pace of Drug R&amp;D?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | The $1.2 billion, $5 billion, and $800 million figures refer to NIH resources, the broader Genesis Mission, and partner commitments, respectively. They cannot be added together or treated as one fund.</image:caption>
+      <image:title>Can $1.2 Billion Help AI Double the Pace of Drug R&amp;D?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd-en/figure-04.png</image:loc>
+      <image:caption>Figure 4 | In Taiwan, digital pathology and clinical-data governance form one capability coordinate, while genomics and multi-omics form another. Capability alignment does not imply a US government contract.</image:caption>
+      <image:title>Can $1.2 Billion Help AI Double the Pace of Drug R&amp;D?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd/cover.png</image:loc>
+      <image:caption>美國 Bio Genesis Mission 以 AI 重接新藥研發回饋迴路</image:caption>
+      <image:title>美國砸 12 億美元，想用 AI 把新藥研發快一倍！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd/figure-01.png</image:loc>
+      <image:caption>圖1｜Bio Genesis Mission 想把生醫資料、AI 超算、假說、自動化實驗與臨床證據接成可反覆驗證的研發閉環。</image:caption>
+      <image:title>美國砸 12 億美元，想用 AI 把新藥研發快一倍！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd/figure-02.png</image:loc>
+      <image:caption>圖2｜Bio Genesis 的六項任務涵蓋複雜生物系統、製造放大、生物威脅、兒童癌症、藥物轉譯與慢性病；AI 只是共同底座的一層。</image:caption>
+      <image:title>美國砸 12 億美元，想用 AI 把新藥研發快一倍！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd/figure-03.png</image:loc>
+      <image:caption>圖3｜12 億、50 億與 8 億美元分屬 NIH、整體 Genesis Mission 與產業夥伴承諾三種不同口徑，不能相加或視為同一基金。</image:caption>
+      <image:title>美國砸 12 億美元，想用 AI 把新藥研發快一倍！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd/figure-04.png</image:loc>
+      <image:caption>圖4｜台灣可觀察臨床資料治理與醫療 AI，以及基因體與精準醫療兩個能力座標；能力對位不等於取得美方合約。</image:caption>
+      <image:title>美國砸 12 億美元，想用 AI 把新藥研發快一倍！</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/anbogen-abt301-next-generation-hdaci-backbone-en/cover.png</image:loc>

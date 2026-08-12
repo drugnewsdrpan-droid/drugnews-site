@@ -1,0 +1,45 @@
+{
+  "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+  "slug": "bio-genesis-mission-ai-drug-rd-en",
+  "date": "2026-08-12",
+  "publish_at": "2026-08-12T08:00:00+08:00",
+  "updated_at": "2026-08-12",
+  "category": "商業分析系列",
+  "series": "商業分析系列",
+  "access": "免費文章",
+  "lang": "en",
+  "tags": [
+    "Bio Genesis Mission",
+    "AI drug discovery",
+    "NIH",
+    "DOE",
+    "biomedical data",
+    "drug development",
+    "digital pathology",
+    "multi-omics",
+    "Taiwan biotech"
+  ],
+  "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster.",
+  "cover_image": "images/cover.png",
+  "card_image": "images/cover-1400.webp",
+  "homepage_cover_image": "images/cover.png",
+  "cover_image_alt": "Bio Genesis Mission connects biomedical data, AI supercomputing, automated experiments, and clinical evidence into a drug-development loop",
+  "card_image_alt": "AI connects data, models, experiments, and clinical evidence in a biomedical R&D loop",
+  "homepage_cover_image_alt": "Bio Genesis Mission rebuilds the drug-development feedback loop with AI",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/3978769418926662",
+  "source_status": "English website edition based on the approved complete Chinese FB/Dcard longform published on 2026-08-12",
+  "core_judgments": [
+    "Bio Genesis is not a single-model initiative. It is an attempt to connect national-lab computing, biomedical data, automated experimentation, clinical networks, and regulatory capabilities into one R&D loop.",
+    "The more-than-$1.2 billion, $5 billion, and $800 million figures describe different scopes. They cannot be added together or treated as cash awards to named companies.",
+    "Capability alignment does not equal direct commercial exposure. For Taiwan, the real threshold is governed and auditable data, interoperable standards, cybersecurity, clinical validation, and regulatory translation."
+  ],
+  "translations": {
+    "zh-Hant": "2026-08-12-bio-genesis-mission-ai-drug-rd.html"
+  }
+}

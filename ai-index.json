@@ -209,6 +209,63 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+      "date": "2026-08-12",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Bio Genesis Mission",
+        "AI drug discovery",
+        "NIH",
+        "DOE",
+        "biomedical data",
+        "drug development",
+        "digital pathology",
+        "multi-omics",
+        "Taiwan biotech"
+      ],
+      "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster.",
+      "image": "https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-12-bio-genesis-mission-ai-drug-rd.html"
+      }
+    },
+    {
+      "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
+      "date": "2026-08-12",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Bio Genesis Mission",
+        "AI製藥",
+        "NIH",
+        "DOE",
+        "生醫資料",
+        "藥物研發",
+        "數位病理",
+        "多體學",
+        "雲象科技",
+        "基米"
+      ],
+      "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。",
+      "image": "https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-12-bio-genesis-mission-ai-drug-rd-en.html"
+      }
+    },
+    {
       "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
       "date": "2026-08-11",
       "language": "en",
@@ -1562,64 +1619,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-07-15-treg-immune-tolerance-productization-en.html"
-      }
-    },
-    {
-      "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-      "date": "2026-07-14",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-      "source": "Facebook",
-      "access": "Free Article",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "ADC",
-        "Novartis",
-        "Myricx Bio",
-        "NMT inhibitor",
-        "ADC payload",
-        "BD licensing",
-        "oncology",
-        "Taiwan biotech",
-        "biotech valuation"
-      ],
-      "summary": "Novartis is paying up to $1.5 billion for Myricx. The strategic prize is not merely two ADC assets, but an NMT-inhibitor payload platform that could reopen the questions of therapeutic window, resistance and platform value.",
-      "image": "https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc-en/cover.png",
-      "is_accessible_for_free": false,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-14-novartis-myricx-nmti-adc.html"
-      }
-    },
-    {
-      "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
-      "date": "2026-07-14",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "ADC",
-        "Novartis",
-        "Myricx Bio",
-        "NMTi",
-        "payload",
-        "BD 授權",
-        "腫瘤",
-        "浩鼎",
-        "諦醫生技",
-        "嘉正生技"
-      ],
-      "summary": "諾華最高 15 億美元收購 Myricx，真正買下的不只是兩條 ADC 管線，而是可能改寫安全窗、耐藥與平台估值的新型 NMTi payload。",
-      "image": "https://drugnews.com.tw/assets/articles/novartis-myricx-nmti-adc/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-14-novartis-myricx-nmti-adc-en.html"
       }
     }
   ]
