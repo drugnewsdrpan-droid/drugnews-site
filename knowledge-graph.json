@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-12T07:16:07.066Z",
+  "generated_at": "2026-08-13T04:12:58.517Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,100 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
+      "date": "2026-08-13",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Intelligene",
+        "RNA delivery",
+        "oligonucleotide therapeutics",
+        "siRNA",
+        "ASO",
+        "extracellular vesicles",
+        "LNP",
+        "extrahepatic delivery",
+        "Taiwan biotech"
+      ],
+      "summary": "Oligonucleotide therapeutics are moving from sequence design to extrahepatic delivery. Intelligene is using EV and LNP platforms to target the lung and airways, testing whether RNA medicines can truly reach disease sites beyond the liver.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-13-intelligene-rna-delivery-nanorocket.html"
+      }
+    },
+    {
+      "title": "這家台灣Biotech正在打造人體內奈米火箭",
+      "date": "2026-08-13",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "智新生物",
+        "Intelligene",
+        "RNA 遞送",
+        "小核酸藥物",
+        "siRNA",
+        "ASO",
+        "EV 外泌體",
+        "LNP",
+        "肝外遞送",
+        "台灣生技"
+      ],
+      "summary": "小核酸藥物的競爭正從 RNA 序列設計走向肝外遞送；智新生技以 EV 與 LNP 平台切入肺部與呼吸道，挑戰小核酸下半場最值錢的問題：能否真正抵達病灶。",
+      "alternate_language_versions": {
+        "en": "2026-08-13-intelligene-rna-delivery-nanorocket-en.html"
+      }
+    },
+    {
+      "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+      "date": "2026-08-13",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Novo Nordisk",
+        "ziltivekimab",
+        "ZEUS",
+        "MACE",
+        "IL-6",
+        "hsCRP",
+        "cardiovascular outcomes",
+        "Phase 3",
+        "biomarker risk"
+      ],
+      "summary": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html"
+      }
+    },
+    {
+      "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
+      "date": "2026-08-13",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Novo Nordisk",
+        "ziltivekimab",
+        "ZEUS",
+        "MACE",
+        "IL-6",
+        "hsCRP",
+        "心血管",
+        "慢性腎臟病",
+        "NVO",
+        "合一生技"
+      ],
+      "summary": "ZEUS 超過 6,300 人卻交出 HR 0.99：ziltivekimab 壓低 free IL-6 與 hsCRP，卻沒有證明能降低三點 MACE。這不是抗發炎假說死亡，而是 biomarker 不能替患者硬終點預支成功。",
+      "alternate_language_versions": {
+        "en": "2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html"
+      }
+    },
     {
       "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
       "date": "2026-08-12",
@@ -725,101 +819,6 @@
       "alternate_language_versions": {
         "zh-Hant": "2026-07-23-astellas-oncology-platform.html"
       }
-    },
-    {
-      "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-      "date": "2026-07-29",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "pelacarsen",
-        "Lp(a)",
-        "HORIZON",
-        "cardiovascular disease",
-        "clinical trials",
-        "antisense oligonucleotide",
-        "Novartis",
-        "Ionis",
-        "biotech investing"
-      ],
-      "summary": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-19-pelacarsen-lpa-horizon.html"
-      }
-    },
-    {
-      "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-      "date": "2026-07-29",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Pelacarsen",
-        "Lp(a)",
-        "HORIZON",
-        "心血管疾病",
-        "臨床試驗",
-        "ASO",
-        "Novartis",
-        "Ionis",
-        "生技投資"
-      ],
-      "summary": "Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。",
-      "alternate_language_versions": {
-        "en": "2026-07-19-pelacarsen-lpa-horizon-en.html"
-      }
-    },
-    {
-      "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-      "date": "2026-07-28",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "T-cell exhaustion",
-        "immunotherapy",
-        "PD-1 blockade",
-        "CAR-T",
-        "T-cell engager",
-        "bispecific antibody",
-        "TCF1",
-        "Taiwan biotech",
-        "Shine-On Biomedical",
-        "Ever Supreme"
-      ],
-      "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-28-t-cell-exhaustion-immunotherapy-durability.html"
-      }
-    },
-    {
-      "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
-      "date": "2026-07-28",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "T 細胞耗竭",
-        "免疫治療",
-        "PD-1",
-        "CAR-T",
-        "TCE",
-        "雙特異性抗體",
-        "TCF1",
-        "聖安生醫",
-        "長聖",
-        "沛爾生醫"
-      ],
-      "summary": "PD-1、CAR-T 與 TCE 最後都仰賴可增殖、可補充且能持久的 T 細胞戰力。本文從耗竭分化、產品工程與臨床資料，拆解免疫治療下半場的真正競爭門檻。",
-      "alternate_language_versions": {
-        "en": "2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html"
-      }
     }
   ],
   "entities": [
@@ -902,9 +901,15 @@
     {
       "name": "Taiwan biotech",
       "type": "topic",
-      "mentions": 24,
-      "latest_date": "2026-08-12",
+      "mentions": 25,
+      "latest_date": "2026-08-13",
       "latest_articles": [
+        {
+          "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
+          "language": "en"
+        },
         {
           "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
           "date": "2026-08-12",
@@ -927,12 +932,6 @@
           "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
           "date": "2026-08-05",
           "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
-          "language": "en"
-        },
-        {
-          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
           "language": "en"
         }
       ]
@@ -1244,9 +1243,15 @@
     {
       "name": "台灣生技",
       "type": "topic",
-      "mentions": 10,
-      "latest_date": "2026-08-11",
+      "mentions": 11,
+      "latest_date": "2026-08-13",
       "latest_articles": [
+        {
+          "title": "這家台灣Biotech正在打造人體內奈米火箭",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
           "date": "2026-08-11",
@@ -1269,12 +1274,6 @@
           "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
           "date": "2026-07-24",
           "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
           "language": "zh-Hant"
         }
       ]
@@ -1698,44 +1697,6 @@
       ]
     },
     {
-      "name": "Capital markets",
-      "type": "market_topic",
-      "mentions": 7,
-      "latest_date": "2026-06-29",
-      "latest_articles": [
-        {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "AbbVie",
       "type": "topic",
       "mentions": 6,
@@ -2002,6 +1963,82 @@
       ]
     },
     {
+      "name": "Capital markets",
+      "type": "market_topic",
+      "mentions": 6,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
+          "date": "2026-06-14",
+          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "ASO",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-08-13",
+      "latest_articles": [
+        {
+          "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
+          "language": "en"
+        },
+        {
+          "title": "這家台灣Biotech正在打造人體內奈米火箭",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "autoimmune disease",
       "type": "topic",
       "mentions": 5,
@@ -2078,40 +2115,66 @@
       ]
     },
     {
-      "name": "Drug development",
-      "type": "topic",
-      "mentions": 5,
-      "latest_date": "2026-06-12",
+      "name": "Novo Nordisk",
+      "type": "company",
+      "mentions": 4,
+      "latest_date": "2026-08-13",
       "latest_articles": [
         {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
           "language": "en"
         },
         {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
           "language": "en"
         },
         {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "siRNA",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-13",
+      "latest_articles": [
+        {
+          "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
           "language": "en"
         },
         {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
+          "title": "這家台灣Biotech正在打造人體內奈米火箭",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
           "language": "en"
         },
         {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
+          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2724,38 +2787,6 @@
       ]
     },
     {
-      "name": "Biotech business analysis",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-06-11",
-      "latest_articles": [
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech IR Is Not Making Slides Prettier; It Is Turning Pipelines Into Trackable Capital-Market Stories",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-biotech-ir-capital-market-story-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "專利懸崖",
       "type": "topic",
       "mentions": 3,
@@ -2959,32 +2990,6 @@
           "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
           "date": "2026-07-13",
           "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "ASO",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
           "language": "zh-Hant"
         }
       ]
@@ -3198,7 +3203,7 @@
       ]
     },
     {
-      "name": "Business development",
+      "name": "Drug development",
       "type": "topic",
       "mentions": 3,
       "latest_date": "2026-06-12",
@@ -3216,23 +3221,23 @@
           "language": "en"
         },
         {
-          "title": "The US$7 Billion Radiopharma Deal Rumor: Curium Wants Lantheus, but the Real Prize Is a Ticket to the Nuclear-Medicine Era",
-          "date": "2026-06-09",
-          "url": "https://drugnews.com.tw/articles/2026-06-09-curium-lantheus-radiopharma-acquisition-en.html",
+          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
+          "date": "2026-06-10",
+          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
           "language": "en"
         }
       ]
     },
     {
-      "name": "基米",
+      "name": "小核酸藥物",
       "type": "topic",
       "mentions": 2,
-      "latest_date": "2026-08-12",
+      "latest_date": "2026-08-13",
       "latest_articles": [
         {
-          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+          "title": "這家台灣Biotech正在打造人體內奈米火箭",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
           "language": "zh-Hant"
         },
         {
@@ -3244,147 +3249,185 @@
       ]
     },
     {
-      "name": "藥物研發",
+      "name": "hsCRP",
       "type": "topic",
       "mentions": 2,
-      "latest_date": "2026-08-12",
+      "latest_date": "2026-08-13",
       "latest_articles": [
         {
-          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Bio Genesis Mission",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-12",
-      "latest_articles": [
-        {
-          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
           "language": "en"
         },
         {
-          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
           "language": "zh-Hant"
         }
       ]
     },
     {
-      "name": "DOE",
+      "name": "IL-6",
       "type": "topic",
       "mentions": 2,
-      "latest_date": "2026-08-12",
+      "latest_date": "2026-08-13",
       "latest_articles": [
         {
-          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
           "language": "en"
         },
         {
-          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
           "language": "zh-Hant"
         }
       ]
     },
     {
-      "name": "NIH",
+      "name": "Intelligene",
       "type": "topic",
       "mentions": 2,
-      "latest_date": "2026-08-12",
+      "latest_date": "2026-08-13",
       "latest_articles": [
         {
-          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
           "language": "en"
         },
         {
-          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+          "title": "這家台灣Biotech正在打造人體內奈米火箭",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
           "language": "zh-Hant"
         }
       ]
     },
     {
-      "name": "安邦生技",
+      "name": "LNP",
       "type": "topic",
       "mentions": 2,
-      "latest_date": "2026-08-11",
+      "latest_date": "2026-08-13",
       "latest_articles": [
         {
-          "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
-          "date": "2026-08-11",
-          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "安邦生技：免疫治療的「星鏈計畫」",
-          "date": "2026-07-31",
-          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "癌症免疫治療",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-11",
-      "latest_articles": [
-        {
-          "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
-          "date": "2026-08-11",
-          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "安邦生技：免疫治療的「星鏈計畫」",
-          "date": "2026-07-31",
-          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "AnBogen Therapeutics",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-11",
-      "latest_articles": [
-        {
-          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
-          "date": "2026-08-11",
-          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+          "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
           "language": "en"
         },
         {
-          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
-          "date": "2026-07-31",
-          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+          "title": "這家台灣Biotech正在打造人體內奈米火箭",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "MACE",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-13",
+      "latest_articles": [
+        {
+          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
           "language": "en"
+        },
+        {
+          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "ZEUS",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-13",
+      "latest_articles": [
+        {
+          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
+          "language": "en"
+        },
+        {
+          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "ziltivekimab",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-13",
+      "latest_articles": [
+        {
+          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
+          "language": "en"
+        },
+        {
+          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
+          "language": "zh-Hant"
         }
       ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
+      "date": "2026-08-13",
+      "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Intelligene",
+        "RNA delivery",
+        "oligonucleotide therapeutics",
+        "siRNA",
+        "ASO",
+        "extracellular vesicles",
+        "LNP",
+        "extrahepatic delivery"
+      ],
+      "summary": "Oligonucleotide therapeutics are moving from sequence design to extrahepatic delivery. Intelligene is using EV and LNP platforms to target the lung and airways, testing whether RNA medicines can truly reach disease sites beyond the liver."
+    },
+    {
+      "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+      "date": "2026-08-13",
+      "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Novo Nordisk",
+        "ziltivekimab",
+        "ZEUS",
+        "MACE",
+        "IL-6",
+        "hsCRP",
+        "cardiovascular outcomes",
+        "Phase 3"
+      ],
+      "summary": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE."
+    },
     {
       "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
       "date": "2026-08-12",
@@ -3911,44 +3954,6 @@
         "AI 製藥"
       ],
       "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。"
-    },
-    {
-      "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-      "date": "2026-07-17",
-      "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Revolution Medicines",
-        "RevMed",
-        "胰臟癌",
-        "KRAS G12D",
-        "RAS(ON)",
-        "Zoldonrasib",
-        "Daraxonrasib",
-        "ESMO GI 2026"
-      ],
-      "summary": "Daraxonrasib 已用第三期總生存期資料抬高胰臟癌 RAS 賽道門檻；zoldonrasib 與 pan-RAS 或化療的早期組合訊號，則把競爭從單藥推向治療生態系。"
-    },
-    {
-      "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-      "date": "2026-07-17",
-      "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "Revolution Medicines",
-        "RevMed",
-        "pancreatic cancer",
-        "KRAS G12D",
-        "RAS(ON)",
-        "zoldonrasib",
-        "daraxonrasib"
-      ],
-      "summary": "Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems."
     }
   ]
 }

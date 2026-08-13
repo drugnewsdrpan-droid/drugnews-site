@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-12T07:16:07.023Z",
+  "generated_at": "2026-08-13T04:12:58.461Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -118,8 +118,46 @@
   "buckets": [
     {
       "name": "AI 製藥與新技術",
-      "count": 11,
+      "count": 13,
       "articles": [
+        {
+          "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Intelligene",
+            "RNA delivery",
+            "oligonucleotide therapeutics",
+            "siRNA",
+            "ASO",
+            "extracellular vesicles",
+            "LNP",
+            "extrahepatic delivery"
+          ],
+          "summary": "Oligonucleotide therapeutics are moving from sequence design to extrahepatic delivery. Intelligene is using EV and LNP platforms to target the lung and airways, testing whether RNA medicines can truly reach disease sites beyond the liver."
+        },
+        {
+          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Novo Nordisk",
+            "ziltivekimab",
+            "ZEUS",
+            "MACE",
+            "IL-6",
+            "hsCRP",
+            "cardiovascular outcomes",
+            "Phase 3"
+          ],
+          "summary": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE."
+        },
         {
           "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
           "date": "2026-08-12",
@@ -328,7 +366,7 @@
     },
     {
       "name": "腫瘤精準治療",
-      "count": 7,
+      "count": 5,
       "articles": [
         {
           "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
@@ -424,44 +462,6 @@
             "Ribocure"
           ],
           "summary": "Rezdiffra has opened the MASH market and built its commercialization infrastructure. Madrigal is now adding six Ribo siRNA programs and Arrowhead's ARO-PNPLA3 to create a cornerstone-plus-precision-combination treatment matrix."
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Revolution Medicines",
-            "RevMed",
-            "胰臟癌",
-            "KRAS G12D",
-            "RAS(ON)",
-            "Zoldonrasib",
-            "Daraxonrasib",
-            "ESMO GI 2026"
-          ],
-          "summary": "Daraxonrasib 已用第三期總生存期資料抬高胰臟癌 RAS 賽道門檻；zoldonrasib 與 pan-RAS 或化療的早期組合訊號，則把競爭從單藥推向治療生態系。"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Business Analysis",
-            "Revolution Medicines",
-            "RevMed",
-            "pancreatic cancer",
-            "KRAS G12D",
-            "RAS(ON)",
-            "zoldonrasib",
-            "daraxonrasib"
-          ],
-          "summary": "Daraxonrasib has already raised the bar with phase 3 overall-survival data. Early zoldonrasib combinations now suggest that pancreatic cancer's RAS competition is shifting from single agents to treatment ecosystems."
         }
       ]
     },

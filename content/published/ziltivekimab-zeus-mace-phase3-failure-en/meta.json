@@ -1,0 +1,37 @@
+{
+  "date": "2026-08-13",
+  "updated_at": "2026-08-13",
+  "category": "商業分析系列",
+  "series": "商業分析系列",
+  "access": "免費文章",
+  "cover_image": "images/cover.png",
+  "card_image": "images/cover-1400.webp",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "source_platform": "Facebook",
+  "source_status": "English version created from the approved Chinese FB/Dcard long-form article with fully English figures; no paid-platform text used.",
+  "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+  "slug": "ziltivekimab-zeus-mace-phase3-failure-en",
+  "publish_at": "2026-08-13T08:00:00+08:00",
+  "lang": "en",
+  "tags": [
+    "Novo Nordisk",
+    "ziltivekimab",
+    "ZEUS",
+    "MACE",
+    "IL-6",
+    "hsCRP",
+    "cardiovascular outcomes",
+    "Phase 3",
+    "biomarker risk"
+  ],
+  "summary": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE.",
+  "cover_image_alt": "Figure 1 | ZEUS enrolled more than 6,300 patients; inflammation markers fell, but three-point MACE did not improve.",
+  "card_image_alt": "Figure 1 | ZEUS enrolled more than 6,300 patients; inflammation markers fell, but three-point MACE did not improve.",
+  "translations": {
+    "zh-Hant": "2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
+  "slug": "intelligene-rna-delivery-nanorocket-en",
+  "date": "2026-08-13",
+  "publish_at": "2026-08-13T10:30:00+08:00",
+  "updated_at": "2026-08-13",
+  "category": "商業分析系列",
+  "series": "商業分析系列",
+  "access": "免費文章",
+  "lang": "en",
+  "tags": [
+    "Intelligene",
+    "RNA delivery",
+    "oligonucleotide therapeutics",
+    "siRNA",
+    "ASO",
+    "extracellular vesicles",
+    "LNP",
+    "extrahepatic delivery",
+    "Taiwan biotech"
+  ],
+  "summary": "Oligonucleotide therapeutics are moving from sequence design to extrahepatic delivery. Intelligene is using EV and LNP platforms to target the lung and airways, testing whether RNA medicines can truly reach disease sites beyond the liver.",
+  "cover_image": "images/cover.png",
+  "card_image": "images/cover-1400.webp",
+  "homepage_cover_image": "images/cover-1400.webp",
+  "cover_image_alt": "Intelligene uses EV and LNP RNA delivery platforms to target lung and airway diseases beyond the liver.",
+  "card_image_alt": "Intelligene is building a nanorocket inside the human body for extrahepatic RNA delivery.",
+  "homepage_cover_image_alt": "Intelligene is building a nanorocket inside the human body for the second half of oligonucleotide therapeutics.",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "sponsored": true,
+  "sponsor_name": "Intelligene",
+  "source_platform": "Website",
+  "source_status": "Client-approved English long-form final clean ver2 provided August 12, 2026; published early per August 13 instruction",
+  "translations": {
+    "zh-Hant": "2026-08-13-intelligene-rna-delivery-nanorocket.html"
+  }
+}

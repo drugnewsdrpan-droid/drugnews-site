@@ -1,0 +1,42 @@
+{
+  "title": "這家台灣Biotech正在打造人體內奈米火箭",
+  "slug": "intelligene-rna-delivery-nanorocket",
+  "date": "2026-08-13",
+  "publish_at": "2026-08-13T10:30:00+08:00",
+  "updated_at": "2026-08-13",
+  "category": "商業分析系列",
+  "series": "商業分析系列",
+  "access": "免費文章",
+  "lang": "zh-Hant",
+  "tags": [
+    "智新生物",
+    "Intelligene",
+    "RNA 遞送",
+    "小核酸藥物",
+    "siRNA",
+    "ASO",
+    "EV 外泌體",
+    "LNP",
+    "肝外遞送",
+    "台灣生技"
+  ],
+  "summary": "小核酸藥物的競爭正從 RNA 序列設計走向肝外遞送；智新生技以 EV 與 LNP 平台切入肺部與呼吸道，挑戰小核酸下半場最值錢的問題：能否真正抵達病灶。",
+  "cover_image": "images/cover.png",
+  "card_image": "images/cover-1400.webp",
+  "homepage_cover_image": "images/cover-1400.webp",
+  "cover_image_alt": "智新生物以 EV 與 LNP RNA 遞送平台，挑戰肺部與呼吸道肝外遞送",
+  "card_image_alt": "智新生物打造人體內奈米火箭，從 RNA 序列設計走向肺部與呼吸道遞送",
+  "homepage_cover_image_alt": "智新生物打造人體內奈米火箭，挑戰小核酸下半場的遞送問題",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "sponsored": true,
+  "sponsor_name": "智新生物",
+  "source_platform": "Website",
+  "source_status": "客戶核准中英文深度長文 final clean ver2，2026-08-12 提供；依 2026-08-13 指示提前上線",
+  "translations": {
+    "en": "2026-08-13-intelligene-rna-delivery-nanorocket-en.html"
+  }
+}

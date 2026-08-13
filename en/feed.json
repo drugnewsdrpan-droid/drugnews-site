@@ -7,6 +7,44 @@
   "language": "en",
   "items": [
     {
+      "id": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
+      "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
+      "content_text": "Oligonucleotide therapeutics are moving from sequence design to extrahepatic delivery. Intelligene is using EV and LNP platforms to target the lung and airways, testing whether RNA medicines can truly reach disease sites beyond the liver.",
+      "date_published": "2026-08-13T10:30:00+08:00",
+      "date_modified": "2026-08-13T08:00:00+08:00",
+      "tags": [
+        "Intelligene",
+        "RNA delivery",
+        "oligonucleotide therapeutics",
+        "siRNA",
+        "ASO",
+        "extracellular vesicles",
+        "LNP",
+        "extrahepatic delivery",
+        "Taiwan biotech"
+      ]
+    },
+    {
+      "id": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
+      "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+      "content_text": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE.",
+      "date_published": "2026-08-13T08:00:00+08:00",
+      "date_modified": "2026-08-13T08:00:00+08:00",
+      "tags": [
+        "Novo Nordisk",
+        "ziltivekimab",
+        "ZEUS",
+        "MACE",
+        "IL-6",
+        "hsCRP",
+        "cardiovascular outcomes",
+        "Phase 3",
+        "biomarker risk"
+      ]
+    },
+    {
       "id": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
       "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
       "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",

@@ -76,6 +76,22 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-13｜This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body
+  URL: https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html
+  Topics: Intelligene, RNA delivery, oligonucleotide therapeutics, siRNA, ASO
+  Summary: Oligonucleotide therapeutics are moving from sequence design to extrahepatic delivery. Intelligene is using EV and LNP platforms to target the lung and airways, testing whether RNA medicines can truly reach disease sites beyond the liver.
+- 2026-08-13｜這家台灣Biotech正在打造人體內奈米火箭
+  URL: https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html
+  Topics: 智新生物, Intelligene, RNA 遞送, 小核酸藥物, siRNA
+  Summary: 小核酸藥物的競爭正從 RNA 序列設計走向肝外遞送；智新生技以 EV 與 LNP 平台切入肺部與呼吸道，挑戰小核酸下半場最值錢的問題：能否真正抵達病灶。
+- 2026-08-13｜Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk
+  URL: https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html
+  Topics: Novo Nordisk, ziltivekimab, ZEUS, MACE, IL-6
+  Summary: ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE.
+- 2026-08-13｜諾和諾德大三期慘敗！6,300 人的教科書級教訓
+  URL: https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html
+  Topics: Novo Nordisk, ziltivekimab, ZEUS, MACE, IL-6
+  Summary: ZEUS 超過 6,300 人卻交出 HR 0.99：ziltivekimab 壓低 free IL-6 與 hsCRP，卻沒有證明能降低三點 MACE。這不是抗發炎假說死亡，而是 biomarker 不能替患者硬終點預支成功。
 - 2026-08-12｜Can $1.2 Billion Help AI Double the Pace of Drug R&D?
   URL: https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html
   Topics: Bio Genesis Mission, AI drug discovery, NIH, DOE, biomedical data
@@ -116,22 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html
   Topics: Biotech, Biopharma, argenx, Insmed, Revolution Medicines
   Summary: argenx、Insmed、Incyte 與 Revolution Medicines 選擇保留獨立經營權。真正的不賣資格，來自產品證據、現金引擎、第二曲線、全球執行與不交出控制權也能取得資金的能力。
-- 2026-08-07｜22 億美元，買下一個自體免疫藥王？
-  URL: https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html
-  Topics: argenx, Forte Biosciences, FB102, VYVGART, CD122
-  Summary: argenx 擬以 22 億美元現金收購 Forte，把早期抗 CD122 抗體 FB102 納入管線。真正的考題不是一組一期 p 值，而是 VYVGART 的單品成功能否被複製成可重複的公司能力。
-- 2026-08-07｜$2.2 Billion for the Next Autoimmune Blockbuster?
-  URL: https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html
-  Topics: argenx, Forte Biosciences, FB102, VYVGART, CD122
-  Summary: argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat.
-- 2026-08-06｜Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster
-  URL: https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html
-  Topics: AnHorn Medicines, AH-001, Androgenetic Alopecia, Hair-Loss Drug, AR Degrader
-  Summary: Lilly has placed a $40 million bet on next-generation hair-loss drugs. With roughly 80 million U.S. patients still constrained by two legacy therapies, AH-001's Phase 2 data could become the next global asset-revaluation trigger.
-- 2026-08-06｜投資人請注意，下一個減肥藥級別賽道來了！
-  URL: https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html
-  Topics: 安宏生醫, AH-001, 雄性禿, 掉髮新藥, AR 降解劑
-  Summary: 禮來用 4,000 萬美元卡位掉髮新藥；當美國約 8,000 萬名患者仍受限於兩款老藥，安宏 AH-001 的二期數據可能成為下一次全球資產重估關鍵。
 
 ## Key Site Sections
 

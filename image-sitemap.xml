@@ -1,6 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket-en/cover.png</image:loc>
+      <image:caption>Intelligene uses EV and LNP RNA delivery platforms to target lung and airway diseases beyond the liver.</image:caption>
+      <image:title>This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket-en/cover-1400.webp</image:loc>
+      <image:caption>Intelligene is building a nanorocket inside the human body for the second half of oligonucleotide therapeutics.</image:caption>
+      <image:title>This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket-en/figure-01.png</image:loc>
+      <image:caption>Figure 1 | The first half of oligonucleotide therapeutics is sequence design; the second half is delivery beyond the liver.</image:caption>
+      <image:title>This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket-en/figure-02.png</image:loc>
+      <image:caption>Figure 2 | Commercial RNA medicines, hepatitis B functional-cure data, and extrahepatic delivery are reshaping the small-RNA opportunity.</image:caption>
+      <image:title>This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | Organ-level delivery difficulty is beginning to reprice RNA platform companies.</image:caption>
+      <image:title>This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket-en/figure-04.png</image:loc>
+      <image:caption>Figure 4 | Intelligene is using lung and airway programs to build an EV and LNP RNA delivery platform.</image:caption>
+      <image:title>This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket-en/figure-05.png</image:loc>
+      <image:caption>Figure 5 | Intelligene&apos;s next valuation variables include preclinical data, IND progress, Phase 1 entry, CMC execution, and international partnerships.</image:caption>
+      <image:title>This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket/cover.png</image:loc>
+      <image:caption>智新生物以 EV 與 LNP RNA 遞送平台，挑戰肺部與呼吸道肝外遞送</image:caption>
+      <image:title>這家台灣Biotech正在打造人體內奈米火箭</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket/cover-1400.webp</image:loc>
+      <image:caption>智新生物打造人體內奈米火箭，挑戰小核酸下半場的遞送問題</image:caption>
+      <image:title>這家台灣Biotech正在打造人體內奈米火箭</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket/figure-01.png</image:loc>
+      <image:caption>圖1｜小核酸藥物的上半場是序列設計，下半場是遞送能否抵達病灶</image:caption>
+      <image:title>這家台灣Biotech正在打造人體內奈米火箭</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket/figure-02.png</image:loc>
+      <image:caption>圖2｜小核酸藥物從商業化產品、慢性 B 肝功能性治癒訊號到肝外遞送新戰場</image:caption>
+      <image:title>這家台灣Biotech正在打造人體內奈米火箭</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket/figure-03.png</image:loc>
+      <image:caption>圖3｜肝臟之外的器官遞送難度，正在重新定價 RNA 平台公司</image:caption>
+      <image:title>這家台灣Biotech正在打造人體內奈米火箭</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket/figure-04.png</image:loc>
+      <image:caption>圖4｜智新生技以肺部與呼吸道為起點，打造 EV 與 LNP RNA 遞送平台</image:caption>
+      <image:title>這家台灣Biotech正在打造人體內奈米火箭</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket/figure-05.png</image:loc>
+      <image:caption>圖5｜智新生技的下一階段估值變數，包括臨床前資料、IND、Phase 1、CMC 與國際合作</image:caption>
+      <image:title>這家台灣Biotech正在打造人體內奈米火箭</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/ziltivekimab-zeus-mace-phase3-failure-en/cover.png</image:loc>
+      <image:caption>Figure 1 | ZEUS enrolled more than 6,300 patients; inflammation markers fell, but three-point MACE did not improve.</image:caption>
+      <image:title>Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/ziltivekimab-zeus-mace-phase3-failure-en/figure-01.png</image:loc>
+      <image:caption>Figure 1 | ZEUS enrolled more than 6,300 patients; inflammation markers fell, but three-point MACE did not improve.</image:caption>
+      <image:title>Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/ziltivekimab-zeus-mace-phase3-failure-en/figure-02.png</image:loc>
+      <image:caption>Figure 2 | RESCUE and ZEUS answered different questions: biomarker response is not outcome proof.</image:caption>
+      <image:title>Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/ziltivekimab-zeus-mace-phase3-failure-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | Risk markers, pharmacodynamic markers, and surrogate endpoints sit on different evidence layers.</image:caption>
+      <image:title>Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/ziltivekimab-zeus-mace-phase3-failure-en/figure-04.png</image:loc>
+      <image:caption>Figure 4 | What ZEUS tells us, what remains unknown, and what investors should not extrapolate.</image:caption>
+      <image:title>Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/ziltivekimab-zeus-mace-phase3-failure/cover.png</image:loc>
+      <image:caption>圖1｜ZEUS 超過 6,300 人、HR 0.99，發炎指標下降但三點 MACE 未降低</image:caption>
+      <image:title>諾和諾德大三期慘敗！6,300 人的教科書級教訓</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/ziltivekimab-zeus-mace-phase3-failure/figure-01.png</image:loc>
+      <image:caption>圖1｜ZEUS 超過 6,300 人、HR 0.99，發炎指標下降但三點 MACE 未降低</image:caption>
+      <image:title>諾和諾德大三期慘敗！6,300 人的教科書級教訓</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/ziltivekimab-zeus-mace-phase3-failure/figure-02.png</image:loc>
+      <image:caption>圖2｜RESCUE 與 ZEUS 回答不同問題，二期 biomarker 不能直接外推三期硬終點</image:caption>
+      <image:title>諾和諾德大三期慘敗！6,300 人的教科書級教訓</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/ziltivekimab-zeus-mace-phase3-failure/figure-03.png</image:loc>
+      <image:caption>圖3｜風險標誌物、藥效學標誌物與替代終點是三種不同證據層級</image:caption>
+      <image:title>諾和諾德大三期慘敗！6,300 人的教科書級教訓</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/ziltivekimab-zeus-mace-phase3-failure/figure-04.png</image:loc>
+      <image:caption>圖4｜ZEUS 目前已知、未知與不能外推的結論邊界</image:caption>
+      <image:title>諾和諾德大三期慘敗！6,300 人的教科書級教訓</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/bio-genesis-mission-ai-drug-rd-en/cover.png</image:loc>

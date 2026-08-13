@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-13",
+  "updated_at": "2026-08-13",
+  "category": "商業分析系列",
+  "series": "商業分析系列",
+  "access": "免費文章",
+  "cover_image": "images/cover.png",
+  "card_image": "images/cover-1400.webp",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "source_platform": "Facebook",
+  "source_status": "Facebook 2026-08-13 08:00 public-post handoff; Dcard blocked; website mirrors the approved FB/Dcard long-form package and four approved images.",
+  "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
+  "slug": "ziltivekimab-zeus-mace-phase3-failure",
+  "publish_at": "2026-08-13T08:00:00+08:00",
+  "lang": "zh-Hant",
+  "tags": [
+    "Novo Nordisk",
+    "ziltivekimab",
+    "ZEUS",
+    "MACE",
+    "IL-6",
+    "hsCRP",
+    "心血管",
+    "慢性腎臟病",
+    "NVO",
+    "合一生技"
+  ],
+  "summary": "ZEUS 超過 6,300 人卻交出 HR 0.99：ziltivekimab 壓低 free IL-6 與 hsCRP，卻沒有證明能降低三點 MACE。這不是抗發炎假說死亡，而是 biomarker 不能替患者硬終點預支成功。",
+  "cover_image_alt": "圖1｜ZEUS 超過 6,300 人、HR 0.99，發炎指標下降但三點 MACE 未降低",
+  "card_image_alt": "圖1｜ZEUS 超過 6,300 人、HR 0.99，發炎指標下降但三點 MACE 未降低",
+  "translations": {
+    "en": "2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html"
+  }
+}

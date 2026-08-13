@@ -209,6 +209,120 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
+      "date": "2026-08-13",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
+      "source": "Website",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Intelligene",
+        "RNA delivery",
+        "oligonucleotide therapeutics",
+        "siRNA",
+        "ASO",
+        "extracellular vesicles",
+        "LNP",
+        "extrahepatic delivery",
+        "Taiwan biotech"
+      ],
+      "summary": "Oligonucleotide therapeutics are moving from sequence design to extrahepatic delivery. Intelligene is using EV and LNP platforms to target the lung and airways, testing whether RNA medicines can truly reach disease sites beyond the liver.",
+      "image": "https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-13-intelligene-rna-delivery-nanorocket.html"
+      }
+    },
+    {
+      "title": "這家台灣Biotech正在打造人體內奈米火箭",
+      "date": "2026-08-13",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
+      "source": "Website",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "智新生物",
+        "Intelligene",
+        "RNA 遞送",
+        "小核酸藥物",
+        "siRNA",
+        "ASO",
+        "EV 外泌體",
+        "LNP",
+        "肝外遞送",
+        "台灣生技"
+      ],
+      "summary": "小核酸藥物的競爭正從 RNA 序列設計走向肝外遞送；智新生技以 EV 與 LNP 平台切入肺部與呼吸道，挑戰小核酸下半場最值錢的問題：能否真正抵達病灶。",
+      "image": "https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-13-intelligene-rna-delivery-nanorocket-en.html"
+      }
+    },
+    {
+      "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+      "date": "2026-08-13",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Novo Nordisk",
+        "ziltivekimab",
+        "ZEUS",
+        "MACE",
+        "IL-6",
+        "hsCRP",
+        "cardiovascular outcomes",
+        "Phase 3",
+        "biomarker risk"
+      ],
+      "summary": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE.",
+      "image": "https://drugnews.com.tw/assets/articles/ziltivekimab-zeus-mace-phase3-failure-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html"
+      }
+    },
+    {
+      "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
+      "date": "2026-08-13",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Novo Nordisk",
+        "ziltivekimab",
+        "ZEUS",
+        "MACE",
+        "IL-6",
+        "hsCRP",
+        "心血管",
+        "慢性腎臟病",
+        "NVO",
+        "合一生技"
+      ],
+      "summary": "ZEUS 超過 6,300 人卻交出 HR 0.99：ziltivekimab 壓低 free IL-6 與 hsCRP，卻沒有證明能降低三點 MACE。這不是抗發炎假說死亡，而是 biomarker 不能替患者硬終點預支成功。",
+      "image": "https://drugnews.com.tw/assets/articles/ziltivekimab-zeus-mace-phase3-failure/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html"
+      }
+    },
+    {
       "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
       "date": "2026-08-12",
       "language": "en",
@@ -1504,121 +1618,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-07-17-revmed-ras.html"
-      }
-    },
-    {
-      "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-      "date": "2026-07-16",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "Big Pharma",
-        "biotech M&A",
-        "Vertex",
-        "Crinetics",
-        "AbbVie",
-        "Apogee Therapeutics",
-        "Novartis",
-        "Avidity Biosciences",
-        "Merck"
-      ],
-      "summary": "Vertex's roughly $10 billion deal for Crinetics captures a wider change in Big Pharma's acquisition taste: away from scale and fashionable platforms, toward niche leadership, technological step-changes and commercial visibility.",
-      "image": "https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-16-big-pharma-ma-new-aesthetic.html"
-      }
-    },
-    {
-      "title": "百億美元併購新狂潮",
-      "date": "2026-07-16",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "Big Pharma",
-        "生技併購",
-        "Vertex",
-        "Crinetics",
-        "AbbVie",
-        "Apogee Therapeutics",
-        "Novartis",
-        "Avidity Biosciences",
-        "Merck",
-        "Cidara Therapeutics"
-      ],
-      "summary": "Vertex 以約 100 億美元收購 Crinetics，映照 Big Pharma 併購審美的轉向：不再只買規模或熱門平台，而是買細分市場統治力、技術代差與商業確定性。",
-      "image": "https://drugnews.com.tw/assets/articles/big-pharma-ma-new-aesthetic/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-16-big-pharma-ma-new-aesthetic-en.html"
-      }
-    },
-    {
-      "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
-      "date": "2026-07-15",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
-      "source": "Facebook",
-      "access": "Free Article",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "regulatory T cells",
-        "Treg",
-        "immune tolerance",
-        "cell therapy",
-        "autoimmune disease",
-        "transplantation",
-        "CMC",
-        "Taiwan Bio Therapeutics",
-        "Taiwan biotech"
-      ],
-      "summary": "The Nobel Prize illuminated Treg biology, but commercial value will depend on whether immune tolerance can become a releasable, trackable, scalable and reimbursable product, not on an unverified first-approval headline.",
-      "image": "https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization-en/cover.png",
-      "is_accessible_for_free": false,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-15-treg-immune-tolerance-productization.html"
-      }
-    },
-    {
-      "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
-      "date": "2026-07-15",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "Treg",
-        "免疫耐受",
-        "細胞療法",
-        "自體免疫",
-        "移植",
-        "CMC",
-        "台寶生醫",
-        "臨床開發",
-        "生技投資"
-      ],
-      "summary": "諾貝爾獎照亮 Treg 科學，但產業價值要看免疫耐受能否被做成可放行、可追蹤、可定價、可複製的產品，而不是急著追逐未經核實的第一款獲批敘事。",
-      "image": "https://drugnews.com.tw/assets/articles/treg-immune-tolerance-productization/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-15-treg-immune-tolerance-productization-en.html"
       }
     }
   ]
