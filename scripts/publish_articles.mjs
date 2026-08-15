@@ -362,8 +362,9 @@ function accessLabel(item) {
 }
 
 function isFreeAccess(item = {}) {
+  if (typeof item.is_accessible_for_free === "boolean") return item.is_accessible_for_free;
   const access = accessLabel(item);
-  return access === "免費文章" || (isEnglish(item) && access === "Business Analysis");
+  return access === "免費文章" || (isEnglish(item) && ["Business Analysis", "Free Article"].includes(access));
 }
 
 function isEnglish(item = {}) {
@@ -1146,6 +1147,7 @@ function stripLeadingTitle(markdown, title) {
 
 function headerHtml(current, meta = {}) {
   const english = isEnglish(meta);
+  const translatedArticle = english ? meta.translations?.["zh-Hant"] : meta.translations?.en;
   const labels = english
     ? {
         home: "Home",
@@ -1177,7 +1179,7 @@ function headerHtml(current, meta = {}) {
         team: "../en/team.html",
         subscribe: "../en/subscribe.html",
         services: "../en/services.html",
-        language: "../index.html"
+        language: translatedArticle || "../index.html"
       }
     : {
         home: "../index.html",
@@ -1188,7 +1190,7 @@ function headerHtml(current, meta = {}) {
         team: "../team.html",
         subscribe: "../subscribe.html",
         services: "../services.html",
-        language: "../en/index.html"
+        language: translatedArticle || "../en/index.html"
       };
   const brandLabel = english ? "Drugnews" : "Drugnews｜藥時事";
   const link = (href, label, key) => `<a href="${href}"${current === key ? ' aria-current="page"' : ""}>${label}</a>`;
@@ -1388,6 +1390,10 @@ function articlePage(article, bodyHtml, related) {
   const series = inferSeries(meta);
   const articleCover = coverImage(article);
   const articleImage = articleCover.src;
+  const articleCoverStem = articleImage.replace(/\.[^./?#]+$/, "");
+  const articleHeroCover = meta.show_cover_in_hero === true && articleImage
+    ? `<figure class="article-hero-cover"><picture><source type="image/webp" srcset="${escapeHtml(`${articleCoverStem}-720.webp`)} 720w, ${escapeHtml(`${articleCoverStem}-1400.webp`)} 1400w" sizes="(max-width: 760px) calc(100vw - 32px), 560px"><img src="${escapeHtml(articleImage)}" alt="${escapeHtml(articleCover.alt)}" width="1672" height="941" loading="eager" fetchpriority="high" decoding="async"></picture></figure>`
+    : "";
   const articleImageUrl = articleImage ? absoluteUrl(articleImage) : "";
   const articleImageUrls = [
     articleImageUrl,
@@ -1492,7 +1498,7 @@ function articlePage(article, bodyHtml, related) {
   <link rel="canonical" href="${url}">
   ${alternateLinks(meta, url)}
   <link rel="icon" href="../favicon.svg">
-  <link rel="stylesheet" href="../styles.css?v=20260730-1">
+  <link rel="stylesheet" href="../styles.css?v=20260815-1">
   <link rel="alternate" type="application/rss+xml" title="${escapeHtml(siteBrand)} RSS" href="${isEnglish(meta) ? `${BASE_URL}/en/feed.xml` : `${BASE_URL}/feed.xml`}">
   <link rel="alternate" type="application/feed+json" title="${escapeHtml(siteBrand)} JSON Feed" href="${isEnglish(meta) ? `${BASE_URL}/en/feed.json` : `${BASE_URL}/feed.json`}">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
@@ -1514,11 +1520,16 @@ function articlePage(article, bodyHtml, related) {
 ${headerHtml("articles", meta)}
 <main>
   <section class="article-hero">
-    <div class="container article-hero-inner">
+    <div class="container article-hero-inner${articleHeroCover ? " has-cover" : ""}">
       <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="${isEnglish(meta) ? "../en/index.html" : "../index.html"}">${ui.home}</a><span>/</span><a href="${localLinks.articles}">${ui.articles}</a><span>/</span><a href="${localLinks.freeType}">${ui.freeArticle}</a></nav>
-      <div class="meta">${heroMetaLabels.map((label) => `<span>${escapeHtml(label)}</span>`).join("")}</div>
-      <h1>${articleTitleHtml(meta)}</h1>
-      <p class="article-deck">${escapeHtml(meta.summary)}</p>
+      <div class="article-hero-feature">
+        <div class="article-hero-copy">
+          <div class="meta">${heroMetaLabels.map((label) => `<span>${escapeHtml(label)}</span>`).join("")}</div>
+          <h1>${articleTitleHtml(meta)}</h1>
+          <p class="article-deck">${escapeHtml(meta.summary)}</p>
+        </div>
+        ${articleHeroCover}
+      </div>
       <p class="article-byline">${ui.byline}<a href="${isEnglish(meta) ? "../en/team.html" : "../team.html"}">${ui.author}</a></p>
       ${sponsorDisclosure}
       ${trustHtml}

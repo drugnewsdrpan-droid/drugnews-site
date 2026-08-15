@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+  <title id="title">20 億美元押注，卡在第三期重現性</title>
+  <desc id="desc">CALM-1 達標、CALM-2 未顯著，中央以咳嗽、P2X3 受體與 camlipixant 呈現第三期重現性考驗。</desc>
+  <defs>
+    <linearGradient id="topShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#061426" stop-opacity=".98"/>
+      <stop offset=".55" stop-color="#061426" stop-opacity=".56"/>
+      <stop offset="1" stop-color="#061426" stop-opacity=".04"/>
+    </linearGradient>
+    <linearGradient id="bottomShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#061426" stop-opacity="0"/>
+      <stop offset="1" stop-color="#061426" stop-opacity=".96"/>
+    </linearGradient>
+    <linearGradient id="leftGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d3245" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#0a2637" stop-opacity=".88"/>
+    </linearGradient>
+    <linearGradient id="rightGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2b1a1b" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#351a18" stop-opacity=".96"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#020914" flood-opacity=".58"/>
+    </filter>
+  </defs>
+
+  <image href="cover-v2-background.png" x="0" y="0" width="1672" height="941" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1672" height="430" fill="url(#topShade)"/>
+  <rect y="560" width="1672" height="381" fill="url(#bottomShade)"/>
+  <rect x="0" y="0" width="836" height="941" fill="#00a79d" opacity=".06"/>
+  <rect x="836" y="0" width="836" height="941" fill="#df6b3b" opacity=".06"/>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#fff" filter="url(#shadow)">
+    <text x="150" y="75" font-size="26" font-weight="750" letter-spacing="5" fill="#91e2dc">DRUGNEWS · CLINICAL EVIDENCE</text>
+    <text x="150" y="178" font-size="82" font-weight="900" letter-spacing="1">20 億美元押注，</text>
+    <text x="150" y="274" font-size="82" font-weight="900" letter-spacing="1">卡在第三期重現性</text>
+    <text x="154" y="345" font-size="44" font-weight="760" letter-spacing="1.5">
+      <tspan fill="#78ddd5">CALM-1 達標</tspan><tspan fill="#dce7ef">｜</tspan><tspan fill="#ff9c72">CALM-2 未顯著</tspan>
+    </text>
+  </g>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif" filter="url(#shadow)">
+    <rect x="150" y="724" width="540" height="144" rx="28" fill="url(#leftGlass)" stroke="#61d6cc" stroke-width="3"/>
+    <rect x="982" y="724" width="540" height="144" rx="28" fill="url(#rightGlass)" stroke="#ee8257" stroke-width="3"/>
+    <text x="196" y="773" font-size="27" font-weight="800" letter-spacing="3" fill="#7ee4dc">CALM-1</text>
+    <text x="196" y="835" font-size="45" font-weight="900" fill="#fff">主要終點達標</text>
+    <text x="1028" y="773" font-size="27" font-weight="800" letter-spacing="3" fill="#ff9d75">CALM-2</text>
+    <text x="1028" y="835" font-size="45" font-weight="900" fill="#fff">未達統計顯著</text>
+
+    <rect x="716" y="753" width="240" height="92" rx="46" fill="#071a2a" fill-opacity=".94" stroke="#d8e9f0" stroke-opacity=".55" stroke-width="2"/>
+    <text x="836" y="790" text-anchor="middle" font-size="25" font-weight="850" letter-spacing="3" fill="#fff">P2X3</text>
+    <text x="836" y="824" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="2" fill="#b8cbd5">CAMLIPIXANT</text>
+  </g>
+</svg>
