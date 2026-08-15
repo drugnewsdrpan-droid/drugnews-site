@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T01:30:00.000Z</news:publication_date>
+      <news:title>GSK&apos;s US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T01:30:00.000Z</news:publication_date>
+      <news:title>GSK 砸 20 億美元買止咳新藥，三期卻翻車！</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html</loc>
     <news:news>
       <news:publication>
@@ -20,50 +42,6 @@
       </news:publication>
       <news:publication_date>2026-08-13T02:30:00.000Z</news:publication_date>
       <news:title>這家台灣Biotech正在打造人體內奈米火箭</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-13T00:00:00.000Z</news:publication_date>
-      <news:title>Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-13T00:00:00.000Z</news:publication_date>
-      <news:title>諾和諾德大三期慘敗！6,300 人的教科書級教訓</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T00:00:00.000Z</news:publication_date>
-      <news:title>Can $1.2 Billion Help AI Double the Pace of Drug R&amp;D?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T00:00:00.000Z</news:publication_date>
-      <news:title>美國砸 12 億美元，想用 AI 把新藥研發快一倍！</news:title>
     </news:news>
   </url>
 </urlset>

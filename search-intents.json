@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-13T04:12:58.516Z",
+  "generated_at": "2026-08-15T01:34:06.473Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+      "date": "2026-08-15",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "GSK",
+        "camlipixant",
+        "P2X3",
+        "refractory chronic cough",
+        "CALM-1",
+        "CALM-2",
+        "Phase 3"
+      ],
+      "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together."
+    },
+    {
+      "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+      "date": "2026-08-15",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+      "category": "商業分析",
+      "tags": [
+        "GSK",
+        "camlipixant",
+        "P2X3",
+        "慢性咳嗽",
+        "CALM-1",
+        "CALM-2",
+        "臨床三期",
+        "新藥研發"
+      ],
+      "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
+    },
     {
       "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
       "date": "2026-08-13",
@@ -776,42 +812,6 @@
         "專利懸崖"
       ],
       "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。"
-    },
-    {
-      "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-      "date": "2026-08-03",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Alzheimer's disease",
-        "tau",
-        "diranersen",
-        "BIIB080",
-        "IONIS-MAPTRx",
-        "Biogen",
-        "Ionis",
-        "antisense oligonucleotide"
-      ],
-      "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
-    },
-    {
-      "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-      "date": "2026-08-03",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-      "category": "商業分析",
-      "tags": [
-        "阿茲海默症",
-        "Tau",
-        "Diranersen",
-        "BIIB080",
-        "IONIS-MAPTRx",
-        "Biogen",
-        "Ionis",
-        "反義寡核苷酸"
-      ],
-      "summary": "CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。"
     }
   ],
   "do_not_use_as": [

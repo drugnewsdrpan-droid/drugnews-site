@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 13 Aug 2026 04:12:58 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 01:34:06 GMT</lastBuildDate>
+    <item>
+      <title>GSK 砸 20 億美元買止咳新藥，三期卻翻車！</title>
+      <link>https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html</guid>
+      <pubDate>Sat, 15 Aug 2026 01:30:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/gsk-camlipixant-calm-phase3-reproducibility/cover.png" alt="GSK camlipixant 的 CALM-1 與 CALM-2 得到不同第三期結果"></p><p>GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。</p>]]></description>
+    </item>
     <item>
       <title>這家台灣Biotech正在打造人體內奈米火箭</title>
       <link>https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/autoimmune-adc-lfd200/cover-1400.webp" alt="一組定向遞送 glucocorticoid payload 的抗體藥物複合體靠近 VISTA 陽性免疫細胞"></p><p>自體免疫 ADC 的價值不在把腫瘤細胞毒 payload 搬到免疫細胞，而在把 glucocorticoid、ASO、siRNA 等強效免疫調節作用定向送到真正需要干預的細胞；LFD-200 的早期人體訊號，是這條路第一次重要的機制驗證。</p>]]></description>
-    </item>
-    <item>
-      <title>又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代</title>
-      <link>https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html</guid>
-      <pubDate>Fri, 17 Jul 2026 01:46:13 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/revmed-ras/cover.png" alt="KRAS 分子開關與雙重 RAS 阻斷共同切斷胰臟癌逃脫路徑的科學主視覺"></p><p>Daraxonrasib 已用第三期總生存期資料抬高胰臟癌 RAS 賽道門檻；zoldonrasib 與 pan-RAS 或化療的早期組合訊號，則把競爭從單藥推向治療生態系。</p>]]></description>
     </item>
   </channel>
 </rss>

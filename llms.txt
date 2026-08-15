@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-15｜GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall
+  URL: https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html
+  Topics: Business Analysis, GSK, camlipixant, P2X3, refractory chronic cough
+  Summary: After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together.
+- 2026-08-15｜GSK 砸 20 億美元買止咳新藥，三期卻翻車！
+  URL: https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html
+  Topics: GSK, camlipixant, P2X3, 慢性咳嗽, CALM-1
+  Summary: GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。
 - 2026-08-13｜This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body
   URL: https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html
   Topics: Intelligene, RNA delivery, oligonucleotide therapeutics, siRNA, ASO
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html
   Topics: ICOTYDE, icotrokinra, Johnson & Johnson, 乾癬, IL-23R
   Summary: ICOTYDE 上市後第一個完整季度累積逾 18,000 張處方。口服 IL-23R 胜肽已取得進入高療效市場的資格，真正的商業答案仍取決於續方、支付品質、長期留存與多適應症。
-- 2026-08-08｜Why These Four Biotechs Can Afford Not to Sell
-  URL: https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html
-  Topics: Biotech, Biopharma, argenx, Insmed, Revolution Medicines
-  Summary: argenx, Insmed, Incyte, and Revolution Medicines show why biotech independence depends on product evidence, cash generation, a second growth curve, global execution, and financing without surrendering control.
-- 2026-08-08｜不賣給大藥廠，4 家生技公司憑什麼自己做大？
-  URL: https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html
-  Topics: Biotech, Biopharma, argenx, Insmed, Revolution Medicines
-  Summary: argenx、Insmed、Incyte 與 Revolution Medicines 選擇保留獨立經營權。真正的不賣資格，來自產品證據、現金引擎、第二曲線、全球執行與不交出控制權也能取得資金的能力。
 
 ## Key Site Sections
 

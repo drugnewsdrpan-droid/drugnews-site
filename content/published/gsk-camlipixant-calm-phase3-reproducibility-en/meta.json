@@ -1,0 +1,41 @@
+{
+  "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+  "slug": "gsk-camlipixant-calm-phase3-reproducibility-en",
+  "date": "2026-08-15",
+  "publish_at": "2026-08-15T09:30:00+08:00",
+  "updated_at": "2026-08-15",
+  "lang": "en",
+  "category": "商業分析系列",
+  "series": "Business Analysis",
+  "access": "Free Article",
+  "tags": [
+    "Business Analysis",
+    "GSK",
+    "camlipixant",
+    "P2X3",
+    "refractory chronic cough",
+    "CALM-1",
+    "CALM-2",
+    "Phase 3",
+    "drug development",
+    "biopharma M&A"
+  ],
+  "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together.",
+  "cover_image": "images/cover.png",
+  "card_image": "images/cover.png",
+  "homepage_cover_image": "images/cover.png",
+  "cover_image_alt": "Parallel CALM-1 and CALM-2 trial tracks showing different pivotal outcomes for camlipixant",
+  "card_image_alt": "CALM-1 and CALM-2 produced different pivotal outcomes for GSK's camlipixant",
+  "homepage_cover_image_alt": "After a roughly US$2 billion acquisition, camlipixant encountered a Phase 3 reproducibility test",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "source_platform": "Facebook",
+  "source_status": "Native English long-form localised from Drugnews's publicly verified Facebook article on 15 August 2026",
+  "facebook_url": "https://www.facebook.com/61568446257142/posts/122182684712614875",
+  "translations": {
+    "zh-Hant": "2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html"
+  }
+}

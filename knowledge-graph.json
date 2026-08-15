@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-13T04:12:58.517Z",
+  "generated_at": "2026-08-15T01:34:06.476Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,53 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+      "date": "2026-08-15",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Business Analysis",
+        "GSK",
+        "camlipixant",
+        "P2X3",
+        "refractory chronic cough",
+        "CALM-1",
+        "CALM-2",
+        "Phase 3",
+        "drug development",
+        "biopharma M&A"
+      ],
+      "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html"
+      }
+    },
+    {
+      "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+      "date": "2026-08-15",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "GSK",
+        "camlipixant",
+        "P2X3",
+        "慢性咳嗽",
+        "CALM-1",
+        "CALM-2",
+        "臨床三期",
+        "新藥研發",
+        "生技併購"
+      ],
+      "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。",
+      "alternate_language_versions": {
+        "en": "2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html"
+      }
+    },
     {
       "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
       "date": "2026-08-13",
@@ -779,46 +826,6 @@
       "alternate_language_versions": {
         "en": "2026-07-31-anbogen-immunotherapy-starlink-en.html"
       }
-    },
-    {
-      "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
-      "date": "2026-07-30",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
-      "category": "製藥巨頭",
-      "access": "商業分析文",
-      "tags": [
-        "Astellas",
-        "Xtandi",
-        "Padcev",
-        "Vyloy",
-        "腫瘤",
-        "藥物開發"
-      ],
-      "summary": "Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。",
-      "alternate_language_versions": {
-        "en": "2026-07-23-astellas-oncology-platform-en.html"
-      }
-    },
-    {
-      "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-      "date": "2026-07-30",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-      "category": "製藥巨頭",
-      "access": "Business Analysis",
-      "tags": [
-        "Astellas",
-        "Xtandi",
-        "Padcev",
-        "Vyloy",
-        "oncology",
-        "drug development"
-      ],
-      "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-23-astellas-oncology-platform.html"
-      }
     }
   ],
   "entities": [
@@ -975,49 +982,17 @@
       ]
     },
     {
-      "name": "drug development",
-      "type": "topic",
-      "mentions": 17,
-      "latest_date": "2026-08-12",
-      "latest_articles": [
-        {
-          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-          "language": "en"
-        },
-        {
-          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-          "date": "2026-07-30",
-          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Business Analysis",
       "type": "topic",
-      "mentions": 17,
-      "latest_date": "2026-07-29",
+      "mentions": 18,
+      "latest_date": "2026-08-15",
       "latest_articles": [
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en"
+        },
         {
           "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
           "date": "2026-07-29",
@@ -1041,11 +1016,43 @@
           "date": "2026-07-17",
           "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "drug development",
+      "type": "topic",
+      "mentions": 18,
+      "latest_date": "2026-08-15",
+      "latest_articles": [
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en"
         },
         {
-          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
+          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+          "language": "en"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
           "language": "en"
         }
       ]
@@ -1393,6 +1400,44 @@
       ]
     },
     {
+      "name": "GSK",
+      "type": "company",
+      "mentions": 8,
+      "latest_date": "2026-08-15",
+      "latest_articles": [
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+          "language": "en"
+        },
+        {
+          "title": "半年千億，買的是時間",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Revolution Medicines",
       "type": "company",
       "mentions": 8,
@@ -1659,44 +1704,6 @@
       ]
     },
     {
-      "name": "RAS",
-      "type": "biotech_concept_or_target",
-      "mentions": 7,
-      "latest_date": "2026-07-02",
-      "latest_articles": [
-        {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-          "language": "en"
-        },
-        {
-          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
-          "language": "en"
-        },
-        {
-          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
-          "date": "2026-06-15",
-          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "AbbVie",
       "type": "topic",
       "mentions": 6,
@@ -1806,44 +1813,6 @@
           "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
           "date": "2026-06-22",
           "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "GSK",
-      "type": "company",
-      "mentions": 6,
-      "latest_date": "2026-08-10",
-      "latest_articles": [
-        {
-          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
-          "language": "en"
-        },
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
           "language": "en"
         }
       ]
@@ -1963,6 +1932,44 @@
       ]
     },
     {
+      "name": "RAS",
+      "type": "biotech_concept_or_target",
+      "mentions": 6,
+      "latest_date": "2026-07-02",
+      "latest_articles": [
+        {
+          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
+          "date": "2026-07-02",
+          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
+          "date": "2026-06-27",
+          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
+          "language": "en"
+        },
+        {
+          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
+          "date": "2026-06-27",
+          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "ASCO 2026: RAS, ADCs, Bispecifics, and In Vivo CAR-T Point to a New Oncology Cycle",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t-en.html",
+          "language": "en"
+        },
+        {
+          "title": "2026 ASCO：生存期翻倍、體內 CAR-T 破局，腫瘤治療正在換一個時代",
+          "date": "2026-06-15",
+          "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Capital markets",
       "type": "market_topic",
       "mentions": 6,
@@ -1997,6 +2004,44 @@
           "date": "2026-06-14",
           "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "生技併購",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-08-15",
+      "latest_articles": [
+        {
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
+          "date": "2026-08-04",
+          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年千億，買的是時間",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2111,6 +2156,38 @@
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "新藥研發",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-15",
+      "latest_articles": [
+        {
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2238,38 +2315,6 @@
           "title": "安邦生技：免疫治療的「星鏈計畫」",
           "date": "2026-07-31",
           "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "生技併購",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-08-10",
-      "latest_articles": [
-        {
-          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
           "language": "zh-Hant"
         }
       ]
@@ -2787,6 +2832,32 @@
       ]
     },
     {
+      "name": "biopharma M&A",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-08-15",
+      "latest_articles": [
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+          "language": "en"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "專利懸崖",
       "type": "topic",
       "mentions": 3,
@@ -2969,32 +3040,6 @@
       ]
     },
     {
-      "name": "新藥研發",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "PD-1",
       "type": "biotech_concept_or_target",
       "mentions": 3,
@@ -3068,32 +3113,6 @@
           "title": "盤點整理，AI藥物開發走得如何了？",
           "date": "2026-06-12",
           "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "胰臟癌",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-07-17",
-      "latest_articles": [
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "RAS 標靶打開胰臟癌新局：生華科 CX-5461 卡位下一場「抗藥性管理」戰",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer.html",
           "language": "zh-Hant"
         }
       ]
@@ -3203,27 +3222,101 @@
       ]
     },
     {
-      "name": "Drug development",
+      "name": "CALM-1",
       "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-06-12",
+      "mentions": 2,
+      "latest_date": "2026-08-15",
       "latest_articles": [
         {
-          "title": "Where Does AI Drug Discovery Stand Now? A Pipeline-Based Reality Check",
-          "date": "2026-06-12",
-          "url": "https://drugnews.com.tw/articles/2026-06-12-ai-drug-discovery-pipeline-20260612-en.html",
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
           "language": "en"
         },
         {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "CALM-2",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-15",
+      "latest_articles": [
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
           "language": "en"
         },
         {
-          "title": "RAS Targeting Opens a New Pancreatic-Cancer Window: How Senhwa's CX-5461 Positions for the Next Resistance-Management War",
-          "date": "2026-06-10",
-          "url": "https://drugnews.com.tw/articles/2026-06-10-sinphar-cx5461-ras-pancreatic-cancer-en.html",
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "camlipixant",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-15",
+      "latest_articles": [
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "P2X3",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-15",
+      "latest_articles": [
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Phase 3",
+      "type": "market_topic",
+      "mentions": 2,
+      "latest_date": "2026-08-15",
+      "latest_articles": [
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
           "language": "en"
         }
       ]
@@ -3307,89 +3400,47 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "LNP",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-13",
-      "latest_articles": [
-        {
-          "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
-          "language": "en"
-        },
-        {
-          "title": "這家台灣Biotech正在打造人體內奈米火箭",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "MACE",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-13",
-      "latest_articles": [
-        {
-          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
-          "language": "en"
-        },
-        {
-          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "ZEUS",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-13",
-      "latest_articles": [
-        {
-          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
-          "language": "en"
-        },
-        {
-          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "ziltivekimab",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-13",
-      "latest_articles": [
-        {
-          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
-          "language": "en"
-        },
-        {
-          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+      "date": "2026-08-15",
+      "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Business Analysis",
+        "GSK",
+        "camlipixant",
+        "P2X3",
+        "refractory chronic cough",
+        "CALM-1",
+        "CALM-2",
+        "Phase 3"
+      ],
+      "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together."
+    },
+    {
+      "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+      "date": "2026-08-15",
+      "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "GSK",
+        "camlipixant",
+        "P2X3",
+        "慢性咳嗽",
+        "CALM-1",
+        "CALM-2",
+        "臨床三期",
+        "新藥研發"
+      ],
+      "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
+    },
     {
       "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
       "date": "2026-08-13",
@@ -3920,40 +3971,6 @@
         "Arrowhead Pharmaceuticals"
       ],
       "summary": "Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。"
-    },
-    {
-      "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
-      "date": "2026-07-19",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "NAMs",
-        "CDE",
-        "Regulatory Science",
-        "Organoids",
-        "Organ-on-a-Chip",
-        "AI Drug Discovery"
-      ],
-      "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable."
-    },
-    {
-      "title": "動物實驗不是消失，而是藥物研發規則開始換代",
-      "date": "2026-07-19",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "NAMs",
-        "CDE",
-        "監管科學",
-        "類器官",
-        "器官晶片",
-        "AI 製藥"
-      ],
-      "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。"
     }
   ]
 }

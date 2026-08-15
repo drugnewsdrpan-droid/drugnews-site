@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+  <title id="title">GSK camlipixant 第三期重現性</title>
+  <desc id="desc">兩個平行臨床試驗軌道在第三期出現不同結果，象徵新藥證據的重現性風險。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#eef5fb"/></linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#123b5d"/><stop offset="1" stop-color="#245f79"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#14334b" flood-opacity=".13"/></filter>
+  </defs>
+  <rect width="1672" height="941" fill="url(#bg)"/>
+  <circle cx="1470" cy="120" r="230" fill="#d9edf2" opacity=".65"/><circle cx="130" cy="850" r="260" fill="#e5edf7"/>
+  <g opacity=".35" stroke="#7ca8b6" stroke-width="3" fill="none"><path d="M120 165C310 54 420 274 610 148S960 90 1120 186"/><circle cx="260" cy="118" r="10" fill="#7ca8b6"/><circle cx="524" cy="184" r="10" fill="#7ca8b6"/><circle cx="824" cy="118" r="10" fill="#7ca8b6"/></g>
+  <text x="122" y="122" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="28" font-weight="700" letter-spacing="4" fill="#2c7480">DRUGNEWS · CLINICAL EVIDENCE</text>
+  <text x="122" y="235" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="72" font-weight="800" fill="#153b57">20 億美元之後</text>
+  <text x="122" y="322" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="68" font-weight="800" fill="#153b57">第三期能不能再做一次？</text>
+  <text x="126" y="384" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="28" fill="#4d6878">Camlipixant · CALM-1 / CALM-2 · P2X3</text>
+  <g transform="translate(126 476)" filter="url(#shadow)">
+    <rect width="1420" height="320" rx="34" fill="#fff"/>
+    <rect x="68" y="66" width="470" height="188" rx="28" fill="#e7f5f3" stroke="#80b9ae" stroke-width="3"/>
+    <rect x="882" y="66" width="470" height="188" rx="28" fill="#fff1eb" stroke="#e4a184" stroke-width="3"/>
+    <path d="M538 160H882" stroke="url(#navy)" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="710" cy="160" r="44" fill="#fff" stroke="#244f6c" stroke-width="5"/><text x="710" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#244f6c">?</text>
+    <text x="112" y="121" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#276a64">CALM-1</text>
+    <text x="112" y="185" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="38" font-weight="800" fill="#153b57">第 12 週達主要終點</text>
+    <text x="926" y="121" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#ad5d3c">CALM-2</text>
+    <text x="926" y="185" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="38" font-weight="800" fill="#153b57">第 24 週未達顯著</text>
+    <text x="710" y="294" text-anchor="middle" font-family="Arial, 'Noto Sans TC', sans-serif" font-size="26" fill="#667985">同一藥物與劑量，不等於結果必然重現</text>
+  </g>
+</svg>

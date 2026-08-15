@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/gsk-camlipixant-calm-phase3-reproducibility-en/cover.png</image:loc>
+      <image:caption>After a roughly US$2 billion acquisition, camlipixant encountered a Phase 3 reproducibility test</image:caption>
+      <image:title>GSK&apos;s US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/gsk-camlipixant-calm-phase3-reproducibility-en/figure-01.svg</image:loc>
+      <image:caption>Figure 1 | The same drug and dose produced different pivotal outcomes in CALM-1 and CALM-2.</image:caption>
+      <image:title>GSK&apos;s US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/gsk-camlipixant-calm-phase3-reproducibility-en/figure-02.svg</image:loc>
+      <image:caption>Figure 2 | SOOTHE created a strong Phase 2 signal; the US$2 billion acquisition purchased a late-stage hypothesis, not a guaranteed approval.</image:caption>
+      <image:title>GSK&apos;s US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/gsk-camlipixant-calm-phase3-reproducibility-en/figure-03.svg</image:loc>
+      <image:caption>Figure 3 | Phase 3 retests an early signal across a larger, more heterogeneous population, longer follow-up and reproducibility requirements.</image:caption>
+      <image:title>GSK&apos;s US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/gsk-camlipixant-calm-phase3-reproducibility-en/figure-04.svg</image:loc>
+      <image:caption>Figure 4 | GSK stopped refractory chronic cough development, while the Phase 2b BALANCE study in IBS continues.</image:caption>
+      <image:title>GSK&apos;s US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/gsk-camlipixant-calm-phase3-reproducibility/cover.png</image:loc>
+      <image:caption>約 20 億美元收購後，camlipixant 在第三期面臨重現性考驗</image:caption>
+      <image:title>GSK 砸 20 億美元買止咳新藥，三期卻翻車！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/gsk-camlipixant-calm-phase3-reproducibility/figure-01.png</image:loc>
+      <image:caption>圖1｜同一個藥、同一劑量，CALM-1 與 CALM-2 得到不同的第三期結果</image:caption>
+      <image:title>GSK 砸 20 億美元買止咳新藥，三期卻翻車！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/gsk-camlipixant-calm-phase3-reproducibility/figure-02.png</image:loc>
+      <image:caption>圖2｜SOOTHE 二期訊號與約 20 億美元收購：買進的是後期假設，不是確定核准</image:caption>
+      <image:title>GSK 砸 20 億美元買止咳新藥，三期卻翻車！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/gsk-camlipixant-calm-phase3-reproducibility/figure-03.png</image:loc>
+      <image:caption>圖3｜第三期不是放大二期，而是用更大族群、更長追蹤重新檢驗結果能否重現</image:caption>
+      <image:title>GSK 砸 20 億美元買止咳新藥，三期卻翻車！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/gsk-camlipixant-calm-phase3-reproducibility/figure-04.png</image:loc>
+      <image:caption>圖4｜RCC 開發停止，BALANCE 第二期仍繼續：不同適應症不能直接外推</image:caption>
+      <image:title>GSK 砸 20 億美元買止咳新藥，三期卻翻車！</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/intelligene-rna-delivery-nanorocket-en/cover.png</image:loc>

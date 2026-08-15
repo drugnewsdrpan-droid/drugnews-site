@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-13T04:12:58.461Z",
+  "generated_at": "2026-08-15T01:34:06.249Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -117,8 +117,109 @@
   },
   "buckets": [
     {
+      "name": "臨床與法規催化",
+      "count": 5,
+      "articles": [
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Business Analysis",
+            "GSK",
+            "camlipixant",
+            "P2X3",
+            "refractory chronic cough",
+            "CALM-1",
+            "CALM-2",
+            "Phase 3"
+          ],
+          "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together."
+        },
+        {
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "GSK",
+            "camlipixant",
+            "P2X3",
+            "慢性咳嗽",
+            "CALM-1",
+            "CALM-2",
+            "臨床三期",
+            "新藥研發"
+          ],
+          "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
+        },
+        {
+          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "argenx",
+            "Forte Biosciences",
+            "FB102",
+            "VYVGART",
+            "CD122",
+            "autoimmune disease",
+            "vitiligo",
+            "celiac disease"
+          ],
+          "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat."
+        },
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Alzheimer's disease",
+            "tau",
+            "diranersen",
+            "BIIB080",
+            "IONIS-MAPTRx",
+            "Biogen",
+            "Ionis",
+            "antisense oligonucleotide"
+          ],
+          "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
+        },
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "斑禿",
+            "鬼剃頭",
+            "Bempikibart",
+            "Q32 Bio",
+            "QTTB",
+            "IL-7Rα",
+            "JAK 抑制劑",
+            "SALT"
+          ],
+          "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。"
+        }
+      ]
+    },
+    {
       "name": "AI 製藥與新技術",
-      "count": 13,
+      "count": 11,
       "articles": [
         {
           "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
@@ -327,40 +428,6 @@
             "business development"
           ],
           "summary": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs."
-        },
-        {
-          "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "NAMs",
-            "CDE",
-            "Regulatory Science",
-            "Organoids",
-            "Organ-on-a-Chip",
-            "AI Drug Discovery"
-          ],
-          "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable."
-        },
-        {
-          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "NAMs",
-            "CDE",
-            "監管科學",
-            "類器官",
-            "器官晶片",
-            "AI 製藥"
-          ],
-          "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。"
         }
       ]
     },
@@ -563,69 +630,6 @@
             "BD"
           ],
           "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
-        }
-      ]
-    },
-    {
-      "name": "臨床與法規催化",
-      "count": 3,
-      "articles": [
-        {
-          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
-          "date": "2026-08-07",
-          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "argenx",
-            "Forte Biosciences",
-            "FB102",
-            "VYVGART",
-            "CD122",
-            "autoimmune disease",
-            "vitiligo",
-            "celiac disease"
-          ],
-          "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat."
-        },
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Alzheimer's disease",
-            "tau",
-            "diranersen",
-            "BIIB080",
-            "IONIS-MAPTRx",
-            "Biogen",
-            "Ionis",
-            "antisense oligonucleotide"
-          ],
-          "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
-        },
-        {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "斑禿",
-            "鬼剃頭",
-            "Bempikibart",
-            "Q32 Bio",
-            "QTTB",
-            "IL-7Rα",
-            "JAK 抑制劑",
-            "SALT"
-          ],
-          "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。"
         }
       ]
     },

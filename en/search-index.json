@@ -1,5 +1,34 @@
 [
   {
+    "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+    "slug": "gsk-camlipixant-calm-phase3-reproducibility-en",
+    "date": "2026-08-15",
+    "publishAt": "2026-08-15T09:30:00+08:00",
+    "updatedAt": "2026-08-15",
+    "category": "商業分析系列",
+    "access": "Free Article",
+    "lang": "en",
+    "tags": [
+      "Business Analysis",
+      "GSK",
+      "camlipixant",
+      "P2X3",
+      "refractory chronic cough",
+      "CALM-1",
+      "CALM-2",
+      "Phase 3",
+      "drug development",
+      "biopharma M&A"
+    ],
+    "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together.",
+    "image": "../assets/articles/gsk-camlipixant-calm-phase3-reproducibility-en/cover.svg",
+    "cardImage": "../assets/articles/gsk-camlipixant-calm-phase3-reproducibility-en/cover.svg",
+    "imageAlt": "Parallel CALM-1 and CALM-2 trial tracks showing different pivotal outcomes for camlipixant",
+    "sponsored": false,
+    "sponsorName": "",
+    "url": "articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html"
+  },
+  {
     "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
     "slug": "intelligene-rna-delivery-nanorocket-en",
     "date": "2026-08-13",
