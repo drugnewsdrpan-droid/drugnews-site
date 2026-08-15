@@ -30,7 +30,7 @@
       "https://vocus.cc/user/@Drugnews",
       "https://www.cmoney.tw/app/expert/drugnews?ca=1",
       "https://www.instagram.com/drugnews.com.tw/",
-      "https://www.linkedin.com/company/drugnews-cn"
+      "https://www.linkedin.com/company/drugnews-cn/"
     ],
     "same_as": [
       "https://www.facebook.com/profile.php?id=61568446257142",
@@ -38,7 +38,7 @@
       "https://vocus.cc/user/@Drugnews",
       "https://www.cmoney.tw/app/expert/drugnews?ca=1",
       "https://www.instagram.com/drugnews.com.tw/",
-      "https://www.linkedin.com/company/drugnews-cn"
+      "https://www.linkedin.com/company/drugnews-cn/"
     ],
     "official_channels": [
       {
@@ -73,7 +73,7 @@
       },
       {
         "name": "LinkedIn",
-        "url": "https://www.linkedin.com/company/drugnews-cn",
+        "url": "https://www.linkedin.com/company/drugnews-cn/",
         "role": "English-language industry distribution and company presence"
       }
     ],

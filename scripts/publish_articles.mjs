@@ -18,7 +18,7 @@ const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61568446257142";
 const DCARD_URL = "https://www.dcard.tw/@drugnews";
 const CMONEY_URL = "https://www.cmoney.tw/app/expert/drugnews?ca=1";
 const INSTAGRAM_URL = "https://www.instagram.com/drugnews.com.tw/";
-const LINKEDIN_URL = "https://www.linkedin.com/company/drugnews-cn";
+const LINKEDIN_URL = "https://www.linkedin.com/company/drugnews-cn/";
 const COMPANY_SERVICE_FORM_URL = "https://forms.gle/rvDm93vkUx3E7Rci7";
 const ENGLISH_BRAND = "Drugnews｜Taiwan Biotech Intelligence";
 const CHINESE_BRAND = "Drugnews｜藥時事";
@@ -442,7 +442,7 @@ function articleUi(meta = {}) {
     shareCopy: "Send this article to readers who follow biotech, company strategy, and capital-market signals.",
     shareFacebook: "Facebook",
     shareLine: "LINE",
-    shareLinkedIn: "LinkedIn",
+    shareLinkedIn: "Share on LinkedIn",
     copyLink: "Copy link",
     copied: "Copied",
     citationTitle: "Cite this article",
@@ -1239,7 +1239,7 @@ function nestedHeaderHtml(current = "articles", prefix = "../../") {
 
 function footerHtml(meta = {}) {
   if (isEnglish(meta)) {
-    return `<footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. ${ENGLISH_DISCLAIMER}</div><nav class="footer-links" aria-label="Footer navigation"><a href="${BASE_URL}/en/about.html">About / Editorial Standards</a><a href="${BASE_URL}/en/team.html">Team</a><a href="${BASE_URL}/en/services.html">Services</a><a href="${BASE_URL}/en/subscribe.html">In-depth Research</a><a href="${BASE_URL}/en/articles/">Articles</a></nav></div></footer>`;
+    return `<footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. ${ENGLISH_DISCLAIMER}</div><nav class="footer-links" aria-label="Footer navigation"><a href="${BASE_URL}/en/about.html">About / Editorial Standards</a><a href="${BASE_URL}/en/team.html">Team</a><a href="${BASE_URL}/en/services.html">Services</a><a href="${BASE_URL}/en/subscribe.html">In-depth Research</a><a href="${BASE_URL}/en/articles/">Articles</a><a href="${LINKEDIN_URL}" target="_blank" rel="noopener noreferrer" data-analytics-event="linkedin_follow_click" data-analytics-context="footer">LinkedIn</a></nav></div></footer>`;
   }
   return `<footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. ${disclaimerFor(meta)}</div><nav class="footer-links" aria-label="Footer navigation"><a href="${BASE_URL}/about.html">關於 / 編輯標準</a><a href="${BASE_URL}/team.html">團隊</a><a href="${BASE_URL}/services.html">公司合作</a><a href="${BASE_URL}/subscribe.html">深度分析</a><a href="${BASE_URL}/articles/">文章</a></nav></div></footer>`;
 }
@@ -1265,7 +1265,7 @@ function sharePanelHtml(meta, url) {
     <div class="share-actions">
       <a class="button secondary" href="https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}" target="_blank" rel="noopener">${escapeHtml(ui.shareFacebook)}</a>
       <a class="button secondary" href="https://social-plugins.line.me/lineit/share?url=${encodedUrl}" target="_blank" rel="noopener">${escapeHtml(ui.shareLine)}</a>
-      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}&title=${encodedTitle}" target="_blank" rel="noopener">${escapeHtml(ui.shareLinkedIn)}</a>
+      <a class="button secondary" href="https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}&title=${encodedTitle}" target="_blank" rel="noopener noreferrer">${escapeHtml(ui.shareLinkedIn)}</a>
       <button class="button ghost copy-link" type="button" data-copy-url="${escapeHtml(url)}" data-label="${escapeHtml(ui.copyLink)}" data-copied="${escapeHtml(ui.copied)}">${escapeHtml(ui.copyLink)}</button>
     </div>
   </div>`;
@@ -1294,6 +1294,17 @@ function citationBoxHtml(meta, url) {
     <p>${escapeHtml(ui.citationCopy)}</p>
     <blockquote>${escapeHtml(citation)}</blockquote>
   </div>`;
+}
+
+function linkedInFollowCardHtml(meta = {}) {
+  if (!isEnglish(meta)) return "";
+  return `<aside class="linkedin-follow-card" aria-labelledby="linkedin-follow-heading">
+    <div>
+      <h2 id="linkedin-follow-heading">Keep following the evidence</h2>
+      <p>Follow Drugnews on LinkedIn for timely analysis of global drug development, clinical data and Taiwan biotech.</p>
+    </div>
+    <a class="button secondary" href="${LINKEDIN_URL}" target="_blank" rel="noopener noreferrer" data-analytics-event="linkedin_follow_click" data-analytics-context="article">Follow Drugnews on LinkedIn</a>
+  </aside>`;
 }
 
 function readingMinutes(markdown) {
@@ -1498,7 +1509,7 @@ function articlePage(article, bodyHtml, related) {
   <link rel="canonical" href="${url}">
   ${alternateLinks(meta, url)}
   <link rel="icon" href="../favicon.svg">
-  <link rel="stylesheet" href="../styles.css?v=20260815-1">
+  <link rel="stylesheet" href="../styles.css?v=20260815-2">
   <link rel="alternate" type="application/rss+xml" title="${escapeHtml(siteBrand)} RSS" href="${isEnglish(meta) ? `${BASE_URL}/en/feed.xml` : `${BASE_URL}/feed.xml`}">
   <link rel="alternate" type="application/feed+json" title="${escapeHtml(siteBrand)} JSON Feed" href="${isEnglish(meta) ? `${BASE_URL}/en/feed.json` : `${BASE_URL}/feed.json`}">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
@@ -1543,6 +1554,7 @@ ${headerHtml("articles", meta)}
       ${citationBoxHtml(meta, url)}
       <div class="notice">${disclaimerFor(meta)}</div>
       ${sourceLinks ? `<h2>${ui.originalHeading}</h2><div class="tag-row">${sourceLinks}</div>` : ""}
+      ${linkedInFollowCardHtml(meta)}
       ${monetizationHtml}
       ${relatedHtml}
       </article>

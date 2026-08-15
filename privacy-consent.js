@@ -101,6 +101,11 @@
     return /^[a-z0-9._-]{1,80}$/i.test(value) ? value : "";
   }
 
+  function safeEventName(value) {
+    value = String(value || "").trim();
+    return /^[a-z][a-z0-9_]{1,63}$/i.test(value) ? value : "";
+  }
+
   function safePageLocation() {
     var safeUrl = new URL(window.location.origin + window.location.pathname);
     var source = safeCampaignValue(new URLSearchParams(window.location.search).get("utm_source"));
@@ -196,11 +201,14 @@
     if (!isOutbound && !isSubscription && !isTrackedInternal) return;
 
     var safeUrl = safeEventUrl(url);
-    window.gtag("event", eventName(url), {
+    var configuredEvent = safeEventName(link.getAttribute("data-analytics-event"));
+    var eventContext = safeCampaignValue(link.getAttribute("data-analytics-context"));
+    window.gtag("event", configuredEvent || eventName(url), {
       event_category: isOutbound ? "outbound_link" : "site_link",
       event_label: safeUrl,
       link_url: safeUrl,
       link_domain: /^https?:$/i.test(parsed.protocol) ? parsed.hostname : "",
+      event_context: eventContext,
       page_language: document.documentElement.lang || "",
       page_path: window.location.pathname,
       utm_campaign: safeCampaignValue(parsed.searchParams.get("utm_campaign")),

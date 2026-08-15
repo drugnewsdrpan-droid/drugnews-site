@@ -6,7 +6,7 @@ const ROOT = process.cwd();
 const BASE_URL = "https://drugnews.com.tw";
 const ENGLISH_BRAND = "Drugnews｜Taiwan Biotech Intelligence";
 const ENGLISH_DESCRIPTION = "Independent biotech and pharmaceutical intelligence from Taiwan, covering clinical data, company strategy, licensing, valuation, and capital markets.";
-const LINKEDIN_URL = "https://www.linkedin.com/company/drugnews-cn";
+const LINKEDIN_URL = "https://www.linkedin.com/company/drugnews-cn/";
 const COMPANY_SERVICE_FORM_URL = "https://forms.gle/rvDm93vkUx3E7Rci7";
 const ENGLISH_READER_LIST_EMAIL = "drugnews.dr.pan@gmail.com";
 const EN = path.join(ROOT, "en");
@@ -188,7 +188,7 @@ function header(current, depth = 1) {
 }
 
 function footer(depth = 1) {
-  return `<footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. This site is for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div><nav class="footer-links" aria-label="Footer navigation"><a href="${BASE_URL}/en/about.html">About / Editorial Standards</a><a href="${BASE_URL}/en/team.html">Team</a><a href="${BASE_URL}/en/services.html">Company Services</a><a href="${BASE_URL}/en/subscribe.html">In-depth Research</a><a href="${BASE_URL}/en/guides/">Research Guides</a><a href="${BASE_URL}/en/articles/">Articles</a><a href="${BASE_URL}/en/feed.xml">English RSS</a></nav></div></footer>`;
+  return `<footer class="site-footer"><div class="container footer-inner"><div>© 2026 Drugnews. This site is for industry research and knowledge sharing only. It does not constitute investment, medical, fundraising, or individual stock advice.</div><nav class="footer-links" aria-label="Footer navigation"><a href="${BASE_URL}/en/about.html">About / Editorial Standards</a><a href="${BASE_URL}/en/team.html">Team</a><a href="${BASE_URL}/en/services.html">Company Services</a><a href="${BASE_URL}/en/subscribe.html">In-depth Research</a><a href="${BASE_URL}/en/guides/">Research Guides</a><a href="${BASE_URL}/en/articles/">Articles</a><a href="${BASE_URL}/en/feed.xml">English RSS</a><a href="${LINKEDIN_URL}" target="_blank" rel="noopener noreferrer" data-analytics-event="linkedin_follow_click" data-analytics-context="footer">LinkedIn</a></nav></div></footer>`;
 }
 
 function head({ title, description, canonicalPath, image, depth = 1, extraHead = "", homeRecords = [] }) {
@@ -208,7 +208,7 @@ ${englishHomeSchema(homeRecords)}` : "";
   <link rel="alternate" hreflang="zh-Hant" href="${BASE_URL}/${zhPath}">
   <link rel="alternate" hreflang="x-default" href="${BASE_URL}/${zhPath}">
   <link rel="icon" href="${root}favicon.svg">
-  <link rel="stylesheet" href="${root}styles.css?v=en-20260719-2">
+  <link rel="stylesheet" href="${root}styles.css?v=en-20260815-1">
   <link rel="alternate" type="application/rss+xml" title="${ENGLISH_BRAND} RSS" href="${BASE_URL}/en/feed.xml">
   <link rel="alternate" type="application/feed+json" title="${ENGLISH_BRAND} JSON Feed" href="${BASE_URL}/en/feed.json">
   <link rel="search" type="application/opensearchdescription+xml" title="Drugnews Search" href="${BASE_URL}/opensearch.xml">
@@ -470,6 +470,10 @@ function homePage(records) {
       <div>
         <p>Drugnews turns clinical data, company strategy, licensing activity, and capital-market signals into clear business judgment for biotech and pharmaceutical readers.</p>
         <p class="audience-proof">Taiwan-based biotech and pharmaceutical business intelligence for global readers.</p>
+        <aside class="linkedin-follow-inline" aria-label="Follow Drugnews on LinkedIn">
+          <p>Taiwan and global biotech intelligence, grounded in clinical and business evidence.</p>
+          <a class="button secondary" href="${LINKEDIN_URL}" target="_blank" rel="noopener noreferrer" data-analytics-event="linkedin_follow_click" data-analytics-context="homepage">Follow Drugnews on LinkedIn</a>
+        </aside>
       </div>
     </div>
     <div class="container issue-bar" aria-label="Reading entry points">
@@ -651,7 +655,7 @@ function subscribePage() {
   <section class="page-title paid-hero"><div class="container"><p class="eyebrow">In-depth Research</p><h1>Read biotech company change as a repeatable business-judgment framework.</h1><p>Business analysis helps readers understand public events. Drugnews in-depth research goes deeper into company tracking, industry context, valuation thinking, and capital-market interpretation.</p><div class="actions"><a class="button primary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_subscribe_hero"))}" target="_blank" rel="noopener">Subscribe on Vocus</a><a class="button secondary" href="../articles/type/paid.html">View in-depth series</a></div></div></section>
   <section class="section white"><div class="container section-head"><div><h2>Who it is for</h2><p>In-depth research is designed for readers who want to connect individual news events into company fundamentals, clinical milestones, BD logic, and valuation change.</p></div></div><div class="container grid"><div class="card"><h3>Long-term biotech company followers</h3><p>Readers who want each event to connect back to pipeline value, clinical catalysts, and commercialization paths.</p></div><div class="card"><h3>Investors who need industry context</h3><p>Readers who follow BD, licensing, competitive dynamics, clinical risk, and capital-market repricing.</p></div><div class="card"><h3>Biotech and pharma professionals</h3><p>Industry readers who want a more commercial lens on pipelines, platforms, clinical data, and company positioning.</p></div></div></section>
   <section class="section white"><div class="container section-head"><div><p class="eyebrow">Research Packs</p><h2>Turn single articles into reusable biotech research tools.</h2><p>Drugnews can package high-demand topics into focused research packs for readers and teams who need a faster way to understand a market, valuation question, or BD decision.</p></div></div><div class="container product-grid"><article class="product-card"><span class="product-tag">Investment Framework</span><h3>GLP-1 and Obesity Drug Competition Map</h3><p>A structured view of Novo Nordisk, Lilly, oral GLP-1s, combination therapies, and next-generation obesity pipelines, focused on product, supply-chain, and commercialization advantage.</p><div class="product-meta"><span>PDF / chart pack</span><span>For investors and industry readers</span></div><a class="button primary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_glp1_research_pack", "paid_research_pack"))}" target="_blank" rel="noopener">View related in-depth research</a></article><article class="product-card"><span class="product-tag">BD / Licensing</span><h3>Pipeline Valuation and Licensing-Terms Pack</h3><p>A practical framework for rNPV, upfront payments, milestones, royalties, territorial rights, and how buyers price an asset before it reaches the market.</p><div class="product-meta"><span>Valuation framework</span><span>For research and BD teams</span></div><a class="button primary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_bd_valuation_pack", "paid_research_pack"))}" target="_blank" rel="noopener">View related in-depth research</a></article><article class="product-card"><span class="product-tag">Company Service</span><h3>Biotech IR Content Audit</h3><p>A focused review of a company's website, deck, press releases, and investor materials to clarify clinical evidence, commercialization path, competitor positioning, and catalysts.</p><div class="product-meta"><span>30-minute consultation</span><span>For company and IR teams</span></div><a class="button secondary" href="${escapeHtml(campaignUrl(COMPANY_SERVICE_FORM_URL, "english_ir_content_audit", "company_services"))}" target="_blank" rel="noopener">Book an audit</a></article></div></section>
-  <section class="section"><div class="container newsletter"><div><h2>Turn Drugnews into your biotech research radar</h2><p>Use the English feed for automatic updates, or email us to join the manually managed English reader list. Automated newsletter delivery is not active yet.</p></div><div class="actions"><a class="button primary" href="${escapeHtml(englishReaderListMailto())}">Email to join (manual)</a><a class="button secondary" href="feed.xml">English RSS</a><a class="button secondary" href="${LINKEDIN_URL}" target="_blank" rel="noopener">LinkedIn</a><a class="button secondary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_subscribe_follow_bar"))}" target="_blank" rel="noopener">Vocus</a></div></div></section>
+  <section class="section"><div class="container newsletter"><div><h2>Turn Drugnews into your biotech research radar</h2><p>Use the English feed for automatic updates, or email us to join the manually managed English reader list. Automated newsletter delivery is not active yet.</p></div><div class="actions"><a class="button primary" href="${escapeHtml(englishReaderListMailto())}">Email to join (manual)</a><a class="button secondary" href="feed.xml">English RSS</a><a class="button secondary" href="${LINKEDIN_URL}" target="_blank" rel="noopener noreferrer" data-analytics-event="linkedin_follow_click" data-analytics-context="subscribe">Follow on LinkedIn</a><a class="button secondary" href="${escapeHtml(campaignUrl("https://vocus.cc/user/@Drugnews", "english_subscribe_follow_bar"))}" target="_blank" rel="noopener">Vocus</a></div></div></section>
   <section class="section white"><div class="container section-head"><div><p class="eyebrow">In-depth research FAQ</p><h2>A research radar, not isolated articles.</h2><p>In-depth research connects individual events back to company value, clinical milestones, licensing terms, and capital-market judgment.</p></div></div><div class="container faq-grid">${faqs.map((item) => `<article class="faq-item"><h3>${escapeHtml(item.question)}</h3><p>${escapeHtml(item.answer)}</p></article>`).join("")}</div></section>
 </main>`
   });
@@ -845,7 +849,10 @@ function normalizeEnglishSchema(schema) {
   if (types.includes("Article")) {
     if (schema.publisher) {
       schema.publisher.name = ENGLISH_BRAND;
-      schema.publisher.sameAs = [...new Set([...(schema.publisher.sameAs || []), LINKEDIN_URL])];
+      schema.publisher.sameAs = [
+        ...(schema.publisher.sameAs || []).filter((url) => String(url).replace(/\/$/, "") !== LINKEDIN_URL.replace(/\/$/, "")),
+        LINKEDIN_URL
+      ];
     }
     if (schema.isPartOf) {
       schema.isPartOf.name = ENGLISH_BRAND;
@@ -865,6 +872,16 @@ function normalizeEnglishSchema(schema) {
   return schema;
 }
 
+function legacyEnglishFollowCard() {
+  return `<aside class="linkedin-follow-card" aria-labelledby="linkedin-follow-heading">
+    <div>
+      <h2 id="linkedin-follow-heading">Keep following the evidence</h2>
+      <p>Follow Drugnews on LinkedIn for timely analysis of global drug development, clinical data and Taiwan biotech.</p>
+    </div>
+    <a class="button secondary" href="${LINKEDIN_URL}" target="_blank" rel="noopener noreferrer" data-analytics-event="linkedin_follow_click" data-analytics-context="article">Follow Drugnews on LinkedIn</a>
+  </aside>`;
+}
+
 async function normalizeEnglishArticleMetadata() {
   const entries = await fs.readdir(ARTICLES, { withFileTypes: true });
   let changed = 0;
@@ -879,6 +896,8 @@ async function normalizeEnglishArticleMetadata() {
       .replace(/<meta property="og:site_name" content="[^"]*">/u, `<meta property="og:site_name" content="${ENGLISH_BRAND}">`)
       .replace(/<link rel="alternate" type="application\/rss\+xml" title="[^"]*" href="https:\/\/drugnews\.com\.tw\/(?:en\/)?feed\.xml">/u, `<link rel="alternate" type="application/rss+xml" title="${ENGLISH_BRAND} RSS" href="${BASE_URL}/en/feed.xml">`)
       .replace(/<link rel="alternate" type="application\/feed\+json" title="[^"]*" href="https:\/\/drugnews\.com\.tw\/(?:en\/)?feed\.json">/u, `<link rel="alternate" type="application/feed+json" title="${ENGLISH_BRAND} JSON Feed" href="${BASE_URL}/en/feed.json">`)
+      .replace(/<link rel="stylesheet" href="\.\.\/styles\.css\?v=[^"]+">/u, '<link rel="stylesheet" href="../styles.css?v=20260815-2">')
+      .replace(/(<a class="button secondary" href="https:\/\/www\.linkedin\.com\/sharing\/share-offsite\/[^"]+" target="_blank") rel="noopener(?: noreferrer)?">(?:LinkedIn|Share on LinkedIn)<\/a>/u, '$1 rel="noopener noreferrer">Share on LinkedIn</a>')
       .replace(/<script type="application\/ld\+json">([^<]+)<\/script>/gu, (match, json) => {
         try {
           return `<script type="application/ld+json">${JSON.stringify(normalizeEnglishSchema(JSON.parse(json)))}</script>`;
@@ -886,10 +905,39 @@ async function normalizeEnglishArticleMetadata() {
           return match;
         }
       });
+    if (!next.includes('class="linkedin-follow-card"')) {
+      const insertionPoint = next.includes('class="article-monetization"')
+        ? /(\s*<aside class="article-monetization")/u
+        : /(\s*<div class="article-next-reading")/u;
+      next = next.replace(insertionPoint, `\n      ${legacyEnglishFollowCard()}\n$1`);
+    }
+    if (!next.includes('data-analytics-context="footer"')) {
+      next = next.replace(/(<nav class="footer-links"[^>]*>[\s\S]*?)(<\/nav>)/u, `$1<a href="${LINKEDIN_URL}" target="_blank" rel="noopener noreferrer" data-analytics-event="linkedin_follow_click" data-analytics-context="footer">LinkedIn</a>$2`);
+    }
     if (next !== original) {
       await writeAtomic(filePath, next);
       changed += 1;
     }
+  }
+  return changed;
+}
+
+async function normalizeEnglishFooters(dir = EN) {
+  const entries = await fs.readdir(dir, { withFileTypes: true });
+  let changed = 0;
+  for (const entry of entries) {
+    const filePath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      changed += await normalizeEnglishFooters(filePath);
+      continue;
+    }
+    if (!entry.isFile() || !entry.name.endsWith(".html")) continue;
+    const original = await fs.readFile(filePath, "utf8");
+    if (!original.includes('class="footer-links"') || original.includes('data-analytics-context="footer"')) continue;
+    const next = original.replace(/(<nav class="footer-links"[^>]*>[\s\S]*?)(<\/nav>)/u, `$1<a href="${LINKEDIN_URL}" target="_blank" rel="noopener noreferrer" data-analytics-event="linkedin_follow_click" data-analytics-context="footer">LinkedIn</a>$2`);
+    if (next === original) continue;
+    await writeAtomic(filePath, next);
+    changed += 1;
   }
   return changed;
 }
@@ -954,8 +1002,9 @@ async function main() {
   await writeAtomic(path.join(EN, "feed.xml"), englishRss(discoveryRecords));
   await writeAtomic(path.join(EN, "feed.json"), englishJsonFeed(discoveryRecords));
   const normalizedArticles = await normalizeEnglishArticleMetadata();
+  const normalizedFooters = await normalizeEnglishFooters();
   await updateSitemap(records);
-  console.log(`Built English site under /en with ${guideRecords.length} indexable guide(s) and normalized ${normalizedArticles} English article page(s).`);
+  console.log(`Built English site under /en with ${guideRecords.length} indexable guide(s), normalized ${normalizedArticles} English article page(s), and synced ${normalizedFooters} English footer(s).`);
 }
 
 main().catch((error) => {

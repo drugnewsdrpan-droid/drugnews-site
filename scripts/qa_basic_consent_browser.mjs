@@ -141,12 +141,63 @@ try {
 
   stage("English 390");
   const englishContext = await browser.newContext({ viewport: { width: 390, height: 844 } });
+  await englishContext.route(/https:\/\/www\.googletagmanager\.com\/.*/, (route) => route.abort());
   const englishPage = await englishContext.newPage();
   applyTimeouts(englishPage);
   await englishPage.goto(`${base}/en/privacy.html`, { waitUntil: "domcontentloaded" });
   check(await englishPage.getByRole("heading", { name: "Privacy Notice", level: 1 }).isVisible(), "English privacy page missing H1");
   check(await englishPage.getByRole("button", { name: "Allow analytics" }).isVisible(), "English consent copy missing");
   check(await englishPage.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth), "English 390: horizontal overflow");
+
+  stage("LinkedIn follow event gate");
+  await englishPage.goto(`${base}/en/index.html?qa_ga=1`, { waitUntil: "domcontentloaded" });
+  await englishPage.evaluate(() => {
+    document.querySelector('[data-analytics-context="homepage"]')?.addEventListener("click", (event) => event.preventDefault());
+  });
+  const followLink = englishPage.getByRole("link", { name: "Follow Drugnews on LinkedIn", exact: true });
+  await followLink.click();
+  const beforeFollowEvents = await englishPage.evaluate(() => (window.dataLayer || []).map((item) => Array.from(item)).filter((item) => item[0] === "event" && item[1] === "linkedin_follow_click"));
+  check(beforeFollowEvents.length === 0, "LinkedIn follow: event fired before consent");
+  await englishPage.getByRole("button", { name: "Allow analytics" }).click();
+  await englishPage.waitForTimeout(100);
+  await followLink.click();
+  const afterFollowEvents = await englishPage.evaluate(() => (window.dataLayer || []).map((item) => Array.from(item)).filter((item) => item[0] === "event" && item[1] === "linkedin_follow_click"));
+  check(afterFollowEvents.length === 1, "LinkedIn follow: consented click did not fire exactly once");
+  check(afterFollowEvents[0]?.[2]?.event_context === "homepage", "LinkedIn follow: homepage context missing");
+  check(afterFollowEvents[0]?.[2]?.link_url === "https://www.linkedin.com/company/drugnews-cn/", "LinkedIn follow: safe destination mismatch");
+
+  stage("LinkedIn funnel responsive pages");
+  const responsivePages = [
+    { path: "/en/index.html", kind: "home" },
+    { path: "/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html", kind: "article" },
+    { path: "/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html", kind: "article" }
+  ];
+  for (const width of [390, 768, 1440]) {
+    await englishPage.setViewportSize({ width, height: width === 390 ? 844 : 1000 });
+    for (const item of responsivePages) {
+      await englishPage.goto(`${base}${item.path}`, { waitUntil: "domcontentloaded" });
+      const overflow = await englishPage.evaluate(() => ({
+        pass: document.documentElement.scrollWidth <= document.documentElement.clientWidth,
+        page: [document.documentElement.clientWidth, document.documentElement.scrollWidth],
+        elements: Array.from(document.querySelectorAll("body *")).map((element) => {
+          const rect = element.getBoundingClientRect();
+          return { tag: element.tagName.toLowerCase(), className: element.className, left: Math.round(rect.left), right: Math.round(rect.right), width: Math.round(rect.width), scrollWidth: element.scrollWidth };
+        }).filter((element) => element.right > document.documentElement.clientWidth + 1 || element.left < -1).slice(0, 4)
+      }));
+      check(overflow.pass, `${width} ${item.path}: horizontal overflow ${JSON.stringify(overflow)}`);
+      const destination = englishPage.getByRole("link", { name: "Follow Drugnews on LinkedIn", exact: true });
+      check(await destination.getAttribute("href") === "https://www.linkedin.com/company/drugnews-cn/", `${width} ${item.path}: follow destination mismatch`);
+      if (item.kind === "home") {
+        const inFirstViewport = await destination.evaluate((element) => element.getBoundingClientRect().bottom <= window.innerHeight);
+        check(inFirstViewport, `${width} ${item.path}: homepage CTA is below first viewport`);
+      } else {
+        const followCard = englishPage.locator(".linkedin-follow-card");
+        await followCard.scrollIntoViewIfNeeded();
+        check(await followCard.isVisible(), `${width} ${item.path}: follow card is not visible`);
+        check(await englishPage.getByRole("link", { name: "Share on LinkedIn", exact: true }).isVisible(), `${width} ${item.path}: share action is not distinct`);
+      }
+    }
+  }
   await englishContext.close();
 
   stage("no-JS bilingual policy pages");
@@ -176,6 +227,8 @@ const result = {
     "keyboard dialog",
     "1440 overflow",
     "English 390",
+    "LinkedIn follow event gate",
+    "LinkedIn funnel 390/768/1440 on homepage and two English articles",
     "no-JS bilingual policy pages"
   ],
   errors

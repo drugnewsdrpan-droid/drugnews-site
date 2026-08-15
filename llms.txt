@@ -62,7 +62,7 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 - In-depth research on Vocus: https://vocus.cc/user/@Drugnews
 - CMoney profile: https://www.cmoney.tw/app/expert/drugnews?ca=1
 - Instagram: https://www.instagram.com/drugnews.com.tw/
-- LinkedIn: https://www.linkedin.com/company/drugnews-cn
+- LinkedIn: https://www.linkedin.com/company/drugnews-cn/
 - Brand profile: https://drugnews.com.tw/brand-profile.json
 - AI index: https://drugnews.com.tw/ai-index.json
 - Search intent map: https://drugnews.com.tw/search-intents.json
