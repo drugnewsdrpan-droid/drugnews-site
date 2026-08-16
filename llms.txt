@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-16｜Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?
+  URL: https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html
+  Topics: Business Analysis, obesity, weight-loss drugs, GLP-1, Pfizer
+  Summary: Pfizer, Roche and Amgen are pruning obesity programs that lack clear differentiation. The GLP-1 market has moved from a race to enter the clinic to a contest across efficacy, safety, convenience and commercial execution.
+- 2026-08-16｜百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？
+  URL: https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html
+  Topics: 肥胖症, 減重藥, GLP-1, Pfizer, Roche
+  Summary: Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。
 - 2026-08-15｜GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall
   URL: https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html
   Topics: Business Analysis, GSK, camlipixant, P2X3, refractory chronic cough
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html
   Topics: biopharma M&A, pharma acquisitions, patent cliff, Eli Lilly, Merck
   Summary: Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff.
-- 2026-08-09｜J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?
-  URL: https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html
-  Topics: ICOTYDE, icotrokinra, Johnson & Johnson, Psoriasis, IL-23R
-  Summary: ICOTYDE logged more than 18,000 prescriptions in its first full quarter. The oral IL-23R peptide has earned entry into the high-efficacy psoriasis market, but durable value still depends on paid fills, persistence, payer quality, safety, and additional indications.
-- 2026-08-09｜嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？
-  URL: https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html
-  Topics: ICOTYDE, icotrokinra, Johnson & Johnson, 乾癬, IL-23R
-  Summary: ICOTYDE 上市後第一個完整季度累積逾 18,000 張處方。口服 IL-23R 胜肽已取得進入高療效市場的資格，真正的商業答案仍取決於續方、支付品質、長期留存與多適應症。
 
 ## Key Site Sections
 

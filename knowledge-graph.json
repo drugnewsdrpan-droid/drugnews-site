@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-15T01:34:06.476Z",
+  "generated_at": "2026-08-16T02:26:41.230Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,53 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+      "date": "2026-08-16",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Business Analysis",
+        "obesity",
+        "weight-loss drugs",
+        "GLP-1",
+        "Pfizer",
+        "Roche",
+        "Amgen",
+        "Metsera",
+        "Caliway",
+        "ANYA Biopharm"
+      ],
+      "summary": "Pfizer, Roche and Amgen are pruning obesity programs that lack clear differentiation. The GLP-1 market has moved from a race to enter the clinic to a contest across efficacy, safety, convenience and commercial execution.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html"
+      }
+    },
+    {
+      "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+      "date": "2026-08-16",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "肥胖症",
+        "減重藥",
+        "GLP-1",
+        "Pfizer",
+        "Roche",
+        "Amgen",
+        "Metsera",
+        "康霈",
+        "奧孟亞"
+      ],
+      "summary": "Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。",
+      "alternate_language_versions": {
+        "en": "2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html"
+      }
+    },
     {
       "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
       "date": "2026-08-15",
@@ -782,50 +829,6 @@
       "alternate_language_versions": {
         "en": "2026-08-02-bempikibart-alopecia-areata-en.html"
       }
-    },
-    {
-      "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
-      "date": "2026-07-31",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "AnBogen Therapeutics",
-        "ABT-301",
-        "Cancer Immunotherapy",
-        "PD-1",
-        "Metastatic Colorectal Cancer",
-        "HDAC",
-        "Taiwan Biotech",
-        "Oncology"
-      ],
-      "summary": "Can a small molecule from Taiwan extend the $30 billion PD-1 ecosystem into the 95% of metastatic colorectal cancer patients still beyond immunotherapy’s reach?",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-31-anbogen-immunotherapy-starlink.html"
-      }
-    },
-    {
-      "title": "安邦生技：免疫治療的「星鏈計畫」",
-      "date": "2026-07-31",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "安邦生技",
-        "ABT-301",
-        "癌症免疫治療",
-        "PD-1",
-        "轉移性大腸直腸癌",
-        "HDAC",
-        "台灣生技",
-        "腫瘤"
-      ],
-      "summary": "一顆台灣小分子，有機會把三百億美元級PD-1藥王送進九成五患者仍無法受益的治療盲區嗎？",
-      "alternate_language_versions": {
-        "en": "2026-07-31-anbogen-immunotherapy-starlink-en.html"
-      }
     }
   ],
   "entities": [
@@ -944,49 +947,17 @@
       ]
     },
     {
-      "name": "BD",
-      "type": "market_topic",
-      "mentions": 19,
-      "latest_date": "2026-07-24",
-      "latest_articles": [
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Business Analysis",
       "type": "topic",
-      "mentions": 18,
-      "latest_date": "2026-08-15",
+      "mentions": 19,
+      "latest_date": "2026-08-16",
       "latest_articles": [
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
         {
           "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
           "date": "2026-08-15",
@@ -1009,12 +980,6 @@
           "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
           "date": "2026-07-18",
           "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
           "language": "en"
         }
       ]
@@ -1054,6 +1019,44 @@
           "date": "2026-07-30",
           "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "BD",
+      "type": "market_topic",
+      "mentions": 18,
+      "latest_date": "2026-07-24",
+      "latest_articles": [
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1134,6 +1137,44 @@
       ]
     },
     {
+      "name": "GLP-1",
+      "type": "biotech_concept_or_target",
+      "mentions": 13,
+      "latest_date": "2026-08-16",
+      "latest_articles": [
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "biotech business analysis",
       "type": "topic",
       "mentions": 13,
@@ -1205,44 +1246,6 @@
           "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
           "date": "2026-07-14",
           "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "GLP-1",
-      "type": "biotech_concept_or_target",
-      "mentions": 12,
-      "latest_date": "2026-07-20",
-      "latest_articles": [
-        {
-          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-          "language": "en"
-        },
-        {
-          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1's Second Half: Why Dorzagliatin Is About Making Metabolic Therapy Last",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
           "language": "en"
         }
       ]
@@ -1396,6 +1399,44 @@
           "date": "2026-07-14",
           "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Roche",
+      "type": "company",
+      "mentions": 8,
+      "latest_date": "2026-08-16",
+      "latest_articles": [
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "language": "en"
+        },
+        {
+          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1894,44 +1935,6 @@
       ]
     },
     {
-      "name": "Roche",
-      "type": "company",
-      "mentions": 6,
-      "latest_date": "2026-07-25",
-      "latest_articles": [
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "RAS",
       "type": "biotech_concept_or_target",
       "mentions": 6,
@@ -1966,44 +1969,6 @@
           "date": "2026-06-15",
           "url": "https://drugnews.com.tw/articles/2026-06-15-2026-asco-car-t.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Capital markets",
-      "type": "market_topic",
-      "mentions": 6,
-      "latest_date": "2026-06-29",
-      "latest_articles": [
-        {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
-          "date": "2026-06-14",
-          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
-          "language": "en"
         }
       ]
     },
@@ -2155,6 +2120,76 @@
           "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Capital markets",
+      "type": "market_topic",
+      "mentions": 5,
+      "latest_date": "2026-06-29",
+      "latest_articles": [
+        {
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
+          "date": "2026-06-20",
+          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Revolution Medicines: Why Biotech Winners Need Capital Strategy, Not Just Good Science",
+          "date": "2026-06-14",
+          "url": "https://drugnews.com.tw/articles/2026-06-14-revolution-medicines-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Pfizer",
+      "type": "company",
+      "mentions": 4,
+      "latest_date": "2026-08-16",
+      "latest_articles": [
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
           "language": "en"
         }
       ]
@@ -2800,38 +2835,6 @@
       ]
     },
     {
-      "name": "Obesity medicine",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-06-22",
-      "latest_articles": [
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
-          "date": "2026-06-16",
-          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Obesity Becomes King: How GLP-1 Is Reshuffling Global Biotech Capital",
-          "date": "2026-06-11",
-          "url": "https://drugnews.com.tw/articles/2026-06-11-glp1-biotech-capital-reshuffle-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "biopharma M&A",
       "type": "topic",
       "mentions": 3,
@@ -3222,6 +3225,72 @@
       ]
     },
     {
+      "name": "Obesity medicine",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-06-22",
+      "latest_articles": [
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
+          "date": "2026-06-17",
+          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Why Would Lilly, the Obesity-Drug Giant, Spend US$3.8 Billion on Vaccine Companies?",
+          "date": "2026-06-16",
+          "url": "https://drugnews.com.tw/articles/2026-06-16-lilly-vaccine-acquisitions-prevention-medicine-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Amgen",
+      "type": "company",
+      "mentions": 2,
+      "latest_date": "2026-08-16",
+      "latest_articles": [
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Metsera",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-16",
+      "latest_articles": [
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "CALM-1",
       "type": "topic",
       "mentions": 2,
@@ -3340,69 +3409,47 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "hsCRP",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-13",
-      "latest_articles": [
-        {
-          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
-          "language": "en"
-        },
-        {
-          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "IL-6",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-13",
-      "latest_articles": [
-        {
-          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
-          "language": "en"
-        },
-        {
-          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Intelligene",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-13",
-      "latest_articles": [
-        {
-          "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
-          "language": "en"
-        },
-        {
-          "title": "這家台灣Biotech正在打造人體內奈米火箭",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+      "date": "2026-08-16",
+      "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Business Analysis",
+        "obesity",
+        "weight-loss drugs",
+        "GLP-1",
+        "Pfizer",
+        "Roche",
+        "Amgen",
+        "Metsera"
+      ],
+      "summary": "Pfizer, Roche and Amgen are pruning obesity programs that lack clear differentiation. The GLP-1 market has moved from a race to enter the clinic to a contest across efficacy, safety, convenience and commercial execution."
+    },
+    {
+      "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+      "date": "2026-08-16",
+      "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "肥胖症",
+        "減重藥",
+        "GLP-1",
+        "Pfizer",
+        "Roche",
+        "Amgen",
+        "Metsera",
+        "康霈"
+      ],
+      "summary": "Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。"
+    },
     {
       "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
       "date": "2026-08-15",
@@ -3933,44 +3980,6 @@
         "BD"
       ],
       "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
-    },
-    {
-      "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-      "date": "2026-07-20",
-      "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Business Analysis",
-        "MASH",
-        "Madrigal Pharmaceuticals",
-        "Rezdiffra",
-        "resmetirom",
-        "siRNA",
-        "Ribo Life Science",
-        "Ribocure"
-      ],
-      "summary": "Rezdiffra has opened the MASH market and built its commercialization infrastructure. Madrigal is now adding six Ribo siRNA programs and Arrowhead's ARO-PNPLA3 to create a cornerstone-plus-precision-combination treatment matrix."
-    },
-    {
-      "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
-      "date": "2026-07-20",
-      "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "MASH",
-        "Madrigal Pharmaceuticals",
-        "Rezdiffra",
-        "resmetirom",
-        "siRNA",
-        "Ribo Life Science",
-        "Ribocure",
-        "Arrowhead Pharmaceuticals"
-      ],
-      "summary": "Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。"
     }
   ]
 }

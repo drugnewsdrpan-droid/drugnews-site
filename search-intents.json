@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-15T01:34:06.473Z",
+  "generated_at": "2026-08-16T02:26:41.225Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+      "date": "2026-08-16",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Business Analysis",
+        "obesity",
+        "weight-loss drugs",
+        "GLP-1",
+        "Pfizer",
+        "Roche",
+        "Amgen",
+        "Metsera"
+      ],
+      "summary": "Pfizer, Roche and Amgen are pruning obesity programs that lack clear differentiation. The GLP-1 market has moved from a race to enter the clinic to a contest across efficacy, safety, convenience and commercial execution."
+    },
+    {
+      "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+      "date": "2026-08-16",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+      "category": "商業分析",
+      "tags": [
+        "肥胖症",
+        "減重藥",
+        "GLP-1",
+        "Pfizer",
+        "Roche",
+        "Amgen",
+        "Metsera",
+        "康霈"
+      ],
+      "summary": "Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。"
+    },
     {
       "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
       "date": "2026-08-15",
@@ -776,42 +812,6 @@
         "中天"
       ],
       "summary": "Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。"
-    },
-    {
-      "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
-      "date": "2026-08-04",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
-      "category": "商業分析",
-      "tags": [
-        "AstraZeneca",
-        "Bristol Myers Squibb",
-        "BMS",
-        "pharma M&A",
-        "patent cliff",
-        "oncology",
-        "antibody-drug conjugates",
-        "ADC"
-      ],
-      "summary": "AstraZeneca and BMS reportedly explored a combination with a combined market value approaching $400 billion. There is no announced transaction. The real questions are AstraZeneca's 2030 growth target, BMS's Eliquis and Opdivo exclusivity timeline, oncology-pipeline overlap, antitrust and whether integration can actually buy time."
-    },
-    {
-      "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-      "date": "2026-08-04",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-      "category": "商業分析",
-      "tags": [
-        "AstraZeneca",
-        "阿斯特捷利康",
-        "Bristol Myers Squibb",
-        "BMS",
-        "百時美施貴寶",
-        "生技併購",
-        "大藥廠",
-        "專利懸崖"
-      ],
-      "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。"
     }
   ],
   "do_not_use_as": [
