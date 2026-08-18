@@ -4,7 +4,21 @@
   "date": "2026-07-25",
   "publish_at": "2026-07-25T09:20:00+08:00",
   "category": "商業分析系列",
-  "tags": ["Roche", "Big Pharma", "pharma strategy", "giredestrant", "fenebrutinib", "trontinemab", "petrelintide", "bexobrutideg", "BRIM Biotechnology", "BD licensing", "drug development", "biotech valuation", "Taiwan biotech"],
+  "tags": [
+    "Roche",
+    "Big Pharma",
+    "pharma strategy",
+    "giredestrant",
+    "fenebrutinib",
+    "trontinemab",
+    "petrelintide",
+    "bexobrutideg",
+    "BRIM Biotechnology",
+    "BD licensing",
+    "drug development",
+    "biotech valuation",
+    "Taiwan biotech"
+  ],
   "summary": "Roche generated CHF 47.669 billion in pharmaceutical sales in 2025, with Ocrevus, Hemlibra, and Vabysmo already accounting for roughly one-third of the total. The number that matters is not simply 19 potential new molecules, but whether giredestrant, fenebrutinib, obesity, Alzheimer's, and protein-degradation assets can inherit Roche's existing clinical, diagnostic, and commercial infrastructure on time.",
   "slug": "roche-19-molecule-succession-engine-en",
   "source_platform": "facebook",
@@ -21,5 +35,7 @@
     "The near-term value of giredestrant and fenebrutinib lies partly in their ability to inherit Roche's established breast cancer and multiple sclerosis networks.",
     "The longer-term value of obesity, Alzheimer's, and protein-degradation assets depends on whether data, channel leverage, and timing can produce a continuous revenue curve."
   ],
-  "translations": {"zh-Hant": "2026-07-25-roche-19-molecule-succession-engine.html"}
+  "translations": {
+    "zh-Hant": "2026-07-25-roche-19-molecule-succession-engine.html"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-16T02:26:40.870Z",
+  "generated_at": "2026-08-18T03:23:50.157Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -118,8 +118,46 @@
   "buckets": [
     {
       "name": "GLP-1 與代謝賽道",
-      "count": 3,
+      "count": 5,
       "articles": [
+        {
+          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Eli Lilly",
+            "Tirzepatide",
+            "Mounjaro",
+            "Zepbound",
+            "GLP-1",
+            "Retatrutide",
+            "Orforglipron",
+            "Caliway"
+          ],
+          "summary": "Tirzepatide has allowed Eli Lilly to dominate both diabetes and obesity, but revenue concentration, pricing pressure and the next product relay are the investment questions that matter now."
+        },
+        {
+          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Eli Lilly",
+            "禮來",
+            "Tirzepatide",
+            "Mounjaro",
+            "Zepbound",
+            "GLP-1",
+            "Retatrutide",
+            "Orforglipron"
+          ],
+          "summary": "Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。"
+        },
         {
           "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
           "date": "2026-08-16",
@@ -282,7 +320,7 @@
     },
     {
       "name": "AI 製藥與新技術",
-      "count": 11,
+      "count": 10,
       "articles": [
         {
           "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
@@ -472,25 +510,6 @@
             "Varda"
           ],
           "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation."
-        },
-        {
-          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Biotech",
-            "Biopharma",
-            "argenx",
-            "Insmed",
-            "Incyte",
-            "Revolution Medicines",
-            "Royalty Pharma",
-            "business development"
-          ],
-          "summary": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs."
         }
       ]
     },
@@ -578,7 +597,7 @@
     },
     {
       "name": "BD / 授權與併購",
-      "count": 5,
+      "count": 4,
       "articles": [
         {
           "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
@@ -655,25 +674,6 @@
             "Gilead"
           ],
           "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time."
-        },
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Biotech",
-            "Biopharma",
-            "argenx",
-            "Insmed",
-            "Incyte",
-            "Revolution Medicines",
-            "Royalty Pharma",
-            "BD"
-          ],
-          "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。"
         }
       ]
     },

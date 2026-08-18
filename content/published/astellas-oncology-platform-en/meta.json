@@ -6,7 +6,14 @@
   "publish_at": "2026-07-30T08:00:00+08:00",
   "updated_at": "2026-07-30",
   "category": "製藥巨頭系列",
-  "tags": ["Astellas", "Xtandi", "Padcev", "Vyloy", "oncology", "drug development"],
+  "tags": [
+    "Astellas",
+    "Xtandi",
+    "Padcev",
+    "Vyloy",
+    "oncology",
+    "drug development"
+  ],
   "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.",
   "slug": "astellas-oncology-platform-en",
   "source_platform": "facebook",
@@ -18,5 +25,7 @@
   "inline_image_viewer": true,
   "cover_image": "images/cover-en.png",
   "cover_image_alt": "An abstract scientific image of one medicine core branching into multiple oncology development paths",
-  "translations": {"zh-Hant": "2026-07-23-astellas-oncology-platform.html"}
+  "translations": {
+    "zh-Hant": "2026-07-23-astellas-oncology-platform.html"
+  }
 }

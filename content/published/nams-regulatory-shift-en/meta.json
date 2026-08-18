@@ -4,12 +4,21 @@
   "publish_at": "2026-07-19T08:36:00+08:00",
   "lang": "en",
   "category": "臨床與 CMC",
-  "tags": ["NAMs", "CDE", "Regulatory Science", "Organoids", "Organ-on-a-Chip", "AI Drug Discovery"],
+  "tags": [
+    "NAMs",
+    "CDE",
+    "Regulatory Science",
+    "Organoids",
+    "Organ-on-a-Chip",
+    "AI Drug Discovery"
+  ],
   "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable.",
   "slug": "nams-regulatory-shift-en",
   "source_platform": "facebook",
   "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JYSYPvLfX2mFDMpDk8pHZ7cDgBrvqc3CcWmXScXXpbU4pvTwGiebutKx3cTDjPnJl&id=61568446257142",
   "cover_image": "images/cover.png",
   "cover_image_alt": "Editorial illustration of organoids, organ-on-a-chip technology and computational evidence in a regulatory workflow",
-  "translations": {"zh-Hant": "2026-07-19-nams-regulatory-shift.html"}
+  "translations": {
+    "zh-Hant": "2026-07-19-nams-regulatory-shift.html"
+  }
 }

@@ -209,6 +209,113 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
+      "date": "2026-08-18",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Eli Lilly",
+        "Tirzepatide",
+        "Mounjaro",
+        "Zepbound",
+        "GLP-1",
+        "Retatrutide",
+        "Orforglipron",
+        "Caliway"
+      ],
+      "summary": "Tirzepatide has allowed Eli Lilly to dominate both diabetes and obesity, but revenue concentration, pricing pressure and the next product relay are the investment questions that matter now.",
+      "image": "https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh": "2026-08-18-eli-lilly-tirzepatide-next-drug-king.html"
+      }
+    },
+    {
+      "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
+      "date": "2026-08-18",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Eli Lilly",
+        "禮來",
+        "Tirzepatide",
+        "Mounjaro",
+        "Zepbound",
+        "GLP-1",
+        "Retatrutide",
+        "Orforglipron",
+        "康霈"
+      ],
+      "summary": "Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。",
+      "image": "https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html"
+      }
+    },
+    {
+      "title": "Revenue Jumped 39%, Yet Iovance Still Lost $47 Million: Can Cancer Cell Therapy Become a Business?",
+      "date": "2026-08-17",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-17-iovance-amtagvi-til-commercialization-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-17-iovance-amtagvi-til-commercialization-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Iovance",
+        "Amtagvi",
+        "TIL",
+        "cancer cell therapy",
+        "melanoma",
+        "cell therapy",
+        "Timing Pharma"
+      ],
+      "summary": "Iovance's Amtagvi rebounded sharply in the second quarter, but the central question is no longer whether TIL therapy can work. It is whether a personalized cell therapy can become a reproducible, reimbursable and scalable medical service.",
+      "image": "https://drugnews.com.tw/assets/articles/iovance-amtagvi-til-commercialization-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh": "2026-08-17-iovance-amtagvi-til-commercialization.html"
+      }
+    },
+    {
+      "title": "營收跳增 39%，還是虧了 4,700 萬美元：癌症細胞療法翻身了？",
+      "date": "2026-08-17",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-17-iovance-amtagvi-til-commercialization.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-17-iovance-amtagvi-til-commercialization.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Iovance",
+        "Amtagvi",
+        "TIL",
+        "癌症細胞療法",
+        "黑色素瘤",
+        "細胞治療",
+        "天明製藥"
+      ],
+      "summary": "Iovance 的 Amtagvi 第二季營收明顯反彈，但真正要驗證的不是 TIL 是否有療效，而是個人化細胞療法能否被做成可複製、可支付、可放大的醫療服務。",
+      "image": "https://drugnews.com.tw/assets/articles/iovance-amtagvi-til-commercialization/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-17-iovance-amtagvi-til-commercialization-en.html"
+      }
+    },
+    {
       "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
       "date": "2026-08-16",
       "language": "en",
@@ -1509,114 +1616,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-07-24-biotech-independence-five-engines-en.html"
-      }
-    },
-    {
-      "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-      "date": "2026-07-20",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "MASH",
-        "Madrigal Pharmaceuticals",
-        "Rezdiffra",
-        "resmetirom",
-        "siRNA",
-        "Ribo Life Science",
-        "Ribocure",
-        "Arrowhead Pharmaceuticals",
-        "ARO-PNPLA3"
-      ],
-      "summary": "Rezdiffra has opened the MASH market and built its commercialization infrastructure. Madrigal is now adding six Ribo siRNA programs and Arrowhead's ARO-PNPLA3 to create a cornerstone-plus-precision-combination treatment matrix.",
-      "image": "https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-20-madrigal-mash-sirna-platform.html"
-      }
-    },
-    {
-      "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
-      "date": "2026-07-20",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "MASH",
-        "Madrigal Pharmaceuticals",
-        "Rezdiffra",
-        "resmetirom",
-        "siRNA",
-        "Ribo Life Science",
-        "Ribocure",
-        "Arrowhead Pharmaceuticals",
-        "ARO-PNPLA3",
-        "PNPLA3"
-      ],
-      "summary": "Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。",
-      "image": "https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-20-madrigal-mash-sirna-platform-en.html"
-      }
-    },
-    {
-      "title": "Animal Studies Are Not Disappearing. Drug Development Rules Are Changing.",
-      "date": "2026-07-19",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift-en.html",
-      "source": "facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "NAMs",
-        "CDE",
-        "Regulatory Science",
-        "Organoids",
-        "Organ-on-a-Chip",
-        "AI Drug Discovery"
-      ],
-      "summary": "China's CDE PIONEER program opens a regulatory pathway for new approach methodologies. The real test is whether human-relevant evidence becomes reproducible, validated and reusable.",
-      "image": "https://drugnews.com.tw/assets/articles/nams-regulatory-shift-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-19-nams-regulatory-shift.html"
-      }
-    },
-    {
-      "title": "動物實驗不是消失，而是藥物研發規則開始換代",
-      "date": "2026-07-19",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
-      "source": "facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "NAMs",
-        "CDE",
-        "監管科學",
-        "類器官",
-        "器官晶片",
-        "AI 製藥"
-      ],
-      "summary": "CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。",
-      "image": "https://drugnews.com.tw/assets/articles/nams-regulatory-shift/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-19-nams-regulatory-shift-en.html"
       }
     }
   ]

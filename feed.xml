@@ -6,7 +6,23 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 16 Aug 2026 02:26:41 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 03:23:50 GMT</lastBuildDate>
+    <item>
+      <title>一季狂賣 230 億美元，禮來卻急著買下一個藥王</title>
+      <link>https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king/cover.png" alt="禮來第二季營收與 tirzepatide 收入集中度圖解"></p><p>Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。</p>]]></description>
+    </item>
+    <item>
+      <title>營收跳增 39%，還是虧了 4,700 萬美元：癌症細胞療法翻身了？</title>
+      <link>https://drugnews.com.tw/articles/2026-08-17-iovance-amtagvi-til-commercialization.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-17-iovance-amtagvi-til-commercialization.html</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/iovance-amtagvi-til-commercialization/cover.png" alt="Iovance 第二季營收反彈與 Amtagvi 商業化進展圖解"></p><p>Iovance 的 Amtagvi 第二季營收明顯反彈，但真正要驗證的不是 TIL 是否有療效，而是個人化細胞療法能否被做成可複製、可支付、可放大的醫療服務。</p>]]></description>
+    </item>
     <item>
       <title>百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？</title>
       <link>https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html</link>
@@ -190,22 +206,6 @@
       <pubDate>Fri, 24 Jul 2026 02:30:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/biotech-independence-five-engines/cover.png" alt="一個分子核心向產品證據、現金、第二曲線、全球執行與融資能力延伸的科學視覺"></p><p>被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。</p>]]></description>
-    </item>
-    <item>
-      <title>聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒</title>
-      <link>https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html</guid>
-      <pubDate>Mon, 20 Jul 2026 00:58:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/madrigal-mash-sirna-platform/cover.png" alt="肝臟、Rezdiffra 與精準基因沉默訊號構成 Madrigal MASH 基石藥與 siRNA 平台策略主視覺"></p><p>Rezdiffra 已把 MASH 市場與商業化基礎設施打開；Madrigal 再以 Ribo 六條 siRNA 管線與 Arrowhead ARO-PNPLA3，建立基石藥加精準聯用矩陣。</p>]]></description>
-    </item>
-    <item>
-      <title>動物實驗不是消失，而是藥物研發規則開始換代</title>
-      <link>https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html</guid>
-      <pubDate>Sun, 19 Jul 2026 00:36:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/nams-regulatory-shift/cover.png" alt="類器官、器官晶片與資料網路組成的新方法學藥物研發視覺"></p><p>CDE 的 NAMs 先鋒計畫為藥企與方法開發者開出雙軌入口；真正的考題是可重複、可驗證且被監管接受的人體相關證據。</p>]]></description>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,18 @@
   "date": "2026-07-24",
   "publish_at": "2026-07-24T16:20:00+08:00",
   "category": "商業分析系列",
-  "tags": ["SpaceX", "microgravity", "space pharmaceuticals", "drug crystallization", "Keytruda", "Redwire", "SpaceMD", "Varda", "formulation development", "Taiwan biotech"],
+  "tags": [
+    "SpaceX",
+    "microgravity",
+    "space pharmaceuticals",
+    "drug crystallization",
+    "Keytruda",
+    "Redwire",
+    "SpaceMD",
+    "Varda",
+    "formulation development",
+    "Taiwan biotech"
+  ],
   "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation.",
   "slug": "spacex-microgravity-drug-crystals-en",
   "source_platform": "cmoney",
@@ -21,5 +32,7 @@
     "The earliest viable market is more likely to be solid-form screening, seed-crystal growth, and formulation selection than orbital mass production.",
     "Commercial value must pass three tests: repeatability, terrestrial scale-up, and regulatory acceptance."
   ],
-  "translations": {"zh-Hant": "2026-07-24-spacex-microgravity-drug-crystals.html"}
+  "translations": {
+    "zh-Hant": "2026-07-24-spacex-microgravity-drug-crystals.html"
+  }
 }

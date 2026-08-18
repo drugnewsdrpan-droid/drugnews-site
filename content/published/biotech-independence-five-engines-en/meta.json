@@ -4,7 +4,18 @@
   "date": "2026-07-24",
   "publish_at": "2026-07-24T10:30:00+08:00",
   "category": "商業分析系列",
-  "tags": ["Biotech", "Biopharma", "argenx", "Insmed", "Incyte", "Revolution Medicines", "Royalty Pharma", "business development", "commercialization", "biotech investing"],
+  "tags": [
+    "Biotech",
+    "Biopharma",
+    "argenx",
+    "Insmed",
+    "Incyte",
+    "Revolution Medicines",
+    "Royalty Pharma",
+    "business development",
+    "commercialization",
+    "biotech investing"
+  ],
   "summary": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs.",
   "slug": "biotech-independence-five-engines-en",
   "source_platform": "cmoney",
@@ -13,5 +24,7 @@
   "source_status": "public CMoney article readback confirmed on 2026-07-24",
   "cover_image": "images/cover-en.png",
   "cover_image_alt": "A molecular platform bridging discovery, clinical development, manufacturing, commercialization, and durable financing",
-  "translations": {"zh-Hant": "2026-07-24-biotech-independence-five-engines.html"}
+  "translations": {
+    "zh-Hant": "2026-07-24-biotech-independence-five-engines.html"
+  }
 }

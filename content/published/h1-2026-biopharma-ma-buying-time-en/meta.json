@@ -4,7 +4,26 @@
   "date": "2026-07-27",
   "publish_at": "2026-07-27T08:00:00+08:00",
   "category": "商業分析系列",
-  "tags": ["biopharma M&A", "Big Pharma", "patent cliff", "loss of exclusivity", "Lilly", "Merck", "AbbVie", "Gilead", "GSK", "Terns", "Apogee", "Arcellx", "Tubulis", "Nuvalent", "Organon", "CVR", "milestones", "biotech valuation"],
+  "tags": [
+    "biopharma M&A",
+    "Big Pharma",
+    "patent cliff",
+    "loss of exclusivity",
+    "Lilly",
+    "Merck",
+    "AbbVie",
+    "Gilead",
+    "GSK",
+    "Terns",
+    "Apogee",
+    "Arcellx",
+    "Tubulis",
+    "Nuvalent",
+    "Organon",
+    "CVR",
+    "milestones",
+    "biotech valuation"
+  ],
   "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time.",
   "slug": "h1-2026-biopharma-ma-buying-time-en",
   "source_platform": "Website",
@@ -24,5 +43,7 @@
     "Patent cliffs are increasing the price of late-stage, near-readout, near-filing and near-launch assets because buyers can value the time those assets save.",
     "A completed company acquisition is not the same as an approved product or immediate revenue; upfront cash, CVRs, milestones and closing conditions still allocate risk."
   ],
-  "translations": {"zh-Hant": "2026-07-27-h1-2026-biopharma-ma-buying-time.html"}
+  "translations": {
+    "zh-Hant": "2026-07-27-h1-2026-biopharma-ma-buying-time.html"
+  }
 }
