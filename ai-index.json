@@ -209,6 +209,61 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?",
+      "date": "2026-08-19",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Skyrizi",
+        "Humira",
+        "AbbVie",
+        "Psoriasis",
+        "Autoimmune",
+        "IL-23",
+        "ICOTYDE",
+        "Biopharma"
+      ],
+      "summary": "Skyrizi generated $5.505 billion in Q2 2026, only $74 million below Humira's historic quarterly peak. The real succession test spans efficacy, treatment burden, multi-indication reach and access.",
+      "image": "https://drugnews.com.tw/assets/articles/skyrizi-humira-autoimmune-drug-king-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh": "2026-08-19-skyrizi-humira-autoimmune-drug-king.html"
+      }
+    },
+    {
+      "title": "55 億美元只差一步：Skyrizi 要接棒 Humira 當自體免疫藥王？",
+      "date": "2026-08-19",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Skyrizi",
+        "喜開悅",
+        "Humira",
+        "復邁",
+        "AbbVie",
+        "乾癬",
+        "自體免疫",
+        "IL-23",
+        "ICOTYDE"
+      ],
+      "summary": "Skyrizi 2026 年第二季收入達 55.05 億美元，距 Humira 的歷史單季高點只差 7,400 萬美元；真正的接班考驗，是療效、治療負擔、多適應症與支付能力能否一起延續。",
+      "image": "https://drugnews.com.tw/assets/articles/skyrizi-humira-autoimmune-drug-king/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html"
+      }
+    },
+    {
       "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
       "date": "2026-08-18",
       "language": "en",
@@ -228,7 +283,7 @@
         "Caliway"
       ],
       "summary": "Tirzepatide has allowed Eli Lilly to dominate both diabetes and obesity, but revenue concentration, pricing pressure and the next product relay are the investment questions that matter now.",
-      "image": "https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king-en/cover.png",
+      "image": "https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king-en/cover-editorial.jpg",
       "is_accessible_for_free": true,
       "is_external": false,
       "alternate_language_versions": {
@@ -256,7 +311,7 @@
         "康霈"
       ],
       "summary": "Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。",
-      "image": "https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king/cover.png",
+      "image": "https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king/cover-editorial.jpg",
       "is_accessible_for_free": true,
       "is_external": false,
       "alternate_language_versions": {
@@ -1558,64 +1613,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-07-24-spacex-microgravity-drug-crystals-en.html"
-      }
-    },
-    {
-      "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-      "date": "2026-07-24",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-      "source": "cmoney",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Biotech",
-        "Biopharma",
-        "argenx",
-        "Insmed",
-        "Incyte",
-        "Revolution Medicines",
-        "Royalty Pharma",
-        "business development",
-        "commercialization",
-        "biotech investing"
-      ],
-      "summary": "An acquisition is not the only successful outcome for a biotech. Using argenx, Insmed, Incyte, and Revolution Medicines as four operating snapshots, this analysis tests product evidence, cash generation, a second growth curve, global execution, and financing options—and shows what retaining control really costs.",
-      "image": "https://drugnews.com.tw/assets/articles/biotech-independence-five-engines-en/cover-en.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-24-biotech-independence-five-engines.html"
-      }
-    },
-    {
-      "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-      "date": "2026-07-24",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-      "source": "cmoney",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "Biotech",
-        "Biopharma",
-        "argenx",
-        "Insmed",
-        "Incyte",
-        "Revolution Medicines",
-        "Royalty Pharma",
-        "BD",
-        "商業化",
-        "生技投資"
-      ],
-      "summary": "被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。",
-      "image": "https://drugnews.com.tw/assets/articles/biotech-independence-five-engines/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-24-biotech-independence-five-engines-en.html"
       }
     }
   ]

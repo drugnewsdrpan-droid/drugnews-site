@@ -1312,7 +1312,16 @@ function readingMinutes(markdown) {
 }
 
 function stripHtml(value = "") {
-  return String(value).replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  return String(value)
+    .replace(/<[^>]+>/g, "")
+    .replace(/&#x([\da-f]+);/gi, (_, code) => String.fromCodePoint(Number.parseInt(code, 16)))
+    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
+    .replaceAll("&quot;", '"')
+    .replaceAll("&lt;", "<")
+    .replaceAll("&gt;", ">")
+    .replaceAll("&amp;", "&")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function enhanceArticleHeadings(bodyHtml) {

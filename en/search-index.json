@@ -1,5 +1,32 @@
 [
   {
+    "title": "Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?",
+    "slug": "skyrizi-humira-autoimmune-drug-king-en",
+    "date": "2026-08-19",
+    "publishAt": "2026-08-19T08:00:00+08:00",
+    "updatedAt": "2026-08-19",
+    "category": "商業分析系列",
+    "access": "免費文章",
+    "lang": "en",
+    "tags": [
+      "Skyrizi",
+      "Humira",
+      "AbbVie",
+      "Psoriasis",
+      "Autoimmune",
+      "IL-23",
+      "ICOTYDE",
+      "Biopharma"
+    ],
+    "summary": "Skyrizi generated $5.505 billion in Q2 2026, only $74 million below Humira's historic quarterly peak. The real succession test spans efficacy, treatment burden, multi-indication reach and access.",
+    "image": "../assets/articles/skyrizi-humira-autoimmune-drug-king-en/cover.png",
+    "cardImage": "../assets/articles/skyrizi-humira-autoimmune-drug-king-en/cover.png",
+    "imageAlt": "Skyrizi closing to within $74 million of Humira's quarterly revenue record in an autoimmune product relay",
+    "sponsored": false,
+    "sponsorName": "",
+    "url": "articles/2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html"
+  },
+  {
     "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
     "slug": "eli-lilly-tirzepatide-next-drug-king-en",
     "date": "2026-08-18",
@@ -20,9 +47,9 @@
       "Caliway"
     ],
     "summary": "Tirzepatide has allowed Eli Lilly to dominate both diabetes and obesity, but revenue concentration, pricing pressure and the next product relay are the investment questions that matter now.",
-    "image": "../assets/articles/eli-lilly-tirzepatide-next-drug-king-en/cover.png",
-    "cardImage": "../assets/articles/eli-lilly-tirzepatide-next-drug-king-en/cover.png",
-    "imageAlt": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King? cover image",
+    "image": "../assets/articles/eli-lilly-tirzepatide-next-drug-king-en/cover-editorial.jpg",
+    "cardImage": "../assets/articles/eli-lilly-tirzepatide-next-drug-king-en/cover-editorial.jpg",
+    "imageAlt": "A weekly obesity-treatment injection pen and sculptural peptide molecule representing a product relay",
     "sponsored": false,
     "sponsorName": "",
     "url": "articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html"

@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-19｜Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?
+  URL: https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html
+  Topics: Skyrizi, Humira, AbbVie, Psoriasis, Autoimmune
+  Summary: Skyrizi generated $5.505 billion in Q2 2026, only $74 million below Humira's historic quarterly peak. The real succession test spans efficacy, treatment burden, multi-indication reach and access.
+- 2026-08-19｜55 億美元只差一步：Skyrizi 要接棒 Humira 當自體免疫藥王？
+  URL: https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king.html
+  Topics: Skyrizi, 喜開悅, Humira, 復邁, AbbVie
+  Summary: Skyrizi 2026 年第二季收入達 55.05 億美元，距 Humira 的歷史單季高點只差 7,400 萬美元；真正的接班考驗，是療效、治療負擔、多適應症與支付能力能否一起延續。
 - 2026-08-18｜Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?
   URL: https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html
   Topics: Eli Lilly, Tirzepatide, Mounjaro, Zepbound, GLP-1
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html
   Topics: Novo Nordisk, ziltivekimab, ZEUS, MACE, IL-6
   Summary: ZEUS 超過 6,300 人卻交出 HR 0.99：ziltivekimab 壓低 free IL-6 與 hsCRP，卻沒有證明能降低三點 MACE。這不是抗發炎假說死亡，而是 biomarker 不能替患者硬終點預支成功。
-- 2026-08-12｜Can $1.2 Billion Help AI Double the Pace of Drug R&D?
-  URL: https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html
-  Topics: Bio Genesis Mission, AI drug discovery, NIH, DOE, biomedical data
-  Summary: The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster.
-- 2026-08-12｜美國砸 12 億美元，想用 AI 把新藥研發快一倍！
-  URL: https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html
-  Topics: Bio Genesis Mission, AI製藥, NIH, DOE, 生醫資料
-  Summary: 美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。
 
 ## Key Site Sections
 

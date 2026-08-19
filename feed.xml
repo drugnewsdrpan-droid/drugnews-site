@@ -6,14 +6,22 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 18 Aug 2026 03:23:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 05:15:10 GMT</lastBuildDate>
+    <item>
+      <title>55 億美元只差一步：Skyrizi 要接棒 Humira 當自體免疫藥王？</title>
+      <link>https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king.html</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/skyrizi-humira-autoimmune-drug-king/cover.png" alt="Skyrizi 距 Humira 單季收入紀錄只差 7,400 萬美元的自體免疫接力圖解"></p><p>Skyrizi 2026 年第二季收入達 55.05 億美元，距 Humira 的歷史單季高點只差 7,400 萬美元；真正的接班考驗，是療效、治療負擔、多適應症與支付能力能否一起延續。</p>]]></description>
+    </item>
     <item>
       <title>一季狂賣 230 億美元，禮來卻急著買下一個藥王</title>
       <link>https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html</link>
       <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king/cover.png" alt="禮來第二季營收與 tirzepatide 收入集中度圖解"></p><p>Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。</p>]]></description>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king/cover-editorial.jpg" alt="一支減重治療注射筆與代表產品接棒的胜肽分子視覺"></p><p>Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。</p>]]></description>
     </item>
     <item>
       <title>營收跳增 39%，還是虧了 4,700 萬美元：癌症細胞療法翻身了？</title>
@@ -198,14 +206,6 @@
       <pubDate>Fri, 24 Jul 2026 08:20:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals/cover-zh.webp" alt="SpaceX 火箭、低地球軌道晶體、返回艙與地面分析共同構成微重力製藥往返流程"></p><p>SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。</p>]]></description>
-    </item>
-    <item>
-      <title>Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma</title>
-      <link>https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html</guid>
-      <pubDate>Fri, 24 Jul 2026 02:30:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/biotech-independence-five-engines/cover.png" alt="一個分子核心向產品證據、現金、第二曲線、全球執行與融資能力延伸的科學視覺"></p><p>被收購不是 Biotech 唯一的成功終點。本文以 argenx、Insmed、Incyte 與 Revolution Medicines 為四個截面，檢驗產品證據、現金引擎、第二曲線、全球執行與融資選項，並拆解保留控制權的真實成本。</p>]]></description>
     </item>
   </channel>
 </rss>

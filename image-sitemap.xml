@@ -1,10 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/skyrizi-humira-autoimmune-drug-king-en/cover.png</image:loc>
+      <image:caption>Skyrizi closing to within $74 million of Humira&apos;s quarterly revenue record in an autoimmune product relay</image:caption>
+      <image:title>Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/skyrizi-humira-autoimmune-drug-king-en/figure-01.png</image:loc>
+      <image:caption>Figure 1 | Humira&apos;s historic quarterly peak and Skyrizi&apos;s Q2 2026 revenue are now separated by only $74 million</image:caption>
+      <image:title>Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/skyrizi-humira-autoimmune-drug-king-en/figure-02.png</image:loc>
+      <image:caption>Figure 2 | Skyrizi and ICOTYDE use very different regimens, and their label results come from separate trials rather than a head-to-head comparison</image:caption>
+      <image:title>Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/skyrizi-humira-autoimmune-drug-king-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | Depth of response, treatment burden, comorbidity and safety, and patient access jointly determine the next autoimmune leader</image:caption>
+      <image:title>Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/skyrizi-humira-autoimmune-drug-king/cover.png</image:loc>
+      <image:caption>Skyrizi 距 Humira 單季收入紀錄只差 7,400 萬美元的自體免疫接力圖解</image:caption>
+      <image:title>55 億美元只差一步：Skyrizi 要接棒 Humira 當自體免疫藥王？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/skyrizi-humira-autoimmune-drug-king/figure-01.png</image:loc>
+      <image:caption>圖 1｜Humira 與 Skyrizi 的歷史單季收入紀錄只差 7,400 萬美元</image:caption>
+      <image:title>55 億美元只差一步：Skyrizi 要接棒 Humira 當自體免疫藥王？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/skyrizi-humira-autoimmune-drug-king/figure-02.png</image:loc>
+      <image:caption>圖 2｜Skyrizi 與 ICOTYDE 的療程及標籤試驗結果來自不同研究，不能直接判定誰贏</image:caption>
+      <image:title>55 億美元只差一步：Skyrizi 要接棒 Humira 當自體免疫藥王？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/skyrizi-humira-autoimmune-drug-king/figure-03.png</image:loc>
+      <image:caption>圖 3｜自體免疫市場的決勝因素包括療效深度、治療負擔、共病安全與支付可近性</image:caption>
+      <image:title>55 億美元只差一步：Skyrizi 要接棒 Humira 當自體免疫藥王？</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html</loc>
     <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king-en/cover.png</image:loc>
-      <image:caption>Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King? homepage image</image:caption>
+      <image:loc>https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king-en/cover-editorial.jpg</image:loc>
+      <image:caption>A weekly obesity-treatment injection pen and sculptural peptide molecule representing a product relay</image:caption>
       <image:title>Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?</image:title>
     </image:image>
     <image:image>
@@ -31,8 +77,8 @@
   <url>
     <loc>https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html</loc>
     <image:image>
-      <image:loc>https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king/cover.png</image:loc>
-      <image:caption>禮來第二季營收與 tirzepatide 收入集中度圖解</image:caption>
+      <image:loc>https://drugnews.com.tw/assets/articles/eli-lilly-tirzepatide-next-drug-king/cover-editorial.jpg</image:loc>
+      <image:caption>一支減重治療注射筆與代表產品接棒的胜肽分子視覺</image:caption>
       <image:title>一季狂賣 230 億美元，禮來卻急著買下一個藥王</image:title>
     </image:image>
     <image:image>
