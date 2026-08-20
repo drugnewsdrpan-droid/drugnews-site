@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-19T05:15:09.981Z",
+  "generated_at": "2026-08-20T04:26:23.477Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -117,204 +117,103 @@
   },
   "buckets": [
     {
-      "name": "GLP-1 與代謝賽道",
+      "name": "腫瘤精準治療",
       "count": 5,
       "articles": [
         {
-          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
+          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
           "language": "en",
           "category": "商業分析",
           "access": "Business Analysis",
           "tags": [
+            "AI drug discovery",
+            "NVIDIA",
+            "Bristol Myers Squibb",
             "Eli Lilly",
-            "Tirzepatide",
-            "Mounjaro",
-            "Zepbound",
-            "GLP-1",
-            "Retatrutide",
-            "Orforglipron",
-            "Caliway"
+            "Roche",
+            "drug development",
+            "GPU infrastructure",
+            "Taiwan semiconductor supply chain"
           ],
-          "summary": "Tirzepatide has allowed Eli Lilly to dominate both diabetes and obesity, but revenue concentration, pricing pressure and the next product relay are the investment questions that matter now."
+          "summary": "BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop."
         },
         {
-          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Eli Lilly",
-            "禮來",
-            "Tirzepatide",
-            "Mounjaro",
-            "Zepbound",
-            "GLP-1",
-            "Retatrutide",
-            "Orforglipron"
-          ],
-          "summary": "Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。"
-        },
-        {
-          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
           "language": "en",
           "category": "商業分析",
-          "access": "Free Article",
+          "access": "Business Analysis",
           "tags": [
-            "Business Analysis",
-            "obesity",
-            "weight-loss drugs",
-            "GLP-1",
-            "Pfizer",
-            "Roche",
-            "Amgen",
-            "Metsera"
+            "AnBogen Therapeutics",
+            "ABT-301",
+            "imofinostat",
+            "HDAC inhibitor",
+            "Chidamide",
+            "pMMR colorectal cancer",
+            "cancer immunotherapy",
+            "Taiwan biotech"
           ],
-          "summary": "Pfizer, Roche and Amgen are pruning obesity programs that lack clear differentiation. The GLP-1 market has moved from a race to enter the clinic to a contest across efficacy, safety, convenience and commercial execution."
+          "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone."
         },
         {
-          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
+          "date": "2026-08-04",
+          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
           "language": "zh-Hant",
           "category": "商業分析",
           "access": "商業分析文",
           "tags": [
-            "肥胖症",
-            "減重藥",
-            "GLP-1",
-            "Pfizer",
-            "Roche",
-            "Amgen",
-            "Metsera",
-            "康霈"
+            "AstraZeneca",
+            "阿斯特捷利康",
+            "Bristol Myers Squibb",
+            "BMS",
+            "百時美施貴寶",
+            "生技併購",
+            "大藥廠",
+            "專利懸崖"
           ],
-          "summary": "Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。"
+          "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。"
         },
         {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "AnBogen Therapeutics",
+            "ABT-301",
+            "Cancer Immunotherapy",
+            "PD-1",
+            "Metastatic Colorectal Cancer",
+            "HDAC",
+            "Taiwan Biotech",
+            "Oncology"
+          ],
+          "summary": "Can a small molecule from Taiwan extend the $30 billion PD-1 ecosystem into the 95% of metastatic colorectal cancer patients still beyond immunotherapy’s reach?"
+        },
+        {
+          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
           "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "language": "en",
           "category": "商業分析",
-          "access": "商業分析文",
+          "access": "Business Analysis",
           "tags": [
             "Roche",
-            "羅氏",
             "Big Pharma",
-            "製藥巨頭",
+            "pharma strategy",
             "giredestrant",
             "fenebrutinib",
             "trontinemab",
-            "petrelintide"
+            "petrelintide",
+            "bexobrutideg"
           ],
-          "summary": "羅氏 2025 年製藥銷售 476.69 億瑞士法郎，Ocrevus、Hemlibra 與 Vabysmo 已撐起約三分之一收入。真正值得追的不是 19 個新分子的總數，而是 giredestrant、fenebrutinib、減重、阿茲海默症與蛋白質降解資產能否沿既有臨床、診斷與商業通路準時接棒。"
-        }
-      ]
-    },
-    {
-      "name": "臨床與法規催化",
-      "count": 5,
-      "articles": [
-        {
-          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
-          "date": "2026-08-15",
-          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Free Article",
-          "tags": [
-            "Business Analysis",
-            "GSK",
-            "camlipixant",
-            "P2X3",
-            "refractory chronic cough",
-            "CALM-1",
-            "CALM-2",
-            "Phase 3"
-          ],
-          "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together."
-        },
-        {
-          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
-          "date": "2026-08-15",
-          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "GSK",
-            "camlipixant",
-            "P2X3",
-            "慢性咳嗽",
-            "CALM-1",
-            "CALM-2",
-            "臨床三期",
-            "新藥研發"
-          ],
-          "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
-        },
-        {
-          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
-          "date": "2026-08-07",
-          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "argenx",
-            "Forte Biosciences",
-            "FB102",
-            "VYVGART",
-            "CD122",
-            "autoimmune disease",
-            "vitiligo",
-            "celiac disease"
-          ],
-          "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat."
-        },
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Alzheimer's disease",
-            "tau",
-            "diranersen",
-            "BIIB080",
-            "IONIS-MAPTRx",
-            "Biogen",
-            "Ionis",
-            "antisense oligonucleotide"
-          ],
-          "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
-        },
-        {
-          "title": "鬼剃頭新藥，先別封神",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "斑禿",
-            "鬼剃頭",
-            "Bempikibart",
-            "Q32 Bio",
-            "QTTB",
-            "IL-7Rα",
-            "JAK 抑制劑",
-            "SALT"
-          ],
-          "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。"
+          "summary": "Roche generated CHF 47.669 billion in pharmaceutical sales in 2025, with Ocrevus, Hemlibra, and Vabysmo already accounting for roughly one-third of the total. The number that matters is not simply 19 potential new molecules, but whether giredestrant, fenebrutinib, obesity, Alzheimer's, and protein-degradation assets can inherit Roche's existing clinical, diagnostic, and commercial infrastructure on time."
         }
       ]
     },
@@ -322,6 +221,25 @@
       "name": "AI 製藥與新技術",
       "count": 10,
       "articles": [
+        {
+          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "AI 製藥",
+            "NVIDIA",
+            "BMS",
+            "禮來",
+            "Roche",
+            "新藥研發",
+            "GPU",
+            "台灣供應鏈"
+          ],
+          "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。"
+        },
         {
           "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
           "date": "2026-08-13",
@@ -491,107 +409,189 @@
             "Taiwan biotech"
           ],
           "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy."
-        },
-        {
-          "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "SpaceX",
-            "microgravity",
-            "space pharmaceuticals",
-            "drug crystallization",
-            "Keytruda",
-            "Redwire",
-            "SpaceMD",
-            "Varda"
-          ],
-          "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation."
         }
       ]
     },
     {
-      "name": "腫瘤精準治療",
+      "name": "GLP-1 與代謝賽道",
       "count": 4,
       "articles": [
         {
-          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
-          "date": "2026-08-11",
-          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
           "language": "en",
           "category": "商業分析",
           "access": "Business Analysis",
           "tags": [
-            "AnBogen Therapeutics",
-            "ABT-301",
-            "imofinostat",
-            "HDAC inhibitor",
-            "Chidamide",
-            "pMMR colorectal cancer",
-            "cancer immunotherapy",
-            "Taiwan biotech"
+            "Eli Lilly",
+            "Tirzepatide",
+            "Mounjaro",
+            "Zepbound",
+            "GLP-1",
+            "Retatrutide",
+            "Orforglipron",
+            "Caliway"
           ],
-          "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone."
+          "summary": "Tirzepatide has allowed Eli Lilly to dominate both diabetes and obesity, but revenue concentration, pricing pressure and the next product relay are the investment questions that matter now."
         },
         {
-          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
+          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
           "language": "zh-Hant",
           "category": "商業分析",
           "access": "商業分析文",
           "tags": [
-            "AstraZeneca",
-            "阿斯特捷利康",
-            "Bristol Myers Squibb",
-            "BMS",
-            "百時美施貴寶",
-            "生技併購",
-            "大藥廠",
-            "專利懸崖"
+            "Eli Lilly",
+            "禮來",
+            "Tirzepatide",
+            "Mounjaro",
+            "Zepbound",
+            "GLP-1",
+            "Retatrutide",
+            "Orforglipron"
           ],
-          "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。"
+          "summary": "Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。"
         },
         {
-          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
-          "date": "2026-07-31",
-          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
           "language": "en",
           "category": "商業分析",
-          "access": "Business Analysis",
+          "access": "Free Article",
           "tags": [
-            "AnBogen Therapeutics",
-            "ABT-301",
-            "Cancer Immunotherapy",
-            "PD-1",
-            "Metastatic Colorectal Cancer",
-            "HDAC",
-            "Taiwan Biotech",
-            "Oncology"
-          ],
-          "summary": "Can a small molecule from Taiwan extend the $30 billion PD-1 ecosystem into the 95% of metastatic colorectal cancer patients still beyond immunotherapy’s reach?"
-        },
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
+            "Business Analysis",
+            "obesity",
+            "weight-loss drugs",
+            "GLP-1",
+            "Pfizer",
             "Roche",
-            "Big Pharma",
-            "pharma strategy",
-            "giredestrant",
-            "fenebrutinib",
-            "trontinemab",
-            "petrelintide",
-            "bexobrutideg"
+            "Amgen",
+            "Metsera"
           ],
-          "summary": "Roche generated CHF 47.669 billion in pharmaceutical sales in 2025, with Ocrevus, Hemlibra, and Vabysmo already accounting for roughly one-third of the total. The number that matters is not simply 19 potential new molecules, but whether giredestrant, fenebrutinib, obesity, Alzheimer's, and protein-degradation assets can inherit Roche's existing clinical, diagnostic, and commercial infrastructure on time."
+          "summary": "Pfizer, Roche and Amgen are pruning obesity programs that lack clear differentiation. The GLP-1 market has moved from a race to enter the clinic to a contest across efficacy, safety, convenience and commercial execution."
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "肥胖症",
+            "減重藥",
+            "GLP-1",
+            "Pfizer",
+            "Roche",
+            "Amgen",
+            "Metsera",
+            "康霈"
+          ],
+          "summary": "Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。"
+        }
+      ]
+    },
+    {
+      "name": "臨床與法規催化",
+      "count": 5,
+      "articles": [
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Business Analysis",
+            "GSK",
+            "camlipixant",
+            "P2X3",
+            "refractory chronic cough",
+            "CALM-1",
+            "CALM-2",
+            "Phase 3"
+          ],
+          "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together."
+        },
+        {
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "GSK",
+            "camlipixant",
+            "P2X3",
+            "慢性咳嗽",
+            "CALM-1",
+            "CALM-2",
+            "臨床三期",
+            "新藥研發"
+          ],
+          "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
+        },
+        {
+          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "argenx",
+            "Forte Biosciences",
+            "FB102",
+            "VYVGART",
+            "CD122",
+            "autoimmune disease",
+            "vitiligo",
+            "celiac disease"
+          ],
+          "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat."
+        },
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Alzheimer's disease",
+            "tau",
+            "diranersen",
+            "BIIB080",
+            "IONIS-MAPTRx",
+            "Biogen",
+            "Ionis",
+            "antisense oligonucleotide"
+          ],
+          "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
+        },
+        {
+          "title": "鬼剃頭新藥，先別封神",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "斑禿",
+            "鬼剃頭",
+            "Bempikibart",
+            "Q32 Bio",
+            "QTTB",
+            "IL-7Rα",
+            "JAK 抑制劑",
+            "SALT"
+          ],
+          "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。"
         }
       ]
     },

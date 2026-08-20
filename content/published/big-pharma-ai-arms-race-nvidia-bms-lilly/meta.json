@@ -1,0 +1,41 @@
+{
+  "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
+  "slug": "big-pharma-ai-arms-race-nvidia-bms-lilly",
+  "date": "2026-08-20",
+  "publish_at": "2026-08-20T08:00:00+08:00",
+  "updated_at": "2026-08-20",
+  "category": "商業分析系列",
+  "series": "商業分析系列",
+  "access": "免費文章",
+  "lang": "zh-Hant",
+  "is_accessible_for_free": true,
+  "tags": [
+    "AI 製藥",
+    "NVIDIA",
+    "BMS",
+    "禮來",
+    "Roche",
+    "新藥研發",
+    "GPU",
+    "台灣供應鏈"
+  ],
+  "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。",
+  "cover_image": "images/cover.png",
+  "card_image": "images/cover-1400.webp",
+  "homepage_cover_image": "images/cover.png",
+  "cover_image_alt": "研究員、實驗自動化與 AI 伺服器構成大藥廠 AI 軍備競賽，BMS 導入依規格推算的 576 顆 GPU，禮來五年投入上限 10 億美元",
+  "card_image_alt": "BMS、禮來與 NVIDIA 推動大藥廠 AI 研發基礎設施競賽",
+  "homepage_cover_image_alt": "BMS、禮來與 NVIDIA 推動大藥廠 AI 研發基礎設施競賽",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "show_cover_in_hero": true,
+  "enable_toc": true,
+  "source_platform": "Facebook",
+  "source_status": "藥時事 Facebook 於 2026-08-20 公開之完整長文與四圖，依核准發文包及公開讀回匯入",
+  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122183137376614875&id=61568446257142",
+  "translations": {
+    "en": "2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-19T05:15:10.039Z",
+  "generated_at": "2026-08-20T04:26:23.654Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+      "date": "2026-08-20",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+      "category": "商業分析",
+      "tags": [
+        "AI drug discovery",
+        "NVIDIA",
+        "Bristol Myers Squibb",
+        "Eli Lilly",
+        "Roche",
+        "drug development",
+        "GPU infrastructure",
+        "Taiwan semiconductor supply chain"
+      ],
+      "summary": "BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop."
+    },
+    {
+      "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
+      "date": "2026-08-20",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
+      "category": "商業分析",
+      "tags": [
+        "AI 製藥",
+        "NVIDIA",
+        "BMS",
+        "禮來",
+        "Roche",
+        "新藥研發",
+        "GPU",
+        "台灣供應鏈"
+      ],
+      "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。"
+    },
     {
       "title": "Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?",
       "date": "2026-08-19",
@@ -774,42 +810,6 @@
         "新藥商業化"
       ],
       "summary": "ICOTYDE 上市後第一個完整季度累積逾 18,000 張處方。口服 IL-23R 胜肽已取得進入高療效市場的資格，真正的商業答案仍取決於續方、支付品質、長期留存與多適應症。"
-    },
-    {
-      "title": "Why These Four Biotechs Can Afford Not to Sell",
-      "date": "2026-08-08",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Biotech",
-        "Biopharma",
-        "argenx",
-        "Insmed",
-        "Revolution Medicines",
-        "Incyte",
-        "Royalty Pharma",
-        "Drug Development"
-      ],
-      "summary": "argenx, Insmed, Incyte, and Revolution Medicines show why biotech independence depends on product evidence, cash generation, a second growth curve, global execution, and financing without surrendering control."
-    },
-    {
-      "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
-      "date": "2026-08-08",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
-      "category": "商業分析",
-      "tags": [
-        "Biotech",
-        "Biopharma",
-        "argenx",
-        "Insmed",
-        "Revolution Medicines",
-        "Incyte",
-        "Royalty Pharma",
-        "新藥開發"
-      ],
-      "summary": "argenx、Insmed、Incyte 與 Revolution Medicines 選擇保留獨立經營權。真正的不賣資格，來自產品證據、現金引擎、第二曲線、全球執行與不交出控制權也能取得資金的能力。"
     }
   ],
   "do_not_use_as": [

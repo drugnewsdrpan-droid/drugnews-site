@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-20｜NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion
+  URL: https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html
+  Topics: AI drug discovery, NVIDIA, Bristol Myers Squibb, Eli Lilly, Roche
+  Summary: BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop.
+- 2026-08-20｜輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元
+  URL: https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html
+  Topics: AI 製藥, NVIDIA, BMS, 禮來, Roche
+  Summary: BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。
 - 2026-08-19｜Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?
   URL: https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html
   Topics: Skyrizi, Humira, AbbVie, Psoriasis, Autoimmune
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html
   Topics: 智新生物, Intelligene, RNA 遞送, 小核酸藥物, siRNA
   Summary: 小核酸藥物的競爭正從 RNA 序列設計走向肝外遞送；智新生技以 EV 與 LNP 平台切入肺部與呼吸道，挑戰小核酸下半場最值錢的問題：能否真正抵達病灶。
-- 2026-08-13｜Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk
-  URL: https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html
-  Topics: Novo Nordisk, ziltivekimab, ZEUS, MACE, IL-6
-  Summary: ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE.
-- 2026-08-13｜諾和諾德大三期慘敗！6,300 人的教科書級教訓
-  URL: https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html
-  Topics: Novo Nordisk, ziltivekimab, ZEUS, MACE, IL-6
-  Summary: ZEUS 超過 6,300 人卻交出 HR 0.99：ziltivekimab 壓低 free IL-6 與 hsCRP，卻沒有證明能降低三點 MACE。這不是抗發炎假說死亡，而是 biomarker 不能替患者硬終點預支成功。
 
 ## Key Site Sections
 

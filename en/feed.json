@@ -7,6 +7,24 @@
   "language": "en",
   "items": [
     {
+      "id": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+      "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+      "content_text": "BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop.",
+      "date_published": "2026-08-20T08:00:00+08:00",
+      "date_modified": "2026-08-20T08:00:00+08:00",
+      "tags": [
+        "AI drug discovery",
+        "NVIDIA",
+        "Bristol Myers Squibb",
+        "Eli Lilly",
+        "Roche",
+        "drug development",
+        "GPU infrastructure",
+        "Taiwan semiconductor supply chain"
+      ]
+    },
+    {
       "id": "https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html",
       "url": "https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html",
       "title": "Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?",

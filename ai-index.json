@@ -209,6 +209,60 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+      "date": "2026-08-20",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "AI drug discovery",
+        "NVIDIA",
+        "Bristol Myers Squibb",
+        "Eli Lilly",
+        "Roche",
+        "drug development",
+        "GPU infrastructure",
+        "Taiwan semiconductor supply chain"
+      ],
+      "summary": "BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop.",
+      "image": "https://drugnews.com.tw/assets/articles/big-pharma-ai-arms-race-nvidia-bms-lilly-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh": "2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html"
+      }
+    },
+    {
+      "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
+      "date": "2026-08-20",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "AI 製藥",
+        "NVIDIA",
+        "BMS",
+        "禮來",
+        "Roche",
+        "新藥研發",
+        "GPU",
+        "台灣供應鏈"
+      ],
+      "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。",
+      "image": "https://drugnews.com.tw/assets/articles/big-pharma-ai-arms-race-nvidia-bms-lilly/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html"
+      }
+    },
+    {
       "title": "Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?",
       "date": "2026-08-19",
       "language": "en",
@@ -1555,64 +1609,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-07-25-roche-19-molecule-succession-engine-en.html"
-      }
-    },
-    {
-      "title": "SpaceX Goes to Orbit. Is the Money in the Crystals?",
-      "date": "2026-07-24",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals-en.html",
-      "source": "cmoney",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "SpaceX",
-        "microgravity",
-        "space pharmaceuticals",
-        "drug crystallization",
-        "Keytruda",
-        "Redwire",
-        "SpaceMD",
-        "Varda",
-        "formulation development",
-        "Taiwan biotech"
-      ],
-      "summary": "SpaceX is making low-Earth-orbit round trips more routine, but rockets do not discover drugs. From Keytruda crystallization and SpaceMD to Varda, UK regulation, and a Taiwan mission, this analysis asks whether microgravity-enabled manufacturing can pass the tests of repetition, scale-up, and regulation.",
-      "image": "https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals-en/cover-en.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-24-spacex-microgravity-drug-crystals.html"
-      }
-    },
-    {
-      "title": "SpaceX 上太空，錢在晶體裡？微重力製藥的第一桶金",
-      "date": "2026-07-24",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-24-spacex-microgravity-drug-crystals.html",
-      "source": "cmoney",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "SpaceX",
-        "微重力",
-        "太空製藥",
-        "藥物結晶",
-        "Keytruda",
-        "Redwire",
-        "SpaceMD",
-        "Varda",
-        "製劑開發",
-        "台灣生技"
-      ],
-      "summary": "SpaceX 讓低軌往返逐漸有了班次，但火箭不是新藥公司。本文從 Keytruda 結晶、SpaceMD、Varda、英國監管與台灣任務，拆解微重力製藥能否通過重複、放大與監管三道商業考驗。",
-      "image": "https://drugnews.com.tw/assets/articles/spacex-microgravity-drug-crystals/cover-zh.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-24-spacex-microgravity-drug-crystals-en.html"
       }
     }
   ]

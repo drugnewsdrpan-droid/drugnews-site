@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ai-arms-race-nvidia-bms-lilly-en/cover.png</image:loc>
+      <image:caption>BMS, Lilly and NVIDIA illustrate Big Pharma&apos;s AI infrastructure arms race</image:caption>
+      <image:title>NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ai-arms-race-nvidia-bms-lilly-en/figure-01.png</image:loc>
+      <image:caption>Figure 1 | Big Pharma&apos;s 2026 AI commitments span compute, cloud, enterprise agents and laboratory infrastructure; announced spending limits and capacity are not clinical outcomes</image:caption>
+      <image:title>NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ai-arms-race-nvidia-bms-lilly-en/figure-02.png</image:loc>
+      <image:caption>Figure 2 | The evidence ladder runs from compute and agents through wet-lab work and candidate nomination to clinical trials; a small early Phase 1 review cannot be extrapolated into approval probability</image:caption>
+      <image:title>NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ai-arms-race-nvidia-bms-lilly-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | Taiwan sits across the AI infrastructure chain, but participation in NVIDIA&apos;s ecosystem is not evidence of a specific BMS or Roche order</image:caption>
+      <image:title>NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ai-arms-race-nvidia-bms-lilly/cover.png</image:loc>
+      <image:caption>BMS、禮來與 NVIDIA 推動大藥廠 AI 研發基礎設施競賽</image:caption>
+      <image:title>輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ai-arms-race-nvidia-bms-lilly/figure-01.png</image:loc>
+      <image:caption>圖 1｜2026 年大藥廠 AI 軍備表；金額多為多年投入上限，設備規模不等於臨床成功</image:caption>
+      <image:title>輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ai-arms-race-nvidia-bms-lilly/figure-02.png</image:loc>
+      <image:caption>圖 2｜AI 製藥從算力、代理人與濕實驗走到候選藥及臨床驗證；一期小樣本早期回顧不能外推上市成功率</image:caption>
+      <image:title>輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ai-arms-race-nvidia-bms-lilly/figure-03.png</image:loc>
+      <image:caption>圖 3｜台灣位於 NVIDIA AI 基礎設施鏈上，但生態系關係不等於取得 BMS 或 Roche 的特定訂單</image:caption>
+      <image:title>輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/skyrizi-humira-autoimmune-drug-king-en/cover.png</image:loc>

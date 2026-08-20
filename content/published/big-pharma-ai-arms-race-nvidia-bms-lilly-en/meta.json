@@ -1,0 +1,41 @@
+{
+  "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+  "slug": "big-pharma-ai-arms-race-nvidia-bms-lilly-en",
+  "date": "2026-08-20",
+  "publish_at": "2026-08-20T08:00:00+08:00",
+  "updated_at": "2026-08-20",
+  "category": "商業分析系列",
+  "series": "商業分析系列",
+  "access": "免費文章",
+  "lang": "en",
+  "is_accessible_for_free": true,
+  "tags": [
+    "AI drug discovery",
+    "NVIDIA",
+    "Bristol Myers Squibb",
+    "Eli Lilly",
+    "Roche",
+    "drug development",
+    "GPU infrastructure",
+    "Taiwan semiconductor supply chain"
+  ],
+  "summary": "BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop.",
+  "cover_image": "images/cover.png",
+  "card_image": "images/cover-1400.webp",
+  "homepage_cover_image": "images/cover.png",
+  "cover_image_alt": "A pharmaceutical scientist, automated wet lab and AI server racks illustrate Big Pharma's AI infrastructure arms race, including BMS's specification-derived 576 GPUs and Lilly's five-year commitment of up to $1 billion",
+  "card_image_alt": "BMS, Lilly and NVIDIA illustrate Big Pharma's AI infrastructure arms race",
+  "homepage_cover_image_alt": "BMS, Lilly and NVIDIA illustrate Big Pharma's AI infrastructure arms race",
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "show_cover_in_hero": true,
+  "enable_toc": true,
+  "source_platform": "Facebook",
+  "source_status": "Drugnews Facebook public long-form source published on 2026-08-20, imported from the approved full article with four English-localized figures.",
+  "facebook_url": "https://www.facebook.com/permalink.php?story_fbid=122183137376614875&id=61568446257142",
+  "translations": {
+    "zh": "2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html"
+  }
+}
