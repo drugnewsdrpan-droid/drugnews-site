@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-20T04:26:23.654Z",
+  "generated_at": "2026-08-21T02:43:46.316Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
+      "date": "2026-08-21",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Moderna",
+        "Merck",
+        "intismeran autogene",
+        "INTerpath-001",
+        "personalized cancer vaccine",
+        "melanoma",
+        "mRNA manufacturing",
+        "Phase 3"
+      ],
+      "summary": "Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform."
+    },
+    {
+      "title": "再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%",
+      "date": "2026-08-21",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html",
+      "category": "商業分析",
+      "tags": [
+        "Moderna",
+        "Merck",
+        "intismeran autogene",
+        "INTerpath-001",
+        "mRNA 癌症疫苗",
+        "黑色素瘤",
+        "個人化醫療",
+        "臨床三期"
+      ],
+      "summary": "INTerpath-001 第三期頂線結果讓莫德納股價單日上漲 176.97%。真正被重新估價的，不只是一款黑色素瘤療法，而是個人化設計、製造、質控與臨床交付能否成為可擴張的平台。"
+    },
     {
       "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
       "date": "2026-08-20",
@@ -776,40 +812,6 @@
         "GSK"
       ],
       "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff."
-    },
-    {
-      "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
-      "date": "2026-08-09",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
-      "category": "商業分析",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "Psoriasis",
-        "IL-23R",
-        "Oral Peptide",
-        "Drug Commercialization"
-      ],
-      "summary": "ICOTYDE logged more than 18,000 prescriptions in its first full quarter. The oral IL-23R peptide has earned entry into the high-efficacy psoriasis market, but durable value still depends on paid fills, persistence, payer quality, safety, and additional indications."
-    },
-    {
-      "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
-      "date": "2026-08-09",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
-      "category": "商業分析",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "乾癬",
-        "IL-23R",
-        "口服胜肽",
-        "新藥商業化"
-      ],
-      "summary": "ICOTYDE 上市後第一個完整季度累積逾 18,000 張處方。口服 IL-23R 胜肽已取得進入高療效市場的資格，真正的商業答案仍取決於續方、支付品質、長期留存與多適應症。"
     }
   ],
   "do_not_use_as": [

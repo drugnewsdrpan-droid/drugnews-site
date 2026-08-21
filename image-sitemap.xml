@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/moderna-merck-intismeran-phase3-melanoma-en/cover.png</image:loc>
+      <image:caption>Moderna intismeran Phase 3 melanoma result and the stock&apos;s 176.97 percent one-day gain</image:caption>
+      <image:title>Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/moderna-merck-intismeran-phase3-melanoma-en/figure-02.png</image:loc>
+      <image:caption>Figure 1 | INTerpath-001 met the RFS and DMFS endpoints, but hazard ratios, curves, absolute effects and overall-survival evidence remain undisclosed</image:caption>
+      <image:title>Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/moderna-merck-intismeran-phase3-melanoma-en/figure-01.png</image:loc>
+      <image:caption>Figure 2 | Each patient&apos;s path runs from tumor and blood sampling through sequencing, neoantigen selection, mRNA manufacture, quality release and administration</image:caption>
+      <image:title>Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/moderna-merck-intismeran-phase3-melanoma-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | Commercializing a personalized mRNA medicine requires four connected systems: prediction, manufacturing, patient-level quality release, and cold-chain clinical delivery</image:caption>
+      <image:title>Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/moderna-merck-intismeran-phase3-melanoma/cover.png</image:loc>
+      <image:caption>莫德納 intismeran 個人化癌症疫苗第三期達標與 176.97% 單日漲幅</image:caption>
+      <image:title>再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/moderna-merck-intismeran-phase3-melanoma/figure-02.png</image:loc>
+      <image:caption>圖 1｜INTerpath-001 第三期同時達到 RFS 與 DMFS 終點，但風險比、存活曲線與總生存期仍未完整揭露</image:caption>
+      <image:title>再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/moderna-merck-intismeran-phase3-melanoma/figure-01.png</image:loc>
+      <image:caption>圖 2｜每位患者都要經過腫瘤與血液取樣、定序、新抗原挑選、mRNA 製造、質控及回院給藥</image:caption>
+      <image:title>再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/moderna-merck-intismeran-phase3-melanoma/figure-03.png</image:loc>
+      <image:caption>圖 3｜個人化 mRNA 藥物商業化需要新抗原預測、製造、個別批次質控與冷鏈臨床交付四套系統</image:caption>
+      <image:title>再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-ai-arms-race-nvidia-bms-lilly-en/cover.png</image:loc>

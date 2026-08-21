@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-21｜Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test
+  URL: https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html
+  Topics: Moderna, Merck, intismeran autogene, INTerpath-001, personalized cancer vaccine
+  Summary: Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform.
+- 2026-08-21｜再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%
+  URL: https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html
+  Topics: Moderna, Merck, intismeran autogene, INTerpath-001, mRNA 癌症疫苗
+  Summary: INTerpath-001 第三期頂線結果讓莫德納股價單日上漲 176.97%。真正被重新估價的，不只是一款黑色素瘤療法，而是個人化設計、製造、質控與臨床交付能否成為可擴張的平台。
 - 2026-08-20｜NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion
   URL: https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html
   Topics: AI drug discovery, NVIDIA, Bristol Myers Squibb, Eli Lilly, Roche
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html
   Topics: GSK, camlipixant, P2X3, 慢性咳嗽, CALM-1
   Summary: GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。
-- 2026-08-13｜This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body
-  URL: https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html
-  Topics: Intelligene, RNA delivery, oligonucleotide therapeutics, siRNA, ASO
-  Summary: Oligonucleotide therapeutics are moving from sequence design to extrahepatic delivery. Intelligene is using EV and LNP platforms to target the lung and airways, testing whether RNA medicines can truly reach disease sites beyond the liver.
-- 2026-08-13｜這家台灣Biotech正在打造人體內奈米火箭
-  URL: https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html
-  Topics: 智新生物, Intelligene, RNA 遞送, 小核酸藥物, siRNA
-  Summary: 小核酸藥物的競爭正從 RNA 序列設計走向肝外遞送；智新生技以 EV 與 LNP 平台切入肺部與呼吸道，挑戰小核酸下半場最值錢的問題：能否真正抵達病灶。
 
 ## Key Site Sections
 

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6fbff"/><stop offset=".56" stop-color="#ddecfb"/><stop offset="1" stop-color="#0d3b68"/></linearGradient>
+    <linearGradient id="coral" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#e76656"/><stop offset="1" stop-color="#f29c76"/></linearGradient>
+    <radialGradient id="cell"><stop stop-color="#54d1c8"/><stop offset=".55" stop-color="#168e9c"/><stop offset="1" stop-color="#0c5377"/></radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#123b60" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1672" height="941" fill="url(#bg)"/>
+  <g opacity=".2" stroke="#4a8fbd" fill="none"><circle cx="1350" cy="155" r="120"/><circle cx="1350" cy="155" r="185"/><circle cx="1350" cy="155" r="250"/></g>
+  <g opacity=".22" fill="#fff"><circle cx="1190" cy="155" r="16"/><circle cx="1470" cy="260" r="12"/><circle cx="1560" cy="102" r="8"/><circle cx="1090" cy="260" r="10"/></g>
+  <rect x="52" y="56" width="1040" height="632" rx="32" fill="#fff" fill-opacity=".96" stroke="#b8d2e9" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="88" y="92" width="560" height="62" rx="20" fill="#e8f7f7" stroke="#0f8993" stroke-width="3"/>
+  <text x="368" y="133" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700" fill="#087b86" letter-spacing="1">PERSONALIZED NEOANTIGEN mRNA</text>
+  <text x="88" y="249" font-family="Inter,Arial,sans-serif" font-size="66" font-weight="800" fill="#123b60">A CANCER VACCINE</text>
+  <text x="88" y="326" font-family="Inter,Arial,sans-serif" font-size="66" font-weight="800" fill="#123b60">CLEARS PHASE 3</text>
+  <text x="90" y="388" font-family="Inter,Arial,sans-serif" font-size="34" fill="#345a78">RFS and DMFS endpoints met in resected melanoma</text>
+  <rect x="88" y="442" width="445" height="92" rx="20" fill="url(#coral)"/>
+  <text x="310" y="501" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700" fill="#fff">MRNA +176.97%</text>
+  <rect x="560" y="442" width="430" height="92" rx="20" fill="#173f67"/>
+  <text x="775" y="501" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700" fill="#fff">CLOSE $174.38</text>
+  <rect x="88" y="568" width="520" height="66" rx="18" fill="#fff3ef" stroke="#e76656" stroke-width="3"/>
+  <text x="348" y="611" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700" fill="#d55446">TOPLINE POSITIVE • NOT APPROVED</text>
+  <g transform="translate(1100 280)">
+    <circle cx="220" cy="175" r="155" fill="#fff" fill-opacity=".18" stroke="#fff" stroke-opacity=".55" stroke-width="3"/>
+    <circle cx="220" cy="175" r="118" fill="url(#cell)" stroke="#d8ffff" stroke-width="5"/>
+    <g fill="#e0fbff" opacity=".9"><circle cx="164" cy="116" r="12"/><circle cx="238" cy="101" r="9"/><circle cx="291" cy="145" r="13"/><circle cx="170" cy="207" r="10"/><circle cx="250" cy="231" r="14"/></g>
+    <path d="M145 170c42-80 110 80 150 0" fill="none" stroke="#ffcf73" stroke-width="9" stroke-linecap="round"/>
+    <path d="M148 176c42 80 110-80 148 0" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="80" cy="420" r="75" fill="#4f7fbf" stroke="#d9efff" stroke-width="7"/><circle cx="390" cy="385" r="82" fill="#3b76a6" stroke="#d9efff" stroke-width="7"/>
+    <g stroke="#f6b0a2" stroke-width="8" stroke-linecap="round"><path d="M124 410l75-55"/><path d="M330 382l-55-70"/><path d="M340 400l-73 12"/></g>
+    <path d="M252 420c75 20 126 74 130 155" fill="none" stroke="#fff" stroke-width="8" stroke-dasharray="16 14"/>
+    <g transform="translate(358 555) rotate(-18)"><rect x="0" y="0" width="46" height="135" rx="16" fill="#eef8ff" stroke="#17466f" stroke-width="5"/><rect x="9" y="18" width="28" height="58" rx="8" fill="#73d4cf"/><path d="M22 135v80M0 205h44" stroke="#17466f" stroke-width="7"/></g>
+  </g>
+  <g transform="translate(78 760)">
+    <circle cx="80" cy="35" r="22" fill="#e76656"/><path d="M112 35h108" stroke="#3c77a3" stroke-width="8" stroke-linecap="round"/><polygon points="220,35 196,20 196,50" fill="#3c77a3"/>
+    <circle cx="300" cy="35" r="22" fill="#23a6a0"/><path d="M332 35h108" stroke="#3c77a3" stroke-width="8" stroke-linecap="round"/><polygon points="440,35 416,20 416,50" fill="#3c77a3"/>
+    <circle cx="520" cy="35" r="22" fill="#7b61b4"/><path d="M552 35h108" stroke="#3c77a3" stroke-width="8" stroke-linecap="round"/><polygon points="660,35 636,20 636,50" fill="#3c77a3"/>
+    <circle cx="740" cy="35" r="22" fill="#f0a53b"/>
+    <text x="80" y="93" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" fill="#183f62">SEQUENCE</text>
+    <text x="300" y="93" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" fill="#183f62">DESIGN</text>
+    <text x="520" y="93" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" fill="#183f62">MANUFACTURE</text>
+    <text x="740" y="93" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" fill="#183f62">TREAT</text>
+  </g>
+  <rect x="1386" y="858" width="240" height="54" rx="16" fill="#173f67"/>
+  <text x="1506" y="894" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700" fill="#fff">DRUGNEWS</text>
+</svg>

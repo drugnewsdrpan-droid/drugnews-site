@@ -209,6 +209,60 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
+      "date": "2026-08-21",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Moderna",
+        "Merck",
+        "intismeran autogene",
+        "INTerpath-001",
+        "personalized cancer vaccine",
+        "melanoma",
+        "mRNA manufacturing",
+        "Phase 3"
+      ],
+      "summary": "Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform.",
+      "image": "https://drugnews.com.tw/assets/articles/moderna-merck-intismeran-phase3-melanoma-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh": "2026-08-21-moderna-merck-intismeran-phase3-melanoma.html"
+      }
+    },
+    {
+      "title": "再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%",
+      "date": "2026-08-21",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Moderna",
+        "Merck",
+        "intismeran autogene",
+        "INTerpath-001",
+        "mRNA 癌症疫苗",
+        "黑色素瘤",
+        "個人化醫療",
+        "臨床三期"
+      ],
+      "summary": "INTerpath-001 第三期頂線結果讓莫德納股價單日上漲 176.97%。真正被重新估價的，不只是一款黑色素瘤療法，而是個人化設計、製造、質控與臨床交付能否成為可擴張的平台。",
+      "image": "https://drugnews.com.tw/assets/articles/moderna-merck-intismeran-phase3-melanoma/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html"
+      }
+    },
+    {
       "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
       "date": "2026-08-20",
       "language": "en",
@@ -1551,64 +1605,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-07-27-h1-2026-biopharma-ma-buying-time.html"
-      }
-    },
-    {
-      "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-      "date": "2026-07-25",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-      "source": "facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Roche",
-        "Big Pharma",
-        "pharma strategy",
-        "giredestrant",
-        "fenebrutinib",
-        "trontinemab",
-        "petrelintide",
-        "bexobrutideg",
-        "BRIM Biotechnology",
-        "BD licensing"
-      ],
-      "summary": "Roche generated CHF 47.669 billion in pharmaceutical sales in 2025, with Ocrevus, Hemlibra, and Vabysmo already accounting for roughly one-third of the total. The number that matters is not simply 19 potential new molecules, but whether giredestrant, fenebrutinib, obesity, Alzheimer's, and protein-degradation assets can inherit Roche's existing clinical, diagnostic, and commercial infrastructure on time.",
-      "image": "https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine-en/cover-en.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-25-roche-19-molecule-succession-engine.html"
-      }
-    },
-    {
-      "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-      "date": "2026-07-25",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-      "source": "facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "Roche",
-        "羅氏",
-        "Big Pharma",
-        "製藥巨頭",
-        "giredestrant",
-        "fenebrutinib",
-        "trontinemab",
-        "petrelintide",
-        "bexobrutideg",
-        "全福生技"
-      ],
-      "summary": "羅氏 2025 年製藥銷售 476.69 億瑞士法郎，Ocrevus、Hemlibra 與 Vabysmo 已撐起約三分之一收入。真正值得追的不是 19 個新分子的總數，而是 giredestrant、fenebrutinib、減重、阿茲海默症與蛋白質降解資產能否沿既有臨床、診斷與商業通路準時接棒。",
-      "image": "https://drugnews.com.tw/assets/articles/roche-19-molecule-succession-engine/cover-zh.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-25-roche-19-molecule-succession-engine-en.html"
       }
     }
   ]

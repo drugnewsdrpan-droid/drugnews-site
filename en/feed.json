@@ -7,6 +7,24 @@
   "language": "en",
   "items": [
     {
+      "id": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
+      "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
+      "content_text": "Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform.",
+      "date_published": "2026-08-21T08:00:00+08:00",
+      "date_modified": "2026-08-21T08:00:00+08:00",
+      "tags": [
+        "Moderna",
+        "Merck",
+        "intismeran autogene",
+        "INTerpath-001",
+        "personalized cancer vaccine",
+        "melanoma",
+        "mRNA manufacturing",
+        "Phase 3"
+      ]
+    },
+    {
       "id": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
       "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
       "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",

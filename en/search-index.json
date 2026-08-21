@@ -1,5 +1,32 @@
 [
   {
+    "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
+    "slug": "moderna-merck-intismeran-phase3-melanoma-en",
+    "date": "2026-08-21",
+    "publishAt": "2026-08-21T08:00:00+08:00",
+    "updatedAt": "2026-08-21",
+    "category": "商業分析系列",
+    "access": "免費文章",
+    "lang": "en",
+    "tags": [
+      "Moderna",
+      "Merck",
+      "intismeran autogene",
+      "INTerpath-001",
+      "personalized cancer vaccine",
+      "melanoma",
+      "mRNA manufacturing",
+      "Phase 3"
+    ],
+    "summary": "Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform.",
+    "image": "../assets/articles/moderna-merck-intismeran-phase3-melanoma-en/cover.png",
+    "cardImage": "../assets/articles/moderna-merck-intismeran-phase3-melanoma-en/cover-1400.webp",
+    "imageAlt": "Personalized neoantigen mRNA therapy workflow from tumor sequencing to manufacture and immune recognition, labeled as Phase 3 topline positive but not yet approved",
+    "sponsored": false,
+    "sponsorName": "",
+    "url": "articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html"
+  },
+  {
     "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
     "slug": "big-pharma-ai-arms-race-nvidia-bms-lilly-en",
     "date": "2026-08-20",
