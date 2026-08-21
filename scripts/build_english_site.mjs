@@ -571,6 +571,48 @@ function homePage(records) {
   });
 }
 
+function articlesIndexSchema(records) {
+  const url = `${BASE_URL}/en/articles/`;
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        name: "Drugnews English Articles",
+        url,
+        inLanguage: "en",
+        description: "Native-English Drugnews articles on biotech business analysis, clinical assets, pharmaceutical strategy, licensing, valuation, and capital markets.",
+        isPartOf: { "@type": "WebSite", name: ENGLISH_BRAND, url: `${BASE_URL}/en/` },
+        publisher: { "@type": "Organization", name: "Drugnews", url: `${BASE_URL}/` },
+        mainEntity: { "@id": `${url}#item-list` }
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${url}#item-list`,
+        name: "Drugnews English Articles",
+        numberOfItems: records.length,
+        itemListOrder: "https://schema.org/ItemListOrderDescending",
+        itemListElement: records.slice(0, 30).map((record, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          url: `${BASE_URL}/${record.url}`,
+          name: record.title,
+          description: record.summary || undefined,
+          image: record.image ? `${BASE_URL}/${String(record.image).replace(/^\.\.\//, "")}` : undefined
+        }))
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: `${BASE_URL}/en/` },
+          { "@type": "ListItem", position: 2, name: "Articles", item: url }
+        ]
+      }
+    ]
+  };
+  return `<script type="application/ld+json">${JSON.stringify(schema)}</script>`;
+}
+
 function articlesPage(records) {
   const english = records.filter((item) => item.lang === "en");
   const cards = english.map((item) => articleCard(item, 2)).join("");
@@ -580,6 +622,7 @@ function articlesPage(records) {
     canonicalPath: "en/articles/",
     current: "articles",
     depth: 2,
+    extraHead: articlesIndexSchema(english),
     main: `<main>
   <section class="page-title"><div class="container"><p class="eyebrow">English Edition</p><h1>English Articles</h1><p>Native-English Drugnews analysis for global biotech, pharma, investor-relations, and capital-market readers.</p></div></section>
   <section class="section"><div class="container article-list">${cards || '<p class="notice">No English articles have been published yet.</p>'}</div></section>

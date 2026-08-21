@@ -1877,6 +1877,9 @@ function articleIndexPage(records) {
   <title>Drugnews｜文章中心</title>
   <meta name="description" content="${escapeHtml(pageDescription)}">
   <link rel="canonical" href="${BASE_URL}/articles/">
+  <link rel="alternate" hreflang="zh-Hant" href="${BASE_URL}/articles/">
+  <link rel="alternate" hreflang="en" href="${BASE_URL}/en/articles/">
+  <link rel="alternate" hreflang="x-default" href="${BASE_URL}/articles/">
   <link rel="icon" href="../favicon.svg">
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
