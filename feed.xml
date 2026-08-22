@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 21 Aug 2026 02:43:46 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 03:49:30 GMT</lastBuildDate>
+    <item>
+      <title>百濟神州一口氣押上 4 款 RAS 新藥</title>
+      <link>https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/revolution-medicines-beone-four-ras-programs/cover-1400.webp" alt="百濟神州押上四款 RAS 新藥的臨床合作與區域權利分析"></p><p>百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。</p>]]></description>
+    </item>
     <item>
       <title>再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%</title>
       <link>https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability/cover-zh.webp" alt="從前驅樣到終末耗竭的 T 細胞，連結 PD-1 阻斷、CAR-T 與 TCE 三種免疫治療"></p><p>PD-1、CAR-T 與 TCE 最後都仰賴可增殖、可補充且能持久的 T 細胞戰力。本文從耗竭分化、產品工程與臨床資料，拆解免疫治療下半場的真正競爭門檻。</p>]]></description>
-    </item>
-    <item>
-      <title>半年千億，買的是時間</title>
-      <link>https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/h1-2026-biopharma-ma-buying-time/cover-zh.webp" alt="專利時鐘、臨床管線與大型藥廠收購橋樑構成 2026 上半年生技併購主視覺"></p><p>2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。</p>]]></description>
     </item>
   </channel>
 </rss>

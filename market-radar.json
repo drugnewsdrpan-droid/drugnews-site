@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-21T02:43:45.987Z",
+  "generated_at": "2026-08-22T03:49:29.986Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -118,8 +118,46 @@
   "buckets": [
     {
       "name": "腫瘤精準治療",
-      "count": 5,
+      "count": 7,
       "articles": [
+        {
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "BeOne Medicines",
+            "Revolution Medicines",
+            "RAS(ON)",
+            "daraxonrasib",
+            "zoldonrasib",
+            "BGB-58067",
+            "BG-T187",
+            "biotech licensing"
+          ],
+          "summary": "BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most."
+        },
+        {
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "BeOne Medicines",
+            "百濟神州",
+            "Revolution Medicines",
+            "RAS(ON)",
+            "daraxonrasib",
+            "zoldonrasib",
+            "BGB-58067",
+            "BG-T187"
+          ],
+          "summary": "百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。"
+        },
         {
           "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
           "date": "2026-08-21",
@@ -597,7 +635,7 @@
     },
     {
       "name": "BD / 授權與併購",
-      "count": 4,
+      "count": 2,
       "articles": [
         {
           "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
@@ -636,44 +674,6 @@
             "GSK"
           ],
           "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff."
-        },
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "生技併購",
-            "藥廠併購",
-            "Biopharma M&A",
-            "專利懸崖",
-            "Lilly",
-            "Merck",
-            "AbbVie",
-            "Gilead"
-          ],
-          "summary": "2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "biopharma M&A",
-            "Big Pharma",
-            "patent cliff",
-            "loss of exclusivity",
-            "Lilly",
-            "Merck",
-            "AbbVie",
-            "Gilead"
-          ],
-          "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time."
         }
       ]
     },

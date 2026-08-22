@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-22｜BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality
+  URL: https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html
+  Topics: BeOne Medicines, Revolution Medicines, RAS(ON), daraxonrasib, zoldonrasib
+  Summary: BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most.
+- 2026-08-22｜百濟神州一口氣押上 4 款 RAS 新藥
+  URL: https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html
+  Topics: BeOne Medicines, 百濟神州, Revolution Medicines, RAS(ON), daraxonrasib
+  Summary: 百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。
 - 2026-08-21｜Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test
   URL: https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html
   Topics: Moderna, Merck, intismeran autogene, INTerpath-001, personalized cancer vaccine
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html
   Topics: 肥胖症, 減重藥, GLP-1, Pfizer, Roche
   Summary: Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。
-- 2026-08-15｜GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall
-  URL: https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html
-  Topics: Business Analysis, GSK, camlipixant, P2X3, refractory chronic cough
-  Summary: After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together.
-- 2026-08-15｜GSK 砸 20 億美元買止咳新藥，三期卻翻車！
-  URL: https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html
-  Topics: GSK, camlipixant, P2X3, 慢性咳嗽, CALM-1
-  Summary: GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。
 
 ## Key Site Sections
 

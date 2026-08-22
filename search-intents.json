@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-21T02:43:46.316Z",
+  "generated_at": "2026-08-22T03:49:30.042Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+      "date": "2026-08-22",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+      "category": "商業分析",
+      "tags": [
+        "BeOne Medicines",
+        "Revolution Medicines",
+        "RAS(ON)",
+        "daraxonrasib",
+        "zoldonrasib",
+        "BGB-58067",
+        "BG-T187",
+        "biotech licensing"
+      ],
+      "summary": "BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most."
+    },
+    {
+      "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+      "date": "2026-08-22",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+      "category": "商業分析",
+      "tags": [
+        "BeOne Medicines",
+        "百濟神州",
+        "Revolution Medicines",
+        "RAS(ON)",
+        "daraxonrasib",
+        "zoldonrasib",
+        "BGB-58067",
+        "BG-T187"
+      ],
+      "summary": "百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。"
+    },
     {
       "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
       "date": "2026-08-21",
@@ -776,42 +812,6 @@
         "台灣生技"
       ],
       "summary": "Chidamide以pMMR大腸癌44% ORR與黑色素瘤第三期PFS達標，重新降低HDAC抑制劑的類別風險；安邦ABT-301接下來必須用治療窗口、三聯可組合性與人體免疫機轉，證明資產差異。"
-    },
-    {
-      "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-      "date": "2026-08-10",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-      "category": "商業分析",
-      "tags": [
-        "生技併購",
-        "藥廠併購",
-        "專利懸崖",
-        "Eli Lilly",
-        "Merck",
-        "AbbVie",
-        "Gilead",
-        "GSK"
-      ],
-      "summary": "2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。"
-    },
-    {
-      "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-      "date": "2026-08-10",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
-      "category": "商業分析",
-      "tags": [
-        "biopharma M&A",
-        "pharma acquisitions",
-        "patent cliff",
-        "Eli Lilly",
-        "Merck",
-        "AbbVie",
-        "Gilead",
-        "GSK"
-      ],
-      "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff."
     }
   ],
   "do_not_use_as": [

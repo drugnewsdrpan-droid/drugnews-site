@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-21T02:43:46.319Z",
+  "generated_at": "2026-08-22T03:49:30.043Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,54 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+      "date": "2026-08-22",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "BeOne Medicines",
+        "Revolution Medicines",
+        "RAS(ON)",
+        "daraxonrasib",
+        "zoldonrasib",
+        "BGB-58067",
+        "BG-T187",
+        "biotech licensing",
+        "oncology",
+        "drug development"
+      ],
+      "summary": "BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-22-revolution-medicines-beone-four-ras-programs.html"
+      }
+    },
+    {
+      "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+      "date": "2026-08-22",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "BeOne Medicines",
+        "百濟神州",
+        "Revolution Medicines",
+        "RAS(ON)",
+        "daraxonrasib",
+        "zoldonrasib",
+        "BGB-58067",
+        "BG-T187",
+        "BD 授權",
+        "腫瘤"
+      ],
+      "summary": "百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。",
+      "alternate_language_versions": {
+        "en": "2026-08-22-revolution-medicines-beone-four-ras-programs-en.html"
+      }
+    },
     {
       "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
       "date": "2026-08-21",
@@ -762,61 +810,13 @@
       "alternate_language_versions": {
         "en": "2026-08-08-biotech-independence-not-selling-en.html"
       }
-    },
-    {
-      "title": "22 億美元，買下一個自體免疫藥王？",
-      "date": "2026-08-07",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "argenx",
-        "Forte Biosciences",
-        "FB102",
-        "VYVGART",
-        "CD122",
-        "自體免疫",
-        "白斑",
-        "乳糜瀉",
-        "健喬",
-        "安立璽榮"
-      ],
-      "summary": "argenx 擬以 22 億美元現金收購 Forte，把早期抗 CD122 抗體 FB102 納入管線。真正的考題不是一組一期 p 值，而是 VYVGART 的單品成功能否被複製成可重複的公司能力。",
-      "alternate_language_versions": {
-        "en": "2026-08-07-argenx-forte-fb102-acquisition-en.html"
-      }
-    },
-    {
-      "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
-      "date": "2026-08-07",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "argenx",
-        "Forte Biosciences",
-        "FB102",
-        "VYVGART",
-        "CD122",
-        "autoimmune disease",
-        "vitiligo",
-        "celiac disease",
-        "biotech M&A",
-        "Taiwan biotech"
-      ],
-      "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-07-argenx-forte-fb102-acquisition.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 28,
+      "mentions": 27,
       "latest_date": "2026-08-08",
       "latest_articles": [
         {
@@ -892,7 +892,7 @@
     {
       "name": "臨床數據",
       "type": "market_topic",
-      "mentions": 25,
+      "mentions": 24,
       "latest_date": "2026-08-03",
       "latest_articles": [
         {
@@ -930,9 +930,15 @@
     {
       "name": "drug development",
       "type": "topic",
-      "mentions": 19,
-      "latest_date": "2026-08-20",
+      "mentions": 20,
+      "latest_date": "2026-08-22",
       "latest_articles": [
+        {
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "language": "en"
+        },
         {
           "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
           "date": "2026-08-20",
@@ -955,12 +961,6 @@
           "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
           "date": "2026-08-03",
           "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
           "language": "en"
         }
       ]
@@ -1080,44 +1080,6 @@
       ]
     },
     {
-      "name": "GLP-1",
-      "type": "biotech_concept_or_target",
-      "mentions": 14,
-      "latest_date": "2026-08-18",
-      "latest_articles": [
-        {
-          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "biotech business analysis",
       "type": "topic",
       "mentions": 13,
@@ -1228,6 +1190,44 @@
           "date": "2026-07-05",
           "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "GLP-1",
+      "type": "biotech_concept_or_target",
+      "mentions": 12,
+      "latest_date": "2026-08-18",
+      "latest_articles": [
+        {
+          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
+          "language": "en"
+        },
+        {
+          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1346,6 +1346,44 @@
       ]
     },
     {
+      "name": "Revolution Medicines",
+      "type": "company",
+      "mentions": 9,
+      "latest_date": "2026-08-22",
+      "latest_articles": [
+        {
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Why These Four Biotechs Can Afford Not to Sell",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+          "language": "en"
+        },
+        {
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Merck",
       "type": "company",
       "mentions": 9,
@@ -1418,6 +1456,44 @@
           "date": "2026-07-16",
           "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "oncology",
+      "type": "topic",
+      "mentions": 8,
+      "latest_date": "2026-08-22",
+      "latest_articles": [
+        {
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "language": "en"
+        },
+        {
+          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
+          "date": "2026-08-04",
+          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
+          "language": "en"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1574,44 +1650,6 @@
       ]
     },
     {
-      "name": "Revolution Medicines",
-      "type": "company",
-      "mentions": 7,
-      "latest_date": "2026-08-08",
-      "latest_articles": [
-        {
-          "title": "Why These Four Biotechs Can Afford Not to Sell",
-          "date": "2026-08-08",
-          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
-          "language": "en"
-        },
-        {
-          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
-          "date": "2026-08-08",
-          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "ADC",
       "type": "biotech_concept_or_target",
       "mentions": 7,
@@ -1646,44 +1684,6 @@
           "date": "2026-07-14",
           "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "oncology",
-      "type": "topic",
-      "mentions": 7,
-      "latest_date": "2026-08-04",
-      "latest_articles": [
-        {
-          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
-          "language": "en"
-        },
-        {
-          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-          "date": "2026-07-30",
-          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Winning First Is Not Winning: Roche's Divarasib Pushes KRAS Into a Generational Elimination Race",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
-          "language": "en"
         }
       ]
     },
@@ -1874,6 +1874,82 @@
           "date": "2026-07-14",
           "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "腫瘤",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-08-22",
+      "latest_articles": [
+        {
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "安邦生技：免疫治療的「星鏈計畫」",
+          "date": "2026-07-31",
+          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "BD 授權",
+      "type": "market_topic",
+      "mentions": 5,
+      "latest_date": "2026-08-22",
+      "latest_articles": [
+        {
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2144,6 +2220,70 @@
       ]
     },
     {
+      "name": "daraxonrasib",
+      "type": "biotech_concept_or_target",
+      "mentions": 4,
+      "latest_date": "2026-08-22",
+      "latest_articles": [
+        {
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
+          "date": "2026-07-03",
+          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "RAS(ON)",
+      "type": "biotech_concept_or_target",
+      "mentions": 4,
+      "latest_date": "2026-08-22",
+      "latest_articles": [
+        {
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "AI drug discovery",
       "type": "topic",
       "mentions": 4,
@@ -2204,70 +2344,6 @@
           "date": "2026-08-09",
           "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Pfizer",
-      "type": "company",
-      "mentions": 4,
-      "latest_date": "2026-08-16",
-      "latest_articles": [
-        {
-          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Novo Nordisk",
-      "type": "company",
-      "mentions": 4,
-      "latest_date": "2026-08-13",
-      "latest_articles": [
-        {
-          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
-          "language": "en"
-        },
-        {
-          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Ecnoglutide Versus Wegovy: A 20-Week Head-to-Head Signal Is Not the Same as a New GLP-1 King",
-          "date": "2026-06-17",
-          "url": "https://drugnews.com.tw/articles/2026-06-17-glp1-head-to-head-ecnoglutide-wegovy-en.html",
-          "language": "en"
         }
       ]
     },
@@ -2528,38 +2604,6 @@
       ]
     },
     {
-      "name": "腫瘤",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-07-31",
-      "latest_articles": [
-        {
-          "title": "安邦生技：免疫治療的「星鏈計畫」",
-          "date": "2026-07-31",
-          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
-          "date": "2026-07-30",
-          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Nuvalent",
       "type": "topic",
       "mentions": 4,
@@ -2588,38 +2632,6 @@
           "date": "2026-06-19",
           "url": "https://drugnews.com.tw/articles/2026-06-19-gsk-nuvalent-lung-cancer-resistance-brain-metastasis-en.html",
           "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "BD 授權",
-      "type": "market_topic",
-      "mentions": 4,
-      "latest_date": "2026-07-25",
-      "latest_articles": [
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "聯手巨頭卡位 MASH：Madrigal 把 Rezdiffra 做成基石藥，小核酸開始接棒",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -2715,6 +2727,32 @@
           "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
           "date": "2026-06-20",
           "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "zoldonrasib",
+      "type": "biotech_concept_or_target",
+      "mentions": 3,
+      "latest_date": "2026-08-22",
+      "latest_articles": [
+        {
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
           "language": "en"
         }
       ]
@@ -2928,6 +2966,32 @@
       ]
     },
     {
+      "name": "Pfizer",
+      "type": "company",
+      "mentions": 3,
+      "latest_date": "2026-08-16",
+      "latest_articles": [
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "biopharma M&A",
       "type": "topic",
       "mentions": 3,
@@ -2949,6 +3013,32 @@
           "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
           "date": "2026-07-27",
           "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Novo Nordisk",
+      "type": "company",
+      "mentions": 3,
+      "latest_date": "2026-08-13",
+      "latest_articles": [
+        {
+          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
+          "language": "en"
+        },
+        {
+          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
           "language": "en"
         }
       ]
@@ -3318,87 +3408,65 @@
       ]
     },
     {
-      "name": "黑色素瘤",
+      "name": "BeOne Medicines",
       "type": "topic",
       "mentions": 2,
-      "latest_date": "2026-08-21",
+      "latest_date": "2026-08-22",
       "latest_articles": [
         {
-          "title": "再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%",
-          "date": "2026-08-21",
-          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "營收跳增 39%，還是虧了 4,700 萬美元：癌症細胞療法翻身了？",
-          "date": "2026-08-17",
-          "url": "https://drugnews.com.tw/articles/2026-08-17-iovance-amtagvi-til-commercialization.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "臨床三期",
-      "type": "market_topic",
-      "mentions": 2,
-      "latest_date": "2026-08-21",
-      "latest_articles": [
-        {
-          "title": "再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%",
-          "date": "2026-08-21",
-          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
-          "date": "2026-08-15",
-          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "INTerpath-001",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-21",
-      "latest_articles": [
-        {
-          "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
-          "date": "2026-08-21",
-          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
           "language": "en"
         },
         {
-          "title": "再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%",
-          "date": "2026-08-21",
-          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "intismeran autogene",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-21",
-      "latest_articles": [
-        {
-          "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
-          "date": "2026-08-21",
-          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%",
-          "date": "2026-08-21",
-          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html",
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
           "language": "zh-Hant"
         }
       ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+      "date": "2026-08-22",
+      "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "BeOne Medicines",
+        "Revolution Medicines",
+        "RAS(ON)",
+        "daraxonrasib",
+        "zoldonrasib",
+        "BGB-58067",
+        "BG-T187",
+        "biotech licensing"
+      ],
+      "summary": "BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most."
+    },
+    {
+      "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+      "date": "2026-08-22",
+      "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "BeOne Medicines",
+        "百濟神州",
+        "Revolution Medicines",
+        "RAS(ON)",
+        "daraxonrasib",
+        "zoldonrasib",
+        "BGB-58067",
+        "BG-T187"
+      ],
+      "summary": "百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。"
+    },
     {
       "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
       "date": "2026-08-21",
@@ -3929,44 +3997,6 @@
         "Taiwan biotech"
       ],
       "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy."
-    },
-    {
-      "title": "半年千億，買的是時間",
-      "date": "2026-07-27",
-      "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "生技併購",
-        "藥廠併購",
-        "Biopharma M&A",
-        "專利懸崖",
-        "Lilly",
-        "Merck",
-        "AbbVie",
-        "Gilead"
-      ],
-      "summary": "2026 上半年生醫併購轉熱，但 BioSpace 的 52 筆與 IQVIA 的 42 筆不能硬拼。真正的主線，是專利懸崖迫使大藥廠用現金購買可計算的臨床時間。"
-    },
-    {
-      "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-      "date": "2026-07-27",
-      "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "biopharma M&A",
-        "Big Pharma",
-        "patent cliff",
-        "loss of exclusivity",
-        "Lilly",
-        "Merck",
-        "AbbVie",
-        "Gilead"
-      ],
-      "summary": "Biopharma M&A accelerated in the first half of 2026, but BioSpace's 52 deals and IQVIA's 42 deals cannot be combined. The deeper story is that patent cliffs are pushing Big Pharma to pay for measurable clinical time."
     }
   ]
 }

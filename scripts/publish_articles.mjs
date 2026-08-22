@@ -1157,7 +1157,7 @@ function headerHtml(current, meta = {}) {
         guides: "Guides",
         team: "Team",
         services: "Services",
-        language: "中文"
+        language: meta.language_label || "中文"
       }
     : {
         home: "首頁",
