@@ -74,11 +74,11 @@ async function main() {
 
   const mobileArticleOk =
     /@media\s*\(max-width:\s*520px\)[\s\S]*?\.article-hero\s*{[\s\S]*?padding:\s*10px 0 8px;/m.test(styles) &&
-    /@media\s*\(max-width:\s*520px\)[\s\S]*?\.article-deck\s*{[\s\S]*?-webkit-line-clamp:\s*1;/m.test(styles) &&
+    /@media\s*\(max-width:\s*520px\)[\s\S]*?\.article-deck\s*{[\s\S]*?display:\s*block;[\s\S]*?overflow:\s*visible;[\s\S]*?-webkit-line-clamp:\s*unset;/m.test(styles) &&
     /@media\s*\(max-width:\s*520px\)[\s\S]*?\.article-byline\s*{[\s\S]*?display:\s*none;/m.test(styles);
   checks.push(mobileArticleOk
-    ? pass("mobile_article_first_screen", "手機文章標題區已壓縮，摘要一行、作者列隱藏。")
-    : warn("mobile_article_first_screen", "手機文章首屏壓縮樣式可能遺失。"));
+    ? pass("mobile_article_first_screen", "手機文章標題區已壓縮，摘要完整換行可見、作者列隱藏。")
+    : warn("mobile_article_first_screen", "手機文章摘要完整顯示樣式可能遺失。"));
 
   const sampleArticleFiles = articleFilesFromSearchIndex(records);
   const articleHtml = await Promise.all(sampleArticleFiles.map((file) => read(`articles/${file}`)));

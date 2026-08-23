@@ -3581,10 +3581,10 @@ body.article-image-dialog-open {
     display: inline;
   }
   .article-deck {
-    display: -webkit-box;
-    overflow: hidden;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
+    display: block;
+    overflow: visible;
+    -webkit-line-clamp: unset;
+    -webkit-box-orient: initial;
     margin-top: 8px;
     font-size: 0.88rem;
     line-height: 1.5;
