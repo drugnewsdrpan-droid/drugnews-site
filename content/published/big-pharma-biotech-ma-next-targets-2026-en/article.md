@@ -38,6 +38,8 @@ That creates two layers of value. First, Alkermes has a core OX2R asset in Phase
 
 If OX2R agonism can move from narcolepsy to idiopathic hypersomnia and eventually into larger indications such as ADHD, the proposition changes. It is no longer a single-product sleep-disorder story; it becomes a neuroscience platform. For a large pharmaceutical company, the pattern of beginning in a focused indication and expanding into larger markets can be especially attractive.
 
+![Figure 2 | Alkermes has advanced alixorexton into global Phase 3 while using orexin biology to explore a broader neuroscience platform](images/figure-02.png)
+
 ## 03 | After Avidity, Dyne is the most visible independent muscle-delivery platform
 
 Novartis' acquisition of Avidity naturally raises a follow-on question: which independent company now represents the next muscle-targeted oligonucleotide platform?
@@ -50,8 +52,6 @@ This is close to the timing window favored by strategic buyers. The product is n
 
 Dyne also extends beyond DMD. Its DM1 and FSHD programs matter because a buyer would not be purchasing only an exon-skipping drug. It would be acquiring a muscle-delivery platform. The approximately $12 billion Avidity transaction created a reference price and validated the strategic importance of that technology class. Dyne is therefore likely to be evaluated against a different benchmark than it was before that deal.
 
-![Figure 2 | Dyne's value extends beyond one DMD medicine to a muscle-targeted oligonucleotide delivery platform spanning DMD, DM1 and FSHD](images/figure-02.png)
-
 ## 04 | Once CD122 became transactible, First Tracks became harder to ignore
 
 Immunology has long been one of the areas where Big Pharma is most willing to spend. In the summer of 2026, CD122 suddenly became a transaction-backed mechanism.
@@ -63,6 +63,8 @@ First Tracks' ANB033 is an anti-CD122 antagonist directed at the shared beta sub
 The company has two additional immunology programs. Rosnilimab is designed to selectively deplete pathogenic T cells and has completed a Phase 2b trial in rheumatoid arthritis. ANB101 is an earlier program designed to modulate plasmacytoid dendritic cells through BDCA2.
 
 First Tracks belongs on an M&A watch list for a simple reason. If ANB033 establishes human proof of concept in a second independent indication, CD122 will no longer be a story supported by a single acquired company. It will begin to look like a competitive immunology platform with multiple strategic entry points.
+
+![Figure 3 | Following the Avidity and Forte transactions, Dyne's muscle-delivery platform and First Tracks' CD122 program are the two routes most exposed to repricing](images/figure-03.png)
 
 ## 05 | Legend Biotech is now worth more than Carvykti alone
 
@@ -77,8 +79,6 @@ LB2501 is an in vivo CD19/CD20 dual-targeting CAR-T candidate. Conventional auto
 Six patients are far too few to declare clinical success. That limitation must remain explicit. Yet the strategic signal is already visible: Legend combines an established CAR-T revenue stream with a potential next-generation platform that could move cell therapy from ex vivo manufacturing toward in vivo engineering.
 
 That pairing—mature revenue plus a next-generation platform—is precisely the type of structure that can draw large pharmaceutical interest.
-
-![Figure 3 | Legend, Sail and late-stage Taiwan assets show four routes into strategic value: commercial revenue, next-generation platforms, acquisition options and global regulatory pathways](images/figure-03.png)
 
 ## 06 | J&J has already secured an option on Sail
 
@@ -106,7 +106,7 @@ Pharmosa Biopharm and Lin BioScience are not direct comparators to Alkermes, Dyn
 
 Global buyers do not purchase attractive stories. They purchase assets that can be modeled, developed and integrated into a worldwide product portfolio.
 
-![Figure 4 | The M&A timing scorecard asks whether human proof of concept, indication expansion, buyer integration, regulatory distance and price tension have converged](images/figure-04.png)
+![Figure 4 | Legend, Sail, Pharmosa and Lin BioScience illustrate four acquisition languages: commercial revenue, next-generation platforms, option-based positioning and late-stage specialist assets](images/figure-04.png)
 
 ## Conclusion | The next major deal may happen where risk has just started to fall
 

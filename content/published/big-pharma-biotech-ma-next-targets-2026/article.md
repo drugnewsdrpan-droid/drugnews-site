@@ -38,7 +38,7 @@ Alkermes 的 alixorexton 是口服選擇性 OX2R agonist，目前已經在 narco
 
 若 OX2R 能從 narcolepsy 擴展到 idiopathic hypersomnia，再往 ADHD 等更大市場延伸，這就不再是單一產品故事，而是神經科學平台故事。對大型藥廠來說，這種「小適應症起步、大適應症外延」的結構很有吸引力。
 
-![圖 2｜Avidity 交易之後，Dyne 的價值不只是一款 DMD 藥，而是肌肉靶向寡核苷酸遞送平台](images/figure-02.png)
+![圖 2｜Alkermes 的 alixorexton 已進入全球 Phase 3，並從嗜睡症與特發性嗜睡症向更大的中樞神經市場延伸](images/figure-02.png)
 
 ## 03｜Avidity 之後，Dyne 成為肌肉靶向核酸藥物最醒目的獨立標的
 
@@ -62,7 +62,7 @@ First Tracks 還有 rosnilimab 和 ANB101。Rosnilimab 目標是選擇性清除 
 
 這類公司最適合被放進「下一筆可能交易」清單。原因很簡單：如果 ANB033 在第二個獨立適應症中建立人體概念驗證，CD122 就不再只是 Forte 一家公司的故事，而會變成一條可被多家公司競逐的免疫平台路線。
 
-![圖 3｜Legend、Sail 與台灣後期資產顯示，成熟收入、下一代平台、交易選擇權與國際法規路徑都可能成為買方入口](images/figure-03.png)
+![圖 3｜Avidity 與 Forte 交易後，Dyne 的肌肉靶向核酸遞送與 First Tracks 的 CD122 免疫調節成為下一波觀察重點](images/figure-03.png)
 
 ## 05｜Legend Biotech 的價值，已經不只 Carvykti
 
@@ -99,6 +99,8 @@ LB2501 是 in vivo CD19／CD20 dual-targeting CAR-T。傳統自體 CAR-T 需要�
 仁新子公司 Belite Bio 的 tinlarebant（LBS-008）瞄準 Stargardt disease 與 geographic atrophy。公司公告指出，Belite 已完成向 FDA 滾動提交 tinlarebant 治療 Stargardt disease 的 NDA；先前 DRAGON 試驗也已公布 positive topline data。這類罕見眼科疾病，具備患者需求明確、臨床路徑集中、國際藥證價值高的特徵。
 
 國邑和仁新不是 Alkermes、Dyne 或 Legend 的直接對標。但它們共同符合一個方向：不是靠題材熱度，而是靠專科疾病、後期資料、法規路徑與國際合作來建立價值。這才是台灣公司最值得學的地方。國際買方要的不是漂亮故事，而是能被放進全球產品組合裡計算的資產。
+
+![圖 4｜Legend、Sail 與台灣國邑、仁新的案例，呈現成熟收入、下一代平台、提前卡位與後期專科資產的不同交易語言](images/figure-04.png)
 
 ## 結語｜下一筆重磅併購，會落在「風險剛下降」的公司身上
 
