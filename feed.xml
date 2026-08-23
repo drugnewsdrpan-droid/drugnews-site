@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 22 Aug 2026 03:49:30 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 05:33:21 GMT</lastBuildDate>
+    <item>
+      <title>Biotech 下一筆重磅併購，會落在誰身上？</title>
+      <link>https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html</guid>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/big-pharma-biotech-ma-next-targets-2026/cover-1400.webp" alt="Alkermes、Dyne、First Tracks、Legend 與 Sail 的生技併購候選邏輯"></p><p>2026 年的生技併購資金，正集中到臨床風險開始下降、商業價值尚未完全定價的公司。從 Alkermes、Dyne、First Tracks、Legend 到 Sail，再回看國邑與仁新，真正值得追的是人體概念驗證、平台外延、商業化距離與買方策略契合度。</p>]]></description>
+    </item>
     <item>
       <title>百濟神州一口氣押上 4 款 RAS 新藥</title>
       <link>https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/cover.png" alt="Lp(a) 粒子、心血管事件與問號橋樑構成 HORIZON 臨床結果尚待驗證的科學主視覺"></p><p>Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。</p>]]></description>
-    </item>
-    <item>
-      <title>T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後</title>
-      <link>https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability/cover-zh.webp" alt="從前驅樣到終末耗竭的 T 細胞，連結 PD-1 阻斷、CAR-T 與 TCE 三種免疫治療"></p><p>PD-1、CAR-T 與 TCE 最後都仰賴可增殖、可補充且能持久的 T 細胞戰力。本文從耗竭分化、產品工程與臨床資料，拆解免疫治療下半場的真正競爭門檻。</p>]]></description>
     </item>
   </channel>
 </rss>

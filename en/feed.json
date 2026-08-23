@@ -7,6 +7,46 @@
   "language": "en",
   "items": [
     {
+      "id": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html",
+      "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
+      "content_text": "Biopharma acquisition capital in 2026 is clustering around a narrow window: human risk has started to fall, but strategic value is not yet fully priced. Alkermes, Dyne, First Tracks, Legend and Sail illustrate five ways a biotech can enter that window, while Taiwan's Pharmosa Biopharm and Belite Bio show how late-stage assets can speak the same global language.",
+      "date_published": "2026-08-23T08:00:00+08:00",
+      "date_modified": "2026-08-23T08:00:00+08:00",
+      "tags": [
+        "biotech M&A",
+        "Big Pharma",
+        "Alkermes",
+        "Dyne Therapeutics",
+        "First Tracks Biotherapeutics",
+        "Legend Biotech",
+        "Sail Biomedicines",
+        "Pharmosa Biopharm",
+        "Belite Bio",
+        "BD licensing"
+      ]
+    },
+    {
+      "id": "https://drugnews.com.tw/articles/2026-08-23-biotech-next-blockbuster-ma-targets-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-08-23-biotech-next-blockbuster-ma-targets-en.html",
+      "title": "Where Will the Next Blockbuster Biotech Acquisition Land?",
+      "content_text": "The next blockbuster biotech deal is unlikely to reward hype alone. Big Pharma is concentrating capital on assets whose clinical risk has begun to fall, whose platforms can still expand, and whose commercial value has not yet been fully priced.",
+      "date_published": "2026-08-23T08:00:00+08:00",
+      "date_modified": "2026-08-23T08:00:00+08:00",
+      "tags": [
+        "biotech M&A",
+        "Big Pharma",
+        "Alkermes",
+        "Dyne Therapeutics",
+        "First Tracks Biotherapeutics",
+        "Legend Biotech",
+        "Sail Biomedicines",
+        "Pharmosa Biopharm",
+        "Belite Bio",
+        "biotech licensing"
+      ]
+    },
+    {
       "id": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
       "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
       "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",

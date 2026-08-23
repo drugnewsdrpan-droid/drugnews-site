@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23T00:00:00.000Z</news:publication_date>
+      <news:title>Who Could Be Big Pharma&apos;s Next Major Biotech Acquisition?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23T00:00:00.000Z</news:publication_date>
+      <news:title>Biotech 下一筆重磅併購，會落在誰身上？</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html</loc>
     <news:news>
       <news:publication>
@@ -20,28 +42,6 @@
       </news:publication>
       <news:publication_date>2026-08-22T00:00:00.000Z</news:publication_date>
       <news:title>百濟神州一口氣押上 4 款 RAS 新藥</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-21T00:00:00.000Z</news:publication_date>
-      <news:title>Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-21T00:00:00.000Z</news:publication_date>
-      <news:title>再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%</news:title>
     </news:news>
   </url>
 </urlset>

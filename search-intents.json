@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-22T03:49:30.042Z",
+  "generated_at": "2026-08-23T05:33:21.475Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
+      "date": "2026-08-23",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html",
+      "category": "商業分析",
+      "tags": [
+        "biotech M&A",
+        "Big Pharma",
+        "Alkermes",
+        "Dyne Therapeutics",
+        "First Tracks Biotherapeutics",
+        "Legend Biotech",
+        "Sail Biomedicines",
+        "Pharmosa Biopharm"
+      ],
+      "summary": "Biopharma acquisition capital in 2026 is clustering around a narrow window: human risk has started to fall, but strategic value is not yet fully priced. Alkermes, Dyne, First Tracks, Legend and Sail illustrate five ways a biotech can enter that window, while Taiwan's Pharmosa Biopharm and Belite Bio show how late-stage assets can speak the same global language."
+    },
+    {
+      "title": "Biotech 下一筆重磅併購，會落在誰身上？",
+      "date": "2026-08-23",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html",
+      "category": "商業分析",
+      "tags": [
+        "生技併購",
+        "Big Pharma",
+        "Alkermes",
+        "Dyne Therapeutics",
+        "First Tracks Biotherapeutics",
+        "Legend Biotech",
+        "Sail Biomedicines",
+        "國邑"
+      ],
+      "summary": "2026 年的生技併購資金，正集中到臨床風險開始下降、商業價值尚未完全定價的公司。從 Alkermes、Dyne、First Tracks、Legend 到 Sail，再回看國邑與仁新，真正值得追的是人體概念驗證、平台外延、商業化距離與買方策略契合度。"
+    },
     {
       "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
       "date": "2026-08-22",
@@ -776,42 +812,6 @@
         "多體學"
       ],
       "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。"
-    },
-    {
-      "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
-      "date": "2026-08-11",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
-      "category": "商業分析",
-      "tags": [
-        "AnBogen Therapeutics",
-        "ABT-301",
-        "imofinostat",
-        "HDAC inhibitor",
-        "Chidamide",
-        "pMMR colorectal cancer",
-        "cancer immunotherapy",
-        "Taiwan biotech"
-      ],
-      "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone."
-    },
-    {
-      "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
-      "date": "2026-08-11",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
-      "category": "商業分析",
-      "tags": [
-        "安邦生技",
-        "ABT-301",
-        "imofinostat",
-        "HDAC抑制劑",
-        "Chidamide",
-        "pMMR大腸直腸癌",
-        "癌症免疫治療",
-        "台灣生技"
-      ],
-      "summary": "Chidamide以pMMR大腸癌44% ORR與黑色素瘤第三期PFS達標，重新降低HDAC抑制劑的類別風險；安邦ABT-301接下來必須用治療窗口、三聯可組合性與人體免疫機轉，證明資產差異。"
     }
   ],
   "do_not_use_as": [

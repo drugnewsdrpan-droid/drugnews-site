@@ -209,6 +209,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
+      "date": "2026-08-23",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "biotech M&A",
+        "Big Pharma",
+        "Alkermes",
+        "Dyne Therapeutics",
+        "First Tracks Biotherapeutics",
+        "Legend Biotech",
+        "Sail Biomedicines",
+        "Pharmosa Biopharm",
+        "Belite Bio",
+        "BD licensing"
+      ],
+      "summary": "Biopharma acquisition capital in 2026 is clustering around a narrow window: human risk has started to fall, but strategic value is not yet fully priced. Alkermes, Dyne, First Tracks, Legend and Sail illustrate five ways a biotech can enter that window, while Taiwan's Pharmosa Biopharm and Belite Bio show how late-stage assets can speak the same global language.",
+      "image": "https://drugnews.com.tw/assets/articles/big-pharma-biotech-ma-next-targets-2026-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-23-big-pharma-biotech-ma-next-targets-2026.html"
+      }
+    },
+    {
+      "title": "Biotech 下一筆重磅併購，會落在誰身上？",
+      "date": "2026-08-23",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "生技併購",
+        "Big Pharma",
+        "Alkermes",
+        "Dyne Therapeutics",
+        "First Tracks Biotherapeutics",
+        "Legend Biotech",
+        "Sail Biomedicines",
+        "國邑",
+        "仁新",
+        "BD 授權"
+      ],
+      "summary": "2026 年的生技併購資金，正集中到臨床風險開始下降、商業價值尚未完全定價的公司。從 Alkermes、Dyne、First Tracks、Legend 到 Sail，再回看國邑與仁新，真正值得追的是人體概念驗證、平台外延、商業化距離與買方策略契合度。",
+      "image": "https://drugnews.com.tw/assets/articles/big-pharma-biotech-ma-next-targets-2026/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html"
+      }
+    },
+    {
       "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
       "date": "2026-08-22",
       "language": "en",
@@ -1547,64 +1605,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-07-19-pelacarsen-lpa-horizon-en.html"
-      }
-    },
-    {
-      "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-      "date": "2026-07-28",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "T-cell exhaustion",
-        "immunotherapy",
-        "PD-1 blockade",
-        "CAR-T",
-        "T-cell engager",
-        "bispecific antibody",
-        "TCF1",
-        "Taiwan biotech",
-        "Shine-On Biomedical",
-        "Ever Supreme"
-      ],
-      "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy.",
-      "image": "https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability-en/cover-en.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-28-t-cell-exhaustion-immunotherapy-durability.html"
-      }
-    },
-    {
-      "title": "T 細胞耗竭卡住 PD-1、CAR-T 與 TCE：免疫治療下半場，拼的是誰能撐到最後",
-      "date": "2026-07-28",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "T 細胞耗竭",
-        "免疫治療",
-        "PD-1",
-        "CAR-T",
-        "TCE",
-        "雙特異性抗體",
-        "TCF1",
-        "聖安生醫",
-        "長聖",
-        "沛爾生醫"
-      ],
-      "summary": "PD-1、CAR-T 與 TCE 最後都仰賴可增殖、可補充且能持久的 T 細胞戰力。本文從耗竭分化、產品工程與臨床資料，拆解免疫治療下半場的真正競爭門檻。",
-      "image": "https://drugnews.com.tw/assets/articles/t-cell-exhaustion-immunotherapy-durability/cover-zh.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html"
       }
     }
   ]

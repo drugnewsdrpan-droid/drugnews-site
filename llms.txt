@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-23｜Who Could Be Big Pharma's Next Major Biotech Acquisition?
+  URL: https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html
+  Topics: biotech M&A, Big Pharma, Alkermes, Dyne Therapeutics, First Tracks Biotherapeutics
+  Summary: Biopharma acquisition capital in 2026 is clustering around a narrow window: human risk has started to fall, but strategic value is not yet fully priced. Alkermes, Dyne, First Tracks, Legend and Sail illustrate five ways a biotech can enter that window, while Taiwan's Pharmosa Biopharm and Belite Bio show how late-stage assets can speak the same global language.
+- 2026-08-23｜Biotech 下一筆重磅併購，會落在誰身上？
+  URL: https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html
+  Topics: 生技併購, Big Pharma, Alkermes, Dyne Therapeutics, First Tracks Biotherapeutics
+  Summary: 2026 年的生技併購資金，正集中到臨床風險開始下降、商業價值尚未完全定價的公司。從 Alkermes、Dyne、First Tracks、Legend 到 Sail，再回看國邑與仁新，真正值得追的是人體概念驗證、平台外延、商業化距離與買方策略契合度。
 - 2026-08-22｜BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality
   URL: https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html
   Topics: BeOne Medicines, Revolution Medicines, RAS(ON), daraxonrasib, zoldonrasib
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-17-iovance-amtagvi-til-commercialization.html
   Topics: Iovance, Amtagvi, TIL, 癌症細胞療法, 黑色素瘤
   Summary: Iovance 的 Amtagvi 第二季營收明顯反彈，但真正要驗證的不是 TIL 是否有療效，而是個人化細胞療法能否被做成可複製、可支付、可放大的醫療服務。
-- 2026-08-16｜Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?
-  URL: https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html
-  Topics: Business Analysis, obesity, weight-loss drugs, GLP-1, Pfizer
-  Summary: Pfizer, Roche and Amgen are pruning obesity programs that lack clear differentiation. The GLP-1 market has moved from a race to enter the clinic to a contest across efficacy, safety, convenience and commercial execution.
-- 2026-08-16｜百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？
-  URL: https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html
-  Topics: 肥胖症, 減重藥, GLP-1, Pfizer, Roche
-  Summary: Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。
 
 ## Key Site Sections
 

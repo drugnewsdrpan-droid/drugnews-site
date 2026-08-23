@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-22T03:49:29.986Z",
+  "generated_at": "2026-08-23T05:33:21.429Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -117,148 +117,47 @@
   },
   "buckets": [
     {
-      "name": "腫瘤精準治療",
-      "count": 7,
-      "articles": [
-        {
-          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
-          "date": "2026-08-22",
-          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "BeOne Medicines",
-            "Revolution Medicines",
-            "RAS(ON)",
-            "daraxonrasib",
-            "zoldonrasib",
-            "BGB-58067",
-            "BG-T187",
-            "biotech licensing"
-          ],
-          "summary": "BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most."
-        },
-        {
-          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
-          "date": "2026-08-22",
-          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "BeOne Medicines",
-            "百濟神州",
-            "Revolution Medicines",
-            "RAS(ON)",
-            "daraxonrasib",
-            "zoldonrasib",
-            "BGB-58067",
-            "BG-T187"
-          ],
-          "summary": "百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。"
-        },
-        {
-          "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
-          "date": "2026-08-21",
-          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Moderna",
-            "Merck",
-            "intismeran autogene",
-            "INTerpath-001",
-            "personalized cancer vaccine",
-            "melanoma",
-            "mRNA manufacturing",
-            "Phase 3"
-          ],
-          "summary": "Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform."
-        },
-        {
-          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "AI drug discovery",
-            "NVIDIA",
-            "Bristol Myers Squibb",
-            "Eli Lilly",
-            "Roche",
-            "drug development",
-            "GPU infrastructure",
-            "Taiwan semiconductor supply chain"
-          ],
-          "summary": "BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop."
-        },
-        {
-          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
-          "date": "2026-08-11",
-          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "AnBogen Therapeutics",
-            "ABT-301",
-            "imofinostat",
-            "HDAC inhibitor",
-            "Chidamide",
-            "pMMR colorectal cancer",
-            "cancer immunotherapy",
-            "Taiwan biotech"
-          ],
-          "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone."
-        },
-        {
-          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "AstraZeneca",
-            "阿斯特捷利康",
-            "Bristol Myers Squibb",
-            "BMS",
-            "百時美施貴寶",
-            "生技併購",
-            "大藥廠",
-            "專利懸崖"
-          ],
-          "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。"
-        },
-        {
-          "title": "AnBogen Therapeutics: Building a “Starlink” for Cancer Immunotherapy",
-          "date": "2026-07-31",
-          "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "AnBogen Therapeutics",
-            "ABT-301",
-            "Cancer Immunotherapy",
-            "PD-1",
-            "Metastatic Colorectal Cancer",
-            "HDAC",
-            "Taiwan Biotech",
-            "Oncology"
-          ],
-          "summary": "Can a small molecule from Taiwan extend the $30 billion PD-1 ecosystem into the 95% of metastatic colorectal cancer patients still beyond immunotherapy’s reach?"
-        }
-      ]
-    },
-    {
       "name": "AI 製藥與新技術",
-      "count": 10,
+      "count": 11,
       "articles": [
+        {
+          "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
+          "date": "2026-08-23",
+          "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "biotech M&A",
+            "Big Pharma",
+            "Alkermes",
+            "Dyne Therapeutics",
+            "First Tracks Biotherapeutics",
+            "Legend Biotech",
+            "Sail Biomedicines",
+            "Pharmosa Biopharm"
+          ],
+          "summary": "Biopharma acquisition capital in 2026 is clustering around a narrow window: human risk has started to fall, but strategic value is not yet fully priced. Alkermes, Dyne, First Tracks, Legend and Sail illustrate five ways a biotech can enter that window, while Taiwan's Pharmosa Biopharm and Belite Bio show how late-stage assets can speak the same global language."
+        },
+        {
+          "title": "Biotech 下一筆重磅併購，會落在誰身上？",
+          "date": "2026-08-23",
+          "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "生技併購",
+            "Big Pharma",
+            "Alkermes",
+            "Dyne Therapeutics",
+            "First Tracks Biotherapeutics",
+            "Legend Biotech",
+            "Sail Biomedicines",
+            "國邑"
+          ],
+          "summary": "2026 年的生技併購資金，正集中到臨床風險開始下降、商業價值尚未完全定價的公司。從 Alkermes、Dyne、First Tracks、Legend 到 Sail，再回看國邑與仁新，真正值得追的是人體概念驗證、平台外延、商業化距離與買方策略契合度。"
+        },
         {
           "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
           "date": "2026-08-20",
@@ -428,25 +327,126 @@
             "中天"
           ],
           "summary": "Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。"
-        },
+        }
+      ]
+    },
+    {
+      "name": "腫瘤精準治療",
+      "count": 6,
+      "articles": [
         {
-          "title": "T-cell Exhaustion Across PD-1, CAR-T and TCE: Immunotherapy's Next Contest Is Durability",
-          "date": "2026-07-28",
-          "url": "https://drugnews.com.tw/articles/2026-07-28-t-cell-exhaustion-immunotherapy-durability-en.html",
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
           "language": "en",
           "category": "商業分析",
           "access": "Business Analysis",
           "tags": [
-            "T-cell exhaustion",
-            "immunotherapy",
-            "PD-1 blockade",
-            "CAR-T",
-            "T-cell engager",
-            "bispecific antibody",
-            "TCF1",
+            "BeOne Medicines",
+            "Revolution Medicines",
+            "RAS(ON)",
+            "daraxonrasib",
+            "zoldonrasib",
+            "BGB-58067",
+            "BG-T187",
+            "biotech licensing"
+          ],
+          "summary": "BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most."
+        },
+        {
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "BeOne Medicines",
+            "百濟神州",
+            "Revolution Medicines",
+            "RAS(ON)",
+            "daraxonrasib",
+            "zoldonrasib",
+            "BGB-58067",
+            "BG-T187"
+          ],
+          "summary": "百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。"
+        },
+        {
+          "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
+          "date": "2026-08-21",
+          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Moderna",
+            "Merck",
+            "intismeran autogene",
+            "INTerpath-001",
+            "personalized cancer vaccine",
+            "melanoma",
+            "mRNA manufacturing",
+            "Phase 3"
+          ],
+          "summary": "Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform."
+        },
+        {
+          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "AI drug discovery",
+            "NVIDIA",
+            "Bristol Myers Squibb",
+            "Eli Lilly",
+            "Roche",
+            "drug development",
+            "GPU infrastructure",
+            "Taiwan semiconductor supply chain"
+          ],
+          "summary": "BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop."
+        },
+        {
+          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "AnBogen Therapeutics",
+            "ABT-301",
+            "imofinostat",
+            "HDAC inhibitor",
+            "Chidamide",
+            "pMMR colorectal cancer",
+            "cancer immunotherapy",
             "Taiwan biotech"
           ],
-          "summary": "PD-1 blockade, CAR-T and T-cell engagers ultimately depend on T cells that can expand, renew and persist. This analysis connects exhaustion biology, product engineering and clinical evidence to the next competitive threshold in immunotherapy."
+          "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone."
+        },
+        {
+          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
+          "date": "2026-08-04",
+          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "AstraZeneca",
+            "阿斯特捷利康",
+            "Bristol Myers Squibb",
+            "BMS",
+            "百時美施貴寶",
+            "生技併購",
+            "大藥廠",
+            "專利懸崖"
+          ],
+          "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。"
         }
       ]
     },
