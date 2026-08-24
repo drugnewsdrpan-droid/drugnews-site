@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-24T02:59:29.987Z",
+  "generated_at": "2026-08-24T18:12:18.627Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -116,6 +116,164 @@
     "positioning_note": "Drugnews does not provide individual stock recommendations. The site is positioned as biotech business-analysis media: clinical evidence, valuation logic, BD/licensing terms, CMC risk, company strategy, investor education, and capital-market narrative."
   },
   "buckets": [
+    {
+      "name": "腫瘤精準治療",
+      "count": 8,
+      "articles": [
+        {
+          "title": "The Stronger the Backbone, the More Valuable the Missing Layer: Can Anbogen's ABT-301 Enter the Next Wave of Oncology BD?",
+          "date": "2026-08-25",
+          "url": "https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "AnBogen Therapeutics",
+            "ABT-301",
+            "imofinostat",
+            "Combination Layer",
+            "colorectal cancer",
+            "University of Tokyo",
+            "oncology BD",
+            "Taiwan biotech"
+          ],
+          "summary": "Big Pharma is paying for incremental efficacy around established therapies. ABT-301 has completed Phase 1; the CRC triplet's efficacy, sustainable dosing, durability and biomarker readouts will determine whether it can become a Combination Layer and open substantive partnering opportunities."
+        },
+        {
+          "title": "主藥越強，旁邊缺的那一層越值錢：安邦ABT-301能否進入下一輪腫瘤BD名單？",
+          "date": "2026-08-25",
+          "url": "https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "安邦生技",
+            "ABT-301",
+            "imofinostat",
+            "Combination Layer",
+            "大腸直腸癌",
+            "東京大學",
+            "腫瘤BD",
+            "台灣生技"
+          ],
+          "summary": "大藥廠正為主藥旁的增量療效付費。安邦ABT-301已完成Phase I，接下來由CRC三聯的療效、劑量持續性、耐久性與biomarker決定其能否走向Combination Layer與大型藥廠合作。"
+        },
+        {
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "BeOne Medicines",
+            "Revolution Medicines",
+            "RAS(ON)",
+            "daraxonrasib",
+            "zoldonrasib",
+            "BGB-58067",
+            "BG-T187",
+            "biotech licensing"
+          ],
+          "summary": "BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most."
+        },
+        {
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "BeOne Medicines",
+            "百濟神州",
+            "Revolution Medicines",
+            "RAS(ON)",
+            "daraxonrasib",
+            "zoldonrasib",
+            "BGB-58067",
+            "BG-T187"
+          ],
+          "summary": "百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。"
+        },
+        {
+          "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
+          "date": "2026-08-21",
+          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Moderna",
+            "Merck",
+            "intismeran autogene",
+            "INTerpath-001",
+            "personalized cancer vaccine",
+            "melanoma",
+            "mRNA manufacturing",
+            "Phase 3"
+          ],
+          "summary": "Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform."
+        },
+        {
+          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "AI drug discovery",
+            "NVIDIA",
+            "Bristol Myers Squibb",
+            "Eli Lilly",
+            "Roche",
+            "drug development",
+            "GPU infrastructure",
+            "Taiwan semiconductor supply chain"
+          ],
+          "summary": "BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop."
+        },
+        {
+          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "AnBogen Therapeutics",
+            "ABT-301",
+            "imofinostat",
+            "HDAC inhibitor",
+            "Chidamide",
+            "pMMR colorectal cancer",
+            "cancer immunotherapy",
+            "Taiwan biotech"
+          ],
+          "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone."
+        },
+        {
+          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
+          "date": "2026-08-04",
+          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "AstraZeneca",
+            "阿斯特捷利康",
+            "Bristol Myers Squibb",
+            "BMS",
+            "百時美施貴寶",
+            "生技併購",
+            "大藥廠",
+            "專利懸崖"
+          ],
+          "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。"
+        }
+      ]
+    },
     {
       "name": "AI 製藥與新技術",
       "count": 12,
@@ -375,126 +533,6 @@
       ]
     },
     {
-      "name": "腫瘤精準治療",
-      "count": 6,
-      "articles": [
-        {
-          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
-          "date": "2026-08-22",
-          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "BeOne Medicines",
-            "Revolution Medicines",
-            "RAS(ON)",
-            "daraxonrasib",
-            "zoldonrasib",
-            "BGB-58067",
-            "BG-T187",
-            "biotech licensing"
-          ],
-          "summary": "BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most."
-        },
-        {
-          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
-          "date": "2026-08-22",
-          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "BeOne Medicines",
-            "百濟神州",
-            "Revolution Medicines",
-            "RAS(ON)",
-            "daraxonrasib",
-            "zoldonrasib",
-            "BGB-58067",
-            "BG-T187"
-          ],
-          "summary": "百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。"
-        },
-        {
-          "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
-          "date": "2026-08-21",
-          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Moderna",
-            "Merck",
-            "intismeran autogene",
-            "INTerpath-001",
-            "personalized cancer vaccine",
-            "melanoma",
-            "mRNA manufacturing",
-            "Phase 3"
-          ],
-          "summary": "Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform."
-        },
-        {
-          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "AI drug discovery",
-            "NVIDIA",
-            "Bristol Myers Squibb",
-            "Eli Lilly",
-            "Roche",
-            "drug development",
-            "GPU infrastructure",
-            "Taiwan semiconductor supply chain"
-          ],
-          "summary": "BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop."
-        },
-        {
-          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
-          "date": "2026-08-11",
-          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "AnBogen Therapeutics",
-            "ABT-301",
-            "imofinostat",
-            "HDAC inhibitor",
-            "Chidamide",
-            "pMMR colorectal cancer",
-            "cancer immunotherapy",
-            "Taiwan biotech"
-          ],
-          "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone."
-        },
-        {
-          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "AstraZeneca",
-            "阿斯特捷利康",
-            "Bristol Myers Squibb",
-            "BMS",
-            "百時美施貴寶",
-            "生技併購",
-            "大藥廠",
-            "專利懸崖"
-          ],
-          "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。"
-        }
-      ]
-    },
-    {
       "name": "GLP-1 與代謝賽道",
       "count": 4,
       "articles": [
@@ -578,7 +616,7 @@
     },
     {
       "name": "臨床與法規催化",
-      "count": 4,
+      "count": 3,
       "articles": [
         {
           "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
@@ -636,25 +674,6 @@
             "celiac disease"
           ],
           "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat."
-        },
-        {
-          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Alzheimer's disease",
-            "tau",
-            "diranersen",
-            "BIIB080",
-            "IONIS-MAPTRx",
-            "Biogen",
-            "Ionis",
-            "antisense oligonucleotide"
-          ],
-          "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
         }
       ]
     },
@@ -699,31 +718,6 @@
             "GSK"
           ],
           "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff."
-        }
-      ]
-    },
-    {
-      "name": "其他市場訊號",
-      "count": 1,
-      "articles": [
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "阿茲海默症",
-            "Tau",
-            "Diranersen",
-            "BIIB080",
-            "IONIS-MAPTRx",
-            "Biogen",
-            "Ionis",
-            "反義寡核苷酸"
-          ],
-          "summary": "CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。"
         }
       ]
     }

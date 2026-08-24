@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 24 Aug 2026 02:59:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 18:12:18 GMT</lastBuildDate>
+    <item>
+      <title>主藥越強，旁邊缺的那一層越值錢：安邦ABT-301能否進入下一輪腫瘤BD名單？</title>
+      <link>https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology.html</guid>
+      <pubDate>Mon, 24 Aug 2026 18:10:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/anbogen-abt-301-combination-layer-tokyo-comparative-oncology/cover.png" alt="圖1｜下一輪腫瘤BD的核心：主藥越強，Combination Layer越值錢"></p><p>大藥廠正為主藥旁的增量療效付費。安邦ABT-301已完成Phase I，接下來由CRC三聯的療效、劑量持續性、耐久性與biomarker決定其能否走向Combination Layer與大型藥廠合作。</p>]]></description>
+    </item>
     <item>
       <title>核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額</title>
       <link>https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink/cover-1400.webp" alt="安邦生技 ABT-301 如衛星中繼訊號般把免疫治療送入目前難以覆蓋的冷腫瘤"></p><p>一顆台灣小分子，有機會把三百億美元級PD-1藥王送進九成五患者仍無法受益的治療盲區嗎？</p>]]></description>
-    </item>
-    <item>
-      <title>Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門</title>
-      <link>https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <category>製藥巨頭</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/astellas-oncology-platform/cover.png" alt="由單一藥物核心延伸至多條腫瘤研發路徑的抽象科學視覺"></p><p>Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。</p>]]></description>
     </item>
   </channel>
 </rss>

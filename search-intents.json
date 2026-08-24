@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-24T02:59:30.038Z",
+  "generated_at": "2026-08-24T18:12:18.685Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "The Stronger the Backbone, the More Valuable the Missing Layer: Can Anbogen's ABT-301 Enter the Next Wave of Oncology BD?",
+      "date": "2026-08-25",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology-en.html",
+      "category": "商業分析",
+      "tags": [
+        "AnBogen Therapeutics",
+        "ABT-301",
+        "imofinostat",
+        "Combination Layer",
+        "colorectal cancer",
+        "University of Tokyo",
+        "oncology BD",
+        "Taiwan biotech"
+      ],
+      "summary": "Big Pharma is paying for incremental efficacy around established therapies. ABT-301 has completed Phase 1; the CRC triplet's efficacy, sustainable dosing, durability and biomarker readouts will determine whether it can become a Combination Layer and open substantive partnering opportunities."
+    },
+    {
+      "title": "主藥越強，旁邊缺的那一層越值錢：安邦ABT-301能否進入下一輪腫瘤BD名單？",
+      "date": "2026-08-25",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology.html",
+      "category": "商業分析",
+      "tags": [
+        "安邦生技",
+        "ABT-301",
+        "imofinostat",
+        "Combination Layer",
+        "大腸直腸癌",
+        "東京大學",
+        "腫瘤BD",
+        "台灣生技"
+      ],
+      "summary": "大藥廠正為主藥旁的增量療效付費。安邦ABT-301已完成Phase I，接下來由CRC三聯的療效、劑量持續性、耐久性與biomarker決定其能否走向Combination Layer與大型藥廠合作。"
+    },
     {
       "title": "Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business",
       "date": "2026-08-24",
@@ -776,42 +812,6 @@
         "LNP"
       ],
       "summary": "小核酸藥物的競爭正從 RNA 序列設計走向肝外遞送；智新生技以 EV 與 LNP 平台切入肺部與呼吸道，挑戰小核酸下半場最值錢的問題：能否真正抵達病灶。"
-    },
-    {
-      "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-      "date": "2026-08-13",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Novo Nordisk",
-        "ziltivekimab",
-        "ZEUS",
-        "MACE",
-        "IL-6",
-        "hsCRP",
-        "cardiovascular outcomes",
-        "Phase 3"
-      ],
-      "summary": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE."
-    },
-    {
-      "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
-      "date": "2026-08-13",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
-      "category": "商業分析",
-      "tags": [
-        "Novo Nordisk",
-        "ziltivekimab",
-        "ZEUS",
-        "MACE",
-        "IL-6",
-        "hsCRP",
-        "心血管",
-        "慢性腎臟病"
-      ],
-      "summary": "ZEUS 超過 6,300 人卻交出 HR 0.99：ziltivekimab 壓低 free IL-6 與 hsCRP，卻沒有證明能降低三點 MACE。這不是抗發炎假說死亡，而是 biomarker 不能替患者硬終點預支成功。"
     }
   ],
   "do_not_use_as": [

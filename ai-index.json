@@ -209,6 +209,60 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "The Stronger the Backbone, the More Valuable the Missing Layer: Can Anbogen's ABT-301 Enter the Next Wave of Oncology BD?",
+      "date": "2026-08-25",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology-en.html",
+      "source": "Website",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "AnBogen Therapeutics",
+        "ABT-301",
+        "imofinostat",
+        "Combination Layer",
+        "colorectal cancer",
+        "University of Tokyo",
+        "oncology BD",
+        "Taiwan biotech"
+      ],
+      "summary": "Big Pharma is paying for incremental efficacy around established therapies. ABT-301 has completed Phase 1; the CRC triplet's efficacy, sustainable dosing, durability and biomarker readouts will determine whether it can become a Combination Layer and open substantive partnering opportunities.",
+      "image": "https://drugnews.com.tw/assets/articles/anbogen-abt-301-combination-layer-tokyo-comparative-oncology-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology.html"
+      }
+    },
+    {
+      "title": "主藥越強，旁邊缺的那一層越值錢：安邦ABT-301能否進入下一輪腫瘤BD名單？",
+      "date": "2026-08-25",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology.html",
+      "source": "Website",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "安邦生技",
+        "ABT-301",
+        "imofinostat",
+        "Combination Layer",
+        "大腸直腸癌",
+        "東京大學",
+        "腫瘤BD",
+        "台灣生技"
+      ],
+      "summary": "大藥廠正為主藥旁的增量療效付費。安邦ABT-301已完成Phase I，接下來由CRC三聯的療效、劑量持續性、耐久性與biomarker決定其能否走向Combination Layer與大型藥廠合作。",
+      "image": "https://drugnews.com.tw/assets/articles/anbogen-abt-301-combination-layer-tokyo-comparative-oncology/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology-en.html"
+      }
+    },
+    {
       "title": "Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business",
       "date": "2026-08-24",
       "language": "en",
@@ -1556,56 +1610,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-07-31-anbogen-immunotherapy-starlink-en.html"
-      }
-    },
-    {
-      "title": "Xtandi 之後，安斯泰來靠誰？從單一明星藥到腫瘤平台的四道驗證門",
-      "date": "2026-07-30",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform.html",
-      "source": "facebook",
-      "access": "商業分析文",
-      "category": "製藥巨頭",
-      "tags": [
-        "Astellas",
-        "Xtandi",
-        "Padcev",
-        "Vyloy",
-        "腫瘤",
-        "藥物開發"
-      ],
-      "summary": "Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。",
-      "image": "https://drugnews.com.tw/assets/articles/astellas-oncology-platform/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-23-astellas-oncology-platform-en.html"
-      }
-    },
-    {
-      "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-      "date": "2026-07-30",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-      "source": "facebook",
-      "access": "Business Analysis",
-      "category": "製藥巨頭",
-      "tags": [
-        "Astellas",
-        "Xtandi",
-        "Padcev",
-        "Vyloy",
-        "oncology",
-        "drug development"
-      ],
-      "summary": "Xtandi still dominates Astellas oncology sales. The real test is whether Padcev, Vyloy and the next CLDN18.2 assets can become a repeatable post-LOE platform.",
-      "image": "https://drugnews.com.tw/assets/articles/astellas-oncology-platform-en/cover-en.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-23-astellas-oncology-platform.html"
       }
     }
   ]

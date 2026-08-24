@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-24T18:10:00.000Z</news:publication_date>
+      <news:title>The Stronger the Backbone, the More Valuable the Missing Layer: Can Anbogen&apos;s ABT-301 Enter the Next Wave of Oncology BD?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-24T18:10:00.000Z</news:publication_date>
+      <news:title>主藥越強，旁邊缺的那一層越值錢：安邦ABT-301能否進入下一輪腫瘤BD名單？</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html</loc>
     <news:news>
       <news:publication>
