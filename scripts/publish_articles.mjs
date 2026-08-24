@@ -302,8 +302,17 @@ function citationName(rawLabel, url) {
   return label;
 }
 
-function extractCitations(markdown) {
-  const section = referenceSection(markdown);
+function extractCitations(markdown, citationHeading = "") {
+  let section = referenceSection(markdown);
+  if (!section && citationHeading) {
+    const lines = String(markdown || "").split("\n");
+    const start = lines.findIndex((line) => line.replace(/^\s*#{1,3}\s*/, "").trim() === citationHeading);
+    if (start >= 0) {
+      const endOffset = lines.slice(start + 1).findIndex((line) => /^\s*#{1,3}\s+/.test(line));
+      const end = endOffset >= 0 ? start + 1 + endOffset : lines.length;
+      section = lines.slice(start + 1, end).join("\n").trim();
+    }
+  }
   if (!section) return [];
   const citations = [];
   const seen = new Set();
@@ -1423,7 +1432,7 @@ function articlePage(article, bodyHtml, related) {
       .map((src) => absoluteUrl(src))
   ].filter((url, index, urls) => url && urls.indexOf(url) === index);
   const siteBrand = isEnglish(meta) ? ENGLISH_BRAND : CHINESE_BRAND;
-  const citations = extractCitations(article.markdown);
+  const citations = extractCitations(article.markdown, meta.citation_heading);
   const wordCount = articleWordCount(article.markdown);
   const seriesLabel = displaySeriesLabel(series, meta);
   const accessDisplay = displayAccessLabel(meta);
@@ -1621,6 +1630,7 @@ function articleRecord(article) {
     summary: meta.summary,
     image: cardImage,
     imageAlt: meta.card_image_alt || articleCover.alt,
+    responsiveCardImage: meta.responsive_card_image !== false,
     sponsored: meta.sponsored === true,
     sponsorName: meta.sponsor_name || "",
     updatedAt: meta.updated_at || publicDate(meta),
@@ -2090,8 +2100,11 @@ function homePage(records) {
   const leadSummary = lead?.summary || "閱讀藥時事 Drugnews 的生技醫藥公司研究、估值框架、BD 授權、臨床開發與資本市場判讀。";
   const leadAlt = readerFacingText(lead?.homepageImageAlt || lead?.imageAlt || (lead ? displayTitle(lead) : "最新文章"));
   const leadStem = leadDisplayImage.replace(/(?:-(?:720|1400))?\.[^.]+$/, "");
+  const leadHasResponsiveCard = lead?.responsiveCardImage !== false;
   const leadMediaHtml = leadDisplayImage
-    ? `<div class="featured-image"><picture><source media="(max-width: 680px)" type="image/webp" srcset="${escapeHtml(`${leadStem}-720.webp`)}"><source type="image/webp" srcset="${escapeHtml(`${leadStem}-1400.webp`)}"><img src="${escapeHtml(`${leadStem}-1400.webp`)}" alt="${escapeHtml(leadAlt)}" width="1672" height="941" loading="eager" fetchpriority="high" decoding="async"></picture></div>`
+    ? (leadHasResponsiveCard
+      ? `<div class="featured-image"><picture><source media="(max-width: 680px)" type="image/webp" srcset="${escapeHtml(`${leadStem}-720.webp`)}"><source type="image/webp" srcset="${escapeHtml(`${leadStem}-1400.webp`)}"><img src="${escapeHtml(`${leadStem}-1400.webp`)}" alt="${escapeHtml(leadAlt)}" width="1672" height="941" loading="eager" fetchpriority="high" decoding="async"></picture></div>`
+      : `<div class="featured-image"><img src="${escapeHtml(leadDisplayImage)}" alt="${escapeHtml(leadAlt)}" width="1672" height="941" loading="eager" decoding="async"></div>`)
     : "";
   const briefingHtml = briefing.map((item) => {
     const href = item.external ? item.url : item.url;
@@ -2206,7 +2219,7 @@ function homePage(records) {
   <link rel="icon" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="science-media.css?v=20260711">
-  ${leadDisplayImage ? `<link rel="preload" as="image" href="${escapeHtml(`${leadStem}-720.webp`)}" media="(max-width: 680px)" fetchpriority="high">
+  ${leadDisplayImage && leadHasResponsiveCard ? `<link rel="preload" as="image" href="${escapeHtml(`${leadStem}-720.webp`)}" media="(max-width: 680px)" fetchpriority="high">
   <link rel="preload" as="image" href="${escapeHtml(`${leadStem}-1400.webp`)}" media="(min-width: 681px)" fetchpriority="high">` : `<link rel="preload" as="image" href="assets/site/science-media-background-v1.webp" fetchpriority="high">`}
   <link rel="alternate" type="application/rss+xml" title="Drugnews RSS" href="${BASE_URL}/feed.xml">
   <link rel="alternate" type="application/feed+json" title="Drugnews JSON Feed" href="${BASE_URL}/feed.json">
@@ -3612,7 +3625,7 @@ function knowledgeGraph(records) {
 }
 
 function publicSearchRecords(records) {
-  return records.map(({ publishAt, ...item }) => ({
+  return records.map(({ publishAt, responsiveCardImage, ...item }) => ({
     ...item,
     title: displayTitle(item),
     imageAlt: readerFacingText(item.imageAlt || ""),
