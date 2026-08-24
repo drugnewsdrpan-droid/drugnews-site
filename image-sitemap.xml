@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger-en/cover.png</image:loc>
+      <image:caption>A radiopharma loop connecting isotope production, timed distribution, PSMA PET imaging, targeted treatment and follow-up</image:caption>
+      <image:title>Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger-en/figure-01.webp</image:loc>
+      <image:caption>Figure 1 | Curium contributes isotope, manufacturing, distribution and therapy capabilities; Lantheus contributes U.S. diagnostics and hospital access</image:caption>
+      <image:title>Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger-en/figure-02.webp</image:loc>
+      <image:caption>Figure 2 | Radiopharma runs on a timed chain from isotope production and labeling through quality control, shielded delivery and hospital use</image:caption>
+      <image:title>Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger-en/figure-03.webp</image:loc>
+      <image:caption>Figure 3 | Find, Fight, Follow: use PSMA PET to identify a patient, deliver targeted radioligand therapy and continue imaging-based follow-up</image:caption>
+      <image:title>Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger-en/figure-04.webp</image:loc>
+      <image:caption>Figure 4 | Radiopharma M&amp;A is moving from buying a single pipeline to integrating isotope supply, manufacturing, distribution, diagnostics, therapy and hospital channels</image:caption>
+      <image:title>Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger/cover.png</image:loc>
+      <image:caption>核素製造、放射性藥物、冷鏈配送、PET 診斷與精準治療串成一體的核藥產業鏈</image:caption>
+      <image:title>核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger/figure-01.webp</image:loc>
+      <image:caption>圖 1｜Curium 的核素、製造、配送與治療端，和 Lantheus 的美國診斷產品與醫院網絡形成互補</image:caption>
+      <image:title>核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger/figure-02.webp</image:loc>
+      <image:caption>圖 2｜核藥從同位素生產、標記、品管、屏蔽配送到院端使用，每一步都受到半衰期限制</image:caption>
+      <image:title>核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger/figure-03.webp</image:loc>
+      <image:caption>圖 3｜Find、Fight、Follow：先用 PSMA PET 找到患者，再以靶向核藥治療，最後持續影像追蹤</image:caption>
+      <image:title>核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger/figure-04.webp</image:loc>
+      <image:caption>圖 4｜核藥併購邏輯從購買單一管線，升級為整合同位素、製造、配送、診斷、治療與院端通路</image:caption>
+      <image:title>核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/big-pharma-biotech-ma-next-targets-2026-en/cover.png</image:loc>

@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 23 Aug 2026 05:33:21 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 02:59:30 GMT</lastBuildDate>
+    <item>
+      <title>核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額</title>
+      <link>https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger/cover.png" alt="核素製造、放射性藥物、冷鏈配送、PET 診斷與精準治療串成一體的核藥產業鏈"></p><p>6 月官網追蹤的 Curium–Lantheus 70 億美元收購傳聞，已在 8 月 3 日推進為最終合併協議：每股 102.50 美元現金加最高 12 美元 CVR，總交易價值最高約 80 億美元。真正被整合的是核素、製造、配送、診斷、治療與美國院端網絡。</p>]]></description>
+    </item>
     <item>
       <title>Biotech 下一筆重磅併購，會落在誰身上？</title>
       <link>https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
       <category>製藥巨頭</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/astellas-oncology-platform/cover.png" alt="由單一藥物核心延伸至多條腫瘤研發路徑的抽象科學視覺"></p><p>Xtandi 仍主導安斯泰來腫瘤收入；Padcev、Vyloy 與下一代 CLDN18.2 資產能否在 LOE 後形成可重複的產品平台，才是下一段考題。</p>]]></description>
-    </item>
-    <item>
-      <title>HORIZON：Lp(a) 降了，心梗會少嗎？</title>
-      <link>https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/cover.png" alt="Lp(a) 粒子、心血管事件與問號橋樑構成 HORIZON 臨床結果尚待驗證的科學主視覺"></p><p>Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。</p>]]></description>
     </item>
   </channel>
 </rss>

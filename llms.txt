@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-24｜Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business
+  URL: https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html
+  Topics: Curium, Lantheus, radiopharma, theranostics, PSMA
+  Summary: The $7 billion Curium-Lantheus rumor covered in June became a definitive agreement on August 3: $102.50 in cash plus up to $12.00 per share in CVRs, for total consideration of up to $8 billion. The strategic prize is an integrated chain spanning isotopes, manufacturing, distribution, diagnostics, therapy and U.S. hospital access.
+- 2026-08-24｜核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額
+  URL: https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html
+  Topics: Curium, Lantheus, 核藥, 放射性藥物, 診療一體化
+  Summary: 6 月官網追蹤的 Curium–Lantheus 70 億美元收購傳聞，已在 8 月 3 日推進為最終合併協議：每股 102.50 美元現金加最高 12 美元 CVR，總交易價值最高約 80 億美元。真正被整合的是核素、製造、配送、診斷、治療與美國院端網絡。
 - 2026-08-23｜Who Could Be Big Pharma's Next Major Biotech Acquisition?
   URL: https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html
   Topics: biotech M&A, Big Pharma, Alkermes, Dyne Therapeutics, First Tracks Biotherapeutics
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html
   Topics: Eli Lilly, 禮來, Tirzepatide, Mounjaro, Zepbound
   Summary: Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。
-- 2026-08-17｜Revenue Jumped 39%, Yet Iovance Still Lost $47 Million: Can Cancer Cell Therapy Become a Business?
-  URL: https://drugnews.com.tw/articles/2026-08-17-iovance-amtagvi-til-commercialization-en.html
-  Topics: Iovance, Amtagvi, TIL, cancer cell therapy, melanoma
-  Summary: Iovance's Amtagvi rebounded sharply in the second quarter, but the central question is no longer whether TIL therapy can work. It is whether a personalized cell therapy can become a reproducible, reimbursable and scalable medical service.
-- 2026-08-17｜營收跳增 39%，還是虧了 4,700 萬美元：癌症細胞療法翻身了？
-  URL: https://drugnews.com.tw/articles/2026-08-17-iovance-amtagvi-til-commercialization.html
-  Topics: Iovance, Amtagvi, TIL, 癌症細胞療法, 黑色素瘤
-  Summary: Iovance 的 Amtagvi 第二季營收明顯反彈，但真正要驗證的不是 TIL 是否有療效，而是個人化細胞療法能否被做成可複製、可支付、可放大的醫療服務。
 
 ## Key Site Sections
 

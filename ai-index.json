@@ -209,6 +209,64 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business",
+      "date": "2026-08-24",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html",
+      "source": "Facebook",
+      "access": "Business Analysis",
+      "category": "商業分析",
+      "tags": [
+        "Curium",
+        "Lantheus",
+        "radiopharma",
+        "theranostics",
+        "PSMA",
+        "PYLARIFY",
+        "Pluvicto",
+        "M&A",
+        "nuclear medicine",
+        "Taiwan biotech"
+      ],
+      "summary": "The $7 billion Curium-Lantheus rumor covered in June became a definitive agreement on August 3: $102.50 in cash plus up to $12.00 per share in CVRs, for total consideration of up to $8 billion. The strategic prize is an integrated chain spanning isotopes, manufacturing, distribution, diagnostics, therapy and U.S. hospital access.",
+      "image": "https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-24-curium-lantheus-definitive-merger.html"
+      }
+    },
+    {
+      "title": "核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額",
+      "date": "2026-08-24",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Curium",
+        "Lantheus",
+        "核藥",
+        "放射性藥物",
+        "診療一體化",
+        "PSMA",
+        "PYLARIFY",
+        "Pluvicto",
+        "併購",
+        "長佳智能"
+      ],
+      "summary": "6 月官網追蹤的 Curium–Lantheus 70 億美元收購傳聞，已在 8 月 3 日推進為最終合併協議：每股 102.50 美元現金加最高 12 美元 CVR，總交易價值最高約 80 億美元。真正被整合的是核素、製造、配送、診斷、治療與美國院端網絡。",
+      "image": "https://drugnews.com.tw/assets/articles/curium-lantheus-definitive-merger/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-24-curium-lantheus-definitive-merger-en.html"
+      }
+    },
+    {
       "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
       "date": "2026-08-23",
       "language": "en",
@@ -1548,63 +1606,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-07-23-astellas-oncology-platform.html"
-      }
-    },
-    {
-      "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-      "date": "2026-07-29",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "pelacarsen",
-        "Lp(a)",
-        "HORIZON",
-        "cardiovascular disease",
-        "clinical trials",
-        "antisense oligonucleotide",
-        "Novartis",
-        "Ionis",
-        "biotech investing"
-      ],
-      "summary": "Pelacarsen can substantially lower Lp(a), but HORIZON must show whether biomarker reduction on top of standard care translates into fewer cardiovascular deaths, myocardial infarctions, strokes and urgent revascularizations.",
-      "image": "https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon-en/homepage-cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-07-19-pelacarsen-lpa-horizon.html"
-      }
-    },
-    {
-      "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-      "date": "2026-07-29",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "Pelacarsen",
-        "Lp(a)",
-        "HORIZON",
-        "心血管疾病",
-        "臨床試驗",
-        "ASO",
-        "Novartis",
-        "Ionis",
-        "生技投資"
-      ],
-      "summary": "Pelacarsen 已證明能大幅降低 Lp(a)，但 HORIZON 真正要回答的是：在標準治療之上，生物標記下降能否轉成更少的心血管死亡、心肌梗塞、中風與緊急再血管化。",
-      "image": "https://drugnews.com.tw/assets/articles/pelacarsen-lpa-horizon/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-07-19-pelacarsen-lpa-horizon-en.html"
       }
     }
   ]

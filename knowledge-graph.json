@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-23T05:33:21.476Z",
+  "generated_at": "2026-08-24T02:59:30.038Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,54 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business",
+      "date": "2026-08-24",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Curium",
+        "Lantheus",
+        "radiopharma",
+        "theranostics",
+        "PSMA",
+        "PYLARIFY",
+        "Pluvicto",
+        "M&A",
+        "nuclear medicine",
+        "Taiwan biotech"
+      ],
+      "summary": "The $7 billion Curium-Lantheus rumor covered in June became a definitive agreement on August 3: $102.50 in cash plus up to $12.00 per share in CVRs, for total consideration of up to $8 billion. The strategic prize is an integrated chain spanning isotopes, manufacturing, distribution, diagnostics, therapy and U.S. hospital access.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-24-curium-lantheus-definitive-merger.html"
+      }
+    },
+    {
+      "title": "核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額",
+      "date": "2026-08-24",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Curium",
+        "Lantheus",
+        "核藥",
+        "放射性藥物",
+        "診療一體化",
+        "PSMA",
+        "PYLARIFY",
+        "Pluvicto",
+        "併購",
+        "長佳智能"
+      ],
+      "summary": "6 月官網追蹤的 Curium–Lantheus 70 億美元收購傳聞，已在 8 月 3 日推進為最終合併協議：每股 102.50 美元現金加最高 12 美元 CVR，總交易價值最高約 80 億美元。真正被整合的是核素、製造、配送、診斷、治療與美國院端網絡。",
+      "alternate_language_versions": {
+        "en": "2026-08-24-curium-lantheus-definitive-merger-en.html"
+      }
+    },
     {
       "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
       "date": "2026-08-23",
@@ -770,55 +818,51 @@
       "alternate_language_versions": {
         "zh-Hant": "2026-08-10-biopharma-ma-buying-time-2026h1.html"
       }
-    },
-    {
-      "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
-      "date": "2026-08-09",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "Psoriasis",
-        "IL-23R",
-        "Oral Peptide",
-        "Drug Commercialization"
-      ],
-      "summary": "ICOTYDE logged more than 18,000 prescriptions in its first full quarter. The oral IL-23R peptide has earned entry into the high-efficacy psoriasis market, but durable value still depends on paid fills, persistence, payer quality, safety, and additional indications.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-09-icotyde-oral-il23r-launch.html"
-      }
-    },
-    {
-      "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
-      "date": "2026-08-09",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "乾癬",
-        "IL-23R",
-        "口服胜肽",
-        "新藥商業化"
-      ],
-      "summary": "ICOTYDE 上市後第一個完整季度累積逾 18,000 張處方。口服 IL-23R 胜肽已取得進入高療效市場的資格，真正的商業答案仍取決於續方、支付品質、長期留存與多適應症。",
-      "alternate_language_versions": {
-        "en": "2026-08-09-icotyde-oral-il23r-launch-en.html"
-      }
     }
   ],
   "entities": [
     {
+      "name": "Taiwan biotech",
+      "type": "topic",
+      "mentions": 26,
+      "latest_date": "2026-08-24",
+      "latest_articles": [
+        {
+          "title": "Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business",
+          "date": "2026-08-24",
+          "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html",
+          "language": "en"
+        },
+        {
+          "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "language": "en"
+        },
+        {
+          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
+          "date": "2026-08-11",
+          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
+          "language": "en"
+        },
+        {
+          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 26,
+      "mentions": 25,
       "latest_date": "2026-08-08",
       "latest_articles": [
         {
@@ -854,47 +898,9 @@
       ]
     },
     {
-      "name": "Taiwan biotech",
-      "type": "topic",
-      "mentions": 25,
-      "latest_date": "2026-08-13",
-      "latest_articles": [
-        {
-          "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
-          "language": "en"
-        },
-        {
-          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
-          "date": "2026-08-11",
-          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
-          "language": "en"
-        },
-        {
-          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
-          "date": "2026-08-07",
-          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
-          "date": "2026-08-05",
-          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "臨床數據",
       "type": "market_topic",
-      "mentions": 23,
+      "mentions": 22,
       "latest_date": "2026-08-03",
       "latest_articles": [
         {
@@ -1044,44 +1050,6 @@
       ]
     },
     {
-      "name": "BD",
-      "type": "market_topic",
-      "mentions": 14,
-      "latest_date": "2026-07-24",
-      "latest_articles": [
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "biotech business analysis",
       "type": "topic",
       "mentions": 13,
@@ -1158,27 +1126,21 @@
       ]
     },
     {
-      "name": "製藥巨頭",
+      "name": "BD",
       "type": "market_topic",
       "mentions": 13,
-      "latest_date": "2026-07-25",
+      "latest_date": "2026-07-24",
       "latest_articles": [
         {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
           "language": "zh-Hant"
         },
         {
           "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
           "date": "2026-07-09",
           "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
           "language": "zh-Hant"
         },
         {
@@ -1191,6 +1153,12 @@
           "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
           "date": "2026-07-05",
           "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
           "language": "zh-Hant"
         }
       ]
@@ -1230,6 +1198,44 @@
           "date": "2026-07-20",
           "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "製藥巨頭",
+      "type": "market_topic",
+      "mentions": 12,
+      "latest_date": "2026-07-25",
+      "latest_articles": [
+        {
+          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2702,33 +2708,27 @@
       ]
     },
     {
-      "name": "Capital markets",
-      "type": "market_topic",
-      "mentions": 4,
-      "latest_date": "2026-06-29",
+      "name": "M&A",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-08-24",
       "latest_articles": [
         {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "title": "Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business",
+          "date": "2026-08-24",
+          "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
+          "date": "2026-06-30",
+          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
           "language": "en"
         },
         {
           "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
           "date": "2026-06-28",
           "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Enlivex's RAIN Token Windfall: When a Biotech Balance Sheet Starts Looking Like Crypto Treasury Strategy",
-          "date": "2026-06-20",
-          "url": "https://drugnews.com.tw/articles/2026-06-20-enlivex-rain-token-biotech-treasury-en.html",
           "language": "en"
         }
       ]
@@ -3384,47 +3384,91 @@
       ]
     },
     {
-      "name": "Alkermes",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-23",
+      "name": "Capital markets",
+      "type": "market_topic",
+      "mentions": 3,
+      "latest_date": "2026-06-29",
       "latest_articles": [
         {
-          "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
-          "date": "2026-08-23",
-          "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html",
+          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
+          "date": "2026-06-29",
+          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
           "language": "en"
         },
         {
-          "title": "Biotech 下一筆重磅併購，會落在誰身上？",
-          "date": "2026-08-23",
-          "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html",
-          "language": "zh-Hant"
+          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
+          "date": "2026-06-28",
+          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
+          "date": "2026-06-22",
+          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "language": "en"
         }
       ]
     },
     {
-      "name": "Dyne Therapeutics",
+      "name": "併購",
       "type": "topic",
       "mentions": 2,
-      "latest_date": "2026-08-23",
+      "latest_date": "2026-08-24",
       "latest_articles": [
         {
-          "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
-          "date": "2026-08-23",
-          "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html",
-          "language": "en"
+          "title": "核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額",
+          "date": "2026-08-24",
+          "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html",
+          "language": "zh-Hant"
         },
         {
-          "title": "Biotech 下一筆重磅併購，會落在誰身上？",
-          "date": "2026-08-23",
-          "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html",
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
           "language": "zh-Hant"
         }
       ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business",
+      "date": "2026-08-24",
+      "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Curium",
+        "Lantheus",
+        "radiopharma",
+        "theranostics",
+        "PSMA",
+        "PYLARIFY",
+        "Pluvicto",
+        "M&A"
+      ],
+      "summary": "The $7 billion Curium-Lantheus rumor covered in June became a definitive agreement on August 3: $102.50 in cash plus up to $12.00 per share in CVRs, for total consideration of up to $8 billion. The strategic prize is an integrated chain spanning isotopes, manufacturing, distribution, diagnostics, therapy and U.S. hospital access."
+    },
+    {
+      "title": "核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額",
+      "date": "2026-08-24",
+      "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Curium",
+        "Lantheus",
+        "核藥",
+        "放射性藥物",
+        "診療一體化",
+        "PSMA",
+        "PYLARIFY",
+        "Pluvicto"
+      ],
+      "summary": "6 月官網追蹤的 Curium–Lantheus 70 億美元收購傳聞，已在 8 月 3 日推進為最終合併協議：每股 102.50 美元現金加最高 12 美元 CVR，總交易價值最高約 80 億美元。真正被整合的是核素、製造、配送、診斷、治療與美國院端網絡。"
+    },
     {
       "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
       "date": "2026-08-23",
@@ -3955,44 +3999,6 @@
         "反義寡核苷酸"
       ],
       "summary": "CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。"
-    },
-    {
-      "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-      "date": "2026-08-02",
-      "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "alopecia areata",
-        "bempikibart",
-        "Q32 Bio",
-        "QTTB",
-        "IL-7Rα",
-        "JAK inhibitors",
-        "SALT",
-        "biotech valuation"
-      ],
-      "summary": "Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors."
-    },
-    {
-      "title": "鬼剃頭新藥，先別封神",
-      "date": "2026-08-02",
-      "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "斑禿",
-        "鬼剃頭",
-        "Bempikibart",
-        "Q32 Bio",
-        "QTTB",
-        "IL-7Rα",
-        "JAK 抑制劑",
-        "SALT"
-      ],
-      "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。"
     }
   ]
 }

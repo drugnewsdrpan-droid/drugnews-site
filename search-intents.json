@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-23T05:33:21.475Z",
+  "generated_at": "2026-08-24T02:59:30.038Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business",
+      "date": "2026-08-24",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Curium",
+        "Lantheus",
+        "radiopharma",
+        "theranostics",
+        "PSMA",
+        "PYLARIFY",
+        "Pluvicto",
+        "M&A"
+      ],
+      "summary": "The $7 billion Curium-Lantheus rumor covered in June became a definitive agreement on August 3: $102.50 in cash plus up to $12.00 per share in CVRs, for total consideration of up to $8 billion. The strategic prize is an integrated chain spanning isotopes, manufacturing, distribution, diagnostics, therapy and U.S. hospital access."
+    },
+    {
+      "title": "核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額",
+      "date": "2026-08-24",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html",
+      "category": "商業分析",
+      "tags": [
+        "Curium",
+        "Lantheus",
+        "核藥",
+        "放射性藥物",
+        "診療一體化",
+        "PSMA",
+        "PYLARIFY",
+        "Pluvicto"
+      ],
+      "summary": "6 月官網追蹤的 Curium–Lantheus 70 億美元收購傳聞，已在 8 月 3 日推進為最終合併協議：每股 102.50 美元現金加最高 12 美元 CVR，總交易價值最高約 80 億美元。真正被整合的是核素、製造、配送、診斷、治療與美國院端網絡。"
+    },
     {
       "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
       "date": "2026-08-23",
@@ -776,42 +812,6 @@
         "慢性腎臟病"
       ],
       "summary": "ZEUS 超過 6,300 人卻交出 HR 0.99：ziltivekimab 壓低 free IL-6 與 hsCRP，卻沒有證明能降低三點 MACE。這不是抗發炎假說死亡，而是 biomarker 不能替患者硬終點預支成功。"
-    },
-    {
-      "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
-      "date": "2026-08-12",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Bio Genesis Mission",
-        "AI drug discovery",
-        "NIH",
-        "DOE",
-        "biomedical data",
-        "drug development",
-        "digital pathology",
-        "multi-omics"
-      ],
-      "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster."
-    },
-    {
-      "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
-      "date": "2026-08-12",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
-      "category": "商業分析",
-      "tags": [
-        "Bio Genesis Mission",
-        "AI製藥",
-        "NIH",
-        "DOE",
-        "生醫資料",
-        "藥物研發",
-        "數位病理",
-        "多體學"
-      ],
-      "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。"
     }
   ],
   "do_not_use_as": [
