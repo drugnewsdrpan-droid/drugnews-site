@@ -261,13 +261,13 @@ function stripMarkdown(markdown) {
 
 function stripReferenceSection(markdown) {
   return String(markdown || "").replace(
-    /(^|\n)\s*(?:#{1,3}\s*)?(參考(?:資料|來源)[:：]?|References:?|Primary Sources:?)\s*\n[\s\S]*?(?=\n---|\n#{1,3}\s|$)/i,
+    /(^|\n)\s*(?:#{1,3}\s*)?((?:主要)?參考(?:資料|來源)[:：]?|References:?|Primary Sources:?)\s*\n[\s\S]*?(?=\n---|\n#{1,3}\s|$)/i,
     "$1"
   );
 }
 
 function referenceSection(markdown) {
-  const match = String(markdown || "").match(/(^|\n)\s*(?:#{1,3}\s*)?(參考(?:資料|來源)[:：]?|References:?|Primary Sources:?)\s*\n([\s\S]*?)(?=\n---|\n#{1,3}\s|$)/i);
+  const match = String(markdown || "").match(/(^|\n)\s*(?:#{1,3}\s*)?((?:主要)?參考(?:資料|來源)[:：]?|References:?|Primary Sources:?)\s*\n([\s\S]*?)(?=\n---|\n#{1,3}\s|$)/i);
   return match ? match[3].trim() : "";
 }
 
@@ -1122,7 +1122,7 @@ function markdownToHtml(markdown, imageMap, options = {}) {
 }
 
 function normalizeReferenceLists(html) {
-  const headingPattern = /(<(?:p|h[23])>\s*(?:參考資料|參考來源|References|Primary Sources)[:：]?\s*<\/(?:p|h[23])>)([\s\S]*?)(?=<h[23]\b|<hr>|<div class="citation-box"|$)/gi;
+  const headingPattern = /(<(?:p|h[23])\b[^>]*>\s*(?:(?:主要)?參考資料|(?:主要)?參考來源|References|Primary Sources)[:：]?\s*<\/(?:p|h[23])>)([\s\S]*?)(?=<h[23]\b|<hr>|<div class="citation-box"|$)/gi;
   return html.replace(headingPattern, (match, heading, section) => {
     if (/<ol\b/i.test(section)) {
       const normalized = section.replace(/<ol(?![^>]*\bclass=)/i, '<ol class="article-reference-list"');
@@ -3384,7 +3384,7 @@ function entityIndex(records) {
 }
 
 function marketSignals(records) {
-  const signalPattern = /BD|授權|併購|估值|rNPV|SOTP|臨床數據|Phase|FDA|PDUFA|CRL|CMC|GLP-1|RAS|PRMT5|MAT2A|AI|製藥巨頭|Big Pharma|capital|valuation|licensing/i;
+  const signalPattern = /BD|授權|併購|估值|rNPV|SOTP|臨床數據|Phase|FDA|PDUFA|CRL|CMC|GLP-1|RAS|PRMT5|MAT2A|\bAI\b|製藥巨頭|Big Pharma|capital|valuation|licensing/i;
   return records
     .filter((item) => !item.external)
     .filter((item) => signalPattern.test(`${item.title} ${item.summary} ${(item.tags || []).join(" ")}`))
@@ -3405,7 +3405,7 @@ function signalBucket(item) {
   const haystack = `${item.title} ${item.summary} ${(item.tags || []).join(" ")}`;
   if (/GLP-?1|肥胖|減重|tirzepatide|semaglutide|retatrutide/i.test(haystack)) return "GLP-1 與代謝賽道";
   if (/RAS|KRAS|PRMT5|MAT2A|腫瘤|oncology|cancer/i.test(haystack)) return "腫瘤精準治療";
-  if (/AI|人工智慧|PROTAC|Zasocitinib/i.test(haystack)) return "AI 製藥與新技術";
+  if (/\bAI\b|人工智慧|PROTAC|Zasocitinib/i.test(haystack)) return "AI 製藥與新技術";
   if (/CMC|製造|產能|CDMO|供應鏈|commercial/i.test(haystack)) return "CMC / 商業化風險";
   if (/BD|授權|licensing|upfront|milestone|royalty|併購|M&A/i.test(haystack)) return "BD / 授權與併購";
   if (/估值|valuation|rNPV|SOTP|峰值銷售|capital|市值|資本市場/i.test(haystack)) return "估值與資本市場";

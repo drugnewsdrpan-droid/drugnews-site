@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-24T18:12:18.685Z",
+  "generated_at": "2026-08-26T02:17:00.975Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
+      "date": "2026-08-26",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Merck",
+        "Lipfendra",
+        "enlicitide",
+        "PCSK9",
+        "LDL cholesterol",
+        "cardiovascular outcomes",
+        "Novartis",
+        "Leqvio"
+      ],
+      "summary": "Lipfendra is the first FDA-approved oral PCSK9 inhibitor, lowering LDL-C by 56% and 59% in two Phase 3 trials. Oral dosing opens a major market, but cardiovascular outcomes, fasting adherence, payer access and Taiwan approval will decide whether it expands the category or displaces injections."
+    },
+    {
+      "title": "默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？",
+      "date": "2026-08-26",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html",
+      "category": "商業分析",
+      "tags": [
+        "默沙東",
+        "Lipfendra",
+        "enlicitide",
+        "PCSK9",
+        "膽固醇",
+        "心血管",
+        "諾華",
+        "Leqvio"
+      ],
+      "summary": "FDA 核准首款每日口服 PCSK9 抑制劑 Lipfendra，兩項第三期試驗在第 24 週降低 LDL-C 56% 與 59%。但口服不等於針劑退場：心血管硬終點、每日空腹依從性、保險准入與台灣核准，才會決定市場如何重切。"
+    },
     {
       "title": "The Stronger the Backbone, the More Valuable the Missing Layer: Can Anbogen's ABT-301 Enter the Next Wave of Oncology BD?",
       "date": "2026-08-25",
@@ -776,42 +812,6 @@
         "新藥研發"
       ],
       "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
-    },
-    {
-      "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
-      "date": "2026-08-13",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Intelligene",
-        "RNA delivery",
-        "oligonucleotide therapeutics",
-        "siRNA",
-        "ASO",
-        "extracellular vesicles",
-        "LNP",
-        "extrahepatic delivery"
-      ],
-      "summary": "Oligonucleotide therapeutics are moving from sequence design to extrahepatic delivery. Intelligene is using EV and LNP platforms to target the lung and airways, testing whether RNA medicines can truly reach disease sites beyond the liver."
-    },
-    {
-      "title": "這家台灣Biotech正在打造人體內奈米火箭",
-      "date": "2026-08-13",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
-      "category": "商業分析",
-      "tags": [
-        "智新生物",
-        "Intelligene",
-        "RNA 遞送",
-        "小核酸藥物",
-        "siRNA",
-        "ASO",
-        "EV 外泌體",
-        "LNP"
-      ],
-      "summary": "小核酸藥物的競爭正從 RNA 序列設計走向肝外遞送；智新生技以 EV 與 LNP 平台切入肺部與呼吸道，挑戰小核酸下半場最值錢的問題：能否真正抵達病灶。"
     }
   ],
   "do_not_use_as": [

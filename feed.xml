@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 24 Aug 2026 18:12:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 02:17:00 GMT</lastBuildDate>
+    <item>
+      <title>默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？</title>
+      <link>https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/merck-lipfendra-oral-pcsk9/cover.png" alt="默沙東 Lipfendra 每日口服與 Leqvio 低頻注射兩條 PCSK9 降脂路徑"></p><p>FDA 核准首款每日口服 PCSK9 抑制劑 Lipfendra，兩項第三期試驗在第 24 週降低 LDL-C 56% 與 59%。但口服不等於針劑退場：心血管硬終點、每日空腹依從性、保險准入與台灣核准，才會決定市場如何重切。</p>]]></description>
+    </item>
     <item>
       <title>主藥越強，旁邊缺的那一層越值錢：安邦ABT-301能否進入下一輪腫瘤BD名單？</title>
       <link>https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/cover.png" alt="斑禿毛囊免疫發炎與新藥介入的科學視覺"></p><p>33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。</p>]]></description>
-    </item>
-    <item>
-      <title>安邦生技：免疫治療的「星鏈計畫」</title>
-      <link>https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/anbogen-immunotherapy-starlink/cover-1400.webp" alt="安邦生技 ABT-301 如衛星中繼訊號般把免疫治療送入目前難以覆蓋的冷腫瘤"></p><p>一顆台灣小分子，有機會把三百億美元級PD-1藥王送進九成五患者仍無法受益的治療盲區嗎？</p>]]></description>
     </item>
   </channel>
 </rss>

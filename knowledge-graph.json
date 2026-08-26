@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-24T18:12:18.685Z",
+  "generated_at": "2026-08-26T02:17:00.976Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,52 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
+      "date": "2026-08-26",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Merck",
+        "Lipfendra",
+        "enlicitide",
+        "PCSK9",
+        "LDL cholesterol",
+        "cardiovascular outcomes",
+        "Novartis",
+        "Leqvio",
+        "Taiwan market access"
+      ],
+      "summary": "Lipfendra is the first FDA-approved oral PCSK9 inhibitor, lowering LDL-C by 56% and 59% in two Phase 3 trials. Oral dosing opens a major market, but cardiovascular outcomes, fasting adherence, payer access and Taiwan approval will decide whether it expands the category or displaces injections.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-26-merck-lipfendra-oral-pcsk9.html"
+      }
+    },
+    {
+      "title": "默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？",
+      "date": "2026-08-26",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "默沙東",
+        "Lipfendra",
+        "enlicitide",
+        "PCSK9",
+        "膽固醇",
+        "心血管",
+        "諾華",
+        "Leqvio",
+        "台灣健保"
+      ],
+      "summary": "FDA 核准首款每日口服 PCSK9 抑制劑 Lipfendra，兩項第三期試驗在第 24 週降低 LDL-C 56% 與 59%。但口服不等於針劑退場：心血管硬終點、每日空腹依從性、保險准入與台灣核准，才會決定市場如何重切。",
+      "alternate_language_versions": {
+        "en": "2026-08-26-merck-lipfendra-oral-pcsk9-en.html"
+      }
+    },
     {
       "title": "The Stronger the Backbone, the More Valuable the Missing Layer: Can Anbogen's ABT-301 Enter the Next Wave of Oncology BD?",
       "date": "2026-08-25",
@@ -770,50 +816,6 @@
       "alternate_language_versions": {
         "en": "2026-08-12-bio-genesis-mission-ai-drug-rd-en.html"
       }
-    },
-    {
-      "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
-      "date": "2026-08-11",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "AnBogen Therapeutics",
-        "ABT-301",
-        "imofinostat",
-        "HDAC inhibitor",
-        "Chidamide",
-        "pMMR colorectal cancer",
-        "cancer immunotherapy",
-        "Taiwan biotech"
-      ],
-      "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html"
-      }
-    },
-    {
-      "title": "20年後，HDAC抑制劑終於找到真正的位置？ABT-301能否成為下一代聯合治療骨幹",
-      "date": "2026-08-11",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "安邦生技",
-        "ABT-301",
-        "imofinostat",
-        "HDAC抑制劑",
-        "Chidamide",
-        "pMMR大腸直腸癌",
-        "癌症免疫治療",
-        "台灣生技"
-      ],
-      "summary": "Chidamide以pMMR大腸癌44% ORR與黑色素瘤第三期PFS達標，重新降低HDAC抑制劑的類別風險；安邦ABT-301接下來必須用治療窗口、三聯可組合性與人體免疫機轉，證明資產差異。",
-      "alternate_language_versions": {
-        "en": "2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html"
-      }
     }
   ],
   "entities": [
@@ -858,7 +860,7 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 24,
+      "mentions": 23,
       "latest_date": "2026-08-08",
       "latest_articles": [
         {
@@ -889,44 +891,6 @@
           "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
           "date": "2026-07-15",
           "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "臨床數據",
-      "type": "market_topic",
-      "mentions": 21,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
           "language": "zh-Hant"
         }
       ]
@@ -966,6 +930,44 @@
           "date": "2026-08-03",
           "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "臨床數據",
+      "type": "market_topic",
+      "mentions": 20,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1160,44 +1162,6 @@
       ]
     },
     {
-      "name": "GLP-1",
-      "type": "biotech_concept_or_target",
-      "mentions": 12,
-      "latest_date": "2026-08-18",
-      "latest_articles": [
-        {
-          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "BD",
       "type": "market_topic",
       "mentions": 12,
@@ -1312,9 +1276,47 @@
       ]
     },
     {
+      "name": "GLP-1",
+      "type": "biotech_concept_or_target",
+      "mentions": 10,
+      "latest_date": "2026-08-18",
+      "latest_articles": [
+        {
+          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
+          "language": "en"
+        },
+        {
+          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "製藥巨頭",
       "type": "market_topic",
-      "mentions": 11,
+      "mentions": 10,
       "latest_date": "2026-07-25",
       "latest_articles": [
         {
@@ -1350,39 +1352,39 @@
       ]
     },
     {
-      "name": "Roche",
+      "name": "Merck",
       "type": "company",
-      "mentions": 10,
-      "latest_date": "2026-08-20",
+      "mentions": 9,
+      "latest_date": "2026-08-26",
       "latest_articles": [
         {
-          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+          "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
+          "date": "2026-08-26",
+          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
           "language": "en"
         },
         {
-          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
+          "date": "2026-08-21",
+          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
           "language": "en"
         },
         {
-          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "title": "再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%",
+          "date": "2026-08-21",
+          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html",
           "language": "zh-Hant"
         },
         {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
           "language": "en"
         }
       ]
@@ -1426,6 +1428,44 @@
       ]
     },
     {
+      "name": "Roche",
+      "type": "company",
+      "mentions": 9,
+      "latest_date": "2026-08-20",
+      "latest_articles": [
+        {
+          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+          "language": "en"
+        },
+        {
+          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "oncology",
       "type": "topic",
       "mentions": 8,
@@ -1459,82 +1499,6 @@
           "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
           "date": "2026-07-14",
           "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Merck",
-      "type": "company",
-      "mentions": 8,
-      "latest_date": "2026-08-21",
-      "latest_articles": [
-        {
-          "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
-          "date": "2026-08-21",
-          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%",
-          "date": "2026-08-21",
-          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
-          "language": "en"
-        },
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Eli Lilly",
-      "type": "company",
-      "mentions": 8,
-      "latest_date": "2026-08-20",
-      "latest_articles": [
-        {
-          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
           "language": "en"
         }
       ]
@@ -1611,6 +1575,82 @@
           "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
           "date": "2026-07-10",
           "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Novartis",
+      "type": "company",
+      "mentions": 7,
+      "latest_date": "2026-08-26",
+      "latest_articles": [
+        {
+          "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
+          "date": "2026-08-26",
+          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元併購新狂潮",
+          "date": "2026-07-16",
+          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Eli Lilly",
+      "type": "company",
+      "mentions": 7,
+      "latest_date": "2026-08-20",
+      "latest_articles": [
+        {
+          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
+          "language": "en"
+        },
+        {
+          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
           "language": "en"
         }
       ]
@@ -1954,44 +1994,6 @@
           "date": "2026-07-06",
           "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Novartis",
-      "type": "company",
-      "mentions": 6,
-      "latest_date": "2026-07-29",
-      "latest_articles": [
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Big Pharma's New $10 Billion M&A Wave: Why Differentiation Now Beats Scale and Hype",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元併購新狂潮",
-          "date": "2026-07-16",
-          "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
         }
       ]
     },
@@ -3054,32 +3056,6 @@
       ]
     },
     {
-      "name": "Pfizer",
-      "type": "company",
-      "mentions": 3,
-      "latest_date": "2026-08-16",
-      "latest_articles": [
-        {
-          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "biopharma M&A",
       "type": "topic",
       "mentions": 3,
@@ -3101,32 +3077,6 @@
           "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
           "date": "2026-07-27",
           "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Novo Nordisk",
-      "type": "company",
-      "mentions": 3,
-      "latest_date": "2026-08-13",
-      "latest_articles": [
-        {
-          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
-          "language": "en"
-        },
-        {
-          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
           "language": "en"
         }
       ]
@@ -3231,32 +3181,6 @@
           "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
           "date": "2026-06-25",
           "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "AstraZeneca",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-08-04",
-      "latest_articles": [
-        {
-          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
-          "language": "en"
-        },
-        {
-          "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
           "language": "en"
         }
       ]
@@ -3392,59 +3316,145 @@
       ]
     },
     {
-      "name": "Biotech investing",
+      "name": "心血管",
       "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-06-30",
+      "mentions": 2,
+      "latest_date": "2026-08-26",
       "latest_articles": [
         {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
+          "title": "默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？",
+          "date": "2026-08-26",
+          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "cardiovascular outcomes",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-26",
+      "latest_articles": [
+        {
+          "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
+          "date": "2026-08-26",
+          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
           "language": "en"
         },
         {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
           "language": "en"
         }
       ]
     },
     {
-      "name": "Capital markets",
-      "type": "market_topic",
-      "mentions": 3,
-      "latest_date": "2026-06-29",
+      "name": "enlicitide",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-26",
       "latest_articles": [
         {
-          "title": "The Largest Biotech IPO in US Market History: What Parabilis Is Really Teaching Investors",
-          "date": "2026-06-29",
-          "url": "https://drugnews.com.tw/articles/2026-06-29-biotech-ipo-en.html",
+          "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
+          "date": "2026-08-26",
+          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
           "language": "en"
         },
         {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
+          "title": "默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？",
+          "date": "2026-08-26",
+          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Leqvio",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-26",
+      "latest_articles": [
+        {
+          "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
+          "date": "2026-08-26",
+          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
           "language": "en"
         },
         {
-          "title": "The Race for the Third Obesity-Drug Giant: Who Comes After Lilly and Novo Nordisk?",
-          "date": "2026-06-22",
-          "url": "https://drugnews.com.tw/articles/2026-06-22-obesity-drug-third-place-competition-en.html",
+          "title": "默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？",
+          "date": "2026-08-26",
+          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Lipfendra",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-26",
+      "latest_articles": [
+        {
+          "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
+          "date": "2026-08-26",
+          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
           "language": "en"
+        },
+        {
+          "title": "默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？",
+          "date": "2026-08-26",
+          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html",
+          "language": "zh-Hant"
         }
       ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
+      "date": "2026-08-26",
+      "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Merck",
+        "Lipfendra",
+        "enlicitide",
+        "PCSK9",
+        "LDL cholesterol",
+        "cardiovascular outcomes",
+        "Novartis",
+        "Leqvio"
+      ],
+      "summary": "Lipfendra is the first FDA-approved oral PCSK9 inhibitor, lowering LDL-C by 56% and 59% in two Phase 3 trials. Oral dosing opens a major market, but cardiovascular outcomes, fasting adherence, payer access and Taiwan approval will decide whether it expands the category or displaces injections."
+    },
+    {
+      "title": "默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？",
+      "date": "2026-08-26",
+      "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "默沙東",
+        "Lipfendra",
+        "enlicitide",
+        "PCSK9",
+        "膽固醇",
+        "心血管",
+        "諾華",
+        "Leqvio"
+      ],
+      "summary": "FDA 核准首款每日口服 PCSK9 抑制劑 Lipfendra，兩項第三期試驗在第 24 週降低 LDL-C 56% 與 59%。但口服不等於針劑退場：心血管硬終點、每日空腹依從性、保險准入與台灣核准，才會決定市場如何重切。"
+    },
     {
       "title": "The Stronger the Backbone, the More Valuable the Missing Layer: Can Anbogen's ABT-301 Enter the Next Wave of Oncology BD?",
       "date": "2026-08-25",
@@ -3482,25 +3492,6 @@
         "台灣生技"
       ],
       "summary": "大藥廠正為主藥旁的增量療效付費。安邦ABT-301已完成Phase I，接下來由CRC三聯的療效、劑量持續性、耐久性與biomarker決定其能否走向Combination Layer與大型藥廠合作。"
-    },
-    {
-      "title": "Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business",
-      "date": "2026-08-24",
-      "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Curium",
-        "Lantheus",
-        "radiopharma",
-        "theranostics",
-        "PSMA",
-        "PYLARIFY",
-        "Pluvicto",
-        "M&A"
-      ],
-      "summary": "The $7 billion Curium-Lantheus rumor covered in June became a definitive agreement on August 3: $102.50 in cash plus up to $12.00 per share in CVRs, for total consideration of up to $8 billion. The strategic prize is an integrated chain spanning isotopes, manufacturing, distribution, diagnostics, therapy and U.S. hospital access."
     },
     {
       "title": "核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額",
@@ -3769,25 +3760,6 @@
       "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
     },
     {
-      "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
-      "date": "2026-08-13",
-      "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Intelligene",
-        "RNA delivery",
-        "oligonucleotide therapeutics",
-        "siRNA",
-        "ASO",
-        "extracellular vesicles",
-        "LNP",
-        "extrahepatic delivery"
-      ],
-      "summary": "Oligonucleotide therapeutics are moving from sequence design to extrahepatic delivery. Intelligene is using EV and LNP platforms to target the lung and airways, testing whether RNA medicines can truly reach disease sites beyond the liver."
-    },
-    {
       "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
       "date": "2026-08-13",
       "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
@@ -3845,25 +3817,6 @@
       "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。"
     },
     {
-      "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
-      "date": "2026-08-11",
-      "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "AnBogen Therapeutics",
-        "ABT-301",
-        "imofinostat",
-        "HDAC inhibitor",
-        "Chidamide",
-        "pMMR colorectal cancer",
-        "cancer immunotherapy",
-        "Taiwan biotech"
-      ],
-      "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone."
-    },
-    {
       "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
       "date": "2026-08-10",
       "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
@@ -3900,24 +3853,6 @@
         "GSK"
       ],
       "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff."
-    },
-    {
-      "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
-      "date": "2026-08-09",
-      "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "Psoriasis",
-        "IL-23R",
-        "Oral Peptide",
-        "Drug Commercialization"
-      ],
-      "summary": "ICOTYDE logged more than 18,000 prescriptions in its first full quarter. The oral IL-23R peptide has earned entry into the high-efficacy psoriasis market, but durable value still depends on paid fills, persistence, payer quality, safety, and additional indications."
     },
     {
       "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
@@ -3977,25 +3912,6 @@
       "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives."
     },
     {
-      "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
-      "date": "2026-08-05",
-      "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Alnylam",
-        "Amvuttra",
-        "RNAi",
-        "ATTR",
-        "小核酸藥物",
-        "生技股",
-        "合一",
-        "中天"
-      ],
-      "summary": "Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。"
-    },
-    {
       "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
       "date": "2026-08-04",
       "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
@@ -4013,6 +3929,63 @@
         "專利懸崖"
       ],
       "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。"
+    },
+    {
+      "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+      "date": "2026-08-03",
+      "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "Alzheimer's disease",
+        "tau",
+        "diranersen",
+        "BIIB080",
+        "IONIS-MAPTRx",
+        "Biogen",
+        "Ionis",
+        "antisense oligonucleotide"
+      ],
+      "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
+    },
+    {
+      "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+      "date": "2026-08-03",
+      "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "阿茲海默症",
+        "Tau",
+        "Diranersen",
+        "BIIB080",
+        "IONIS-MAPTRx",
+        "Biogen",
+        "Ionis",
+        "反義寡核苷酸"
+      ],
+      "summary": "CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。"
+    },
+    {
+      "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+      "date": "2026-08-02",
+      "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Business Analysis",
+      "tags": [
+        "alopecia areata",
+        "bempikibart",
+        "Q32 Bio",
+        "QTTB",
+        "IL-7Rα",
+        "JAK inhibitors",
+        "SALT",
+        "biotech valuation"
+      ],
+      "summary": "Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors."
     }
   ]
 }

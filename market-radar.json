@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-24T18:12:18.627Z",
+  "generated_at": "2026-08-26T02:17:00.632Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -117,8 +117,147 @@
   },
   "buckets": [
     {
+      "name": "臨床與法規催化",
+      "count": 7,
+      "articles": [
+        {
+          "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
+          "date": "2026-08-26",
+          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Merck",
+            "Lipfendra",
+            "enlicitide",
+            "PCSK9",
+            "LDL cholesterol",
+            "cardiovascular outcomes",
+            "Novartis",
+            "Leqvio"
+          ],
+          "summary": "Lipfendra is the first FDA-approved oral PCSK9 inhibitor, lowering LDL-C by 56% and 59% in two Phase 3 trials. Oral dosing opens a major market, but cardiovascular outcomes, fasting adherence, payer access and Taiwan approval will decide whether it expands the category or displaces injections."
+        },
+        {
+          "title": "默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？",
+          "date": "2026-08-26",
+          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "默沙東",
+            "Lipfendra",
+            "enlicitide",
+            "PCSK9",
+            "膽固醇",
+            "心血管",
+            "諾華",
+            "Leqvio"
+          ],
+          "summary": "FDA 核准首款每日口服 PCSK9 抑制劑 Lipfendra，兩項第三期試驗在第 24 週降低 LDL-C 56% 與 59%。但口服不等於針劑退場：心血管硬終點、每日空腹依從性、保險准入與台灣核准，才會決定市場如何重切。"
+        },
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Business Analysis",
+            "GSK",
+            "camlipixant",
+            "P2X3",
+            "refractory chronic cough",
+            "CALM-1",
+            "CALM-2",
+            "Phase 3"
+          ],
+          "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together."
+        },
+        {
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "GSK",
+            "camlipixant",
+            "P2X3",
+            "慢性咳嗽",
+            "CALM-1",
+            "CALM-2",
+            "臨床三期",
+            "新藥研發"
+          ],
+          "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
+        },
+        {
+          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Novo Nordisk",
+            "ziltivekimab",
+            "ZEUS",
+            "MACE",
+            "IL-6",
+            "hsCRP",
+            "cardiovascular outcomes",
+            "Phase 3"
+          ],
+          "summary": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE."
+        },
+        {
+          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "argenx",
+            "Forte Biosciences",
+            "FB102",
+            "VYVGART",
+            "CD122",
+            "autoimmune disease",
+            "vitiligo",
+            "celiac disease"
+          ],
+          "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat."
+        },
+        {
+          "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Alzheimer's disease",
+            "tau",
+            "diranersen",
+            "BIIB080",
+            "IONIS-MAPTRx",
+            "Biogen",
+            "Ionis",
+            "antisense oligonucleotide"
+          ],
+          "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
+        }
+      ]
+    },
+    {
       "name": "腫瘤精準治療",
-      "count": 8,
+      "count": 7,
       "articles": [
         {
           "title": "The Stronger the Backbone, the More Valuable the Missing Layer: Can Anbogen's ABT-301 Enter the Next Wave of Oncology BD?",
@@ -235,25 +374,6 @@
           "summary": "BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop."
         },
         {
-          "title": "After 20 Years, Have HDAC Inhibitors Finally Found Their Role? Why ABT-301 Could Become a Next-Generation Combination Backbone",
-          "date": "2026-08-11",
-          "url": "https://drugnews.com.tw/articles/2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "AnBogen Therapeutics",
-            "ABT-301",
-            "imofinostat",
-            "HDAC inhibitor",
-            "Chidamide",
-            "pMMR colorectal cancer",
-            "cancer immunotherapy",
-            "Taiwan biotech"
-          ],
-          "summary": "Chidamide has brought HDAC inhibition back into solid-tumor development. ABT-301 must now show that a wider therapeutic window, triplet combinability, and human immune-mechanism data can support a next-generation combination backbone."
-        },
-        {
           "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
           "date": "2026-08-04",
           "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
@@ -275,28 +395,53 @@
       ]
     },
     {
-      "name": "AI 製藥與新技術",
-      "count": 12,
+      "name": "CMC / 商業化風險",
+      "count": 2,
       "articles": [
         {
-          "title": "Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business",
+          "title": "核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額",
           "date": "2026-08-24",
-          "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html",
+          "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Curium",
+            "Lantheus",
+            "核藥",
+            "放射性藥物",
+            "診療一體化",
+            "PSMA",
+            "PYLARIFY",
+            "Pluvicto"
+          ],
+          "summary": "6 月官網追蹤的 Curium–Lantheus 70 億美元收購傳聞，已在 8 月 3 日推進為最終合併協議：每股 102.50 美元現金加最高 12 美元 CVR，總交易價值最高約 80 億美元。真正被整合的是核素、製造、配送、診斷、治療與美國院端網絡。"
+        },
+        {
+          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
+          "date": "2026-08-05",
+          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
           "language": "en",
           "category": "商業分析",
           "access": "Business Analysis",
           "tags": [
-            "Curium",
-            "Lantheus",
-            "radiopharma",
-            "theranostics",
-            "PSMA",
-            "PYLARIFY",
-            "Pluvicto",
-            "M&A"
+            "Alnylam",
+            "Amvuttra",
+            "RNA interference",
+            "ATTR amyloidosis",
+            "small nucleic acid drugs",
+            "biotech valuation",
+            "Taiwan biotech",
+            "clinical data"
           ],
-          "summary": "The $7 billion Curium-Lantheus rumor covered in June became a definitive agreement on August 3: $102.50 in cash plus up to $12.00 per share in CVRs, for total consideration of up to $8 billion. The strategic prize is an integrated chain spanning isotopes, manufacturing, distribution, diagnostics, therapy and U.S. hospital access."
-        },
+          "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives."
+        }
+      ]
+    },
+    {
+      "name": "BD / 授權與併購",
+      "count": 4,
+      "articles": [
         {
           "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
           "date": "2026-08-23",
@@ -336,6 +481,50 @@
           "summary": "2026 年的生技併購資金，正集中到臨床風險開始下降、商業價值尚未完全定價的公司。從 Alkermes、Dyne、First Tracks、Legend 到 Sail，再回看國邑與仁新，真正值得追的是人體概念驗證、平台外延、商業化距離與買方策略契合度。"
         },
         {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "生技併購",
+            "藥廠併購",
+            "專利懸崖",
+            "Eli Lilly",
+            "Merck",
+            "AbbVie",
+            "Gilead",
+            "GSK"
+          ],
+          "summary": "2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "biopharma M&A",
+            "pharma acquisitions",
+            "patent cliff",
+            "Eli Lilly",
+            "Merck",
+            "AbbVie",
+            "Gilead",
+            "GSK"
+          ],
+          "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff."
+        }
+      ]
+    },
+    {
+      "name": "AI 製藥與新技術",
+      "count": 4,
+      "articles": [
+        {
           "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
           "date": "2026-08-20",
           "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
@@ -353,44 +542,6 @@
             "台灣供應鏈"
           ],
           "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。"
-        },
-        {
-          "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Intelligene",
-            "RNA delivery",
-            "oligonucleotide therapeutics",
-            "siRNA",
-            "ASO",
-            "extracellular vesicles",
-            "LNP",
-            "extrahepatic delivery"
-          ],
-          "summary": "Oligonucleotide therapeutics are moving from sequence design to extrahepatic delivery. Intelligene is using EV and LNP platforms to target the lung and airways, testing whether RNA medicines can truly reach disease sites beyond the liver."
-        },
-        {
-          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Novo Nordisk",
-            "ziltivekimab",
-            "ZEUS",
-            "MACE",
-            "IL-6",
-            "hsCRP",
-            "cardiovascular outcomes",
-            "Phase 3"
-          ],
-          "summary": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE."
         },
         {
           "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
@@ -431,24 +582,6 @@
           "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。"
         },
         {
-          "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
-          "date": "2026-08-09",
-          "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "ICOTYDE",
-            "icotrokinra",
-            "Johnson & Johnson",
-            "Psoriasis",
-            "IL-23R",
-            "Oral Peptide",
-            "Drug Commercialization"
-          ],
-          "summary": "ICOTYDE logged more than 18,000 prescriptions in its first full quarter. The oral IL-23R peptide has earned entry into the high-efficacy psoriasis market, but durable value still depends on paid fills, persistence, payer quality, safety, and additional indications."
-        },
-        {
           "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
           "date": "2026-08-06",
           "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
@@ -466,69 +599,6 @@
             "Veradermics"
           ],
           "summary": "Lilly has placed a $40 million bet on next-generation hair-loss drugs. With roughly 80 million U.S. patients still constrained by two legacy therapies, AH-001's Phase 2 data could become the next global asset-revaluation trigger."
-        },
-        {
-          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
-          "date": "2026-08-05",
-          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Alnylam",
-            "Amvuttra",
-            "RNA interference",
-            "ATTR amyloidosis",
-            "small nucleic acid drugs",
-            "biotech valuation",
-            "Taiwan biotech",
-            "clinical data"
-          ],
-          "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives."
-        },
-        {
-          "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
-          "date": "2026-08-05",
-          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Alnylam",
-            "Amvuttra",
-            "RNAi",
-            "ATTR",
-            "小核酸藥物",
-            "生技股",
-            "合一",
-            "中天"
-          ],
-          "summary": "Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。"
-        }
-      ]
-    },
-    {
-      "name": "CMC / 商業化風險",
-      "count": 1,
-      "articles": [
-        {
-          "title": "核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額",
-          "date": "2026-08-24",
-          "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Curium",
-            "Lantheus",
-            "核藥",
-            "放射性藥物",
-            "診療一體化",
-            "PSMA",
-            "PYLARIFY",
-            "Pluvicto"
-          ],
-          "summary": "6 月官網追蹤的 Curium–Lantheus 70 億美元收購傳聞，已在 8 月 3 日推進為最終合併協議：每股 102.50 美元現金加最高 12 美元 CVR，總交易價值最高約 80 億美元。真正被整合的是核素、製造、配送、診斷、治療與美國院端網絡。"
         }
       ]
     },
@@ -615,109 +685,52 @@
       ]
     },
     {
-      "name": "臨床與法規催化",
-      "count": 3,
+      "name": "其他市場訊號",
+      "count": 1,
       "articles": [
         {
-          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
-          "date": "2026-08-15",
-          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Free Article",
-          "tags": [
-            "Business Analysis",
-            "GSK",
-            "camlipixant",
-            "P2X3",
-            "refractory chronic cough",
-            "CALM-1",
-            "CALM-2",
-            "Phase 3"
-          ],
-          "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together."
-        },
-        {
-          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
-          "date": "2026-08-15",
-          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
           "language": "zh-Hant",
           "category": "商業分析",
           "access": "商業分析文",
           "tags": [
-            "GSK",
-            "camlipixant",
-            "P2X3",
-            "慢性咳嗽",
-            "CALM-1",
-            "CALM-2",
-            "臨床三期",
-            "新藥研發"
+            "阿茲海默症",
+            "Tau",
+            "Diranersen",
+            "BIIB080",
+            "IONIS-MAPTRx",
+            "Biogen",
+            "Ionis",
+            "反義寡核苷酸"
           ],
-          "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
-        },
-        {
-          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
-          "date": "2026-08-07",
-          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "argenx",
-            "Forte Biosciences",
-            "FB102",
-            "VYVGART",
-            "CD122",
-            "autoimmune disease",
-            "vitiligo",
-            "celiac disease"
-          ],
-          "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat."
+          "summary": "CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。"
         }
       ]
     },
     {
-      "name": "BD / 授權與併購",
-      "count": 2,
+      "name": "估值與資本市場",
+      "count": 1,
       "articles": [
         {
-          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "生技併購",
-            "藥廠併購",
-            "專利懸崖",
-            "Eli Lilly",
-            "Merck",
-            "AbbVie",
-            "Gilead",
-            "GSK"
-          ],
-          "summary": "2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
+          "date": "2026-08-02",
+          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
           "language": "en",
           "category": "商業分析",
           "access": "Business Analysis",
           "tags": [
-            "biopharma M&A",
-            "pharma acquisitions",
-            "patent cliff",
-            "Eli Lilly",
-            "Merck",
-            "AbbVie",
-            "Gilead",
-            "GSK"
+            "alopecia areata",
+            "bempikibart",
+            "Q32 Bio",
+            "QTTB",
+            "IL-7Rα",
+            "JAK inhibitors",
+            "SALT",
+            "biotech valuation"
           ],
-          "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff."
+          "summary": "Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors."
         }
       ]
     }

@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/merck-lipfendra-oral-pcsk9-en/cover.png</image:loc>
+      <image:caption>Lipfendra daily oral dosing and Leqvio infrequent injection as competing PCSK9 treatment routines</image:caption>
+      <image:title>Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/merck-lipfendra-oral-pcsk9-en/figure-01.png</image:loc>
+      <image:caption>Figure 1 | Lipfendra brings oral dosing to a PCSK9 market built around injections, but it does not make injectable therapies obsolete</image:caption>
+      <image:title>Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/merck-lipfendra-oral-pcsk9-en/figure-02.png</image:loc>
+      <image:caption>Figure 2 | Lipfendra blocks PCSK9 from binding the LDL receptor, preserving receptors on the liver-cell surface</image:caption>
+      <image:title>Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/merck-lipfendra-oral-pcsk9-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | Daily oral therapy, infrequent provider-administered dosing and antibodies with cardiovascular outcomes evidence represent different adherence and evidence models</image:caption>
+      <image:title>Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/merck-lipfendra-oral-pcsk9-en/figure-04.png</image:loc>
+      <image:caption>Figure 4 | Oral PCSK9 therapy must clear four gates: LDL-C lowering, cardiovascular outcomes, physician and payer access, and Taiwan approval and reimbursement</image:caption>
+      <image:title>Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/merck-lipfendra-oral-pcsk9/cover.png</image:loc>
+      <image:caption>默沙東 Lipfendra 每日口服與 Leqvio 低頻注射兩條 PCSK9 降脂路徑</image:caption>
+      <image:title>默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/merck-lipfendra-oral-pcsk9/figure-01.png</image:loc>
+      <image:caption>圖 1｜默沙東把原本由注射主導的 PCSK9 靶點做成每日口服藥，但口服不等於針劑退場</image:caption>
+      <image:title>默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/merck-lipfendra-oral-pcsk9/figure-02.png</image:loc>
+      <image:caption>圖 2｜Lipfendra 阻止 PCSK9 與 LDL 受體結合，讓受體留在肝細胞表面清除更多 LDL-C</image:caption>
+      <image:title>默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/merck-lipfendra-oral-pcsk9/figure-03.png</image:loc>
+      <image:caption>圖 3｜每日口服、院所低頻注射與已有硬終點證據的 PCSK9 單抗，是三套不同的依從性與證據邏輯</image:caption>
+      <image:title>默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/merck-lipfendra-oral-pcsk9/figure-04.png</image:loc>
+      <image:caption>圖 4｜口服 PCSK9 從 LDL-C 降幅走到真實市場，仍要通過心血管硬終點、醫師與支付准入、台灣核准與健保四道門</image:caption>
+      <image:title>默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/anbogen-abt-301-combination-layer-tokyo-comparative-oncology-en/cover.png</image:loc>

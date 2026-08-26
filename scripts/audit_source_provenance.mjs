@@ -7,6 +7,28 @@ const ROOT = process.cwd();
 const MANIFEST = path.join(ROOT, "content", "source-provenance.json");
 const slugArg = process.argv.find((arg) => arg.startsWith("--slug="))?.slice(7);
 
+async function readable(file) {
+  try {
+    await fs.access(file);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function resolveSourcePath(configuredPath) {
+  const portablePath = String(configuredPath || "").replace(/^(\.\.[/\\])+/, "");
+  const candidates = [path.resolve(ROOT, configuredPath)];
+  if (path.basename(path.dirname(ROOT)) === ".worktrees") {
+    candidates.push(path.resolve(ROOT, "../..", portablePath));
+  }
+  candidates.push(path.resolve(ROOT, "..", portablePath));
+  for (const candidate of [...new Set(candidates)]) {
+    if (await readable(candidate)) return candidate;
+  }
+  throw new Error(`Source file not found: ${configuredPath}`);
+}
+
 function textOf(markdown) {
   return String(markdown || "")
     .replace(/^---[\s\S]*?---\s*/m, "")
@@ -36,20 +58,29 @@ function coverage(article, source, size) {
 
 async function check(record) {
   const articlePath = path.join(ROOT, "content", "published", record.slug, "article.md");
-  const longPath = path.resolve(ROOT, record.canonical_source.path);
-  const shortPath = path.resolve(ROOT, record.short_form_comparator.path);
+  const longPath = await resolveSourcePath(record.canonical_source.path);
+  const shortPath = record.short_form_comparator?.path
+    ? await resolveSourcePath(record.short_form_comparator.path)
+    : null;
   const [article, longform, shortform] = await Promise.all([
-    fs.readFile(articlePath, "utf8"), fs.readFile(longPath, "utf8"), fs.readFile(shortPath, "utf8")
+    fs.readFile(articlePath, "utf8"),
+    fs.readFile(longPath, "utf8"),
+    shortPath ? fs.readFile(shortPath, "utf8") : Promise.resolve("")
   ]);
   const articleChars = [...textOf(article)].length;
   const longChars = [...textOf(longform)].length;
   const ratio = Number((articleChars / longChars).toFixed(4));
   const ngramSize = record.ngram_size || 5;
   const longCoverage = coverage(article, longform, ngramSize);
-  const shortCoverage = coverage(article, shortform, ngramSize);
+  const shortCoverage = shortPath ? coverage(article, shortform, ngramSize) : null;
   const issues = [];
   if (ratio < record.min_longform_char_ratio) issues.push(`body ratio ${ratio} is below long-form minimum ${record.min_longform_char_ratio}`);
-  if (shortCoverage >= longCoverage) issues.push(`article is at least as close to short form (${shortCoverage}) as canonical long form (${longCoverage})`);
+  if (record.min_longform_ngram_coverage && longCoverage < record.min_longform_ngram_coverage) {
+    issues.push(`long-form n-gram coverage ${longCoverage} is below minimum ${record.min_longform_ngram_coverage}`);
+  }
+  if (shortCoverage !== null && shortCoverage >= longCoverage) {
+    issues.push(`article is at least as close to short form (${shortCoverage}) as canonical long form (${longCoverage})`);
+  }
   return {
     slug: record.slug,
     canonical_source: record.canonical_source,

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-26T00:00:00.000Z</news:publication_date>
+      <news:title>Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-26T00:00:00.000Z</news:publication_date>
+      <news:title>默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology-en.html</loc>
     <news:news>
       <news:publication>
@@ -20,50 +42,6 @@
       </news:publication>
       <news:publication_date>2026-08-24T18:10:00.000Z</news:publication_date>
       <news:title>主藥越強，旁邊缺的那一層越值錢：安邦ABT-301能否進入下一輪腫瘤BD名單？</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-24T00:00:00.000Z</news:publication_date>
-      <news:title>Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-24T00:00:00.000Z</news:publication_date>
-      <news:title>核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-23T00:00:00.000Z</news:publication_date>
-      <news:title>Who Could Be Big Pharma&apos;s Next Major Biotech Acquisition?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-23T00:00:00.000Z</news:publication_date>
-      <news:title>Biotech 下一筆重磅併購，會落在誰身上？</news:title>
     </news:news>
   </url>
 </urlset>

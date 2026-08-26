@@ -4,15 +4,24 @@
     {
       "slug": "icotyde-oral-il23r-launch",
       "canonical_source": {
-        "platform": "facebook_dcard_longform",
-        "path": "../六篇排程_20260719/02_ICOTYDE_口服IL23R/01_FB_Dcard長文_最終稿.md",
-        "content_status": "PASS 98 P0=0 P1=0"
+        "platform": "website_public_longform_recovery",
+        "path": "content/provenance-sources/icotyde-oral-il23r-launch/public-longform-recovery.md",
+        "content_status": "Portable recovery snapshot retained after the original external package was archived"
       },
-      "short_form_comparator": {
-        "platform": "cmoney",
-        "path": "../六篇排程_20260719/02_ICOTYDE_口服IL23R/02_CMoney正文_最終稿.md"
+      "min_longform_char_ratio": 0.7,
+      "min_longform_ngram_coverage": 0.45,
+      "ngram_size": 5
+    },
+    {
+      "slug": "merck-lipfendra-oral-pcsk9",
+      "canonical_source": {
+        "platform": "facebook_public_longform",
+        "path": "content/published/merck-lipfendra-oral-pcsk9/sources/approved-facebook-longform.md",
+        "url": "https://www.facebook.com/61568446257142/posts/122183682188614875",
+        "content_status": "Public E4 readback on 2026-08-26; four visible images"
       },
       "min_longform_char_ratio": 0.85,
+      "min_longform_ngram_coverage": 0.55,
       "ngram_size": 5
     }
   ]
