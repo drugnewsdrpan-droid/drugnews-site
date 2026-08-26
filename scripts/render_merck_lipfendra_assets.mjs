@@ -33,7 +33,7 @@ const lines = (x, y, values, size, gap, weight = 600, fill = ink, anchor = "star
 const card = (x, y, width, height, stroke = "#D6E4E9", fill = "#FFFFFF", radius = 28) =>
   `<rect x="${x}" y="${y}" width="${width}" height="${height}" rx="${radius}" fill="${fill}" stroke="${stroke}" stroke-width="2" filter="url(#shadow)"/>`;
 
-const base = (body) => `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img">
+const base = (body, brandX = 1588) => `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="${pale}"/></linearGradient>
     <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${navy}"/><stop offset="1" stop-color="#245A72"/></linearGradient>
@@ -45,7 +45,7 @@ const base = (body) => `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" hei
   <circle cx="1570" cy="80" r="250" fill="${teal}" opacity="0.05"/>
   <circle cx="80" cy="900" r="250" fill="${coral}" opacity="0.05"/>
   ${body}
-  ${text(1588, 895, "DRUGNEWS", 24, 800, navy, "end")}
+  ${text(brandX, 895, "DRUGNEWS", 24, 800, navy, "end")}
 </svg>`;
 
 const header = (eyebrow, titleValue, subtitle) => `
@@ -140,7 +140,7 @@ const gatesSvg = base(`
   ${gate(1258, "4", "Taiwan", ["TFDA approval", "and NHI coverage"], gold)}
   <rect x="174" y="786" width="1324" height="94" rx="26" fill="${navy}"/>
   ${text(836, 844, "U.S. approval does not mean Lipfendra is available or reimbursed in Taiwan.", 28, 700, "#FFFFFF", "middle")}
-`);
+`, 1520);
 
 async function writePng(svg, destination) {
   await sharp(Buffer.from(svg)).png({ compressionLevel: 9 }).toFile(destination);

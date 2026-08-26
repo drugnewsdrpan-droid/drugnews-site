@@ -67,7 +67,7 @@ The guideline was released before Lipfendra’s approval. It could not have endo
 
 ## 4 | Merck and Novartis Are Selling Different Treatment Experiences
 
-Merck is not promising an immediate launch spike. Chief executive Rob Davis told investors that access will take time and Lipfendra is unlikely to ramp rapidly out of the gate, even as the company sees long-term blockbuster potential.
+Merck listed Lipfendra's FDA approval as a key second-quarter milestone and linked new-product launches with its long-term growth trajectory. Approval alone does not guarantee a rapid ramp: physician adoption, payer access and real-world commercialization still need to be demonstrated.
 
 That caution is realistic. A new drug must enter formularies, pharmacies and clinical workflows; payers must agree to cover it; physicians must learn when to use it; and patients must maintain the fasting routine. Novelty does not rewrite a prescribing system overnight.
 
@@ -108,7 +108,7 @@ Merck has secured entry into the first round of oral PCSK9 competition. Whether 
 3. [FDA | First Oral PCSK9 Inhibitor](https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol)
 4. [Lipfendra | FDA-approved prescribing information](https://www.merck.com/product/usa/pi_circulars/l/lipfendra/lipfendra_pi.pdf)
 5. [Merck | FDA approval announcement](https://www.merck.com/news/mercks-lipfendra-enlicitide-is-the-first-and-only-once-daily-oral-pcsk9-inhibitor-approved-by-the-u-s-fda-to-reduce-ldl-c-in-adults-with-hypercholesterolemia/)
-6. [Merck | Q2 2026 earnings presentation](https://www.merck.com/wp-content/uploads/sites/124/2026/08/2Q26-Merck-Earnings-Presentation.pdf)
+6. [Merck | Q2 2026 earnings release (SEC 8-K Exhibit 99.1)](https://www.sec.gov/Archives/edgar/data/310158/000110465926090045/tm2621496d1_ex99-1.htm)
 7. [CORALreef Lipids | NCT05952856](https://clinicaltrials.gov/study/NCT05952856)
 8. [CORALreef HeFH | NCT05952869](https://clinicaltrials.gov/study/NCT05952869)
 9. [CORALreef Outcomes | NCT06008756](https://clinicaltrials.gov/study/NCT06008756)

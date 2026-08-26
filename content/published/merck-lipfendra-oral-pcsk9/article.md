@@ -79,7 +79,7 @@ Leqvio 也在等自己的專屬結局資料。諾華在第二季簡報中預期 
 
 默沙東自己沒有把上市初期說得太樂觀。
 
-公司執行長 Rob Davis 在第二季財報電話會議上直說，准入需要時間，Lipfendra 不會一出門就快速放量；但從長期看，公司仍相信它具備重磅藥物潛力。
+默沙東在第二季財報中把 Lipfendra 的 FDA 核准列為關鍵里程碑，並把新產品上市與長期成長連在一起。但核准不等於快速放量；醫師採用、支付准入與實際商業化速度，仍要逐步驗證。
 
 這是很現實的判斷。新藥要進醫院與藥局、談保險給付、教育醫師，還要讓患者願意每天照規則服用。第一款口服 PCSK9 有新鮮感，處方系統卻不會一夜改寫。
 
@@ -124,7 +124,7 @@ Lipfendra 最厲害的地方，是它證明原本由注射主導的 PCSK9 靶點
 3. [FDA｜First Oral PCSK9 Inhibitor](https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol)
 4. [Lipfendra｜FDA-approved prescribing information](https://www.merck.com/product/usa/pi_circulars/l/lipfendra/lipfendra_pi.pdf)
 5. [默沙東｜Lipfendra FDA 核准公告](https://www.merck.com/news/mercks-lipfendra-enlicitide-is-the-first-and-only-once-daily-oral-pcsk9-inhibitor-approved-by-the-u-s-fda-to-reduce-ldl-c-in-adults-with-hypercholesterolemia/)
-6. [默沙東｜2026 年第二季財報簡報](https://www.merck.com/wp-content/uploads/sites/124/2026/08/2Q26-Merck-Earnings-Presentation.pdf)
+6. [默沙東｜2026 年第二季財報（SEC 8-K Exhibit 99.1）](https://www.sec.gov/Archives/edgar/data/310158/000110465926090045/tm2621496d1_ex99-1.htm)
 7. [CORALreef Lipids｜NCT05952856](https://clinicaltrials.gov/study/NCT05952856)
 8. [CORALreef HeFH｜NCT05952869](https://clinicaltrials.gov/study/NCT05952869)
 9. [CORALreef Outcomes｜NCT06008756](https://clinicaltrials.gov/study/NCT06008756)
