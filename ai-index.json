@@ -209,6 +209,60 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+      "date": "2026-08-27",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+      "source": "Facebook",
+      "access": "Free Article",
+      "category": "商業分析",
+      "tags": [
+        "Twist Bioscience",
+        "TWST",
+        "AI drug discovery",
+        "DNA synthesis",
+        "protein engineering",
+        "wet lab automation",
+        "Design-Build-Test-Learn",
+        "biotech investing"
+      ],
+      "summary": "Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback.",
+      "image": "https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-27-twist-dna-ai-drug-discovery-shovels.html"
+      }
+    },
+    {
+      "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+      "date": "2026-08-27",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Twist Bioscience",
+        "TWST",
+        "AI 製藥",
+        "DNA 合成",
+        "蛋白質工程",
+        "濕實驗室",
+        "Design-Build-Test-Learn",
+        "生技投資"
+      ],
+      "summary": "Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。",
+      "image": "https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html"
+      }
+    },
+    {
       "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
       "date": "2026-08-26",
       "language": "en",
@@ -1554,64 +1608,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-08-03-diranersen-celia-tau-phase3-en.html"
-      }
-    },
-    {
-      "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-      "date": "2026-08-02",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "alopecia areata",
-        "bempikibart",
-        "Q32 Bio",
-        "QTTB",
-        "IL-7Rα",
-        "JAK inhibitors",
-        "SALT",
-        "biotech valuation",
-        "clinical data",
-        "drug development"
-      ],
-      "summary": "Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors.",
-      "image": "https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-02-bempikibart-alopecia-areata.html"
-      }
-    },
-    {
-      "title": "鬼剃頭新藥，先別封神",
-      "date": "2026-08-02",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "斑禿",
-        "鬼剃頭",
-        "Bempikibart",
-        "Q32 Bio",
-        "QTTB",
-        "IL-7Rα",
-        "JAK 抑制劑",
-        "SALT",
-        "生技股",
-        "新藥研發"
-      ],
-      "summary": "33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。",
-      "image": "https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-08-02-bempikibart-alopecia-areata-en.html"
       }
     }
   ]

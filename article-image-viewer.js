@@ -17,6 +17,7 @@
 
   const title = dialog.querySelector("strong");
   const closeButton = dialog.querySelector("button");
+  const scrollArea = dialog.querySelector(".article-image-dialog-scroll");
   const expandedImage = dialog.querySelector("img");
 
   const closeDialog = () => {
@@ -53,8 +54,12 @@
       closeButton.setAttribute("aria-label", english ? "Close figure" : "關閉圖解");
       expandedImage.src = source.src || source.currentSrc;
       expandedImage.alt = source.alt;
+      scrollArea.scrollLeft = 0;
+      scrollArea.scrollTop = 0;
       document.body.classList.add("article-image-dialog-open");
       dialog.showModal();
+      scrollArea.scrollLeft = 0;
+      scrollArea.scrollTop = 0;
       closeButton.focus();
     });
   });

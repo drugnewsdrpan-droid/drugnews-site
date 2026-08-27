@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-26T02:17:00.632Z",
+  "generated_at": "2026-08-27T02:38:04.761Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -116,6 +116,126 @@
     "positioning_note": "Drugnews does not provide individual stock recommendations. The site is positioned as biotech business-analysis media: clinical evidence, valuation logic, BD/licensing terms, CMC risk, company strategy, investor education, and capital-market narrative."
   },
   "buckets": [
+    {
+      "name": "AI 製藥與新技術",
+      "count": 6,
+      "articles": [
+        {
+          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Twist Bioscience",
+            "TWST",
+            "AI drug discovery",
+            "DNA synthesis",
+            "protein engineering",
+            "wet lab automation",
+            "Design-Build-Test-Learn",
+            "biotech investing"
+          ],
+          "summary": "Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback."
+        },
+        {
+          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Twist Bioscience",
+            "TWST",
+            "AI 製藥",
+            "DNA 合成",
+            "蛋白質工程",
+            "濕實驗室",
+            "Design-Build-Test-Learn",
+            "生技投資"
+          ],
+          "summary": "Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。"
+        },
+        {
+          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "AI 製藥",
+            "NVIDIA",
+            "BMS",
+            "禮來",
+            "Roche",
+            "新藥研發",
+            "GPU",
+            "台灣供應鏈"
+          ],
+          "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。"
+        },
+        {
+          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Bio Genesis Mission",
+            "AI drug discovery",
+            "NIH",
+            "DOE",
+            "biomedical data",
+            "drug development",
+            "digital pathology",
+            "multi-omics"
+          ],
+          "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster."
+        },
+        {
+          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Bio Genesis Mission",
+            "AI製藥",
+            "NIH",
+            "DOE",
+            "生醫資料",
+            "藥物研發",
+            "數位病理",
+            "多體學"
+          ],
+          "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。"
+        },
+        {
+          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
+          "date": "2026-08-06",
+          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "AnHorn Medicines",
+            "AH-001",
+            "Androgenetic Alopecia",
+            "Hair-Loss Drug",
+            "AR Degrader",
+            "PROTAC",
+            "Eli Lilly",
+            "Veradermics"
+          ],
+          "summary": "Lilly has placed a $40 million bet on next-generation hair-loss drugs. With roughly 80 million U.S. patients still constrained by two legacy therapies, AH-001's Phase 2 data could become the next global asset-revaluation trigger."
+        }
+      ]
+    },
     {
       "name": "臨床與法規催化",
       "count": 7,
@@ -521,88 +641,6 @@
       ]
     },
     {
-      "name": "AI 製藥與新技術",
-      "count": 4,
-      "articles": [
-        {
-          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "AI 製藥",
-            "NVIDIA",
-            "BMS",
-            "禮來",
-            "Roche",
-            "新藥研發",
-            "GPU",
-            "台灣供應鏈"
-          ],
-          "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。"
-        },
-        {
-          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Bio Genesis Mission",
-            "AI drug discovery",
-            "NIH",
-            "DOE",
-            "biomedical data",
-            "drug development",
-            "digital pathology",
-            "multi-omics"
-          ],
-          "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster."
-        },
-        {
-          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Bio Genesis Mission",
-            "AI製藥",
-            "NIH",
-            "DOE",
-            "生醫資料",
-            "藥物研發",
-            "數位病理",
-            "多體學"
-          ],
-          "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。"
-        },
-        {
-          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
-          "date": "2026-08-06",
-          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "AnHorn Medicines",
-            "AH-001",
-            "Androgenetic Alopecia",
-            "Hair-Loss Drug",
-            "AR Degrader",
-            "PROTAC",
-            "Eli Lilly",
-            "Veradermics"
-          ],
-          "summary": "Lilly has placed a $40 million bet on next-generation hair-loss drugs. With roughly 80 million U.S. patients still constrained by two legacy therapies, AH-001's Phase 2 data could become the next global asset-revaluation trigger."
-        }
-      ]
-    },
-    {
       "name": "GLP-1 與代謝賽道",
       "count": 4,
       "articles": [
@@ -681,56 +719,6 @@
             "康霈"
           ],
           "summary": "Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。"
-        }
-      ]
-    },
-    {
-      "name": "其他市場訊號",
-      "count": 1,
-      "articles": [
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "阿茲海默症",
-            "Tau",
-            "Diranersen",
-            "BIIB080",
-            "IONIS-MAPTRx",
-            "Biogen",
-            "Ionis",
-            "反義寡核苷酸"
-          ],
-          "summary": "CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。"
-        }
-      ]
-    },
-    {
-      "name": "估值與資本市場",
-      "count": 1,
-      "articles": [
-        {
-          "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-          "date": "2026-08-02",
-          "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "alopecia areata",
-            "bempikibart",
-            "Q32 Bio",
-            "QTTB",
-            "IL-7Rα",
-            "JAK inhibitors",
-            "SALT",
-            "biotech valuation"
-          ],
-          "summary": "Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors."
         }
       ]
     }

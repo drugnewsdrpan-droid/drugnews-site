@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 26 Aug 2026 02:17:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 02:38:04 GMT</lastBuildDate>
+    <item>
+      <title>DNA 不是 AI 製藥的輝達，至少現在還不是</title>
+      <link>https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels/cover-1400.webp" alt="DNA 合成、自動化濕實驗室與 AI 模型回饋構成的藥物發現工作流"></p><p>Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。</p>]]></description>
+    </item>
     <item>
       <title>默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？</title>
       <link>https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Mon, 03 Aug 2026 00:01:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3/cover.png" alt="Diranersen 以 ASO 降低 Tau，CELIA 訊號支持進一步第三期驗證"></p><p>CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。</p>]]></description>
-    </item>
-    <item>
-      <title>鬼剃頭新藥，先別封神</title>
-      <link>https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata.html</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/bempikibart-alopecia-areata/cover.png" alt="斑禿毛囊免疫發炎與新藥介入的科學視覺"></p><p>33 人、單臂、開放標籤的 Phase 2a 資料讓 Q32 Bio 股價近乎翻倍；真正的問題是療效能否重現、停藥後能否維持，以及安全性是否足以改變 JAK 抑制劑的臨床位置。</p>]]></description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels-en/cover.png</image:loc>
+      <image:caption>DNA synthesis, an automated wet lab and AI model feedback connected in a drug-discovery workflow</image:caption>
+      <image:title>DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels-en/figure-01.png</image:loc>
+      <image:caption>Figure 1 | DNA synthesis, an automated wet lab and AI model feedback form a complete workflow; demand growth does not mean unit value and industry moat rise with it</image:caption>
+      <image:title>DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels-en/figure-02.png</image:loc>
+      <image:caption>Figure 2 | N, P and V separate candidate volume, physical validation rate and value per experiment; sequence count is not the only variable</image:caption>
+      <image:title>DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | Changes in cost, waste, turnaround time and capacity across Twist’s roughly one-million-oligo, femtomole-scale platform</image:caption>
+      <image:title>DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels-en/figure-04.png</image:loc>
+      <image:caption>Figure 4 | DNA synthesis, protein expression, characterization, functional testing and model feedback form the full AI wet-lab loop</image:caption>
+      <image:title>DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels/cover.png</image:loc>
+      <image:caption>DNA 合成、自動化濕實驗室與 AI 模型回饋構成的藥物發現工作流</image:caption>
+      <image:title>DNA 不是 AI 製藥的輝達，至少現在還不是</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels/figure-01.png</image:loc>
+      <image:caption>圖 1｜DNA 合成、自動化濕實驗室與 AI 模型回饋構成完整工作流；需求成長不等於單位價值或產業壁壘同步上升</image:caption>
+      <image:title>DNA 不是 AI 製藥的輝達，至少現在還不是</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels/figure-02.png</image:loc>
+      <image:caption>圖 2｜N、P、V 分別代表候選序列數、物理驗證率與單次實驗價值；序列數量不是唯一決定變數</image:caption>
+      <image:title>DNA 不是 AI 製藥的輝達，至少現在還不是</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels/figure-03.png</image:loc>
+      <image:caption>圖 3｜Twist 約 100 萬條 oligo、飛莫耳規模平台的成本、廢棄物、作業時間與產能變化</image:caption>
+      <image:title>DNA 不是 AI 製藥的輝達，至少現在還不是</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/twist-dna-ai-drug-discovery-shovels/figure-04.png</image:loc>
+      <image:caption>圖 4｜DNA 合成、蛋白質表現、特性分析、功能測試與模型回饋構成完整 AI wet-lab 迴圈</image:caption>
+      <image:title>DNA 不是 AI 製藥的輝達，至少現在還不是</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/merck-lipfendra-oral-pcsk9-en/cover.png</image:loc>

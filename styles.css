@@ -3745,8 +3745,8 @@ body.article-image-dialog-open {
     max-height: calc(100vh - 62px);
   }
   .article-image-dialog-scroll img {
-    width: 100%;
-    max-width: 100%;
+    width: 960px;
+    max-width: none;
     height: auto;
   }
   .article-body blockquote {

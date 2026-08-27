@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-27｜DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet
+  URL: https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html
+  Topics: Twist Bioscience, TWST, AI drug discovery, DNA synthesis, protein engineering
+  Summary: Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback.
+- 2026-08-27｜DNA 不是 AI 製藥的輝達，至少現在還不是
+  URL: https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html
+  Topics: Twist Bioscience, TWST, AI 製藥, DNA 合成, 蛋白質工程
+  Summary: Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。
 - 2026-08-26｜Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?
   URL: https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html
   Topics: Merck, Lipfendra, enlicitide, PCSK9, LDL cholesterol
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html
   Topics: Moderna, Merck, intismeran autogene, INTerpath-001, mRNA 癌症疫苗
   Summary: INTerpath-001 第三期頂線結果讓莫德納股價單日上漲 176.97%。真正被重新估價的，不只是一款黑色素瘤療法，而是個人化設計、製造、質控與臨床交付能否成為可擴張的平台。
-- 2026-08-20｜NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion
-  URL: https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html
-  Topics: AI drug discovery, NVIDIA, Bristol Myers Squibb, Eli Lilly, Roche
-  Summary: BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop.
-- 2026-08-20｜輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元
-  URL: https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html
-  Topics: AI 製藥, NVIDIA, BMS, 禮來, Roche
-  Summary: BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。
 
 ## Key Site Sections
 

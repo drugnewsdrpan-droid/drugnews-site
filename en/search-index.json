@@ -1,5 +1,32 @@
 [
   {
+    "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+    "slug": "twist-dna-ai-drug-discovery-shovels-en",
+    "date": "2026-08-27",
+    "publishAt": "2026-08-27T08:00:00+08:00",
+    "updatedAt": "2026-08-27",
+    "category": "商業分析系列",
+    "access": "Free Article",
+    "lang": "en",
+    "tags": [
+      "Twist Bioscience",
+      "TWST",
+      "AI drug discovery",
+      "DNA synthesis",
+      "protein engineering",
+      "wet lab automation",
+      "Design-Build-Test-Learn",
+      "biotech investing"
+    ],
+    "summary": "Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback.",
+    "image": "../assets/articles/twist-dna-ai-drug-discovery-shovels-en/cover.png",
+    "cardImage": "../assets/articles/twist-dna-ai-drug-discovery-shovels-en/cover-1400.webp",
+    "imageAlt": "DNA synthesis, an automated wet lab and AI model feedback connected in a drug-discovery workflow",
+    "sponsored": false,
+    "sponsorName": "",
+    "url": "articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html"
+  },
+  {
     "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
     "slug": "merck-lipfendra-oral-pcsk9-en",
     "date": "2026-08-26",

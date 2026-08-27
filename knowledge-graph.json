@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-26T02:17:00.976Z",
+  "generated_at": "2026-08-27T02:38:04.814Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,50 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+      "date": "2026-08-27",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Twist Bioscience",
+        "TWST",
+        "AI drug discovery",
+        "DNA synthesis",
+        "protein engineering",
+        "wet lab automation",
+        "Design-Build-Test-Learn",
+        "biotech investing"
+      ],
+      "summary": "Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-27-twist-dna-ai-drug-discovery-shovels.html"
+      }
+    },
+    {
+      "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+      "date": "2026-08-27",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Twist Bioscience",
+        "TWST",
+        "AI 製藥",
+        "DNA 合成",
+        "蛋白質工程",
+        "濕實驗室",
+        "Design-Build-Test-Learn",
+        "生技投資"
+      ],
+      "summary": "Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。",
+      "alternate_language_versions": {
+        "en": "2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html"
+      }
+    },
     {
       "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
       "date": "2026-08-26",
@@ -769,53 +813,6 @@
       "alternate_language_versions": {
         "en": "2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html"
       }
-    },
-    {
-      "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
-      "date": "2026-08-12",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Bio Genesis Mission",
-        "AI drug discovery",
-        "NIH",
-        "DOE",
-        "biomedical data",
-        "drug development",
-        "digital pathology",
-        "multi-omics",
-        "Taiwan biotech"
-      ],
-      "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-12-bio-genesis-mission-ai-drug-rd.html"
-      }
-    },
-    {
-      "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
-      "date": "2026-08-12",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Bio Genesis Mission",
-        "AI製藥",
-        "NIH",
-        "DOE",
-        "生醫資料",
-        "藥物研發",
-        "數位病理",
-        "多體學",
-        "雲象科技",
-        "基米"
-      ],
-      "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。",
-      "alternate_language_versions": {
-        "en": "2026-08-12-bio-genesis-mission-ai-drug-rd-en.html"
-      }
     }
   ],
   "entities": [
@@ -861,8 +858,14 @@
       "name": "生技投資",
       "type": "market_topic",
       "mentions": 23,
-      "latest_date": "2026-08-08",
+      "latest_date": "2026-08-27",
       "latest_articles": [
+        {
+          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+          "language": "zh-Hant"
+        },
         {
           "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
           "date": "2026-08-08",
@@ -885,12 +888,6 @@
           "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
           "date": "2026-07-18",
           "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "諾貝爾獎後，Treg 第一個獲批藥還不能急著喊：真正的考題是免疫耐受怎麼做成產品",
-          "date": "2026-07-15",
-          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
           "language": "zh-Hant"
         }
       ]
@@ -934,44 +931,6 @@
       ]
     },
     {
-      "name": "臨床數據",
-      "type": "market_topic",
-      "mentions": 20,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Business Analysis",
       "type": "topic",
       "mentions": 19,
@@ -1006,6 +965,44 @@
           "date": "2026-07-18",
           "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "臨床數據",
+      "type": "market_topic",
+      "mentions": 19,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1240,7 +1237,7 @@
     {
       "name": "Big Pharma",
       "type": "market_topic",
-      "mentions": 11,
+      "mentions": 10,
       "latest_date": "2026-08-23",
       "latest_articles": [
         {
@@ -1310,44 +1307,6 @@
           "date": "2026-07-20",
           "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
           "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "製藥巨頭",
-      "type": "market_topic",
-      "mentions": 10,
-      "latest_date": "2026-07-25",
-      "latest_articles": [
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -1466,6 +1425,44 @@
       ]
     },
     {
+      "name": "製藥巨頭",
+      "type": "market_topic",
+      "mentions": 9,
+      "latest_date": "2026-07-25",
+      "latest_articles": [
+        {
+          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "oncology",
       "type": "topic",
       "mentions": 8,
@@ -1575,6 +1572,44 @@
           "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
           "date": "2026-07-10",
           "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "biotech investing",
+      "type": "topic",
+      "mentions": 7,
+      "latest_date": "2026-08-27",
+      "latest_articles": [
+        {
+          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "language": "en"
+        },
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
           "language": "en"
         }
       ]
@@ -1728,44 +1763,6 @@
           "date": "2026-07-14",
           "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "biotech investing",
-      "type": "topic",
-      "mentions": 7,
-      "latest_date": "2026-07-29",
-      "latest_articles": [
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-          "language": "en"
-        },
-        {
-          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
-          "date": "2026-07-18",
-          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Sobi's NASP Received an FDA CRL: The Problem Was Manufacturing Credibility, Not Efficacy",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp-en.html",
-          "language": "en"
         }
       ]
     },
@@ -2264,6 +2261,70 @@
       ]
     },
     {
+      "name": "AI 製藥",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-27",
+      "latest_articles": [
+        {
+          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "AI drug discovery",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-27",
+      "latest_articles": [
+        {
+          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+          "language": "en"
+        },
+        {
+          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "imofinostat",
       "type": "topic",
       "mentions": 4,
@@ -2387,38 +2448,6 @@
           "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
           "date": "2026-07-17",
           "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "AI drug discovery",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-08-20",
-      "latest_articles": [
-        {
-          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Is the First AI-Designed Drug Finally Arriving? Takeda's Zasocitinib Beats Sotyktu Head-to-Head",
-          "date": "2026-06-24",
-          "url": "https://drugnews.com.tw/articles/2026-06-24-ai-zasocitinib-sotyktu-en.html",
           "language": "en"
         }
       ]
@@ -2900,32 +2929,6 @@
       ]
     },
     {
-      "name": "AI 製藥",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-08-20",
-      "latest_articles": [
-        {
-          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "BMS",
       "type": "company",
       "mentions": 3,
@@ -3316,6 +3319,66 @@
       ]
     },
     {
+      "name": "Design-Build-Test-Learn",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-27",
+      "latest_articles": [
+        {
+          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+          "language": "en"
+        },
+        {
+          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Twist Bioscience",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-27",
+      "latest_articles": [
+        {
+          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+          "language": "en"
+        },
+        {
+          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "TWST",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-27",
+      "latest_articles": [
+        {
+          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+          "language": "en"
+        },
+        {
+          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "心血管",
       "type": "topic",
       "mentions": 2,
@@ -3354,69 +3417,47 @@
           "language": "en"
         }
       ]
-    },
-    {
-      "name": "enlicitide",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-26",
-      "latest_articles": [
-        {
-          "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
-          "date": "2026-08-26",
-          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
-          "language": "en"
-        },
-        {
-          "title": "默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？",
-          "date": "2026-08-26",
-          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Leqvio",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-26",
-      "latest_articles": [
-        {
-          "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
-          "date": "2026-08-26",
-          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
-          "language": "en"
-        },
-        {
-          "title": "默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？",
-          "date": "2026-08-26",
-          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Lipfendra",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-26",
-      "latest_articles": [
-        {
-          "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
-          "date": "2026-08-26",
-          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
-          "language": "en"
-        },
-        {
-          "title": "默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？",
-          "date": "2026-08-26",
-          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+      "date": "2026-08-27",
+      "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Twist Bioscience",
+        "TWST",
+        "AI drug discovery",
+        "DNA synthesis",
+        "protein engineering",
+        "wet lab automation",
+        "Design-Build-Test-Learn",
+        "biotech investing"
+      ],
+      "summary": "Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback."
+    },
+    {
+      "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+      "date": "2026-08-27",
+      "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Twist Bioscience",
+        "TWST",
+        "AI 製藥",
+        "DNA 合成",
+        "蛋白質工程",
+        "濕實驗室",
+        "Design-Build-Test-Learn",
+        "生技投資"
+      ],
+      "summary": "Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。"
+    },
     {
       "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
       "date": "2026-08-26",
@@ -3948,44 +3989,6 @@
         "antisense oligonucleotide"
       ],
       "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
-    },
-    {
-      "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-      "date": "2026-08-03",
-      "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "阿茲海默症",
-        "Tau",
-        "Diranersen",
-        "BIIB080",
-        "IONIS-MAPTRx",
-        "Biogen",
-        "Ionis",
-        "反義寡核苷酸"
-      ],
-      "summary": "CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。"
-    },
-    {
-      "title": "Bempikibart in Alopecia Areata: A 33-Patient Signal Is Not Yet a Win Over JAK Inhibitors",
-      "date": "2026-08-02",
-      "url": "https://drugnews.com.tw/articles/2026-08-02-bempikibart-alopecia-areata-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "alopecia areata",
-        "bempikibart",
-        "Q32 Bio",
-        "QTTB",
-        "IL-7Rα",
-        "JAK inhibitors",
-        "SALT",
-        "biotech valuation"
-      ],
-      "summary": "Q32 Bio nearly doubled after a 33-patient, single-arm Phase 2a readout. The investable questions are whether efficacy survives randomization, whether responses persist after treatment stops, and whether a larger safety database can support a differentiated place beside JAK inhibitors."
     }
   ]
 }

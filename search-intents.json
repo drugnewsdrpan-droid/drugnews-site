@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-26T02:17:00.975Z",
+  "generated_at": "2026-08-27T02:38:04.813Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+      "date": "2026-08-27",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Twist Bioscience",
+        "TWST",
+        "AI drug discovery",
+        "DNA synthesis",
+        "protein engineering",
+        "wet lab automation",
+        "Design-Build-Test-Learn",
+        "biotech investing"
+      ],
+      "summary": "Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback."
+    },
+    {
+      "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+      "date": "2026-08-27",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+      "category": "商業分析",
+      "tags": [
+        "Twist Bioscience",
+        "TWST",
+        "AI 製藥",
+        "DNA 合成",
+        "蛋白質工程",
+        "濕實驗室",
+        "Design-Build-Test-Learn",
+        "生技投資"
+      ],
+      "summary": "Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。"
+    },
     {
       "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
       "date": "2026-08-26",
@@ -776,42 +812,6 @@
         "康霈"
       ],
       "summary": "Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。"
-    },
-    {
-      "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
-      "date": "2026-08-15",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "GSK",
-        "camlipixant",
-        "P2X3",
-        "refractory chronic cough",
-        "CALM-1",
-        "CALM-2",
-        "Phase 3"
-      ],
-      "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together."
-    },
-    {
-      "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
-      "date": "2026-08-15",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
-      "category": "商業分析",
-      "tags": [
-        "GSK",
-        "camlipixant",
-        "P2X3",
-        "慢性咳嗽",
-        "CALM-1",
-        "CALM-2",
-        "臨床三期",
-        "新藥研發"
-      ],
-      "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
     }
   ],
   "do_not_use_as": [
