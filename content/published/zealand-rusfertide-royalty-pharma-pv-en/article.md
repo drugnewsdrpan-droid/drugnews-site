@@ -10,7 +10,7 @@ What changed hands were regulatory and sales milestones inherited from an earlie
 
 The more useful questions are therefore different: Why would a buyer pay up to $100 million for a 1% stream that is still waiting for an FDA decision and has not begun generating sales? And if rusfertide is approved, how could it affect Taiwan-listed PharmaEssentia and BESREMi?
 
-![Figure 1 | Zealand monetized selected rusfertide economics before the FDA decision, while Takeda retained worldwide development and commercialization rights](images/cover.png)
+![Figure 1 | Zealand monetized selected rusfertide economics before the FDA decision, while Takeda retained worldwide development and commercialization rights](images/cover-v2.png)
 
 ## 01 | The $100 Million Is Not a Drug Price
 
@@ -28,7 +28,7 @@ Royalty Pharma does not need to build a rusfertide sales force. If Takeda commer
 
 For Zealand, this was a non-core asset over which it had no operating control. At the end of June, the company held DKK 14.457 billion in cash, cash equivalents and marketable securities. The deal was not emergency financing; it allowed Zealand to concentrate capital on its obesity and metabolic pipeline, including petrelintide, which is approaching Phase 3, and the late-stage asset survodutide.
 
-![Figure 2 | Royalty Pharma acquired Zealand's 1% global royalty and milestones; Zealand retained 0.25% on annual net sales above $1.5 billion](images/figure-03.png)
+![Figure 2 | Royalty Pharma acquired Zealand's 1% global royalty and milestones; Zealand retained 0.25% on annual net sales above $1.5 billion](images/figure-03-v2.png)
 
 ## 02 | One Drug, Three Very Different Economic Positions
 
@@ -60,7 +60,7 @@ The FDA granted priority review. Protagonist's formal filings described the PDUF
 
 Clinical risk has been reduced substantially, but regulatory risk has not disappeared. Even after a potential approval, pricing, reimbursement, treatment sequencing and patient acceptance of weekly injections will shape commercial performance.
 
-![Figure 3 | Rusfertide mimics hepcidin and restricts iron availability; in VERIFY, the response without a phlebotomy indication was 76.9% versus 32.9%](images/figure-01.png)
+![Figure 3 | Rusfertide mimics hepcidin and restricts iron availability; in VERIFY, the response without a phlebotomy indication was 76.9% versus 32.9%](images/figure-01-v2.png)
 
 ## 04 | What Rusfertide Could Mean for PharmaEssentia
 
@@ -74,7 +74,7 @@ That does not mean BESREMi would be displaced directly.
 
 VERIFY allowed rusfertide to be layered on top of existing care, including phlebotomy, hydroxyurea, interferon and ruxolitinib. It was not a head-to-head trial against BESREMi. For patients already receiving interferon but still struggling with hematocrit control, rusfertide could become an add-on rather than a substitute.
 
-![Figure 4 | BESREMi and rusfertide are not a simple either-or choice; VERIFY allowed rusfertide on top of existing therapy, and no head-to-head trial has compared the two](images/figure-02.png)
+![Figure 4 | BESREMi and rusfertide are not a simple either-or choice; VERIFY allowed rusfertide on top of existing therapy, and no head-to-head trial has compared the two](images/figure-02-v2.png)
 
 Four questions matter most for PharmaEssentia investors:
 
