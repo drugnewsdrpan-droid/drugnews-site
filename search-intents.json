@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-27T02:38:04.813Z",
+  "generated_at": "2026-08-28T02:07:33.935Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
+      "date": "2026-08-28",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
+      "category": "基本面",
+      "tags": [
+        "Zealand Pharma",
+        "Royalty Pharma",
+        "rusfertide",
+        "Protagonist Therapeutics",
+        "Takeda",
+        "PharmaEssentia",
+        "BESREMi",
+        "polycythemia vera"
+      ],
+      "summary": "Zealand Pharma sold rusfertide-related milestones and a 1% global net-sales royalty for up to $100 million, not control of the drug itself. The transaction clarifies how Zealand, Protagonist and Takeda hold very different economics—and what rusfertide could mean for PharmaEssentia's BESREMi."
+    },
+    {
+      "title": "藥華藥迎新對手？1 億美元賣分潤",
+      "date": "2026-08-28",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
+      "category": "基本面",
+      "tags": [
+        "Zealand Pharma",
+        "Royalty Pharma",
+        "rusfertide",
+        "Protagonist Therapeutics",
+        "Takeda",
+        "藥華藥",
+        "BESREMi",
+        "真性紅血球增多症"
+      ],
+      "summary": "Zealand Pharma 以總對價 1 億美元出售 rusfertide 的里程碑與 1% 全球淨銷售權利金，交易不是出售藥物控制權。本文拆解 Zealand、Protagonist 與武田的不同經濟位置，並分析 rusfertide 對藥華藥 BESREMi 的競爭、互補與治療分層。"
+    },
     {
       "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
       "date": "2026-08-27",
@@ -776,42 +812,6 @@
         "天明製藥"
       ],
       "summary": "Iovance 的 Amtagvi 第二季營收明顯反彈，但真正要驗證的不是 TIL 是否有療效，而是個人化細胞療法能否被做成可複製、可支付、可放大的醫療服務。"
-    },
-    {
-      "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-      "date": "2026-08-16",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Business Analysis",
-        "obesity",
-        "weight-loss drugs",
-        "GLP-1",
-        "Pfizer",
-        "Roche",
-        "Amgen",
-        "Metsera"
-      ],
-      "summary": "Pfizer, Roche and Amgen are pruning obesity programs that lack clear differentiation. The GLP-1 market has moved from a race to enter the clinic to a contest across efficacy, safety, convenience and commercial execution."
-    },
-    {
-      "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
-      "date": "2026-08-16",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
-      "category": "商業分析",
-      "tags": [
-        "肥胖症",
-        "減重藥",
-        "GLP-1",
-        "Pfizer",
-        "Roche",
-        "Amgen",
-        "Metsera",
-        "康霈"
-      ],
-      "summary": "Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。"
     }
   ],
   "do_not_use_as": [

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-27T02:38:04.814Z",
+  "generated_at": "2026-08-28T02:07:33.937Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,52 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
+      "date": "2026-08-28",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
+      "category": "基本面",
+      "access": "Free Article",
+      "tags": [
+        "Zealand Pharma",
+        "Royalty Pharma",
+        "rusfertide",
+        "Protagonist Therapeutics",
+        "Takeda",
+        "PharmaEssentia",
+        "BESREMi",
+        "polycythemia vera",
+        "royalty financing"
+      ],
+      "summary": "Zealand Pharma sold rusfertide-related milestones and a 1% global net-sales royalty for up to $100 million, not control of the drug itself. The transaction clarifies how Zealand, Protagonist and Takeda hold very different economics—and what rusfertide could mean for PharmaEssentia's BESREMi.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-28-zealand-rusfertide-royalty-pharma-pv.html"
+      }
+    },
+    {
+      "title": "藥華藥迎新對手？1 億美元賣分潤",
+      "date": "2026-08-28",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
+      "category": "基本面",
+      "access": "商業分析文",
+      "tags": [
+        "Zealand Pharma",
+        "Royalty Pharma",
+        "rusfertide",
+        "Protagonist Therapeutics",
+        "Takeda",
+        "藥華藥",
+        "BESREMi",
+        "真性紅血球增多症",
+        "權利金交易"
+      ],
+      "summary": "Zealand Pharma 以總對價 1 億美元出售 rusfertide 的里程碑與 1% 全球淨銷售權利金，交易不是出售藥物控制權。本文拆解 Zealand、Protagonist 與武田的不同經濟位置，並分析 rusfertide 對藥華藥 BESREMi 的競爭、互補與治療分層。",
+      "alternate_language_versions": {
+        "en": "2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html"
+      }
+    },
     {
       "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
       "date": "2026-08-27",
@@ -766,53 +812,6 @@
       "alternate_language_versions": {
         "en": "2026-08-13-intelligene-rna-delivery-nanorocket-en.html"
       }
-    },
-    {
-      "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-      "date": "2026-08-13",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Novo Nordisk",
-        "ziltivekimab",
-        "ZEUS",
-        "MACE",
-        "IL-6",
-        "hsCRP",
-        "cardiovascular outcomes",
-        "Phase 3",
-        "biomarker risk"
-      ],
-      "summary": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html"
-      }
-    },
-    {
-      "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
-      "date": "2026-08-13",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Novo Nordisk",
-        "ziltivekimab",
-        "ZEUS",
-        "MACE",
-        "IL-6",
-        "hsCRP",
-        "心血管",
-        "慢性腎臟病",
-        "NVO",
-        "合一生技"
-      ],
-      "summary": "ZEUS 超過 6,300 人卻交出 HR 0.99：ziltivekimab 壓低 free IL-6 與 hsCRP，卻沒有證明能降低三點 MACE。這不是抗發炎假說死亡，而是 biomarker 不能替患者硬終點預支成功。",
-      "alternate_language_versions": {
-        "en": "2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html"
-      }
     }
   ],
   "entities": [
@@ -857,7 +856,7 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 23,
+      "mentions": 22,
       "latest_date": "2026-08-27",
       "latest_articles": [
         {
@@ -931,44 +930,6 @@
       ]
     },
     {
-      "name": "Business Analysis",
-      "type": "topic",
-      "mentions": 19,
-      "latest_date": "2026-08-16",
-      "latest_articles": [
-        {
-          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
-          "date": "2026-08-15",
-          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-          "language": "en"
-        },
-        {
-          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
-          "date": "2026-07-18",
-          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "臨床數據",
       "type": "market_topic",
       "mentions": 19,
@@ -1003,6 +964,44 @@
           "date": "2026-07-10",
           "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Business Analysis",
+      "type": "topic",
+      "mentions": 18,
+      "latest_date": "2026-08-16",
+      "latest_articles": [
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1387,82 +1386,6 @@
       ]
     },
     {
-      "name": "Roche",
-      "type": "company",
-      "mentions": 9,
-      "latest_date": "2026-08-20",
-      "latest_articles": [
-        {
-          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
-          "language": "en"
-        },
-        {
-          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "製藥巨頭",
-      "type": "market_topic",
-      "mentions": 9,
-      "latest_date": "2026-07-25",
-      "latest_articles": [
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "oncology",
       "type": "topic",
       "mentions": 8,
@@ -1501,6 +1424,44 @@
       ]
     },
     {
+      "name": "Roche",
+      "type": "company",
+      "mentions": 8,
+      "latest_date": "2026-08-20",
+      "latest_articles": [
+        {
+          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+          "language": "en"
+        },
+        {
+          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "AbbVie",
       "type": "topic",
       "mentions": 8,
@@ -1534,6 +1495,44 @@
           "title": "半年千億，買的是時間",
           "date": "2026-07-27",
           "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "製藥巨頭",
+      "type": "market_topic",
+      "mentions": 8,
+      "latest_date": "2026-07-25",
+      "latest_articles": [
+        {
+          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
           "language": "zh-Hant"
         }
       ]
@@ -1800,6 +1799,44 @@
           "title": "Pfizer's ADC Bet: Why 3SBio's PD-1/VEGF Bispecific Has Become the New Pivot",
           "date": "2026-07-07",
           "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Royalty Pharma",
+      "type": "topic",
+      "mentions": 6,
+      "latest_date": "2026-08-28",
+      "latest_articles": [
+        {
+          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
+          "language": "en"
+        },
+        {
+          "title": "藥華藥迎新對手？1 億美元賣分潤",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Why These Four Biotechs Can Afford Not to Sell",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+          "language": "en"
+        },
+        {
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
           "language": "en"
         }
       ]
@@ -2613,38 +2650,6 @@
       ]
     },
     {
-      "name": "Royalty Pharma",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-08-08",
-      "latest_articles": [
-        {
-          "title": "Why These Four Biotechs Can Afford Not to Sell",
-          "date": "2026-08-08",
-          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
-          "language": "en"
-        },
-        {
-          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
-          "date": "2026-08-08",
-          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "PROTAC",
       "type": "biotech_concept_or_target",
       "mentions": 4,
@@ -3163,32 +3168,6 @@
       ]
     },
     {
-      "name": "Biotech Investing",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-08-08",
-      "latest_articles": [
-        {
-          "title": "Why These Four Biotechs Can Afford Not to Sell",
-          "date": "2026-08-08",
-          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Toward the “Roche of Pet Medicine”: Protect Biotech’s Platform Bet",
-          "date": "2026-06-25",
-          "url": "https://drugnews.com.tw/articles/2026-06-25-protect-pet-medical-roche-platform-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "PD-1",
       "type": "biotech_concept_or_target",
       "mentions": 3,
@@ -3319,6 +3298,106 @@
       ]
     },
     {
+      "name": "BESREMi",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-28",
+      "latest_articles": [
+        {
+          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
+          "language": "en"
+        },
+        {
+          "title": "藥華藥迎新對手？1 億美元賣分潤",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Protagonist Therapeutics",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-28",
+      "latest_articles": [
+        {
+          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
+          "language": "en"
+        },
+        {
+          "title": "藥華藥迎新對手？1 億美元賣分潤",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "rusfertide",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-28",
+      "latest_articles": [
+        {
+          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
+          "language": "en"
+        },
+        {
+          "title": "藥華藥迎新對手？1 億美元賣分潤",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Takeda",
+      "type": "company",
+      "mentions": 2,
+      "latest_date": "2026-08-28",
+      "latest_articles": [
+        {
+          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
+          "language": "en"
+        },
+        {
+          "title": "藥華藥迎新對手？1 億美元賣分潤",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Zealand Pharma",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-28",
+      "latest_articles": [
+        {
+          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
+          "language": "en"
+        },
+        {
+          "title": "藥華藥迎新對手？1 億美元賣分潤",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Design-Build-Test-Learn",
       "type": "topic",
       "mentions": 2,
@@ -3335,86 +3414,6 @@
           "date": "2026-08-27",
           "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Twist Bioscience",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-27",
-      "latest_articles": [
-        {
-          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
-          "language": "en"
-        },
-        {
-          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "TWST",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-27",
-      "latest_articles": [
-        {
-          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
-          "language": "en"
-        },
-        {
-          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "心血管",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-26",
-      "latest_articles": [
-        {
-          "title": "默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？",
-          "date": "2026-08-26",
-          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "諾和諾德大三期慘敗！6,300 人的教科書級教訓",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "cardiovascular outcomes",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-26",
-      "latest_articles": [
-        {
-          "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
-          "date": "2026-08-26",
-          "url": "https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
-          "language": "en"
         }
       ]
     }

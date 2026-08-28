@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-28｜A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million
+  URL: https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html
+  Topics: Zealand Pharma, Royalty Pharma, rusfertide, Protagonist Therapeutics, Takeda
+  Summary: Zealand Pharma sold rusfertide-related milestones and a 1% global net-sales royalty for up to $100 million, not control of the drug itself. The transaction clarifies how Zealand, Protagonist and Takeda hold very different economics—and what rusfertide could mean for PharmaEssentia's BESREMi.
+- 2026-08-28｜藥華藥迎新對手？1 億美元賣分潤
+  URL: https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html
+  Topics: Zealand Pharma, Royalty Pharma, rusfertide, Protagonist Therapeutics, Takeda
+  Summary: Zealand Pharma 以總對價 1 億美元出售 rusfertide 的里程碑與 1% 全球淨銷售權利金，交易不是出售藥物控制權。本文拆解 Zealand、Protagonist 與武田的不同經濟位置，並分析 rusfertide 對藥華藥 BESREMi 的競爭、互補與治療分層。
 - 2026-08-27｜DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet
   URL: https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html
   Topics: Twist Bioscience, TWST, AI drug discovery, DNA synthesis, protein engineering
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html
   Topics: BeOne Medicines, 百濟神州, Revolution Medicines, RAS(ON), daraxonrasib
   Summary: 百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。
-- 2026-08-21｜Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test
-  URL: https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html
-  Topics: Moderna, Merck, intismeran autogene, INTerpath-001, personalized cancer vaccine
-  Summary: Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform.
-- 2026-08-21｜再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%
-  URL: https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html
-  Topics: Moderna, Merck, intismeran autogene, INTerpath-001, mRNA 癌症疫苗
-  Summary: INTerpath-001 第三期頂線結果讓莫德納股價單日上漲 176.97%。真正被重新估價的，不只是一款黑色素瘤療法，而是個人化設計、製造、質控與臨床交付能否成為可擴張的平台。
 
 ## Key Site Sections
 

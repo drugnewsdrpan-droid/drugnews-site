@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 27 Aug 2026 02:38:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 02:07:33 GMT</lastBuildDate>
+    <item>
+      <title>藥華藥迎新對手？1 億美元賣分潤</title>
+      <link>https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+      <category>基本面</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/zealand-rusfertide-royalty-pharma-pv/cover-1400.webp" alt="Zealand Pharma 將 rusfertide 的部分未來經濟權益出售給 Royalty Pharma，並評估對藥華藥 BESREMi 的影響"></p><p>Zealand Pharma 以總對價 1 億美元出售 rusfertide 的里程碑與 1% 全球淨銷售權利金，交易不是出售藥物控制權。本文拆解 Zealand、Protagonist 與武田的不同經濟位置，並分析 rusfertide 對藥華藥 BESREMi 的競爭、互補與治療分層。</p>]]></description>
+    </item>
     <item>
       <title>DNA 不是 AI 製藥的輝達，至少現在還不是</title>
       <link>https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks/cover.png" alt="阿斯特捷利康與 BMS 的 4,000 億美元合併傳聞"></p><p>Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。</p>]]></description>
-    </item>
-    <item>
-      <title>Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？</title>
-      <link>https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html</guid>
-      <pubDate>Mon, 03 Aug 2026 00:01:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/diranersen-celia-tau-phase3/cover.png" alt="Diranersen 以 ASO 降低 Tau，CELIA 訊號支持進一步第三期驗證"></p><p>CELIA 未達預設劑量反應主要終點，最低劑量卻在 CDR-SB 看到 26% 惡化減緩，CSF total tau 與 Tau PET 也同向下降。這些訊號足以讓 Biogen 與 Ionis 規劃三期，還不足以宣布 Tau 已成為第二條獲確認的疾病修飾路線。</p>]]></description>
     </item>
   </channel>
 </rss>
