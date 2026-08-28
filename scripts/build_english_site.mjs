@@ -137,6 +137,7 @@ function englishHomeSchema(records = []) {
       },
       {
         "@type": "WebSite",
+        "@id": `${BASE_URL}/#website`,
         name: ENGLISH_BRAND,
         alternateName: ["Drugnews English", "Drugnews Biotech Business Analysis", "Drugnews English Edition"],
         url: `${BASE_URL}/en/`,
@@ -898,6 +899,7 @@ function normalizeEnglishSchema(schema) {
       ];
     }
     if (schema.isPartOf) {
+      schema.isPartOf["@id"] = `${BASE_URL}/#website`;
       schema.isPartOf.name = ENGLISH_BRAND;
       schema.isPartOf.url = `${BASE_URL}/en/`;
     }

@@ -1485,6 +1485,7 @@ function articlePage(article, bodyHtml, related) {
     about: seoTags.map((tag) => ({ "@type": "Thing", name: tag })),
     isPartOf: {
       "@type": "WebSite",
+      "@id": `${BASE_URL}/#website`,
       name: siteBrand,
       url: isEnglish(meta) ? `${BASE_URL}/en/` : `${BASE_URL}/`
     },
@@ -2125,7 +2126,7 @@ function homePage(records) {
         slogan: "生技醫藥商業分析媒體",
         publishingPrinciples: `${BASE_URL}/about.html`,
         areaServed: ["Taiwan", "Global biotech and pharmaceutical capital markets"],
-        sameAs: [PAID_COLUMN_URL, FACEBOOK_URL, CMONEY_URL, DCARD_URL, INSTAGRAM_URL],
+        sameAs: [PAID_COLUMN_URL, FACEBOOK_URL, CMONEY_URL, DCARD_URL, INSTAGRAM_URL, LINKEDIN_URL],
         email: "drugnews.dr.pan@gmail.com",
         contactPoint: {
           "@type": "ContactPoint",
