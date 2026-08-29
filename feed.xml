@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 28 Aug 2026 02:07:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 00:26:23 GMT</lastBuildDate>
+    <item>
+      <title>胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥</title>
+      <link>https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <category>基本面</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/revolution-rasonque-pancreatic-cancer-ras-on/cover-1400.webp" alt="RASONQUE 廣譜 RAS(ON) 抑制劑開啟轉移性胰臟癌新治療入口的編輯視覺"></p><p>FDA 提前 6.5 個月核准 Revolution Medicines 的 RASONQUE，用於特定轉移性胰臟腺癌成人。本文拆解 RASolute 302 的生存數據、RAS(ON) 技術、Revolution 十一年轉向史，以及藥證之後的定價、給付、安全性與全球商業化考驗。</p>]]></description>
+    </item>
     <item>
       <title>藥華藥迎新對手？1 億美元賣分潤</title>
       <link>https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/alnylam-amvuttra-ttr-growth-reset/cover.png" alt="Alnylam 與 Amvuttra 的營收成長和估值換檔"></p><p>Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。</p>]]></description>
-    </item>
-    <item>
-      <title>超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！</title>
-      <link>https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks/cover.png" alt="阿斯特捷利康與 BMS 的 4,000 億美元合併傳聞"></p><p>Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。</p>]]></description>
     </item>
   </channel>
 </rss>

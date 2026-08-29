@@ -209,6 +209,62 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+      "date": "2026-08-29",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
+      "source": "Facebook",
+      "access": "Free Article",
+      "category": "基本面",
+      "tags": [
+        "Revolution Medicines",
+        "RASONQUE",
+        "daraxonrasib",
+        "RAS(ON)",
+        "pancreatic cancer",
+        "FDA",
+        "BeOne Medicines",
+        "Royalty Pharma",
+        "biotech commercialization"
+      ],
+      "summary": "The FDA approved Revolution Medicines' RASONQUE 6.5 months ahead of schedule for a defined metastatic pancreatic adenocarcinoma population. This analysis examines the RASolute 302 survival data, the RAS(ON) mechanism, Revolution's eleven-year strategic pivot and the pricing, access, safety and global execution tests that begin after approval.",
+      "image": "https://drugnews.com.tw/assets/articles/revolution-rasonque-pancreatic-cancer-ras-on-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html"
+      }
+    },
+    {
+      "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+      "date": "2026-08-29",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "基本面",
+      "tags": [
+        "Revolution Medicines",
+        "RASONQUE",
+        "daraxonrasib",
+        "RAS(ON)",
+        "胰臟癌",
+        "FDA",
+        "BeOne Medicines",
+        "Royalty Pharma",
+        "生技商業化"
+      ],
+      "summary": "FDA 提前 6.5 個月核准 Revolution Medicines 的 RASONQUE，用於特定轉移性胰臟腺癌成人。本文拆解 RASolute 302 的生存數據、RAS(ON) 技術、Revolution 十一年轉向史，以及藥證之後的定價、給付、安全性與全球商業化考驗。",
+      "image": "https://drugnews.com.tw/assets/articles/revolution-rasonque-pancreatic-cancer-ras-on/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html"
+      }
+    },
+    {
       "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
       "date": "2026-08-28",
       "language": "en",
@@ -1548,64 +1604,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html"
-      }
-    },
-    {
-      "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
-      "date": "2026-08-04",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "AstraZeneca",
-        "Bristol Myers Squibb",
-        "BMS",
-        "pharma M&A",
-        "patent cliff",
-        "oncology",
-        "antibody-drug conjugates",
-        "ADC",
-        "CAR-T",
-        "antitrust"
-      ],
-      "summary": "AstraZeneca and BMS reportedly explored a combination with a combined market value approaching $400 billion. There is no announced transaction. The real questions are AstraZeneca's 2030 growth target, BMS's Eliquis and Opdivo exclusivity timeline, oncology-pipeline overlap, antitrust and whether integration can actually buy time.",
-      "image": "https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-04-astrazeneca-bms-400b-merger-talks.html"
-      }
-    },
-    {
-      "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-      "date": "2026-08-04",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "AstraZeneca",
-        "阿斯特捷利康",
-        "Bristol Myers Squibb",
-        "BMS",
-        "百時美施貴寶",
-        "生技併購",
-        "大藥廠",
-        "專利懸崖",
-        "腫瘤新藥",
-        "ADC"
-      ],
-      "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。",
-      "image": "https://drugnews.com.tw/assets/articles/astrazeneca-bms-400b-merger-talks/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-08-04-astrazeneca-bms-400b-merger-talks-en.html"
       }
     }
   ]

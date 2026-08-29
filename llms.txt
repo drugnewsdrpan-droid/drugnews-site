@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-29｜Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval
+  URL: https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html
+  Topics: Revolution Medicines, RASONQUE, daraxonrasib, RAS(ON), pancreatic cancer
+  Summary: The FDA approved Revolution Medicines' RASONQUE 6.5 months ahead of schedule for a defined metastatic pancreatic adenocarcinoma population. This analysis examines the RASolute 302 survival data, the RAS(ON) mechanism, Revolution's eleven-year strategic pivot and the pricing, access, safety and global execution tests that begin after approval.
+- 2026-08-29｜胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥
+  URL: https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html
+  Topics: Revolution Medicines, RASONQUE, daraxonrasib, RAS(ON), 胰臟癌
+  Summary: FDA 提前 6.5 個月核准 Revolution Medicines 的 RASONQUE，用於特定轉移性胰臟腺癌成人。本文拆解 RASolute 302 的生存數據、RAS(ON) 技術、Revolution 十一年轉向史，以及藥證之後的定價、給付、安全性與全球商業化考驗。
 - 2026-08-28｜A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million
   URL: https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html
   Topics: Zealand Pharma, Royalty Pharma, rusfertide, Protagonist Therapeutics, Takeda
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html
   Topics: 生技併購, Big Pharma, Alkermes, Dyne Therapeutics, First Tracks Biotherapeutics
   Summary: 2026 年的生技併購資金，正集中到臨床風險開始下降、商業價值尚未完全定價的公司。從 Alkermes、Dyne、First Tracks、Legend 到 Sail，再回看國邑與仁新，真正值得追的是人體概念驗證、平台外延、商業化距離與買方策略契合度。
-- 2026-08-22｜BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality
-  URL: https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html
-  Topics: BeOne Medicines, Revolution Medicines, RAS(ON), daraxonrasib, zoldonrasib
-  Summary: BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most.
-- 2026-08-22｜百濟神州一口氣押上 4 款 RAS 新藥
-  URL: https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html
-  Topics: BeOne Medicines, 百濟神州, Revolution Medicines, RAS(ON), daraxonrasib
-  Summary: 百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。
 
 ## Key Site Sections
 

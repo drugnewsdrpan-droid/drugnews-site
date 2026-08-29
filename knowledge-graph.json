@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-28T02:07:33.937Z",
+  "generated_at": "2026-08-29T00:26:23.553Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,52 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+      "date": "2026-08-29",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
+      "category": "基本面",
+      "access": "Free Article",
+      "tags": [
+        "Revolution Medicines",
+        "RASONQUE",
+        "daraxonrasib",
+        "RAS(ON)",
+        "pancreatic cancer",
+        "FDA",
+        "BeOne Medicines",
+        "Royalty Pharma",
+        "biotech commercialization"
+      ],
+      "summary": "The FDA approved Revolution Medicines' RASONQUE 6.5 months ahead of schedule for a defined metastatic pancreatic adenocarcinoma population. This analysis examines the RASolute 302 survival data, the RAS(ON) mechanism, Revolution's eleven-year strategic pivot and the pricing, access, safety and global execution tests that begin after approval.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html"
+      }
+    },
+    {
+      "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+      "date": "2026-08-29",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+      "category": "基本面",
+      "access": "商業分析文",
+      "tags": [
+        "Revolution Medicines",
+        "RASONQUE",
+        "daraxonrasib",
+        "RAS(ON)",
+        "胰臟癌",
+        "FDA",
+        "BeOne Medicines",
+        "Royalty Pharma",
+        "生技商業化"
+      ],
+      "summary": "FDA 提前 6.5 個月核准 Revolution Medicines 的 RASONQUE，用於特定轉移性胰臟腺癌成人。本文拆解 RASolute 302 的生存數據、RAS(ON) 技術、Revolution 十一年轉向史，以及藥證之後的定價、給付、安全性與全球商業化考驗。",
+      "alternate_language_versions": {
+        "en": "2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html"
+      }
+    },
     {
       "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
       "date": "2026-08-28",
@@ -765,53 +811,6 @@
       "alternate_language_versions": {
         "en": "2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html"
       }
-    },
-    {
-      "title": "This Taiwanese Biotech Is Building a Nanorocket Inside the Human Body",
-      "date": "2026-08-13",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Intelligene",
-        "RNA delivery",
-        "oligonucleotide therapeutics",
-        "siRNA",
-        "ASO",
-        "extracellular vesicles",
-        "LNP",
-        "extrahepatic delivery",
-        "Taiwan biotech"
-      ],
-      "summary": "Oligonucleotide therapeutics are moving from sequence design to extrahepatic delivery. Intelligene is using EV and LNP platforms to target the lung and airways, testing whether RNA medicines can truly reach disease sites beyond the liver.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-13-intelligene-rna-delivery-nanorocket.html"
-      }
-    },
-    {
-      "title": "這家台灣Biotech正在打造人體內奈米火箭",
-      "date": "2026-08-13",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-13-intelligene-rna-delivery-nanorocket.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "智新生物",
-        "Intelligene",
-        "RNA 遞送",
-        "小核酸藥物",
-        "siRNA",
-        "ASO",
-        "EV 外泌體",
-        "LNP",
-        "肝外遞送",
-        "台灣生技"
-      ],
-      "summary": "小核酸藥物的競爭正從 RNA 序列設計走向肝外遞送；智新生技以 EV 與 LNP 平台切入肺部與呼吸道，挑戰小核酸下半場最值錢的問題：能否真正抵達病灶。",
-      "alternate_language_versions": {
-        "en": "2026-08-13-intelligene-rna-delivery-nanorocket-en.html"
-      }
     }
   ],
   "entities": [
@@ -856,7 +855,7 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 22,
+      "mentions": 21,
       "latest_date": "2026-08-27",
       "latest_articles": [
         {
@@ -930,44 +929,6 @@
       ]
     },
     {
-      "name": "臨床數據",
-      "type": "market_topic",
-      "mentions": 19,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Business Analysis",
       "type": "topic",
       "mentions": 18,
@@ -1002,6 +963,44 @@
           "date": "2026-07-18",
           "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "臨床數據",
+      "type": "market_topic",
+      "mentions": 18,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1196,6 +1195,44 @@
       ]
     },
     {
+      "name": "Revolution Medicines",
+      "type": "company",
+      "mentions": 11,
+      "latest_date": "2026-08-29",
+      "latest_articles": [
+        {
+          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
+          "language": "en"
+        },
+        {
+          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Why These Four Biotechs Can Afford Not to Sell",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "BD licensing",
       "type": "market_topic",
       "mentions": 11,
@@ -1272,44 +1309,6 @@
       ]
     },
     {
-      "name": "GLP-1",
-      "type": "biotech_concept_or_target",
-      "mentions": 10,
-      "latest_date": "2026-08-18",
-      "latest_articles": [
-        {
-          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Merck",
       "type": "company",
       "mentions": 9,
@@ -1348,39 +1347,39 @@
       ]
     },
     {
-      "name": "Revolution Medicines",
-      "type": "company",
-      "mentions": 9,
-      "latest_date": "2026-08-22",
+      "name": "Royalty Pharma",
+      "type": "topic",
+      "mentions": 8,
+      "latest_date": "2026-08-29",
       "latest_articles": [
         {
-          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
-          "date": "2026-08-22",
-          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
           "language": "en"
         },
         {
-          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
-          "date": "2026-08-22",
-          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
+          "language": "en"
+        },
+        {
+          "title": "藥華藥迎新對手？1 億美元賣分潤",
+          "date": "2026-08-28",
+          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
           "language": "zh-Hant"
         },
         {
           "title": "Why These Four Biotechs Can Afford Not to Sell",
           "date": "2026-08-08",
           "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
-          "language": "en"
-        },
-        {
-          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
-          "date": "2026-08-08",
-          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
           "language": "en"
         }
       ]
@@ -1500,40 +1499,40 @@
       ]
     },
     {
-      "name": "製藥巨頭",
-      "type": "market_topic",
+      "name": "GLP-1",
+      "type": "biotech_concept_or_target",
       "mentions": 8,
-      "latest_date": "2026-07-25",
+      "latest_date": "2026-08-18",
       "latest_articles": [
         {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
+          "language": "en"
+        },
+        {
+          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
           "language": "zh-Hant"
         },
         {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
           "language": "zh-Hant"
         },
         {
-          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-          "language": "zh-Hant"
+          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
+          "date": "2026-07-20",
+          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
+          "language": "en"
         }
       ]
     },
@@ -1576,44 +1575,6 @@
       ]
     },
     {
-      "name": "biotech investing",
-      "type": "topic",
-      "mentions": 7,
-      "latest_date": "2026-08-27",
-      "latest_articles": [
-        {
-          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
-          "language": "en"
-        },
-        {
-          "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
-          "language": "en"
-        },
-        {
-          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
-          "date": "2026-07-18",
-          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Novartis",
       "type": "company",
       "mentions": 7,
@@ -1648,44 +1609,6 @@
           "date": "2026-07-16",
           "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Eli Lilly",
-      "type": "company",
-      "mentions": 7,
-      "latest_date": "2026-08-20",
-      "latest_articles": [
-        {
-          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
-          "language": "en"
         }
       ]
     },
@@ -1766,6 +1689,44 @@
       ]
     },
     {
+      "name": "製藥巨頭",
+      "type": "market_topic",
+      "mentions": 7,
+      "latest_date": "2026-07-25",
+      "latest_articles": [
+        {
+          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Free Article",
       "type": "topic",
       "mentions": 7,
@@ -1804,39 +1765,153 @@
       ]
     },
     {
-      "name": "Royalty Pharma",
-      "type": "topic",
+      "name": "daraxonrasib",
+      "type": "biotech_concept_or_target",
       "mentions": 6,
-      "latest_date": "2026-08-28",
+      "latest_date": "2026-08-29",
       "latest_articles": [
         {
-          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
-          "date": "2026-08-28",
-          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
+          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
           "language": "en"
         },
         {
-          "title": "藥華藥迎新對手？1 億美元賣分潤",
-          "date": "2026-08-28",
-          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
+          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
           "language": "zh-Hant"
         },
         {
-          "title": "Why These Four Biotechs Can Afford Not to Sell",
-          "date": "2026-08-08",
-          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
           "language": "en"
         },
         {
-          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
-          "date": "2026-08-08",
-          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
           "language": "zh-Hant"
+        },
+        {
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "FDA",
+      "type": "market_topic",
+      "mentions": 6,
+      "latest_date": "2026-08-29",
+      "latest_articles": [
+        {
+          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
+          "language": "en"
+        },
+        {
+          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "RAS(ON)",
+      "type": "biotech_concept_or_target",
+      "mentions": 6,
+      "latest_date": "2026-08-29",
+      "latest_articles": [
+        {
+          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
+          "language": "en"
+        },
+        {
+          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "biotech investing",
+      "type": "topic",
+      "mentions": 6,
+      "latest_date": "2026-08-27",
+      "latest_articles": [
+        {
+          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pelacarsen's HORIZON Test: Does Lowering Lp(a) Prevent Cardiovascular Events?",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon-en.html",
+          "language": "en"
         },
         {
           "title": "When a Biotech Says No to a Sale: Five Tests of Whether It Can Become a Biopharma",
           "date": "2026-07-24",
           "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines-en.html",
+          "language": "en"
+        },
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Fasedienol's Phase 3 Brake: The Story Did Not Fail. The CNS Evidence Bar Did Its Job.",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns-en.html",
           "language": "en"
         }
       ]
@@ -1952,6 +2027,44 @@
           "date": "2026-07-16",
           "url": "https://drugnews.com.tw/articles/2026-07-16-big-pharma-ma-new-aesthetic.html",
           "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Eli Lilly",
+      "type": "company",
+      "mentions": 6,
+      "latest_date": "2026-08-20",
+      "latest_articles": [
+        {
+          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
+          "language": "en"
+        },
+        {
+          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+          "language": "en"
         }
       ]
     },
@@ -2222,44 +2335,6 @@
       ]
     },
     {
-      "name": "autoimmune disease",
-      "type": "topic",
-      "mentions": 5,
-      "latest_date": "2026-08-07",
-      "latest_articles": [
-        {
-          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
-          "date": "2026-08-07",
-          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
-          "language": "en"
-        },
-        {
-          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
-          "date": "2026-07-18",
-          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
-          "language": "en"
-        },
-        {
-          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
-          "date": "2026-07-15",
-          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
-          "date": "2026-07-06",
-          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "capital markets",
       "type": "market_topic",
       "mentions": 5,
@@ -2294,6 +2369,38 @@
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "BeOne Medicines",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-29",
+      "latest_articles": [
+        {
+          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
+          "language": "en"
+        },
+        {
+          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "language": "en"
+        },
+        {
+          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2421,70 +2528,6 @@
           "title": "Big Pharma's $134 Billion M&A Rush: What Is It Really Buying?",
           "date": "2026-07-05",
           "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "daraxonrasib",
-      "type": "biotech_concept_or_target",
-      "mentions": 4,
-      "latest_date": "2026-08-22",
-      "latest_articles": [
-        {
-          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
-          "date": "2026-08-22",
-          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
-          "date": "2026-08-22",
-          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
-          "date": "2026-07-03",
-          "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "RAS(ON)",
-      "type": "biotech_concept_or_target",
-      "mentions": 4,
-      "latest_date": "2026-08-22",
-      "latest_articles": [
-        {
-          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
-          "date": "2026-08-22",
-          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百濟神州一口氣押上 4 款 RAS 新藥",
-          "date": "2026-08-22",
-          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
           "language": "en"
         }
       ]
@@ -2650,6 +2693,38 @@
       ]
     },
     {
+      "name": "autoimmune disease",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-08-07",
+      "latest_articles": [
+        {
+          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
+          "date": "2026-08-07",
+          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
+          "language": "en"
+        },
+        {
+          "title": "When ADCs Enter Autoimmune Disease: Precision Immune Modulation, Not More Killing",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
+          "language": "en"
+        },
+        {
+          "title": "After the Nobel Prize, Do Not Rush the First-Approved Treg Story: The Real Test Is Turning Immune Tolerance Into a Product",
+          "date": "2026-07-15",
+          "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Off-the-Shelf CAR-T in 2026: Rebounding From the Trough",
+          "date": "2026-07-06",
+          "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "PROTAC",
       "type": "biotech_concept_or_target",
       "mentions": 4,
@@ -2746,34 +2821,28 @@
       ]
     },
     {
-      "name": "FDA",
-      "type": "market_topic",
-      "mentions": 4,
-      "latest_date": "2026-07-10",
+      "name": "胰臟癌",
+      "type": "topic",
+      "mentions": 3,
+      "latest_date": "2026-08-29",
       "latest_articles": [
         {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
           "language": "zh-Hant"
         },
         {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
           "language": "zh-Hant"
         },
         {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
+          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
+          "date": "2026-06-27",
+          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -3008,32 +3077,6 @@
           "date": "2026-07-15",
           "url": "https://drugnews.com.tw/articles/2026-07-15-treg-immune-tolerance-productization.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Zepbound",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-08-18",
-      "latest_articles": [
-        {
-          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Tirzepatide Enters Autoimmune Disease: Is Immunometabolism Lilly's Next Expansion Path?",
-          "date": "2026-06-26",
-          "url": "https://drugnews.com.tw/articles/2026-06-26-tirzepatide-autoimmune-immunometabolism-en.html",
-          "language": "en"
         }
       ]
     },
@@ -3298,6 +3341,46 @@
       ]
     },
     {
+      "name": "pancreatic cancer",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-29",
+      "latest_articles": [
+        {
+          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "RASONQUE",
+      "type": "biotech_concept_or_target",
+      "mentions": 2,
+      "latest_date": "2026-08-29",
+      "latest_articles": [
+        {
+          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
+          "language": "en"
+        },
+        {
+          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "BESREMi",
       "type": "topic",
       "mentions": 2,
@@ -3356,69 +3439,47 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "Takeda",
-      "type": "company",
-      "mentions": 2,
-      "latest_date": "2026-08-28",
-      "latest_articles": [
-        {
-          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
-          "date": "2026-08-28",
-          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
-          "language": "en"
-        },
-        {
-          "title": "藥華藥迎新對手？1 億美元賣分潤",
-          "date": "2026-08-28",
-          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Zealand Pharma",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-28",
-      "latest_articles": [
-        {
-          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
-          "date": "2026-08-28",
-          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
-          "language": "en"
-        },
-        {
-          "title": "藥華藥迎新對手？1 億美元賣分潤",
-          "date": "2026-08-28",
-          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Design-Build-Test-Learn",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-27",
-      "latest_articles": [
-        {
-          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
-          "language": "en"
-        },
-        {
-          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+      "date": "2026-08-29",
+      "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
+      "language": "en",
+      "category": "基本面",
+      "access": "Free Article",
+      "tags": [
+        "Revolution Medicines",
+        "RASONQUE",
+        "daraxonrasib",
+        "RAS(ON)",
+        "pancreatic cancer",
+        "FDA",
+        "BeOne Medicines",
+        "Royalty Pharma"
+      ],
+      "summary": "The FDA approved Revolution Medicines' RASONQUE 6.5 months ahead of schedule for a defined metastatic pancreatic adenocarcinoma population. This analysis examines the RASolute 302 survival data, the RAS(ON) mechanism, Revolution's eleven-year strategic pivot and the pricing, access, safety and global execution tests that begin after approval."
+    },
+    {
+      "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+      "date": "2026-08-29",
+      "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+      "language": "zh-Hant",
+      "category": "基本面",
+      "access": "商業分析文",
+      "tags": [
+        "Revolution Medicines",
+        "RASONQUE",
+        "daraxonrasib",
+        "RAS(ON)",
+        "胰臟癌",
+        "FDA",
+        "BeOne Medicines",
+        "Royalty Pharma"
+      ],
+      "summary": "FDA 提前 6.5 個月核准 Revolution Medicines 的 RASONQUE，用於特定轉移性胰臟腺癌成人。本文拆解 RASolute 302 的生存數據、RAS(ON) 技術、Revolution 十一年轉向史，以及藥證之後的定價、給付、安全性與全球商業化考驗。"
+    },
     {
       "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
       "date": "2026-08-27",
@@ -3950,44 +4011,6 @@
         "clinical data"
       ],
       "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives."
-    },
-    {
-      "title": "超級大藥廠 4,000 億美元合併？阿斯特捷利康＋BMS！",
-      "date": "2026-08-04",
-      "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "AstraZeneca",
-        "阿斯特捷利康",
-        "Bristol Myers Squibb",
-        "BMS",
-        "百時美施貴寶",
-        "生技併購",
-        "大藥廠",
-        "專利懸崖"
-      ],
-      "summary": "Financial Times 報導 AstraZeneca 與 BMS 曾探討結合，合計市值接近 4,000 億美元。這不是已簽交易；真正的產業問題是 2030 成長、Eliquis／Opdivo 獨占期、腫瘤管線重疊、反壟斷與整合能否買到時間。"
-    },
-    {
-      "title": "Tau Earned a Retest: Why Biogen Is Taking Diranersen Into Phase 3 After CELIA Missed Its Primary Endpoint",
-      "date": "2026-08-03",
-      "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Alzheimer's disease",
-        "tau",
-        "diranersen",
-        "BIIB080",
-        "IONIS-MAPTRx",
-        "Biogen",
-        "Ionis",
-        "antisense oligonucleotide"
-      ],
-      "summary": "CELIA missed its prespecified dose-response primary endpoint, yet the lowest dose produced a 0.54-point CDR-SB difference, or 26% slowing, while CSF total tau and tau PET moved in the expected direction. That is enough to justify Phase 3 planning, but not enough to declare tau a validated second disease-modifying pathway."
     }
   ]
 }
