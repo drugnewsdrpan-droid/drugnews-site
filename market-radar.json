@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-29T00:26:23.499Z",
+  "generated_at": "2026-08-30T04:16:14.795Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -116,6 +116,126 @@
     "positioning_note": "Drugnews does not provide individual stock recommendations. The site is positioned as biotech business-analysis media: clinical evidence, valuation logic, BD/licensing terms, CMC risk, company strategy, investor education, and capital-market narrative."
   },
   "buckets": [
+    {
+      "name": "GLP-1 與代謝賽道",
+      "count": 6,
+      "articles": [
+        {
+          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
+          "language": "en",
+          "category": "基本面",
+          "access": "Free Article",
+          "tags": [
+            "Amylyx",
+            "avexitide",
+            "GLP-1",
+            "post-bariatric hypoglycemia",
+            "PBH",
+            "LUCIDITY",
+            "Relyvrio",
+            "MBX Biosciences"
+          ],
+          "summary": "Avexitide reduced the combined rate of Level 2 and Level 3 hypoglycemic events by 55% versus placebo in Amylyx's Phase 3 LUCIDITY trial, sending the shares up about 64% in one session. This analysis examines the GLP-1 mechanism in post-bariatric hypoglycemia, the evidence still missing from the topline release, Amylyx's $35.1 million asset acquisition, its $500.2 million financing and the regulatory and commercial gates ahead."
+        },
+        {
+          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+          "language": "zh-Hant",
+          "category": "基本面",
+          "access": "商業分析文",
+          "tags": [
+            "Amylyx",
+            "avexitide",
+            "GLP-1",
+            "減重手術後低血糖",
+            "PBH",
+            "LUCIDITY",
+            "Relyvrio",
+            "MBX Biosciences"
+          ],
+          "summary": "Amylyx 的 avexitide 在 LUCIDITY 三期試驗中，讓第二級與第三級低血糖事件合併發生率較安慰劑降低 55%，帶動股價單日上漲約 64%。本文拆解 PBH 的 GLP-1 機制、三期證據、3,510 萬美元資產收購、5 億美元募資，以及核准與商業化前仍須跨越的關卡。"
+        },
+        {
+          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Eli Lilly",
+            "Tirzepatide",
+            "Mounjaro",
+            "Zepbound",
+            "GLP-1",
+            "Retatrutide",
+            "Orforglipron",
+            "Caliway"
+          ],
+          "summary": "Tirzepatide has allowed Eli Lilly to dominate both diabetes and obesity, but revenue concentration, pricing pressure and the next product relay are the investment questions that matter now."
+        },
+        {
+          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Eli Lilly",
+            "禮來",
+            "Tirzepatide",
+            "Mounjaro",
+            "Zepbound",
+            "GLP-1",
+            "Retatrutide",
+            "Orforglipron"
+          ],
+          "summary": "Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。"
+        },
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Business Analysis",
+            "obesity",
+            "weight-loss drugs",
+            "GLP-1",
+            "Pfizer",
+            "Roche",
+            "Amgen",
+            "Metsera"
+          ],
+          "summary": "Pfizer, Roche and Amgen are pruning obesity programs that lack clear differentiation. The GLP-1 market has moved from a race to enter the clinic to a contest across efficacy, safety, convenience and commercial execution."
+        },
+        {
+          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "肥胖症",
+            "減重藥",
+            "GLP-1",
+            "Pfizer",
+            "Roche",
+            "Amgen",
+            "Metsera",
+            "康霈"
+          ],
+          "summary": "Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。"
+        }
+      ]
+    },
     {
       "name": "腫瘤精準治療",
       "count": 8,
@@ -276,7 +396,7 @@
     },
     {
       "name": "AI 製藥與新技術",
-      "count": 6,
+      "count": 5,
       "articles": [
         {
           "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
@@ -372,25 +492,6 @@
             "多體學"
           ],
           "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。"
-        },
-        {
-          "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
-          "date": "2026-08-06",
-          "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "AnHorn Medicines",
-            "AH-001",
-            "Androgenetic Alopecia",
-            "Hair-Loss Drug",
-            "AR Degrader",
-            "PROTAC",
-            "Eli Lilly",
-            "Veradermics"
-          ],
-          "summary": "Lilly has placed a $40 million bet on next-generation hair-loss drugs. With roughly 80 million U.S. patients still constrained by two legacy therapies, AH-001's Phase 2 data could become the next global asset-revaluation trigger."
         }
       ]
     },
@@ -516,7 +617,7 @@
     },
     {
       "name": "CMC / 商業化風險",
-      "count": 2,
+      "count": 1,
       "articles": [
         {
           "title": "核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額",
@@ -536,25 +637,6 @@
             "Pluvicto"
           ],
           "summary": "6 月官網追蹤的 Curium–Lantheus 70 億美元收購傳聞，已在 8 月 3 日推進為最終合併協議：每股 102.50 美元現金加最高 12 美元 CVR，總交易價值最高約 80 億美元。真正被整合的是核素、製造、配送、診斷、治療與美國院端網絡。"
-        },
-        {
-          "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
-          "date": "2026-08-05",
-          "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Alnylam",
-            "Amvuttra",
-            "RNA interference",
-            "ATTR amyloidosis",
-            "small nucleic acid drugs",
-            "biotech valuation",
-            "Taiwan biotech",
-            "clinical data"
-          ],
-          "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives."
         }
       ]
     },
@@ -637,88 +719,6 @@
             "GSK"
           ],
           "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff."
-        }
-      ]
-    },
-    {
-      "name": "GLP-1 與代謝賽道",
-      "count": 4,
-      "articles": [
-        {
-          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Eli Lilly",
-            "Tirzepatide",
-            "Mounjaro",
-            "Zepbound",
-            "GLP-1",
-            "Retatrutide",
-            "Orforglipron",
-            "Caliway"
-          ],
-          "summary": "Tirzepatide has allowed Eli Lilly to dominate both diabetes and obesity, but revenue concentration, pricing pressure and the next product relay are the investment questions that matter now."
-        },
-        {
-          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Eli Lilly",
-            "禮來",
-            "Tirzepatide",
-            "Mounjaro",
-            "Zepbound",
-            "GLP-1",
-            "Retatrutide",
-            "Orforglipron"
-          ],
-          "summary": "Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。"
-        },
-        {
-          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Free Article",
-          "tags": [
-            "Business Analysis",
-            "obesity",
-            "weight-loss drugs",
-            "GLP-1",
-            "Pfizer",
-            "Roche",
-            "Amgen",
-            "Metsera"
-          ],
-          "summary": "Pfizer, Roche and Amgen are pruning obesity programs that lack clear differentiation. The GLP-1 market has moved from a race to enter the clinic to a contest across efficacy, safety, convenience and commercial execution."
-        },
-        {
-          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "肥胖症",
-            "減重藥",
-            "GLP-1",
-            "Pfizer",
-            "Roche",
-            "Amgen",
-            "Metsera",
-            "康霈"
-          ],
-          "summary": "Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。"
         }
       ]
     }

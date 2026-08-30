@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-29T00:26:23.552Z",
+  "generated_at": "2026-08-30T04:16:15.082Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+      "date": "2026-08-30",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
+      "category": "基本面",
+      "tags": [
+        "Amylyx",
+        "avexitide",
+        "GLP-1",
+        "post-bariatric hypoglycemia",
+        "PBH",
+        "LUCIDITY",
+        "Relyvrio",
+        "MBX Biosciences"
+      ],
+      "summary": "Avexitide reduced the combined rate of Level 2 and Level 3 hypoglycemic events by 55% versus placebo in Amylyx's Phase 3 LUCIDITY trial, sending the shares up about 64% in one session. This analysis examines the GLP-1 mechanism in post-bariatric hypoglycemia, the evidence still missing from the topline release, Amylyx's $35.1 million asset acquisition, its $500.2 million financing and the regulatory and commercial gates ahead."
+    },
+    {
+      "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+      "date": "2026-08-30",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+      "category": "基本面",
+      "tags": [
+        "Amylyx",
+        "avexitide",
+        "GLP-1",
+        "減重手術後低血糖",
+        "PBH",
+        "LUCIDITY",
+        "Relyvrio",
+        "MBX Biosciences"
+      ],
+      "summary": "Amylyx 的 avexitide 在 LUCIDITY 三期試驗中，讓第二級與第三級低血糖事件合併發生率較安慰劑降低 55%，帶動股價單日上漲約 64%。本文拆解 PBH 的 GLP-1 機制、三期證據、3,510 萬美元資產收購、5 億美元募資，以及核准與商業化前仍須跨越的關卡。"
+    },
     {
       "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
       "date": "2026-08-29",
@@ -778,42 +814,6 @@
         "IL-23"
       ],
       "summary": "Skyrizi 2026 年第二季收入達 55.05 億美元，距 Humira 的歷史單季高點只差 7,400 萬美元；真正的接班考驗，是療效、治療負擔、多適應症與支付能力能否一起延續。"
-    },
-    {
-      "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
-      "date": "2026-08-18",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Eli Lilly",
-        "Tirzepatide",
-        "Mounjaro",
-        "Zepbound",
-        "GLP-1",
-        "Retatrutide",
-        "Orforglipron",
-        "Caliway"
-      ],
-      "summary": "Tirzepatide has allowed Eli Lilly to dominate both diabetes and obesity, but revenue concentration, pricing pressure and the next product relay are the investment questions that matter now."
-    },
-    {
-      "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
-      "date": "2026-08-18",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
-      "category": "商業分析",
-      "tags": [
-        "Eli Lilly",
-        "禮來",
-        "Tirzepatide",
-        "Mounjaro",
-        "Zepbound",
-        "GLP-1",
-        "Retatrutide",
-        "Orforglipron"
-      ],
-      "summary": "Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。"
     }
   ],
   "do_not_use_as": [

@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 29 Aug 2026 00:26:23 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 04:16:15 GMT</lastBuildDate>
+    <item>
+      <title>減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！</title>
+      <link>https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:13 GMT</pubDate>
+      <category>基本面</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/amylyx-avexitide-pbh-phase3/cover-1400.webp" alt="Avexitide 阻斷 GLP-1 受體以降低減重手術後低血糖風險的編輯視覺"></p><p>Amylyx 的 avexitide 在 LUCIDITY 三期試驗中，讓第二級與第三級低血糖事件合併發生率較安慰劑降低 55%，帶動股價單日上漲約 64%。本文拆解 PBH 的 GLP-1 機制、三期證據、3,510 萬美元資產收購、5 億美元募資，以及核准與商業化前仍須跨越的關卡。</p>]]></description>
+    </item>
     <item>
       <title>胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥</title>
       <link>https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/anhorn-ah001-hair-loss-blockbuster-market/cover-1400.webp" alt="掉髮新藥市場、毛囊與 AH-001 外用雄激素受體降解機制的商業分析封面"></p><p>禮來用 4,000 萬美元卡位掉髮新藥；當美國約 8,000 萬名患者仍受限於兩款老藥，安宏 AH-001 的二期數據可能成為下一次全球資產重估關鍵。</p>]]></description>
-    </item>
-    <item>
-      <title>一季賣破 10 億，Alnylam 為何崩 28%？</title>
-      <link>https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/alnylam-amvuttra-ttr-growth-reset/cover.png" alt="Alnylam 與 Amvuttra 的營收成長和估值換檔"></p><p>Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。</p>]]></description>
     </item>
   </channel>
 </rss>

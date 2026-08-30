@@ -209,6 +209,62 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+      "date": "2026-08-30",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
+      "source": "Facebook",
+      "access": "Free Article",
+      "category": "基本面",
+      "tags": [
+        "Amylyx",
+        "avexitide",
+        "GLP-1",
+        "post-bariatric hypoglycemia",
+        "PBH",
+        "LUCIDITY",
+        "Relyvrio",
+        "MBX Biosciences",
+        "biotech asset acquisition"
+      ],
+      "summary": "Avexitide reduced the combined rate of Level 2 and Level 3 hypoglycemic events by 55% versus placebo in Amylyx's Phase 3 LUCIDITY trial, sending the shares up about 64% in one session. This analysis examines the GLP-1 mechanism in post-bariatric hypoglycemia, the evidence still missing from the topline release, Amylyx's $35.1 million asset acquisition, its $500.2 million financing and the regulatory and commercial gates ahead.",
+      "image": "https://drugnews.com.tw/assets/articles/amylyx-avexitide-pbh-phase3-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-30-amylyx-avexitide-pbh-phase3.html"
+      }
+    },
+    {
+      "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+      "date": "2026-08-30",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "基本面",
+      "tags": [
+        "Amylyx",
+        "avexitide",
+        "GLP-1",
+        "減重手術後低血糖",
+        "PBH",
+        "LUCIDITY",
+        "Relyvrio",
+        "MBX Biosciences",
+        "生技資產交易"
+      ],
+      "summary": "Amylyx 的 avexitide 在 LUCIDITY 三期試驗中，讓第二級與第三級低血糖事件合併發生率較安慰劑降低 55%，帶動股價單日上漲約 64%。本文拆解 PBH 的 GLP-1 機制、三期證據、3,510 萬美元資產收購、5 億美元募資，以及核准與商業化前仍須跨越的關卡。",
+      "image": "https://drugnews.com.tw/assets/articles/amylyx-avexitide-pbh-phase3/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-30-amylyx-avexitide-pbh-phase3-en.html"
+      }
+    },
+    {
       "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
       "date": "2026-08-29",
       "language": "en",
@@ -1547,63 +1603,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html"
-      }
-    },
-    {
-      "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
-      "date": "2026-08-05",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Alnylam",
-        "Amvuttra",
-        "RNA interference",
-        "ATTR amyloidosis",
-        "small nucleic acid drugs",
-        "biotech valuation",
-        "Taiwan biotech",
-        "clinical data",
-        "biotech business analysis"
-      ],
-      "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives.",
-      "image": "https://drugnews.com.tw/assets/articles/alnylam-amvuttra-ttr-growth-reset-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-05-alnylam-amvuttra-ttr-growth-reset.html"
-      }
-    },
-    {
-      "title": "一季賣破 10 億，Alnylam 為何崩 28%？",
-      "date": "2026-08-05",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "Alnylam",
-        "Amvuttra",
-        "RNAi",
-        "ATTR",
-        "小核酸藥物",
-        "生技股",
-        "合一",
-        "中天",
-        "智新生技",
-        "基米"
-      ],
-      "summary": "Amvuttra 單季銷售突破 10 億美元，Alnylam 卻下修 TTR 指引並重挫 28%。真正被重估的不是 RNAi 技術，而是積壓需求退潮、收入集中與下一個商業支柱的時間差。",
-      "image": "https://drugnews.com.tw/assets/articles/alnylam-amvuttra-ttr-growth-reset/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html"
       }
     }
   ]

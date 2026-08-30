@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-30｜Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight
+  URL: https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html
+  Topics: Amylyx, avexitide, GLP-1, post-bariatric hypoglycemia, PBH
+  Summary: Avexitide reduced the combined rate of Level 2 and Level 3 hypoglycemic events by 55% versus placebo in Amylyx's Phase 3 LUCIDITY trial, sending the shares up about 64% in one session. This analysis examines the GLP-1 mechanism in post-bariatric hypoglycemia, the evidence still missing from the topline release, Amylyx's $35.1 million asset acquisition, its $500.2 million financing and the regulatory and commercial gates ahead.
+- 2026-08-30｜減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！
+  URL: https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html
+  Topics: Amylyx, avexitide, GLP-1, 減重手術後低血糖, PBH
+  Summary: Amylyx 的 avexitide 在 LUCIDITY 三期試驗中，讓第二級與第三級低血糖事件合併發生率較安慰劑降低 55%，帶動股價單日上漲約 64%。本文拆解 PBH 的 GLP-1 機制、三期證據、3,510 萬美元資產收購、5 億美元募資，以及核准與商業化前仍須跨越的關卡。
 - 2026-08-29｜Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval
   URL: https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html
   Topics: Revolution Medicines, RASONQUE, daraxonrasib, RAS(ON), pancreatic cancer
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html
   Topics: Curium, Lantheus, 核藥, 放射性藥物, 診療一體化
   Summary: 6 月官網追蹤的 Curium–Lantheus 70 億美元收購傳聞，已在 8 月 3 日推進為最終合併協議：每股 102.50 美元現金加最高 12 美元 CVR，總交易價值最高約 80 億美元。真正被整合的是核素、製造、配送、診斷、治療與美國院端網絡。
-- 2026-08-23｜Who Could Be Big Pharma's Next Major Biotech Acquisition?
-  URL: https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html
-  Topics: biotech M&A, Big Pharma, Alkermes, Dyne Therapeutics, First Tracks Biotherapeutics
-  Summary: Biopharma acquisition capital in 2026 is clustering around a narrow window: human risk has started to fall, but strategic value is not yet fully priced. Alkermes, Dyne, First Tracks, Legend and Sail illustrate five ways a biotech can enter that window, while Taiwan's Pharmosa Biopharm and Belite Bio show how late-stage assets can speak the same global language.
-- 2026-08-23｜Biotech 下一筆重磅併購，會落在誰身上？
-  URL: https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html
-  Topics: 生技併購, Big Pharma, Alkermes, Dyne Therapeutics, First Tracks Biotherapeutics
-  Summary: 2026 年的生技併購資金，正集中到臨床風險開始下降、商業價值尚未完全定價的公司。從 Alkermes、Dyne、First Tracks、Legend 到 Sail，再回看國邑與仁新，真正值得追的是人體概念驗證、平台外延、商業化距離與買方策略契合度。
 
 ## Key Site Sections
 

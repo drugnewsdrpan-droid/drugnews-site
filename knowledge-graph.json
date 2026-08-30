@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-29T00:26:23.553Z",
+  "generated_at": "2026-08-30T04:16:15.085Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,52 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+      "date": "2026-08-30",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
+      "category": "基本面",
+      "access": "Free Article",
+      "tags": [
+        "Amylyx",
+        "avexitide",
+        "GLP-1",
+        "post-bariatric hypoglycemia",
+        "PBH",
+        "LUCIDITY",
+        "Relyvrio",
+        "MBX Biosciences",
+        "biotech asset acquisition"
+      ],
+      "summary": "Avexitide reduced the combined rate of Level 2 and Level 3 hypoglycemic events by 55% versus placebo in Amylyx's Phase 3 LUCIDITY trial, sending the shares up about 64% in one session. This analysis examines the GLP-1 mechanism in post-bariatric hypoglycemia, the evidence still missing from the topline release, Amylyx's $35.1 million asset acquisition, its $500.2 million financing and the regulatory and commercial gates ahead.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-30-amylyx-avexitide-pbh-phase3.html"
+      }
+    },
+    {
+      "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+      "date": "2026-08-30",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+      "category": "基本面",
+      "access": "商業分析文",
+      "tags": [
+        "Amylyx",
+        "avexitide",
+        "GLP-1",
+        "減重手術後低血糖",
+        "PBH",
+        "LUCIDITY",
+        "Relyvrio",
+        "MBX Biosciences",
+        "生技資產交易"
+      ],
+      "summary": "Amylyx 的 avexitide 在 LUCIDITY 三期試驗中，讓第二級與第三級低血糖事件合併發生率較安慰劑降低 55%，帶動股價單日上漲約 64%。本文拆解 PBH 的 GLP-1 機制、三期證據、3,510 萬美元資產收購、5 億美元募資，以及核准與商業化前仍須跨越的關卡。",
+      "alternate_language_versions": {
+        "en": "2026-08-30-amylyx-avexitide-pbh-phase3-en.html"
+      }
+    },
     {
       "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
       "date": "2026-08-29",
@@ -764,53 +810,6 @@
       "alternate_language_versions": {
         "en": "2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html"
       }
-    },
-    {
-      "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
-      "date": "2026-08-15",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
-      "category": "商業分析",
-      "access": "Free Article",
-      "tags": [
-        "Business Analysis",
-        "GSK",
-        "camlipixant",
-        "P2X3",
-        "refractory chronic cough",
-        "CALM-1",
-        "CALM-2",
-        "Phase 3",
-        "drug development",
-        "biopharma M&A"
-      ],
-      "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html"
-      }
-    },
-    {
-      "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
-      "date": "2026-08-15",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "GSK",
-        "camlipixant",
-        "P2X3",
-        "慢性咳嗽",
-        "CALM-1",
-        "CALM-2",
-        "臨床三期",
-        "新藥研發",
-        "生技併購"
-      ],
-      "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。",
-      "alternate_language_versions": {
-        "en": "2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html"
-      }
     }
   ],
   "entities": [
@@ -855,7 +854,7 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 21,
+      "mentions": 20,
       "latest_date": "2026-08-27",
       "latest_articles": [
         {
@@ -969,7 +968,7 @@
     {
       "name": "臨床數據",
       "type": "market_topic",
-      "mentions": 18,
+      "mentions": 17,
       "latest_date": "2026-08-03",
       "latest_articles": [
         {
@@ -1157,44 +1156,6 @@
       ]
     },
     {
-      "name": "BD",
-      "type": "market_topic",
-      "mentions": 12,
-      "latest_date": "2026-07-24",
-      "latest_articles": [
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Revolution Medicines",
       "type": "company",
       "mentions": 11,
@@ -1271,6 +1232,44 @@
       ]
     },
     {
+      "name": "GLP-1",
+      "type": "biotech_concept_or_target",
+      "mentions": 10,
+      "latest_date": "2026-08-30",
+      "latest_articles": [
+        {
+          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
+          "language": "en"
+        },
+        {
+          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
+          "date": "2026-08-16",
+          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "Big Pharma",
       "type": "market_topic",
       "mentions": 10,
@@ -1304,6 +1303,44 @@
           "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
           "date": "2026-07-25",
           "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "BD",
+      "type": "market_topic",
+      "mentions": 10,
+      "latest_date": "2026-07-24",
+      "latest_articles": [
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
           "language": "zh-Hant"
         }
       ]
@@ -1495,44 +1532,6 @@
           "date": "2026-07-27",
           "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "GLP-1",
-      "type": "biotech_concept_or_target",
-      "mentions": 8,
-      "latest_date": "2026-08-18",
-      "latest_articles": [
-        {
-          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
-          "language": "en"
-        },
-        {
-          "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Madrigal's MASH Platform Strategy: Rezdiffra as the Cornerstone, siRNA as the Next Growth Engine",
-          "date": "2026-07-20",
-          "url": "https://drugnews.com.tw/articles/2026-07-20-madrigal-mash-sirna-platform-en.html",
-          "language": "en"
         }
       ]
     },
@@ -2821,32 +2820,6 @@
       ]
     },
     {
-      "name": "胰臟癌",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-08-29",
-      "latest_articles": [
-        {
-          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
-          "date": "2026-08-29",
-          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "安邦生技",
       "type": "topic",
       "mentions": 3,
@@ -3289,53 +3262,141 @@
       ]
     },
     {
-      "name": "PRMT5",
-      "type": "biotech_concept_or_target",
-      "mentions": 3,
-      "latest_date": "2026-07-02",
+      "name": "Amylyx",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-30",
       "latest_articles": [
         {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
           "language": "en"
         },
         {
-          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
-          "language": "en"
-        },
-        {
-          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
+          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
           "language": "zh-Hant"
         }
       ]
     },
     {
-      "name": "RAS",
-      "type": "biotech_concept_or_target",
-      "mentions": 3,
-      "latest_date": "2026-07-02",
+      "name": "avexitide",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-30",
       "latest_articles": [
         {
-          "title": "Synthetic Lethality After PARP: Why the Next Oncology Blockbuster Has Been So Hard to Find",
-          "date": "2026-07-02",
-          "url": "https://drugnews.com.tw/articles/2026-07-02-synthetic-lethality-next-parp-en.html",
+          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
           "language": "en"
         },
         {
-          "title": "Pancreatic Cancer Breakthrough: After RAS Inhibitors, PRMT5/MAT2A Combinations Open the Next Layer of Upside",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination-en.html",
+          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "LUCIDITY",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-30",
+      "latest_articles": [
+        {
+          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
           "language": "en"
         },
         {
-          "title": "胰臟癌再爆：RAS 抑制劑之後，PRMT5／MAT2A 聯合療法把想像空間再打開",
-          "date": "2026-06-27",
-          "url": "https://drugnews.com.tw/articles/2026-06-27-pancreatic-cancer-ras-prmt5-mat2a-combination.html",
+          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "MBX Biosciences",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-30",
+      "latest_articles": [
+        {
+          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "PBH",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-30",
+      "latest_articles": [
+        {
+          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Relyvrio",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-30",
+      "latest_articles": [
+        {
+          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "胰臟癌",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-29",
+      "latest_articles": [
+        {
+          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
           "language": "zh-Hant"
         }
       ]
@@ -3359,89 +3420,47 @@
           "language": "en"
         }
       ]
-    },
-    {
-      "name": "RASONQUE",
-      "type": "biotech_concept_or_target",
-      "mentions": 2,
-      "latest_date": "2026-08-29",
-      "latest_articles": [
-        {
-          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
-          "date": "2026-08-29",
-          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
-          "language": "en"
-        },
-        {
-          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
-          "date": "2026-08-29",
-          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "BESREMi",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-28",
-      "latest_articles": [
-        {
-          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
-          "date": "2026-08-28",
-          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
-          "language": "en"
-        },
-        {
-          "title": "藥華藥迎新對手？1 億美元賣分潤",
-          "date": "2026-08-28",
-          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Protagonist Therapeutics",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-28",
-      "latest_articles": [
-        {
-          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
-          "date": "2026-08-28",
-          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
-          "language": "en"
-        },
-        {
-          "title": "藥華藥迎新對手？1 億美元賣分潤",
-          "date": "2026-08-28",
-          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "rusfertide",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-28",
-      "latest_articles": [
-        {
-          "title": "A New Rival for PharmaEssentia? What Zealand Actually Sold for $100 Million",
-          "date": "2026-08-28",
-          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv-en.html",
-          "language": "en"
-        },
-        {
-          "title": "藥華藥迎新對手？1 億美元賣分潤",
-          "date": "2026-08-28",
-          "url": "https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+      "date": "2026-08-30",
+      "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
+      "language": "en",
+      "category": "基本面",
+      "access": "Free Article",
+      "tags": [
+        "Amylyx",
+        "avexitide",
+        "GLP-1",
+        "post-bariatric hypoglycemia",
+        "PBH",
+        "LUCIDITY",
+        "Relyvrio",
+        "MBX Biosciences"
+      ],
+      "summary": "Avexitide reduced the combined rate of Level 2 and Level 3 hypoglycemic events by 55% versus placebo in Amylyx's Phase 3 LUCIDITY trial, sending the shares up about 64% in one session. This analysis examines the GLP-1 mechanism in post-bariatric hypoglycemia, the evidence still missing from the topline release, Amylyx's $35.1 million asset acquisition, its $500.2 million financing and the regulatory and commercial gates ahead."
+    },
+    {
+      "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+      "date": "2026-08-30",
+      "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+      "language": "zh-Hant",
+      "category": "基本面",
+      "access": "商業分析文",
+      "tags": [
+        "Amylyx",
+        "avexitide",
+        "GLP-1",
+        "減重手術後低血糖",
+        "PBH",
+        "LUCIDITY",
+        "Relyvrio",
+        "MBX Biosciences"
+      ],
+      "summary": "Amylyx 的 avexitide 在 LUCIDITY 三期試驗中，讓第二級與第三級低血糖事件合併發生率較安慰劑降低 55%，帶動股價單日上漲約 64%。本文拆解 PBH 的 GLP-1 機制、三期證據、3,510 萬美元資產收購、5 億美元募資，以及核准與商業化前仍須跨越的關卡。"
+    },
     {
       "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
       "date": "2026-08-29",
@@ -3973,44 +3992,6 @@
         "celiac disease"
       ],
       "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat."
-    },
-    {
-      "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
-      "date": "2026-08-06",
-      "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "AnHorn Medicines",
-        "AH-001",
-        "Androgenetic Alopecia",
-        "Hair-Loss Drug",
-        "AR Degrader",
-        "PROTAC",
-        "Eli Lilly",
-        "Veradermics"
-      ],
-      "summary": "Lilly has placed a $40 million bet on next-generation hair-loss drugs. With roughly 80 million U.S. patients still constrained by two legacy therapies, AH-001's Phase 2 data could become the next global asset-revaluation trigger."
-    },
-    {
-      "title": "More Than $1 Billion in One Quarter: Why Did Alnylam Plunge 28%?",
-      "date": "2026-08-05",
-      "url": "https://drugnews.com.tw/articles/2026-08-05-alnylam-amvuttra-ttr-growth-reset-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Alnylam",
-        "Amvuttra",
-        "RNA interference",
-        "ATTR amyloidosis",
-        "small nucleic acid drugs",
-        "biotech valuation",
-        "Taiwan biotech",
-        "clinical data"
-      ],
-      "summary": "Amvuttra surpassed $1 billion in quarterly sales, yet Alnylam cut its TTR guidance and lost 28% in one day. The reset was not about RNAi technology failing; it was about pent-up demand normalizing, revenue concentration and the timing gap before a second commercial pillar arrives."
     }
   ]
 }
