@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-08-31｜GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?
+  URL: https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html
+  Topics: GLP-1, luxury hospitality, hotel food and beverage, consumer spending, zero-proof beverages
+  Summary: A U.S. household transaction study found that grocery spending fell 5.3% on average six months after GLP-1 adoption and 8.2% among higher-income households. Some luxury hotels are already testing smaller portions, protein-forward menus, zero-proof drinks and wellness services. The strategic question is whether hospitality operators can translate lower food volume into better service, pricing and repeat demand.
+- 2026-08-31｜減重針逼瘋五星級飯店？客人吃少了，飯店靠什麼賺？
+  URL: https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift.html
+  Topics: GLP-1, 五星級飯店, 高端旅宿, 餐飲消費, 無酒精飲品
+  Summary: 美國家戶交易研究顯示，採用 GLP-1 六個月後，雜貨支出平均下降 5.3%，高收入家庭下降 8.2%；部分高端飯店也開始測試小份餐、高蛋白、無酒精飲品與健康陪伴服務。真正的商業題目，不是客人吃少了多少，而是飯店能否把食物的量重新翻譯成服務、價格與回購。
 - 2026-08-30｜Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight
   URL: https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html
   Topics: Amylyx, avexitide, GLP-1, post-bariatric hypoglycemia, PBH
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology.html
   Topics: 安邦生技, ABT-301, imofinostat, Combination Layer, 大腸直腸癌
   Summary: 大藥廠正為主藥旁的增量療效付費。安邦ABT-301已完成Phase I，接下來由CRC三聯的療效、劑量持續性、耐久性與biomarker決定其能否走向Combination Layer與大型藥廠合作。
-- 2026-08-24｜Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business
-  URL: https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html
-  Topics: Curium, Lantheus, radiopharma, theranostics, PSMA
-  Summary: The $7 billion Curium-Lantheus rumor covered in June became a definitive agreement on August 3: $102.50 in cash plus up to $12.00 per share in CVRs, for total consideration of up to $8 billion. The strategic prize is an integrated chain spanning isotopes, manufacturing, distribution, diagnostics, therapy and U.S. hospital access.
-- 2026-08-24｜核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額
-  URL: https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html
-  Topics: Curium, Lantheus, 核藥, 放射性藥物, 診療一體化
-  Summary: 6 月官網追蹤的 Curium–Lantheus 70 億美元收購傳聞，已在 8 月 3 日推進為最終合併協議：每股 102.50 美元現金加最高 12 美元 CVR，總交易價值最高約 80 億美元。真正被整合的是核素、製造、配送、診斷、治療與美國院端網絡。
 
 ## Key Site Sections
 

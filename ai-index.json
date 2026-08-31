@@ -209,6 +209,60 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
+      "date": "2026-08-31",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html",
+      "source": "Facebook",
+      "access": "Free Article",
+      "category": "商業分析",
+      "tags": [
+        "GLP-1",
+        "luxury hospitality",
+        "hotel food and beverage",
+        "consumer spending",
+        "zero-proof beverages",
+        "wellness tourism",
+        "service design",
+        "semaglutide"
+      ],
+      "summary": "A U.S. household transaction study found that grocery spending fell 5.3% on average six months after GLP-1 adoption and 8.2% among higher-income households. Some luxury hotels are already testing smaller portions, protein-forward menus, zero-proof drinks and wellness services. The strategic question is whether hospitality operators can translate lower food volume into better service, pricing and repeat demand.",
+      "image": "https://drugnews.com.tw/assets/articles/glp1-luxury-hospitality-spending-shift-en/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-31-glp1-luxury-hospitality-spending-shift.html"
+      }
+    },
+    {
+      "title": "減重針逼瘋五星級飯店？客人吃少了，飯店靠什麼賺？",
+      "date": "2026-08-31",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "GLP-1",
+        "五星級飯店",
+        "高端旅宿",
+        "餐飲消費",
+        "無酒精飲品",
+        "健康旅遊",
+        "服務設計",
+        "semaglutide"
+      ],
+      "summary": "美國家戶交易研究顯示，採用 GLP-1 六個月後，雜貨支出平均下降 5.3%，高收入家庭下降 8.2%；部分高端飯店也開始測試小份餐、高蛋白、無酒精飲品與健康陪伴服務。真正的商業題目，不是客人吃少了多少，而是飯店能否把食物的量重新翻譯成服務、價格與回購。",
+      "image": "https://drugnews.com.tw/assets/articles/glp1-luxury-hospitality-spending-shift/cover-1400.webp",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-08-31-glp1-luxury-hospitality-spending-shift-en.html"
+      }
+    },
+    {
       "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
       "date": "2026-08-30",
       "language": "en",
@@ -1545,64 +1599,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-08-07-argenx-forte-fb102-acquisition.html"
-      }
-    },
-    {
-      "title": "Investors, Take Note: Hair Loss Could Be Biotech's Next Weight-Loss-Drug-Sized Blockbuster",
-      "date": "2026-08-06",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html",
-      "source": "Website",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "AnHorn Medicines",
-        "AH-001",
-        "Androgenetic Alopecia",
-        "Hair-Loss Drug",
-        "AR Degrader",
-        "PROTAC",
-        "Eli Lilly",
-        "Veradermics",
-        "Absci",
-        "Taiwan Biotech"
-      ],
-      "summary": "Lilly has placed a $40 million bet on next-generation hair-loss drugs. With roughly 80 million U.S. patients still constrained by two legacy therapies, AH-001's Phase 2 data could become the next global asset-revaluation trigger.",
-      "image": "https://drugnews.com.tw/assets/articles/anhorn-ah001-hair-loss-blockbuster-market-en/cover-1400.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html"
-      }
-    },
-    {
-      "title": "投資人請注意，下一個減肥藥級別賽道來了！",
-      "date": "2026-08-06",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-06-anhorn-ah001-hair-loss-blockbuster-market.html",
-      "source": "Website",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "安宏生醫",
-        "AH-001",
-        "雄性禿",
-        "掉髮新藥",
-        "AR 降解劑",
-        "PROTAC",
-        "禮來",
-        "Veradermics",
-        "Absci",
-        "台灣生技"
-      ],
-      "summary": "禮來用 4,000 萬美元卡位掉髮新藥；當美國約 8,000 萬名患者仍受限於兩款老藥，安宏 AH-001 的二期數據可能成為下一次全球資產重估關鍵。",
-      "image": "https://drugnews.com.tw/assets/articles/anhorn-ah001-hair-loss-blockbuster-market/cover-1400.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-08-06-anhorn-ah001-hair-loss-blockbuster-market-en.html"
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-30T04:16:15.085Z",
+  "generated_at": "2026-08-31T04:37:17.272Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,50 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
+      "date": "2026-08-31",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "GLP-1",
+        "luxury hospitality",
+        "hotel food and beverage",
+        "consumer spending",
+        "zero-proof beverages",
+        "wellness tourism",
+        "service design",
+        "semaglutide"
+      ],
+      "summary": "A U.S. household transaction study found that grocery spending fell 5.3% on average six months after GLP-1 adoption and 8.2% among higher-income households. Some luxury hotels are already testing smaller portions, protein-forward menus, zero-proof drinks and wellness services. The strategic question is whether hospitality operators can translate lower food volume into better service, pricing and repeat demand.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-08-31-glp1-luxury-hospitality-spending-shift.html"
+      }
+    },
+    {
+      "title": "減重針逼瘋五星級飯店？客人吃少了，飯店靠什麼賺？",
+      "date": "2026-08-31",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "GLP-1",
+        "五星級飯店",
+        "高端旅宿",
+        "餐飲消費",
+        "無酒精飲品",
+        "健康旅遊",
+        "服務設計",
+        "semaglutide"
+      ],
+      "summary": "美國家戶交易研究顯示，採用 GLP-1 六個月後，雜貨支出平均下降 5.3%，高收入家庭下降 8.2%；部分高端飯店也開始測試小份餐、高蛋白、無酒精飲品與健康陪伴服務。真正的商業題目，不是客人吃少了多少，而是飯店能否把食物的量重新翻譯成服務、價格與回購。",
+      "alternate_language_versions": {
+        "en": "2026-08-31-glp1-luxury-hospitality-spending-shift-en.html"
+      }
+    },
     {
       "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
       "date": "2026-08-30",
@@ -763,53 +807,6 @@
       "alternate_language_versions": {
         "en": "2026-08-17-iovance-amtagvi-til-commercialization-en.html"
       }
-    },
-    {
-      "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-      "date": "2026-08-16",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
-      "category": "商業分析",
-      "access": "Free Article",
-      "tags": [
-        "Business Analysis",
-        "obesity",
-        "weight-loss drugs",
-        "GLP-1",
-        "Pfizer",
-        "Roche",
-        "Amgen",
-        "Metsera",
-        "Caliway",
-        "ANYA Biopharm"
-      ],
-      "summary": "Pfizer, Roche and Amgen are pruning obesity programs that lack clear differentiation. The GLP-1 market has moved from a race to enter the clinic to a contest across efficacy, safety, convenience and commercial execution.",
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html"
-      }
-    },
-    {
-      "title": "百億美元搶來的減肥藥，輝瑞冤大頭又丟掉了？",
-      "date": "2026-08-16",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "肥胖症",
-        "減重藥",
-        "GLP-1",
-        "Pfizer",
-        "Roche",
-        "Amgen",
-        "Metsera",
-        "康霈",
-        "奧孟亞"
-      ],
-      "summary": "Pfizer、Roche 與 Amgen 同步清理缺乏差異化的肥胖症管線，顯示 GLP-1 下半場的門檻已從「有藥可做」升高為療效、安全、便利性與商業化能力的全面競爭。",
-      "alternate_language_versions": {
-        "en": "2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html"
-      }
     }
   ],
   "entities": [
@@ -852,44 +849,6 @@
       ]
     },
     {
-      "name": "生技投資",
-      "type": "market_topic",
-      "mentions": 20,
-      "latest_date": "2026-08-27",
-      "latest_articles": [
-        {
-          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
-          "date": "2026-08-08",
-          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
-          "date": "2026-07-18",
-          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "drug development",
       "type": "topic",
       "mentions": 20,
@@ -924,6 +883,44 @@
           "date": "2026-08-03",
           "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "生技投資",
+      "type": "market_topic",
+      "mentions": 19,
+      "latest_date": "2026-08-27",
+      "latest_articles": [
+        {
+          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -968,7 +965,7 @@
     {
       "name": "臨床數據",
       "type": "market_topic",
-      "mentions": 17,
+      "mentions": 16,
       "latest_date": "2026-08-03",
       "latest_articles": [
         {
@@ -1118,6 +1115,44 @@
       ]
     },
     {
+      "name": "GLP-1",
+      "type": "biotech_concept_or_target",
+      "mentions": 12,
+      "latest_date": "2026-08-31",
+      "latest_articles": [
+        {
+          "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
+          "date": "2026-08-31",
+          "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html",
+          "language": "en"
+        },
+        {
+          "title": "減重針逼瘋五星級飯店？客人吃少了，飯店靠什麼賺？",
+          "date": "2026-08-31",
+          "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
+          "language": "en"
+        },
+        {
+          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
+          "date": "2026-08-30",
+          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
+          "date": "2026-08-18",
+          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "台灣生技",
       "type": "topic",
       "mentions": 12,
@@ -1232,44 +1267,6 @@
       ]
     },
     {
-      "name": "GLP-1",
-      "type": "biotech_concept_or_target",
-      "mentions": 10,
-      "latest_date": "2026-08-30",
-      "latest_articles": [
-        {
-          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
-          "language": "en"
-        },
-        {
-          "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
-          "date": "2026-08-18",
-          "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Pfizer Paid Billions for Obesity Assets. Is It Already Cutting Its Losses?",
-          "date": "2026-08-16",
-          "url": "https://drugnews.com.tw/articles/2026-08-16-obesity-drug-shakeout-pfizer-roche-amgen-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Big Pharma",
       "type": "market_topic",
       "mentions": 10,
@@ -1303,44 +1300,6 @@
           "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
           "date": "2026-07-25",
           "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "BD",
-      "type": "market_topic",
-      "mentions": 10,
-      "latest_date": "2026-07-24",
-      "latest_articles": [
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
           "language": "zh-Hant"
         }
       ]
@@ -1380,6 +1339,44 @@
           "date": "2026-08-10",
           "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "BD",
+      "type": "market_topic",
+      "mentions": 9,
+      "latest_date": "2026-07-24",
+      "latest_articles": [
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1802,44 +1799,6 @@
       ]
     },
     {
-      "name": "FDA",
-      "type": "market_topic",
-      "mentions": 6,
-      "latest_date": "2026-08-29",
-      "latest_articles": [
-        {
-          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
-          "date": "2026-08-29",
-          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
-          "language": "en"
-        },
-        {
-          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
-          "date": "2026-08-29",
-          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
-          "language": "en"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "RAS(ON)",
       "type": "biotech_concept_or_target",
       "mentions": 6,
@@ -2139,6 +2098,44 @@
           "title": "通用型 CAR-T 的 2026 從低谷回暖",
           "date": "2026-07-06",
           "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "FDA",
+      "type": "market_topic",
+      "mentions": 5,
+      "latest_date": "2026-08-29",
+      "latest_articles": [
+        {
+          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
+          "language": "en"
+        },
+        {
+          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Operation TrialBlazer: Why HHS Is Rewriting Clinical-Trial Rules and Biotech Competition",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials-en.html",
+          "language": "en"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
           "language": "zh-Hant"
         }
       ]
@@ -2872,32 +2869,6 @@
       ]
     },
     {
-      "name": "M&A",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-08-24",
-      "latest_articles": [
-        {
-          "title": "Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business",
-          "date": "2026-08-24",
-          "url": "https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The FDA Tone Has Shifted: Why Biotech’s Rebound Is Starting at the Regulatory Layer",
-          "date": "2026-06-28",
-          "url": "https://drugnews.com.tw/articles/2026-06-28-fda-regulatory-shift-biotech-rebound-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "zoldonrasib",
       "type": "biotech_concept_or_target",
       "mentions": 3,
@@ -3262,6 +3233,26 @@
       ]
     },
     {
+      "name": "semaglutide",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-08-31",
+      "latest_articles": [
+        {
+          "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
+          "date": "2026-08-31",
+          "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html",
+          "language": "en"
+        },
+        {
+          "title": "減重針逼瘋五星級飯店？客人吃少了，飯店靠什麼賺？",
+          "date": "2026-08-31",
+          "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "Amylyx",
       "type": "topic",
       "mentions": 2,
@@ -3423,6 +3414,44 @@
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
+      "date": "2026-08-31",
+      "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "GLP-1",
+        "luxury hospitality",
+        "hotel food and beverage",
+        "consumer spending",
+        "zero-proof beverages",
+        "wellness tourism",
+        "service design",
+        "semaglutide"
+      ],
+      "summary": "A U.S. household transaction study found that grocery spending fell 5.3% on average six months after GLP-1 adoption and 8.2% among higher-income households. Some luxury hotels are already testing smaller portions, protein-forward menus, zero-proof drinks and wellness services. The strategic question is whether hospitality operators can translate lower food volume into better service, pricing and repeat demand."
+    },
+    {
+      "title": "減重針逼瘋五星級飯店？客人吃少了，飯店靠什麼賺？",
+      "date": "2026-08-31",
+      "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "GLP-1",
+        "五星級飯店",
+        "高端旅宿",
+        "餐飲消費",
+        "無酒精飲品",
+        "健康旅遊",
+        "服務設計",
+        "semaglutide"
+      ],
+      "summary": "美國家戶交易研究顯示，採用 GLP-1 六個月後，雜貨支出平均下降 5.3%，高收入家庭下降 8.2%；部分高端飯店也開始測試小份餐、高蛋白、無酒精飲品與健康陪伴服務。真正的商業題目，不是客人吃少了多少，而是飯店能否把食物的量重新翻譯成服務、價格與回購。"
+    },
     {
       "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
       "date": "2026-08-30",
@@ -3954,44 +3983,6 @@
         "GSK"
       ],
       "summary": "2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。"
-    },
-    {
-      "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-      "date": "2026-08-10",
-      "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "biopharma M&A",
-        "pharma acquisitions",
-        "patent cliff",
-        "Eli Lilly",
-        "Merck",
-        "AbbVie",
-        "Gilead",
-        "GSK"
-      ],
-      "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff."
-    },
-    {
-      "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
-      "date": "2026-08-07",
-      "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "argenx",
-        "Forte Biosciences",
-        "FB102",
-        "VYVGART",
-        "CD122",
-        "autoimmune disease",
-        "vitiligo",
-        "celiac disease"
-      ],
-      "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-30T04:16:14.795Z",
+  "generated_at": "2026-08-31T04:37:17.219Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -118,8 +118,46 @@
   "buckets": [
     {
       "name": "GLP-1 與代謝賽道",
-      "count": 6,
+      "count": 8,
       "articles": [
+        {
+          "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
+          "date": "2026-08-31",
+          "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "GLP-1",
+            "luxury hospitality",
+            "hotel food and beverage",
+            "consumer spending",
+            "zero-proof beverages",
+            "wellness tourism",
+            "service design",
+            "semaglutide"
+          ],
+          "summary": "A U.S. household transaction study found that grocery spending fell 5.3% on average six months after GLP-1 adoption and 8.2% among higher-income households. Some luxury hotels are already testing smaller portions, protein-forward menus, zero-proof drinks and wellness services. The strategic question is whether hospitality operators can translate lower food volume into better service, pricing and repeat demand."
+        },
+        {
+          "title": "減重針逼瘋五星級飯店？客人吃少了，飯店靠什麼賺？",
+          "date": "2026-08-31",
+          "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "GLP-1",
+            "五星級飯店",
+            "高端旅宿",
+            "餐飲消費",
+            "無酒精飲品",
+            "健康旅遊",
+            "服務設計",
+            "semaglutide"
+          ],
+          "summary": "美國家戶交易研究顯示，採用 GLP-1 六個月後，雜貨支出平均下降 5.3%，高收入家庭下降 8.2%；部分高端飯店也開始測試小份餐、高蛋白、無酒精飲品與健康陪伴服務。真正的商業題目，不是客人吃少了多少，而是飯店能否把食物的量重新翻譯成服務、價格與回購。"
+        },
         {
           "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
           "date": "2026-08-30",
@@ -497,7 +535,7 @@
     },
     {
       "name": "臨床與法規催化",
-      "count": 6,
+      "count": 5,
       "articles": [
         {
           "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
@@ -593,25 +631,6 @@
             "Phase 3"
           ],
           "summary": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE."
-        },
-        {
-          "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
-          "date": "2026-08-07",
-          "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "argenx",
-            "Forte Biosciences",
-            "FB102",
-            "VYVGART",
-            "CD122",
-            "autoimmune disease",
-            "vitiligo",
-            "celiac disease"
-          ],
-          "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat."
         }
       ]
     },
@@ -642,7 +661,7 @@
     },
     {
       "name": "BD / 授權與併購",
-      "count": 4,
+      "count": 3,
       "articles": [
         {
           "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
@@ -700,25 +719,6 @@
             "GSK"
           ],
           "summary": "2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "biopharma M&A",
-            "pharma acquisitions",
-            "patent cliff",
-            "Eli Lilly",
-            "Merck",
-            "AbbVie",
-            "Gilead",
-            "GSK"
-          ],
-          "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff."
         }
       ]
     }

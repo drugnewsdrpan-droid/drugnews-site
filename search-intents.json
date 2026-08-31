@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-30T04:16:15.082Z",
+  "generated_at": "2026-08-31T04:37:17.272Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
+      "date": "2026-08-31",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html",
+      "category": "商業分析",
+      "tags": [
+        "GLP-1",
+        "luxury hospitality",
+        "hotel food and beverage",
+        "consumer spending",
+        "zero-proof beverages",
+        "wellness tourism",
+        "service design",
+        "semaglutide"
+      ],
+      "summary": "A U.S. household transaction study found that grocery spending fell 5.3% on average six months after GLP-1 adoption and 8.2% among higher-income households. Some luxury hotels are already testing smaller portions, protein-forward menus, zero-proof drinks and wellness services. The strategic question is whether hospitality operators can translate lower food volume into better service, pricing and repeat demand."
+    },
+    {
+      "title": "減重針逼瘋五星級飯店？客人吃少了，飯店靠什麼賺？",
+      "date": "2026-08-31",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift.html",
+      "category": "商業分析",
+      "tags": [
+        "GLP-1",
+        "五星級飯店",
+        "高端旅宿",
+        "餐飲消費",
+        "無酒精飲品",
+        "健康旅遊",
+        "服務設計",
+        "semaglutide"
+      ],
+      "summary": "美國家戶交易研究顯示，採用 GLP-1 六個月後，雜貨支出平均下降 5.3%，高收入家庭下降 8.2%；部分高端飯店也開始測試小份餐、高蛋白、無酒精飲品與健康陪伴服務。真正的商業題目，不是客人吃少了多少，而是飯店能否把食物的量重新翻譯成服務、價格與回購。"
+    },
     {
       "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
       "date": "2026-08-30",
@@ -778,42 +814,6 @@
         "台灣供應鏈"
       ],
       "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。"
-    },
-    {
-      "title": "Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?",
-      "date": "2026-08-19",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Skyrizi",
-        "Humira",
-        "AbbVie",
-        "Psoriasis",
-        "Autoimmune",
-        "IL-23",
-        "ICOTYDE",
-        "Biopharma"
-      ],
-      "summary": "Skyrizi generated $5.505 billion in Q2 2026, only $74 million below Humira's historic quarterly peak. The real succession test spans efficacy, treatment burden, multi-indication reach and access."
-    },
-    {
-      "title": "55 億美元只差一步：Skyrizi 要接棒 Humira 當自體免疫藥王？",
-      "date": "2026-08-19",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king.html",
-      "category": "商業分析",
-      "tags": [
-        "Skyrizi",
-        "喜開悅",
-        "Humira",
-        "復邁",
-        "AbbVie",
-        "乾癬",
-        "自體免疫",
-        "IL-23"
-      ],
-      "summary": "Skyrizi 2026 年第二季收入達 55.05 億美元，距 Humira 的歷史單季高點只差 7,400 萬美元；真正的接班考驗，是療效、治療負擔、多適應症與支付能力能否一起延續。"
     }
   ],
   "do_not_use_as": [
