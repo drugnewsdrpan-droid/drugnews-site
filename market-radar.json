@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-31T04:37:17.219Z",
+  "generated_at": "2026-09-01T03:29:31.221Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -116,6 +116,126 @@
     "positioning_note": "Drugnews does not provide individual stock recommendations. The site is positioned as biotech business-analysis media: clinical evidence, valuation logic, BD/licensing terms, CMC risk, company strategy, investor education, and capital-market narrative."
   },
   "buckets": [
+    {
+      "name": "AI 製藥與新技術",
+      "count": 6,
+      "articles": [
+        {
+          "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+          "date": "2026-09-01",
+          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "AIDO Cell",
+            "GenBio AI",
+            "virtual cell",
+            "AI drug discovery",
+            "single-cell biology",
+            "drug discovery",
+            "New Approach Methodologies",
+            "X-Cell"
+          ],
+          "summary": "GenBio AI's AIDO Cell attempts to connect DNA, RNA, proteins and cell phenotypes through a shared state that supports sequential perturbations. The company says it matched or exceeded specialist models on 24 of 31 internal metrics, but the preview covers only K-562 and Hep-G2 cells, and novel predictions still require physical experiments, external replication and blinded testing."
+        },
+        {
+          "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
+          "date": "2026-09-01",
+          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "AIDO Cell",
+            "GenBio AI",
+            "虛擬細胞",
+            "AI 製藥",
+            "單細胞",
+            "藥物發現",
+            "新方法學",
+            "X-Cell"
+          ],
+          "summary": "GenBio AI 的 AIDO Cell 嘗試用共享狀態串起 DNA、RNA、蛋白質與細胞表型，並連續模擬基因、藥物與抗藥性擾動。公司基準顯示 31 項指標中有 24 項追平或超越專用模型，但目前只有 K-562、Hep-G2 兩種原型細胞，新預測仍待實體實驗、外部重現與盲測。"
+        },
+        {
+          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Twist Bioscience",
+            "TWST",
+            "AI drug discovery",
+            "DNA synthesis",
+            "protein engineering",
+            "wet lab automation",
+            "Design-Build-Test-Learn",
+            "biotech investing"
+          ],
+          "summary": "Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback."
+        },
+        {
+          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Twist Bioscience",
+            "TWST",
+            "AI 製藥",
+            "DNA 合成",
+            "蛋白質工程",
+            "濕實驗室",
+            "Design-Build-Test-Learn",
+            "生技投資"
+          ],
+          "summary": "Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。"
+        },
+        {
+          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "AI 製藥",
+            "NVIDIA",
+            "BMS",
+            "禮來",
+            "Roche",
+            "新藥研發",
+            "GPU",
+            "台灣供應鏈"
+          ],
+          "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。"
+        },
+        {
+          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Business Analysis",
+          "tags": [
+            "Bio Genesis Mission",
+            "AI drug discovery",
+            "NIH",
+            "DOE",
+            "biomedical data",
+            "drug development",
+            "digital pathology",
+            "multi-omics"
+          ],
+          "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster."
+        }
+      ]
+    },
     {
       "name": "GLP-1 與代謝賽道",
       "count": 8,
@@ -433,107 +553,6 @@
       ]
     },
     {
-      "name": "AI 製藥與新技術",
-      "count": 5,
-      "articles": [
-        {
-          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Free Article",
-          "tags": [
-            "Twist Bioscience",
-            "TWST",
-            "AI drug discovery",
-            "DNA synthesis",
-            "protein engineering",
-            "wet lab automation",
-            "Design-Build-Test-Learn",
-            "biotech investing"
-          ],
-          "summary": "Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback."
-        },
-        {
-          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Twist Bioscience",
-            "TWST",
-            "AI 製藥",
-            "DNA 合成",
-            "蛋白質工程",
-            "濕實驗室",
-            "Design-Build-Test-Learn",
-            "生技投資"
-          ],
-          "summary": "Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。"
-        },
-        {
-          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "AI 製藥",
-            "NVIDIA",
-            "BMS",
-            "禮來",
-            "Roche",
-            "新藥研發",
-            "GPU",
-            "台灣供應鏈"
-          ],
-          "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。"
-        },
-        {
-          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Business Analysis",
-          "tags": [
-            "Bio Genesis Mission",
-            "AI drug discovery",
-            "NIH",
-            "DOE",
-            "biomedical data",
-            "drug development",
-            "digital pathology",
-            "multi-omics"
-          ],
-          "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster."
-        },
-        {
-          "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Bio Genesis Mission",
-            "AI製藥",
-            "NIH",
-            "DOE",
-            "生醫資料",
-            "藥物研發",
-            "數位病理",
-            "多體學"
-          ],
-          "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。"
-        }
-      ]
-    },
-    {
       "name": "臨床與法規催化",
       "count": 5,
       "articles": [
@@ -661,7 +680,7 @@
     },
     {
       "name": "BD / 授權與併購",
-      "count": 3,
+      "count": 2,
       "articles": [
         {
           "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
@@ -700,25 +719,6 @@
             "國邑"
           ],
           "summary": "2026 年的生技併購資金，正集中到臨床風險開始下降、商業價值尚未完全定價的公司。從 Alkermes、Dyne、First Tracks、Legend 到 Sail，再回看國邑與仁新，真正值得追的是人體概念驗證、平台外延、商業化距離與買方策略契合度。"
-        },
-        {
-          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "生技併購",
-            "藥廠併購",
-            "專利懸崖",
-            "Eli Lilly",
-            "Merck",
-            "AbbVie",
-            "Gilead",
-            "GSK"
-          ],
-          "summary": "2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。"
         }
       ]
     }

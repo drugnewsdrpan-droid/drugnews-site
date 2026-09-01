@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31T23:00:00.000Z</news:publication_date>
+      <news:title>Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31T23:00:00.000Z</news:publication_date>
+      <news:title>新藥能先在電腦裡試？「虛擬細胞」來了！</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html</loc>
     <news:news>
       <news:publication>
@@ -20,28 +42,6 @@
       </news:publication>
       <news:publication_date>2026-08-31T00:00:00.000Z</news:publication_date>
       <news:title>減重針逼瘋五星級飯店？客人吃少了，飯店靠什麼賺？</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T00:00:13.000Z</news:publication_date>
-      <news:title>Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T00:00:13.000Z</news:publication_date>
-      <news:title>減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！</news:title>
     </news:news>
   </url>
 </urlset>

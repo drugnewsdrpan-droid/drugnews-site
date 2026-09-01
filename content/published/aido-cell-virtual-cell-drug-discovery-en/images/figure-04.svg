@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+  <title id="title">The virtual-cell evidence loop</title>
+  <desc id="desc">A closed loop connects standardized data, a stateful model, high-value experiments and validated evidence, while four business metrics sit below.</desc>
+  <defs><linearGradient id="loop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07345e"/><stop offset=".52" stop-color="#0b8d94"/><stop offset="1" stop-color="#26b6c8"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#06335a" flood-opacity=".14"/></filter></defs>
+  <rect width="1672" height="941" fill="#fff"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="836" y="91" text-anchor="middle" font-size="54" font-weight="800" fill="#061c45">THE VALUE IS THE EVIDENCE LOOP</text>
+    <text x="836" y="138" text-anchor="middle" font-size="25" font-weight="600" fill="#4c6477">Data, models and experiments must keep correcting one another</text>
+  </g>
+  <g transform="translate(256 183)" filter="url(#s)">
+    <path d="M266 75C98 139 42 280 87 424l-66 20 156 117 49-188-64 20c-27-91 14-183 104-231Z" fill="#07345e"/>
+    <path d="M343 58c145-77 310-38 405 73l52-47 27 192-193-12 48-43c-69-70-168-88-254-43Z" fill="#0b8d94"/>
+    <path d="M829 303c150 65 220 215 181 361l70 14-145 131-66-183 62 13c23-96-26-184-121-226Z" fill="#14a7b4"/>
+    <path d="M759 746c-131 99-303 87-413-7l-43 55-60-184 193-21-39 51c77 57 178 58 257 1Z" fill="#247eb1"/>
+    <circle cx="553" cy="424" r="187" fill="#fff" stroke="#c6e1e4" stroke-width="4"/>
+    <circle cx="553" cy="424" r="105" fill="url(#loop)"/>
+    <circle cx="553" cy="424" r="45" fill="#7264ad" stroke="#a9eef0" stroke-width="8"/>
+    <g fill="none" stroke="#65e4e2" stroke-width="3"><circle cx="553" cy="424" r="79"/><path d="M474 424h158M553 345v158M497 368l112 112M497 480l112-112"/></g>
+  </g>
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(124 221)"><rect width="355" height="126" rx="24" fill="#fff" stroke="#07345e" stroke-width="3"/><circle cx="61" cy="63" r="38" fill="#e4eef5"/><path d="M39 45h44M39 63h44M39 81h44" stroke="#07345e" stroke-width="7"/><text x="119" y="55" font-size="25" font-weight="800" fill="#061c45">STANDARDIZED DATA</text><text x="119" y="87" font-size="18" fill="#4c6477">Traceable · multimodal · legal</text></g>
+    <g transform="translate(1118 196)"><rect width="400" height="126" rx="24" fill="#fff" stroke="#0b8d94" stroke-width="3"/><circle cx="61" cy="63" r="38" fill="#ddf4f2"/><path d="M37 61h48M61 37v48" stroke="#0b8d94" stroke-width="8"/><circle cx="61" cy="61" r="25" fill="none" stroke="#0b8d94" stroke-width="4"/><text x="119" y="55" font-size="25" font-weight="800" fill="#061c45">STATEFUL MODEL</text><text x="119" y="87" font-size="18" fill="#4c6477">Shared state · uncertainty</text></g>
+    <g transform="translate(1118 591)"><rect width="400" height="126" rx="24" fill="#fff" stroke="#14a7b4" stroke-width="3"/><circle cx="61" cy="63" r="38" fill="#dff5f7"/><path d="M39 35h44v14L72 66v25c0 20-23 20-23 0V66L39 49Z" fill="none" stroke="#14a7b4" stroke-width="5"/><text x="119" y="55" font-size="25" font-weight="800" fill="#061c45">HIGH-VALUE TESTS</text><text x="119" y="87" font-size="18" fill="#4c6477">Synthesis · assays · decisions</text></g>
+    <g transform="translate(124 615)"><rect width="385" height="126" rx="24" fill="#fff" stroke="#247eb1" stroke-width="3"/><circle cx="61" cy="63" r="38" fill="#e3eff8"/><path d="M38 63l16 16 31-35" fill="none" stroke="#247eb1" stroke-width="9" stroke-linecap="round"/><text x="119" y="55" font-size="25" font-weight="800" fill="#061c45">VALIDATED EVIDENCE</text><text x="119" y="87" font-size="18" fill="#4c6477">External · blinded · fit for use</text></g>
+    <text x="809" y="593" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">VIRTUAL</text><text x="809" y="622" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">CELL</text>
+  </g>
+  <line x1="116" y1="803" x2="1556" y2="803" stroke="#d7e7ea" stroke-width="2"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(130 838)"><circle cx="25" cy="25" r="25" fill="#0b8d94"/><text x="25" y="33" text-anchor="middle" font-size="22" font-weight="800" fill="#fff">1</text><text x="66" y="19" font-size="20" font-weight="800" fill="#061c45">Cell coverage</text><text x="66" y="46" font-size="16" fill="#607688">Beyond standard lines</text></g>
+    <g transform="translate(495 838)"><circle cx="25" cy="25" r="25" fill="#247eb1"/><text x="25" y="33" text-anchor="middle" font-size="22" font-weight="800" fill="#fff">2</text><text x="66" y="19" font-size="20" font-weight="800" fill="#061c45">Blind accuracy</text><text x="66" y="46" font-size="16" fill="#607688">Unseen outcomes</text></g>
+    <g transform="translate(840 838)"><circle cx="25" cy="25" r="25" fill="#f17b68"/><text x="25" y="33" text-anchor="middle" font-size="22" font-weight="800" fill="#fff">3</text><text x="66" y="19" font-size="20" font-weight="800" fill="#061c45">Cost per decision</text><text x="66" y="46" font-size="16" fill="#607688">Fewer low-value tests</text></g>
+    <g transform="translate(1212 838)"><circle cx="25" cy="25" r="25" fill="#07345e"/><text x="25" y="33" text-anchor="middle" font-size="22" font-weight="800" fill="#fff">4</text><text x="66" y="19" font-size="20" font-weight="800" fill="#061c45">Decision time</text><text x="66" y="46" font-size="16" fill="#607688">Faster learning cycles</text></g>
+  </g>
+</svg>

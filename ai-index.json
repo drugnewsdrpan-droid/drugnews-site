@@ -209,6 +209,60 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+      "date": "2026-09-01",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+      "source": "Facebook",
+      "access": "Free Article",
+      "category": "商業分析",
+      "tags": [
+        "AIDO Cell",
+        "GenBio AI",
+        "virtual cell",
+        "AI drug discovery",
+        "single-cell biology",
+        "drug discovery",
+        "New Approach Methodologies",
+        "X-Cell"
+      ],
+      "summary": "GenBio AI's AIDO Cell attempts to connect DNA, RNA, proteins and cell phenotypes through a shared state that supports sequential perturbations. The company says it matched or exceeded specialist models on 24 of 31 internal metrics, but the preview covers only K-562 and Hep-G2 cells, and novel predictions still require physical experiments, external replication and blinded testing.",
+      "image": "https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-09-01-aido-cell-virtual-cell-drug-discovery.html"
+      }
+    },
+    {
+      "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
+      "date": "2026-09-01",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "AIDO Cell",
+        "GenBio AI",
+        "虛擬細胞",
+        "AI 製藥",
+        "單細胞",
+        "藥物發現",
+        "新方法學",
+        "X-Cell"
+      ],
+      "summary": "GenBio AI 的 AIDO Cell 嘗試用共享狀態串起 DNA、RNA、蛋白質與細胞表型，並連續模擬基因、藥物與抗藥性擾動。公司基準顯示 31 項指標中有 24 項追平或超越專用模型，但目前只有 K-562、Hep-G2 兩種原型細胞，新預測仍待實體實驗、外部重現與盲測。",
+      "image": "https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html"
+      }
+    },
+    {
       "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
       "date": "2026-08-31",
       "language": "en",
@@ -1541,64 +1595,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-08-08-biotech-independence-not-selling-en.html"
-      }
-    },
-    {
-      "title": "22 億美元，買下一個自體免疫藥王？",
-      "date": "2026-08-07",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "argenx",
-        "Forte Biosciences",
-        "FB102",
-        "VYVGART",
-        "CD122",
-        "自體免疫",
-        "白斑",
-        "乳糜瀉",
-        "健喬",
-        "安立璽榮"
-      ],
-      "summary": "argenx 擬以 22 億美元現金收購 Forte，把早期抗 CD122 抗體 FB102 納入管線。真正的考題不是一組一期 p 值，而是 VYVGART 的單品成功能否被複製成可重複的公司能力。",
-      "image": "https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-08-07-argenx-forte-fb102-acquisition-en.html"
-      }
-    },
-    {
-      "title": "$2.2 Billion for the Next Autoimmune Blockbuster?",
-      "date": "2026-08-07",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "argenx",
-        "Forte Biosciences",
-        "FB102",
-        "VYVGART",
-        "CD122",
-        "autoimmune disease",
-        "vitiligo",
-        "celiac disease",
-        "biotech M&A",
-        "Taiwan biotech"
-      ],
-      "summary": "argenx plans to pay $2.2 billion in cash for Forte and its early anti-CD122 antibody FB102. The real test is not one Phase 1b p-value, but whether VYVGART's product success reflects a development engine the company can repeat.",
-      "image": "https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition-en/cover.png",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-07-argenx-forte-fb102-acquisition.html"
       }
     }
   ]

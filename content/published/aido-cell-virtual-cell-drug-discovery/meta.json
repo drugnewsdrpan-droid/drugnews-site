@@ -1,0 +1,37 @@
+{
+  "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
+  "slug": "aido-cell-virtual-cell-drug-discovery",
+  "date": "2026-09-01",
+  "publish_at": "2026-09-01T07:00:00+08:00",
+  "updated_at": "2026-09-01",
+  "category": "商業分析系列",
+  "series": "商業分析系列",
+  "access": "免費文章",
+  "lang": "zh-Hant",
+  "tags": [
+    "AIDO Cell",
+    "GenBio AI",
+    "虛擬細胞",
+    "AI 製藥",
+    "單細胞",
+    "藥物發現",
+    "新方法學",
+    "X-Cell"
+  ],
+  "summary": "GenBio AI 的 AIDO Cell 嘗試用共享狀態串起 DNA、RNA、蛋白質與細胞表型，並連續模擬基因、藥物與抗藥性擾動。公司基準顯示 31 項指標中有 24 項追平或超越專用模型，但目前只有 K-562、Hep-G2 兩種原型細胞，新預測仍待實體實驗、外部重現與盲測。",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "實體細胞與數位細胞模型相連，呈現 AIDO Cell 先計算再驗證的 Drugnews 編輯視覺",
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "enable_toc": true,
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/61568446257142/posts/122184198374614875",
+  "facebook_url": "https://www.facebook.com/61568446257142/posts/122184198374614875",
+  "fact_checked_at": "2026-09-01",
+  "citation_heading": "主要資料來源",
+  "translations": {
+    "en": "2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html"
+  }
+}

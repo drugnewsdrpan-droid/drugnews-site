@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-09-01｜Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here
+  URL: https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html
+  Topics: AIDO Cell, GenBio AI, virtual cell, AI drug discovery, single-cell biology
+  Summary: GenBio AI's AIDO Cell attempts to connect DNA, RNA, proteins and cell phenotypes through a shared state that supports sequential perturbations. The company says it matched or exceeded specialist models on 24 of 31 internal metrics, but the preview covers only K-562 and Hep-G2 cells, and novel predictions still require physical experiments, external replication and blinded testing.
+- 2026-09-01｜新藥能先在電腦裡試？「虛擬細胞」來了！
+  URL: https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html
+  Topics: AIDO Cell, GenBio AI, 虛擬細胞, AI 製藥, 單細胞
+  Summary: GenBio AI 的 AIDO Cell 嘗試用共享狀態串起 DNA、RNA、蛋白質與細胞表型，並連續模擬基因、藥物與抗藥性擾動。公司基準顯示 31 項指標中有 24 項追平或超越專用模型，但目前只有 K-562、Hep-G2 兩種原型細胞，新預測仍待實體實驗、外部重現與盲測。
 - 2026-08-31｜GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?
   URL: https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html
   Topics: GLP-1, luxury hospitality, hotel food and beverage, consumer spending, zero-proof beverages
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html
   Topics: 默沙東, Lipfendra, enlicitide, PCSK9, 膽固醇
   Summary: FDA 核准首款每日口服 PCSK9 抑制劑 Lipfendra，兩項第三期試驗在第 24 週降低 LDL-C 56% 與 59%。但口服不等於針劑退場：心血管硬終點、每日空腹依從性、保險准入與台灣核准，才會決定市場如何重切。
-- 2026-08-25｜The Stronger the Backbone, the More Valuable the Missing Layer: Can Anbogen's ABT-301 Enter the Next Wave of Oncology BD?
-  URL: https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology-en.html
-  Topics: AnBogen Therapeutics, ABT-301, imofinostat, Combination Layer, colorectal cancer
-  Summary: Big Pharma is paying for incremental efficacy around established therapies. ABT-301 has completed Phase 1; the CRC triplet's efficacy, sustainable dosing, durability and biomarker readouts will determine whether it can become a Combination Layer and open substantive partnering opportunities.
-- 2026-08-25｜主藥越強，旁邊缺的那一層越值錢：安邦ABT-301能否進入下一輪腫瘤BD名單？
-  URL: https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology.html
-  Topics: 安邦生技, ABT-301, imofinostat, Combination Layer, 大腸直腸癌
-  Summary: 大藥廠正為主藥旁的增量療效付費。安邦ABT-301已完成Phase I，接下來由CRC三聯的療效、劑量持續性、耐久性與biomarker決定其能否走向Combination Layer與大型藥廠合作。
 
 ## Key Site Sections
 

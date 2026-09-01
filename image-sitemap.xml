@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery-en/cover.png</image:loc>
+      <image:caption>Drugnews editorial visualization connecting a laboratory cell to a computational virtual cell for prediction followed by validation</image:caption>
+      <image:title>Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery-en/figure-01.png</image:loc>
+      <image:caption>Figure 1 | A virtual cell is a computational prototype for testing hypotheses before returning to the laboratory</image:caption>
+      <image:title>Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery-en/figure-02.png</image:loc>
+      <image:caption>Figure 2 | A stateful digital cell retains a shared state across sequential perturbations and branching experiments</image:caption>
+      <image:title>Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery-en/figure-03.png</image:loc>
+      <image:caption>Figure 3 | AIDO Cell has a prototype evidence base, while novel predictions still face wet-lab, external-replication and blind-test gates</image:caption>
+      <image:title>Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery-en/figure-04.png</image:loc>
+      <image:caption>Figure 4 | The commercial value of a virtual cell depends on a closed loop among data, models, prioritized experiments and validated evidence</image:caption>
+      <image:title>Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery/cover.png</image:loc>
+      <image:caption>實體細胞與數位細胞模型相連，呈現 AIDO Cell 先計算再驗證的 Drugnews 編輯視覺</image:caption>
+      <image:title>新藥能先在電腦裡試？「虛擬細胞」來了！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery/figure-01.png</image:loc>
+      <image:caption>圖 1｜細胞實驗不用做了？虛擬細胞來了！</image:caption>
+      <image:title>新藥能先在電腦裡試？「虛擬細胞」來了！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery/figure-02.png</image:loc>
+      <image:caption>圖 2｜一顆會記得的數位細胞：共享狀態與連續擾動</image:caption>
+      <image:title>新藥能先在電腦裡試？「虛擬細胞」來了！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery/figure-03.png</image:loc>
+      <image:caption>圖 3｜證據階梯：兩種原型細胞到獨立濕實驗，還差哪一步？</image:caption>
+      <image:title>新藥能先在電腦裡試？「虛擬細胞」來了！</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery/figure-04.png</image:loc>
+      <image:caption>圖 4｜商業閉環：資料、模型、實驗如何互相回饋</image:caption>
+      <image:title>新藥能先在電腦裡試？「虛擬細胞」來了！</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/glp1-luxury-hospitality-spending-shift-en/cover.png</image:loc>

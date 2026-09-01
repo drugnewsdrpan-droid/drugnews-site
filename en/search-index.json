@@ -1,5 +1,32 @@
 [
   {
+    "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+    "slug": "aido-cell-virtual-cell-drug-discovery-en",
+    "date": "2026-09-01",
+    "publishAt": "2026-09-01T07:00:00+08:00",
+    "updatedAt": "2026-09-01",
+    "category": "商業分析系列",
+    "access": "Free Article",
+    "lang": "en",
+    "tags": [
+      "AIDO Cell",
+      "GenBio AI",
+      "virtual cell",
+      "AI drug discovery",
+      "single-cell biology",
+      "drug discovery",
+      "New Approach Methodologies",
+      "X-Cell"
+    ],
+    "summary": "GenBio AI's AIDO Cell attempts to connect DNA, RNA, proteins and cell phenotypes through a shared state that supports sequential perturbations. The company says it matched or exceeded specialist models on 24 of 31 internal metrics, but the preview covers only K-562 and Hep-G2 cells, and novel predictions still require physical experiments, external replication and blinded testing.",
+    "image": "../assets/articles/aido-cell-virtual-cell-drug-discovery-en/cover.png",
+    "cardImage": "",
+    "imageAlt": "Drugnews editorial visualization connecting a laboratory cell to a computational virtual cell for prediction followed by validation",
+    "sponsored": false,
+    "sponsorName": "",
+    "url": "articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html"
+  },
+  {
     "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
     "slug": "glp1-luxury-hospitality-spending-shift-en",
     "date": "2026-08-31",

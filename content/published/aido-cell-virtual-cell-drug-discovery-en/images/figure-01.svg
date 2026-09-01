@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+  <title id="title">Virtual cell: compute first, validate next</title>
+  <desc id="desc">A four-stage editorial diagram from biological inputs to a shared virtual cell, prioritized predictions and physical validation.</desc>
+  <defs>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fcfd"/><stop offset="1" stop-color="#edf6f8"/></linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b315c"/><stop offset="1" stop-color="#061b43"/></linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#0a3355" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1672" height="941" fill="#fff"/>
+  <rect x="44" y="42" width="1584" height="857" rx="34" fill="url(#soft)" stroke="#d7e8ec" stroke-width="2"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="836" y="126" text-anchor="middle" font-size="58" font-weight="800" fill="#061c45">VIRTUAL CELL</text>
+    <text x="836" y="173" text-anchor="middle" font-size="27" font-weight="700" letter-spacing="4" fill="#0b8d94">COMPUTE FIRST · VALIDATE NEXT</text>
+  </g>
+  <path d="M257 481H1415" stroke="#9acfd4" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#0b8d94"><path d="M526 481l-30-20v40Z"/><path d="M885 481l-30-20v40Z"/><path d="M1244 481l-30-20v40Z"/></g>
+  <g font-family="Inter, Arial, sans-serif" filter="url(#s)">
+    <g transform="translate(116 246)">
+      <rect width="282" height="468" rx="28" fill="#fff" stroke="#8ccbd1" stroke-width="3"/>
+      <circle cx="141" cy="153" r="96" fill="#d9f0f2" stroke="#0b8d94" stroke-width="5"/>
+      <path d="M101 104c35 27 43 69 10 105M181 101c-37 28-42 72-8 110" fill="none" stroke="#f17b68" stroke-width="13" stroke-linecap="round"/>
+      <path d="M103 115l73 0M95 151h91M104 188h73" stroke="#0c4571" stroke-width="6"/>
+      <text x="141" y="295" text-anchor="middle" font-size="29" font-weight="800" fill="#061c45">BIOLOGICAL</text>
+      <text x="141" y="330" text-anchor="middle" font-size="29" font-weight="800" fill="#061c45">INPUTS</text>
+      <text x="141" y="381" text-anchor="middle" font-size="20" fill="#4c6477">DNA · RNA · proteins</text>
+      <text x="141" y="414" text-anchor="middle" font-size="20" fill="#4c6477">images · perturbations</text>
+    </g>
+    <g transform="translate(474 246)">
+      <rect width="282" height="468" rx="28" fill="#fff" stroke="#8ccbd1" stroke-width="3"/>
+      <circle cx="141" cy="153" r="98" fill="url(#navy)"/>
+      <circle cx="141" cy="153" r="48" fill="#6d65ae" stroke="#b6e8ea" stroke-width="8"/>
+      <g fill="none" stroke="#64dfe0" stroke-width="3"><circle cx="141" cy="153" r="70"/><path d="M43 153h196M141 55v196M72 84l138 138M72 222L210 84"/></g>
+      <text x="141" y="295" text-anchor="middle" font-size="29" font-weight="800" fill="#061c45">SHARED</text>
+      <text x="141" y="330" text-anchor="middle" font-size="29" font-weight="800" fill="#061c45">CELL STATE</text>
+      <text x="141" y="381" text-anchor="middle" font-size="20" fill="#4c6477">Multi-scale readouts</text>
+      <text x="141" y="414" text-anchor="middle" font-size="20" fill="#4c6477">retain prior changes</text>
+    </g>
+    <g transform="translate(832 246)">
+      <rect width="282" height="468" rx="28" fill="#fff" stroke="#8ccbd1" stroke-width="3"/>
+      <g transform="translate(43 74)">
+        <rect x="0" y="0" width="196" height="154" rx="16" fill="#eef6f8" stroke="#0b8d94" stroke-width="4"/>
+        <path d="M22 116l43-39 35 22 55-62 21 18" fill="none" stroke="#0a3d6b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="65" cy="77" r="9" fill="#f17b68"/><circle cx="155" cy="37" r="9" fill="#f17b68"/>
+      </g>
+      <text x="141" y="295" text-anchor="middle" font-size="29" font-weight="800" fill="#061c45">PRIORITIZED</text>
+      <text x="141" y="330" text-anchor="middle" font-size="29" font-weight="800" fill="#061c45">PREDICTIONS</text>
+      <text x="141" y="381" text-anchor="middle" font-size="20" fill="#4c6477">Candidates · sequences</text>
+      <text x="141" y="414" text-anchor="middle" font-size="20" fill="#4c6477">resistance hypotheses</text>
+    </g>
+    <g transform="translate(1190 246)">
+      <rect width="282" height="468" rx="28" fill="#fff" stroke="#f0a08f" stroke-width="3"/>
+      <g transform="translate(46 73)">
+        <path d="M37 4h67v20l-19 31v54c0 35-57 35-57 0V55L9 24V4Z" fill="#dff4f3" stroke="#0b8d94" stroke-width="5"/>
+        <path d="M126 34h56v20l-15 26v52c0 28-43 28-43 0V80l-15-26V34Z" fill="#fff0ed" stroke="#f17b68" stroke-width="5"/>
+        <path d="M30 107h52M125 119h41" stroke="#f17b68" stroke-width="12"/>
+      </g>
+      <text x="141" y="295" text-anchor="middle" font-size="29" font-weight="800" fill="#061c45">PHYSICAL</text>
+      <text x="141" y="330" text-anchor="middle" font-size="29" font-weight="800" fill="#061c45">VALIDATION</text>
+      <text x="141" y="381" text-anchor="middle" font-size="20" fill="#4c6477">Synthesis · assays</text>
+      <text x="141" y="414" text-anchor="middle" font-size="20" fill="#4c6477">replication · blind tests</text>
+    </g>
+  </g>
+  <rect x="317" y="770" width="1038" height="82" rx="41" fill="#fff5f2" stroke="#f3b0a2" stroke-width="2"/>
+  <circle cx="371" cy="811" r="23" fill="#f17b68"/>
+  <path d="M371 795v21M371 826h.1" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <text x="421" y="820" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="700" fill="#7c3a31">A computational prototype does not replace wet-lab evidence.</text>
+</svg>

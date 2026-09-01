@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-31T04:37:17.272Z",
+  "generated_at": "2026-09-01T03:29:31.304Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,50 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+      "date": "2026-09-01",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "AIDO Cell",
+        "GenBio AI",
+        "virtual cell",
+        "AI drug discovery",
+        "single-cell biology",
+        "drug discovery",
+        "New Approach Methodologies",
+        "X-Cell"
+      ],
+      "summary": "GenBio AI's AIDO Cell attempts to connect DNA, RNA, proteins and cell phenotypes through a shared state that supports sequential perturbations. The company says it matched or exceeded specialist models on 24 of 31 internal metrics, but the preview covers only K-562 and Hep-G2 cells, and novel predictions still require physical experiments, external replication and blinded testing.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-09-01-aido-cell-virtual-cell-drug-discovery.html"
+      }
+    },
+    {
+      "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
+      "date": "2026-09-01",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "AIDO Cell",
+        "GenBio AI",
+        "虛擬細胞",
+        "AI 製藥",
+        "單細胞",
+        "藥物發現",
+        "新方法學",
+        "X-Cell"
+      ],
+      "summary": "GenBio AI 的 AIDO Cell 嘗試用共享狀態串起 DNA、RNA、蛋白質與細胞表型，並連續模擬基因、藥物與抗藥性擾動。公司基準顯示 31 項指標中有 24 項追平或超越專用模型，但目前只有 K-562、Hep-G2 兩種原型細胞，新預測仍待實體實驗、外部重現與盲測。",
+      "alternate_language_versions": {
+        "en": "2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html"
+      }
+    },
     {
       "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
       "date": "2026-08-31",
@@ -765,48 +809,6 @@
       "alternate_language_versions": {
         "en": "2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html"
       }
-    },
-    {
-      "title": "Revenue Jumped 39%, Yet Iovance Still Lost $47 Million: Can Cancer Cell Therapy Become a Business?",
-      "date": "2026-08-17",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-17-iovance-amtagvi-til-commercialization-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Iovance",
-        "Amtagvi",
-        "TIL",
-        "cancer cell therapy",
-        "melanoma",
-        "cell therapy",
-        "Timing Pharma"
-      ],
-      "summary": "Iovance's Amtagvi rebounded sharply in the second quarter, but the central question is no longer whether TIL therapy can work. It is whether a personalized cell therapy can become a reproducible, reimbursable and scalable medical service.",
-      "alternate_language_versions": {
-        "zh": "2026-08-17-iovance-amtagvi-til-commercialization.html"
-      }
-    },
-    {
-      "title": "營收跳增 39%，還是虧了 4,700 萬美元：癌症細胞療法翻身了？",
-      "date": "2026-08-17",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-17-iovance-amtagvi-til-commercialization.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Iovance",
-        "Amtagvi",
-        "TIL",
-        "癌症細胞療法",
-        "黑色素瘤",
-        "細胞治療",
-        "天明製藥"
-      ],
-      "summary": "Iovance 的 Amtagvi 第二季營收明顯反彈，但真正要驗證的不是 TIL 是否有療效，而是個人化細胞療法能否被做成可複製、可支付、可放大的醫療服務。",
-      "alternate_language_versions": {
-        "en": "2026-08-17-iovance-amtagvi-til-commercialization-en.html"
-      }
     }
   ],
   "entities": [
@@ -889,7 +891,7 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 19,
+      "mentions": 18,
       "latest_date": "2026-08-27",
       "latest_articles": [
         {
@@ -963,44 +965,6 @@
       ]
     },
     {
-      "name": "臨床數據",
-      "type": "market_topic",
-      "mentions": 16,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "clinical data",
       "type": "market_topic",
       "mentions": 15,
@@ -1035,6 +999,44 @@
           "date": "2026-07-12",
           "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "臨床數據",
+      "type": "market_topic",
+      "mentions": 15,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2103,6 +2105,82 @@
       ]
     },
     {
+      "name": "AI 製藥",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-09-01",
+      "latest_articles": [
+        {
+          "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
+          "date": "2026-09-01",
+          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
+          "date": "2026-07-19",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "AI drug discovery",
+      "type": "topic",
+      "mentions": 5,
+      "latest_date": "2026-09-01",
+      "latest_articles": [
+        {
+          "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+          "date": "2026-09-01",
+          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+          "language": "en"
+        },
+        {
+          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
+          "date": "2026-08-12",
+          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "FDA",
       "type": "market_topic",
       "mentions": 5,
@@ -2397,70 +2475,6 @@
           "date": "2026-08-22",
           "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
           "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "AI 製藥",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-08-27",
-      "latest_articles": [
-        {
-          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "動物實驗不是消失，而是藥物研發規則開始換代",
-          "date": "2026-07-19",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-nams-regulatory-shift.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "AI drug discovery",
-      "type": "topic",
-      "mentions": 4,
-      "latest_date": "2026-08-27",
-      "latest_articles": [
-        {
-          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
-          "language": "en"
-        },
-        {
-          "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
-          "date": "2026-08-12",
-          "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
-          "date": "2026-07-13",
-          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
-          "language": "en"
         }
       ]
     },
@@ -3233,6 +3247,66 @@
       ]
     },
     {
+      "name": "AIDO Cell",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-01",
+      "latest_articles": [
+        {
+          "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+          "date": "2026-09-01",
+          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
+          "date": "2026-09-01",
+          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "GenBio AI",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-01",
+      "latest_articles": [
+        {
+          "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+          "date": "2026-09-01",
+          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
+          "date": "2026-09-01",
+          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "X-Cell",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-01",
+      "latest_articles": [
+        {
+          "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+          "date": "2026-09-01",
+          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
+          "date": "2026-09-01",
+          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "semaglutide",
       "type": "topic",
       "mentions": 2,
@@ -3351,69 +3425,47 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "Relyvrio",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-30",
-      "latest_articles": [
-        {
-          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "胰臟癌",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-29",
-      "latest_articles": [
-        {
-          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
-          "date": "2026-08-29",
-          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "pancreatic cancer",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-29",
-      "latest_articles": [
-        {
-          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
-          "date": "2026-08-29",
-          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+      "date": "2026-09-01",
+      "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "AIDO Cell",
+        "GenBio AI",
+        "virtual cell",
+        "AI drug discovery",
+        "single-cell biology",
+        "drug discovery",
+        "New Approach Methodologies",
+        "X-Cell"
+      ],
+      "summary": "GenBio AI's AIDO Cell attempts to connect DNA, RNA, proteins and cell phenotypes through a shared state that supports sequential perturbations. The company says it matched or exceeded specialist models on 24 of 31 internal metrics, but the preview covers only K-562 and Hep-G2 cells, and novel predictions still require physical experiments, external replication and blinded testing."
+    },
+    {
+      "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
+      "date": "2026-09-01",
+      "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "AIDO Cell",
+        "GenBio AI",
+        "虛擬細胞",
+        "AI 製藥",
+        "單細胞",
+        "藥物發現",
+        "新方法學",
+        "X-Cell"
+      ],
+      "summary": "GenBio AI 的 AIDO Cell 嘗試用共享狀態串起 DNA、RNA、蛋白質與細胞表型，並連續模擬基因、藥物與抗藥性擾動。公司基準顯示 31 項指標中有 24 項追平或超越專用模型，但目前只有 K-562、Hep-G2 兩種原型細胞，新預測仍待實體實驗、外部重現與盲測。"
+    },
     {
       "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
       "date": "2026-08-31",
@@ -3945,44 +3997,6 @@
         "multi-omics"
       ],
       "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster."
-    },
-    {
-      "title": "美國砸 12 億美元，想用 AI 把新藥研發快一倍！",
-      "date": "2026-08-12",
-      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Bio Genesis Mission",
-        "AI製藥",
-        "NIH",
-        "DOE",
-        "生醫資料",
-        "藥物研發",
-        "數位病理",
-        "多體學"
-      ],
-      "summary": "美國以 Bio Genesis Mission 串起超算、生醫資料、AI 代理、自動化實驗、臨床與監管能力；真正的成敗不在模型口號，而在資料治理、實驗重現與患者轉譯能否形成閉環。"
-    },
-    {
-      "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-      "date": "2026-08-10",
-      "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "生技併購",
-        "藥廠併購",
-        "專利懸崖",
-        "Eli Lilly",
-        "Merck",
-        "AbbVie",
-        "Gilead",
-        "GSK"
-      ],
-      "summary": "2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。"
     }
   ]
 }

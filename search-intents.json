@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-31T04:37:17.272Z",
+  "generated_at": "2026-09-01T03:29:31.303Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+      "date": "2026-09-01",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+      "category": "商業分析",
+      "tags": [
+        "AIDO Cell",
+        "GenBio AI",
+        "virtual cell",
+        "AI drug discovery",
+        "single-cell biology",
+        "drug discovery",
+        "New Approach Methodologies",
+        "X-Cell"
+      ],
+      "summary": "GenBio AI's AIDO Cell attempts to connect DNA, RNA, proteins and cell phenotypes through a shared state that supports sequential perturbations. The company says it matched or exceeded specialist models on 24 of 31 internal metrics, but the preview covers only K-562 and Hep-G2 cells, and novel predictions still require physical experiments, external replication and blinded testing."
+    },
+    {
+      "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
+      "date": "2026-09-01",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
+      "category": "商業分析",
+      "tags": [
+        "AIDO Cell",
+        "GenBio AI",
+        "虛擬細胞",
+        "AI 製藥",
+        "單細胞",
+        "藥物發現",
+        "新方法學",
+        "X-Cell"
+      ],
+      "summary": "GenBio AI 的 AIDO Cell 嘗試用共享狀態串起 DNA、RNA、蛋白質與細胞表型，並連續模擬基因、藥物與抗藥性擾動。公司基準顯示 31 項指標中有 24 項追平或超越專用模型，但目前只有 K-562、Hep-G2 兩種原型細胞，新預測仍待實體實驗、外部重現與盲測。"
+    },
     {
       "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
       "date": "2026-08-31",
@@ -778,42 +814,6 @@
         "臨床三期"
       ],
       "summary": "INTerpath-001 第三期頂線結果讓莫德納股價單日上漲 176.97%。真正被重新估價的，不只是一款黑色素瘤療法，而是個人化設計、製造、質控與臨床交付能否成為可擴張的平台。"
-    },
-    {
-      "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
-      "date": "2026-08-20",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
-      "category": "商業分析",
-      "tags": [
-        "AI drug discovery",
-        "NVIDIA",
-        "Bristol Myers Squibb",
-        "Eli Lilly",
-        "Roche",
-        "drug development",
-        "GPU infrastructure",
-        "Taiwan semiconductor supply chain"
-      ],
-      "summary": "BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop."
-    },
-    {
-      "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
-      "date": "2026-08-20",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
-      "category": "商業分析",
-      "tags": [
-        "AI 製藥",
-        "NVIDIA",
-        "BMS",
-        "禮來",
-        "Roche",
-        "新藥研發",
-        "GPU",
-        "台灣供應鏈"
-      ],
-      "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。"
     }
   ],
   "do_not_use_as": [

@@ -1,0 +1,37 @@
+{
+  "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+  "slug": "aido-cell-virtual-cell-drug-discovery-en",
+  "date": "2026-09-01",
+  "publish_at": "2026-09-01T07:00:00+08:00",
+  "updated_at": "2026-09-01",
+  "category": "商業分析系列",
+  "series": "Business Analysis",
+  "access": "Free Article",
+  "lang": "en",
+  "tags": [
+    "AIDO Cell",
+    "GenBio AI",
+    "virtual cell",
+    "AI drug discovery",
+    "single-cell biology",
+    "drug discovery",
+    "New Approach Methodologies",
+    "X-Cell"
+  ],
+  "summary": "GenBio AI's AIDO Cell attempts to connect DNA, RNA, proteins and cell phenotypes through a shared state that supports sequential perturbations. The company says it matched or exceeded specialist models on 24 of 31 internal metrics, but the preview covers only K-562 and Hep-G2 cells, and novel predictions still require physical experiments, external replication and blinded testing.",
+  "cover_image": "images/cover.png",
+  "cover_image_alt": "Drugnews editorial visualization connecting a laboratory cell to a computational virtual cell for prediction followed by validation",
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "inline_image_width": 1672,
+  "inline_image_height": 941,
+  "enable_toc": true,
+  "source_platform": "Facebook",
+  "source_url": "https://www.facebook.com/61568446257142/posts/122184198374614875",
+  "facebook_url": "https://www.facebook.com/61568446257142/posts/122184198374614875",
+  "fact_checked_at": "2026-09-01",
+  "citation_heading": "Primary Sources",
+  "translations": {
+    "zh-Hant": "2026-09-01-aido-cell-virtual-cell-drug-discovery.html"
+  }
+}

@@ -7,6 +7,24 @@
   "language": "en",
   "items": [
     {
+      "id": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+      "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+      "content_text": "GenBio AI's AIDO Cell attempts to connect DNA, RNA, proteins and cell phenotypes through a shared state that supports sequential perturbations. The company says it matched or exceeded specialist models on 24 of 31 internal metrics, but the preview covers only K-562 and Hep-G2 cells, and novel predictions still require physical experiments, external replication and blinded testing.",
+      "date_published": "2026-09-01T07:00:00+08:00",
+      "date_modified": "2026-09-01T08:00:00+08:00",
+      "tags": [
+        "AIDO Cell",
+        "GenBio AI",
+        "virtual cell",
+        "AI drug discovery",
+        "single-cell biology",
+        "drug discovery",
+        "New Approach Methodologies",
+        "X-Cell"
+      ]
+    },
+    {
       "id": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html",
       "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html",
       "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",

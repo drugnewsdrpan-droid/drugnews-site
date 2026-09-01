@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+  <title id="title">AIDO Cell evidence ladder</title>
+  <desc id="desc">What has been shown includes two prototype cells and company benchmarks. The imatinib workflow is a demonstration. Novel wet-lab validation, external replication and blinded standards remain open.</desc>
+  <rect width="1672" height="941" fill="#fff"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="836" y="92" text-anchor="middle" font-size="54" font-weight="800" fill="#061c45">AIDO CELL · WHERE THE EVIDENCE STANDS</text>
+    <text x="836" y="139" text-anchor="middle" font-size="25" font-weight="600" fill="#4c6477">Prototype evidence is not the same as independent validation</text>
+  </g>
+  <g transform="translate(62 202)" font-family="Inter, Arial, sans-serif">
+    <g>
+      <rect width="470" height="555" rx="30" fill="#eef9f8" stroke="#0b8d94" stroke-width="4"/>
+      <rect x="38" y="-28" width="394" height="66" rx="33" fill="#0b8d94"/>
+      <text x="235" y="15" text-anchor="middle" font-size="29" font-weight="800" fill="#fff">SHOWN SO FAR</text>
+      <text x="235" y="104" text-anchor="middle" font-size="29" font-weight="800" fill="#061c45">TWO PROTOTYPE CELLS</text>
+      <g transform="translate(67 135)"><ellipse cx="105" cy="74" rx="101" ry="50" fill="#fff" stroke="#0b8d94" stroke-width="5"/><ellipse cx="105" cy="67" rx="84" ry="35" fill="#ead9e9"/><g fill="#7b65ad"><circle cx="72" cy="67" r="14"/><circle cx="104" cy="62" r="14"/><circle cx="137" cy="69" r="14"/></g><text x="105" y="151" text-anchor="middle" font-size="26" font-weight="800" fill="#0b6f77">K-562</text></g>
+      <g transform="translate(262 135)"><ellipse cx="105" cy="74" rx="101" ry="50" fill="#fff" stroke="#0b8d94" stroke-width="5"/><ellipse cx="105" cy="67" rx="84" ry="35" fill="#f9d7cf"/><g fill="#e77c68"><circle cx="72" cy="67" r="14"/><circle cx="104" cy="62" r="14"/><circle cx="137" cy="69" r="14"/></g><text x="105" y="151" text-anchor="middle" font-size="26" font-weight="800" fill="#0b6f77">Hep-G2</text></g>
+      <path d="M64 346H406" stroke="#b9dadd" stroke-width="2"/>
+      <text x="102" y="434" font-size="90" font-weight="800" fill="#0b8d94">24</text><text x="221" y="412" font-size="32" font-weight="800" fill="#061c45">of 31</text><text x="221" y="447" font-size="21" fill="#4c6477">company benchmark metrics</text><text x="221" y="476" font-size="21" fill="#4c6477">matched or exceeded</text>
+      <text x="235" y="526" text-anchor="middle" font-size="18" font-weight="700" fill="#627987">INTERNAL BENCHMARK · NOT INDEPENDENT</text>
+    </g>
+    <g transform="translate(507)">
+      <rect width="470" height="555" rx="30" fill="#f1f6fc" stroke="#2366a6" stroke-width="4"/>
+      <rect x="38" y="-28" width="394" height="66" rx="33" fill="#1459a0"/>
+      <text x="235" y="15" text-anchor="middle" font-size="29" font-weight="800" fill="#fff">WORKFLOW DEMO</text>
+      <text x="235" y="106" text-anchor="middle" font-size="30" font-weight="800" fill="#061c45">IMATINIB-LIKE STATE</text>
+      <g transform="translate(70 142)"><polygon points="40,0 75,20 75,61 40,82 5,61 5,20" fill="#e6effa" stroke="#1459a0" stroke-width="4"/><polygon points="116,42 151,62 151,103 116,124 81,103 81,62" fill="#e6effa" stroke="#1459a0" stroke-width="4"/><path d="M170 63h101" stroke="#1459a0" stroke-width="9"/><path d="M271 63l-25-17v34Z" fill="#1459a0"/><g fill="#d9e8f5" stroke="#2366a6" stroke-width="3"><circle cx="310" cy="25" r="28"/><circle cx="354" cy="58" r="28"/><circle cx="306" cy="95" r="28"/></g></g>
+      <path d="M64 322H406" stroke="#bfd0e3" stroke-width="2"/>
+      <text x="235" y="401" text-anchor="middle" font-size="67" font-weight="800" fill="#1459a0">65%–88%</text>
+      <text x="235" y="441" text-anchor="middle" font-size="22" fill="#4c6477">of imatinib-associated differential</text>
+      <text x="235" y="472" text-anchor="middle" font-size="22" fill="#4c6477">expression reproduced in simulation</text>
+      <text x="235" y="526" text-anchor="middle" font-size="18" font-weight="700" fill="#627987">DESIGN AND RANKING STILL IN MODEL</text>
+    </g>
+    <g transform="translate(1014)">
+      <rect width="470" height="555" rx="30" fill="#fff5f2" stroke="#f17b68" stroke-width="4"/>
+      <rect x="38" y="-28" width="394" height="66" rx="33" fill="#e66550"/>
+      <text x="235" y="15" text-anchor="middle" font-size="29" font-weight="800" fill="#fff">STILL TO PROVE</text>
+      <g transform="translate(57 85)">
+        <g><circle cx="43" cy="43" r="42" fill="#fff" stroke="#f17b68" stroke-width="4"/><path d="M27 20h32v15L49 51v27c0 20-28 20-28 0V51L11 35V20Z" fill="#dff3f2" stroke="#0b8d94" stroke-width="4"/><text x="104" y="34" font-size="25" font-weight="800" fill="#061c45">NOVEL WET-LAB</text><text x="104" y="65" font-size="25" font-weight="800" fill="#061c45">VALIDATION</text></g>
+        <path d="M0 111H356" stroke="#f3c4ba" stroke-width="2"/>
+        <g transform="translate(0 139)"><circle cx="43" cy="43" r="42" fill="#fff" stroke="#f17b68" stroke-width="4"/><path d="M17 45l18 18 35-39" fill="none" stroke="#0b8d94" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><text x="104" y="34" font-size="25" font-weight="800" fill="#061c45">EXTERNAL</text><text x="104" y="65" font-size="25" font-weight="800" fill="#061c45">REPLICATION</text></g>
+        <path d="M0 250H356" stroke="#f3c4ba" stroke-width="2"/>
+        <g transform="translate(0 278)"><circle cx="43" cy="43" r="42" fill="#fff" stroke="#f17b68" stroke-width="4"/><path d="M5 43c22-30 54-30 76 0-22 30-54 30-76 0Z" fill="#e5f2f4" stroke="#0b8d94" stroke-width="4"/><circle cx="43" cy="43" r="13" fill="#061c45"/><path d="M4 6l78 75" stroke="#f17b68" stroke-width="9"/><text x="104" y="34" font-size="25" font-weight="800" fill="#061c45">BLINDED</text><text x="104" y="65" font-size="25" font-weight="800" fill="#061c45">STANDARDS</text></g>
+      </g>
+      <text x="235" y="526" text-anchor="middle" font-size="18" font-weight="700" fill="#8d4b40">MORE CELLS · TISSUES · REAL USE CASES</text>
+    </g>
+  </g>
+  <rect x="355" y="820" width="962" height="74" rx="37" fill="#061c45"/>
+  <text x="836" y="867" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="700" fill="#fff">Promising architecture ≠ validated replacement for experiments</text>
+</svg>

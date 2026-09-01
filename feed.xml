@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 31 Aug 2026 04:37:17 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 03:29:31 GMT</lastBuildDate>
+    <item>
+      <title>新藥能先在電腦裡試？「虛擬細胞」來了！</title>
+      <link>https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html</guid>
+      <pubDate>Mon, 31 Aug 2026 23:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery/cover.png" alt="實體細胞與數位細胞模型相連，呈現 AIDO Cell 先計算再驗證的 Drugnews 編輯視覺"></p><p>GenBio AI 的 AIDO Cell 嘗試用共享狀態串起 DNA、RNA、蛋白質與細胞表型，並連續模擬基因、藥物與抗藥性擾動。公司基準顯示 31 項指標中有 24 項追平或超越專用模型，但目前只有 K-562、Hep-G2 兩種原型細胞，新預測仍待實體實驗、外部重現與盲測。</p>]]></description>
+    </item>
     <item>
       <title>減重針逼瘋五星級飯店？客人吃少了，飯店靠什麼賺？</title>
       <link>https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/biotech-independence-not-selling/cover-1400.webp" alt="四家生技公司選擇獨立經營的商業條件"></p><p>argenx、Insmed、Incyte 與 Revolution Medicines 選擇保留獨立經營權。真正的不賣資格，來自產品證據、現金引擎、第二曲線、全球執行與不交出控制權也能取得資金的能力。</p>]]></description>
-    </item>
-    <item>
-      <title>22 億美元，買下一個自體免疫藥王？</title>
-      <link>https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-07-argenx-forte-fb102-acquisition.html</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/argenx-forte-fb102-acquisition/cover.png" alt="22 億美元收購 FB102，考驗 argenx 能否複製 VYVGART 的成功"></p><p>argenx 擬以 22 億美元現金收購 Forte，把早期抗 CD122 抗體 FB102 納入管線。真正的考題不是一組一期 p 值，而是 VYVGART 的單品成功能否被複製成可重複的公司能力。</p>]]></description>
     </item>
   </channel>
 </rss>
