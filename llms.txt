@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-09-02｜A New Drug Launched. Seven Months Later, the Company Sought Liquidation
+  URL: https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html
+  Topics: biotech commercialization, Iterum Therapeutics, ORLYNVAH, Karyopharm, XPOVIO
+  Summary: FDA approval does not erase business risk. Iterum, Karyopharm and Theravance show how revenue, cost, pipeline and capital clocks can begin running at the same time after a drug reaches the market.
+- 2026-09-02｜新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後
+  URL: https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html
+  Topics: Iterum Therapeutics, ORLYNVAH, Karyopharm, XPOVIO, Theravance Biopharma
+  Summary: ORLYNVAH 上市第一季只有 40 萬美元淨產品收入，同季銷售、一般與管理費約 650 萬美元；約七個月後，Iterum 聲請清盤。Karyopharm 與 Theravance 的情況不同，卻共同顯示新藥核准後，收入、成本、管線與資本四座時鐘會同時啟動。
 - 2026-09-01｜Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here
   URL: https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html
   Topics: AIDO Cell, GenBio AI, virtual cell, AI drug discovery, single-cell biology
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html
   Topics: Twist Bioscience, TWST, AI 製藥, DNA 合成, 蛋白質工程
   Summary: Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。
-- 2026-08-26｜Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?
-  URL: https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html
-  Topics: Merck, Lipfendra, enlicitide, PCSK9, LDL cholesterol
-  Summary: Lipfendra is the first FDA-approved oral PCSK9 inhibitor, lowering LDL-C by 56% and 59% in two Phase 3 trials. Oral dosing opens a major market, but cardiovascular outcomes, fasting adherence, payer access and Taiwan approval will decide whether it expands the category or displaces injections.
-- 2026-08-26｜默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？
-  URL: https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html
-  Topics: 默沙東, Lipfendra, enlicitide, PCSK9, 膽固醇
-  Summary: FDA 核准首款每日口服 PCSK9 抑制劑 Lipfendra，兩項第三期試驗在第 24 週降低 LDL-C 56% 與 59%。但口服不等於針劑退場：心血管硬終點、每日空腹依從性、保險准入與台灣核准，才會決定市場如何重切。
 
 ## Key Site Sections
 

@@ -209,6 +209,62 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
+      "date": "2026-09-02",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
+      "source": "Facebook",
+      "access": "Free Article",
+      "category": "商業分析",
+      "tags": [
+        "biotech commercialization",
+        "Iterum Therapeutics",
+        "ORLYNVAH",
+        "Karyopharm",
+        "XPOVIO",
+        "Theravance Biopharma",
+        "drug launch",
+        "biotech finance",
+        "cash runway",
+        "biopharma"
+      ],
+      "summary": "FDA approval does not erase business risk. Iterum, Karyopharm and Theravance show how revenue, cost, pipeline and capital clocks can begin running at the same time after a drug reaches the market.",
+      "image": "https://drugnews.com.tw/assets/articles/post-approval-biotech-commercialization-death-valley-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-09-02-post-approval-biotech-commercialization-death-valley.html"
+      }
+    },
+    {
+      "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
+      "date": "2026-09-02",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Iterum Therapeutics",
+        "ORLYNVAH",
+        "Karyopharm",
+        "XPOVIO",
+        "Theravance Biopharma",
+        "生技商業化",
+        "現金流",
+        "新藥上市"
+      ],
+      "summary": "ORLYNVAH 上市第一季只有 40 萬美元淨產品收入，同季銷售、一般與管理費約 650 萬美元；約七個月後，Iterum 聲請清盤。Karyopharm 與 Theravance 的情況不同，卻共同顯示新藥核准後，收入、成本、管線與資本四座時鐘會同時啟動。",
+      "image": "https://drugnews.com.tw/assets/articles/post-approval-biotech-commercialization-death-valley/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-09-02-post-approval-biotech-commercialization-death-valley-en.html"
+      }
+    },
+    {
       "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
       "date": "2026-09-01",
       "language": "en",
@@ -1539,62 +1595,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-08-09-icotyde-oral-il23r-launch-en.html"
-      }
-    },
-    {
-      "title": "Why These Four Biotechs Can Afford Not to Sell",
-      "date": "2026-08-08",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "Biotech",
-        "Biopharma",
-        "argenx",
-        "Insmed",
-        "Revolution Medicines",
-        "Incyte",
-        "Royalty Pharma",
-        "Drug Development",
-        "Biotech Investing"
-      ],
-      "summary": "argenx, Insmed, Incyte, and Revolution Medicines show why biotech independence depends on product evidence, cash generation, a second growth curve, global execution, and financing without surrendering control.",
-      "image": "https://drugnews.com.tw/assets/articles/biotech-independence-not-selling-en/cover-1400.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-08-biotech-independence-not-selling.html"
-      }
-    },
-    {
-      "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
-      "date": "2026-08-08",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "Biotech",
-        "Biopharma",
-        "argenx",
-        "Insmed",
-        "Revolution Medicines",
-        "Incyte",
-        "Royalty Pharma",
-        "新藥開發",
-        "生技投資"
-      ],
-      "summary": "argenx、Insmed、Incyte 與 Revolution Medicines 選擇保留獨立經營權。真正的不賣資格，來自產品證據、現金引擎、第二曲線、全球執行與不交出控制權也能取得資金的能力。",
-      "image": "https://drugnews.com.tw/assets/articles/biotech-independence-not-selling/cover-1400.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-08-08-biotech-independence-not-selling-en.html"
       }
     }
   ]

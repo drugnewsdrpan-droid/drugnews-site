@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-01T03:29:31.303Z",
+  "generated_at": "2026-09-02T13:34:54.471Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
+      "date": "2026-09-02",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
+      "category": "商業分析",
+      "tags": [
+        "biotech commercialization",
+        "Iterum Therapeutics",
+        "ORLYNVAH",
+        "Karyopharm",
+        "XPOVIO",
+        "Theravance Biopharma",
+        "drug launch",
+        "biotech finance"
+      ],
+      "summary": "FDA approval does not erase business risk. Iterum, Karyopharm and Theravance show how revenue, cost, pipeline and capital clocks can begin running at the same time after a drug reaches the market."
+    },
+    {
+      "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
+      "date": "2026-09-02",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
+      "category": "商業分析",
+      "tags": [
+        "Iterum Therapeutics",
+        "ORLYNVAH",
+        "Karyopharm",
+        "XPOVIO",
+        "Theravance Biopharma",
+        "生技商業化",
+        "現金流",
+        "新藥上市"
+      ],
+      "summary": "ORLYNVAH 上市第一季只有 40 萬美元淨產品收入，同季銷售、一般與管理費約 650 萬美元；約七個月後，Iterum 聲請清盤。Karyopharm 與 Theravance 的情況不同，卻共同顯示新藥核准後，收入、成本、管線與資本四座時鐘會同時啟動。"
+    },
     {
       "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
       "date": "2026-09-01",
@@ -778,42 +814,6 @@
         "BG-T187"
       ],
       "summary": "百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。"
-    },
-    {
-      "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
-      "date": "2026-08-21",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
-      "category": "商業分析",
-      "tags": [
-        "Moderna",
-        "Merck",
-        "intismeran autogene",
-        "INTerpath-001",
-        "personalized cancer vaccine",
-        "melanoma",
-        "mRNA manufacturing",
-        "Phase 3"
-      ],
-      "summary": "Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform."
-    },
-    {
-      "title": "再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%",
-      "date": "2026-08-21",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html",
-      "category": "商業分析",
-      "tags": [
-        "Moderna",
-        "Merck",
-        "intismeran autogene",
-        "INTerpath-001",
-        "mRNA 癌症疫苗",
-        "黑色素瘤",
-        "個人化醫療",
-        "臨床三期"
-      ],
-      "summary": "INTerpath-001 第三期頂線結果讓莫德納股價單日上漲 176.97%。真正被重新估價的，不只是一款黑色素瘤療法，而是個人化設計、製造、質控與臨床交付能否成為可擴張的平台。"
     }
   ],
   "do_not_use_as": [

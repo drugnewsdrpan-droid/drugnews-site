@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/post-approval-biotech-commercialization-death-valley-en/cover.png</image:loc>
+      <image:caption>Figure 1: A drug launch starts four clocks at once—revenue, cost, pipeline and capital</image:caption>
+      <image:title>A New Drug Launched. Seven Months Later, the Company Sought Liquidation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/post-approval-biotech-commercialization-death-valley-en/figure-02.png</image:loc>
+      <image:caption>Figure 2: Iterum&apos;s seven-month commercialization countdown—$0.4 million in revenue versus $6.5 million in expense</image:caption>
+      <image:title>A New Drug Launched. Seven Months Later, the Company Sought Liquidation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/post-approval-biotech-commercialization-death-valley-en/figure-03.png</image:loc>
+      <image:caption>Figure 3: Karyopharm&apos;s stress test—product revenue, cash, debt and new indications counting down together</image:caption>
+      <image:title>A New Drug Launched. Seven Months Later, the Company Sought Liquidation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/post-approval-biotech-commercialization-death-valley-en/figure-04.png</image:loc>
+      <image:caption>Figure 4: Three outcomes—Iterum liquidation, Karyopharm stress test and Theravance value exit</image:caption>
+      <image:title>A New Drug Launched. Seven Months Later, the Company Sought Liquidation</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/post-approval-biotech-commercialization-death-valley/cover.png</image:loc>
+      <image:caption>圖 1｜新藥上市不是終點：收入、成本、管線與資本四個時鐘同時啟動</image:caption>
+      <image:title>新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/post-approval-biotech-commercialization-death-valley/figure-02.png</image:loc>
+      <image:caption>圖 2｜Iterum 七個月商業化倒數：40 萬美元收入對上 650 萬美元費用</image:caption>
+      <image:title>新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/post-approval-biotech-commercialization-death-valley/figure-03.png</image:loc>
+      <image:caption>圖 3｜Karyopharm 壓力測試：產品收入、現金、債務與新適應症同時倒數</image:caption>
+      <image:title>新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/post-approval-biotech-commercialization-death-valley/figure-04.png</image:loc>
+      <image:caption>圖 4｜三種結局：Iterum 清算、Karyopharm 壓力測試、Theravance 價值退出</image:caption>
+      <image:title>新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/aido-cell-virtual-cell-drug-discovery-en/cover.png</image:loc>

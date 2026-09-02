@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-01T03:29:31.304Z",
+  "generated_at": "2026-09-02T13:34:54.472Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,52 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
+      "date": "2026-09-02",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "biotech commercialization",
+        "Iterum Therapeutics",
+        "ORLYNVAH",
+        "Karyopharm",
+        "XPOVIO",
+        "Theravance Biopharma",
+        "drug launch",
+        "biotech finance",
+        "cash runway",
+        "biopharma"
+      ],
+      "summary": "FDA approval does not erase business risk. Iterum, Karyopharm and Theravance show how revenue, cost, pipeline and capital clocks can begin running at the same time after a drug reaches the market.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-09-02-post-approval-biotech-commercialization-death-valley.html"
+      }
+    },
+    {
+      "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
+      "date": "2026-09-02",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Iterum Therapeutics",
+        "ORLYNVAH",
+        "Karyopharm",
+        "XPOVIO",
+        "Theravance Biopharma",
+        "生技商業化",
+        "現金流",
+        "新藥上市"
+      ],
+      "summary": "ORLYNVAH 上市第一季只有 40 萬美元淨產品收入，同季銷售、一般與管理費約 650 萬美元；約七個月後，Iterum 聲請清盤。Karyopharm 與 Theravance 的情況不同，卻共同顯示新藥核准後，收入、成本、管線與資本四座時鐘會同時啟動。",
+      "alternate_language_versions": {
+        "en": "2026-09-02-post-approval-biotech-commercialization-death-valley-en.html"
+      }
+    },
     {
       "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
       "date": "2026-09-01",
@@ -764,51 +810,6 @@
       "alternate_language_versions": {
         "en": "2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html"
       }
-    },
-    {
-      "title": "Eli Lilly Sold $23 Billion in One Quarter. Why Is It Still Rushing to Buy the Next Drug King?",
-      "date": "2026-08-18",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Eli Lilly",
-        "Tirzepatide",
-        "Mounjaro",
-        "Zepbound",
-        "GLP-1",
-        "Retatrutide",
-        "Orforglipron",
-        "Caliway"
-      ],
-      "summary": "Tirzepatide has allowed Eli Lilly to dominate both diabetes and obesity, but revenue concentration, pricing pressure and the next product relay are the investment questions that matter now.",
-      "alternate_language_versions": {
-        "zh": "2026-08-18-eli-lilly-tirzepatide-next-drug-king.html"
-      }
-    },
-    {
-      "title": "一季狂賣 230 億美元，禮來卻急著買下一個藥王",
-      "date": "2026-08-18",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-18-eli-lilly-tirzepatide-next-drug-king.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Eli Lilly",
-        "禮來",
-        "Tirzepatide",
-        "Mounjaro",
-        "Zepbound",
-        "GLP-1",
-        "Retatrutide",
-        "Orforglipron",
-        "康霈"
-      ],
-      "summary": "Tirzepatide 讓禮來同時吃下糖尿病與減重兩個大市場，但收入集中、價格壓力與下一代產品接班，才是市場真正該看的投資問題。",
-      "alternate_language_versions": {
-        "en": "2026-08-18-eli-lilly-tirzepatide-next-drug-king-en.html"
-      }
     }
   ],
   "entities": [
@@ -889,44 +890,6 @@
       ]
     },
     {
-      "name": "生技投資",
-      "type": "market_topic",
-      "mentions": 18,
-      "latest_date": "2026-08-27",
-      "latest_articles": [
-        {
-          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
-          "date": "2026-08-08",
-          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
-          "date": "2026-07-29",
-          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
-          "date": "2026-07-18",
-          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Business Analysis",
       "type": "topic",
       "mentions": 18,
@@ -961,6 +924,44 @@
           "date": "2026-07-18",
           "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "生技投資",
+      "type": "market_topic",
+      "mentions": 17,
+      "latest_date": "2026-08-27",
+      "latest_articles": [
+        {
+          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "不賣給大藥廠，4 家生技公司憑什麼自己做大？",
+          "date": "2026-08-08",
+          "url": "https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "HORIZON：Lp(a) 降了，心梗會少嗎？",
+          "date": "2026-07-29",
+          "url": "https://drugnews.com.tw/articles/2026-07-19-pelacarsen-lpa-horizon.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "當 ADC 走進自體免疫：不是殺得更狠，而是調得更準",
+          "date": "2026-07-18",
+          "url": "https://drugnews.com.tw/articles/2026-07-18-autoimmune-adc-lfd200.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -1005,7 +1006,7 @@
     {
       "name": "臨床數據",
       "type": "market_topic",
-      "mentions": 15,
+      "mentions": 14,
       "latest_date": "2026-08-03",
       "latest_articles": [
         {
@@ -1269,44 +1270,6 @@
       ]
     },
     {
-      "name": "Big Pharma",
-      "type": "market_topic",
-      "mentions": 10,
-      "latest_date": "2026-08-23",
-      "latest_articles": [
-        {
-          "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
-          "date": "2026-08-23",
-          "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Biotech 下一筆重磅併購，會落在誰身上？",
-          "date": "2026-08-23",
-          "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
-          "language": "en"
-        },
-        {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "Merck",
       "type": "company",
       "mentions": 9,
@@ -1345,39 +1308,39 @@
       ]
     },
     {
-      "name": "BD",
+      "name": "Big Pharma",
       "type": "market_topic",
       "mentions": 9,
-      "latest_date": "2026-07-24",
+      "latest_date": "2026-08-23",
       "latest_articles": [
         {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "title": "Who Could Be Big Pharma's Next Major Biotech Acquisition?",
+          "date": "2026-08-23",
+          "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Biotech 下一筆重磅併購，會落在誰身上？",
+          "date": "2026-08-23",
+          "url": "https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html",
           "language": "zh-Hant"
         },
         {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant"
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
+          "language": "en"
         },
         {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
+          "title": "Roche's Hidden Succession Engine: How 19 New Molecules Could Power the Next Growth Cycle",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine-en.html",
+          "language": "en"
         },
         {
-          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
           "language": "zh-Hant"
         }
       ]
@@ -1611,44 +1574,6 @@
       ]
     },
     {
-      "name": "GSK",
-      "type": "company",
-      "mentions": 7,
-      "latest_date": "2026-08-15",
-      "latest_articles": [
-        {
-          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
-          "date": "2026-08-15",
-          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
-          "date": "2026-08-15",
-          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-08-10",
-          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
-          "language": "en"
-        },
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "ADC",
       "type": "biotech_concept_or_target",
       "mentions": 7,
@@ -1687,27 +1612,21 @@
       ]
     },
     {
-      "name": "製藥巨頭",
+      "name": "BD",
       "type": "market_topic",
       "mentions": 7,
-      "latest_date": "2026-07-25",
+      "latest_date": "2026-07-24",
       "latest_articles": [
         {
-          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
-          "date": "2026-07-25",
-          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
           "language": "zh-Hant"
         },
         {
           "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
           "date": "2026-07-09",
           "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
-          "date": "2026-07-08",
-          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
           "language": "zh-Hant"
         },
         {
@@ -1720,6 +1639,12 @@
           "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
           "date": "2026-07-05",
           "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
           "language": "zh-Hant"
         }
       ]
@@ -2029,6 +1954,44 @@
       ]
     },
     {
+      "name": "GSK",
+      "type": "company",
+      "mentions": 6,
+      "latest_date": "2026-08-15",
+      "latest_articles": [
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
+          "date": "2026-08-10",
+          "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
+          "language": "en"
+        },
+        {
+          "title": "半年千億，買的是時間",
+          "date": "2026-07-27",
+          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "argenx",
       "type": "topic",
       "mentions": 6,
@@ -2100,6 +2063,44 @@
           "title": "通用型 CAR-T 的 2026 從低谷回暖",
           "date": "2026-07-06",
           "url": "https://drugnews.com.tw/articles/2026-07-06-universal-car-t-2026-rebound.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "製藥巨頭",
+      "type": "market_topic",
+      "mentions": 6,
+      "latest_date": "2026-07-25",
+      "latest_articles": [
+        {
+          "title": "羅氏的隱藏底牌：19 個新分子排隊接棒，下一個成長週期怎麼長出來？",
+          "date": "2026-07-25",
+          "url": "https://drugnews.com.tw/articles/2026-07-25-roche-19-molecule-succession-engine.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GLP-1 下半場：dorzagliatin（多格列艾汀）想解決的，不是減重更猛，而是長期用得住",
+          "date": "2026-07-08",
+          "url": "https://drugnews.com.tw/articles/2026-07-08-glp1-dorzagliatin-long-term-metabolic-base.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
           "language": "zh-Hant"
         }
       ]
@@ -3195,32 +3196,6 @@
       ]
     },
     {
-      "name": "Nuvalent",
-      "type": "topic",
-      "mentions": 3,
-      "latest_date": "2026-07-27",
-      "latest_articles": [
-        {
-          "title": "半年千億，買的是時間",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-          "date": "2026-07-27",
-          "url": "https://drugnews.com.tw/articles/2026-07-27-h1-2026-biopharma-ma-buying-time-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK Goes Big: The $10.6B Nuvalent Deal Is Not Just a Lung-Cancer Pipeline Buy",
-          "date": "2026-06-30",
-          "url": "https://drugnews.com.tw/articles/2026-06-30-gsk-nuvalent-oncology-comeback-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "RevMed",
       "type": "topic",
       "mentions": 3,
@@ -3243,6 +3218,146 @@
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "生技商業化",
+      "type": "market_topic",
+      "mentions": 2,
+      "latest_date": "2026-09-02",
+      "latest_articles": [
+        {
+          "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
+          "date": "2026-09-02",
+          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "biotech commercialization",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-02",
+      "latest_articles": [
+        {
+          "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
+          "date": "2026-09-02",
+          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
+          "date": "2026-08-29",
+          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Iterum Therapeutics",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-02",
+      "latest_articles": [
+        {
+          "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
+          "date": "2026-09-02",
+          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
+          "language": "en"
+        },
+        {
+          "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
+          "date": "2026-09-02",
+          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Karyopharm",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-02",
+      "latest_articles": [
+        {
+          "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
+          "date": "2026-09-02",
+          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
+          "language": "en"
+        },
+        {
+          "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
+          "date": "2026-09-02",
+          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "ORLYNVAH",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-02",
+      "latest_articles": [
+        {
+          "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
+          "date": "2026-09-02",
+          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
+          "language": "en"
+        },
+        {
+          "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
+          "date": "2026-09-02",
+          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Theravance Biopharma",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-02",
+      "latest_articles": [
+        {
+          "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
+          "date": "2026-09-02",
+          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
+          "language": "en"
+        },
+        {
+          "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
+          "date": "2026-09-02",
+          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "XPOVIO",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-02",
+      "latest_articles": [
+        {
+          "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
+          "date": "2026-09-02",
+          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
+          "language": "en"
+        },
+        {
+          "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
+          "date": "2026-09-02",
+          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -3305,129 +3420,28 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "semaglutide",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-31",
-      "latest_articles": [
-        {
-          "title": "GLP-1 Drugs Are Making Luxury Guests Eat Less. How Can Five-Star Hotels Protect Revenue?",
-          "date": "2026-08-31",
-          "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift-en.html",
-          "language": "en"
-        },
-        {
-          "title": "減重針逼瘋五星級飯店？客人吃少了，飯店靠什麼賺？",
-          "date": "2026-08-31",
-          "url": "https://drugnews.com.tw/articles/2026-08-31-glp1-luxury-hospitality-spending-shift.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Amylyx",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-30",
-      "latest_articles": [
-        {
-          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "avexitide",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-30",
-      "latest_articles": [
-        {
-          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "LUCIDITY",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-30",
-      "latest_articles": [
-        {
-          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "MBX Biosciences",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-30",
-      "latest_articles": [
-        {
-          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "PBH",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-08-30",
-      "latest_articles": [
-        {
-          "title": "Avexitide Reduced the Composite Rate of Level 2/3 Hypoglycemia Events by 55%—and Repriced Amylyx Overnight",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3-en.html",
-          "language": "en"
-        },
-        {
-          "title": "減重手術後，吃飯竟可能昏倒？一款新藥讓 Amylyx 暴漲 64%！",
-          "date": "2026-08-30",
-          "url": "https://drugnews.com.tw/articles/2026-08-30-amylyx-avexitide-pbh-phase3.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
+      "date": "2026-09-02",
+      "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "biotech commercialization",
+        "Iterum Therapeutics",
+        "ORLYNVAH",
+        "Karyopharm",
+        "XPOVIO",
+        "Theravance Biopharma",
+        "drug launch",
+        "biotech finance"
+      ],
+      "summary": "FDA approval does not erase business risk. Iterum, Karyopharm and Theravance show how revenue, cost, pipeline and capital clocks can begin running at the same time after a drug reaches the market."
+    },
     {
       "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
       "date": "2026-09-01",
@@ -3978,25 +3992,6 @@
         "Phase 3"
       ],
       "summary": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE."
-    },
-    {
-      "title": "Can $1.2 Billion Help AI Double the Pace of Drug R&D?",
-      "date": "2026-08-12",
-      "url": "https://drugnews.com.tw/articles/2026-08-12-bio-genesis-mission-ai-drug-rd-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Bio Genesis Mission",
-        "AI drug discovery",
-        "NIH",
-        "DOE",
-        "biomedical data",
-        "drug development",
-        "digital pathology",
-        "multi-omics"
-      ],
-      "summary": "The Bio Genesis Mission is an attempt to connect supercomputing, biomedical data, AI agents, automated laboratories, clinical networks, and regulation into one R&D loop. Its real test is whether governed data and reproducible experiments can reach patients faster."
     }
   ]
 }

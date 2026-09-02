@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 01 Sep 2026 03:29:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 13:34:54 GMT</lastBuildDate>
+    <item>
+      <title>新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後</title>
+      <link>https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/post-approval-biotech-commercialization-death-valley/cover.png" alt="新藥上市後收入、成本、管線與資本四個時鐘同時啟動的 Drugnews 編輯視覺"></p><p>ORLYNVAH 上市第一季只有 40 萬美元淨產品收入，同季銷售、一般與管理費約 650 萬美元；約七個月後，Iterum 聲請清盤。Karyopharm 與 Theravance 的情況不同，卻共同顯示新藥核准後，收入、成本、管線與資本四座時鐘會同時啟動。</p>]]></description>
+    </item>
     <item>
       <title>新藥能先在電腦裡試？「虛擬細胞」來了！</title>
       <link>https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/cover-1400.webp" alt="口服 IL-23R 胜肽開始挑戰乾癬生物製劑市場"></p><p>ICOTYDE 上市後第一個完整季度累積逾 18,000 張處方。口服 IL-23R 胜肽已取得進入高療效市場的資格，真正的商業答案仍取決於續方、支付品質、長期留存與多適應症。</p>]]></description>
-    </item>
-    <item>
-      <title>不賣給大藥廠，4 家生技公司憑什麼自己做大？</title>
-      <link>https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-08-biotech-independence-not-selling.html</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/biotech-independence-not-selling/cover-1400.webp" alt="四家生技公司選擇獨立經營的商業條件"></p><p>argenx、Insmed、Incyte 與 Revolution Medicines 選擇保留獨立經營權。真正的不賣資格，來自產品證據、現金引擎、第二曲線、全球執行與不交出控制權也能取得資金的能力。</p>]]></description>
     </item>
   </channel>
 </rss>

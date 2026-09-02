@@ -1,5 +1,34 @@
 [
   {
+    "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
+    "slug": "post-approval-biotech-commercialization-death-valley-en",
+    "date": "2026-09-02",
+    "publishAt": "2026-09-02T08:00:00+08:00",
+    "updatedAt": "2026-09-02",
+    "category": "商業分析系列",
+    "access": "Free Article",
+    "lang": "en",
+    "tags": [
+      "biotech commercialization",
+      "Iterum Therapeutics",
+      "ORLYNVAH",
+      "Karyopharm",
+      "XPOVIO",
+      "Theravance Biopharma",
+      "drug launch",
+      "biotech finance",
+      "cash runway",
+      "biopharma"
+    ],
+    "summary": "FDA approval does not erase business risk. Iterum, Karyopharm and Theravance show how revenue, cost, pipeline and capital clocks can begin running at the same time after a drug reaches the market.",
+    "image": "../assets/articles/post-approval-biotech-commercialization-death-valley-en/cover.png",
+    "cardImage": "",
+    "imageAlt": "Editorial visualization of four clocks governing a biotech company's post-approval commercialization runway",
+    "sponsored": false,
+    "sponsorName": "",
+    "url": "articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html"
+  },
+  {
     "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
     "slug": "aido-cell-virtual-cell-drug-discovery-en",
     "date": "2026-09-01",
