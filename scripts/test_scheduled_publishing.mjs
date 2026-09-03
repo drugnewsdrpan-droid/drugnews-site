@@ -497,7 +497,12 @@ test("direct pack CLI executes from the non-ASCII repository path", async () => 
     const output = path.join(root, "queue");
     const preload = path.join(root, "mock-fetch.mjs");
     await write(preload, "globalThis.fetch = async () => new Response('not found', { status: 404 });\n");
-    const script = path.resolve(REPO_ROOT, "scripts/scheduled_queue.mjs");
+    const fixtureScripts = path.join(root, "非ASCII-cli", "scripts");
+    await fs.mkdir(fixtureScripts, { recursive: true });
+    for (const file of ["scheduled_queue.mjs", "scheduled_content_integrity.mjs", "article_metadata_contract.mjs"]) {
+      await fs.copyFile(path.resolve(REPO_ROOT, "scripts", file), path.join(fixtureScripts, file));
+    }
+    const script = await fs.realpath(path.join(fixtureScripts, "scheduled_queue.mjs"));
     assert.match(script, /[^\x00-\x7f]/);
     const result = spawnSync(process.execPath, [script, "pack", `--input=${input}`, `--output=${output}`], {
       cwd: repo,
