@@ -1,0 +1,9 @@
+# Encrypted scheduled queue
+
+This public directory may contain only opaque `<32-lowercase-hex>.dnq` AES-256-GCM bundles. Never place a future title, slug, article, image, release manifest, key, staging directory, archive, or QA report here in plaintext.
+
+The private release manifest is accepted only when it carries one `content_id`/`release_key` and locked version/hash, approved Chinese title/slug/body/metadata, an approved English package or an explicit English `HOLD`, four ordered images per published language (purpose, dimensions, bytes, language, path, SHA-256), primary sources, fixed `publish_at` with `+08:00`, all three independent QA scores at 95 or above with P0/P1 at zero, the QA report evidence, Facebook/Dcard/CMoney schedule dates/order/row IDs, and explicit queued/revoked/superseded state.
+
+Limits are 16 jobs, 89 MiB per encrypted bundle, and 512 MiB total. The runner validates every bundle in opaque job-ID order, decrypts one at a time in a private temporary directory, stages only `publish_at <= now`, and fails closed on a missing key, authentication failure affecting the queue, version/hash mismatch, slug conflict, leak audit failure, or build/QA failure. Due bundles remain in the queue until a separately verified canonical migration exists; for the approved 2026-09-05 through 2026-09-19 batch, report `15/16 used, 1 slot remaining` rather than deleting published bundles. A due job whose locked article files already match `content/published` byte-for-byte is marked `legacy_e4`, is not materialized again, and still must pass candidate and public E4 audits. If a historical article has no canonical manifest/handoff, request it from the content owner; do not reconstruct or rewrite it here.
+
+Production and CI never permit `--force`. GitHub Actions secrets must never be printed, committed, uploaded as artifacts, or copied to shared Drive.

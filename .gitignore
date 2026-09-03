@@ -1,4 +1,9 @@
 content/publish-errors.json
+content/inbox/*
+!content/inbox/README.md
+content/scheduled/*
+!content/scheduled/README.md
+!content/scheduled/*.dnq
 outputs/
 work/
 node_modules/

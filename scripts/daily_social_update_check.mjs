@@ -312,7 +312,7 @@ async function main() {
   }
 
   if (imported.length && !dryRun) {
-    runNode("scripts/publish_articles.mjs", ["--force"]);
+    runNode("scripts/publish_articles.mjs");
     runNode("scripts/build_english_site.mjs");
     runNode("scripts/build_topic_hubs.mjs");
     runNode("scripts/build_company_index.mjs");

@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # Asia/Taipei 08:00 primary and 08:10 fallback (Taipei has no DST).
+    - cron: "0 0 * * *"
+    - cron: "10 0 * * *"
 
 permissions:
   contents: read
@@ -11,8 +15,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: drugnews-pages-production
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -21,10 +25,46 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout
+      - name: Checkout triggering main revision
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
-      - name: Prepare public site
+      - name: Freeze one release clock
+        id: clock
+        shell: bash
+        run: echo "now=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_OUTPUT"
+
+      - name: Authenticate and prepare all valid due bundles
+        id: queue
+        env:
+          DRUGNEWS_QUEUE_KEY_B64: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64 }}
+          DRUGNEWS_QUEUE_KEY_B64_V2: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64_V2 }}
+        run: >-
+          node scripts/scheduled_queue.mjs prepare
+          --queue=content/scheduled
+          --work-dir=/tmp/drugnews-queue
+          --published=content/published
+          --now=${{ steps.clock.outputs.now }}
+
+      - name: Rebuild current public site plus every valid due article
+        env:
+          DRUGNEWS_INBOX: /tmp/drugnews-queue/staging
+          DRUGNEWS_NOW: ${{ steps.clock.outputs.now }}
+          DRUGNEWS_PUBLISH_PRODUCTION: "1"
+        run: npm run publish
+
+      - name: Scheduled publishing regression suite
+        run: npm run test:scheduled
+
+      - name: Existing deterministic quality gates
+        run: |
+          npm run audit:references:strict
+          npm run audit:reader:strict
+          npm run audit:english-completeness:strict
+          npm run audit:english-localization
+
+      - name: Prepare public site candidate
         shell: bash
         run: |
           set -euo pipefail
@@ -43,6 +83,21 @@ jobs:
           find _site -type f -name '.DS_Store' -delete
           du -sh _site
 
+      - name: Fail closed on pre-release leaks, duplicates, or live regression
+        run: >-
+          node scripts/audit_scheduled_leaks.mjs candidate
+          --root=_site
+          --repo-root=.
+          --audit-file=/tmp/drugnews-queue/private-audit.json
+          --live-base=https://drugnews.com.tw
+
+      - name: Refuse a stale scheduled/manual deployment
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch --quiet origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
@@ -54,3 +109,31 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+      - name: Read back production E4
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3 4 5 6; do
+            if node scripts/audit_scheduled_leaks.mjs live --audit-file=/tmp/drugnews-queue/private-audit.json --base-url=https://drugnews.com.tw; then
+              exit 0
+            fi
+            sleep 15
+          done
+          exit 1
+
+      - name: Build IndexNow outbox for newly due canonical URLs
+        if: steps.queue.outputs.newly_due_count != '0'
+        run: >-
+          node scripts/audit_scheduled_leaks.mjs indexnow
+          --audit-file=/tmp/drugnews-queue/private-audit.json
+          --output=/tmp/drugnews-indexnow.json
+
+      - name: Submit newly due URLs to IndexNow
+        if: steps.queue.outputs.newly_due_count != '0'
+        run: node scripts/submit_indexnow.mjs --brief=/tmp/drugnews-indexnow.json
+
+      - name: Remove all runner plaintext
+        if: always()
+        shell: bash
+        run: rm -rf /tmp/drugnews-queue /tmp/drugnews-indexnow.json

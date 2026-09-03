@@ -1,9 +1,10 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { publicDateValidationError, validateSocialCoverPolicy } from "./article_metadata_contract.mjs";
 
 const ROOT = process.cwd();
 const BASE_URL = "https://drugnews.com.tw";
-const INBOX = path.join(ROOT, "content", "inbox");
+const INBOX = path.resolve(process.env.DRUGNEWS_INBOX || path.join(ROOT, "content", "inbox"));
 const PUBLISHED = path.join(ROOT, "content", "published");
 const EXTERNAL_ARTICLES = path.join(ROOT, "content", "external-articles.json");
 const ARTICLES = path.join(ROOT, "articles");
@@ -11,7 +12,12 @@ const ASSETS = path.join(ROOT, "assets", "articles");
 const ERRORS_FILE = path.join(ROOT, "content", "publish-errors.json");
 const FORCE = process.argv.includes("--force");
 const nowArg = process.argv.find((arg) => arg.startsWith("--now="));
-const NOW = nowArg ? new Date(nowArg.slice("--now=".length)) : new Date();
+const nowValue = nowArg?.slice("--now=".length) || process.env.DRUGNEWS_NOW || "";
+const NOW = nowValue ? new Date(nowValue) : new Date();
+const PRODUCTION = process.env.DRUGNEWS_PUBLISH_PRODUCTION === "1" || process.env.CI === "true";
+if (Number.isNaN(NOW.getTime())) throw new Error("DRUGNEWS_NOW/--now must be a valid RFC3339 timestamp");
+if (PRODUCTION && FORCE) throw new Error("--force is permanently disabled in production/CI");
+const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei", year: "numeric", month: "2-digit", day: "2-digit" }).format(NOW);
 const PAID_COLUMN_URL = "https://vocus.cc/user/@Drugnews";
 const PHARMA_GIANTS_URL = "https://vocus.cc/salon/Drugnews/room/pharmagiants";
 const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61568446257142";
@@ -755,9 +761,8 @@ function parseMeta(raw, folderName) {
   }
   const publishAt = new Date(meta.publish_at);
   if (Number.isNaN(publishAt.getTime())) throw new Error("meta.json field `publish_at` is not a valid date");
-  if (meta.public_date && Number.isNaN(new Date(`${meta.public_date}T00:00:00+08:00`).getTime())) {
-    throw new Error("meta.json field `public_date` is not a valid date");
-  }
+  const publicDateError = publicDateValidationError(meta);
+  if (publicDateError) throw new Error(publicDateError);
   const slug = slugify(meta.slug || meta.title, folderName);
   return { ...meta, slug, publishAt };
 }
@@ -783,23 +788,9 @@ function findMarkdownImages(markdown) {
   return images;
 }
 
-function validateSocialCoverPolicy(article) {
-  const errors = [];
-  if (/^facebook$/i.test(article.meta.source_platform || "")) {
-    if (!article.meta.cover_image) {
-      errors.push("Facebook article cover_image must be set to a generated website cover");
-    } else if (/(^|\/)facebook-\d{2}\./i.test(article.meta.cover_image)) {
-      errors.push("Facebook article cover_image must be a generated website cover, not an original facebook-XX body image");
-    }
-  }
-  return errors;
-}
-
 async function validateArticle(article, knownSlugs) {
   const errors = [];
-  if (!FORCE && article.meta.publishAt > NOW) {
-    errors.push(`publish_at is in the future: ${article.meta.publish_at}`);
-  }
+  const state = !FORCE && article.meta.publishAt > NOW ? "validated_pending" : "due";
   if (knownSlugs.has(article.meta.slug)) {
     errors.push(`slug duplicates another inbox article: ${article.meta.slug}`);
   }
@@ -828,8 +819,8 @@ async function validateArticle(article, knownSlugs) {
     const homepageCoverPath = path.join(article.folderPath, article.meta.homepage_cover_image);
     if (!(await exists(homepageCoverPath))) errors.push(`homepage_cover_image not found: ${article.meta.homepage_cover_image}`);
   }
-  errors.push(...validateSocialCoverPolicy(article));
-  return errors;
+  errors.push(...validateSocialCoverPolicy(article.meta));
+  return { errors, state };
 }
 
 async function copyImages(article) {
@@ -1450,7 +1441,10 @@ function articlePage(article, bodyHtml, related) {
   const trustHtml = articleTrustHtml(article, enhancedArticle.toc);
   const desktopTocHtml = tocLinksHtml(enhancedArticle.toc, false, isEnglish(meta));
   const shareHtml = sharePanelHtml(meta, url);
-  const bodyWithShare = injectAfterFirstParagraph(enhancedArticle.html, shareHtml);
+  const bodyWithShare = injectAfterFirstParagraph(
+    enhancedArticle.html,
+    `<!-- drugnews:locked-body:end -->\n${shareHtml}\n<!-- drugnews:locked-body:start -->`
+  );
   const relatedHtml = relatedModuleHtml(meta, related, sourceRecordFromMeta(article));
   const monetizationHtml = monetizationNextStepHtml(meta);
   const sourceLinks = [
@@ -1568,8 +1562,8 @@ ${headerHtml("articles", meta)}
   </section>
   <section class="section article-section">
     <div class="container article-layout">
-      <article class="article-body">
-      ${bodyWithShare}
+	      <article class="article-body">
+	      <!-- drugnews:locked-body:start -->${bodyWithShare}<!-- drugnews:locked-body:end -->
       ${citationBoxHtml(meta, url)}
       <div class="notice">${disclaimerFor(meta)}</div>
       ${sourceLinks ? `<h2>${ui.originalHeading}</h2><div class="tag-row">${sourceLinks}</div>` : ""}
@@ -2694,7 +2688,7 @@ function rssFeed(records) {
     <atom:link href="${BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <lastBuildDate>${NOW.toUTCString()}</lastBuildDate>
 ${items}
   </channel>
 </rss>
@@ -2741,7 +2735,7 @@ function jsonFeed(records) {
 function llmsText(records) {
   const latest = records
     .filter((item) => !item.external)
-    .slice(0, 14)
+    .slice(0, 32)
     .map((item) => {
       const tags = displayTags(item.tags || []).slice(0, 5).join(", ");
       const url = `${BASE_URL}/${item.url}`;
@@ -2936,7 +2930,7 @@ function stockMarketAttentionSignals() {
 function searchIntents(records) {
   const latestArticles = records
     .filter((item) => !item.external)
-    .slice(0, 24)
+    .slice(0, 32)
     .map((item) => ({
       title: displayTitle(item),
       date: item.date,
@@ -3067,7 +3061,7 @@ function searchIntents(records) {
 
   const payload = {
     schema_version: "1.0",
-    generated_at: new Date().toISOString(),
+    generated_at: NOW.toISOString(),
     name: "Drugnews｜藥時事",
     canonical_url: `${BASE_URL}/`,
     languages: ["zh-Hant", "en"],
@@ -3242,7 +3236,7 @@ function brandProfileJson(records) {
     "@type": ["Organization", "NewsMediaOrganization"],
     "@id": `${BASE_URL}/#organization`,
     schema_version: "1.0",
-    generated_at: new Date().toISOString(),
+    generated_at: NOW.toISOString(),
     name: "藥時事 Drugnews",
     alternateName: [
       "Drugnews",
@@ -3389,7 +3383,7 @@ function marketSignals(records) {
   return records
     .filter((item) => !item.external)
     .filter((item) => signalPattern.test(`${item.title} ${item.summary} ${(item.tags || []).join(" ")}`))
-    .slice(0, 30)
+    .slice(0, 32)
     .map((item) => ({
       title: displayTitle(item),
       date: item.date,
@@ -3429,7 +3423,7 @@ function marketRadarJson(records) {
   const buckets = groupedMarketSignals(records);
   return `${JSON.stringify({
     schema_version: "1.0",
-    generated_at: new Date().toISOString(),
+    generated_at: NOW.toISOString(),
     name: "Drugnews Biotech Capital-Market Radar",
     url: `${BASE_URL}/market-radar.html`,
     description: "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -3525,7 +3519,7 @@ ${footerHtml()}
 }
 
 function knowledgeGraph(records) {
-  const latestRecords = records.filter((item) => !item.external).slice(0, 30);
+  const latestRecords = records.filter((item) => !item.external).slice(0, 32);
   const officialChannels = [
     { name: "Official website", url: `${BASE_URL}/`, role: "canonical home and article archive" },
     { name: "Facebook", url: FACEBOOK_URL, role: "social distribution and community reach" },
@@ -3537,7 +3531,7 @@ function knowledgeGraph(records) {
   ];
   const payload = {
     schema_version: "1.0",
-    generated_at: new Date().toISOString(),
+    generated_at: NOW.toISOString(),
     site: {
       "@type": ["Organization", "NewsMediaOrganization"],
       "@id": `${BASE_URL}/#organization`,
@@ -3669,6 +3663,7 @@ async function main() {
   await ensureDirs();
   const errors = [];
   const due = [];
+  const pending = [];
   const knownSlugs = new Set();
 
   const inboxEntries = await fs.readdir(INBOX, { withFileTypes: true });
@@ -3677,9 +3672,11 @@ async function main() {
     const folderPath = path.join(INBOX, entry.name);
     try {
       const article = await readArticleFolder(folderPath);
-      const articleErrors = await validateArticle(article, knownSlugs);
-      if (articleErrors.length) {
-        errors.push({ folder: entry.name, errors: articleErrors });
+      const validation = await validateArticle(article, knownSlugs);
+      if (validation.errors.length) {
+        errors.push({ folder: entry.name, errors: validation.errors });
+      } else if (validation.state === "validated_pending") {
+        pending.push({ folder: entry.name, publish_at: article.meta.publish_at, state: validation.state });
       } else {
         due.push(article);
       }
@@ -3689,7 +3686,7 @@ async function main() {
   }
 
   if (errors.length) {
-    await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: new Date().toISOString(), errors }, null, 2));
+    await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: NOW.toISOString(), validated_pending: pending, errors }, null, 2));
     console.error(`Publishing stopped. See ${path.relative(ROOT, ERRORS_FILE)}`);
     process.exitCode = 1;
     return;
@@ -3699,11 +3696,11 @@ async function main() {
 
   const published = await loadPublishedArticles();
   const publishedErrors = published.flatMap((article) => {
-    const articleErrors = validateSocialCoverPolicy(article);
+    const articleErrors = validateSocialCoverPolicy(article.meta);
     return articleErrors.length ? [{ folder: article.folderName, errors: articleErrors }] : [];
   });
   if (publishedErrors.length) {
-    await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: new Date().toISOString(), errors: publishedErrors }, null, 2));
+    await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: NOW.toISOString(), validated_pending: pending, errors: publishedErrors }, null, 2));
     console.error(`Publishing stopped. See ${path.relative(ROOT, ERRORS_FILE)}`);
     process.exitCode = 1;
     return;
@@ -3769,9 +3766,9 @@ async function main() {
   await writeAtomic(path.join(ROOT, "ai-index.json"), aiIndex(allRecords));
   await writeAtomic(path.join(ROOT, "search-intents.json"), searchIntents(allRecords));
   await writeAtomic(path.join(ROOT, "knowledge-graph.json"), knowledgeGraph(allRecords));
-  await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: new Date().toISOString(), errors: [] }, null, 2));
+  await writeAtomic(ERRORS_FILE, JSON.stringify({ generated_at: NOW.toISOString(), validated_pending: pending, errors: [] }, null, 2));
 
-  console.log(`Published ${due.length} inbox article(s). Total articles: ${allRecords.length}.`);
+  console.log(`Published ${due.length} inbox article(s); ${pending.length} validated pending. Total articles: ${allRecords.length}.`);
 }
 
 main().catch((error) => {
