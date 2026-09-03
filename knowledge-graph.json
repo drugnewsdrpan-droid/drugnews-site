@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-02T13:34:54.472Z",
+  "generated_at": "2026-09-03T06:03:16.736Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,50 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
+      "date": "2026-09-03",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Model Hardware Standard",
+        "MHS",
+        "AI for Science",
+        "Claude Science",
+        "laboratory automation",
+        "scientific instruments"
+      ],
+      "summary": "Anthropic's Model Hardware Standard research preview gives AI agents a shared interface for microscopes, liquid handlers, robots and laser-control systems. The proof-of-concept results are important, but they do not mean autonomous laboratories are already mature.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html"
+      }
+    },
+    {
+      "title": "Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了",
+      "date": "2026-09-03",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Model Hardware Standard",
+        "MHS",
+        "AI for Science",
+        "Claude Science",
+        "實驗室自動化",
+        "科學儀器"
+      ],
+      "summary": "Anthropic 公開模型硬體標準 MHS 研究預覽，讓 AI 代理透過共通介面讀取與操作顯微鏡、移液工作站、機械手臂與雷射控制系統；這是概念驗證，不是無人實驗室已成熟。",
+      "alternate_language_versions": {
+        "en": "2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html"
+      }
+    },
     {
       "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
       "date": "2026-09-02",
@@ -765,58 +809,13 @@
       "alternate_language_versions": {
         "en": "2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html"
       }
-    },
-    {
-      "title": "Just $74 Million Short: Can Skyrizi Succeed Humira as the Autoimmune Drug King?",
-      "date": "2026-08-19",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Skyrizi",
-        "Humira",
-        "AbbVie",
-        "Psoriasis",
-        "Autoimmune",
-        "IL-23",
-        "ICOTYDE",
-        "Biopharma"
-      ],
-      "summary": "Skyrizi generated $5.505 billion in Q2 2026, only $74 million below Humira's historic quarterly peak. The real succession test spans efficacy, treatment burden, multi-indication reach and access.",
-      "alternate_language_versions": {
-        "zh": "2026-08-19-skyrizi-humira-autoimmune-drug-king.html"
-      }
-    },
-    {
-      "title": "55 億美元只差一步：Skyrizi 要接棒 Humira 當自體免疫藥王？",
-      "date": "2026-08-19",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-19-skyrizi-humira-autoimmune-drug-king.html",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "Skyrizi",
-        "喜開悅",
-        "Humira",
-        "復邁",
-        "AbbVie",
-        "乾癬",
-        "自體免疫",
-        "IL-23",
-        "ICOTYDE"
-      ],
-      "summary": "Skyrizi 2026 年第二季收入達 55.05 億美元，距 Humira 的歷史單季高點只差 7,400 萬美元；真正的接班考驗，是療效、治療負擔、多適應症與支付能力能否一起延續。",
-      "alternate_language_versions": {
-        "en": "2026-08-19-skyrizi-humira-autoimmune-drug-king-en.html"
-      }
     }
   ],
   "entities": [
     {
       "name": "Taiwan biotech",
       "type": "topic",
-      "mentions": 27,
+      "mentions": 26,
       "latest_date": "2026-08-25",
       "latest_articles": [
         {
@@ -854,7 +853,7 @@
     {
       "name": "drug development",
       "type": "topic",
-      "mentions": 20,
+      "mentions": 19,
       "latest_date": "2026-08-22",
       "latest_articles": [
         {
@@ -968,7 +967,7 @@
     {
       "name": "clinical data",
       "type": "market_topic",
-      "mentions": 15,
+      "mentions": 14,
       "latest_date": "2026-08-05",
       "latest_articles": [
         {
@@ -1000,44 +999,6 @@
           "date": "2026-07-12",
           "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation-en.html",
           "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "臨床數據",
-      "type": "market_topic",
-      "mentions": 14,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
         }
       ]
     },
@@ -1114,6 +1075,44 @@
           "date": "2026-07-14",
           "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
           "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "臨床數據",
+      "type": "market_topic",
+      "mentions": 13,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
+          "language": "zh-Hant"
         }
       ]
     },
@@ -2448,6 +2447,70 @@
       ]
     },
     {
+      "name": "Anthropic",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-09-03",
+      "latest_articles": [
+        {
+          "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Claude Science",
+      "type": "topic",
+      "mentions": 4,
+      "latest_date": "2026-09-03",
+      "latest_articles": [
+        {
+          "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "Foundation Models Enter Drug Discovery: Anthropic Launches Claude Science as AI Companies Move Into the Real R&D Arena",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery-en.html",
+          "language": "en"
+        },
+        {
+          "title": "大模型公司走進 AI 製藥：Anthropic 推出 Claude Science，模型公司開始把藥物研發當成真實戰場",
+          "date": "2026-07-13",
+          "url": "https://drugnews.com.tw/articles/2026-07-13-anthropic-claude-science-ai-drug-discovery.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "BeOne Medicines",
       "type": "topic",
       "mentions": 4,
@@ -3222,6 +3285,86 @@
       ]
     },
     {
+      "name": "AI for Science",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-03",
+      "latest_articles": [
+        {
+          "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Claude",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-03",
+      "latest_articles": [
+        {
+          "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "MHS",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-03",
+      "latest_articles": [
+        {
+          "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Model Hardware Standard",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-03",
+      "latest_articles": [
+        {
+          "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "生技商業化",
       "type": "market_topic",
       "mentions": 2,
@@ -3300,129 +3443,47 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "ORLYNVAH",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-09-02",
-      "latest_articles": [
-        {
-          "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
-          "date": "2026-09-02",
-          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
-          "language": "en"
-        },
-        {
-          "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
-          "date": "2026-09-02",
-          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Theravance Biopharma",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-09-02",
-      "latest_articles": [
-        {
-          "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
-          "date": "2026-09-02",
-          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
-          "language": "en"
-        },
-        {
-          "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
-          "date": "2026-09-02",
-          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "XPOVIO",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-09-02",
-      "latest_articles": [
-        {
-          "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
-          "date": "2026-09-02",
-          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
-          "language": "en"
-        },
-        {
-          "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
-          "date": "2026-09-02",
-          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "AIDO Cell",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-09-01",
-      "latest_articles": [
-        {
-          "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
-          "date": "2026-09-01",
-          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
-          "date": "2026-09-01",
-          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "GenBio AI",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-09-01",
-      "latest_articles": [
-        {
-          "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
-          "date": "2026-09-01",
-          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
-          "date": "2026-09-01",
-          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "X-Cell",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-09-01",
-      "latest_articles": [
-        {
-          "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
-          "date": "2026-09-01",
-          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
-          "language": "en"
-        },
-        {
-          "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
-          "date": "2026-09-01",
-          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
+      "date": "2026-09-03",
+      "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Model Hardware Standard",
+        "MHS",
+        "AI for Science",
+        "Claude Science",
+        "laboratory automation",
+        "scientific instruments"
+      ],
+      "summary": "Anthropic's Model Hardware Standard research preview gives AI agents a shared interface for microscopes, liquid handlers, robots and laser-control systems. The proof-of-concept results are important, but they do not mean autonomous laboratories are already mature."
+    },
+    {
+      "title": "Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了",
+      "date": "2026-09-03",
+      "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Model Hardware Standard",
+        "MHS",
+        "AI for Science",
+        "Claude Science",
+        "實驗室自動化",
+        "科學儀器"
+      ],
+      "summary": "Anthropic 公開模型硬體標準 MHS 研究預覽，讓 AI 代理透過共通介面讀取與操作顯微鏡、移液工作站、機械手臂與雷射控制系統；這是概念驗證，不是無人實驗室已成熟。"
+    },
     {
       "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
       "date": "2026-09-02",
@@ -3954,44 +4015,6 @@
         "Phase 3"
       ],
       "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together."
-    },
-    {
-      "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
-      "date": "2026-08-15",
-      "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
-      "language": "zh-Hant",
-      "category": "商業分析",
-      "access": "商業分析文",
-      "tags": [
-        "GSK",
-        "camlipixant",
-        "P2X3",
-        "慢性咳嗽",
-        "CALM-1",
-        "CALM-2",
-        "臨床三期",
-        "新藥研發"
-      ],
-      "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
-    },
-    {
-      "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-      "date": "2026-08-13",
-      "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
-      "language": "en",
-      "category": "商業分析",
-      "access": "Business Analysis",
-      "tags": [
-        "Novo Nordisk",
-        "ziltivekimab",
-        "ZEUS",
-        "MACE",
-        "IL-6",
-        "hsCRP",
-        "cardiovascular outcomes",
-        "Phase 3"
-      ],
-      "summary": "ZEUS showed the central translational risk in cardiovascular drug development: ziltivekimab suppressed the IL-6 pathway, but the 6,300-patient outcomes trial did not reduce three-point MACE."
     }
   ]
 }

@@ -59,6 +59,18 @@
       "min_longform_char_ratio": 0.85,
       "min_longform_ngram_coverage": 0.55,
       "ngram_size": 5
+    },
+    {
+      "slug": "anthropic-mhs-ai-lab-hardware-standard",
+      "canonical_source": {
+        "platform": "facebook_public_longform",
+        "path": "content/published/anthropic-mhs-ai-lab-hardware-standard/sources/approved-facebook-longform.md",
+        "url": "https://www.facebook.com/61568446257142/posts/122184391718614875",
+        "content_status": "Public E4 readback on 2026-09-03; full long-form body and four visible images"
+      },
+      "min_longform_char_ratio": 0.85,
+      "min_longform_ngram_coverage": 0.55,
+      "ngram_size": 5
     }
   ]
 }

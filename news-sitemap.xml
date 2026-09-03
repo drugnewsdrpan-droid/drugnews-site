@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-03T00:00:00.000Z</news:publication_date>
+      <news:title>Claude Starts Running Experiments: AI Enters the Physical Lab</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Drugnews｜藥時事</news:name>
+        <news:language>zh-tw</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-03T00:00:00.000Z</news:publication_date>
+      <news:title>Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html</loc>
     <news:news>
       <news:publication>
@@ -20,28 +42,6 @@
       </news:publication>
       <news:publication_date>2026-09-02T00:00:00.000Z</news:publication_date>
       <news:title>新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31T23:00:00.000Z</news:publication_date>
-      <news:title>Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Drugnews｜藥時事</news:name>
-        <news:language>zh-tw</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31T23:00:00.000Z</news:publication_date>
-      <news:title>新藥能先在電腦裡試？「虛擬細胞」來了！</news:title>
     </news:news>
   </url>
 </urlset>

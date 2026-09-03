@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-mhs-ai-lab-hardware-standard-en/cover.png</image:loc>
+      <image:caption>Figure 1: Claude begins running experiments, moving AI from the screen to the bench</image:caption>
+      <image:title>Claude Starts Running Experiments: AI Enters the Physical Lab</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-mhs-ai-lab-hardware-standard-en/figure-02.png</image:loc>
+      <image:caption>Figure 2: The MHS layer connects researchers and AI agents with instruments from different vendors</image:caption>
+      <image:title>Claude Starts Running Experiments: AI Enters the Physical Lab</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-mhs-ai-lab-hardware-standard-en/figure-03.png</image:loc>
+      <image:caption>Figure 3: Proofs of concept in protein assays and high-throughput plate handling</image:caption>
+      <image:title>Claude Starts Running Experiments: AI Enters the Physical Lab</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-mhs-ai-lab-hardware-standard-en/figure-04.png</image:loc>
+      <image:caption>Figure 4: The AI-lab value chain, beneficiaries and four risk gates</image:caption>
+      <image:title>Claude Starts Running Experiments: AI Enters the Physical Lab</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html</loc>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-mhs-ai-lab-hardware-standard/cover.png</image:loc>
+      <image:caption>圖 1｜Claude 開始動手做實驗：AI 從螢幕走向實驗台</image:caption>
+      <image:title>Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-mhs-ai-lab-hardware-standard/figure-02.png</image:loc>
+      <image:caption>圖 2｜MHS 共通層：研究者、AI 代理與多品牌設備如何連起來</image:caption>
+      <image:title>Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-mhs-ai-lab-hardware-standard/figure-03.png</image:loc>
+      <image:caption>圖 3｜兩個實驗室案例：蛋白質測定與高通量設備交接</image:caption>
+      <image:title>Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://drugnews.com.tw/assets/articles/anthropic-mhs-ai-lab-hardware-standard/figure-04.png</image:loc>
+      <image:caption>圖 4｜AI 實驗室價值鏈：受益者、壓力與四道風險閘門</image:caption>
+      <image:title>Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html</loc>
     <image:image>
       <image:loc>https://drugnews.com.tw/assets/articles/post-approval-biotech-commercialization-death-valley-en/cover.png</image:loc>

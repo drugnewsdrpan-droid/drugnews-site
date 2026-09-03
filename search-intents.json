@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-02T13:34:54.471Z",
+  "generated_at": "2026-09-03T06:03:16.735Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
+      "date": "2026-09-03",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Model Hardware Standard",
+        "MHS",
+        "AI for Science",
+        "Claude Science",
+        "laboratory automation",
+        "scientific instruments"
+      ],
+      "summary": "Anthropic's Model Hardware Standard research preview gives AI agents a shared interface for microscopes, liquid handlers, robots and laser-control systems. The proof-of-concept results are important, but they do not mean autonomous laboratories are already mature."
+    },
+    {
+      "title": "Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了",
+      "date": "2026-09-03",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
+      "category": "商業分析",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Model Hardware Standard",
+        "MHS",
+        "AI for Science",
+        "Claude Science",
+        "實驗室自動化",
+        "科學儀器"
+      ],
+      "summary": "Anthropic 公開模型硬體標準 MHS 研究預覽，讓 AI 代理透過共通介面讀取與操作顯微鏡、移液工作站、機械手臂與雷射控制系統；這是概念驗證，不是無人實驗室已成熟。"
+    },
     {
       "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
       "date": "2026-09-02",
@@ -778,42 +814,6 @@
         "國邑"
       ],
       "summary": "2026 年的生技併購資金，正集中到臨床風險開始下降、商業價值尚未完全定價的公司。從 Alkermes、Dyne、First Tracks、Legend 到 Sail，再回看國邑與仁新，真正值得追的是人體概念驗證、平台外延、商業化距離與買方策略契合度。"
-    },
-    {
-      "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
-      "date": "2026-08-22",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
-      "category": "商業分析",
-      "tags": [
-        "BeOne Medicines",
-        "Revolution Medicines",
-        "RAS(ON)",
-        "daraxonrasib",
-        "zoldonrasib",
-        "BGB-58067",
-        "BG-T187",
-        "biotech licensing"
-      ],
-      "summary": "BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most."
-    },
-    {
-      "title": "百濟神州一口氣押上 4 款 RAS 新藥",
-      "date": "2026-08-22",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
-      "category": "商業分析",
-      "tags": [
-        "BeOne Medicines",
-        "百濟神州",
-        "Revolution Medicines",
-        "RAS(ON)",
-        "daraxonrasib",
-        "zoldonrasib",
-        "BGB-58067",
-        "BG-T187"
-      ],
-      "summary": "百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。"
     }
   ],
   "do_not_use_as": [

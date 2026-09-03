@@ -7,6 +7,24 @@
   "language": "en",
   "items": [
     {
+      "id": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+      "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+      "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
+      "content_text": "Anthropic's Model Hardware Standard research preview gives AI agents a shared interface for microscopes, liquid handlers, robots and laser-control systems. The proof-of-concept results are important, but they do not mean autonomous laboratories are already mature.",
+      "date_published": "2026-09-03T08:00:00+08:00",
+      "date_modified": "2026-09-03T08:00:00+08:00",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Model Hardware Standard",
+        "MHS",
+        "AI for Science",
+        "Claude Science",
+        "laboratory automation",
+        "scientific instruments"
+      ]
+    },
+    {
       "id": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
       "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
       "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",

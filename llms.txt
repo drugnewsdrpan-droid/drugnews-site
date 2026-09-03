@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-09-03｜Claude Starts Running Experiments: AI Enters the Physical Lab
+  URL: https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html
+  Topics: Anthropic, Claude, Model Hardware Standard, MHS, AI for Science
+  Summary: Anthropic's Model Hardware Standard research preview gives AI agents a shared interface for microscopes, liquid handlers, robots and laser-control systems. The proof-of-concept results are important, but they do not mean autonomous laboratories are already mature.
+- 2026-09-03｜Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了
+  URL: https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html
+  Topics: Anthropic, Claude, Model Hardware Standard, MHS, AI for Science
+  Summary: Anthropic 公開模型硬體標準 MHS 研究預覽，讓 AI 代理透過共通介面讀取與操作顯微鏡、移液工作站、機械手臂與雷射控制系統；這是概念驗證，不是無人實驗室已成熟。
 - 2026-09-02｜A New Drug Launched. Seven Months Later, the Company Sought Liquidation
   URL: https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html
   Topics: biotech commercialization, Iterum Therapeutics, ORLYNVAH, Karyopharm, XPOVIO
@@ -124,14 +132,6 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html
   Topics: Zealand Pharma, Royalty Pharma, rusfertide, Protagonist Therapeutics, Takeda
   Summary: Zealand Pharma 以總對價 1 億美元出售 rusfertide 的里程碑與 1% 全球淨銷售權利金，交易不是出售藥物控制權。本文拆解 Zealand、Protagonist 與武田的不同經濟位置，並分析 rusfertide 對藥華藥 BESREMi 的競爭、互補與治療分層。
-- 2026-08-27｜DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet
-  URL: https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html
-  Topics: Twist Bioscience, TWST, AI drug discovery, DNA synthesis, protein engineering
-  Summary: Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback.
-- 2026-08-27｜DNA 不是 AI 製藥的輝達，至少現在還不是
-  URL: https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html
-  Topics: Twist Bioscience, TWST, AI 製藥, DNA 合成, 蛋白質工程
-  Summary: Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。
 
 ## Key Site Sections
 

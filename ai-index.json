@@ -209,6 +209,60 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
+      "date": "2026-09-03",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+      "source": "Facebook",
+      "access": "Free Article",
+      "category": "商業分析",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Model Hardware Standard",
+        "MHS",
+        "AI for Science",
+        "Claude Science",
+        "laboratory automation",
+        "scientific instruments"
+      ],
+      "summary": "Anthropic's Model Hardware Standard research preview gives AI agents a shared interface for microscopes, liquid handlers, robots and laser-control systems. The proof-of-concept results are important, but they do not mean autonomous laboratories are already mature.",
+      "image": "https://drugnews.com.tw/assets/articles/anthropic-mhs-ai-lab-hardware-standard-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html"
+      }
+    },
+    {
+      "title": "Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了",
+      "date": "2026-09-03",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Model Hardware Standard",
+        "MHS",
+        "AI for Science",
+        "Claude Science",
+        "實驗室自動化",
+        "科學儀器"
+      ],
+      "summary": "Anthropic 公開模型硬體標準 MHS 研究預覽，讓 AI 代理透過共通介面讀取與操作顯微鏡、移液工作站、機械手臂與雷射控制系統；這是概念驗證，不是無人實驗室已成熟。",
+      "image": "https://drugnews.com.tw/assets/articles/anthropic-mhs-ai-lab-hardware-standard/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html"
+      }
+    },
+    {
       "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
       "date": "2026-09-02",
       "language": "en",
@@ -1543,58 +1597,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "zh-Hant": "2026-08-10-biopharma-ma-buying-time-2026h1.html"
-      }
-    },
-    {
-      "title": "J&J's Oral Psoriasis Drug Logged 18,000 Prescriptions in Its First Full Quarter. Is It Coming for Injectables?",
-      "date": "2026-08-09",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "Psoriasis",
-        "IL-23R",
-        "Oral Peptide",
-        "Drug Commercialization"
-      ],
-      "summary": "ICOTYDE logged more than 18,000 prescriptions in its first full quarter. The oral IL-23R peptide has earned entry into the high-efficacy psoriasis market, but durable value still depends on paid fills, persistence, payer quality, safety, and additional indications.",
-      "image": "https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch-en/cover-1400.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-09-icotyde-oral-il23r-launch.html"
-      }
-    },
-    {
-      "title": "嬌生口服藥首季 1.8 萬張處方，針劑飯碗要被搶了？",
-      "date": "2026-08-09",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-09-icotyde-oral-il23r-launch.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "ICOTYDE",
-        "icotrokinra",
-        "Johnson & Johnson",
-        "乾癬",
-        "IL-23R",
-        "口服胜肽",
-        "新藥商業化"
-      ],
-      "summary": "ICOTYDE 上市後第一個完整季度累積逾 18,000 張處方。口服 IL-23R 胜肽已取得進入高療效市場的資格，真正的商業答案仍取決於續方、支付品質、長期留存與多適應症。",
-      "image": "https://drugnews.com.tw/assets/articles/icotyde-oral-il23r-launch/cover-1400.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-08-09-icotyde-oral-il23r-launch-en.html"
       }
     }
   ]
