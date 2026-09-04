@@ -195,6 +195,28 @@ Website covers are a brand surface, not just article decoration. New daily artic
 
 When the homepage composition needs a safer crop than the article/OG cover, add an optional `homepage_cover_image` and `homepage_cover_image_alt` to `meta.json`. The publisher copies that asset into `assets/articles/<slug>/`, uses it only for the homepage lead story, and keeps `cover_image` unchanged on the article page. Future daily homepage covers should be landscape, text-safe, and visually useful at both desktop and mobile breakpoints.
 
+## Encrypted Scheduled Queue: V2 Key Rotation
+
+GitHub Pages reads scheduled-queue keys from the `github-pages` environment under **Settings → Environments → github-pages → Environment secrets**. The exact secret names are:
+
+- `DRUGNEWS_QUEUE_KEY_B64` for existing `key_id=v1` bundles.
+- `DRUGNEWS_QUEUE_KEY_B64_V2` for new `key_id=v2` bundles.
+
+Add the V2 environment secret before pushing any V2 bundle. Load the key into a controlled process environment without printing it, putting it on the command line, or saving it in shell history; then pack only the new job:
+
+```bash
+node scripts/scheduled_queue.mjs pack \
+  --input=/private/path/to/job \
+  --output=content/scheduled \
+  --key-id=v2
+```
+
+The scheduled manifest still declares exactly four Markdown body images in `articles.<lang>.images`, in the same order as `article.md`. A dedicated website cover is an additional file declared only in `articles.<lang>.files` and selected through `meta.json` using `cover_image` plus `cover_image_alt`; body-image purposes must not call one of those four images the cover. Because publishing flattens image filenames into one article asset directory, every distinct body, cover, card, and homepage image must also have a distinct basename.
+
+For this migration, the existing 14 V1 bundles stay byte-identical. Do not decrypt, edit, or repack them. `prepare` reads each envelope's authenticated `key_id`, so a mixed V1+V2 queue requires both environment secrets and resolves every bundle with its matching key. If any referenced key is absent or invalid, preparation fails closed before materialization or deployment.
+
+Rollback in this order: remove or revert the V2 bundle first, verify that no queued envelope references V2, and only then remove the V2 secret. Keep the V1 secret until the queue contains zero V1 bundles; never delete it while the original 14 bundles remain. No queue key may appear in Git, build logs, QA reports, input manifests, or article files.
+
 ## Investor Academy And Taiwan Clinical Database
 
 The production investor-learning hub lives at `guides/`. The eight guide URLs are stable SEO entrypoints and share the interactive lesson assets under `guides/`. The Taiwan listed-biotech clinical database lives at `guides/taiwan-biotech-clinical-trials.html`; its verified records are maintained in `guides/data/taiwan-biotech-clinical.json` with an `asOf` date, primary source, result status, valuation question, and related Drugnews article routes.

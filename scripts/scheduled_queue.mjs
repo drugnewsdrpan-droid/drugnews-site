@@ -303,9 +303,31 @@ function validateArticlePayload(article, lang, publishAt) {
   const markdownImages = [...markdown.matchAll(/!\[[^\]]*]\(([^)]+)\)/g)].map((match) => safeRelative(match[1], `${lang} markdown image`));
   const declaredImages = article.images.map((image) => image.path);
   if (stableJson(markdownImages) !== stableJson(declaredImages)) throw new Error(`MANIFEST_${lang.toUpperCase()}_IMAGE_REFERENCES_MISMATCH`);
-  if (article.images[0].purpose !== "cover" || meta.cover_image !== article.images[0].path) throw new Error(`MANIFEST_${lang.toUpperCase()}_COVER_MISMATCH`);
+  if (!meta.cover_image || /^https?:\/\//i.test(meta.cover_image)) throw new Error(`MANIFEST_${lang.toUpperCase()}_COVER_MISMATCH`);
+  const coverPath = safeRelative(meta.cover_image, `${lang} cover_image`);
+  if (!IMAGE_RE.test(coverPath) || !paths.has(coverPath)) throw new Error(`MANIFEST_${lang.toUpperCase()}_COVER_MISMATCH`);
+  if (coverPath === article.images[0].path) {
+    if (article.images[0].purpose !== "cover") throw new Error(`MANIFEST_${lang.toUpperCase()}_COVER_MISMATCH`);
+  } else {
+    if (markdownImages.includes(coverPath)) throw new Error(`MANIFEST_${lang.toUpperCase()}_DEDICATED_COVER_BODY_REUSE`);
+    if (article.images.some((image) => image.purpose === "cover")) throw new Error(`MANIFEST_${lang.toUpperCase()}_DEDICATED_COVER_PURPOSE_MISMATCH`);
+    if (!String(meta.cover_image_alt || "").trim()) throw new Error(`MANIFEST_${lang.toUpperCase()}_DEDICATED_COVER_ALT_REQUIRED`);
+  }
+  const localWebsitePaths = [];
   for (const field of ["cover_image", "card_image", "homepage_cover_image"]) {
-    if (meta[field] && !/^https?:\/\//i.test(meta[field]) && !paths.has(safeRelative(meta[field], `${lang} ${field}`))) throw new Error(`MANIFEST_${lang.toUpperCase()}_${field.toUpperCase()}_MISSING`);
+    if (!meta[field] || /^https?:\/\//i.test(meta[field])) continue;
+    const imagePath = safeRelative(meta[field], `${lang} ${field}`);
+    if (!IMAGE_RE.test(imagePath) || !paths.has(imagePath)) throw new Error(`MANIFEST_${lang.toUpperCase()}_${field.toUpperCase()}_MISSING`);
+    const imageFile = article.files.find((candidate) => candidate.path === imagePath);
+    imageDimensions(Buffer.from(imageFile.data, "base64"), imagePath);
+    localWebsitePaths.push(imagePath);
+  }
+  const targetBasenames = new Map();
+  for (const imagePath of new Set([...imagePaths, ...localWebsitePaths])) {
+    const basename = path.posix.basename(imagePath);
+    const previous = targetBasenames.get(basename);
+    if (previous && previous !== imagePath) throw new Error(`MANIFEST_${lang.toUpperCase()}_PUBLISHED_IMAGE_BASENAME_COLLISION`);
+    targetBasenames.set(basename, imagePath);
   }
   return meta;
 }
@@ -429,18 +451,31 @@ function contentNeedles(payload) {
     const meta = JSON.parse(Buffer.from(article.files.find((file) => file.path === "meta.json").data, "base64").toString("utf8"));
     const markdown = Buffer.from(article.files.find((file) => file.path === "article.md").data, "base64").toString("utf8");
     const canonicalBody = canonicalMarkdownBody(markdown, meta.title);
+    const bodyImagePaths = new Set(article.images.map((image) => image.path));
+    const recordedImagePaths = new Set();
+    const recordImage = (imagePath, publicPath = "") => {
+      if (recordedImagePaths.has(imagePath)) return;
+      const file = article.files.find((candidate) => candidate.path === imagePath);
+      if (!file) throw new Error("AUDIT_IMAGE_FILE_MISSING");
+      const bytes = Buffer.from(file.data, "base64");
+      const oid = gitBlobOid(bytes);
+      imageHashes.add(file.sha256);
+      imageGitOids.add(oid);
+      imageRecords.push({ sha256: file.sha256, git_oid: oid, ...(publicPath ? { public_path: publicPath } : {}) });
+      recordedImagePaths.add(imagePath);
+    };
     needles.add(meta.title);
     const canary = markdown.replace(/^#.*$/m, "").replace(/\s+/g, " ").trim().slice(0, 72);
     if (canary.length >= 24) needles.add(canary);
     for (const image of article.images) {
-      imageHashes.add(image.sha256);
-      const file = article.files.find((candidate) => candidate.path === image.path);
-      const gitOid = gitBlobOid(Buffer.from(file.data, "base64"));
-      imageGitOids.add(gitOid);
-      imageRecords.push({ sha256: image.sha256, git_oid: gitOid, ...(image.existing_public_asset_ref ? { public_path: image.existing_public_asset_ref.public_path } : {}) });
+      recordImage(image.path, image.existing_public_asset_ref?.public_path || "");
     }
     const urlPath = `articles/${String(meta.date)}-${article.slug}.html`;
     const assetDir = `assets/articles/${article.slug}`;
+    const websiteImagePaths = [...new Set([meta.cover_image, meta.card_image, meta.homepage_cover_image]
+      .filter((value) => value && !/^https?:\/\//i.test(value))
+      .map((value) => safeRelative(value, `${lang} website image`)))];
+    for (const imagePath of websiteImagePaths) recordImage(imagePath);
     for (const image of article.images) {
       if (!image.existing_public_asset_ref) continue;
       existingPublicAssetRefs.push({
@@ -464,6 +499,11 @@ function contentNeedles(payload) {
       images: article.images.map((image) => {
         const file = article.files.find((candidate) => candidate.path === image.path);
         return { order: image.order, purpose: image.purpose, path: path.posix.join(assetDir, path.posix.basename(image.path)), sha256: image.sha256, git_oid: gitBlobOid(Buffer.from(file.data, "base64")) };
+      }),
+      website_images: websiteImagePaths.filter((imagePath) => !bodyImagePaths.has(imagePath)).map((imagePath) => {
+        const file = article.files.find((candidate) => candidate.path === imagePath);
+        const roles = ["cover_image", "card_image", "homepage_cover_image"].filter((field) => meta[field] === imagePath);
+        return { path: path.posix.join(assetDir, path.posix.basename(imagePath)), sha256: file.sha256, git_oid: gitBlobOid(Buffer.from(file.data, "base64")), roles };
       })
     });
   }
@@ -731,8 +771,13 @@ export async function prepareQueue({ queueDir, workDir, publishedRoot, now = new
   const preflight = await preflightQueue(queueDir);
   if (!String(env.DRUGNEWS_QUEUE_KEY_B64 || "").trim() && !String(env.DRUGNEWS_QUEUE_KEY_B64_V2 || "").trim()) throw new Error("QUEUE_SECRET_MISSING");
   const referencedKeyIds = new Set();
+  const envelopeKeyIds = new Map();
   for (const item of preflight.stats.filter((candidate) => !bundleSizeReason(candidate.bytes))) {
-    try { referencedKeyIds.add(parseEnvelope(await fs.readFile(item.file), item.jobId).keyId); } catch { /* Per-bundle envelope gate reports this below. */ }
+    try {
+      const keyId = parseEnvelope(await fs.readFile(item.file), item.jobId).keyId;
+      referencedKeyIds.add(keyId);
+      envelopeKeyIds.set(item.jobId, keyId);
+    } catch { /* Per-bundle envelope gate reports this below. */ }
   }
   for (const keyId of referencedKeyIds) keyForId(keyId, env);
   const stagingRoot = path.join(workDir, "staging");
@@ -744,6 +789,8 @@ export async function prepareQueue({ queueDir, workDir, publishedRoot, now = new
   const auditJobs = [];
   let authFailures = 0;
   let authAttempts = 0;
+  const authFailuresByKey = new Map();
+  const authAttemptsByKey = new Map();
 
   for (const item of preflight.stats) {
     const result = results.get(item.jobId);
@@ -751,6 +798,8 @@ export async function prepareQueue({ queueDir, workDir, publishedRoot, now = new
     if (sizeReason) { Object.assign(result, { reason: sizeReason }); continue; }
     try {
       authAttempts += 1;
+      const keyId = envelopeKeyIds.get(item.jobId);
+      if (keyId) authAttemptsByKey.set(keyId, (authAttemptsByKey.get(keyId) || 0) + 1);
       const opened = await decryptAndValidate(item, env);
       const { payload, metas } = opened;
       const state = payload.state === "revoked"
@@ -765,9 +814,16 @@ export async function prepareQueue({ queueDir, workDir, publishedRoot, now = new
       Object.assign(result, { state, reason: "" });
     } catch (error) {
       const reason = /auth|authenticate/i.test(error.message) ? "AUTH_FAILED" : error.message;
-      if (reason === "AUTH_FAILED") authFailures += 1;
+      if (reason === "AUTH_FAILED") {
+        authFailures += 1;
+        const keyId = envelopeKeyIds.get(item.jobId);
+        if (keyId) authFailuresByKey.set(keyId, (authFailuresByKey.get(keyId) || 0) + 1);
+      }
       Object.assign(result, { reason });
     }
+  }
+  for (const [keyId, attempts] of authAttemptsByKey) {
+    if (attempts > 0 && authFailuresByKey.get(keyId) === attempts) throw new Error(`QUEUE_KEY_AUTH_FAILED:${keyId}`);
   }
   if (authAttempts && authFailures === authAttempts) throw new Error("QUEUE_KEY_AUTH_FAILED");
 

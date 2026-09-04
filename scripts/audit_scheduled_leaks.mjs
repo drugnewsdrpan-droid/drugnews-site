@@ -183,6 +183,15 @@ function exactStructuredEntry(text, surface, article, baseUrl) {
   return occurrences(text, url);
 }
 
+function allArticleImages(article) {
+  const seen = new Set();
+  return [...(article.images || []), ...(article.website_images || [])].filter((image) => {
+    if (!image?.path || seen.has(image.path)) return false;
+    seen.add(image.path);
+    return true;
+  });
+}
+
 function auditDirectHtml(text, article, pairedArticles, baseUrl) {
   const url = `${baseUrl}/${article.url_path}`;
   if (!text.includes(article.title)) return "DIRECT_TITLE_MISSING";
@@ -199,6 +208,14 @@ function auditDirectHtml(text, article, pairedArticles, baseUrl) {
     const tag = text.match(new RegExp(`<img\\b[^>]*src="[^"]*${basename.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"[^>]*>`, "u"))?.[0] || "";
     if (!/\balt="[^"]+"/u.test(tag)) return "IMAGE_ALT_MISSING";
     lastImage = at;
+  }
+  for (const image of article.website_images || []) {
+    if (!(image.roles || ["cover_image"]).includes("cover_image")) continue;
+    const basename = path.posix.basename(image.path);
+    const escaped = basename.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const tag = text.match(new RegExp(`<img\\b[^>]*src="[^"]*${escaped}"[^>]*>`, "u"))?.[0] || "";
+    if (!text.includes(image.path) && !text.includes(encodeURIComponent(basename))) return "WEBSITE_IMAGE_REFERENCE_MISSING";
+    if (tag && !/\balt="[^"]+"/u.test(tag)) return "WEBSITE_IMAGE_ALT_MISSING";
   }
   const selfLang = article.lang === "en" ? "en" : "zh-Hant";
   if (!text.includes(`hreflang="${selfLang}" href="${url}"`)) return "HREFLANG_SELF_MISSING";
@@ -249,7 +266,7 @@ export async function auditCandidate({ root, auditFile, liveBaseUrl = "", repoRo
       if (!texts.has(direct)) { addFailure(failures, job, "T_PLUS_DIRECT_MISSING", direct); continue; }
       const directReason = auditDirectHtml(texts.get(direct), article, job.articles, BASE_URL);
       if (directReason) addFailure(failures, job, directReason, direct);
-      for (const image of article.images || []) {
+      for (const image of allArticleImages(article)) {
         const imagePath = safeRelative(image.path);
         if (!files.includes(imagePath)) addFailure(failures, job, "T_PLUS_IMAGE_MISSING", imagePath);
         else if (sha256(await fs.readFile(path.join(root, imagePath))) !== image.sha256) addFailure(failures, job, "T_PLUS_IMAGE_HASH_MISMATCH", imagePath);
@@ -304,7 +321,7 @@ export async function auditLive({ auditFile, baseUrl = BASE_URL, canonicalBaseUr
       for (const article of job.articles || []) {
         const response = await get(article.url_path);
         if (response.status !== 404) addFailure(failures, job, "LIVE_T_MINUS_NOT_404", article.url_path);
-        for (const image of article.images || []) {
+        for (const image of allArticleImages(article)) {
           const asset = await get(image.path);
           if (asset.status !== 404) addFailure(failures, job, "LIVE_T_MINUS_ASSET_NOT_404", image.path);
         }
@@ -320,7 +337,7 @@ export async function auditLive({ auditFile, baseUrl = BASE_URL, canonicalBaseUr
     for (const article of job.articles || []) {
       const direct = await get(article.url_path);
       if (!direct.ok || auditDirectHtml(direct.body, article, job.articles, canonicalBaseUrl)) addFailure(failures, job, "LIVE_DIRECT_E4_FAIL", article.url_path);
-      for (const image of article.images || []) {
+      for (const image of allArticleImages(article)) {
         const response = await fetch(new URL(image.path, requestBaseUrl), { signal: AbortSignal.timeout(20000), headers: { "cache-control": "no-cache" } });
         const bytes = response.ok ? Buffer.from(await response.arrayBuffer()) : Buffer.alloc(0);
         if (!response.ok || sha256(bytes) !== image.sha256) addFailure(failures, job, "LIVE_IMAGE_E4_FAIL", image.path);

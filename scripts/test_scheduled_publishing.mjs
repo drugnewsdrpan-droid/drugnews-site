@@ -23,7 +23,10 @@ import {
 import { auditCandidate, auditLive, writeIndexNowBrief } from "./audit_scheduled_leaks.mjs";
 
 const KEY = Buffer.alloc(32, 0x42);
+const KEY_V2 = Buffer.alloc(32, 0x24);
 const ENV = { DRUGNEWS_QUEUE_KEY_B64: KEY.toString("base64") };
+const ENV_V2 = { DRUGNEWS_QUEUE_KEY_B64_V2: KEY_V2.toString("base64") };
+const ENV_MIXED = { ...ENV, ...ENV_V2 };
 const PNG = Buffer.from("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Y9ZQmcAAAAASUVORK5CYII=", "base64");
 const tests = [];
 const REPO_ROOT = process.cwd();
@@ -159,6 +162,32 @@ async function makeInput(root, index, { publishAt = "2026-09-11T08:00:00+08:00",
   return manifest;
 }
 
+async function writeLockedManifest(root, manifest) {
+  manifest.approved_content_hash = computeApprovedContentHash(manifest);
+  manifest.lock.sha256 = manifest.approved_content_hash;
+  await write(path.join(root, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`);
+  return manifest;
+}
+
+async function addDedicatedWebsiteCover(root, manifest, lang = "zh") {
+  const article = manifest.articles[lang];
+  const coverPath = "images/website-cover.png";
+  const coverBytes = Buffer.concat([PNG, Buffer.from(`\n${article.slug}:website-cover\n`)]);
+  await write(path.join(root, article.directory, coverPath), coverBytes);
+  article.files.push({ path: coverPath, sha256: digest(coverBytes) });
+  article.images[0].purpose = "body-opening";
+  const metaPath = path.join(root, article.directory, "meta.json");
+  const meta = JSON.parse(await fs.readFile(metaPath, "utf8"));
+  meta.cover_image = coverPath;
+  meta.cover_image_alt = `Dedicated website cover for ${article.title}`;
+  meta.homepage_cover_image = coverPath;
+  meta.homepage_cover_image_alt = meta.cover_image_alt;
+  await write(metaPath, `${JSON.stringify(meta, null, 2)}\n`);
+  article.files.find((file) => file.path === "meta.json").sha256 = digest(await fs.readFile(metaPath));
+  await writeLockedManifest(root, manifest);
+  return { coverPath, coverBytes };
+}
+
 async function addBundle(queue, input, manifest) {
   return packBundle({ inputRoot: input, outputPath: queue, key: KEY, keyId: "v1", repoRoot: PACK_REPO, liveBaseUrl: "" });
 }
@@ -262,8 +291,8 @@ function relockPayload(payload) {
   payload.lock.sha256 = payload.approved_content_hash;
 }
 
-async function writeAuthenticatedPayload(queue, payload) {
-  const bundle = encryptEnvelope(Buffer.from(JSON.stringify(payload)), { key: KEY, jobId: payload.job_id });
+async function writeAuthenticatedPayload(queue, payload, { key = KEY, keyId = "v1" } = {}) {
+  const bundle = encryptEnvelope(Buffer.from(JSON.stringify(payload)), { key, keyId, jobId: payload.job_id });
   await write(path.join(queue, `${payload.job_id}.dnq`), bundle);
 }
 
@@ -534,6 +563,58 @@ test("1/9/16 jobs all validate; 17 is a global HOLD", async () => {
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
+test("V2-only bundle prepares with only the V2 environment secret", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-v2-only-"));
+  try {
+    const input = path.join(root, "input"); const queue = path.join(root, "queue"); const published = path.join(root, "published");
+    const manifest = await makeInput(input, 123, { slug: "v2-only" });
+    manifest.release_key = `${manifest.content_id}@v2`; manifest.lock.version = 2; await writeLockedManifest(input, manifest);
+    await packBundle({ inputRoot: input, outputPath: queue, key: KEY_V2, keyId: "v2", repoRoot: PACK_REPO, liveBaseUrl: "" });
+    await fs.mkdir(published, { recursive: true });
+    const summary = await prepareQueue({ queueDir: queue, workDir: path.join(root, "work"), publishedRoot: published, now: new Date("2026-09-11T00:01:00Z"), env: ENV_V2 });
+    assert.equal(summary.queue_count, 1); assert.equal(summary.due_count, 1); assert.equal(summary.held_count, 0);
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
+});
+
+test("mixed V1 and V2 queue prepares without repacking the V1 bundle", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-v1-v2-mixed-"));
+  try {
+    const queue = path.join(root, "queue"); const published = path.join(root, "published");
+    const v1Input = path.join(root, "v1"); const v1 = await makeInput(v1Input, 124, { slug: "mixed-v1" });
+    const v1Packed = await addBundle(queue, v1Input, v1);
+    const v1Before = { bytes: (await fs.stat(v1Packed.output)).size, sha256: digest(await fs.readFile(v1Packed.output)) };
+    const v2Input = path.join(root, "v2"); const v2 = await makeInput(v2Input, 125, { slug: "mixed-v2" });
+    v2.release_key = `${v2.content_id}@v2`; v2.lock.version = 2; await writeLockedManifest(v2Input, v2);
+    await packBundle({ inputRoot: v2Input, outputPath: queue, key: KEY_V2, keyId: "v2", repoRoot: PACK_REPO, liveBaseUrl: "" });
+    assert.deepEqual({ bytes: (await fs.stat(v1Packed.output)).size, sha256: digest(await fs.readFile(v1Packed.output)) }, v1Before);
+    await fs.mkdir(published, { recursive: true });
+    const summary = await prepareQueue({ queueDir: queue, workDir: path.join(root, "work"), publishedRoot: published, now: new Date("2026-09-11T00:01:00Z"), env: ENV_MIXED });
+    assert.equal(summary.queue_count, 2); assert.equal(summary.due_count, 2); assert.equal(summary.held_count, 0);
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
+});
+
+test("mixed queue fails closed when a referenced V2 secret is missing or incorrect", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-v2-missing-"));
+  try {
+    const queue = path.join(root, "queue"); const published = path.join(root, "published");
+    const v1Input = path.join(root, "v1"); const v1 = await makeInput(v1Input, 128, { slug: "v2-guard-v1" }); await addBundle(queue, v1Input, v1);
+    const input = path.join(root, "v2");
+    const manifest = await makeInput(input, 126, { slug: "v2-secret-missing" });
+    manifest.release_key = `${manifest.content_id}@v2`; manifest.lock.version = 2; await writeLockedManifest(input, manifest);
+    await packBundle({ inputRoot: input, outputPath: queue, key: KEY_V2, keyId: "v2", repoRoot: PACK_REPO, liveBaseUrl: "" });
+    await fs.mkdir(published, { recursive: true });
+    await assert.rejects(
+      () => prepareQueue({ queueDir: queue, workDir: path.join(root, "work"), publishedRoot: published, now: new Date("2026-09-11T00:01:00Z"), env: ENV }),
+      /QUEUE_KEY_V2_MISSING_OR_INVALID/
+    );
+    const wrongV2 = { ...ENV, DRUGNEWS_QUEUE_KEY_B64_V2: Buffer.alloc(32, 0x25).toString("base64") };
+    await assert.rejects(
+      () => prepareQueue({ queueDir: queue, workDir: path.join(root, "wrong"), publishedRoot: published, now: new Date("2026-09-11T00:01:00Z"), env: wrongV2 }),
+      /QUEUE_KEY_AUTH_FAILED:v2/
+    );
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
+});
+
 test("frozen clock keeps T-1 private and publishes at T+1 idempotently", async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-clock-"));
   try {
@@ -738,6 +819,69 @@ test("Facebook body image cover is held while a valid due job builds", async () 
     assert.deepEqual(await fs.readdir(summary.stagingRoot), [good.slug]);
     const candidate = path.join(root, "candidate"); await runPublisherCandidate(candidate, summary.stagingRoot);
     await auditCandidate({ root: candidate, auditFile: summary.auditFile, skipLiveInventory: true, repoRoot: PACK_REPO });
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
+});
+
+test("dedicated website cover stays outside four-image body and is audited at T-minus and T-plus", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-dedicated-cover-"));
+  try {
+    const input = path.join(root, "input"); const queue = path.join(root, "queue"); const published = path.join(root, "published");
+    const manifest = await makeInput(input, 127, { slug: "dedicated-website-cover" });
+    const { coverBytes } = await addDedicatedWebsiteCover(input, manifest);
+    const payload = await payloadFromFixture(input);
+    validatePayload(payload, payload.job_id);
+    assert.equal(payload.articles.zh.images.length, 4);
+    assert.equal(payload.articles.zh.files.length, 7);
+    const missingAlt = structuredClone(payload);
+    const metaFile = missingAlt.articles.zh.files.find((file) => file.path === "meta.json");
+    const meta = JSON.parse(Buffer.from(metaFile.data, "base64").toString("utf8")); delete meta.cover_image_alt;
+    writePayloadTextFile(missingAlt.articles.zh, "meta.json", JSON.stringify(meta)); relockPayload(missingAlt);
+    assert.throws(() => validatePayload(missingAlt), /DEDICATED_COVER_ALT_REQUIRED/);
+    const bodyPurposeCollision = structuredClone(payload); bodyPurposeCollision.articles.zh.images[1].purpose = "cover"; relockPayload(bodyPurposeCollision);
+    assert.throws(() => validatePayload(bodyPurposeCollision), /DEDICATED_COVER_PURPOSE_MISMATCH/);
+    const basenameCollision = structuredClone(payload);
+    const collisionCover = basenameCollision.articles.zh.files.find((file) => file.path === "images/website-cover.png");
+    collisionCover.path = "images/site/cover.png";
+    const collisionMetaFile = basenameCollision.articles.zh.files.find((file) => file.path === "meta.json");
+    const collisionMeta = JSON.parse(Buffer.from(collisionMetaFile.data, "base64").toString("utf8"));
+    collisionMeta.cover_image = collisionCover.path; collisionMeta.homepage_cover_image = collisionCover.path;
+    writePayloadTextFile(basenameCollision.articles.zh, "meta.json", JSON.stringify(collisionMeta)); relockPayload(basenameCollision);
+    assert.throws(() => validatePayload(basenameCollision), /PUBLISHED_IMAGE_BASENAME_COLLISION/);
+
+    await packBundle({ inputRoot: input, outputPath: queue, key: KEY, keyId: "v1", repoRoot: PACK_REPO, liveBaseUrl: "" });
+    await fs.mkdir(published, { recursive: true });
+    const before = await prepareQueue({ queueDir: queue, workDir: path.join(root, "before"), publishedRoot: published, now: new Date("2026-09-10T23:59:00Z"), env: ENV });
+    const audit = JSON.parse(await fs.readFile(before.auditFile, "utf8"));
+    assert.equal(audit.jobs[0].imageRecords.length, 5);
+    assert.equal(audit.jobs[0].articles[0].images.length, 4);
+    assert.equal(audit.jobs[0].articles[0].website_images.length, 1);
+    assert.deepEqual(audit.jobs[0].articles[0].website_images[0].roles, ["cover_image", "homepage_cover_image"]);
+    const privateCandidate = path.join(root, "candidate-before"); await fs.mkdir(privateCandidate);
+    await auditCandidate({ root: privateCandidate, auditFile: before.auditFile, skipLiveInventory: true, repoRoot: PACK_REPO });
+    const privateSite = path.join(root, "private-site"); await writePrivateSurfaceShell(privateSite);
+    const privateServer = await staticServer(privateSite);
+    try { await auditLive({ auditFile: before.auditFile, baseUrl: privateServer.baseUrl }); }
+    finally { await privateServer.close(); }
+    await write(path.join(privateCandidate, "leaked-cover.png"), coverBytes);
+    const leak = await captureRejection(() => auditCandidate({ root: privateCandidate, auditFile: before.auditFile, skipLiveInventory: true, repoRoot: PACK_REPO }));
+    assert(leak.failures.some((failure) => failure.reason === "T_MINUS_IMAGE_LEAK"));
+
+    const after = await prepareQueue({ queueDir: queue, workDir: path.join(root, "after"), publishedRoot: published, now: new Date("2026-09-11T00:01:00Z"), env: ENV });
+    const publicCandidate = path.join(root, "candidate-after"); await runPublisherCandidate(publicCandidate, after.stagingRoot);
+    try { await auditCandidate({ root: publicCandidate, auditFile: after.auditFile, skipLiveInventory: true, repoRoot: PACK_REPO }); }
+    catch (error) { throw new Error(`${error.message}: ${JSON.stringify(error.failures || [])}`); }
+    const publishedCover = path.join(publicCandidate, "assets", "articles", manifest.slug, "website-cover.png");
+    await fs.rm(publishedCover);
+    const missingCover = await captureRejection(() => auditCandidate({ root: publicCandidate, auditFile: after.auditFile, skipLiveInventory: true, repoRoot: PACK_REPO }));
+    assert(missingCover.failures.some((failure) => failure.reason === "T_PLUS_IMAGE_MISSING"));
+    await write(publishedCover, coverBytes);
+    const publicServer = await staticServer(publicCandidate);
+    try {
+      await auditLive({ auditFile: after.auditFile, baseUrl: publicServer.baseUrl });
+      await write(publishedCover, Buffer.from("tampered website cover"));
+      const liveMismatch = await captureRejection(() => auditLive({ auditFile: after.auditFile, baseUrl: publicServer.baseUrl }));
+      assert(liveMismatch.failures.some((failure) => failure.reason === "LIVE_IMAGE_E4_FAIL"));
+    } finally { await publicServer.close(); }
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
