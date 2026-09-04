@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-03T06:03:16.659Z",
+  "generated_at": "2026-09-04T03:11:06.116Z",
   "name": "Drugnews Biotech Capital-Market Radar",
   "url": "https://drugnews.com.tw/market-radar.html",
   "description": "Latest Drugnews articles grouped by biotech capital-market signals such as BD/licensing, valuation, clinical catalysts, CMC risk, GLP-1, oncology precision medicine, AI drug development, and big-pharma strategy.",
@@ -117,148 +117,28 @@
   },
   "buckets": [
     {
-      "name": "AI 製藥與新技術",
-      "count": 7,
-      "articles": [
-        {
-          "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
-          "date": "2026-09-03",
-          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Free Article",
-          "tags": [
-            "Anthropic",
-            "Claude",
-            "Model Hardware Standard",
-            "MHS",
-            "AI for Science",
-            "Claude Science",
-            "laboratory automation",
-            "scientific instruments"
-          ],
-          "summary": "Anthropic's Model Hardware Standard research preview gives AI agents a shared interface for microscopes, liquid handlers, robots and laser-control systems. The proof-of-concept results are important, but they do not mean autonomous laboratories are already mature."
-        },
-        {
-          "title": "Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了",
-          "date": "2026-09-03",
-          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Anthropic",
-            "Claude",
-            "Model Hardware Standard",
-            "MHS",
-            "AI for Science",
-            "Claude Science",
-            "實驗室自動化",
-            "科學儀器"
-          ],
-          "summary": "Anthropic 公開模型硬體標準 MHS 研究預覽，讓 AI 代理透過共通介面讀取與操作顯微鏡、移液工作站、機械手臂與雷射控制系統；這是概念驗證，不是無人實驗室已成熟。"
-        },
-        {
-          "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
-          "date": "2026-09-01",
-          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Free Article",
-          "tags": [
-            "AIDO Cell",
-            "GenBio AI",
-            "virtual cell",
-            "AI drug discovery",
-            "single-cell biology",
-            "drug discovery",
-            "New Approach Methodologies",
-            "X-Cell"
-          ],
-          "summary": "GenBio AI's AIDO Cell attempts to connect DNA, RNA, proteins and cell phenotypes through a shared state that supports sequential perturbations. The company says it matched or exceeded specialist models on 24 of 31 internal metrics, but the preview covers only K-562 and Hep-G2 cells, and novel predictions still require physical experiments, external replication and blinded testing."
-        },
-        {
-          "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
-          "date": "2026-09-01",
-          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "AIDO Cell",
-            "GenBio AI",
-            "虛擬細胞",
-            "AI 製藥",
-            "單細胞",
-            "藥物發現",
-            "新方法學",
-            "X-Cell"
-          ],
-          "summary": "GenBio AI 的 AIDO Cell 嘗試用共享狀態串起 DNA、RNA、蛋白質與細胞表型，並連續模擬基因、藥物與抗藥性擾動。公司基準顯示 31 項指標中有 24 項追平或超越專用模型，但目前只有 K-562、Hep-G2 兩種原型細胞，新預測仍待實體實驗、外部重現與盲測。"
-        },
-        {
-          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
-          "language": "en",
-          "category": "商業分析",
-          "access": "Free Article",
-          "tags": [
-            "Twist Bioscience",
-            "TWST",
-            "AI drug discovery",
-            "DNA synthesis",
-            "protein engineering",
-            "wet lab automation",
-            "Design-Build-Test-Learn",
-            "biotech investing"
-          ],
-          "summary": "Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback."
-        },
-        {
-          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
-          "date": "2026-08-27",
-          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "Twist Bioscience",
-            "TWST",
-            "AI 製藥",
-            "DNA 合成",
-            "蛋白質工程",
-            "濕實驗室",
-            "Design-Build-Test-Learn",
-            "生技投資"
-          ],
-          "summary": "Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。"
-        },
-        {
-          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
-          "date": "2026-08-20",
-          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
-          "language": "zh-Hant",
-          "category": "商業分析",
-          "access": "商業分析文",
-          "tags": [
-            "AI 製藥",
-            "NVIDIA",
-            "BMS",
-            "禮來",
-            "Roche",
-            "新藥研發",
-            "GPU",
-            "台灣供應鏈"
-          ],
-          "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。"
-        }
-      ]
-    },
-    {
       "name": "腫瘤精準治療",
-      "count": 9,
+      "count": 10,
       "articles": [
+        {
+          "title": "Ivonescimab Moves Beyond Lung Cancer: Phase 3 Survival Win Against the Biliary Tract Cancer Standard",
+          "date": "2026-09-04",
+          "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Ivonescimab",
+            "HARMONi-GI1",
+            "biliary tract cancer",
+            "Akeso",
+            "Summit Therapeutics",
+            "durvalumab",
+            "PD-1 VEGF bispecific",
+            "Phase 3"
+          ],
+          "summary": "Ivonescimab plus chemotherapy beat durvalumab plus chemotherapy on overall survival in the Phase 3 HARMONi-GI1 interim analysis, but the hazard ratio, median survival, curves, safety and subgroup results remain undisclosed."
+        },
         {
           "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
           "date": "2026-09-02",
@@ -433,6 +313,145 @@
       ]
     },
     {
+      "name": "AI 製藥與新技術",
+      "count": 7,
+      "articles": [
+        {
+          "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "Model Hardware Standard",
+            "MHS",
+            "AI for Science",
+            "Claude Science",
+            "laboratory automation",
+            "scientific instruments"
+          ],
+          "summary": "Anthropic's Model Hardware Standard research preview gives AI agents a shared interface for microscopes, liquid handlers, robots and laser-control systems. The proof-of-concept results are important, but they do not mean autonomous laboratories are already mature."
+        },
+        {
+          "title": "Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了",
+          "date": "2026-09-03",
+          "url": "https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "Model Hardware Standard",
+            "MHS",
+            "AI for Science",
+            "Claude Science",
+            "實驗室自動化",
+            "科學儀器"
+          ],
+          "summary": "Anthropic 公開模型硬體標準 MHS 研究預覽，讓 AI 代理透過共通介面讀取與操作顯微鏡、移液工作站、機械手臂與雷射控制系統；這是概念驗證，不是無人實驗室已成熟。"
+        },
+        {
+          "title": "Can New Drugs Be Tested in a Computer First? The Virtual Cell Is Here",
+          "date": "2026-09-01",
+          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "AIDO Cell",
+            "GenBio AI",
+            "virtual cell",
+            "AI drug discovery",
+            "single-cell biology",
+            "drug discovery",
+            "New Approach Methodologies",
+            "X-Cell"
+          ],
+          "summary": "GenBio AI's AIDO Cell attempts to connect DNA, RNA, proteins and cell phenotypes through a shared state that supports sequential perturbations. The company says it matched or exceeded specialist models on 24 of 31 internal metrics, but the preview covers only K-562 and Hep-G2 cells, and novel predictions still require physical experiments, external replication and blinded testing."
+        },
+        {
+          "title": "新藥能先在電腦裡試？「虛擬細胞」來了！",
+          "date": "2026-09-01",
+          "url": "https://drugnews.com.tw/articles/2026-09-01-aido-cell-virtual-cell-drug-discovery.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "AIDO Cell",
+            "GenBio AI",
+            "虛擬細胞",
+            "AI 製藥",
+            "單細胞",
+            "藥物發現",
+            "新方法學",
+            "X-Cell"
+          ],
+          "summary": "GenBio AI 的 AIDO Cell 嘗試用共享狀態串起 DNA、RNA、蛋白質與細胞表型，並連續模擬基因、藥物與抗藥性擾動。公司基準顯示 31 項指標中有 24 項追平或超越專用模型，但目前只有 K-562、Hep-G2 兩種原型細胞，新預測仍待實體實驗、外部重現與盲測。"
+        },
+        {
+          "title": "DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html",
+          "language": "en",
+          "category": "商業分析",
+          "access": "Free Article",
+          "tags": [
+            "Twist Bioscience",
+            "TWST",
+            "AI drug discovery",
+            "DNA synthesis",
+            "protein engineering",
+            "wet lab automation",
+            "Design-Build-Test-Learn",
+            "biotech investing"
+          ],
+          "summary": "Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback."
+        },
+        {
+          "title": "DNA 不是 AI 製藥的輝達，至少現在還不是",
+          "date": "2026-08-27",
+          "url": "https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "Twist Bioscience",
+            "TWST",
+            "AI 製藥",
+            "DNA 合成",
+            "蛋白質工程",
+            "濕實驗室",
+            "Design-Build-Test-Learn",
+            "生技投資"
+          ],
+          "summary": "Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。"
+        },
+        {
+          "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
+          "date": "2026-08-20",
+          "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "AI 製藥",
+            "NVIDIA",
+            "BMS",
+            "禮來",
+            "Roche",
+            "新藥研發",
+            "GPU",
+            "台灣供應鏈"
+          ],
+          "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。"
+        }
+      ]
+    },
+    {
       "name": "GLP-1 與代謝賽道",
       "count": 8,
       "articles": [
@@ -592,7 +611,7 @@
     },
     {
       "name": "臨床與法規催化",
-      "count": 3,
+      "count": 4,
       "articles": [
         {
           "title": "Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?",
@@ -650,6 +669,25 @@
             "Phase 3"
           ],
           "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together."
+        },
+        {
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant",
+          "category": "商業分析",
+          "access": "商業分析文",
+          "tags": [
+            "GSK",
+            "camlipixant",
+            "P2X3",
+            "慢性咳嗽",
+            "CALM-1",
+            "CALM-2",
+            "臨床三期",
+            "新藥研發"
+          ],
+          "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-03T06:03:16.735Z",
+  "generated_at": "2026-09-04T03:11:06.116Z",
   "name": "Drugnews｜藥時事",
   "canonical_url": "https://drugnews.com.tw/",
   "languages": [
@@ -383,6 +383,42 @@
     }
   ],
   "latest_canonical_articles": [
+    {
+      "title": "Ivonescimab Moves Beyond Lung Cancer: Phase 3 Survival Win Against the Biliary Tract Cancer Standard",
+      "date": "2026-09-04",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Ivonescimab",
+        "HARMONi-GI1",
+        "biliary tract cancer",
+        "Akeso",
+        "Summit Therapeutics",
+        "durvalumab",
+        "PD-1 VEGF bispecific",
+        "Phase 3"
+      ],
+      "summary": "Ivonescimab plus chemotherapy beat durvalumab plus chemotherapy on overall survival in the Phase 3 HARMONi-GI1 interim analysis, but the hazard ratio, median survival, curves, safety and subgroup results remain undisclosed."
+    },
+    {
+      "title": "Ivonescimab 跨出肺癌！正面挑戰膽道癌金標準，總生存期告捷",
+      "date": "2026-09-04",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html",
+      "category": "商業分析",
+      "tags": [
+        "Ivonescimab",
+        "HARMONi-GI1",
+        "膽道癌",
+        "康方生物",
+        "Summit Therapeutics",
+        "Durvalumab",
+        "PD-1 VEGF 雙抗",
+        "臨床三期"
+      ],
+      "summary": "Ivonescimab 合併化療在一線晚期膽道癌三期 HARMONi-GI1 達到總生存期主要終點，正面勝過 durvalumab 合併化療；完整風險比、生存曲線、安全性與亞組數據仍待公布。"
+    },
     {
       "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
       "date": "2026-09-03",
@@ -814,6 +850,114 @@
         "國邑"
       ],
       "summary": "2026 年的生技併購資金，正集中到臨床風險開始下降、商業價值尚未完全定價的公司。從 Alkermes、Dyne、First Tracks、Legend 到 Sail，再回看國邑與仁新，真正值得追的是人體概念驗證、平台外延、商業化距離與買方策略契合度。"
+    },
+    {
+      "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+      "date": "2026-08-22",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+      "category": "商業分析",
+      "tags": [
+        "BeOne Medicines",
+        "Revolution Medicines",
+        "RAS(ON)",
+        "daraxonrasib",
+        "zoldonrasib",
+        "BGB-58067",
+        "BG-T187",
+        "biotech licensing"
+      ],
+      "summary": "BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most."
+    },
+    {
+      "title": "百濟神州一口氣押上 4 款 RAS 新藥",
+      "date": "2026-08-22",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html",
+      "category": "商業分析",
+      "tags": [
+        "BeOne Medicines",
+        "百濟神州",
+        "Revolution Medicines",
+        "RAS(ON)",
+        "daraxonrasib",
+        "zoldonrasib",
+        "BGB-58067",
+        "BG-T187"
+      ],
+      "summary": "百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。"
+    },
+    {
+      "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
+      "date": "2026-08-21",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
+      "category": "商業分析",
+      "tags": [
+        "Moderna",
+        "Merck",
+        "intismeran autogene",
+        "INTerpath-001",
+        "personalized cancer vaccine",
+        "melanoma",
+        "mRNA manufacturing",
+        "Phase 3"
+      ],
+      "summary": "Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform."
+    },
+    {
+      "title": "再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%",
+      "date": "2026-08-21",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html",
+      "category": "商業分析",
+      "tags": [
+        "Moderna",
+        "Merck",
+        "intismeran autogene",
+        "INTerpath-001",
+        "mRNA 癌症疫苗",
+        "黑色素瘤",
+        "個人化醫療",
+        "臨床三期"
+      ],
+      "summary": "INTerpath-001 第三期頂線結果讓莫德納股價單日上漲 176.97%。真正被重新估價的，不只是一款黑色素瘤療法，而是個人化設計、製造、質控與臨床交付能否成為可擴張的平台。"
+    },
+    {
+      "title": "NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion",
+      "date": "2026-08-20",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html",
+      "category": "商業分析",
+      "tags": [
+        "AI drug discovery",
+        "NVIDIA",
+        "Bristol Myers Squibb",
+        "Eli Lilly",
+        "Roche",
+        "drug development",
+        "GPU infrastructure",
+        "Taiwan semiconductor supply chain"
+      ],
+      "summary": "BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop."
+    },
+    {
+      "title": "輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元",
+      "date": "2026-08-20",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html",
+      "category": "商業分析",
+      "tags": [
+        "AI 製藥",
+        "NVIDIA",
+        "BMS",
+        "禮來",
+        "Roche",
+        "新藥研發",
+        "GPU",
+        "台灣供應鏈"
+      ],
+      "summary": "BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。"
     }
   ],
   "do_not_use_as": [

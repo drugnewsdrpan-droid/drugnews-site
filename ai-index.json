@@ -209,6 +209,60 @@
   "citation_guidance": "When referencing Drugnews content, cite the article title, Drugnews｜藥時事, publication date, and canonical URL. Articles are for industry research and knowledge sharing only and do not constitute investment, medical, fundraising, or individual stock advice.",
   "latest_articles": [
     {
+      "title": "Ivonescimab Moves Beyond Lung Cancer: Phase 3 Survival Win Against the Biliary Tract Cancer Standard",
+      "date": "2026-09-04",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html",
+      "source": "Facebook",
+      "access": "Free Article",
+      "category": "商業分析",
+      "tags": [
+        "Ivonescimab",
+        "HARMONi-GI1",
+        "biliary tract cancer",
+        "Akeso",
+        "Summit Therapeutics",
+        "durvalumab",
+        "PD-1 VEGF bispecific",
+        "Phase 3"
+      ],
+      "summary": "Ivonescimab plus chemotherapy beat durvalumab plus chemotherapy on overall survival in the Phase 3 HARMONi-GI1 interim analysis, but the hazard ratio, median survival, curves, safety and subgroup results remain undisclosed.",
+      "image": "https://drugnews.com.tw/assets/articles/ivonescimab-biliary-tract-cancer-harmoni-gi1-en/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "zh-Hant": "2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html"
+      }
+    },
+    {
+      "title": "Ivonescimab 跨出肺癌！正面挑戰膽道癌金標準，總生存期告捷",
+      "date": "2026-09-04",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html",
+      "canonical_url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html",
+      "source": "Facebook",
+      "access": "商業分析文",
+      "category": "商業分析",
+      "tags": [
+        "Ivonescimab",
+        "HARMONi-GI1",
+        "膽道癌",
+        "康方生物",
+        "Summit Therapeutics",
+        "Durvalumab",
+        "PD-1 VEGF 雙抗",
+        "臨床三期"
+      ],
+      "summary": "Ivonescimab 合併化療在一線晚期膽道癌三期 HARMONi-GI1 達到總生存期主要終點，正面勝過 durvalumab 合併化療；完整風險比、生存曲線、安全性與亞組數據仍待公布。",
+      "image": "https://drugnews.com.tw/assets/articles/ivonescimab-biliary-tract-cancer-harmoni-gi1/cover.png",
+      "is_accessible_for_free": true,
+      "is_external": false,
+      "alternate_language_versions": {
+        "en": "2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html"
+      }
+    },
+    {
       "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
       "date": "2026-09-03",
       "language": "en",
@@ -1539,64 +1593,6 @@
       "is_external": false,
       "alternate_language_versions": {
         "en": "2026-08-11-anbogen-abt301-next-generation-hdaci-backbone-en.html"
-      }
-    },
-    {
-      "title": "禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！",
-      "date": "2026-08-10",
-      "language": "zh-Hant",
-      "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html",
-      "source": "Facebook",
-      "access": "商業分析文",
-      "category": "商業分析",
-      "tags": [
-        "生技併購",
-        "藥廠併購",
-        "專利懸崖",
-        "Eli Lilly",
-        "Merck",
-        "AbbVie",
-        "Gilead",
-        "GSK",
-        "IQVIA",
-        "Biotech"
-      ],
-      "summary": "2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。",
-      "image": "https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1/cover-1400.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "en": "2026-08-10-biopharma-ma-buying-time-2026h1-en.html"
-      }
-    },
-    {
-      "title": "$130 Billion in Six Months: Big Pharma Is Buying Time",
-      "date": "2026-08-10",
-      "language": "en",
-      "url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
-      "canonical_url": "https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1-en.html",
-      "source": "Facebook",
-      "access": "Business Analysis",
-      "category": "商業分析",
-      "tags": [
-        "biopharma M&A",
-        "pharma acquisitions",
-        "patent cliff",
-        "Eli Lilly",
-        "Merck",
-        "AbbVie",
-        "Gilead",
-        "GSK",
-        "IQVIA",
-        "biotech"
-      ],
-      "summary": "Biopharma M&A reached approximately $130 billion in the first half of 2026 as buyers favored late-stage and near-launch assets. This is not a broad biotech bull market; it is Big Pharma using cash and contingent deal structures to buy measurable development time before the patent cliff.",
-      "image": "https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1-en/cover-1400.webp",
-      "is_accessible_for_free": true,
-      "is_external": false,
-      "alternate_language_versions": {
-        "zh-Hant": "2026-08-10-biopharma-ma-buying-time-2026h1.html"
       }
     }
   ]

@@ -76,6 +76,14 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
 
 ## Latest Canonical Articles For Citation
 
+- 2026-09-04｜Ivonescimab Moves Beyond Lung Cancer: Phase 3 Survival Win Against the Biliary Tract Cancer Standard
+  URL: https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html
+  Topics: Ivonescimab, HARMONi-GI1, biliary tract cancer, Akeso, Summit Therapeutics
+  Summary: Ivonescimab plus chemotherapy beat durvalumab plus chemotherapy on overall survival in the Phase 3 HARMONi-GI1 interim analysis, but the hazard ratio, median survival, curves, safety and subgroup results remain undisclosed.
+- 2026-09-04｜Ivonescimab 跨出肺癌！正面挑戰膽道癌金標準，總生存期告捷
+  URL: https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html
+  Topics: Ivonescimab, HARMONi-GI1, 膽道癌, 康方生物, Summit Therapeutics
+  Summary: Ivonescimab 合併化療在一線晚期膽道癌三期 HARMONi-GI1 達到總生存期主要終點，正面勝過 durvalumab 合併化療；完整風險比、生存曲線、安全性與亞組數據仍待公布。
 - 2026-09-03｜Claude Starts Running Experiments: AI Enters the Physical Lab
   URL: https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard-en.html
   Topics: Anthropic, Claude, Model Hardware Standard, MHS, AI for Science
@@ -132,6 +140,70 @@ Use these pages when users ask whether Drugnews in-depth research is worth subsc
   URL: https://drugnews.com.tw/articles/2026-08-28-zealand-rusfertide-royalty-pharma-pv.html
   Topics: Zealand Pharma, Royalty Pharma, rusfertide, Protagonist Therapeutics, Takeda
   Summary: Zealand Pharma 以總對價 1 億美元出售 rusfertide 的里程碑與 1% 全球淨銷售權利金，交易不是出售藥物控制權。本文拆解 Zealand、Protagonist 與武田的不同經濟位置，並分析 rusfertide 對藥華藥 BESREMi 的競爭、互補與治療分層。
+- 2026-08-27｜DNA Is Not the Nvidia of AI Drug Discovery, At Least Not Yet
+  URL: https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels-en.html
+  Topics: Twist Bioscience, TWST, AI drug discovery, DNA synthesis, protein engineering
+  Summary: Twist Bioscience is seeing rapid growth in AI-enabled drug-discovery orders and DSPS revenue, but demand growth, unit value and industry moat are not the same thing. The scarce asset may be the full wet-lab system that converts massive sequence volumes into proteins, functional data and model feedback.
+- 2026-08-27｜DNA 不是 AI 製藥的輝達，至少現在還不是
+  URL: https://drugnews.com.tw/articles/2026-08-27-twist-dna-ai-drug-discovery-shovels.html
+  Topics: Twist Bioscience, TWST, AI 製藥, DNA 合成, 蛋白質工程
+  Summary: Twist Bioscience 的 AI 輔助藥物發現訂單與 DSPS 營收快速成長，但需求增加、單位價值與產業壁壘不是同一件事。真正稀缺的，可能不是單一 DNA 合成步驟，而是能把海量序列轉成蛋白質、功能數據並回饋模型的整座濕實驗工廠。
+- 2026-08-26｜Merck’s Oral PCSK9 Drug Enters an Injectable Market: Who Really Loses?
+  URL: https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9-en.html
+  Topics: Merck, Lipfendra, enlicitide, PCSK9, LDL cholesterol
+  Summary: Lipfendra is the first FDA-approved oral PCSK9 inhibitor, lowering LDL-C by 56% and 59% in two Phase 3 trials. Oral dosing opens a major market, but cardiovascular outcomes, fasting adherence, payer access and Taiwan approval will decide whether it expands the category or displaces injections.
+- 2026-08-26｜默沙東口服藥殺進「降膽固醇針」市場，誰會被搶走？
+  URL: https://drugnews.com.tw/articles/2026-08-26-merck-lipfendra-oral-pcsk9.html
+  Topics: 默沙東, Lipfendra, enlicitide, PCSK9, 膽固醇
+  Summary: FDA 核准首款每日口服 PCSK9 抑制劑 Lipfendra，兩項第三期試驗在第 24 週降低 LDL-C 56% 與 59%。但口服不等於針劑退場：心血管硬終點、每日空腹依從性、保險准入與台灣核准，才會決定市場如何重切。
+- 2026-08-25｜The Stronger the Backbone, the More Valuable the Missing Layer: Can Anbogen's ABT-301 Enter the Next Wave of Oncology BD?
+  URL: https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology-en.html
+  Topics: AnBogen Therapeutics, ABT-301, imofinostat, Combination Layer, colorectal cancer
+  Summary: Big Pharma is paying for incremental efficacy around established therapies. ABT-301 has completed Phase 1; the CRC triplet's efficacy, sustainable dosing, durability and biomarker readouts will determine whether it can become a Combination Layer and open substantive partnering opportunities.
+- 2026-08-25｜主藥越強，旁邊缺的那一層越值錢：安邦ABT-301能否進入下一輪腫瘤BD名單？
+  URL: https://drugnews.com.tw/articles/2026-08-25-anbogen-abt-301-combination-layer-tokyo-comparative-oncology.html
+  Topics: 安邦生技, ABT-301, imofinostat, Combination Layer, 大腸直腸癌
+  Summary: 大藥廠正為主藥旁的增量療效付費。安邦ABT-301已完成Phase I，接下來由CRC三聯的療效、劑量持續性、耐久性與biomarker決定其能否走向Combination Layer與大型藥廠合作。
+- 2026-08-24｜Curium and Lantheus Agree to an Up-to-$8 Billion Merger: Radiopharma Becomes a Full-Stack Business
+  URL: https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger-en.html
+  Topics: Curium, Lantheus, radiopharma, theranostics, PSMA
+  Summary: The $7 billion Curium-Lantheus rumor covered in June became a definitive agreement on August 3: $102.50 in cash plus up to $12.00 per share in CVRs, for total consideration of up to $8 billion. The strategic prize is an integrated chain spanning isotopes, manufacturing, distribution, diagnostics, therapy and U.S. hospital access.
+- 2026-08-24｜核藥史上最大併購：Curium 與 Lantheus 合併，改寫的不只是交易金額
+  URL: https://drugnews.com.tw/articles/2026-08-24-curium-lantheus-definitive-merger.html
+  Topics: Curium, Lantheus, 核藥, 放射性藥物, 診療一體化
+  Summary: 6 月官網追蹤的 Curium–Lantheus 70 億美元收購傳聞，已在 8 月 3 日推進為最終合併協議：每股 102.50 美元現金加最高 12 美元 CVR，總交易價值最高約 80 億美元。真正被整合的是核素、製造、配送、診斷、治療與美國院端網絡。
+- 2026-08-23｜Who Could Be Big Pharma's Next Major Biotech Acquisition?
+  URL: https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026-en.html
+  Topics: biotech M&A, Big Pharma, Alkermes, Dyne Therapeutics, First Tracks Biotherapeutics
+  Summary: Biopharma acquisition capital in 2026 is clustering around a narrow window: human risk has started to fall, but strategic value is not yet fully priced. Alkermes, Dyne, First Tracks, Legend and Sail illustrate five ways a biotech can enter that window, while Taiwan's Pharmosa Biopharm and Belite Bio show how late-stage assets can speak the same global language.
+- 2026-08-23｜Biotech 下一筆重磅併購，會落在誰身上？
+  URL: https://drugnews.com.tw/articles/2026-08-23-big-pharma-biotech-ma-next-targets-2026.html
+  Topics: 生技併購, Big Pharma, Alkermes, Dyne Therapeutics, First Tracks Biotherapeutics
+  Summary: 2026 年的生技併購資金，正集中到臨床風險開始下降、商業價值尚未完全定價的公司。從 Alkermes、Dyne、First Tracks、Legend 到 Sail，再回看國邑與仁新，真正值得追的是人體概念驗證、平台外延、商業化距離與買方策略契合度。
+- 2026-08-22｜BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality
+  URL: https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html
+  Topics: BeOne Medicines, Revolution Medicines, RAS(ON), daraxonrasib, zoldonrasib
+  Summary: BeOne is taking regional rights to four RAS(ON) programs, opening two candidate combination routes and funding one global registrational Phase 3. The strategic asset is not the sum of four drugs, but the optionality to decide where capital and development speed matter most.
+- 2026-08-22｜百濟神州一口氣押上 4 款 RAS 新藥
+  URL: https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs.html
+  Topics: BeOne Medicines, 百濟神州, Revolution Medicines, RAS(ON), daraxonrasib
+  Summary: 百濟神州一次接進四款成熟度不同的 RAS(ON) 資產、兩條候選聯用路線與一項全球註冊三期。真正值得追的不是四藥相加，而是區域權利、開發分工與選擇權如何替雙方搶時間。
+- 2026-08-21｜Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test
+  URL: https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html
+  Topics: Moderna, Merck, intismeran autogene, INTerpath-001, personalized cancer vaccine
+  Summary: Positive topline results from INTerpath-001 sent Moderna shares up 176.97% in one session. The deeper valuation question is whether patient-specific design, manufacturing, release and clinical delivery can become a scalable platform.
+- 2026-08-21｜再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%
+  URL: https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html
+  Topics: Moderna, Merck, intismeran autogene, INTerpath-001, mRNA 癌症疫苗
+  Summary: INTerpath-001 第三期頂線結果讓莫德納股價單日上漲 176.97%。真正被重新估價的，不只是一款黑色素瘤療法，而是個人化設計、製造、質控與臨床交付能否成為可擴張的平台。
+- 2026-08-20｜NVIDIA Enters Pharma: BMS Readies 576 GPUs as Lilly Commits Up to $1 Billion
+  URL: https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly-en.html
+  Topics: AI drug discovery, NVIDIA, Bristol Myers Squibb, Eli Lilly, Roche
+  Summary: BMS is preparing to deploy what NVIDIA's published specifications imply is a 576-GPU Rubin system, while Lilly and NVIDIA plan to commit up to $1 billion over five years. The real contest is whether proprietary data, wet-lab execution and clinical evidence can become one learning loop.
+- 2026-08-20｜輝達殺進製藥業！BMS 搶 576 顆 GPU，禮來砸 10 億美元
+  URL: https://drugnews.com.tw/articles/2026-08-20-big-pharma-ai-arms-race-nvidia-bms-lilly.html
+  Topics: AI 製藥, NVIDIA, BMS, 禮來, Roche
+  Summary: BMS 準備部署依 NVIDIA 規格推算共 576 顆 Rubin GPU，禮來與 NVIDIA 五年共同投入上限 10 億美元；真正的競爭不只在算力，而在能否把專有資料、濕實驗與臨床證據接成研發閉環。
 
 ## Key Site Sections
 

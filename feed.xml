@@ -6,7 +6,15 @@
     <atom:link href="https://drugnews.com.tw/feed.xml" rel="self" type="application/rss+xml"/>
     <description>生技醫藥公司研究、臨床開發、BD 授權、估值框架與資本市場觀察。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 03 Sep 2026 06:03:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 03:11:06 GMT</lastBuildDate>
+    <item>
+      <title>Ivonescimab 跨出肺癌！正面挑戰膽道癌金標準，總生存期告捷</title>
+      <link>https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html</link>
+      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+      <category>商業分析</category>
+      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/ivonescimab-biliary-tract-cancer-harmoni-gi1/cover.png" alt="PD-1 與 VEGF 雙特異性抗體連結肺癌與肝膽研究場景的科學意象"></p><p>Ivonescimab 合併化療在一線晚期膽道癌三期 HARMONi-GI1 達到總生存期主要終點，正面勝過 durvalumab 合併化療；完整風險比、生存曲線、安全性與亞組數據仍待公布。</p>]]></description>
+    </item>
     <item>
       <title>Claude 開始動手做實驗！AI 搶進真實實驗室，遊戲規則變了</title>
       <link>https://drugnews.com.tw/articles/2026-09-03-anthropic-mhs-ai-lab-hardware-standard.html</link>
@@ -198,14 +206,6 @@
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
       <category>商業分析</category>
       <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/anbogen-abt301-next-generation-hdaci-backbone/cover-1400.webp" alt="ABT-301透過表觀遺傳重塑，讓免疫細胞進入原本排斥免疫的實體腫瘤"></p><p>Chidamide以pMMR大腸癌44% ORR與黑色素瘤第三期PFS達標，重新降低HDAC抑制劑的類別風險；安邦ABT-301接下來必須用治療窗口、三聯可組合性與人體免疫機轉，證明資產差異。</p>]]></description>
-    </item>
-    <item>
-      <title>禮來領頭，大藥廠半年豪砸 1,300 億美元搶時間！</title>
-      <link>https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html</link>
-      <guid isPermaLink="true">https://drugnews.com.tw/articles/2026-08-10-biopharma-ma-buying-time-2026h1.html</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <category>商業分析</category>
-      <description><![CDATA[<p><img src="https://drugnews.com.tw/assets/articles/biopharma-ma-buying-time-2026h1/cover-1400.webp" alt="大藥廠透過併購買進臨床與商業化時間"></p><p>2026 年上半年生技製藥併購總額約 1,300 億美元，買家偏向臨床後期與接近上市的資產。這一輪不是全面牛市，而是大藥廠在專利懸崖前，用交易結構與現金購買可計算的開發時間。</p>]]></description>
     </item>
   </channel>
 </rss>

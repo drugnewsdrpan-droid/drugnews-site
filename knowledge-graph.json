@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-03T06:03:16.736Z",
+  "generated_at": "2026-09-04T03:11:06.116Z",
   "site": {
     "@type": [
       "Organization",
@@ -128,6 +128,50 @@
     "taiwan_biotech_clinical_database": "https://drugnews.com.tw/guides/taiwan-biotech-clinical-trials.html"
   },
   "latest_articles": [
+    {
+      "title": "Ivonescimab Moves Beyond Lung Cancer: Phase 3 Survival Win Against the Biliary Tract Cancer Standard",
+      "date": "2026-09-04",
+      "language": "en",
+      "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Ivonescimab",
+        "HARMONi-GI1",
+        "biliary tract cancer",
+        "Akeso",
+        "Summit Therapeutics",
+        "durvalumab",
+        "PD-1 VEGF bispecific",
+        "Phase 3"
+      ],
+      "summary": "Ivonescimab plus chemotherapy beat durvalumab plus chemotherapy on overall survival in the Phase 3 HARMONi-GI1 interim analysis, but the hazard ratio, median survival, curves, safety and subgroup results remain undisclosed.",
+      "alternate_language_versions": {
+        "zh-Hant": "2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html"
+      }
+    },
+    {
+      "title": "Ivonescimab 跨出肺癌！正面挑戰膽道癌金標準，總生存期告捷",
+      "date": "2026-09-04",
+      "language": "zh-Hant",
+      "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "Ivonescimab",
+        "HARMONi-GI1",
+        "膽道癌",
+        "康方生物",
+        "Summit Therapeutics",
+        "Durvalumab",
+        "PD-1 VEGF 雙抗",
+        "臨床三期"
+      ],
+      "summary": "Ivonescimab 合併化療在一線晚期膽道癌三期 HARMONi-GI1 達到總生存期主要終點，正面勝過 durvalumab 合併化療；完整風險比、生存曲線、安全性與亞組數據仍待公布。",
+      "alternate_language_versions": {
+        "en": "2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html"
+      }
+    },
     {
       "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
       "date": "2026-09-03",
@@ -815,7 +859,7 @@
     {
       "name": "Taiwan biotech",
       "type": "topic",
-      "mentions": 26,
+      "mentions": 25,
       "latest_date": "2026-08-25",
       "latest_articles": [
         {
@@ -853,7 +897,7 @@
     {
       "name": "drug development",
       "type": "topic",
-      "mentions": 19,
+      "mentions": 18,
       "latest_date": "2026-08-22",
       "latest_articles": [
         {
@@ -929,7 +973,7 @@
     {
       "name": "生技投資",
       "type": "market_topic",
-      "mentions": 17,
+      "mentions": 16,
       "latest_date": "2026-08-27",
       "latest_articles": [
         {
@@ -1079,44 +1123,6 @@
       ]
     },
     {
-      "name": "臨床數據",
-      "type": "market_topic",
-      "mentions": 13,
-      "latest_date": "2026-08-03",
-      "latest_articles": [
-        {
-          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
-          "date": "2026-08-03",
-          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
-          "date": "2026-07-12",
-          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
-          "date": "2026-07-11",
-          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
-          "date": "2026-07-10",
-          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
       "name": "GLP-1",
       "type": "biotech_concept_or_target",
       "mentions": 12,
@@ -1188,6 +1194,44 @@
           "title": "安邦生技：免疫治療的「星鏈計畫」",
           "date": "2026-07-31",
           "url": "https://drugnews.com.tw/articles/2026-07-31-anbogen-immunotherapy-starlink.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "臨床數據",
+      "type": "market_topic",
+      "mentions": 12,
+      "latest_date": "2026-08-03",
+      "latest_articles": [
+        {
+          "title": "Tau 拿到補考資格：Diranersen 主終點失敗，為什麼 Biogen 仍要進三期？",
+          "date": "2026-08-03",
+          "url": "https://drugnews.com.tw/articles/2026-08-03-diranersen-celia-tau-phase3.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "又一次RevMed 直接掀桌，胰臟癌進入 RAS 組合療法時代",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "先贏不是贏：Roche divarasib 把 KRAS 賽道推進世代淘汰戰",
+          "date": "2026-07-12",
+          "url": "https://drugnews.com.tw/articles/2026-07-12-roche-divarasib-kras-generation.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "社恐神藥三期踩煞車：Fasedienol 不是輸在故事，而是輸在 CNS 新藥最難證明的一格",
+          "date": "2026-07-11",
+          "url": "https://drugnews.com.tw/articles/2026-07-11-fasedienol-cns.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "痛風新藥被 FDA 打回票：NASP 沒輸在療效，而是卡在製造可信度",
+          "date": "2026-07-10",
+          "url": "https://drugnews.com.tw/articles/2026-07-10-fda-nasp.html",
           "language": "zh-Hant"
         }
       ]
@@ -1383,44 +1427,6 @@
       ]
     },
     {
-      "name": "oncology",
-      "type": "topic",
-      "mentions": 8,
-      "latest_date": "2026-08-22",
-      "latest_articles": [
-        {
-          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
-          "date": "2026-08-22",
-          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
-          "language": "en"
-        },
-        {
-          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
-          "date": "2026-08-04",
-          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
-          "language": "en"
-        },
-        {
-          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
-          "date": "2026-07-30",
-          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
-          "language": "en"
-        },
-        {
-          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
-          "date": "2026-07-17",
-          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        },
-        {
-          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
-          "date": "2026-07-14",
-          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
       "name": "Roche",
       "type": "company",
       "mentions": 8,
@@ -1573,6 +1579,44 @@
       ]
     },
     {
+      "name": "oncology",
+      "type": "topic",
+      "mentions": 7,
+      "latest_date": "2026-08-22",
+      "latest_articles": [
+        {
+          "title": "BeOne Bets on Four RAS Drugs: The Real Asset Is Development Optionality",
+          "date": "2026-08-22",
+          "url": "https://drugnews.com.tw/articles/2026-08-22-revolution-medicines-beone-four-ras-programs-en.html",
+          "language": "en"
+        },
+        {
+          "title": "A $400 Billion Pharma Merger? AstraZeneca and Bristol Myers Squibb Are Reportedly Talking",
+          "date": "2026-08-04",
+          "url": "https://drugnews.com.tw/articles/2026-08-04-astrazeneca-bms-400b-merger-talks-en.html",
+          "language": "en"
+        },
+        {
+          "title": "After Xtandi: Can Astellas Build an Oncology Platform?",
+          "date": "2026-07-30",
+          "url": "https://drugnews.com.tw/articles/2026-07-23-astellas-oncology-platform-en.html",
+          "language": "en"
+        },
+        {
+          "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
+          "date": "2026-07-17",
+          "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
+          "language": "en"
+        },
+        {
+          "title": "The Next ADC War: Novartis Is Paying Up to $1.5 Billion for Myricx, but the Real Prize Is a New Payload Class",
+          "date": "2026-07-14",
+          "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
       "name": "ADC",
       "type": "biotech_concept_or_target",
       "mentions": 7,
@@ -1606,44 +1650,6 @@
           "title": "ADC 下一場戰爭：諾華 15 億美元買 Myricx，真正搶的是新型 payload",
           "date": "2026-07-14",
           "url": "https://drugnews.com.tw/articles/2026-07-14-novartis-myricx-nmti-adc.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "BD",
-      "type": "market_topic",
-      "mentions": 7,
-      "latest_date": "2026-07-24",
-      "latest_articles": [
-        {
-          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
-          "date": "2026-07-24",
-          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
-          "date": "2026-07-09",
-          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
-          "date": "2026-07-07",
-          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
-          "date": "2026-07-05",
-          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
-          "date": "2026-07-04",
-          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
           "language": "zh-Hant"
         }
       ]
@@ -2105,6 +2111,44 @@
       ]
     },
     {
+      "name": "BD",
+      "type": "market_topic",
+      "mentions": 6,
+      "latest_date": "2026-07-24",
+      "latest_articles": [
+        {
+          "title": "Biotech 不賣，憑什麼？五張門票決定它能否長成 Biopharma",
+          "date": "2026-07-24",
+          "url": "https://drugnews.com.tw/articles/2026-07-24-biotech-independence-five-engines.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "日本為什麼長不出全球級 Biotech？問題不在科學，而在產業生態",
+          "date": "2026-07-09",
+          "url": "https://drugnews.com.tw/articles/2026-07-09-japan-biotech-ecosystem-global-gap.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "【輝瑞 ADC 賭局：430 億美元買下 Seagen 之後，為什麼 3SBio 的 PD-1/VEGF 雙抗變成新支點？】",
+          "date": "2026-07-07",
+          "url": "https://drugnews.com.tw/articles/2026-07-07-pfizer-seagen-3sbio-adc-pd1-vegf.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "半年併購 1,340 億美元：Big Pharma 到底在搶什麼？",
+          "date": "2026-07-05",
+          "url": "https://drugnews.com.tw/articles/2026-07-05-big-pharma-134b-biotech-ma.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "美國 HHS 啟動 Operation TrialBlazer：臨床試驗規則要變了，新藥競爭也要變了",
+          "date": "2026-07-04",
+          "url": "https://drugnews.com.tw/articles/2026-07-04-hhs-operation-trialblazer-clinical-trials.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "AI 製藥",
       "type": "topic",
       "mentions": 5,
@@ -2442,6 +2486,38 @@
           "title": "RevMed Says No to Being Bought: Biotech's Independent Era",
           "date": "2026-07-03",
           "url": "https://drugnews.com.tw/articles/2026-07-03-revmed-biotech-en.html",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Phase 3",
+      "type": "market_topic",
+      "mentions": 4,
+      "latest_date": "2026-09-04",
+      "latest_articles": [
+        {
+          "title": "Ivonescimab Moves Beyond Lung Cancer: Phase 3 Survival Win Against the Biliary Tract Cancer Standard",
+          "date": "2026-09-04",
+          "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
+          "date": "2026-08-21",
+          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
+          "language": "en"
+        },
+        {
+          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
+          "date": "2026-08-13",
+          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
           "language": "en"
         }
       ]
@@ -2895,6 +2971,32 @@
       ]
     },
     {
+      "name": "臨床三期",
+      "type": "market_topic",
+      "mentions": 3,
+      "latest_date": "2026-09-04",
+      "latest_articles": [
+        {
+          "title": "Ivonescimab 跨出肺癌！正面挑戰膽道癌金標準，總生存期告捷",
+          "date": "2026-09-04",
+          "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "再見癌症？癌症疫苗來了！莫德納單日暴漲176.97%",
+          "date": "2026-08-21",
+          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma.html",
+          "language": "zh-Hant"
+        },
+        {
+          "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+          "date": "2026-08-15",
+          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "安邦生技",
       "type": "topic",
       "mentions": 3,
@@ -2968,32 +3070,6 @@
           "title": "RevMed Upends Pancreatic Cancer Again: The RAS Combination Era Has Arrived",
           "date": "2026-07-17",
           "url": "https://drugnews.com.tw/articles/2026-07-17-revmed-ras-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Phase 3",
-      "type": "market_topic",
-      "mentions": 3,
-      "latest_date": "2026-08-21",
-      "latest_articles": [
-        {
-          "title": "Moderna Surges 176.97% After Its Personalized Cancer Vaccine Clears a Phase 3 Test",
-          "date": "2026-08-21",
-          "url": "https://drugnews.com.tw/articles/2026-08-21-moderna-merck-intismeran-phase3-melanoma-en.html",
-          "language": "en"
-        },
-        {
-          "title": "GSK's US$2 Billion Cough-Drug Bet Hit a Phase 3 Reproducibility Wall",
-          "date": "2026-08-15",
-          "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Novo Nordisk’s 6,300-Patient ZEUS Failure: A Textbook Lesson in Translational Risk",
-          "date": "2026-08-13",
-          "url": "https://drugnews.com.tw/articles/2026-08-13-ziltivekimab-zeus-mace-phase3-failure-en.html",
           "language": "en"
         }
       ]
@@ -3285,6 +3361,66 @@
       ]
     },
     {
+      "name": "HARMONi-GI1",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-04",
+      "latest_articles": [
+        {
+          "title": "Ivonescimab Moves Beyond Lung Cancer: Phase 3 Survival Win Against the Biliary Tract Cancer Standard",
+          "date": "2026-09-04",
+          "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Ivonescimab 跨出肺癌！正面挑戰膽道癌金標準，總生存期告捷",
+          "date": "2026-09-04",
+          "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Ivonescimab",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-04",
+      "latest_articles": [
+        {
+          "title": "Ivonescimab Moves Beyond Lung Cancer: Phase 3 Survival Win Against the Biliary Tract Cancer Standard",
+          "date": "2026-09-04",
+          "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Ivonescimab 跨出肺癌！正面挑戰膽道癌金標準，總生存期告捷",
+          "date": "2026-09-04",
+          "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
+      "name": "Summit Therapeutics",
+      "type": "topic",
+      "mentions": 2,
+      "latest_date": "2026-09-04",
+      "latest_articles": [
+        {
+          "title": "Ivonescimab Moves Beyond Lung Cancer: Phase 3 Survival Win Against the Biliary Tract Cancer Standard",
+          "date": "2026-09-04",
+          "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html",
+          "language": "en"
+        },
+        {
+          "title": "Ivonescimab 跨出肺癌！正面挑戰膽道癌金標準，總生存期告捷",
+          "date": "2026-09-04",
+          "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1.html",
+          "language": "zh-Hant"
+        }
+      ]
+    },
+    {
       "name": "AI for Science",
       "type": "topic",
       "mentions": 2,
@@ -3363,89 +3499,28 @@
           "language": "zh-Hant"
         }
       ]
-    },
-    {
-      "name": "生技商業化",
-      "type": "market_topic",
-      "mentions": 2,
-      "latest_date": "2026-09-02",
-      "latest_articles": [
-        {
-          "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
-          "date": "2026-09-02",
-          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
-          "language": "zh-Hant"
-        },
-        {
-          "title": "胰臟癌終於被撬開一道縫！FDA 提前 6.5 個月批准首款廣譜 RAS 新藥",
-          "date": "2026-08-29",
-          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "biotech commercialization",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-09-02",
-      "latest_articles": [
-        {
-          "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
-          "date": "2026-09-02",
-          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
-          "language": "en"
-        },
-        {
-          "title": "Pancreatic Cancer Finally Gets a Broad RAS(ON) Drug: Inside RASONQUE's FDA Approval",
-          "date": "2026-08-29",
-          "url": "https://drugnews.com.tw/articles/2026-08-29-revolution-rasonque-pancreatic-cancer-ras-on-en.html",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "name": "Iterum Therapeutics",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-09-02",
-      "latest_articles": [
-        {
-          "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
-          "date": "2026-09-02",
-          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
-          "language": "en"
-        },
-        {
-          "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
-          "date": "2026-09-02",
-          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
-          "language": "zh-Hant"
-        }
-      ]
-    },
-    {
-      "name": "Karyopharm",
-      "type": "topic",
-      "mentions": 2,
-      "latest_date": "2026-09-02",
-      "latest_articles": [
-        {
-          "title": "A New Drug Launched. Seven Months Later, the Company Sought Liquidation",
-          "date": "2026-09-02",
-          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley-en.html",
-          "language": "en"
-        },
-        {
-          "title": "新藥上市才 7 個月，公司就聲請清盤：真正的死亡谷在核准之後",
-          "date": "2026-09-02",
-          "url": "https://drugnews.com.tw/articles/2026-09-02-post-approval-biotech-commercialization-death-valley.html",
-          "language": "zh-Hant"
-        }
-      ]
     }
   ],
   "market_attention_signals": [
+    {
+      "title": "Ivonescimab Moves Beyond Lung Cancer: Phase 3 Survival Win Against the Biliary Tract Cancer Standard",
+      "date": "2026-09-04",
+      "url": "https://drugnews.com.tw/articles/2026-09-04-ivonescimab-biliary-tract-cancer-harmoni-gi1-en.html",
+      "language": "en",
+      "category": "商業分析",
+      "access": "Free Article",
+      "tags": [
+        "Ivonescimab",
+        "HARMONi-GI1",
+        "biliary tract cancer",
+        "Akeso",
+        "Summit Therapeutics",
+        "durvalumab",
+        "PD-1 VEGF bispecific",
+        "Phase 3"
+      ],
+      "summary": "Ivonescimab plus chemotherapy beat durvalumab plus chemotherapy on overall survival in the Phase 3 HARMONi-GI1 interim analysis, but the hazard ratio, median survival, curves, safety and subgroup results remain undisclosed."
+    },
     {
       "title": "Claude Starts Running Experiments: AI Enters the Physical Lab",
       "date": "2026-09-03",
@@ -4015,6 +4090,25 @@
         "Phase 3"
       ],
       "summary": "After GSK's roughly US$2 billion acquisition of BELLUS Health, CALM-1 met its endpoint but CALM-2 did not reproduce the result. The divergence shows why Phase 2 promise, patient experience and reproducibility must move together."
+    },
+    {
+      "title": "GSK 砸 20 億美元買止咳新藥，三期卻翻車！",
+      "date": "2026-08-15",
+      "url": "https://drugnews.com.tw/articles/2026-08-15-gsk-camlipixant-calm-phase3-reproducibility.html",
+      "language": "zh-Hant",
+      "category": "商業分析",
+      "access": "商業分析文",
+      "tags": [
+        "GSK",
+        "camlipixant",
+        "P2X3",
+        "慢性咳嗽",
+        "CALM-1",
+        "CALM-2",
+        "臨床三期",
+        "新藥研發"
+      ],
+      "summary": "GSK 約 20 億美元收購 BELLUS Health 後，camlipixant 的 CALM-1 達標、CALM-2 卻未能複製。這場第三期落差揭示：二期訊號、患者感受與可重現性必須一起過關。"
     }
   ]
 }
