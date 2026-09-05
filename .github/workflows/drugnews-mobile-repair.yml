@@ -1,0 +1,368 @@
+# Drugnews one-time, owner-authorized repair. Upload THIS file to .github/workflows/.
+# No Codex/OpenAI calls, no personal token, no third-party service.
+# Writes only 8 allowlisted code/test files after version checks, real queue build
+# and all safety gates; never commits decrypted articles or secrets.
+# Does not change the existing Pages workflow or bypass branch/environment rules.
+# The embedded compressed payload is checksum-verified source code, not credentials.
+name: Drugnews mobile repair
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - .github/workflows/drugnews-mobile-repair.yml
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  repair:
+    if: github.repository == 'drugnewsdrpan-droid/drugnews-site' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    concurrency:
+      group: drugnews-pages-production
+      cancel-in-progress: false
+    environment: github-pages
+    permissions:
+      contents: write
+      actions: write
+    outputs:
+      sha: ${{ steps.commit.outputs.sha }}
+    defaults:
+      run:
+        shell: bash
+    steps:
+    - name: Checkout the owner-authorized main revision
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      with:
+        fetch-depth: 0
+    - name: Verify embedded repair and original file versions; stage only code
+      run: |-
+        python3 - <<'PY'
+        import base64, hashlib, importlib.util, json, os, pathlib, subprocess, zlib
+        repo = pathlib.Path.cwd()
+        bundle = pathlib.Path(os.environ["RUNNER_TEMP"]) / "drugnews-mobile-repair"
+        bundle.mkdir(parents=True, exist_ok=True)
+        encoded = """
+        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
+        """
+        packed = base64.b64decode(encoded)
+        if hashlib.sha256(packed).hexdigest() != "ea3e9e5d72f186b164cb22dd20a6400b50d260a078d7383346bc4914fc503dbb":
+            raise SystemExit("Repair payload checksum mismatch")
+        files = json.loads(zlib.decompress(packed))
+        expected_files = {"apply_repair.py", "scripts/scheduled_content_integrity.mjs", "scripts/article_public_contract.mjs", "scripts/test_scheduled_contract.mjs"}
+        if set(files) != expected_files:
+            raise SystemExit("Unexpected repair bundle file list")
+        for relative, text in files.items():
+            target = bundle / relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(text)
+        spec = importlib.util.spec_from_file_location("repair", bundle / "apply_repair.py")
+        repair = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(repair)
+
+        def git(*args):
+            return subprocess.check_output(["git", *args], text=True).strip()
+
+        if os.environ["GITHUB_REPOSITORY"] != "drugnewsdrpan-droid/drugnews-site" or os.environ["GITHUB_REF"] != "refs/heads/main":
+            raise SystemExit("This repair is restricted to the owner's main branch")
+        if git("status", "--porcelain"):
+            raise SystemExit("Refusing to overwrite a dirty checkout")
+        base = repair.BASE_COMMIT
+        subprocess.run(["git", "merge-base", "--is-ancestor", base, "HEAD"], check=True)
+        workflow = ".github/workflows/drugnews-mobile-repair.yml"
+        allowed = set(repair.ORIGINAL_BLOBS) | set(repair.NEW_PATHS)
+        changed = set(filter(None, git("diff", "--name-only", base, "HEAD").splitlines()))
+        if not changed <= allowed | {workflow}:
+            raise SystemExit("Repository changed beyond this repair; stop rather than overwrite newer work")
+        # Generate the patch from the precisely verified original source, including
+        # extracting the actual production renderer, not a rewritten approximation.
+        source = {}
+        for relative, expected in repair.ORIGINAL_BLOBS.items():
+            raw = subprocess.check_output(["git", "show", base + ":" + relative])
+            if repair.blob_sha(raw) != expected:
+                raise SystemExit("Unexpected original blob: " + relative)
+            source[relative] = raw.decode("utf-8")
+        outputs = repair.make_outputs(source)
+        if set(outputs) != allowed:
+            raise SystemExit("Repair attempted to touch a non-allowlisted path")
+        original_state = True
+        patched_state = True
+        for relative, text in outputs.items():
+            target = repo / relative
+            if target.is_symlink() or any(p.is_symlink() for p in target.parents if p != repo.parent):
+                raise SystemExit("Refusing symlink path: " + relative)
+            data = target.read_bytes() if target.exists() else None
+            original_state &= (data is None if relative in repair.NEW_PATHS else data is not None and repair.blob_sha(data) == repair.ORIGINAL_BLOBS[relative])
+            patched_state &= data == text.encode("utf-8")
+        if not original_state and not patched_state:
+            raise SystemExit("Current files are neither the verified originals nor this exact repair")
+        if original_state:
+            for relative, text in outputs.items():
+                repair.atomic_write(repo / relative, text.encode("utf-8"))
+            subprocess.run(["git", "add", "--", *sorted(allowed)], check=True)
+            print("Eight repair files staged; nothing has been pushed or deployed.")
+        else:
+            print("Exact repair already installed; rerunning validation and deployment only.")
+        manifest = {relative: hashlib.sha256(text.encode()).hexdigest() for relative, text in outputs.items()}
+        (bundle / "expected-output-hashes.json").write_text(json.dumps(manifest))
+        (bundle / "starting-head.txt").write_text(git("rev-parse", "HEAD"))
+        subprocess.run(["git", "diff", "--cached", "--check"], check=True)
+        for relative in outputs:
+            if relative.endswith(".mjs"):
+                subprocess.run(["node", "--check", relative], check=True)
+        PY
+    - name: Run added regressions and all original scheduled tests
+      run: npm run test:scheduled
+    - name: Freeze the same release clock for all checks
+      id: clock
+      run: echo "now=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_OUTPUT"
+    - name: Authenticate queue using existing secrets, never export them
+      env:
+        DRUGNEWS_QUEUE_KEY_B64: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64 }}
+        DRUGNEWS_QUEUE_KEY_B64_V2: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64_V2 }}
+      run: node scripts/scheduled_queue.mjs prepare --queue=content/scheduled --work-dir="$RUNNER_TEMP/drugnews-mobile-queue"
+        --published=content/published --now="${{ steps.clock.outputs.now }}"
+    - name: Build real due articles; keep future articles private
+      env:
+        DRUGNEWS_INBOX: ${{ runner.temp }}/drugnews-mobile-queue/staging
+        DRUGNEWS_NOW: ${{ steps.clock.outputs.now }}
+        DRUGNEWS_PUBLISH_PRODUCTION: '1'
+      run: npm run publish
+    - name: Run every existing quality gate
+      run: |-
+        npm run audit:references:strict
+        npm run audit:reader:strict
+        npm run audit:english-completeness:strict
+        npm run audit:english-localization
+    - name: Prepare the candidate outside the source checkout
+      run: |-
+        mkdir -p "$RUNNER_TEMP/drugnews-mobile-site"
+        rsync -a --delete --exclude '.git' --exclude '.github' --exclude '_site' --exclude 'content' --exclude 'scripts' --exclude 'node_modules' --exclude 'package.json' --exclude 'README.md' --exclude '.gitignore' ./ "$RUNNER_TEMP/drugnews-mobile-site/"
+        find "$RUNNER_TEMP/drugnews-mobile-site" -type f -name '.DS_Store' -delete
+    - name: Require original full-body, leak, duplicate and live-inventory gates
+      run: node scripts/audit_scheduled_leaks.mjs candidate --root="$RUNNER_TEMP/drugnews-mobile-site" --repo-root=. --audit-file="$RUNNER_TEMP/drugnews-mobile-queue/private-audit.json"
+        --live-base=https://drugnews.com.tw
+    - name: Commit only the tested repair; reject concurrent changes
+      id: commit
+      run: |-
+        python3 - <<'PY'
+        import hashlib, json, os, pathlib, subprocess
+        repo=pathlib.Path.cwd()
+        bundle=pathlib.Path(os.environ["RUNNER_TEMP"])/"drugnews-mobile-repair"
+        expected=json.loads((bundle/"expected-output-hashes.json").read_text())
+        start=(bundle/"starting-head.txt").read_text().strip()
+        def git(*args):
+            return subprocess.check_output(["git",*args],text=True).strip()
+        subprocess.run(["git","fetch","--quiet","origin","main"],check=True)
+        if git("rev-parse","origin/main") != start or git("rev-parse","HEAD") != start:
+            raise SystemExit("main changed during verification; refusing stale commit/deployment")
+        for relative, digest in expected.items():
+            if hashlib.sha256((repo/relative).read_bytes()).hexdigest() != digest:
+                raise SystemExit("A tested source file changed during the build: "+relative)
+        staged=set(filter(None,git("diff","--cached","--name-only").splitlines()))
+        if staged and staged != set(expected):
+            raise SystemExit("Unexpected staged files; refusing to publish generated/private content")
+        if staged:
+            subprocess.run(["git","-c","user.name=Drugnews Repair","-c","user.email=41898282+github-actions[bot]@users.noreply.github.com","commit","-m","Fix scheduled publication body and discovery contracts"],check=True)
+            subprocess.run(["git","push","origin","HEAD:refs/heads/main"],check=True)
+        head=git("rev-parse","HEAD")
+        with open(os.environ["GITHUB_OUTPUT"],"a") as f:
+            f.write("sha="+head+"\n")
+        with open(os.environ["GITHUB_STEP_SUMMARY"],"a") as f:
+            f.write("## Repair code validated and committed\nCommit: `"+head+"`\n\nThe website is NOT yet verified. The unchanged Pages workflow is next.\n")
+        PY
+    - name: Dispatch the unchanged production Pages workflow
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: gh workflow run pages.yml --repo "$GITHUB_REPOSITORY" --ref main
+    - name: Remove temporary plaintext and candidate on every exit
+      if: always()
+      run: rm -rf -- "$RUNNER_TEMP/drugnews-mobile-queue" "$RUNNER_TEMP/drugnews-mobile-site" "$RUNNER_TEMP/drugnews-mobile-repair"
+  verify:
+    needs: repair
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      actions: read
+    steps:
+    - name: Wait for Pages then independently verify the incident article
+      env:
+        GH_TOKEN: ${{ github.token }}
+        REPAIR_SHA: ${{ needs.repair.outputs.sha }}
+      run: |-
+        python3 - <<'PY'
+        import json, os, time, urllib.request
+        repo=os.environ["GITHUB_REPOSITORY"]
+        sha=os.environ["REPAIR_SHA"]
+        token=os.environ["GH_TOKEN"]
+        api="https://api.github.com/repos/"+repo
+        headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"}
+        def read_json(url):
+            request=urllib.request.Request(url,headers=headers)
+            with urllib.request.urlopen(request,timeout=30) as r:
+                return json.load(r)
+        run=None
+        # No concurrency lock in this job: Pages must be able to start.
+        for attempt in range(100):
+            try:
+                rows=read_json(api+"/actions/runs?head_sha="+sha+"&event=workflow_dispatch&per_page=20")["workflow_runs"]
+                matches=[r for r in rows if r.get("path")==".github/workflows/pages.yml" and r.get("head_sha")==sha]
+                if matches:
+                    run=max(matches,key=lambda r:r["id"])
+                    if run["status"]=="completed":
+                        break
+            except Exception as exc:
+                print("Status read retry:",type(exc).__name__)
+            time.sleep(15)
+        else:
+            raise SystemExit("Pages verification timed out. Inspect Actions; do not claim restoration.")
+        if run["conclusion"] != "success":
+            raise SystemExit("Pages did not pass: "+str(run["conclusion"])+" "+run["html_url"])
+        # The original Pages workflow already audits all due and private jobs.
+        # Independently read the incident article, the public index and sitemap.
+        base="https://drugnews.com.tw/"
+        path="articles/2026-09-05-elecsys-ptau217-alzheimers-blood-test.html"
+        def read_site(relative):
+            request=urllib.request.Request(base+relative,headers={"Cache-Control":"no-cache"})
+            with urllib.request.urlopen(request,timeout=30) as response:
+                if response.status != 200:
+                    raise RuntimeError("Public surface not available: "+relative)
+                return response.read().decode("utf-8")
+        html=read_site(path)
+        if 'rel="canonical" href="'+base+path+'"' not in html:
+            raise SystemExit("Incident article canonical URL failed")
+        rows=json.loads(read_site("search-index.json"))
+        if not any(path in str(r.get("url","")) for r in rows):
+            raise SystemExit("Incident article missing from public search")
+        if "<loc>"+base+path+"</loc>" not in read_site("sitemap.xml"):
+            raise SystemExit("Incident article missing from sitemap")
+        with open(os.environ["GITHUB_STEP_SUMMARY"],"a") as f:
+            f.write("## Production verification PASSED\n\n- Repair commit: `"+sha+"`\n- Original Pages workflow: "+run["html_url"]+"\n- Incident article: "+base+path+"\n- Search and sitemap read-back: passed\n- Original full candidate and live audits: passed via Pages\n")
+        print("PRODUCTION VERIFIED",sha,run["html_url"])
+        PY
