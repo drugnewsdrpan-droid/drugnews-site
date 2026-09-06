@@ -1,6 +1,6 @@
 import crypto from "node:crypto";
+import { renderApprovedBody } from "./article_body_renderer.mjs";
 
-const CHINESE_DISCLAIMER = "本文僅供產業研究與知識分享，不構成投資、醫療、募資或個股建議。";
 export const LOCK_START = "<!-- drugnews:locked-body:start -->";
 export const LOCK_END = "<!-- drugnews:locked-body:end -->";
 
@@ -29,20 +29,10 @@ function canonicalText(value) {
 }
 
 export function canonicalMarkdownBody(markdown, title) {
-  let body = String(markdown || "").replace(CHINESE_DISCLAIMER, "").trim();
-  const escapedTitle = String(title || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  body = body.replace(new RegExp(`^\\s*#\\s+${escapedTitle}\\s*(?:\\n|$)`, "u"), "");
-  body = body
-    .replace(/^\s*!\[[^\]]*\]\([^)]+\)\s*$/gmu, " ")
-    .replace(/^\s*\|?(?:\s*:?-{3,}:?\s*\|)+\s*$/gmu, " ")
-    .replace(/!\[[^\]]*\]\([^)]+\)/gu, " ")
-    .replace(/\[([^\]]+)\]\([^)]+\)/gu, "$1")
-    .replace(/^\s*```[^\n]*$/gmu, " ")
-    .replace(/^\s{0,3}(?:#{1,6}|>|[-+*]|\d+[.)])\s+/gmu, "")
-    .replace(/<[^>]+>/gu, " ")
-    .replace(/[*_~`]/gu, "")
-    .replace(/\|/gu, " ");
-  return canonicalText(body);
+  // The approved source bytes remain authenticated by the queue envelope and
+  // approved_content_hash. Compare the entire deterministic rendered body,
+  // rather than two incompatible Markdown/HTML stripping algorithms.
+  return canonicalRenderedBody(`${LOCK_START}${renderApprovedBody(markdown, title)}${LOCK_END}`);
 }
 
 export function canonicalRenderedBody(html) {
@@ -54,13 +44,16 @@ export function canonicalRenderedBody(html) {
   const body = fragments.join(" ")
     .replace(/<(?:script|style)\b[^>]*>[\s\S]*?<\/(?:script|style)>/giu, " ")
     .replace(/<figure\b[^>]*>[\s\S]*?<\/figure>/giu, " ")
+    // Inline formatting does not insert spaces into the approved text.
+    .replace(/<\/?(?:a|strong|em|code|span|b|i|s|small|sub|sup|mark)\b[^>]*>/giu, "")
     .replace(/<br\s*\/?>/giu, " ")
     .replace(/<[^>]+>/gu, " ");
   return canonicalText(body);
 }
 
 export function bodyCanaries(text) {
-  const value = canonicalText(text);
+  // Callers pass already-canonical body text; do not decode literal entities twice.
+  const value = String(text || "").normalize("NFKC").replace(/\s+/gu, " ").trim();
   if (!value) return [];
   const width = Math.min(64, Math.max(24, Math.floor(value.length / 4)));
   const starts = [0, Math.max(0, Math.floor((value.length - width) / 2)), Math.max(0, value.length - width)];

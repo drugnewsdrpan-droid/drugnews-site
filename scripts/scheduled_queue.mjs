@@ -1,4 +1,6 @@
 import fs from "node:fs/promises";
+import { inferSeries } from "./article_public_contract.mjs";
+import { scheduledDisplayAssets } from "./scheduled_image_integrity.mjs";
 import { createReadStream } from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
@@ -489,7 +491,8 @@ function contentNeedles(payload) {
       lang,
       slug: article.slug,
       title: meta.title,
-      category: meta.category,
+      category: inferSeries(meta),
+      source_category: meta.category,
       url_path: urlPath,
       asset_dir: assetDir,
       body_sha256: sha256Text(canonicalBody),
@@ -498,7 +501,7 @@ function contentNeedles(payload) {
       company_indexed: expectedCompanyIndex(meta),
       images: article.images.map((image) => {
         const file = article.files.find((candidate) => candidate.path === image.path);
-        return { order: image.order, purpose: image.purpose, path: path.posix.join(assetDir, path.posix.basename(image.path)), sha256: image.sha256, git_oid: gitBlobOid(Buffer.from(file.data, "base64")) };
+        return { ...scheduledDisplayAssets(article, meta, image), order: image.order, purpose: image.purpose, path: path.posix.join(assetDir, path.posix.basename(image.path)), sha256: image.sha256, git_oid: gitBlobOid(Buffer.from(file.data, "base64")) };
       }),
       website_images: websiteImagePaths.filter((imagePath) => !bodyImagePaths.has(imagePath)).map((imagePath) => {
         const file = article.files.find((candidate) => candidate.path === imagePath);

@@ -10,7 +10,7 @@
     "scheduled:prepare": "node scripts/scheduled_queue.mjs prepare",
     "scheduled:audit": "node scripts/audit_scheduled_leaks.mjs candidate",
     "scheduled:browser-qa": "node scripts/qa_scheduled_fixture_browser.mjs",
-    "test:scheduled": "node scripts/test_scheduled_publishing.mjs",
+    "test:scheduled": "node scripts/test_scheduled_contract.mjs && node scripts/test_scheduled_image_integrity.mjs && node scripts/test_verify_repair_receipt.mjs && node scripts/test_scheduled_publishing.mjs",
     "audit:image-budget": "node scripts/audit_image_budget.mjs",
     "build:topics": "node scripts/build_topic_hubs.mjs",
     "build:en": "node scripts/build_english_site.mjs",

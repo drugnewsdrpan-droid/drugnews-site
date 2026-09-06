@@ -528,9 +528,20 @@ test("direct pack CLI executes from the non-ASCII repository path", async () => 
     await write(preload, "globalThis.fetch = async () => new Response('not found', { status: 404 });\n");
     const fixtureScripts = path.join(root, "非ASCII-cli", "scripts");
     await fs.mkdir(fixtureScripts, { recursive: true });
-    for (const file of ["scheduled_queue.mjs", "scheduled_content_integrity.mjs", "article_metadata_contract.mjs"]) {
-      await fs.copyFile(path.resolve(REPO_ROOT, "scripts", file), path.join(fixtureScripts, file));
+    // Copy the full local import graph, including indirect renderer dependencies.
+    const copiedModules = new Set();
+    async function copyQueueModule(file) {
+      const source = path.resolve(REPO_ROOT, "scripts", file);
+      if (path.dirname(source) !== path.resolve(REPO_ROOT, "scripts")) throw new Error("CLI_FIXTURE_IMPORT_OUTSIDE_SCRIPTS");
+      if (copiedModules.has(source)) return;
+      copiedModules.add(source);
+      const code = await fs.readFile(source, "utf8");
+      await fs.copyFile(source, path.join(fixtureScripts, path.basename(source)));
+      for (const match of code.matchAll(/\bfrom\s*["'](\.\/[^"']+\.mjs)["']/g)) {
+        await copyQueueModule(match[1]);
+      }
     }
+    await copyQueueModule("scheduled_queue.mjs");
     const script = await fs.realpath(path.join(fixtureScripts, "scheduled_queue.mjs"));
     assert.match(script, /[^\x00-\x7f]/);
     const result = spawnSync(process.execPath, [script, "pack", `--input=${input}`, `--output=${output}`], {

@@ -1,4 +1,6 @@
 import fs from "node:fs/promises";
+import { marketRadarValidationError } from "./article_public_contract.mjs";
+import { auditBodyImageReferences, publicRequestUrl } from "./scheduled_image_integrity.mjs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { spawnSync } from "node:child_process";
@@ -126,7 +128,7 @@ function expectedSurfaces(article, job, audit) {
   const common = ["sitemap.xml", "image-sitemap.xml", "llms.txt", "ai-index.json", "knowledge-graph.json"];
   const permanent = article.lang === "en"
     ? ["en/articles/index.html", "en/search-index.json", "en/feed.xml", "en/feed.json", ...common]
-    : ["articles/index.html", "search-index.json", "feed.xml", "feed.json", "market-radar.json", "search-intents.json", `articles/category/${CATEGORY_SLUGS.get(article.category) || "uncategorized"}.html`, ...(article.topic_paths || []), ...common];
+    : ["articles/index.html", "search-index.json", "feed.xml", "feed.json", "search-intents.json", `articles/category/${CATEGORY_SLUGS.get(article.category) || "uncategorized"}.html`, ...(article.topic_paths || []), ...common];
   const timed = [];
   if (scheduledTopFive(audit, article.lang).includes(article.url_path)) timed.push(article.lang === "en" ? "en/index.html" : "index.html");
   const published = Date.parse(job.publish_at);
@@ -185,7 +187,7 @@ function exactStructuredEntry(text, surface, article, baseUrl) {
 
 function allArticleImages(article) {
   const seen = new Set();
-  return [...(article.images || []), ...(article.website_images || [])].filter((image) => {
+  return [...(article.images || []).flatMap((image) => [image, ...(image.rendered_assets || [])]), ...(article.website_images || [])].filter((image) => {
     if (!image?.path || seen.has(image.path)) return false;
     seen.add(image.path);
     return true;
@@ -200,15 +202,8 @@ function auditDirectHtml(text, article, pairedArticles, baseUrl) {
   const body = canonicalRenderedBody(text);
   if (!body || sha256Text(body) !== article.body_sha256) return "BODY_DIGEST_MISMATCH";
   if ((article.body_canaries || bodyCanaries(body)).some((canary) => !body.includes(canary))) return "BODY_CANARY_MISSING";
-  let lastImage = -1;
-  for (const image of article.images || []) {
-    const basename = path.posix.basename(image.path);
-    const at = text.indexOf(image.path, lastImage + 1);
-    if (at === -1 || at < lastImage) return "IMAGE_REFERENCE_OR_ORDER_MISMATCH";
-    const tag = text.match(new RegExp(`<img\\b[^>]*src="[^"]*${basename.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"[^>]*>`, "u"))?.[0] || "";
-    if (!/\balt="[^"]+"/u.test(tag)) return "IMAGE_ALT_MISSING";
-    lastImage = at;
-  }
+  const imageReason = auditBodyImageReferences(text, article, url);
+  if (imageReason) return imageReason;
   for (const image of article.website_images || []) {
     if (!(image.roles || ["cover_image"]).includes("cover_image")) continue;
     const basename = path.posix.basename(image.path);
@@ -237,6 +232,13 @@ export async function auditCandidate({ root, auditFile, liveBaseUrl = "", repoRo
   const corpus = [...texts.values()].join("\n");
   const failures = [];
   const reachable = skipGitAudit ? new Set() : reachableGitObjects(repoRoot);
+  const publicJob = audit.jobs.find((job) => publicState(job, audit.clock) === "public");
+  if (publicJob) {
+    const radarReason = texts.has("market-radar.json")
+      ? marketRadarValidationError(texts.get("market-radar.json"), texts.get("sitemap.xml"), BASE_URL)
+      : "RADAR_SURFACE_MISSING";
+    if (radarReason) addFailure(failures, publicJob, radarReason, "market-radar.json");
+  }
 
   for (const job of audit.jobs) {
     const state = publicState(job, audit.clock);
@@ -306,15 +308,23 @@ export async function auditLive({ auditFile, baseUrl = BASE_URL, canonicalBaseUr
   const cache = new Map();
   const requestBaseUrl = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
   const get = async (relative) => {
-    if (!cache.has(relative)) cache.set(relative, fetchText(new URL(relative, requestBaseUrl).toString()));
+    if (!cache.has(relative)) cache.set(relative, fetchText(publicRequestUrl(relative, requestBaseUrl)));
     return cache.get(relative);
   };
+  const publicJob = audit.jobs.find((job) => publicState(job, audit.clock) === "public");
+  if (publicJob) {
+    const radar = await get("market-radar.json");
+    const sitemap = await get("sitemap.xml");
+    const radarReason = !radar.ok || !sitemap.ok ? "LIVE_RADAR_SURFACE_UNAVAILABLE"
+      : marketRadarValidationError(radar.body, sitemap.body, canonicalBaseUrl);
+    if (radarReason) addFailure(failures, publicJob, radarReason, "market-radar.json");
+  }
   for (const job of audit.jobs) {
     const state = publicState(job, audit.clock);
     if (state === "private") {
       for (const ref of job.existingPublicAssetRefs || []) {
         let response;
-        try { response = await fetch(new URL(safeRelative(ref.public_path), requestBaseUrl), { redirect: "error", signal: AbortSignal.timeout(20000), headers: { "cache-control": "no-cache" } }); } catch { response = null; }
+        try { response = await fetch(publicRequestUrl(safeRelative(ref.public_path), requestBaseUrl), { redirect: "error", signal: AbortSignal.timeout(20000), headers: { "cache-control": "no-cache" } }); } catch { response = null; }
         const bytes = response?.status === 200 ? Buffer.from(await response.arrayBuffer()) : Buffer.alloc(0);
         if (response?.status !== 200 || sha256(bytes) !== ref.sha256) addFailure(failures, job, "LIVE_PUBLIC_ASSET_REF_FAIL", ref.public_path);
       }
@@ -338,7 +348,7 @@ export async function auditLive({ auditFile, baseUrl = BASE_URL, canonicalBaseUr
       const direct = await get(article.url_path);
       if (!direct.ok || auditDirectHtml(direct.body, article, job.articles, canonicalBaseUrl)) addFailure(failures, job, "LIVE_DIRECT_E4_FAIL", article.url_path);
       for (const image of allArticleImages(article)) {
-        const response = await fetch(new URL(image.path, requestBaseUrl), { signal: AbortSignal.timeout(20000), headers: { "cache-control": "no-cache" } });
+        const response = await fetch(publicRequestUrl(image.path, requestBaseUrl), { signal: AbortSignal.timeout(20000), headers: { "cache-control": "no-cache" } });
         const bytes = response.ok ? Buffer.from(await response.arrayBuffer()) : Buffer.alloc(0);
         if (!response.ok || sha256(bytes) !== image.sha256) addFailure(failures, job, "LIVE_IMAGE_E4_FAIL", image.path);
       }
