@@ -1,0 +1,504 @@
+# Version 3: full dependency closure, authenticated image references, and exact live content receipts.
+# Owner-authorized only. No API keys or private plaintext are exported.
+# Success of the repair job alone is NOT proof of website restoration.
+name: Drugnews mobile repair v3 - full verification
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - .github/workflows/drugnews-mobile-repair-v3.yml
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  repair:
+    if: github.repository == 'drugnewsdrpan-droid/drugnews-site' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    concurrency:
+      group: drugnews-pages-production
+      cancel-in-progress: false
+    environment: github-pages
+    permissions:
+      contents: write
+      actions: write
+    outputs:
+      sha: ${{ steps.commit.outputs.sha }}
+      receipt: ${{ steps.commit.outputs.receipt }}
+      since: ${{ steps.dispatch.outputs.since }}
+    defaults:
+      run:
+        shell: bash
+    steps:
+    - name: Checkout the owner-authorized main revision
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      with:
+        fetch-depth: 0
+    - name: Verify embedded repair and original file versions; stage only code
+      run: |-
+        python3 - <<'PY'
+        import base64, hashlib, importlib.util, json, os, pathlib, subprocess, zlib
+        repo = pathlib.Path.cwd()
+        bundle = pathlib.Path(os.environ["RUNNER_TEMP"]) / "drugnews-mobile-repair"
+        bundle.mkdir(parents=True, exist_ok=True)
+        encoded = """
+        eNrVfXt/HMWV6FdpywRN43lIsizbI4/8k+WxrUWWtJJMwmqUUc9Mj9R41DPp7rEtpLk/EgJmgSy5vwtkk7ABkpCQBPIg2SwhbPJh
+        lpHsv/IV7nlUVVf39DxknN17SUDT3fU4darq1HnXwZjVajX2y57dshwv29ofy4+dPpVr+16u4rg5271jtPaD3aZ7tuSWxvB/81je
+        CHZtw3GrTs12A4MrG0HTsIxqw7bctGG1oZLnPG/XjOquXb3dbAfGXQfewd+qZ2M1x2r4WWjVvWrXrXYjyBs1bz/jtV2j6Tb2s0Ym
+        Q6AZdz0nsH3Dqge2Z9yxGk7NChx3x7Dv2N6+AZ3sOK7VMK47gVFpNCvQZCYDFQID2m8a0J5P0Nr3HJ/q+QBQrd0AyPw2tGy0Gm3f
+        qNnQ+p7jYpmqsWNBA2nDazYaUKPkVqzqbWiuAUNsY23jbtO7DV8ygWfbRt1pAHxNF0ZP/dYtp9H27KyxGBguQmlUm3t7TgAtttr+
+        LrRccqu7lrsDtVrYq+87TRf7s62ab/g2IAgLNz2jst+yfB9Hb7S8Zq1dDaAkgZeV81Fy615zzyiX6+0Aei2XDWev1fRg+K7bDCys
+        4Jdc+c7baVmeb6sXNadebzgV9bxr+bv683N+01UPTV901rICLCV7WoVHVchvVwDUqu2Hvfr74e/A3mshwnDir8yvF8sLKzdvLm4Y
+        BaM0Vjlnn69OV86dPTtx/pxlTUxXzk6dr8xM2FPVibOVi1N2pX6ufn7yHA56ZW3x+uLy/FL5ytLKlXWoflByDfinNOZXPacV+LlW
+        u9Jw/N2y5cGUwgxl957zS2N5KDExMWVN2HblvDVz4ezZi1XrbN0+Pzk9fa5mn6/VrGq1PnPuXKUK/aTjjarFU/5G227bYZsz5+u1
+        yoWzUxfsar0+NTVTP2dVaher09aF6QtnJyqWVb04PWmdS2rTatecoBy2DDvotg6tVblwASCemTw7ee782QsXazO1Gev8hRl7uj5l
+        TU2fP1+fqdUr1YHQVptuAHuu7MCfHdhQ+2H7tdrUuSnr3AV75uz5C9MzF6xz9eqFi9WLM/WpyqRtTU1NTFpnrcm61n4L9oO1Y2dp
+        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
+        qtXHMsRNaStGXx7XFzdu3LrCC3/91s2b82vPmhLZfhZdNN0aGluGVRJR5tunTxtHH/+k+/kbx7/6fveln3d//aeHv/je0Zt/fPjC
+        Dx5+81+MnBEebIY42AxFqjgl7V9/3f3LL47e+O4Xn/30b5//oFTaxoub6Q4KXpsdeCXyb5NNAQqpEvIA7Pzt8x9233n7+J/v/+3z
+        Nx68/53jN9+Fx0hJOgixHKasfPcDTu8PJThjdvelD+G/D3/4ztGfXsUk3dSWenz43svdz96AH0fffaf729fwB4Hyxacfd//6IjwC
+        q4y1Xnn54fs/wq/3/7l7/7PjN/5y/INvP/zZ2w/f+2b3pQ+6b/yk+8arUhfIqXflldP6NFnezh2MuQXixuanLOW3kNJDxCCWanGM
+        PqyFO3a8BZMlPpOJVpbzysjEMir1VphRhvPH7EEL7OSdkKmFd0Q8wmMEo+HfIbojskfSgzgV3UjXF9YTWhLTjzE0g9c5sJpWmMxo
+        GpMZoa26oIky/YIsNN1aYZBZ8Qw2qLqlLVHoa8cOvdGYvBV08ga1dP+jjHDGNSPhHoXRzHOkqk8w0YXa3AKLrsaIStq5SHAL5oin
+        1Jp8lcfxtz4zLl7AdNq/fv3orT988dd/O35L5oQX14rPjRSHoXxlGEuxgI65S/Ia8sTAGrHwCvFcmJNpwduHWe0OpB4/j7OX1pS3
+        +aTkxr1qZTNN6dxLY89jUnoty2uiDVl5Q1GXNPa05q/Z2Ur3CGzsUrgVukoiJ1NAVmETQd6KHIwiX/wmtbyVp9nH0yRmDonU6a81
+        EjV7VWmR+rETklBK2OxQPkM3qhMaVPWAFEA8KfkQnK1OpJ3EEfTVvXDFRH1FpI3xS5Zc7/0IwRycS5dyFnosRxtVwn6Pg8CQnmD9
+        j9rZKIAPJWVho3AwatvFqhVStWbVRyc7Zkxb6G4nGDL8stnaMi6jTTE/PTGdZo5MvgcuO0q9hBclEBp2gVFRZYWJ2bgFOgwsq7vm
+        gZbMTYaWJUaWsSCBEoRQNrCvbaOhckbzqcDXlwiJnA81h33QCIwUDDjiOZUaxCGSAZZy1sDhL5jTIcoFGn4ERopqQG8bcu8VTnGG
+        S1I5yRQ+JaHPkImKdAoAbQgsNSVAZjdFP4UfBkCMXpMIdboPvVCui6WxixfIO+TiRXImhV2X62u5yvUOjcME6BJd36i0MSoS7wWj
+        xcJDe3xDEQQuuu6EQ6gGeaKdg0EHCVym8eL1QTI4nQJMl2M0M51ICdMR4pbWSVS6D9lJn4RypKM7f8tEwh/Busq7K5MZy+EQxtGE
+        cka8CXF/wAPHDVyQOO3M8i0c9HZTVNmafZRpIlIip0BzO8jBlhU8eXRPBFbDNuTJZ2ANJDUifd/jXTkDKGlprNmoERiRNdRHB5mw
+        AcKkvCJVDjooPW7wH/04TkdO5nCAiRannBax4rXdwoHUAeYFDyU8cQeq+9Kk58sn6vjSSj2rKZ3SobIpryma0qHuLq+fzxuTU3k4
+        kiYm/qk0Fp5nqIYrbB6QIiw/SKs2SKlG+hU8ZvAgpPPpBPCSS3p8dZCrK+5UpO/7hmrFcDlvWy0UqbRAUlwYw/TEpCYW0xJFz2T+
+        3EVGT8JqderkTCBFpFhsl3Y2kqcdr9FBoJCLP4CjVkpprBKRuTqjQZrO9VG/Jmw53LG+AkbH4eMaTfLSOxdZeo9/XP5thyJ6i9Nf
+        eiA4CLUbEFBM8k2PmAUJhxl9Obk1ylJn+DCJNQgtw0c+goJ4dK/scK9mBJXMMGtXlXfVjuqb3fm/+4CGwQ==
+        """
+        packed = base64.b64decode(encoded)
+        if hashlib.sha256(packed).hexdigest() != "edb307fa7d764fabbe3d3e3f26ee6a07d4d4251c00e331d9514fc62d1046ad81":
+            raise SystemExit("Repair payload checksum mismatch")
+        files = json.loads(zlib.decompress(packed))
+        expected_files = {'scripts/verify_repair_receipt.mjs', 'scripts/scheduled_image_integrity.mjs', 'scripts/test_scheduled_image_integrity.mjs', 'scripts/test_verify_repair_receipt.mjs', 'scripts/test_scheduled_contract.mjs', 'scripts/scheduled_content_integrity.mjs', 'scripts/article_public_contract.mjs', 'apply_repair.py'}
+        if set(files) != expected_files:
+            raise SystemExit("Unexpected repair bundle file list")
+        for relative, text in files.items():
+            target = bundle / relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(text)
+        spec = importlib.util.spec_from_file_location("repair", bundle / "apply_repair.py")
+        repair = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(repair)
+
+        def git(*args):
+            return subprocess.check_output(["git", *args], text=True).strip()
+
+        if os.environ["GITHUB_REPOSITORY"] != "drugnewsdrpan-droid/drugnews-site" or os.environ["GITHUB_REF"] != "refs/heads/main":
+            raise SystemExit("This repair is restricted to the owner's main branch")
+        if git("status", "--porcelain"):
+            raise SystemExit("Refusing to overwrite a dirty checkout")
+        base = repair.BASE_COMMIT
+        subprocess.run(["git", "merge-base", "--is-ancestor", base, "HEAD"], check=True)
+        workflow = ".github/workflows/drugnews-mobile-repair-v3.yml"
+        prior_workflow = ".github/workflows/drugnews-mobile-repair.yml"
+        allowed = set(repair.ORIGINAL_BLOBS) | set(repair.NEW_PATHS)
+        changed = set(filter(None, git("diff", "--name-only", base, "HEAD").splitlines()))
+        if not changed <= allowed | {workflow, prior_workflow, ".github/workflows/drugnews-mobile-repair-v2.yml"}:
+            raise SystemExit("Repository changed beyond this repair; stop rather than overwrite newer work")
+        # Generate the patch from the precisely verified original source, including
+        # extracting the actual production renderer, not a rewritten approximation.
+        source = {}
+        for relative, expected in repair.ORIGINAL_BLOBS.items():
+            raw = subprocess.check_output(["git", "show", base + ":" + relative])
+            if repair.blob_sha(raw) != expected:
+                raise SystemExit("Unexpected original blob: " + relative)
+            source[relative] = raw.decode("utf-8")
+        outputs = repair.make_outputs(source)
+        if set(outputs) != allowed:
+            raise SystemExit("Repair attempted to touch a non-allowlisted path")
+        original_state = True
+        patched_state = True
+        for relative, text in outputs.items():
+            target = repo / relative
+            if target.is_symlink() or any(p.is_symlink() for p in target.parents if p != repo.parent):
+                raise SystemExit("Refusing symlink path: " + relative)
+            data = target.read_bytes() if target.exists() else None
+            original_state &= (data is None if relative in repair.NEW_PATHS else data is not None and repair.blob_sha(data) == repair.ORIGINAL_BLOBS[relative])
+            patched_state &= data == text.encode("utf-8")
+        if not original_state and not patched_state:
+            raise SystemExit("Current files are neither the verified originals nor this exact repair")
+        if original_state:
+            for relative, text in outputs.items():
+                repair.atomic_write(repo / relative, text.encode("utf-8"))
+            subprocess.run(["git", "add", "--", *sorted(allowed)], check=True)
+            print("Thirteen repair files staged; nothing has been pushed or deployed.")
+        else:
+            print("Exact repair already installed; rerunning validation and deployment only.")
+        manifest = {relative: hashlib.sha256(text.encode()).hexdigest() for relative, text in outputs.items()}
+        (bundle / "expected-output-hashes.json").write_text(json.dumps(manifest))
+        (bundle / "starting-head.txt").write_text(git("rev-parse", "HEAD"))
+        subprocess.run(["git", "diff", "--cached", "--check"], check=True)
+        for relative in outputs:
+            if relative.endswith(".mjs"):
+                subprocess.run(["node", "--check", relative], check=True)
+        PY
+    - name: Run added regressions and all original scheduled tests
+      run: npm run test:scheduled
+    - name: Freeze the same release clock for all checks
+      id: clock
+      run: echo "now=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_OUTPUT"
+    - name: Authenticate queue using existing secrets, never export them
+      env:
+        DRUGNEWS_QUEUE_KEY_B64: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64 }}
+        DRUGNEWS_QUEUE_KEY_B64_V2: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64_V2 }}
+      run: node scripts/scheduled_queue.mjs prepare --queue=content/scheduled --work-dir="$RUNNER_TEMP/drugnews-mobile-queue"
+        --published=content/published --now="${{ steps.clock.outputs.now }}"
+    - name: Build real due articles; keep future articles private
+      env:
+        DRUGNEWS_INBOX: ${{ runner.temp }}/drugnews-mobile-queue/staging
+        DRUGNEWS_NOW: ${{ steps.clock.outputs.now }}
+        DRUGNEWS_PUBLISH_PRODUCTION: '1'
+      run: npm run publish
+    - name: Run every existing quality gate
+      run: |-
+        npm run audit:references:strict
+        npm run audit:reader:strict
+        npm run audit:english-completeness:strict
+        npm run audit:english-localization
+    - name: Prepare the candidate outside the source checkout
+      run: |-
+        mkdir -p "$RUNNER_TEMP/drugnews-mobile-site"
+        rsync -a --delete --exclude '.git' --exclude '.github' --exclude '_site' --exclude 'content' --exclude 'scripts' --exclude 'node_modules' --exclude 'package.json' --exclude 'README.md' --exclude '.gitignore' ./ "$RUNNER_TEMP/drugnews-mobile-site/"
+        find "$RUNNER_TEMP/drugnews-mobile-site" -type f -name '.DS_Store' -delete
+    - name: Require original full-body, leak, duplicate and live-inventory gates
+      run: node scripts/audit_scheduled_leaks.mjs candidate --root="$RUNNER_TEMP/drugnews-mobile-site" --repo-root=. --audit-file="$RUNNER_TEMP/drugnews-mobile-queue/private-audit.json"
+        --live-base=https://drugnews.com.tw
+    - name: Commit only the tested repair; reject concurrent changes
+      id: commit
+      run: |-
+        python3 - <<'PY'
+        import hashlib, json, os, pathlib, subprocess
+        repo=pathlib.Path.cwd()
+        bundle=pathlib.Path(os.environ["RUNNER_TEMP"])/"drugnews-mobile-repair"
+        expected=json.loads((bundle/"expected-output-hashes.json").read_text())
+        start=(bundle/"starting-head.txt").read_text().strip()
+        def git(*args):
+            return subprocess.check_output(["git",*args],text=True).strip()
+        subprocess.run(["git","fetch","--quiet","origin","main"],check=True)
+        if git("rev-parse","origin/main") != start or git("rev-parse","HEAD") != start:
+            raise SystemExit("main changed during verification; refusing stale commit/deployment")
+        for relative, digest in expected.items():
+            if hashlib.sha256((repo/relative).read_bytes()).hexdigest() != digest:
+                raise SystemExit("A tested source file changed during the build: "+relative)
+        # Only already-due, authenticated public descriptors cross to the verifier.
+        from datetime import datetime
+        import base64
+        audit=json.loads((pathlib.Path(os.environ["RUNNER_TEMP"])/"drugnews-mobile-queue"/"private-audit.json").read_text())
+        clock=datetime.fromisoformat(audit["clock"].replace("Z","+00:00"))
+        articles=[]
+        for job in audit["jobs"]:
+            if job["state"] not in ["due","duplicate","legacy_e4"]:
+                continue
+            published=datetime.fromisoformat(job["publish_at"].replace("Z","+00:00"))
+            if published > clock:
+                raise SystemExit("A future article was incorrectly marked public")
+            for article in job["articles"]:
+                item={key:article[key] for key in ["lang","url_path","category","body_sha256","images","website_images"] if key in article}
+                item["publish_at"]=job["publish_at"]
+                articles.append(item)
+        for lang in set(a["lang"] for a in articles):
+            ordered=sorted([a for a in articles if a["lang"]==lang],key=lambda a:a["publish_at"],reverse=True)
+            for i,article in enumerate(ordered):
+                article["homepage_expected"]=i<5
+        required={"articles/2026-09-05-elecsys-ptau217-alzheimers-blood-test.html","articles/2026-09-06-oral-macrocyclic-peptide-platform.html"}
+        if not required.issubset({a["url_path"] for a in articles}):
+            raise SystemExit("Both incident articles must be covered by the authenticated receipt")
+        receipt={"schema_version":1,"articles":articles}
+        staged=set(filter(None,git("diff","--cached","--name-only").splitlines()))
+        if staged and staged != set(expected):
+            raise SystemExit("Unexpected staged files; refusing to publish generated/private content")
+        if staged:
+            subprocess.run(["git","-c","user.name=Drugnews Repair","-c","user.email=41898282+github-actions[bot]@users.noreply.github.com","commit","-m","Fix scheduled publication body and discovery contracts"],check=True)
+            subprocess.run(["git","push","origin","HEAD:refs/heads/main"],check=True)
+        head=git("rev-parse","HEAD")
+        receipt["commit"]=head
+        encoded=base64.b64encode(json.dumps(receipt,ensure_ascii=False,separators=(",",":")).encode()).decode()
+        with open(os.environ["GITHUB_OUTPUT"],"a") as f:
+            f.write("sha="+head+"\n")
+            f.write("receipt="+encoded+"\n")
+        with open(os.environ["GITHUB_STEP_SUMMARY"],"a") as f:
+            f.write("## Repair code validated and committed\nCommit: `"+head+"`\n\nThe website is NOT yet verified. The unchanged Pages workflow is next.\n")
+        PY
+    - name: Dispatch the unchanged production Pages workflow
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |-
+        echo "since=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_OUTPUT"
+        gh workflow run pages.yml --repo "$GITHUB_REPOSITORY" --ref main
+      id: dispatch
+    - name: Remove temporary plaintext and candidate on every exit
+      if: always()
+      run: rm -rf -- "$RUNNER_TEMP/drugnews-mobile-queue" "$RUNNER_TEMP/drugnews-mobile-site" "$RUNNER_TEMP/drugnews-mobile-repair"
+    - name: Report exact repair stage without claiming restoration
+      if: always()
+      env:
+        JOB_RESULT: ${{ job.status }}
+      run: |-
+        python3 - <<'PY'
+        import os
+        with open(os.environ["GITHUB_STEP_SUMMARY"],"a") as f:
+            result=os.environ["JOB_RESULT"]
+            f.write("\n## 修復階段狀態："+result+"\n")
+            f.write("此狀態不代表官網已恢復。只有 verify 工作完成新版提交、全文、圖片及入口回讀檢查，才能確認上線。\n")
+        PY
+  verify:
+    needs: repair
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      actions: read
+    steps:
+    - name: Checkout the exact tested repair commit
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      with:
+        ref: ${{ needs.repair.outputs.sha }}
+    - name: Require the new Pages run and both mandatory deployment steps
+      env:
+        GH_TOKEN: ${{ github.token }}
+        REPAIR_SHA: ${{ needs.repair.outputs.sha }}
+        DISPATCH_SINCE: ${{ needs.repair.outputs.since }}
+      run: |-
+        python3 - <<'PY'
+        import json, os, time, urllib.request
+        repo=os.environ["GITHUB_REPOSITORY"]
+        sha=os.environ["REPAIR_SHA"]
+        token=os.environ["GH_TOKEN"]
+        api="https://api.github.com/repos/"+repo
+        headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"}
+        def read_json(url):
+            request=urllib.request.Request(url,headers=headers)
+            with urllib.request.urlopen(request,timeout=30) as r:
+                return json.load(r)
+        run=None
+        # No concurrency lock in this job: Pages must be able to start.
+        for attempt in range(100):
+            try:
+                rows=read_json(api+"/actions/runs?head_sha="+sha+"&event=workflow_dispatch&per_page=20")["workflow_runs"]
+                matches=[r for r in rows if r.get("path")==".github/workflows/pages.yml" and r.get("head_sha")==sha and r.get("created_at","")>=os.environ["DISPATCH_SINCE"]]
+                if matches:
+                    run=max(matches,key=lambda r:r["id"])
+                    if run["status"]=="completed":
+                        break
+            except Exception as exc:
+                print("Status read retry:",type(exc).__name__)
+            time.sleep(15)
+        else:
+            raise SystemExit("Pages verification timed out. Inspect Actions; do not claim restoration.")
+        if run["conclusion"] != "success":
+            raise SystemExit("Pages did not pass: "+str(run["conclusion"])+" "+run["html_url"])
+        import pathlib
+        jobs=read_json(api+"/actions/runs/"+str(run["id"])+"/jobs")["jobs"]
+        target=pathlib.Path(os.environ["RUNNER_TEMP"])/"native-deployment-evidence.json"
+        target.write_text(json.dumps({"run":run,"jobs":jobs}))
+        PY
+        node --input-type=module <<'JS'
+        import fs from 'node:fs/promises';
+        import path from 'node:path';
+        import { requireSuccessfulDeployment } from './scripts/verify_repair_receipt.mjs';
+        const file=path.join(process.env.RUNNER_TEMP,'native-deployment-evidence.json');
+        const {run,jobs}=JSON.parse(await fs.readFile(file,'utf8'));
+        requireSuccessfulDeployment(run,jobs,process.env.REPAIR_SHA,process.env.DISPATCH_SINCE);
+        console.log('NATIVE_DEPLOYMENT_VERIFIED',run.head_sha,run.html_url);
+        await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,`## 新版 Pages 已通過，仍須下一步正式內容驗收\n\n- Workflow: ${run.html_url}\n- Commit: ${run.head_sha}\n`);
+        JS
+    - name: Verify live full-body and image digests against the authenticated pre-release receipt
+      env:
+        PUBLIC_RECEIPT_B64: ${{ needs.repair.outputs.receipt }}
+        REPAIR_SHA: ${{ needs.repair.outputs.sha }}
+      run: node scripts/verify_repair_receipt.mjs
