@@ -727,7 +727,7 @@ test("fifteen daily due bundles retain permanent entrypoints without stale home 
       if (offset === 14) {
         const outbox = path.join(root, "indexnow.json"); await writeIndexNowBrief({ auditFile: summary.auditFile, output: outbox });
         const urls = JSON.parse(await fs.readFile(outbox, "utf8")).search_submission_urls;
-        assert.deepEqual(urls, [`https://drugnews.com.tw/articles/${manifests[14].publish_at.slice(0, 10)}-${manifests[14].slug}.html`]);
+        assert.deepEqual(urls, manifests.map((manifest) => `https://drugnews.com.tw/articles/${manifest.publish_at.slice(0, 10)}-${manifest.slug}.html`).sort());
       }
     }
   } finally { await fs.rm(root, { recursive: true, force: true }); }
