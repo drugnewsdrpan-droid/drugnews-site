@@ -1,19 +1,11 @@
 name: Scheduled queue private diagnostic
 on:
-  push:
-    branches: [xiaowang/media-repair-20260908]
-    paths:
-      - .github/workflows/scheduled-diagnostic.yml
-      - scripts/diagnose_scheduled_queue.mjs
-      - scripts/build_company_index.mjs
-      - scripts/company_index_contract.mjs
-      - scripts/audit_scheduled_leaks.mjs
-      - scripts/scheduled_queue.mjs
-  workflow_dispatch:
+  workflow_dispatch: {}
 permissions:
   contents: read
 jobs:
   diagnose:
+    if: github.repository == 'drugnewsdrpan-droid/drugnews-site' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 40
     environment: github-pages
@@ -28,4 +20,4 @@ jobs:
         run: node scripts/diagnose_scheduled_queue.mjs
       - name: Remove diagnostic plaintext
         if: always()
-        run: node -e 'require("fs").rmSync(process.env.RUNNER_TEMP + "/drugnews-scheduled-diagnostic", {recursive:true,force:true})'
+        run: node scripts/diagnose_scheduled_queue.mjs --cleanup
