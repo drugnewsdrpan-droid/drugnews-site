@@ -1,0 +1,23 @@
+name: Scheduled queue private forward rehearsal
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  rehearse:
+    if: github.repository == 'drugnewsdrpan-droid/drugnews-site' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Authenticate existing queue and rehearse without publishing
+        env:
+          DRUGNEWS_QUEUE_KEY_B64: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64 }}
+          DRUGNEWS_QUEUE_KEY_B64_V2: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64_V2 }}
+        run: node scripts/diagnose_scheduled_forward.mjs
+      - name: Remove forward rehearsal plaintext
+        if: always()
+        run: node scripts/diagnose_scheduled_forward.mjs --cleanup
