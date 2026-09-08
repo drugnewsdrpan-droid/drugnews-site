@@ -696,6 +696,66 @@ test("frozen clock keeps T-1 private and publishes at T+1 idempotently", async (
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
+test("company topic-only entries enforce selected links and fail closed on source damage", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-company-contract-"));
+  try {
+    const queue = path.join(root, "queue");
+    const published = path.join(root, "published");
+    await fs.mkdir(published);
+    const manifests = [];
+    for (let i = 0; i < 7; i++) {
+      const input = path.join(root, `input-${i}`);
+      const manifest = await makeInput(input, 150 + i, {slug: `company-topic-${i}`, title: `Company topic ${i}`, publishAt: `2026-09-${String(8+i).padStart(2,"0")}T08:00:00+08:00`});
+      const metaPath = path.join(input, "zh/meta.json");
+      const meta = JSON.parse(await fs.readFile(metaPath,"utf8"));
+      meta.category = "BD / 授權";
+      meta.tags = [];
+      await write(metaPath, JSON.stringify(meta));
+      manifest.articles.zh.metadata.category = meta.category;
+      manifest.articles.zh.metadata.tags = [];
+      manifest.articles.zh.files.find(file => file.path === "meta.json").sha256 = digest(await fs.readFile(metaPath));
+      await writeLockedManifest(input, manifest);
+      await addBundle(queue, input, manifest);
+      manifests.push(manifest);
+    }
+    const now = "2026-09-14T00:01:00Z";
+    const summary = await prepareQueue({queueDir:queue, workDir:path.join(root,"work"), publishedRoot:published, now, env:ENV});
+    const candidate = path.join(root,"candidate");
+    await runPublisherCandidate(candidate, summary.stagingRoot, now);
+    const companyPath = path.join(candidate,"companies.html");
+    const searchPath = path.join(candidate,"search-index.json");
+    const companies = await fs.readFile(companyPath,"utf8");
+    const search = await fs.readFile(searchPath,"utf8");
+    const urlPath = manifest => `articles/${manifest.publish_at.slice(0,10)}-${manifest.slug}.html`;
+    assert(!companies.includes(`href="${urlPath(manifests[0])}"`), "seventh eligible article is outside the six-entry cap");
+    assert(companies.includes(`href="${urlPath(manifests[6])}"`), "topic-only match must be rendered");
+    const server = await staticServer(candidate);
+    const candidateAudit = () => auditCandidate({root:candidate, auditFile:summary.auditFile, skipLiveInventory:true, repoRoot:PACK_REPO});
+    const liveAudit = () => auditLive({auditFile:summary.auditFile, baseUrl:server.baseUrl});
+    try {
+      await candidateAudit();
+      await liveAudit();
+      await write(companyPath, companies.replaceAll(`href="${urlPath(manifests[6])}"`, 'href="#missing"'));
+      const candidateFailure = await captureRejection(candidateAudit);
+      assert(candidateFailure.failures.some(item => item.reason === "ENTRYPOINT_ZERO" && item.surface === "companies.html"));
+      const liveFailure = await captureRejection(liveAudit);
+      assert(liveFailure.failures.some(item => item.reason === "LIVE_ENTRYPOINT_E4_FAIL" && item.surface === "companies.html"));
+      await write(companyPath, companies);
+      await fs.rm(searchPath);
+      await assert.rejects(candidateAudit, /COMPANY_INDEX_SOURCE_INVALID/);
+      await assert.rejects(liveAudit, /LIVE_COMPANY_INDEX_SOURCE_UNAVAILABLE/);
+      for (const damaged of ["[", "{}"] ) {
+        await write(searchPath, damaged);
+        await assert.rejects(candidateAudit, /AUDIT_JSON_INVALID|COMPANY_INDEX_SOURCE_INVALID/);
+        await assert.rejects(liveAudit, /AUDIT_JSON_INVALID|COMPANY_INDEX_SOURCE_INVALID/);
+      }
+      await write(searchPath, search);
+      await candidateAudit();
+      await liveAudit();
+    } finally { await server.close(); }
+  } finally { await fs.rm(root,{recursive:true,force:true}); }
+});
+
 test("fifteen daily due bundles retain permanent entrypoints without stale home or news failures", async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-fifteen-days-"));
   try {
@@ -1027,10 +1087,12 @@ test("release manifest rejects missing content-chain gates and wrong timezone", 
 });
 
 let failed = 0;
-for (const item of tests) {
+const selectedTests = process.env.DRUGNEWS_TEST_FILTER ? tests.filter(item => item.name.includes(process.env.DRUGNEWS_TEST_FILTER)) : tests;
+assert(selectedTests.length, "test filter must select at least one test");
+for (const item of selectedTests) {
   try { await item.fn(); console.log(`PASS ${item.name}`); }
   catch (error) { failed += 1; console.error(`FAIL ${item.name}: ${error.stack || error.message}`); }
 }
-console.log(`${tests.length - failed}/${tests.length} scheduled publishing tests passed.`);
+console.log(`${selectedTests.length - failed}/${selectedTests.length} scheduled publishing tests passed.`);
 await fs.rm(PACK_REPO_PARENT, { recursive: true, force: true });
 if (failed) process.exitCode = 1;
