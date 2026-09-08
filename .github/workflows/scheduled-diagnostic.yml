@@ -1,0 +1,31 @@
+name: Scheduled queue private diagnostic
+on:
+  push:
+    branches: [xiaowang/media-repair-20260908]
+    paths:
+      - .github/workflows/scheduled-diagnostic.yml
+      - scripts/diagnose_scheduled_queue.mjs
+      - scripts/build_company_index.mjs
+      - scripts/company_index_contract.mjs
+      - scripts/audit_scheduled_leaks.mjs
+      - scripts/scheduled_queue.mjs
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Authenticate and test real bundles without publishing
+        env:
+          DRUGNEWS_QUEUE_KEY_B64: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64 }}
+          DRUGNEWS_QUEUE_KEY_B64_V2: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64_V2 }}
+        run: node scripts/diagnose_scheduled_queue.mjs
+      - name: Remove diagnostic plaintext
+        if: always()
+        run: node -e 'require("fs").rmSync(process.env.RUNNER_TEMP + "/drugnews-scheduled-diagnostic", {recursive:true,force:true})'
