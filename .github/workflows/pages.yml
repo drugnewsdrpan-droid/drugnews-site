@@ -122,15 +122,15 @@ jobs:
           done
           exit 1
 
-      - name: Build IndexNow outbox for newly due canonical URLs
-        if: steps.queue.outputs.newly_due_count != '0'
+      - name: Build IndexNow outbox for all successfully published due URLs
+        if: steps.queue.outputs.due_count != '0'
         run: >-
           node scripts/audit_scheduled_leaks.mjs indexnow
           --audit-file=/tmp/drugnews-queue/private-audit.json
           --output=/tmp/drugnews-indexnow.json
 
-      - name: Submit newly due URLs to IndexNow
-        if: steps.queue.outputs.newly_due_count != '0'
+      - name: Submit due and recovered overdue URLs to IndexNow
+        if: steps.queue.outputs.due_count != '0'
         run: node scripts/submit_indexnow.mjs --brief=/tmp/drugnews-indexnow.json
 
       - name: Remove all runner plaintext

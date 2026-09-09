@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import { marketRadarValidationError } from "./article_public_contract.mjs";
+import { companyIndexArticlePaths } from "./company_index_contract.mjs";
 import { auditBodyImageReferences, publicRequestUrl } from "./scheduled_image_integrity.mjs";
 import path from "node:path";
 import crypto from "node:crypto";
@@ -134,7 +135,7 @@ function expectedSurfaces(article, job, audit) {
   const published = Date.parse(job.publish_at);
   const clock = Date.parse(audit.clock);
   if (published >= clock - (48 * 60 * 60 * 1000) && published <= clock + (60 * 60 * 1000)) timed.push("news-sitemap.xml");
-  if (article.company_indexed && published >= clock - (48 * 60 * 60 * 1000) && published <= clock + (60 * 60 * 1000)) timed.push("companies.html");
+  if (audit.company_paths?.has(article.url_path)) timed.push("companies.html");
   return [...permanent, ...timed];
 }
 
@@ -234,6 +235,9 @@ export async function auditCandidate({ root, auditFile, liveBaseUrl = "", repoRo
   const reachable = skipGitAudit ? new Set() : reachableGitObjects(repoRoot);
   const publicJob = audit.jobs.find((job) => publicState(job, audit.clock) === "public");
   if (publicJob) {
+    const companyRecords = parseJson(texts.get("search-index.json") || "null", "search-index.json");
+    if (!Array.isArray(companyRecords)) throw new Error("COMPANY_INDEX_SOURCE_INVALID");
+    audit.company_paths = companyIndexArticlePaths(companyRecords);
     const radarReason = texts.has("market-radar.json")
       ? marketRadarValidationError(texts.get("market-radar.json"), texts.get("sitemap.xml"), BASE_URL)
       : "RADAR_SURFACE_MISSING";
@@ -313,6 +317,11 @@ export async function auditLive({ auditFile, baseUrl = BASE_URL, canonicalBaseUr
   };
   const publicJob = audit.jobs.find((job) => publicState(job, audit.clock) === "public");
   if (publicJob) {
+    const companySource = await get("search-index.json");
+    if (!companySource.ok) throw new Error("LIVE_COMPANY_INDEX_SOURCE_UNAVAILABLE");
+    const companyRecords = parseJson(companySource.body, "search-index.json");
+    if (!Array.isArray(companyRecords)) throw new Error("COMPANY_INDEX_SOURCE_INVALID");
+    audit.company_paths = companyIndexArticlePaths(companyRecords);
     const radar = await get("market-radar.json");
     const sitemap = await get("sitemap.xml");
     const radarReason = !radar.ok || !sitemap.ok ? "LIVE_RADAR_SURFACE_UNAVAILABLE"
@@ -366,7 +375,7 @@ export async function writeIndexNowBrief({ auditFile, output, baseUrl = BASE_URL
   const audit = await loadAudit(auditFile);
   const urls = [];
   const clock = Date.parse(audit.clock);
-  for (const job of audit.jobs.filter((item) => item.state === "due" && clock - Date.parse(item.publish_at) >= 0 && clock - Date.parse(item.publish_at) <= 15 * 60 * 1000)) {
+  for (const job of audit.jobs.filter((item) => item.state === "due" && clock >= Date.parse(item.publish_at))) {
     for (const article of job.articles || []) urls.push(`${baseUrl}/${article.url_path}`);
   }
   const unique = [...new Set(urls)].sort();
