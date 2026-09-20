@@ -40,6 +40,7 @@ jobs:
         env:
           DRUGNEWS_QUEUE_KEY_B64: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64 }}
           DRUGNEWS_QUEUE_KEY_B64_V2: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64_V2 }}
+          DRUGNEWS_QUEUE_KEY_B64_V3: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64_V3 }}
         run: >-
           node scripts/scheduled_queue.mjs prepare
           --queue=content/scheduled

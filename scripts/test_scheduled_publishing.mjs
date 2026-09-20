@@ -626,6 +626,57 @@ test("mixed queue fails closed when a referenced V2 secret is missing or incorre
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
+test("V3 repair preserves V1 and fails closed before materializing future content", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-v1-v3-"));
+  const keyV3 = Buffer.alloc(32, 0x63); // Synthetic fixture only; never an operational key.
+  const mixed = { ...ENV, DRUGNEWS_QUEUE_KEY_B64_V3: keyV3.toString("base64") };
+  try {
+    const queue = path.join(root, "queue"); const published = path.join(root, "published");
+    const v1Input = path.join(root, "v1"); const v1 = await makeInput(v1Input, 301, { slug: "v3-guard-existing-v1" });
+    const old = await addBundle(queue, v1Input, v1);
+    const before = digest(await fs.readFile(old.output));
+    const v3Input = path.join(root, "v3");
+    const v3 = await makeInput(v3Input, 303, { slug: "v3-guard-future", publishAt: "2026-09-19T08:00:00+08:00", english: true });
+    await packBundle({ inputRoot: v3Input, outputPath: queue, key: keyV3, keyId: "v3", repoRoot: PACK_REPO, liveBaseUrl: "" });
+    await fs.mkdir(published, { recursive: true });
+    const options = { queueDir: queue, publishedRoot: published, now: new Date("2026-09-18T23:59:59Z") };
+    await assert.rejects(() => prepareQueue({ ...options, workDir: path.join(root, "missing"), env: ENV }), /QUEUE_KEY_V3_MISSING_OR_INVALID/);
+    await assert.rejects(() => prepareQueue({ ...options, workDir: path.join(root, "wrong"), env: { ...ENV, DRUGNEWS_QUEUE_KEY_B64_V3: Buffer.alloc(32, 0x64).toString("base64") } }), /QUEUE_KEY_AUTH_FAILED:v3/);
+    await assert.rejects(() => fs.access(path.join(root, "missing")), { code: "ENOENT" });
+    assert.equal((await fs.readdir(path.join(root, "wrong", "staging"))).length, 0);
+    const pre = await prepareQueue({ ...options, workDir: path.join(root, "before"), env: mixed });
+    assert.equal(pre.queue_count, 2); assert.equal(pre.pending_count, 1); assert.equal(pre.due_count, 1); assert.equal(pre.held_count, 0);
+    for (const slug of [v3.articles.zh.slug, v3.articles.en.slug]) await assert.rejects(() => fs.access(path.join(pre.stagingRoot, slug)), { code: "ENOENT" });
+    const publicRoot = path.join(root, "empty-public"); await fs.mkdir(publicRoot);
+    const audit = JSON.parse(await fs.readFile(pre.auditFile, "utf8"));
+    const future = audit.jobs.find(job => job.job_id === v3.job_id);
+    assert(future && future.job_id === v3.job_id);
+    const futureAudit = path.join(root, "future-audit.json");
+    await write(futureAudit, JSON.stringify({ ...audit, jobs: [future] }));
+    await auditCandidate({ root: publicRoot, auditFile: futureAudit, repoRoot: PACK_REPO, skipLiveInventory: true });
+    await write(path.join(publicRoot, "index.html"), v3.slug);
+    await assert.rejects(() => auditCandidate({ root: publicRoot, auditFile: futureAudit, repoRoot: PACK_REPO, skipLiveInventory: true }), /SCHEDULED_LEAK_AUDIT_FAILED/);
+    const after = await prepareQueue({ ...options, now: new Date("2026-09-19T00:00:01Z"), workDir: path.join(root, "after"), env: mixed });
+    assert.equal(after.due_count, 2); assert.equal(after.pending_count, 0); assert.equal(after.held_count, 0);
+    for (const slug of [v3.articles.zh.slug, v3.articles.en.slug]) await fs.access(path.join(after.stagingRoot, slug, "article.md"));
+    assert.equal(digest(await fs.readFile(old.output)), before);
+    const yaml = await fs.readFile(path.join(REPO_ROOT, ".github/workflows/pages.yml"), "utf8");
+    assert(yaml.includes("DRUGNEWS_QUEUE_KEY_B64_V3: ${{ secrets.DRUGNEWS_QUEUE_KEY_B64_V3 }}"));
+    const guard = yaml.indexOf("test \"$(git rev-parse HEAD)\" = \"$(git rev-parse origin/main)\"");
+    assert(guard > 0 && guard < yaml.indexOf("uses: actions/upload-pages-artifact@"));
+    assert(yaml.includes("cancel-in-progress: false"));
+    const guardRepo = await makeGitRepo(root, "stale-guard");
+    const first = run("git", ["rev-parse", "HEAD"], guardRepo).stdout.trim();
+    run("git", ["commit", "--allow-empty", "-qm", "new remote main"], guardRepo);
+    const latest = run("git", ["rev-parse", "HEAD"], guardRepo).stdout.trim();
+    run("git", ["update-ref", "refs/remotes/origin/main", latest], guardRepo);
+    const guardCommand = 'test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"';
+    assert.equal(spawnSync("bash", ["-c", guardCommand], { cwd: guardRepo }).status, 0);
+    run("git", ["checkout", "--detach", first], guardRepo);
+    assert.equal(spawnSync("bash", ["-c", guardCommand], { cwd: guardRepo }).status, 1);
+  } finally { keyV3.fill(0); await fs.rm(root, { recursive: true, force: true }); }
+});
+
 test("frozen clock keeps T-1 private and publishes at T+1 idempotently", async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-clock-"));
   try {
