@@ -7,6 +7,7 @@ import http from "node:http";
 import { spawnSync } from "node:child_process";
 import { pathToFileURL } from "node:url";
 import {
+  MAX_JOBS,
   MAX_BUNDLE_BYTES,
   MAX_QUEUE_BYTES,
   bundleSizeReason,
@@ -317,16 +318,19 @@ test("production and CI permanently reject --force", () => {
 test("actual-byte capacity boundaries are exact", async () => {
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-size-"));
   try {
+    assert.equal(MAX_JOBS, 20);
+    assert.equal(MAX_BUNDLE_BYTES, 89 * 1024 * 1024);
+    assert.equal(MAX_QUEUE_BYTES, 512 * 1024 * 1024);
     for (const size of [MAX_BUNDLE_BYTES - 1, MAX_BUNDLE_BYTES, MAX_BUNDLE_BYTES + 1]) {
       const file = path.join(dir, String(size)); await fs.writeFile(file, ""); await fs.truncate(file, size);
       const actual = (await fs.stat(file)).size;
       assert.equal(bundleSizeReason(actual), size > MAX_BUNDLE_BYTES ? "BUNDLE_TOO_LARGE" : "");
     }
-    const maxStats = Array.from({ length: 16 }, (_, index) => ({ bytes: Math.floor(MAX_QUEUE_BYTES / 16) + (index === 0 ? MAX_QUEUE_BYTES % 16 : 0) }));
+    const maxStats = Array.from({ length: 20 }, (_, index) => ({ bytes: Math.floor(MAX_QUEUE_BYTES / 20) + (index === 0 ? MAX_QUEUE_BYTES % 20 : 0) }));
     assert.equal(validateQueueLimitsFromStats(maxStats).ok, true);
     maxStats[0].bytes += 1;
     assert.equal(validateQueueLimitsFromStats(maxStats).reason, "QUEUE_TOTAL_LIMIT");
-    assert.equal(validateQueueLimitsFromStats(Array.from({ length: 17 }, () => ({ bytes: 1 }))).reason, "QUEUE_COUNT_LIMIT");
+    assert.equal(validateQueueLimitsFromStats(Array.from({ length: 21 }, () => ({ bytes: 1 }))).reason, "QUEUE_COUNT_LIMIT");
   } finally { await fs.rm(dir, { recursive: true, force: true }); }
 });
 
@@ -558,19 +562,23 @@ test("direct pack CLI executes from the non-ASCII repository path", async () => 
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
-test("1/9/16 jobs all validate; 17 is a global HOLD", async () => {
+test("1/9/16/20 jobs all validate; 21 is a global HOLD", async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-count-"));
   try {
     const queue = path.join(root, "queue"); const published = path.join(root, "published"); await fs.mkdir(published, { recursive: true });
-    for (let index = 1; index <= 16; index++) {
+    for (let index = 1; index <= 20; index++) {
       const input = path.join(root, `input-${index}`); const manifest = await makeInput(input, index); await addBundle(queue, input, manifest);
-      if ([1, 9, 16].includes(index)) {
+      if ([1, 9, 16, 20].includes(index)) {
         const summary = await prepareQueue({ queueDir: queue, workDir: path.join(root, `work-${index}`), publishedRoot: published, now: new Date("2026-09-11T00:01:00Z"), env: ENV });
         assert.equal(summary.queue_count, index); assert.equal(summary.due_count, index);
+        assert.equal(summary.queue_slots_remaining, 20 - index);
+        assert.equal(summary.pending_count, 0); assert.equal(summary.held_count, 0);
       }
     }
-    const input17 = path.join(root, "input-17"); const manifest17 = await makeInput(input17, 17); await addBundle(queue, input17, manifest17);
-    await assert.rejects(() => prepareQueue({ queueDir: queue, workDir: path.join(root, "work-17"), publishedRoot: published, now: new Date("2026-09-11T00:01:00Z"), env: ENV }), /QUEUE_COUNT_LIMIT/);
+    const input21 = path.join(root, "input-21"); const manifest21 = await makeInput(input21, 21); await addBundle(queue, input21, manifest21);
+    const rejectedWorkDir = path.join(root, "work-21");
+    await assert.rejects(() => prepareQueue({ queueDir: queue, workDir: rejectedWorkDir, publishedRoot: published, now: new Date("2026-09-11T00:01:00Z"), env: ENV }), /QUEUE_COUNT_LIMIT/);
+    await assert.rejects(() => fs.access(rejectedWorkDir), { code: "ENOENT" });
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
@@ -826,7 +834,7 @@ test("fifteen daily due bundles retain permanent entrypoints without stale home 
       const summary = await prepareQueue({ queueDir: queue, workDir: path.join(root, `work-${day}`), publishedRoot: published, now, env: ENV });
       assert.equal(summary.due_count, offset + 1); assert.equal(summary.pending_count, 14 - offset);
       assert.equal(summary.newly_due_count, 1);
-      assert.equal(summary.queue_slots_used, 15); assert.equal(summary.queue_slots_remaining, 1);
+      assert.equal(summary.queue_slots_used, 15); assert.equal(summary.queue_slots_remaining, 5);
       const candidate = path.join(root, `candidate-${day}`); await runPublisherCandidate(candidate, summary.stagingRoot, now.toISOString());
       try { await auditCandidate({ root: candidate, auditFile: summary.auditFile, skipLiveInventory: true, repoRoot: PACK_REPO }); }
       catch (error) { throw new Error(`day ${day}: ${error.message}: ${JSON.stringify(error.failures || [])}`); }

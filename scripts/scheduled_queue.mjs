@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 import { bodyCanaries, canonicalMarkdownBody, sha256Text } from "./scheduled_content_integrity.mjs";
 import { publicDateValidationError, strictCalendarDate, validateSocialCoverPolicy } from "./article_metadata_contract.mjs";
 
-export const MAX_JOBS = 16;
+export const MAX_JOBS = 20;
 export const MAX_BUNDLE_BYTES = 89 * 1024 * 1024;
 export const MAX_QUEUE_BYTES = 512 * 1024 * 1024;
 const MAGIC = Buffer.from("DNQ1");
