@@ -1,0 +1,60 @@
+{
+  "origin": "https://drugnews.com.tw",
+  "title": "藥時事 Drugnews｜生技醫藥商業分析、公司研究與 BD 授權",
+  "description": "藥時事 Drugnews 專注生技醫藥商業分析，串連臨床數據、公司研究、BD 授權與估值框架。閱讀最新分析、研究指南與深度專題，回到證據、風險與可驗證假設。",
+  "brandIntro": "藥時事 Drugnews 專注生技醫藥商業分析，從臨床證據、公司策略到 BD 授權與估值，協助讀者形成可驗證的商業判斷。",
+  "categories": [
+    {
+      "number": "01",
+      "title": "商業分析",
+      "description": "從最新公開事件拆解公司策略、臨床數據、交易訊號與資本市場反應。",
+      "url": "https://drugnews.com.tw/articles/category/business-analysis.html"
+    },
+    {
+      "number": "02",
+      "title": "基本面",
+      "description": "追蹤公司管線、營收、臨床里程碑與估值假設，適合長期回查。",
+      "url": "https://drugnews.com.tw/articles/category/fundamental-analysis.html"
+    },
+    {
+      "number": "03",
+      "title": "醫學大會",
+      "description": "ASCO、ESMO、AACR 等重要學會資料整理，協助讀者快速理解臨床數據與產業意義。",
+      "url": "https://drugnews.com.tw/articles/category/medical-conference.html"
+    },
+    {
+      "number": "04",
+      "title": "深度商業分析",
+      "description": "聚焦 BD、授權、產業策略、平台價值與資本市場重新定價，適合想深入追蹤的讀者。",
+      "url": "https://drugnews.com.tw/articles/category/paid-deep-analysis.html"
+    },
+    {
+      "number": "05",
+      "title": "製藥巨頭",
+      "description": "整理大型藥廠的管線取捨、併購邏輯、專利懸崖與全球競爭格局。",
+      "url": "https://drugnews.com.tw/articles/category/big-pharma.html"
+    }
+  ],
+  "topics": [
+    {
+      "title": "生技估值",
+      "url": "https://drugnews.com.tw/topics/biotech-valuation.html",
+      "description": "從管線、商業化與風險假設，建立公司研究路徑。"
+    },
+    {
+      "title": "BD 授權交易",
+      "url": "https://drugnews.com.tw/topics/bd-licensing.html",
+      "description": "整理授權條款、交易結構與產業策略相關分析。"
+    },
+    {
+      "title": "臨床數據判讀",
+      "url": "https://drugnews.com.tw/topics/clinical-data.html",
+      "description": "回到試驗設計、終點與完整數據，閱讀相關研究。"
+    },
+    {
+      "title": "CMC 與製造",
+      "url": "https://drugnews.com.tw/topics/cmc.html",
+      "description": "追蹤製程、產能與供應鏈的產業議題。"
+    }
+  ]
+}

@@ -84,6 +84,11 @@ jobs:
           find _site -type f -name '.DS_Store' -delete
           du -sh _site
 
+      - name: Build search-ready homepage candidate
+        run: |
+          node scripts/build_search_ready.mjs --root=_site --out=_site --production
+          node scripts/audit_search_ready.mjs --root=_site
+
       - name: Fail closed on pre-release leaks, duplicates, or live regression
         run: >-
           node scripts/audit_scheduled_leaks.mjs candidate
