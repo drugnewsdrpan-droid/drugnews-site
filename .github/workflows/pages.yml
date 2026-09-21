@@ -30,6 +30,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install locked image build dependency
+        run: npm ci --ignore-scripts --no-audit --no-fund
+
       - name: Freeze one release clock
         id: clock
         shell: bash
@@ -78,6 +81,7 @@ jobs:
             --exclude 'scripts' \
             --exclude 'node_modules' \
             --exclude 'package.json' \
+            --exclude 'package-lock.json' \
             --exclude 'README.md' \
             --exclude '.gitignore' \
             ./ _site/

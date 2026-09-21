@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "dependencies": {
+    "sharp": "0.35.4"
+  },
   "scripts": {
     "publish": "node scripts/publish_articles.mjs && node scripts/build_english_site.mjs && node scripts/build_topic_hubs.mjs && node scripts/build_company_index.mjs && node scripts/prerender_concept_guides.mjs && node scripts/normalize_site_headers.mjs && node scripts/inject_analytics.mjs && node scripts/audit_image_budget.mjs",
     "publish:force": "node scripts/publish_articles.mjs --force && node scripts/build_english_site.mjs && node scripts/build_topic_hubs.mjs && node scripts/build_company_index.mjs && node scripts/prerender_concept_guides.mjs && node scripts/normalize_site_headers.mjs && node scripts/inject_analytics.mjs && node scripts/audit_image_budget.mjs",

@@ -205,7 +205,7 @@ async function copyTrackedBaseline(target) {
 }
 
 async function copyPublicTree(source, target) {
-  const excluded = new Set([".git", ".github", "_site", "content", "scripts", "node_modules", "package.json", "README.md", ".gitignore"]);
+  const excluded = new Set([".git", ".github", "_site", "content", "scripts", "node_modules", "package.json", "package-lock.json", "README.md", ".gitignore"]);
   const files = [];
   async function visit(relative = "") {
     for (const entry of await fs.readdir(path.join(source, relative), { withFileTypes: true })) {

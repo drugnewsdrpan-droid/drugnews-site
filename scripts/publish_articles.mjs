@@ -3,6 +3,7 @@ import path from "node:path";
 import { markdownToHtml, normalizeReferenceLists, stripLeadingTitle } from "./article_body_renderer.mjs";
 import { inferSeries } from "./article_public_contract.mjs";
 import { publicDateValidationError, validateSocialCoverPolicy } from "./article_metadata_contract.mjs";
+import { buildResponsiveCover } from "./build_article_media.mjs";
 
 const ROOT = process.cwd();
 const BASE_URL = "https://drugnews.com.tw";
@@ -799,7 +800,7 @@ async function copyImages(article) {
   const imageMap = new Map();
   const targetDir = path.join(ASSETS, article.meta.slug);
   await fs.mkdir(targetDir, { recursive: true });
-  async function copyResponsiveVariants(source) {
+  async function copyResponsiveVariants(source, required = false) {
     const parsed = path.parse(source);
     for (const suffix of ["720", "1400"]) {
       const variant = path.join(parsed.dir, `${parsed.name}-${suffix}.webp`);
@@ -807,13 +808,17 @@ async function copyImages(article) {
         await fs.copyFile(variant, path.join(targetDir, path.basename(variant)));
       }
     }
+    if (required) {
+      const report = await buildResponsiveCover(source, path.join(targetDir, parsed.name), { onlyMissing: true });
+      if (report.some((item) => !item.pass)) throw new Error(`IMAGE_BUDGET_EXCEEDED: ${article.meta.slug}/${parsed.name}`);
+    }
   }
   if (article.meta.cover_image && !/^https?:\/\//i.test(article.meta.cover_image)) {
     const fileName = path.basename(article.meta.cover_image);
     const source = path.join(article.folderPath, article.meta.cover_image);
     const target = path.join(targetDir, fileName);
     await fs.copyFile(source, target);
-    await copyResponsiveVariants(source);
+    await copyResponsiveVariants(source, article.meta.responsive_card_image !== false || article.meta.show_cover_in_hero === true);
     imageMap.set(article.meta.cover_image, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
   } else if (article.meta.cover_image) {
     imageMap.set(article.meta.cover_image, article.meta.cover_image);
@@ -822,6 +827,7 @@ async function copyImages(article) {
     const fileName = path.basename(article.meta.card_image);
     const source = path.join(article.folderPath, article.meta.card_image);
     await fs.copyFile(source, path.join(targetDir, fileName));
+    await copyResponsiveVariants(source, article.meta.responsive_card_image !== false);
     imageMap.set(article.meta.card_image, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
   } else if (article.meta.card_image) {
     imageMap.set(article.meta.card_image, article.meta.card_image);
@@ -831,7 +837,7 @@ async function copyImages(article) {
     const source = path.join(article.folderPath, article.meta.homepage_cover_image);
     const target = path.join(targetDir, fileName);
     await fs.copyFile(source, target);
-    await copyResponsiveVariants(source);
+    await copyResponsiveVariants(source, article.meta.responsive_card_image !== false);
     imageMap.set(article.meta.homepage_cover_image, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
   } else if (article.meta.homepage_cover_image) {
     imageMap.set(article.meta.homepage_cover_image, article.meta.homepage_cover_image);
@@ -845,7 +851,8 @@ async function copyImages(article) {
     const fileName = path.basename(image.src);
     const target = path.join(targetDir, fileName);
     await fs.copyFile(source, target);
-    await copyResponsiveVariants(source);
+    const fallbackCover = !article.meta.cover_image && image.src === findMarkdownImages(article.markdown)[0]?.src;
+    await copyResponsiveVariants(source, fallbackCover && (article.meta.responsive_card_image !== false || article.meta.show_cover_in_hero === true));
     imageMap.set(image.src, `../assets/articles/${article.meta.slug}/${encodeURIComponent(fileName)}`);
   }
   return imageMap;

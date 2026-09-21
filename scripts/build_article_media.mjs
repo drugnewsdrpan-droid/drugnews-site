@@ -1,10 +1,38 @@
 import { createRequire } from "node:module";
 import { copyFile, mkdir, stat } from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 const require = createRequire(import.meta.url);
-const sharp = require("sharp");
 
+export async function buildResponsiveCover(source, destination, { onlyMissing = false } = {}) {
+  // A derivative can never stand in for a missing approved original.
+  await stat(source);
+  await mkdir(path.dirname(destination), { recursive: true });
+  const report = [];
+  for (const [suffix, width, quality, budget] of [
+    ["720", 720, 74, 200_000],
+    ["1400", 1400, 80, 500_000]
+  ]) {
+    const output = `${destination}-${suffix}.webp`;
+    const existing = onlyMissing && await stat(output).catch((error) => {
+      if (error.code !== "ENOENT") throw error;
+      return null;
+    });
+    if (!existing) {
+      await require("sharp")(source)
+        .resize({ width, withoutEnlargement: true })
+        .webp({ quality, effort: 5 })
+        .toFile(output);
+    }
+    const bytes = (await stat(output)).size;
+    report.push({ kind: "cover", output, bytes, budget, pass: bytes <= budget });
+  }
+  return report;
+}
+
+async function main() {
+const sharp = require("sharp");
 const operations = process.argv.slice(2);
 
 if (!operations.length || operations.length % 3 !== 0) {
@@ -22,18 +50,7 @@ for (let index = 0; index < operations.length; index += 3) {
     const png = `${destination}.png`;
     await copyFile(source, png);
 
-    for (const [suffix, width, quality, budget] of [
-      ["720", 720, 74, 200_000],
-      ["1400", 1400, 80, 500_000]
-    ]) {
-      const output = `${destination}-${suffix}.webp`;
-      await sharp(source)
-        .resize({ width, withoutEnlargement: true })
-        .webp({ quality, effort: 5 })
-        .toFile(output);
-      const bytes = (await stat(output)).size;
-      report.push({ kind, output, bytes, budget, pass: bytes <= budget });
-    }
+    report.push(...await buildResponsiveCover(source, destination));
     continue;
   }
 
@@ -53,3 +70,6 @@ for (let index = 0; index < operations.length; index += 3) {
 const failures = report.filter((item) => !item.pass);
 console.log(JSON.stringify({ count: report.length, failures }, null, 2));
 if (failures.length) process.exitCode = 1;
+}
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) await main();
