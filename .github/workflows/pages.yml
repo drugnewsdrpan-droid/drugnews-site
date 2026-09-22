@@ -93,6 +93,13 @@ jobs:
           node scripts/build_search_ready.mjs --root=_site --out=_site --production
           node scripts/audit_search_ready.mjs --root=_site
 
+      - name: Build due-only public delivery receipt
+        run: >-
+          node scripts/build_release_health.mjs
+          --audit-file=/tmp/drugnews-queue/private-audit.json
+          --output=_site/release-health.json
+          --commit=${{ github.sha }}
+
       - name: Fail closed on pre-release leaks, duplicates, or live regression
         run: >-
           node scripts/audit_scheduled_leaks.mjs candidate
