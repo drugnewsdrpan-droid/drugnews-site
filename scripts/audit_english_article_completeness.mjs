@@ -113,9 +113,9 @@ function checkEnglishRecord(record, source) {
   }
 
   if (
-    record.meta.slug !== "scholar-rock-isembyld-sma-care-en" &&
-    /facebook-\d{2}|dcard-\d{2}|[\u4e00-\u9fff]/u.test(
-      images.map((image) => `${image.src} ${image.alt}`).join(" ")
+    images.some((image) =>
+      /[\u4e00-\u9fff]/u.test(image.alt) ||
+      /facebook-\d{2}|dcard-\d{2}|(?:^|[/_.-])(?:zh(?:-hant|-hans)?|cn)(?=[/_.-]|$)/i.test(image.src)
     )
   ) {
     issues.push("English article images appear to reuse social/Chinese image assets or Chinese alt text");
