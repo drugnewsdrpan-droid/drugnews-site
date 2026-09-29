@@ -318,7 +318,7 @@ test("production and CI permanently reject --force", () => {
 test("actual-byte capacity boundaries are exact", async () => {
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-size-"));
   try {
-    assert.equal(MAX_JOBS, 28);
+    assert.equal(MAX_JOBS, 30);
     assert.equal(MAX_BUNDLE_BYTES, 89 * 1024 * 1024);
     assert.equal(MAX_QUEUE_BYTES, 512 * 1024 * 1024);
     for (const size of [MAX_BUNDLE_BYTES - 1, MAX_BUNDLE_BYTES, MAX_BUNDLE_BYTES + 1]) {
@@ -326,11 +326,11 @@ test("actual-byte capacity boundaries are exact", async () => {
       const actual = (await fs.stat(file)).size;
       assert.equal(bundleSizeReason(actual), size > MAX_BUNDLE_BYTES ? "BUNDLE_TOO_LARGE" : "");
     }
-    const maxStats = Array.from({ length: 28 }, (_, index) => ({ bytes: Math.floor(MAX_QUEUE_BYTES / 28) + (index === 0 ? MAX_QUEUE_BYTES % 28 : 0) }));
+    const maxStats = Array.from({ length: 30 }, (_, index) => ({ bytes: Math.floor(MAX_QUEUE_BYTES / 30) + (index === 0 ? MAX_QUEUE_BYTES % 30 : 0) }));
     assert.equal(validateQueueLimitsFromStats(maxStats).ok, true);
     maxStats[0].bytes += 1;
     assert.equal(validateQueueLimitsFromStats(maxStats).reason, "QUEUE_TOTAL_LIMIT");
-    assert.equal(validateQueueLimitsFromStats(Array.from({ length: 29 }, () => ({ bytes: 1 }))).reason, "QUEUE_COUNT_LIMIT");
+    assert.equal(validateQueueLimitsFromStats(Array.from({ length: 31 }, () => ({ bytes: 1 }))).reason, "QUEUE_COUNT_LIMIT");
   } finally { await fs.rm(dir, { recursive: true, force: true }); }
 });
 
@@ -562,21 +562,21 @@ test("direct pack CLI executes from the non-ASCII repository path", async () => 
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
-test("1/9/16/20/21/28 jobs all validate; 29 is a global HOLD", async () => {
+test("1/9/16/20/21/28/30 jobs all validate; 31 is a global HOLD", async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-count-"));
   try {
     const queue = path.join(root, "queue"); const published = path.join(root, "published"); await fs.mkdir(published, { recursive: true });
-    for (let index = 1; index <= 28; index++) {
+    for (let index = 1; index <= 30; index++) {
       const input = path.join(root, `input-${index}`); const manifest = await makeInput(input, index); await addBundle(queue, input, manifest);
-      if ([1, 9, 16, 20, 21, 28].includes(index)) {
+      if ([1, 9, 16, 20, 21, 28, 30].includes(index)) {
         const summary = await prepareQueue({ queueDir: queue, workDir: path.join(root, `work-${index}`), publishedRoot: published, now: new Date("2026-09-11T00:01:00Z"), env: ENV });
         assert.equal(summary.queue_count, index); assert.equal(summary.due_count, index);
-        assert.equal(summary.queue_slots_remaining, 28 - index);
+        assert.equal(summary.queue_slots_remaining, 30 - index);
         assert.equal(summary.pending_count, 0); assert.equal(summary.held_count, 0);
       }
     }
-    const input29 = path.join(root, "input-29"); const manifest29 = await makeInput(input29, 29); await addBundle(queue, input29, manifest29);
-    const rejectedWorkDir = path.join(root, "work-29");
+    const input31 = path.join(root, "input-31"); const manifest31 = await makeInput(input31, 31); await addBundle(queue, input31, manifest31);
+    const rejectedWorkDir = path.join(root, "work-31");
     await assert.rejects(() => prepareQueue({ queueDir: queue, workDir: rejectedWorkDir, publishedRoot: published, now: new Date("2026-09-11T00:01:00Z"), env: ENV }), /QUEUE_COUNT_LIMIT/);
     await assert.rejects(() => fs.access(rejectedWorkDir), { code: "ENOENT" });
   } finally { await fs.rm(root, { recursive: true, force: true }); }
@@ -683,6 +683,66 @@ test("V3 repair preserves V1 and fails closed before materializing future conten
     run("git", ["checkout", "--detach", first], guardRepo);
     assert.equal(spawnSync("bash", ["-c", guardCommand], { cwd: guardRepo }).status, 1);
   } finally { keyV3.fill(0); await fs.rm(root, { recursive: true, force: true }); }
+});
+
+test("only exact Taipei 08:00 and 20:00 slots pass payload validation", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-slot-validation-"));
+  try {
+    for (const hour of ["08", "20"]) {
+      const input = path.join(root, hour);
+      await makeInput(input, 400 + Number(hour), { publishAt: `2026-10-01T${hour}:00:00+08:00` });
+      const payload = await payloadFromFixture(input);
+      assert.doesNotThrow(() => validatePayload(payload));
+      for (const invalid of ["07:00:00+08:00", "09:00:00+08:00", "19:00:00+08:00", "21:00:00+08:00", "20:01:00+08:00", "20:00:01+08:00", "20:00:00Z", "20:00:00+09:00"]) {
+        assert.throws(() => validatePayload({ ...payload, publish_at: `2026-10-01T${invalid}` }), /PUBLISH_AT_INVALID/);
+      }
+      assert.throws(() => validatePayload({ ...payload, publish_at: `2026-02-30T${hour}:00:00+08:00` }), /PUBLISH_AT_INVALID/);
+    }
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
+});
+
+test("same-day distinct morning and evening jobs respect both exact boundaries without leaks or duplicate pages", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-two-slots-"));
+  try {
+    const queue = path.join(root, "queue"), published = path.join(root, "published");
+    await fs.mkdir(published);
+    const morningInput = path.join(root, "morning"), eveningInput = path.join(root, "evening");
+    const morning = await makeInput(morningInput, 408, { publishAt: "2026-10-01T08:00:00+08:00", slug: "synthetic-morning", contentId: "synthetic_morning" });
+    const evening = await makeInput(eveningInput, 420, { publishAt: "2026-10-01T20:00:00+08:00", slug: "synthetic-evening", contentId: "synthetic_evening" });
+    await addBundle(queue, morningInput, morning);
+    await addBundle(queue, eveningInput, evening);
+    const queueBefore = await treeDigest(queue);
+    const summaries = [];
+    for (const [label, now, due] of [
+      ["before-morning", "2026-10-01T07:59:59+08:00", 0],
+      ["morning", morning.publish_at, 1],
+      ["before-evening", "2026-10-01T19:59:59+08:00", 1],
+      ["evening", evening.publish_at, 2],
+      ["evening-repeat", "2026-10-01T20:00:01+08:00", 2]
+    ]) {
+      const summary = await prepareQueue({ queueDir: queue, workDir: path.join(root, label), publishedRoot: published, now: new Date(now), env: ENV });
+      assert.equal(summary.due_count, due); assert.equal(summary.pending_count, 2 - due); assert.equal(summary.held_count, 0);
+      assert.deepEqual((await fs.readdir(summary.stagingRoot)).sort(), due === 0 ? [] : due === 1 ? [morning.slug] : [evening.slug, morning.slug].sort());
+      summaries.push(summary);
+    }
+    assert.equal(await treeDigest(summaries[1].stagingRoot), await treeDigest(summaries[2].stagingRoot));
+    assert.equal(await treeDigest(summaries[3].stagingRoot), await treeDigest(summaries[4].stagingRoot));
+    const morningCandidate = path.join(root, "morning-site");
+    await runPublisherCandidate(morningCandidate, summaries[1].stagingRoot, morning.publish_at);
+    await auditCandidate({ root: morningCandidate, auditFile: summaries[1].auditFile, skipLiveInventory: true, skipGitAudit: true });
+    const eveningUrl = `articles/2026-10-01-${evening.slug}.html`;
+    await assert.rejects(() => fs.access(path.join(morningCandidate, eveningUrl)), { code: "ENOENT" });
+    await write(path.join(morningCandidate, eveningUrl), "premature evening page");
+    await assert.rejects(() => auditCandidate({ root: morningCandidate, auditFile: summaries[1].auditFile, skipLiveInventory: true, skipGitAudit: true }), /SCHEDULED_LEAK_AUDIT_FAILED/);
+    const eveningCandidate = path.join(root, "evening-site");
+    await runPublisherCandidate(eveningCandidate, summaries[3].stagingRoot, evening.publish_at);
+    await auditCandidate({ root: eveningCandidate, auditFile: summaries[3].auditFile, skipLiveInventory: true, skipGitAudit: true });
+    const firstBuild = await treeDigest(eveningCandidate);
+    await runPublisherCandidate(eveningCandidate, summaries[4].stagingRoot, evening.publish_at);
+    assert.equal(await treeDigest(eveningCandidate), firstBuild);
+    for (const item of [morning, evening]) assert.equal((await fs.readdir(path.join(eveningCandidate, "articles"))).filter(name => name === `2026-10-01-${item.slug}.html`).length, 1);
+    assert.equal(await treeDigest(queue), queueBefore);
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
 test("frozen clock keeps T-1 private and publishes at T+1 idempotently", async () => {
@@ -834,7 +894,7 @@ test("fifteen daily due bundles retain permanent entrypoints without stale home 
       const summary = await prepareQueue({ queueDir: queue, workDir: path.join(root, `work-${day}`), publishedRoot: published, now, env: ENV });
       assert.equal(summary.due_count, offset + 1); assert.equal(summary.pending_count, 14 - offset);
       assert.equal(summary.newly_due_count, 1);
-      assert.equal(summary.queue_slots_used, 15); assert.equal(summary.queue_slots_remaining, 13);
+      assert.equal(summary.queue_slots_used, 15); assert.equal(summary.queue_slots_remaining, 15);
       const candidate = path.join(root, `candidate-${day}`); await runPublisherCandidate(candidate, summary.stagingRoot, now.toISOString());
       try { await auditCandidate({ root: candidate, auditFile: summary.auditFile, skipLiveInventory: true, repoRoot: PACK_REPO }); }
       catch (error) { throw new Error(`day ${day}: ${error.message}: ${JSON.stringify(error.failures || [])}`); }

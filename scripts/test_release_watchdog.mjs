@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import fs from "node:fs/promises";
 import { configuration, tick, network, ReleaseCoordinator, default as worker } from "./watchdog/worker.mjs";
 import { releaseHealth } from "./build_release_health.mjs";
 
@@ -42,4 +43,75 @@ await test("transport posts only fixed workflow/main and contains no payload dat
 await test("bounded network response rejects a giant index-like body", async () => { const io = network(async () => new Response("x".repeat(32769)), "test-only-not-real-token-value"); await assert.rejects(() => io.health(), /RESPONSE_SIZE_LIMIT/); });
 await test("run inventory requests one realistic-size result per filter and exact receipt", async () => { const calls = []; const run = { id: 123, workflow_id: 306978779, head_branch: "main", path: ".github/workflows/pages.yml", status: "completed", padding: "x".repeat(15000) }; const io = network(async url => { calls.push(url); return Response.json(url.endsWith("/actions/runs/123") ? run : { workflow_runs: [] }); }, "test-only-not-real-token-value"); assert.deepEqual(await io.runs({ run_id: 123 }), [run]); assert.equal(calls.length, 6); assert(calls.slice(0, 5).every(url => url.includes("per_page=1&status="))); });
 await test("invalid calendar dates fail configuration and health", () => { assert.throws(() => configuration(JSON.stringify({ ...config, jobs: [{ ...job, at: "2026-02-30T08:00:00+08:00" }] })), /CALENDAR/); assert.throws(() => releaseHealth({ ...audit, clock: "2026-03-02T08:00:00+08:00", jobs: [{ ...auditJob, publish_at: "2026-02-30T08:00:00+08:00" }] }, commit, "2026-03-02T08:00:00+08:00"), /CALENDAR/); });
+await test("configuration permits exact 08:00 and 20:00 only with unchanged size and identity guards", () => {
+  for (const hour of ["08", "20"]) assert.equal(configuration(JSON.stringify({ ...config, jobs: [{ ...job, at: `2026-09-22T${hour}:00:00+08:00` }] })).jobs[0].at, `2026-09-22T${hour}:00:00+08:00`);
+  for (const time of ["07:00:00+08:00", "09:00:00+08:00", "19:00:00+08:00", "21:00:00+08:00", "20:01:00+08:00", "20:00:01+08:00", "20:00:00Z", "20:00:00+09:00"]) assert.throws(() => configuration(JSON.stringify({ ...config, jobs: [{ ...job, at: `2026-09-22T${time}` }] })), /CONFIG_JOB_INVALID/);
+  assert.throws(() => configuration(JSON.stringify({ ...config, jobs: [{ ...job, at: "2026-02-30T20:00:00+08:00" }] })), /CONFIG_CALENDAR_INVALID/);
+  assert.throws(() => configuration(JSON.stringify({ ...config, jobs: [job, job] })), /CONFIG_JOB_INVALID/);
+  assert.throws(() => configuration(" ".repeat(5121)), /CONFIG_SIZE_INVALID/);
+});
+await test("thirty queue health jobs pass and thirty-one fail closed at producer and observer", async () => {
+  const jobs = Array.from({ length: 30 }, (_, index) => ({ ...auditJob, job_id: (index + 1).toString(16).padStart(32, "0") }));
+  jobs[0].job_id = job.id;
+  const result = releaseHealth({ ...audit, jobs }, commit, at);
+  assert.equal(result.jobs.length, 30);
+  const h = harness({ health: async () => result, exists: async () => true });
+  assert.equal((await h.run()).status, "PUBLIC_DELIVERY_OBSERVED_NOT_INDEPENDENT_E4");
+  assert.equal(h.dispatches, 0);
+  assert.throws(() => releaseHealth({ ...audit, jobs: [...jobs, { ...auditJob, job_id: "f".repeat(32) }] }, commit, at), /HEALTH_INPUT_INVALID/);
+  const oversized = harness({ health: async () => ({ ...result, jobs: [...result.jobs, { ...result.jobs[0], id: "f".repeat(32) }] }) });
+  await assert.rejects(() => oversized.run(), /HEALTH_INVALID/);
+  assert.equal(oversized.dispatches, 0);
+  const compactJobs = Array.from({ length: 30 }, (_, index) => ({ ...job, id: (index + 1).toString(16).padStart(32, "0"), paths: ["articles/2026-09-22-a.html"] }));
+  assert.equal(configuration(JSON.stringify({ schema: 1, jobs: compactJobs })).jobs.length, 30);
+  assert.throws(() => configuration(JSON.stringify({ schema: 1, jobs: [...compactJobs, { ...job, id: "f".repeat(32), paths: [] }] })), /CONFIG_(INVALID|SIZE_INVALID)/);
+});
+await test("evening health is withheld before 20:00 and retains the morning delivery", () => {
+  const eveningAudit = { ...auditJob, job_id: "2".repeat(32), publish_at: "2026-09-22T20:00:00+08:00" };
+  const before = "2026-09-22T19:59:59+08:00";
+  assert.deepEqual(releaseHealth({ ...audit, clock: before, jobs: [auditJob, { ...eveningAudit, state: "validated_pending" }] }, commit, before).jobs.map(j => j.id), [job.id]);
+  assert.throws(() => releaseHealth({ ...audit, clock: before, jobs: [auditJob, eveningAudit] }, commit, before), /HEALTH_PUBLIC_JOB_INVALID/);
+  assert.equal(releaseHealth({ ...audit, clock: eveningAudit.publish_at, jobs: [auditJob, eveningAudit] }, commit, eveningAudit.publish_at).jobs.length, 2);
+  for (const time of ["19:00:00", "21:00:00", "20:01:00"]) assert.throws(() => releaseHealth({ ...audit, clock: "2026-09-23T08:00:00+08:00", jobs: [{ ...eveningAudit, publish_at: `2026-09-22T${time}+08:00` }] }, commit, "2026-09-23T08:00:00+08:00"), /HEALTH_PUBLIC_JOB_INVALID/);
+});
+await test("existing five-minute cron routes a 20:00 event to the original coordinator and publisher", async () => {
+  const wrangler = JSON.parse(await fs.readFile(new URL("./watchdog/wrangler.jsonc", import.meta.url), "utf8"));
+  assert.deepEqual(wrangler.triggers.crons, ["*/5 * * * *"]);
+  const evening = { ...job, at: "2026-09-22T20:00:00+08:00" };
+  const h = harness();
+  let calls = 0;
+  const event = { cron: wrangler.triggers.crons[0], scheduledTime: Date.parse(evening.at) };
+  const env = { WATCHDOG_ENABLED: "true", COORDINATOR: {
+    idFromName(name) { assert.equal(name, "drugnews-original-publisher"); return "original-coordinator"; },
+    get(id) { assert.equal(id, "original-coordinator"); return { async fetch(url, options) {
+      calls++; assert.equal(url, "https://internal/tick"); assert.equal(options.method, "POST");
+      return Response.json(await h.run(new Date(event.scheduledTime), { config: { schema: 1, jobs: [evening] } }));
+    } }; }
+  } };
+  await worker.scheduled(event, env);
+  assert.equal(h.dispatches, 1);
+  await worker.scheduled(event, env);
+  assert.equal(calls, 2); assert.equal(h.dispatches, 1);
+});
+await test("same-day evening dispatch waits until 20:00 and repeated ticks never duplicate it", async () => {
+  const evening = { ...job, id: "2".repeat(32), at: "2026-09-22T20:00:00+08:00", paths: ["articles/2026-09-22-evening.html"] };
+  const both = configuration(JSON.stringify({ schema: 1, jobs: [job, evening] }));
+  const requested = [];
+  const h = harness({ health: async () => health, exists: async () => true, identity: async jobs => { requested.push(...jobs.map(j => j.id)); return commit; } });
+  assert.equal((await h.run("2026-09-22T07:59:59+08:00", { config: both })).status, "NO_UNCONFIRMED_DUE");
+  assert.equal((await h.run(at, { config: both })).status, "PUBLIC_DELIVERY_OBSERVED_NOT_INDEPENDENT_E4");
+  assert.equal((await h.run("2026-09-22T19:59:59+08:00", { config: both })).status, "NO_UNCONFIRMED_DUE");
+  assert.equal(h.dispatches, 0);
+  assert.equal((await h.run(evening.at, { config: both })).status, "ORIGINAL_WORKFLOW_DISPATCHED_NOT_PUBLISHED");
+  assert.deepEqual(requested, [evening.id]);
+  assert.equal((await h.run("2026-09-22T20:00:01+08:00", { config: both })).status, "WAITING_RETRY_COOLDOWN");
+  assert.equal(h.dispatches, 1);
+  h.io.health = async () => ({ ...health, generated_at: evening.at, eligible_until: evening.at, jobs: [health.jobs[0], { id: evening.id, at: evening.at, paths: evening.paths }] });
+  assert.equal((await h.run("2026-09-22T20:05:00+08:00", { config: both })).status, "PUBLIC_DELIVERY_OBSERVED_NOT_INDEPENDENT_E4");
+  assert.equal((await h.run("2026-09-22T20:10:00+08:00", { config: both })).status, "NO_UNCONFIRMED_DUE");
+  assert.equal(h.dispatches, 1);
+  const ambiguous = harness({ dispatch: async () => { throw Error("lost response"); } });
+  await ambiguous.run(at, { config: both });
+  assert.equal((await ambiguous.run(evening.at, { config: both })).status, "ACTION_REQUIRED_DISPATCH_UNCERTAIN");
+});
 console.log(JSON.stringify({ suite: "automatic-release-watchdog-and-due-health", tests: passed, passed, failed: 0 }));

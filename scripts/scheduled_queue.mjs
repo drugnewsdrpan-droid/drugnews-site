@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 import { bodyCanaries, canonicalMarkdownBody, sha256Text } from "./scheduled_content_integrity.mjs";
 import { publicDateValidationError, strictCalendarDate, validateSocialCoverPolicy } from "./article_metadata_contract.mjs";
 
-export const MAX_JOBS = 28;
+export const MAX_JOBS = 30;
 export const MAX_BUNDLE_BYTES = 89 * 1024 * 1024;
 export const MAX_QUEUE_BYTES = 512 * 1024 * 1024;
 const MAGIC = Buffer.from("DNQ1");
@@ -17,7 +17,7 @@ const VERSION = 1;
 const TAG_BYTES = 16;
 const JOB_ID_RE = /^[0-9a-f]{32}$/;
 const KEY_ID_RE = /^v[1-9][0-9]*$/;
-const PUBLISH_AT_RE = /^\d{4}-\d{2}-\d{2}T08:00:00\+08:00$/;
+const PUBLISH_AT_RE = /^\d{4}-\d{2}-\d{2}T(?:08|20):00:00\+08:00$/;
 const SHA256_RE = /^[0-9a-f]{64}$/;
 const GIT_OID_RE = /^[0-9a-f]{40}$/;
 const IMAGE_RE = /\.(?:gif|jpe?g|png|svg|webp)$/i;

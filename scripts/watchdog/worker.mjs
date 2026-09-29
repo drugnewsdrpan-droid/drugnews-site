@@ -10,10 +10,10 @@ function fail(code) { throw new Error(code); }
 export function configuration(text) {
   if (typeof text !== "string" || encoder.encode(text).length > 5120) fail("CONFIG_SIZE_INVALID");
   const config = JSON.parse(text);
-  if (config.schema !== 1 || !Array.isArray(config.jobs) || config.jobs.length < 1 || config.jobs.length > 28) fail("CONFIG_INVALID");
+  if (config.schema !== 1 || !Array.isArray(config.jobs) || config.jobs.length < 1 || config.jobs.length > 30) fail("CONFIG_INVALID");
   const seen = new Set();
   for (const job of config.jobs) {
-    if (!/^[a-f0-9]{32}$/.test(job.id || "") || seen.has(job.id) || !/^\d{4}-\d{2}-\d{2}T08:00:00\+08:00$/.test(job.at || "") || !Number.isFinite(Date.parse(job.at)) || !/^[a-f0-9]{40}$/.test(job.blob || "") || !Array.isArray(job.paths) || job.paths.length < 1 || job.paths.length > 2) fail("CONFIG_JOB_INVALID");
+    if (!/^[a-f0-9]{32}$/.test(job.id || "") || seen.has(job.id) || !/^\d{4}-\d{2}-\d{2}T(?:08|20):00:00\+08:00$/.test(job.at || "") || !Number.isFinite(Date.parse(job.at)) || !/^[a-f0-9]{40}$/.test(job.blob || "") || !Array.isArray(job.paths) || job.paths.length < 1 || job.paths.length > 2) fail("CONFIG_JOB_INVALID");
     if (new Date(job.at).toISOString().slice(0, 10) !== job.at.slice(0, 10)) fail("CONFIG_CALENDAR_INVALID");
     seen.add(job.id);
     for (const p of job.paths) if (!/^articles\/\d{4}-\d{2}-\d{2}-[a-z0-9]+(?:-[a-z0-9]+)*\.html$/.test(p) || !p.startsWith("articles/" + job.at.slice(0, 10) + "-")) fail("CONFIG_PATH_INVALID");
@@ -95,7 +95,7 @@ export async function tick({ config, state, now, io, persist }) {
   const due = config.jobs.filter(job => Date.parse(job.at) <= time && !state.confirmed[job.id]).sort((a, b) => Date.parse(b.at) - Date.parse(a.at)).slice(0, MAX_BATCH);
   if (!due.length) return { status: "NO_UNCONFIRMED_DUE", state };
   const health = await io.health();
-  if (health && (health.schema !== 1 || !/^[a-f0-9]{40}$/.test(health.commit || "") || !Array.isArray(health.jobs) || health.jobs.length > 28 || !Number.isFinite(Date.parse(health.generated_at)) || Date.parse(health.generated_at) > time + 60000 || !Number.isFinite(Date.parse(health.eligible_until)) || Date.parse(health.eligible_until) > time + 60000)) fail("HEALTH_INVALID");
+  if (health && (health.schema !== 1 || !/^[a-f0-9]{40}$/.test(health.commit || "") || !Array.isArray(health.jobs) || health.jobs.length > 30 || !Number.isFinite(Date.parse(health.generated_at)) || Date.parse(health.generated_at) > time + 60000 || !Number.isFinite(Date.parse(health.eligible_until)) || Date.parse(health.eligible_until) > time + 60000)) fail("HEALTH_INVALID");
   if (health) for (const item of health.jobs) if (!/^[a-f0-9]{32}$/.test(item.id || "") || !Number.isFinite(Date.parse(item.at)) || Date.parse(item.at) > time || !Array.isArray(item.paths)) fail("HEALTH_INVALID");
   const missing = [];
   for (const job of due) {
