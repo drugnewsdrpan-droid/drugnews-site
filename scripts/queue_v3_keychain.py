@@ -29,6 +29,26 @@ class SafeFailure(Exception):
     pass
 
 
+PACK_FAILURE_STAGES = frozenset(("STDIN", "ARGUMENTS", "INPUT_PATH", "OUTPUT_PATH",
+    "PAYLOAD", "FUTURE_TARGET", "EXISTING_JOB", "PACK_BUNDLE", "OUTPUT_READ",
+    "ENVELOPE", "ROUNDTRIP"))
+
+
+class PackFailure(SafeFailure):
+    def __init__(self, result):
+        super().__init__("V3_PACK_FAILED_NO_SENSITIVE_OUTPUT")
+        self.stage = "UNKNOWN"
+        self.child_exit_code = result.returncode if type(result.returncode) is int else None
+        try:
+            data = json.loads(result.stdout) if len(result.stdout) <= 4096 else {}
+            if (isinstance(data, dict) and data.get("status") == "FAIL_CLOSED"
+                    and data.get("reason") == "V3_PACK_FAILED"
+                    and data.get("stage") in PACK_FAILURE_STAGES):
+                self.stage = data["stage"]
+        except (ValueError, TypeError):
+            pass
+
+
 def safe_env():
     env = dict(os.environ)
     for name in list(env):
@@ -183,7 +203,7 @@ def pack(custody, args):
                                  str(Path(args.output).resolve())], input=key, stdout=subprocess.PIPE,
                                  stderr=subprocess.PIPE, cwd=ROOT, env=safe_env(), timeout=180)
         if result.returncode:
-            raise SafeFailure("V3_PACK_FAILED_NO_SENSITIVE_OUTPUT")
+            raise PackFailure(result)
         data = json.loads(result.stdout)
         if data.get("status") != "V3_PACKED_NATIVE_GATES_PASS":
             raise SafeFailure("V3_PACK_RECEIPT_INVALID")
@@ -223,7 +243,10 @@ if __name__ == "__main__":
     try:
         main()
     except SafeFailure as error:
-        print(json.dumps({"status": "FAIL_CLOSED", "reason": str(error)}))
+        failure = {"status": "FAIL_CLOSED", "reason": str(error)}
+        if isinstance(error, PackFailure):
+            failure.update(stage=error.stage, child_exit_code=error.child_exit_code)
+        print(json.dumps(failure))
         sys.exit(1)
     except Exception:
         # Never serialize exceptions from HTTP/subprocess/crypto, which may include request data.
