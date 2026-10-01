@@ -745,6 +745,69 @@ test("same-day distinct morning and evening jobs respect both exact boundaries w
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
+test("permanent JSON entrypoints survive the 32-record boundary without leaking future articles", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-permanent-entrypoints-"));
+  try {
+    const queue = path.join(root, "queue"), published = path.join(root, "published");
+    await fs.mkdir(published);
+    const manifests = [];
+    for (let i = 0; i < 17; i++) {
+      const input = path.join(root, `input-${i}`);
+      const manifest = await makeInput(input, 500 + i, {
+        publishAt: `2026-09-${String(5 + i).padStart(2, "0")}T08:00:00+08:00`,
+        slug: `permanent-entrypoint-${i}`,
+        english: i >= 2
+      });
+      await addBundle(queue, input, manifest);
+      manifests.push(manifest);
+    }
+    for (const [name, index, publishAt] of [
+      ["today", 517, "2026-10-01T08:00:00+08:00"],
+      ["future", 518, "2026-10-02T08:00:00+08:00"]
+    ]) {
+      const input = path.join(root, name);
+      const manifest = await makeInput(input, index, { publishAt, slug: `permanent-entrypoint-${name}`, english: true });
+      await addBundle(queue, input, manifest);
+    }
+    async function buildFinalCandidate(site, stagingRoot, now) {
+      await runPublisherCandidate(site, stagingRoot, now);
+      await fs.copyFile(path.join(REPO_ROOT, "robots.txt"), path.join(site, "robots.txt"));
+      run(process.execPath, [path.join(REPO_ROOT, "scripts/build_search_ready.mjs"), `--root=${site}`, `--out=${site}`, `--now=${now}`, "--production"], REPO_ROOT);
+    }
+    const before = await prepareQueue({ queueDir: queue, workDir: path.join(root, "before"), publishedRoot: published, now: new Date("2026-09-30T00:01:00Z"), env: ENV });
+    const beforeSite = path.join(root, "before-site");
+    await buildFinalCandidate(beforeSite, before.stagingRoot, "2026-09-30T00:01:00Z");
+    await auditCandidate({ root: beforeSite, auditFile: before.auditFile, skipLiveInventory: true, skipGitAudit: true });
+    const after = await prepareQueue({ queueDir: queue, workDir: path.join(root, "after"), publishedRoot: published, now: new Date("2026-10-01T00:01:00Z"), env: ENV });
+    const afterSite = path.join(root, "after-site");
+    await buildFinalCandidate(afterSite, after.stagingRoot, "2026-10-01T00:01:00Z");
+    try { await auditCandidate({ root: afterSite, auditFile: after.auditFile, skipLiveInventory: true, skipGitAudit: true }); }
+    catch (error) { throw new Error(`${error.message}: ${JSON.stringify(error.failures || [])}`); }
+    for (const [surface, field] of [["search-intents.json", "latest_canonical_articles"], ["knowledge-graph.json", "latest_articles"]]) {
+      const beforePayload = JSON.parse(await fs.readFile(path.join(beforeSite, surface), "utf8"));
+      const afterBytes = await fs.readFile(path.join(afterSite, surface));
+      const afterPayload = JSON.parse(afterBytes);
+      assert.equal(beforePayload[field].length, 32);
+      assert.equal(afterPayload[field].length, 34);
+      const urls = afterPayload[field].map(item => item.url);
+      assert.equal(new Set(urls).size, urls.length);
+      for (const row of beforePayload[field]) assert.deepEqual(afterPayload[field].find(item => item.url === row.url), row);
+      assert(!urls.some(url => url.includes("permanent-entrypoint-future")));
+      const oldestUrl = `https://drugnews.com.tw/articles/2026-09-05-${manifests[0].slug}.html`;
+      for (const reason of ["ENTRYPOINT_ZERO", "ENTRYPOINT_DUPLICATE"]) {
+        const damaged = structuredClone(afterPayload);
+        if (reason === "ENTRYPOINT_ZERO") damaged[field] = damaged[field].filter(item => item.url !== oldestUrl);
+        else damaged[field].push(damaged[field].find(item => item.url === oldestUrl));
+        await write(path.join(afterSite, surface), JSON.stringify(damaged));
+        const error = await captureRejection(() => auditCandidate({ root: afterSite, auditFile: after.auditFile, skipLiveInventory: true, skipGitAudit: true }));
+        assert(error.failures.some(failure => failure.surface === surface && failure.reason === reason && failure.job_id === manifests[0].job_id));
+      }
+      await write(path.join(afterSite, surface), afterBytes);
+    }
+    await auditCandidate({ root: afterSite, auditFile: after.auditFile, skipLiveInventory: true, skipGitAudit: true });
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
+});
+
 test("frozen clock keeps T-1 private and publishes at T+1 idempotently", async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-clock-"));
   try {

@@ -2685,9 +2685,9 @@ function stockMarketAttentionSignals() {
 }
 
 function searchIntents(records) {
+  // Canonical entrypoints must retain every published local article as new articles arrive.
   const latestArticles = records
     .filter((item) => !item.external)
-    .slice(0, 32)
     .map((item) => ({
       title: displayTitle(item),
       date: item.date,
@@ -3276,7 +3276,8 @@ ${footerHtml()}
 }
 
 function knowledgeGraph(records) {
-  const latestRecords = records.filter((item) => !item.external).slice(0, 32);
+  // This is a permanent article entrypoint, not a capped recent-article widget.
+  const latestRecords = records.filter((item) => !item.external);
   const officialChannels = [
     { name: "Official website", url: `${BASE_URL}/`, role: "canonical home and article archive" },
     { name: "Facebook", url: FACEBOOK_URL, role: "social distribution and community reach" },
