@@ -33,6 +33,14 @@ function flushParagraph(paragraph, out) {
   paragraph.length = 0;
 }
 
+function sectionHeadingHtml(text) {
+  const decorated = text.match(/^【((?:\d{1,3}|結語|結論|小結)\s*[｜|]\s*)?([^【】]+)】$/u);
+  if (!decorated) return inlineMarkdown(text);
+  // Keep authenticated source text intact; decorative social labels are not
+  // part of the website's visible or accessible heading.
+  return `<span class="article-heading-decoration" aria-hidden="true">${escapeHtml(`【${decorated[1] || ""}`)}</span>${inlineMarkdown(decorated[2])}<span class="article-heading-decoration" aria-hidden="true">】</span>`;
+}
+
 function markdownToHtml(markdown, imageMap, options = {}) {
   const lines = markdown.replace(/\r\n/g, "\n").split("\n");
   const out = [];
@@ -185,13 +193,14 @@ function markdownToHtml(markdown, imageMap, options = {}) {
       continue;
     }
     const heading = trimmed.match(/^(#{1,3})\s+(.+)$/);
-    if (heading) {
+    const socialHeading = /^【[^【】]+】$/u.test(trimmed);
+    if (heading || socialHeading) {
       flushParagraph(paragraph, out);
       flushList();
       flushOrderedList();
       flushQuote();
-      const level = heading[1].length + 1;
-      out.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);
+      const level = heading ? heading[1].length + 1 : 2;
+      out.push(`<h${level} class="article-section-heading">${sectionHeadingHtml(heading ? heading[2] : trimmed)}</h${level}>`);
       continue;
     }
     const item = trimmed.match(/^[-*]\s+(.+)$/);

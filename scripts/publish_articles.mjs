@@ -1083,12 +1083,12 @@ function stripHtml(value = "") {
 
 function enhanceArticleHeadings(bodyHtml) {
   const toc = [];
-  const html = bodyHtml.replace(/<h([23])>(.*?)<\/h\1>/g, (match, level, inner) => {
-    const title = stripHtml(inner);
+  const html = bodyHtml.replace(/<h([23])([^>]*)>(.*?)<\/h\1>/g, (match, level, attributes, inner) => {
+    const title = stripHtml(inner.replace(/<span class="article-heading-decoration" aria-hidden="true">.*?<\/span>/g, ""));
     if (!title) return match;
     const id = `section-${toc.length + 1}`;
     toc.push({ level: Number(level), title, id });
-    return `<h${level} id="${id}">${inner}</h${level}>`;
+    return `<h${level}${attributes} id="${id}">${inner}</h${level}>`;
   });
   return { html, toc };
 }

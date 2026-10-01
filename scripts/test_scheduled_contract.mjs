@@ -42,6 +42,30 @@ test("no locked body is rejected", () => assert.equal(canonicalRenderedBody("<p>
 test("share controls stay outside the protected body", () => {
   assert.equal(canonicalRenderedBody(wrap("<p>甲。</p>") + "<p>分享</p>" + wrap("<p>乙。</p>")), "甲。 乙。");
 });
+test("standalone social section labels become accessible website headings without changing protected text", () => {
+  const md = "前文。\n\n【01｜加藥要贏的，是已有治療作用的比較組】\n\n未達門檻。[1]\n\n【資料來源】\n\n[1] 原始研究。";
+  const html = markdownToHtml(md, new Map());
+  assert.match(html, /<h2 class="article-section-heading">/);
+  assert.equal((html.match(/<h2 /g) || []).length, 2);
+  const visible = html.replace(/<span class="article-heading-decoration" aria-hidden="true">.*?<\/span>/g, "");
+  assert(!visible.includes("【"));
+  assert(!visible.includes("01｜"));
+  assert.match(visible, /加藥要贏的，是已有治療作用的比較組/);
+  assert.equal(canonical(html), "前文。 【01|加藥要贏的,是已有治療作用的比較組】 未達門檻。[1] 【資料來源】 [1] 原始研究。");
+});
+test("website heading treatment leaves inline brackets, quotations and code untouched", () => {
+  const md = "本文提到【01｜條件】與數字55.297。[S4]\n\n> 【01｜引述原文】\n\n```\n【01｜程式資料】\n```";
+  const html = markdownToHtml(md, new Map());
+  assert(!html.includes("article-section-heading"));
+  assert.equal(canonical(html), "本文提到【01|條件】與數字55.297。[S4] 【01|引述原文】 【01|程式資料】");
+});
+test("explicit website heading levels and linked titles survive decorative label treatment", () => {
+  const html = markdownToHtml("# 【02｜[完整研究](https://example.invalid/study)】\n\n## 子節\n\n內容。",new Map());
+  assert.match(html, /<h2 class="article-section-heading">/);
+  assert.match(html, /<h3 class="article-section-heading">子節<\/h3>/);
+  assert.match(html, /href="https:\/\/example.invalid\/study"/);
+  assert.equal(canonical(html), "【02|完整研究】 子節 內容。");
+});
 test("responsive image and image zoom UI do not enter body hash", () => {
   const md = "本文\n\n![Test](images/figure.png)\n\n後文";
   const html = markdownToHtml(md, new Map(), { responsive_inline_images: true, inline_image_viewer: true, lang: "en" });
