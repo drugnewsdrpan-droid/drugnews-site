@@ -1,5 +1,5 @@
 import fs from "node:fs/promises";
-import { inferSeries } from "./article_public_contract.mjs";
+import { inferSeries, stripMarkdown, stripReferenceSection } from "./article_public_contract.mjs";
 import { scheduledDisplayAssets } from "./scheduled_image_integrity.mjs";
 import { createReadStream } from "node:fs";
 import path from "node:path";
@@ -94,7 +94,8 @@ function expectedTopicPaths(meta, markdown) {
   if (meta.lang === "en") return [];
   const title = String(meta.title || "").toLowerCase();
   const tags = Array.isArray(meta.tags) ? meta.tags.map((tag) => String(tag).toLowerCase()) : [];
-  const haystack = [meta.title, meta.category, meta.summary, meta.access, markdown, ...tags].join(" ").toLowerCase();
+  const discoveryText = stripMarkdown(stripReferenceSection(markdown));
+  const haystack = [meta.title, meta.category, meta.summary, meta.access, discoveryText, ...tags].join(" ").toLowerCase();
   return TOPIC_RULES.filter(([, keywords, minimum]) => keywords.reduce((score, keyword) => {
     const needle = keyword.toLowerCase();
     return score + (title.includes(needle) ? 8 : 0) + (tags.some((tag) => tag.includes(needle)) ? 5 : 0) + (haystack.includes(needle) ? 2 : 0);

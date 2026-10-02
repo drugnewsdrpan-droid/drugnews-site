@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { markdownToHtml, normalizeReferenceLists, stripLeadingTitle } from "./article_body_renderer.mjs";
-import { inferSeries } from "./article_public_contract.mjs";
+import { inferSeries, stripMarkdown, stripReferenceSection } from "./article_public_contract.mjs";
 import { publicDateValidationError, validateSocialCoverPolicy } from "./article_metadata_contract.mjs";
 import { buildResponsiveCover } from "./build_article_media.mjs";
 
@@ -253,26 +253,6 @@ function collectionPageSchema({ url, name, description, records, prefix = "", li
       collectionBreadcrumbSchema(url, name)
     ]
   };
-}
-
-function stripMarkdown(markdown) {
-  return markdown
-    .replace(/!\[[^\]]*]\([^)]+\)/g, "")
-    .replace(/\[([^\]]+)]\([^)]+\)/g, "$1")
-    .replace(/^\|\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|$/gm, "")
-    .replace(/^\s*[-*+]\s+/gm, " ")
-    .replace(/\|/g, " ")
-    .replace(/<br\s*\/?>/gi, " ")
-    .replace(/[`*_>#]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function stripReferenceSection(markdown) {
-  return String(markdown || "").replace(
-    /(^|\n)\s*(?:#{1,3}\s*)?((?:主要)?參考(?:資料|來源)[:：]?|References:?|Primary Sources:?)\s*\n[\s\S]*?(?=\n---|\n#{1,3}\s|$)/i,
-    "$1"
-  );
 }
 
 function referenceSection(markdown) {

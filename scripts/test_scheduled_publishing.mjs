@@ -878,6 +878,38 @@ test("frozen clock keeps T-1 private and publishes at T+1 idempotently", async (
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
+test("reference-only brand names match topic discovery while real topic entrypoints stay enforced", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-reference-topic-"));
+  try {
+    const queue = path.join(root, "queue");
+    const manifests = [];
+    for (let i = 0; i < 2; i += 1) {
+      const input = path.join(root, `input-${i}`);
+      const manifest = await makeInput(input, 170 + i, { slug: `reference-topic-${i}` });
+      const bodyPath = path.join(input, "zh", "article.md");
+      const body = await fs.readFile(bodyPath, "utf8");
+      await write(bodyPath, `${body}\n\n${i ? "Novo pipeline strategy is the article's subject.\n\n" : ""}## 參考資料\n\n1. [Official prescribing information](https://www.novo-pi.com/wegovy.pdf)\n`);
+      manifest.articles.zh.files.find(file => file.path === "article.md").sha256 = digest(await fs.readFile(bodyPath));
+      await writeLockedManifest(input, manifest);
+      await addBundle(queue, input, manifest);
+      manifests.push(manifest);
+    }
+    const summary = await prepareQueue({ queueDir: queue, workDir: path.join(root, "work"), publishedRoot: path.join(root, "published"), now: "2026-09-11T00:01:00Z", env: ENV });
+    const candidate = path.join(root, "candidate");
+    await runPublisherCandidate(candidate, summary.stagingRoot);
+    const topicPath = path.join(candidate, "topics", "big-pharma.html");
+    const topicHtml = await fs.readFile(topicPath, "utf8");
+    const url = manifest => `articles/${manifest.publish_at.slice(0, 10)}-${manifest.slug}.html`;
+    assert(!topicHtml.includes(`href="../${url(manifests[0])}"`), "a source URL alone does not classify an article");
+    assert(topicHtml.includes(`href="../${url(manifests[1])}"`), "a real body topic remains discoverable");
+    const check = () => auditCandidate({ root: candidate, auditFile: summary.auditFile, skipLiveInventory: true, repoRoot: PACK_REPO });
+    await check();
+    await write(topicPath, topicHtml.replaceAll(`href="../${url(manifests[1])}"`, 'href="#missing"'));
+    const failure = await captureRejection(check);
+    assert(failure.failures.some(item => item.job_id === manifests[1].job_id && item.reason === "ENTRYPOINT_ZERO" && item.surface === "topics/big-pharma.html"));
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
+});
+
 test("company topic-only entries enforce selected links and fail closed on source damage", async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-company-contract-"));
   try {

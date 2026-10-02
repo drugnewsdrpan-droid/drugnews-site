@@ -1,4 +1,24 @@
 // Public discovery policy shared by the publisher and scheduled audit descriptors.
+export function stripMarkdown(markdown) {
+  return markdown
+    .replace(/!\[[^\]]*]\([^)]+\)/g, "")
+    .replace(/\[([^\]]+)]\([^)]+\)/g, "$1")
+    .replace(/^\|\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|$/gm, "")
+    .replace(/^\s*[-*+]\s+/gm, " ")
+    .replace(/\|/g, " ")
+    .replace(/<br\s*\/?>/gi, " ")
+    .replace(/[`*_>#]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export function stripReferenceSection(markdown) {
+  return String(markdown || "").replace(
+    /(^|\n)\s*(?:#{1,3}\s*)?((?:主要)?參考(?:資料|來源)[:：]?|References:?|Primary Sources:?)\s*\n[\s\S]*?(?=\n---|\n#{1,3}\s|$)/i,
+    "$1"
+  );
+}
+
 const SERIES = new Set(["商業分析系列", "基本面系列", "醫學大會", "付費深度商業分析文章系列", "製藥巨頭系列"]);
 function platformLabel(meta) {
   if (meta.source_platform) return meta.source_platform;
