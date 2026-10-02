@@ -1300,6 +1300,39 @@ test("release manifest rejects missing content-chain gates and wrong timezone", 
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
+test("English disclaimer accepts an equivalent complete paragraph without changing content integrity", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-en-disclaimer-"));
+  try {
+    await makeInput(root, 72, { english: true });
+    const original = await payloadFromFixture(root);
+    validatePayload(original, original.job_id);
+    const statement = "This article provides industry information and commercial analysis. It is not individualized medical or investment advice.";
+    const originalMarkdown = Buffer.from(original.articles.en.files.find((file) => file.path === "article.md").data, "base64").toString("utf8");
+    const body = originalMarkdown.replace("This synthetic fixture does not constitute investment or medical advice.", "").trim();
+    const changed = (disclaimer) => {
+      const payload = structuredClone(original);
+      writePayloadTextFile(payload.articles.en, "article.md", `${body}\n\n${disclaimer}\n`);
+      relockPayload(payload);
+      return payload;
+    };
+    for (const valid of [statement, statement.replace(". It", ".\nIt"), statement.toLowerCase()]) validatePayload(changed(valid));
+    for (const invalid of [
+      "", statement.replace(" or investment", ""), statement.replace("medical or ", ""),
+      statement.replace(" advice.", ""), statement.replace(" is not ", " is "),
+      statement.replace(" is not ", " may not be "), statement.replace(" is not ", " is not always "),
+      statement.replace("medical or investment advice", "medical advice, but offers investment advice"),
+      `An example disclaimer reads: ${statement}`, `> ${statement}`, `\"${statement}\"`,
+      `\`\`\`text\n\n${statement}\n\n\`\`\``, `~~~\n\n${statement}\n\n~~~`,
+      `    ${statement}`, `# References\n\n${statement}`, `[Example](${statement})`
+    ]) assert.throws(() => validatePayload(changed(invalid)), /MANIFEST_EN_DISCLAIMER_REQUIRED/, invalid);
+    // Preserve legacy acceptance; tightening its existing single-domain gap is a separate change.
+    for (const legacy of ["This article does not constitute medical advice.", "This article does not constitute investment advice.", "This article does not constitute medical."]) validatePayload(changed(legacy));
+    const tampered = structuredClone(original);
+    writePayloadTextFile(tampered.articles.en, "article.md", `${body}\n\n${statement}\n`);
+    assert.throws(() => validatePayload(tampered), /HASH|LOCK/);
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
+});
+
 let failed = 0;
 const selectedTests = process.env.DRUGNEWS_TEST_FILTER ? tests.filter(item => item.name.includes(process.env.DRUGNEWS_TEST_FILTER)) : tests;
 assert(selectedTests.length, "test filter must select at least one test");

@@ -234,6 +234,27 @@ export function computeApprovedContentHash(payload) {
   return sha256(stableJson({ content_id: payload.content_id, release_key: payload.release_key, lock_version: payload.lock?.version, publish_at: payload.publish_at, slug: payload.slug, articles }));
 }
 
+function hasEquivalentEnglishDisclaimer(markdown) {
+  const exact = /^This article provides industry information and commercial analysis\. It is not individualized medical or investment advice\.$/i;
+  let fence = null;
+  let paragraph = [];
+  const matches = () => !paragraph.some((line) => /^(?: {4}|\t)/.test(line)) &&
+    exact.test(paragraph.join(" ").replace(/\s+/g, " ").trim());
+  for (const line of stripReferenceSection(markdown).split(/\r?\n/)) {
+    const marker = line.match(/^ {0,3}(`{3,}|~{3,})(.*)$/);
+    if (fence) {
+      if (marker && marker[1][0] === fence[0] && marker[1].length >= fence.length && !marker[2].trim()) fence = null;
+      continue;
+    }
+    if (marker || !line.trim()) {
+      if (matches()) return true;
+      paragraph = [];
+      if (marker) fence = marker[1];
+    } else paragraph.push(line);
+  }
+  return matches();
+}
+
 function validateArticlePayload(article, lang, publishAt) {
   if (!article || typeof article !== "object" || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(article.slug || "")) {
     throw new Error(`MANIFEST_${lang.toUpperCase()}_INVALID`);
@@ -300,7 +321,7 @@ function validateArticlePayload(article, lang, publishAt) {
   const markdown = Buffer.from(markdownFile.data, "base64").toString("utf8");
   const plain = markdown.replace(/!\[[^\]]*]\([^)]+\)/g, " ").replace(/[*_`#>\[\]()]/g, " ").replace(/\s+/g, " ");
   const hasDisclaimer = lang === "en"
-    ? /does not constitute[^.]{0,160}(investment|medical)/i.test(plain)
+    ? /does not constitute[^.]{0,160}(investment|medical)/i.test(plain) || hasEquivalentEnglishDisclaimer(markdown)
     : plain.includes("不構成") && (plain.includes("投資") || plain.includes("醫療"));
   if (!hasDisclaimer) throw new Error(`MANIFEST_${lang.toUpperCase()}_DISCLAIMER_REQUIRED`);
   const markdownImages = [...markdown.matchAll(/!\[[^\]]*]\(([^)]+)\)/g)].map((match) => safeRelative(match[1], `${lang} markdown image`));
