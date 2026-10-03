@@ -1333,6 +1333,49 @@ test("English disclaimer accepts an equivalent complete paragraph without changi
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
+test("check-input CLI reuses native acceptance, binds receipts and never writes input or GitHub outputs", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-readonly-check-"));
+  try {
+    const output = path.join(root, "github-output"), summary = path.join(root, "github-summary");
+    await write(output, "protected-output\n"); await write(summary, "protected-summary\n");
+    for (const [name, expected] of [["pass", ""], ["zh-disclaimer", "MANIFEST_ZH_DISCLAIMER_REQUIRED"], ["en-disclaimer", "MANIFEST_EN_DISCLAIMER_REQUIRED"], ["body-hash", "MANIFEST_ZH_HASH_MISMATCH"], ["qa-p1", "QA_SEVERITY_HOLD"], ["timezone", "PUBLISH_AT_INVALID"]]) {
+      const input = path.join(root, name), manifest = await makeInput(input, 75, { english: true });
+      manifest.provenance = { source_lock: { path: "original-lock.json", sha256: "a".repeat(64) }, review_binding: "b".repeat(64) };
+      if (name.endsWith("-disclaimer")) {
+        const lang = name.slice(0, 2), spec = manifest.articles[lang], bodyPath = path.join(input, lang, "article.md");
+        const body = (await fs.readFile(bodyPath, "utf8")).replace(/(?:本合成測試不構成投資或醫療建議。|This synthetic fixture does not constitute investment or medical advice\.)/g, "");
+        await write(bodyPath, body); spec.files.find((f) => f.path === "article.md").sha256 = digest(body);
+      }
+      if (name === "qa-p1") manifest.qa.p1 = 1;
+      if (name === "timezone") manifest.publish_at = "2026-09-11T08:00:00Z";
+      manifest.approved_content_hash = computeApprovedContentHash(manifest); manifest.lock.sha256 = manifest.approved_content_hash;
+      const bytes = `${JSON.stringify(manifest, null, 2)}\n`; await write(path.join(input, "manifest.json"), bytes);
+      if (name === "body-hash") await write(path.join(input, "zh", "article.md"), "unapproved replacement");
+      const before = await treeDigest(root);
+      const result = spawnSync(process.execPath, [path.join(REPO_ROOT, "scripts/scheduled_queue.mjs"), "check-input", `--input=${input}`], {
+        cwd: REPO_ROOT, encoding: "utf8", env: { ...process.env, GITHUB_OUTPUT: output, GITHUB_STEP_SUMMARY: summary, DRUGNEWS_QUEUE_KEY_B64: "invalid-must-not-be-read", DRUGNEWS_QUEUE_KEY_B64_V2: "invalid-must-not-be-read", DRUGNEWS_QUEUE_KEY_B64_V3: "invalid-must-not-be-read" }
+      });
+      assert.equal(result.status, expected ? 1 : 0, result.stderr); assert.equal(result.stderr, "");
+      const receipt = JSON.parse(result.stdout);
+      assert.equal(receipt.source_binding.input_manifest_sha256, digest(bytes));
+      assert.deepEqual(receipt.source_binding.source_lock, manifest.provenance.source_lock);
+      assert.equal(receipt.source_binding.locked_version, manifest.lock.version);
+      assert.equal(receipt.source_binding.review_binding, manifest.provenance.review_binding);
+      assert.deepEqual(receipt.content_qa, manifest.qa);
+      assert.deepEqual(receipt.native_contract, { verdict: expected ? "FAIL" : "PASS", reason: expected });
+      assert.equal(receipt.queue_accepted, false); assert.equal(receipt.public_e4, false);
+      assert.equal(await treeDigest(root), before, name);
+    }
+    const before = await treeDigest(root);
+    const missing = spawnSync(process.execPath, [path.join(REPO_ROOT, "scripts/scheduled_queue.mjs"), "check-input"], {
+      cwd: REPO_ROOT, encoding: "utf8", env: { ...process.env, GITHUB_OUTPUT: output, GITHUB_STEP_SUMMARY: summary }
+    });
+    assert.equal(missing.status, 1); assert.equal(missing.stderr, "");
+    assert.equal(JSON.parse(missing.stdout).native_contract.reason, "CHECK_INPUT_PATH_REQUIRED");
+    assert.equal(await treeDigest(root), before);
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
+});
+
 test("Publisher rebuild accepts the queued equivalent English disclaimer and rejects invalid forms", async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-publisher-disclaimer-"));
   const statement = "This article provides industry information and commercial analysis. It is not individualized medical or investment advice.";

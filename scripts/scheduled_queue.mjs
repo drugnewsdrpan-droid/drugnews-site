@@ -463,6 +463,43 @@ export async function payloadFromInput(inputRoot) {
   return payload;
 }
 
+// Read-only handoff receipt using the exact contract also used by packBundle.
+export async function checkInput(inputRoot) {
+  const receipt = {
+    schema: "drugnews-website-input-check/v1",
+    checked_at: new Date().toISOString(),
+    input_root: inputRoot,
+    source_binding: null,
+    content_qa: null,
+    native_contract: { verdict: "FAIL", reason: "" },
+    queue_accepted: false,
+    public_e4: false
+  };
+  try {
+    if (!inputRoot) throw new Error("CHECK_INPUT_PATH_REQUIRED");
+    const manifestPath = path.join(inputRoot, "manifest.json");
+    const bytes = await fs.readFile(manifestPath);
+    const manifest = JSON.parse(bytes.toString("utf8"));
+    receipt.source_binding = {
+      input_manifest_sha256: sha256(bytes),
+      source_lock: manifest.provenance?.source_lock || null,
+      content_id: manifest.content_id,
+      job_id: manifest.job_id,
+      publish_at: manifest.publish_at,
+      locked_version: manifest.lock?.version,
+      approved_content_hash: manifest.approved_content_hash,
+      review_binding: manifest.provenance?.review_binding || null
+    };
+    receipt.content_qa = manifest.qa || null;
+    await payloadFromInput(inputRoot);
+    if (sha256(await fs.readFile(manifestPath)) !== receipt.source_binding.input_manifest_sha256) throw new Error("INPUT_MANIFEST_CHANGED_DURING_CHECK");
+    receipt.native_contract.verdict = "PASS";
+  } catch (error) {
+    receipt.native_contract.reason = error.message;
+  }
+  return receipt;
+}
+
 function contentNeedles(payload) {
   const needles = new Set([payload.slug]);
   const imageHashes = new Set();
@@ -955,6 +992,12 @@ async function appendStepSummary(lines) {
 
 async function cli() {
   const { command, options } = parseCli(process.argv.slice(2));
+  if (command === "check-input") {
+    const receipt = await checkInput(typeof options.input === "string" && options.input ? path.resolve(options.input) : "");
+    console.log(JSON.stringify(receipt, null, 2));
+    if (receipt.native_contract.verdict !== "PASS") process.exitCode = 1;
+    return;
+  }
   if (command === "pack") {
     if (!options.input || !options.output) throw new Error("pack requires --input and --output");
     const keyId = String(options["key-id"] || "v1");
@@ -975,7 +1018,7 @@ async function cli() {
     console.log(JSON.stringify({ status: "prepared", queue_digest: summary.queue_digest, queue_count: summary.queue_count, due_count: summary.due_count, newly_due_count: summary.newly_due_count, legacy_e4_count: summary.legacy_e4_count, pending_count: summary.pending_count, held_count: summary.held_count, jobs: summary.jobs }, null, 2));
     return;
   }
-  throw new Error("Usage: scheduled_queue.mjs pack|prepare [--key=value]");
+  throw new Error("Usage: scheduled_queue.mjs check-input|pack|prepare [--key=value]");
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToPath(import.meta.url))) {
