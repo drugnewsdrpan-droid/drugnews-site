@@ -749,6 +749,64 @@ test("same-day distinct morning and evening jobs respect both exact boundaries w
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
+test("permanent feeds retain old and evening articles beyond 25 and 50 without future leaks", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-feed-retention-"));
+  try {
+    const queue = path.join(root, "queue"), published = path.join(root, "published");
+    let oldest, retained;
+    for (let i = 0; i < 51; i++) {
+      const input = path.join(root, `input-${i}`);
+      const publishAt = `${new Date(Date.UTC(2026, 7, 1 + i)).toISOString().slice(0, 10)}T08:00:00+08:00`;
+      const manifest = await makeInput(input, 600 + i, { publishAt, slug: `feed-retained-${i}`, english: i === 0 || i === 26 || i >= 49 });
+      for (const lang of Object.keys(manifest.articles)) await fs.cp(path.join(input, lang), path.join(published, `${manifest.slug}${lang === "en" ? "-en" : ""}`), { recursive: true });
+      if (!i) oldest = manifest;
+      // The existing queue article is pushed from position25 to26 by the evening addition.
+      if (i === 26) { retained = manifest; await addBundle(queue, input, manifest); }
+    }
+    const eveningInput = path.join(root, "evening");
+    const evening = await makeInput(eveningInput, 651, { publishAt: "2026-10-03T20:00:00+08:00", slug: "feed-retained-evening", english: true });
+    await addBundle(queue, eveningInput, evening);
+    const futureInput = path.join(root, "future");
+    const future = await makeInput(futureInput, 652, { publishAt: "2026-10-04T08:00:00+08:00", slug: "feed-retained-future", english: true });
+    await addBundle(queue, futureInput, future);
+    const now = "2026-10-03T14:45:00Z";
+    const summary = await prepareQueue({ queueDir: queue, workDir: path.join(root, "work"), publishedRoot: published, now: new Date(now), env: ENV });
+    const candidate = path.join(root, "candidate");
+    await fs.cp(published, path.join(candidate, "content/published"), { recursive: true });
+    await runPublisherCandidate(candidate, summary.stagingRoot, now);
+    const check = () => auditCandidate({ root: candidate, auditFile: summary.auditFile, skipLiveInventory: true, skipGitAudit: true });
+    try { await check(); }
+    catch (error) { throw new Error(`${error.message}: ${JSON.stringify(error.failures || [])}`); }
+    for (const surface of ["feed.xml", "feed.json", "en/feed.xml", "en/feed.json"]) {
+      const file = path.join(candidate, surface);
+      const good = await fs.readFile(file, "utf8");
+      const english = surface.startsWith("en/");
+      const urlFor = (manifest) => `https://drugnews.com.tw/articles/${manifest.publish_at.slice(0, 10)}-${manifest.slug}${english ? "-en" : ""}.html`;
+      assert(good.includes(urlFor(oldest)) && good.includes(urlFor(retained)) && good.includes(urlFor(evening)), surface);
+      assert(!good.includes(future.slug), surface);
+      const rows = surface.endsWith("json") ? JSON.parse(good).items : [...good.matchAll(/<item>([\s\S]*?)<\/item>/gu)].map(match => match[0]);
+      assert.equal(rows.length, english ? 5 : 52, surface);
+      for (const reason of ["ENTRYPOINT_ZERO", "ENTRYPOINT_DUPLICATE"]) {
+        let damaged;
+        if (surface.endsWith("json")) {
+          const payload = JSON.parse(good);
+          const old = payload.items.find(item => item.url === urlFor(retained));
+          payload.items = reason === "ENTRYPOINT_ZERO" ? payload.items.filter(item => item.url !== old.url) : [...payload.items, old];
+          damaged = JSON.stringify(payload);
+        } else {
+          const old = rows.find(item => item.includes(`<link>${urlFor(retained)}</link>`));
+          damaged = reason === "ENTRYPOINT_ZERO" ? good.replace(old, "") : good.replace("</channel>", `${old}</channel>`);
+        }
+        await write(file, damaged);
+        const error = await captureRejection(check);
+        assert(error.failures.some(item => item.surface === surface && item.reason === reason && item.job_id === retained.job_id), `${surface}/${reason}`);
+      }
+      await write(file, good);
+    }
+    await check();
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
+});
+
 test("permanent JSON entrypoints survive the 32-record boundary without leaking future articles", async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-permanent-entrypoints-"));
   try {

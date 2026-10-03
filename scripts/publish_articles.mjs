@@ -2402,7 +2402,7 @@ ${imageXml}
 }
 
 function rssFeed(records) {
-  const items = records.slice(0, 25).map((item) => {
+  const items = records.map((item) => {
     const link = item.external ? item.url : `${BASE_URL}/${item.url}`;
     const imageUrl = item.image ? absoluteUrl(item.image) : "";
     const title = displayTitle(item);
@@ -2434,7 +2434,7 @@ ${items}
 }
 
 function jsonFeed(records) {
-  const items = records.slice(0, 50).map((item) => {
+  const items = records.map((item) => {
     const url = item.external ? item.url : `${BASE_URL}/${item.url}`;
     const imageUrl = item.image ? absoluteUrl(item.image) : "";
     return {
