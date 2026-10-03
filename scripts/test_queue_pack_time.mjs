@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import { checkPackTime } from './queue_pack_time.mjs';
+const sha = 'a'.repeat(64), at = '2026-10-03T20:00:00+08:00', target = Date.parse(at);
+checkPackTime(at, sha, '', target - 1);
+assert.throws(() => checkPackTime(at, sha, '', target), /TARGET_NOT_FUTURE/);
+assert.throws(() => checkPackTime(at, sha, '', target + 1), /TARGET_NOT_FUTURE/);
+checkPackTime(at, sha, sha, target + 2 * 60 * 60 * 1000);
+assert.throws(() => checkPackTime(at, sha, 'b'.repeat(64), target + 1), /RECOVERY_INPUT_BINDING/);
+assert.throws(() => checkPackTime(at, sha, 'invalid', target + 1), /RECOVERY_INPUT_BINDING/);
+assert.throws(() => checkPackTime(at, sha, sha, target + 24 * 60 * 60 * 1000 + 1), /TARGET_NOT_FUTURE/);
+assert.throws(() => checkPackTime('invalid', sha, sha, target), /TARGET_NOT_FUTURE/);
+console.log(JSON.stringify({suite:'exact-input-overdue-pack-recovery',tests:8,passed:8}));

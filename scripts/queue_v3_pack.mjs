@@ -2,8 +2,10 @@
 // This calls the existing publisher's pack function, not a second publisher.
 import fs from "node:fs/promises";
 import path from "node:path";
+import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { packBundle, payloadFromInput, parseEnvelope, decryptEnvelope, validatePayload } from "./scheduled_queue.mjs";
+import { checkPackTime } from "./queue_pack_time.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const chunks = [];
@@ -18,7 +20,9 @@ try {
   }
   key = Buffer.concat(chunks);
   stage = "ARGUMENTS";
-  if (key.length !== 32 || process.argv.length !== 4) throw new Error("PACK_ARGUMENTS_INVALID");
+  if (key.length !== 32 || ![4, 5].includes(process.argv.length)) throw new Error("PACK_ARGUMENTS_INVALID");
+  const recovery = process.argv[4] || "";
+  if (recovery && !/^--recover-overdue=[a-f0-9]{64}$/.test(recovery)) throw new Error("PACK_ARGUMENTS_INVALID");
   stage = "INPUT_PATH";
   const inputRoot = await fs.realpath(process.argv[2]);
   const outputPath = path.resolve(process.argv[3]);
@@ -28,7 +32,8 @@ try {
   stage = "PAYLOAD";
   const payload = await payloadFromInput(inputRoot);
   stage = "FUTURE_TARGET";
-  if (Date.parse(payload.publish_at) <= Date.now()) throw new Error("TARGET_NOT_FUTURE_STOP_FOR_GM");
+  const manifestSha = crypto.createHash("sha256").update(await fs.readFile(path.join(inputRoot, "manifest.json"))).digest("hex");
+  checkPackTime(payload.publish_at, manifestSha, recovery.replace(/^--recover-overdue=/, ""));
   const finalPath = path.join(outputPath, `${payload.job_id}.dnq`);
   stage = "EXISTING_JOB";
   try { await fs.access(finalPath); throw new Error("QUEUE_JOB_ALREADY_EXISTS"); }
@@ -47,7 +52,8 @@ try {
     if (decoded.approved_content_hash !== payload.approved_content_hash || decoded.publish_at !== payload.publish_at) throw new Error("ROUNDTRIP_MISMATCH");
   } finally { opened.plaintext.fill(0); }
   console.log(JSON.stringify({ status: "V3_PACKED_NATIVE_GATES_PASS", key_id: "v3", ...receipt,
-    approved_content_hash: payload.approved_content_hash, publish_at: payload.publish_at }));
+    approved_content_hash: payload.approved_content_hash, publish_at: payload.publish_at,
+    overdue_recovery: Boolean(recovery), recovery_manifest_sha256: recovery ? manifestSha : null }));
 } catch {
   // Never print payload, crypto errors, or process environment.
   console.log(JSON.stringify({ status: "FAIL_CLOSED", reason: "V3_PACK_FAILED", stage }));

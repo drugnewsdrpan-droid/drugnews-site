@@ -199,8 +199,11 @@ def provision(api, custody):
 def pack(custody, args):
     key = custody.read()
     try:
-        result = subprocess.run([args.node, str(ROOT / "scripts/queue_v3_pack.mjs"), str(Path(args.input).resolve()),
-                                 str(Path(args.output).resolve())], input=key, stdout=subprocess.PIPE,
+        command = [args.node, str(ROOT / "scripts/queue_v3_pack.mjs"), str(Path(args.input).resolve()),
+                   str(Path(args.output).resolve())]
+        if args.recover_overdue:
+            command.append("--recover-overdue=" + args.recover_overdue)
+        result = subprocess.run(command, input=key, stdout=subprocess.PIPE,
                                  stderr=subprocess.PIPE, cwd=ROOT, env=safe_env(), timeout=180)
         if result.returncode:
             raise PackFailure(result)
@@ -220,6 +223,7 @@ def main():
     parser.add_argument("--node")
     parser.add_argument("--input")
     parser.add_argument("--output")
+    parser.add_argument("--recover-overdue", help="Explicit recovery of an approved overdue input; exact manifest SHA-256")
     args = parser.parse_args()
     custody = Keychain()
     if args.command == "pack":
