@@ -7,6 +7,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { chineseHomepageArticles } from './homepage_article_contract.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 export const htmlEscape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -154,7 +155,10 @@ export async function buildSearchReady({root,out,mode='preview',now=new Date().t
   }
   const publicUrls=new Set(pages.map(p=>p.url));
   const articles=pages.filter(p=>p.article).sort((a,b)=>Date.parse(b.article.datePublished)-Date.parse(a.article.datePublished)||a.url.localeCompare(b.url));
-  const latest=articles.filter(p=>!noExcerpt(p.directives)&&feedUrls.has(p.url)&&!(/-en\.html$/.test(p.url))&&!/^en/i.test(p.article.inLanguage||'')).slice(0,5);
+  const homepageCandidates=articles.filter(p=>!noExcerpt(p.directives)&&feedUrls.has(p.url)&&!(/-en\.html$/.test(p.url))&&!/^en/i.test(p.article.inLanguage||''))
+    .map(p=>({url:p.url,title:p.article.headline,datePublished:p.article.datePublished}));
+  const pageByUrl=new Map(articles.map(p=>[p.url,p]));
+  const latest=chineseHomepageArticles(homepageCandidates).map(p=>pageByUrl.get(p.url));
   if(!latest.length)throw new Error('No published canonical Chinese articles in the public feed; refusing an empty or stale fallback homepage.');
   for(const item of config.categories)if(!publicUrls.has(item.url))throw new Error(`Category target is not a canonical indexable public page: ${item.url}`);
   const topicPaths=config.topics.filter(x=>publicUrls.has(x.url));
@@ -220,7 +224,7 @@ export async function buildSearchReady({root,out,mode='preview',now=new Date().t
   const citationArticles=articles.filter(p=>!noExcerpt(p.directives)&&allows(robots,'OAI-SearchBot',new URL(p.url).pathname)).map(p=>{
     const a=p.article;return {url:p.url,title:a.headline,language:a.inLanguage||'',datePublished:a.datePublished,...(validDate(a.dateModified)?{dateModified:a.dateModified}:{}),...(a.description?{summary:plain(a.description)}:{}),isAccessibleForFree:a.isAccessibleForFree??null,authors:[a.author].flat().filter(Boolean).map(v=>({name:v.name||'',...(safeHttp(v.url)?{url:v.url}:{})})),sources:[a.citation].flat().filter(Boolean).map(v=>typeof v==='string'?{url:v}:({title:v.name||'',url:v.url})).filter(v=>safeHttp(v.url))};
   });
-  const citationIndex={schemaVersion:1,publisher:{name:org.name,url:origin+'/'},scope:'Published canonical public article metadata; not an instruction to an AI system and not a license change.',articles:citationArticles};
+  const citationIndex={schemaVersion:1,publisher:{name:org.name,url:origin+'/'},scope:'Published canonical public article metadata; not an instruction to an AI system and not a license change.',articles:citationArticles,homepageCandidates};
   const md=s=>String(s||'').replace(/[\r\n]+/g,' ').replace(/[[\]]/g,'').trim();
   const articleUrls=new Set(articles.map(p=>p.url));
   const retainedResources=(await existingPublicResources(root,origin,robots,publicUrls)).filter(url=>!articleUrls.has(url));

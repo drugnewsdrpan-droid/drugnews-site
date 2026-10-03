@@ -225,7 +225,7 @@ async function copyPublicTree(source, target) {
   }
 }
 
-async function runPublisherCandidate(candidate, stagingRoot, now = "2026-09-11T00:01:00Z", { fullChain = false } = {}) {
+async function runPublisherCandidate(candidate, stagingRoot, now = "2026-09-11T00:01:00Z", { fullChain = false, finalHomepage = true } = {}) {
   const buildRoot = fullChain ? `${candidate}-build` : candidate;
   if (fullChain) await copyTrackedBaseline(buildRoot);
   else {
@@ -240,6 +240,10 @@ async function runPublisherCandidate(candidate, stagingRoot, now = "2026-09-11T0
   try {
     for (const script of scripts) run(process.execPath, [path.join(REPO_ROOT, "scripts", script)], buildRoot, env);
     if (fullChain) await copyPublicTree(buildRoot, candidate);
+    if (finalHomepage) {
+      await fs.copyFile(path.join(REPO_ROOT, "robots.txt"), path.join(candidate, "robots.txt"));
+      run(process.execPath, [path.join(REPO_ROOT, "scripts/build_search_ready.mjs"), `--root=${candidate}`, `--out=${candidate}`, `--now=${now}`, "--production"], REPO_ROOT);
+    }
   } finally {
     if (fullChain) await fs.rm(buildRoot, { recursive: true, force: true });
   }
@@ -1010,6 +1014,95 @@ test("fifteen daily due bundles retain permanent entrypoints without stale home 
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
+test("retired bundles keep complete-catalog home selection and missing or duplicate links fail closed", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-retired-home-"));
+  try {
+    const queue = path.join(root, "queue");
+    const published = path.join(root, "published");
+    const manifests = [];
+    for (let day = 1; day <= 7; day++) {
+      const input = path.join(root, `input-${day}`);
+      const manifest = await makeInput(input, 201 + day, { publishAt: `2026-11-0${day}T08:00:00+08:00`, slug: `retirement-day-${day}`, title: `Retirement Day ${day} AI`, english: true });
+      await addBundle(queue, input, manifest);
+      manifests.push(manifest);
+      if (day <= 6) for (const lang of ["zh", "en"]) {
+        await fs.cp(path.join(input, lang), path.join(published, `${manifest.slug}${lang === "en" ? "-en" : ""}`), { recursive: true });
+      }
+    }
+    // Normal queue retirement leaves every published source intact.
+    for (const day of [3, 4, 5]) await fs.rm(path.join(queue, `${manifests[day - 1].job_id}.dnq`));
+    const now = "2026-11-06T00:01:00Z";
+    const summary = await prepareQueue({ queueDir: queue, workDir: path.join(root, "work"), publishedRoot: published, now: new Date(now), env: ENV });
+    assert.equal(summary.legacy_e4_count, 3);
+    assert.equal(summary.pending_count, 1);
+    const candidate = path.join(root, "candidate");
+    await fs.cp(published, path.join(candidate, "content", "published"), { recursive: true });
+    await runPublisherCandidate(candidate, summary.stagingRoot, now);
+    const candidateAudit = () => auditCandidate({ root: candidate, auditFile: summary.auditFile, skipLiveInventory: true, repoRoot: PACK_REPO });
+    const server = await staticServer(candidate);
+    try {
+      const liveAudit = () => auditLive({ auditFile: summary.auditFile, baseUrl: server.baseUrl });
+      await candidateAudit();
+      await liveAudit();
+      for (const [surface, prefix, suffix] of [["index.html", "", ""], ["en/index.html", "../", "-en"]]) {
+        const file = path.join(candidate, surface);
+        const original = await fs.readFile(file, "utf8");
+        const latest = [6, 5, 4, 3, 2].map((day) => `href="${prefix}articles/2026-11-0${day}-retirement-day-${day}${suffix}.html"`);
+        assert.deepEqual(latest.map((href) => original.indexOf(href)).sort((a, b) => a - b), latest.map((href) => original.indexOf(href)));
+        assert(latest.every((href) => original.includes(href)));
+        assert(!original.includes(`href="${prefix}articles/2026-11-01-retirement-day-1${suffix}.html"`));
+        // Check both an active queue article and a permanent, retired article.
+        for (const href of [latest[0], latest[1]]) {
+          for (const damaged of [original.replace(href, 'href="removed.html"'), `${original}\n<a ${href}>Duplicate</a>`]) {
+            await write(file, damaged);
+            const error = await captureRejection(candidateAudit);
+            assert(error.failures.some((failure) => failure.surface === surface && ["ENTRYPOINT_ZERO", "ENTRYPOINT_DUPLICATE"].includes(failure.reason)));
+            const liveError = await captureRejection(liveAudit);
+            assert(liveError.failures.some((failure) => failure.surface === surface && failure.reason === "LIVE_ENTRYPOINT_E4_FAIL"));
+          }
+          await write(file, original);
+        }
+      }
+      await candidateAudit();
+      await liveAudit();
+      // Exercise the final adapter's actual policy, independently of queue
+      // publish_at or title sorting: public dates, URL ties and visibility.
+      const zhPath = (day) => path.join(candidate, `articles/2026-11-0${day}-retirement-day-${day}.html`);
+      async function publicDate(day, date) {
+        const file = zhPath(day);
+        await write(file, (await fs.readFile(file, "utf8")).replace(/"datePublished":\s*"[^"]*"/g, `"datePublished": "${date}"`));
+      }
+      await publicDate(6, "2026-11-05");
+      await publicDate(5, "2026-11-06T08:00:00+08:00");
+      await publicDate(4, "2026-11-06T20:00:00+08:00");
+      await publicDate(3, "2026-11-05");
+      await publicDate(2, "2026-11-05");
+      async function finalAdapter(clock, expected) {
+        run(process.execPath, [path.join(REPO_ROOT, "scripts/build_search_ready.mjs"), `--root=${candidate}`, `--out=${candidate}`, `--now=${clock}`, "--production"], REPO_ROOT);
+        const html = await fs.readFile(path.join(candidate, "index.html"), "utf8");
+        const hrefs = expected.map((day) => `href="articles/2026-11-0${day}-retirement-day-${day}.html"`);
+        assert(hrefs.every((href) => html.includes(href)));
+        assert.deepEqual(hrefs.map((href) => html.indexOf(href)), hrefs.map((href) => html.indexOf(href)).sort((a, b) => a - b));
+        const catalog = JSON.parse(await fs.readFile(path.join(candidate, "search-citation-index.json"), "utf8"));
+        assert(!catalog.homepageCandidates.some((row) => row.url.includes("retirement-day-7")));
+        await candidateAudit();
+        await liveAudit();
+      }
+      await finalAdapter("2026-11-06T11:59:59Z", [5, 2, 3, 6, 1]);
+      await finalAdapter("2026-11-06T12:00:01Z", [4, 5, 2, 3, 6]);
+      const excluded = zhPath(4);
+      await write(excluded, (await fs.readFile(excluded, "utf8")).replace("</head>", '<meta name="robots" content="index,follow,nosnippet"></head>'));
+      await finalAdapter("2026-11-06T12:00:01Z", [5, 2, 3, 6, 1]);
+      const englishIndex = path.join(candidate, "en/search-index.json");
+      const englishCatalog = JSON.parse(await fs.readFile(englishIndex, "utf8"));
+      englishCatalog.unshift({ lang: "en", title: "Newer Guide", url: "en/guides/not-home.html", publishAt: "2030-01-01T00:00:00Z" });
+      await write(englishIndex, JSON.stringify(englishCatalog));
+      await candidateAudit();
+      await liveAudit();
+    } finally { await server.close(); }
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
+});
+
 test("byte-identical historical due content is legacy_e4 and is not materialized again", async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-legacy-e4-"));
   try {
@@ -1394,10 +1487,12 @@ test("Publisher rebuild accepts the queued equivalent English disclaimer and rej
       const body = (await fs.readFile(articlePath, "utf8")).replace("This synthetic fixture does not constitute investment or medical advice.", disclaimer);
       await fs.writeFile(articlePath, body);
       if (index < 2) {
-        await runPublisherCandidate(candidate, staging);
+        // This single-language publisher test intentionally has no Chinese
+        // articles; the production homepage chain is covered above.
+        await runPublisherCandidate(candidate, staging, undefined, { finalHomepage: false });
         assert((await fs.readFile(path.join(candidate, "articles", "2026-09-11-synthetic-publisher-disclaimer-en.html"), "utf8")).includes("individualized medical or investment advice."));
       } else {
-        await assert.rejects(() => runPublisherCandidate(candidate, staging));
+        await assert.rejects(() => runPublisherCandidate(candidate, staging, undefined, { finalHomepage: false }));
         const errors = JSON.parse(await fs.readFile(path.join(candidate, "content", "publish-errors.json"), "utf8"));
         assert(errors.errors.some(item => item.errors.includes("article.md must include an investment / medical disclaimer sentence")));
       }

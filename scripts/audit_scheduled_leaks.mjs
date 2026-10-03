@@ -8,6 +8,7 @@ import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { bodyCanaries, canonicalRenderedBody, sha256Text } from "./scheduled_content_integrity.mjs";
 import { verifyExistingPublicAssetRefs } from "./scheduled_queue.mjs";
+import { chineseHomepageArticles, englishHomepageArticles } from "./homepage_article_contract.mjs";
 
 const BASE_URL = "https://drugnews.com.tw";
 const TEXT_EXT = /\.(?:css|html?|js|json|txt|xml)$/i;
@@ -116,13 +117,19 @@ function parseJson(text, surface) {
 
 const CATEGORY_SLUGS = new Map([["生技估值", "biotech-valuation"], ["公司研究", "company-research"], ["BD / 授權", "bd-licensing"], ["臨床與 CMC", "clinical-cmc"], ["IR 與資本市場", "ir-capital-markets"], ["活動紀錄", "events"], ["商業分析系列", "business-analysis"], ["基本面系列", "fundamental-analysis"], ["醫學大會", "medical-conference"], ["付費深度商業分析文章系列", "paid-deep-analysis"], ["製藥巨頭系列", "big-pharma"]]);
 
-function scheduledTopFive(audit, lang) {
-  return audit.jobs
-    .filter((job) => publicState(job, audit.clock) === "public")
-    .flatMap((job) => (job.articles || []).filter((article) => article.lang === lang).map((article) => ({ article, publishAt: job.publish_at })))
-    .sort((a, b) => Date.parse(b.publishAt) - Date.parse(a.publishAt) || b.article.title.localeCompare(a.article.title))
-    .slice(0, 5)
-    .map((item) => item.article.url_path);
+function checkHomepage(failures, audit, fallbackJob, records, lang, text, live = false) {
+  const surface = lang === "en" ? "en/index.html" : "index.html";
+  if (!Array.isArray(records)) throw new Error(`HOMEPAGE_CATALOG_INVALID:${lang}`);
+  if (lang !== "en" && (!records.length || records.some((row) => !row?.url?.startsWith(`${BASE_URL}/`) || !row.title || !Number.isFinite(Date.parse(row.datePublished))))) throw new Error("HOMEPAGE_CATALOG_INVALID:zh-Hant");
+  for (const row of lang === "en" ? englishHomepageArticles(records) : chineseHomepageArticles(records)) {
+    const urlPath = lang === "en" ? row.url : new URL(row.url).pathname.slice(1);
+    const href = lang === "en" ? `../${urlPath}` : urlPath;
+    const escaped = String(href).replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll("'", "&#39;");
+    const count = occurrences(text || "", `href="${escaped}"`);
+    if (count === 1) continue;
+    const owner = audit.jobs.find((job) => (job.articles || []).some((article) => article.url_path === urlPath)) || fallbackJob;
+    failures.push({ job_id: owner.job_id, reason: live ? "LIVE_ENTRYPOINT_E4_FAIL" : count ? "ENTRYPOINT_DUPLICATE" : "ENTRYPOINT_ZERO", surface, article_path: urlPath });
+  }
 }
 
 function expectedSurfaces(article, job, audit) {
@@ -131,7 +138,6 @@ function expectedSurfaces(article, job, audit) {
     ? ["en/articles/index.html", "en/search-index.json", "en/feed.xml", "en/feed.json", ...common]
     : ["articles/index.html", "search-index.json", "feed.xml", "feed.json", "search-intents.json", `articles/category/${CATEGORY_SLUGS.get(article.category) || "uncategorized"}.html`, ...(article.topic_paths || []), ...common];
   const timed = [];
-  if (scheduledTopFive(audit, article.lang).includes(article.url_path)) timed.push(article.lang === "en" ? "en/index.html" : "index.html");
   const published = Date.parse(job.publish_at);
   const clock = Date.parse(audit.clock);
   if (published >= clock - (48 * 60 * 60 * 1000) && published <= clock + (60 * 60 * 1000)) timed.push("news-sitemap.xml");
@@ -238,6 +244,9 @@ export async function auditCandidate({ root, auditFile, liveBaseUrl = "", repoRo
     const companyRecords = parseJson(texts.get("search-index.json") || "null", "search-index.json");
     if (!Array.isArray(companyRecords)) throw new Error("COMPANY_INDEX_SOURCE_INVALID");
     audit.company_paths = companyIndexArticlePaths(companyRecords);
+    const homepageCatalog = parseJson(texts.get("search-citation-index.json") || "null", "search-citation-index.json");
+    checkHomepage(failures, audit, publicJob, homepageCatalog?.homepageCandidates, "zh-Hant", texts.get("index.html"));
+    checkHomepage(failures, audit, publicJob, parseJson(texts.get("en/search-index.json") || "null", "en/search-index.json"), "en", texts.get("en/index.html"));
     const radarReason = texts.has("market-radar.json")
       ? marketRadarValidationError(texts.get("market-radar.json"), texts.get("sitemap.xml"), BASE_URL)
       : "RADAR_SURFACE_MISSING";
@@ -322,6 +331,15 @@ export async function auditLive({ auditFile, baseUrl = BASE_URL, canonicalBaseUr
     const companyRecords = parseJson(companySource.body, "search-index.json");
     if (!Array.isArray(companyRecords)) throw new Error("COMPANY_INDEX_SOURCE_INVALID");
     audit.company_paths = companyIndexArticlePaths(companyRecords);
+    const englishSource = await get("en/search-index.json");
+    if (!englishSource.ok) throw new Error("LIVE_HOMEPAGE_CATALOG_UNAVAILABLE");
+    const zhHome = await get("index.html");
+    const enHome = await get("en/index.html");
+    if (!zhHome.ok || !enHome.ok) throw new Error("LIVE_HOMEPAGE_UNAVAILABLE");
+    const homepageSource = await get("search-citation-index.json");
+    if (!homepageSource.ok) throw new Error("LIVE_HOMEPAGE_CATALOG_UNAVAILABLE");
+    checkHomepage(failures, audit, publicJob, parseJson(homepageSource.body, "search-citation-index.json")?.homepageCandidates, "zh-Hant", zhHome.body, true);
+    checkHomepage(failures, audit, publicJob, parseJson(englishSource.body, "en/search-index.json"), "en", enHome.body, true);
     const radar = await get("market-radar.json");
     const sitemap = await get("sitemap.xml");
     const radarReason = !radar.ok || !sitemap.ok ? "LIVE_RADAR_SURFACE_UNAVAILABLE"
