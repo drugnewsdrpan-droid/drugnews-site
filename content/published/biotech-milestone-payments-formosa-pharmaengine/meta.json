@@ -1,0 +1,32 @@
+{
+  "title": "藥證到手，錢就到帳？從台新藥、智擎看懂授權金怎麼變成現金",
+  "slug": "biotech-milestone-payments-formosa-pharmaengine",
+  "date": "2026-09-29",
+  "publish_at": "2026-09-29T08:00:00+08:00",
+  "author": "藥時事 Drugnews",
+  "category": "商業分析系列",
+  "tags": [
+    "新藥授權",
+    "里程碑付款",
+    "台新藥",
+    "智擎",
+    "Genmab",
+    "現金流",
+    "BD交易"
+  ],
+  "summary": "藥證、付款事件與實際收款之間，有哪些條件？以Genmab歷史里程碑、台新藥的股票結算與毛利合作，以及智擎2026上半年財報，解析新藥授權生意如何從進展走向可運用資源。",
+  "access": "免費文章",
+  "publish_attributes": {
+    "visibility": "public_at_publish_at",
+    "paywall": false,
+    "embargo": true
+  },
+  "lang": "zh-Hant",
+  "cover_image": "images/01_事件請款收現_ZH_v2.png",
+  "cover_image_alt": "三階段流程：事件達成、通知與請款、實際收款；左側列出依合約擇定的可能觸發事件。",
+  "homepage_cover_image": "images/01_事件請款收現_ZH_v2.png",
+  "homepage_cover_image_alt": "三階段流程：事件達成、通知與請款、實際收款；左側列出依合約擇定的可能觸發事件。",
+  "translations": {
+    "en": "2026-09-29-biotech-milestone-payments-formosa-pharmaengine-en.html"
+  }
+}
