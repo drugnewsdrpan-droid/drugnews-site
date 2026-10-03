@@ -873,7 +873,10 @@ test("frozen clock keeps T-1 private and publishes at T+1 idempotently", async (
       }
     } finally { await mutationServer.close(); }
     await write(directPath, lockedHtml);
-    const search = JSON.parse(await fs.readFile(path.join(candidate, "search-index.json"), "utf8")); search.push(search[0]); await write(path.join(candidate, "search-index.json"), JSON.stringify(search));
+    const search = JSON.parse(await fs.readFile(path.join(candidate, "search-index.json"), "utf8"));
+    const fixtureRows = search.filter((row) => row.slug === manifest.slug);
+    assert.equal(fixtureRows.length, 1, "the audited fixture must have exactly one search entry before corruption");
+    search.push(fixtureRows[0]); await write(path.join(candidate, "search-index.json"), JSON.stringify(search));
     await assert.rejects(() => auditCandidate({ root: candidate, auditFile: after1.auditFile, skipLiveInventory: true }), /SCHEDULED_LEAK_AUDIT_FAILED/);
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
