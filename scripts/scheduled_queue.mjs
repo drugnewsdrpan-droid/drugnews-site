@@ -234,7 +234,7 @@ export function computeApprovedContentHash(payload) {
   return sha256(stableJson({ content_id: payload.content_id, release_key: payload.release_key, lock_version: payload.lock?.version, publish_at: payload.publish_at, slug: payload.slug, articles }));
 }
 
-function hasEquivalentEnglishDisclaimer(markdown) {
+export function hasEquivalentEnglishDisclaimer(markdown) {
   const exact = /^This article provides industry information and commercial analysis\. It is not individualized medical or investment advice\.$/i;
   let fence = null;
   let paragraph = [];

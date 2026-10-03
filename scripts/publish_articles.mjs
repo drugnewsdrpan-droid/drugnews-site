@@ -4,6 +4,7 @@ import { markdownToHtml, normalizeReferenceLists, stripLeadingTitle } from "./ar
 import { inferSeries, stripMarkdown, stripReferenceSection } from "./article_public_contract.mjs";
 import { publicDateValidationError, validateSocialCoverPolicy } from "./article_metadata_contract.mjs";
 import { buildResponsiveCover } from "./build_article_media.mjs";
+import { hasEquivalentEnglishDisclaimer } from "./scheduled_queue.mjs";
 
 const ROOT = process.cwd();
 const BASE_URL = "https://drugnews.com.tw";
@@ -750,7 +751,7 @@ async function validateArticle(article, knownSlugs) {
   knownSlugs.add(article.meta.slug);
   const plain = stripMarkdown(article.markdown);
   const hasDisclaimer = isEnglish(article.meta)
-    ? /does not constitute[^.]{0,160}(investment|medical)/i.test(plain)
+    ? /does not constitute[^.]{0,160}(investment|medical)/i.test(plain) || hasEquivalentEnglishDisclaimer(article.markdown)
     : plain.includes("不構成") && (plain.includes("投資") || plain.includes("醫療"));
   if (!hasDisclaimer) {
     errors.push("article.md must include an investment / medical disclaimer sentence");

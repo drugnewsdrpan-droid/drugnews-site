@@ -1333,6 +1333,32 @@ test("English disclaimer accepts an equivalent complete paragraph without changi
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
+test("Publisher rebuild accepts the queued equivalent English disclaimer and rejects invalid forms", async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-publisher-disclaimer-"));
+  const statement = "This article provides industry information and commercial analysis. It is not individualized medical or investment advice.";
+  try {
+    for (const [index, disclaimer] of [statement, statement.replace(". It", ".\nIt"),
+      "", statement.replace(" or investment", ""), statement.replace(" is not ", " is "),
+      `> ${statement}`, `# References\n\n${statement}`].entries()) {
+      const candidate = path.join(root, `case-${index}`);
+      const staging = path.join(candidate, "content", "inbox");
+      const folder = path.join(staging, "en");
+      await articleSpec(staging, "en", { slug: "synthetic-publisher-disclaimer-en", title: "Synthetic publisher disclaimer", publishAt: "2026-09-11T08:00:00+08:00", lang: "en" });
+      const articlePath = path.join(folder, "article.md");
+      const body = (await fs.readFile(articlePath, "utf8")).replace("This synthetic fixture does not constitute investment or medical advice.", disclaimer);
+      await fs.writeFile(articlePath, body);
+      if (index < 2) {
+        await runPublisherCandidate(candidate, staging);
+        assert((await fs.readFile(path.join(candidate, "articles", "2026-09-11-synthetic-publisher-disclaimer-en.html"), "utf8")).includes("individualized medical or investment advice."));
+      } else {
+        await assert.rejects(() => runPublisherCandidate(candidate, staging));
+        const errors = JSON.parse(await fs.readFile(path.join(candidate, "content", "publish-errors.json"), "utf8"));
+        assert(errors.errors.some(item => item.errors.includes("article.md must include an investment / medical disclaimer sentence")));
+      }
+    }
+  } finally { await fs.rm(root, { recursive: true, force: true }); }
+});
+
 let failed = 0;
 const selectedTests = process.env.DRUGNEWS_TEST_FILTER ? tests.filter(item => item.name.includes(process.env.DRUGNEWS_TEST_FILTER)) : tests;
 assert(selectedTests.length, "test filter must select at least one test");
