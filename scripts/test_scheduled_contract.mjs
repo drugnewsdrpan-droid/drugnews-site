@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { canonicalMarkdownBody, canonicalRenderedBody, sha256Text, bodyCanaries, LOCK_START, LOCK_END } from "./scheduled_content_integrity.mjs";
-import { renderApprovedBody, markdownToHtml } from "./article_body_renderer.mjs";
+import { renderApprovedBody, markdownToHtml, normalizeReferenceLists } from "./article_body_renderer.mjs";
 import { inferSeries, marketRadarValidationError } from "./article_public_contract.mjs";
 
 const tests = [];
@@ -39,6 +39,37 @@ test("only leading title and standard Chinese disclaimer omitted", () => {
   assert.equal(canonicalMarkdownBody(md, "Synthetic title"), "正文。");
 });
 test("no locked body is rejected", () => assert.equal(canonicalRenderedBody("<p>unlocked</p>"), ""));
+test("unnumbered linked reference blocks remain nine separate source entries", () => {
+  const entries = Array.from({ length: 9 }, (_, i) => `Source ${String.fromCharCode(65 + i)}\nhttps://example.invalid/source-${i + 1}`);
+  const md = `# 參考來源\n\n${entries.join("\n\n")}`;
+  const before = markdownToHtml(md, new Map());
+  const html = normalizeReferenceLists(before);
+  assert.equal((html.match(/<li>/g) || []).length, 9);
+  assert.equal((html.match(/<a\b/g) || []).length, 9);
+  const items = [...html.matchAll(/<li>([\s\S]*?)<\/li>/g)].map((item) => item[1]);
+  items.forEach((item, i) => {
+    assert(item.startsWith(`Source ${String.fromCharCode(65 + i)} `));
+    assert(item.includes(`href="https://example.invalid/source-${i + 1}"`));
+  });
+  assert.equal(canonical(html), canonical(before));
+});
+test("numbered reference labels still keep separate URL continuation paragraphs together", () => {
+  const md = "# 參考來源\n\n[1] First study\n\nhttps://example.invalid/first\n\n[2] Second study\n\nhttps://example.invalid/second";
+  const html = normalizeReferenceLists(markdownToHtml(md, new Map()));
+  const items = [...html.matchAll(/<li>([\s\S]*?)<\/li>/g)].map((item) => item[1]);
+  assert.equal(items.length, 2);
+  assert.match(items[0], /First study.*href="https:\/\/example.invalid\/first"/);
+  assert.match(items[1], /Second study.*href="https:\/\/example.invalid\/second"/);
+});
+test("linked numbered reference labels retain their additional URL continuation paragraphs", () => {
+  const md = "# 參考來源\n\n[1] [First study](https://example.invalid/first)\n\nhttps://example.invalid/first-additional\n\n[2] [Second study](https://example.invalid/second)\n\nhttps://example.invalid/second-additional";
+  const html = normalizeReferenceLists(markdownToHtml(md, new Map()));
+  const items = [...html.matchAll(/<li>([\s\S]*?)<\/li>/g)].map((item) => item[1]);
+  assert.equal(items.length, 2);
+  assert.equal((html.match(/<a\b/g) || []).length, 4);
+  assert.match(items[0], /First study.*href="https:\/\/example.invalid\/first-additional"/);
+  assert.match(items[1], /Second study.*href="https:\/\/example.invalid\/second-additional"/);
+});
 test("share controls stay outside the protected body", () => {
   assert.equal(canonicalRenderedBody(wrap("<p>甲。</p>") + "<p>分享</p>" + wrap("<p>乙。</p>")), "甲。 乙。");
 });

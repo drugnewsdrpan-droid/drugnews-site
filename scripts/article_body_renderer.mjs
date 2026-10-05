@@ -250,9 +250,11 @@ function normalizeReferenceLists(html) {
     }
     const paragraphs = [...section.matchAll(/<p>([\s\S]*?)<\/p>/gi)].map((item) => item[1].trim()).filter(Boolean);
     if (!paragraphs.length) return match;
+    const separateLinkedEntries = paragraphs.every((paragraph) => /<a\b[^>]*\bhref=["']https?:\/\//i.test(paragraph))
+      && !paragraphs.some((paragraph) => /^\[?\d+\]?[.:：]?/u.test(paragraph));
     const groups = [];
     for (const paragraph of paragraphs) {
-      if (/^\[?\d+\]?[.:：]?/u.test(paragraph) || !groups.length) groups.push([paragraph]);
+      if (separateLinkedEntries || /^\[?\d+\]?[.:：]?/u.test(paragraph) || !groups.length) groups.push([paragraph]);
       else groups.at(-1).push(paragraph);
     }
     return `${heading}<ol class="article-reference-list">${groups.map((group) => `<li>${group.join(" ")}</li>`).join("")}</ol>\n`;
