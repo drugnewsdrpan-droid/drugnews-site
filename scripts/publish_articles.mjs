@@ -2282,6 +2282,8 @@ function sitemap(records) {
     ["guides/taiwan-biotech-clinical-trials.html", "0.8", "2026-07-11"],
     ["subscribe.html", "0.8"],
     ["services.html", "0.8"],
+    ["reports/", "0.8", latest],
+    ["jobs/", "0.65", latest],
     ["team.html", "0.7"],
     ["llms.txt", "0.5", latest],
     ["ai-index.json", "0.5", latest],

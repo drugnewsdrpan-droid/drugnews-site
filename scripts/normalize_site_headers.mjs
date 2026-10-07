@@ -43,6 +43,14 @@ for (const file of await htmlFiles(ROOT)) {
   if (relative === "about.html") {
     html = html.replace(/<nav class="nav-links" id="site-nav-links" aria-label="Main navigation">[\s\S]*?<\/nav>/, ABOUT_NAV);
   }
+  if (!relative.startsWith("en/")) {
+    html = html.replace(/<nav class="nav-links"[^>]*>[\s\S]*?<\/nav>/, (nav) =>
+      nav.includes(`href="${prefix}reports/"`) ? nav : nav.replace(
+        /(<a\b[^>]*href="(?:\.\.\/)*articles(?:\/|\/index\.html)"[^>]*>文章<\/a>)/,
+        `$1\n        <a href="${prefix}reports/">產業研究</a>`
+      )
+    );
+  }
   if (!html.includes("site-nav.js")) html = html.replace("</body>", `  <script src="${prefix}site-nav.js?v=20260712-1"></script>\n</body>`);
   if (html !== before) {
     await writeFile(file, html);
