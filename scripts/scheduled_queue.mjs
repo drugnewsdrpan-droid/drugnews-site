@@ -21,7 +21,7 @@ const PUBLISH_AT_RE = /^\d{4}-\d{2}-\d{2}T(?:08|20):00:00\+08:00$/;
 const SHA256_RE = /^[0-9a-f]{64}$/;
 const GIT_OID_RE = /^[0-9a-f]{40}$/;
 const IMAGE_RE = /\.(?:gif|jpe?g|png|svg|webp)$/i;
-const SUPPORTED_CATEGORIES = new Set(["生技估值", "公司研究", "BD / 授權", "臨床與 CMC", "IR 與資本市場", "活動紀錄", "商業分析系列", "基本面系列", "醫學大會", "付費深度商業分析文章系列", "製藥巨頭系列"]);
+const SUPPORTED_CATEGORIES = new Set(["生技估值", "公司研究", "BD / 授權", "臨床與 CMC", "IR 與資本市場", "活動紀錄", "商業分析系列", "基本面系列", "醫學大會", "付費深度商業分析文章系列", "製藥巨頭系列", "科學介紹"]);
 const TOPIC_RULES = [
   ["biotech-investing", ["生技投資", "投資", "資本市場", "估值", "現金", "市值", "股價", "商業判斷"], 1],
   ["biotech-valuation", ["估值", "rNPV", "SOTP", "峰值銷售", "市值", "重估", "管線價值", "估值模型"], 5],

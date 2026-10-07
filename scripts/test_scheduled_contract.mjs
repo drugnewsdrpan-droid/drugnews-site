@@ -126,6 +126,7 @@ for (const category of ["生技估值", "公司研究", "BD / 授權", "臨床�
 }
 test("explicit series wins", () => assert.equal(inferSeries({ series:"基本面系列", category:"臨床與 CMC" }), "基本面系列"));
 test("explicit public category preserved", () => assert.equal(inferSeries({ category:"製藥巨頭系列" }), "製藥巨頭系列"));
+test("science introduction remains a science series for a free website article", () => assert.equal(inferSeries({ category:"科學介紹", source:"網站", access:"免費文章", title:"Synthetic science introduction" }), "科學介紹"));
 test("conference classification preserved", () => assert.equal(inferSeries({ category:"臨床與 CMC", title:"ASCO 重點" }), "醫學大會"));
 test("Vocus paid fundamentals preserved", () => assert.equal(inferSeries({ source:"方格子", access:"付費文章", title:"財報分析" }), "基本面系列"));
 test("Vocus paid deep research preserved", () => assert.equal(inferSeries({ source:"方格子", access:"付費文章", title:"研究分析" }), "付費深度商業分析文章系列"));

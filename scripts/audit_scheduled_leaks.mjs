@@ -115,7 +115,7 @@ function parseJson(text, surface) {
   try { return JSON.parse(text); } catch { throw new Error(`AUDIT_JSON_INVALID:${surface}`); }
 }
 
-const CATEGORY_SLUGS = new Map([["生技估值", "biotech-valuation"], ["公司研究", "company-research"], ["BD / 授權", "bd-licensing"], ["臨床與 CMC", "clinical-cmc"], ["IR 與資本市場", "ir-capital-markets"], ["活動紀錄", "events"], ["商業分析系列", "business-analysis"], ["基本面系列", "fundamental-analysis"], ["醫學大會", "medical-conference"], ["付費深度商業分析文章系列", "paid-deep-analysis"], ["製藥巨頭系列", "big-pharma"]]);
+const CATEGORY_SLUGS = new Map([["生技估值", "biotech-valuation"], ["公司研究", "company-research"], ["BD / 授權", "bd-licensing"], ["臨床與 CMC", "clinical-cmc"], ["IR 與資本市場", "ir-capital-markets"], ["活動紀錄", "events"], ["商業分析系列", "business-analysis"], ["基本面系列", "fundamental-analysis"], ["醫學大會", "medical-conference"], ["付費深度商業分析文章系列", "paid-deep-analysis"], ["製藥巨頭系列", "big-pharma"], ["科學介紹", "science-introduction"]]);
 
 function checkHomepage(failures, audit, fallbackJob, records, lang, text, live = false) {
   const surface = lang === "en" ? "en/index.html" : "index.html";

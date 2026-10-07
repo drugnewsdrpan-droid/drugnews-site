@@ -19,7 +19,7 @@ export function stripReferenceSection(markdown) {
   );
 }
 
-const SERIES = new Set(["商業分析系列", "基本面系列", "醫學大會", "付費深度商業分析文章系列", "製藥巨頭系列"]);
+const SERIES = new Set(["商業分析系列", "基本面系列", "醫學大會", "付費深度商業分析文章系列", "製藥巨頭系列", "科學介紹"]);
 function platformLabel(meta) {
   if (meta.source_platform) return meta.source_platform;
   const platforms = [];

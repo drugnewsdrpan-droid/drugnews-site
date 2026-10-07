@@ -47,7 +47,8 @@ const SERIES = new Map([
   ["基本面系列", "fundamental-analysis"],
   ["醫學大會", "medical-conference"],
   ["付費深度商業分析文章系列", "paid-deep-analysis"],
-  ["製藥巨頭系列", "big-pharma"]
+  ["製藥巨頭系列", "big-pharma"],
+  ["科學介紹", "science-introduction"]
 ]);
 
 const SERIES_DISPLAY = new Map([
@@ -55,7 +56,8 @@ const SERIES_DISPLAY = new Map([
   ["基本面系列", "基本面"],
   ["醫學大會", "醫學大會"],
   ["付費深度商業分析文章系列", "深度商業分析"],
-  ["製藥巨頭系列", "製藥巨頭"]
+  ["製藥巨頭系列", "製藥巨頭"],
+  ["科學介紹", "科學介紹"]
 ]);
 
 const ACCESS_TYPES = new Map([
@@ -387,7 +389,7 @@ function articleUi(meta = {}) {
     return {
       home: "首頁",
       articles: "文章",
-      freeArticle: "商業分析文",
+      freeArticle: inferSeries(meta) === "科學介紹" ? "科學介紹" : "商業分析文",
       byline: "作者：",
       author: "Drugnews 編輯部",
       originalHeading: "社群原文",
@@ -420,7 +422,7 @@ function articleUi(meta = {}) {
   return {
     home: "Home",
     articles: "Articles",
-    freeArticle: "Business Analysis",
+    freeArticle: inferSeries(meta) === "科學介紹" ? "Free Article" : "Business Analysis",
     byline: "By ",
     author: "Drugnews Editorial Team",
     originalHeading: "Original Article",
@@ -589,7 +591,8 @@ function displaySeriesLabel(series, item = {}) {
     "基本面系列": "Fundamental Analysis",
     "醫學大會": "Medical Conference",
     "付費深度商業分析文章系列": "Deep-Dive Analysis",
-    "製藥巨頭系列": "Big Pharma"
+    "製藥巨頭系列": "Big Pharma",
+    "科學介紹": "Science Introduction"
   }[series] || series;
 }
 

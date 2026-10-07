@@ -338,7 +338,7 @@ function articleCard(record, depth = 1) {
   const metaLabels = [...new Set([
     record.date,
     englishCategory(record.category),
-    englishAccess(record.access),
+    englishAccess(record.access, record.category),
     record.sponsored === true ? "Sponsored Content" : ""
   ].filter(Boolean))];
   return `<a class="article-card${image ? " with-image" : ""}${record.external ? " external-card" : ""}" href="${escapeHtml(href)}"${target}>
@@ -359,6 +359,7 @@ function englishCategory(category = "") {
     ["醫學大會", "Medical Conferences"],
     ["付費深度商業分析文章系列", "In-depth Business Analysis"],
     ["製藥巨頭系列", "Big Pharma"],
+    ["科學介紹", "Science Introduction"],
     ["公司研究", "Company Research"],
     ["生技估值", "Biotech Valuation"],
     ["IR 與資本市場", "IR and Capital Markets"]
@@ -366,7 +367,8 @@ function englishCategory(category = "") {
   return map.get(category) || category || "Business Analysis";
 }
 
-function englishAccess(access = "") {
+function englishAccess(access = "", category = "") {
+  if (access === "免費文章" && category === "科學介紹") return "Free Article";
   if (access === "免費文章") return "Business Analysis";
   if (access === "付費文章") return "In-depth Research";
   return access || "Business Analysis";
@@ -446,7 +448,7 @@ function homePage(records) {
   const englishRecords = records.filter((item) => item.lang === "en");
   const lead = englishRecords[0];
   const leadMeta = lead
-    ? [...new Set(["Featured English Analysis", englishCategory(lead.category), englishAccess(lead.access)].filter(Boolean))]
+    ? [...new Set(["Featured English Analysis", englishCategory(lead.category), englishAccess(lead.access, lead.category)].filter(Boolean))]
         .map((label) => `<span>${escapeHtml(label)}</span>`)
         .join("")
     : "";
