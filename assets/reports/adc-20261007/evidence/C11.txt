@@ -1,0 +1,61 @@
+Source ID: C11
+Original URL: https://news.bms.com/news/details/2026/Izalontamab-Brengitecan-Iza-Bren-Demonstrates-Statistically-Significant-and-Clinically-Meaningful-Improvements-in-Overall-Survival-and-Progression-Free-Survival-in-Patients-with-Triple-Negative-Breast-Cancer-and-Esophageal-Squamous-Cell-Carcinoma/default.aspx
+Source date (attachment preserved): 2026-06-02
+Data date (attachment preserved): 
+Checked at: 2026-10-07T18:42:25+08:00
+Timezone: Asia/Taipei
+Retrieval mode: public_url_web_tool
+Read level: BMS 原始公開公司公告；相關試驗設計、期中結果與合作段落，非期刊全文
+Access result: 正常取得原 URL 公開正文
+Original raw artifact SHA256: null
+
+LOCATORS (actual reading positions):
+公司公告 2026-06-02：L11、L14–16
+Results from the Interim Analysis of PANKU-Breast02，L25–33
+PANKU-Breast02 / PANKU-Esophagus01 及合作地域，L44；About iza-bren，L46–48
+
+MINIMUM VERBATIM EXCERPT (only this block is source prose):
+Outside of China, iza-bren is jointly developed by SystImmune and Bristol Myers Squibb under a collaboration and exclusive license agreement.
+
+EXTRACTED FACTUAL FIELDS (not a reconstructed quotation):
+[
+  {
+    "locator": "PANKU-Breast02 L26–29",
+    "trial": "PANKU-Breast02",
+    "country": "China",
+    "phase": 3,
+    "analysis": "prespecified interim",
+    "population": "不可切除局部晚期或轉移 TNBC；晚期疾病接受過 1–2 線全身治療且曾用 taxane",
+    "comparator": "physician choice chemotherapy",
+    "N_iza_bren": 207,
+    "N_comparator": 211,
+    "median_OS_iza_bren": 15.9,
+    "median_OS_comparator": 12.5,
+    "unit": "months",
+    "OS_HR": 0.6,
+    "OS_HR_95ci": [
+      0.42,
+      0.85
+    ],
+    "median_follow_up_months": 11
+  },
+  {
+    "locator": "L14–16, L44, L47–48",
+    "phase3_regions": "中國的 PANKU-Breast02 與 PANKU-Esophagus01",
+    "China_sponsor": "Sichuan Biokin Pharmaceutical",
+    "outside_China_co_developers": [
+      "SystImmune",
+      "Bristol Myers Squibb"
+    ],
+    "targets": [
+      "EGFR",
+      "HER3"
+    ],
+    "payload_class": "Topo1i"
+  }
+]
+
+SCOPE / PRECISE GAP (reviewer description, not source prose):
+中國三期期中資料及中國以外 BMS/SystImmune 共同開發有直接支持；公司地圖把合作不分地域概括為「全球合作」過寬，建議精確化。未把公司公告提升成期刊證據。
+
+Web refs: turn116view5, turn133view2, turn134view1, turn134view2

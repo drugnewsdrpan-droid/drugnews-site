@@ -1,0 +1,57 @@
+Source ID: C12
+Original URL: https://heidelberg-pharma.com/images/managed/HDP-101-01_IMS_poster.pdf
+Source date (attachment preserved): 2026-09-24
+Data date (attachment preserved): 2026-09-03
+Checked at: 2026-10-07T18:42:25+08:00
+Timezone: Asia/Taipei
+Retrieval mode: original_web_ref_same_url
+Read level: 原 URL 單頁 IMS 2026 海報的 web 工具 PDF 文字；僅必要研究設計、進展及安全性/PK-PD 段，未在本輪核圖像
+Access result: 直接 URL 首次工具報 not accessible；原已用 turn62view0 正常回讀同一 URL 單頁 PDF 文字（不是替代 URL）。
+Original raw artifact SHA256: null
+
+LOCATORS (actual reading positions):
+PDF 第1頁：Design & Methodology L30–35；Study Progress L43–53
+PDF 第1頁：Results / Demographics L57–62；PK/PD L83–86；Conclusions L88–91；Data cutoff L128
+
+MINIMUM VERBATIM EXCERPT (only this block is source prose):
+175 µg/kg was selected as RP2D, with a split first dose and premedication, followed by Q3W dosing.
+
+EXTRACTED FACTUAL FIELDS (not a reconstructed quotation):
+[
+  {
+    "locator": "p1 L57–59, L128",
+    "trial_data_cutoff": "2026-09-03",
+    "phase": 1,
+    "N_dosed": 53,
+    "dose_escalation_cohorts": 10,
+    "dose_range": [
+      20,
+      218
+    ],
+    "dose_unit": "µg/kg"
+  },
+  {
+    "locator": "p1 Study Progress L44–53",
+    "RP2D": 175,
+    "unit": "µg/kg",
+    "schedule": "首劑分次並預先給藥；之後 Q3W",
+    "phase2a_expansion": "已開始收案",
+    "premedication_classes": [
+      "corticosteroids",
+      "antihistamines"
+    ],
+    "risk_targets": [
+      "thrombocytopenia",
+      "liver enzyme elevations"
+    ]
+  },
+  {
+    "locator": "p1 L85–86",
+    "evidence_level": "當時 PK/PD 模型支持首劑分次降低對血小板及肝功能的影響；非隨機獨立比較證實"
+  }
+]
+
+SCOPE / PRECISE GAP (reviewer description, not source prose):
+支持早期 RRMM 劑量/進展與給藥管理；未證明實體癌的 prior Topo-I ADC 療效，也未將模型或單臂資料作確認性治療窗比較。source_date 2026-09-24 按附件保留；本頁直接可核的是 2026-09-03 cutoff。
+
+Web refs: turn116view2, turn118view0, turn133view0, turn133view1

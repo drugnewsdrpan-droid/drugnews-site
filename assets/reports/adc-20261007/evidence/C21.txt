@@ -1,0 +1,52 @@
+Source ID: C21
+Original URL: https://clinicaltrials.gov/study/NCT04622319
+Source date (attachment preserved): 2020-11-09
+Data date (attachment preserved): 2026-05-15
+Checked at: 2026-10-07T18:42:25+08:00
+Timezone: Asia/Taipei
+Retrieval mode: stored_excerpt_review
+Read level: 已存 ClinicalTrials.gov 官方公開 API 字段選錄；原始完整 HTTP JSON 未保存；本輪未網路重取
+Access result: 已實讀原先保存的登錄日期、設計及必要排除字段；沒有用作者 clinical_records 結論替代
+Original raw artifact SHA256: null
+
+LOCATORS (actual reading positions):
+research/clinical.json#/registry_records[source_id=C21]
+原 API eligibilityCriteria 排除條件；本地 prior_adc_or_specific_exclusions[1]
+本地 official_title；primary_outcomes[0]；status.lastUpdatePostDateStruct
+Stored official API field extract: research/clinical.json#/registry_records[source_id=C21]
+Official API used in original research: https://clinicaltrials.gov/api/v2/studies/NCT04622319
+Original network read time: null
+Original network read date (saved access_date): 2026-10-07
+
+MINIMUM VERBATIM EXCERPT (only this block is source prose):
+Prior treatment with T-DXd, T-DM1 or other anti-HER2 antibody-drug conjugate (ADC)
+
+EXTRACTED FACTUAL FIELDS (not a reconstructed quotation):
+[
+  {
+    "locator": "research/clinical.json#/registry_records[source_id=C21]/status.lastUpdatePostDateStruct",
+    "date": "2026-05-15"
+  },
+  {
+    "locator": "research/clinical.json#/registry_records[source_id=C21]/prior_adc_or_specific_exclusions[1]",
+    "excluded_prior_treatment": [
+      "T-DXd",
+      "T-DM1",
+      "other anti-HER2 ADC"
+    ]
+  },
+  {
+    "locator": "research/clinical.json#/registry_records[source_id=C21]/official_title",
+    "comparison": [
+      "T-DXd",
+      "T-DM1"
+    ],
+    "population": "新輔助治療後高風險 HER2+ 乳癌殘餘侵襲病灶",
+    "endpoint": "iDFS"
+  }
+]
+
+SCOPE / PRECISE GAP (reviewer description, not source prose):
+限原保存字段和該次登錄版本；不是結果論文、不是本輪刷新登錄。
+
+Web refs: 

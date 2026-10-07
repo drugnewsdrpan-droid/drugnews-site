@@ -1,0 +1,1206 @@
+{
+  "title": {
+    "zh": "ADC R2逐圖圖說、來源與數據索引",
+    "en": "ADC R2 figure captions, sources and data index"
+  },
+  "research_parent_version": "ADC-20261007-R1",
+  "presentation_version": "ADC-20261007-R1-LAYERED-HTML-R2-1.0",
+  "research_cutoff": "2026-10-07",
+  "new_source_check_date": "2026-10-07",
+  "timezone": "Asia/Taipei",
+  "editorial_organization": "Drugnews｜藥時事",
+  "author_attribution": "Drugnews editorial research; no named-person endorsement asserted",
+  "scope": {
+    "new_public_sources": [
+      "R10",
+      "D35"
+    ],
+    "existing_public_sources_re_read": [
+      "D01",
+      "R07",
+      "D16"
+    ],
+    "other_figure_sources": "Existing R1/pilot source extracts reused; this appendix does not claim a recheck of all original report sources.",
+    "source_dates": "Publication/filing dates, study/financial periods, registry updates and access dates retain distinct roles."
+  },
+  "figures": [
+    {
+      "id": "P01",
+      "anchor": "figure-P01",
+      "version": "ADC-20261007-R1-LAYERED-HTML-R2-1.0",
+      "title": {
+        "zh": "下一代ADC，要修好哪一段？",
+        "en": "Which step should the next ADC improve?"
+      },
+      "reader_question": {
+        "zh": "ADC如何把負載送到作用位置？下一代設計要改善哪個失效環節？",
+        "en": "How does an ADC deliver its payload to its site of action, and which failure point should a new design improve?"
+      },
+      "takeaway": {
+        "zh": "下一代設計的價值，在於改善特定失效環節。",
+        "en": "A next-generation design is valuable for the failure point it improves."
+      },
+      "caption": {
+        "zh": "抗體先結合膜上靶點，ADC經內吞與胞內運輸，依連接子及抗體設計釋出活性負載。Topo-I抑制負載通往細胞核，造成DNA損傷；微管抑制負載在胞質干擾微管與細胞分裂。兩條作用分支代表替代負載類別。血中穩定、抗原異質性、胞內遞送與負載抗藥，將技術差異連到可檢驗的失效環節。",
+        "en": "The antibody binds a surface antigen. The ADC is internalized and traffics intracellularly before releasing an active payload, according to its linker and antibody design. A Topo-I inhibitor payload enters the nucleus and causes DNA damage; a microtubule inhibitor acts on cytoplasmic microtubules and cell division. These are alternative payload classes. Blood stability, antigen heterogeneity, intracellular delivery and payload resistance connect design differences to testable failure points."
+      },
+      "alt": {
+        "zh": "上方為胞外，抗體Fab端結合細胞膜上的抗原，膜內陷形成容納ADC的胞內體。青綠色實線箭頭由胞內體指向溶小體。釋出的橙色小分子負載越過溶小體膜，再以兩條替代路徑分別通往細胞核DNA與胞質微管。胞外橙色虛線表示可能的過早釋放；圖中沒有回到膜面的灰色回收分支。沿途標示血中穩定、抗原異質性、胞內遞送與負載抗藥。",
+        "en": "The upper region is extracellular. An antibody Fab tip binds a transmembrane antigen; membrane invagination forms an endosome containing the ADC. A solid teal arrow leads from the endosome to a lysosome. Released orange small-molecule payload crosses the lysosomal membrane and follows alternative routes to nuclear DNA or cytoplasmic microtubules. An extracellular orange dashed path depicts possible premature release. No gray return-to-surface recycling branch is shown. Blood stability, antigen heterogeneity, intracellular delivery and payload resistance are annotated."
+      },
+      "generation": {
+        "zh": "沿原創可編輯SVG機轉圖作指定差異修正，再由Inkscape將兩語各張完整SVG轉為PNG。",
+        "en": "A scoped correction to the original editable SVG mechanism drawing; Inkscape renders each complete language-specific SVG to PNG."
+      },
+      "original_dimensions_px": [
+        1170,
+        4158
+      ],
+      "mobile_review_dimensions_px": [
+        390,
+        1386
+      ],
+      "assets": [
+        {
+          "language": "zh-Hant",
+          "svg": "figures/P01_ZH.svg",
+          "png": "figures/P01_ZH.png"
+        },
+        {
+          "language": "en",
+          "svg": "figures/P01_EN.svg",
+          "png": "figures/P01_EN.png"
+        }
+      ],
+      "source_ids": [
+        "R02",
+        "R03",
+        "R04",
+        "R06",
+        "R10"
+      ],
+      "data_files": [
+        "data/P01_mechanism.json"
+      ],
+      "original_units": [],
+      "currency": null,
+      "scope": {
+        "zh": "典型內吞途徑概念圖；尺寸、分子數、抗原密度及機率不按比例。Topo-I與微管分支為替代負載類別；未畫旁觀者作用。",
+        "en": "A schematic of a typical internalizing ADC route; sizes, molecule counts, antigen density and probabilities are not quantitative. Topo-I and microtubule branches are alternative payload classes; no bystander pathway is shown."
+      },
+      "r2_correction": {
+        "zh": "刪除原recycled_complex節點、內體返回膜面的灰色虛線與相應F3回收文字；F3改為胞內遞送。T14未能以公開原文核對的分支不再作本圖依據。R10直接支持另一項2019年anti-HER2 ADC臨床前研究的pH依賴抗原解離與溶小體累積，沒有替DCB／LYSward平台背書；抗原解離不寫成酸敏連接子。",
+        "en": "The recycled_complex node, gray endosome-to-surface branch and corresponding F3 recycling text were removed; F3 now describes intracellular delivery. The branch not verified against T14’s public text is no longer used in this figure. R10 directly supports pH-dependent antigen dissociation and lysosomal accumulation in a separate 2019 preclinical anti-HER2 ADC study; it does not verify DCB/LYSward. Antigen dissociation is not relabeled as an acid-sensitive linker."
+      }
+    },
+    {
+      "id": "P02",
+      "anchor": "figure-P02",
+      "version": "ADC-20261007-R1-VISUAL-PILOT2-1.0",
+      "r2_integration": "original PNG/SVG and 25 raw numeric records retained unchanged",
+      "title": {
+        "zh": "各自第一線PFS改善，接續療效仍需證據",
+        "en": "First-line PFS gains, sequencing needs evidence"
+      },
+      "reader_question": {
+        "zh": "ADC走向第一線的證據，究竟比較了哪些人、治療與終點？",
+        "en": "Which patients, treatments and endpoints were compared in the evidence for first-line ADCs?"
+      },
+      "takeaway": {
+        "zh": "各自同試驗對照支持第一線PFS改善；這些試驗不能回答既往Topo-I ADC失敗後的接續療效。",
+        "en": "Each trial supports a PFS benefit against its own first-line comparator; these trials do not establish efficacy after prior topoisomerase-I ADC failure."
+      },
+      "caption": {
+        "zh": "三個獨立三期試驗panel，分別呈現原試驗組與對照組的BICR中位PFS：TROPION-Breast02為10.8對5.6個月，ASCENT-03為9.7對6.9個月，ASCENT-04為11.2對7.8個月。FDA比較N依序644、558、443；各自HR與95% CI另作文字，OS另列。圖序沿F05，不作跨試驗療效排序。",
+        "en": "Three independent phase 3 panels show BICR-assessed median PFS for each original experimental arm and comparator: 10.8 versus 5.6 months in TROPION-Breast02, 9.7 versus 6.9 months in ASCENT-03, and 11.2 versus 7.8 months in ASCENT-04. FDA comparison Ns are 644, 558 and 443. Each HR and 95% CI is a separate text annotation; OS is shown separately. Panel order follows F05 and is not a cross-trial efficacy ranking."
+      },
+      "alt": {
+        "zh": "三個獨立的0–12個月橫向PFS長條比較；青綠為ADC組、灰藍為原對照組。前兩試驗人群不適合PD-(L)1治療，ASCENT-04為PD-L1 CPS≥10。每panel文字保留N、HR／CI及FDA公告日，HR／CI未作月數誤差線。",
+        "en": "Three independent horizontal PFS bar comparisons, each on a 0–12-month axis. Teal indicates the ADC arm and gray-blue its original comparator. The first two populations are not candidates for PD-(L)1 therapy; ASCENT-04 has PD-L1 CPS ≥10. Each panel retains N, HR/CI and the FDA announcement date as text; HR/CI is not a month-based error bar."
+      },
+      "generation": {
+        "zh": "原Matplotlib定量長條圖，保留SVG文字；原兩語完整SVG經Inkscape整張轉PNG。本輪直接沿用原PNG/SVG，未重畫。",
+        "en": "Original Matplotlib quantitative bars with editable SVG text; each complete original SVG was rasterized with Inkscape. R2 reuses the PNG/SVG files unchanged."
+      },
+      "original_dimensions_px": [
+        1170,
+        5205
+      ],
+      "mobile_review_dimensions_px": [
+        390,
+        1735
+      ],
+      "assets": [
+        {
+          "language": "zh-Hant",
+          "svg": "figures/P02_ZH.svg",
+          "png": "figures/P02_ZH.png"
+        },
+        {
+          "language": "en",
+          "svg": "figures/P02_EN.svg",
+          "png": "figures/P02_EN.png"
+        }
+      ],
+      "source_ids": [
+        "C03",
+        "C06",
+        "C18",
+        "C19",
+        "C20"
+      ],
+      "data_files": [
+        "data/P02_clinical.csv",
+        "data/P02_clinical.json"
+      ],
+      "original_units": [
+        "months (PFS / OS)",
+        "dimensionless (HR / 95% CI)",
+        "people (N)"
+      ],
+      "currency": null,
+      "trials": [
+        {
+          "panel_id": "TB02",
+          "trial": "TROPION-Breast02",
+          "phase": 3,
+          "population_zh": "不適合PD-(L)1治療",
+          "common_population_zh": "成人不可切除局部晚期／轉移TNBC，未接受該晚期階段全身治療的試驗族群。",
+          "experimental": "Dato-DXd",
+          "control": "醫師選擇化療",
+          "n_fda_analysis": 644,
+          "n_experimental_stored": 323,
+          "n_control_stored": 321,
+          "pfs": {
+            "endpoint": "BICR-assessed PFS",
+            "summary_statistic": "median",
+            "experimental": 10.8,
+            "control": 5.6,
+            "unit_zh": "月",
+            "unit_en": "months",
+            "hazard_ratio": 0.57,
+            "hr_95_ci_low": 0.47,
+            "hr_95_ci_high": 0.69,
+            "hazard_ratio_unit": "dimensionless"
+          },
+          "os": {
+            "endpoint": "OS",
+            "summary_statistic": "median",
+            "experimental": 23.7,
+            "control": 18.7,
+            "unit_zh": "月",
+            "unit_en": "months",
+            "hazard_ratio": 0.79,
+            "hr_95_ci_low": 0.64,
+            "hr_95_ci_high": 0.98,
+            "hazard_ratio_unit": "dimensionless"
+          },
+          "fda_announcement_date": "2026-05-22",
+          "trial_data_cutoff": null,
+          "trial_data_cutoff_status": "R1未存試驗資料截點；不可用FDA公告日或登錄更新日替代。",
+          "registry_last_update": "2026-05-15",
+          "source_ids": [
+            "C03",
+            "C18"
+          ],
+          "currency": null,
+          "f05_record_ids": [
+            "TB02_N_ALL",
+            "TB02_N_EXP",
+            "TB02_N_CTRL",
+            "TB02_PFS_EXP",
+            "TB02_PFS_CTRL",
+            "TB02_PFS_HR",
+            "TB02_PFS_HR_CI_LOW",
+            "TB02_PFS_HR_CI_HIGH",
+            "TB02_OS_EXP",
+            "TB02_OS_CTRL",
+            "TB02_OS_HR",
+            "TB02_OS_HR_CI_LOW",
+            "TB02_OS_HR_CI_HIGH",
+            "TB02_LIMITATION",
+            "TB02_PRIOR_ADC"
+          ],
+          "population_en": "Not candidates for PD-(L)1 therapy",
+          "common_population_en": "Adults with unresectable locally advanced or metastatic TNBC; no prior systemic treatment for advanced disease.",
+          "control_en": "Investigator's choice chemotherapy",
+          "numeric_source_id": "C03",
+          "registry_source_id": "C18",
+          "trial_data_cutoff_status_en": "Not stored in R1; FDA notice and registry-update dates are not substituted for a trial data cutoff."
+        },
+        {
+          "panel_id": "ASCENT03",
+          "trial": "ASCENT-03",
+          "phase": 3,
+          "population_zh": "不適合PD-(L)1治療",
+          "common_population_zh": "成人不可切除局部晚期／轉移TNBC，未接受該晚期階段全身治療的試驗族群。",
+          "experimental": "SG",
+          "control": "nab-paclitaxel、paclitaxel或gemcitabine＋carboplatin",
+          "n_fda_analysis": 558,
+          "n_experimental_stored": null,
+          "n_control_stored": null,
+          "pfs": {
+            "endpoint": "BICR-assessed PFS",
+            "summary_statistic": "median",
+            "experimental": 9.7,
+            "control": 6.9,
+            "unit_zh": "月",
+            "unit_en": "months",
+            "hazard_ratio": 0.62,
+            "hr_95_ci_low": 0.5,
+            "hr_95_ci_high": 0.77,
+            "hazard_ratio_unit": "dimensionless"
+          },
+          "os": {
+            "status_zh": "FDA核准分析時尚未成熟",
+            "status_en": "Immature at the FDA approval analysis",
+            "median_experimental": null,
+            "median_control": null,
+            "hazard_ratio": null,
+            "hr_95_ci_low": null,
+            "hr_95_ci_high": null,
+            "unit_zh": "月",
+            "unit_en": "months",
+            "hazard_ratio_unit": "dimensionless"
+          },
+          "fda_announcement_date": "2026-06-24",
+          "trial_data_cutoff": null,
+          "trial_data_cutoff_status": "R1未存試驗資料截點；不可用FDA公告日或登錄更新日替代。",
+          "registry_last_update": "2026-04-06",
+          "source_ids": [
+            "C06",
+            "C19"
+          ],
+          "currency": null,
+          "f05_record_ids": [
+            "ASCENT03_N_ALL",
+            "ASCENT03_PFS_EXP",
+            "ASCENT03_PFS_CTRL",
+            "ASCENT03_PFS_HR",
+            "ASCENT03_PFS_HR_CI_LOW",
+            "ASCENT03_PFS_HR_CI_HIGH",
+            "ASCENT03_LIMITATION",
+            "ASCENT03_OS_MATURITY",
+            "ASCENT03_PRIOR_ADC"
+          ],
+          "population_en": "Not candidates for PD-(L)1 therapy",
+          "common_population_en": "Adults with unresectable locally advanced or metastatic TNBC; no prior systemic treatment for advanced disease.",
+          "control_en": "Nab-paclitaxel, paclitaxel, or gemcitabine plus carboplatin",
+          "numeric_source_id": "C06",
+          "registry_source_id": "C19",
+          "trial_data_cutoff_status_en": "Not stored in R1; FDA notice and registry-update dates are not substituted for a trial data cutoff."
+        },
+        {
+          "panel_id": "ASCENT04",
+          "trial": "ASCENT-04 / KEYNOTE-D19",
+          "phase": 3,
+          "population_zh": "PD-L1 CPS≥10",
+          "common_population_zh": "成人不可切除局部晚期／轉移TNBC，未接受該晚期階段全身治療的試驗族群。",
+          "experimental": "SG＋pembrolizumab",
+          "control": "醫師選擇化療＋pembrolizumab",
+          "n_fda_analysis": 443,
+          "n_experimental_stored": null,
+          "n_control_stored": null,
+          "pfs": {
+            "endpoint": "BICR-assessed PFS",
+            "summary_statistic": "median",
+            "experimental": 11.2,
+            "control": 7.8,
+            "unit_zh": "月",
+            "unit_en": "months",
+            "hazard_ratio": 0.65,
+            "hr_95_ci_low": 0.51,
+            "hr_95_ci_high": 0.84,
+            "hazard_ratio_unit": "dimensionless"
+          },
+          "os": {
+            "status_zh": "FDA核准分析時尚未成熟",
+            "status_en": "Immature at the FDA approval analysis",
+            "median_experimental": null,
+            "median_control": null,
+            "hazard_ratio": null,
+            "hr_95_ci_low": null,
+            "hr_95_ci_high": null,
+            "unit_zh": "月",
+            "unit_en": "months",
+            "hazard_ratio_unit": "dimensionless"
+          },
+          "fda_announcement_date": "2026-06-24",
+          "trial_data_cutoff": null,
+          "trial_data_cutoff_status": "R1未存試驗資料截點；不可用FDA公告日或登錄更新日替代。",
+          "registry_last_update": "2025-09-18",
+          "source_ids": [
+            "C06",
+            "C20"
+          ],
+          "currency": null,
+          "f05_record_ids": [
+            "ASCENT04_N_ALL",
+            "ASCENT04_PFS_EXP",
+            "ASCENT04_PFS_CTRL",
+            "ASCENT04_PFS_HR",
+            "ASCENT04_PFS_HR_CI_LOW",
+            "ASCENT04_PFS_HR_CI_HIGH",
+            "ASCENT04_LIMITATION",
+            "ASCENT04_OS_MATURITY",
+            "ASCENT04_PRIOR_ADC"
+          ],
+          "population_en": "PD-L1 CPS ≥10",
+          "common_population_en": "Adults with unresectable locally advanced or metastatic TNBC; no prior systemic treatment for advanced disease.",
+          "control_en": "Investigator's choice chemotherapy plus pembrolizumab",
+          "numeric_source_id": "C06",
+          "registry_source_id": "C20",
+          "trial_data_cutoff_status_en": "Not stored in R1; FDA notice and registry-update dates are not substituted for a trial data cutoff."
+        }
+      ],
+      "chart_mapping": {
+        "panel_order": [
+          "TB02",
+          "ASCENT03",
+          "ASCENT04"
+        ],
+        "order_basis": "R1 F05 order; not a ranking",
+        "axis_endpoint": "BICR-assessed median PFS",
+        "x_axis_min": 0,
+        "x_axis_max": 12,
+        "unit": "months",
+        "ticks": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "bar_origin": 0,
+        "bar_length_fraction_formula": "(median_pfs_months - 0) / (12 - 0)",
+        "logical_plot_width_px": 302,
+        "bar_length_px_formula": "median_pfs_months / 12 * 302",
+        "hr_ci": "Separate text only. HR is dimensionless and its CI is not a median-PFS error bar.",
+        "os": "Separate annotation, never plotted on the PFS axis.",
+        "cross_trial_effect_or_market_calculations": null
+      },
+      "numeric_records_retained": 25,
+      "unknowns": {
+        "trial_data_cutoffs": null,
+        "ascent03_ascent04_arm_counts": null,
+        "ascent03_ascent04_median_os_hr_ci": null,
+        "ascent03_count_difference": {
+          "fda_r1_count": 558,
+          "r1_registry_c19_count": 623,
+          "relationship_verified": false,
+          "figure_count_basis": "FDA numerical extract used by R1; kept at 558."
+        }
+      },
+      "date_and_count_boundary": {
+        "zh": "FDA 2026-05-22及2026-06-24均為公告日，不是試驗資料截點。三試驗trial_data_cutoff均未存，保留null。ASCENT-03沿FDA數值N＝558，原C19登錄另為623（ACTUAL），兩者關係仍未知；ASCENT-03／04分組N及成熟OS數值未補造。",
+        "en": "May 22 and June 24, 2026 are FDA announcement dates, not trial data cutoffs. All three trial_data_cutoff fields remain null because no cutoff was stored. ASCENT-03 keeps the FDA numerical N = 558; the stored C19 registry enrollment is 623 (ACTUAL), and their relationship remains unknown. Missing ASCENT-03/04 arm Ns and mature OS values have not been invented."
+      },
+      "qa_reuse": {
+        "provenance": "user-provided independent QA conclusion",
+        "zh_score": 97.5,
+        "en_score": 97.5,
+        "three_tests": "user reported all three passed",
+        "scope": "P02 only; not a new author-issued external verdict or whole-report approval"
+      },
+      "inventory_context": "The historical P02 inventory found no eligible annual sales series among the original 185 numeric values. R2 adds a separately sourced three-value Trodelvy series as P03; the original inventory and P02 data are preserved."
+    },
+    {
+      "id": "P03",
+      "anchor": "figure-P03",
+      "version": "ADC-20261007-R1-LAYERED-HTML-R2-1.0",
+      "title": {
+        "zh": "Trodelvy銷售續增，增速放慢",
+        "en": "Trodelvy sales rose; growth slowed"
+      },
+      "reader_question": {
+        "zh": "代表ADC產品的已披露年度銷售，顯示了什麼商業變化？",
+        "en": "What commercial change is visible in a representative ADC’s disclosed annual sales?"
+      },
+      "takeaway": {
+        "zh": "銷售續增、增速放慢；適應症組合仍影響商業表現。",
+        "en": "Sales rose while growth slowed; indication mix still affects commercial performance."
+      },
+      "caption": {
+        "zh": "Gilead同一份2025年Form 10-K披露Trodelvy在2023、2024、2025年淨產品銷售為1,063、1,315、1,397百萬美元；同比依原值重算為23.7%與6.2%。口徑為合併報表全球合計、US GAAP淨產品銷售及名義美元。公司稱2025乳癌需求增長被膀胱癌適應症撤回部分抵銷，未拆各因素金額。",
+        "en": "Gilead’s 2025 Form 10-K reports Trodelvy net product sales of USD 1,063 million, USD 1,315 million and USD 1,397 million in 2023, 2024 and 2025. Recalculated annual growth is 23.7% and 6.2%. The scope is Gilead’s global consolidated US GAAP net product sales in nominal USD. Management attributed growth to breast cancer demand, partly offset by withdrawal of the bladder cancer indication, without quantifying each factor."
+      },
+      "alt": {
+        "zh": "三柱圖以零為基線，呈現Trodelvy在Gilead合併報表的2023至2025年度淨產品銷售：1,063、1,315、1,397百萬美元。下方獨立文字標示2024較2023增長23.7%、2025較2024增長6.2%，百分比未與美元共軸。數值為完整年度、名義美元；D35為2026年2月24日申報的2025 Form 10-K。單一代表品，非全球ADC市場。",
+        "en": "A zero-baseline three-bar chart shows Trodelvy annual net product sales in Gilead’s consolidated accounts for 2023–2025: USD 1,063 million, USD 1,315 million and USD 1,397 million. Separate text below shows growth of 23.7% for 2024 versus 2023 and 6.2% for 2025 versus 2024. Percentages do not share the dollar axis. Values cover complete years in nominal USD. Source D35 is the 2025 Form 10-K filed February 24, 2026. One representative product, not the global ADC market."
+      },
+      "generation": {
+        "zh": "Matplotlib原創定量柱狀圖，SVG保留可編輯文字；每語完整SVG以Inkscape整張轉為PNG。",
+        "en": "An original Matplotlib quantitative bar chart with editable SVG text; Inkscape rasterizes each complete language-specific SVG to PNG."
+      },
+      "original_dimensions_px": [
+        1170,
+        2550
+      ],
+      "mobile_review_dimensions_px": [
+        390,
+        850
+      ],
+      "assets": [
+        {
+          "language": "zh-Hant",
+          "svg": "figures/P03_ZH.svg",
+          "png": "figures/P03_ZH.png"
+        },
+        {
+          "language": "en",
+          "svg": "figures/P03_EN.svg",
+          "png": "figures/P03_EN.png"
+        }
+      ],
+      "source_ids": [
+        "D35"
+      ],
+      "data_files": [
+        "data/P03_sales.csv",
+        "data/P03_sales.json"
+      ],
+      "records": [
+        {
+          "record_ID": "SALES_TRODELVY_2023",
+          "year": 2023,
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "value": 1063,
+          "unit": "USD million",
+          "currency": "USD",
+          "source_id": "D35"
+        },
+        {
+          "record_ID": "SALES_TRODELVY_2024",
+          "year": 2024,
+          "period_start": "2024-01-01",
+          "period_end": "2024-12-31",
+          "value": 1315,
+          "unit": "USD million",
+          "currency": "USD",
+          "source_id": "D35"
+        },
+        {
+          "record_ID": "SALES_TRODELVY_2025",
+          "year": 2025,
+          "period_start": "2025-01-01",
+          "period_end": "2025-12-31",
+          "value": 1397,
+          "unit": "USD million",
+          "currency": "USD",
+          "source_id": "D35"
+        }
+      ],
+      "calculations": [
+        {
+          "id": "CALC_SALES_TRODELVY_YOY_2024",
+          "label": "Trodelvy 2024淨產品銷售同比",
+          "operation": "growth_rate",
+          "input_ids": [
+            "SALES_TRODELVY_2024",
+            "SALES_TRODELVY_2023"
+          ],
+          "formula": "(current_year / previous_year - 1) × 100%",
+          "substitution": "(1315 / 1063 - 1) × 100%",
+          "result": 0.23706491063029156,
+          "result_pct": 23.706491063029155,
+          "display_pct": 23.7,
+          "unit": "%",
+          "interpretation": "result為0–1小數供Excel百分比格式；display_pct為依已披露百萬美元值重算、四捨五入至一位小數。",
+          "source_ids": [
+            "D35"
+          ]
+        },
+        {
+          "id": "CALC_SALES_TRODELVY_YOY_2025",
+          "label": "Trodelvy 2025淨產品銷售同比",
+          "operation": "growth_rate",
+          "input_ids": [
+            "SALES_TRODELVY_2025",
+            "SALES_TRODELVY_2024"
+          ],
+          "formula": "(current_year / previous_year - 1) × 100%",
+          "substitution": "(1397 / 1315 - 1) × 100%",
+          "result": 0.06235741444866916,
+          "result_pct": 6.235741444866916,
+          "display_pct": 6.2,
+          "unit": "%",
+          "interpretation": "result為0–1小數供Excel百分比格式；display_pct為依已披露百萬美元值重算、四捨五入至一位小數。",
+          "source_ids": [
+            "D35"
+          ]
+        }
+      ],
+      "original_units": [
+        "USD million"
+      ],
+      "currency": "USD",
+      "scope": {
+        "zh": "一個代表品，非全球ADC市場；不加計合作款或權利金，不將2026第一線核准倒作2025銷售原因。",
+        "en": "One representative product, not the global ADC market; no collaboration payments or royalties are added, and 2026 first-line approvals are not used to explain 2025 sales retrospectively."
+      },
+      "date_roles": {
+        "financial_periods": "2023 / 2024 / 2025 complete years ended December 31",
+        "source_filed": "2026-02-24",
+        "source_checked": "2026-10-07"
+      }
+    },
+    {
+      "id": "P04",
+      "anchor": "figure-P04",
+      "version": "ADC-20261007-R1-LAYERED-HTML-R2-P04-1.0",
+      "title": {
+        "zh": "合作、供應與組織持有，是不同承諾",
+        "en": "Alliances, supply and ownership are different commitments"
+      },
+      "reader_question": {
+        "zh": "同樣布局ADC，企業究竟取得什麼、又由誰負責把候選藥往前推？",
+        "en": "When companies invest in ADCs, what do they obtain and who is responsible for moving each candidate forward?"
+      },
+      "takeaway": {
+        "zh": "同一DXd平台可連結不同全球夥伴；看清資產、地域權利與製造責任，才能看懂合作的價值。",
+        "en": "One DXd platform can connect with different global partners; assets, territorial rights and manufacturing responsibilities explain the value of each alliance."
+      },
+      "caption": {
+        "zh": "選列R1已有的合作配置：第一三共以不同DXd資產連結AstraZeneca與Merck，並承擔所列合作資產的製造供應；Gilead收購Tubulis，取得資產、平台與團隊。連線只表示已披露的特定關係，不代表所有公司互有合約。合作原始日期見圖；來源回讀2026-10-07。[D01][R07][D16]",
+        "en": "Selected alliances already covered in R1: Daiichi Sankyo connects different DXd assets with AstraZeneca and Merck and is responsible for manufacturing and supply of the listed partnered assets. Gilead acquired Tubulis, including its assets, platform and team. Lines represent only the disclosed relationships shown. Original agreement dates appear in the figure; sources re-read on 2026-10-07. [D01][R07][D16]"
+      },
+      "alt": {
+        "zh": "企業分工關係圖。上方第一三共節點標示所列DXd合作資產的製造與供應，兩條雙向連線分別連到AstraZeneca與Merck／MSD。AstraZeneca連線列Enhertu的2019-03合作與Datroway的2020-07合作，來源R07；Merck連線列HER3-DXd、I-DXd及R-DXd的2023-10-19合作，來源D01。兩合作群均為日本以外共同開發與商業化，日本獨家權利由第一三共保留。下方獨立群由Gilead單向箭頭指向Tubulis，標2026-05-21完成收購及來源D16，納入ADC平台、資產及團隊，並列TUB-040與TUB-030。兩群沒有交叉合約連線，節點大小不表示財務規模。資料截至2026-10-07。",
+        "en": "Company-role relationship map. The upper Daiichi Sankyo node identifies manufacturing and supply of the partnered DXd assets shown. Two bidirectional alliance links lead to AstraZeneca and Merck/MSD. The AstraZeneca link identifies the March 2019 Enhertu and July 2020 Datroway alliances, source R07; the Merck link identifies the October 19, 2023 HER3-DXd, I-DXd and R-DXd alliance, source D01. Both alliances cover co-development and commercialization outside Japan, with Daiichi Sankyo retaining exclusive Japanese rights. A separate lower group shows a directional arrow from Gilead to Tubulis, recording completion of the acquisition on May 21, 2026, source D16. It includes the ADC platform, assets and team, with TUB-040 and TUB-030 named. No contractual link between the two groups is shown in this diagram, and node size has no financial meaning. Evidence cutoff: October 7, 2026."
+      },
+      "generation": {
+        "zh": "原創可編輯SVG節點／關係圖，使用真實向量路徑與文字；Inkscape將每語完整SVG轉為PNG。",
+        "en": "An original editable SVG node-and-relationship map using vector paths and text; Inkscape rasterizes each complete language-specific SVG to PNG."
+      },
+      "original_dimensions_px": [
+        1170,
+        3534
+      ],
+      "mobile_review_dimensions_px": [
+        390,
+        1178
+      ],
+      "assets": [
+        {
+          "language": "zh-Hant",
+          "svg": "figures/P04_ZH.svg",
+          "png": "figures/P04_ZH.png"
+        },
+        {
+          "language": "en",
+          "svg": "figures/P04_EN.svg",
+          "png": "figures/P04_EN.png"
+        }
+      ],
+      "source_ids": [
+        "D01",
+        "R07",
+        "D16"
+      ],
+      "data_files": [
+        "data/P04_roles.json",
+        "data/P04_edges.csv"
+      ],
+      "original_units": [],
+      "currency": null,
+      "relationships": [
+        {
+          "id": "R2_ROLE_DS_AZ",
+          "from": "daiichi",
+          "to": "az",
+          "direction": "bidirectional",
+          "relationship_type": "co_development_co_commercialization",
+          "label_zh": "Enhertu／Datroway共同開發與商業化",
+          "label_en": "Enhertu / Datroway co-development and commercialization",
+          "assets": [
+            "trastuzumab deruxtecan (Enhertu)",
+            "datopotamab deruxtecan (Datroway)"
+          ],
+          "event_dates": [
+            {
+              "date": "2019-03",
+              "precision": "month",
+              "event": "Enhertu collaboration entered"
+            },
+            {
+              "date": "2020-07",
+              "precision": "month",
+              "event": "Datroway collaboration entered"
+            }
+          ],
+          "territorial_scope_zh": "全球，日本由第一三共保留獨家權利",
+          "territorial_scope_en": "Global, with exclusive rights retained by Daiichi Sankyo in Japan",
+          "supply_responsibility_zh": "第一三共負責Enhertu與Datroway製造及供應",
+          "supply_responsibility_en": "Daiichi Sankyo is responsible for manufacturing and supply of Enhertu and Datroway",
+          "source_ids": [
+            "R07"
+          ],
+          "support_locator": "Daiichi Sankyo collaboration, paragraph beginning AstraZeneca and Daiichi Sankyo entered into a global collaboration (retrieved lines 205–206)",
+          "verification_scope": "Directly re-read in the 2026-10-02 public company announcement on 2026-10-07; these are historical alliance dates, not new R2 transactions."
+        },
+        {
+          "id": "R2_ROLE_DS_MRK",
+          "from": "daiichi",
+          "to": "merck",
+          "direction": "bidirectional",
+          "relationship_type": "co_development_co_commercialization",
+          "label_zh": "HER3-DXd／I-DXd／R-DXd合作",
+          "label_en": "HER3-DXd / I-DXd / R-DXd alliance",
+          "assets": [
+            "patritumab deruxtecan (HER3-DXd)",
+            "ifinatamab deruxtecan (I-DXd)",
+            "raludotatug deruxtecan (R-DXd)"
+          ],
+          "event_dates": [
+            {
+              "date": "2023-10-19",
+              "precision": "day",
+              "event": "Original collaboration announced"
+            }
+          ],
+          "territorial_scope_zh": "日本以外共同開發及潛在商業化；日本由第一三共保留獨家權利",
+          "territorial_scope_en": "Joint development and potential commercialization outside Japan; Daiichi Sankyo retains exclusive rights in Japan",
+          "supply_responsibility_zh": "第一三共獨負製造與供應",
+          "supply_responsibility_en": "Daiichi Sankyo solely responsible for manufacturing and supply",
+          "source_ids": [
+            "D01"
+          ],
+          "support_locator": "Opening agreement paragraphs (retrieved lines 97–100); Financial highlights (line 116)",
+          "verification_scope": "Directly re-read original 2023-10-19 agreement announcement on 2026-10-07. Shows asset/territory/supply configuration of the original deal, not a re-verification of all later amendments or current regulatory status."
+        },
+        {
+          "id": "R2_ROLE_GILD_TUB",
+          "from": "gilead",
+          "to": "tubulis",
+          "direction": "forward",
+          "relationship_type": "completed_whole_company_acquisition",
+          "label_zh": "2026-05-21完成收購",
+          "label_en": "Acquisition completed 2026-05-21",
+          "assets": [
+            "TUB-040 (NaPi2b-directed ADC)",
+            "TUB-030 (5T4-directed ADC)",
+            "ADC platform and Tubulis team"
+          ],
+          "event_dates": [
+            {
+              "date": "2026-05-21",
+              "precision": "day",
+              "event": "Acquisition completion announced"
+            }
+          ],
+          "rights_scope_zh": "Gilead取得Tubulis全部流通股權；團隊留在慕尼黑、成立Tubulis ADC Innovation Center",
+          "rights_scope_en": "Gilead acquired all outstanding equity of Tubulis; the team remains in Munich as the Tubulis ADC Innovation Center",
+          "source_ids": [
+            "D16"
+          ],
+          "support_locator": "Completion announcement opening paragraph; paragraph beginning Under the terms of the agreement (retrieved lines 32, 34, 36)",
+          "verification_scope": "Directly re-read completion announcement on 2026-10-07; no claim that platform superiority or integration benefits are clinically proven."
+        }
+      ],
+      "scope": {
+        "zh": "選列三項已有直接公告支持的關係；節點尺寸不代表金額。D01呈現2023原始合作配置，沒有聲稱重核所有後續修約；共同商業化責任不代表每項候選藥已獲上市許可。",
+        "en": "Three selected relationships supported by direct announcements; node sizes do not encode financial value. D01 depicts the original 2023 agreement configuration, without claiming to recheck all later amendments. Commercialization responsibilities do not imply marketing authorization for every candidate."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "R02",
+      "anchor": "source-R02",
+      "figure_ids": [
+        "P01"
+      ],
+      "title": "FDA — Clinical Pharmacology Considerations for Antibody-Drug Conjugates Guidance for Industry",
+      "public_url": "https://www.fda.gov/media/155997/download",
+      "alternative_public_url": null,
+      "published_date": "2024-03",
+      "data_date": "2024-03",
+      "date_role": "guidance publication month",
+      "evidence_stage": "Regulatory guidance; generic mechanism and clinical pharmacology",
+      "research_cutoff": "2026-10-07",
+      "r2_source_scope": "existing R1/pilot record reused; not newly fetched for this appendix",
+      "earlier_acquisition_scope": "selected original source reopened successfully",
+      "support_locator": "Guidance II.A (printed p.2; PDF page 5), II.B (printed p.3; PDF page 6), III.A–B",
+      "support": {
+        "zh": "支持結合、內吞、釋出活性負載的典型路徑，以及ADC與游離負載暴露須分開考量。",
+        "en": "Binding, endocytosis, payload release and separate exposure to ADC and free payload."
+      },
+      "numeric_support": null,
+      "short_verbatim_excerpt": "the ADC is internalized through physiological mechanisms (e.g., endocytosis)",
+      "quote_status": "short verbatim excerpt",
+      "original_units": [],
+      "currency": null
+    },
+    {
+      "id": "R03",
+      "anchor": "source-R03",
+      "figure_ids": [
+        "P01"
+      ],
+      "title": "Abelman et al. — TOP1 Mutations and Cross-Resistance to Antibody–Drug Conjugates in Patients with Metastatic Breast Cancer",
+      "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12079096/",
+      "alternative_public_url": "https://pubmed.ncbi.nlm.nih.gov/39745368/",
+      "published_date": "2025-01-02",
+      "data_date": "2020-09 to 2024-01; issue 2025-05-15",
+      "date_role": "testing period and journal issue date",
+      "evidence_stage": "Small clinical/translational resistance dataset",
+      "research_cutoff": "2026-10-07",
+      "r2_source_scope": "existing R1/pilot record reused; not newly fetched for this appendix",
+      "earlier_acquisition_scope": "same existing R03 article recovered in public search-index abstract; no new research source added; PMC direct open returned reCAPTCHA; publisher direct open returned 403. Public abstract content was retrievable in indexed search results.",
+      "support_locator": "Abstract—Results (same original article, publisher/PubMed public search index); R1 Results—Frequency of TOP1 mutations; Clinical outcomes; Discussion",
+      "support": {
+        "zh": "支持負載靶點改變所致抗藥；R1記錄TOP1變異可能影響SN38與deruxtecan，非前瞻選藥規則。",
+        "en": "TOP1-associated resistance can affect SN38 and deruxtecan payloads; not a prospective treatment-selection rule."
+      },
+      "numeric_support": null,
+      "short_verbatim_excerpt": "resistance to TOP1 inhibitor ADC payloads SN38 and deruxtecan",
+      "quote_status": "short verbatim excerpt",
+      "original_units": [],
+      "currency": null
+    },
+    {
+      "id": "R04",
+      "anchor": "source-R04",
+      "figure_ids": [
+        "P01"
+      ],
+      "title": "Ogitani et al. — Bystander killing effect of DS-8201a in tumors with HER2 heterogeneity",
+      "public_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cas.12966",
+      "alternative_public_url": null,
+      "published_date": "2016-05-11",
+      "data_date": "2016",
+      "date_role": "cell and mouse study",
+      "evidence_stage": "Preclinical",
+      "research_cutoff": "2026-10-07",
+      "r2_source_scope": "existing R1/pilot record reused; not newly fetched for this appendix",
+      "earlier_acquisition_scope": "reuse R1 verified source record; not reopened in pilot",
+      "support_locator": "R1 source locator: Abstract and Results",
+      "support": {
+        "zh": "以HER2異質性模型支持靶點分布不均的遞送問題；本圖未繪旁觀者作用。",
+        "en": "Heterogeneous HER2 models establish uneven antigen distribution as a delivery problem. No bystander effect is drawn."
+      },
+      "numeric_support": null,
+      "short_verbatim_excerpt": null,
+      "quote_status": "paraphrase; no new quotation",
+      "original_units": [],
+      "currency": null
+    },
+    {
+      "id": "R06",
+      "anchor": "source-R06",
+      "figure_ids": [
+        "P01"
+      ],
+      "title": "Yamazaki et al. — Antibody-drug conjugates with dual payloads for combating breast tumor heterogeneity and drug resistance",
+      "public_url": "https://www.nature.com/articles/s41467-021-23793-7",
+      "alternative_public_url": null,
+      "published_date": "2021-06-10",
+      "data_date": "2021",
+      "date_role": "preclinical study",
+      "evidence_stage": "Preclinical",
+      "research_cutoff": "2026-10-07",
+      "r2_source_scope": "existing R1/pilot record reused; not newly fetched for this appendix",
+      "earlier_acquisition_scope": "selected original source reopened successfully",
+      "support_locator": "Design and preparation; Fig.1 legend; Pharmacokinetic profiles; Fig.5 HER2-heterogeneous xenograft model",
+      "support": {
+        "zh": "支持循環穩定、溶小體釋放、異質性與外排相關的負載差異；微管類別沿用R1之R06_MECHANISM。",
+        "en": "Lysosomal release, circulation stability, heterogeneity and MMAE/MMAF properties; R1 record R06_MECHANISM supplies the microtubule class label."
+      },
+      "numeric_support": null,
+      "short_verbatim_excerpt": "release of payloads upon internalization and following cathepsin-mediated cleavage in lysosomes",
+      "quote_status": "short verbatim excerpt",
+      "original_units": [],
+      "currency": null
+    },
+    {
+      "id": "C03",
+      "anchor": "source-C03",
+      "figure_ids": [
+        "P02"
+      ],
+      "title": "FDA: Datroway 第一線非PD-(L)1治療候選TNBC核准",
+      "public_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-triple-negative-breast-cancer",
+      "alternative_public_url": null,
+      "published_date": "2026-05-22",
+      "data_date": "2026-05-22",
+      "date_role": "FDA announcement date, not a trial data cutoff",
+      "evidence_stage": "Randomized phase 3, regulatory announcement",
+      "research_cutoff": "2026-10-07",
+      "r2_source_scope": "existing R1/pilot record reused; not newly fetched for this appendix",
+      "earlier_acquisition_scope": "Reused the existing R1 record; not reopened in this pilot. R1 access scope: 已讀FDA公開核准公告全文；不外推其他市場核准或給付。",
+      "support_locator": "FDA公告 Efficacy 段：按試驗名稱查找隨機分派人數、Median PFS、hazard ratio；C03另查Median OS；C06另查OS immature。",
+      "support": {
+        "zh": "非免疫治療候選TNBC之PFS、OS及適應症範圍。",
+        "en": "TROPION-Breast02 population, within-trial PFS and OS results."
+      },
+      "numeric_support": "TB02: N 644; PFS 10.8 vs 5.6 months; HR 0.57, 95% CI 0.47–0.69; OS 23.7 vs 18.7 months; OS HR 0.79, 95% CI 0.64–0.98.",
+      "short_verbatim_excerpt": null,
+      "quote_status": "R1 numerical extraction; not claimed as verbatim wording",
+      "original_units": [
+        "months (PFS/OS)",
+        "dimensionless (HR and HR CI)",
+        "people (N)"
+      ],
+      "currency": null
+    },
+    {
+      "id": "C06",
+      "anchor": "source-C06",
+      "figure_ids": [
+        "P02"
+      ],
+      "title": "FDA: Trodelvy 第一線TNBC單藥及pembrolizumab併用核准",
+      "public_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line",
+      "alternative_public_url": null,
+      "published_date": "2026-06-24",
+      "data_date": "2026-06-24",
+      "date_role": "FDA announcement date, not a trial data cutoff",
+      "evidence_stage": "Randomized phase 3, regulatory announcement",
+      "research_cutoff": "2026-10-07",
+      "r2_source_scope": "existing R1/pilot record reused; not newly fetched for this appendix",
+      "earlier_acquisition_scope": "Reused the existing R1 record; not reopened in this pilot. R1 access scope: 已讀FDA公開核准公告全文；不外推其他市場核准或給付。",
+      "support_locator": "FDA公告 Efficacy 段：按試驗名稱查找隨機分派人數、Median PFS、hazard ratio；C03另查Median OS；C06另查OS immature。",
+      "support": {
+        "zh": "ASCENT03／04之PFS與人群；OS仍未成熟。",
+        "en": "ASCENT-03/04 populations and within-trial PFS results; immature OS at the cited FDA analysis."
+      },
+      "numeric_support": "ASCENT03: N 558; PFS 9.7 vs 6.9 months; HR 0.62, 95% CI 0.50–0.77. ASCENT04: N 443; PFS 11.2 vs 7.8 months; HR 0.65, 95% CI 0.51–0.84. OS immature for both at the cited FDA analysis.",
+      "short_verbatim_excerpt": null,
+      "quote_status": "R1 numerical extraction; not claimed as verbatim wording",
+      "original_units": [
+        "months (PFS/OS)",
+        "dimensionless (HR and HR CI)",
+        "people (N)"
+      ],
+      "currency": null
+    },
+    {
+      "id": "C18",
+      "anchor": "source-C18",
+      "figure_ids": [
+        "P02"
+      ],
+      "title": "ClinicalTrials.gov: A Study of Dato-DXd Versus Investigator's Choice Chemotherapy in Patients With Locally Recurrent Inoperable or Metastatic Triple-negative Breast Cancer, Who Are Not Candidates for PD-1/PD-L1 Inhibitor Therapy (TROPION-Breast02)",
+      "public_url": "https://clinicaltrials.gov/study/NCT05374512",
+      "alternative_public_url": "https://clinicaltrials.gov/api/v2/studies/NCT05374512",
+      "published_date": "2022-05-16",
+      "data_date": "2026-05-15",
+      "date_role": "ClinicalTrials.gov last update stored in R1, not a trial data cutoff",
+      "evidence_stage": "Trial registry; eligibility, not a results publication",
+      "research_cutoff": "2026-10-07",
+      "r2_source_scope": "existing R1/pilot record reused; not newly fetched for this appendix",
+      "earlier_acquisition_scope": "Reused the existing R1 record; not reopened in this pilot. R1 access scope: 已直接讀取ClinicalTrials.gov官方公開API之登錄；不是結果論文。",
+      "support_locator": "Participation Criteria / Exclusion Criteria；API路徑protocolSection.eligibilityModule.eligibilityCriteria。",
+      "support": {
+        "zh": "第一線Dato人群及既往TOP1治療排除條件。",
+        "en": "Exclusion of prior topoisomerase-I inhibitor treatment or ADCs carrying a topoisomerase inhibitor; supports the sequencing evidence boundary."
+      },
+      "numeric_support": "Stored registry enrollment: 644 (ACTUAL); this is not substituted for the FDA numerical comparison.",
+      "short_verbatim_excerpt": "Any treatment (including ADC) containing a chemotherapeutic agent targeting topoisomerase I",
+      "quote_status": "existing R1 short registry quotation",
+      "original_units": [
+        "people (registry enrollment)"
+      ],
+      "currency": null
+    },
+    {
+      "id": "C19",
+      "anchor": "source-C19",
+      "figure_ids": [
+        "P02"
+      ],
+      "title": "ClinicalTrials.gov: Study of Sacituzumab Govitecan-hziy Versus Treatment of Physician's Choice in Patients With Previously Untreated Locally Advanced Inoperable or Metastatic Triple-Negative Breast Cancer",
+      "public_url": "https://clinicaltrials.gov/study/NCT05382299",
+      "alternative_public_url": "https://clinicaltrials.gov/api/v2/studies/NCT05382299",
+      "published_date": "2022-05-19",
+      "data_date": "2026-04-06",
+      "date_role": "ClinicalTrials.gov last update stored in R1, not a trial data cutoff",
+      "evidence_stage": "Trial registry; eligibility, not a results publication",
+      "research_cutoff": "2026-10-07",
+      "r2_source_scope": "existing R1/pilot record reused; not newly fetched for this appendix",
+      "earlier_acquisition_scope": "Reused the existing R1 record; not reopened in this pilot. R1 access scope: 已直接讀取ClinicalTrials.gov官方公開API之登錄；不是結果論文。",
+      "support_locator": "Participation Criteria / Exclusion Criteria；API路徑protocolSection.eligibilityModule.eligibilityCriteria。",
+      "support": {
+        "zh": "第一線SG人群及既往TOP1治療排除條件。",
+        "en": "Exclusion of prior topoisomerase-I inhibitor treatment or ADCs carrying a topoisomerase inhibitor; supports the sequencing evidence boundary."
+      },
+      "numeric_support": "Stored registry enrollment: 623 (ACTUAL); this is not substituted for the FDA numerical comparison.",
+      "short_verbatim_excerpt": "Previously received topoisomerase 1 inhibitors or antibody drug conjugates containing a topoisomerase inhibitor",
+      "quote_status": "existing R1 short registry quotation",
+      "original_units": [
+        "people (registry enrollment)"
+      ],
+      "currency": null
+    },
+    {
+      "id": "C20",
+      "anchor": "source-C20",
+      "figure_ids": [
+        "P02"
+      ],
+      "title": "ClinicalTrials.gov: Study of Sacituzumab Govitecan-hziy and Pembrolizumab Versus Treatment of Physician's Choice and Pembrolizumab in Patients With Previously Untreated, Locally Advanced Inoperable or Metastatic Triple-Negative Breast Cancer",
+      "public_url": "https://clinicaltrials.gov/study/NCT05382286",
+      "alternative_public_url": "https://clinicaltrials.gov/api/v2/studies/NCT05382286",
+      "published_date": "2022-05-19",
+      "data_date": "2025-09-18",
+      "date_role": "ClinicalTrials.gov last update stored in R1, not a trial data cutoff",
+      "evidence_stage": "Trial registry; eligibility, not a results publication",
+      "research_cutoff": "2026-10-07",
+      "r2_source_scope": "existing R1/pilot record reused; not newly fetched for this appendix",
+      "earlier_acquisition_scope": "Reused the existing R1 record; not reopened in this pilot. R1 access scope: 已直接讀取ClinicalTrials.gov官方公開API之登錄；不是結果論文。",
+      "support_locator": "Participation Criteria / Exclusion Criteria；API路徑protocolSection.eligibilityModule.eligibilityCriteria。",
+      "support": {
+        "zh": "SG合併免疫治療人群及既往TOP1治療排除條件。",
+        "en": "Exclusion of prior topoisomerase-I inhibitor treatment or ADCs carrying a topoisomerase inhibitor; supports the sequencing evidence boundary."
+      },
+      "numeric_support": "Stored registry enrollment: 443 (ACTUAL); this is not substituted for the FDA numerical comparison.",
+      "short_verbatim_excerpt": "Have previously received topoisomerase 1 inhibitors or antibody drug conjugates containing a topoisomerase inhibitor.",
+      "quote_status": "existing R1 short registry quotation",
+      "original_units": [
+        "people (registry enrollment)"
+      ],
+      "currency": null
+    },
+    {
+      "id": "R10",
+      "anchor": "source-R10",
+      "figure_ids": [
+        "P01"
+      ],
+      "title": "Kang et al. — Engineering a HER2-specific antibody-drug conjugate to increase lysosomal delivery and therapeutic efficacy",
+      "public_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6668989/",
+      "doi": "10.1038/s41587-019-0073-7",
+      "published_date": "2019-04-01",
+      "publication_date_role": "online publication; journal issue May 2019",
+      "data_date": null,
+      "data_date_note": "Preclinical cell and mouse studies reported in the 2019 paper; a single experimental data cutoff is not stated in the passages read.",
+      "evidence_stage": "preclinical; anti-HER2 pertuzumab-variant MMAE ADCs; cell lines and mouse xenografts",
+      "access_date": "2026-10-07",
+      "r2_source_scope": "new direct public primary-source support read in R2",
+      "access_scope": "PMC original-author manuscript opened normally; Abstract and main text through Results/Discussion and figure legends read. No access-control workarounds used.",
+      "support_locations": [
+        {
+          "locator": "Introduction, third paragraph; PMC lines 137–138",
+          "claim_id": "P01_PH_ANTIGEN_DISSOCIATION",
+          "support": "Reduced antigen affinity at acidic endosomal pH is the antibody-engineering concept; it is not acid-cleavage of the linker.",
+          "short_verbatim_excerpt": "leading to endosomal dissociation of the ADC following internalization into cells"
+        },
+        {
+          "locator": "Main text following ADC accumulation assay; PMC lines 148–149; Figure 1 and Supplementary Figure 8 called out in that paragraph",
+          "claim_id": "P01_LYSOSOMAL_ACCUMULATION",
+          "support": "The authors observed greater lysosomal accumulation of SG-MMAE and YS-MMAE than WT-MMAE in the tested cells.",
+          "short_verbatim_excerpt": "both SG-MMAE and YS-MMAE accumulated more efficiently than WT-MMAE in lysosomes"
+        },
+        {
+          "locator": "Methods description of engineering and conjugation; PMC lines 140–147",
+          "claim_id": "P01_ANTIBODY_VS_LINKER",
+          "support": "Antibody CDR engineering and MMAE conjugation are separately described. This supports separating pH-dependent antigen dissociation from acid-sensitive linker cleavage.",
+          "short_verbatim_excerpt": null
+        }
+      ],
+      "support": {
+        "zh": "抗體的pH依賴抗原解離，以及所研究anti-HER2 ADC的溶小體累積，是可直接研究的胞內遞送設計差異。",
+        "en": "pH-dependent antigen dissociation and lysosomal accumulation of the studied anti-HER2 ADCs are directly testable intracellular-delivery design differences."
+      },
+      "original_units": [],
+      "currency": null,
+      "supports_only": "qualitative antibody pH-dependent antigen dissociation / lysosomal accumulation in the studied preclinical anti-HER2 ADCs; no DCB/LYSward validation, intact-complex return-to-surface measurement, or human benefit claim"
+    },
+    {
+      "id": "D35",
+      "anchor": "source-D35",
+      "figure_ids": [
+        "P03"
+      ],
+      "title": "Gilead Sciences, Inc. 2025 Form 10-K — Trodelvy product sales and revenue recognition",
+      "public_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000006/gild-20251231.htm",
+      "filing_index_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000006/0000882095-26-000006-index.htm",
+      "published_date": "2026-02-24",
+      "data_date": "2023-12-31 / 2024-12-31 / 2025-12-31",
+      "date_role": "complete years ended December 31; publication is the 2026-02-24 Form 10-K filing date",
+      "evidence_stage": "formal company annual financial filing",
+      "access_date": "2026-10-07",
+      "r2_source_scope": "new direct public primary source read in R2; all three raw values come from Note 2 in this one filing",
+      "access_scope": "本輪正常公開讀取SEC HTML之Note 2 p65、Note 1 p59/p64、MD&A p40；申報index核2026-02-24。未取私人合約或會員資料。",
+      "support_locations": [
+        {
+          "claim": "three_year_original_values",
+          "section": "Note 2. Revenues — Disaggregation of Revenues",
+          "printed_page": 65,
+          "web_lines": "1991–1993（年度/單位/區域表頭）；2017（Trodelvy整行）",
+          "web_ref": "turn107view0",
+          "support_kind": "numeric extraction",
+          "numeric_extraction": {
+            "column_order": [
+              "2025 total",
+              "2024 total",
+              "2023 total"
+            ],
+            "values": [
+              1397,
+              1315,
+              1063
+            ],
+            "unit": "USD million"
+          }
+        },
+        {
+          "claim": "consolidated_reporting_entity",
+          "section": "Note 1. Summary of Business and Significant Accounting Policies — Basis of Presentation",
+          "printed_page": 58,
+          "web_lines": "1789、1798–1799",
+          "web_ref": "turn106view1",
+          "support_kind": "paraphrase",
+          "support_paraphrase": "Gilead包括合併子公司；財報按U.S. GAAP編製，合併內部交易抵銷。"
+        },
+        {
+          "claim": "net_sales_and_recognition",
+          "section": "Note 1 — Revenue Recognition — Product Sales",
+          "printed_page": 59,
+          "web_lines": "1814–1817",
+          "web_ref": "turn105view1",
+          "support_kind": "short verbatim excerpt and paraphrase",
+          "quote": "Revenues are recognized net of estimated rebates and chargebacks",
+          "support_paraphrase": "產品控制權移轉予客戶時認列，通常為出貨或交付；扣除估計回扣、chargebacks、共付額協助、折扣、經銷費用、退貨備抵及其他相關扣項。不是收款量，也不是全部患者終端消耗量。"
+        },
+        {
+          "claim": "original_currency",
+          "section": "Note 1 — Foreign Currency Translation",
+          "printed_page": 64,
+          "web_lines": "1964",
+          "web_ref": "turn106view0",
+          "support_kind": "paraphrase",
+          "support_paraphrase": "合併財報以美元表達；非美元功能性貨幣实体的收入等按期間平均匯率轉換。"
+        },
+        {
+          "claim": "management_attribution_of_2025_sales_change",
+          "section": "MD&A — Results of Operations — Oncology — Trodelvy",
+          "printed_page": 40,
+          "web_lines": "1174–1175",
+          "web_ref": "turn105view3",
+          "support_kind": "short verbatim excerpts and paraphrase",
+          "quotes": [
+            "higher demand in breast cancer treatment",
+            "indication withdrawal in bladder cancer treatment"
+          ],
+          "support_paraphrase": "公司稱2025年銷售增長6%，乳癌治療需求為主要增長因素，膀胱癌適應症撤回部分抵銷增長；未量化各因素金額。"
+        },
+        {
+          "claim": "report_publication_date",
+          "section": "SEC Filing Detail",
+          "printed_page": null,
+          "web_lines": "13–19；25–27",
+          "web_ref": "turn104view1",
+          "support_kind": "filing metadata",
+          "support_paraphrase": "Filing Date 2026-02-24；Accepted 2026-02-24 16:18:35；Period of Report 2025-12-31。"
+        }
+      ],
+      "support": {
+        "zh": "Trodelvy三年淨產品銷售、報表／幣種口徑與公司對2025變動的歸因。",
+        "en": "Three-year Trodelvy net product sales, reporting/currency basis and management attribution of the 2025 change."
+      },
+      "numeric_support": {
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "values": [
+          1063,
+          1315,
+          1397
+        ],
+        "original_unit": "USD million",
+        "series": "Gilead consolidated Trodelvy product sales, net of gross-to-net deductions"
+      },
+      "original_units": [
+        "USD million"
+      ],
+      "currency": "USD",
+      "price_basis": "nominal reported USD, not inflation- or constant-currency-adjusted"
+    },
+    {
+      "id": "D01",
+      "anchor": "source-D01",
+      "figure_ids": [
+        "P04"
+      ],
+      "title": "Daiichi Sankyo and Merck Announce Global Development and Commercialization Collaboration for Three Daiichi Sankyo DXd ADCs",
+      "public_url": "https://www.merck.com/news/daiichi-sankyo-and-merck-announce-global-development-and-commercialization-collaboration-for-three-daiichi-sankyo-dxd-adcs/",
+      "published_date": "2023-10-19",
+      "data_date": "2023-10-19",
+      "date_role": "original collaboration announcement date",
+      "evidence_stage": "official company announcement; disclosed contractual/organizational role",
+      "access_date": "2026-10-07",
+      "r2_source_scope": "existing R1 source directly re-read for this limited R2 relationship map",
+      "support_locator": "Opening agreement paragraphs, lines 97–100; Financial highlights, line 116; DXd portfolio, lines 122–125",
+      "support": {
+        "zh": "2023-10-19原始三資產合作：日本以外共同開發與潛在商業化，日本獨家權利由第一三共保留；第一三共負責製造與供應。",
+        "en": "Original three-asset agreement announced October 19, 2023: joint development and potential commercialization outside Japan, with Daiichi Sankyo retaining exclusive Japanese rights and responsibility for manufacturing and supply."
+      },
+      "short_verbatim_excerpt": "Daiichi Sankyo will be solely responsible for manufacturing and supply.",
+      "quote_status": "short verbatim excerpt from the relevant re-read source",
+      "original_units": [],
+      "currency": null,
+      "time_scope": "historical disclosed arrangement; not a claim that the old alliance has just occurred"
+    },
+    {
+      "id": "R07",
+      "anchor": "source-R07",
+      "figure_ids": [
+        "P04"
+      ],
+      "title": "AstraZeneca／Daiichi Sankyo 與 Summit 合作評估 Datroway 加 ivonescimab",
+      "public_url": "https://www.astrazeneca.com/media-centre/press-releases/2026/az-ds-collaboration-with-summit-for-datroway.html",
+      "published_date": "2026-10-02",
+      "data_date": "2026-10-02",
+      "date_role": "2026-10-02 announcement with retrospective March 2019 / July 2020 alliance dates",
+      "evidence_stage": "official company announcement; disclosed contractual/organizational role",
+      "access_date": "2026-10-07",
+      "r2_source_scope": "existing R1 source directly re-read for this limited R2 relationship map",
+      "support_locator": "Daiichi Sankyo collaboration, paragraphs beginning AstraZeneca and Daiichi Sankyo entered into a global collaboration; retrieved lines 205–206",
+      "support": {
+        "zh": "公告中Daiichi Sankyo collaboration段回顧2019-03 Enhertu與2020-07 Datroway合作；第一三共保留日本獨家權利並負責製造供應。",
+        "en": "The Daiichi Sankyo collaboration paragraphs recount the March 2019 Enhertu and July 2020 Datroway alliances, Japanese exclusive rights retained by Daiichi Sankyo, and its manufacturing/supply responsibility."
+      },
+      "short_verbatim_excerpt": null,
+      "quote_status": "paraphrase of the relevant re-read paragraphs; no new verbatim excerpt reproduced",
+      "original_units": [],
+      "currency": null,
+      "time_scope": "historical disclosed arrangement; not a claim that the old alliance has just occurred"
+    },
+    {
+      "id": "D16",
+      "anchor": "source-D16",
+      "figure_ids": [
+        "P04"
+      ],
+      "title": "Gilead Sciences Completes Acquisition of Tubulis",
+      "public_url": "https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Completes-Acquisition-of-Tubulis-Further-Strengthening-Oncology-Portfolio/default.aspx",
+      "published_date": "2026-05-21",
+      "data_date": "2026-05-21",
+      "date_role": "acquisition-completion announcement date",
+      "evidence_stage": "official company announcement; disclosed contractual/organizational role",
+      "access_date": "2026-10-07",
+      "r2_source_scope": "existing R1 source directly re-read for this limited R2 relationship map",
+      "support_locator": "Opening completion notice, line 32; named assets, line 34; ownership/team arrangements, line 36",
+      "support": {
+        "zh": "2026-05-21完成Tubulis收購；ADC資產、平台與團隊納入，團隊留在慕尼黑。",
+        "en": "Completion of the Tubulis acquisition on May 21, 2026, bringing ADC assets, platform and team into Gilead; the team remains in Munich."
+      },
+      "short_verbatim_excerpt": "The Tubulis team will continue to be based in Munich, Germany",
+      "quote_status": "short verbatim excerpt from the relevant re-read source",
+      "original_units": [],
+      "currency": null,
+      "time_scope": "historical disclosed arrangement; not a claim that the old alliance has just occurred"
+    }
+  ],
+  "source_count": 14,
+  "figure_count": 4,
+  "data_conventions": {
+    "missing": "JSON null or empty CSV field; never zero",
+    "currency": "null means not applicable",
+    "scale": "P01/P04 are qualitative; P02/P03 use quantitative axes specified with their data"
+  },
+  "source_link_convention": "Each source has a stable source-ID anchor; each figure has a stable figure-ID anchor. All asset/data paths are relative to this package root."
+}

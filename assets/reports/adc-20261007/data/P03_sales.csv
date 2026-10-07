@@ -1,0 +1,6 @@
+row_type,record_ID,year,period_start,period_end,metric,value,unit,currency,source_ID,source_published_date,source_position,formula,input_record_IDs,result_fraction,display_pct
+raw_value,SALES_TRODELVY_2023,2023,2023-01-01,2023-12-31,Gilead consolidated Trodelvy annual net product sales,1063,USD million,USD,D35,2026-02-24,"Note 2. Revenues, p65; Trodelvy row, 2023 Total column; web lines 1991–1993 and 2017",,,,
+raw_value,SALES_TRODELVY_2024,2024,2024-01-01,2024-12-31,Gilead consolidated Trodelvy annual net product sales,1315,USD million,USD,D35,2026-02-24,"Note 2. Revenues, p65; Trodelvy row, 2024 Total column; web lines 1991–1993 and 2017",,,,
+raw_value,SALES_TRODELVY_2025,2025,2025-01-01,2025-12-31,Gilead consolidated Trodelvy annual net product sales,1397,USD million,USD,D35,2026-02-24,"Note 2. Revenues, p65; Trodelvy row, 2025 Total column; web lines 1991–1993 and 2017",,,,
+calculation,CALC_SALES_TRODELVY_YOY_2024,2024,,,year-on-year sales growth,,%,,D35,,,(current_year / previous_year - 1) × 100%,SALES_TRODELVY_2024 | SALES_TRODELVY_2023,0.23706491063029156,23.7
+calculation,CALC_SALES_TRODELVY_YOY_2025,2025,,,year-on-year sales growth,,%,,D35,,,(current_year / previous_year - 1) × 100%,SALES_TRODELVY_2025 | SALES_TRODELVY_2024,0.06235741444866916,6.2

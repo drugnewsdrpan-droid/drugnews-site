@@ -1,0 +1,26 @@
+Source: T15
+Original URL: https://www.twse.com.tw/pdf/ch/4746_ch.pdf
+Title: 臺灣證券交易所 — 台耀化學股份有限公司個股資訊（4746）
+Original source_date: unknown
+Original data_date: 2026-10-06
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: public_PDF_page_1_text_extraction
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- TWSE company profile: PDF page 1 (tool P0), listing date line 35, name line 42, generation date line 43, ticker line 48
+Minimum verbatim excerpts:
+- PDF page 1; web line 42: 公司名稱 台耀化學股份有限公司
+Numeric / structured original fields (not market estimates):
+{"field": "ticker", "value": "4746", "unit": "security identifier", "locator": "PDF page 1 / web line 48"}
+{"field": "listing_date", "value": "2011-03-01", "unit": "date", "locator": "PDF page 1 / web line 35"}
+{"field": "observed_document_generation_date", "value": "2026-10-07", "unit": "date", "locator": "PDF page 1 / web line 43"}
+Observed current PDF production date: 2026-10-07; original stored data_date above is unchanged.
+Supported scope (author paraphrase, not original quotation):
+本輪證交所PDF支持台耀化學於TWSE上市、代號4746。
+Precise evidence gap / boundary:
+附件原data_date為2026-10-06，原PDF未保存；本輪同URLPDF明列產製日期2026-10-07。上市／代號可由新讀支持，不能宣稱10/06原快照已核。
+Web references: turn124view2

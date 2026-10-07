@@ -1,0 +1,54 @@
+Source ID: D18
+Original URL: https://en.dualitybiologics.com/news/614.html
+Title (supplied): DualityBio Enters Global Collaboration and License with Genentech for DUPAC
+Source date (retained): 2026-08-28
+Data date (retained): 2026-08-28
+Checked at: 2026-10-07T18:42:41+08:00
+Timezone: Asia/Taipei
+Checked-at meaning: current review of returned public web-tool extraction; not the historical network-fetch timestamp.
+Retrieval mode: public_web_tool_readback_prior_ref; prior saved web_ref was opened and returned the specified original public URL.
+Prior web ref: turn29view0
+Current web ref: turn126view0
+Read level: relevant primary-source paragraphs in web text extraction; complete original HTML/PDF bytes not saved or hashed.
+Original network read time: null; not exposed by the tool. Original artifact SHA256: null.
+Locator: DUPAC release; retrieved lines 28–38 and About DUPAC lines 46–48.
+Minimum verbatim excerpts (aggregate <=25 English words):
+- further clinical development and commercialization after Phase 1a
+Excerpt word count: 8
+Factual extraction (values, dates, statuses; not additional prose quotations):
+[
+  {
+    "field": "announcement_date",
+    "original_value": "August 28, 2026",
+    "unit_or_role": "calendar date",
+    "locator": "L32"
+  },
+  {
+    "field": "upfront",
+    "original_value": 45,
+    "unit_or_role": "USD million; agreed, receipt not verified",
+    "locator": "L31, L37"
+  },
+  {
+    "field": "milestone_threshold",
+    "original_value": 1,
+    "unit_or_role": "USD billion; over, not exact upper ceiling",
+    "locator": "L31, L37"
+  },
+  {
+    "field": "handoff",
+    "original_value": "after Phase 1a",
+    "unit_or_role": "development stage",
+    "locator": "L36"
+  },
+  {
+    "field": "public_evidence_stage",
+    "original_value": "preclinical DUP5/DUP9 data",
+    "unit_or_role": "company-reported research stage",
+    "locator": "L48"
+  }
+]
+Support scope: Supports Genentech worldwide collaboration licenses, Duality discovery/early clinical role and handoff after Phase 1a; USD45m upfront and over USD1bn conditional aggregate milestones. Resistance claims are design/preclinical claims, not demonstrated clinical benefit.
+Precise gap: No additional source-specific factual gap found within the assigned contribution; multi-source rows retain their other citations.
+Source/data dates are supplied baseline metadata, not replaced by this check time. No alternate route, login, headers, private endpoint or payment used.
+This small evidence record is an excerpt/factual extraction, not a saved full article.

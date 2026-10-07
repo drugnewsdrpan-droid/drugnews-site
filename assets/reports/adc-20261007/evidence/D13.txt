@@ -1,0 +1,62 @@
+Source ID: D13
+Original URL: https://en.dualitybiologics.com/news/615.html
+Title (supplied): DualityBio Announces 2026 Interim Results and Corporate Updates
+Source date (retained): 2026-08-28
+Data date (retained): 2026-06-30
+Checked at: 2026-10-07T18:42:41+08:00
+Timezone: Asia/Taipei
+Checked-at meaning: current review of returned public web-tool extraction; not the historical network-fetch timestamp.
+Retrieval mode: public_web_tool_readback_prior_ref; prior saved web_ref was opened and returned the specified original public URL.
+Prior web ref: turn29view1
+Current web ref: turn121view0
+Read level: relevant primary-source paragraphs in web text extraction; complete original HTML/PDF bytes not saved or hashed.
+Original network read time: null; not exposed by the tool. Original artifact SHA256: null.
+Locator: Interim release title/date and partnership section; retrieved lines 30, 36–43, 148–155 and 171–175.
+Minimum verbatim excerpts (aggregate <=25 English words):
+- In May 2026
+- exercise the exclusive cost and profit/loss sharing option
+Excerpt word count: 11
+Factual extraction (values, dates, statuses; not additional prose quotations):
+[
+  {
+    "field": "release_date",
+    "original_value": "August 28, 2026",
+    "unit_or_role": "calendar date",
+    "locator": "L30"
+  },
+  {
+    "field": "reporting_period_end",
+    "original_value": "June 30, 2026",
+    "unit_or_role": "calendar date",
+    "locator": "L43"
+  },
+  {
+    "field": "exercise_notice_month",
+    "original_value": "May 2026",
+    "unit_or_role": "calendar month; no day asserted",
+    "locator": "L154"
+  },
+  {
+    "field": "option_asset_aliases",
+    "original_value": [
+      "DB-1311",
+      "BNT324",
+      "elfe-D"
+    ],
+    "unit_or_role": "asset aliases",
+    "locator": "L36–37, L52, L175"
+  },
+  {
+    "field": "other_partnered_asset_aliases",
+    "original_value": [
+      "DB-1303",
+      "BNT323"
+    ],
+    "unit_or_role": "asset aliases",
+    "locator": "L36, L69–74"
+  }
+]
+Support scope: Company reports written exercise notice in May 2026 for DB-1311/BNT324/elfe-D US cost/profit-loss option. Asset aliases and the BioNTech relationship are explicit; strategic implications remain author inference.
+Precise gap: No additional source-specific factual gap found within the assigned contribution; multi-source rows retain their other citations.
+Source/data dates are supplied baseline metadata, not replaced by this check time. No alternate route, login, headers, private endpoint or payment used.
+This small evidence record is an excerpt/factual extraction, not a saved full article.

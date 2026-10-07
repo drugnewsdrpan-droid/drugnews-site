@@ -1,0 +1,25 @@
+Source: T10
+Original URL: https://www.formosalab.com/tw/bioconjugation-adc
+Title: 台耀化學 — 抗體藥物複合體
+Original source_date: unknown
+Original data_date: unknown
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- 一站式方案: web lines 296–305
+- 經驗和專業: web line 320 (company claim only)
+Minimum verbatim excerpts:
+- web line 302: 偶聯結構分子和高效價藥物的設計、合成和製造
+- web line 303: 生物偶聯反應和純化
+- web line 304: 細胞毒藥物劑型開發、液體充填和凍乾的製造
+Numeric / structured original fields (not market estimates):
+Supported scope (author paraphrase, not original quotation):
+公司公開服務列高效價化學、偶聯、TFF／管柱純化、劑型、液體充填與凍乾；公司另稱臨床供藥經驗。
+Precise evidence gap / boundary:
+未標資料日；能力／供藥經驗為公司說法。15件專案與50Kg願景未作當期訂單或產能採用，也不以本頁證實產品別放行。
+Web references: turn124view0

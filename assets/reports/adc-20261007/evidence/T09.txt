@@ -1,0 +1,25 @@
+Source: T09
+Original URL: https://www.eirgenix.com/antibody-drug-conjugate
+Title: EirGenix — ADC & Bioconjugates
+Original source_date: unknown
+Original data_date: unknown
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- ADC & Bioconjugates / partner: web lines 87–95
+- Monoclonal Antibody Development and Production / High Potency Chemicals / Linkers: web lines 109–125
+Minimum verbatim excerpts:
+- web line 88: our strategic partner, Formosa Laboratories, Inc.
+- web line 110: both non-GMP and GMP-level manufacturing
+- web line 110: compatibility studies across antibodies, intermediates, payloads, and linkers
+Numeric / structured original fields (not market estimates):
+Supported scope (author paraphrase, not original quotation):
+台康公開頁列台耀為策略夥伴，描述抗體、分析／品質、GMP製造與偶聯相關整合服務；支持對外能力與合作配置。
+Precise evidence gap / boundary:
+頁面未標資料日；不能由服務頁推定特定ADC商業訂單、客戶批次已放行或收入。未採過時的ADC核准總數或其他槽體尺度。
+Web references: turn115view3

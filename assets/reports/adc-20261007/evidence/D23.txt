@@ -1,0 +1,48 @@
+Source ID: D23
+Original URL: https://wuxixdc.com/wuxi-xdc-celebrates-gmp-release-of-singapore-site-ushering-in-a-new-era-of-global-expansion/
+Title (supplied): WuXi XDC Celebrates GMP Release of Singapore Site
+Source date (retained): 2026-09-22
+Data date (retained): 2026-09-21
+Checked at: 2026-10-07T18:42:41+08:00
+Timezone: Asia/Taipei
+Checked-at meaning: current review of returned public web-tool extraction; not the historical network-fetch timestamp.
+Retrieval mode: public_web_tool_readback_prior_ref; prior saved web_ref was opened and returned the specified original public URL.
+Prior web ref: turn36view0
+Current web ref: turn128view0
+Read level: relevant primary-source paragraphs in web text extraction; complete original HTML/PDF bytes not saved or hashed.
+Original network read time: null; not exposed by the tool. Original artifact SHA256: null.
+Locator: WuXi XDC Singapore release; retrieved lines 111–117 and 161–164.
+Minimum verbatim excerpts (aggregate <=25 English words):
+- have both successfully achieved GMP release
+Excerpt word count: 6
+Factual extraction (values, dates, statuses; not additional prose quotations):
+[
+  {
+    "field": "page_publication_date",
+    "original_value": "Sep. 22, 2026",
+    "unit_or_role": "calendar date",
+    "locator": "L111"
+  },
+  {
+    "field": "ceremony_date",
+    "original_value": "September 21, 2026",
+    "unit_or_role": "calendar date",
+    "locator": "L116"
+  },
+  {
+    "field": "BCM3_DP4_GMP_release_month",
+    "original_value": "August 2026",
+    "unit_or_role": "calendar month; company report, no day invented",
+    "locator": "L117"
+  },
+  {
+    "field": "BCM4_expected_GMP_release",
+    "original_value": "by the end of 2026",
+    "unit_or_role": "company forecast",
+    "locator": "L163"
+  }
+]
+Support scope: Company explicitly reports GMP release for BCM3 and DP4 and a further BCM4 plan. This is a company operational milestone, not a verified product authorization or order.
+Precise gap: No additional source-specific factual gap found within the assigned contribution; multi-source rows retain their other citations.
+Source/data dates are supplied baseline metadata, not replaced by this check time. No alternate route, login, headers, private endpoint or payment used.
+This small evidence record is an excerpt/factual extraction, not a saved full article.

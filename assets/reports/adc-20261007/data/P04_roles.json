@@ -1,0 +1,239 @@
+{
+  "research_parent_version": "ADC-20261007-R1",
+  "research_evidence_cutoff": "2026-10-07",
+  "source_recheck_date": "2026-10-07",
+  "timezone": "Asia/Taipei",
+  "source_ids": [
+    "D01",
+    "R07",
+    "D16"
+  ],
+  "title": {
+    "zh": "合作、供應與組織持有，是不同承諾",
+    "en": "Alliances, supply and ownership are different commitments"
+  },
+  "reader_question": {
+    "zh": "同樣布局ADC，企業究竟取得什麼、又由誰負責把候選藥往前推？",
+    "en": "When companies invest in ADCs, what do they obtain and who is responsible for moving each candidate forward?"
+  },
+  "takeaway": {
+    "zh": "同一DXd平台可連結不同全球夥伴；看清資產、地域權利與製造責任，才能看懂合作的價值。",
+    "en": "One DXd platform can connect with different global partners; assets, territorial rights and manufacturing responsibilities explain the value of each alliance."
+  },
+  "caption": {
+    "zh": "選列R1已有的合作配置：第一三共以不同DXd資產連結AstraZeneca與Merck，並承擔所列合作資產的製造供應；Gilead收購Tubulis，取得資產、平台與團隊。連線只表示已披露的特定關係，不代表所有公司互有合約。合作原始日期見圖；來源回讀2026-10-07。[D01][R07][D16]",
+    "en": "Selected alliances already covered in R1: Daiichi Sankyo connects different DXd assets with AstraZeneca and Merck and is responsible for manufacturing and supply of the listed partnered assets. Gilead acquired Tubulis, including its assets, platform and team. Lines represent only the disclosed relationships shown. Original agreement dates appear in the figure; sources re-read on 2026-10-07. [D01][R07][D16]"
+  },
+  "source_support": [
+    {
+      "id": "D01",
+      "title": "Daiichi Sankyo and Merck Announce Global Development and Commercialization Collaboration for Three Daiichi Sankyo DXd ADCs",
+      "url": "https://www.merck.com/news/daiichi-sankyo-and-merck-announce-global-development-and-commercialization-collaboration-for-three-daiichi-sankyo-dxd-adcs/",
+      "published_date": "2023-10-19",
+      "data_date": "2023-10-19",
+      "source_type": "company_release",
+      "access_date": "2026-10-07",
+      "web_ref": "turn96view0",
+      "support_locator": "Opening agreement paragraphs, lines 97–100; Financial highlights, line 116; DXd portfolio, lines 122–125",
+      "short_verbatim_excerpt": "Daiichi Sankyo will be solely responsible for manufacturing and supply.",
+      "excerpt_word_count": 10,
+      "verification_scope": "Relevant public primary-source paragraphs directly opened and read in this increment; other company claims not independently adjudicated.",
+      "original_source_id_preserved": true
+    },
+    {
+      "id": "R07",
+      "title": "AstraZeneca／Daiichi Sankyo 與 Summit 合作評估 Datroway 加 ivonescimab",
+      "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/az-ds-collaboration-with-summit-for-datroway.html",
+      "published_date": "2026-10-02",
+      "data_date": "2026-10-02",
+      "source_type": "公司正式合作公告",
+      "access_date": "2026-10-07",
+      "web_ref": "turn98view1",
+      "support_locator": "Clinical agreement, lines 185–191; Daiichi Sankyo collaboration, lines 205–206",
+      "short_verbatim_excerpt": "each company will retain development and commercial rights to their respective medicines.",
+      "excerpt_word_count": 12,
+      "verification_scope": "Relevant public primary-source paragraphs directly opened and read in this increment; other company claims not independently adjudicated.",
+      "original_source_id_preserved": true
+    },
+    {
+      "id": "D16",
+      "title": "Gilead Sciences Completes Acquisition of Tubulis",
+      "url": "https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Completes-Acquisition-of-Tubulis-Further-Strengthening-Oncology-Portfolio/default.aspx",
+      "published_date": "2026-05-21",
+      "data_date": "2026-05-21",
+      "source_type": "company_release",
+      "access_date": "2026-10-07",
+      "web_ref": "turn98view0",
+      "support_locator": "Opening completion notice, line 32; named assets, line 34; ownership/team arrangements, line 36",
+      "short_verbatim_excerpt": "The Tubulis team will continue to be based in Munich, Germany",
+      "excerpt_word_count": 11,
+      "verification_scope": "Relevant public primary-source paragraphs directly opened and read in this increment; other company claims not independently adjudicated.",
+      "original_source_id_preserved": true
+    }
+  ],
+  "units_currency": "Not applicable; the map uses qualitative relationships and disclosed calendar dates. It contains no transaction amounts, market shares, revenue estimates or scale-proportional node sizes.",
+  "not_verified_in_this_increment": [
+    "All 89 R1 sources: only D01, R07 and D16 were directly re-read for this map.",
+    "No unreported supplier orders, downstream revenue benefit or head-to-head platform superiority is inferred from role similarity.",
+    "No new listing verification: the map intentionally omits exchanges and ticker symbols.",
+    "D01 is the original 2023 announcement; later payment disclosures and amendments remain in R1 and were not re-read here.",
+    "Gilead Trodelvy commercial ownership is not an edge in this three-source map; D16 does not name Trodelvy in its substantive body.",
+    "This bounded source read is author source work, not an independent whole-report QA verdict."
+  ],
+  "figure_id": "P04",
+  "figure_version": "ADC-20261007-R1-LAYERED-HTML-R2-P04-1.0",
+  "nodes": [
+    {
+      "id": "daiichi",
+      "label_zh": "第一三共",
+      "label_en": "Daiichi Sankyo",
+      "role_zh": "DXd候選藥／合作資產的製造供應",
+      "role_en": "DXd candidates / manufacture and supply of partnered assets",
+      "source_ids": [
+        "D01",
+        "R07"
+      ]
+    },
+    {
+      "id": "az",
+      "label_zh": "AstraZeneca",
+      "label_en": "AstraZeneca",
+      "role_zh": "共同開發／商業化",
+      "role_en": "Co-development / commercialization",
+      "source_ids": [
+        "R07"
+      ]
+    },
+    {
+      "id": "merck",
+      "label_zh": "Merck／MSD",
+      "label_en": "Merck / MSD",
+      "role_zh": "共同開發／商業化",
+      "role_en": "Co-development / commercialization",
+      "source_ids": [
+        "D01"
+      ]
+    },
+    {
+      "id": "gilead",
+      "label_zh": "Gilead",
+      "label_en": "Gilead",
+      "role_zh": "收購並整合組織",
+      "role_en": "Acquisition and organizational integration",
+      "source_ids": [
+        "D16"
+      ]
+    },
+    {
+      "id": "tubulis",
+      "label_zh": "Tubulis",
+      "label_en": "Tubulis",
+      "role_zh": "ADC資產／平台／研發團隊",
+      "role_en": "ADC assets / platform / research team",
+      "source_ids": [
+        "D16"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "R2_ROLE_DS_AZ",
+      "from": "daiichi",
+      "to": "az",
+      "direction": "bidirectional",
+      "relationship_type": "co_development_co_commercialization",
+      "label_zh": "Enhertu／Datroway共同開發與商業化",
+      "label_en": "Enhertu / Datroway co-development and commercialization",
+      "assets": [
+        "trastuzumab deruxtecan (Enhertu)",
+        "datopotamab deruxtecan (Datroway)"
+      ],
+      "event_dates": [
+        {
+          "date": "2019-03",
+          "precision": "month",
+          "event": "Enhertu collaboration entered"
+        },
+        {
+          "date": "2020-07",
+          "precision": "month",
+          "event": "Datroway collaboration entered"
+        }
+      ],
+      "territorial_scope_zh": "全球，日本由第一三共保留獨家權利",
+      "territorial_scope_en": "Global, with exclusive rights retained by Daiichi Sankyo in Japan",
+      "supply_responsibility_zh": "第一三共負責Enhertu與Datroway製造及供應",
+      "supply_responsibility_en": "Daiichi Sankyo is responsible for manufacturing and supply of Enhertu and Datroway",
+      "source_ids": [
+        "R07"
+      ],
+      "support_locator": "Daiichi Sankyo collaboration, paragraph beginning AstraZeneca and Daiichi Sankyo entered into a global collaboration (retrieved lines 205–206)",
+      "verification_scope": "Directly re-read in the 2026-10-02 public company announcement on 2026-10-07; these are historical alliance dates, not new R2 transactions."
+    },
+    {
+      "id": "R2_ROLE_DS_MRK",
+      "from": "daiichi",
+      "to": "merck",
+      "direction": "bidirectional",
+      "relationship_type": "co_development_co_commercialization",
+      "label_zh": "HER3-DXd／I-DXd／R-DXd合作",
+      "label_en": "HER3-DXd / I-DXd / R-DXd alliance",
+      "assets": [
+        "patritumab deruxtecan (HER3-DXd)",
+        "ifinatamab deruxtecan (I-DXd)",
+        "raludotatug deruxtecan (R-DXd)"
+      ],
+      "event_dates": [
+        {
+          "date": "2023-10-19",
+          "precision": "day",
+          "event": "Original collaboration announced"
+        }
+      ],
+      "territorial_scope_zh": "日本以外共同開發及潛在商業化；日本由第一三共保留獨家權利",
+      "territorial_scope_en": "Joint development and potential commercialization outside Japan; Daiichi Sankyo retains exclusive rights in Japan",
+      "supply_responsibility_zh": "第一三共獨負製造與供應",
+      "supply_responsibility_en": "Daiichi Sankyo solely responsible for manufacturing and supply",
+      "source_ids": [
+        "D01"
+      ],
+      "support_locator": "Opening agreement paragraphs (retrieved lines 97–100); Financial highlights (line 116)",
+      "verification_scope": "Directly re-read original 2023-10-19 agreement announcement on 2026-10-07. Shows asset/territory/supply configuration of the original deal, not a re-verification of all later amendments or current regulatory status."
+    },
+    {
+      "id": "R2_ROLE_GILD_TUB",
+      "from": "gilead",
+      "to": "tubulis",
+      "direction": "forward",
+      "relationship_type": "completed_whole_company_acquisition",
+      "label_zh": "2026-05-21完成收購",
+      "label_en": "Acquisition completed 2026-05-21",
+      "assets": [
+        "TUB-040 (NaPi2b-directed ADC)",
+        "TUB-030 (5T4-directed ADC)",
+        "ADC platform and Tubulis team"
+      ],
+      "event_dates": [
+        {
+          "date": "2026-05-21",
+          "precision": "day",
+          "event": "Acquisition completion announced"
+        }
+      ],
+      "rights_scope_zh": "Gilead取得Tubulis全部流通股權；團隊留在慕尼黑、成立Tubulis ADC Innovation Center",
+      "rights_scope_en": "Gilead acquired all outstanding equity of Tubulis; the team remains in Munich as the Tubulis ADC Innovation Center",
+      "source_ids": [
+        "D16"
+      ],
+      "support_locator": "Completion announcement opening paragraph; paragraph beginning Under the terms of the agreement (retrieved lines 32, 34, 36)",
+      "verification_scope": "Directly re-read completion announcement on 2026-10-07; no claim that platform superiority or integration benefits are clinically proven."
+    }
+  ],
+  "drawing_semantics": {
+    "teal_bidirectional_lines": "Specific asset co-development / commercialization alliances, with manufacturing responsibility in the Daiichi Sankyo node.",
+    "orange_directional_line": "Gilead completed the acquisition of Tubulis; the arrow points to the acquired organization.",
+    "no_intercluster_link": "There is no represented agreement between the two groups.",
+    "node_size": "Equal visual emphasis only; not revenue, market share, order volume or deal value.",
+    "date_precision": "2019-03 and 2020-07 are month-level dates preserved as disclosed; no day invented."
+  }
+}

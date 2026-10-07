@@ -1,0 +1,27 @@
+Source: T13
+Original URL: https://www.mycenax.com/cdmo.php?id=56
+Title: Mycenax — Antibody-Drug Conjugate
+Original source_date: unknown
+Original data_date: unknown
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- ConjuMX Toolbox: web lines 134–136
+- VLK Linker / Strategic ADC Partners: web lines 147–149, 158–164; page repeats these at 197–216
+Minimum verbatim excerpts:
+- web line 136: achieving GMP-grade 50L scale production.
+- web line 149: anti-TMEM180 antibody (Phase 1 study underway)
+- web line 149: DAR8
+- web line 149: anti-IF-ADC
+Numeric / structured original fields (not market estimates):
+{"field": "company_reported_GMP_production_scale", "value": 50, "unit": "L", "locator": "web line 136", "basis": "company capability statement, not independently audited commercial capacity"}
+Supported scope (author paraphrase, not original quotation):
+公司服務頁列GMP級50 L生產尺度；分開描述anti-TMEM180抗體一期供藥與後續anti-IF ADC製備，另列合作鏈。
+Precise evidence gap / boundary:
+未標資料日；50 L並非產品別放行量、年產量、訂單或營收；未宣稱anti-IF ADC已進入一期。
+Web references: turn117view1

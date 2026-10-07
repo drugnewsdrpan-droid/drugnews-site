@@ -1,0 +1,33 @@
+Source ID: R09
+Original URL: https://heidelberg-pharma.com/images/managed/HDP-101-01_AACR2024_final.pdf
+Source date (attachment preserved): 2024
+Data date (attachment preserved): 2024年AACR海報；本稿僅引用機制段落
+Checked at: 2026-10-07T18:42:25+08:00
+Timezone: Asia/Taipei
+Retrieval mode: public_url_web_tool
+Read level: 原 URL 一頁 AACR 2024 海報 PDF 文字；僅 Introduction / Background 機制段
+Access result: 正常取得原 URL PDF 文字
+Original raw artifact SHA256: null
+
+LOCATORS (actual reading positions):
+PDF 第1頁 Introduction L24–27；Background L30–35；年份與 poster CT067 L44–46
+
+MINIMUM VERBATIM EXCERPT (only this block is source prose):
+carries a synthetic amanitin payload. Amanitin inhibits RNA polymerase II
+
+EXTRACTED FACTUAL FIELDS (not a reconstructed quotation):
+[
+  {
+    "locator": "p1 Background L30–35",
+    "drug": "HDP-101",
+    "target": "BCMA",
+    "payload": "synthetic amanitin",
+    "payload_target": "RNA polymerase II",
+    "action": "抑制轉錄；此處只作機制辨識，不作臨床增益證明"
+  }
+]
+
+SCOPE / PRECISE GAP (reviewer description, not source prose):
+支持 HDP-101 合成 amanitin / RNA polymerase II 機制；2024 海報較舊的臨床數據完全不作 2026 人體進展證據。
+
+Web refs: turn116view3, turn135view1

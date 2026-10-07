@@ -1,0 +1,30 @@
+Source: T02
+Original URL: https://clinicaltrials.gov/study/NCT06480240
+Title: ClinicalTrials.gov — NCT06480240 / OBI-992
+Original source_date: 2024-06-28
+Original data_date: 2025-08-08
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_registry_api
+Read level: targeted_official_registry_API_fields
+Access result: HTTP 200, official API JSON read
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The .api.json response bytes were saved separately and have their own original-artifact SHA256.
+Locators:
+- Official ClinicalTrials.gov API: $.protocolSection.identificationModule.nctId; $.protocolSection.statusModule.overallStatus; $.protocolSection.designModule.phases; $.protocolSection.designModule.enrollmentInfo
+- Dates/results: $.protocolSection.statusModule.studyFirstPostDateStruct; lastUpdatePostDateStruct; primaryCompletionDateStruct; $.hasResults
+Minimum verbatim excerpts:
+- $.protocolSection.statusModule.overallStatus: ACTIVE_NOT_RECRUITING
+Numeric / structured original fields (not market estimates):
+{"field": "nct_id", "value": "NCT06480240", "unit": "identifier", "locator": "$.protocolSection.identificationModule.nctId"}
+{"field": "phase", "value": ["PHASE1", "PHASE2"], "unit": "phase", "locator": "$.protocolSection.designModule.phases"}
+{"field": "enrollment", "value": 117, "unit": "persons", "locator": "$.protocolSection.designModule.enrollmentInfo", "basis": "ESTIMATED"}
+{"field": "primary_completion", "value": "2027-06", "unit": "date", "locator": "$.protocolSection.statusModule.primaryCompletionDateStruct", "basis": "ESTIMATED"}
+{"field": "hasResults", "value": false, "unit": "boolean", "locator": "$.hasResults"}
+{"field": "study_first_posted", "value": "2024-06-28", "unit": "date", "locator": "$.protocolSection.statusModule.studyFirstPostDateStruct"}
+{"field": "last_update_posted", "value": "2025-08-08", "unit": "date", "locator": "$.protocolSection.statusModule.lastUpdatePostDateStruct"}
+Supported scope (author paraphrase, not original quotation):
+OBI-992官方登錄為一期／二期、進行中不再收案；估計完成日不是確定公告日，無已張貼結果。
+Precise evidence gap / boundary:
+此登錄不支持偶聯技術比較或人體療效結論；它僅支持OBI-992的登錄狀態與条件監看。
+Web references: 

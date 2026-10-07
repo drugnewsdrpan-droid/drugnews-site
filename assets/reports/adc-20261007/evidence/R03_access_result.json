@@ -1,0 +1,13 @@
+{
+  "source_id": "R03",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12079096/",
+  "title": "Abelman et al. — TOP1 Mutations and Cross-Resistance to Antibody–Drug Conjugates in Patients with Metastatic Breast Cancer",
+  "checked_at": "2026-10-07T18:40:15+08:00",
+  "timezone": "Asia/Taipei",
+  "retrieval_mode": "prior_web_reference_reread",
+  "prior_reference": "turn18search1",
+  "actual_result_reference": "turn114view0",
+  "actual_result": "Checking your browser - reCAPTCHA; only three access-wall lines returned. No article or Table 1 obtained. No alternative route or headers used.",
+  "stored_material_search": "master.json/foundations.json and prior language-layer notes contain author summaries and locators, but no retained Table 1/case excerpt. Those summaries are not accepted as primary evidence.",
+  "original_artifact_sha256": null
+}

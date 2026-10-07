@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
+import { checkReportInterfaces, sectionId, figureSources, reportFigureInfo, reportHead, reportShareControls, reportShareScript } from "./report_interface.mjs";
 
 const templates = path.join(path.dirname(fileURLToPath(import.meta.url)), "templates");
 const escape = value => String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#39;");
@@ -51,6 +52,7 @@ function accept(kind, payload, qa) {
     if (payload.figures?.some(f => !f.alt || !f.caption || !["zh-Hant", "en", "mixed"].includes(f.language) || !/^\/assets\/reports\/[^?]+\.(?:png|jpe?g|webp)$/.test(f.src) || f.src.includes(".."))) throw new Error("Original figure paths, language, captions and alt text are required");
     const positions = payload.sections.flatMap(s => s.figure_indices || []);
     if (positions.length !== (payload.figures?.length || 0) || new Set(positions).size !== positions.length || positions.some(n => !Number.isInteger(n) || n < 0 || n >= payload.figures.length)) throw new Error("Every accepted figure needs one explicit source position");
+    checkReportInterfaces(payload, qa, payload.original_report_schema ? payloadHash(payload.original_report_schema) : null);
   } else {
     if (["company", "location", "employment_type", "salary", "valid_through", "responsibilities", "requirements", "official_apply_url"].some(key => !nonempty(payload[key]))) throw new Error("Employer-confirmed job information is required");
     httpsURL(payload.official_apply_url);
@@ -76,19 +78,23 @@ export async function renderProductTemplate(kind, payload = {}, { preview = true
       { heading: "科學機制與臨床證據", body: "內容版位：研究作者的核心判斷、比較範圍、證據與資料日期。", figure: true },
       { heading: "商業結構與下一個追蹤點", body: "內容版位：交付、競爭、商業假設及下一個需驗證的節點。", figure: true }
     ]);
-    const figureHTML = (figure, placeholder) => figure ? `<figure class="figure"><img src="${escape(figure.src)}" alt="${escape(figure.alt)}"><figcaption class="caption">${escape(figure.caption)} · ${english ? "Chart language" : "圖表語言"}：${escape(figure.language)}${figure.source_url ? ` · <a href="${escape(httpsURL(figure.source_url))}">${english ? "Original source" : "原始資料"}</a>` : ""}</figcaption></figure>` : placeholder ? `<figure class="figure"><div class="figure-space">${english ? "Original figure and reproducible data placeholder" : "原圖表與可重算資料版位"}</div><figcaption class="caption">${english ? "Caption, source, data date and original figure version" : "圖說、來源、資料日與原圖版本版位"}</figcaption></figure>` : "";
+    const figureHTML = (figure, placeholder) => figure ? `<figure class="figure"><img src="${escape(figure.src)}" alt="${escape(figure.alt)}"><figcaption class="caption">${escape(figure.caption)} · ${english ? "Chart language" : "圖表語言"}：${escape(figure.language)}${figureSources(figure).map(url => ` · <a href="${escape(httpsURL(url))}">${english ? "Original source" : "原始資料"}</a>`).join("")}</figcaption>${reportFigureInfo(figure, english)}</figure>` : placeholder ? `<figure class="figure"><div class="figure-space">${english ? "Original figure and reproducible data placeholder" : "原圖表與可重算資料版位"}</div><figcaption class="caption">${english ? "Caption, source, data date and original figure version" : "圖說、來源、資料日與原圖版本版位"}</figcaption></figure>` : "";
     Object.assign(fields, {
       LANG: english ? "en" : "zh-Hant", BRAND_LABEL: english ? "Drugnews | Industry research" : "Drugnews｜產業研究與報告解析",
       COVERAGE: payload.coverage === "executive_summary" ? "Executive Summary" : english ? "Full report" : "繁體中文完整報告",
-      SUBTITLE: escape(payload.subtitle || (english ? "Same-version HTML and A4 print layout" : "HTML與A4列印版共用同版內容")),
+      SUBTITLE: escape(payload.subtitle || (english ? "Full illustrated research with traceable sources and versions" : "完整圖文研究，來源與版本可查")),
       META: escape(english ? `Author: ${payload.author || "Original author pending"} · Data date: ${payload.updated_at || "Pending"} · Version: ${payload.version || "Preview"}` : `研究作者：${payload.author || "待原作者交稿"} · 資料日：${payload.updated_at || "待同版資料"} · 版本：${payload.version || "模板預覽"}`),
       SUMMARY_LABEL: english ? "Summary and core judgements" : "摘要與核心判斷", SOURCES_LABEL: english ? "Sources and data dates" : "來源與資料日期",
       FOOTER: english ? "Drugnews | Industry research and knowledge sharing. See the stated research and figure versions." : "Drugnews｜藥時事 · 產業研究與知識分享。研究與圖表版本以本頁註記為準。",
       LANGUAGE_LINK: payload.other_language?.href ? `<p><a href="${escape(httpsURL(payload.other_language.href))}" hreflang="${escape(payload.other_language.language)}">${escape(payload.other_language.label)}</a></p>` : "",
       SUMMARY: paragraphs(payload.summary || (english ? "Placeholder for a self-contained executive summary and usable judgement." : "內容版位：自成一篇的摘要，以及讀者看完後可以使用的核心判斷。")),
-      CONTENTS: `<nav class="contents" aria-label="${english ? "Report contents" : "報告目錄"}"><h2>${english ? "Contents" : "目錄"}</h2><ol>${sections.map((section, i) => `<li><a href="#report-section-${i + 1}">${escape(section.heading)}</a></li>`).join("")}</ol></nav>`,
-      SECTIONS: sections.map((section, i) => `<section class="report-section" id="report-section-${i + 1}"><h2>${escape(section.heading)}</h2>${paragraphs(section.body)}${(section.figure_indices || []).map(i => figureHTML(payload.figures[i], false)).join("")}${figureHTML(null, preview && section.figure)}</section>`).join(""),
+      CONTENTS: `<nav class="contents" aria-label="${english ? "Report contents" : "報告目錄"}"><h2>${english ? "Contents" : "目錄"}</h2><ol>${sections.map((section, i) => `<li><a href="#${escape(sectionId(section, i))}">${escape(section.heading)}</a></li>`).join("")}</ol></nav>`,
+      SECTIONS: sections.map((section, i) => `<section class="report-section" id="${escape(sectionId(section, i))}">${(section.aliases || []).map(id => `<span id="${escape(id)}" aria-hidden="true"></span>`).join("")}<h2>${escape(section.heading)}</h2>${!preview ? reportShareControls(payload.canonical_url + "#" + sectionId(section, i), payload.title + " · " + section.heading, english, true) : ""}${paragraphs(section.body)}${(section.figure_indices || []).map(i => figureHTML(payload.figures[i], false)).join("")}${figureHTML(null, preview && section.figure)}</section>`).join(""),
       REFERENCES: payload.references?.length ? `<ol>${payload.references.map(r => `<li><a href="${escape(httpsURL(r.url))}">${escape(r.title)}</a>${r.date ? ` · ${escape(r.date)}` : ""}</li>`).join("")}</ol>` : english ? "<p>Placeholders for original sources, URLs, dates and checked versions.</p>" : "<p>來源名稱、原始網址、資料日期與查核版本版位。</p>",
+      SEO: reportHead(payload, preview),
+      SHARE: !preview ? reportShareControls(payload.canonical_url, payload.title, english) : "",
+      SHARE_SCRIPT: !preview ? reportShareScript() : "",
+      CORRECTIONS: `<section class="corrections" id="report-revisions"><h2>${english ? "Versions and corrections" : "版本與更正"}</h2>${payload.revisions?.length ? `<ol>${payload.revisions.map(r => `<li><strong>${escape(r.version)}</strong> · <time>${escape(r.date)}</time><p>${escape(r.summary)}</p></li>`).join("")}</ol>` : `<p>${english ? "Actual version and correction records pending in this preview." : "本預覽的版本與更正紀錄，待原作者交件。"}</p>`}</section>`,
       DOWNLOAD: ""
     });
     // A PDF link is omitted until a real file and its exact independent hash exist.

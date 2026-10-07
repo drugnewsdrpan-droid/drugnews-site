@@ -1,0 +1,26 @@
+Source: T07
+Original URL: https://www.formosapharma.com/formosa-pharmaceuticals-announces-presentation-of-tsy-310-at-the-2026-asco-annual-meeting/
+Title: Formosa Pharmaceuticals Announces Presentation of TSY-310 at the 2026 ASCO Annual Meeting
+Original source_date: 2026-05-22
+Original data_date: 2026-05-22
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- Dated announcement: web line 88
+- ASCO details / preclinical design: web lines 94–105; programme description line 112
+Minimum verbatim excerpts:
+- web line 88: preclinical efficacy of TSY-310
+- web line 88: TSY-310 simultaneously targets EGFR and ROR1
+Numeric / structured original fields (not market estimates):
+{"field": "announcement_date", "value": "2026-05-22", "unit": "date", "locator": "web line 88"}
+{"field": "abstract_number", "value": 3086, "unit": "abstract identifier", "locator": "web line 97"}
+Supported scope (author paraphrase, not original quotation):
+2026-05-22公告所呈現的TSY-310為EGFR×ROR1雙特異ADC臨床前資料，不能因ASCO發表視為人體證據。
+Precise evidence gap / boundary:
+該舊公告支持已呈現資料屬臨床前，但未獨立證明截至2026-10-07仍未進入人體；建議把持續階段敘述限定為公告的資料層級。
+Web references: turn115view2

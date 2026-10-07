@@ -1,0 +1,251 @@
+{
+  "figure_id": "P01",
+  "research_parent_version": "ADC-20261007-R1",
+  "evidence_as_of": "2026-10-07",
+  "timezone": "Asia/Taipei",
+  "parent_figure_ids": [
+    "F03",
+    "F04"
+  ],
+  "parent_master_sha256": "ba5a46bc85a086921ef421928922e515d24c3a51283bd5c4c9dd5e9f0f077f0c",
+  "data_type": "qualitative mechanism model; no measured numerical values",
+  "nodes": [
+    {
+      "id": "adc",
+      "compartment": "extracellular",
+      "label_zh": "完整 ADC",
+      "label_en": "Intact ADC",
+      "source_ids": [
+        "R02"
+      ]
+    },
+    {
+      "id": "premature_payload",
+      "compartment": "extracellular",
+      "label_zh": "若過早釋放的游離負載",
+      "label_en": "Conditionally premature free payload",
+      "source_ids": [
+        "R02",
+        "R06"
+      ]
+    },
+    {
+      "id": "antigen",
+      "compartment": "plasma_membrane",
+      "label_zh": "膜上靶點",
+      "label_en": "Surface antigen",
+      "source_ids": [
+        "R02"
+      ]
+    },
+    {
+      "id": "bound_adc",
+      "compartment": "extracellular_membrane_invagination",
+      "label_zh": "結合靶點的 ADC",
+      "label_en": "Antigen-bound ADC",
+      "source_ids": [
+        "R02"
+      ]
+    },
+    {
+      "id": "endosome",
+      "compartment": "intracellular_vesicle_lumen",
+      "label_zh": "胞內體中的 ADC",
+      "label_en": "ADC in endosomal lumen",
+      "source_ids": [
+        "R02",
+        "R10"
+      ]
+    },
+    {
+      "id": "lysosome",
+      "compartment": "intracellular_vesicle_lumen",
+      "label_zh": "溶小體",
+      "label_en": "Lysosome",
+      "source_ids": [
+        "R02",
+        "R06"
+      ]
+    },
+    {
+      "id": "active_payload",
+      "compartment": "cytoplasm",
+      "label_zh": "活性負載",
+      "label_en": "Active payload",
+      "source_ids": [
+        "R02",
+        "R06"
+      ]
+    },
+    {
+      "id": "topoi_action",
+      "compartment": "nucleus",
+      "label_zh": "Topo-I 抑制；DNA 損傷",
+      "label_en": "Topo-I inhibition; DNA damage",
+      "source_ids": [
+        "R03"
+      ]
+    },
+    {
+      "id": "microtubule_action",
+      "compartment": "cytoplasm",
+      "label_zh": "微管抑制；阻礙細胞分裂",
+      "label_en": "Microtubule inhibition; blocked cell division",
+      "source_ids": [
+        "R06"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from_node": "adc",
+      "to_node": "bound_adc",
+      "meaning_zh": "Fab結合抗原胞外端",
+      "meaning_en": "Fab binding to the extracellular antigen domain",
+      "visual": "solid_teal",
+      "source_ids": [
+        "R02"
+      ]
+    },
+    {
+      "from_node": "adc",
+      "to_node": "premature_payload",
+      "meaning_zh": "若在到達細胞前過早釋放；不是預設路徑",
+      "meaning_en": "Conditional premature release before reaching the cell; not the default route",
+      "visual": "dashed_orange",
+      "source_ids": [
+        "R02",
+        "R06"
+      ]
+    },
+    {
+      "from_node": "bound_adc",
+      "to_node": "endosome",
+      "meaning_zh": "內吞；ADC留在囊泡腔內",
+      "meaning_en": "Internalization; ADC remains within the vesicle lumen",
+      "visual": "solid_teal",
+      "source_ids": [
+        "R02"
+      ]
+    },
+    {
+      "from_node": "endosome",
+      "to_node": "lysosome",
+      "meaning_zh": "胞內囊泡運輸",
+      "meaning_en": "Intracellular vesicular trafficking",
+      "visual": "solid_teal",
+      "source_ids": [
+        "R02",
+        "R06",
+        "R10"
+      ]
+    },
+    {
+      "from_node": "lysosome",
+      "to_node": "active_payload",
+      "meaning_zh": "依設計切斷連接子或分解抗體，活性負載跨出溶小體膜",
+      "meaning_en": "Design-dependent linker cleavage or antibody breakdown; active payload exits across the lysosomal membrane",
+      "visual": "solid_orange",
+      "source_ids": [
+        "R02",
+        "R06"
+      ]
+    },
+    {
+      "from_node": "active_payload",
+      "to_node": "topoi_action",
+      "meaning_zh": "替代分支A：活性負載進入細胞核",
+      "meaning_en": "Alternative A: active payload enters the nucleus",
+      "visual": "solid_orange",
+      "source_ids": [
+        "R03"
+      ]
+    },
+    {
+      "from_node": "active_payload",
+      "to_node": "microtubule_action",
+      "meaning_zh": "替代分支B：活性負載作用於胞質微管",
+      "meaning_en": "Alternative B: active payload acts on cytoplasmic microtubules",
+      "visual": "solid_orange",
+      "source_ids": [
+        "R06"
+      ]
+    }
+  ],
+  "failure_points": [
+    {
+      "id": "F1",
+      "zh": "血中穩定／提前釋放",
+      "en": "Blood stability / premature release",
+      "position": "extracellular ADC before antigen binding",
+      "source_ids": [
+        "R02",
+        "R06"
+      ],
+      "design_connection": "Linker/coupling design and exposure; not a claim that every early release event has the same toxicity."
+    },
+    {
+      "id": "F2",
+      "zh": "抗原異質性",
+      "en": "Antigen heterogeneity",
+      "position": "cell surface; if illustrated with density, show distinct cells or clearly label variation across tumour cells",
+      "source_ids": [
+        "R04",
+        "R06"
+      ],
+      "design_connection": "Target/antibody choices must address actual antigen distribution."
+    },
+    {
+      "id": "F3",
+      "zh": "胞內遞送",
+      "en": "Intracellular delivery",
+      "position": "endosome-to-lysosome path; no recycling fork",
+      "source_ids": [
+        "R10"
+      ],
+      "design_connection": "Preclinical anti-HER2 antibody variants with reduced antigen affinity at acidic endosomal pH showed increased lysosomal accumulation of their MMAE ADCs. This modifies antigen binding, not acid-sensitive linker cleavage, and does not validate LYSward."
+    },
+    {
+      "id": "F4",
+      "zh": "負載抗藥",
+      "en": "Payload resistance",
+      "position": "action branches after active payload release",
+      "source_ids": [
+        "R03",
+        "R06"
+      ],
+      "design_connection": "Target alteration and efflux can differ by payload; no universal resistance prevalence drawn."
+    }
+  ],
+  "quantitative_units": null,
+  "currency": null,
+  "formula": null,
+  "not_to_scale": [
+    "cell and organelle size",
+    "molecule count",
+    "antigen density",
+    "arrow width",
+    "distance"
+  ],
+  "exclusions": [
+    "No bystander pathway is depicted.",
+    "The two payload branches are alternatives, not a dual-payload product.",
+    "No product-specific human benefit is asserted.",
+    "R2 does not depict the previously unverified gray endosomal recycling branch."
+  ],
+  "source_index": "../sources.csv",
+  "generation": "Derived from the original editable P01 vector drawing; only the recycling branch, F3 text, descriptive metadata, source footer and version footer were changed. Each full SVG was rendered with Inkscape to a full PNG.",
+  "parent_pilot_version": "ADC-20261007-R1-VISUAL-PILOT2-1.0",
+  "artifact_version": "ADC-20261007-R1-LAYERED-HTML-R2-1.0",
+  "additional_source_access_date": "2026-10-07",
+  "correction": {
+    "issue": "P01 prior recycling branch and pH design mapping relied only on T14, not directly reverified.",
+    "resolution": "Removed recycled_complex and dashed gray recycling edge; F3 now describes intracellular delivery with direct preclinical support from R10.",
+    "source_replacement": {
+      "removed_from_P01": "T14",
+      "added_to_P01": "R10"
+    },
+    "other_paths": "unchanged",
+    "numeric_values_added": 0
+  }
+}

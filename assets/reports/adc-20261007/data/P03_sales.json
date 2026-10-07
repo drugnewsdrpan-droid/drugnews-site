@@ -1,0 +1,267 @@
+{
+  "figure_id": "P03",
+  "research_parent_version": "ADC-20261007-R1",
+  "presentation_version": "ADC-20261007-LAYERED-HTML-R2",
+  "research_cutoff": "2026-10-07",
+  "new_source_check_date": "2026-10-07",
+  "timezone": "Asia/Taipei",
+  "source_ids": [
+    "D35"
+  ],
+  "source": {
+    "id": "D35",
+    "candidate_id": false,
+    "title": "Gilead Sciences, Inc. 2025 Form 10-K — Trodelvy product sales and revenue recognition",
+    "short_title": "Gilead 2025 Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000006/gild-20251231.htm",
+    "filing_index_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000006/0000882095-26-000006-index.htm",
+    "published_date": "2026-02-24",
+    "data_date": "2025-12-31",
+    "access_date": "2026-10-07",
+    "source_type": "公司向SEC正式申報的年度財務報告",
+    "access_scope": "本輪正常公開讀取SEC HTML之Note 2 p65、Note 1 p59/p64、MD&A p40；申報index核2026-02-24。未取私人合約或會員資料。",
+    "claims": [
+      "Trodelvy 2023/2024/2025年度產品銷售合計為1,063/1,315/1,397百萬美元。",
+      "產品銷售以gross-to-net扣除後認列；與royalty, contract and other revenues分列。",
+      "公司將2025增長主要歸因於乳癌治療需求，部分被膀胱癌適應症撤回抵銷。"
+    ],
+    "supports": "P03代表品年度淨產品銷售增長圖及相鄰商業判斷；單一產品、Gilead合併報表口徑，不作全球ADC市場分母。",
+    "web_ref": "turn104view0",
+    "support_positions": [
+      {
+        "claim": "three_year_original_values",
+        "section": "Note 2. Revenues — Disaggregation of Revenues",
+        "printed_page": 65,
+        "web_lines": "1991–1993（年度/單位/區域表頭）；2017（Trodelvy整行）",
+        "web_ref": "turn107view0",
+        "support_kind": "numeric extraction",
+        "numeric_extraction": {
+          "column_order": [
+            "2025 total",
+            "2024 total",
+            "2023 total"
+          ],
+          "values": [
+            1397,
+            1315,
+            1063
+          ],
+          "unit": "USD million"
+        }
+      },
+      {
+        "claim": "consolidated_reporting_entity",
+        "section": "Note 1. Summary of Business and Significant Accounting Policies — Basis of Presentation",
+        "printed_page": 58,
+        "web_lines": "1789、1798–1799",
+        "web_ref": "turn106view1",
+        "support_kind": "paraphrase",
+        "support_paraphrase": "Gilead包括合併子公司；財報按U.S. GAAP編製，合併內部交易抵銷。"
+      },
+      {
+        "claim": "net_sales_and_recognition",
+        "section": "Note 1 — Revenue Recognition — Product Sales",
+        "printed_page": 59,
+        "web_lines": "1814–1817",
+        "web_ref": "turn105view1",
+        "support_kind": "paraphrase; original short excerpts centralized in figure_sources.json, source D35",
+        "support_paraphrase": "產品控制權移轉予客戶時認列，通常為出貨或交付；扣除估計回扣、chargebacks、共付額協助、折扣、經銷費用、退貨備抵及其他相關扣項。不是收款量，也不是全部患者終端消耗量。"
+      },
+      {
+        "claim": "original_currency",
+        "section": "Note 1 — Foreign Currency Translation",
+        "printed_page": 64,
+        "web_lines": "1964",
+        "web_ref": "turn106view0",
+        "support_kind": "paraphrase",
+        "support_paraphrase": "合併財報以美元表達；非美元功能性貨幣实体的收入等按期間平均匯率轉換。"
+      },
+      {
+        "claim": "management_attribution_of_2025_sales_change",
+        "section": "MD&A — Results of Operations — Oncology — Trodelvy",
+        "printed_page": 40,
+        "web_lines": "1174–1175",
+        "web_ref": "turn105view3",
+        "support_kind": "paraphrase; original short excerpts centralized in figure_sources.json, source D35",
+        "support_paraphrase": "公司稱2025年銷售增長6%，乳癌治療需求為主要增長因素，膀胱癌適應症撤回部分抵銷增長；未量化各因素金額。"
+      },
+      {
+        "claim": "report_publication_date",
+        "section": "SEC Filing Detail",
+        "printed_page": null,
+        "web_lines": "13–19；25–27",
+        "web_ref": "turn104view1",
+        "support_kind": "filing metadata",
+        "support_paraphrase": "Filing Date 2026-02-24；Accepted 2026-02-24 16:18:35；Period of Report 2025-12-31。"
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "SALES_TRODELVY_2023",
+      "record_ID": "SALES_TRODELVY_2023",
+      "topic": "已上市ADC商業交付",
+      "entity": "Trodelvy (sacituzumab govitecan-hziy)",
+      "measure": "年度淨產品銷售",
+      "numeric_value": 1063,
+      "text_value": null,
+      "unit": "USD million",
+      "original_unit": "millions",
+      "currency": "USD",
+      "period_start": "2023-01-01",
+      "period_end": "2023-12-31",
+      "year": 2023,
+      "period_type": "完整曆年／截至12月31日的財年",
+      "geography": "Gilead reported total: U.S. + Europe + Rest of World",
+      "rights_reporting_basis": "Gilead合併報表之Trodelvy產品銷售Total；不加計合作方另外列報的銷售、分潤、權利金或里程碑。",
+      "accounting_basis": "US GAAP product sales, net of gross-to-net deductions",
+      "price_basis": "nominal reported USD; not constant-currency or inflation-adjusted",
+      "cash_basis": false,
+      "patient_consumption_basis": false,
+      "source_ids": [
+        "D35"
+      ],
+      "data_date": "2023-12-31",
+      "source_published_date": "2026-02-24",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000006/gild-20251231.htm",
+      "source_position": "Note 2. Revenues, p65; Trodelvy row, 2023 Total column; web lines 1991–1993 and 2017",
+      "evidence_type": "原始財務申報數值；本輪公開原文核對",
+      "update_trigger": "下一完整年度10-K同產品同口徑數值；若更正重編，保留前值與更正紀錄。"
+    },
+    {
+      "id": "SALES_TRODELVY_2024",
+      "record_ID": "SALES_TRODELVY_2024",
+      "topic": "已上市ADC商業交付",
+      "entity": "Trodelvy (sacituzumab govitecan-hziy)",
+      "measure": "年度淨產品銷售",
+      "numeric_value": 1315,
+      "text_value": null,
+      "unit": "USD million",
+      "original_unit": "millions",
+      "currency": "USD",
+      "period_start": "2024-01-01",
+      "period_end": "2024-12-31",
+      "year": 2024,
+      "period_type": "完整曆年／截至12月31日的財年",
+      "geography": "Gilead reported total: U.S. + Europe + Rest of World",
+      "rights_reporting_basis": "Gilead合併報表之Trodelvy產品銷售Total；不加計合作方另外列報的銷售、分潤、權利金或里程碑。",
+      "accounting_basis": "US GAAP product sales, net of gross-to-net deductions",
+      "price_basis": "nominal reported USD; not constant-currency or inflation-adjusted",
+      "cash_basis": false,
+      "patient_consumption_basis": false,
+      "source_ids": [
+        "D35"
+      ],
+      "data_date": "2024-12-31",
+      "source_published_date": "2026-02-24",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000006/gild-20251231.htm",
+      "source_position": "Note 2. Revenues, p65; Trodelvy row, 2024 Total column; web lines 1991–1993 and 2017",
+      "evidence_type": "原始財務申報數值；本輪公開原文核對",
+      "update_trigger": "下一完整年度10-K同產品同口徑數值；若更正重編，保留前值與更正紀錄。"
+    },
+    {
+      "id": "SALES_TRODELVY_2025",
+      "record_ID": "SALES_TRODELVY_2025",
+      "topic": "已上市ADC商業交付",
+      "entity": "Trodelvy (sacituzumab govitecan-hziy)",
+      "measure": "年度淨產品銷售",
+      "numeric_value": 1397,
+      "text_value": null,
+      "unit": "USD million",
+      "original_unit": "millions",
+      "currency": "USD",
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "year": 2025,
+      "period_type": "完整曆年／截至12月31日的財年",
+      "geography": "Gilead reported total: U.S. + Europe + Rest of World",
+      "rights_reporting_basis": "Gilead合併報表之Trodelvy產品銷售Total；不加計合作方另外列報的銷售、分潤、權利金或里程碑。",
+      "accounting_basis": "US GAAP product sales, net of gross-to-net deductions",
+      "price_basis": "nominal reported USD; not constant-currency or inflation-adjusted",
+      "cash_basis": false,
+      "patient_consumption_basis": false,
+      "source_ids": [
+        "D35"
+      ],
+      "data_date": "2025-12-31",
+      "source_published_date": "2026-02-24",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000006/gild-20251231.htm",
+      "source_position": "Note 2. Revenues, p65; Trodelvy row, 2025 Total column; web lines 1991–1993 and 2017",
+      "evidence_type": "原始財務申報數值；本輪公開原文核對",
+      "update_trigger": "下一完整年度10-K同產品同口徑數值；若更正重編，保留前值與更正紀錄。"
+    }
+  ],
+  "calculations": [
+    {
+      "id": "CALC_SALES_TRODELVY_YOY_2024",
+      "label": "Trodelvy 2024淨產品銷售同比",
+      "operation": "growth_rate",
+      "input_ids": [
+        "SALES_TRODELVY_2024",
+        "SALES_TRODELVY_2023"
+      ],
+      "formula": "(current_year / previous_year - 1) × 100%",
+      "substitution": "(1315 / 1063 - 1) × 100%",
+      "result": 0.23706491063029156,
+      "result_pct": 23.706491063029155,
+      "display_pct": 23.7,
+      "unit": "%",
+      "interpretation": "result為0–1小數供Excel百分比格式；display_pct為依已披露百萬美元值重算、四捨五入至一位小數。",
+      "source_ids": [
+        "D35"
+      ]
+    },
+    {
+      "id": "CALC_SALES_TRODELVY_YOY_2025",
+      "label": "Trodelvy 2025淨產品銷售同比",
+      "operation": "growth_rate",
+      "input_ids": [
+        "SALES_TRODELVY_2025",
+        "SALES_TRODELVY_2024"
+      ],
+      "formula": "(current_year / previous_year - 1) × 100%",
+      "substitution": "(1397 / 1315 - 1) × 100%",
+      "result": 0.06235741444866916,
+      "result_pct": 6.235741444866916,
+      "display_pct": 6.2,
+      "unit": "%",
+      "interpretation": "result為0–1小數供Excel百分比格式；display_pct為依已披露百萬美元值重算、四捨五入至一位小數。",
+      "source_ids": [
+        "D35"
+      ]
+    }
+  ],
+  "measurement": "Annual product sales, net of gross-to-net deductions",
+  "unit": "USD million",
+  "currency": "USD",
+  "geographic_reporting_scope": "Gilead consolidated total: U.S., Europe and rest of world",
+  "period_scope": "Complete years ended December 31, 2023 / 2024 / 2025",
+  "price_basis": "nominal reported USD; no inflation or constant-currency adjustment",
+  "bar_axis": {
+    "minimum": 0,
+    "maximum": 1600,
+    "ticks": [
+      0,
+      500,
+      1000,
+      1500
+    ],
+    "unit": "USD million"
+  },
+  "rate_annotation": "23.7% and 6.2% are textual year-on-year calculations; no percentage axis or error bars",
+  "scope_and_unknowns": {
+    "interpretation": "產品收入在帳上已認列，不等於全數收現；圖不提供患者數/處方量/供應商收入或單位交付成本。",
+    "unknowns": [
+      "Trodelvy逐適應症淨銷售未在選取段落拆分。",
+      "各增長歸因因素的量化貢獻未披露於選取段落。",
+      "本增量不建立所有ADC產品的全球市場分母。"
+    ],
+    "time_boundary": "銷售序列截至2025-12-31；不能以2026年第一線核准倒推解釋2025銷售。",
+    "rounding": "直接使用官方Total欄；不將已四捨五入區域數值重新加總取代官方Total。同比按披露總值重算，來源整數百分比可略有四捨五入差。",
+    "same_source_basis": "全部三個繪圖原值取同一2025 Form 10-K的Note 2同表。",
+    "limited_lookup_notes": "已讀Gilead 2025/2024年度業績新聞稿協助定位，最終三數值與會計口徑均統一用單一2025 Form 10-K。公開IR annual-reports導航頁一次回Internal Error，未绕过；SEC正常公開可讀。"
+  },
+  "generation_method": "Matplotlib original quantitative bar chart with editable SVG text; each entire SVG rasterized once by Inkscape at 1170 px width and separately at 390 px for author review.",
+  "not_a_market_total": true,
+  "source_excerpt_index": "../figure_sources.json"
+}

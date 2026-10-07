@@ -1,0 +1,23 @@
+Source ID: C09
+Original URL: https://pubmed.ncbi.nlm.nih.gov/40454632/
+Source date (attachment preserved): 2025-05-31
+Data date (attachment preserved): 
+Checked at: 2026-10-07T18:42:25+08:00
+Timezone: Asia/Taipei
+Retrieval mode: public_url_web_tool_failed
+Read level: 本輪未取得摘要或全文；既有 clinical_records 為作者整理，未作原文證據
+Access result: 原 URL 429 Too Many Requests；原已用 ref 仍回同一 429。停止，不改 URL、不加 headers。
+Original raw artifact SHA256: null
+
+LOCATORS (actual reading positions):
+
+MINIMUM VERBATIM EXCERPT (only this block is source prose):
+[No scientific original text obtained in this round.]
+
+EXTRACTED FACTUAL FIELDS (not a reconstructed quotation):
+[]
+
+SCOPE / PRECISE GAP (reviewer description, not source prose):
+缺可重新核對的原始摘要，不能本輪確認 Gastric04 的再活檢條件、OS 14.7/11.4 個月及 HR 0.70（95% CI 0.55–0.90）；未因此判定原數值錯誤。
+
+Web refs: turn111view0, turn116view0

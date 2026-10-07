@@ -1,0 +1,393 @@
+{
+  "figure_id": "P02",
+  "pilot_version": "ADC-20261007-R1-VISUAL-PILOT2-1.0",
+  "research_parent_version": "ADC-20261007-R1",
+  "parent_figure_id": "F05",
+  "evidence_as_of": "2026-10-07",
+  "timezone": "Asia/Taipei",
+  "parent_master_sha256": "ba5a46bc85a086921ef421928922e515d24c3a51283bd5c4c9dd5e9f0f077f0c",
+  "numeric_inventory": {
+    "records_total": 465,
+    "numeric_records": 185,
+    "numeric_records_by_topic": {
+      "抗藥性": 4,
+      "股權投資": 1,
+      "臨床證據": 131,
+      "交易金額": 33,
+      "交易分工": 1,
+      "製造與供應": 5,
+      "製造設備容量": 8,
+      "台灣臨床狀態": 2
+    },
+    "eligible_annual_product_sales_or_revenue_records": 0,
+    "eligible_same_scope_sales_time_series": 0,
+    "near_candidates_excluded": [
+      {
+        "record_id": "TX03_MAX",
+        "entity": "Merck / Daiichi Sankyo",
+        "period": "2023-10-19",
+        "numeric_value": 22000,
+        "unit": "百萬美元",
+        "source_ids": [
+          "D01",
+          "D02",
+          "D03",
+          "D04",
+          "D05"
+        ],
+        "reason_excluded": "授權最高條件對價；不是產品銷售收入。"
+      },
+      {
+        "record_id": "TX05_MAX",
+        "entity": "Gilead / Tubulis",
+        "period": "2024-12-03",
+        "numeric_value": 465,
+        "unit": "百萬美元",
+        "source_ids": [
+          "D14"
+        ],
+        "reason_excluded": "授權最高條件對價；不是產品銷售收入。"
+      },
+      {
+        "record_id": "TX06_MAX",
+        "entity": "Gilead / Tubulis",
+        "period": "2026-04-07",
+        "numeric_value": 5000,
+        "unit": "百萬美元",
+        "source_ids": [
+          "D15",
+          "D16",
+          "D17"
+        ],
+        "reason_excluded": "收購最高條件對價；不是產品銷售收入。"
+      },
+      {
+        "record_id": "TX03_JAPAN_ROYALTY",
+        "entity": "Merck／Daiichi Sankyo",
+        "period": "2026-06-30",
+        "numeric_value": 5,
+        "unit": "%",
+        "source_ids": [
+          "D02"
+        ],
+        "reason_excluded": "權利金百分比；沒有可核年度銷售額分母。"
+      },
+      {
+        "record_id": "TX04_US_COST_ADJUSTMENT",
+        "entity": "BioNTech／DualityBio",
+        "period": "2026年上半年公告之一次性調整；資料日2026-06-30",
+        "numeric_value": 290.7,
+        "unit": "百萬元人民幣",
+        "source_ids": [
+          "D13"
+        ],
+        "reason_excluded": "2026上半年的歷史開發費一次性收入扣減，單一會計調整；不是ADC產品銷售年序列。"
+      },
+      {
+        "record_id": "TX03_PAID_UPFRONT",
+        "entity": "Merck／Daiichi Sankyo",
+        "period": "付款年度2023；財報截至2026-06-30",
+        "numeric_value": 4000,
+        "unit": "百萬美元",
+        "source_ids": [
+          "D02"
+        ],
+        "reason_excluded": "2023年合作簽約金付款；不是產品銷售。"
+      },
+      {
+        "record_id": "TX03_PAID_CONT_2024",
+        "entity": "Merck／Daiichi Sankyo",
+        "period": "付款月份2024-10；財報截至2026-06-30",
+        "numeric_value": 750,
+        "unit": "百萬美元",
+        "source_ids": [
+          "D02"
+        ],
+        "reason_excluded": "2024年10月延續付款；不是產品銷售。"
+      },
+      {
+        "record_id": "TX03_PAID_CONT_2025",
+        "entity": "Merck／Daiichi Sankyo",
+        "period": "付款月份2025-10；財報截至2026-06-30",
+        "numeric_value": 750,
+        "unit": "百萬美元",
+        "source_ids": [
+          "D02"
+        ],
+        "reason_excluded": "2025年10月延續付款；不是產品銷售。"
+      },
+      {
+        "record_id": "CMC05_CAP_3_MAX",
+        "entity": "WuXi XDC Singapore",
+        "period": "名義年容量；公司公告資料日2026-09-21",
+        "numeric_value": 8000000,
+        "unit": "vials/year_nominal",
+        "source_ids": [
+          "D23"
+        ],
+        "reason_excluded": "名義年灌裝容量，單位瓶／年；不是實際銷量或收入。"
+      },
+      {
+        "record_id": "TW_MYCENAX_CAPACITY_VALUE",
+        "entity": "永昕",
+        "period": null,
+        "numeric_value": 50,
+        "unit": "L",
+        "source_ids": [
+          "T13"
+        ],
+        "reason_excluded": "公司宣告的偶聯製造尺度；不是實際年產量或銷售。"
+      }
+    ],
+    "precise_missing_fields": [
+      "同一ADC產品或同一可比企業範圍的至少兩個年度銷售／營收原值",
+      "各年度完整財務期間及地域／權利收入範圍",
+      "銷售／權利金／合作收入等一致會計口徑",
+      "原幣種與年度間口徑或匯率變動說明",
+      "逐年度可回查的正式財報支持位置"
+    ],
+    "decision": "使用F05同試驗對照之三個獨立panel；不繪製銷售增長、市占或市場總額。"
+  },
+  "panels": [
+    {
+      "panel_id": "TB02",
+      "trial": "TROPION-Breast02",
+      "phase": 3,
+      "population_zh": "不適合PD-(L)1治療",
+      "common_population_zh": "成人不可切除局部晚期／轉移TNBC，未接受該晚期階段全身治療的試驗族群。",
+      "experimental": "Dato-DXd",
+      "control": "醫師選擇化療",
+      "n_fda_analysis": 644,
+      "n_experimental_stored": 323,
+      "n_control_stored": 321,
+      "pfs": {
+        "endpoint": "BICR-assessed PFS",
+        "summary_statistic": "median",
+        "experimental": 10.8,
+        "control": 5.6,
+        "unit_zh": "月",
+        "unit_en": "months",
+        "hazard_ratio": 0.57,
+        "hr_95_ci_low": 0.47,
+        "hr_95_ci_high": 0.69,
+        "hazard_ratio_unit": "dimensionless"
+      },
+      "os": {
+        "endpoint": "OS",
+        "summary_statistic": "median",
+        "experimental": 23.7,
+        "control": 18.7,
+        "unit_zh": "月",
+        "unit_en": "months",
+        "hazard_ratio": 0.79,
+        "hr_95_ci_low": 0.64,
+        "hr_95_ci_high": 0.98,
+        "hazard_ratio_unit": "dimensionless"
+      },
+      "fda_announcement_date": "2026-05-22",
+      "trial_data_cutoff": null,
+      "trial_data_cutoff_status": "R1未存試驗資料截點；不可用FDA公告日或登錄更新日替代。",
+      "registry_last_update": "2026-05-15",
+      "source_ids": [
+        "C03",
+        "C18"
+      ],
+      "currency": null,
+      "f05_record_ids": [
+        "TB02_N_ALL",
+        "TB02_N_EXP",
+        "TB02_N_CTRL",
+        "TB02_PFS_EXP",
+        "TB02_PFS_CTRL",
+        "TB02_PFS_HR",
+        "TB02_PFS_HR_CI_LOW",
+        "TB02_PFS_HR_CI_HIGH",
+        "TB02_OS_EXP",
+        "TB02_OS_CTRL",
+        "TB02_OS_HR",
+        "TB02_OS_HR_CI_LOW",
+        "TB02_OS_HR_CI_HIGH",
+        "TB02_LIMITATION",
+        "TB02_PRIOR_ADC"
+      ],
+      "population_en": "Not candidates for PD-(L)1 therapy",
+      "common_population_en": "Adults with unresectable locally advanced or metastatic TNBC; no prior systemic treatment for advanced disease.",
+      "control_en": "Investigator's choice chemotherapy",
+      "numeric_source_id": "C03",
+      "registry_source_id": "C18",
+      "trial_data_cutoff_status_en": "Not stored in R1; FDA notice and registry-update dates are not substituted for a trial data cutoff."
+    },
+    {
+      "panel_id": "ASCENT03",
+      "trial": "ASCENT-03",
+      "phase": 3,
+      "population_zh": "不適合PD-(L)1治療",
+      "common_population_zh": "成人不可切除局部晚期／轉移TNBC，未接受該晚期階段全身治療的試驗族群。",
+      "experimental": "SG",
+      "control": "nab-paclitaxel、paclitaxel或gemcitabine＋carboplatin",
+      "n_fda_analysis": 558,
+      "n_experimental_stored": null,
+      "n_control_stored": null,
+      "pfs": {
+        "endpoint": "BICR-assessed PFS",
+        "summary_statistic": "median",
+        "experimental": 9.7,
+        "control": 6.9,
+        "unit_zh": "月",
+        "unit_en": "months",
+        "hazard_ratio": 0.62,
+        "hr_95_ci_low": 0.5,
+        "hr_95_ci_high": 0.77,
+        "hazard_ratio_unit": "dimensionless"
+      },
+      "os": {
+        "status_zh": "FDA核准分析時尚未成熟",
+        "status_en": "Immature at the FDA approval analysis",
+        "median_experimental": null,
+        "median_control": null,
+        "hazard_ratio": null,
+        "hr_95_ci_low": null,
+        "hr_95_ci_high": null,
+        "unit_zh": "月",
+        "unit_en": "months",
+        "hazard_ratio_unit": "dimensionless"
+      },
+      "fda_announcement_date": "2026-06-24",
+      "trial_data_cutoff": null,
+      "trial_data_cutoff_status": "R1未存試驗資料截點；不可用FDA公告日或登錄更新日替代。",
+      "registry_last_update": "2026-04-06",
+      "source_ids": [
+        "C06",
+        "C19"
+      ],
+      "currency": null,
+      "f05_record_ids": [
+        "ASCENT03_N_ALL",
+        "ASCENT03_PFS_EXP",
+        "ASCENT03_PFS_CTRL",
+        "ASCENT03_PFS_HR",
+        "ASCENT03_PFS_HR_CI_LOW",
+        "ASCENT03_PFS_HR_CI_HIGH",
+        "ASCENT03_LIMITATION",
+        "ASCENT03_OS_MATURITY",
+        "ASCENT03_PRIOR_ADC"
+      ],
+      "population_en": "Not candidates for PD-(L)1 therapy",
+      "common_population_en": "Adults with unresectable locally advanced or metastatic TNBC; no prior systemic treatment for advanced disease.",
+      "control_en": "Nab-paclitaxel, paclitaxel, or gemcitabine plus carboplatin",
+      "numeric_source_id": "C06",
+      "registry_source_id": "C19",
+      "trial_data_cutoff_status_en": "Not stored in R1; FDA notice and registry-update dates are not substituted for a trial data cutoff."
+    },
+    {
+      "panel_id": "ASCENT04",
+      "trial": "ASCENT-04 / KEYNOTE-D19",
+      "phase": 3,
+      "population_zh": "PD-L1 CPS≥10",
+      "common_population_zh": "成人不可切除局部晚期／轉移TNBC，未接受該晚期階段全身治療的試驗族群。",
+      "experimental": "SG＋pembrolizumab",
+      "control": "醫師選擇化療＋pembrolizumab",
+      "n_fda_analysis": 443,
+      "n_experimental_stored": null,
+      "n_control_stored": null,
+      "pfs": {
+        "endpoint": "BICR-assessed PFS",
+        "summary_statistic": "median",
+        "experimental": 11.2,
+        "control": 7.8,
+        "unit_zh": "月",
+        "unit_en": "months",
+        "hazard_ratio": 0.65,
+        "hr_95_ci_low": 0.51,
+        "hr_95_ci_high": 0.84,
+        "hazard_ratio_unit": "dimensionless"
+      },
+      "os": {
+        "status_zh": "FDA核准分析時尚未成熟",
+        "status_en": "Immature at the FDA approval analysis",
+        "median_experimental": null,
+        "median_control": null,
+        "hazard_ratio": null,
+        "hr_95_ci_low": null,
+        "hr_95_ci_high": null,
+        "unit_zh": "月",
+        "unit_en": "months",
+        "hazard_ratio_unit": "dimensionless"
+      },
+      "fda_announcement_date": "2026-06-24",
+      "trial_data_cutoff": null,
+      "trial_data_cutoff_status": "R1未存試驗資料截點；不可用FDA公告日或登錄更新日替代。",
+      "registry_last_update": "2025-09-18",
+      "source_ids": [
+        "C06",
+        "C20"
+      ],
+      "currency": null,
+      "f05_record_ids": [
+        "ASCENT04_N_ALL",
+        "ASCENT04_PFS_EXP",
+        "ASCENT04_PFS_CTRL",
+        "ASCENT04_PFS_HR",
+        "ASCENT04_PFS_HR_CI_LOW",
+        "ASCENT04_PFS_HR_CI_HIGH",
+        "ASCENT04_LIMITATION",
+        "ASCENT04_OS_MATURITY",
+        "ASCENT04_PRIOR_ADC"
+      ],
+      "population_en": "PD-L1 CPS ≥10",
+      "common_population_en": "Adults with unresectable locally advanced or metastatic TNBC; no prior systemic treatment for advanced disease.",
+      "control_en": "Investigator's choice chemotherapy plus pembrolizumab",
+      "numeric_source_id": "C06",
+      "registry_source_id": "C20",
+      "trial_data_cutoff_status_en": "Not stored in R1; FDA notice and registry-update dates are not substituted for a trial data cutoff."
+    }
+  ],
+  "csv_numeric_rows": 25,
+  "csv_rows_displayed": 23,
+  "csv_rows_retained_but_not_displayed": [
+    "TB02_N_EXP",
+    "TB02_N_CTRL"
+  ],
+  "numeric_data_file": "P02_clinical.csv",
+  "source_index": "../sources.csv",
+  "chart_mapping": {
+    "panel_order": [
+      "TB02",
+      "ASCENT03",
+      "ASCENT04"
+    ],
+    "order_basis": "R1 F05 order; not a ranking",
+    "axis_endpoint": "BICR-assessed median PFS",
+    "x_axis_min": 0,
+    "x_axis_max": 12,
+    "unit": "months",
+    "ticks": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "bar_origin": 0,
+    "bar_length_fraction_formula": "(median_pfs_months - 0) / (12 - 0)",
+    "logical_plot_width_px": 302,
+    "bar_length_px_formula": "median_pfs_months / 12 * 302",
+    "hr_ci": "Separate text only. HR is dimensionless and its CI is not a median-PFS error bar.",
+    "os": "Separate annotation, never plotted on the PFS axis.",
+    "cross_trial_effect_or_market_calculations": null
+  },
+  "unknowns": {
+    "trial_data_cutoffs": null,
+    "ascent03_ascent04_arm_counts": null,
+    "ascent03_ascent04_median_os_hr_ci": null,
+    "ascent03_count_difference": {
+      "fda_r1_count": 558,
+      "r1_registry_c19_count": 623,
+      "relationship_verified": false,
+      "figure_count_basis": "FDA numerical extract used by R1; kept at 558."
+    }
+  },
+  "currency": null,
+  "missing_value_convention": "JSON null and CSV empty fields mean not stored or not applicable, never zero.",
+  "takeaway_zh": "各自同試驗對照支持第一線PFS改善；這些試驗不能回答既往Topo-I ADC失敗後的接續療效。",
+  "takeaway_en": "Each trial supports a PFS benefit against its own first-line comparator; these trials do not establish efficacy after prior topoisomerase-I ADC failure."
+}

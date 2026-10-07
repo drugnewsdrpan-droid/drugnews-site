@@ -8,6 +8,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chineseHomepageArticles } from './homepage_article_contract.mjs';
+import { placeholderAuthor } from './report_interface.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 export const htmlEscape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -38,8 +39,37 @@ const isArticle=o=>['Article','NewsArticle','BlogPosting','Report','ScholarlyArt
 const urlOf=value=>typeof value==='string'?value:value?.['@id'] || value?.url;
 const validDate=s=>typeof s==='string' && /^\d{4}-\d{2}-\d{2}(T.*)?$/.test(s) && Number.isFinite(Date.parse(s));
 const dayOf=s=>validDate(s)?s.slice(0,10):'';
+// A date-only report uses the site's Taipei publication day, not midnight UTC.
+export function reportPublicationIsFuture(date, now) {
+  if (/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+    const parts=Object.fromEntries(new Intl.DateTimeFormat('en',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date(now)).map(p=>[p.type,p.value]));
+    return date > `${parts.year}-${parts.month}-${parts.day}`;
+  }
+  return Date.parse(date)>Date.parse(now);
+}
 const isBlocked=r=>/(?:^|[,\s])(noindex|none)(?:$|[,\s])/.test(r);
 const noExcerpt=r=>isBlocked(r)||/(?:^|[,\s])nosnippet(?:$|[,\s])|max-snippet\s*:\s*0(?:$|[,\s])/.test(r);
+
+// Discover only links in the existing public report collection, never draft directories.
+export function reportCollectionCandidates(html, origin) {
+  return [...new Set(tags(html, 'a').filter(a=>a.href).map(a=>{
+    try {const u=new URL(a.href,origin+'/reports/');u.hash='';return u.origin===origin&&!u.search&&u.pathname.startsWith('/reports/')&&!['/reports/','/reports/index.html'].includes(u.pathname)&&(/\/$|\.html$/.test(u.pathname))?u.href:null;} catch {return null;}
+  }).filter(Boolean))];
+}
+export function mergeReportAIIndex(index, reportPages, origin) {
+  if (!Array.isArray(index.latest_articles)) throw new Error('Original ai-index latest_articles contract is required');
+  const isReportURL=url=>{try{return new URL(url).origin===origin&&new URL(url).pathname.startsWith('/reports/');}catch{return false;}};
+  const base=index.latest_articles.filter(row=>!isReportURL(row.canonical_url||row.url));
+  const rows=reportPages.map(p=>{
+    if(!isReportURL(p.url)||!p.article?.headline||!validDate(p.article.datePublished))throw new Error('Only validated real report metadata can enter the original AI index');
+    const a=p.article,image=tags(p.html,'meta').find(m=>m.property==='og:image')?.content;
+    return {title:a.headline,date:dayOf(a.datePublished),language:a.inLanguage||'',url:p.url,canonical_url:p.url,source:'Website',access:a.isAccessibleForFree===true?'Free':'Public',category:'產業研究與報告解析',tags:[a.keywords].flat().filter(v=>typeof v==='string').slice(0,10),summary:a.description?plain(a.description):'',image:safeHttp(image)?image:'',is_accessible_for_free:a.isAccessibleForFree??null,is_external:false,alternate_language_versions:{}};
+  });
+  if(new Set(rows.map(row=>row.url)).size!==rows.length)throw new Error('Duplicate report URL in original AI index merge');
+  if(!rows.length&&base.length===index.latest_articles.length)return index;
+  return {...index,latest_articles:[...rows,...base]};
+}
+
 function safeHttp(u) { try {return ['https:','http:'].includes(new URL(u).protocol);} catch {return false;} }
 
 /** Evaluate RFC-style robots path rules, including wildcard/$, without changing policy. */
@@ -132,6 +162,11 @@ export async function buildSearchReady({root,out,mode='preview',now=new Date().t
   const siteMap=await fs.readFile(path.join(root,'sitemap.xml'),'utf8');
   if(!/<urlset\b/.test(siteMap))throw new Error('Expected the existing sitemap.xml URL set. Sitemap index requires a reviewed adapter.');
   const candidates=new Set([origin+'/',...feed.items.map(x=>x.url).filter(Boolean),...[...siteMap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>unescape(m[1]))]);
+  const collectionFile=path.join(root,'reports','index.html');
+  if(await exists(collectionFile)) {
+    const collection=await fs.readFile(await localFile(root,origin,origin+'/reports/'),'utf8');
+    if(canonicalOf(collection)===origin+'/reports/'&&!isBlocked(robotsOf(collection))&&allows(robots,'Googlebot','/reports/'))for(const url of reportCollectionCandidates(collection,origin))candidates.add(url);
+  }
   const feedUrls=new Set(feed.items.map(x=>x.url));
   const pages=[],skipped=[],warnings=[];
   for(const u of candidates){
@@ -144,10 +179,11 @@ export async function buildSearchReady({root,out,mode='preview',now=new Date().t
       const nodes=schemasOf(html),article=nodes.find(isArticle);
       if(article){
         if(!validDate(article.datePublished)){skipped.push({url:u,reason:'Missing/invalid publication date'});continue;}
-        if(Date.parse(article.datePublished)>Date.parse(now)){skipped.push({url:u,reason:'Future publication'});continue;}
+        if(parsed.pathname.startsWith('/reports/') ? reportPublicationIsFuture(article.datePublished,now) : Date.parse(article.datePublished)>Date.parse(now)){skipped.push({url:u,reason:'Future publication'});continue;}
         const entityUrl=urlOf(article.mainEntityOfPage)||article.url;
         if(entityUrl&&entityUrl!==u){skipped.push({url:u,reason:'Article URL mismatch'});continue;}
         if(!article.headline){skipped.push({url:u,reason:'Missing headline'});continue;}
+        if(parsed.pathname.startsWith('/reports/')&&(![article.author].flat().filter(Boolean).length||[article.author].flat().filter(Boolean).some(author=>placeholderAuthor(typeof author==='string'?author:author.name)))){skipped.push({url:u,reason:'Missing or placeholder report author'});continue;}
       }
       const page={url:u,file,html,directives,nodes,article,alternates:tags(html,'link').filter(a=>a.hreflang&&a.href)};
       pages.push(page);
@@ -249,6 +285,13 @@ export async function buildSearchReady({root,out,mode='preview',now=new Date().t
   await fs.mkdir(out,{recursive:true});
   await write(out,'index.html',template);
   await write(out,'search-citation-index.json',JSON.stringify(citationIndex,null,2)+'\n');
+  const reportPages=articles.filter(p=>new URL(p.url).pathname.startsWith('/reports/')&&!noExcerpt(p.directives)&&allows(robots,'OAI-SearchBot',new URL(p.url).pathname));
+  const aiFile=path.join(root,'ai-index.json');
+  if(await exists(aiFile)) {
+    const originalAI=JSON.parse(await fs.readFile(aiFile,'utf8')),nextAI=mergeReportAIIndex(originalAI,reportPages,origin);
+    if(nextAI!==originalAI)await write(out,'ai-index.json',JSON.stringify(nextAI,null,2)+'\n');
+  } else if(reportPages.length)throw new Error('Real report requires the existing AI index, not a new empty directory');
+
   await write(out,'llms.txt',llms);
   await write(out,'sitemap-search.xml',supplemental);
   await write(out,'robots.txt',nextRobots);

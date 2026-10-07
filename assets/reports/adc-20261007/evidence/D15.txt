@@ -1,0 +1,49 @@
+Source ID: D15
+Original URL: https://www.gilead.com/news/news-details/2026/gilead-to-acquire-tubulis-adding-potentially-best-in-class-antibody-drug-conjugate-and-next-generation-platform-to-further-strengthen-oncology-pipeline
+Title (supplied): Gilead to Acquire Tubulis
+Source date (retained): 2026-04-07
+Data date (retained): 2026-04-07
+Checked at: 2026-10-07T18:42:41+08:00
+Timezone: Asia/Taipei
+Checked-at meaning: current review of returned public web-tool extraction; not the historical network-fetch timestamp.
+Retrieval mode: public_web_tool_readback_prior_ref; prior saved web_ref was opened and returned the specified original public URL.
+Prior web ref: turn17view0
+Current web ref: turn120view0
+Read level: relevant primary-source paragraphs in web text extraction; complete original HTML/PDF bytes not saved or hashed.
+Original network read time: null; not exposed by the tool. Original artifact SHA256: null.
+Locator: Acquisition agreement announcement; retrieved lines 304–314 and 319. Agreement, planned organizational integration and terms are at 304, 311 and 314.
+Minimum verbatim excerpts (aggregate <=25 English words):
+- payable at closing
+- up to $1.85 billion in contingent milestone payments
+Excerpt word count: 11
+Factual extraction (values, dates, statuses; not additional prose quotations):
+[
+  {
+    "field": "closing_cash_consideration",
+    "original_value": 3.15,
+    "unit_or_role": "USD billion; cash-free/debt-free, customary adjustments, payable at closing",
+    "locator": "L314"
+  },
+  {
+    "field": "conditional_milestone_cap",
+    "original_value": 1.85,
+    "unit_or_role": "USD billion",
+    "locator": "L314"
+  },
+  {
+    "field": "expected_closing",
+    "original_value": "second quarter of 2026",
+    "unit_or_role": "company expectation as of original announcement",
+    "locator": "L314"
+  },
+  {
+    "field": "announcement_call_date_text",
+    "original_value": "Tuesday, April 7",
+    "unit_or_role": "calendar wording returned in body; year from supplied source metadata/URL, not a newly returned date header",
+    "locator": "L319"
+  }
+]
+Support scope: Supports signed agreement for all Tubulis equity and promised closing consideration plus conditional milestones; not the subsequent completion or SEC purchase-accounting figures, which remain attributed to D16/D17 in the original row.
+Precise gap: The returned extraction did not expose a separate publication date header. Source/data date 2026-04-07 is retained verbatim from the supplied attachment, not relabeled as newly confirmed by a header. Completion and net acquired-cash amounts require the already-cited D16/D17 and are not supported by this pre-close announcement alone.
+Source/data dates are supplied baseline metadata, not replaced by this check time. No alternate route, login, headers, private endpoint or payment used.
+This small evidence record is an excerpt/factual extraction, not a saved full article.

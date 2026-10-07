@@ -1,0 +1,24 @@
+Source: T19
+Original URL: https://glyconex.com.tw/investors/
+Title: 台灣醣聯 — 投資人專區
+Original source_date: unknown
+Original data_date: unknown
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- 投資人專區: web lines 16–24; company name, ticker and trading market
+Minimum verbatim excerpts:
+- web line 16: 自 2012 年起於證券櫃檯買賣中心上櫃交易,股票代號 4168。
+Numeric / structured original fields (not market estimates):
+{"field": "ticker", "value": "4168", "unit": "security identifier", "locator": "web line 20"}
+{"field": "market", "value": "證券櫃檯買賣中心(上櫃)", "unit": "exchange", "locator": "web line 24"}
+Supported scope (author paraphrase, not original quotation):
+公司投資人頁明列台灣醣聯、TPEx 4168與上櫃市場，支持身分／代號。
+Precise evidence gap / boundary:
+未標頁面更新日；本輪只核上市櫃身分，未採該頁其他財務數字。
+Web references: turn123view3

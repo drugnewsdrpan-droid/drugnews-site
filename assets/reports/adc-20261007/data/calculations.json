@@ -1,0 +1,258 @@
+{
+  "research_parent_version": "ADC-20261007-R1",
+  "presentation_version": "ADC-20261007-R1-LAYERED-HTML-R2-1.0",
+  "as_of": "2026-10-07",
+  "calculations": [
+    {
+      "id": "CALC_TOP1_ADC",
+      "label": "ADC後隊列TOP1突變比例",
+      "operation": "ratio_pct",
+      "input_ids": [
+        "TOP1_ADC_NUM",
+        "TOP1_ADC_DEN"
+      ],
+      "result": 0.12903225806451613,
+      "unit": "%",
+      "interpretation": "4/31；result為0–1小數供Excel百分比格式。選定回溯隊列，非一般發生率。",
+      "source_ids": [
+        "R03"
+      ]
+    },
+    {
+      "id": "CALC_TOP1_NO_ADC",
+      "label": "另一未接受ADC隊列TOP1突變比例",
+      "operation": "ratio_pct",
+      "input_ids": [
+        "TOP1_NO_ADC_NUM",
+        "TOP1_NO_ADC_DEN"
+      ],
+      "result": 0.007142857142857143,
+      "unit": "%",
+      "interpretation": "3/420；result為0–1小數。兩個獨立隊列，非配對或隨機對照。",
+      "source_ids": [
+        "R03"
+      ]
+    },
+    {
+      "id": "CC01",
+      "label": "Breast09兩組中位PFS差",
+      "operation": "difference",
+      "input_ids": [
+        "DB09_PFS_EXP",
+        "DB09_PFS_CTRL"
+      ],
+      "result": 13.8,
+      "unit": "月",
+      "interpretation": "同一試驗兩組中位數差，不是每人延長時間；不跨試驗排行。",
+      "source_ids": [
+        "C01"
+      ]
+    },
+    {
+      "id": "CC02",
+      "label": "Breast05三年iDFS百分點差",
+      "operation": "difference",
+      "input_ids": [
+        "DB05_IDFS_3Y_EXP",
+        "DB05_IDFS_3Y_CTRL"
+      ],
+      "result": 8.7,
+      "unit": "百分點",
+      "interpretation": "原始百分比92.4−83.7＝8.7百分點，不是相對風險或治癒率。",
+      "source_ids": [
+        "C02"
+      ]
+    },
+    {
+      "id": "CC03",
+      "label": "FDA版Breast11 pCR百分點差",
+      "operation": "difference",
+      "input_ids": [
+        "DB11_PCR_EXP",
+        "DB11_PCR_CTRL"
+      ],
+      "result": 11.0,
+      "unit": "百分點",
+      "interpretation": "FDA原始67.3−56.3＝11.0百分點；pCR不是EFS或OS。",
+      "source_ids": [
+        "C02"
+      ]
+    },
+    {
+      "id": "CALC_HDP101_ORR",
+      "label": "HDP101可評估cohorts 5–9 ORR",
+      "operation": "ratio_pct",
+      "input_ids": [
+        "HDP101_ORR_NUM",
+        "HDP101_ORR_DEN"
+      ],
+      "result": 0.41935483870967744,
+      "unit": "%",
+      "interpretation": "13/31；result為0–1小數。不是全體53人安全群或隨機比較效果。",
+      "source_ids": [
+        "C12"
+      ]
+    },
+    {
+      "id": "CALC_DB09_COMPARISON_N",
+      "label": "Breast09此次兩組比較人數",
+      "operation": "sum",
+      "input_ids": [
+        "DB09_N_EXP",
+        "DB09_N_CTRL"
+      ],
+      "result": 770.0,
+      "unit": "人",
+      "interpretation": "383＋387＝770；全試驗含第三臂共1157人，分別保存。",
+      "source_ids": [
+        "C01",
+        "C15"
+      ]
+    },
+    {
+      "id": "CALC_TX03_MAX",
+      "label": "Merck與第一三共原約最高條件對價",
+      "operation": "sum",
+      "input_ids": [
+        "TX03_UPFRONT",
+        "TX03_CONTINUATION_ORIGINAL",
+        "TX03_MILESTONES"
+      ],
+      "result": 22000.0,
+      "unit": "百萬美元",
+      "interpretation": "4000＋1500＋16500；原約條件全部達成，排除權利金與研發分攤；非已付款。",
+      "source_ids": [
+        "D01"
+      ]
+    },
+    {
+      "id": "CALC_TX03_SIGNING_SHARE",
+      "label": "Merck與第一三共原約簽約金配置",
+      "operation": "ratio_pct",
+      "input_ids": [
+        "TX03_UPFRONT",
+        "TX03_MAX"
+      ],
+      "result": 0.18181818181818182,
+      "unit": "%",
+      "interpretation": "result為0–1小數；簽約時結構，不是目前已付比例、成功率或現值。",
+      "source_ids": [
+        "D01"
+      ]
+    },
+    {
+      "id": "CALC_TX03_PAID",
+      "label": "Merck與第一三共已披露累計付款",
+      "operation": "sum",
+      "input_ids": [
+        "TX03_PAID_UPFRONT",
+        "TX03_PAID_CONT_2024",
+        "TX03_PAID_CONT_2025"
+      ],
+      "result": 5500.0,
+      "unit": "百萬美元",
+      "interpretation": "4000＋750＋750；不含研發分攤、可能退款及未披露付款。",
+      "source_ids": [
+        "D02"
+      ]
+    },
+    {
+      "id": "CALC_TX05_MAX",
+      "label": "Gilead研究選擇權最高對價",
+      "operation": "sum",
+      "input_ids": [
+        "TX05_UPFRONT",
+        "TX05_OPTION_FEE",
+        "TX05_MILESTONES"
+      ],
+      "result": 465.0,
+      "unit": "百萬美元",
+      "interpretation": "20＋30＋415；附行權及里程碑條件，不確認條件付款已發生。",
+      "source_ids": [
+        "D14"
+      ]
+    },
+    {
+      "id": "CALC_TX05_SIGNING_SHARE",
+      "label": "Gilead研究約簽約金配置",
+      "operation": "ratio_pct",
+      "input_ids": [
+        "TX05_UPFRONT",
+        "TX05_MAX"
+      ],
+      "result": 0.043010752688172046,
+      "unit": "%",
+      "interpretation": "result為0–1小數；不與2026收購或目前已付款混比。",
+      "source_ids": [
+        "D14"
+      ]
+    },
+    {
+      "id": "CALC_TX06_MAX",
+      "label": "Gilead收購最高公告對價",
+      "operation": "sum",
+      "input_ids": [
+        "TX06_UPFRONT",
+        "TX06_MILESTONES"
+      ],
+      "result": 5000.0,
+      "unit": "百萬美元",
+      "interpretation": "3150＋1850；交割附慣例調整、里程碑附條件；SEC約3200為另一口徑。",
+      "source_ids": [
+        "D15"
+      ]
+    },
+    {
+      "id": "CALC_SALES_TRODELVY_YOY_2024",
+      "label": "Trodelvy 2024淨產品銷售同比",
+      "operation": "growth_rate",
+      "input_ids": [
+        "SALES_TRODELVY_2024",
+        "SALES_TRODELVY_2023"
+      ],
+      "formula": "(current_year / previous_year - 1) × 100%",
+      "substitution": "(1315 / 1063 - 1) × 100%",
+      "result": 0.23706491063029156,
+      "result_pct": 23.706491063029155,
+      "display_pct": 23.7,
+      "unit": "%",
+      "interpretation": "result為0–1小數供Excel百分比格式；display_pct為依已披露百萬美元值重算、四捨五入至一位小數。",
+      "source_ids": [
+        "D35"
+      ],
+      "label_en": "Trodelvy 2024 year-on-year net product sales growth",
+      "formula_ratio": "current_year / previous_year - 1",
+      "result_storage_unit": "dimensionless ratio; apply percentage display to result",
+      "result_pct_unit": "percent (%) expressed on the 0–100 percentage scale",
+      "interpretation_en": "The result field stores the dimensionless ratio for percentage formatting. result_pct multiplies that ratio by 100; display_pct rounds the recalculated percentage to one decimal place using the disclosed USD-million totals.",
+      "method_note": "披露原值以百萬美元列示；衍生同比不是未四捨五入底層數據。",
+      "method_note_en": "Recalculated from reported USD-million totals; this is not a calculation from undisclosed unrounded amounts."
+    },
+    {
+      "id": "CALC_SALES_TRODELVY_YOY_2025",
+      "label": "Trodelvy 2025淨產品銷售同比",
+      "operation": "growth_rate",
+      "input_ids": [
+        "SALES_TRODELVY_2025",
+        "SALES_TRODELVY_2024"
+      ],
+      "formula": "(current_year / previous_year - 1) × 100%",
+      "substitution": "(1397 / 1315 - 1) × 100%",
+      "result": 0.06235741444866916,
+      "result_pct": 6.235741444866916,
+      "display_pct": 6.2,
+      "unit": "%",
+      "interpretation": "result為0–1小數供Excel百分比格式；display_pct為依已披露百萬美元值重算、四捨五入至一位小數。",
+      "source_ids": [
+        "D35"
+      ],
+      "label_en": "Trodelvy 2025 year-on-year net product sales growth",
+      "formula_ratio": "current_year / previous_year - 1",
+      "result_storage_unit": "dimensionless ratio; apply percentage display to result",
+      "result_pct_unit": "percent (%) expressed on the 0–100 percentage scale",
+      "interpretation_en": "The result field stores the dimensionless ratio for percentage formatting. result_pct multiplies that ratio by 100; display_pct rounds the recalculated percentage to one decimal place using the disclosed USD-million totals.",
+      "method_note": "披露原值以百萬美元列示；衍生同比不是未四捨五入底層數據。",
+      "method_note_en": "Recalculated from reported USD-million totals; this is not a calculation from undisclosed unrounded amounts."
+    }
+  ]
+}

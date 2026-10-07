@@ -1,0 +1,46 @@
+Source ID: C24
+Original URL: https://clinicaltrials.gov/study/NCT05629585
+Source date (attachment preserved): 2022-11-29
+Data date (attachment preserved): 2026-06-15
+Checked at: 2026-10-07T18:42:25+08:00
+Timezone: Asia/Taipei
+Retrieval mode: stored_excerpt_review
+Read level: 已存 ClinicalTrials.gov 官方公開 API 字段選錄；原始完整 HTTP JSON 未保存；本輪未網路重取
+Access result: 已實讀原先保存的登錄日期、設計及必要排除字段；沒有用作者 clinical_records 結論替代
+Original raw artifact SHA256: null
+
+LOCATORS (actual reading positions):
+research/clinical.json#/registry_records[source_id=C24]
+本地 status.primaryCompletionDateStruct；status.lastUpdatePostDateStruct；official_title/design/primary_outcomes
+Stored official API field extract: research/clinical.json#/registry_records[source_id=C24]
+Official API used in original research: https://clinicaltrials.gov/api/v2/studies/NCT05629585
+Original network read time: null
+Original network read date (saved access_date): 2026-10-07
+
+MINIMUM VERBATIM EXCERPT (only this block is source prose):
+"primaryCompletionDateStruct": {"date": "2027-09-20", "type": "ESTIMATED"}
+
+EXTRACTED FACTUAL FIELDS (not a reconstructed quotation):
+[
+  {
+    "locator": "research/clinical.json#/registry_records[source_id=C24]/status.primaryCompletionDateStruct",
+    "date": "2027-09-20",
+    "type": "ESTIMATED",
+    "meaning": "primary completion，非數據發表或監管決策日"
+  },
+  {
+    "locator": "research/clinical.json#/registry_records[source_id=C24]/status.lastUpdatePostDateStruct",
+    "date": "2026-06-15"
+  },
+  {
+    "locator": "research/clinical.json#/registry_records[source_id=C24]/official_title, primary_outcomes[0]",
+    "population": "I–III 期 TNBC，新輔助治療後有殘餘侵襲病灶",
+    "primary_comparison": "Dato-DXd + durvalumab vs ICT",
+    "endpoint": "iDFS"
+  }
+]
+
+SCOPE / PRECISE GAP (reviewer description, not source prose):
+限原保存字段和該次登錄版本；不是結果論文、不是本輪刷新登錄。
+
+Web refs: 

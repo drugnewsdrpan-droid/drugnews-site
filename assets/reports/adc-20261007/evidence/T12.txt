@@ -1,0 +1,24 @@
+Source: T12
+Original URL: https://www.mycenax.com/news-detail.php?id=122&lang=en
+Title: Mycenax and RIN Sign License Agreement to Advance ADC Development Using RIN’s Proprietary Linker Technology
+Original source_date: 2025-10-31
+Original data_date: 2025-10-31
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- Release date / agreement: web lines 118, 124, 128
+- About RIN / About Mycenax: web lines 139–149; anti-TMEM180 study at line 141, KriSan/Spera at line 149
+Minimum verbatim excerpts:
+- web line 128: rights to apply RIN’s proprietary Val-Leu-Lys (VLK) linker technology in CDMO services worldwide.
+Numeric / structured original fields (not market estimates):
+{"field": "license_announcement_date", "value": "2025-10-31", "unit": "date", "locator": "web lines 118 and 124"}
+Supported scope (author paraphrase, not original quotation):
+2025-10-31公告授予永昕將RIN之VLK連接子用於全球CDMO服務的權利；並描述KriSan／Spera合作與另一anti-TMEM180抗體一期項目。
+Precise evidence gap / boundary:
+不是全部產品／全部用途的全球專屬權利；公告未提供具名ADC商業批次或訂單收入，抗體一期不移植為ADC一期。
+Web references: turn117view0

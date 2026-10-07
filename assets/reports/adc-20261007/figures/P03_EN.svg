@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1170" height="2550" viewBox="0 0 280.8 612" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Trodelvy sales rose; | growth slowed</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Trodelvy sales rose; | growth slowed</dc:title>
+    <dc:date>2026-10-07T17:38:48.466854</dc:date>
+    <dc:description>Trodelvy annual net product sales, Gilead consolidated, USD million. D35. Data years 2023–2025; research cutoff 2026-10-07.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 612 
+L 280.8 612 
+L 280.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 45.36 399.6 
+L 259.2 399.6 
+L 259.2 197.28 
+L 45.36 197.28 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #223b4b" x="87.48" y="415.198437" transform="rotate(-0 87.48 415.198437)">2023</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #223b4b" x="152.28" y="415.198437" transform="rotate(-0 152.28 415.198437)">2024</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #223b4b" x="217.08" y="415.198437" transform="rotate(-0 217.08 415.198437)">2025</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 45.36 399.6 
+L 259.2 399.6 
+" clip-path="url(#pf32b819dbd)" style="fill: none; stroke: #dce5e8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5"/>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #223b4b" x="37.36" y="403.399219" transform="rotate(-0 37.36 403.399219)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 45.36 336.375 
+L 259.2 336.375 
+" clip-path="url(#pf32b819dbd)" style="fill: none; stroke: #dce5e8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7"/>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #223b4b" x="37.36" y="340.174219" transform="rotate(-0 37.36 340.174219)">500</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 45.36 273.15 
+L 259.2 273.15 
+" clip-path="url(#pf32b819dbd)" style="fill: none; stroke: #dce5e8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #223b4b" x="37.36" y="276.949219" transform="rotate(-0 37.36 276.949219)">1,000</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 45.36 209.925 
+L 259.2 209.925 
+" clip-path="url(#pf32b819dbd)" style="fill: none; stroke: #dce5e8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #223b4b" x="37.36" y="213.724219" transform="rotate(-0 37.36 213.724219)">1,500</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 45.36 399.6 
+L 259.2 399.6 
+" style="fill: none; stroke: #223b4b; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 68.688 399.6 
+L 106.272 399.6 
+L 106.272 265.18365 
+L 68.688 265.18365 
+z
+" clip-path="url(#pf32b819dbd)" style="fill: #63a9a5"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 133.488 399.6 
+L 171.072 399.6 
+L 171.072 233.31825 
+L 133.488 233.31825 
+z
+" clip-path="url(#pf32b819dbd)" style="fill: #128582"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 198.288 399.6 
+L 235.872 399.6 
+L 235.872 222.94935 
+L 198.288 222.94935 
+z
+" clip-path="url(#pf32b819dbd)" style="fill: #128582"/>
+   </g>
+   <g id="text_8">
+    <g id="patch_7">
+     <path d="M 66.086445 260.1068 
+L 108.873555 260.1068 
+L 108.873555 244.759144 
+L 66.086445 244.759144 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193c50" x="87.48" y="255.882191" transform="rotate(-0 87.48 255.882191)">1,063</text>
+   </g>
+   <g id="text_9">
+    <g id="patch_8">
+     <path d="M 130.886445 228.2414 
+L 173.673555 228.2414 
+L 173.673555 212.893744 
+L 130.886445 212.893744 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193c50" x="152.28" y="224.016791" transform="rotate(-0 152.28 224.016791)">1,315</text>
+   </g>
+   <g id="text_10">
+    <g id="patch_9">
+     <path d="M 195.686445 217.8725 
+L 238.473555 217.8725 
+L 238.473555 202.524844 
+L 195.686445 202.524844 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193c50" x="217.08" y="213.647891" transform="rotate(-0 217.08 213.647891)">1,397</text>
+   </g>
+  </g>
+  <g id="line2d_12">
+   <path d="M 15.84 515.52 
+L 264.96 515.52 
+" style="fill: none; stroke: #dce5e8; stroke-width: 0.8; stroke-linecap: square"/>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536874" x="15.84" y="20.898516" transform="rotate(-0 15.84 20.898516)">DRUGNEWS  /  ADC  /  P03</text>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #193c50" x="15.84" y="51.077344" transform="rotate(-0 15.84 51.077344)">Trodelvy sales rose;</text>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #193c50" x="15.84" y="73.397344" transform="rotate(-0 15.84 73.397344)">growth slowed</text>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ad631f" x="15.84" y="97.638281" transform="rotate(-0 15.84 97.638281)">Indication mix still affects</text>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ad631f" x="15.84" y="112.758281" transform="rotate(-0 15.84 112.758281)">commercial performance</text>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 10.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #193c50" x="15.84" y="140.351453" transform="rotate(-0 15.84 140.351453)">Annual net product sales | USD million</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536874" x="15.84" y="156.258516" transform="rotate(-0 15.84 156.258516)">US GAAP · Gilead global consolidated total</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536874" x="15.84" y="170.658516" transform="rotate(-0 15.84 170.658516)">Nominal USD; full years 2023–2025</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #536874" x="151.92" y="429.858516" transform="rotate(-0 151.92 429.858516)">Each year ended December 31</text>
+  </g>
+  <g id="text_20">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #223b4b" x="15.84" y="456.922188" transform="rotate(-0 15.84 456.922188)">Year-on-year growth | recalculated</text>
+  </g>
+  <g id="text_21">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #536874" x="81.36" y="477.378516" transform="rotate(-0 81.36 477.378516)">2024 vs 2023</text>
+  </g>
+  <g id="text_22">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ad631f" x="81.36" y="499.637344" transform="rotate(-0 81.36 499.637344)">23.7%</text>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #536874" x="208.08" y="477.378516" transform="rotate(-0 208.08 477.378516)">2025 vs 2024</text>
+  </g>
+  <g id="text_24">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ad631f" x="208.08" y="499.637344" transform="rotate(-0 208.08 499.637344)">6.2%</text>
+  </g>
+  <g id="text_25">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536874" x="15.84" y="534.258516" transform="rotate(-0 15.84 534.258516)">One representative product,</text>
+  </g>
+  <g id="text_26">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536874" x="15.84" y="547.938516" transform="rotate(-0 15.84 547.938516)">not the global ADC market</text>
+  </g>
+  <g id="text_27">
+   <text style="font-size: 9.25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536874" x="15.84" y="567.229023" transform="rotate(-0 15.84 567.229023)">D35 | Gilead 2025 Form 10-K</text>
+  </g>
+  <g id="text_28">
+   <text style="font-size: 9.25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536874" x="15.84" y="580.189023" transform="rotate(-0 15.84 580.189023)">Filed 2026-02-24 | checked 2026-10-07</text>
+  </g>
+  <g id="text_29">
+   <text style="font-size: 9.25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536874" x="15.84" y="595.988555" transform="rotate(-0 15.84 595.988555)">Research cutoff: 2026-10-07 · R1</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf32b819dbd">
+   <rect x="45.36" y="197.28" width="213.84" height="202.32"/>
+  </clipPath>
+ </defs>
+</svg>

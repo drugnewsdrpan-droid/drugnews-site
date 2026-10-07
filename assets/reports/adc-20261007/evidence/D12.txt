@@ -1,0 +1,55 @@
+Source ID: D12
+Original URL: https://www.biontech.com/int/en/home/mediaroom/news/press-releases/2023/04/biontech-and-dualitybio-form-global-strategic-partnership.html
+Title (supplied): BioNTech and DualityBio Form Global Strategic Partnership
+Source date (retained): 2023-04-03
+Data date (retained): 2023-04-03
+Checked at: 2026-10-07T18:42:41+08:00
+Timezone: Asia/Taipei
+Checked-at meaning: current review of returned public web-tool extraction; not the historical network-fetch timestamp.
+Retrieval mode: public_web_tool_readback_prior_ref; prior saved web_ref was opened and returned the specified original public URL.
+Prior web ref: turn12view5
+Current web ref: turn119view0
+Read level: relevant primary-source paragraphs in web text extraction; complete original HTML/PDF bytes not saved or hashed.
+Original network read time: null; not exposed by the tool. Original artifact SHA256: null.
+Locator: License announcement; retrieved lines 36–51, especially 39–40 and 49–51.
+Minimum verbatim excerpts (aggregate <=25 English words):
+- co-development cost and profit/loss sharing option
+Excerpt word count: 6
+Factual extraction (values, dates, statuses; not additional prose quotations):
+[
+  {
+    "field": "announcement_date",
+    "original_value": "April 3, 2023",
+    "unit_or_role": "calendar date",
+    "locator": "L39"
+  },
+  {
+    "field": "licensed_assets",
+    "original_value": [
+      "DB-1303",
+      "DB-1311"
+    ],
+    "unit_or_role": "asset identifiers",
+    "locator": "L36, L43–45"
+  },
+  {
+    "field": "excluded_territories",
+    "original_value": [
+      "Mainland China",
+      "Hong Kong SAR",
+      "Macau SAR"
+    ],
+    "unit_or_role": "territory",
+    "locator": "L40, L50"
+  },
+  {
+    "field": "DB1311_US_option",
+    "original_value": "co-development cost and profit/loss sharing; co-promotion option",
+    "unit_or_role": "contractual option, not exercise",
+    "locator": "L50–51"
+  }
+]
+Support scope: BioNTech and Duality entered two-asset development/manufacture/commercialization licenses; the original DB-1311 US cost/profit-loss option is specified. This 2023 source does not establish exercise in May 2026.
+Precise gap: No additional source-specific factual gap found within the assigned contribution; multi-source rows retain their other citations.
+Source/data dates are supplied baseline metadata, not replaced by this check time. No alternate route, login, headers, private endpoint or payment used.
+This small evidence record is an excerpt/factual extraction, not a saved full article.

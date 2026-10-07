@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1170" height="4158" viewBox="0 0 390 1386" role="img" aria-labelledby="title desc">
+<title id="title">下一代 ADC，要修好哪一段？</title>
+<desc id="desc">ADC 結合膜上靶點後內吞，經胞內體運輸至溶小體，依設計釋出負載。Topo-I 抑制負載通往細胞核；微管抑制負載作用於胞質。兩者為替代類別，非雙負載。沿途註記血中穩定、抗原異質性、胞內遞送、負載抗藥。</desc>
+<metadata>Artifact version: ADC-20261007-R1-LAYERED-HTML-R2-1.0; parent research: ADC-20261007-R1; parent pilot: ADC-20261007-R1-VISUAL-PILOT2-1.0; source correction: remove recycling branch, replace T14 with R10 for intracellular delivery; evidence as of 2026-10-07.</metadata>
+<defs>
+  <marker id="flow" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#087F8C"/></marker>
+  <marker id="payload" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#D98924"/></marker>
+</defs>
+<rect width="390" height="1386" fill="#FFFFFF"/>
+
+<text x="20" y="25.0" font-family="Noto Sans TC, sans-serif" font-size="12.5" font-weight="700" text-anchor="start" fill="#506B7A">P01  /  Drugnews</text>
+<text x="20" y="59.0" font-family="Noto Sans TC, sans-serif" font-size="21.5" font-weight="700" text-anchor="start" fill="#183448">下一代 ADC，要修好哪一段？</text>
+<text x="20" y="84.0" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#506B7A">典型內吞途徑｜機制示意</text>
+<path d="M24,103 L24,113 M24,103 L18,97 M24,103 L30,97" fill="none" stroke="#087F8C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="37" y="112.0" font-family="Noto Sans TC, sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#183448">抗體</text>
+<path d="M137,105 l5,-3 l5,6 l5,-6 l5,3" fill="none" stroke="#8963A7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="165" y="112.0" font-family="Noto Sans TC, sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#183448">連接子</text>
+<circle cx="276" cy="107" r="5" fill="#D98924"/>
+<text x="288" y="112.0" font-family="Noto Sans TC, sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#183448">負載</text>
+<text x="20" y="163.0" font-family="Noto Sans TC, sans-serif" font-size="14.5" font-weight="700" text-anchor="start" fill="#506B7A">胞外</text>
+<g transform="translate(88,215) scale(1.15)">
+<path d="M0,-24 L0,-3 M0,-3 L-17,23 M0,-3 L17,23" fill="none" stroke="#087F8C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-4,-23 L-4,-4 M4,-23 L4,-4" fill="none" stroke="#4AA4AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-14,17 L-18,23 M14,17 L18,23" fill="none" stroke="#005C67" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5,-16 L12,-20 L17,-16 L21,-20" fill="none" stroke="#8963A7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="26" cy="-20" r="5" fill="#D98924"/>
+</g>
+<text x="52" y="259.0" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#087F8C">ADC</text>
+<path d="M170,166 l4,-7 l4,7 z" fill="#9A5B19"/>
+<text x="184" y="175.0" font-family="Noto Sans TC, sans-serif" font-size="14.5" font-weight="700" text-anchor="start" fill="#9A5B19">血中穩定</text>
+<text x="184" y="196" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#506B7A">若過早釋放，</text>
+<text x="184" y="215" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#506B7A">負載尚未抵達細胞</text>
+<path d="M124,194 C143,188 150,200 153,214" fill="none" stroke="#D98924" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 4"/>
+<circle cx="155" cy="225" r="5" fill="#D98924"/>
+<path d="M88,267 L88,277" fill="none" stroke="#087F8C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#flow)"/>
+<path d="M183,255 l4,-7 l4,7 z" fill="#9A5B19"/>
+<text x="197" y="264.0" font-family="Noto Sans TC, sans-serif" font-size="14.5" font-weight="700" text-anchor="start" fill="#9A5B19">抗原異質性</text>
+<text x="197" y="285.0" font-family="Noto Sans TC, sans-serif" font-size="12.6" font-weight="400" text-anchor="start" fill="#506B7A">不同細胞，靶點不均</text>
+<circle cx="231" cy="317" r="22" fill="#F6F2F9" stroke="#8963A7" stroke-width="1.2"/>
+<circle cx="235" cy="320" r="9" fill="#E8E0F0"/>
+<path d="M218.82,301.34 L214.62,295.94" fill="none" stroke="#8963A7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="214.62" cy="295.94" r="2.6" fill="#8963A7"/>
+<path d="M238.83,298.73 L241.53,292.43" fill="none" stroke="#8963A7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="241.53" cy="292.43" r="2.6" fill="#8963A7"/>
+<path d="M250.14,315.26 L256.74,314.66" fill="none" stroke="#8963A7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="256.74" cy="314.66" r="2.6" fill="#8963A7"/>
+<path d="M210.99,318.74 L204.09,319.34" fill="none" stroke="#8963A7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="204.09" cy="319.34" r="2.6" fill="#8963A7"/>
+<circle cx="329" cy="317" r="22" fill="#F6F2F9" stroke="#8963A7" stroke-width="1.2"/>
+<circle cx="333" cy="320" r="9" fill="#E8E0F0"/>
+<path d="M319,298 L315,290" fill="none" stroke="#8963A7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="315" cy="290" r="2.6" fill="#8963A7"/>
+<text x="20" y="297.0" font-family="Noto Sans TC, sans-serif" font-size="15.5" font-weight="700" text-anchor="start" fill="#183448">1  結合靶點</text>
+<path d="M14,360 L50,360 C70,360 69,380 77,392 Q94,411 111,392 C120,380 117,360 137,360 L376,360 L376,1159 Q376,1215 322,1215 L68,1215 Q14,1215 14,1159 Z" fill="#F1F8F9"/>
+<path d="M14,360 L50,360 C70,360 69,380 77,392 Q94,411 111,392 C120,380 117,360 137,360 L376,360" fill="none" stroke="#52949D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14,367 L50,367 C64,367 63,384 72,397 Q94,420 117,397 C127,383 123,367 137,367 L376,367" fill="none" stroke="#52949D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20,360 L20,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29,360 L29,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38,360 L38,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M146,360 L146,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M156,360 L156,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M166,360 L166,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M176,360 L176,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M186,360 L186,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M196,360 L196,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M206,360 L206,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M216,360 L216,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M226,360 L226,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M236,360 L236,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M246,360 L246,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M256,360 L256,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M266,360 L266,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M276,360 L276,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M286,360 L286,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M296,360 L296,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M306,360 L306,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M316,360 L316,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M326,360 L326,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M336,360 L336,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M346,360 L346,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M356,360 L356,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M366,360 L366,367" fill="none" stroke="#98BFC5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="227" y="350.0" font-family="Noto Sans TC, sans-serif" font-size="13.5" font-weight="700" text-anchor="start" fill="#506B7A">細胞膜</text>
+<text x="263" y="423.0" font-family="Noto Sans TC, sans-serif" font-size="13.5" font-weight="700" text-anchor="start" fill="#506B7A">胞質</text>
+<path d="M106,377 L106,411" fill="none" stroke="#8963A7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="106" cy="372" rx="6" ry="4.5" fill="#8963A7"/>
+<path d="M106,411 l4,4" fill="none" stroke="#8963A7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(88,346) scale(1.02)">
+<path d="M0,-24 L0,-3 M0,-3 L-17,23 M0,-3 L17,23" fill="none" stroke="#087F8C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-4,-23 L-4,-4 M4,-23 L4,-4" fill="none" stroke="#4AA4AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-14,17 L-18,23 M14,17 L18,23" fill="none" stroke="#005C67" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5,-16 L12,-20 L17,-16 L21,-20" fill="none" stroke="#8963A7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="26" cy="-20" r="5" fill="#D98924"/>
+</g>
+<path d="M121,382 L171,392" fill="none" stroke="#8963A7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="176" y="399.0" font-family="Noto Sans TC, sans-serif" font-size="13.3" font-weight="400" text-anchor="start" fill="#8963A7">膜上靶點</text>
+<path d="M94,424 L94,451" fill="none" stroke="#087F8C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#flow)"/>
+<text x="149" y="451.0" font-family="Noto Sans TC, sans-serif" font-size="15.5" font-weight="700" text-anchor="start" fill="#183448">2  內吞</text>
+<circle cx="94" cy="499" r="38" fill="#E8F1F4" stroke="#52949D" stroke-width="2.2"/>
+<circle cx="94" cy="499" r="32" fill="#FBFDFE" stroke="#A9CAD0" stroke-width="1.2"/>
+<path d="M106,515 L106,542" fill="none" stroke="#8963A7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="106" cy="510" rx="6" ry="4.5" fill="#8963A7"/>
+<path d="M106,542 l4,4" fill="none" stroke="#8963A7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(92,492) scale(0.81)">
+<path d="M0,-24 L0,-3 M0,-3 L-17,23 M0,-3 L17,23" fill="none" stroke="#087F8C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-4,-23 L-4,-4 M4,-23 L4,-4" fill="none" stroke="#4AA4AC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-14,17 L-18,23 M14,17 L18,23" fill="none" stroke="#005C67" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5,-16 L12,-20 L17,-16 L21,-20" fill="none" stroke="#8963A7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="26" cy="-20" r="5" fill="#D98924"/>
+</g>
+<text x="150" y="483.0" font-family="Noto Sans TC, sans-serif" font-size="14.5" font-weight="700" text-anchor="start" fill="#087F8C">胞內體</text>
+<path d="M164,509 l4,-7 l4,7 z" fill="#9A5B19"/>
+<text x="178" y="518.0" font-family="Noto Sans TC, sans-serif" font-size="14.5" font-weight="700" text-anchor="start" fill="#9A5B19">胞內遞送</text>
+<text x="178" y="539" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#506B7A">內吞之後，仍需</text>
+<text x="178" y="558" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#506B7A">有效送往溶小體</text>
+<path d="M94,547 L94,613" fill="none" stroke="#087F8C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#flow)"/>
+<text x="149" y="604.0" font-family="Noto Sans TC, sans-serif" font-size="15.5" font-weight="700" text-anchor="start" fill="#183448">3  運輸與釋放</text>
+<circle cx="94" cy="683" r="52" fill="#FBEEDC" stroke="#C29058" stroke-width="2.2"/>
+<circle cx="94" cy="683" r="46" fill="#FFF6E9" stroke="#E1BE92" stroke-width="1"/>
+<path d="M60,661 q4,-8 8,0 q3,6 -4,7 q-8,-1 -4,-7" fill="#D9AC76"/>
+<path d="M111,651 q4,-8 8,0 q3,6 -4,7 q-8,-1 -4,-7" fill="#D9AC76"/>
+<path d="M62,707 q4,-8 8,0 q3,6 -4,7 q-8,-1 -4,-7" fill="#D9AC76"/>
+<path d="M114,712 q4,-8 8,0 q3,6 -4,7 q-8,-1 -4,-7" fill="#D9AC76"/>
+<path d="M86,665 l-6,11 M85,687 l-7,9 M100,682 l7,-11" fill="none" stroke="#087F8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M104,689 l5,-3 l4,4" fill="none" stroke="#8963A7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="116" cy="682" r="4.8" fill="#D98924"/>
+<circle cx="91" cy="708" r="4.8" fill="#D98924"/>
+<circle cx="108" cy="714" r="4.8" fill="#D98924"/>
+<text x="161" y="643.0" font-family="Noto Sans TC, sans-serif" font-size="14.5" font-weight="700" text-anchor="start" fill="#9A5B19">溶小體</text>
+<text x="161" y="674" font-family="Noto Sans TC, sans-serif" font-size="13.3" font-weight="400" text-anchor="start" fill="#183448">依設計切斷連接子</text>
+<text x="161" y="695" font-family="Noto Sans TC, sans-serif" font-size="13.3" font-weight="400" text-anchor="start" fill="#183448">或分解抗體，</text>
+<text x="161" y="716" font-family="Noto Sans TC, sans-serif" font-size="13.3" font-weight="400" text-anchor="start" fill="#183448">釋出活性負載</text>
+<path d="M107,717 C118,752 146,775 184,782" fill="none" stroke="#D98924" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#payload)"/>
+<circle cx="196" cy="784" r="6.5" fill="#D98924"/>
+<text x="24" y="822.0" font-family="Noto Sans TC, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#183448">4  負載作用</text>
+<text x="24" y="845" font-family="Noto Sans TC, sans-serif" font-size="12.8" font-weight="400" text-anchor="start" fill="#506B7A">依負載分流</text>
+<text x="24" y="864" font-family="Noto Sans TC, sans-serif" font-size="12.8" font-weight="400" text-anchor="start" fill="#506B7A">非雙負載</text>
+<path d="M196,793 L196,874" fill="none" stroke="#D98924" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M196,874 C238,899 268,925 280,976" fill="none" stroke="#D98924" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#payload)"/>
+<ellipse cx="104" cy="1015" rx="74" ry="67" fill="#F0EAF7" stroke="#A996BE" stroke-width="2"/>
+<ellipse cx="104" cy="1015" rx="67" ry="60" fill="none" stroke="#C7B9D7" stroke-width="1"/>
+<text x="24" y="936.0" font-family="Noto Sans TC, sans-serif" font-size="13.5" font-weight="700" text-anchor="start" fill="#6A568F">細胞核</text>
+<path d="M196,874 C154,899 120,924 106,996" fill="none" stroke="#D98924" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#payload)"/>
+<circle cx="108" cy="999" r="5.5" fill="#D98924"/>
+<path d="M74,1005 C130,1016 78,1034 132,1050" fill="none" stroke="#6A568F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M132,1005 C76,1016 128,1034 74,1050" fill="none" stroke="#6A568F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M87,1008 L119,1008" fill="none" stroke="#B4A3C8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M97,1014 L109,1014" fill="none" stroke="#B4A3C8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M91,1020 L114,1020" fill="none" stroke="#B4A3C8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M85,1027 L120,1027" fill="none" stroke="#B4A3C8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M99,1034 L107,1034" fill="none" stroke="#B4A3C8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M87,1043 L119,1043" fill="none" stroke="#B4A3C8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="108" cy="1014" rx="11" ry="7" fill="#DACCE8" stroke="#6A568F" stroke-width="1"/>
+<path d="M107,1020 l-4,5 l6,3 l-3,5" fill="none" stroke="#B4504D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="104" y="1070.0" font-family="Noto Sans TC, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#6A568F">DNA</text>
+<path d="M239,978 C263,970 296,1005 326,1030" fill="none" stroke="#6B9992" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M239,985 C263,977 296,1012 326,1037" fill="none" stroke="#6B9992" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M239,992 C263,984 296,1019 326,1044" fill="none" stroke="#6B9992" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M239,999 C263,991 296,1026 326,1051" fill="none" stroke="#6B9992" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M239,1006 C263,998 296,1033 326,1058" fill="none" stroke="#6B9992" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M274,1004 L290,1015" fill="none" stroke="#F1F8F9" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="282" cy="986" r="5.5" fill="#D98924"/>
+<path d="M282,991 L282,1000 M272,1001 L292,1001" fill="none" stroke="#B4504D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="283" y="1070.0" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#48766F">微管</text>
+<text x="104" y="1108.0" font-family="Noto Sans TC, sans-serif" font-size="14.2" font-weight="700" text-anchor="middle" fill="#183448">Topo-I 抑制負載</text>
+<text x="104" y="1132.0" font-family="Noto Sans TC, sans-serif" font-size="13.5" font-weight="400" text-anchor="middle" fill="#506B7A">DNA 損傷</text>
+<text x="283" y="1108.0" font-family="Noto Sans TC, sans-serif" font-size="13.5" font-weight="700" text-anchor="middle" fill="#183448">微管抑制負載</text>
+<text x="283" y="1132" font-family="Noto Sans TC, sans-serif" font-size="12.9" font-weight="400" text-anchor="middle" fill="#506B7A">干擾微管</text>
+<text x="283" y="1151" font-family="Noto Sans TC, sans-serif" font-size="12.9" font-weight="400" text-anchor="middle" fill="#506B7A">阻礙細胞分裂</text>
+<path d="M28,1172 l4,-7 l4,7 z" fill="#9A5B19"/>
+<text x="42" y="1181.0" font-family="Noto Sans TC, sans-serif" font-size="14.5" font-weight="700" text-anchor="start" fill="#9A5B19">負載抗藥</text>
+<text x="42" y="1202.0" font-family="Noto Sans TC, sans-serif" font-size="12.6" font-weight="400" text-anchor="start" fill="#506B7A">負載靶點改變／外排等</text>
+<path d="M20,1240 L370,1240" fill="none" stroke="#C9DADD" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="1267" font-family="Noto Sans TC, sans-serif" font-size="15.8" font-weight="700" text-anchor="start" fill="#183448">設計的價值，在於修好哪個失效環節。</text>
+<text x="20" y="1293.0" font-family="Noto Sans TC, sans-serif" font-size="12.6" font-weight="400" text-anchor="start" fill="#506B7A">概念圖；不代表個別產品的人體增益。</text>
+<text x="20" y="1317.0" font-family="Noto Sans TC, sans-serif" font-size="12.2" font-weight="400" text-anchor="start" fill="#506B7A">資料截至 2026-10-07｜R1 研究｜R2 圖文</text>
+<text x="20" y="1338.0" font-family="Noto Sans TC, sans-serif" font-size="11.8" font-weight="400" text-anchor="start" fill="#506B7A">來源：R02 · R03 · R04 · R06 · R10</text>
+</svg>

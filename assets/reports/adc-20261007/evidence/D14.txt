@@ -1,0 +1,61 @@
+Source ID: D14
+Original URL: https://investors.gilead.com/news/news-details/2024/Gilead-and-Tubulis-Enter-Into-Exclusive-Option-and-License-Agreement-to-Develop-ADC-Candidate-for-Select-Solid-Tumor-Target/default.aspx
+Title (supplied): Gilead and Tubulis Enter Exclusive Option and License Agreement
+Source date (retained): 2024-12-03
+Data date (retained): 2024-12-03
+Checked at: 2026-10-07T18:42:41+08:00
+Timezone: Asia/Taipei
+Checked-at meaning: current review of returned public web-tool extraction; not the historical network-fetch timestamp.
+Retrieval mode: public_web_tool_readback_prior_ref; prior saved web_ref was opened and returned the specified original public URL.
+Prior web ref: turn26view2
+Current web ref: turn122view0
+Read level: relevant primary-source paragraphs in web text extraction; complete original HTML/PDF bytes not saved or hashed.
+Original network read time: null; not exposed by the tool. Original artifact SHA256: null.
+Locator: Single-asset option release; retrieved lines 29, 31–40; monetary terms in line 39.
+Minimum verbatim excerpts (aggregate <=25 English words):
+- if Gilead exercises its option
+- plus mid-single to low double-digit tiered royalties
+Excerpt word count: 12
+Factual extraction (values, dates, statuses; not additional prose quotations):
+[
+  {
+    "field": "announcement_date",
+    "original_value": "December 3, 2024",
+    "unit_or_role": "calendar date",
+    "locator": "L29"
+  },
+  {
+    "field": "upfront",
+    "original_value": 20,
+    "unit_or_role": "USD million; agreed, not proved received",
+    "locator": "L39"
+  },
+  {
+    "field": "conditional_option_exercise_fee",
+    "original_value": 30,
+    "unit_or_role": "USD million",
+    "locator": "L39"
+  },
+  {
+    "field": "milestones_upper_bound",
+    "original_value": 415,
+    "unit_or_role": "USD million; development and commercialization, conditional",
+    "locator": "L39"
+  },
+  {
+    "field": "nominal_fee_plus_milestone_sum",
+    "original_value": 465,
+    "unit_or_role": "USD million; calculated 20 + 30 + 415, excluding sales royalties",
+    "locator": "derived only from L39"
+  },
+  {
+    "field": "additional_royalties",
+    "original_value": "mid-single to low double-digit tiered royalties",
+    "unit_or_role": "separate future sales-based payments; no exact rate invented",
+    "locator": "L39"
+  }
+]
+Support scope: Original agreement supports one solid-tumor-target ADC program, upfront/conditional option/milestone amounts and downstream responsibility after option exercise. A nominal USD 465 million sum excludes separately stated sales royalties; receipt or exercise after announcement is not established.
+Precise gap: No evidence of later option exercise/payment is claimed. The computed 465 figure needs an explicit royalties-excluded scope if described as a maximum.
+Source/data dates are supplied baseline metadata, not replaced by this check time. No alternate route, login, headers, private endpoint or payment used.
+This small evidence record is an excerpt/factual extraction, not a saved full article.

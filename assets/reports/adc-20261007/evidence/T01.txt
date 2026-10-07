@@ -1,0 +1,25 @@
+Source: T01
+Original URL: https://www.obipharma.com/what-we-do/pipeline-overview/
+Title: OBI Pharma — Pipeline
+Original source_date: unknown
+Original data_date: unknown
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- OBI-992: web lines 116–138; mechanism at line 133; study status at line 137
+- OBI-902: web lines 145–169; mechanism at lines 163–164; study status at line 168
+Minimum verbatim excerpts:
+- web line 163: OBI-902 is OBI’s next-generation TROP2-targeted ADC.
+- web line 163: proprietary glycan-based site-specific platform GlycOBI
+- web line 133: via a cysteine conjugated, hydrophilic and enzyme-cleavable linker.
+Numeric / structured original fields (not market estimates):
+Supported scope (author paraphrase, not original quotation):
+公司管線頁區分OBI-902的TROP2／GlycOBI醣位點設計與OBI-992的半胱胺酸偶聯，並述人體研究；產品差異仍須人體資料支持。
+Precise evidence gap / boundary:
+原頁未標發布或更新日；這是本輪公開頁讀取，不是具日期的歷史快照。公司工程優勢不當成人體優效。
+Web references: turn113view0

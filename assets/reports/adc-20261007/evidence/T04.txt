@@ -1,0 +1,29 @@
+Source: T04
+Original URL: https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/obi-pharma-and-tegmine-therapeutics-sign-exclusive-global-license-agr-1126261
+Title: OBI Pharma and TegMine Therapeutics Sign Exclusive Global License Agreement for Glycan-Targeting ADC
+Original source_date: 2026-01-12
+Original data_date: 2026-01-12
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- Publication date / issuer: web lines 12, 19, 56
+- Agreement terms / licensed candidate: web lines 20–22; services-to-license transition at line 24
+Minimum verbatim excerpts:
+- web line 22: anti-glycan antibody provided by TegMine
+- web line 21: exclusive global rights to develop and commercialize the ADC
+- web line 20: detailed financial terms are not disclosed
+Numeric / structured original fields (not market estimates):
+{"field": "public_release_date", "value": "2026-01-12", "unit": "date", "locator": "web lines 12 and 19"}
+{"field": "upfront_amount", "value": null, "unit": "not disclosed", "locator": "web line 20"}
+{"field": "milestone_amount", "value": null, "unit": "not disclosed", "locator": "web line 20"}
+{"field": "cash_received", "value": null, "unit": "not confirmed by release", "locator": "web line 20"}
+Supported scope (author paraphrase, not original quotation):
+ACCESS具名OBI公司發稿直接支持TegMine提供抗醣抗體、OBI偶聯／連接子與全球開發商業授權；公布付款種類，未披露金額或確認實收。
+Precise evidence gap / boundary:
+這份ACCESS發稿沒有寫2025年12月初始公告或兩次公告屬同一交易；舊研究摘要的該說法沒有存下真原文。本輪依指示未探讀OBI受保護旧公告，故日期／同一交易對應尚未驗。
+Web references: turn113view1

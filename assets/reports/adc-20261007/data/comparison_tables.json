@@ -1,0 +1,1910 @@
+{
+  "research_parent_version": "ADC-20261007-R1",
+  "presentation_version": "ADC-20261007-R1-LAYERED-HTML-R2-EVIDENCE-1.0",
+  "date": "2026-10-07",
+  "table_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15"
+  ],
+  "tables": {
+    "zh": {
+      "F01": {
+        "id": "F01",
+        "title": "治療位置正在前移；接續問題隨之改變",
+        "takeaway": "核准擴張改變的是患者先前接觸過的治療，也改變下一項試驗應回答的問題。",
+        "columns": [
+          "美國核准時間／位置",
+          "具體變化",
+          "對後續研發的含義"
+        ],
+        "rows": [
+          [
+            "2025-12-15\nHER2+ 轉移性乳癌第一線",
+            "T-DXd（trastuzumab deruxtecan，Enhertu）＋pertuzumab；DB09 支持。[C01]",
+            "若第一線已用 DXd，後線研究需說明既往 ADC 暴露。"
+          ],
+          [
+            "2026-05-15\nHER2+ 早期乳癌",
+            "第II／III期術前T-DXd→THP；另核准符合條件的術後殘餘侵襲性病灶治療。[C02]",
+            "兩項核准不等於已驗證術前、術後連用 T-DXd。"
+          ],
+          [
+            "2026-05-22／06-24\n特定第一線 TNBC",
+            "Dato-DXd（datopotamab deruxtecan，Datroway）；SG 單藥或與 pembrolizumab 併用。[C03][C06]",
+            "免疫治療適用性、PD-L1 條件與前治療須先分層。"
+          ],
+          [
+            "2026-07-10\n適合膀胱切除且可用cisplatin的MIBC",
+            "EV（enfortumab vedotin，Padcev）＋pembrolizumab 擴至此族群的圍手術期療程。[C08]",
+            "必須評估整個手術前後策略、復發及存活。"
+          ]
+        ],
+        "source_ids": [
+          "C01",
+          "C02",
+          "C03",
+          "C06",
+          "C08"
+        ],
+        "data_date": "截至2026-10-07；個別事件日期見表",
+        "note": "術後T-DXd適用於trastuzumab（可合併pertuzumab）與taxane術前治療後仍有殘餘侵襲性病灶者。THP＝taxane＋trastuzumab＋pertuzumab；TNBC＝三陰性乳癌；MIBC＝肌肉侵犯性膀胱癌。美國核准不代表台灣同日核准或給付。",
+        "widths": [
+          1.0,
+          1.4,
+          1.45
+        ],
+        "record_ids": [
+          "DB09_REGULATORY",
+          "DB11_REGULATORY",
+          "DB05_REGULATORY",
+          "TB02_REGULATORY",
+          "ASCENT03_REGULATORY",
+          "ASCENT04_REGULATORY"
+        ],
+        "record_link_scope": "主圖數值或狀態的對應主表記錄；完整文字依逐圖來源。"
+      },
+      "F02": {
+        "id": "F02",
+        "title": "接續治療的三個缺口",
+        "takeaway": "先核對誰被納入試驗，才能知道陽性結果能否回答「ADC 之後」。",
+        "columns": [
+          "問題",
+          "已核到的證據邊界",
+          "需要新增的證據"
+        ],
+        "rows": [
+          [
+            "同類負載能否接棒？",
+            "TROPION-Breast02、ASCENT-03／04 排除既往 Topo-I 治療／相關 ADC。[C18][C19][C20]",
+            "分開納入前線 ADC 失敗者，記錄負載、間隔與進展原因。"
+          ],
+          [
+            "新雙靶 ADC 能否突破失效？",
+            "Iza-bren 的 PANKU-Breast02 排除 prior TOPI ADC。[C17]",
+            "在既往 ADC 暴露族群檢驗，並選有意義的對照。"
+          ],
+          [
+            "術前、術後能否連續用？",
+            "DB05 排除既往 T-DXd、T-DM1 或其他 HER2 ADC。[C21]",
+            "明確設計術前用過 T-DXd 的術後比較，追蹤復發與毒性。"
+          ]
+        ],
+        "source_ids": [
+          "C17",
+          "C18",
+          "C19",
+          "C20",
+          "C21"
+        ],
+        "data_date": "截至2026-10-07；個別事件日期見表",
+        "note": "登錄更新：PANKU-Breast02為2026-07-23；TROPION-Breast02為2026-05-15；ASCENT-03為2026-04-06；ASCENT-04為2025-09-18；DB05為2026-05-15。",
+        "widths": [
+          0.9,
+          1.65,
+          1.4
+        ],
+        "record_ids": [
+          "TB02_PRIOR_ADC",
+          "ASCENT03_PRIOR_ADC",
+          "ASCENT04_PRIOR_ADC",
+          "IZA_TNBC_PRIOR_ADC",
+          "DB05_PRIOR_ADC"
+        ],
+        "record_link_scope": "主圖數值或狀態的對應主表記錄；完整文字依逐圖來源。"
+      },
+      "F03": {
+        "id": "F03",
+        "title": "技術路線應對準哪個失效環節？",
+        "takeaway": "有研究用途的比較，是把設計改動連到可量測的問題，而非把技術名稱排成世代。",
+        "columns": [
+          "設計選擇",
+          "主要想改善的問題",
+          "值得追問的量測"
+        ],
+        "rows": [
+          [
+            "靶點／雙特異抗體",
+            "抗原分布不均、結合或內吞不足",
+            "實際入組者的靶點表達、內吞與反應關係；相對對照的增益。"
+          ],
+          [
+            "胞內遞送設計",
+            "內吞後未有效抵達溶小體",
+            "抗體–抗原解離、胞內分布與溶小體累積；2019年anti-HER2 ADC臨床前例。[R10]"
+          ],
+          [
+            "偶聯設計與 DAR",
+            "產物是否均一、穩定，暴露是否足夠？",
+            "DAR 分布、游離負載、穩定性及人體暴露。"
+          ],
+          [
+            "可切連接子／通透負載",
+            "腫瘤內釋放與鄰近低表達細胞覆蓋",
+            "腫瘤模型的旁觀者作用；同時看血中釋放及組織毒性。"
+          ],
+          [
+            "更換負載作用類別",
+            "既有負載的靶內抗藥或外排等問題",
+            "交叉抗藥模型、既往治療分層與新的限制毒性。"
+          ],
+          [
+            "雙負載／組合療法",
+            "不同細胞特性或疾病路徑的互補",
+            "配比、各組分貢獻、可持續劑量與累積毒性。"
+          ]
+        ],
+        "source_ids": [
+          "R02",
+          "R04",
+          "R06",
+          "C10",
+          "C11",
+          "C12",
+          "R10"
+        ],
+        "data_date": "文獻2016–2026；查核2026-10-07",
+        "note": "表中問題與量測為作者整理的分析框架；實證成熟度另見 F04。DAR＝每個抗體平均接上的負載數，平均值之外仍有分布。",
+        "widths": [
+          1.0,
+          1.25,
+          1.65
+        ]
+      },
+      "F04": {
+        "id": "F04",
+        "title": "新設計的證據成熟度，並不整齊",
+        "takeaway": "雙特異 ADC 已有三期；新負載與雙負載仍須依各產品的人體進度判讀。",
+        "columns": [
+          "案例／設計",
+          "已取得什麼",
+          "下一個關鍵缺口"
+        ],
+        "rows": [
+          [
+            "Iza-bren\nEGFR×HER3／Topo-I",
+            "中國 NPC 原始三期論文；TNBC／ESCC 三期公司結果。[C10][C11]",
+            "化療對照未隔離雙靶的額外貢獻；TNBC 排除既往 TOPI ADC。[C17]"
+          ],
+          [
+            "HDP-101\nBCMA／amanitin",
+            "一期53人已給藥；研究海報列 RP2D 175 µg/kg，二期a擴增已開始。[C12]",
+            "多發性骨髓瘤早期資料；需擴大驗證劑量、療效與可管理性。"
+          ],
+          [
+            "MMAE＋MMAF 雙負載",
+            "原始研究在乳癌異質性／抗藥小鼠模型觀察互補。[R06]",
+            "仍屬微管抑制劑；動物結果尚非人體增益。"
+          ],
+          [
+            "DUPAC 新機制負載",
+            "Genentech／Duality 已公告臨床前合作與後續開發交接。[D18]",
+            "克服既有負載抗藥是設計主張，待人體驗證。"
+          ],
+          [
+            "pH依賴抗原解離／胞內遞送",
+            "2019年anti-HER2 ADC原始研究涵蓋細胞與小鼠模型；改造抗體增加細胞中的溶小體ADC累積。[R10]",
+            "仍是該研究的臨床前結果；不能外推為DCB平台或人體增益。"
+          ]
+        ],
+        "source_ids": [
+          "C10",
+          "C11",
+          "C12",
+          "C17",
+          "R06",
+          "D18",
+          "R10"
+        ],
+        "data_date": "截至2026-10-07；個別事件日期見表",
+        "note": "成熟度依具體產品與取得來源判定；不以同平台其他藥物的核准替代。RP2D＝建議二期劑量。",
+        "widths": [
+          1.0,
+          1.55,
+          1.55
+        ]
+      },
+      "F05": {
+        "id": "F05",
+        "title": "第一線 TNBC：保留各自對照，才看得懂差異",
+        "takeaway": "這三項試驗支持不同治療情境，沒有直接比較 Dato-DXd 與 SG。",
+        "columns": [
+          "試驗／族群",
+          "比較與人數",
+          "同試驗 PFS",
+          "OS 狀態"
+        ],
+        "rows": [
+          [
+            "TROPION-Breast02\n不適合PD-(L)1治療",
+            "Dato-DXd vs 化療\nN＝644",
+            "10.8 vs 5.6 月\nHR 0.57\n95% CI 0.47–0.69",
+            "23.7 vs 18.7 月\nHR 0.79\n95% CI 0.64–0.98"
+          ],
+          [
+            "ASCENT-03\n不適合PD-(L)1治療",
+            "SG vs 化療\nN＝558",
+            "9.7 vs 6.9 月\nHR 0.62\n95% CI 0.50–0.77",
+            "FDA 核准分析\n仍未成熟"
+          ],
+          [
+            "ASCENT-04\nPD-L1 CPS≥10",
+            "SG＋pembrolizumab\nvs 化療＋pembrolizumab\nN＝443",
+            "11.2 vs 7.8 月\nHR 0.65\n95% CI 0.51–0.84",
+            "FDA 核准分析\n仍未成熟"
+          ]
+        ],
+        "source_ids": [
+          "C03",
+          "C06",
+          "C18",
+          "C19",
+          "C20"
+        ],
+        "data_date": "各 FDA 核准分析；查核2026-10-07",
+        "note": "成人不可切除局部晚期／轉移TNBC，未接受該晚期階段全身治療的試驗族群；各試驗免疫治療條件與化療選項不同。FDA公告為2026-05-22、06-24。數值為實驗組vs對照組；N＝隨機分派人數；PFS＝無惡化存活期；OS＝總存活期；CPS＝合併陽性分數。",
+        "widths": [
+          1.25,
+          1.55,
+          1.25,
+          1.25
+        ],
+        "font_size": 9.1,
+        "leading": 14,
+        "record_ids": [
+          "TB02_N_ALL",
+          "TB02_N_EXP",
+          "TB02_N_CTRL",
+          "TB02_PFS_EXP",
+          "TB02_PFS_CTRL",
+          "TB02_PFS_HR",
+          "TB02_PFS_HR_CI_LOW",
+          "TB02_PFS_HR_CI_HIGH",
+          "TB02_OS_EXP",
+          "TB02_OS_CTRL",
+          "TB02_OS_HR",
+          "TB02_OS_HR_CI_LOW",
+          "TB02_OS_HR_CI_HIGH",
+          "TB02_LIMITATION",
+          "ASCENT03_N_ALL",
+          "ASCENT03_PFS_EXP",
+          "ASCENT03_PFS_CTRL",
+          "ASCENT03_PFS_HR",
+          "ASCENT03_PFS_HR_CI_LOW",
+          "ASCENT03_PFS_HR_CI_HIGH",
+          "ASCENT03_LIMITATION",
+          "ASCENT03_OS_MATURITY",
+          "ASCENT04_N_ALL",
+          "ASCENT04_PFS_EXP",
+          "ASCENT04_PFS_CTRL",
+          "ASCENT04_PFS_HR",
+          "ASCENT04_PFS_HR_CI_LOW",
+          "ASCENT04_PFS_HR_CI_HIGH",
+          "ASCENT04_LIMITATION",
+          "ASCENT04_OS_MATURITY",
+          "TB02_PRIOR_ADC",
+          "ASCENT03_PRIOR_ADC",
+          "ASCENT04_PRIOR_ADC"
+        ],
+        "record_link_scope": "主圖數值或狀態的對應主表記錄；完整文字依逐圖來源。"
+      },
+      "F06": {
+        "id": "F06",
+        "title": "把「治療窗較好」拆成四份證據",
+        "takeaway": "能按計畫持續給藥，才有機會把分子設計轉成患者與醫院可使用的效益。",
+        "columns": [
+          "要看的證據",
+          "為什麼改變判斷",
+          "本報告案例"
+        ],
+        "rows": [
+          [
+            "暴露與劑量選擇",
+            "ADC、總抗體與游離負載的暴露可朝不同方向變化。",
+            "FDA 建議分開分析相關組分與暴露反應。[R02]"
+          ],
+          [
+            "特定器官與嚴重毒性",
+            "總體≥3級比例接近，仍可能有不同的致命或難管理風險。",
+            "DB09 的整體≥3級 AE 相近，ILD 分布不同。[C15]"
+          ],
+          [
+            "實際給藥與支持照護",
+            "減量、延遲、停藥及預防給藥會改變可持續暴露。",
+            "HDP-101 以首劑分次及預防措施管理早期毒性。[C12]"
+          ],
+          [
+            "疾病終點與患者負擔",
+            "縮瘤、延緩惡化、存活和門診照護負擔，回答不同問題。",
+            "TNBC 試驗應連同 OS 成熟度與已知管理需求解讀。[C03][C06]"
+          ]
+        ],
+        "source_ids": [
+          "R02",
+          "C15",
+          "C12",
+          "C03",
+          "C06"
+        ],
+        "data_date": "FDA指引2024-03；臨床資料2025–2026版本以來源索引為準",
+        "note": "此表是證據閱讀框架，不是跨試驗安全性排名。AE＝不良事件；ILD＝間質性肺病／肺炎。",
+        "widths": [
+          1.0,
+          1.65,
+          1.55
+        ]
+      },
+      "F07": {
+        "id": "F07",
+        "title": "ADC 製造的價值，在四個交接點",
+        "takeaway": "買方需要的是可重現的合格產品與轉移證據；槽體大小只描述其中一項設備條件。",
+        "columns": [
+          "交接點",
+          "需交付的可驗證內容",
+          "容易漏算的風險"
+        ],
+        "rows": [
+          [
+            "抗體 → 偶聯",
+            "抗體品質、靶點結合、可用偶聯位點與原料一致性",
+            "原料改變可能一路影響後段反應與成品。"
+          ],
+          [
+            "負載／連接子 → 反應",
+            "純度、雜質、穩定性與高活性物質處理能力",
+            "小分子製程與蛋白製程的條件未必相容。"
+          ],
+          [
+            "偶聯 → 純化放行",
+            "DAR 分布、聚集、游離負載、效價及批次可比性",
+            "高收率若伴隨不可接受雜質，無法變成可售批次。"
+          ],
+          [
+            "原液 → 製劑／跨廠",
+            "儲存、運輸、充填穩定性與分析／製程轉移",
+            "擴廠、換廠或改配方可能需要新的可比性工作。"
+          ]
+        ],
+        "source_ids": [
+          "R02",
+          "D21",
+          "D22",
+          "T09",
+          "T10",
+          "T11"
+        ],
+        "data_date": "公開資料查核2026-10-07",
+        "note": "依 FDA 指引與公開服務內容整理的買方檢核框架；具體藥品規格與法規要求依產品而異，未取得或使用內部客戶手冊。",
+        "widths": [
+          1.0,
+          1.7,
+          1.5
+        ]
+      },
+      "F08": {
+        "id": "F08",
+        "title": "五種交易，五種不同的承諾",
+        "takeaway": "先辨識付款性質與權利範圍，最高額才不會掩蓋真正的風險分配。",
+        "columns": [
+          "交易／原始日期",
+          "金額與付款狀態（百萬美元）",
+          "取得的權利／承擔"
+        ],
+        "rows": [
+          [
+            "Merck／第一三共\n2023-10-19",
+            "原約4,000簽約＋1,500延續＋最高16,500銷售里程碑；最高22,000。SEC 已披露毛付款5,500。[D01][D02]",
+            "三項 DXd ADC；日本以外共同開發／商業化；第一三共負責製造。"
+          ],
+          [
+            "Gilead／Tubulis 選擇權\n2024-12-03",
+            "20簽約＋30行權＋最高415里程碑；固定及條件款合計最高465，銷售權利金另計。未核實後續行權付款。[D14]",
+            "單一未公開靶點的研究 ADC；先合作，再決定是否接手。"
+          ],
+          [
+            "Gilead 收購 Tubulis\n2026-05-21完成",
+            "約定交割3,150＋最高1,850里程碑。SEC 記扣取得現金後約3,200，為不同口徑。[D15][D16][D17]",
+            "全公司與管線；SEC 指 TUB-040 占取得資產公允價值絕大部分。"
+          ],
+          [
+            "Genentech／Duality\n2026-08-28",
+            "45簽約＋超過1,000條件里程碑；無精確最高額。未核實實收。[D18]",
+            "DUPAC ADC；Duality 做到一期 a，之後由 Genentech 接手。"
+          ],
+          [
+            "AZ／Summit 股權\n2026-10-05完成",
+            "2,000股權投資；與10-02臨床合作分開記錄。[R07][R08]",
+            "持股及另約組合試驗合作；各方保留原藥物權利。"
+          ]
+        ],
+        "source_ids": [
+          "D01",
+          "D02",
+          "D14",
+          "D15",
+          "D16",
+          "D17",
+          "D18",
+          "R07",
+          "R08"
+        ],
+        "data_date": "交易日見列；付款更新至2026年第二季SEC及2026-10-05公告",
+        "note": "全部金額為百萬美元。原約、會計淨額、毛付款及股權金額不相加成產業交易總額。Merck簽約款含1,000部分可退款；5,500不含研發分攤及可能退款。",
+        "widths": [
+          1.1,
+          2.0,
+          1.5
+        ],
+        "font_size": 9.2,
+        "leading": 14,
+        "record_ids": [
+          "TX03_UPFRONT",
+          "TX03_CONTINUATION_ORIGINAL",
+          "TX03_MILESTONES",
+          "TX03_MAX",
+          "TX03_ACTUAL_DISCLOSED",
+          "TX03_REFUNDABLE_COMPONENT",
+          "TX03_MANUFACTURING",
+          "TX05_UPFRONT",
+          "TX05_OPTION_FEE",
+          "TX05_MILESTONES",
+          "TX05_MAX",
+          "TX05_PAYMENT_STATUS",
+          "TX06_UPFRONT",
+          "TX06_MILESTONES",
+          "TX06_ACTUAL_DISCLOSED",
+          "TX06_STATE",
+          "TX07_UPFRONT",
+          "TX07_MILESTONES",
+          "TX07_MAX_UNKNOWN",
+          "TX07_DEVELOPMENT_HANDOFF"
+        ],
+        "record_link_scope": "主圖數值或狀態的對應主表記錄；完整文字依逐圖來源。"
+      },
+      "F09": {
+        "id": "F09",
+        "title": "全球合作的四個接口",
+        "takeaway": "藥廠可以同時競爭單藥、合作組合，並透過不同交易補足開發與供應能力。",
+        "columns": [
+          "合作接口",
+          "已發生的配置",
+          "我們判斷的價值來源"
+        ],
+        "rows": [
+          [
+            "平台／候選藥 ↔ 全球開發",
+            "第一三共與 AZ、Merck；Duality 與 BioNTech。[D01][D12][D13][R07]",
+            "把研發資產接到後段試驗、商業網絡與資金；權利伴隨成本分攤。"
+          ],
+          [
+            "已有藥物 ↔ 新組合",
+            "AZ／第一三共與 Summit 擬評估 Dato＋ivonescimab。[R07]",
+            "若互補成立，有機會形成新的完整療程；仍需比較試驗。"
+          ],
+          [
+            "合作關係 → 組織持有",
+            "Gilead先與Tubulis合作，2026年完成收購。[D14][D15][D16]",
+            "累積了解後擴大承諾，同時取得資產與研發組織。"
+          ],
+          [
+            "偶聯技術 ↔ 製程與供應",
+            "Lonza整合Synaffix；WuXi XDC擴充新加坡服務。[D22][D23]",
+            "可接手的技術與跨環節執行，縮短候選藥到可交付批次的距離。"
+          ]
+        ],
+        "source_ids": [
+          "D01",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D16",
+          "D22",
+          "D23",
+          "R07"
+        ],
+        "data_date": "公開關係查核2026-10-07",
+        "note": "箭頭表示產業接口或關係變化，並非所有公司之間均有直接合約。最後一欄為作者推論。",
+        "widths": [
+          1.0,
+          1.65,
+          1.6
+        ]
+      },
+      "F10": {
+        "id": "F10",
+        "title": "台灣製造能力，應如何讓買方核驗？",
+        "takeaway": "把服務清單轉成可交付證據，才有機會形成持續合作。",
+        "columns": [
+          "公開能力／主體",
+          "已核到的層級",
+          "下一份最有說服力的證據"
+        ],
+        "rows": [
+          [
+            "台康 × 台耀",
+            "公開整合抗體、分析、高活性化學與偶聯服務。[T09][T10]",
+            "具名或可核驗的跨環節轉移、批次放行與監管供應紀錄。"
+          ],
+          [
+            "台耀設施",
+            "公司列30–200 L偶聯反應器、TFF與層析等配置。[T11]",
+            "特定產品的批次產率、合格率、週期與需求對應，才能推估可交付量。"
+          ],
+          [
+            "永昕／合作網絡",
+            "VLK CDMO使用授權；公司列GMP 50 L偶聯能力。[T12][T13]",
+            "ADC本身的分析與放行、技轉及臨床供應證據；與裸抗體案例分開。"
+          ],
+          [
+            "共同商業條件",
+            "跨企業接力涉及原料、方法、品質責任與排程。",
+            "分階段預留、需求變更與技轉責任；此為作者建議的合作判斷。"
+          ]
+        ],
+        "source_ids": [
+          "T09",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "D06",
+          "R02"
+        ],
+        "data_date": "公開服務頁查核2026-10-07；VLK授權2025-10-31",
+        "note": "公司披露的設施／服務能力；產品別的批次與商業化證據需另核。",
+        "widths": [
+          1.0,
+          1.4,
+          1.7
+        ]
+      },
+      "F11": {
+        "id": "F11",
+        "title": "未來十二個月：哪些事件值得改判？",
+        "takeaway": "事件的價值在於改變哪個判斷；登錄完成日與公司預告，都不是保證發表日。",
+        "columns": [
+          "時間／性質",
+          "事件",
+          "可能改變的問題"
+        ],
+        "rows": [
+          [
+            "2026下半年\n公司指引",
+            "AVANZAR；TROPION-Lung15。最近已查得指引為2026-07-27。[C16]",
+            "Dato在肺癌組合、前治療與生物標記條件下能否建立效益。"
+          ],
+          [
+            "2026-11-11\n登錄估計",
+            "DB09主要完成日；最後更新2026-07-30。[C22]",
+            "若有第三臂或更成熟追蹤，能否釐清組合的貢獻。"
+          ],
+          [
+            "2026第四季\n公司、事件驅動預估",
+            "BNT323的DYNASTY-Breast02主要分析。[D26]",
+            "後段比較資料能否支持開發與申請路徑。"
+          ],
+          [
+            "2027上半年\n公司指引",
+            "TROPION-Lung07／08；最近已查得指引為2026-07-27。[C16]",
+            "第一線肺癌的特定組合及患者選擇是否成立。"
+          ],
+          [
+            "2027下半年\n部分超出本窗口",
+            "TROPION-Breast03；登錄估2027-09-20主要完成。[C16][C24]",
+            "術前治療後有殘餘病灶的TNBC，後續策略能否降低事件。"
+          ],
+          [
+            "全年條件監看\n無確定公告日",
+            "OBI-902／992資料、GNX1021、TSY-110監管與試驗進展。[T02][T03][T05][T06]",
+            "台灣案例能否向人體可持續劑量、相似性或可交付證據前進。"
+          ]
+        ],
+        "source_ids": [
+          "C16",
+          "C22",
+          "C24",
+          "D26",
+          "T02",
+          "T03",
+          "T05",
+          "T06"
+        ],
+        "data_date": "指引與登錄日期見列；查核2026-10-07",
+        "note": "觀察窗口為2026-10-08至2027-10-07。最近指引不代表已確認結果尚未公布；每次更新須重新核對公告。I-DXd已撤BLA，舊2026-10-10 PDUFA移出事件表。",
+        "widths": [
+          1.0,
+          1.6,
+          1.6
+        ],
+        "font_size": 9.2,
+        "leading": 14
+      },
+      "F12": {
+        "id": "F12",
+        "title": "三種情境，如何改變研發與合作優先序？",
+        "takeaway": "情境工具應暴露需要的證據，不用看似精確的分數掩蓋未知。",
+        "columns": [
+          "情境假設",
+          "優先追問的證據",
+          "可能的合作調整"
+        ],
+        "rows": [
+          [
+            "A　前線Topo-I ADC使用增加，接續資料仍不足",
+            "明確既往暴露隊列；作用機制與失效時間；有意義對照",
+            "提高接續試驗與新機制方案的優先度；條件付款綁定可驗證里程碑。"
+          ],
+          [
+            "B　相近療效下，給藥與照護更可持續",
+            "比較性停藥、減量、患者報告結果及醫院照護負擔",
+            "若證據一致，可把定位延伸到可使用性；需另驗證各市場給付與成本。"
+          ],
+          [
+            "C　適應症或上市時程下修",
+            "最新可治療人群、試驗與監管時程、既有產能義務",
+            "調整需求情境與分階段產能承諾，重新界定技轉與供應責任。"
+          ]
+        ],
+        "source_ids": [
+          "R02",
+          "R03",
+          "D06",
+          "C17",
+          "C18",
+          "C19",
+          "C20"
+        ],
+        "data_date": "情境基線2026-10-07",
+        "note": "本表為作者情境推演，未賦予機率，亦非市場規模或估值預測。Topo-I為第一型拓撲異構酶負載類別。",
+        "widths": [
+          1.25,
+          1.55,
+          1.6
+        ]
+      },
+      "F13": {
+        "id": "F13",
+        "title": "全球公司地圖：依競爭角色選列",
+        "takeaway": "看清組織擁有的角色，才能理解它需要購買、合作或自行建立什麼。",
+        "columns": [
+          "主體",
+          "實質ADC位置／關係",
+          "追蹤重點"
+        ],
+        "rows": [
+          [
+            "第一三共／AZ",
+            "DXd候選藥、已上市產品與共同開發；AZ另推製造投資。[D01][D24][R07]",
+            "前線與組合資料；供應承諾。"
+          ],
+          [
+            "Merck",
+            "I-DXd、HER3-DXd、R-DXd共同開發；付款與修約可追溯。[D01][D02][D05]",
+            "監管所需比較證據。"
+          ],
+          [
+            "Pfizer／Seagen",
+            "Pfizer於2023-12完成取得Seagen全部普通股。[D07]",
+            "既有組合向前線延伸。"
+          ],
+          [
+            "Astellas／Pfizer",
+            "EV圍手術期MIBC：美國已擴大核准；歐洲取得CHMP正面意見。[D27][C08]",
+            "整體圍手術期治療策略。"
+          ],
+          [
+            "AbbVie／ImmunoGen",
+            "2024-02完成收購；ELAHERE與ADC管線納入集團。[D10]",
+            "已上市入口與後續管線。"
+          ],
+          [
+            "Gilead／Tubulis",
+            "SG商業組合；2026-05收購Tubulis與TUB-040等資產。[C06][D16][D17]",
+            "新資產人體資料及整合。"
+          ],
+          [
+            "BioNTech／Duality",
+            "BNT323、BNT324共同開發；美國盈虧分攤選項已行使。[D12][D13][D26]",
+            "後段資料與實際資金承擔。"
+          ],
+          [
+            "Roche／Genentech",
+            "Genentech簽DUPAC新機制負載合作。[D18]",
+            "一期a交接前的去風險資料。"
+          ],
+          [
+            "BMS／SystImmune",
+            "Iza-bren 在中國以外共同開發；中國 PANKU-Breast02／PANKU-Esophagus01 由 Biokin 主辦。[C11]",
+            "患者與對照的適用範圍。"
+          ],
+          [
+            "Lonza／Synaffix",
+            "偶聯平台、原型、分析與製造整合。[D21][D22]",
+            "擴產投用與可接手製程。"
+          ],
+          [
+            "WuXi XDC",
+            "新加坡基地公司公告GMP release與後續擴充。[D23]",
+            "供應能力及產品別驗證。"
+          ],
+          [
+            "Summit",
+            "Ivonescimab組合合作；另獲AZ股權投資。[R07][R08]",
+            "組合試驗啟動與設計。"
+          ]
+        ],
+        "source_ids": [
+          "D01",
+          "D02",
+          "D05",
+          "D07",
+          "D10",
+          "D12",
+          "D13",
+          "D16",
+          "D17",
+          "D18",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D26",
+          "D27",
+          "C06",
+          "C08",
+          "C11",
+          "R07",
+          "R08"
+        ],
+        "data_date": "公開關係及組織狀態查核2026-10-07",
+        "note": "主體為選定集團或合作關係，不以列數代表獨立公司數、全市場名次或所有權利範圍。全球證券識別留存主資料表；本圖聚焦角色。",
+        "widths": [
+          1.05,
+          2.0,
+          1.1
+        ],
+        "font_size": 8.9,
+        "leading": 13.5
+      },
+      "F14": {
+        "id": "F14",
+        "title": "台灣能力地圖：七個主體，三種需求",
+        "takeaway": "按角色讀六個企業主體；DCB另保留為來源待核線索。",
+        "columns": [
+          "主體／當時證券身分",
+          "實質關聯與公開成熟度",
+          "應補上的證據"
+        ],
+        "rows": [
+          [
+            "浩鼎\nTPEx上櫃4174 [T18]",
+            "GlycOBI醣位點偶聯；OBI-902人體試驗，TegMine授權已公告。[T01][T03][T04]",
+            "人體PK、持續劑量與具意義活性；授權金額未公開。"
+          ],
+          [
+            "醣聯\nTPEx上櫃4168 [T19]",
+            "GNX1021靶向bLeB/Y醣抗原；公司2026-08-03公告首位給藥。[T05]",
+            "人體安全性、劑量與初步療效；需為GNX1021本身的ADC數據。"
+          ],
+          [
+            "台新藥\nTWSE上市6838 [T17]",
+            "TSY-110／EG12043為參照T-DM1的生物相似藥候選，歐洲CTA已遞交；TSY-310於2026年5月公告臨床前資料。[T06][T07]",
+            "CTA後進展與相似性；雙特異資產另待人體證據。"
+          ],
+          [
+            "台康\nTWSE上市6589 [T16]",
+            "抗體、分析與製造；共同開發TSY-110，串接台耀服務。[T06][T09]",
+            "產品相似性與跨環節可交付紀錄。"
+          ],
+          [
+            "台耀\nTWSE上市4746 [T15]",
+            "高活性化學、偶聯、純化與製劑；列30–200 L反應器。[T10][T11]",
+            "產品別批次產率、放行與技轉；容積不是年產量。"
+          ],
+          [
+            "永昕\nTPEx上櫃4726 [T20]",
+            "VLK連接子CDMO使用權；公司列GMP 50 L偶聯。[T12][T13]",
+            "ADC臨床供應／批次證據；與裸抗體案例分開。"
+          ],
+          [
+            "生技中心 DCB\n研究法人，無股票代號",
+            "R1曾收錄LYSward技轉頁；本輪外部QA讀回HTTP403，技術主張與平台成熟度待核。[T14]",
+            "先恢復可正常公開核對的直接來源，再判斷技術與候選藥；R10不替DCB作證。"
+          ]
+        ],
+        "source_ids": [
+          "T01",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07",
+          "T09",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14",
+          "T15",
+          "T16",
+          "T17",
+          "T18",
+          "T19",
+          "T20"
+        ],
+        "data_date": "查核2026-10-07；個別臨床／設施資料日期見來源",
+        "note": "上市櫃來源與能力來源分列。台康於2025-07-21轉上市。本次可核的TWSE個股PDF產製日為2026-10-07；未標更新日的公司頁僅記本次存取日，不把它當作能力或產能的更新日。",
+        "widths": [
+          1.0,
+          1.85,
+          1.4
+        ],
+        "font_size": 9.1,
+        "leading": 14
+      },
+      "F15": {
+        "id": "F15",
+        "title": "可重算數據：公式與單位一起保留",
+        "takeaway": "同一試驗內的數值差可重算；它仍不等於個人獲益或跨試驗優劣。",
+        "columns": [
+          "計算",
+          "原始輸入與公式",
+          "結果／解讀"
+        ],
+        "rows": [
+          [
+            "DB11 pCR差",
+            "67.3% − 56.3% [C02]",
+            "11.0百分點；病理反應差，不能當治癒率。"
+          ],
+          [
+            "DB05 三年iDFS差",
+            "92.4% − 83.7% [C02]",
+            "8.7百分點；特定時間點的估計差。"
+          ],
+          [
+            "DB09 中位PFS差",
+            "40.7月 − 26.9月 [C01]",
+            "13.8月；兩組中位數之差。"
+          ],
+          [
+            "TOP1 檢出比例",
+            "4÷31；另3÷420 [R03]",
+            "12.9%；0.7%。不同選取隊列，不能算成因果風險倍數。"
+          ],
+          [
+            "Merck／DS已披露毛付款",
+            "4,000＋750＋750 [D02]",
+            "5,500百萬美元；不含研發分攤及可能退款。"
+          ],
+          [
+            "2024 Tubulis選擇權名義最高",
+            "20＋30＋415 [D14]",
+            "465百萬美元；含條件款、銷售權利金另計，未當實收。"
+          ],
+          [
+            "Trodelvy年度同比",
+            "(1,315 ÷ 1,063 − 1) × 100%；(1,397 ÷ 1,315 − 1) × 100% [D35]",
+            "2024年23.7%；2025年6.2%。原值單位均為百萬美元；按已披露整數重算。"
+          ]
+        ],
+        "source_ids": [
+          "C01",
+          "C02",
+          "R03",
+          "D02",
+          "D14",
+          "D35"
+        ],
+        "data_date": "數據版本依各來源；重算2026-10-07",
+        "note": "R1 Excel原件保留。R2隨稿CSV／JSON保留全部原值與新增計算；百分點、月數、比例與金額分開；比例result以0–1小數儲存。未知金額留空，所有金額保留原幣。",
+        "widths": [
+          1.15,
+          1.5,
+          1.7
+        ],
+        "font_size": 9.2,
+        "leading": 14,
+        "record_ids": [
+          "DB11_PCR_EXP",
+          "DB11_PCR_CTRL",
+          "DB05_IDFS_3Y_EXP",
+          "DB05_IDFS_3Y_CTRL",
+          "DB09_PFS_EXP",
+          "DB09_PFS_CTRL",
+          "TOP1_ADC_NUM",
+          "TOP1_ADC_DEN",
+          "TOP1_NO_ADC_NUM",
+          "TOP1_NO_ADC_DEN",
+          "TX03_PAID_UPFRONT",
+          "TX03_PAID_CONT_2024",
+          "TX03_PAID_CONT_2025",
+          "TX05_UPFRONT",
+          "TX05_OPTION_FEE",
+          "TX05_MILESTONES"
+        ],
+        "record_link_scope": "主圖數值或狀態的對應主表記錄；完整文字依逐圖來源。"
+      }
+    },
+    "en": {
+      "F01": {
+        "id": "F01",
+        "title": "Treatment Is Moving Earlier—and Changing the Sequencing Question",
+        "takeaway": "Expanded approvals change patients’ prior treatment exposure and the questions the next trial must answer.",
+        "columns": [
+          "US approval date / setting",
+          "Specific change",
+          "Implication for subsequent development"
+        ],
+        "rows": [
+          [
+            "2025-12-15\nFirst-line HER2+ metastatic breast cancer",
+            "T-DXd (trastuzumab deruxtecan; Enhertu) + pertuzumab, supported by DB09.[C01]",
+            "If DXd has been used first-line, later-line research needs to describe prior ADC exposure."
+          ],
+          [
+            "2026-05-15\nHER2+ early-stage breast cancer",
+            "Neoadjuvant T-DXd → THP in stage II/III disease; a separate approval covers eligible patients with postoperative residual invasive disease.[C02]",
+            "The two approvals do not establish a validated sequence of neoadjuvant followed by adjuvant T-DXd."
+          ],
+          [
+            "2026-05-22 / 06-24\nSpecific first-line TNBC settings",
+            "Dato-DXd (datopotamab deruxtecan; Datroway); SG alone or with pembrolizumab.[C03][C06]",
+            "First distinguish immunotherapy suitability, PD-L1 criteria and prior treatment."
+          ],
+          [
+            "2026-07-10\nMIBC: candidates for cystectomy and eligible for cisplatin",
+            "Perioperative EV (enfortumab vedotin; Padcev) + pembrolizumab expanded to this population.[C08]",
+            "The full strategy before and after surgery, recurrence and survival must be assessed."
+          ]
+        ],
+        "source_ids": [
+          "C01",
+          "C02",
+          "C03",
+          "C06",
+          "C08"
+        ],
+        "data_date": "As of 2026-10-07; individual event dates are shown in the table.",
+        "note": "Adjuvant T-DXd applies to residual invasive disease after neoadjuvant trastuzumab (with or without pertuzumab) and taxane therapy. THP = taxane + trastuzumab + pertuzumab; TNBC = triple-negative breast cancer; MIBC = muscle-invasive bladder cancer. A US approval does not imply approval or reimbursement in Taiwan on the same date.",
+        "widths": [
+          1.0,
+          1.4,
+          1.45
+        ],
+        "record_ids": [
+          "DB09_REGULATORY",
+          "DB11_REGULATORY",
+          "DB05_REGULATORY",
+          "TB02_REGULATORY",
+          "ASCENT03_REGULATORY",
+          "ASCENT04_REGULATORY"
+        ],
+        "record_link_scope": "Linked master-table records cover the main figure values or statuses; the full wording is supported by the sources listed for each figure."
+      },
+      "F02": {
+        "id": "F02",
+        "title": "Three Evidence Gaps in ADC Sequencing",
+        "takeaway": "Check who entered the trial before deciding whether a positive result answers the question of treatment after an ADC.",
+        "columns": [
+          "Question",
+          "Verified scope of the evidence",
+          "Additional evidence needed"
+        ],
+        "rows": [
+          [
+            "Can a payload from the same class follow?",
+            "TROPION-Breast02 and ASCENT-03/04 excluded prior Topo-I treatment / relevant ADCs.[C18][C19][C20]",
+            "Study patients whose earlier-line ADC failed, recording payload, interval and reason for progression."
+          ],
+          [
+            "Can a new dual-target ADC overcome failure?",
+            "PANKU-Breast02 with iza-bren excluded prior TOPI ADC treatment.[C17]",
+            "Test in a population with prior ADC exposure, using a meaningful comparator."
+          ],
+          [
+            "Can the drug be used before and after surgery?",
+            "DB05 excluded prior T-DXd, T-DM1 or other HER2 ADCs.[C21]",
+            "Explicitly design an adjuvant comparison after neoadjuvant T-DXd and track recurrence and toxicity."
+          ]
+        ],
+        "source_ids": [
+          "C17",
+          "C18",
+          "C19",
+          "C20",
+          "C21"
+        ],
+        "data_date": "As of 2026-10-07; individual event dates are shown in the table.",
+        "note": "Registry updates: PANKU-Breast02, 2026-07-23; TROPION-Breast02, 2026-05-15; ASCENT-03, 2026-04-06; ASCENT-04, 2025-09-18; DB05, 2026-05-15.",
+        "widths": [
+          0.9,
+          1.65,
+          1.4
+        ],
+        "record_ids": [
+          "TB02_PRIOR_ADC",
+          "ASCENT03_PRIOR_ADC",
+          "ASCENT04_PRIOR_ADC",
+          "IZA_TNBC_PRIOR_ADC",
+          "DB05_PRIOR_ADC"
+        ],
+        "record_link_scope": "Linked master-table records cover the main figure values or statuses; the full wording is supported by the sources listed for each figure."
+      },
+      "F03": {
+        "id": "F03",
+        "title": "Which Point of Failure Does Each Design Address?",
+        "takeaway": "A useful comparison links design changes to measurable problems, rather than assigning technology labels to generations.",
+        "columns": [
+          "Design choice",
+          "Main problem it seeks to improve",
+          "Measurements to examine"
+        ],
+        "rows": [
+          [
+            "Target / bispecific antibody",
+            "Uneven antigen distribution; insufficient binding or internalization",
+            "Target expression in enrolled patients; relationships among internalization and response; improvement relative to a comparator."
+          ],
+          [
+            "Intracellular delivery design",
+            "Inefficient delivery to lysosomes after internalization",
+            "Antibody–antigen dissociation, intracellular distribution and lysosomal accumulation; a 2019 preclinical anti-HER2 ADC example.[R10]"
+          ],
+          [
+            "Conjugation design and DAR",
+            "Are product composition and stability controlled, and is exposure adequate?",
+            "DAR distribution, free payload, stability and human exposure."
+          ],
+          [
+            "Cleavable linker / permeable payload",
+            "Intratumoral release and coverage of neighboring low-expression cells",
+            "Bystander effects in tumor models, together with release in blood and tissue toxicity."
+          ],
+          [
+            "Switching payload mechanism",
+            "On-target resistance to the existing payload, efflux and related problems",
+            "Cross-resistance models, stratification by prior therapy and new limiting toxicities."
+          ],
+          [
+            "Dual payload / combination therapy",
+            "Complementary effects across cellular characteristics or disease pathways",
+            "Ratios, contribution of each component, sustainable dosing and cumulative toxicity."
+          ]
+        ],
+        "source_ids": [
+          "R02",
+          "R04",
+          "R06",
+          "C10",
+          "C11",
+          "C12",
+          "R10"
+        ],
+        "data_date": "Literature: 2016–2026; checked 2026-10-07.",
+        "note": "The questions and measurements form an analytical framework developed for this report; see F04 for evidence maturity. DAR = the average number of payload molecules attached per antibody; a distribution exists beyond the average.",
+        "widths": [
+          1.0,
+          1.25,
+          1.65
+        ]
+      },
+      "F04": {
+        "id": "F04",
+        "title": "Evidence Maturity Varies Across New Designs",
+        "takeaway": "Bispecific ADCs have reached phase 3; new and dual payloads still require assessment of each product’s human development stage.",
+        "columns": [
+          "Example / design",
+          "Evidence available",
+          "Next critical gap"
+        ],
+        "rows": [
+          [
+            "Iza-bren\nEGFR×HER3 / Topo-I",
+            "Original phase 3 publication in NPC in China; company-reported phase 3 TNBC/ESCC results.[C10][C11]",
+            "Chemotherapy comparators do not isolate the incremental dual-target contribution; TNBC excluded prior TOPI ADCs.[C17]"
+          ],
+          [
+            "HDP-101\nBCMA / amanitin",
+            "53 patients dosed in phase 1; the research poster lists an RP2D of 175 µg/kg; phase 2a expansion has begun.[C12]",
+            "Early multiple myeloma data; larger studies must validate dosing, efficacy and manageability."
+          ],
+          [
+            "MMAE + MMAF dual payload",
+            "Original research observed complementarity in mouse models of breast cancer heterogeneity/resistance.[R06]",
+            "Both are microtubule inhibitors; animal results do not yet establish benefit in humans."
+          ],
+          [
+            "DUPAC payload with a new mechanism",
+            "Genentech / Duality announced a preclinical collaboration and subsequent development handoff.[D18]",
+            "Overcoming resistance to existing payloads is a design claim awaiting human validation."
+          ],
+          [
+            "pH-dependent antigen dissociation / intracellular delivery",
+            "2019 original anti-HER2 ADC study in cell and mouse models; engineered antibodies increased lysosomal ADC accumulation in cells.[R10]",
+            "Preclinical results in that study; they do not establish DCB platform claims or human benefit."
+          ]
+        ],
+        "source_ids": [
+          "C10",
+          "C11",
+          "C12",
+          "C17",
+          "R06",
+          "D18",
+          "R10"
+        ],
+        "data_date": "As of 2026-10-07; individual event dates are shown in the table.",
+        "note": "Maturity is assessed for the specific product and sources obtained; another drug’s approval on the same platform is not a substitute. RP2D = recommended phase 2 dose.",
+        "widths": [
+          1.0,
+          1.55,
+          1.55
+        ]
+      },
+      "F05": {
+        "id": "F05",
+        "title": "First-Line TNBC: Keep Each Trial’s Comparator in View",
+        "takeaway": "These three trials support different treatment settings; none directly compares Dato-DXd with SG.",
+        "columns": [
+          "Trial / population",
+          "Comparison and N",
+          "Within-trial PFS",
+          "OS status"
+        ],
+        "rows": [
+          [
+            "TROPION-Breast02\nNot candidates for PD-(L)1 therapy",
+            "Dato-DXd vs chemotherapy\nN = 644",
+            "10.8 vs 5.6 months\nHR 0.57\n95% CI 0.47–0.69",
+            "23.7 vs 18.7 months\nHR 0.79\n95% CI 0.64–0.98"
+          ],
+          [
+            "ASCENT-03\nNot candidates for PD-(L)1 therapy",
+            "SG vs chemotherapy\nN = 558",
+            "9.7 vs 6.9 months\nHR 0.62\n95% CI 0.50–0.77",
+            "Still immature in the\nFDA approval analysis"
+          ],
+          [
+            "ASCENT-04\nPD-L1 CPS≥10",
+            "SG + pembrolizumab\nvs chemotherapy + pembrolizumab\nN = 443",
+            "11.2 vs 7.8 months\nHR 0.65\n95% CI 0.51–0.84",
+            "Still immature in the\nFDA approval analysis"
+          ]
+        ],
+        "source_ids": [
+          "C03",
+          "C06",
+          "C18",
+          "C19",
+          "C20"
+        ],
+        "data_date": "Respective FDA approval analyses; checked 2026-10-07.",
+        "note": "Trial populations were adults with unresectable locally advanced/metastatic TNBC who had not received systemic therapy for that advanced-disease setting. Immunotherapy criteria and chemotherapy options differed across trials. FDA announcements: 2026-05-22 and 06-24. Values are experimental arm vs control arm; N = number randomized; PFS = progression-free survival; OS = overall survival; CPS = combined positive score.",
+        "widths": [
+          1.25,
+          1.55,
+          1.25,
+          1.25
+        ],
+        "font_size": 9.1,
+        "leading": 14,
+        "record_ids": [
+          "TB02_N_ALL",
+          "TB02_N_EXP",
+          "TB02_N_CTRL",
+          "TB02_PFS_EXP",
+          "TB02_PFS_CTRL",
+          "TB02_PFS_HR",
+          "TB02_PFS_HR_CI_LOW",
+          "TB02_PFS_HR_CI_HIGH",
+          "TB02_OS_EXP",
+          "TB02_OS_CTRL",
+          "TB02_OS_HR",
+          "TB02_OS_HR_CI_LOW",
+          "TB02_OS_HR_CI_HIGH",
+          "TB02_LIMITATION",
+          "ASCENT03_N_ALL",
+          "ASCENT03_PFS_EXP",
+          "ASCENT03_PFS_CTRL",
+          "ASCENT03_PFS_HR",
+          "ASCENT03_PFS_HR_CI_LOW",
+          "ASCENT03_PFS_HR_CI_HIGH",
+          "ASCENT03_LIMITATION",
+          "ASCENT03_OS_MATURITY",
+          "ASCENT04_N_ALL",
+          "ASCENT04_PFS_EXP",
+          "ASCENT04_PFS_CTRL",
+          "ASCENT04_PFS_HR",
+          "ASCENT04_PFS_HR_CI_LOW",
+          "ASCENT04_PFS_HR_CI_HIGH",
+          "ASCENT04_LIMITATION",
+          "ASCENT04_OS_MATURITY",
+          "TB02_PRIOR_ADC",
+          "ASCENT03_PRIOR_ADC",
+          "ASCENT04_PRIOR_ADC"
+        ],
+        "record_link_scope": "Linked master-table records cover the main figure values or statuses; the full wording is supported by the sources listed for each figure."
+      },
+      "F06": {
+        "id": "F06",
+        "title": "Four Types of Evidence Behind a Better Therapeutic Window",
+        "takeaway": "Sustained dosing as planned can help translate molecular design into a benefit that patients and hospitals can use.",
+        "columns": [
+          "Evidence to examine",
+          "Why it changes the assessment",
+          "Example in this report"
+        ],
+        "rows": [
+          [
+            "Exposure and dose selection",
+            "Exposure to ADC, total antibody and free payload may change in different directions.",
+            "FDA recommends separate analysis of relevant components and exposure–response relationships.[R02]"
+          ],
+          [
+            "Organ-specific and severe toxicity",
+            "Similar overall grade ≥3 rates may conceal different fatal or difficult-to-manage risks.",
+            "Overall grade ≥3 AE rates were similar in DB09; ILD occurrence differed.[C15]"
+          ],
+          [
+            "Dosing delivered and supportive care",
+            "Dose reductions, delays, discontinuations and prophylaxis change sustainable exposure.",
+            "HDP-101 uses a split first dose and prophylactic measures to manage early toxicity.[C12]"
+          ],
+          [
+            "Disease endpoints and patient burden",
+            "Tumor shrinkage, delayed progression, survival and outpatient care burden answer different questions.",
+            "Read TNBC trials alongside OS maturity and known management requirements.[C03][C06]"
+          ]
+        ],
+        "source_ids": [
+          "R02",
+          "C15",
+          "C12",
+          "C03",
+          "C06"
+        ],
+        "data_date": "FDA guidance: 2024-03; clinical evidence: 2025–2026 versions, as specified in the source index.",
+        "note": "This table is a framework for reading evidence, not a cross-trial safety ranking. AE = adverse event; ILD = interstitial lung disease/pneumonitis.",
+        "widths": [
+          1.0,
+          1.65,
+          1.55
+        ]
+      },
+      "F07": {
+        "id": "F07",
+        "title": "Four Handoffs Define Value in ADC Manufacturing",
+        "takeaway": "Buyers need reproducible, qualified products and evidence supporting transfer; vessel size describes only one equipment parameter.",
+        "columns": [
+          "Handoff",
+          "Verifiable deliverables",
+          "Risk easily overlooked"
+        ],
+        "rows": [
+          [
+            "Antibody → conjugation",
+            "Antibody quality, target binding, available conjugation sites and input consistency",
+            "Changes in starting materials may affect downstream reactions and the final product."
+          ],
+          [
+            "Payload/linker → reaction",
+            "Purity, impurities, stability and handling of highly potent compounds",
+            "Small-molecule and protein-process conditions may not be compatible."
+          ],
+          [
+            "Conjugation → purification and release",
+            "DAR distribution, aggregation, free payload, potency and batch comparability",
+            "A high yield accompanied by unacceptable impurities cannot become a saleable batch."
+          ],
+          [
+            "Drug substance → drug product / site transfer",
+            "Stability during storage, transport and filling; analytical and process transfer",
+            "Expansion, a site change or reformulation may require new comparability work."
+          ]
+        ],
+        "source_ids": [
+          "R02",
+          "D21",
+          "D22",
+          "T09",
+          "T10",
+          "T11"
+        ],
+        "data_date": "Public information checked 2026-10-07",
+        "note": "A buyer review framework developed from FDA guidance and publicly described services. Product specifications and regulatory requirements vary by product. No internal customer manuals were obtained or used.",
+        "widths": [
+          1.0,
+          1.7,
+          1.5
+        ]
+      },
+      "F08": {
+        "id": "F08",
+        "title": "Five Transaction Types, Five Different Commitments",
+        "takeaway": "Identify the nature of the payment and the scope of rights before using a headline value to assess risk allocation.",
+        "columns": [
+          "Transaction / original date",
+          "Amount and payment status (USD million)",
+          "Rights acquired / obligations assumed"
+        ],
+        "rows": [
+          [
+            "Merck / Daiichi Sankyo\n2023-10-19",
+            "Original agreement: 4,000 upfront + 1,500 continuation payments + up to 16,500 sales milestones; maximum 22,000. SEC-disclosed gross payments: 5,500.[D01][D02]",
+            "Three DXd ADCs; co-development and commercialization outside Japan; Daiichi Sankyo responsible for manufacturing."
+          ],
+          [
+            "Gilead / Tubulis option\n2024-12-03",
+            "20 upfront + 30 on exercise + up to 415 milestones; specified fees and milestones total up to 465, with sales royalties additional. Subsequent option-exercise payment not verified.[D14]",
+            "One research ADC against an undisclosed target; collaborate first, then decide whether to assume development."
+          ],
+          [
+            "Gilead acquisition of Tubulis\nCompleted 2026-05-21",
+            "Agreed closing payment of 3,150 + up to 1,850 milestones. SEC reports approximately 3,200 net of acquired cash, a different accounting basis.[D15][D16][D17]",
+            "The company and its pipeline; SEC states that TUB-040 represented substantially all of the fair value of the assets acquired."
+          ],
+          [
+            "Genentech / Duality\n2026-08-28",
+            "45 upfront + over 1,000 contingent milestones; no precise maximum. Actual receipt not verified.[D18]",
+            "DUPAC ADC; Duality develops through Phase 1a, after which Genentech takes over."
+          ],
+          [
+            "AZ / Summit equity\nCompleted 2026-10-05",
+            "2,000 equity investment; recorded separately from the 2026-10-02 clinical collaboration.[R07][R08]",
+            "Equity ownership and a separate combination-trial collaboration; parties retain rights to their own drugs."
+          ]
+        ],
+        "source_ids": [
+          "D01",
+          "D02",
+          "D14",
+          "D15",
+          "D16",
+          "D17",
+          "D18",
+          "R07",
+          "R08"
+        ],
+        "data_date": "Transaction dates shown in rows; payment updates from Q2 2026 SEC filings and the 2026-10-05 announcement",
+        "note": "All amounts are USD million. Original agreement values, accounting amounts net of acquired cash, gross payments and equity investments are not added into an industry deal total. Merck’s upfront payment includes a 1,000 component that is partly refundable; the 5,500 excludes R&D cost sharing and potential refunds.",
+        "widths": [
+          1.1,
+          2.0,
+          1.5
+        ],
+        "font_size": 9.2,
+        "leading": 14,
+        "record_ids": [
+          "TX03_UPFRONT",
+          "TX03_CONTINUATION_ORIGINAL",
+          "TX03_MILESTONES",
+          "TX03_MAX",
+          "TX03_ACTUAL_DISCLOSED",
+          "TX03_REFUNDABLE_COMPONENT",
+          "TX03_MANUFACTURING",
+          "TX05_UPFRONT",
+          "TX05_OPTION_FEE",
+          "TX05_MILESTONES",
+          "TX05_MAX",
+          "TX05_PAYMENT_STATUS",
+          "TX06_UPFRONT",
+          "TX06_MILESTONES",
+          "TX06_ACTUAL_DISCLOSED",
+          "TX06_STATE",
+          "TX07_UPFRONT",
+          "TX07_MILESTONES",
+          "TX07_MAX_UNKNOWN",
+          "TX07_DEVELOPMENT_HANDOFF"
+        ],
+        "record_link_scope": "Master records corresponding to the main figure’s values or status; the full text is supported by the figure-specific sources."
+      },
+      "F09": {
+        "id": "F09",
+        "title": "Four Interfaces in Global Collaboration",
+        "takeaway": "Drug companies can compete in monotherapy, collaborate on combinations, and use different transactions to strengthen development and supply capabilities.",
+        "columns": [
+          "Collaboration interface",
+          "Observed arrangement",
+          "Our assessment of the source of value"
+        ],
+        "rows": [
+          [
+            "Platform / candidate ↔ global development",
+            "Daiichi Sankyo with AZ and Merck; Duality with BioNTech.[D01][D12][D13][R07]",
+            "Connect R&D assets to later-stage trials, commercial networks and capital; rights come with cost sharing."
+          ],
+          [
+            "Existing drugs ↔ new combinations",
+            "AZ / Daiichi Sankyo and Summit plan to evaluate Dato + ivonescimab.[R07]",
+            "If complementary effects are established, a new complete regimen could emerge; comparative trials remain necessary."
+          ],
+          [
+            "Collaboration → ownership of the organization",
+            "Gilead first collaborated with Tubulis, then completed its acquisition in 2026.[D14][D15][D16]",
+            "Expand the commitment after gaining familiarity, acquiring both assets and an R&D organization."
+          ],
+          [
+            "Conjugation technology ↔ process and supply",
+            "Lonza integrates Synaffix; WuXi XDC expands services in Singapore.[D22][D23]",
+            "Transferable technology and execution across process stages can shorten the path from candidate to deliverable batch."
+          ]
+        ],
+        "source_ids": [
+          "D01",
+          "D12",
+          "D13",
+          "D14",
+          "D15",
+          "D16",
+          "D22",
+          "D23",
+          "R07"
+        ],
+        "data_date": "Publicly disclosed relationships checked 2026-10-07",
+        "note": "Arrows indicate industry interfaces or changes in relationships; they do not imply direct contracts among every company shown. The final column presents the author’s inferences.",
+        "widths": [
+          1.0,
+          1.65,
+          1.6
+        ]
+      },
+      "F10": {
+        "id": "F10",
+        "title": "Taiwan's Manufacturing Capabilities: What Can a Buyer Verify?",
+        "takeaway": "Turning service lists into delivery evidence may help build sustained collaboration.",
+        "columns": [
+          "Public capability / entity",
+          "Evidence available",
+          "The next most persuasive evidence"
+        ],
+        "rows": [
+          [
+            "EirGenix × Formosa Laboratories",
+            "Publicly described integration of antibody, analytical, highly potent chemistry and conjugation services.[T09][T10]",
+            "Named or verifiable transfers across stages, batch release and records of supply under regulatory requirements."
+          ],
+          [
+            "Formosa Laboratories facilities",
+            "The company lists 30–200 L conjugation reactors, TFF, chromatography and related equipment.[T11]",
+            "Product-specific batch yield, acceptance rate, cycle time and demand alignment are needed to estimate deliverable output."
+          ],
+          [
+            "Mycenax / collaboration network",
+            "VLK license for CDMO use; the company lists GMP conjugation at 50 L scale.[T12][T13]",
+            "ADC-specific analytical, release, technology-transfer and clinical-supply evidence, kept separate from unconjugated-antibody cases."
+          ],
+          [
+            "Shared commercial conditions",
+            "Work across companies involves materials, methods, quality responsibilities and scheduling.",
+            "Staged capacity reservations, changes in demand and technology-transfer responsibilities: criteria proposed by the author for assessing partnerships."
+          ]
+        ],
+        "source_ids": [
+          "T09",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "D06",
+          "R02"
+        ],
+        "data_date": "Public service pages checked 2026-10-07; VLK license dated 2025-10-31",
+        "note": "Company-disclosed facility and service capabilities; product-specific batch and commercialization evidence require separate verification.",
+        "widths": [
+          1.0,
+          1.4,
+          1.7
+        ]
+      },
+      "F11": {
+        "id": "F11",
+        "title": "The Next Twelve Months: Which Events Could Change the Assessment?",
+        "takeaway": "An event matters because of the assessment it may change; registry completion dates and company guidance are not guaranteed release dates.",
+        "columns": [
+          "Timing / type",
+          "Event",
+          "Question it could change"
+        ],
+        "rows": [
+          [
+            "H2 2026\nCompany guidance",
+            "AVANZAR; TROPION-Lung15. Latest guidance located: 2026-07-27.[C16]",
+            "Whether Dato establishes benefit in lung cancer under the specified combination, prior-treatment and biomarker conditions."
+          ],
+          [
+            "2026-11-11\nRegistry estimate",
+            "DB09 primary completion; last updated 2026-07-30.[C22]",
+            "Whether a third arm or more mature follow-up can clarify the contribution of the combination."
+          ],
+          [
+            "Q4 2026\nCompany, event-driven estimate",
+            "Primary analysis of BNT323 DYNASTY-Breast02.[D26]",
+            "Whether later-stage comparative data can support development and the filing pathway."
+          ],
+          [
+            "H1 2027\nCompany guidance",
+            "TROPION-Lung07/08; latest guidance located: 2026-07-27.[C16]",
+            "Whether specific combinations and patient selection are supported in first-line lung cancer."
+          ],
+          [
+            "H2 2027\nPartly outside this window",
+            "TROPION-Breast03; registry estimates primary completion on 2027-09-20.[C16][C24]",
+            "Whether a subsequent strategy can reduce events in TNBC with residual disease after neoadjuvant treatment."
+          ],
+          [
+            "Conditional watch throughout the year\nNo confirmed announcement date",
+            "OBI-902/992 data, GNX1021, and TSY-110 regulatory and trial progress.[T02][T03][T05][T06]",
+            "Whether the Taiwan cases advance toward evidence of sustainable dosing in humans, similarity, or delivery."
+          ]
+        ],
+        "source_ids": [
+          "C16",
+          "C22",
+          "C24",
+          "D26",
+          "T02",
+          "T03",
+          "T05",
+          "T06"
+        ],
+        "data_date": "Guidance and registry dates shown in rows; checked 2026-10-07",
+        "note": "Watch window: 2026-10-08 to 2027-10-07. The latest guidance does not confirm that results remain unpublished; announcements must be checked at each update. I-DXd’s BLA was withdrawn, so the former 2026-10-10 PDUFA date has been removed from the event list.",
+        "widths": [
+          1.0,
+          1.6,
+          1.6
+        ],
+        "font_size": 9.2,
+        "leading": 14
+      },
+      "F12": {
+        "id": "F12",
+        "title": "Three Scenarios That Could Change R&D and Partnership Priorities",
+        "takeaway": "A scenario tool should identify the evidence needed, rather than mask unknowns with apparently precise scores.",
+        "columns": [
+          "Scenario assumption",
+          "Priority evidence questions",
+          "Potential partnership adjustment"
+        ],
+        "rows": [
+          [
+            "A  Frontline Topo-I ADC use increases while sequencing data remain limited",
+            "Clearly defined prior-exposure cohorts; mechanism of action and time to failure; a meaningful comparator",
+            "Prioritize sequencing trials and approaches with new mechanisms; link contingent payments to verifiable milestones."
+          ],
+          [
+            "B  Treatment and supportive care become more sustainable at similar efficacy",
+            "Comparative discontinuation, dose reduction, patient-reported outcomes and care burden on hospitals",
+            "If the evidence is consistent, positioning could extend to usability; reimbursement and costs still require market-specific validation."
+          ],
+          [
+            "C  Indication expectations are reduced or launch timelines are revised",
+            "Updated treatable population, trial and regulatory timelines, and existing capacity obligations",
+            "Revise demand scenarios and staged capacity commitments; redefine technology-transfer and supply responsibilities."
+          ]
+        ],
+        "source_ids": [
+          "R02",
+          "R03",
+          "D06",
+          "C17",
+          "C18",
+          "C19",
+          "C20"
+        ],
+        "data_date": "Scenario baseline: 2026-10-07",
+        "note": "These are author-developed scenarios without assigned probabilities, not market-size or valuation forecasts. Topo-I denotes the topoisomerase I payload class.",
+        "widths": [
+          1.25,
+          1.55,
+          1.6
+        ]
+      },
+      "F13": {
+        "id": "F13",
+        "title": "Global Company Map: Selected by Competitive Role",
+        "takeaway": "Understanding the roles an organization already holds helps explain what it needs to acquire, access through partnership, or build internally.",
+        "columns": [
+          "Entity",
+          "Substantive ADC position / relationship",
+          "Focus for tracking"
+        ],
+        "rows": [
+          [
+            "Daiichi Sankyo / AZ",
+            "DXd candidates, marketed products and co-development; AZ also pursues manufacturing investment.[D01][D24][R07]",
+            "Frontline and combination data; supply commitments."
+          ],
+          [
+            "Merck",
+            "Co-development of I-DXd, HER3-DXd and R-DXd; traceable payments and contract amendments.[D01][D02][D05]",
+            "Comparative evidence required for regulatory review."
+          ],
+          [
+            "Pfizer / Seagen",
+            "Pfizer completed its acquisition of all outstanding Seagen common stock in December 2023.[D07]",
+            "Extension of the existing portfolio into earlier treatment lines."
+          ],
+          [
+            "Astellas / Pfizer",
+            "Perioperative EV in MIBC: expanded US approval; positive CHMP opinion in Europe.[D27][C08]",
+            "The overall perioperative treatment strategy."
+          ],
+          [
+            "AbbVie / ImmunoGen",
+            "Acquisition completed in February 2024; ELAHERE and the ADC pipeline became part of the group.[D10]",
+            "The marketed product entry point and subsequent pipeline."
+          ],
+          [
+            "Gilead / Tubulis",
+            "SG commercial portfolio; acquired Tubulis and assets including TUB-040 in May 2026.[C06][D16][D17]",
+            "Human data for new assets and their integration."
+          ],
+          [
+            "BioNTech / Duality",
+            "Co-development of BNT323 and BNT324; US profit/loss-sharing option exercised.[D12][D13][D26]",
+            "Later-stage data and actual funding commitments."
+          ],
+          [
+            "Roche / Genentech",
+            "Genentech signed a DUPAC collaboration involving a novel-mechanism payload.[D18]",
+            "De-risking evidence before the Phase 1a handoff."
+          ],
+          [
+            "BMS / SystImmune",
+            "Joint development of Iza-bren outside China; Biokin sponsors PANKU-Breast02 and PANKU-Esophagus01 in China.[C11]",
+            "Applicability of the patient populations and comparators."
+          ],
+          [
+            "Lonza / Synaffix",
+            "Integration of conjugation platforms, prototyping, analytics and manufacturing.[D21][D22]",
+            "Capacity entering service and processes ready for transfer."
+          ],
+          [
+            "WuXi XDC",
+            "Company-announced GMP release at its Singapore site and further expansion.[D23]",
+            "Supply capabilities and product-specific validation."
+          ],
+          [
+            "Summit",
+            "Ivonescimab combination collaboration; separate equity investment from AZ.[R07][R08]",
+            "Combination-trial initiation and design."
+          ]
+        ],
+        "source_ids": [
+          "D01",
+          "D02",
+          "D05",
+          "D07",
+          "D10",
+          "D12",
+          "D13",
+          "D16",
+          "D17",
+          "D18",
+          "D21",
+          "D22",
+          "D23",
+          "D24",
+          "D26",
+          "D27",
+          "C06",
+          "C08",
+          "C11",
+          "R07",
+          "R08"
+        ],
+        "data_date": "Public relationships and organizational status checked 2026-10-07",
+        "note": "Entries represent selected groups or partnerships. Row counts do not indicate the number of independent companies, overall market rankings or every scope of rights. Global securities identifiers are retained in the master data; this figure focuses on roles.",
+        "widths": [
+          1.05,
+          2.0,
+          1.1
+        ],
+        "font_size": 8.9,
+        "leading": 13.5
+      },
+      "F14": {
+        "id": "F14",
+        "title": "Taiwan's Capability Map: Seven Entities, Three Types of Need",
+        "takeaway": "Read six corporate entities by role; DCB is retained separately as a source lead awaiting verification.",
+        "columns": [
+          "Entity / securities status at cutoff",
+          "Substantive link and public evidence maturity",
+          "Evidence still needed"
+        ],
+        "rows": [
+          [
+            "OBI Pharma\nTPEx-listed 4174 [T18]",
+            "GlycOBI glycan-site conjugation; OBI-902 in human trials; TegMine license announced.[T01][T03][T04]",
+            "Human PK, sustainable dosing and meaningful activity; license amounts undisclosed."
+          ],
+          [
+            "GlycoNex\nTPEx-listed 4168 [T19]",
+            "GNX1021 targets the bLeB/Y glycan antigen; company announced first patient dosed on 2026-08-03.[T05]",
+            "Human safety, dose and preliminary efficacy; requires data on the GNX1021 ADC itself."
+          ],
+          [
+            "Formosa Pharmaceuticals\nTWSE-listed 6838 [T17]",
+            "TSY-110 / EG12043 is a biosimilar candidate referencing T-DM1; European CTA submitted. TSY-310 preclinical data were announced in May 2026.[T06][T07]",
+            "Progress after CTA submission and evidence of similarity; the bispecific asset separately awaits human evidence."
+          ],
+          [
+            "EirGenix\nTWSE-listed 6589 [T16]",
+            "Antibodies, analytics and manufacturing; co-development of TSY-110 and services linked with Formosa Laboratories.[T06][T09]",
+            "Product similarity and delivery records across stages."
+          ],
+          [
+            "Formosa Laboratories\nTWSE-listed 4746 [T15]",
+            "Highly potent chemistry, conjugation, purification and formulation; lists 30–200 L reactors.[T10][T11]",
+            "Product-specific batch yields, release and technology transfer; vessel volume is not annual output."
+          ],
+          [
+            "Mycenax\nTPEx-listed 4726 [T20]",
+            "Rights to use VLK linker technology for CDMO services; company lists GMP conjugation at 50 L scale.[T12][T13]",
+            "ADC clinical-supply / batch evidence, kept separate from unconjugated-antibody cases."
+          ],
+          [
+            "Development Center for Biotechnology (DCB)\nResearch organization; no ticker",
+            "R1 included the LYSward technology-transfer page. External QA in this round received HTTP 403; technical claims and platform maturity await verification.[T14]",
+            "Obtain normally accessible direct public support before assessing the technology and candidates; R10 does not validate DCB."
+          ]
+        ],
+        "source_ids": [
+          "T01",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07",
+          "T09",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14",
+          "T15",
+          "T16",
+          "T17",
+          "T18",
+          "T19",
+          "T20"
+        ],
+        "data_date": "Checked 2026-10-07; dates for individual clinical and facility information are in the sources",
+        "note": "Securities-status sources are separate from capability sources. EirGenix transferred to the TWSE on 2025-07-21. The TWSE company-profile PDFs available for this check were generated on 2026-10-07. For company pages with no update date, only the access date is recorded; it is not treated as the date on which capability or capacity was updated.",
+        "widths": [
+          1.0,
+          1.85,
+          1.4
+        ],
+        "font_size": 9.1,
+        "leading": 14
+      },
+      "F15": {
+        "id": "F15",
+        "title": "Reproducible Data: Retaining Both Formulas and Units",
+        "takeaway": "Within-trial numerical differences can be recalculated; they do not establish individual benefit or rankings across trials.",
+        "columns": [
+          "Calculation",
+          "Original inputs and formula",
+          "Result / interpretation"
+        ],
+        "rows": [
+          [
+            "DB11 pCR difference",
+            "67.3% − 56.3% [C02]",
+            "11.0 percentage points; a difference in pathological response, not a cure rate."
+          ],
+          [
+            "DB05 3-year iDFS difference",
+            "92.4% − 83.7% [C02]",
+            "8.7 percentage points; an estimated difference at a specific time point."
+          ],
+          [
+            "DB09 median PFS difference",
+            "40.7 months − 26.9 months [C01]",
+            "13.8 months; the difference between two group medians."
+          ],
+          [
+            "TOP1 detection proportions",
+            "4 ÷ 31; separately, 3 ÷ 420 [R03]",
+            "12.9%; 0.7%. Differently selected cohorts; these cannot be converted into a causal risk ratio."
+          ],
+          [
+            "Merck / DS disclosed gross payments",
+            "4,000 + 750 + 750 [D02]",
+            "USD 5,500 million; excludes shared R&D costs and potential refunds."
+          ],
+          [
+            "2024 Tubulis option: nominal maximum",
+            "20 + 30 + 415 [D14]",
+            "USD 465 million; includes conditional payments, excludes sales royalties, and is not treated as cash received."
+          ],
+          [
+            "Trodelvy annual sales growth",
+            "(1,315 / 1,063 − 1) × 100%; (1,397 / 1,315 − 1) × 100% [D35]",
+            "2024: 23.7%; 2025: 6.2%. Original inputs are USD million; recalculated from reported whole-million values."
+          ]
+        ],
+        "source_ids": [
+          "C01",
+          "C02",
+          "R03",
+          "D02",
+          "D14",
+          "D35"
+        ],
+        "data_date": "Data versions follow the individual sources; recalculated 2026-10-07",
+        "note": "The original R1 Excel file is retained separately. R2 CSV/JSON retain original inputs and added calculations. Percentage points, months, ratios and monetary values remain distinct; ratio results are stored as 0–1 decimals. Unknown amounts remain blank and original currencies are retained.",
+        "widths": [
+          1.15,
+          1.5,
+          1.7
+        ],
+        "font_size": 9.2,
+        "leading": 14,
+        "record_ids": [
+          "DB11_PCR_EXP",
+          "DB11_PCR_CTRL",
+          "DB05_IDFS_3Y_EXP",
+          "DB05_IDFS_3Y_CTRL",
+          "DB09_PFS_EXP",
+          "DB09_PFS_CTRL",
+          "TOP1_ADC_NUM",
+          "TOP1_ADC_DEN",
+          "TOP1_NO_ADC_NUM",
+          "TOP1_NO_ADC_DEN",
+          "TX03_PAID_UPFRONT",
+          "TX03_PAID_CONT_2024",
+          "TX03_PAID_CONT_2025",
+          "TX05_UPFRONT",
+          "TX05_OPTION_FEE",
+          "TX05_MILESTONES"
+        ],
+        "record_link_scope": "Master-table records corresponding to the principal values or statuses in the figure; the complete text is supported by the figure's cited sources."
+      }
+    }
+  },
+  "base_presentation_version": "ADC-20261007-R1-LAYERED-HTML-R2-1.0",
+  "evidence_correction_scope": [
+    "F03",
+    "F08",
+    "F13",
+    "F14",
+    "F15"
+  ]
+}

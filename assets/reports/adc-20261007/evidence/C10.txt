@@ -1,0 +1,63 @@
+Source ID: C10
+Original URL: https://pubmed.ncbi.nlm.nih.gov/41125110/
+Source date (attachment preserved): 2025-10-19
+Data date (attachment preserved): 
+Checked at: 2026-10-07T18:42:25+08:00
+Timezone: Asia/Taipei
+Retrieval mode: public_url_web_tool
+Read level: PubMed 原始論文公開摘要及書目；未讀期刊全文
+Access result: 正常取得原 URL 公開摘要
+Original raw artifact SHA256: null
+
+LOCATORS (actual reading positions):
+PubMed PMID 41125110；Abstract / Methods，L296–298；Findings，L299–300（turn135view0）
+書目 Epub 2025 Oct 19，L244
+
+MINIMUM VERBATIM EXCERPT (only this block is source prose):
+Grade 3 or higher treatment-related adverse events occurred in 80% of patients receiving iza-bren and 62% of those receiving chemotherapy.
+
+EXTRACTED FACTUAL FIELDS (not a reconstructed quotation):
+[
+  {
+    "locator": "Abstract Methods L296–298",
+    "trial": "BL-B01D1-303 / NCT06118333",
+    "phase": 3,
+    "centres": 55,
+    "country": "China",
+    "population": "復發或轉移鼻咽癌；至少二線全身化療，含至少一個含鉑療程，且接受過 PD-1 或 PD-L1 抑制劑",
+    "comparator": "chemotherapy",
+    "analysis": "first planned interim analysis"
+  },
+  {
+    "locator": "Abstract Findings L299",
+    "endpoint": "masked independent central review ORR",
+    "unit": "percent",
+    "iza_bren": 54.6,
+    "chemotherapy": 27.0,
+    "iza_bren_95ci": [
+      45.2,
+      63.8
+    ],
+    "chemotherapy_95ci": [
+      19.1,
+      36.0
+    ],
+    "N_total": 386,
+    "N_iza_bren": 191,
+    "N_chemotherapy": 195
+  },
+  {
+    "locator": "Abstract Findings L300",
+    "endpoint": "grade >=3 treatment-related adverse events",
+    "unit": "percent",
+    "iza_bren": 80,
+    "chemotherapy": 62,
+    "OS_maturity": "immature at data cutoff",
+    "trial_data_cutoff": null
+  }
+]
+
+SCOPE / PRECISE GAP (reviewer description, not source prose):
+支持限摘要可見之 NPC 設計、ORR 及 TRAE；不以此來源核 TNBC、ESCC 或完整論文。摘要未明列確切 data cutoff，保持未知。
+
+Web refs: turn111view1, turn135view0

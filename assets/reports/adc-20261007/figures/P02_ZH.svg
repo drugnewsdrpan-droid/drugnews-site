@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="390px" height="1735px" viewBox="0 0 390 1735" version="1.1" lang="zh-Hant">
+ <title>P02｜各自第一線PFS改善，接續療效仍需證據</title>
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title>P02｜各自第一線PFS改善，接續療效仍需證據</dc:title>
+    <dc:date>2026-10-07</dc:date>
+    <dc:description>Three separate within-trial panels from ADC-20261007-R1 F05. Bars show median PFS in months. HR and 95% CI appear as text only. Dates are FDA announcement dates, not trial data cutoffs. Pilot ADC-20261007-R1-VISUAL-PILOT2-1.0; research as of 2026-10-07.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Drugnews | Matplotlib original quantitative chart</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1735  L 390 1735  L 390 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 24 480  L 326 480  L 326 357  L 24 357  z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 24 480  L 24 357  " clip-path="url(#p76eee062cb)" style="fill: none; stroke: #e7edf2; stroke-width: 0.65; stroke-linecap: square" />
+     </g>
+     <g id="line2d_2" />
+     <g id="text_1">
+      <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: middle; fill: #475a72" x="24" y="497.347188" transform="rotate(-0 24 497.347188)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 124.666667 480  L 124.666667 357  " clip-path="url(#p76eee062cb)" style="fill: none; stroke: #e7edf2; stroke-width: 0.65; stroke-linecap: square" />
+     </g>
+     <g id="line2d_4" />
+     <g id="text_2">
+      <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: middle; fill: #475a72" x="124.666667" y="497.347188" transform="rotate(-0 124.666667 497.347188)">4</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 225.333333 480  L 225.333333 357  " clip-path="url(#p76eee062cb)" style="fill: none; stroke: #e7edf2; stroke-width: 0.65; stroke-linecap: square" />
+     </g>
+     <g id="line2d_6" />
+     <g id="text_3">
+      <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: middle; fill: #475a72" x="225.333333" y="497.347188" transform="rotate(-0 225.333333 497.347188)">8</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 326 480  L 326 357  " clip-path="url(#p76eee062cb)" style="fill: none; stroke: #e7edf2; stroke-width: 0.65; stroke-linecap: square" />
+     </g>
+     <g id="line2d_8" />
+     <g id="text_4">
+      <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: middle; fill: #475a72" x="326" y="497.347188" transform="rotate(-0 326 497.347188)">12</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2" />
+   <g id="patch_3">
+    <path d="M 24 480  L 326 480  " style="fill: none; stroke: #cad5e0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 24 405.614286  L 295.8 405.614286  L 295.8 384.528571  L 24 384.528571  z " clip-path="url(#p76eee062cb)" style="fill: #087d85" />
+   </g>
+   <g id="patch_5">
+    <path d="M 24 464.185714  L 164.933333 464.185714  L 164.933333 443.1  L 24 443.1  z " clip-path="url(#p76eee062cb)" style="fill: #8a98ac" />
+   </g>
+   <g id="text_5">
+    <text style="font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="374.407656" transform="rotate(-0 24 374.407656)">Dato-DXd</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 18px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="301.84" y="400.318147" transform="rotate(-0 301.84 400.318147)">10.8</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="432.979085" transform="rotate(-0 24 432.979085)">化療</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 18px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="170.973333" y="458.889576" transform="rotate(-0 170.973333 458.889576)">5.6</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 24 861  L 326 861  L 326 738  L 24 738  z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 24 861  L 24 738  " clip-path="url(#p8ec86c1bca)" style="fill: none; stroke: #e7edf2; stroke-width: 0.65; stroke-linecap: square" />
+     </g>
+     <g id="line2d_10" />
+     <g id="text_9">
+      <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: middle; fill: #475a72" x="24" y="878.347188" transform="rotate(-0 24 878.347188)">0</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 124.666667 861  L 124.666667 738  " clip-path="url(#p8ec86c1bca)" style="fill: none; stroke: #e7edf2; stroke-width: 0.65; stroke-linecap: square" />
+     </g>
+     <g id="line2d_12" />
+     <g id="text_10">
+      <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: middle; fill: #475a72" x="124.666667" y="878.347188" transform="rotate(-0 124.666667 878.347188)">4</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 225.333333 861  L 225.333333 738  " clip-path="url(#p8ec86c1bca)" style="fill: none; stroke: #e7edf2; stroke-width: 0.65; stroke-linecap: square" />
+     </g>
+     <g id="line2d_14" />
+     <g id="text_11">
+      <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: middle; fill: #475a72" x="225.333333" y="878.347188" transform="rotate(-0 225.333333 878.347188)">8</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 326 861  L 326 738  " clip-path="url(#p8ec86c1bca)" style="fill: none; stroke: #e7edf2; stroke-width: 0.65; stroke-linecap: square" />
+     </g>
+     <g id="line2d_16" />
+     <g id="text_12">
+      <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: middle; fill: #475a72" x="326" y="878.347188" transform="rotate(-0 326 878.347188)">12</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4" />
+   <g id="patch_7">
+    <path d="M 24 861  L 326 861  " style="fill: none; stroke: #cad5e0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_8">
+    <path d="M 24 786.614286  L 268.116667 786.614286  L 268.116667 765.528571  L 24 765.528571  z " clip-path="url(#p8ec86c1bca)" style="fill: #087d85" />
+   </g>
+   <g id="patch_9">
+    <path d="M 24 845.185714  L 197.65 845.185714  L 197.65 824.1  L 24 824.1  z " clip-path="url(#p8ec86c1bca)" style="fill: #8a98ac" />
+   </g>
+   <g id="text_13">
+    <text style="font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="755.407656" transform="rotate(-0 24 755.407656)">SG</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 18px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="274.156667" y="781.318147" transform="rotate(-0 274.156667 781.318147)">9.7</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="813.979085" transform="rotate(-0 24 813.979085)">化療</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 18px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="203.69" y="839.889576" transform="rotate(-0 203.69 839.889576)">6.9</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_10">
+    <path d="M 24 1218  L 326 1218  L 326 1095  L 24 1095  z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_9">
+     <g id="line2d_17">
+      <path d="M 24 1218  L 24 1095  " clip-path="url(#p4ce9bc0408)" style="fill: none; stroke: #e7edf2; stroke-width: 0.65; stroke-linecap: square" />
+     </g>
+     <g id="line2d_18" />
+     <g id="text_17">
+      <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: middle; fill: #475a72" x="24" y="1235.347188" transform="rotate(-0 24 1235.347188)">0</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_19">
+      <path d="M 124.666667 1218  L 124.666667 1095  " clip-path="url(#p4ce9bc0408)" style="fill: none; stroke: #e7edf2; stroke-width: 0.65; stroke-linecap: square" />
+     </g>
+     <g id="line2d_20" />
+     <g id="text_18">
+      <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: middle; fill: #475a72" x="124.666667" y="1235.347188" transform="rotate(-0 124.666667 1235.347188)">4</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_21">
+      <path d="M 225.333333 1218  L 225.333333 1095  " clip-path="url(#p4ce9bc0408)" style="fill: none; stroke: #e7edf2; stroke-width: 0.65; stroke-linecap: square" />
+     </g>
+     <g id="line2d_22" />
+     <g id="text_19">
+      <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: middle; fill: #475a72" x="225.333333" y="1235.347188" transform="rotate(-0 225.333333 1235.347188)">8</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_23">
+      <path d="M 326 1218  L 326 1095  " clip-path="url(#p4ce9bc0408)" style="fill: none; stroke: #e7edf2; stroke-width: 0.65; stroke-linecap: square" />
+     </g>
+     <g id="line2d_24" />
+     <g id="text_20">
+      <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: middle; fill: #475a72" x="326" y="1235.347188" transform="rotate(-0 326 1235.347188)">12</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6" />
+   <g id="patch_11">
+    <path d="M 24 1218  L 326 1218  " style="fill: none; stroke: #cad5e0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_12">
+    <path d="M 24 1143.614286  L 305.866667 1143.614286  L 305.866667 1122.528571  L 24 1122.528571  z " clip-path="url(#p4ce9bc0408)" style="fill: #087d85" />
+   </g>
+   <g id="patch_13">
+    <path d="M 24 1202.185714  L 220.3 1202.185714  L 220.3 1181.1  L 24 1181.1  z " clip-path="url(#p4ce9bc0408)" style="fill: #8a98ac" />
+   </g>
+   <g id="text_21">
+    <text style="font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="1112.407656" transform="rotate(-0 24 1112.407656)">SG＋pembrolizumab</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 18px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="311.906667" y="1138.318147" transform="rotate(-0 311.906667 1138.318147)">11.2</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="1170.979085" transform="rotate(-0 24 1170.979085)">化療＋pembrolizumab</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 18px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="226.34" y="1196.889576" transform="rotate(-0 226.34 1196.889576)">7.8</text>
+   </g>
+  </g>
+  <g id="line2d_25">
+   <path d="M 24 245  L 366 245  " style="fill: none; stroke: #cad5e0; stroke-width: 0.8; stroke-linecap: square" />
+  </g>
+  <g id="line2d_26">
+   <path d="M 24 626  L 366 626  " style="fill: none; stroke: #cad5e0; stroke-width: 0.8; stroke-linecap: square" />
+  </g>
+  <g id="line2d_27">
+   <path d="M 24 983  L 366 983  " style="fill: none; stroke: #cad5e0; stroke-width: 0.8; stroke-linecap: square" />
+  </g>
+  <g id="line2d_28">
+   <path d="M 24 1358  L 366 1358  " style="fill: none; stroke: #cad5e0; stroke-width: 0.8; stroke-linecap: square" />
+  </g>
+  <g id="text_25">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="34.347188" transform="rotate(-0 24 34.347188)">DRUGNEWS  /  ADC VISUAL PILOT  /  P02</text>
+  </g>
+  <g id="text_26">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="77.15125" transform="rotate(-0 24 77.15125)">各自第一線PFS改善，</text>
+  </g>
+  <g id="text_27">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="111.15125" transform="rotate(-0 24 111.15125)">接續療效仍需證據</text>
+  </g>
+  <g id="text_28">
+   <text style="font-size: 13.2px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="152.506375" transform="rotate(-0 24 152.506375)">成人不可切除局部晚期／轉移性TNBC</text>
+  </g>
+  <g id="text_29">
+   <text style="font-size: 13.2px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="173.506375" transform="rotate(-0 24 173.506375)">未接受該晚期階段全身治療</text>
+  </g>
+  <g id="text_30">
+   <text style="font-weight: 700; font-size: 13.2px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #087d85" x="24" y="223.533187" transform="rotate(-0 24 223.533187)">三個獨立試驗 · 各自保留原對照</text>
+  </g>
+  <g id="text_31">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #087d85" x="24" y="274.565469" transform="rotate(-0 24 274.565469)">01</text>
+  </g>
+  <g id="text_32">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="59" y="275.363437" transform="rotate(-0 59 275.363437)">TROPION-Breast02</text>
+  </g>
+  <g id="text_33">
+   <text style="font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="305.972969" transform="rotate(-0 24 305.972969)">不適合 PD-(L)1 治療</text>
+  </g>
+  <g id="text_34">
+   <text style="font-weight: 700; font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="331.07" transform="rotate(-0 24 331.07)">N = 644 (FDA)</text>
+  </g>
+  <g id="text_35">
+   <text style="font-size: 13.2px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="150" y="330.506375" transform="rotate(-0 150 330.506375)">中位 PFS（月；BICR）</text>
+  </g>
+  <g id="text_36">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="530.171562" transform="rotate(-0 24 530.171562)">PFS HR 0.57 · 95% CI 0.47–0.69</text>
+  </g>
+  <g id="text_37">
+   <text style="font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="558.745156" transform="rotate(-0 24 558.745156)">中位 OS：23.7 vs 18.7 月</text>
+  </g>
+  <g id="text_38">
+   <text style="font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="580.745156" transform="rotate(-0 24 580.745156)">OS HR 0.79（95% CI 0.64–0.98）</text>
+  </g>
+  <g id="text_39">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="613.347188" transform="rotate(-0 24 613.347188)">FDA 2026-05-22 · [C03]</text>
+  </g>
+  <g id="text_40">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #087d85" x="24" y="655.565469" transform="rotate(-0 24 655.565469)">02</text>
+  </g>
+  <g id="text_41">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="59" y="656.363437" transform="rotate(-0 59 656.363437)">ASCENT-03</text>
+  </g>
+  <g id="text_42">
+   <text style="font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="686.972969" transform="rotate(-0 24 686.972969)">不適合 PD-(L)1 治療</text>
+  </g>
+  <g id="text_43">
+   <text style="font-weight: 700; font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="712.07" transform="rotate(-0 24 712.07)">N = 558 (FDA)</text>
+  </g>
+  <g id="text_44">
+   <text style="font-size: 13.2px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="150" y="711.506375" transform="rotate(-0 150 711.506375)">中位 PFS（月；BICR）</text>
+  </g>
+  <g id="text_45">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="911.171563" transform="rotate(-0 24 911.171563)">PFS HR 0.62 · 95% CI 0.50–0.77</text>
+  </g>
+  <g id="text_46">
+   <text style="font-size: 13.2px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="939.506375" transform="rotate(-0 24 939.506375)">OS：FDA核准分析時未成熟</text>
+  </g>
+  <g id="text_47">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="974.347188" transform="rotate(-0 24 974.347188)">FDA 2026-06-24 · [C06]</text>
+  </g>
+  <g id="text_48">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #087d85" x="24" y="1012.565469" transform="rotate(-0 24 1012.565469)">03</text>
+  </g>
+  <g id="text_49">
+   <text style="font-weight: 700; font-size: 16.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="59" y="1012.166484" transform="rotate(-0 59 1012.166484)">ASCENT-04 / KEYNOTE-D19</text>
+  </g>
+  <g id="text_50">
+   <text style="font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="1043.745156" transform="rotate(-0 24 1043.745156)">PD-L1 CPS≥10</text>
+  </g>
+  <g id="text_51">
+   <text style="font-weight: 700; font-size: 13.5px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="1069.07" transform="rotate(-0 24 1069.07)">N = 443 (FDA)</text>
+  </g>
+  <g id="text_52">
+   <text style="font-size: 13.2px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="150" y="1068.506375" transform="rotate(-0 150 1068.506375)">中位 PFS（月；BICR）</text>
+  </g>
+  <g id="text_53">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #172b4d" x="24" y="1268.171563" transform="rotate(-0 24 1268.171563)">PFS HR 0.65 · 95% CI 0.51–0.84</text>
+  </g>
+  <g id="text_54">
+   <text style="font-size: 13.2px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="1296.506375" transform="rotate(-0 24 1296.506375)">OS：FDA核准分析時未成熟</text>
+  </g>
+  <g id="text_55">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="1331.347188" transform="rotate(-0 24 1331.347188)">FDA 2026-06-24 · [C06]</text>
+  </g>
+  <g id="text_56">
+   <text style="font-weight: 700; font-size: 14.2px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #087d85" x="24" y="1387.331156" transform="rotate(-0 24 1387.331156)">各試驗相對自身對照的PFS改善，</text>
+  </g>
+  <g id="text_57">
+   <text style="font-weight: 700; font-size: 14.2px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #087d85" x="24" y="1410.183156" transform="rotate(-0 24 1410.183156)">不能回答既往Topo-I ADC失敗後</text>
+  </g>
+  <g id="text_58">
+   <text style="font-weight: 700; font-size: 14.2px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #087d85" x="24" y="1431.331156" transform="rotate(-0 24 1431.331156)">的接續療效。</text>
+  </g>
+  <g id="text_59">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="1477.347188" transform="rotate(-0 24 1477.347188)">PFS＝無惡化存活期；OS＝總存活期</text>
+  </g>
+  <g id="text_60">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="1499.023594" transform="rotate(-0 24 1499.023594)">TNBC＝三陰性乳癌；SG＝sacituzumab govitecan</text>
+  </g>
+  <g id="text_61">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="1519.347188" transform="rotate(-0 24 1519.347188)">BICR＝盲性獨立中央審查</text>
+  </g>
+  <g id="text_62">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="1540.347188" transform="rotate(-0 24 1540.347188)">N＝FDA公告比較人數</text>
+  </g>
+  <g id="text_63">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="1561.347188" transform="rotate(-0 24 1561.347188)">HR＝風險比；CI＝信賴區間</text>
+  </g>
+  <g id="text_64">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="1635.347188" transform="rotate(-0 24 1635.347188)">研究截至 2026-10-07</text>
+  </g>
+  <g id="text_65">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="1657.4" transform="rotate(-0 24 1657.4)">來源 [C03, C06, C18–C20]</text>
+  </g>
+  <g id="text_66">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="1679.347188" transform="rotate(-0 24 1679.347188)">圖中日期為FDA公告日，非試驗資料截點</text>
+  </g>
+  <g id="text_67">
+   <text style="font-size: 13px; font-family: 'Noto Sans TC'; text-anchor: start; fill: #475a72" x="24" y="1701.347188" transform="rotate(-0 24 1701.347188)">ADC-20261007-R1-VISUAL-PILOT2-1.0</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p76eee062cb">
+   <rect x="24" y="357" width="302" height="123" />
+  </clipPath>
+  <clipPath id="p8ec86c1bca">
+   <rect x="24" y="738" width="302" height="123" />
+  </clipPath>
+  <clipPath id="p4ce9bc0408">
+   <rect x="24" y="1095" width="302" height="123" />
+  </clipPath>
+ </defs>
+<metadata id="pilot-provenance">{"research_version": "ADC-20261007-R1", "pilot_version": "ADC-20261007-R1-VISUAL-PILOT2-1.0", "figure_id": "P02", "language": "ZH", "research_as_of": "2026-10-07", "source_ids": ["C03", "C06", "C18", "C19", "C20"], "source_urls": {"C03": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-triple-negative-breast-cancer", "C06": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line", "C18": "https://clinicaltrials.gov/study/NCT05374512", "C19": "https://clinicaltrials.gov/study/NCT05382299", "C20": "https://clinicaltrials.gov/study/NCT05382286"}, "input_figure": "F05", "panels": [{"panel": "TB02", "x_axis": {"min": 0, "max": 12, "unit": "months"}, "bar_values": [10.8, 5.6], "hazard_ratio_display": "text only; no error bars", "source_ids": ["C03", "C18"], "n_displayed": 644, "fda_announcement_date": "2026-05-22"}, {"panel": "ASCENT03", "x_axis": {"min": 0, "max": 12, "unit": "months"}, "bar_values": [9.7, 6.9], "hazard_ratio_display": "text only; no error bars", "source_ids": ["C06", "C19"], "n_displayed": 558, "fda_announcement_date": "2026-06-24"}, {"panel": "ASCENT04", "x_axis": {"min": 0, "max": 12, "unit": "months"}, "bar_values": [11.2, 7.8], "hazard_ratio_display": "text only; no error bars", "source_ids": ["C06", "C20"], "n_displayed": 443, "fda_announcement_date": "2026-06-24"}]}</metadata></svg>

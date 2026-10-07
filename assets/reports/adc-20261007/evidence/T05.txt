@@ -1,0 +1,28 @@
+Source: T05
+Original URL: https://glyconex.com.tw/news/2026/2026-08-03-gnx1021-first-patient-dosed
+Title: GlycoNex Doses First Patient in Phase 1 Trial of GNX1021
+Original source_date: 2026-08-03
+Original data_date: 2026-08-03
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- Dateline / first patient: web lines 14–18
+- Target / trial: web lines 20–23
+Minimum verbatim excerpts:
+- web line 17: first patient has been dosed in Japan
+- web line 20: branched Lewis B/Y (bLeB/Y) glycan antigen
+- web line 18: First-in-Human (FIH) Phase 1 clinical trial of GNX1021
+Numeric / structured original fields (not market estimates):
+{"field": "announcement_date", "value": "2026-08-03", "unit": "date", "locator": "web lines 14 and 18"}
+{"field": "trial_phase", "value": 1, "unit": "phase", "locator": "web lines 18 and 22"}
+{"field": "first_patient_dosed_country", "value": "Japan", "unit": "geography", "locator": "web lines 17–18"}
+Supported scope (author paraphrase, not original quotation):
+公司公告直接支持GNX1021標的bLeB/Y、在日本一期首次人體研究首位給藥；後續安全性、PK與活性仍為試驗評估目標。
+Precise evidence gap / boundary:
+本公告未提GNX102或其裸抗體身份，不能以這份來源直接證明該舊分子的種類；GNX1021一期節點與bLeB/Y標的不受此缺口影響。未另核監管或登錄。
+Web references: turn115view0

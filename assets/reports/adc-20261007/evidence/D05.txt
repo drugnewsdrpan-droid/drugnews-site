@@ -1,0 +1,42 @@
+Source ID: D05
+Original URL: https://www.merck.com/news/patritumab-deruxtecan-biologics-license-application-for-patients-with-previously-treated-locally-advanced-or-metastatic-egfr-mutated-non-small-cell-lung-cancer-voluntarily-withdrawn/
+Title (supplied): Patritumab Deruxtecan BLA Voluntarily Withdrawn
+Source date (retained): 2025-05-29
+Data date (retained): 2025-05-29
+Checked at: 2026-10-07T18:42:41+08:00
+Timezone: Asia/Taipei
+Checked-at meaning: current review of returned public web-tool extraction; not the historical network-fetch timestamp.
+Retrieval mode: public_web_tool_readback_prior_ref; prior saved web_ref was opened and returned the specified original public URL.
+Prior web ref: turn35view6
+Current web ref: turn112view0
+Read level: relevant primary-source paragraphs in web text extraction; complete original HTML/PDF bytes not saved or hashed.
+Original network read time: null; not exposed by the tool. Original artifact SHA256: null.
+Locator: Opening withdrawal paragraphs; retrieved lines 94–105, especially 96–98.
+Minimum verbatim excerpts (aggregate <=25 English words):
+- OS did not meet statistical significance
+Excerpt word count: 6
+Factual extraction (values, dates, statuses; not additional prose quotations):
+[
+  {
+    "field": "announcement_date",
+    "original_value": "May 29, 2025",
+    "unit_or_role": "calendar date",
+    "locator": "L94–95"
+  },
+  {
+    "field": "OS_status",
+    "original_value": "did not meet statistical significance",
+    "unit_or_role": "categorical trial result; no new numeric estimate extracted",
+    "locator": "L97"
+  },
+  {
+    "field": "withdrawal_status",
+    "original_value": "voluntarily withdrawn",
+    "unit_or_role": "regulatory application status described by companies",
+    "locator": "L96"
+  }
+]
+Support scope: Company announced HER3-DXd BLA withdrawal after non-significant HERTHENA-Lung02 OS and FDA discussions; announcement explicitly separates this from the June 2024 manufacturing CRL.
+Precise gap: No additional source-specific factual gap found within the assigned contribution; multi-source rows retain their other citations.
+Source/data dates are supplied baseline metadata, not replaced by this check time. No alternate route, login, headers, private endpoint or payment used.
+This small evidence record is an excerpt/factual extraction, not a saved full article.

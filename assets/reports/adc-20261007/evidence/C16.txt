@@ -1,0 +1,62 @@
+Source ID: C16
+Original URL: https://www.astrazeneca.com/content/dam/az/PDF/2026/h1q2/H1-and-Q2-2026-results-clinical-trials-appendix.pdf
+Source date (attachment preserved): 2026-07-27
+Data date (attachment preserved): 2026-07-27
+Checked at: 2026-10-07T18:42:25+08:00
+Timezone: Asia/Taipei
+Retrieval mode: public_url_web_tool
+Read level: 154頁公司公開 PDF，只核 ADC 必要試驗列：印刷第15–16頁（PDF index14–15）及日期；未分析全份
+Access result: 正常取得原 URL PDF 文字；未保存或聲稱下載全 PDF
+Original raw artifact SHA256: null
+
+LOCATORS (actual reading positions):
+封面 H1 2026 Results Update / 27 July 2026，L0–2
+印刷第15頁，TROPION-Breast03，L850–866
+印刷第16頁：AVANZAR L909–919；TROPION-Lung07 L921–936；Lung08 L938–952；Lung15 L989–1006
+
+MINIMUM VERBATIM EXCERPT (only this block is source prose):
+Data anticipated: H1 2027
+
+EXTRACTED FACTUAL FIELDS (not a reconstructed quotation):
+[
+  {
+    "trial": "AVANZAR",
+    "locator": "印刷p16 L909–919",
+    "date_guidance": "H2 2026",
+    "kind": "company anticipated data",
+    "population": "1L 局部晚期/轉移 NSCLC，無可作用基因改變"
+  },
+  {
+    "trial": "TROPION-Lung15",
+    "locator": "印刷p16 L989–1006",
+    "date_guidance": "H2 2026",
+    "kind": "company anticipated data",
+    "population": "2L EGFRm NSCLC，先前 Tagrisso 後進展"
+  },
+  {
+    "trial": "TROPION-Lung07",
+    "locator": "印刷p16 L921–936",
+    "date_guidance": "H1 2027",
+    "kind": "company anticipated data",
+    "population": "1L PD-L1 TC <50% NSCLC，無可作用基因改變"
+  },
+  {
+    "trial": "TROPION-Lung08",
+    "locator": "印刷p16 L938–952",
+    "date_guidance": "H1 2027",
+    "kind": "company anticipated data",
+    "population": "1L PD-L1 TC >=50% 非鱗狀 NSCLC，無可作用基因改變"
+  },
+  {
+    "trial": "TROPION-Breast03",
+    "locator": "印刷p15 L850–866",
+    "date_guidance": "H2 2027",
+    "kind": "company anticipated data",
+    "population": "術前治療後未達 pCR 的 I–III 期 TNBC"
+  }
+]
+
+SCOPE / PRECISE GAP (reviewer description, not source prose):
+現版直接支持五項 anticipated data 時窗；不能單憑本版證明 Lung07 曾從舊 H2 2026 改期。未查其他年份原始版本，建議僅刪舊版比較子句。
+
+Web refs: turn116view4, turn118view2, turn118view4, turn133view3, turn134view0

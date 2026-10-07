@@ -1,0 +1,31 @@
+Source: T03
+Original URL: https://clinicaltrials.gov/study/NCT07124117
+Title: ClinicalTrials.gov — NCT07124117 / OBI-902
+Original source_date: 2025-08-15
+Original data_date: 2026-01-05
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_registry_api
+Read level: targeted_official_registry_API_fields
+Access result: HTTP 200, official API JSON read
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The .api.json response bytes were saved separately and have their own original-artifact SHA256.
+Locators:
+- Official ClinicalTrials.gov API: $.protocolSection.identificationModule.nctId; $.protocolSection.statusModule.overallStatus; $.protocolSection.designModule.phases; $.protocolSection.designModule.enrollmentInfo
+- Dates/results: $.protocolSection.statusModule.studyFirstPostDateStruct; lastUpdatePostDateStruct; startDateStruct; primaryCompletionDateStruct; $.hasResults
+Minimum verbatim excerpts:
+- $.protocolSection.statusModule.overallStatus: RECRUITING
+Numeric / structured original fields (not market estimates):
+{"field": "nct_id", "value": "NCT07124117", "unit": "identifier", "locator": "$.protocolSection.identificationModule.nctId"}
+{"field": "phase", "value": ["PHASE1", "PHASE2"], "unit": "phase", "locator": "$.protocolSection.designModule.phases"}
+{"field": "enrollment", "value": 147, "unit": "persons", "locator": "$.protocolSection.designModule.enrollmentInfo", "basis": "ESTIMATED"}
+{"field": "study_start", "value": "2025-08-04", "unit": "date", "locator": "$.protocolSection.statusModule.startDateStruct", "basis": "ACTUAL"}
+{"field": "primary_completion", "value": "2029-02-08", "unit": "date", "locator": "$.protocolSection.statusModule.primaryCompletionDateStruct", "basis": "ESTIMATED"}
+{"field": "hasResults", "value": false, "unit": "boolean", "locator": "$.hasResults"}
+{"field": "study_first_posted", "value": "2025-08-15", "unit": "date", "locator": "$.protocolSection.statusModule.studyFirstPostDateStruct"}
+{"field": "last_update_posted", "value": "2026-01-05", "unit": "date", "locator": "$.protocolSection.statusModule.lastUpdatePostDateStruct"}
+Supported scope (author paraphrase, not original quotation):
+OBI-902官方登錄支持已進入人體研究且收案中；一期／二期，估計收案與完成日期，不是療效結果。
+Precise evidence gap / boundary:
+此登錄不單獨支持GlycOBI工程差異；T01支持技術設計。沒有把尚未公布的PK、劑量或活性寫成已證實。
+Web references: 

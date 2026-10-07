@@ -1,0 +1,27 @@
+Source: T11
+Original URL: https://www.formosalab.com/tw/adc
+Title: 台耀化學 — 抗體藥物複合體廠房
+Original source_date: unknown
+Original data_date: unknown
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- ADC 實驗室: web lines 301–308
+- ADC 生產製造: web lines 312–319; listed manufacturing equipment
+Minimum verbatim excerpts:
+- web line 317: 30-200L Bioconjugation reactor
+- web line 318: ÄKTA ready system
+- web line 319: TFF and chromatography technology
+Numeric / structured original fields (not market estimates):
+{"field": "bioconjugation_reactor_volume_min", "value": 30, "unit": "L", "locator": "web line 317", "basis": "company-listed nominal reactor volume"}
+{"field": "bioconjugation_reactor_volume_max", "value": 200, "unit": "L", "locator": "web line 317", "basis": "company-listed nominal reactor volume"}
+Supported scope (author paraphrase, not original quotation):
+公司設施頁明列30–200 L偶聯反應器、ÄKTA、TFF與層析；只支持設備規格和所述服務範圍。
+Precise evidence gap / boundary:
+原頁未標更新日；容積不是每批合格ADC公斤數、年產量、稼動率、商業銷量或營收。
+Web references: turn124view1

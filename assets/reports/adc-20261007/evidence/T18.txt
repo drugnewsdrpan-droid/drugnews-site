@@ -1,0 +1,26 @@
+Source: T18
+Original URL: https://www.obipharma.com/investor-overview/corporate-overview/
+Title: OBI Pharma — Corporate Overview
+Original source_date: unknown
+Original data_date: unknown
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- Corporate Overview / OBI Pharma, Inc.: web lines 126–132; Stock Code, Market, Date of Listing rows
+Minimum verbatim excerpts:
+- web lines 127–128: Stock Code
+- web line 128: Taipei Exchange
+Numeric / structured original fields (not market estimates):
+{"field": "stock_code", "value": "4174.TWO", "unit": "security identifier", "locator": "web line 127"}
+{"field": "market", "value": "Taipei Exchange", "unit": "exchange", "locator": "web line 128"}
+{"field": "listing_date", "value": "2015-03-23", "unit": "date", "locator": "web line 132"}
+Supported scope (author paraphrase, not original quotation):
+官方公司資訊表列4174.TWO、Taipei Exchange，支持浩鼎上櫃身分與4174。
+Precise evidence gap / boundary:
+未標頁面更新日；這是公司官方上市櫃資訊，不延伸成ADC臨床或合作證據。
+Web references: turn123view2

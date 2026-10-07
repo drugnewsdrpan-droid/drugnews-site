@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1170" height="3534" viewBox="0 0 390 1178" role="img" aria-labelledby="title desc">
+<title id="title">合作、供應與組織持有，是不同承諾</title>
+<desc id="desc">第一三共以不同DXd合作資產連結AstraZeneca及Merck，負責所列資產的製造與供應，並保留日本獨家權利。另一個分開的區域顯示Gilead完成收購Tubulis。圖中僅呈現三個已披露關係。</desc>
+<defs>
+ <marker id="arrowTeal" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#147E83" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+ <marker id="arrowOrange" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#B65C35" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect width="390" height="1178" fill="white"/>
+<g font-family="'Noto Sans TC','Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#17344A">
+<text x="20" y="29" font-size="13" font-weight="700" text-anchor="start" fill="#147E83">P04  ·  企業分工</text>
+<text x="20" y="61" font-size="23" font-weight="700" text-anchor="start" fill="#17344A">合作、供應與組織持有</text>
+<text x="20" y="92" font-size="23" font-weight="700" text-anchor="start" fill="#17344A">是不同承諾</text>
+<text x="20" y="119" font-size="14" font-weight="400" text-anchor="start" fill="#516578">選列三個已披露關係</text>
+<ellipse cx="195" cy="214" rx="128" ry="66" fill="#EAF6F4" stroke="#147E83" stroke-width="1.6"/>
+<text x="195" y="191" font-size="22" font-weight="700" text-anchor="middle" fill="#17344A">第一三共</text>
+<text x="195" y="218" font-size="16" font-weight="500" text-anchor="middle" fill="#17344A">所列DXd合作資產</text>
+<text x="195" y="244" font-size="16" font-weight="700" text-anchor="middle" fill="#147E83">製造與供應</text>
+<path d="M104 261 C57 282 20 298 20 337 L20 423 C20 450 56 459 74 477" fill="none" stroke="#147E83" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" marker-start="url(#arrowTeal)" marker-end="url(#arrowTeal)"/>
+<path d="M286 261 C333 282 370 298 370 337 L370 423 C370 450 334 459 316 477" fill="none" stroke="#147E83" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" marker-start="url(#arrowTeal)" marker-end="url(#arrowTeal)"/>
+<text x="106" y="320" font-size="17" font-weight="700" text-anchor="middle" fill="#17344A">Enhertu</text>
+<text x="106" y="344" font-size="15" font-weight="500" text-anchor="middle" fill="#516578">2019-03</text>
+<text x="106" y="380" font-size="17" font-weight="700" text-anchor="middle" fill="#17344A">Datroway</text>
+<text x="106" y="404" font-size="15" font-weight="500" text-anchor="middle" fill="#516578">2020-07</text>
+<text x="106" y="440" font-size="14" font-weight="700" text-anchor="middle" fill="#147E83">[R07]</text>
+<text x="284" y="331" font-size="17" font-weight="700" text-anchor="middle" fill="#17344A">HER3-DXd</text>
+<text x="284" y="357" font-size="16" font-weight="700" text-anchor="middle" fill="#17344A">I-DXd / R-DXd</text>
+<text x="284" y="398" font-size="15" font-weight="500" text-anchor="middle" fill="#516578">2023-10-19</text>
+<text x="284" y="440" font-size="14" font-weight="700" text-anchor="middle" fill="#147E83">[D01]</text>
+<ellipse cx="106" cy="531" rx="82" ry="59" fill="#FFFFFF" stroke="#147E83" stroke-width="1.6"/>
+<ellipse cx="284" cy="531" rx="82" ry="59" fill="#FFFFFF" stroke="#147E83" stroke-width="1.6"/>
+<text x="106" y="511" font-size="18" font-weight="700" text-anchor="middle" fill="#17344A">AstraZeneca</text>
+<text x="284" y="511" font-size="18" font-weight="700" text-anchor="middle" fill="#17344A">Merck／MSD</text>
+<text x="106" y="541" font-size="16" font-weight="500" text-anchor="middle" fill="#17344A">共同開發</text>
+<text x="106" y="565" font-size="16" font-weight="500" text-anchor="middle" fill="#17344A">與商業化</text>
+<text x="284" y="541" font-size="16" font-weight="500" text-anchor="middle" fill="#17344A">共同開發</text>
+<text x="284" y="565" font-size="16" font-weight="500" text-anchor="middle" fill="#17344A">與商業化</text>
+<text x="195" y="627" font-size="15" font-weight="500" text-anchor="middle" fill="#516578">兩組合作：日本以外共同開發／商業化</text>
+<text x="195" y="655" font-size="15" font-weight="500" text-anchor="middle" fill="#516578">日本獨家權利由第一三共保留</text>
+<path d="M20 710 H370" fill="none" stroke="#CCD9DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="752" font-size="19" font-weight="700" text-anchor="start" fill="#17344A">收購：把資產、平台與團隊納入</text>
+<ellipse cx="83" cy="856" rx="61" ry="61" fill="#FFF0E8" stroke="#B65C35" stroke-width="1.6"/>
+<ellipse cx="306" cy="856" rx="64" ry="61" fill="#FFF0E8" stroke="#B65C35" stroke-width="1.6"/>
+<text x="83" y="847" font-size="21" font-weight="700" text-anchor="middle" fill="#17344A">Gilead</text>
+<text x="83" y="876" font-size="15" font-weight="500" text-anchor="middle" fill="#17344A">收購方</text>
+<text x="306" y="835" font-size="21" font-weight="700" text-anchor="middle" fill="#17344A">Tubulis</text>
+<text x="306" y="862" font-size="15" font-weight="500" text-anchor="middle" fill="#17344A">ADC平台</text>
+<text x="306" y="885" font-size="15" font-weight="500" text-anchor="middle" fill="#17344A">資產與團隊</text>
+<path d="M151 856 L235 856" fill="none" stroke="#B65C35" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowOrange)"/>
+<text x="195" y="827" font-size="14" font-weight="700" text-anchor="middle" fill="#B65C35">2026-05-21</text>
+<text x="195" y="887" font-size="15" font-weight="700" text-anchor="middle" fill="#B65C35">完成收購</text>
+<text x="195" y="915" font-size="14" font-weight="700" text-anchor="middle" fill="#B65C35">[D16]</text>
+<text x="195" y="960" font-size="15" font-weight="500" text-anchor="middle" fill="#17344A">Tubulis資產：TUB-040 / TUB-030</text>
+<text x="195" y="989" font-size="14" font-weight="500" text-anchor="middle" fill="#516578">獨立的組織持有關係</text>
+<path d="M20 1023 H370" fill="none" stroke="#CCD9DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="1057" font-size="17" font-weight="700" text-anchor="start" fill="#17344A">資產、地域權利與供應責任，</text>
+<text x="20" y="1084" font-size="17" font-weight="700" text-anchor="start" fill="#17344A">決定合作分工的價值。</text>
+<text x="20" y="1124" font-size="13" font-weight="400" text-anchor="start" fill="#516578">圖中標示原合作／交割日期。</text>
+<text x="20" y="1147" font-size="13" font-weight="400" text-anchor="start" fill="#516578">資料截至2026-10-07｜D01 · R07 · D16</text>
+</g></svg>

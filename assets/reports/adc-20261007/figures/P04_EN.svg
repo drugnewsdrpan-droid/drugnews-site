@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1170" height="3534" viewBox="0 0 390 1178" role="img" aria-labelledby="title desc">
+<title id="title">Alliances, supply and ownership are different commitments</title>
+<desc id="desc">Daiichi Sankyo connects its partnered DXd assets to AstraZeneca and Merck. It supplies the listed assets and retains exclusive Japanese rights. A separate arrow shows Gilead’s completed acquisition of Tubulis. Only three disclosed relationships are shown.</desc>
+<defs>
+ <marker id="arrowTeal" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#147E83" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+ <marker id="arrowOrange" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#B65C35" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect width="390" height="1178" fill="white"/>
+<g font-family="'Noto Sans TC','Noto Sans CJK TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#17344A">
+<text x="20" y="29" font-size="13" font-weight="700" text-anchor="start" fill="#147E83">P04  ·  COMPANY ROLES</text>
+<text x="20" y="61" font-size="21" font-weight="700" text-anchor="start" fill="#17344A">Alliances, supply and ownership</text>
+<text x="20" y="89" font-size="21" font-weight="700" text-anchor="start" fill="#17344A">are different commitments</text>
+<text x="20" y="119" font-size="14" font-weight="400" text-anchor="start" fill="#516578">Three selected, disclosed relationships</text>
+<ellipse cx="195" cy="214" rx="128" ry="66" fill="#EAF6F4" stroke="#147E83" stroke-width="1.6"/>
+<text x="195" y="191" font-size="22" font-weight="700" text-anchor="middle" fill="#17344A">Daiichi Sankyo</text>
+<text x="195" y="218" font-size="16" font-weight="500" text-anchor="middle" fill="#17344A">Partnered DXd assets</text>
+<text x="195" y="244" font-size="16" font-weight="700" text-anchor="middle" fill="#147E83">Manufacturing + supply</text>
+<path d="M104 261 C57 282 20 298 20 337 L20 423 C20 450 56 459 74 477" fill="none" stroke="#147E83" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" marker-start="url(#arrowTeal)" marker-end="url(#arrowTeal)"/>
+<path d="M286 261 C333 282 370 298 370 337 L370 423 C370 450 334 459 316 477" fill="none" stroke="#147E83" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" marker-start="url(#arrowTeal)" marker-end="url(#arrowTeal)"/>
+<text x="106" y="320" font-size="17" font-weight="700" text-anchor="middle" fill="#17344A">Enhertu</text>
+<text x="106" y="344" font-size="15" font-weight="500" text-anchor="middle" fill="#516578">2019-03</text>
+<text x="106" y="380" font-size="17" font-weight="700" text-anchor="middle" fill="#17344A">Datroway</text>
+<text x="106" y="404" font-size="15" font-weight="500" text-anchor="middle" fill="#516578">2020-07</text>
+<text x="106" y="440" font-size="14" font-weight="700" text-anchor="middle" fill="#147E83">[R07]</text>
+<text x="284" y="331" font-size="17" font-weight="700" text-anchor="middle" fill="#17344A">HER3-DXd</text>
+<text x="284" y="357" font-size="16" font-weight="700" text-anchor="middle" fill="#17344A">I-DXd / R-DXd</text>
+<text x="284" y="398" font-size="15" font-weight="500" text-anchor="middle" fill="#516578">2023-10-19</text>
+<text x="284" y="440" font-size="14" font-weight="700" text-anchor="middle" fill="#147E83">[D01]</text>
+<ellipse cx="106" cy="531" rx="82" ry="59" fill="#FFFFFF" stroke="#147E83" stroke-width="1.6"/>
+<ellipse cx="284" cy="531" rx="82" ry="59" fill="#FFFFFF" stroke="#147E83" stroke-width="1.6"/>
+<text x="106" y="511" font-size="18" font-weight="700" text-anchor="middle" fill="#17344A">AstraZeneca</text>
+<text x="284" y="511" font-size="18" font-weight="700" text-anchor="middle" fill="#17344A">Merck / MSD</text>
+<text x="106" y="538" font-size="13.5" font-weight="500" text-anchor="middle" fill="#17344A">Co-development</text>
+<text x="106" y="561" font-size="13.5" font-weight="500" text-anchor="middle" fill="#17344A">commercialization</text>
+<text x="284" y="538" font-size="13.5" font-weight="500" text-anchor="middle" fill="#17344A">Co-development</text>
+<text x="284" y="561" font-size="13.5" font-weight="500" text-anchor="middle" fill="#17344A">commercialization</text>
+<text x="195" y="626" font-size="14" font-weight="500" text-anchor="middle" fill="#516578">Both alliances: outside-Japan</text>
+<text x="195" y="651" font-size="14" font-weight="500" text-anchor="middle" fill="#516578">co-development / commercialization</text>
+<text x="195" y="676" font-size="14" font-weight="500" text-anchor="middle" fill="#516578">Japan: exclusive Daiichi Sankyo rights</text>
+<path d="M20 710 H370" fill="none" stroke="#CCD9DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="752" font-size="18" font-weight="700" text-anchor="start" fill="#17344A">Ownership of assets, platform and team</text>
+<ellipse cx="83" cy="856" rx="61" ry="61" fill="#FFF0E8" stroke="#B65C35" stroke-width="1.6"/>
+<ellipse cx="306" cy="856" rx="64" ry="61" fill="#FFF0E8" stroke="#B65C35" stroke-width="1.6"/>
+<text x="83" y="847" font-size="21" font-weight="700" text-anchor="middle" fill="#17344A">Gilead</text>
+<text x="83" y="876" font-size="15" font-weight="500" text-anchor="middle" fill="#17344A">Acquirer</text>
+<text x="306" y="835" font-size="21" font-weight="700" text-anchor="middle" fill="#17344A">Tubulis</text>
+<text x="306" y="861" font-size="13.5" font-weight="500" text-anchor="middle" fill="#17344A">ADC platform</text>
+<text x="306" y="883" font-size="13.5" font-weight="500" text-anchor="middle" fill="#17344A">assets + team</text>
+<path d="M151 856 L235 856" fill="none" stroke="#B65C35" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowOrange)"/>
+<text x="195" y="827" font-size="14" font-weight="700" text-anchor="middle" fill="#B65C35">2026-05-21</text>
+<text x="195" y="887" font-size="13.5" font-weight="700" text-anchor="middle" fill="#B65C35">Completed</text>
+<text x="195" y="915" font-size="14" font-weight="700" text-anchor="middle" fill="#B65C35">[D16]</text>
+<text x="195" y="960" font-size="15" font-weight="500" text-anchor="middle" fill="#17344A">Tubulis assets: TUB-040 / TUB-030</text>
+<text x="195" y="989" font-size="14" font-weight="500" text-anchor="middle" fill="#516578">Separate ownership relationship</text>
+<path d="M20 1023 H370" fill="none" stroke="#CCD9DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="1057" font-size="15" font-weight="700" text-anchor="start" fill="#17344A">Assets, rights and supply responsibilities</text>
+<text x="20" y="1082" font-size="15" font-weight="700" text-anchor="start" fill="#17344A">explain the value of an alliance.</text>
+<text x="20" y="1124" font-size="13" font-weight="400" text-anchor="start" fill="#516578">Agreement and completion dates are shown.</text>
+<text x="20" y="1147" font-size="13" font-weight="400" text-anchor="start" fill="#516578">Evidence cutoff: 2026-10-07 | D01 · R07 · D16</text>
+</g></svg>

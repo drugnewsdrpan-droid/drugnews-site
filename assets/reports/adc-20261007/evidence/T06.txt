@@ -1,0 +1,27 @@
+Source: T06
+Original URL: https://www.formosapharma.com/formosa-pharmaceuticals-files-clinical-trial-application-for-tsy-110-an-antibody-drug-conjugate-biosimilar-targeting-her2-positive-breast-cancers/
+Title: Formosa Pharmaceuticals Files Clinical Trial Application for TSY-110, an Antibody-Drug Conjugate Biosimilar Targeting HER2-Positive Breast Cancers
+Original source_date: 2026-08-28
+Original data_date: 2026-08-28
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- Dateline / CTA / trial scope: web lines 90–91
+- About TSY-110: web lines 94–96; EirGenix profile lines 104–106
+Minimum verbatim excerpts:
+- web line 90: submission of a Clinical Trial Application (CTA) to European regulatory authorities
+- web line 95: biosimilar co-developed by Formosa Pharmaceuticals and EirGenix
+Numeric / structured original fields (not market estimates):
+{"field": "announcement_date", "value": "2026-08-28", "unit": "date", "locator": "web line 90"}
+{"field": "candidate_alias", "value": "EG12043", "unit": "identifier", "locator": "web line 95"}
+{"field": "reference_product", "value": "Kadcyla / ado-trastuzumab emtansine", "unit": "product identity", "locator": "web line 90"}
+Supported scope (author paraphrase, not original quotation):
+2026-08-28公司公告歐洲CTA已遞交；TSY-110亦稱EG12043，台新藥／台康共同開發，參照Kadcyla。試驗擬比較PK、安全性與免疫原性。
+Precise evidence gap / boundary:
+支持CTA遞交與公司描述的臨床前相似性，不支持CTA已獲准、已給藥或相似藥已核准。未以頁面市场數字扩充本次範圍。
+Web references: turn115view1

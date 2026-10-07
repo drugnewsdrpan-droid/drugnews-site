@@ -1,0 +1,23 @@
+Source ID: R05
+Original URL: https://pubmed.ncbi.nlm.nih.gov/26076429/
+Source date (attachment preserved): 2015-06-15
+Data date (attachment preserved): 2015年臨床前研究
+Checked at: 2026-10-07T18:42:25+08:00
+Timezone: Asia/Taipei
+Retrieval mode: public_url_web_tool_failed
+Read level: 本輪未取得 PubMed 摘要；本地 foundations.json 的 claims 為作者摘要，未當原文
+Access result: 直接原 URL 回 Internal Error；原已用 turn40view0 讀回只有 HHS Vulnerability Disclosure 空殼，沒有摘要。停止，未用替代 route。
+Original raw artifact SHA256: null
+
+LOCATORS (actual reading positions):
+
+MINIMUM VERBATIM EXCERPT (only this block is source prose):
+[No scientific original text obtained in this round.]
+
+EXTRACTED FACTUAL FIELDS (not a reconstructed quotation):
+[]
+
+SCOPE / PRECISE GAP (reviewer description, not source prose):
+無本輪可核原摘要，不對 Lyon 原研究「降低高負載 ADC 疏水性影響清除及治療指數」作新驗證。原作者整理和研究題名不足以代替所需原文，亦不據讀取失敗判定原主張錯誤。
+
+Web refs: turn111view2, turn116view1

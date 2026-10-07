@@ -1,0 +1,42 @@
+Source ID: D21
+Original URL: https://www.lonza.com/news/2026-06-30-07-00
+Title (supplied): Lonza Expands HPAPI Capacity in Visp, Supporting Payload-Linker Manufacturing
+Source date (retained): 2026-06-30
+Data date (retained): 2026-06-30
+Checked at: 2026-10-07T18:42:41+08:00
+Timezone: Asia/Taipei
+Checked-at meaning: current review of returned public web-tool extraction; not the historical network-fetch timestamp.
+Retrieval mode: public_web_tool_readback_prior_ref; prior saved web_ref was opened and returned the specified original public URL.
+Prior web ref: turn35view1
+Current web ref: turn125view0
+Read level: relevant primary-source paragraphs in web text extraction; complete original HTML/PDF bytes not saved or hashed.
+Original network read time: null; not exposed by the tool. Original artifact SHA256: null.
+Locator: Lonza expansion release; retrieved lines 16–26, especially 24–26.
+Minimum verbatim excerpts (aggregate <=25 English words):
+- The facility is expected to be operational in 2028
+Excerpt word count: 9
+Factual extraction (values, dates, statuses; not additional prose quotations):
+[
+  {
+    "field": "release_date",
+    "original_value": "30 Jun 2026",
+    "unit_or_role": "calendar date",
+    "locator": "L16"
+  },
+  {
+    "field": "expected_operational_year",
+    "original_value": 2028,
+    "unit_or_role": "calendar year; future company expectation",
+    "locator": "L26"
+  },
+  {
+    "field": "role",
+    "original_value": "payload-linker production/purification, analytical/process development; connected antibody/conjugation/drug-product network",
+    "unit_or_role": "company capability/investment description",
+    "locator": "L24–25"
+  }
+]
+Support scope: Announced Visp payload-linker production/purification capacity and analytical/process development laboratories with expected 2028 operation. Supply flexibility is a proposed design; not proof of product-specific orders or performance.
+Precise gap: No additional source-specific factual gap found within the assigned contribution; multi-source rows retain their other citations.
+Source/data dates are supplied baseline metadata, not replaced by this check time. No alternate route, login, headers, private endpoint or payment used.
+This small evidence record is an excerpt/factual extraction, not a saved full article.

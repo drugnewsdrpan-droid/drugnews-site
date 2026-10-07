@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1170" height="2550" viewBox="0 0 280.8 612" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Trodelvy銷售續增， | 增速放慢</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Trodelvy銷售續增， | 增速放慢</dc:title>
+    <dc:date>2026-10-07T17:38:47.847539</dc:date>
+    <dc:description>Trodelvy annual net product sales, Gilead consolidated, USD million. D35. Data years 2023–2025; research cutoff 2026-10-07.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 612 
+L 280.8 612 
+L 280.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 45.36 399.6 
+L 259.2 399.6 
+L 259.2 197.28 
+L 45.36 197.28 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #223b4b" x="87.48" y="415.559375" transform="rotate(-0 87.48 415.559375)">2023</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #223b4b" x="152.28" y="415.559375" transform="rotate(-0 152.28 415.559375)">2024</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #223b4b" x="217.08" y="415.559375" transform="rotate(-0 217.08 415.559375)">2025</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 45.36 399.6 
+L 259.2 399.6 
+" clip-path="url(#p66a51e6d1e)" style="fill: none; stroke: #dce5e8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5"/>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #223b4b" x="37.36" y="403.579687" transform="rotate(-0 37.36 403.579687)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 45.36 336.375 
+L 259.2 336.375 
+" clip-path="url(#p66a51e6d1e)" style="fill: none; stroke: #dce5e8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7"/>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #223b4b" x="37.36" y="340.354688" transform="rotate(-0 37.36 340.354688)">500</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 45.36 273.15 
+L 259.2 273.15 
+" clip-path="url(#p66a51e6d1e)" style="fill: none; stroke: #dce5e8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #223b4b" x="37.36" y="277.129688" transform="rotate(-0 37.36 277.129688)">1,000</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 45.36 209.925 
+L 259.2 209.925 
+" clip-path="url(#p66a51e6d1e)" style="fill: none; stroke: #dce5e8; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #223b4b" x="37.36" y="213.904688" transform="rotate(-0 37.36 213.904688)">1,500</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 45.36 399.6 
+L 259.2 399.6 
+" style="fill: none; stroke: #223b4b; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 68.688 399.6 
+L 106.272 399.6 
+L 106.272 265.18365 
+L 68.688 265.18365 
+z
+" clip-path="url(#p66a51e6d1e)" style="fill: #63a9a5"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 133.488 399.6 
+L 171.072 399.6 
+L 171.072 233.31825 
+L 133.488 233.31825 
+z
+" clip-path="url(#p66a51e6d1e)" style="fill: #128582"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 198.288 399.6 
+L 235.872 399.6 
+L 235.872 222.94935 
+L 198.288 222.94935 
+z
+" clip-path="url(#p66a51e6d1e)" style="fill: #128582"/>
+   </g>
+   <g id="text_8">
+    <g id="patch_7">
+     <path d="M 69.07375 260.1068 
+L 105.88625 260.1068 
+L 105.88625 244.194691 
+L 69.07375 244.194691 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #193c50" x="87.48" y="255.7943" transform="rotate(-0 87.48 255.7943)">1,063</text>
+   </g>
+   <g id="text_9">
+    <g id="patch_8">
+     <path d="M 133.87375 228.2414 
+L 170.68625 228.2414 
+L 170.68625 212.329291 
+L 133.87375 212.329291 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #193c50" x="152.28" y="223.9289" transform="rotate(-0 152.28 223.9289)">1,315</text>
+   </g>
+   <g id="text_10">
+    <g id="patch_9">
+     <path d="M 198.67375 217.8725 
+L 235.48625 217.8725 
+L 235.48625 201.960391 
+L 198.67375 201.960391 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #193c50" x="217.08" y="213.56" transform="rotate(-0 217.08 213.56)">1,397</text>
+   </g>
+  </g>
+  <g id="line2d_12">
+   <path d="M 15.84 515.52 
+L 264.96 515.52 
+" style="fill: none; stroke: #dce5e8; stroke-width: 0.8; stroke-linecap: square"/>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #536874" x="15.84" y="21.241406" transform="rotate(-0 15.84 21.241406)">DRUGNEWS  /  ADC  /  P03</text>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #193c50" x="15.84" y="52.710938" transform="rotate(-0 15.84 52.710938)">Trodelvy銷售續增，</text>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #193c50" x="15.84" y="74.045469" transform="rotate(-0 15.84 74.045469)">增速放慢</text>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ad631f" x="15.84" y="98.057656" transform="rotate(-0 15.84 98.057656)">適應症組合仍影響商業表現</text>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 10.3px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #193c50" x="15.84" y="140.699078" transform="rotate(-0 15.84 140.699078)">年度淨產品銷售｜百萬美元</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #536874" x="15.84" y="156.601406" transform="rotate(-0 15.84 156.601406)">US GAAP · Gilead合併報表全球合計</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #536874" x="15.84" y="171.001406" transform="rotate(-0 15.84 171.001406)">名義美元；2023–2025完整年度</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #536874" x="151.92" y="430.201406" transform="rotate(-0 151.92 430.201406)">年度均截至12月31日</text>
+  </g>
+  <g id="text_19">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #223b4b" x="15.84" y="457.259688" transform="rotate(-0 15.84 457.259688)">同比增長｜由已披露年度值重算</text>
+  </g>
+  <g id="text_20">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #536874" x="81.36" y="477.721406" transform="rotate(-0 81.36 477.721406)">2024較2023</text>
+  </g>
+  <g id="text_21">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ad631f" x="81.36" y="500.285469" transform="rotate(-0 81.36 500.285469)">23.7%</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #536874" x="208.08" y="477.721406" transform="rotate(-0 208.08 477.721406)">2025較2024</text>
+  </g>
+  <g id="text_23">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ad631f" x="208.08" y="500.285469" transform="rotate(-0 208.08 500.285469)">6.2%</text>
+  </g>
+  <g id="text_24">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #536874" x="15.84" y="534.601406" transform="rotate(-0 15.84 534.601406)">一個代表品，非全球ADC市場</text>
+  </g>
+  <g id="text_25">
+   <text style="font-size: 9.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #536874" x="15.84" y="567.522422" transform="rotate(-0 15.84 567.522422)">來源D35｜Gilead 2025 Form 10-K</text>
+  </g>
+  <g id="text_26">
+   <text style="font-size: 9.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #536874" x="15.84" y="580.482422" transform="rotate(-0 15.84 580.482422)">申報2026-02-24｜核讀2026-10-07</text>
+  </g>
+  <g id="text_27">
+   <text style="font-size: 9.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #536874" x="15.84" y="596.322422" transform="rotate(-0 15.84 596.322422)">研究母版截至2026-10-07 · R1</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p66a51e6d1e">
+   <rect x="45.36" y="197.28" width="213.84" height="202.32"/>
+  </clipPath>
+ </defs>
+</svg>

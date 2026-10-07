@@ -1,0 +1,25 @@
+Source: T20
+Original URL: https://www.mycenax.com/shareholders-meeting.php?id=5&lang=tw
+Title: 永昕生物醫藥 — 有價證券資訊
+Original source_date: unknown
+Original data_date: unknown
+Checked_at: 2026-10-07T10:46:10.944263+00:00
+Timezone: Etc/UTC
+Retrieval mode: live_public_web_tool
+Read level: targeted_public_HTML_passages
+Access result: specified public URL returned readable content; no access barrier encountered
+Material type: minimum excerpt/numeric-support record authored from the observed public source, not the full original webpage/PDF.
+The SHA256 of this .txt identifies this excerpt record only. Original webpage/PDF bytes were not saved.
+Locators:
+- 有價證券資訊: web lines 125–127; repeated at lines 134–136
+Minimum verbatim excerpts:
+- web line 125: 永昕普通股於證櫃檯買賣中心掛牌上櫃
+Numeric / structured original fields (not market estimates):
+{"field": "security_name", "value": "永昕", "unit": "name", "locator": "web line 126"}
+{"field": "ticker", "value": "4726", "unit": "security identifier", "locator": "web line 127"}
+{"field": "market", "value": "證櫃檯買賣中心掛牌上櫃", "unit": "exchange", "locator": "web line 125"}
+Supported scope (author paraphrase, not original quotation):
+公司有價證券頁明列永昕普通股上櫃及4726代號。
+Precise evidence gap / boundary:
+未標頁面更新日；本輪只核上市櫃身分，不用此頁證實ADC能力。
+Web references: turn123view4

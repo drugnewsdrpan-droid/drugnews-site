@@ -1,0 +1,42 @@
+Source ID: R08
+Original URL: https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-completes-equity-investment-in-summit-therapeutics.html
+Title (supplied): AstraZeneca 完成對 Summit Therapeutics 的 20 億美元股權投資
+Source date (retained): 2026-10-05
+Data date (retained): 2026-10-05
+Checked at: 2026-10-07T18:42:41+08:00
+Timezone: Asia/Taipei
+Checked-at meaning: current review of returned public web-tool extraction; not the historical network-fetch timestamp.
+Retrieval mode: public_web_tool_readback_prior_ref; prior saved web_ref was opened and returned the specified original public URL.
+Prior web ref: turn63search5
+Current web ref: turn131view0
+Read level: relevant primary-source paragraphs in web text extraction; complete original HTML/PDF bytes not saved or hashed.
+Original network read time: null; not exposed by the tool. Original artifact SHA256: null.
+Locator: AstraZeneca equity completion announcement; retrieved lines 182–188, especially 184–186.
+Minimum verbatim excerpts (aggregate <=25 English words):
+- successful completion of its $2 billion equity investment in Summit Therapeutics.
+Excerpt word count: 11
+Factual extraction (values, dates, statuses; not additional prose quotations):
+[
+  {
+    "field": "completion_announcement_date",
+    "original_value": "5 October 2026",
+    "unit_or_role": "calendar date",
+    "locator": "L182"
+  },
+  {
+    "field": "completed_equity_investment",
+    "original_value": 2,
+    "unit_or_role": "USD billion; equity, not ADC license fee",
+    "locator": "L184"
+  },
+  {
+    "field": "separate_Datroway_collaboration",
+    "original_value": "separate agreement announced on Friday",
+    "unit_or_role": "agreement type; no new calendar date inferred",
+    "locator": "L186"
+  }
+]
+Support scope: Directly supports completed USD2bn equity investment on October 5, 2026 and distinguishes clinical collaboration agreements. It does not establish ADC licensing consideration or efficacy.
+Precise gap: No additional source-specific factual gap found within the assigned contribution; multi-source rows retain their other citations.
+Source/data dates are supplied baseline metadata, not replaced by this check time. No alternate route, login, headers, private endpoint or payment used.
+This small evidence record is an excerpt/factual extraction, not a saved full article.
