@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {attrs,canonicalOf,robotsOf,schemasOf,allows} from './build_search_ready.mjs';
+import {reportsDiscoveryErrors} from './render_product_template.mjs';
 export async function auditSearchReady(root,mode='production'){
  const html=await fs.readFile(path.join(root,'index.html'),'utf8');
  const robots=await fs.readFile(path.join(root,'robots.txt'),'utf8');
@@ -43,7 +44,16 @@ export async function auditSearchReady(root,mode='production'){
  check('Hreflang retained',html.includes('hreflang="zh-Hant"')&&html.includes('hreflang="en"'));
  check('Supplemental sitemap is declared',robots.includes('Sitemap: '+cfg.origin+'/sitemap-search.xml'));
  check('Googlebot root allowed',allows(robots,'Googlebot','/'));
- check('Optional citation index uses canonical HTTPS URLs',index.articles.every(a=>a.url.startsWith(cfg.origin+'/articles/')));
+ check('Optional citation index uses canonical HTTPS URLs',index.articles.every(a=>a.url.startsWith(cfg.origin+'/articles/')||a.url.startsWith(cfg.origin+'/reports/')));
+ const collectionPath=path.join(root,'reports','index.html');
+ try{
+  const collectionHTML=await fs.readFile(collectionPath,'utf8');
+  const discovery=reportsDiscoveryErrors(html,collectionHTML,index.articles,cfg.origin);
+  check('Final generated homepage and real report collection discovery',discovery.errors.length===0,JSON.stringify(discovery));
+ }catch(e){
+  if(e.code!=='ENOENT')throw e;
+  check('Report collection absent; no report discovery completion claimed',true,'No collection in this output; no report fixture or placeholder is counted.');
+ }
  check('Citation index has publication provenance',index.articles.every(a=>a.title&&a.datePublished));
  check('Sitemap contains homepage',map.includes('<loc>'+cfg.origin+'/</loc>'));
  check('No fabricated rating/review schema',types('Review').length===0&&!html.includes('aggregateRating'));

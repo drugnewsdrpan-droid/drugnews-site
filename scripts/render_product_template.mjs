@@ -12,6 +12,26 @@ function stable(value) {
   return value;
 }
 export const payloadHash = payload => crypto.createHash("sha256").update(JSON.stringify(stable(payload))).digest("hex");
+// Consume the final generated homepage and verified citation index, not a header candidate.
+export function reportsDiscoveryErrors(homepageHTML, collectionHTML, verifiedArticles, origin) {
+  const urls = (text, base) => [...text.matchAll(/<a\b[^>]*href=["']([^"']+)["']/gi)].map(m => {
+    const url = new URL(m[1].replaceAll("&amp;", "&"), base);
+    url.hash = ""; url.search = "";
+    if (url.pathname.endsWith("/index.html")) url.pathname = url.pathname.slice(0, -10);
+    return url.href;
+  });
+  const collectionURL = origin + "/reports/";
+  const homepageURLs = urls(homepageHTML, origin + "/");
+  const collectionURLs = urls(collectionHTML, collectionURL);
+  const reports = verifiedArticles.filter(a => a.url.startsWith(collectionURL));
+  const errors = [];
+  if (!homepageURLs.includes(collectionURL)) errors.push("REPORTS_ENTRY_MISSING_FROM_FINAL_HOMEPAGE");
+  for (const report of reports) if (!collectionURLs.includes(report.url)) errors.push("REAL_REPORT_MISSING_FROM_COLLECTION: " + report.url);
+  for (const url of collectionURLs.filter(u => u.startsWith(collectionURL) && u !== collectionURL)) {
+    if (!reports.some(r => r.url === url)) errors.push("UNVERIFIED_REPORT_LINK_IN_COLLECTION: " + url);
+  }
+  return { errors, verifiedReportCount: reports.length };
+}
 function httpsURL(value) {
   const url = new URL(value);
   if (url.protocol !== "https:" || url.username || url.password) throw new Error("Official links must use HTTPS without credentials");
@@ -66,7 +86,8 @@ export async function renderProductTemplate(kind, payload = {}, { preview = true
       FOOTER: english ? "Drugnews | Industry research and knowledge sharing. See the stated research and figure versions." : "Drugnews｜藥時事 · 產業研究與知識分享。研究與圖表版本以本頁註記為準。",
       LANGUAGE_LINK: payload.other_language?.href ? `<p><a href="${escape(httpsURL(payload.other_language.href))}" hreflang="${escape(payload.other_language.language)}">${escape(payload.other_language.label)}</a></p>` : "",
       SUMMARY: paragraphs(payload.summary || (english ? "Placeholder for a self-contained executive summary and usable judgement." : "內容版位：自成一篇的摘要，以及讀者看完後可以使用的核心判斷。")),
-      SECTIONS: sections.map(section => `<section class="report-section"><h2>${escape(section.heading)}</h2>${paragraphs(section.body)}${(section.figure_indices || []).map(i => figureHTML(payload.figures[i], false)).join("")}${figureHTML(null, preview && section.figure)}</section>`).join(""),
+      CONTENTS: `<nav class="contents" aria-label="${english ? "Report contents" : "報告目錄"}"><h2>${english ? "Contents" : "目錄"}</h2><ol>${sections.map((section, i) => `<li><a href="#report-section-${i + 1}">${escape(section.heading)}</a></li>`).join("")}</ol></nav>`,
+      SECTIONS: sections.map((section, i) => `<section class="report-section" id="report-section-${i + 1}"><h2>${escape(section.heading)}</h2>${paragraphs(section.body)}${(section.figure_indices || []).map(i => figureHTML(payload.figures[i], false)).join("")}${figureHTML(null, preview && section.figure)}</section>`).join(""),
       REFERENCES: payload.references?.length ? `<ol>${payload.references.map(r => `<li><a href="${escape(httpsURL(r.url))}">${escape(r.title)}</a>${r.date ? ` · ${escape(r.date)}` : ""}</li>`).join("")}</ol>` : english ? "<p>Placeholders for original sources, URLs, dates and checked versions.</p>" : "<p>來源名稱、原始網址、資料日期與查核版本版位。</p>",
       DOWNLOAD: ""
     });

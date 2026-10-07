@@ -1,10 +1,11 @@
 import assert from "node:assert/strict";
-import { renderProductTemplate, payloadHash } from "./render_product_template.mjs";
+import { renderProductTemplate, payloadHash, reportsDiscoveryErrors } from "./render_product_template.mjs";
 
 const report = await renderProductTemplate("report");
 const job = await renderProductTemplate("job");
 assert(report.includes("noindex,nofollow") && report.includes("版型預覽"));
 assert(!report.includes("下載免費PDF") && !report.includes("{{"));
+assert(report.includes('href="#report-section-1"') && report.includes('id="report-section-1"'));
 assert(job.includes("預覽不受理應徵") && !job.includes('class="apply"') && !job.includes("JobPosting"));
 await assert.rejects(renderProductTemplate("report", {}, { preview: false }), /independent acceptance/);
 const payload = { title: "synthetic test-only payload", version: "test", updated_at: "2026-10-07", source_owner: "test", company: "TEST ONLY" };
@@ -28,3 +29,14 @@ const completeJob = { ...jobData, employment_type: "unit test" };
 const atDeadline = await renderProductTemplate("job", completeJob, { preview: false, acceptance: jobQA(completeJob), now: completeJob.valid_through });
 assert(atDeadline.includes("已截止") && !atDeadline.includes('class="apply"'));
 console.log("Affected invalid QA, incomplete payload and exact deadline boundaries PASS.");
+const origin = "https://drugnews.com.tw";
+const collection = '<a href="https://drugnews.com.tw/guides/clinical-endpoints.html">真指南</a>';
+assert(reportsDiscoveryErrors('<a href="/articles/">文章</a>', collection, [], origin).errors.includes("REPORTS_ENTRY_MISSING_FROM_FINAL_HOMEPAGE"));
+const homeWithReports = '<a href="https://drugnews.com.tw/reports/">產業研究</a>';
+const withoutReport = reportsDiscoveryErrors(homeWithReports, collection, [], origin);
+assert.equal(withoutReport.verifiedReportCount, 0); assert.deepEqual(withoutReport.errors, []);
+assert.deepEqual(reportsDiscoveryErrors(homeWithReports, collection+'<a href="#reading-paths">同頁目錄</a>', [], origin).errors, []);
+assert(reportsDiscoveryErrors(homeWithReports, '<a href="/reports/placeholder.html">test-only invalid placeholder</a>', [], origin).errors[0].startsWith("UNVERIFIED_REPORT_LINK"));
+const declaredTestReport = { url: origin + "/reports/test-only.html" }; // synthetic contract input only, never a publication
+assert(reportsDiscoveryErrors(homeWithReports, collection, [declaredTestReport], origin).errors[0].startsWith("REAL_REPORT_MISSING"));
+console.log("Final homepage discovery counterexample, no-report state and placeholder rejection PASS.");
