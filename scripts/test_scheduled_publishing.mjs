@@ -807,13 +807,13 @@ test("permanent feeds retain old and evening articles beyond 25 and 50 without f
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 });
 
-test("permanent JSON entrypoints survive the 32-record boundary without leaking future articles", async () => {
+test("permanent JSON entrypoints survive the 50-record boundary without leaking future articles", async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), "dnq-permanent-entrypoints-"));
   try {
     const queue = path.join(root, "queue"), published = path.join(root, "published");
     await fs.mkdir(published);
     const manifests = [];
-    for (let i = 0; i < 17; i++) {
+    for (let i = 0; i < 26; i++) {
       const input = path.join(root, `input-${i}`);
       const manifest = await makeInput(input, 500 + i, {
         publishAt: `2026-09-${String(5 + i).padStart(2, "0")}T08:00:00+08:00`,
@@ -824,8 +824,8 @@ test("permanent JSON entrypoints survive the 32-record boundary without leaking 
       manifests.push(manifest);
     }
     for (const [name, index, publishAt] of [
-      ["today", 517, "2026-10-01T08:00:00+08:00"],
-      ["future", 518, "2026-10-02T08:00:00+08:00"]
+      ["today", 526, "2026-10-01T08:00:00+08:00"],
+      ["future", 527, "2026-10-02T08:00:00+08:00"]
     ]) {
       const input = path.join(root, name);
       const manifest = await makeInput(input, index, { publishAt, slug: `permanent-entrypoint-${name}`, english: true });
@@ -845,12 +845,12 @@ test("permanent JSON entrypoints survive the 32-record boundary without leaking 
     await buildFinalCandidate(afterSite, after.stagingRoot, "2026-10-01T00:01:00Z");
     try { await auditCandidate({ root: afterSite, auditFile: after.auditFile, skipLiveInventory: true, skipGitAudit: true }); }
     catch (error) { throw new Error(`${error.message}: ${JSON.stringify(error.failures || [])}`); }
-    for (const [surface, field] of [["search-intents.json", "latest_canonical_articles"], ["knowledge-graph.json", "latest_articles"]]) {
+    for (const [surface, field] of [["search-intents.json", "latest_canonical_articles"], ["knowledge-graph.json", "latest_articles"], ["ai-index.json", "latest_articles"]]) {
       const beforePayload = JSON.parse(await fs.readFile(path.join(beforeSite, surface), "utf8"));
       const afterBytes = await fs.readFile(path.join(afterSite, surface));
       const afterPayload = JSON.parse(afterBytes);
-      assert.equal(beforePayload[field].length, 32);
-      assert.equal(afterPayload[field].length, 34);
+      assert.equal(beforePayload[field].length, 50);
+      assert.equal(afterPayload[field].length, 52);
       const urls = afterPayload[field].map(item => item.url);
       assert.equal(new Set(urls).size, urls.length);
       for (const row of beforePayload[field]) assert.deepEqual(afterPayload[field].find(item => item.url === row.url), row);

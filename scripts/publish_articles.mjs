@@ -2886,7 +2886,9 @@ function searchIntents(records) {
 }
 
 function aiIndex(records) {
-  const latest = records.slice(0, 50).map((item) => ({
+  // This is a permanent citation entrypoint; new releases must not evict
+  // already published articles from the authenticated delivery checks.
+  const latest = records.map((item) => ({
     title: displayTitle(item),
     date: item.date,
     language: item.lang || "zh-Hant",
