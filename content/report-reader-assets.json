@@ -1,0 +1,61 @@
+{
+  "schema": "drugnews-report-reader-assets/v1",
+  "reports": [
+    {
+      "content_id": "Drugnews_ADC_20261007",
+      "original_content_lock_version": "ADC-20261007-R1-LAYERED-HTML-R2-EVIDENCE-D15-SCOPE-2.0",
+      "asset_root": "assets/reports/adc-20261007",
+      "pages": [
+        "reports/adc-industry-2026.html",
+        "reports/adc-industry-2026-en.html"
+      ],
+      "reader_assets": [
+        {
+          "path": "assets/report.css",
+          "sha256": "f72d7289d1581a03720f92d449ad828830369743f431e1ee093f9408c3b135db",
+          "bytes": 9518
+        },
+        {
+          "path": "figures/P01_ZH.png",
+          "sha256": "31f4eebba23d3569597759107b6f2373273de913aac0e9ed87127ba8d002d493",
+          "bytes": 567201
+        },
+        {
+          "path": "figures/P01_EN.png",
+          "sha256": "3056d44d9aee48351f0ce44907387e68b4cfb253da7cc15807ce76c93f60dda6",
+          "bytes": 624431
+        },
+        {
+          "path": "figures/P02_ZH.png",
+          "sha256": "711f1230cf97a7033df8c4ad47ccfc50035066f9f894e7a6da0f3cc44e285389",
+          "bytes": 619671
+        },
+        {
+          "path": "figures/P02_EN.png",
+          "sha256": "50c50d5299bf497ab2c71744f849ed26c8cd5abacca91df0b44b81e38f5dc8df",
+          "bytes": 706988
+        },
+        {
+          "path": "figures/P03_ZH.png",
+          "sha256": "de032a5ed415b108cc327ed13b15ca039afc57ed7ced73642de338dbf7b8ee58",
+          "bytes": 252721
+        },
+        {
+          "path": "figures/P03_EN.png",
+          "sha256": "0b7f7b2538fd1aa941914751ee97c3104136e9189960a7769a985de71bdfc650",
+          "bytes": 271071
+        },
+        {
+          "path": "figures/P04_ZH.png",
+          "sha256": "db4a1e149da69c9bd07baf35e1d88e279d34607bfaace613fd050933c1229162",
+          "bytes": 453389
+        },
+        {
+          "path": "figures/P04_EN.png",
+          "sha256": "ecc583a3da798147e109837f875a8f4981a93e9c80b9b772c4031c4c33ed8c46",
+          "bytes": 505250
+        }
+      ]
+    }
+  ]
+}

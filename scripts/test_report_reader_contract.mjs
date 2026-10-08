@@ -1,0 +1,31 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import os from 'node:os';
+import crypto from 'node:crypto';
+import {reportReaderErrors,collectionLanguageErrors,prepareReportReaderAssets,auditReportReaders} from './report_reader_contract.mjs';
+import {reportsDiscoveryErrors} from './render_product_template.mjs';
+const origin='https://drugnews.com.tw',zh=origin+'/reports/fixture.html',en=origin+'/reports/fixture-en.html';
+const good=`<html lang="zh-Hant"><h1>Fixture</h1><a data-report-language-switch href="${en}">English</a><section id="method"><h2>Methods</h2><img src="/assets/reports/fixture/figure.png" alt="Known evidence"><a href="https://www.fda.gov/example">FDA source</a><button data-report-copy data-share-url="${zh}#method">Copy</button><button data-report-share data-share-url="${zh}">Share</button></section></html>`;
+assert.deepEqual(reportReaderErrors(good,'zh-Hant',zh),[]);
+assert(reportReaderErrors(good.replace('</section>','<a href="/assets/reports/fixture/data.json">data.json</a></section>'),'zh-Hant',zh).includes('READER_TECHNICAL_DOWNLOAD_ENTRY'));
+assert(reportReaderErrors(good.replace('</section>','<p>本輪獨立QA原文讀回HTTP403。</p></section>'),'zh-Hant',zh).includes('READER_INTERNAL_PRODUCTION_LANGUAGE'));
+assert.deepEqual(reportReaderErrors(good.replace('<h2>Methods</h2>','<h2>ADC、CMC 與 FDA</h2>'),'zh-Hant',zh),[]);
+const card=url=>`<article class="product-path"><a href="${url}">Report</a></article>`;
+assert(collectionLanguageErrors(card(zh)+card(en),'zh-Hant').includes('READER_COLLECTION_MIXED_LANGUAGE'));
+assert.deepEqual(collectionLanguageErrors(card(zh),'zh-Hant'),[]);assert.deepEqual(collectionLanguageErrors(card(en),'en'),[]);
+const home='<a href="/reports/">Research</a>',records=[{url:zh,language:'zh-Hant'},{url:en,language:'en'}];
+assert(reportsDiscoveryErrors(home,card(zh)+card(en),records,origin).errors.some(e=>e.includes('LANGUAGE')));
+assert.deepEqual(reportsDiscoveryErrors(home,card(zh),records,origin,card(en)).errors,[]);
+const temp=await fs.mkdtemp(path.join(os.tmpdir(),'reader-contract-'));
+try{
+ const root=path.join(temp,'_site'),assetRoot=path.join(root,'assets/reports/fixture');await fs.mkdir(assetRoot,{recursive:true});
+ const visual=Buffer.from('original fixture bytes'),source=path.join(temp,'original.png');await fs.writeFile(source,visual);await fs.link(source,path.join(assetRoot,'figure.png'));
+ await fs.writeFile(path.join(assetRoot,'internal.json'),'retained only in original checkout');
+ const registry=path.join(temp,'registry.json');await fs.writeFile(registry,JSON.stringify({schema:'drugnews-report-reader-assets/v1',reports:[{asset_root:'assets/reports/fixture',pages:[],reader_assets:[{path:'figure.png',bytes:visual.length,sha256:crypto.createHash('sha256').update(visual).digest('hex')}]}]}));
+ await assert.rejects(prepareReportReaderAssets(temp,registry),/COPIED_ARTIFACT/);
+ const aliases=path.join(temp,'alias','_site');await fs.mkdir(path.dirname(aliases));await fs.symlink(root,aliases);await assert.rejects(prepareReportReaderAssets(aliases,registry),/COPIED_ARTIFACT/);
+ const result=await prepareReportReaderAssets(root,registry);assert.equal(result.internal_artifacts_excluded_from_copied_site,1);assert((await fs.readFile(source)).equals(visual));
+ await assert.rejects(fs.access(path.join(assetRoot,'internal.json')));
+}finally{await fs.rm(temp,{recursive:true,force:true});}
+console.log('Reader contract: old technical/QA/mixed-language counterexamples FAIL; corrected scope PASS; scientific terms/source inode/future discovery preserved. Machine checks are not AI Feel or visual acceptance.');

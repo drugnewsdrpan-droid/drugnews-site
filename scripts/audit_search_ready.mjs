@@ -48,7 +48,8 @@ export async function auditSearchReady(root,mode='production'){
  const collectionPath=path.join(root,'reports','index.html');
  try{
   const collectionHTML=await fs.readFile(collectionPath,'utf8');
-  const discovery=reportsDiscoveryErrors(html,collectionHTML,index.articles,cfg.origin);
+  const englishCollection=await fs.readFile(path.join(root,'en/reports/index.html'),'utf8').catch(error=>{if(error.code==='ENOENT')return '';throw error;});
+  const discovery=reportsDiscoveryErrors(html,collectionHTML,index.articles,cfg.origin,englishCollection);
   check('Final generated homepage and real report collection discovery',discovery.errors.length===0,JSON.stringify(discovery));
  }catch(e){
   if(e.code!=='ENOENT')throw e;

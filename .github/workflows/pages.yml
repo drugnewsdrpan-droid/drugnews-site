@@ -86,12 +86,14 @@ jobs:
             --exclude '.gitignore' \
             ./ _site/
           find _site -type f -name '.DS_Store' -delete
+          node scripts/report_reader_contract.mjs prepare --root=_site --registry=content/report-reader-assets.json
           du -sh _site
 
       - name: Build search-ready homepage candidate
         run: |
           node scripts/build_search_ready.mjs --root=_site --out=_site --production
           node scripts/audit_search_ready.mjs --root=_site
+          node scripts/report_reader_contract.mjs audit --root=_site --registry=content/report-reader-assets.json
 
       - name: Build due-only public delivery receipt
         run: >-

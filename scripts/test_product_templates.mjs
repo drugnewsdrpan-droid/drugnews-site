@@ -62,7 +62,7 @@ for(const author of ['', '待原作者交稿', 'Original author pending', 'TBD']
 }
 const noRevision={...full,revisions:[]};
 await assert.rejects(renderProductTemplate('report',noRevision,{preview:false,acceptance:qaFor(noRevision)}),/revision/);
-assert(reorderedHTML.includes('Versions and corrections') && reorderedHTML.includes('Synthetic first test version'));
+assert(reorderedHTML.includes('Updates and corrections') && reorderedHTML.includes('Synthetic first test version'));
 const missingSchema={...full,original_report_schema:undefined};
 await assert.rejects(renderProductTemplate('report',missingSchema,{preview:false,acceptance:qaFor(missingSchema)}),/existing Report schema/);
 await assert.rejects(renderProductTemplate('report',full,{preview:false,acceptance:{...qaFor(full),original_report_schema_sha256:'tampered'}}),/existing Report schema/);
@@ -119,3 +119,4 @@ assert.deepEqual(mergeReportAIIndex(stale,[],origin),originalAI);
 console.log('Stable reordered/retained anchors, author/revision/figure extractability, optional PDF, report-only native/copy fallback, and unchanged original AI index with zero reports PASS.');
 await import('./test_report_index_integration.mjs');
 await import('./test_qualified_report_gate.mjs');
+await import('./test_report_reader_contract.mjs');

@@ -14,7 +14,7 @@ function stable(value) {
 }
 export const payloadHash = payload => crypto.createHash("sha256").update(JSON.stringify(stable(payload))).digest("hex");
 // Consume the final generated homepage and verified citation index, not a header candidate.
-export function reportsDiscoveryErrors(homepageHTML, collectionHTML, verifiedArticles, origin) {
+export function reportsDiscoveryErrors(homepageHTML, collectionHTML, verifiedArticles, origin, englishCollectionHTML = '') {
   const urls = (text, base) => [...text.matchAll(/<a\b[^>]*href=["']([^"']+)["']/gi)].map(m => {
     const url = new URL(m[1].replaceAll("&amp;", "&"), base);
     url.hash = ""; url.search = "";
@@ -24,12 +24,16 @@ export function reportsDiscoveryErrors(homepageHTML, collectionHTML, verifiedArt
   const collectionURL = origin + "/reports/";
   const homepageURLs = urls(homepageHTML, origin + "/");
   const collectionURLs = urls(collectionHTML, collectionURL);
+  const englishURLs = urls(englishCollectionHTML, origin + '/en/reports/');
   const reports = verifiedArticles.filter(a => a.url.startsWith(collectionURL));
+  const isEnglish = report => String(report.inLanguage || report.language || '').startsWith('en') || /-en\.html$/.test(report.url);
   const errors = [];
   if (!homepageURLs.includes(collectionURL)) errors.push("REPORTS_ENTRY_MISSING_FROM_FINAL_HOMEPAGE");
-  for (const report of reports) if (!collectionURLs.includes(report.url)) errors.push("REAL_REPORT_MISSING_FROM_COLLECTION: " + report.url);
-  for (const url of collectionURLs.filter(u => u.startsWith(collectionURL) && u !== collectionURL)) {
-    if (!reports.some(r => r.url === url)) errors.push("UNVERIFIED_REPORT_LINK_IN_COLLECTION: " + url);
+  for (const report of reports) if (!(isEnglish(report) ? englishURLs : collectionURLs).includes(report.url)) errors.push("REAL_REPORT_MISSING_FROM_LANGUAGE_COLLECTION: " + report.url);
+  for (const [list, english] of [[collectionURLs, false], [englishURLs, true]]) for (const url of list.filter(u => u.startsWith(collectionURL) && u !== collectionURL)) {
+    const report = reports.find(r => r.url === url);
+    if (!report) errors.push("UNVERIFIED_REPORT_LINK_IN_COLLECTION: " + url);
+    else if (isEnglish(report) !== english) errors.push("REPORT_COLLECTION_LANGUAGE_MISMATCH: " + url);
   }
   return { errors, verifiedReportCount: reports.length };
 }
@@ -82,10 +86,10 @@ export async function renderProductTemplate(kind, payload = {}, { preview = true
     Object.assign(fields, {
       LANG: english ? "en" : "zh-Hant", BRAND_LABEL: english ? "Drugnews | Industry research" : "Drugnews｜產業研究與報告解析",
       COVERAGE: payload.coverage === "executive_summary" ? "Executive Summary" : english ? "Full report" : "繁體中文完整報告",
-      SUBTITLE: escape(payload.subtitle || (english ? "Full illustrated research with traceable sources and versions" : "完整圖文研究，來源與版本可查")),
-      META: escape(english ? `Author: ${payload.author || "Original author pending"} · Data date: ${payload.updated_at || "Pending"} · Version: ${payload.version || "Preview"}` : `研究作者：${payload.author || "待原作者交稿"} · 資料日：${payload.updated_at || "待同版資料"} · 版本：${payload.version || "模板預覽"}`),
+      SUBTITLE: escape(payload.subtitle || (english ? "Full illustrated research with named sources and data dates" : "完整圖文研究，附來源與資料日期")),
+      META: escape(english ? `Author: ${payload.author || "Original author pending"} · Data date: ${payload.updated_at || "Pending"}` : `研究作者：${payload.author || "待原作者交稿"} · 資料日：${payload.updated_at || "待同版資料"}`),
       SUMMARY_LABEL: english ? "Summary and core judgements" : "摘要與核心判斷", SOURCES_LABEL: english ? "Sources and data dates" : "來源與資料日期",
-      FOOTER: english ? "Drugnews | Industry research and knowledge sharing. See the stated research and figure versions." : "Drugnews｜藥時事 · 產業研究與知識分享。研究與圖表版本以本頁註記為準。",
+      FOOTER: english ? "Drugnews | Industry research and knowledge sharing. See the named sources and data dates." : "Drugnews｜藥時事 · 產業研究與知識分享。來源與資料日期見本文。",
       LANGUAGE_LINK: payload.other_language?.href ? `<p><a href="${escape(httpsURL(payload.other_language.href))}" hreflang="${escape(payload.other_language.language)}">${escape(payload.other_language.label)}</a></p>` : "",
       SUMMARY: paragraphs(payload.summary || (english ? "Placeholder for a self-contained executive summary and usable judgement." : "內容版位：自成一篇的摘要，以及讀者看完後可以使用的核心判斷。")),
       CONTENTS: `<nav class="contents" aria-label="${english ? "Report contents" : "報告目錄"}"><h2>${english ? "Contents" : "目錄"}</h2><ol>${sections.map((section, i) => `<li><a href="#${escape(sectionId(section, i))}">${escape(section.heading)}</a></li>`).join("")}</ol></nav>`,
@@ -94,7 +98,7 @@ export async function renderProductTemplate(kind, payload = {}, { preview = true
       SEO: reportHead(payload, preview),
       SHARE: !preview ? reportShareControls(payload.canonical_url, payload.title, english) : "",
       SHARE_SCRIPT: !preview ? reportShareScript() : "",
-      CORRECTIONS: `<section class="corrections" id="report-revisions"><h2>${english ? "Versions and corrections" : "版本與更正"}</h2>${payload.revisions?.length ? `<ol>${payload.revisions.map(r => `<li><strong>${escape(r.version)}</strong> · <time>${escape(r.date)}</time><p>${escape(r.summary)}</p></li>`).join("")}</ol>` : `<p>${english ? "Actual version and correction records pending in this preview." : "本預覽的版本與更正紀錄，待原作者交件。"}</p>`}</section>`,
+      CORRECTIONS: `<section class="corrections" id="report-revisions"><h2>${english ? "Updates and corrections" : "更新與更正"}</h2>${payload.revisions?.length ? `<ol>${payload.revisions.map(r => `<li><time>${escape(r.date)}</time><p>${escape(r.summary)}</p></li>`).join("")}</ol>` : `<p>${english ? "Actual correction records pending in this preview." : "本預覽的更正紀錄，待原作者交件。"}</p>`}</section>`,
       DOWNLOAD: ""
     });
     // A PDF link is omitted until a real file and its exact independent hash exist.

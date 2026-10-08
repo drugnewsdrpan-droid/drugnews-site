@@ -162,10 +162,12 @@ export async function buildSearchReady({root,out,mode='preview',now=new Date().t
   const siteMap=await fs.readFile(path.join(root,'sitemap.xml'),'utf8');
   if(!/<urlset\b/.test(siteMap))throw new Error('Expected the existing sitemap.xml URL set. Sitemap index requires a reviewed adapter.');
   const candidates=new Set([origin+'/',...feed.items.map(x=>x.url).filter(Boolean),...[...siteMap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>unescape(m[1]))]);
-  const collectionFile=path.join(root,'reports','index.html');
-  if(await exists(collectionFile)) {
-    const collection=await fs.readFile(await localFile(root,origin,origin+'/reports/'),'utf8');
-    if(canonicalOf(collection)===origin+'/reports/'&&!isBlocked(robotsOf(collection))&&allows(robots,'Googlebot','/reports/'))for(const url of reportCollectionCandidates(collection,origin))candidates.add(url);
+  for(const collectionPath of ['reports/','en/reports/']) {
+    const collectionFile=path.join(root,collectionPath,'index.html');
+    if(await exists(collectionFile)) {
+      const collection=await fs.readFile(await localFile(root,origin,origin+'/'+collectionPath),'utf8');
+      if(canonicalOf(collection)===origin+'/'+collectionPath&&!isBlocked(robotsOf(collection))&&allows(robots,'Googlebot','/'+collectionPath))for(const url of reportCollectionCandidates(collection,origin))candidates.add(url);
+    }
   }
   const feedUrls=new Set(feed.items.map(x=>x.url));
   const pages=[],skipped=[],warnings=[];
