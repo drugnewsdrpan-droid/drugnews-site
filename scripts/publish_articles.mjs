@@ -259,7 +259,7 @@ function collectionPageSchema({ url, name, description, records, prefix = "", li
 }
 
 function referenceSection(markdown) {
-  const match = String(markdown || "").match(/(^|\n)\s*(?:#{1,3}\s*)?((?:主要)?參考(?:資料|來源)[:：]?|References:?|Primary Sources:?)\s*\n([\s\S]*?)(?=\n---|\n#{1,3}\s|$)/i);
+  const match = String(markdown || "").match(/(^|\n)\s*(?:#{1,3}\s*)?((?:主要)?參考(?:資料|來源)[:：]?|研究與官方來源[:：]?|References:?|Primary Sources:?)\s*\n([\s\S]*?)(?=\n---|\n#{1,3}\s|$)/i);
   return match ? match[3].trim() : "";
 }
 
