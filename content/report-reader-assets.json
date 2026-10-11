@@ -56,6 +56,26 @@
           "bytes": 505250
         }
       ]
+    },
+    {
+      "content_id": "Drugnews_RADIOPHARMA_20261011",
+      "original_content_lock_version": "RADIOPHARMA-20261011-R6",
+      "asset_root": "assets/reports/radiopharma-20261011",
+      "pages": [
+        "reports/radiopharma-delivery-2026.html"
+      ],
+      "reader_assets": [
+        {
+          "path": "figures/figure1_psma_delivery.png",
+          "sha256": "58dede86af7104582ad42ceba2b99587b15ceaad5eaee9a14a1172afec00e6eb",
+          "bytes": 1840736
+        },
+        {
+          "path": "figures/figure2_delivery_bottleneck.png",
+          "sha256": "6bae1bcb186bd89bef9b10373b5d548f8166b3ead8e20e1aa3c496b57b2d0bc6",
+          "bytes": 1427853
+        }
+      ]
     }
   ]
 }
