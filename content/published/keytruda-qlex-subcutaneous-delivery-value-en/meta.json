@@ -1,0 +1,31 @@
+{
+  "title": "A two-minute injection: how does Merck defend its blockbuster?",
+  "slug": "keytruda-qlex-subcutaneous-delivery-value-en",
+  "date": "2026-10-12",
+  "publish_at": "2026-10-12T08:00:00+08:00",
+  "author": "藥時事 Drugnews",
+  "category": "商業分析系列",
+  "tags": [
+    "Keytruda",
+    "QLEX",
+    "PD-1",
+    "皮下注射",
+    "藥物遞送",
+    "默沙東"
+  ],
+  "summary": "One of Merck's most interesting defensive moves may be taking place not in a new-drug laboratory, but beside a treatment chair.",
+  "access": "免費文章",
+  "publish_attributes": {
+    "visibility": "public_at_publish_at",
+    "paywall": false,
+    "embargo": true
+  },
+  "lang": "en",
+  "cover_image": "images/FIG01_EN_R1.png",
+  "cover_image_alt": "Administration-time comparison of IV Keytruda and subcutaneous QLEX",
+  "homepage_cover_image": "images/FIG01_EN_R1.png",
+  "homepage_cover_image_alt": "Administration-time comparison of IV Keytruda and subcutaneous QLEX",
+  "translations": {
+    "zh-Hant": "2026-10-12-keytruda-qlex-subcutaneous-delivery-value.html"
+  }
+}
