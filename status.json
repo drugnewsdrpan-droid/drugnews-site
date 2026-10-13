@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "generated_at": "2026-10-13T15:30:24.928Z",
+  "taipei_date": "2026-10-13",
+  "site": "https://drugnews.com.tw",
+  "ok": false,
+  "failed_critical": [
+    "stock_days"
+  ],
+  "failed_warn": [],
+  "checks": [
+    {
+      "id": "today_article_exists",
+      "ok": true,
+      "severity": "critical",
+      "value": "https://drugnews.com.tw/articles/2026-10-13-galleri-positive-signal-diagnostic-journey.html",
+      "detail": ""
+    },
+    {
+      "id": "today_article_200",
+      "ok": true,
+      "severity": "critical",
+      "value": 200,
+      "detail": ""
+    },
+    {
+      "id": "today_en_200",
+      "ok": true,
+      "severity": "warn",
+      "value": 200,
+      "detail": ""
+    },
+    {
+      "id": "homepage_first_is_today",
+      "ok": true,
+      "severity": "critical",
+      "value": "articles/2026-10-13-galleri-positive-signal-diagnostic-journey.html",
+      "detail": ""
+    },
+    {
+      "id": "tomorrow_package_ready",
+      "ok": true,
+      "severity": "critical",
+      "value": "2026-10-14_eloratzp-weight-loss-tolerability-persistence",
+      "detail": ""
+    },
+    {
+      "id": "stock_days",
+      "ok": false,
+      "severity": "critical",
+      "value": 1,
+      "detail": "目標 ≥4（<2 嚴重）；未來日期：2026-10-14"
+    },
+    {
+      "id": "no_rejected_packages",
+      "ok": true,
+      "severity": "warn",
+      "value": 0,
+      "detail": ""
+    }
+  ]
+}
