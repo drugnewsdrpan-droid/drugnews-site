@@ -1,0 +1,139 @@
+name: Engine health (layer 1, no AI)
+
+# 藥時事引擎第 1 層檢查：只認結果（文章 200、首頁是今天、明天的包、存量、退件）。
+# 失敗且與官網有關 → 自動再部署一次並重核；仍失敗 → 開／更新 GitHub issue（老闆會收到 GitHub 通知）。
+# 結果寫到 engine-status 分支的 status.json（不碰 main，不會觸發部署）：
+#   https://raw.githubusercontent.com/drugnewsdrpan-droid/drugnews-site/engine-status/status.json
+# 準時的時鐘請用 cron-job.org 呼叫 workflow_dispatch（GitHub 自己的 cron 會晚數小時，這裡只當備援）。
+# 心跳：設定 secret HC_PING_ENGINE_HEALTH（healthchecks.io 的 ping URL）後，成功 ping /，失敗 ping /fail。
+
+on:
+  workflow_dispatch:
+    inputs:
+      redeploy:
+        description: "官網項目失敗時自動再部署一次"
+        required: false
+        default: "true"
+  schedule:
+    - cron: "33 0 * * *"   # 08:33 台北（備援，不準時）
+    - cron: "45 1 * * *"   # 09:45 台北
+    - cron: "12 13 * * *"  # 21:12 台北
+
+permissions:
+  contents: write
+  actions: write
+  issues: write
+
+concurrency:
+  group: drugnews-engine-health
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: First check
+        id: first
+        continue-on-error: true
+        run: node scripts/engine_health.mjs --out /tmp/status.json
+
+      - name: Redeploy once when the site itself failed
+        id: redeploy
+        if: steps.first.outputs.ok != '1' && github.event.inputs.redeploy != 'false' && (contains(steps.first.outputs.failed_critical, 'homepage_first_is_today') || contains(steps.first.outputs.failed_critical, 'today_article_200') || contains(steps.first.outputs.failed_critical, 'today_article_exists'))
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "redeployed=1" >> "$GITHUB_OUTPUT"
+          # 今天的包還是 pending → 先跑投遞箱（它會驗證、進 main、自己觸發部署）；否則直接部署。
+          if [[ "${{ steps.first.outputs.failed_critical }}" == *today_article_exists* ]]; then
+            gh workflow run engine-inbox.yml --repo "$GITHUB_REPOSITORY" --ref main || true
+            sleep 240
+          fi
+          gh workflow run pages.yml --repo "$GITHUB_REPOSITORY" --ref main || true
+          sleep 540
+
+      - name: Second check (after redeploy)
+        id: second
+        if: steps.redeploy.outputs.redeployed == '1'
+        continue-on-error: true
+        run: node scripts/engine_health.mjs --out /tmp/status.json
+
+      - name: Decide final result
+        id: final
+        shell: bash
+        run: |
+          if [ "${{ steps.redeploy.outputs.redeployed }}" = "1" ]; then
+            echo "ok=${{ steps.second.outputs.ok }}" >> "$GITHUB_OUTPUT"
+            echo "failed=${{ steps.second.outputs.failed_critical }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=${{ steps.first.outputs.ok }}" >> "$GITHUB_OUTPUT"
+            echo "failed=${{ steps.first.outputs.failed_critical }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish status.json to engine-status branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Drugnews Engine"
+          git config user.email "engine@drugnews.com.tw"
+          rm -rf /tmp/status-branch && mkdir -p /tmp/status-branch && cd /tmp/status-branch
+          git init -q -b engine-status
+          git remote add origin "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git"
+          git fetch -q origin engine-status || true
+          git checkout -q engine-status 2>/dev/null || true
+          cp /tmp/status.json status.json
+          mkdir -p history && cp /tmp/status.json "history/$(date -u +%Y-%m-%dT%H%MZ).json"
+          ls history | sort | head -n -200 | sed 's#^#history/#' | xargs -r rm -f
+          git add -A
+          git commit -q -m "engine-health: $(date -u +%Y-%m-%dT%H:%MZ) ok=${{ steps.final.outputs.ok }}" || echo "no change"
+          git push -q origin HEAD:engine-status
+
+      - name: Open or update failure issue
+        if: steps.final.outputs.ok != '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          D=$(TZ=Asia/Taipei date +%F)
+          TITLE="引擎健康檢查失敗 ${D}"
+          BODY=$(printf '%s\n\n```\n%s\n```\n\n失敗項：%s\n再部署：%s\n狀態檔：https://raw.githubusercontent.com/%s/engine-status/status.json\n執行：%s/%s/actions/runs/%s' \
+            "第 1 層程式檢查失敗（不含 AI）。" "$(cat /tmp/status.json)" "${{ steps.final.outputs.failed }}" "${{ steps.redeploy.outputs.redeployed || '0' }}" "$GITHUB_REPOSITORY" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")
+          gh label create engine-health --color B60205 --description "第 1 層健康檢查" --repo "$GITHUB_REPOSITORY" 2>/dev/null || true
+          NUM=$(gh issue list --repo "$GITHUB_REPOSITORY" --label engine-health --state open --search "\"$TITLE\" in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$NUM" ]; then
+            gh issue comment "$NUM" --repo "$GITHUB_REPOSITORY" --body "$BODY"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --label engine-health --body "$BODY"
+          fi
+
+      - name: Close today's failure issue when healthy again
+        if: steps.final.outputs.ok == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          D=$(TZ=Asia/Taipei date +%F)
+          for NUM in $(gh issue list --repo "$GITHUB_REPOSITORY" --label engine-health --state open --search "\"引擎健康檢查失敗 ${D}\" in:title" --json number --jq '.[].number'); do
+            gh issue close "$NUM" --repo "$GITHUB_REPOSITORY" --comment "已恢復正常（$(date -u +%Y-%m-%dT%H:%MZ)）。"
+          done
+
+      - name: Heartbeat
+        if: always()
+        env:
+          HC: ${{ secrets.HC_PING_ENGINE_HEALTH }}
+        shell: bash
+        run: |
+          [ -z "$HC" ] && { echo "no heartbeat url configured"; exit 0; }
+          if [ "${{ steps.final.outputs.ok }}" = "1" ]; then curl -fsS -m 10 --retry 3 "$HC" >/dev/null; else curl -fsS -m 10 --retry 3 "$HC/fail" >/dev/null; fi
+
+      - name: Fail the run when unhealthy
+        if: steps.final.outputs.ok != '1'
+        run: exit 2
