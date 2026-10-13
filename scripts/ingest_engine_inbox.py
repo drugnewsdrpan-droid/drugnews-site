@@ -161,6 +161,39 @@ def classify(pkg: Path) -> str:
 
 # ---------------------------------------------------------------- gates
 
+IMG_RE = re.compile(r"!\[[^\]]*]\(([^)]+)\)")
+
+
+def build_inline_variants(repo: Path, folder: Path, meta: dict) -> tuple[bool, str]:
+    """Create the -720/-1400 webp variants the renderer expects for inline PNG figures.
+
+    The publisher only generates variants for the cover; with responsive_inline_images=true the
+    article page references <figure>-720.webp / -1400.webp, so they must travel with the package.
+    """
+    if meta.get("responsive_inline_images") is not True:
+        return True, ""
+    md = (folder / "article.md").read_text("utf-8", errors="replace")
+    sources = []
+    for src in IMG_RE.findall(md):
+        src = src.strip()
+        if src.startswith(("http://", "https://")) or not src.lower().endswith(".png"):
+            continue
+        p = folder / src
+        if p.is_file() and p not in sources:
+            sources.append(p)
+    for p in sources:
+        dest = p.with_suffix("")
+        if dest.with_name(dest.name + "-720.webp").exists() and dest.with_name(dest.name + "-1400.webp").exists():
+            continue
+        js = ("import('./scripts/build_article_media.mjs').then(m => m.buildResponsiveCover(process.argv[1], process.argv[2]))"
+              ".then(r => { console.log(JSON.stringify(r)); if (r.some(x => !x.pass)) process.exit(2); })"
+              ".catch(e => { console.error(e.message); process.exit(1); })")
+        res = run(["node", "--input-type=module", "-e", js, "--", str(p), str(dest)], repo)
+        if res.returncode != 0:
+            return False, f"圖片 {p.name} 無法產生 webp 變體（請用 1200×675、≤500KB 的 PNG）：{tail(res.stderr or res.stdout)}"
+    return True, ""
+
+
 def run_gates(repo: Path) -> tuple[bool, str]:
     """Run the same deterministic quality gates as the production deploy."""
     for cmd in AUDITS:
@@ -186,6 +219,13 @@ def ingest_article(repo: Path, name: str, pkg: Path, log: dict, now: str) -> dic
     pre_existing = tracked_or_exists(repo, target_rel)
     previously_engine = any(v.get("slug") == slug and v.get("status") == "published" for v in log.values())
     if pre_existing and not previously_engine:
+        # an article the engine (or Claude for the engine) placed directly is marked source_platform=Drugnews
+        try:
+            existing = json.loads((repo / target_rel / "meta.json").read_text("utf-8"))
+            previously_engine = existing.get("source_platform") == "Drugnews"
+        except Exception:  # noqa: BLE001
+            previously_engine = False
+    if pre_existing and not previously_engine:
         return {"status": "rejected", "slug": slug, "reason": f"slug「{slug}」官網已存在且不是引擎投遞的文章；請換 slug"}
 
     # Stage through the publisher's own inbox validation (disclaimer, images, category, dates ...)
@@ -193,6 +233,13 @@ def ingest_article(repo: Path, name: str, pkg: Path, log: dict, now: str) -> dic
         inbox = Path(tmp) / "inbox"
         inbox.mkdir()
         shutil.copytree(pkg, inbox / slug)
+        # drop stray files that are not part of the package contract
+        for stray in (inbox / slug).iterdir():
+            if stray.is_file() and (stray.name.startswith("zz_") or stray.name.startswith(".")):
+                stray.unlink()
+        ok, why = build_inline_variants(repo, inbox / slug, meta)
+        if not ok:
+            return {"status": "rejected", "slug": slug, "reason": why}
         errors_file = repo / "content/publish-errors.json"
         if errors_file.exists():
             errors_file.unlink()
