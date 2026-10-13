@@ -8,3 +8,4 @@ outputs/
 work/
 node_modules/
 pnpm-lock.yaml
+__pycache__/

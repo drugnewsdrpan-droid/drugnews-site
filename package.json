@@ -14,6 +14,7 @@
     "scheduled:audit": "node scripts/audit_scheduled_leaks.mjs candidate",
     "test:products": "node scripts/test_product_templates.mjs",
     "scheduled:browser-qa": "node scripts/qa_scheduled_fixture_browser.mjs",
+    "test:engine-inbox": "python3 scripts/test_engine_inbox_guards.py",
     "test:scheduled": "node scripts/test_scheduled_contract.mjs && node scripts/test_queue_pack_time.mjs && node scripts/test_company_index_contract.mjs && node scripts/test_scheduled_image_integrity.mjs && node scripts/test_verify_repair_receipt.mjs && node scripts/test_scheduled_publishing.mjs && node scripts/test_release_watchdog.mjs && node scripts/test_english_article_completeness.mjs && node scripts/test_product_templates.mjs",
     "audit:image-budget": "node scripts/audit_image_budget.mjs",
     "build:topics": "node scripts/build_topic_hubs.mjs",
