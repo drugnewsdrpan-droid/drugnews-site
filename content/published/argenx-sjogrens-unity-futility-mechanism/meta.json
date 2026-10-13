@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "updated_at": "2026-10-13",
   "category": "商業分析系列",
   "series": "商業分析系列",
@@ -12,10 +12,10 @@
   "responsive_inline_images": true,
   "enable_toc": true,
   "source_platform": "Drugnews",
-  "source_status": "引擎候選 2026-10-12；判別器 86；v2：改為 10/12 20:00 刊出以讓 10/13 主檔為 Galleri；內文圖 webp 變體由投遞箱產生。",
+  "source_status": "引擎候選 2026-10-12；判別器 86；v3：日期維持 10/13（已上線網址不可改，部署會擋 LIVE_INVENTORY_REGRESSION），publish_at 07:30 讓 08:05 的 Galleri 為當日主檔；內文圖 webp 變體由投遞箱產生。",
   "title": "乾燥症三期喊停，argenx 押錯的是機制不是藥",
   "slug": "argenx-sjogrens-unity-futility-mechanism",
-  "publish_at": "2026-10-12T20:00:00+08:00",
+  "publish_at": "2026-10-13T07:30:00+08:00",
   "lang": "zh-Hant",
   "tags": [
     "argenx",
