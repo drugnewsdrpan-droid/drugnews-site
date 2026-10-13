@@ -1,6 +1,6 @@
 {
   "_readme": "藥時事引擎投遞箱結果。status: published=已進官網 repo 並觸發部署（90 秒後核 url 是否 200）；pending=已驗證、等 publish_at；rejected=退件，reason 寫原因，改好重丟同名資料夾即可重驗。",
-  "updated_at": "2026-10-13T03:57:30Z",
+  "updated_at": "2026-10-13T04:36:30Z",
   "packages": {
     "官網投遞箱｜文章與報告丟這裡就上線": {
       "status": "rejected",
@@ -33,7 +33,16 @@
       "reason": "已驗證，等 publish_at=2026-10-14T08:00:00+08:00 到時自動上線",
       "kind": "article",
       "hash": "fdf986f7e6ab5170f567312d76b192c4d53a4db6ad19e1ff20c5c474256dcc0f",
-      "checked_at": "2026-10-13T03:57:30Z"
+      "checked_at": "2026-10-13T04:36:30Z"
+    },
+    "2026-10-12_argenx-sjogrens-unity-futility-mechanism": {
+      "status": "published",
+      "slug": "argenx-sjogrens-unity-futility-mechanism",
+      "url": "https://drugnews.com.tw/articles/2026-10-12-argenx-sjogrens-unity-futility-mechanism.html",
+      "kind": "article",
+      "hash": "1a238373df055113888b1e19b3fbbafffd5a0c8f02612642e0056d542160be5b",
+      "checked_at": "2026-10-13T04:36:30Z",
+      "ingested_at": "2026-10-13T04:36:30Z"
     }
   }
 }
