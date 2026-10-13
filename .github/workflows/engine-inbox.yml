@@ -1,0 +1,83 @@
+name: Engine inbox (Drive → site)
+
+# 藥時事引擎投遞箱：定時下載 Drive 公開資料夾「官網投遞箱」，用與正式部署相同的閘門驗證，
+# 通過的 commit 進 main 並觸發部署；結果寫在 content/engine/inbox-log.json。
+# 資料夾必須是「知道連結的任何人：檢視者」。排程避開整點（GitHub 整點 cron 會延遲數小時）；
+# 23:47 UTC = 07:47 台北，配合驗證器的 20 分鐘提前量，08:00 的文章在整點前上線。
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+    - cron: "47 23 * * *"
+  workflow_dispatch:
+    inputs:
+      folder_id:
+        description: "Drive folder id (default: 官網投遞箱)"
+        required: false
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: drugnews-engine-inbox
+  cancel-in-progress: false
+
+env:
+  ENGINE_INBOX_FOLDER_ID: ${{ github.event.inputs.folder_id || '152aj7nqSPc5KNn-AXuJrQfCWtl86GKHQ' }}
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+
+      - run: python3 -m pip install --quiet --upgrade gdown
+
+      - name: Download inbox folder
+        id: download
+        shell: bash
+        run: |
+          set -o pipefail
+          rm -rf /tmp/inbox-raw && mkdir -p /tmp/inbox-raw
+          if gdown --folder "https://drive.google.com/drive/folders/${ENGINE_INBOX_FOLDER_ID}" --output /tmp/inbox-raw/ --remaining-ok --quiet 2>&1 | tee /tmp/gdown.log; then
+            echo "ok=1" >> "$GITHUB_OUTPUT"; ls -la /tmp/inbox-raw || true
+          else
+            echo "ok=0" >> "$GITHUB_OUTPUT"
+            { echo "## 引擎投遞箱"; echo; echo "無法下載 Drive 資料夾 ${ENGINE_INBOX_FOLDER_ID}（通常是資料夾未設為「知道連結的任何人：檢視者」）"; echo '```'; tail -n 20 /tmp/gdown.log; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Validate and stage packages
+        if: steps.download.outputs.ok == '1'
+        env:
+          CI: "true"
+        run: python3 scripts/ingest_engine_inbox.py --raw /tmp/inbox-raw --paths-out /tmp/paths.txt
+
+      - name: Commit accepted packages to main
+        id: commit
+        if: steps.download.outputs.ok == '1'
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "pushed=0" >> "$GITHUB_OUTPUT"; echo "deploy=0" >> "$GITHUB_OUTPUT"
+          [ -s /tmp/paths.txt ] || { echo "nothing to commit"; exit 0; }
+          git config user.name "Drugnews Engine"
+          git config user.email "engine@drugnews.com.tw"
+          while IFS= read -r p; do [ -n "$p" ] && git add -A -- "$p"; done < /tmp/paths.txt
+          git diff --cached --quiet && { echo "nothing staged"; exit 0; }
+          git commit -m "engine: ingest from Drive inbox $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
+          echo "pushed=1" >> "$GITHUB_OUTPUT"
+          grep -qv '^content/engine/inbox-log.json$' /tmp/paths.txt && echo "deploy=1" >> "$GITHUB_OUTPUT" || true
+
+      - name: Trigger production deploy
+        if: steps.commit.outputs.deploy == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
