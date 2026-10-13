@@ -170,6 +170,9 @@ export async function buildSearchReady({root,out,mode='preview',now=new Date().t
     }
   }
   const feedUrls=new Set(feed.items.map(x=>x.url));
+  // Same-day homepage order follows the feed's full publish timestamp (feed.json carries publish_at);
+  // article JSON-LD only carries the calendar date.
+  const feedPublishedAt=new Map(feed.items.filter(x=>x.url&&validDate(x.date_published)).map(x=>[x.url,x.date_published]));
   const pages=[],skipped=[],warnings=[];
   for(const u of candidates){
     try {
@@ -194,7 +197,7 @@ export async function buildSearchReady({root,out,mode='preview',now=new Date().t
   const publicUrls=new Set(pages.map(p=>p.url));
   const articles=pages.filter(p=>p.article).sort((a,b)=>Date.parse(b.article.datePublished)-Date.parse(a.article.datePublished)||a.url.localeCompare(b.url));
   const homepageCandidates=articles.filter(p=>!noExcerpt(p.directives)&&feedUrls.has(p.url)&&!(/-en\.html$/.test(p.url))&&!/^en/i.test(p.article.inLanguage||''))
-    .map(p=>({url:p.url,title:p.article.headline,datePublished:p.article.datePublished}));
+    .map(p=>({url:p.url,title:p.article.headline,datePublished:p.article.datePublished,...(feedPublishedAt.has(p.url)?{publishedAt:feedPublishedAt.get(p.url)}:{})}));
   const pageByUrl=new Map(articles.map(p=>[p.url,p]));
   const latest=chineseHomepageArticles(homepageCandidates).map(p=>pageByUrl.get(p.url));
   if(!latest.length)throw new Error('No published canonical Chinese articles in the public feed; refusing an empty or stale fallback homepage.');
