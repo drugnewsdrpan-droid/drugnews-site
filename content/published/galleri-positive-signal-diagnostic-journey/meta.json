@@ -12,10 +12,10 @@
   "responsive_inline_images": false,
   "enable_toc": true,
   "source_platform": "Drugnews",
-  "source_status": "FB R5 同版母稿；官網版只轉排版，文字未改；2026-10-13 經官網投遞箱上線。",
+  "source_status": "FB R5 同版母稿；官網版只轉排版，文字未改；2026-10-13 經官網投遞箱上線；v2 將 publish_at 調為 08:05 使其成為當日主檔。",
   "title": "滴血驗癌真的來了？",
   "slug": "galleri-positive-signal-diagnostic-journey",
-  "publish_at": "2026-10-13T08:00:00+08:00",
+  "publish_at": "2026-10-13T08:05:00+08:00",
   "lang": "zh-Hant",
   "author": "藥時事 Drugnews",
   "tags": [
