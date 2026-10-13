@@ -62,6 +62,8 @@ argenx 的醫學長 Luc Truyen 在聲明裡說，乾燥症是「免疫學裡最�
 
 UNITY 的中止不是 argenx 的財務事件，是一次機制分類的修正。藥沒有變差，是這個病不照藥的邏輯生病。
 
+*本文為產業與公司分析，不構成投資或醫療建議。*
+
 ## 參考資料
 
 1. argenx, "argenx Provides Update on Phase 3 UNITY Study of Efgartigimod SC in Sjögren's Disease," GlobeNewswire, 2026-10-08. https://www.globenewswire.com/news-release/2026/10/08/3376934/0/en/argenx-provides-update-on-phase-3-unity-study-of-efgartigimod-sc-in-sj%C3%B6gren-s-disease.html
