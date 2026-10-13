@@ -84,6 +84,20 @@ def tracked_or_exists(repo: Path, rel: str) -> bool:
     return (repo / rel).exists()
 
 
+TAIPEI = dt.timezone(dt.timedelta(hours=8))
+
+
+def taipei_day(publish_at: str) -> str | None:
+    """YYYY-MM-DD of an ISO timestamp in Asia/Taipei, or None if it is not a timezone-aware ISO time."""
+    try:
+        value = dt.datetime.fromisoformat(publish_at.strip().replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if value.tzinfo is None:
+        return None
+    return value.astimezone(TAIPEI).strftime("%Y-%m-%d")
+
+
 def revert_path(repo: Path, rel: str) -> None:
     """Restore a path to HEAD (or delete it if it was untracked)."""
     git(repo, "checkout", "--", rel)
@@ -214,9 +228,26 @@ def ingest_article(repo: Path, name: str, pkg: Path, log: dict, now: str) -> dic
     date = str(meta.get("date") or "")
     if not re.match(r"^\d{4}-\d{2}-\d{2}$", date):
         return {"status": "rejected", "reason": "meta.json 的 date 必須是 YYYY-MM-DD"}
+    publish_day = taipei_day(str(meta.get("publish_at") or ""))
+    if publish_day is None:
+        return {"status": "rejected", "slug": slug,
+                "reason": "meta.json 的 publish_at 必須是含時區的時間（例 2026-10-14T08:00:00+08:00）"}
+    if publish_day != date:
+        return {"status": "rejected", "slug": slug,
+                "reason": f"publish_at 的台北日期（{publish_day}）必須等於 date（{date}）：網址用 date，首頁排序用 publish_at，兩者不同會錯排"}
 
     target_rel = f"content/published/{slug}"
     pre_existing = tracked_or_exists(repo, target_rel)
+    if pre_existing:
+        # a live article's URL is /articles/<date>-<slug>.html; changing date would retire the old URL
+        # and the deploy guard (LIVE_INVENTORY_REGRESSION) refuses the whole site build
+        try:
+            live_date = str(json.loads((repo / target_rel / "meta.json").read_text("utf-8")).get("date") or "")
+        except Exception:  # noqa: BLE001
+            live_date = ""
+        if live_date and live_date != date:
+            return {"status": "rejected", "slug": slug,
+                    "reason": f"已上線文章的 date 不可改（官網是 {live_date}，投遞是 {date}）：網址會變、部署會被擋。要改只能改標題、內文、summary、tags 或同一天的 publish_at 時間"}
     previously_engine = any(v.get("slug") == slug and v.get("status") == "published" for v in log.values())
     if pre_existing and not previously_engine:
         # an article the engine (or Claude for the engine) placed directly is marked source_platform=Drugnews
