@@ -9,7 +9,7 @@
 | 0 平台內建 | GitHub Pages、Meta 排程貼文、Dcard／CMoney／方格子預約、YouTube 排程 | 到點把存量發出去 | 平台自己 |
 | 1 程式（本 repo） | `engine-inbox.yml`、`pages.yml`、`engine-health.yml` | 投遞箱驗證上線、部署、健康檢查＋自動再部署＋開 issue | **cron-job.org**（準時）；GitHub cron 只當備援（會晚數小時） |
 | 2 AI 判斷 | Claude 排程任務 | Gmail 客戶回信、判別器評分、晨報、讀 status.json 決定叫誰補、週審計 | Claude 排程 |
-| 3 AI 操作瀏覽器 | dots（Mac） | 寫文章進投遞箱（提前 4 天）、每週批次預約社群貼文、學校 Outlook | dots 自己 |
+| 3 AI 操作瀏覽器 | dots（Mac） | 寫文章進投遞箱（提前 4 天）、每週批次預約社群貼文；排會前核老闆的 Outlook 行事曆（學校信件不在範圍） | dots 自己 |
 | 4 人 | 老闆 | 權杖、登入、簽約、付錢、報價 | — |
 
 ## 第 1 層檢查：`engine-health.yml` → `scripts/engine_health.mjs`
