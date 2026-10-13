@@ -1,0 +1,13 @@
+{
+  "_readme": "藥時事引擎投遞箱結果。status: published=已進官網 repo 並觸發部署（90 秒後核 url 是否 200）；pending=已驗證、等 publish_at；rejected=退件，reason 寫原因，改好重丟同名資料夾即可重驗。",
+  "updated_at": "2026-10-13T01:38:46Z",
+  "packages": {
+    "官網投遞箱｜文章與報告丟這裡就上線": {
+      "status": "rejected",
+      "reason": "看不出是文章還是報告：文章要有 article.md + meta.json，報告要有 report.md",
+      "kind": "unknown",
+      "hash": "da5ba85234b1dbd6380289e267ca06511d49789a626b57f7f5015f443c8d7273",
+      "checked_at": "2026-10-13T01:38:46Z"
+    }
+  }
+}
