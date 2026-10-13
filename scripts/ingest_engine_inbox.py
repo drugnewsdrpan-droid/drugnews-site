@@ -237,6 +237,22 @@ def ingest_article(repo: Path, name: str, pkg: Path, log: dict, now: str) -> dic
         for stray in (inbox / slug).iterdir():
             if stray.is_file() and (stray.name.startswith("zz_") or stray.name.startswith(".")):
                 stray.unlink()
+        # text-only update: a package without images for an engine-owned article reuses the images
+        # already in the repo (so a title/date/body fix does not require re-uploading figures)
+        if pre_existing and previously_engine:
+            md_text = (inbox / slug / "article.md").read_text("utf-8", errors="replace")
+            wanted = [s.strip() for s in IMG_RE.findall(md_text)] + [
+                str(meta.get(k) or "") for k in ("cover_image", "card_image", "homepage_cover_image")]
+            for rel in wanted:
+                if not rel or rel.startswith(("http://", "https://")):
+                    continue
+                dst = inbox / slug / rel
+                src = repo / target_rel / rel
+                if not dst.exists() and src.is_file():
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(src, dst)
+                    for variant in src.parent.glob(src.stem + "-*.webp"):
+                        shutil.copy2(variant, dst.parent / variant.name)
         ok, why = build_inline_variants(repo, inbox / slug, meta)
         if not ok:
             return {"status": "rejected", "slug": slug, "reason": why}
