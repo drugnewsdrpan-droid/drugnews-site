@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-13",
+  "updated_at": "2026-10-13",
+  "category": "商業分析系列",
+  "series": "Business Analysis",
+  "access": "免費文章",
+  "cover_image": "images/cover.png",
+  "card_image": "images/cover.png",
+  "inline_image_width": 1200,
+  "inline_image_height": 675,
+  "inline_image_viewer": true,
+  "responsive_inline_images": true,
+  "enable_toc": true,
+  "source_platform": "Drugnews",
+  "source_status": "English translation of the FB R5 Chinese master; pending deployment verification",
+  "title": "Has Cancer Detection from a Blood Sample Really Arrived?",
+  "slug": "galleri-positive-signal-diagnostic-journey-en",
+  "publish_at": "2026-10-13T08:00:00+08:00",
+  "lang": "en",
+  "author": "藥時事 Drugnews",
+  "tags": [
+    "GRAIL",
+    "Galleri",
+    "Multi-cancer early detection",
+    "Cancer screening",
+    "NHS-Galleri",
+    "FDA",
+    "Theranos",
+    "Guardant Health",
+    "Shield",
+    "Liquid biopsy"
+  ],
+  "summary": "Theranos promised multiple clinical tests from a small finger-prick sample. Galleri uses two 10 mL tubes of venous blood. Orders are growing, but the primary late-stage cancer endpoint was not met, leaving “early” in need of more evidence.",
+  "cover_image_alt": "Dot plot of three FDA advisory committee votes: a majority voted in favor, but the early detection claim remains in question; advisory opinion is not approval.",
+  "card_image_alt": "Dot plot of three FDA advisory committee votes: a majority voted in favor, but the early detection claim remains in question; advisory opinion is not approval.",
+  "translations": {
+    "zh-Hant": "2026-10-13-galleri-positive-signal-diagnostic-journey.html"
+  }
+}

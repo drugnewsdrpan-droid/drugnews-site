@@ -1,6 +1,6 @@
 {
   "_readme": "藥時事引擎投遞箱結果。status: published=已進官網 repo 並觸發部署（90 秒後核 url 是否 200）；pending=已驗證、等 publish_at；rejected=退件，reason 寫原因，改好重丟同名資料夾即可重驗。",
-  "updated_at": "2026-10-13T01:42:53Z",
+  "updated_at": "2026-10-13T03:49:12Z",
   "packages": {
     "官網投遞箱｜文章與報告丟這裡就上線": {
       "status": "rejected",
@@ -17,6 +17,23 @@
       "hash": "e306fab668017030da950f4af0082ac3d15a46e4a09187ced2bf92c2e9825eef",
       "checked_at": "2026-10-13T01:42:53Z",
       "ingested_at": "2026-10-13T01:42:53Z"
+    },
+    "2026-10-13_galleri-positive-signal-diagnostic-journey-en": {
+      "status": "published",
+      "slug": "galleri-positive-signal-diagnostic-journey-en",
+      "url": "https://drugnews.com.tw/articles/2026-10-13-galleri-positive-signal-diagnostic-journey-en.html",
+      "kind": "article",
+      "hash": "bd3b6ae9f3434d92229035c0586e8ea6f9baea99ed292032dc99d8a7082c1c95",
+      "checked_at": "2026-10-13T03:49:12Z",
+      "ingested_at": "2026-10-13T03:49:12Z"
+    },
+    "2026-10-14_eloratzp-weight-loss-tolerability-persistence": {
+      "status": "pending",
+      "slug": "eloratzp-weight-loss-tolerability-persistence",
+      "reason": "已驗證，等 publish_at=2026-10-14T08:00:00+08:00 到時自動上線",
+      "kind": "article",
+      "hash": "fdf986f7e6ab5170f567312d76b192c4d53a4db6ad19e1ff20c5c474256dcc0f",
+      "checked_at": "2026-10-13T03:49:12Z"
     }
   }
 }
