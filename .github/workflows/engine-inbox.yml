@@ -56,6 +56,9 @@ jobs:
         if: steps.download.outputs.ok == '1'
         env:
           CI: "true"
+          # 第 0 層 FB 排程貼文：設了 META_PAGE_TOKEN 才會動；沒設就略過（見 docs/automation.md）
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
         run: python3 scripts/ingest_engine_inbox.py --raw /tmp/inbox-raw --paths-out /tmp/paths.txt
 
       - name: Commit accepted packages to main
