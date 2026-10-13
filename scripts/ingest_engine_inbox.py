@@ -42,6 +42,42 @@ AUDITS = [
     ["npm", "run", "--silent", "audit:english-localization"],
 ]
 SITE_BASE = "https://drugnews.com.tw"
+GRAPH_API = "https://graph.facebook.com/v21.0"
+
+
+def schedule_fb_post(meta: dict, url: str, log_entry: dict) -> None:
+    """第 0 層：驗證通過的中文文章用 Graph API 建 FB 貼文（未到 publish_at 就排程，到了就直接發）。
+    只在 repo secret META_PAGE_TOKEN 存在時執行；已有 fb_post_id 的包不重做；失敗只記 fb_error，不影響上線。"""
+    token = os.environ.get("META_PAGE_TOKEN", "").strip()
+    if not token or log_entry.get("fb_post_id") or str(meta.get("slug", "")).endswith("-en"):
+        return
+    page_id = os.environ.get("META_PAGE_ID", "61568446257142").strip()
+    try:
+        import urllib.parse
+        import urllib.request
+
+        text = str(meta.get("fb") or meta.get("summary") or meta.get("title") or "").strip()
+        title = str(meta.get("title") or "").strip()
+        message = (f"{title}\n\n{text}" if text and title and text != title else text or title) + f"\n\n完整分析：{url}"
+        form = {"message": message, "link": url, "access_token": token}
+        publish_at = dt.datetime.fromisoformat(str(meta["publish_at"]).replace("Z", "+00:00"))
+        lead = (publish_at - dt.datetime.now(dt.timezone.utc)).total_seconds()
+        if lead > 15 * 60:
+            form.update({"published": "false", "scheduled_publish_time": str(int(publish_at.timestamp()))})
+        req = urllib.request.Request(f"{GRAPH_API}/{page_id}/feed",
+                                     data=urllib.parse.urlencode(form).encode("utf-8"), method="POST")
+        with urllib.request.urlopen(req, timeout=30) as resp:  # noqa: S310
+            data = json.loads(resp.read().decode("utf-8"))
+        log_entry["fb_post_id"] = str(data.get("id") or "")
+        log_entry["fb_scheduled"] = form.get("scheduled_publish_time") is not None
+        log_entry.pop("fb_error", None)
+    except Exception as e:  # noqa: BLE001
+        body = ""
+        try:
+            body = e.read().decode("utf-8")[:300]  # type: ignore[attr-defined]
+        except Exception:  # noqa: BLE001
+            pass
+        log_entry["fb_error"] = f"{type(e).__name__}: {e} {body}".strip()
 
 
 def now_iso() -> str:
@@ -429,6 +465,17 @@ def main() -> int:
                         result = {"status": "rejected",
                                   "reason": "看不出是文章還是報告：文章要有 article.md + meta.json，報告要有 report.md"}
                     result["kind"] = kind
+                    if kind == "article" and result["status"] in ("pending", "published"):
+                        # 第 0 層 FB 排程貼文：沿用先前的 fb_post_id（pending 的包每輪都會重驗）
+                        for key in ("fb_post_id", "fb_scheduled", "fb_error"):
+                            if key in entry_prev and key not in result:
+                                result[key] = entry_prev[key]
+                        try:
+                            fb_meta = json.loads((pkg / "meta.json").read_text("utf-8"))
+                            fb_url = result.get("url") or f"{SITE_BASE}/articles/{fb_meta.get('date')}-{fb_meta.get('slug')}.html"
+                            schedule_fb_post(fb_meta, fb_url, result)
+                        except Exception as e:  # noqa: BLE001
+                            result["fb_error"] = f"meta: {e}"
                 result.update({"hash": h, "checked_at": now})
                 if result["status"] == "published":
                     result["ingested_at"] = now

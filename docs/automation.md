@@ -54,10 +54,11 @@
 |---|---|---|
 | `DRUGNEWS_QUEUE_KEY_B64*` | 排程佇列簽章（既有） | 已設 |
 | `HC_PING_ENGINE_HEALTH` | 健康檢查心跳 | 待設 |
-| `META_PAGE_TOKEN` | 投遞箱驗證時用 Graph API 建 FB 排程貼文（下一階段） | 待設 |
+| `META_PAGE_TOKEN` | 投遞箱驗證時用 Graph API 建 FB 排程貼文（已實作在 `ingest_engine_inbox.py`，沒設就略過） | 待設 |
+| `META_PAGE_ID` | 粉專 ID（預設 61568446257142） | 選填 |
 
 ## 下一階段（交 Codex）
 
-1. `engine-inbox.yml`：驗證通過且 meta 有 `fb.text` 且 `META_PAGE_TOKEN` 存在 → Graph API `POST /{page-id}/feed` 帶 `published=false&scheduled_publish_time=<publish_at>`，post id 寫回 `inbox-log.json`；`engine_health.mjs` 新增 `fb_post_exists`。
+1. FB 已實作：驗證通過（pending 或 published）的中文包 → Graph API `POST /{page-id}/feed`（未到 publish_at 用 `published=false&scheduled_publish_time`），`fb_post_id` 寫回 `inbox-log.json`；失敗記 `fb_error` 不影響上線。待做：`engine_health.mjs` 新增 `today_fb_post_id`（有 token 時 warn）。
 2. 影片：`engine-video.yml` 以 HeyGen API 出片、YouTube Data API `publishAt` 排程；dots 不再上傳。
 3. 每個 workflow 結尾加 healthchecks ping。
