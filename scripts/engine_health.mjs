@@ -116,7 +116,8 @@ if (!todayZh.length) {
 // 4. 存量天數
 {
   const future = new Set(zh.filter((p) => p.date > TODAY && (p.status === "pending" || p.status === "published")).map((p) => p.date));
-  add("stock_days", future.size >= STOCK_TARGET, "warn", future.size, `目標 ≥${STOCK_TARGET}；未來日期：${[...future].sort().join(",") || "無"}`);
+  // 老闆原則：文章四天前寫好。少於 2 天＝嚴重（會叫人），少於 4 天＝缺（寫補單）。
+  add("stock_days", future.size >= STOCK_TARGET, future.size < 2 ? "critical" : "warn", future.size, `目標 ≥${STOCK_TARGET}（<2 嚴重）；未來日期：${[...future].sort().join(",") || "無"}`);
 }
 
 // 5. 退件

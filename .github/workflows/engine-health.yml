@@ -81,13 +81,15 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git config user.name "Drugnews Engine"
-          git config user.email "engine@drugnews.com.tw"
           rm -rf /tmp/status-branch && mkdir -p /tmp/status-branch && cd /tmp/status-branch
           git init -q -b engine-status
+          # 身分要設在這個新 repo 裡（設在 checkout 的 repo 不會生效，第一次建分支就會 commit 失敗）
+          git config user.name "Drugnews Engine"
+          git config user.email "engine@drugnews.com.tw"
           git remote add origin "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git"
-          git fetch -q origin engine-status || true
-          git checkout -q engine-status 2>/dev/null || true
+          if git fetch -q origin engine-status 2>/dev/null; then
+            git checkout -q -B engine-status FETCH_HEAD
+          fi
           cp /tmp/status.json status.json
           mkdir -p history && cp /tmp/status.json "history/$(date -u +%Y-%m-%dT%H%MZ).json"
           ls history | sort | head -n -200 | sed 's#^#history/#' | xargs -r rm -f
