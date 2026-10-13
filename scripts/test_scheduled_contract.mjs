@@ -157,6 +157,22 @@ test("literal entities do not undergo a second decode in canaries", () => {
   for (const needle of bodyCanaries(body)) assert(body.includes(needle));
 });
 
+test("same-day homepage hero follows the feed publish timestamp, not the URL", async () => {
+  const { chineseHomepageArticles } = await import("./homepage_article_contract.mjs");
+  const rows = [
+    { url: "https://drugnews.com.tw/articles/2026-10-13-argenx.html", title: "a", datePublished: "2026-10-13", publishedAt: "2026-10-12T23:30:00.000Z" },
+    { url: "https://drugnews.com.tw/articles/2026-10-13-galleri.html", title: "g", datePublished: "2026-10-13", publishedAt: "2026-10-13T00:05:00.000Z" },
+    { url: "https://drugnews.com.tw/articles/2026-10-12-keytruda.html", title: "k", datePublished: "2026-10-12", publishedAt: "2026-10-12T00:00:00.000Z" },
+  ];
+  assert.deepEqual(chineseHomepageArticles(rows).map((r) => r.url.split("/").pop()), ["2026-10-13-galleri.html", "2026-10-13-argenx.html", "2026-10-12-keytruda.html"]);
+  // rows without publishedAt keep the previous date/URL order
+  const legacy = rows.map(({ publishedAt, ...r }) => r);
+  assert.deepEqual(chineseHomepageArticles(legacy).map((r) => r.url.split("/").pop()), ["2026-10-13-argenx.html", "2026-10-13-galleri.html", "2026-10-12-keytruda.html"]);
+  // a timestamp whose Taipei day disagrees with the public date is ignored (URL tiebreak again)
+  const mismatched = rows.map((r) => ({ ...r, publishedAt: r.url.includes("galleri") ? "2026-10-11T00:05:00.000Z" : r.publishedAt }));
+  assert.deepEqual(chineseHomepageArticles(mismatched).map((r) => r.url.split("/").pop()), ["2026-10-13-argenx.html", "2026-10-13-galleri.html", "2026-10-12-keytruda.html"]);
+});
+
 let failed=0;
 for (const [name, fn] of tests) {
   try { await fn(); console.log(`PASS ${name}`); }
