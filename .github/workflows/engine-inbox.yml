@@ -45,7 +45,7 @@ jobs:
         run: |
           set -o pipefail
           rm -rf /tmp/inbox-raw && mkdir -p /tmp/inbox-raw
-          if gdown --folder "https://drive.google.com/drive/folders/${ENGINE_INBOX_FOLDER_ID}" --output /tmp/inbox-raw/ --remaining-ok --quiet 2>&1 | tee /tmp/gdown.log; then
+          if gdown --folder "https://drive.google.com/drive/folders/${ENGINE_INBOX_FOLDER_ID}" --output /tmp/inbox-raw/ --quiet 2>&1 | tee /tmp/gdown.log; then
             echo "ok=1" >> "$GITHUB_OUTPUT"; ls -la /tmp/inbox-raw || true
           else
             echo "ok=0" >> "$GITHUB_OUTPUT"
