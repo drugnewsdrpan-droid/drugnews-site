@@ -351,6 +351,15 @@ def main() -> int:
     paths: list[str] = []
     summary: list[str] = []
 
+    # gdown wraps the download in a directory named after the Drive folder; unwrap it
+    while raw.exists():
+        entries = [e for e in raw.iterdir() if not e.name.startswith(".")]
+        if len(entries) == 1 and entries[0].is_dir() and classify(entries[0]) == "unknown" \
+                and not any(f.suffix.lower() == ".zip" for f in entries):
+            raw = entries[0]
+            continue
+        break
+
     if not raw.exists():
         summary.append("投遞箱下載目錄不存在，本輪略過")
     else:
