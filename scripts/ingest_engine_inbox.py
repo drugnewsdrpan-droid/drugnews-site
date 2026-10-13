@@ -275,11 +275,17 @@ def main() -> int:
     ap.add_argument("--raw", required=True, help="directory the Drive inbox was downloaded into")
     ap.add_argument("--repo", default=".")
     ap.add_argument("--paths-out", default=None, help="file to receive the repo-relative paths to git add")
+    ap.add_argument("--lead-minutes", type=int, default=20,
+                    help="treat articles whose publish_at falls within the next N minutes as due (default 20), "
+                         "so an 08:00 article staged by the 07:50 run is live by 08:00")
     args = ap.parse_args()
 
     repo = Path(args.repo).resolve()
     raw = Path(args.raw).resolve()
     now = now_iso()
+    # publisher clock: slightly ahead so the scheduled run just before the hour catches on-the-hour articles
+    due_clock = (dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=max(0, args.lead_minutes))) \
+        .replace(microsecond=0).isoformat().replace("+00:00", "Z")
     log_path = repo / LOG_REL
     log_path.parent.mkdir(parents=True, exist_ok=True)
     try:
@@ -287,7 +293,13 @@ def main() -> int:
     except Exception:  # noqa: BLE001
         log_doc = {}
     log: dict = log_doc.get("packages", {})
-    original_log = json.dumps(log, sort_keys=True, ensure_ascii=False)
+
+    def fingerprint(entries: dict) -> str:
+        # ignore the per-run timestamp so a still-pending package does not produce a commit every run
+        return json.dumps({k: {kk: vv for kk, vv in v.items() if kk != "checked_at"} for k, v in entries.items()},
+                          sort_keys=True, ensure_ascii=False)
+
+    original_log = fingerprint(log)
 
     paths: list[str] = []
     summary: list[str] = []
@@ -307,7 +319,7 @@ def main() -> int:
                         continue  # already handled this exact content
                     kind = classify(pkg)
                     if kind == "article":
-                        result = ingest_article(repo, name, pkg, log, now)
+                        result = ingest_article(repo, name, pkg, log, due_clock)
                     elif kind == "report":
                         result = ingest_report(repo, name, pkg, log, now)
                     else:
@@ -321,7 +333,7 @@ def main() -> int:
                 log[name] = result
                 summary.append(f"{result['status']:9s} {name}  {result.get('url') or result.get('reason','')}")
 
-    if json.dumps(log, sort_keys=True, ensure_ascii=False) != original_log:
+    if fingerprint(log) != original_log:
         log_doc = {
             "_readme": "藥時事引擎投遞箱結果。status: published=已進官網 repo 並觸發部署（90 秒後核 url 是否 200）；"
                        "pending=已驗證、等 publish_at；rejected=退件，reason 寫原因，改好重丟同名資料夾即可重驗。",
